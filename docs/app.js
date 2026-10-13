@@ -283,3 +283,5 @@ function readingProgress(){const height=document.documentElement.scrollHeight-in
 addEventListener('scroll',readingProgress,{passive:true});addEventListener('resize',readingProgress);
 
 el('previous').replaceChildren(icon('left'));el('next').replaceChildren(icon('right'));el('clear-search').replaceChildren(icon('close'));document.querySelector('.calendar-glyph').append(icon('calendar'));
+
+el('search-icon').append(icon('search'));

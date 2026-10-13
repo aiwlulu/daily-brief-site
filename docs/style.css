@@ -84,3 +84,5 @@ body[data-view="week"] .news .section-top{margin-bottom:12px}
   .edition-meta{font-size:12px}.lead .eyebrow{font-size:11px}
   .masthead nav{gap:8px}.masthead nav button{width:44px;height:44px}
 }
+
+.search-glyph{display:grid;place-items:center;flex:none;width:20px;height:20px;color:var(--muted)}.search-glyph .icon{width:20px;height:20px}.search input{flex:1;min-width:0;width:0}.search:focus-within .search-glyph{color:var(--ink)}
