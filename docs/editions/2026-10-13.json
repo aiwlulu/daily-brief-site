@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-13",
+  "throughline": {
+    "zh": "AI 投資正在改變晶片設計、記憶體價格與企業用人方式。電力、內容授權與資安治理，也逐漸成為決定 AI 商業效益的重要成本。",
+    "en": "AI investment is reshaping chips, memory prices and hiring. Power delivery, content licensing and security governance are becoming critical costs in the business of AI."
+  },
+  "stories": [
+    {
+      "id": 1, "category": "tech", "pick": true,
+      "title": {"zh": "微軟推出 Maia 300，將 AI 推論成本競爭推進到整套系統", "en": "Microsoft unveils Maia 300 for large-scale AI inference"},
+      "summary": {"zh": "微軟公布第三代自研 AI 晶片，計畫於 2027 年部署，強調能源效率與降低推論成本。", "en": "Microsoft announced its third-generation custom AI accelerator, with production deployments planned for 2027. Its efficiency claims still need independent comparisons."},
+      "metric": "40%", "metricLabel": {"zh": "每單位電力 token 效率優勢，微軟宣稱", "en": "More tokens per unit of power, Microsoft claim"},
+      "sections": [
+        {"label": {"zh": "發生什麼", "en": "What happened"}, "text": {"zh": "Maia 300 採台積電 N2P 製程製造運算晶粒，針對長上下文、連續推論與多步驟 Agent 工作負載設計。微軟希望降低成本，並增加供應選項。", "en": "Maia 300 uses TSMC N2P for compute chiplets and targets long-context reasoning and multi-step agent workloads. Microsoft aims to lower inference costs and diversify supply."}},
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "微軟可從模型、晶片、伺服器到資料中心共同設計系統。Copilot 與 GitHub Copilot 使用量增加時，降低每次推論成本可能改善毛利。NVIDIA 面臨更多替代選項，台積電則可能承接客製化晶片需求。", "en": "Designing models, chips, servers and data centers together could improve AI service margins. NVIDIA faces more alternatives, while TSMC may benefit from custom-chip demand."}},
+        {"label": {"zh": "數字怎麼看", "en": "Read the numbers"}, "text": {"zh": "微軟宣稱每百萬瓦 token 數量較主要 GPU 系統高約 40%；完整配置下，單機櫃吞吐量最高為 Maia 200 的 7 倍。兩者比較對象不同，不能當成所有 AI 工作負載的通用差距。", "en": "Microsoft claims about 40% more tokens per megawatt than leading GPU systems and up to seven times Maia 200 rack throughput. These are different comparisons, not a universal performance gap."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "2027 年實際部署量、晶片良率、每百萬 token 完整成本，以及可重現的獨立效能測試。", "en": "Actual deployments, yields, total cost per million tokens and reproducible independent benchmarks."}}
+      ],
+      "confidence": {"zh": "高：產品與計畫；中：效能優勢", "en": "High: product and plans. Medium: comparative performance."},
+      "sources": [{"name": "Microsoft · 官方公告", "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/", "type": "First-hand"}, {"name": "Reuters", "url": "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/", "type": "Second-hand"}]
+    },
+    {
+      "id": 2, "category": "tech", "pick": true,
+      "title": {"zh": "南亞科第三季毛利率達 85.7%，DRAM 漲價推升獲利", "en": "Nanya reports exceptionally high DRAM margins"},
+      "summary": {"zh": "DRAM 平均售價季增超過 60%，出貨量卻下滑。第三季成長主要來自價格，數據屬公司自結。", "en": "Average DRAM selling prices rose more than 60% while shipment volumes declined. The quarter's growth was primarily price-driven; figures are preliminary."},
+      "metric": "85.7%", "metricLabel": {"zh": "第三季毛利率", "en": "Q3 gross margin"},
+      "table": [{"zh": "營收", "en": "Revenue", "value": "NT$ 1,336.49 億"}, {"zh": "營收季增率", "en": "Revenue growth, QoQ", "value": "61.9%"}, {"zh": "營業利益率", "en": "Operating margin", "value": "80.0%"}, {"zh": "稅後淨利", "en": "Net income", "value": "NT$ 876.27 億"}, {"zh": "每股盈餘", "en": "EPS", "value": "NT$ 25.40"}],
+      "sections": [
+        {"label": {"zh": "發生什麼", "en": "What happened"}, "text": {"zh": "南亞科 10 月 12 日公布第三季自結財務數字。營收季增 61.9%，毛利率 85.7%，營業利益率 80.0%。銷售量季減約 4% 至 6%。", "en": "Nanya reported Q3 revenue of NT$133.649 billion, up 61.9% QoQ, and a gross margin of 85.7%. Sales volumes fell around 4% to 6%."}},
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "DRAM 工廠折舊與固定成本高，產能相對固定時，售價上升可能讓較高比例的新增收入轉為營業利益。部分長期合約 6 月底到期，7 月新價格開始生效。", "en": "High fixed costs mean rising prices can translate into large profit gains when capacity is relatively fixed. New prices took effect in July after some long-term contracts expired."}},
+        {"label": {"zh": "數字怎麼看", "en": "Read the numbers"}, "text": {"zh": "毛利率較第二季提高 6.2 個百分點。這份資料屬自結財務資訊，需再對照正式財報。單季高毛利不能證明價格會長期維持。", "en": "Gross margin rose 6.2 percentage points, not 6.2%. Preliminary figures should be checked against formal filings; one quarter does not establish a lasting pricing trend."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "第四季平均售價、庫存、同業擴產及 2027 年新廠裝機計畫。", "en": "Q4 selling prices, inventories, competitor capacity and 2027 equipment installation plans."}}
+      ],
+      "confidence": {"zh": "高：已公布自結數據", "en": "High: disclosed preliminary results."},
+      "sources": [{"name": "經濟日報 · 財報報導", "url": "https://money.udn.com/money/story/5612/9810361", "type": "Second-hand"}]
+    },
+    {
+      "id": 3, "category": "tech",
+      "title": {"zh": "HCLTech 與 Anthropic 合作，企業 Agent 導入朝專業服務發展", "en": "HCLTech partners with Anthropic on enterprise AI agents"},
+      "summary": {"zh": "成立專責事業單位與卓越中心，協助導入 Claude、Cowork 與 Claude Code，結合治理、資安及系統整合。", "en": "A dedicated business unit will help enterprises deploy Claude, Cowork and Claude Code with security, governance and integration services."},
+      "metric": "$3.7B", "metricLabel": {"zh": "季度營收，原日報數字", "en": "Quarterly revenue, supplied brief"},
+      "sections": [
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "Anthropic 提供模型與工具，HCLTech 透過導入、客製化、維護與顧問服務取得收入。企業導入涉及既有資料庫、身分權限及內部流程，整合商可能成為重要通路。", "en": "Anthropic supplies models and tools; HCLTech earns implementation, customization and support revenue. Databases, identity systems and internal processes create demand for integration expertise."}},
+        {"label": {"zh": "數字怎麼看", "en": "Read the numbers"}, "text": {"zh": "原日報列季度營收約 37 億美元，年增 2.2%；新簽訂單約 33 億美元，年增 27%；EBIT 利潤率 18.2%。進階 AI 業務年化收入約 8.76 億美元，不能當成當季已認列營收。原財報連結尚未找回。", "en": "The supplied brief lists revenue of about $3.7B, new bookings of $3.3B and an EBIT margin of 18.2%. Advanced AI annualized revenue of $876M is not quarterly recognized revenue. The original earnings link has not been recovered."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "試點轉正式合約的比例、服務毛利率及大規模部署情況。合作公告不足以證明專案普遍產生正向報酬。", "en": "Pilot-to-contract conversion, service margins and scaled deployments. A partnership announcement alone does not establish positive project returns."}}
+      ],
+      "confidence": {"zh": "高：合作；財報數字沿用原日報，待對照原公告", "en": "High: partnership. Earnings figures retained from supplied brief, original release pending."},
+      "sources": [{"name": "HCLTech · 合作公告", "url": "https://www.hcltech.com/en-us/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai", "type": "First-hand"}]
+    },
+    {
+      "id": 4, "category": "tech",
+      "title": {"zh": "IonQ 簽約收購 Elisity，將零信任資安納入量子安全業務", "en": "IonQ agrees to acquire cybersecurity firm Elisity"},
+      "summary": {"zh": "全股票交易最高 13 億美元，包含績效對價。預計第四季完成，仍須取得必要核准。", "en": "An all-stock transaction worth up to $1.3B includes contingent payments. Closing remains subject to approvals."},
+      "metric": "$1.3B", "metricLabel": {"zh": "最高交易價值", "en": "Maximum transaction value"},
+      "sections": [
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "Elisity 透過零信任網路分段限制不必要連線，減少攻擊擴散。IonQ 希望結合既有企業客戶與量子安全產品，增加交叉銷售。", "en": "Elisity's zero-trust segmentation restricts unnecessary connections and attack spread. IonQ aims to cross-sell quantum-security products to enterprise customers."}},
+        {"label": {"zh": "查證界線", "en": "Verification boundary"}, "text": {"zh": "最高價包含最多 1.5 億美元績效對價，並非確定支付金額。零信任分段與抗量子密碼處理不同問題，產品整合仍需時間。", "en": "The maximum value includes up to $150M in performance payments. Segmentation and post-quantum cryptography solve different problems; integration benefits remain uncertain."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "完成時間、客戶留存、整合進度及組合方案採用率。", "en": "Closing, customer retention, integration and adoption of bundled offerings."}}
+      ],
+      "confidence": {"zh": "高：已簽協議；中：整合效益", "en": "High: agreement. Medium: integration benefits."},
+      "sources": [{"name": "IonQ · 收購公告", "url": "https://www.ionq.com/news/ionq-to-acquire-elisity-to-accelerate-zero-trust-for-the-quantum-era", "type": "First-hand"}]
+    },
+    {
+      "id": 5, "category": "tech",
+      "title": {"zh": "出版商擴大 SPUR 聯盟，推動可追蹤的 AI 內容授權", "en": "Publishers expand coalition for AI content licensing"},
+      "summary": {"zh": "紐約時報、法新社及經濟學人加入聯盟，嘗試建立 AI 使用新聞內容的技術紀錄與授權標準。", "en": "The New York Times, AFP and The Economist joined SPUR to support common tracking and licensing standards for AI content use."},
+      "metric": "80+", "metricLabel": {"zh": "聯盟成員，涵蓋 20 多國", "en": "Members across more than 20 countries"},
+      "sections": [
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "AI 搜尋直接提供答案，可能減少原始網站流量，影響廣告與訂閱收入。內容使用紀錄有機會成為授權談判的依據。", "en": "AI answers can reduce visits to source websites, affecting advertising and subscriptions. Usage records could inform licensing negotiations."}},
+        {"label": {"zh": "查證界線", "en": "Verification boundary"}, "text": {"zh": "原日報列 Content Telemetry Standard 1.0 於 10 月 2 日公開，可記錄擷取、引用、呈現及使用。技術標準已發布，不代表 AI 平台普遍採用，也沒有統一費率。原標準網址尚未找回。", "en": "The supplied brief dates Content Telemetry Standard 1.0 to October 2. A published standard does not establish widespread platform adoption or uniform licensing rates. The original standard URL remains unavailable."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "AI 平台採用情況、使用紀錄能否獨立稽核，以及授權收入效果。", "en": "Platform adoption, independent auditing and licensing revenue."}}
+      ],
+      "confidence": {"zh": "高：聯盟；中：商業成效", "en": "High: coalition. Medium: commercial outcomes."},
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/legal/litigation/nyt-economist-among-publishers-joining-coalition-curb-unpaid-ai-use-2026-10-12/", "type": "Second-hand"}]
+    },
+    {
+      "id": 6, "category": "taiwan",
+      "title": {"zh": "台電指出電網是 AI 供電關鍵，投資規劃需加快", "en": "Taiwan Power Company highlights grid constraints"},
+      "summary": {"zh": "曾文生表示，電業規劃需從約十年縮短至五年甚至三年，同時確保電力能送達需求地點。", "en": "Taipower's chairman called for faster investment planning and transmission that can deliver power to industrial demand centers."},
+      "metric": "3 至 5", "metricLabel": {"zh": "年，建議的投資規劃尺度", "en": "Years, proposed planning horizon"},
+      "sections": [
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "半導體廠與資料中心用電集中。電網輸送能力不足，即使總發電量足夠，也可能影響區域擴建，增加備援電力、儲能與能源管理成本。", "en": "Semiconductor fabs and data centers concentrate demand. Transmission constraints can delay expansion even when generation is adequate, raising backup and storage costs."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "實際電網投資、工程時程、AI 用電預測，以及再生能源與儲能配置。", "en": "Grid investment, construction timelines, AI demand forecasts and renewable/storage integration."}}
+      ],
+      "confidence": {"zh": "高：公開發言", "en": "High: public remarks."},
+      "sources": [{"name": "中央社 CNA", "url": "https://www.cna.com.tw/news/afe/202610120189.aspx", "type": "Second-hand"}]
+    },
+    {
+      "id": 7, "category": "taiwan",
+      "title": {"zh": "Grab 收購 foodpanda 台灣案接近審查期限", "en": "Taiwan reviews Grab's proposed foodpanda acquisition"},
+      "summary": {"zh": "約 6 億美元收購案仍待公平會審查，期限延至 10 月 27 日。民團提出競爭與資料治理疑慮。", "en": "The proposed $600M acquisition remains under review until October 27. Competition and data governance concerns are contested."},
+      "metric": "10.27", "metricLabel": {"zh": "公平會審議期限", "en": "Review deadline"},
+      "sections": [
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "平台從抽成、配送費及廣告取得收入。擴大規模可能改善配送密度，也可能降低競爭。Uber 持有 Grab 約 13% 股份、3.7% 表決權，這項連結需納入競爭評估。", "en": "Scale may improve delivery density but reduce competition. Uber's roughly 13% ownership and 3.7% voting rights in Grab complicate the assessment."}},
+        {"label": {"zh": "查證界線", "en": "Verification boundary"}, "text": {"zh": "公平會強調依市調與證據評估，沒有預設立場。民團資料安全疑慮屬待審查主張，不能直接認定已外洩或違法。", "en": "The commission says it will assess evidence without a predetermined outcome. Allegations about data risks do not establish a leak or violation."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "審查結果、附加條件、餐廳抽成、外送員報酬與資料治理要求。", "en": "The decision, conditions, restaurant commissions, courier pay and data-governance requirements."}}
+      ],
+      "confidence": {"zh": "高：申請與審查進度", "en": "High: application and review status."},
+      "sources": [{"name": "中央社 CNA · 10 月 12 日", "url": "https://www.cna.com.tw/news/afe/202610120268.aspx", "type": "Second-hand"}, {"name": "中央社 CNA · 延長審議說明", "url": "https://www.cna.com.tw/news/afe/202607220147.aspx", "type": "Second-hand"}]
+    },
+    {
+      "id": 8, "category": "taiwan",
+      "title": {"zh": "中國制裁巴拉圭與貝里斯部長，台灣提出抗議", "en": "China sanctions officials from two Taiwan diplomatic allies"},
+      "summary": {"zh": "兩名部長遭財產凍結、交易與入境限制。實際經濟影響仍未明。", "en": "China imposed sanctions on ministers from Paraguay and Belize. Taiwan condemned the measures; their economic impact remains unclear."},
+      "metric": "2", "metricLabel": {"zh": "名第三國政府官員", "en": "Foreign government officials"},
+      "sections": [
+        {"label": {"zh": "發生什麼", "en": "What happened"}, "text": {"zh": "10 月 12 日制裁對象為巴拉圭資訊通信技術部長 Gustavo Villate，以及貝里斯外交部長 Francis Fonseca。措施包含凍結中國境內財產、限制交易與禁止入境中國、香港及澳門。", "en": "The October 12 measures target Gustavo Villate of Paraguay and Francis Fonseca of Belize, including asset freezes, transaction restrictions and entry bans."}},
+        {"label": {"zh": "影響與限制", "en": "Impact and limits"}, "text": {"zh": "兩國皆為台灣邦交國，制裁可能增加外交往來成本。實際凍結規模與經濟影響未確認，需觀察兩國回應及具體合作計畫。", "en": "Both countries maintain diplomatic ties with Taiwan. The measures could raise diplomatic costs, but actual asset freezes and economic effects are unconfirmed."}}
+      ],
+      "confidence": {"zh": "高：制裁公布", "en": "High: announcement."},
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/world/china/china-sanctions-paraguay-belize-ministers-over-taiwan-ties-2026-10-12/", "type": "Second-hand"}]
+    },
+    {
+      "id": 9, "category": "taiwan",
+      "title": {"zh": "台灣監控中國沿岸實彈演習，區域未直接環繞台灣", "en": "Taiwan monitors Chinese coastal live-fire drills"},
+      "summary": {"zh": "顧立雄確認軍方正在監控多處演習。尚無已確認證據將演習與台灣國慶演說建立因果關係。", "en": "Taiwan is monitoring coastal Chinese drills. Announced areas do not directly surround Taiwan, and a causal link to the National Day address is unconfirmed."},
+      "metric": "1", "metricLabel": {"zh": "週，原日報所述演習期間", "en": "Week, reported exercise period"},
+      "sections": [
+        {"label": {"zh": "發生什麼", "en": "What happened"}, "text": {"zh": "中國海事主管機關公告多個禁航區，最近一處位於浙江沿海。區域軍事活動可能影響航運與民航風險管理。", "en": "Maritime authorities announced multiple exclusion zones, including one off Zhejiang. Regional military activity matters for shipping and aviation risk management."}},
+        {"label": {"zh": "查證界線", "en": "Verification boundary"}, "text": {"zh": "公告區域沒有直接位於台灣周邊。中國尚未正式連結本次演習與國慶演說，政治動機仍需證據。觀察禁航區延長與新增交通限制。", "en": "The areas do not directly surround Taiwan. China has not formally linked these drills to the speech. Watch extensions and new civilian traffic restrictions."}}
+      ],
+      "confidence": {"zh": "高：演習資訊；中：政治動機", "en": "High: exercise information. Medium: political motivation."},
+      "sources": [{"name": "Reuters", "url": "https://www.reuters.com/world/china/taiwan-says-it-is-closely-monitoring-series-chinese-live-fire-drills-2026-10-12/", "type": "Second-hand"}]
+    },
+    {
+      "id": 10, "category": "global", "pick": true,
+      "title": {"zh": "IMF 研究：AI 高適用性職種招聘需求下降約 10%", "en": "IMF research finds reduced hiring in some AI-exposed occupations"},
+      "summary": {"zh": "研究分析約 7 億筆招聘資料，AI 技能需求增加。職缺下降不能直接解讀為同等比例失業。", "en": "A study of about 700M job postings found lower hiring in highly AI-applicable occupations and rising demand for AI skills."},
+      "metric": "−10%", "metricLabel": {"zh": "特定職種招聘需求，研究所述", "en": "Hiring demand in selected occupations, reported finding"},
+      "sections": [
+        {"label": {"zh": "發生什麼", "en": "What happened"}, "text": {"zh": "IMF 亞太部經濟學家 Divya Kirti 10 月 12 日在曼谷發表研究。AI 較能發揮作用的職種，招聘需求下降約 10%；對 AI 技能需求約為其他職種的兩倍。", "en": "IMF economist Divya Kirti presented the research in Bangkok on October 12. Hiring demand was about 10% lower in selected occupations, while AI-skill demand was roughly twice that in others."}},
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "企業可能減少部分重複工作的人力，同時增加流程設計、資料整合與 AI 工具技能需求。導入效果需同時衡量總成本、生產力及服務品質。", "en": "Companies may need less routine labor and more process design, data integration and AI skills. Evaluation should consider total costs, productivity and service quality."}},
+        {"label": {"zh": "查證界線", "en": "Verification boundary"}, "text": {"zh": "10% 指招聘需求變化，沒有證明該職種已有 10% 員工失業，也沒有證明變化全由 AI 造成。目前尚未發現明確薪資影響；完整研究方法仍待確認。", "en": "A 10% hiring decline is not a 10% unemployment increase and does not establish that AI caused every change. Clear wage effects have not been found; full methodology is still needed."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "研究方法、各國差異、實際就業人數與長期薪資資料。", "en": "Methods, country differences, employment levels and long-term wages."}}
+      ],
+      "confidence": {"zh": "中：待完整研究方法驗證", "en": "Medium: full methodology pending."},
+      "sources": [{"name": "中央社 CNA · 現場報導", "url": "https://www.cna.com.tw/news/afe/202610120243.aspx", "type": "Second-hand"}]
+    },
+    {
+      "id": 11, "category": "global",
+      "title": {"zh": "沙國規劃提高管線輸油能力，增加出口路徑", "en": "Saudi Arabia plans major pipeline export expansion"},
+      "summary": {"zh": "長期目標為每日最多 1,000 萬桶。短期考慮將天然氣管線改為輸油，工程仍待完成。", "en": "Saudi Arabia is considering pipeline crude-export capacity of up to 10M barrels per day, including temporary conversion of a gas pipeline."},
+      "metric": "1,000萬", "metricLabel": {"zh": "桶／日，長期規劃目標", "en": "Barrels/day, long-term target"},
+      "sections": [
+        {"label": {"zh": "發生什麼", "en": "What happened"}, "text": {"zh": "能源部長 10 月 12 日表示，短期方案可能於七至八週內增加每日最多 120 萬桶，進一步擴建預計需兩至三年。", "en": "The energy minister described a temporary conversion that could add up to 1.2M barrels/day in seven to eight weeks, with further expansion over two to three years."}},
+        {"label": {"zh": "商業邏輯", "en": "Business logic"}, "text": {"zh": "出口能力也受管線、港口、油輪及保險限制。增加陸路能力可改善物流彈性，但須負擔改造、維護及恢復天然氣用途的成本。", "en": "Exports depend on pipelines, ports, tankers and insurance as well as production. Alternative routes improve flexibility but add conversion, maintenance and restoration costs."}},
+        {"label": {"zh": "數字怎麼看", "en": "Read the numbers"}, "text": {"zh": "每日 1,000 萬桶是目標，並非現在能力；短期 120 萬桶亦需完成工程。能力提升不等同實際出口量增加。", "en": "The 10M figure is a target, not current capacity; the short-term increase also requires engineering work. Capacity is not actual export volume."}},
+        {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "改造時程、每日實際輸送量、紅海港口裝船能力與設施安全。", "en": "Engineering progress, actual throughput, Red Sea loading capacity and infrastructure security."}}
+      ],
+      "confidence": {"zh": "高：規劃宣布；中：工程時程", "en": "High: announcement. Medium: delivery timeline."},
+      "sources": [{"name": "EnergyNow · Reuters 轉載", "url": "https://energynow.ca/2026/10/saudi-arabia-eyes-raising-its-pipeline-oil-export-capacity-to-10-million-bpd-energy-minister-says/", "type": "Second-hand"}]
+    }
+  ],
+  "deep": [
+    {"id": 1, "question": {"zh": "雲端業者為何自行設計 AI 晶片？", "en": "Why are cloud providers designing AI chips?"}, "text": {"zh": "把推論成本拆到晶片、記憶體頻寬、互連與電力效率。", "en": "Break inference costs down into chips, bandwidth, interconnects and power."}},
+    {"id": 2, "question": {"zh": "價格如何改變記憶體產業獲利？", "en": "How do prices reshape memory profits?"}, "text": {"zh": "營收增加、出貨下滑，搭配毛利率觀察價格的作用。", "en": "Read revenue growth alongside falling volumes and rising margins."}},
+    {"id": 10, "question": {"zh": "AI 對招聘的實際影響有多大？", "en": "What is AI's observed effect on hiring?"}, "text": {"zh": "分辨職缺、技能需求、就業與薪資，避免混用數字。", "en": "Separate job postings, skill demand, employment and wages."}}
+  ],
+  "context": [
+    {"title": {"zh": "自研晶片的結構性競爭", "en": "Structural competition in custom chips"}, "text": {"zh": "雲端業者希望掌握成本與產品設計。能否改變 NVIDIA 地位，仍取決於部署量、軟體相容性與完整持有成本。", "en": "Cloud providers want greater control of costs and design. Market impact depends on deployment scale, software compatibility and total ownership costs."}},
+    {"title": {"zh": "DRAM 的循環與結構因素", "en": "Cyclical and structural forces in DRAM"}, "text": {"zh": "南亞科表現顯示供需緊張。需比較三星、SK 海力士與美光的產能、庫存和合約，才能判斷價格持續性。", "en": "Nanya's results suggest tight supply. Compare Samsung, SK hynix and Micron capacity, inventory and contracts before judging persistence."}},
+    {"title": {"zh": "Agent 導入帶來服務需求", "en": "Services around enterprise agents"}, "text": {"zh": "模型供應商需要系統整合與治理能力。合作公告提供方向，實際採用與投資報酬仍需營運數據。", "en": "Models require integration and governance. Partnerships show intent; adoption and returns require operating evidence."}}
+  ],
+  "memo": {
+    "title": {"zh": "微軟 Maia 300 與 AI 推論成本的競爭", "en": "Maia 300 and competition on inference costs"},
+    "items": [
+      {"title": {"zh": "01 / 發生什麼", "en": "01 / What happened"}, "text": {"zh": "第三代自研晶片將於 2027 年部署，面向長上下文與多步驟 Agent。", "en": "Third-generation custom silicon targets 2027 deployment and complex agent workloads."}},
+      {"title": {"zh": "02 / 為什麼現在", "en": "02 / Why now"}, "text": {"zh": "AI 使用量與複雜度增加，推論成本成為持續支出。多年研發也反映先前的長期預期。", "en": "Growing use and complexity make inference a recurring expense; long development cycles reflect earlier expectations."}},
+      {"title": {"zh": "03 / 賺錢方式", "en": "03 / Business model"}, "text": {"zh": "降成本可能改善雲端與 AI 產品毛利，但需扣除研發、製造、機房、電力及維護。", "en": "Lower costs could improve margins after accounting for R&D, manufacturing, data centers, power and maintenance."}},
+      {"title": {"zh": "04 / 競爭者", "en": "04 / Competitors"}, "text": {"zh": "NVIDIA、AMD 與其他雲端自研晶片競爭。台積電位於上游，可能同時服務多個陣營。", "en": "Competitors include NVIDIA, AMD and cloud-designed chips. TSMC can manufacture for multiple camps."}},
+      {"title": {"zh": "05 / 待查指標", "en": "05 / Open questions"}, "text": {"zh": "實際部署量、每百萬 token 完整成本，以及能支援多少正式工作負載。", "en": "Deployment volumes, total cost per million tokens and the share of production workloads supported."}},
+      {"title": {"zh": "判斷信心：中", "en": "Confidence: medium"}, "text": {"zh": "規格與計畫已有資料，長期成本優勢仍待營運驗證。", "en": "Specifications and plans are disclosed; long-term cost advantages await operating validation."}}
+    ]
+  },
+  "lower": [
+    {"title": {"zh": "台積電第三季獲利預測", "en": "TSMC Q3 earnings forecasts"}, "text": {"zh": "正式財報尚未公布，優先採用已揭露的實際數據。", "en": "Formal results are not yet available; disclosed results take priority."}},
+    {"title": {"zh": "騰訊擬發行約 45 億美元債券", "en": "Tencent's reported $4.5B bond plan"}, "text": {"zh": "最終規模與條件可能改變，不能當成已完成融資。", "en": "Size and terms may change; the financing should not be treated as completed."}},
+    {"title": {"zh": "IMF：AI 投資支撐全球成長", "en": "IMF on AI investment and global growth"}, "text": {"zh": "部分資料屬估計與情境分析，本期優先選有具體招聘資料的研究。", "en": "Some numbers are estimates or scenarios; this edition prioritizes concrete hiring data."}}
+  ]
+}
