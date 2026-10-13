@@ -1,0 +1,505 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-13T06:43:30.622946+00:00",
+  "archiveType": "backfill",
+  "throughline": {
+    "zh": "AI 供應鏈升級、專利調查與能源安全，讓企業同時面對技術、法律及營運限制。",
+    "en": "AI upgrades, patent proceedings and energy insecurity expose distinct technology, legal and operating constraints."
+  },
+  "verificationNote": {
+    "zh": "10/12 回溯補編：依先前日報主題重建，採用 10/12 台灣時間 08:00 前已發布的報導主題；非完整原文復刻。8 則已重新檢索來源。USITC 立案不代表侵權成立，交易與停火消息未定。部分來源其後更新，無法保證逐字恢復當時版本。",
+    "en": "Retrospective October 12 edition reconstructed from prior topics, not a verbatim restoration. Eight stories have recovered sources published before 08:00 Taipei. Some source pages later changed; original versions cannot be fully restored. Investigations, deal talks and ceasefire claims remain unresolved."
+  },
+  "stories": [
+    {
+      "id": 1,
+      "category": "taiwan",
+      "pick": true,
+      "title": {
+        "zh": "USITC 啟動垂直供電系統調查，台灣供應鏈列入被訴方",
+        "en": "USITC opens a vertical power-delivery investigation"
+      },
+      "summary": {
+        "zh": "USITC 於 10/9 依 Vicor 申訴啟動 337-TA-1526，涉及垂直供電系統及含有相關元件的運算系統。台達電等公司列為被訴方。",
+        "en": "On October 9, the USITC opened case 337-TA-1526 following a Vicor complaint about vertical power-delivery and computing systems, naming Delta and other respondents."
+      },
+      "metric": "337",
+      "metricLabel": {
+        "zh": "美國關稅法第 337 條調查",
+        "en": "Section 337 investigation"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：若最終認定侵權並核發排除命令，可能影響輸美產品。立案本身尚未決定侵權或進口限制。",
+            "en": "Analysis: an eventual exclusion order could affect US imports. Opening an investigation does not establish infringement."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "Vicor 要求有限排除命令與停止及禁止命令。需追蹤審理與裁決，不能把申訴當成定案。",
+            "en": "Vicor requests exclusion and cease-and-desist orders; track proceedings and the eventual ruling."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "高：官方立案；未定：侵權結果",
+        "en": "High: official institution. Unresolved: infringement."
+      },
+      "sources": [
+        {
+          "name": "USITC · 官方公告",
+          "url": "https://www.usitc.gov/press_room/news_release/2026/er1009_69342.htm",
+          "type": "First-hand"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "pick": true,
+      "title": {
+        "zh": "TPCA 展將聚焦先進封裝與玻璃核心，量產門檻仍待突破",
+        "en": "TPCA preview highlights packaging and glass-core challenges"
+      },
+      "summary": {
+        "zh": "10/11 中央社報導，10/20 至 22 日電路板展將關注先進封裝與玻璃基板。玻璃核心仍在技術驗證及供應鏈建構階段。",
+        "en": "CNA’s October 11 preview of the October 20–22 PCB show highlights advanced packaging and glass cores, which remain under validation."
+      },
+      "metric": "10/20",
+      "metricLabel": {
+        "zh": "展覽預定開始日期",
+        "en": "Scheduled opening date"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：大型 AI 封裝把要求傳到載板、材料與設備，玻璃核心的機會需與製程可靠度一起評估。",
+            "en": "Analysis: larger AI packages raise demands on substrates, materials and equipment; reliability matters alongside potential benefits."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "仍有脆性、通孔金屬化與可靠度挑戰。官方頁面與新聞的品牌及攤位數不同，本期不採用該規模數字。",
+            "en": "Challenges include brittleness, via metallization and reliability. Conflicting exhibitor counts are omitted."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "高：展期；中：技術發展判斷",
+        "en": "High: dates. Medium: technology outlook."
+      },
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202610110030.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": "TPCA · 展覽公告",
+          "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394",
+          "type": "First-hand"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "利雅德機場遇襲，航空營運受到干擾",
+        "en": "Riyadh airport attack disrupts aviation"
+      },
+      "summary": {
+        "zh": "Reuters 10/10 至 11 日報導，利雅德機場遇襲至少 12 人死亡、逾 300 人受傷，航班改降、機場營運暫停。",
+        "en": "Reuters reported at least 12 deaths and over 300 injuries after the airport attack, with flights diverted and operations suspended."
+      },
+      "metric": "12+",
+      "metricLabel": {
+        "zh": "當時報導的死亡人數，可能修訂",
+        "en": "Reported deaths at the time; subject to revision"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：民航樞紐中斷可能增加航線調整及運輸成本，不能直接等同石油供應已中斷。",
+            "en": "Analysis: hub disruptions may raise routing costs, without proving an oil-supply outage."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "人數沿用當時報導。攻擊責任與軍方說法須區分，後續調查仍待追蹤。",
+            "en": "Counts reflect contemporary reporting. Attribution and military claims require further scrutiny."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "高：已報導中斷；中：成本影響",
+        "en": "High: reported disruption. Medium: cost impact."
+      },
+      "sources": [
+        {
+          "name": "Reuters · Investing.com 轉載",
+          "url": "https://www.investing.com/news/world-news/loud-blast-at-riyadh-airport-as-travellers-evacuated-and-airlines-cancel-flights-4942124",
+          "type": "Second-hand"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "川普宣布俄烏能源停火，雙方落實情況仍不明",
+        "en": "Energy-ceasefire announcement leaves implementation unclear"
+      },
+      "summary": {
+        "zh": "AP 10/11 報導川普宣布俄烏能源停火，但未提供細節；烏方仍通報能源設施遭攻擊，俄方未立即評論。",
+        "en": "AP reported Trump’s announcement without details, while Kyiv reported continued attacks and Moscow did not immediately comment."
+      },
+      "metric": "待確認",
+      "metricLabel": {
+        "zh": "宣布與履行須分開判讀",
+        "en": "Announcement and compliance are separate"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：能源設施安全可能影響供應預期，但政治宣布不能當作實際供應增加。",
+            "en": "Analysis: infrastructure security may affect supply expectations; an announcement is not restored supply."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "需核對正式條款、雙方確認與可觀察的履行情況。這裡保留 10/11 報導的狀態。",
+            "en": "Check terms, confirmation by both sides and observable compliance. This entry preserves the October 11 status."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "高：宣布；低：履行是否成立",
+        "en": "High: announcement. Low: established compliance."
+      },
+      "sources": [
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68",
+          "type": "Second-hand"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "世界銀行與 30 至 40 國討論危機援助",
+        "en": "World Bank discusses crisis aid with 30–40 countries"
+      },
+      "summary": {
+        "zh": "世銀行長 Banga 在 10/11 Reuters 訪問表示，正與 30 至 40 國討論潛在危機援助，因應能源衝擊與價格上升。",
+        "en": "Banga told Reuters on October 11 that 30–40 countries were discussing possible crisis aid amid energy shocks and rising prices."
+      },
+      "metric": "30–40",
+      "metricLabel": {
+        "zh": "與世銀討論的國家數，行長說法",
+        "en": "Countries in dialogue, according to Banga"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：燃料成本會傳到財政與融資壓力；討論援助尚不代表核准或撥款。",
+            "en": "Analysis: fuel costs can strain budgets and financing; discussions do not mean approved or disbursed aid."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "需追蹤援助條件與實際撥款。本期未取得對應世銀一手公告，以訪問報導為依據。",
+            "en": "Track conditions and disbursements. No matching primary release was recovered; this relies on the interview."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中高：具名訪問；未定：援助結果",
+        "en": "Medium-high: named interview. Unresolved: aid outcome."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/finance/world-bank-talks-with-dozens-countries-about-crisis-aid-banga-says-2026-10-11/",
+          "type": "Second-hand"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "吉布地移民船翻覆，IOM 通報至少 139 人死亡",
+        "en": "IOM reports at least 139 deaths in Djibouti shipwreck"
+      },
+      "summary": {
+        "zh": "AP 10/11 引述 IOM，逾 300 名移民搭乘的船隻翻覆，至少 139 人死亡，包括兒童。",
+        "en": "AP cited IOM on October 11: at least 139 people, including children, died when a boat carrying over 300 migrants capsized."
+      },
+      "metric": "139+",
+      "metricLabel": {
+        "zh": "IOM 當時確認死亡數",
+        "en": "IOM-confirmed deaths at the time"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "這是移民安全與救援事件。人道援助需求應與地區商業及能源議題分開呈現。",
+            "en": "This is a migration-safety and rescue emergency; humanitarian needs deserve their own treatment."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "IOM 說死亡數只涵蓋官方已核實者，可能再增加；幸存者需要醫療及心理支持。",
+            "en": "IOM said the count included officially verified deaths and could rise; survivors needed medical and psychological support."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "高：IOM 具名說法；未定：最終人數",
+        "en": "High: named IOM attribution. Unresolved: final count."
+      },
+      "sources": [
+        {
+          "name": "AP · 引述 IOM",
+          "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95",
+          "type": "Second-hand"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "Yandex 稱第三座資料中心受襲停機，部分服務不可用",
+        "en": "Yandex reports another data-center shutdown after attack"
+      },
+      "summary": {
+        "zh": "Reuters 10/11 引述 Yandex，公司 Vladimir 地區資料中心因無人機攻擊停機，部分服務無法使用。報導稱這是數日內第三座受影響大型資料中心。",
+        "en": "Reuters cited Yandex on October 11: its Vladimir-region facility shut down after a drone attack, with some services unavailable, the third major facility affected in days."
+      },
+      "metric": "3",
+      "metricLabel": {
+        "zh": "數日內受影響大型資料中心，報導統計",
+        "en": "Major facilities affected in days, per reporting"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：資料中心地理集中與備援安排是服務連續性的風險，不能直接推論所有 AI 算力已消失。",
+            "en": "Analysis: geographic concentration and redundancy matter for continuity; the report does not establish a total loss of AI capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "停機依公司說法，完整容量、影響範圍與恢復時間尚未取得。",
+            "en": "Shutdown is company-reported; capacity, full impact and recovery time remain unverified."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中高：公司說法經報導；未定：完整影響",
+        "en": "Medium-high: reported company statement. Unresolved: full impact."
+      },
+      "sources": [
+        {
+          "name": "Reuters · StreetInsider 轉載",
+          "url": "https://www.streetinsider.com/Reuters/Russias%2BYandex%2Bsays%2Bdata%2Bcentre%2Bin%2BVladimir%2Barea%2Bshut%2Bdown%2Bafter%2Bdrone%2Battack/27172786.html?classic=1",
+          "type": "Second-hand"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "媒體稱 Amazon 洽購 Decart，交易尚未宣布",
+        "en": "Reported Amazon–Decart talks remain unconfirmed"
+      },
+      "summary": {
+        "zh": "Reuters 10/11 轉述 WSJ 的知情人士報導，Amazon 正洽購 Decart，可能估值約 70 億美元。這是交易洽談消息，尚非正式成交。",
+        "en": "Reuters relayed a WSJ report of talks for Amazon to buy Decart at roughly $7 billion; no completed deal was announced."
+      },
+      "metric": "$7B",
+      "metricLabel": {
+        "zh": "媒體報導的可能交易估值",
+        "en": "Reported potential valuation"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "脈絡與分析",
+            "en": "Context and analysis"
+          },
+          "text": {
+            "zh": "分析：若交易成真，可能牽動 AI 軟體整合；僅憑洽談消息，無法認定收購動機與收益。",
+            "en": "Analysis: a deal could affect AI software integration, but talks alone do not establish motives or benefits."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證界線與下一步",
+            "en": "Limits and next checkpoint"
+          },
+          "text": {
+            "zh": "依匿名消息報導，未有雙方正式交易公告；條件、完成時間與是否成交皆待確認。",
+            "en": "Anonymous-source reporting; terms, timing and completion remain unconfirmed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中：媒體洽談消息；未定：成交",
+        "en": "Medium: reported talks. Unresolved: completion."
+      },
+      "sources": [
+        {
+          "name": "Reuters · 轉述 WSJ",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
+          "type": "Second-hand"
+        }
+      ]
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "供電專利如何影響 AI 供應鏈？",
+        "en": "How could power patents affect the AI supply chain?"
+      },
+      "text": {
+        "zh": "先看官方程序，再追蹤可能的產品與進口限制。",
+        "en": "Start with the official proceeding and potential product restrictions."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "玻璃核心離量產還有多遠？",
+        "en": "How far are glass cores from production?"
+      },
+      "text": {
+        "zh": "把材料優勢與可靠度、製程驗證分開閱讀。",
+        "en": "Separate material potential from process and reliability validation."
+      }
+    },
+    {
+      "id": 8,
+      "question": {
+        "zh": "洽談估值能代表收購價值嗎？",
+        "en": "Does a reported valuation establish acquisition value?"
+      },
+      "text": {
+        "zh": "區分媒體消息、正式交易與尚待證明的綜效。",
+        "en": "Distinguish reporting, a signed deal and unproven synergies."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "供應鏈的三種限制",
+        "en": "Three distinct supply-chain constraints"
+      },
+      "text": {
+        "zh": "分析：專利程序、材料驗證與營運安全分屬不同風險，應使用裁決、良率與可用率等不同證據評估。",
+        "en": "Analysis: legal proceedings, material validation and operational safety require different evidence, such as rulings, yields and uptime."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "AI 系統風險：技術以外的限制",
+      "en": "AI-system risk beyond technology"
+    },
+    "items": [
+      {
+        "title": {
+          "zh": "觀察方式",
+          "en": "What to observe"
+        },
+        "text": {
+          "zh": "追蹤 USITC 程序、封裝驗證與服務恢復；目前證據不足以量化共同財務影響。",
+          "en": "Track proceedings, packaging validation and service restoration; evidence is insufficient to quantify a combined financial impact."
+        }
+      }
+    ]
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "尚未恢復的兩則原日報主題",
+        "en": "Two prior topics not restored"
+      },
+      "text": {
+        "zh": "美軍攻擊商船與荷莫茲談判的完整當時來源仍未核實，本期不納入新聞正文，也不補造細節。",
+        "en": "The contemporary sources for the commercial-ship and Hormuz-talks topics were not fully verified; no details are reconstructed."
+      }
+    }
+  ]
+}
