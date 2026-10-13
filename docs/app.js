@@ -1,4 +1,6 @@
 /* Content is rendered with textContent. News strings never become HTML. */
+import {icon} from './icons.mjs';
+import {mountCalendar} from './calendar.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
 let data, editions = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
@@ -25,6 +27,9 @@ function renderPeriod() {
   el('view-week').setAttribute('aria-pressed',String(period === 'week'));
   el('date-label').textContent = zh ? '日期' : 'Date';
   el('date').value = selectedDate;
+  el('date-display').textContent = new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(selectedDate+'T12:00:00Z'));
+  el('calendar-open').setAttribute('aria-label',(zh?'選擇日期：':'Choose date: ')+selectedDate);
+  el('publication-status').textContent = data.archiveType==='backfill' ? (zh?'回溯補編 · '+data.date:'RETROSPECTIVE EDITION · '+data.date) : data.generatedAt ? (zh?'更新於 ':'UPDATED ')+new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Taipei'}).format(new Date(data.generatedAt)) : (zh?'刊期存檔 · '+data.date:'EDITION ARCHIVE · '+data.date);
   el('today').textContent = zh ? '回到今天' : 'Today';
   el('latest').textContent = zh ? '閱讀最新一期' : 'Latest edition';
   el('latest').hidden = selectedEditions.length > 0;
@@ -43,7 +48,11 @@ function renderPeriod() {
     el('memo-title').textContent = (zh?'最新刊期分析備忘錄 · ':'Latest analysis memo · ')+data.date;
     el('lower-title').textContent = (zh?'最新刊期低權重標題 · ':'Latest lower-priority headlines · ')+data.date;
   }
-  document.querySelectorAll('.deep,.context,.memo,.lower,.sources,.lead').forEach(n=>n.hidden=!selectedEditions.length);
+  document.querySelectorAll('.sources,.lead').forEach(n=>n.hidden=!selectedEditions.length);
+  document.querySelector('.deep').hidden=!data.deep.length;
+  document.querySelector('.context').hidden=!data.context.length;
+  document.querySelector('.memo').hidden=!data.memo.items.length;
+  document.querySelector('.lower').hidden=!data.lower.length;
 }
 
 const openStories = new Set();
@@ -59,7 +68,8 @@ function node(tag, text, className) {
   return n;
 }
 function link(source) {
-  const a = node('a', source.name+' ↗');
+  const a = node('a', source.name);
+  a.append(icon('external'));
   a.href = source.url;
   a.target = '_blank';
   a.rel = 'noopener noreferrer';
@@ -75,6 +85,8 @@ function renderStories() {
   el('count').textContent = words[lang].count(matches.length);
   el('empty').textContent = words[lang].empty;
   el('empty').hidden = matches.length > 0;
+  el('clear-search').hidden=!query;
+  el('clear-search').setAttribute('aria-label',lang==='zh'?'清除搜尋':'Clear search');
   for (const s of matches) {
     const article = node('article', undefined, 'story');
     article.id = 'story-'+s.id;
@@ -87,11 +99,11 @@ function renderStories() {
     const details = node('details');
     details.open = openStories.has(s.id);
     details.addEventListener('toggle', () => {if(details.isConnected) details.open ? openStories.add(s.id) : openStories.delete(s.id);});
-    details.append(node('summary', words[lang].detail));
+    const toggle=node('summary',words[lang].detail);toggle.append(icon('plus'));details.append(toggle);
     const body = node('div', undefined, 'story-body');
     if(s.table){
       const table = node('table');
-      const caption = node('caption',lang === 'zh' ? '2026 年第三季自結財務數據' : 'Q3 2026 preliminary results');
+      const caption = node('caption',lang === 'zh' ? '財務數據' : 'Financial data');
       table.append(caption);
       const tbody = node('tbody');
       s.table.forEach(row => {
@@ -114,7 +126,7 @@ function renderStories() {
     s.sources.forEach(source=>sources.append(link(source)));
     body.append(sources); details.append(body); content.append(details);
     const metric = node('aside', undefined, 'metric');
-    const metricText = s.sourceId === 11 && lang === 'en' ? '10M' : s.metric;
+    const metricText = s.editionDate === '2026-10-13' && s.sourceId === 11 && lang === 'en' ? '10M' : s.metric;
     metric.append(node('strong',metricText),node('small',t(s.metricLabel)));
     article.append(content,metric); list.append(article);
   }
@@ -132,21 +144,24 @@ function render() {
   document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
   const copy = lang === 'zh' ? {
     'brand-sub':'商業與科技日報',print:'列印',intro:'從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。',
-    start:'閱讀本期 ↘','story-total':'11 則重點新聞','deep-title':'本期深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞',
-    'search-label':'搜尋','context-title':'產業脈絡','memo-title':'一頁分析備忘錄','lower-title':'降低權重的標題','sources-title':'來源與查證','back-top':'回到頁首 ↑',
+    start:'閱讀本期','story-total':'11 則重點新聞','deep-title':'本期深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞',
+    'search-label':'搜尋','context-title':'產業脈絡','memo-title':'一頁分析備忘錄','lower-title':'降低權重的標題','sources-title':'來源與查證','back-top':'回到頁首',
     'source-note':'本期內容整理自提供的 2026 年 10 月 13 日日報，部分來源網址經重新檢索。原始財報、SPUR 技術標準及部分低權重新聞連結尚未找回，文中已註明。信心程度沿用原日報，並不表示本頁已完成全面獨立查證。'
   } : {
     'brand-sub':'BUSINESS & TECHNOLOGY',print:'Print',intro:'From AI chips to energy supply. Read the events, the economics and the changes to watch.',
-    start:'Read this edition ↘','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories',
-    'search-label':'Search','context-title':'Industry context','memo-title':'One-page analysis memo','lower-title':'Lower-priority headlines','sources-title':'Sources & verification','back-top':'Back to top ↑',
+    start:'Read this edition','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories',
+    'search-label':'Search','context-title':'Industry context','memo-title':'One-page analysis memo','lower-title':'Lower-priority headlines','sources-title':'Sources & verification','back-top':'Back to top',
     'source-note':'Adapted from the supplied October 13, 2026 brief. Some source URLs were recovered through search. Original earnings, SPUR standard and lower-priority article links remain incomplete, as noted. Confidence labels reflect the brief and do not establish a full independent fact-check.'
   };
   Object.entries(copy).forEach(([id,text])=>el(id).textContent=text);
+  el('start').append(icon('down'));el('back-top').append(icon('up'));
   el('headline').replaceChildren(node('span',lang === 'zh'?'看見新聞背後的':'Read the news.'),node('br'),node('em',lang === 'zh'?'商業邏輯。':'See the economics.'));
   el('lang').textContent = lang === 'zh' ? 'English' : '繁體中文';
   el('lang').setAttribute('aria-label',lang === 'zh' ? 'Switch to English' : '切換為繁體中文');
   el('search').placeholder = lang === 'zh' ? '公司、事件或關鍵字' : 'Company, event or keyword';
   el('throughline').textContent = t(data.throughline);
+  const notes=selectedEditions.map(e=>e.date+' · '+(e.verificationNote?t(e.verificationNote):(lang==='zh'?'此刊期沿用提供的日報，部分原始來源仍待核對；各則限制見分析內容。':'Adapted from the supplied brief; some original sources remain incomplete. See story-specific caveats.')));
+  el('source-note').textContent=notes.join('\n\n');
   el('filters').replaceChildren();
   ['all','tech','taiwan','global'].forEach(key=>{
     const button=node('button',words[lang][key]); button.type='button';button.dataset.filter=key;
@@ -183,7 +198,7 @@ let beforePrint = [];
 window.addEventListener('beforeprint',()=>{beforePrint=[...document.querySelectorAll('details')].map(n=>[n,n.open]);beforePrint.forEach(([n])=>n.open=true);});
 window.addEventListener('afterprint',()=>beforePrint.forEach(([n,open])=>n.open=open));
 async function readJson(path) {
-  const response = await fetch(path);
+  const response = await fetch(path,{cache:'no-cache'});
   if (!response.ok) throw new Error('Content unavailable');
   return response.json();
 }
@@ -192,6 +207,8 @@ readJson('./editions/index.json').then(async manifest => {
   editions.sort((a,b)=>b.date.localeCompare(a.date));
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';render();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});
+  el('clear-search').onclick=()=>{query='';el('search').value='';renderStories();el('search').focus();};
+  mountCalendar({date:()=>selectedDate,locale:()=>lang,available:()=>editions.map(e=>e.date),select:value=>{selectedDate=value;choosePeriod();}});
   el('print').onclick=()=>window.print();
   el('view-day').onclick=()=>{period='day';choosePeriod();};
   el('view-week').onclick=()=>{period='week';choosePeriod();};
@@ -202,3 +219,9 @@ readJson('./editions/index.json').then(async manifest => {
   el('latest').onclick=()=>{if(editions.length){selectedDate=editions[0].date;period='day';choosePeriod();}};
   choosePeriod();
 }).catch(()=>el('error').hidden=false);
+
+el('retry').onclick=()=>location.reload();
+function readingProgress(){const height=document.documentElement.scrollHeight-innerHeight;el('reading-progress').style.width=(height>0?Math.min(100,scrollY/height*100):0)+'%';}
+addEventListener('scroll',readingProgress,{passive:true});addEventListener('resize',readingProgress);
+
+el('previous').replaceChildren(icon('left'));el('next').replaceChildren(icon('right'));el('clear-search').replaceChildren(icon('close'));document.querySelector('.calendar-glyph').append(icon('calendar'));

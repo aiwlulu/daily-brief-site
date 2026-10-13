@@ -13,6 +13,7 @@
   <script src="./app.js" type="module"></script>
 </head>
 <body>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
   <a class="skip" href="#stories">跳到新聞內容</a>
   <header class="masthead">
     <a class="brand" href="./"><span class="brand-mark">DB</span><span>DAILY BRIEF<small id="brand-sub">商業與科技日報</small></span></a>
@@ -29,7 +30,7 @@
       </div>
       <div class="date-nav">
         <button id="previous" type="button" aria-label="上一日">←</button>
-        <label><span id="date-label">日期</span><input id="date" type="date" required></label>
+        <div class="calendar-wrap"><span id="date-label" class="sr-only">日期</span><input id="date" type="hidden"><button id="calendar-open" type="button" aria-expanded="false" aria-controls="calendar-panel"><span id="date-display"></span><span class="calendar-glyph" aria-hidden="true"></span></button><div id="calendar-panel" class="calendar-panel" hidden></div></div>
         <button id="next" type="button" aria-label="下一日">→</button>
         <button id="today" type="button">回到今天</button>
       </div>
@@ -38,21 +39,21 @@
     <section class="hero" aria-labelledby="headline">
       <div><div class="eyebrow" id="edition">VOL. 001 / TUESDAY, OCTOBER 13, 2026</div>
       <h1 id="headline">看見新聞背後的<br><em>商業邏輯。</em></h1>
-      <p id="intro">從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。</p>
+      <p class="publication-status" id="publication-status"></p><p id="intro">從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。</p>
       <a class="read-link" href="#stories" id="start">閱讀本期 ↘</a></div>
       <aside class="lead"><span class="eyebrow" id="theme-label">TODAY’S THROUGHLINE / 今日主線</span><p id="throughline"></p><div class="edition-meta"><span id="story-total"></span><span id="edition-date"></span></div></aside>
     </section>
     <section class="deep" aria-labelledby="deep-title"><div class="section-top"><h2 id="deep-title">本期深讀</h2><span id="deep-sub">三個值得多停留的問題</span></div><div id="deep-links" class="deep-grid"></div></section>
     <section id="stories" class="news" aria-labelledby="news-title">
       <div class="section-top"><h2 id="news-title">今日新聞</h2><span id="count" role="status" aria-live="polite"></span></div>
-      <div class="toolbar"><div id="filters" class="filters" role="group" aria-label="新聞分類"></div><label class="search"><span id="search-label">搜尋</span><input id="search" type="search" placeholder="公司、事件或關鍵字" autocomplete="off"></label></div>
+      <div class="toolbar"><div id="filters" class="filters" role="group" aria-label="新聞分類"></div><label class="search"><span id="search-label">搜尋</span><input id="search" type="text" placeholder="公司、事件或關鍵字" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label></div>
       <div id="news-list"></div><p id="empty" hidden>找不到符合條件的新聞。</p>
     </section>
     <section class="context" aria-labelledby="context-title"><div class="section-top"><h2 id="context-title">產業脈絡</h2><span>CONTEXT</span></div><div id="context-content"></div></section>
     <section class="memo" aria-labelledby="memo-title"><div class="section-top"><h2 id="memo-title">一頁分析備忘錄</h2><span>ANALYSIS MEMO</span></div><h3 id="memo-topic"></h3><div id="memo-content" class="memo-grid"></div></section>
     <section class="lower" aria-labelledby="lower-title"><h2 id="lower-title">降低權重的標題</h2><div id="lower-content"></div></section>
     <section class="sources" aria-labelledby="sources-title"><h2 id="sources-title">來源與查證</h2><p id="source-note"></p><div id="source-list"></div></section>
-    <p id="error" role="alert" hidden>資料載入失敗，請重新整理頁面。</p>
+    <div id="error" role="alert" hidden><p>資料載入失敗，請重新整理頁面。</p><button id="retry" type="button">重新載入</button></div>
     <noscript><p>請啟用 JavaScript，以閱讀新聞與使用篩選功能。原始內容位於 editions 目錄。</p></noscript>
   </main>
   <footer><span>DAILY BRIEF · 2026</span><a href="#headline" id="back-top">回到頁首 ↑</a></footer>
