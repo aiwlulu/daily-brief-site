@@ -55,9 +55,9 @@ function renderPeriod() {
   el('view-week').setAttribute('aria-pressed',String(period === 'week'));
   el('date-label').textContent = zh ? '日期' : 'Date';
   el('date').value = selectedDate;
-  el('date-display').textContent = new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'short',day:'numeric',timeZone:'UTC'}).format(new Date(selectedDate+'T12:00:00Z'));
+  el('date-display').textContent = selectedDate.slice(5).replace('-','/');
   el('calendar-open').setAttribute('aria-label',(zh?'選擇日期：':'Choose date: ')+selectedDate);
-  el('publication-status').textContent = data.archiveType==='backfill' ? (zh?'回溯補編 · '+data.date:'RETROSPECTIVE EDITION · '+data.date) : data.generatedAt ? (zh?'更新於 ':'UPDATED ')+new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Taipei'}).format(new Date(data.generatedAt)) : (zh?'刊期存檔 · '+data.date:'EDITION ARCHIVE · '+data.date);
+  el('publication-status').textContent = data.archiveType==='backfill' ? (zh?'回溯補編':'RETROSPECTIVE EDITION') : data.generatedAt ? (zh?'更新於 ':'UPDATED ')+new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Taipei'}).format(new Date(data.generatedAt)) : '';
   el('today').replaceChildren(icon('today'));
   el('today').setAttribute('aria-label',zh?'回到今天':'Back to today');
   el('today').dataset.tooltip=zh?'回到今天':'Back to today';
@@ -67,13 +67,13 @@ function renderPeriod() {
   el('next').setAttribute('aria-label',zh ? (period === 'day'?'下一日':'下一週') : (period === 'day'?'Next day':'Next week'));
   el('previous').dataset.tooltip=el('previous').getAttribute('aria-label');
   el('next').dataset.tooltip=el('next').getAttribute('aria-label');
-  el('edition').textContent = (period === 'day'?'DAILY EDITION / ':'WEEKLY VIEW / ')+label;
+  el('edition').textContent = period==='day' ? selectedDate.replaceAll('-','/')+' · '+new Intl.DateTimeFormat(zh?'zh-TW':'en',{weekday:'long',timeZone:'UTC'}).format(new Date(selectedDate+'T12:00:00Z')) : 'WEEKLY VIEW / '+label;
   el('edition-date').textContent = label;
   el('news-title').textContent = zh ? (period === 'day'?'當日新聞':'關鍵精華') : (period === 'day'?'Daily stories':'Key highlights');
   el('story-total').textContent = period==='week'?(zh?weekly.highlights.length+' 個重點':weekly.highlights.length+' highlights'):words[lang].count(data.stories.length);
   el('coverage').textContent = period==='week'
     ? (zh?label+' · 台灣時間 · 已收錄 '+selectedEditions.length+'/7 天 · '+weekly.highlights.length+' 個重點':label+' · Asia/Taipei · '+selectedEditions.length+'/7 days available · '+weekly.highlights.length+' highlights')
-    : (zh?label+' · 台灣時間 · '+data.stories.length+' 則新聞':label+' · Asia/Taipei · '+data.stories.length+' stories');
+    : (zh?'台灣時間 · '+data.stories.length+' 則新聞':'Asia/Taipei · '+data.stories.length+' stories');
   if(!selectedEditions.length)el('coverage').textContent += zh?' · 尚無刊期，可閱讀最新一期。':' · No edition yet; open the latest edition.';
   el('theme-label').textContent = zh ? (period === 'week'?'最新刊期主線 · '+data.date:'今日主線') : (period === 'week'?'LATEST EDITION / '+data.date:'TODAY’S THROUGHLINE');
   if(period === 'week' && selectedEditions.length) {
@@ -128,7 +128,7 @@ function renderStories() {
     article.append(node('div', String(s.sourceId).padStart(2,'0'), 'story-number'));
     const content = node('div');
     const meta = node('div', undefined, 'story-meta');
-    meta.append(node('span', words[lang][s.category]),node('time',s.editionDate));
+    const published=node('time',s.editionDate.slice(5).replace('-','/'));published.dateTime=s.editionDate;published.setAttribute('aria-label',s.editionDate);meta.append(node('span', words[lang][s.category]),published);
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
     content.append(meta, node('h3', t(s.title)), node('p', t(s.summary), 'summary-text'));
     const details = node('details');

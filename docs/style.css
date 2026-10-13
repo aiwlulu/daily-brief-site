@@ -44,3 +44,43 @@ body[data-view="week"] .news .section-top{margin-bottom:12px}
 .week-highlight h3{font-size:20px;font-weight:600;margin:7px 0 9px;line-height:1.6}.week-highlight p{font-size:14px;color:#4c6257;margin:0;max-width:70ch}
 .week-references{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}.week-references a{font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:6px;text-underline-offset:4px;min-height:32px}.week-references .icon{width:13px;height:13px}
 @media(max-width:540px){body[data-view="week"] .hero{padding:24px 0}.week-highlight{grid-template-columns:26px minmax(0,1fr);gap:12px;padding:20px 0}.week-highlight h3{font-size:18px}.week-number{font-size:23px}body[data-view="week"] .hero h1{font-size:32px}}
+
+/* Mobile reading: larger copy, concise dates and comfortable tap targets. */
+#publication-status:empty{display:none}
+@media(max-width:800px){
+  body{font-size:16px}
+  #intro,body[data-view="week"] #intro{font-size:16px;line-height:1.85}
+  .summary-text,.detail-section p,#context-content p,.memo-grid p,.sources>p,.week-highlight p{font-size:16px;line-height:1.85}
+  .story h3,.week-highlight h3{font-size:21px;line-height:1.6}
+  .story-meta,.week-category,.metric small{font-size:12px;letter-spacing:.3px}
+  .filters button{font-size:14px}
+  .search{font-size:13px}.search input{font-size:16px}
+  .source-links a,.source-row,.source-row a,.week-references a{font-size:14px}
+  .confidence,.detail-section h4,.memo-grid h4{font-size:14px}
+  summary,.read-link{font-size:16px}
+  .deep-card h3,#context-content h3{font-size:19px}.deep-card p{font-size:15px}
+  .lower-item{font-size:15px}.coverage p,.publication-status{font-size:13px}
+  .eyebrow{font-size:11px;letter-spacing:1px}
+  .section-top span{font-size:12px}
+  .brand{font-size:14px}.brand small{font-size:10px}
+  .calendar-wrap>button{font-size:16px;min-width:112px;min-height:48px;gap:10px;font-weight:500}
+  .calendar-grid button{font-size:15px;min-height:44px}
+  .calendar-note{font-size:12px}.calendar-header strong{font-size:16px}
+  .week-references a{min-height:44px}
+  table{font-size:14px}
+}
+@media(max-width:540px){
+  .period-bar{gap:14px;padding-top:18px}
+  .period-switch button{font-size:16px;min-width:72px;min-height:44px}
+  .period-switch .icon{width:17px;height:17px}
+  .date-nav{width:100%;gap:8px;justify-content:flex-start}
+  .date-nav #previous,.date-nav #next,.date-nav #today{width:48px;height:48px;min-height:48px;flex:none}
+  .date-nav .icon{width:20px;height:20px}
+  .calendar-wrap>button{padding:8px 12px;font-size:16px;min-width:112px}
+  .calendar-wrap>button .icon{width:18px;height:18px}
+  .hero{padding-top:24px;padding-bottom:32px}
+  .story-body{margin-left:0}
+  .week-highlight h3{font-size:21px}.story h3{font-size:21px}
+  .edition-meta{font-size:12px}.lead .eyebrow{font-size:11px}
+  .masthead nav{gap:8px}.masthead nav button{width:44px;height:44px}
+}
