@@ -15,3 +15,5 @@ Commit authorship for this repository should use the aiwlulu account. Do not imp
 - Use custom date, search and disclosure presentation, avoiding browser-default widget styling. Preserve semantic HTML, keyboard interaction and reduced-motion support. Do not use emoji.
 - Keep asset versioning in the Pages workflow. Check generated module imports as well as raw source syntax. Load only the requested day or week, so growing archives do not require fetching all prior editions.
 - Commit an edition and its manifest update atomically. Use Conventional Commits and aiwlulu authorship. Verify Actions status before saying publication succeeded.
+
+Do not show internal recovery or editing status such as missing prior topics in the published edition. Omit unverified/unrecovered candidates; keep only reader-relevant caveats for published stories.

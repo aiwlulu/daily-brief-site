@@ -490,16 +490,5 @@
       }
     ]
   },
-  "lower": [
-    {
-      "title": {
-        "zh": "尚未恢復的兩則原日報主題",
-        "en": "Two prior topics not restored"
-      },
-      "text": {
-        "zh": "美軍攻擊商船與荷莫茲談判的完整當時來源仍未核實，本期不納入新聞正文，也不補造細節。",
-        "en": "The contemporary sources for the commercial-ship and Hormuz-talks topics were not fully verified; no details are reconstructed."
-      }
-    }
-  ]
+  "lower": []
 }
