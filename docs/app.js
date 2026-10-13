@@ -33,20 +33,28 @@ async function choosePeriod() {
 function renderPeriod() {
   const zh = lang === 'zh', range = periodRange(selectedDate,period);
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
-  el('view-day').textContent = zh ? '當日' : 'Day';
-  el('view-week').textContent = zh ? '當週' : 'Week';
+  el('view-day').replaceChildren(icon('today'),node('span',zh?'日':'D'));
+  el('view-day').setAttribute('aria-label',zh?'當日':'Daily view');
+  el('view-day').dataset.tooltip=zh?'當日':'Daily view';
+  el('view-week').replaceChildren(icon('week'),node('span',zh?'週':'W'));
+  el('view-week').setAttribute('aria-label',zh?'當週':'Weekly view');
+  el('view-week').dataset.tooltip=zh?'當週':'Weekly view';
   el('view-day').setAttribute('aria-pressed',String(period === 'day'));
   el('view-week').setAttribute('aria-pressed',String(period === 'week'));
   el('date-label').textContent = zh ? '日期' : 'Date';
   el('date').value = selectedDate;
-  el('date-display').textContent = new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(selectedDate+'T12:00:00Z'));
+  el('date-display').textContent = new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'short',day:'numeric',timeZone:'UTC'}).format(new Date(selectedDate+'T12:00:00Z'));
   el('calendar-open').setAttribute('aria-label',(zh?'選擇日期：':'Choose date: ')+selectedDate);
   el('publication-status').textContent = data.archiveType==='backfill' ? (zh?'回溯補編 · '+data.date:'RETROSPECTIVE EDITION · '+data.date) : data.generatedAt ? (zh?'更新於 ':'UPDATED ')+new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Taipei'}).format(new Date(data.generatedAt)) : (zh?'刊期存檔 · '+data.date:'EDITION ARCHIVE · '+data.date);
-  el('today').textContent = zh ? '回到今天' : 'Today';
+  el('today').replaceChildren(icon('today'));
+  el('today').setAttribute('aria-label',zh?'回到今天':'Back to today');
+  el('today').dataset.tooltip=zh?'回到今天':'Back to today';
   el('latest').textContent = zh ? '閱讀最新一期' : 'Latest edition';
   el('latest').hidden = selectedEditions.length > 0;
   el('previous').setAttribute('aria-label',zh ? (period === 'day'?'上一日':'上一週') : (period === 'day'?'Previous day':'Previous week'));
   el('next').setAttribute('aria-label',zh ? (period === 'day'?'下一日':'下一週') : (period === 'day'?'Next day':'Next week'));
+  el('previous').dataset.tooltip=el('previous').getAttribute('aria-label');
+  el('next').dataset.tooltip=el('next').getAttribute('aria-label');
   el('edition').textContent = (period === 'day'?'DAILY EDITION / ':'WEEKLY VIEW / ')+label;
   el('edition-date').textContent = label;
   el('news-title').textContent = zh ? (period === 'day'?'當日新聞':'當週新聞') : (period === 'day'?'Daily stories':'Weekly stories');
@@ -69,8 +77,8 @@ function renderPeriod() {
 
 const openStories = new Set();
 const words = {
-  zh: {all:'全部',tech:'科技與商業',taiwan:'台灣與政策',global:'全球與能源',pick:'深讀推薦',detail:'展開分析',confidence:'判斷信心',sources:'新聞來源',count:n => n+' 則新聞',empty:'找不到符合條件的新聞。'},
-  en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Read analysis',confidence:'Confidence',sources:'Sources',count:n => n+' stories',empty:'No stories match your search.'}
+  zh: {all:'全部',tech:'科技與商業',taiwan:'台灣與政策',global:'全球與能源',pick:'深讀推薦',detail:'分析',confidence:'判斷信心',sources:'新聞來源',count:n => n+' 則新聞',empty:'找不到符合條件的新聞。'},
+  en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Analysis',confidence:'Confidence',sources:'Sources',count:n => n+' stories',empty:'No stories match your search.'}
 };
 const t = value => value[lang];
 function node(tag, text, className) {
@@ -168,7 +176,11 @@ function render() {
   Object.entries(copy).forEach(([id,text])=>el(id).textContent=text);
   el('start').append(icon('down'));el('back-top').append(icon('up'));
   el('headline').replaceChildren(node('span',lang === 'zh'?'看見新聞背後的':'Read the news.'),node('br'),node('em',lang === 'zh'?'商業邏輯。':'See the economics.'));
-  el('lang').textContent = lang === 'zh' ? 'English' : '繁體中文';
+  el('lang').textContent = lang === 'zh' ? 'EN' : '中';
+  el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
+  el('print').replaceChildren(icon('printer'));
+  el('print').setAttribute('aria-label',lang==='zh'?'列印':'Print');
+  el('print').dataset.tooltip=lang==='zh'?'列印':'Print';
   el('lang').setAttribute('aria-label',lang === 'zh' ? 'Switch to English' : '切換為繁體中文');
   el('search').placeholder = lang === 'zh' ? '公司、事件或關鍵字' : 'Company, event or keyword';
   el('throughline').textContent = t(data.throughline);
