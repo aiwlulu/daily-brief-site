@@ -7,13 +7,18 @@ let data, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', quer
 const params = new URLSearchParams(location.search);
 let period = params.get('view') === 'week' ? 'week' : 'day';
 let selectedDate = validDate(params.get('date') || '') ? params.get('date') : taipeiToday();
+function setPageState(state) {
+  document.body.dataset.state=state;
+  document.querySelector('main').setAttribute('aria-busy',String(state==='loading'));
+  el('edition-content').inert=state!=='ready';
+  el('loading-status').textContent=state==='loading'?(lang==='zh'?'正在載入新聞':'Loading news'):'';
+}
 const editionCache=new Map();
 let requestVersion=0;
 async function choosePeriod() {
   const version=++requestVersion;
   const requested=selectEditions(catalog,selectedDate,period);
-  document.querySelector('main').setAttribute('aria-busy','true');
-  el('coverage').textContent=lang==='zh'?'正在載入刊期…':'Loading editions…';
+  if(!data||requested.some(entry=>!editionCache.has(entry.date)))setPageState('loading');
   el('error').hidden=true;
   try {
     const loaded=await Promise.all(requested.map(async entry=>{if(!editionCache.has(entry.date))editionCache.set(entry.date,await readJson(entry.path));return editionCache.get(entry.date);}));
@@ -27,7 +32,8 @@ async function choosePeriod() {
   url.searchParams.set('view',period); url.searchParams.set('date',selectedDate);
   history.replaceState(null,'',url);
   render();
-  } catch(error){if(version===requestVersion){el('error').hidden=false;el('coverage').textContent=lang==='zh'?'刊期暫時無法載入，請重試。':'Edition could not be loaded. Please retry.';}}
+  setPageState('ready');
+  } catch(error){if(version===requestVersion){setPageState('error');el('error').hidden=false;el('coverage').textContent=lang==='zh'?'刊期暫時無法載入，請重試。':'Edition could not be loaded. Please retry.';}}
   finally{if(version===requestVersion)document.querySelector('main').setAttribute('aria-busy','false');}
 }
 function renderPeriod() {
@@ -241,7 +247,7 @@ readJson('./editions/index.json').then(async manifest => {
   el('today').onclick=()=>{selectedDate=taipeiToday();choosePeriod();};
   el('latest').onclick=()=>{if(catalog.length){selectedDate=catalog[0].date;period='day';choosePeriod();}};
   choosePeriod();
-}).catch(()=>el('error').hidden=false);
+}).catch(()=>{setPageState('error');el('error').hidden=false;});
 
 el('retry').onclick=()=>location.reload();
 function readingProgress(){const height=document.documentElement.scrollHeight-innerHeight;el('reading-progress').style.width=(height>0?Math.min(100,scrollY/height*100):0)+'%';}
