@@ -29,9 +29,13 @@ export function mountCalendar({date, locale, available, select}) {
     panel.append(grid);const note=n('p',zh?'圓點表示已有日報':'Dots indicate available editions');note.className='calendar-note';panel.append(note);
     if(focus)panel.querySelector('[data-date="'+focusDate+'"]').focus();
   }
-  opener.onclick=()=>{if(!panel.hidden){close();return;}month=date().slice(0,7);focusDate=date();render(true);panel.hidden=false;opener.setAttribute('aria-expanded','true');panel.querySelector('[data-date="'+focusDate+'"]').focus();};
+  opener.onclick=()=>{if(!panel.hidden){close();return;}month=date().slice(0,7);focusDate=date();render(true);panel.hidden=false;
+    if(matchMedia('(max-width:540px)').matches)panel.style.top=Math.max(12,Math.min(opener.getBoundingClientRect().bottom+10,innerHeight-panel.offsetHeight-12))+'px';
+    else panel.style.removeProperty('top');
+    opener.setAttribute('aria-expanded','true');panel.querySelector('[data-date="'+focusDate+'"]').focus();};
   document.addEventListener('click',e=>{if(!panel.hidden&&!panel.contains(e.target)&&!opener.contains(e.target))close();});
   panel.addEventListener('keydown',e=>{if(e.key==='Escape'){close();opener.focus();}});
   document.addEventListener('focusin',e=>{if(!panel.hidden&&!panel.contains(e.target)&&!opener.contains(e.target))close();});
+  addEventListener('resize',close);
   return {close};
 }

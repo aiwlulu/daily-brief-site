@@ -100,7 +100,7 @@ function renderStories() {
   list.replaceChildren();
   const matches = data.stories.filter(s =>
     (filter === 'all' || s.category === filter) &&
-    JSON.stringify(s).toLocaleLowerCase().includes(query.toLocaleLowerCase())
+    JSON.stringify({title:s.title,summary:s.summary,sections:s.sections,metric:s.metric,metricLabel:s.metricLabel,sources:s.sources.map(source=>source.name)}).toLocaleLowerCase().includes(query.toLocaleLowerCase())
   );
   el('count').textContent = words[lang].count(matches.length);
   el('empty').textContent = words[lang].empty;
