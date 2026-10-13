@@ -46,3 +46,9 @@ python3 -m http.server 8000 --directory docs
 固定閱讀網址：https://aiwlulu.github.io/daily-brief-site/
 
 當週：https://aiwlulu.github.io/daily-brief-site/?view=week
+
+## 週版精華
+
+週版僅呈現最多 7 個跨日關鍵主題，每項包含精簡中英文摘要及每日版入口。長篇分析、備忘錄、分類搜尋及逐則来源列表保留在每日版。
+
+`docs/weeks/YYYY-MM-DD.json` 以當週週一命名，透過 editions/index.json 的 `weeks` 對照表載入。每個 highlight 必須以 `references: [{date, storyId}]` 指向已存在的當週新聞。每日發布時一起更新當週精華與索引；未建立精華檔時，介面從當週新聞中選出最多 7 則推薦，依 topic 或相同英文標題合併重複項目。

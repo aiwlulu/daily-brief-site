@@ -17,3 +17,5 @@ Commit authorship for this repository should use the aiwlulu account. Do not imp
 - Commit an edition and its manifest update atomically. Use Conventional Commits and aiwlulu authorship. Verify Actions status before saying publication succeeded.
 
 Do not show internal recovery or editing status such as missing prior topics in the published edition. Omit unverified/unrecovered candidates; keep only reader-relevant caveats for published stories.
+
+Weekly view is a concise digest of at most 7 key themes across the published week. Merge related events and provide short bilingual summaries linked to daily editions. Omit long analyses, memos, source lists and filter/search controls in weekly view. Update docs/weeks/MONDAY.json and the manifest weeks mapping atomically with each daily publication; references must identify actual stories from the same week.

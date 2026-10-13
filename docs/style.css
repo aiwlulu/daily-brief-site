@@ -30,3 +30,17 @@ body:not([data-state="ready"]) footer{display:none}
 @media(max-width:800px){.skeleton-hero{grid-template-columns:1fr;gap:30px;padding:40px 0}.skeleton-heading{height:48px}.skeleton-lead{min-height:280px;padding:26px}.skeleton-cards{grid-template-columns:1fr;gap:18px}.skeleton-coverage{width:70%}}
 @media(max-width:540px){.skeleton-toolbar{flex-wrap:wrap;gap:12px;padding-top:20px}.skeleton-switch{width:142px;height:46px}.skeleton-date{width:224px}.skeleton-heading{height:42px}.skeleton-hero{padding-top:30px}.skeleton-lead{min-height:260px}.skeleton-coverage{width:85%}}
 @media(prefers-reduced-motion:reduce){.skeleton-block:after{animation:none;display:none}}
+
+/* Weekly essentials use a compact reading layout. */
+body[data-view="week"] .hero{display:block;padding:30px 0 34px;border-bottom:1px solid var(--ink)}
+body[data-view="week"] .hero h1{font-size:clamp(32px,4vw,46px);line-height:1.4;margin:16px 0;letter-spacing:-.7px}
+body[data-view="week"] .hero h1 em{text-decoration-thickness:5px;text-underline-offset:6px;margin-left:.15em}
+body[data-view="week"] #intro{max-width:65ch;margin:0;font-size:14px}
+body[data-view="week"] #publication-status,body[data-view="week"] #start,body[data-view="week"] .toolbar{display:none}
+body[data-view="week"] .news{max-width:900px;margin:0 auto;border-top:0;padding:32px 0}
+body[data-view="week"] .news .section-top{margin-bottom:12px}
+.week-highlight{display:grid;grid-template-columns:44px minmax(0,1fr);gap:24px;border-top:1px solid var(--line);padding:25px 0}
+.week-number{font-family:var(--serif);font-size:28px;color:#96a590;line-height:1.6}.week-category{font-size:10px;letter-spacing:1px;color:var(--muted)}
+.week-highlight h3{font-size:20px;font-weight:600;margin:7px 0 9px;line-height:1.6}.week-highlight p{font-size:14px;color:#4c6257;margin:0;max-width:70ch}
+.week-references{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}.week-references a{font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:6px;text-underline-offset:4px;min-height:32px}.week-references .icon{width:13px;height:13px}
+@media(max-width:540px){body[data-view="week"] .hero{padding:24px 0}.week-highlight{grid-template-columns:26px minmax(0,1fr);gap:12px;padding:20px 0}.week-highlight h3{font-size:18px}.week-number{font-size:23px}body[data-view="week"] .hero h1{font-size:32px}}

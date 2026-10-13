@@ -1,0 +1,147 @@
+{
+  "weekStart": "2026-10-12",
+  "throughline": {
+    "zh": "AI 的商業效益，正受到硬體成本、供應鏈、人才與能源條件共同影響。",
+    "en": "AI economics increasingly depend on hardware costs, supply chains, skills and energy conditions."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "tech",
+      "title": {
+        "zh": "AI 晶片競爭轉向整套系統成本",
+        "en": "AI-chip competition shifts toward system cost"
+      },
+      "summary": {
+        "zh": "微軟公布 Maia 300，規劃 2027 年部署。重點是每次推論的完整成本，宣稱的效能優勢仍待獨立測試。",
+        "en": "Microsoft announced Maia 300 for planned 2027 deployment. Total inference cost is the key question; claimed advantages still need independent testing."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "title": {
+        "zh": "DRAM 漲價推高南亞科獲利",
+        "en": "DRAM pricing lifts Nanya’s profitability"
+      },
+      "summary": {
+        "zh": "南亞科第三季自結毛利率達 85.7%，但出貨量下降。這次成長主要看價格，後續要追蹤供給、庫存與漲價能否延續。",
+        "en": "Nanya reported a preliminary Q3 gross margin of 85.7% despite lower shipments. Pricing matters more than volume; watch supply, inventories and price durability."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "taiwan",
+      "title": {
+        "zh": "AI 硬體升級也帶來專利與製程門檻",
+        "en": "AI hardware upgrades face legal and process constraints"
+      },
+      "summary": {
+        "zh": "USITC 啟動垂直供電系統調查；TPCA 展聚焦玻璃核心與先進封裝。立案未代表侵權成立，玻璃核心也仍有可靠度與量產挑戰。",
+        "en": "The USITC opened a vertical-power-delivery investigation, while TPCA highlights glass cores and packaging. An investigation is not a ruling; production reliability remains a hurdle."
+      },
+      "references": [
+        {
+          "date": "2026-10-12",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-12",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "title": {
+        "zh": "企業 Agent 導入更重視整合與資安",
+        "en": "Enterprise agents put integration and security in focus"
+      },
+      "summary": {
+        "zh": "HCLTech 與 Anthropic 合作導入企業 Agent；IonQ 簽約收購 Elisity，交易仍待核准。合作與收購提供方向，實際採用與效益還需營運數據。",
+        "en": "HCLTech and Anthropic announced an enterprise-agent partnership; IonQ signed an Elisity acquisition subject to approvals. Adoption and benefits still require operating evidence."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-13",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "tech",
+      "title": {
+        "zh": "新聞內容授權成為 AI 成本的一部分",
+        "en": "News licensing becomes part of the AI cost debate"
+      },
+      "summary": {
+        "zh": "更多出版商加入 SPUR，推動追蹤 AI 使用新聞內容與授權規則。下一步看技術標準、實際授權條件及採用情況，聯盟擴大尚不等於模式已落地。",
+        "en": "More publishers joined SPUR to track AI use and licensing of news. Watch standards, licensing terms and adoption; membership growth does not establish implementation."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "global",
+      "title": {
+        "zh": "AI 招聘變化需與失業率分開解讀",
+        "en": "AI-related hiring changes are not unemployment rates"
+      },
+      "summary": {
+        "zh": "IMF 研究指出，AI 高適用性職種招聘需求約下降 10%，AI 技能需求增加。職缺、就業與薪資衡量不同，不能把招聘降幅直接當成失業增幅。",
+        "en": "An IMF study reports roughly 10% lower hiring demand in highly AI-applicable occupations and growing AI-skill demand. Vacancy changes do not translate directly into unemployment."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 10
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "global",
+      "title": {
+        "zh": "能源安全牽動出口路徑與危機融資",
+        "en": "Energy security affects export routes and crisis financing"
+      },
+      "summary": {
+        "zh": "沙國規劃增加管線輸油能力；世銀與 30 至 40 國討論危機援助。兩者都是應對風險的安排，輸油能力尚未完成，援助討論也不代表已撥款。",
+        "en": "Saudi Arabia plans greater pipeline export capacity; the World Bank is discussing crisis aid with 30–40 countries. Planned capacity is not installed capacity, and talks are not disbursements."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 11
+        },
+        {
+          "date": "2026-10-12",
+          "storyId": 5
+        }
+      ]
+    }
+  ]
+}

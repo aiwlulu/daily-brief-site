@@ -1,9 +1,10 @@
 /* Content is rendered with textContent. News strings never become HTML. */
+import {fallbackWeekly} from './weekly.mjs';
 import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
-let data, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
+let data, weekly, weekPaths={}, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
 const params = new URLSearchParams(location.search);
 let period = params.get('view') === 'week' ? 'week' : 'day';
 let selectedDate = validDate(params.get('date') || '') ? params.get('date') : taipeiToday();
@@ -13,17 +14,21 @@ function setPageState(state) {
   el('edition-content').inert=state!=='ready';
   el('loading-status').textContent=state==='loading'?(lang==='zh'?'正在載入新聞':'Loading news'):'';
 }
-const editionCache=new Map();
+const editionCache=new Map(), weeklyCache=new Map();
 let requestVersion=0;
 async function choosePeriod() {
   const version=++requestVersion;
   const requested=selectEditions(catalog,selectedDate,period);
-  if(!data||requested.some(entry=>!editionCache.has(entry.date)))setPageState('loading');
+  const requestedWeek=periodRange(selectedDate,'week').start;
+  if(!data||requested.some(entry=>!editionCache.has(entry.date))||(period==='week'&&weekPaths[requestedWeek]&&!weeklyCache.has(requestedWeek)))setPageState('loading');
   el('error').hidden=true;
   try {
     const loaded=await Promise.all(requested.map(async entry=>{if(!editionCache.has(entry.date))editionCache.set(entry.date,await readJson(entry.path));return editionCache.get(entry.date);}));
+    const weekStart=periodRange(selectedDate,'week').start;
+    if(period==='week'&&weekPaths[weekStart]&&!weeklyCache.has(weekStart))weeklyCache.set(weekStart,await readJson(weekPaths[weekStart]));
+    const digest=period==='week' ? (weeklyCache.get(weekStart)||fallbackWeekly(loaded,selectedDate)) : null;
     if(version!==requestVersion)return;
-    selectedEditions=loaded;
+    selectedEditions=loaded;weekly=digest;
   const newest = selectedEditions[0];
   const blank = {date:selectedDate, throughline:{zh:'這段期間尚未收錄新聞。',en:'No editions have been published for this period.'},stories:[],deep:[],context:[],memo:{title:{zh:'',en:''},items:[]},lower:[]};
   data = {...(newest || blank), stories:selectedEditions.flatMap(e => e.stories.map(s => ({...s, sourceId:s.id, editionDate:e.date, id:e.date+'-'+s.id})))};
@@ -37,6 +42,7 @@ async function choosePeriod() {
   finally{if(version===requestVersion)document.querySelector('main').setAttribute('aria-busy','false');}
 }
 function renderPeriod() {
+  document.body.dataset.view=period;
   const zh = lang === 'zh', range = periodRange(selectedDate,period);
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
   el('view-day').replaceChildren(icon('today'),node('span',zh?'日':'D'));
@@ -63,22 +69,24 @@ function renderPeriod() {
   el('next').dataset.tooltip=el('next').getAttribute('aria-label');
   el('edition').textContent = (period === 'day'?'DAILY EDITION / ':'WEEKLY VIEW / ')+label;
   el('edition-date').textContent = label;
-  el('news-title').textContent = zh ? (period === 'day'?'當日新聞':'當週新聞') : (period === 'day'?'Daily stories':'Weekly stories');
-  el('story-total').textContent = words[lang].count(data.stories.length);
-  el('coverage').textContent = zh
-    ? label+' · 台灣時間 · '+(period === 'week'?'週一至週日 · ':'')+'已收錄 '+selectedEditions.length+' 期，共 '+data.stories.length+' 則。'+(!selectedEditions.length?'此期間尚未發布，可切換日期或閱讀最新一期。':period === 'week'?'以下按刊期由新到舊排列；深讀與產業分析取自本週已收錄刊期。':'')
-    : label+' · Asia/Taipei · '+(period === 'week'?'Monday to Sunday · ':'')+selectedEditions.length+' editions, '+data.stories.length+' stories.'+(!selectedEditions.length?' No edition yet. Choose another date or the latest edition.':period === 'week'?' Newest first. Analysis comes from the available editions.':'');
+  el('news-title').textContent = zh ? (period === 'day'?'當日新聞':'關鍵精華') : (period === 'day'?'Daily stories':'Key highlights');
+  el('story-total').textContent = period==='week'?(zh?weekly.highlights.length+' 個重點':weekly.highlights.length+' highlights'):words[lang].count(data.stories.length);
+  el('coverage').textContent = period==='week'
+    ? (zh?label+' · 台灣時間 · 已收錄 '+selectedEditions.length+'/7 天 · '+weekly.highlights.length+' 個重點':label+' · Asia/Taipei · '+selectedEditions.length+'/7 days available · '+weekly.highlights.length+' highlights')
+    : (zh?label+' · 台灣時間 · '+data.stories.length+' 則新聞':label+' · Asia/Taipei · '+data.stories.length+' stories');
+  if(!selectedEditions.length)el('coverage').textContent += zh?' · 尚無刊期，可閱讀最新一期。':' · No edition yet; open the latest edition.';
   el('theme-label').textContent = zh ? (period === 'week'?'最新刊期主線 · '+data.date:'今日主線') : (period === 'week'?'LATEST EDITION / '+data.date:'TODAY’S THROUGHLINE');
   if(period === 'week' && selectedEditions.length) {
     el('context-title').textContent = (zh?'最新刊期產業脈絡 · ':'Latest context · ')+data.date;
     el('memo-title').textContent = (zh?'最新刊期分析備忘錄 · ':'Latest analysis memo · ')+data.date;
     el('lower-title').textContent = (zh?'最新刊期低權重標題 · ':'Latest lower-priority headlines · ')+data.date;
   }
-  document.querySelectorAll('.sources,.lead').forEach(n=>n.hidden=!selectedEditions.length);
-  document.querySelector('.deep').hidden=!data.deep.length;
-  document.querySelector('.context').hidden=!data.context.length;
-  document.querySelector('.memo').hidden=!data.memo.items.length;
-  document.querySelector('.lower').hidden=!data.lower.length;
+  document.querySelector('.sources').hidden=period==='week'||!selectedEditions.length;
+  document.querySelector('.lead').hidden=period==='week'||!selectedEditions.length;
+  document.querySelector('.deep').hidden=period==='week'||!data.deep.length;
+  document.querySelector('.context').hidden=period==='week'||!data.context.length;
+  document.querySelector('.memo').hidden=period==='week'||!data.memo.items.length;
+  document.querySelector('.lower').hidden=period==='week'||!data.lower.length;
 }
 
 const openStories = new Set();
@@ -102,6 +110,7 @@ function link(source) {
   return a;
 }
 function renderStories() {
+  if(period==='week'){renderWeekly();return;}
   const list = el('news-list');
   list.replaceChildren();
   const matches = data.stories.filter(s =>
@@ -158,6 +167,22 @@ function renderStories() {
   }
   [...el('filters').children].forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter === filter)));
 }
+function renderWeekly() {
+  const list=el('news-list');list.replaceChildren();
+  el('count').textContent=lang==='zh'?'約 3 分鐘閱讀':'About 3 min read';
+  el('empty').hidden=weekly.highlights.length>0;
+  el('empty').textContent=lang==='zh'?'這週尚無已發布新聞。':'No published stories this week.';
+  for(const item of weekly.highlights){
+    const article=node('article',undefined,'week-highlight');
+    const number=node('span',String(item.id).padStart(2,'0'),'week-number');
+    const content=node('div');
+    content.append(node('span',words[lang][item.category],'week-category'),node('h3',t(item.title)),node('p',t(item.summary)));
+    const links=node('div',undefined,'week-references');
+    const dates=[...new Set(item.references.map(r=>r.date))];
+    for(const date of dates){const a=node('a',date.slice(5).replace('-','/')+(lang==='zh'?' 日報':' edition'));a.href='./?view=day&date='+date;a.append(icon('right'));links.append(a);}
+    content.append(links);article.append(number,content);list.append(article);
+  }
+}
 function textSection(target, items) {
   target.replaceChildren();
   items.forEach(item=>{
@@ -181,7 +206,10 @@ function render() {
   };
   Object.entries(copy).forEach(([id,text])=>el(id).textContent=text);
   el('start').append(icon('down'));el('back-top').append(icon('up'));
-  el('headline').replaceChildren(node('span',lang === 'zh'?'看見新聞背後的':'Read the news.'),node('br'),node('em',lang === 'zh'?'商業邏輯。':'See the economics.'));
+  if(period==='week'){
+    el('headline').replaceChildren(node('span',lang==='zh'?'本週':'This week’s'),node('em',lang==='zh'?'關鍵精華。':' essentials.'));
+    el('intro').textContent=weekly.throughline?t(weekly.throughline):(lang==='zh'?'快速回顧已收錄刊期的關鍵事件，完整細節可進入每日版閱讀。':'A concise selection from available editions. Open the daily edition for details.');
+  }else el('headline').replaceChildren(node('span',lang === 'zh'?'看見新聞背後的':'Read the news.'),node('br'),node('em',lang === 'zh'?'商業邏輯。':'See the economics.'));
   el('lang').textContent = lang === 'zh' ? 'EN' : '中';
   el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
   el('print').replaceChildren(icon('printer'));
@@ -233,6 +261,7 @@ async function readJson(path) {
   return response.json();
 }
 readJson('./editions/index.json').then(async manifest => {
+  weekPaths=manifest.weeks||{};
   catalog=manifest.editions.slice().sort((a,b)=>b.date.localeCompare(a.date));
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';render();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});

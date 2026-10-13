@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import {validDate} from '../docs/dates.mjs';
+import {validDate,periodRange} from '../docs/dates.mjs';
 const bilingual=value=>{for(const lang of ['zh','en'])assert.ok(typeof value?.[lang]==='string' && value[lang].trim(),'Missing bilingual text');};
 const manifest = JSON.parse(fs.readFileSync(new URL('../docs/editions/index.json',import.meta.url),'utf8'));
 assert.ok(manifest.editions.length);
@@ -28,6 +28,20 @@ for(const story of data.stories){
   story.sources.forEach(s=>assert.equal(new URL(s.url).protocol,'https:'));
 }
 for(const item of data.deep)assert.ok(data.stories.some(s=>s.id===item.id));
+}
+for(const [weekStart,weekPath] of Object.entries(manifest.weeks||{})){
+ assert.ok(validDate(weekStart));assert.equal(periodRange(weekStart,'week').start,weekStart);
+ assert.equal(weekPath,'./weeks/'+weekStart+'.json');
+ const digest=JSON.parse(fs.readFileSync(new URL('../docs/'+weekPath,import.meta.url),'utf8'));
+ assert.equal(digest.weekStart,weekStart);bilingual(digest.throughline);
+ assert.ok(digest.highlights.length<=7);assert.equal(new Set(digest.highlights.map(h=>h.id)).size,digest.highlights.length);
+ for(const item of digest.highlights){
+  bilingual(item.title);bilingual(item.summary);assert.ok(['tech','taiwan','global'].includes(item.category));assert.ok(item.references.length);
+  for(const ref of item.references){
+   assert.equal(periodRange(ref.date,'week').start,weekStart);const entry=manifest.editions.find(e=>e.date===ref.date);assert.ok(entry,'Missing referenced edition');
+   const edition=JSON.parse(fs.readFileSync(new URL('../docs/'+entry.path,import.meta.url),'utf8'));assert.ok(edition.stories.some(s=>s.id===ref.storyId),'Missing referenced story');
+  }
+ }
 }
 const html = fs.readFileSync(new URL('../docs/index.html',import.meta.url),'utf8');
 const app = fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8');
