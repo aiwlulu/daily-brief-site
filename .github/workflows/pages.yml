@@ -24,6 +24,8 @@ jobs:
           node --check docs/app.js
           node scripts/check.mjs
           node --test scripts/dates.test.mjs
+      - name: Version page assets
+        run: node scripts/prepare-pages.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:

@@ -3,12 +3,22 @@ import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
-let data, editions = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
+let data, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
 const params = new URLSearchParams(location.search);
 let period = params.get('view') === 'week' ? 'week' : 'day';
 let selectedDate = validDate(params.get('date') || '') ? params.get('date') : taipeiToday();
-function choosePeriod() {
-  selectedEditions = selectEditions(editions, selectedDate, period);
+const editionCache=new Map();
+let requestVersion=0;
+async function choosePeriod() {
+  const version=++requestVersion;
+  const requested=selectEditions(catalog,selectedDate,period);
+  document.querySelector('main').setAttribute('aria-busy','true');
+  el('coverage').textContent=lang==='zh'?'正在載入刊期…':'Loading editions…';
+  el('error').hidden=true;
+  try {
+    const loaded=await Promise.all(requested.map(async entry=>{if(!editionCache.has(entry.date))editionCache.set(entry.date,await readJson(entry.path));return editionCache.get(entry.date);}));
+    if(version!==requestVersion)return;
+    selectedEditions=loaded;
   const newest = selectedEditions[0];
   const blank = {date:selectedDate, throughline:{zh:'這段期間尚未收錄新聞。',en:'No editions have been published for this period.'},stories:[],deep:[],context:[],memo:{title:{zh:'',en:''},items:[]},lower:[]};
   data = {...(newest || blank), stories:selectedEditions.flatMap(e => e.stories.map(s => ({...s, sourceId:s.id, editionDate:e.date, id:e.date+'-'+s.id})))};
@@ -17,6 +27,8 @@ function choosePeriod() {
   url.searchParams.set('view',period); url.searchParams.set('date',selectedDate);
   history.replaceState(null,'',url);
   render();
+  } catch(error){if(version===requestVersion){el('error').hidden=false;el('coverage').textContent=lang==='zh'?'刊期暫時無法載入，請重試。':'Edition could not be loaded. Please retry.';}}
+  finally{if(version===requestVersion)document.querySelector('main').setAttribute('aria-busy','false');}
 }
 function renderPeriod() {
   const zh = lang === 'zh', range = periodRange(selectedDate,period);
@@ -203,12 +215,11 @@ async function readJson(path) {
   return response.json();
 }
 readJson('./editions/index.json').then(async manifest => {
-  editions = await Promise.all(manifest.editions.map(item => readJson(item.path)));
-  editions.sort((a,b)=>b.date.localeCompare(a.date));
+  catalog=manifest.editions.slice().sort((a,b)=>b.date.localeCompare(a.date));
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';render();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});
   el('clear-search').onclick=()=>{query='';el('search').value='';renderStories();el('search').focus();};
-  mountCalendar({date:()=>selectedDate,locale:()=>lang,available:()=>editions.map(e=>e.date),select:value=>{selectedDate=value;choosePeriod();}});
+  mountCalendar({date:()=>selectedDate,locale:()=>lang,available:()=>catalog.map(e=>e.date),select:value=>{selectedDate=value;choosePeriod();}});
   el('print').onclick=()=>window.print();
   el('view-day').onclick=()=>{period='day';choosePeriod();};
   el('view-week').onclick=()=>{period='week';choosePeriod();};
@@ -216,7 +227,7 @@ readJson('./editions/index.json').then(async manifest => {
   el('previous').onclick=()=>{selectedDate=shiftDate(selectedDate,period==='day'?-1:-7);choosePeriod();};
   el('next').onclick=()=>{selectedDate=shiftDate(selectedDate,period==='day'?1:7);choosePeriod();};
   el('today').onclick=()=>{selectedDate=taipeiToday();choosePeriod();};
-  el('latest').onclick=()=>{if(editions.length){selectedDate=editions[0].date;period='day';choosePeriod();}};
+  el('latest').onclick=()=>{if(catalog.length){selectedDate=catalog[0].date;period='day';choosePeriod();}};
   choosePeriod();
 }).catch(()=>el('error').hidden=false);
 
