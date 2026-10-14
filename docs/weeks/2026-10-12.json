@@ -1,8 +1,8 @@
 {
   "weekStart": "2026-10-12",
   "throughline": {
-    "zh": "AI 的商業效益，正受到硬體成本、供應鏈、人才與能源條件共同影響。",
-    "en": "AI economics increasingly depend on hardware costs, supply chains, skills and energy conditions."
+    "zh": "本週聚焦 AI 投資如何穿過算力、融資、授權、資安與能源限制，台歐合作也提出新的供應鏈方向。",
+    "en": "This week tracks AI investment through compute, funding, licensing, security and energy constraints, alongside proposed Taiwan-Europe supply-chain cooperation."
   },
   "highlights": [
     {
@@ -13,13 +13,17 @@
         "en": "AI-chip competition shifts toward system cost"
       },
       "summary": {
-        "zh": "微軟公布 Maia 300，規劃 2027 年部署。重點是每次推論的完整成本，宣稱的效能優勢仍待獨立測試。",
-        "en": "Microsoft announced Maia 300 for planned 2027 deployment. Total inference cost is the key question; claimed advantages still need independent testing."
+        "zh": "微軟 Maia 300 與 Scaleway 北歐布局增加算力選擇，Scaleway 同時採用 AMD 與 NVIDIA。效能宣稱、可用容量及商用時程仍需驗證。",
+        "en": "Microsoft Maia 300 and Scaleway's Northern Europe plans expand compute options; Scaleway uses both AMD and NVIDIA. Performance claims, capacity and availability still require verification."
       },
       "references": [
         {
           "date": "2026-10-13",
           "storyId": 1
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 3
         }
       ]
     },
@@ -45,12 +49,12 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "AI 硬體升級也帶來專利與製程門檻",
-        "en": "AI hardware upgrades face legal and process constraints"
+        "zh": "晶片供應鏈同時面對授權與製程門檻",
+        "en": "Chip supply chains face licensing and process constraints"
       },
       "summary": {
-        "zh": "USITC 啟動垂直供電系統調查；TPCA 展聚焦玻璃核心與先進封裝。立案未代表侵權成立，玻璃核心也仍有可靠度與量產挑戰。",
-        "en": "The USITC opened a vertical-power-delivery investigation, while TPCA highlights glass cores and packaging. An investigation is not a ruling; production reliability remains a hurdle."
+        "zh": "USITC 供電調查與玻璃核心驗證尚未有最終結果；Arm 案判名目賠償 2 美元，權利金爭議仍未結。程序進展與實際供應、成本影響需分開看。",
+        "en": "Power-delivery proceedings and glass-core validation remain unresolved; the Arm case awarded $2 while royalties remain pending. Procedural progress does not establish supply or cost effects."
       },
       "references": [
         {
@@ -60,6 +64,10 @@
         {
           "date": "2026-10-12",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 2
         }
       ]
     },
@@ -67,12 +75,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "企業 Agent 導入更重視整合與資安",
-        "en": "Enterprise agents put integration and security in focus"
+        "zh": "Agent 商用與資安要同步評估",
+        "en": "Assess agent adoption alongside security"
       },
       "summary": {
-        "zh": "HCLTech 與 Anthropic 合作導入企業 Agent；IonQ 簽約收購 Elisity，交易仍待核准。合作與收購提供方向，實際採用與效益還需營運數據。",
-        "en": "HCLTech and Anthropic announced an enterprise-agent partnership; IonQ signed an Elisity acquisition subject to approvals. Adoption and benefits still require operating evidence."
+        "zh": "HCLTech 與 Anthropic 合作、IonQ 洽購 Elisity 推進企業導入與安全布局。Anthropic 複製研究使用簡化網路，無法直接認定真實網路已出現自主擴散。",
+        "en": "HCLTech's Anthropic partnership and IonQ's signed Elisity deal address adoption and security. Anthropic's simplified replication tests do not establish autonomous real-world propagation."
       },
       "references": [
         {
@@ -82,24 +90,32 @@
         {
           "date": "2026-10-13",
           "storyId": 4
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 5
         }
       ]
     },
     {
       "id": 5,
-      "category": "tech",
+      "category": "global",
       "title": {
-        "zh": "新聞內容授權成為 AI 成本的一部分",
-        "en": "News licensing becomes part of the AI cost debate"
+        "zh": "AI 融資熱度與總體風險並存",
+        "en": "AI financing coexists with macroeconomic risk"
       },
       "summary": {
-        "zh": "更多出版商加入 SPUR，推動追蹤 AI 使用新聞內容與授權規則。下一步看技術標準、實際授權條件及採用情況，聯盟擴大尚不等於模式已落地。",
-        "en": "More publishers joined SPUR to track AI use and licensing of news. Watch standards, licensing terms and adoption; membership growth does not establish implementation."
+        "zh": "IMF 上修 2026 年成長預測至 3.1%，騰訊發債約 57 億美元。預測受能源假設影響，發債也增加償債義務，兩者都無法保證 AI 投資回報。",
+        "en": "The IMF raised 2026 growth to 3.1%; Tencent raised about $5.7 billion in debt. Forecasts depend on energy assumptions, while borrowing adds obligations; neither guarantees AI returns."
       },
       "references": [
         {
-          "date": "2026-10-13",
-          "storyId": 5
+          "date": "2026-10-14",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 4
         }
       ]
     },
@@ -107,30 +123,12 @@
       "id": 6,
       "category": "global",
       "title": {
-        "zh": "AI 招聘變化需與失業率分開解讀",
-        "en": "AI-related hiring changes are not unemployment rates"
-      },
-      "summary": {
-        "zh": "IMF 研究指出，AI 高適用性職種招聘需求約下降 10%，AI 技能需求增加。職缺、就業與薪資衡量不同，不能把招聘降幅直接當成失業增幅。",
-        "en": "An IMF study reports roughly 10% lower hiring demand in highly AI-applicable occupations and growing AI-skill demand. Vacancy changes do not translate directly into unemployment."
-      },
-      "references": [
-        {
-          "date": "2026-10-13",
-          "storyId": 10
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "category": "global",
-      "title": {
         "zh": "能源安全牽動出口路徑與危機融資",
         "en": "Energy security affects export routes and crisis financing"
       },
       "summary": {
-        "zh": "沙國規劃增加管線輸油能力；世銀與 30 至 40 國討論危機援助。兩者都是應對風險的安排，輸油能力尚未完成，援助討論也不代表已撥款。",
-        "en": "Saudi Arabia plans greater pipeline export capacity; the World Bank is discussing crisis aid with 30–40 countries. Planned capacity is not installed capacity, and talks are not disbursements."
+        "zh": "沙國規劃管線擴容，OPEC 資料顯示 9 月增產；世銀討論危機援助。產量、出口、到岸供應與核准撥款各有不同進度，能源恢復仍需實際數據。",
+        "en": "Saudi pipeline expansion is planned, OPEC data show September output recovery, and the World Bank discusses aid. Production, exports, delivered supply and disbursements progress separately."
       },
       "references": [
         {
@@ -140,6 +138,36 @@
         {
           "date": "2026-10-12",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 6
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "taiwan",
+      "title": {
+        "zh": "台灣外交與台歐產業合作增加新動向",
+        "en": "Taiwan diplomacy and European cooperation develop"
+      },
+      "summary": {
+        "zh": "中國制裁邦交國官員後，美方提出反對；林佳龍在華沙倡議台歐高科技合作。外交立場與產業計畫尚未等同具體經貿損益或完成投資。",
+        "en": "The US opposed sanctions on Taiwan allies' officials, while Lin proposed high-tech cooperation in Warsaw. Diplomatic positions and proposals do not establish trade effects or completed investment."
+      },
+      "references": [
+        {
+          "date": "2026-10-13",
+          "storyId": 8
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 7
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 8
         }
       ]
     }

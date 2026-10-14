@@ -1,0 +1,532 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T00:08:17.387Z",
+  "throughline": {
+    "zh": "算力建置與融資持續推進，但能源、授權及資安條件仍決定 AI 投資能否轉成可用服務。",
+    "en": "Compute and financing advance, while energy, licensing and security determine whether AI investment becomes usable services."
+  },
+  "stories": [
+    {
+      "id": 1,
+      "category": "global",
+      "pick": true,
+      "title": {
+        "zh": "IMF 將 2026 年全球成長預測調升至 3.1%",
+        "en": "IMF raises 2026 global growth forecast to 3.1%"
+      },
+      "summary": {
+        "zh": "10/13 Reuters 與 AP 報導，IMF 將今年成長預測從 3.0% 調至 3.1%，並警告 AI 投資、能源與債務風險。",
+        "en": "October 13 reporting puts IMF growth at 3.1%, up from 3.0%, with AI, energy and debt risks."
+      },
+      "metric": "3.1%",
+      "metricLabel": {
+        "zh": "IMF 預測，非已實現成長",
+        "en": "IMF forecast, not realized growth"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "調升幅度為 0.1 個百分點；基準情境依賴能源運輸恢復。",
+            "en": "The upgrade is 0.1 percentage point; the baseline depends on energy-transport recovery."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "報告入口仍顯示預告，數字依兩家媒體交叉核對；追蹤完整報告與假設。",
+            "en": "The primary page still shows a preview; two outlets corroborate the numbers. Check the full assumptions."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/imf-says-ai-investment-propping-up-global-growth-war-debt-threaten-outlook-2026-10-13/",
+          "type": "Second-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "type": "Second-hand"
+        },
+        {
+          "name": "IMF · 發布預告",
+          "url": "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026",
+          "type": "First-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 2,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "Arm 授權案陪審團判賠 2 美元，權利金爭議未結",
+        "en": "Arm verdict awards $2; royalty dispute remains unresolved"
+      },
+      "summary": {
+        "zh": "10/13 陪審團認定 Arm 部分違約及干擾 Qualcomm 業務，判名目賠償 2 美元。雙方公告各自強調有利部分。",
+        "en": "The October 13 jury found breaches and interference, awarding $2. Both companies emphasized favorable findings."
+      },
+      "metric": "$2",
+      "metricLabel": {
+        "zh": "名目賠償",
+        "en": "Nominal damages"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "授權條款影響晶片設計商的成本與合作關係；小額賠償無法代表整案財務影響。",
+            "en": "Licensing terms affect chip-design costs and partnerships; nominal damages do not capture the full financial stakes."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "法官仍需處理權利金及其他爭議。本期未取得法院原始裁決，依雙方公告與 Reuters。",
+            "en": "Royalty questions await the judge. No original court verdict was obtained; company statements and Reuters support coverage."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Qualcomm · 聲明",
+          "url": "https://www.qualcomm.com/news/releases/2026/10/qualcomm-statement-on-trial-verdict-win",
+          "type": "First-hand"
+        },
+        {
+          "name": "Arm · 聲明",
+          "url": "https://newsroom.arm.com/news/arm-qualcomm-legal-dispute",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/qualcomm-says-jury-found-arm-breached-license-agreement-2026-10-13/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 3,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "Scaleway 同日宣布 AMD 與 NVIDIA 北歐算力布局",
+        "en": "Scaleway announces AMD and NVIDIA capacity in Northern Europe"
+      },
+      "summary": {
+        "zh": "Scaleway 10/13 宣布瑞典 MI355X 超級電腦與哥本哈根 B300 叢集。這是建置公告，尚無本期可核實的全面商用日期。",
+        "en": "On October 13, Scaleway announced Sweden MI355X and Copenhagen B300 clusters. Full commercial availability was not verified."
+      },
+      "metric": "2",
+      "metricLabel": {
+        "zh": "新 GPU 區域公告",
+        "en": "New GPU-zone announcements"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "歐洲客戶增加架構選擇；同一家雲商同時部署 AMD 與 NVIDIA，不能推論 NVIDIA 已被取代。",
+            "en": "Customers gain architecture choice; parallel AMD and NVIDIA deployments do not establish replacement."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "分析：雲端算力的效益要看利用率、軟體移植及電力成本，單看 GPU 型號不足以判斷。",
+            "en": "Analysis: utilization, software migration and electricity costs determine compute economics beyond GPU models."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤上線日期、可租容量、價格與工作負載測試。「歐洲第一」為公司說法。",
+            "en": "Track availability, rentable capacity, pricing and workload tests. The European-first claim is the company's."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Scaleway · 瑞典公告",
+          "url": "https://www.scaleway.com/en/news/scaleway-expands-ai-infrastructure-in-europe-with-new-amd-instinct-gpu-based-supercomputer-in-sweden/",
+          "type": "First-hand"
+        },
+        {
+          "name": "Scaleway · 歐洲布局",
+          "url": "https://www.scaleway.com/en/news/scaleway-scales-up-to-power-europes-ai-ambitions/",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/scaleway-build-amd-powered-ai-supercomputer-sweden-2026-10-13/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "騰訊完成約 57 億美元雙幣債券發行",
+        "en": "Tencent raises about $5.7 billion in dual-currency debt"
+      },
+      "summary": {
+        "zh": "Reuters 10/13 依交易條款報導，騰訊完成美元與離岸人民幣債券發行，約合 57 億美元。用途列為一般公司用途。",
+        "en": "Reuters reported October 13 term sheets showing about $5.7 billion raised in dollar and offshore-yuan bonds for general corporate purposes."
+      },
+      "metric": "$5.7B",
+      "metricLabel": {
+        "zh": "Reuters 依交易條款報導",
+        "en": "Reuters, citing term sheets"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "融資提供資金，也帶來償債義務；不能把發債額當營收，或認定全數用於 AI。",
+            "en": "Financing adds liquidity and repayment obligations; proceeds are not revenue or necessarily all AI spending."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "未取得一手發債文件，標為來源受限；追蹤最終文件與資金配置。",
+            "en": "Source-limited: original offering documents were not obtained. Track final disclosures and allocation."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/tencent-markets-us-dollar-dim-sum-bonds-four-tranches-2026-10-13/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 5,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "Anthropic 複製研究揭示能力與部署條件的落差",
+        "en": "Anthropic replication research exposes capability and deployment gaps"
+      },
+      "summary": {
+        "zh": "Anthropic 10/12 發布研究，10/13 引發資安討論。簡化實驗中，GLM-5.2 能協助部署 Llama3.1-8B；這不代表小模型已能在真實網路自主複製。",
+        "en": "Anthropic's October 12 study drew discussion on October 13. GLM-5.2 deployed Llama3.1-8B in simplified tests, not demonstrated real-world small-model self-replication."
+      },
+      "metric": "8B",
+      "metricLabel": {
+        "zh": "測試部署的模型規模",
+        "en": "Model payload tested"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "Agent 能協調部署程序，會擴大弱防護裝置的風險，但模型能力與裝置算力仍有落差。",
+            "en": "Agent orchestration can increase exposure of poorly secured devices, though capability and device-compute requirements still diverge."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "實驗 ADB 介面未設驗證，作者稱為真實成功率的上界。年底能力預測依趨勢外推，尚未確立。",
+            "en": "ADB authentication was absent, making results an upper bound. The year-end estimate is extrapolation, not established capability."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Anthropic · 研究",
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters · 外部觀點",
+          "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 6,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "OPEC 資料顯示 9 月增產，運輸恢復仍有落差",
+        "en": "OPEC data indicate September output recovery with shipping constraints"
+      },
+      "summary": {
+        "zh": "Reuters 10/13 引述 OPEC，9 月 OPEC+ 產量約每日 3,907 萬桶，較 8 月增加約 90 萬桶。運輸仍低於戰前水準。",
+        "en": "Reuters cited OPEC on October 13: September output reached 39.07 million barrels/day, up about 900,000 from August; shipments remained below prewar levels."
+      },
+      "metric": "900K",
+      "metricLabel": {
+        "zh": "桶／日，月增量",
+        "en": "Barrels/day, monthly increase"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "生產、出口與到岸供應不同，增產不保證買方供應同步恢復。",
+            "en": "Production, exports and delivered supply differ; higher output does not guarantee restored customer supply."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "數字為 OPEC 二手來源估計，未取得月報原檔；追蹤實際出口。",
+            "en": "Figures use OPEC secondary-source estimates; the original monthly report was not obtained. Watch exports."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters · 引述 OPEC",
+          "url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 7,
+      "category": "taiwan",
+      "pick": false,
+      "title": {
+        "zh": "美方回應中國制裁台灣邦交國官員",
+        "en": "US responds to sanctions on Taiwan allies' officials"
+      },
+      "summary": {
+        "zh": "10/13 美國國務院反對中國因台灣關係制裁貝里斯與巴拉圭官員。制裁於 10/12 公布，今日新增為美方回應。",
+        "en": "On October 13, the State Department opposed sanctions on Belizean and Paraguayan officials. The sanctions were announced October 12; the US response is new."
+      },
+      "metric": "10/13",
+      "metricLabel": {
+        "zh": "新增回應日期",
+        "en": "Date of new response"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "事件涉及外交往來；目前未見報導確認制裁造成具體經貿損失。",
+            "en": "The dispute concerns diplomatic engagement; concrete trade losses have not been established."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "依 Reuters 與 AP 交叉核對。各方主權與干預指控保留為其立場。",
+            "en": "Reuters and AP corroborate the response. Sovereignty and interference assertions remain attributed positions."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/us-says-it-opposes-chinese-coercion-after-belize-paraguay-ministers-sanctioned-2026-10-13/",
+          "type": "Second-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/china-taiwan-sanctions-belize-paraguay-9e034184490a60a9905aea9e437daf1e",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 8,
+      "category": "taiwan",
+      "pick": false,
+      "title": {
+        "zh": "林佳龍在華沙提出台歐產業合作方向",
+        "en": "Taiwan proposes closer industrial cooperation with Europe"
+      },
+      "summary": {
+        "zh": "林佳龍 10/13 在華沙安全論壇提出以半導體、AI 與精密製造深化台歐合作，並提及推動波蘭科技園區。這是政策倡議，尚非完成投資。",
+        "en": "At the October 13 Warsaw Security Forum, Lin proposed semiconductor, AI and precision-manufacturing cooperation, including a proposed Polish technology park; investment completion is not established."
+      },
+      "metric": "倡議",
+      "metricLabel": {
+        "zh": "政策方向，非完成建置",
+        "en": "Policy proposal, not completed infrastructure"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "產業合作可能影響供應鏈布局；落地仍需企業、地主國與資金安排。",
+            "en": "Industrial cooperation could shape supply chains; implementation requires companies, host-country arrangements and financing."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "中央社現場報導與 Reuters 互證演說。追蹤園區協議、投資額與進度；對供應鏈風險的評價屬外長立場。",
+            "en": "CNA and Reuters corroborate the speech. Watch agreements, financing and timelines; supply-chain risk assessments are the minister's position."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "中央社 · 華沙現場報導",
+          "url": "https://www.cna.com.tw/news/aipl/202610130326.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/taiwan-warns-europe-dangers-dependence-china-2026-10-13/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 2,
+      "question": {
+        "zh": "2 美元以外，授權案還在爭什麼？",
+        "en": "What remains beyond the $2 verdict?"
+      },
+      "text": {
+        "zh": "把賠償與未決權利金分開，才能評估授權模式的風險。",
+        "en": "Separate damages from unresolved royalties to assess licensing risk."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "多種 GPU 架構如何變成可用算力？",
+        "en": "How does architecture choice become usable compute?"
+      },
+      "text": {
+        "zh": "看軟體、電力與利用率，避免把建置公告直接當營運成果。",
+        "en": "Examine software, electricity and utilization beyond deployment announcements."
+      }
+    },
+    {
+      "id": 1,
+      "question": {
+        "zh": "成長預測靠哪些假設？",
+        "en": "Which assumptions support the forecast?"
+      },
+      "text": {
+        "zh": "對照能源情境與 AI 投資，判斷哪些条件需要後續驗證。",
+        "en": "Compare energy assumptions and AI investment to identify future checks."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "同時投資不同架構",
+        "en": "Parallel architecture investment"
+      },
+      "text": {
+        "zh": "Scaleway 同時規劃 AMD 與 NVIDIA 算力，支持供應選擇增加的觀察。單家公司公告仍不足以證明整個產業已轉向，需比較其他雲商的採用、價格與利用率。",
+        "en": "Scaleway's parallel deployments support greater choice. One company's announcements do not establish an industry shift; compare peer adoption, pricing and utilization."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "",
+      "en": ""
+    },
+    "items": []
+  },
+  "lower": [],
+  "verificationNote": {
+    "zh": "本期以 10/13 新增報導為主。IMF 數字經 Reuters 與 AP 互證，但官方入口仍為預告；騰訊發債與 OPEC 產量未取得一手文件。Arm 裁決依雙方公告及 Reuters，權利金仍未定；Scaleway 為建置計畫；Anthropic 為簡化實驗與條件式外推。政治評價均歸屬發言方。",
+    "en": "Coverage focuses on October 13 developments. Reuters and AP corroborate IMF figures, but the primary page remains a preview. Original Tencent offering and OPEC report documents were not obtained. Arm royalties remain unresolved; Scaleway coverage concerns deployment plans; Anthropic findings use simplified tests and conditional extrapolation. Political assessments are attributed."
+  }
+}

@@ -1,6 +1,10 @@
 {
   "editions": [
     {
+      "date": "2026-10-14",
+      "path": "./editions/2026-10-14.json"
+    },
+    {
       "date": "2026-10-13",
       "path": "./editions/2026-10-13.json"
     },
