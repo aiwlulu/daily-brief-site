@@ -2,11 +2,21 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {validDate,periodRange} from '../docs/dates.mjs';
 const bilingual=value=>{for(const lang of ['zh','en'])assert.ok(typeof value?.[lang]==='string' && value[lang].trim(),'Missing bilingual text');};
+// Guard the simplified character found in published Chinese copy.
+// Do not convert shared forms such as 干, 准, 台 or proper names automatically.
+const checkChineseCopy=(value,path='copy')=>{
+ if(!value||typeof value!=='object')return;
+ for(const [key,item] of Object.entries(value)){
+  if(key==='zh'&&typeof item==='string')assert.ok(!item.includes('\u6761'),'Simplified 条 in '+path+'.zh');
+  else if(item&&typeof item==='object')checkChineseCopy(item,path+'.'+key);
+ }
+};
 const manifest = JSON.parse(fs.readFileSync(new URL('../docs/editions/index.json',import.meta.url),'utf8'));
 assert.ok(manifest.editions.length);
 assert.equal(new Set(manifest.editions.map(e=>e.date)).size,manifest.editions.length);
 for(const entry of manifest.editions) {
 const data = JSON.parse(fs.readFileSync(new URL('../docs/'+entry.path,import.meta.url),'utf8'));
+checkChineseCopy(data,entry.path);
 assert.equal(data.date,entry.date);
 assert.ok(validDate(data.date));
 assert.equal(entry.path,'./editions/'+data.date+'.json');
@@ -33,6 +43,7 @@ for(const [weekStart,weekPath] of Object.entries(manifest.weeks||{})){
  assert.ok(validDate(weekStart));assert.equal(periodRange(weekStart,'week').start,weekStart);
  assert.equal(weekPath,'./weeks/'+weekStart+'.json');
  const digest=JSON.parse(fs.readFileSync(new URL('../docs/'+weekPath,import.meta.url),'utf8'));
+ checkChineseCopy(digest,weekPath);
  assert.equal(digest.weekStart,weekStart);bilingual(digest.throughline);
  assert.ok(digest.highlights.length<=7);assert.equal(new Set(digest.highlights.map(h=>h.id)).size,digest.highlights.length);
  for(const item of digest.highlights){

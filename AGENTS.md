@@ -9,6 +9,8 @@ Commit authorship for this repository should use the aiwlulu account. Do not imp
 
 ## Editorial and interface requirements
 
+- Chinese copy must use Traditional Chinese. Review daily editions, weekly digests and interface copy for simplified-character contamination before publication. Preserve valid shared characters and proper names such as 干擾, 核准 and 貝里斯; do not blindly convert all Chinese text.
+
 - Publish verified bilingual daily editions from 2026-10-12 onward, retaining prior editions. Publish only dates that have actually been researched. Mark reconstructed editions and unresolved evidence explicitly.
 - Treat Awwwards, Webby Awards and FWA as design aspirations, never claim award certification from self-assessment.
 - Prefer custom SVG icons for actions; when icons would be ambiguous, use a short label such as 日, 週, EN or 中. Every icon-only control needs an accessible name and a custom tooltip.
