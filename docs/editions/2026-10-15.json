@@ -1,0 +1,811 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T08:07:54+08:00",
+  "throughline": {
+    "zh": "AI 供應鏈持續擴充實體產能，但通膨、資安與合規風險也同步提高資本與營運門檻。",
+    "en": "The AI supply chain is adding physical capacity while inflation, security and compliance risks raise capital and operating hurdles."
+  },
+  "stories": [
+    {
+      "id": 1,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "ASML 第三季銷售達 117 億歐元，先進設備需求延伸至 2030 年",
+        "en": "ASML posts €11.7 billion in Q3 sales as advanced-tool demand extends to 2030"
+      },
+      "summary": {
+        "zh": "ASML 10 月 14 日公布第三季銷售 116.62 億歐元、毛利率 57.5%，並把全年銷售展望提高至 440 億至 450 億歐元。公司表示 2027 至 2028 年既定擴產仍可能不足，部分客戶已詢問 2029 至 2030 年設備。",
+        "en": "ASML reported €11.662 billion in third-quarter sales and a 57.5% gross margin, raising its 2026 sales outlook to €44 billion to €45 billion. The company said planned capacity for 2027 and 2028 may still be insufficient, with some customers discussing tools for 2029 and 2030."
+      },
+      "metric": "€11.7B",
+      "metricLabel": {
+        "zh": "第三季淨銷售",
+        "en": "Q3 net sales"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "ASML 位於先進晶片設備上游，訂單能見度會影響晶圓廠擴產、交期與設備價格。",
+            "en": "ASML sits upstream in advanced chip equipment, so its demand visibility affects fab expansion, lead times and equipment pricing."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "成長來自新機出貨與既有設備升級服務。當新增產能跟不上需求，公司可用提高產能、提升單機產出與 2027 年起調價來分配有限供給。",
+            "en": "Growth comes from new systems and installed-base upgrades. When capacity lags demand, ASML can add output, raise tool throughput and use planned price increases from 2027 to allocate scarce supply."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "第三季銷售由第二季 93.26 億歐元增至 116.62 億歐元，毛利率由 54.0% 升至 57.5%；全年數字仍屬公司展望。",
+            "en": "Sales rose from €9.326 billion in Q2 to €11.662 billion in Q3, while gross margin increased from 54.0% to 57.5%. Full-year figures remain company guidance."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察 2027 至 2028 年實際產能、設備交期與客戶資本支出是否支持延伸至 2030 年的需求訊號。",
+            "en": "Watch actual 2027 to 2028 capacity, lead times and customer capital spending to test demand signals extending into 2030."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "ASML · Q3 2026 results",
+          "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 2,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "日本資金支持 GlobalFoundries 在紐約興建最多兩座晶圓廠",
+        "en": "Japan-backed plan funds up to two GlobalFoundries fabs in New York"
+      },
+      "summary": {
+        "zh": "GlobalFoundries 表示，美日合作計畫將提供最多 210 億美元，在紐約州 Malta 興建最多兩座 300 毫米晶圓廠。第一座約投入 100 億美元，預計 2029 年投產，滿載時年產能約 90 萬片晶圓。",
+        "en": "GlobalFoundries said a U.S.-Japan initiative will provide up to $21 billion for as many as two 300 mm fabs in Malta, New York. About $10 billion will support the first fab, targeted for production in 2029 with annual capacity of roughly 900,000 wafers at full run rate."
+      },
+      "metric": "$21B",
+      "metricLabel": {
+        "zh": "計畫上限，第二座廠仍有條件",
+        "en": "Program ceiling; second fab remains conditional"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "新廠鎖定汽車、工業、通訊與資料中心所需的特色製程，擴大美國本土成熟與差異化晶片供給，也把日本資金與設備供應鏈納入。",
+            "en": "The fabs target differentiated chips for automotive, industrial, communications and data-center markets, expanding U.S. supply while drawing in Japanese capital and equipment suppliers."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "日本提供資本，GlobalFoundries 擔任技術與營運方。Reuters 報導公司可收取至少 20 年的管理費，降低自有資本支出並增加服務收入。",
+            "en": "Japan provides capital while GlobalFoundries supplies technology and operations. Reuters reports at least 20 years of management fees, limiting the foundry's own capital burden while adding service revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "第一座廠預計今年動工；是否興建第二座廠將在 2028 年底前決定。需追蹤客戶承諾、實際利用率與建廠成本。",
+            "en": "The first fab is expected to break ground this year, while the second-fab decision is due by the end of 2028. Customer commitments, utilization and construction costs are the key checks."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "GlobalFoundries",
+          "url": "https://gf.com/news-and-events/news/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/",
+          "type": "Second-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/globalfoundries-chip-manufacturing-japan-trump-2cba3c18009fc19638dfd721a292bf1a",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 3,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "消息人士稱 Anthropic 第三季營收季增 45% 至 168 億美元",
+        "en": "Source says Anthropic Q3 revenue rose 45% sequentially to $16.8 billion"
+      },
+      "summary": {
+        "zh": "一名參與 Anthropic 上市前投資人會議的人士告訴 Reuters，公司第三季營收由第二季 116 億美元增至 168 億美元，並稱調整後已獲利。Anthropic 未立即回應，相關數字未見公司文件或審計資料。",
+        "en": "A prospective investor who attended an Anthropic pre-IPO meeting told Reuters that third-quarter revenue rose from $11.6 billion to $16.8 billion and that the company was profitable on an adjusted basis. Anthropic did not immediately comment, and no company filing or audited statement was available."
+      },
+      "metric": "$16.8B",
+      "metricLabel": {
+        "zh": "單一消息人士所述第三季營收",
+        "en": "Q3 revenue reported by one source"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "若數字成立，Anthropic 的商業規模正在快速擴張，上市時將成為公開市場檢驗前沿模型收入與高額算力承諾的早期案例。",
+            "en": "If confirmed, Anthropic is scaling rapidly and could become an early public-market test of frontier-model revenue against very large compute commitments."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "45% 是季增率。所稱「調整後獲利」未提供調整項目、現金流或一般公認會計原則口徑，不能視為整體獲利已獲確認。",
+            "en": "The 45% figure is quarter over quarter. The reported adjusted profit lacks definitions, cash-flow data and a GAAP bridge, so it does not establish overall profitability."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "下一個驗證點是正式上市文件中的收入認列、客戶集中度、毛利率、現金消耗與長期雲端承諾。",
+            "en": "The next checks are revenue recognition, customer concentration, gross margin, cash burn and long-term cloud commitments in a formal listing document."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters · unnamed investor source",
+          "url": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "pick": true,
+      "title": {
+        "zh": "美國 9 月消費者物價年增率升至 3.7%",
+        "en": "U.S. September CPI inflation accelerates to 3.7%"
+      },
+      "summary": {
+        "zh": "美國勞工統計局表示，9 月 CPI 經季節調整後月增 0.6%，年增率由 8 月的 3.4% 升至 3.7%。汽油當月上漲 9.1%，占整體月增幅一半以上；核心 CPI 月增 0.3%、年增 2.6%。",
+        "en": "The U.S. Bureau of Labor Statistics reported that September CPI rose 0.6% seasonally adjusted, lifting annual inflation from 3.4% to 3.7%. Gasoline rose 9.1% in the month and accounted for more than half of the headline increase; core CPI rose 0.3% monthly and 2.6% annually."
+      },
+      "metric": "3.7%",
+      "metricLabel": {
+        "zh": "整體 CPI 年增率",
+        "en": "Headline CPI, year over year"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "通膨回升會影響利率路徑與企業融資成本，對高度依賴資料中心與債務融資的 AI 基礎設施計畫尤其敏感。",
+            "en": "Higher inflation affects the rate path and corporate financing costs, with particular relevance for capital-intensive AI infrastructure plans."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "能源是主要推力，但核心年增率也由 2.4% 升至 2.6%。單月能源衝擊與較廣泛服務價格需分開判讀。",
+            "en": "Energy was the main driver, but core annual inflation also rose from 2.4% to 2.6%. The monthly energy shock should be separated from broader services inflation."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "10 月 CPI 預定 11 月 10 日發布；後續需比較能源回落幅度、核心服務與聯準會決策。",
+            "en": "October CPI is scheduled for November 10. Watch energy normalization, core services and the Federal Reserve response."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/stock-markets-earnings-bonds-artificial-intelligence-704d3190f0fba2908df07c85f26346ec",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 5,
+      "category": "global",
+      "pick": true,
+      "title": {
+        "zh": "中國 9 月出口年增 36.3%，前三季貿易順差達 9,381 億美元",
+        "en": "China September exports rise 36.3% as nine-month surplus reaches $938.1 billion"
+      },
+      "summary": {
+        "zh": "中國海關資料顯示，9 月出口年增 36.3%、進口年增 31.0%，單月順差 1,335 億美元。前三季順差達 9,381 億美元，高科技產品與汽車支撐出口，但國內需求仍偏弱。",
+        "en": "Chinese customs data showed September exports up 36.3% and imports up 31.0% from a year earlier, producing a $133.5 billion monthly surplus. The nine-month surplus reached $938.1 billion, supported by high-tech goods and autos while domestic demand remained weak."
+      },
+      "metric": "+36.3%",
+      "metricLabel": {
+        "zh": "9 月出口年增率",
+        "en": "September export growth, year over year"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "出口持續支撐中國成長，也可能加大歐盟與美國對產能、匯率與市場准入的政策壓力。",
+            "en": "Exports continue to support Chinese growth while increasing U.S. and EU pressure over capacity, currency and market access."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "半導體出口額前三季年增 108.1%，反映價格與產品組合，不能直接解讀為出貨量同幅成長。",
+            "en": "Semiconductor export value rose 108.1% in the first nine months, reflecting prices and product mix; it does not imply the same growth in physical volume."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察歐盟後續貿易措施、第四季出口量價與國內消費是否縮小對外需的依賴。",
+            "en": "Watch EU trade measures, fourth-quarter export price and volume, and whether domestic consumption reduces reliance on external demand."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters · citing customs data",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-exports-surge-363-yy-september-imports-up-31-2026-10-14/",
+          "type": "Second-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/china-trade-exports-db43e08437b65f65c2ead64c82f9b990",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 6,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "荷莫茲海峽商船事件增加，伊朗戰術意圖仍主要來自匿名說法",
+        "en": "Commercial-shipping incidents rise near Hormuz; Iranian intent remains based largely on unnamed sources"
+      },
+      "summary": {
+        "zh": "Reuters 根據航運安全資料指出，荷莫茲周邊 48 小時內至少有五起涉及油輪與商船的事件。兩名未具名伊朗官員稱攻擊節奏與範圍已改變，美方未具名官員證實伊朗使用小艇觀測員，但伊朗外交部與五角大廈未回應。",
+        "en": "Reuters reported at least five tanker and commercial-vessel incidents around Hormuz in 48 hours, based on maritime-security data. Two unnamed Iranian officials described a shift in tempo and geography, while an unnamed U.S. official confirmed the use of small-boat spotters; Iran's foreign ministry and the Pentagon did not comment."
+      },
+      "metric": "5",
+      "metricLabel": {
+        "zh": "48 小時內通報事件，並非完整損害統計",
+        "en": "Reported incidents in 48 hours, not a complete damage count"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "海峽在戰前承載約五分之一全球石油與液化天然氣貿易，攻擊節奏會直接影響船舶路線、保險與能源成本。",
+            "en": "Before the war, the strait carried roughly one-fifth of global oil and LNG trade. Attack tempo directly affects routing, insurance and energy costs."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證限制",
+            "en": "Verification limit"
+          },
+          "text": {
+            "zh": "事件數有航運資料支持，但政治意圖、決策層級與擴大攻擊範圍的說法主要來自匿名官員，尚無公開一手文件。",
+            "en": "Maritime data support the incident count, but claims about political intent, leadership decisions and wider targeting rely mainly on unnamed officials and lack public primary documents."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤 UKMTO、JMIC 與 IMO 通報、實際通航量、保費及油價，才能判斷是否形成持續性供應衝擊。",
+            "en": "Track UKMTO, JMIC and IMO notices, actual traffic, insurance premiums and oil prices to judge whether the disruption becomes persistent."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters · officials and maritime data",
+          "url": "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 7,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "美國財政部對美國銀行採取逾 12.1 億美元執法行動",
+        "en": "U.S. Treasury imposes more than $1.21 billion in Bank of America enforcement actions"
+      },
+      "summary": {
+        "zh": "美國財政部 10 月 13 日宣布，FinCEN、OCC 與 OFAC 就反洗錢與制裁缺失對美國銀行採取逾 12.1 億美元執法行動。財政部稱，銀行未及時通報逾 50 億美元可疑交易；銀行表示正執行 2024 年命令要求的改善。",
+        "en": "The U.S. Treasury announced more than $1.21 billion in FinCEN, OCC and OFAC actions over anti-money-laundering and sanctions-control failures. Treasury said the bank failed to report more than $5 billion in suspicious activity on time; Bank of America said remediation under a 2024 order is under way."
+      },
+      "metric": ">$1.21B",
+      "metricLabel": {
+        "zh": "整體執法金額，部分機關罰款有重疊計入",
+        "en": "Aggregate action; agency penalties partly overlap"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "案件把交易監控、客戶盡職調查與資料治理直接連到大型銀行的成本與營運風險。",
+            "en": "The case ties transaction monitoring, customer due diligence and data governance directly to a large bank's cost and operating risk."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "FinCEN 的 12 億美元評估包含 OCC 的 7.5 億美元抵減安排，另有 OFAC 1,160 萬美元和解；不能把所有公告數字直接相加。",
+            "en": "FinCEN's $1.2 billion assessment includes a $750 million credit tied to the OCC action, plus an $11.6 million OFAC settlement. The announced amounts should not be added mechanically."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "同意命令要求第三方回溯與獨立檢視，後續關鍵是改善期限、額外通報與合規支出。",
+            "en": "The orders require a third-party lookback and independent reviews. Remediation deadlines, additional filings and compliance spending are the next checks."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0657",
+          "type": "First-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/treasury-bank-of-america-money-laundering-29013b2c8f08a3a8d579a96721ed1aa4",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 8,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "Anthropic 要求重審五角大廈供應鏈風險認定案",
+        "en": "Anthropic seeks rehearing of Pentagon supply-chain risk ruling"
+      },
+      "summary": {
+        "zh": "Anthropic 要求華盛頓特區聯邦上訴法院重審 9 月以 2 比 1 維持的裁決。公司主張國防部把原用於敵對外國行為者的法律擴張至政府承包商；國防部先前則認為公司的安全限制可能影響軍事任務。",
+        "en": "Anthropic asked the federal appeals court in Washington to rehear a September 2-1 ruling that upheld the Pentagon's supply-chain risk designation. The company argues that a law aimed at hostile foreign actors was extended to contractors, while the Pentagon has said Anthropic's safety restrictions could impair military operations."
+      },
+      "metric": "2–1",
+      "metricLabel": {
+        "zh": "9 月上訴裁決票數",
+        "en": "September appellate vote"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "案件會測試政府能否把模型使用限制視為國家安全供應風險，也直接影響 AI 業者在軍事市場的合約邊界。",
+            "en": "The case tests whether model-use restrictions can be treated as a national-security supply risk and directly affects contract boundaries for AI vendors in defense markets."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證限制",
+            "en": "Verification limit"
+          },
+          "text": {
+            "zh": "本期取得 Reuters 報導，未取得重審聲請全文；公司稱已損失數十億美元業務，該金額仍屬當事方主張。",
+            "en": "This edition obtained Reuters coverage but not the full rehearing petition. Anthropic's claim of billions in lost business remains a party assertion."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察法院是否同意合議庭或全院重審，以及國防採購條款是否改變。",
+            "en": "Watch whether the court grants panel or en banc rehearing and whether defense procurement terms change."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/anthropic-seeks-rehearing-case-over-pentagons-security-risk-branding-2026-10-14/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 9,
+      "category": "taiwan",
+      "pick": false,
+      "title": {
+        "zh": "能源署稱台灣離岸風電累計裝置容量突破 5GW",
+        "en": "Taiwan Energy Administration says offshore wind capacity has exceeded 5 GW"
+      },
+      "summary": {
+        "zh": "經濟部能源署在 10 月 14 日能源週開幕資料中表示，台灣離岸風電累計裝置容量已超過 5GW，並已公布 2026 至 2039 年中長程推動計畫。展會同時展示地熱探勘、綠電憑證、儲能與氫能檢測機制。",
+        "en": "Taiwan's Energy Administration said at the October 14 Energy Week opening that cumulative offshore-wind capacity has exceeded 5 GW and that a 2026 to 2039 development plan is in place. The event also covered geothermal exploration, renewable-energy certificates, storage and hydrogen testing."
+      },
+      "metric": ">5GW",
+      "metricLabel": {
+        "zh": "能源署公布的累計裝置容量",
+        "en": "Cumulative capacity reported by the agency"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "AI 與半導體增加用電需求，低碳電力供應會影響企業採購、電網投資與出口供應鏈的減碳要求。",
+            "en": "AI and semiconductor demand is raising electricity needs, making low-carbon supply relevant to corporate procurement, grid investment and export-chain decarbonization."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "價值鏈涵蓋開發商、設備與施工、電網、憑證及企業購電。裝置容量需再與發電量、容量因數、併網進度及電價比較。",
+            "en": "The value chain spans developers, equipment and construction, the grid, certificates and corporate power buyers. Installed capacity must be compared with generation, capacity factors, grid connection and pricing."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "本期數字來自能源署活動資料，尚未另取得同日統計表；後續應核對月度發電量與 2039 年計畫的招標節點。",
+            "en": "The figure comes from the agency's event release; a same-day statistical table was not separately obtained. Monthly generation and tender milestones under the 2039 plan are the next checks."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "經濟部能源署",
+          "url": "https://www.moeaea.gov.tw/ECW/populace/news/News.aspx?kind=1&menu_id=41&news_id=34613",
+          "type": "First-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 10,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "Google DeepMind 與微軟主管呼籲建立 AI 安全規範",
+        "en": "Google DeepMind and Microsoft leaders call for stronger AI safety standards"
+      },
+      "summary": {
+        "zh": "Google DeepMind 共同創辦人 Demis Hassabis 在都柏林 AI 峰會表示，近期 AI Agent 入侵事件是早期警訊，最終可能需要國際標準機構。微軟總裁 Brad Smith 也主張加快安全法律與規則，但這些仍是企業主管的政策倡議。",
+        "en": "Google DeepMind co-founder Demis Hassabis called recent AI-agent hacking incidents early warnings and said an international standards body may eventually be needed. Microsoft President Brad Smith also urged faster safety rules, but these remain industry policy proposals rather than adopted standards."
+      },
+      "metric": "提案",
+      "metricLabel": {
+        "zh": "尚無已通過的國際標準",
+        "en": "No international standard has been adopted"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "Agent 可接觸程式碼、憑證與企業系統，安全問題已從模型輸出延伸到實際操作權限與事故責任。",
+            "en": "Agents can access code, credentials and enterprise systems, extending safety risk from model output to operational permissions and incident liability."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "若認證與風險分級落地，模型供應商、雲端平台與企業客戶都會增加測試、稽核與保險成本，也可能形成可信任產品的進入門檻。",
+            "en": "If certification and risk tiers emerge, model vendors, cloud platforms and enterprise buyers will face higher testing, audit and insurance costs, potentially creating a trust-based barrier to entry."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察倡議是否轉成具體標準組織、認證範圍、事故通報規則與跨國執行機制。",
+            "en": "Watch whether the proposal becomes a standards body with defined certification scope, incident reporting and cross-border enforcement."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 2,
+      "question": {
+        "zh": "誰出資、誰營運、誰承擔利用率風險？",
+        "en": "Who funds, operates and bears utilization risk?"
+      },
+      "text": {
+        "zh": "美日政府提供資本與持股，GlobalFoundries 以技術、營運與長期管理費參與，這種分工會改變晶圓廠資本回收模式。",
+        "en": "Government capital and ownership combine with GlobalFoundries technology, operations and long-term fees, changing the fab investment model."
+      }
+    },
+    {
+      "id": 1,
+      "question": {
+        "zh": "設備訂單如何傳導到晶片供給？",
+        "en": "How do tool orders translate into chip supply?"
+      },
+      "text": {
+        "zh": "從 ASML 產能、交期、客戶資本支出到晶圓廠利用率逐層核對，才能判斷需求是否可持續。",
+        "en": "Check ASML capacity, lead times, customer capex and fab utilization in sequence to test durability."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "高速營收成長能否覆蓋算力承諾？",
+        "en": "Can rapid revenue growth cover compute commitments?"
+      },
+      "text": {
+        "zh": "正式上市文件中的毛利率、現金流與雲端合約，會比單一調整後獲利說法更能驗證商業模式。",
+        "en": "Gross margin, cash flow and cloud contracts in a formal filing will test the model better than one adjusted-profit claim."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "AI 產能擴張具有結構性訊號",
+        "en": "AI capacity expansion shows structural signals"
+      },
+      "text": {
+        "zh": "ASML 的多年設備需求與 GlobalFoundries 的政府資本新廠都跨越一般短期庫存循環，但 2029 年後的利用率仍取決於終端需求與資本成本。若主要雲端業者削減資本支出或晶圓廠交期快速回落，這項判讀需要下修。",
+        "en": "Multi-year ASML demand and government-backed GlobalFoundries fabs extend beyond a typical inventory cycle, but utilization after 2029 still depends on end demand and capital costs. Sharp hyperscaler capex cuts or rapidly falling fab lead times would weaken this view."
+      }
+    },
+    {
+      "title": {
+        "zh": "資本成本重新進入 AI 商業模型",
+        "en": "Capital costs return to the AI business model"
+      },
+      "text": {
+        "zh": "美國通膨回升與 Anthropic 的高成長數字同日出現，凸顯收入成長仍需與融資成本、雲端承諾及現金流一起判讀。",
+        "en": "Higher U.S. inflation and Anthropic's rapid reported growth highlight the need to read revenue alongside financing costs, cloud commitments and cash flow."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "AI 實體供應鏈從訂單能見度走向公共資本建廠",
+      "en": "AI infrastructure moves from order visibility to publicly backed fabs"
+    },
+    "items": [
+      {
+        "title": {
+          "zh": "發生什麼",
+          "en": "What happened"
+        },
+        "text": {
+          "zh": "ASML 公布創紀錄季度銷售與延伸至 2030 年的客戶詢問；GlobalFoundries 同日取得最多 210 億美元美日合作資金，規劃紐約新廠。",
+          "en": "ASML reported record quarterly sales and customer interest extending to 2030, while GlobalFoundries received a U.S.-Japan plan worth up to $21 billion for New York fabs."
+        }
+      },
+      {
+        "title": {
+          "zh": "為什麼現在",
+          "en": "Why now"
+        },
+        "text": {
+          "zh": "先進運算、汽車與資料中心需求推動長期產能規劃，政府同時把供應安全納入貿易與產業政策。",
+          "en": "Advanced computing, automotive and data-center demand is driving long-horizon capacity planning as governments fold supply security into trade and industrial policy."
+        }
+      },
+      {
+        "title": {
+          "zh": "賺錢方式",
+          "en": "Business model impact"
+        },
+        "text": {
+          "zh": "ASML 透過設備、升級服務與價格取得收入；GlobalFoundries 以代工製造加上長期管理費參與，部分建廠資本由政府安排承擔。",
+          "en": "ASML earns from tools, upgrades and pricing. GlobalFoundries combines foundry production with long-term management fees while government arrangements provide part of the construction capital."
+        }
+      },
+      {
+        "title": {
+          "zh": "競爭者",
+          "en": "Competitors"
+        },
+        "text": {
+          "zh": "設備端需比較 Applied Materials、Lam Research 與 Tokyo Electron；代工端需比較 TSMC、Samsung、Intel Foundry 在製程、補貼、客戶承諾與利用率的差異。",
+          "en": "Equipment comparisons include Applied Materials, Lam Research and Tokyo Electron. Foundry comparisons include TSMC, Samsung and Intel Foundry across process, subsidies, customer commitments and utilization."
+        }
+      },
+      {
+        "title": {
+          "zh": "產業與待查",
+          "en": "Industry and open questions"
+        },
+        "text": {
+          "zh": "信心為中高。若 ASML 交期縮短、主要客戶削減資本支出，或 GlobalFoundries 未取得第二廠客戶與資金，將改變結構性擴張的判讀。",
+          "en": "Confidence is medium-high. Shorter ASML lead times, major customer capex cuts, or failure to secure customers and funding for the second fab would change the structural-expansion view."
+        }
+      }
+    ]
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "台積電獲利預測",
+        "en": "TSMC earnings previews"
+      },
+      "text": {
+        "zh": "實際財報尚未發布，預測與市場共識不列為已發生的新事實。",
+        "en": "Actual results were not yet released, so forecasts and consensus estimates were not treated as new facts."
+      }
+    },
+    {
+      "title": {
+        "zh": "AI 類股因通膨下跌",
+        "en": "AI-stock selloff after CPI"
+      },
+      "text": {
+        "zh": "市場反應未單獨成篇，底層的新資訊是 CPI、利率與融資成本變化。",
+        "en": "The market move was not treated as a standalone story; the underlying information is CPI, rates and financing costs."
+      }
+    },
+    {
+      "title": {
+        "zh": "展會與產品宣傳標題",
+        "en": "Event and product promotion headlines"
+      },
+      "text": {
+        "zh": "缺少新合約、部署數據或正式政策決定的公告降低權重。",
+        "en": "Announcements without new contracts, deployment data or formal policy decisions received lower weight."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "本期資料截至台北時間 10 月 15 日上午。ASML、CPI、GlobalFoundries、美國銀行與台灣能源資料有一手來源。Anthropic 營收來自單一會議參與者，公司未回應；其國防採購案未取得聲請全文。伊朗戰術與政治意圖主要來自匿名官員，事件數另有航運資料支持。中國貿易數字由 Reuters 與 AP 依海關資料交叉核對，但未取得可直接連結的同日海關原表。",
+    "en": "This edition is current through the morning of October 15 in Taipei. Primary sources support ASML, CPI, GlobalFoundries, Bank of America and Taiwan energy figures. Anthropic revenue comes from one meeting participant and the company did not comment; the defense-case petition was not obtained. Claims about Iranian tactics and political intent rely mainly on unnamed officials, while maritime data support the incident count. Reuters and AP corroborate China trade figures from customs data, but a directly linkable same-day customs table was not obtained."
+  }
+}

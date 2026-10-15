@@ -1,20 +1,20 @@
 {
   "weekStart": "2026-10-12",
   "throughline": {
-    "zh": "本週聚焦 AI 投資如何穿過算力、融資、授權、資安與能源限制，台歐合作也提出新的供應鏈方向。",
-    "en": "This week tracks AI investment through compute, funding, licensing, security and energy constraints, alongside proposed Taiwan-Europe supply-chain cooperation."
+    "zh": "本週主線是 AI 從模型競賽進入電力、設備、晶圓廠、融資與治理的整體系統競爭。",
+    "en": "This week, AI competition broadened from models into power, equipment, fabs, financing and governance."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "AI 晶片競爭轉向整套系統成本",
-        "en": "AI-chip competition shifts toward system cost"
+        "zh": "AI 晶片競爭轉向整套系統與長期產能",
+        "en": "AI chip competition shifts to full systems and long-horizon capacity"
       },
       "summary": {
-        "zh": "微軟 Maia 300 與 Scaleway 北歐布局增加算力選擇，Scaleway 同時採用 AMD 與 NVIDIA。效能宣稱、可用容量及商用時程仍需驗證。",
-        "en": "Microsoft Maia 300 and Scaleway's Northern Europe plans expand compute options; Scaleway uses both AMD and NVIDIA. Performance claims, capacity and availability still require verification."
+        "zh": "Maia 300、Scaleway 多架構布局、ASML 設備需求與 GlobalFoundries 新廠顯示，競爭已涵蓋晶片、軟體、設備、電力與建廠資本。訂單能見度很長，但仍需以利用率與客戶資本支出驗證。",
+        "en": "Maia 300, Scaleway's multi-architecture plans, ASML demand and new GlobalFoundries fabs show competition spanning chips, software, tools, power and construction capital. Long visibility still needs validation through utilization and customer capex."
       },
       "references": [
         {
@@ -24,63 +24,49 @@
         {
           "date": "2026-10-14",
           "storyId": 3
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 2
         }
       ]
     },
     {
       "id": 2,
-      "category": "taiwan",
+      "category": "tech",
       "title": {
-        "zh": "DRAM 漲價推高南亞科獲利",
-        "en": "DRAM pricing lifts Nanya’s profitability"
+        "zh": "記憶體價格與設備瓶頸同時推高供應鏈獲利",
+        "en": "Memory pricing and tool constraints lift different parts of the supply chain"
       },
       "summary": {
-        "zh": "南亞科第三季自結毛利率達 85.7%，但出貨量下降。這次成長主要看價格，後續要追蹤供給、庫存與漲價能否延續。",
-        "en": "Nanya reported a preliminary Q3 gross margin of 85.7% despite lower shipments. Pricing matters more than volume; watch supply, inventories and price durability."
+        "zh": "南亞科的高毛利率反映 DRAM 漲價，ASML 則受惠於設備供給受限與升級需求。前者較偏循環，後者目前呈現較長的結構性訂單訊號。",
+        "en": "Nanya Technology's margin reflects DRAM pricing, while ASML benefits from constrained tool supply and upgrades. The former looks more cyclical; the latter currently shows longer structural demand signals."
       },
       "references": [
         {
           "date": "2026-10-13",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 1
         }
       ]
     },
     {
       "id": 3,
-      "category": "taiwan",
-      "title": {
-        "zh": "晶片供應鏈同時面對授權與製程門檻",
-        "en": "Chip supply chains face licensing and process constraints"
-      },
-      "summary": {
-        "zh": "USITC 供電調查與玻璃核心驗證尚未有最終結果；Arm 案判名目賠償 2 美元，權利金爭議仍未結。程序進展與實際供應、成本影響需分開看。",
-        "en": "Power-delivery proceedings and glass-core validation remain unresolved; the Arm case awarded $2 while royalties remain pending. Procedural progress does not establish supply or cost effects."
-      },
-      "references": [
-        {
-          "date": "2026-10-12",
-          "storyId": 1
-        },
-        {
-          "date": "2026-10-12",
-          "storyId": 2
-        },
-        {
-          "date": "2026-10-14",
-          "storyId": 2
-        }
-      ]
-    },
-    {
-      "id": 4,
       "category": "tech",
       "title": {
-        "zh": "Agent 商用與資安要同步評估",
-        "en": "Assess agent adoption alongside security"
+        "zh": "AI 商用速度與治理成本同步上升",
+        "en": "AI commercialization and governance costs rise together"
       },
       "summary": {
-        "zh": "HCLTech 與 Anthropic 合作、IonQ 洽購 Elisity 推進企業導入與安全布局。Anthropic 複製研究使用簡化網路，無法直接認定真實網路已出現自主擴散。",
-        "en": "HCLTech's Anthropic partnership and IonQ's signed Elisity deal address adoption and security. Anthropic's simplified replication tests do not establish autonomous real-world propagation."
+        "zh": "企業 Agent、內容授權、Anthropic 營收與 AI 資安倡議顯示商用正在加速，同時帶來安全、法律與政府採購邊界。正式財務文件與可執行標準仍是主要缺口。",
+        "en": "Enterprise agents, content licensing, Anthropic revenue and AI-security proposals show faster commercialization alongside safety, legal and procurement constraints. Formal financial filings and enforceable standards remain the main gaps."
       },
       "references": [
         {
@@ -89,11 +75,49 @@
         },
         {
           "date": "2026-10-13",
-          "storyId": 4
+          "storyId": 5
         },
         {
           "date": "2026-10-14",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 8
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "title": {
+        "zh": "通膨與債務提高 AI 擴張的資本門檻",
+        "en": "Inflation and debt raise the capital hurdle for AI expansion"
+      },
+      "summary": {
+        "zh": "IMF 的成長展望、騰訊發債與美國 CPI 回升共同顯示，AI 投資需求強勁，但資金成本與債務承擔能力重新成為篩選條件。後續需看現金流是否追上資本支出。",
+        "en": "The IMF outlook, Tencent bond issuance and higher U.S. CPI show strong AI investment demand, but funding costs and debt capacity are again key filters. Cash flow must catch up with capital spending."
+      },
+      "references": [
+        {
+          "date": "2026-10-14",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-14",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 4
         }
       ]
     },
@@ -101,21 +125,33 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "AI 融資熱度與總體風險並存",
-        "en": "AI financing coexists with macroeconomic risk"
+        "zh": "能源與運輸安全直接影響算力和供應鏈成本",
+        "en": "Energy and transport security feed directly into compute and supply-chain costs"
       },
       "summary": {
-        "zh": "IMF 上修 2026 年成長預測至 3.1%，騰訊發債約 57 億美元。預測受能源假設影響，發債也增加償債義務，兩者都無法保證 AI 投資回報。",
-        "en": "The IMF raised 2026 growth to 3.1%; Tencent raised about $5.7 billion in debt. Forecasts depend on energy assumptions, while borrowing adds obligations; neither guarantees AI returns."
+        "zh": "台電電網、沙國輸油路徑、OPEC 產量、台灣離岸風電與荷莫茲商船事件，將電力供給與運輸風險連到 AI、半導體與通膨。短期衝擊需和長期能源投資分開判讀。",
+        "en": "Taiwan's grid, Saudi export routes, OPEC output, offshore wind and Hormuz shipping incidents connect power and transport risk to AI, semiconductors and inflation. Short shocks should be separated from long-term energy investment."
       },
       "references": [
         {
-          "date": "2026-10-14",
-          "storyId": 1
+          "date": "2026-10-13",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-13",
+          "storyId": 11
         },
         {
           "date": "2026-10-14",
-          "storyId": 4
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 9
         }
       ]
     },
@@ -123,25 +159,17 @@
       "id": 6,
       "category": "global",
       "title": {
-        "zh": "能源安全牽動出口路徑與危機融資",
-        "en": "Energy security affects export routes and crisis financing"
+        "zh": "中國高科技出口支撐成長，也加大貿易摩擦",
+        "en": "China high-tech exports support growth and increase trade friction"
       },
       "summary": {
-        "zh": "沙國規劃管線擴容，OPEC 資料顯示 9 月增產；世銀討論危機援助。產量、出口、到岸供應與核准撥款各有不同進度，能源恢復仍需實際數據。",
-        "en": "Saudi pipeline expansion is planned, OPEC data show September output recovery, and the World Bank discusses aid. Production, exports, delivered supply and disbursements progress separately."
+        "zh": "9 月出口大增使前三季順差接近 1 兆美元，高科技產品與汽車是主要支柱。這提供成長緩衝，也提高歐美採取貿易措施的可能性。",
+        "en": "A September export surge pushed the nine-month surplus close to $1 trillion, led by high-tech goods and autos. This cushions growth while increasing the likelihood of U.S. and EU trade action."
       },
       "references": [
         {
-          "date": "2026-10-13",
-          "storyId": 11
-        },
-        {
-          "date": "2026-10-12",
+          "date": "2026-10-15",
           "storyId": 5
-        },
-        {
-          "date": "2026-10-14",
-          "storyId": 6
         }
       ]
     },
@@ -149,12 +177,12 @@
       "id": 7,
       "category": "taiwan",
       "title": {
-        "zh": "台灣外交與台歐產業合作增加新動向",
-        "en": "Taiwan diplomacy and European cooperation develop"
+        "zh": "台灣外部連結涵蓋外交、產業與能源韌性",
+        "en": "Taiwan's external links span diplomacy, industry and energy resilience"
       },
       "summary": {
-        "zh": "中國制裁邦交國官員後，美方提出反對；林佳龍在華沙倡議台歐高科技合作。外交立場與產業計畫尚未等同具體經貿損益或完成投資。",
-        "en": "The US opposed sanctions on Taiwan allies' officials, while Lin proposed high-tech cooperation in Warsaw. Diplomatic positions and proposals do not establish trade effects or completed investment."
+        "zh": "邦交國制裁、台歐產業合作與離岸風電進展顯示，外交、供應鏈與能源政策相互連動。後續需以具體協議、投資與發電量確認成果。",
+        "en": "Sanctions involving diplomatic partners, Taiwan-Europe industrial cooperation and offshore-wind progress show links among diplomacy, supply chains and energy policy. Concrete agreements, investment and generation data are the next tests."
       },
       "references": [
         {
@@ -168,6 +196,10 @@
         {
           "date": "2026-10-14",
           "storyId": 8
+        },
+        {
+          "date": "2026-10-15",
+          "storyId": 9
         }
       ]
     }
