@@ -1,20 +1,20 @@
 {
   "weekStart": "2026-10-12",
   "throughline": {
-    "zh": "本週主線是 AI 從模型競賽進入電力、設備、晶圓廠、融資與治理的整體系統競爭。",
-    "en": "This week, AI competition broadened from models into power, equipment, fabs, financing and governance."
+    "zh": "本週 AI 需求持續推動晶片、記憶體與算力建設，但資本成本、安全責任、能源供給與勞資關係成為更清楚的擴張條件。",
+    "en": "AI demand kept driving chips, memory and compute infrastructure this week, while capital costs, safety liability, energy supply and labor relations became clearer conditions for expansion."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "AI 晶片競爭轉向整套系統與長期產能",
-        "en": "AI chip competition shifts to full systems and long-horizon capacity"
+        "zh": "AI 晶片競爭轉向系統能力與長期產能",
+        "en": "AI chip competition shifts to systems and long-horizon capacity"
       },
       "summary": {
-        "zh": "Maia 300、Scaleway 多架構布局、ASML 設備需求與 GlobalFoundries 新廠顯示，競爭已涵蓋晶片、軟體、設備、電力與建廠資本。訂單能見度很長，但仍需以利用率與客戶資本支出驗證。",
-        "en": "Maia 300, Scaleway's multi-architecture plans, ASML demand and new GlobalFoundries fabs show competition spanning chips, software, tools, power and construction capital. Long visibility still needs validation through utilization and customer capex."
+        "zh": "Maia 300、Scaleway 多架構部署、ASML 設備需求、GlobalFoundries 新廠與台積電實績顯示，競爭橫跨晶片、軟體、設備、電力與建廠資本。訂單與財報訊號仍強，但 2027 年後需由客戶資本支出與利用率驗證。",
+        "en": "Maia 300, Scaleway deployments, ASML demand, new GlobalFoundries fabs and TSMC results show competition spanning chips, software, equipment, power and construction capital. Orders and results remain strong, but post-2027 durability needs validation through customer capex and utilization."
       },
       "references": [
         {
@@ -32,19 +32,23 @@
         {
           "date": "2026-10-15",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 1
         }
       ]
     },
     {
       "id": 2,
-      "category": "tech",
+      "category": "taiwan",
       "title": {
-        "zh": "記憶體價格與設備瓶頸同時推高供應鏈獲利",
-        "en": "Memory pricing and tool constraints lift different parts of the supply chain"
+        "zh": "記憶體景氣與台灣 HBM 產能同步擴張",
+        "en": "Memory-cycle profits and Taiwan HBM capacity expand together"
       },
       "summary": {
-        "zh": "南亞科的高毛利率反映 DRAM 漲價，ASML 則受惠於設備供給受限與升級需求。前者較偏循環，後者目前呈現較長的結構性訂單訊號。",
-        "en": "Nanya Technology's margin reflects DRAM pricing, while ASML benefits from constrained tool supply and upgrades. The former looks more cyclical; the latter currently shows longer structural demand signals."
+        "zh": "南亞科高毛利反映 DRAM 漲價，美光台中新封測廠則補上 HBM 封裝與測試能力。價格循環與長期產能投資同時存在，罷工授權則增加爬坡不確定性。",
+        "en": "Nanya Technology’s margin reflects DRAM pricing, while Micron’s new Taichung plant adds HBM packaging and testing. Cyclical pricing and long-term capacity investment coexist, with strike authorization adding ramp uncertainty."
       },
       "references": [
         {
@@ -52,8 +56,8 @@
           "storyId": 2
         },
         {
-          "date": "2026-10-15",
-          "storyId": 1
+          "date": "2026-10-16",
+          "storyId": 5
         }
       ]
     },
@@ -61,12 +65,12 @@
       "id": 3,
       "category": "tech",
       "title": {
-        "zh": "AI 商用速度與治理成本同步上升",
-        "en": "AI commercialization and governance costs rise together"
+        "zh": "AI 商用速度與安全責任同步上升",
+        "en": "AI commercialization and safety liability rise together"
       },
       "summary": {
-        "zh": "企業 Agent、內容授權、Anthropic 營收與 AI 資安倡議顯示商用正在加速，同時帶來安全、法律與政府採購邊界。正式財務文件與可執行標準仍是主要缺口。",
-        "en": "Enterprise agents, content licensing, Anthropic revenue and AI-security proposals show faster commercialization alongside safety, legal and procurement constraints. Formal financial filings and enforceable standards remain the main gaps."
+        "zh": "企業 Agent、內容授權、Anthropic 營收、AI 資安整併與 OpenAI 州法訴訟顯示商用正在加速，安全、資料與法律責任也進入成本結構。正式財務文件、法院裁定與可執行標準仍是主要驗證點。",
+        "en": "Enterprise agents, content licensing, Anthropic revenue, cybersecurity consolidation and state lawsuits against OpenAI show faster commercialization alongside safety, data and legal costs. Formal filings, court rulings and enforceable standards remain the key checks."
       },
       "references": [
         {
@@ -92,6 +96,14 @@
         {
           "date": "2026-10-15",
           "storyId": 10
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 7
         }
       ]
     },
@@ -99,12 +111,12 @@
       "id": 4,
       "category": "global",
       "title": {
-        "zh": "通膨與債務提高 AI 擴張的資本門檻",
-        "en": "Inflation and debt raise the capital hurdle for AI expansion"
+        "zh": "通膨與槓桿提高 AI 基礎設施的資本門檻",
+        "en": "Inflation and leverage raise the capital hurdle for AI infrastructure"
       },
       "summary": {
-        "zh": "IMF 的成長展望、騰訊發債與美國 CPI 回升共同顯示，AI 投資需求強勁，但資金成本與債務承擔能力重新成為篩選條件。後續需看現金流是否追上資本支出。",
-        "en": "The IMF outlook, Tencent bond issuance and higher U.S. CPI show strong AI investment demand, but funding costs and debt capacity are again key filters. Cash flow must catch up with capital spending."
+        "zh": "美國 CPI、PPI 與資料中心募資延後顯示，需求強勁仍不足以保證低成本資金。長約、利用率、槓桿與現金流開始主導估值與融資選擇。",
+        "en": "U.S. CPI, PPI and delayed data-center fundraising show that strong demand does not guarantee cheap capital. Long contracts, utilization, leverage and cash flow increasingly drive valuation and funding choices."
       },
       "references": [
         {
@@ -118,6 +130,18 @@
         {
           "date": "2026-10-15",
           "storyId": 4
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 8
         }
       ]
     },
@@ -125,18 +149,14 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "能源與運輸安全直接影響算力和供應鏈成本",
-        "en": "Energy and transport security feed directly into compute and supply-chain costs"
+        "zh": "能源供給、運輸與開發金融政策同時變動",
+        "en": "Energy supply, shipping and development-finance policy shift together"
       },
       "summary": {
-        "zh": "台電電網、沙國輸油路徑、OPEC 產量、台灣離岸風電與荷莫茲商船事件，將電力供給與運輸風險連到 AI、半導體與通膨。短期衝擊需和長期能源投資分開判讀。",
-        "en": "Taiwan's grid, Saudi export routes, OPEC output, offshore wind and Hormuz shipping incidents connect power and transport risk to AI, semiconductors and inflation. Short shocks should be separated from long-term energy investment."
+        "zh": "沙國輸油路徑、OPEC 產量、荷莫茲攻擊、俄烏能源停火破裂與影子船隊研議都影響燃料供給與運費。美方另要求世界銀行擴大油氣融資，短期供應衝擊與長期產能政策需要分開判讀。",
+        "en": "Saudi routes, OPEC output, Hormuz attacks, the failed Russia-Ukraine energy truce and shadow-fleet discussions all affect fuel supply and freight. A U.S. push for broader World Bank oil and gas finance adds a long-term capacity question distinct from near-term disruption."
       },
       "references": [
-        {
-          "date": "2026-10-13",
-          "storyId": 6
-        },
         {
           "date": "2026-10-13",
           "storyId": 11
@@ -150,8 +170,16 @@
           "storyId": 6
         },
         {
-          "date": "2026-10-15",
+          "date": "2026-10-16",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-16",
           "storyId": 9
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 10
         }
       ]
     },
@@ -163,8 +191,8 @@
         "en": "China high-tech exports support growth and increase trade friction"
       },
       "summary": {
-        "zh": "9 月出口大增使前三季順差接近 1 兆美元，高科技產品與汽車是主要支柱。這提供成長緩衝，也提高歐美採取貿易措施的可能性。",
-        "en": "A September export surge pushed the nine-month surplus close to $1 trillion, led by high-tech goods and autos. This cushions growth while increasing the likelihood of U.S. and EU trade action."
+        "zh": "中國 9 月出口大增使前三季順差接近 1 兆美元，高科技產品與汽車是主要支柱。這提供成長緩衝，也提高歐美採取貿易措施的可能性。",
+        "en": "China’s September export surge pushed the nine-month surplus close to $1 trillion, led by high-tech goods and autos. This cushions growth while increasing the likelihood of U.S. and EU trade action."
       },
       "references": [
         {
@@ -177,12 +205,12 @@
       "id": 7,
       "category": "taiwan",
       "title": {
-        "zh": "台灣外部連結涵蓋外交、產業與能源韌性",
-        "en": "Taiwan's external links span diplomacy, industry and energy resilience"
+        "zh": "台灣外部連結延伸到外交、能源與半導體勞動條件",
+        "en": "Taiwan’s external links span diplomacy, energy and semiconductor labor conditions"
       },
       "summary": {
-        "zh": "邦交國制裁、台歐產業合作與離岸風電進展顯示，外交、供應鏈與能源政策相互連動。後續需以具體協議、投資與發電量確認成果。",
-        "en": "Sanctions involving diplomatic partners, Taiwan-Europe industrial cooperation and offshore-wind progress show links among diplomacy, supply chains and energy policy. Concrete agreements, investment and generation data are the next tests."
+        "zh": "邦交國制裁、台歐產業合作、離岸風電與美光在台擴產，顯示外交、能源與供應鏈政策相互連動。實際成果需由協議、發電量、產能爬坡與勞資協商驗證。",
+        "en": "Sanctions involving diplomatic partners, Taiwan-Europe industrial cooperation, offshore wind and Micron expansion show links among diplomacy, energy and supply chains. Agreements, generation, capacity ramps and labor negotiations will test outcomes."
       },
       "references": [
         {
@@ -200,6 +228,10 @@
         {
           "date": "2026-10-15",
           "storyId": 9
+        },
+        {
+          "date": "2026-10-16",
+          "storyId": 5
         }
       ]
     }

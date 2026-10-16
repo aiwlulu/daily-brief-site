@@ -1,0 +1,795 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T08:10:09+08:00",
+  "throughline": {
+    "zh": "AI 需求仍推高晶片獲利與先進封裝投資，但生產者物價、融資條件、法律責任與勞資協商正在提高擴張門檻。",
+    "en": "AI demand is still lifting chip profits and advanced-packaging investment, while producer inflation, funding conditions, legal liability and labor negotiations raise the expansion hurdle."
+  },
+  "stories": [
+    {
+      "id": 1,
+      "category": "taiwan",
+      "pick": true,
+      "title": {
+        "zh": "台積電第三季淨利達 7,631 億元，2 奈米占晶圓收入 8%",
+        "en": "TSMC Q3 net profit reaches NT$763.1 billion as 2 nm contributes 8% of wafer revenue"
+      },
+      "summary": {
+        "zh": "台積電第三季營收 1.494 兆元、淨利 7,630.6 億元，分別年增 50.9% 與 68.7%，毛利率達 66.4%。公司預估第四季美元營收 523 億至 543 億美元，但對 2027 年總體環境維持審慎。",
+        "en": "TSMC reported third-quarter revenue of NT$1.494 trillion and net income of NT$763.06 billion, up 50.9% and 68.7% year over year, with a 66.4% gross margin. It guided fourth-quarter revenue to $52.3 billion to $54.3 billion while remaining prudent about the 2027 macro environment."
+      },
+      "metric": "NT$763.1B",
+      "metricLabel": {
+        "zh": "第三季淨利",
+        "en": "Q3 net income"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "發生什麼",
+            "en": "What happened"
+          },
+          "text": {
+            "zh": "第三季美元營收為 467.2 億美元，超過原先 446 億至 458 億美元展望；7 奈米及更先進製程占晶圓收入 79%。",
+            "en": "Third-quarter U.S.-dollar revenue was $46.72 billion, above the prior $44.6 billion to $45.8 billion guidance; 7 nm and more advanced nodes accounted for 79% of wafer revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "先進製程與 AI 加速器需求提高產品組合與產能利用率。2 奈米開始貢獻收入，但初期量產成本與海外廠擴張仍可能影響毛利率。",
+            "en": "Advanced nodes and AI accelerators improve product mix and utilization. The 2 nm node is beginning to contribute revenue, while early ramp costs and overseas expansion can still affect margins."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "營收季增 17.6%，淨利季增 8.0%，顯示成長幅度未完全等比例轉入淨利。第四季營收與毛利率仍屬公司展望。",
+            "en": "Revenue rose 17.6% sequentially while net income increased 8.0%, so revenue growth did not flow through proportionally to profit. Fourth-quarter revenue and margin figures remain guidance."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤 2 奈米良率與收入占比、第四季毛利率，以及公司在 2027 年資本支出與需求展望的更新。",
+            "en": "Watch 2 nm yield and revenue share, fourth-quarter gross margin, and updates to 2027 capex and demand guidance."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "TSMC · Q3 2026 results",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "type": "First-hand"
+        },
+        {
+          "name": "TSMC · SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 2,
+      "category": "global",
+      "pick": true,
+      "title": {
+        "zh": "美國 9 月生產者物價月增 1.3%，創 2022 年 3 月以來最大升幅",
+        "en": "U.S. September producer prices rise 1.3%, the largest monthly increase since March 2022"
+      },
+      "summary": {
+        "zh": "美國勞工統計局公布，9 月最終需求 PPI 經季節調整後月增 1.3%、年增 6.3%。商品價格月增 2.6%，其中能源上漲 10.8%；服務價格月增 0.8%。",
+        "en": "The U.S. Bureau of Labor Statistics reported that final-demand PPI rose 1.3% in September and 6.3% from a year earlier. Goods prices increased 2.6%, led by a 10.8% energy rise, while services increased 0.8%."
+      },
+      "metric": "+1.3%",
+      "metricLabel": {
+        "zh": "9 月最終需求 PPI 月增率",
+        "en": "September final-demand PPI, monthly"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "生產端成本可能影響企業毛利、合約價格與未來消費者物價，並提高資本密集型資料中心與製造業的融資壓力。",
+            "en": "Producer costs can affect corporate margins, contract pricing and future consumer inflation, while adding financing pressure to capital-intensive data centers and manufacturing."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "排除食品、能源與貿易服務後，指數仍月增 0.5%、年增 5.0%，顯示壓力不只來自能源；5 月至 8 月資料亦有修訂。",
+            "en": "Excluding food, energy and trade services, prices still rose 0.5% monthly and 5.0% annually, so pressure was broader than energy. Data from May through August were also revised."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "10 月 PPI 預定 11 月 13 日發布；後續需比較能源回落、核心生產成本與企業財報中的毛利變化。",
+            "en": "October PPI is scheduled for November 13. Watch energy normalization, core producer costs and gross-margin changes in company results."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+          "type": "First-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 3,
+      "category": "tech",
+      "pick": true,
+      "title": {
+        "zh": "美國八州分別起訴 OpenAI，指控 ChatGPT 違反消費者保護法",
+        "en": "Eight U.S. states sue OpenAI under consumer-protection laws"
+      },
+      "summary": {
+        "zh": "由兩黨檢察長領導的八個州分別對 OpenAI 提告，主張 ChatGPT 對兒少與脆弱使用者造成傷害，並誤導消費者對安全性的認知。這些內容目前是原告指控，OpenAI 在 Reuters 與 AP 截稿時未立即回應。",
+        "en": "Eight states led by attorneys general from both parties filed separate lawsuits alleging that ChatGPT harmed children and vulnerable users and misled consumers about safety. These remain plaintiffs’ allegations, and OpenAI had not immediately responded by Reuters and AP deadlines."
+      },
+      "metric": "8 states",
+      "metricLabel": {
+        "zh": "分別提告的州數",
+        "en": "States filing separate lawsuits"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "案件把模型安全、產品揭露、兒少保護與消費者法連在一起，可能影響產品設計、年齡控管、資料保存與責任成本。",
+            "en": "The cases connect model safety, product disclosures, child protection and consumer law, potentially affecting design, age controls, data retention and liability costs."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "若法院要求更嚴格的測試、監控或資料處理，訂閱與企業產品的開發成本可能上升，也可能改變模型推出速度。",
+            "en": "If courts require stricter testing, monitoring or data handling, development costs for subscriptions and enterprise products could rise and release cycles could slow."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證限制",
+            "en": "Verification limit"
+          },
+          "text": {
+            "zh": "本期依 Reuters 與 AP 核對州數及主要主張，未逐一取得八份起訴狀。指控涉及傷害與因果關係，需等待法院程序與被告答辯。",
+            "en": "Reuters and AP corroborate the number of states and core allegations, but this edition did not obtain all eight complaints. Harm and causation claims require court proceedings and the defendant’s response."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤 OpenAI 正式答辯、法院是否合併案件，以及禁制令、資料刪除或產品限制等救濟是否獲准。",
+            "en": "Watch OpenAI’s formal responses, possible consolidation, and whether courts grant injunctions, data deletion or product restrictions."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/eight-us-states-sue-openai-claiming-chatgpt-harms-children-2026-10-14/",
+          "type": "Source-limited"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/openai-lawsuits-chatbot-chatgpt-artificial-intelligence-f29fa6c206cfe41d46ba38ee7be78218",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "pick": true,
+      "title": {
+        "zh": "烏克蘭恢復攻擊俄羅斯煉油廠，短暫能源停火告終",
+        "en": "Ukraine resumes refinery strikes, ending the brief energy truce"
+      },
+      "summary": {
+        "zh": "烏克蘭 10 月 15 日以無人機攻擊俄羅斯梁贊地區煉油廠，結束對能源設施的短暫停火。地方官員證實廠區起火；Reuters 指該廠約占俄羅斯煉油處理量 5%。",
+        "en": "Ukraine struck a refinery in Russia’s Ryazan region with drones on October 15, ending a brief halt in attacks on energy sites. A regional official confirmed a fire, and Reuters said the plant accounts for nearly 5% of Russian refinery throughput."
+      },
+      "metric": "≈5%",
+      "metricLabel": {
+        "zh": "Reuters 所述俄羅斯煉油處理量占比",
+        "en": "Share of Russian refinery throughput reported by Reuters"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "能源設施重新成為攻擊目標，可能影響柴油供給、煉油利潤與歐洲能源安全，也使美烏關係更緊張。",
+            "en": "Energy infrastructure is again a target, with potential effects on diesel supply, refining margins and European energy security, while adding strain to U.S.-Ukraine relations."
+          }
+        },
+        {
+          "label": {
+            "zh": "為什麼是現在",
+            "en": "Why now"
+          },
+          "text": {
+            "zh": "烏方表示俄羅斯未遵守停火並持續攻擊烏克蘭電力設施，因此不再暫停對俄煉油廠的攻擊。這是烏方立場，俄方否認攻擊造成重大影響。",
+            "en": "Ukraine said Russia had not observed the truce and continued striking Ukrainian power facilities, so Kyiv ended its restraint. This is Ukraine’s position; Russia downplayed the damage."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤煉油廠實際停工時間、柴油出口與價格，以及美方是否調整情報、技術或制裁政策。",
+            "en": "Watch actual refinery downtime, diesel exports and prices, and any U.S. changes to intelligence, technology or sanctions policy."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/",
+          "type": "Second-hand"
+        },
+        {
+          "name": "AP",
+          "url": "https://apnews.com/article/russia-ukraine-war-oil-refinery-attacks-resume-0071b4f3792c9912b977b0ee73505b18",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 5,
+      "category": "taiwan",
+      "pick": true,
+      "title": {
+        "zh": "美光台中新封測廠啟用，罷工授權使 HBM 擴產面臨勞資變數",
+        "en": "Micron opens a new Taichung packaging plant as strike authorization adds labor risk to HBM expansion"
+      },
+      "summary": {
+        "zh": "美光在台中啟用新的先進封裝測試廠，強化高頻寬記憶體封裝與測試能力。與此同時，台灣工會已取得罷工授權，爭議集中於獎金機制；公司與工會均表示願意持續對話。",
+        "en": "Micron opened a new advanced assembly and test facility in Taichung to expand high-bandwidth-memory packaging and testing. At the same time, its Taiwan union has secured strike authorization over a bonus dispute; both sides said they remain open to dialogue."
+      },
+      "metric": "NT$1.6T+",
+      "metricLabel": {
+        "zh": "公司所稱累計在台投資",
+        "en": "Company-stated cumulative Taiwan investment"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "HBM 是 AI 加速器的關鍵互補元件，新廠使台灣在先進製程、封裝與記憶體的供應鏈連結更完整。勞資爭議則可能影響爬坡速度與交付穩定性。",
+            "en": "HBM complements AI accelerators, and the new plant deepens Taiwan’s links across advanced logic, packaging and memory. The labor dispute could affect ramp speed and delivery stability."
+          }
+        },
+        {
+          "label": {
+            "zh": "這個數字是誰說的？",
+            "en": "Who owns the number?"
+          },
+          "text": {
+            "zh": "新台幣 1.6 兆元是美光與總統府所述累計投資額；Reuters 報導公司在台約有 1.5 萬名員工。兩者均非本次新廠的單獨投資或新增人數。",
+            "en": "The NT$1.6 trillion figure is Micron’s and Taiwan’s presidential office’s stated cumulative investment; Reuters reports about 15,000 employees in Taiwan. Neither figure represents investment or hiring for this plant alone."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤工會是否正式發動罷工、獎金協議、新廠 HBM 良率與實際產出，以及 A+ 計畫補助的里程碑。",
+            "en": "Watch whether the union actually calls a strike, any bonus agreement, HBM yield and output at the new plant, and milestones tied to the A+ program support."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "中華民國總統府",
+          "url": "https://www.president.gov.tw/NEWS/40429",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/taiwan-president-calls-micron-workers-negotiate-sincerely-ahead-possible-strike-2026-10-15/",
+          "type": "Second-hand"
+        },
+        {
+          "name": "CNA · Focus Taiwan",
+          "url": "https://focustaiwan.tw/politics/202610150012",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 6,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "AI 資料中心募資轉向檢驗槓桿、合約與執行能力",
+        "en": "AI data-center financing shifts toward leverage, contracts and execution"
+      },
+      "summary": {
+        "zh": "Reuters 報導，AirTrunk、Firmus 與 SB Energy 的上市或募資計畫近期暫停或撤回。亞洲資料中心併購額今年迄今達 213 億美元、債務融資 223 億美元，但股權募資降至 54 億美元。",
+        "en": "Reuters reported that listing or fundraising plans involving AirTrunk, Firmus and SB Energy were recently paused or withdrawn. Asian data-center M&A has reached $21.3 billion this year and debt financing $22.3 billion, while equity fundraising fell to $5.4 billion."
+      },
+      "metric": "$21.3B",
+      "metricLabel": {
+        "zh": "Dealogic 統計的亞洲資料中心併購額",
+        "en": "Asian data-center M&A tracked by Dealogic"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "資料中心仍有資金流入，但投資人開始區分長約支持的營運商與依賴未來預測的高槓桿開發商。這會影響建設速度、估值與資金成本。",
+            "en": "Capital is still flowing, but investors are separating operators backed by long contracts from highly leveraged developers dependent on forecasts. That affects construction pace, valuations and funding costs."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "併購額高於 2025 全年 100 億美元，債務市場仍活躍；股權募資年減 4.6%。這是融資結構與風險定價改變，尚不足以證明整體需求萎縮。",
+            "en": "M&A exceeds the $10 billion recorded in all of 2025 and debt markets remain active, while equity fundraising is down 4.6%. This shows a shift in financing mix and risk pricing, not yet a broad demand contraction."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證限制",
+            "en": "Verification limit"
+          },
+          "text": {
+            "zh": "交易統計來自 Dealogic；部分資產出售、估值與投資標準依 Reuters 匿名消息人士，尚未完成或公開確認。",
+            "en": "Deal statistics come from Dealogic. Some asset sales, valuations and underwriting changes rely on unnamed Reuters sources and are not completed or publicly confirmed."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察長期客戶合約、利用率、電力取得、利息保障倍數，以及延後的上市計畫是否重啟。",
+            "en": "Watch long-term customer contracts, utilization, power access, interest coverage and whether delayed listings return."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters · Dealogic and market sources",
+          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 7,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "Cohere 簽署意向書收購 AI 資安公司 AISLE",
+        "en": "Cohere signs a letter of intent to acquire AI cybersecurity firm AISLE"
+      },
+      "summary": {
+        "zh": "Cohere 表示已簽署意向書，擬收購利用 AI 發現與修補軟體漏洞的 AISLE，交易金額未公開。AISLE 團隊將加入新成立的 Cohere Cyber，服務企業與政府客戶的私有雲、地端與隔離環境。",
+        "en": "Cohere said it signed a letter of intent to acquire AISLE, which uses AI to find and remediate software vulnerabilities; terms were not disclosed. The AISLE team would join a new Cohere Cyber unit serving enterprise and government deployments across private cloud, on-premises and air-gapped environments."
+      },
+      "metric": "500+",
+      "metricLabel": {
+        "zh": "AISLE 自稱首年發現並取得 CVE 的漏洞",
+        "en": "AISLE-stated CVEs found in its first year"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "Cohere 正把模型、代理應用、部署基礎設施與資安整合成主權 AI 平台。客戶支付的不只模型使用，也包含私有部署、治理與持續漏洞管理。",
+            "en": "Cohere is combining models, agent applications, deployment infrastructure and security into a sovereign-AI platform. Customers would pay for more than model use, including private deployment, governance and continuous vulnerability management."
+          }
+        },
+        {
+          "label": {
+            "zh": "這個數字是誰說的？",
+            "en": "Who owns the number?"
+          },
+          "text": {
+            "zh": "超過 500 個漏洞、100 多個程式庫及 OpenSSL 12 個漏洞來自 AISLE 與 Cohere 的公告；Cohere 稱相關 CVE 由軟體維護者審查，但本期未逐項核對。",
+            "en": "The figures for more than 500 vulnerabilities, over 100 codebases and 12 OpenSSL flaws come from AISLE and Cohere. Cohere says maintainers reviewed the CVEs, but this edition did not verify each one."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "目前是意向書而非已完成交易；追蹤正式合約、監管條件、價格與 Cohere Cyber 的付費客戶及續約率。",
+            "en": "This is a letter of intent, not a completed acquisition. Watch definitive terms, regulatory conditions, price, paying customers and retention for Cohere Cyber."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cohere",
+          "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/cohere-moves-buy-ai-cybersecurity-startup-aisle-2026-10-15/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 8,
+      "category": "tech",
+      "pick": false,
+      "title": {
+        "zh": "GTCR 與 Elliott 以 61 億美元收購保險軟體商 CCC",
+        "en": "GTCR and Elliott agree to acquire insurance-software provider CCC for $6.1 billion"
+      },
+      "summary": {
+        "zh": "CCC Intelligent Solutions 同意由 GTCR 與 Elliott 領銜的財團以約 61 億美元企業價值私有化，股東每股可獲 7.75 美元現金。交易預計 2027 年第一季完成，仍需股東與監管核准。",
+        "en": "CCC Intelligent Solutions agreed to a take-private led by GTCR and Elliott at an enterprise value of about $6.1 billion, with shareholders receiving $7.75 per share in cash. Closing is targeted for the first quarter of 2027, subject to shareholder and regulatory approval."
+      },
+      "metric": "$6.1B",
+      "metricLabel": {
+        "zh": "公告企業價值",
+        "en": "Announced enterprise value"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "CCC 連接超過 3.5 萬家保險、理賠與維修業者，交易顯示私募基金仍願意收購擁有產業資料與工作流程黏著度的垂直軟體平台。",
+            "en": "CCC connects more than 35,000 insurance, claims and repair businesses. The deal shows private equity still values vertical software platforms with proprietary industry data and embedded workflows."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "CCC 以 SaaS 與交易工作流程服務保險生態系。買方主張 AI 可強化而非取代其平台，但需要以客戶留存、新產品採用與營收成長驗證。",
+            "en": "CCC serves the insurance ecosystem through SaaS and transaction workflows. The buyers argue AI strengthens rather than replaces the platform, a thesis that needs validation through retention, product adoption and growth."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "10 月 29 日第三季財報、股東投票、監管核准與代理說明書將提供財務預測、費用與交易條件。",
+            "en": "Third-quarter results on October 29, the shareholder vote, regulatory approvals and the proxy statement will provide forecasts, fees and deal terms."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "CCC Intelligent Solutions",
+          "url": "https://ir.cccis.com/news-releases/news-release-details/ccc-intelligent-solutions-signs-definitive-agreement-be-acquired",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/gtcr-elliott-buy-ccc-intelligent-solutions-61-billion-deal-2026-10-15/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 9,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "美國研議個案解除部分影子船隊制裁，以增加合法油運運力",
+        "en": "U.S. considers case-by-case sanctions relief for some shadow-fleet vessels"
+      },
+      "summary": {
+        "zh": "一名美國官員向 Reuters 表示，政府正研議讓合法買家申請購買部分受制裁油輪，經財政部審查後恢復一般商業運輸。政策尚未決定，能源部稱任何措施都不會協助俄羅斯出口受制裁石油。",
+        "en": "A U.S. official told Reuters the administration is considering allowing legitimate buyers to apply for purchases of some sanctioned tankers and return them to commercial service after Treasury review. No policy decision has been announced, and the Energy Department said any action would not facilitate sanctioned Russian exports."
+      },
+      "metric": "研議中",
+      "metricLabel": {
+        "zh": "尚無正式政策或船舶清單",
+        "en": "No final policy or vessel list"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "運費創高與荷莫茲風險正在推高能源成本，解除部分船舶制裁可能增加短程運力，但也牽涉俄羅斯、伊朗與委內瑞拉制裁執行。",
+            "en": "Record freight rates and Hormuz risks are raising energy costs. Returning some vessels could add shuttle capacity but intersects with sanctions on Russia, Iran and Venezuela."
+          }
+        },
+        {
+          "label": {
+            "zh": "查證限制",
+            "en": "Verification limit"
+          },
+          "text": {
+            "zh": "核心研議內容主要來自未具名官員；能源部談話未取得完整影片或逐字稿。歐盟與英國保險規範仍可能限制實際效果。",
+            "en": "The core proposal relies mainly on unnamed officials, and the full Energy Department video or transcript was unavailable. EU and UK insurance rules could still limit the effect."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察財政部是否發布許可或除名標準、實際增加的可保船舶數量，以及運費是否下降。",
+            "en": "Watch for Treasury licensing or delisting criteria, the number of insurable vessels actually added and any decline in freight rates."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters · U.S. officials",
+          "url": "https://www.reuters.com/legal/government/us-considers-easing-sanctions-shadow-fleet-vessels-cut-freight-rates-official-2026-10-15/",
+          "type": "Source-limited"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 10,
+      "category": "global",
+      "pick": false,
+      "title": {
+        "zh": "美國財政部要求世界銀行取消上游油氣融資禁令",
+        "en": "U.S. Treasury urges World Bank to end its ban on upstream oil and gas finance"
+      },
+      "summary": {
+        "zh": "美國財政部長 Bessent 在 IMF 與世界銀行年會聲明中，要求世界銀行採取技術中立的能源融資並正式取消上游油氣禁令；他也主張投入核能、關鍵礦物與深海採礦能力。這是美方政策主張，並非世界銀行已通過的改革。",
+        "en": "Treasury Secretary Scott Bessent used an IMF and World Bank meetings statement to urge technology-neutral energy finance and a formal end to the World Bank ban on upstream oil and gas projects. He also called for support for nuclear energy, critical minerals and deep-sea mining. These are U.S. proposals, not adopted World Bank reforms."
+      },
+      "metric": "提案",
+      "metricLabel": {
+        "zh": "美方立場，尚未成為世界銀行政策",
+        "en": "U.S. position, not World Bank policy"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "為什麼重要",
+            "en": "Why it matters"
+          },
+          "text": {
+            "zh": "若主要股東推動成功，開發金融的資金流向可能從再生能源限制框架轉向更廣泛的油氣、核能與礦業專案，影響借款國與能源供應商。",
+            "en": "If a major shareholder succeeds, development finance could shift from a renewables-constrained framework toward a broader mix of oil, gas, nuclear and mining projects, affecting borrowers and energy suppliers."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "世界銀行融資能降低專案資金成本並吸引民間資本。技術中立會擴大可融資案源，也增加碳風險、環境審查與資產期限錯配的爭議。",
+            "en": "World Bank finance can lower project funding costs and crowd in private capital. Technology neutrality would broaden the pipeline while raising disputes over carbon risk, environmental review and asset duration."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤世界銀行董事會回應、能源政策文件是否修訂，以及首批符合新框架的專案是否出現。",
+            "en": "Watch the World Bank board response, any revision to energy-policy documents and whether projects emerge under a new framework."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0659/",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/bessent-calls-world-bank-reforms-including-upstream-oil-gas-financing-2026-10-15/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "台積電的高成長由哪些製程與利潤結構支撐？",
+        "en": "Which nodes and margin drivers support TSMC’s growth?"
+      },
+      "text": {
+        "zh": "把 2 奈米占比、先進製程組合、毛利率與海外擴產成本一起看，才能分辨營收成長與獲利品質。",
+        "en": "Read 2 nm share, advanced-node mix, gross margin and overseas-fab costs together to separate revenue growth from profit quality."
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "zh": "資料中心需求強，為何募資仍會延後？",
+        "en": "Why can data-center fundraising stall while demand remains strong?"
+      },
+      "text": {
+        "zh": "長約、利用率、槓桿、電力與建設能力決定資金價格；產業總需求無法替每個開發商保證報酬。",
+        "en": "Long contracts, utilization, leverage, power and execution determine funding costs; aggregate demand does not guarantee every developer’s returns."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "州法訴訟會如何改變 AI 產品成本？",
+        "en": "How could state lawsuits change AI product costs?"
+      },
+      "text": {
+        "zh": "訴訟把安全測試、兒少保護、資料處理與產品揭露轉成潛在法律義務，後續救濟範圍比標題更重要。",
+        "en": "The cases could turn safety testing, child protection, data handling and disclosures into legal obligations; the requested and granted remedies matter most."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "AI 需求與融資紀律同時存在",
+        "en": "AI demand and financing discipline coexist"
+      },
+      "text": {
+        "zh": "台積電實績與美光新廠顯示硬體需求仍強，資料中心交易則顯示資本開始區分合約品質、槓桿與執行能力。這更像風險定價轉變，尚未形成產業需求全面反轉；若主要雲端業者同步削減資本支出，判讀才需要轉弱。",
+        "en": "TSMC results and Micron’s new plant show strong hardware demand, while data-center deals show capital differentiating by contract quality, leverage and execution. This looks like repricing rather than a broad demand reversal; synchronized hyperscaler capex cuts would weaken the view."
+      }
+    },
+    {
+      "title": {
+        "zh": "能源成本由戰事、運輸與開發金融共同作用",
+        "en": "Energy costs reflect conflict, shipping and development finance"
+      },
+      "text": {
+        "zh": "俄烏能源停火破裂、影子船隊政策研議與世界銀行油氣融資主張，同時影響短期供應、運費與長期產能。政策仍有高度不確定性，應分開觀察實際停工、船舶運力與貸款核准。",
+        "en": "The failed energy truce, shadow-fleet discussions and World Bank oil-and-gas finance proposal affect near-term supply, freight and long-term capacity. Policy uncertainty remains high, so refinery downtime, vessel capacity and loan approvals should be tracked separately."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "",
+      "en": ""
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "晶片股市值蒸發與類股輪動",
+        "en": "Chip-stock value losses and sector rotation"
+      },
+      "text": {
+        "zh": "主要是市場價格反應，底層的新資訊已由 PPI、台積電實績與資料中心融資條件涵蓋。",
+        "en": "These are mainly market-price reactions; the underlying information is covered through PPI, TSMC results and data-center funding conditions."
+      }
+    },
+    {
+      "title": {
+        "zh": "美國 AI 工作小組開會預告",
+        "en": "U.S. AI task-force meeting preview"
+      },
+      "text": {
+        "zh": "會議尚未產生公開章程、規則或執法決定，因此暫不列為主要消息。",
+        "en": "No public charter, rule or enforcement decision had emerged, so the meeting preview was not elevated."
+      }
+    },
+    {
+      "title": {
+        "zh": "AI 泡沫與估值評論",
+        "en": "AI bubble and valuation commentary"
+      },
+      "text": {
+        "zh": "評論與分析若沒有新增財務、合約或政策資料，本期降低權重。",
+        "en": "Commentary without new financial, contract or policy evidence received lower weight."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "本期資料截至台北時間 10 月 16 日上午。台積電、PPI、CCC、Cohere 與美國財政部政策主張有一手來源。OpenAI 八州訴訟依 Reuters 與 AP 交叉核對，但未逐一取得八份起訴狀，相關傷害與因果敘述均屬原告指控。美光投資額是公司與政府所述累計數，罷工尚未正式發動。資料中心部分交易與影子船隊研議含匿名來源，均未視為已完成交易或正式政策。",
+    "en": "This edition is current through the morning of October 16 in Taipei. Primary sources support TSMC, PPI, CCC, Cohere and the U.S. Treasury policy position. Reuters and AP corroborate the eight-state OpenAI litigation, but all eight complaints were not obtained and harm or causation claims remain allegations. Micron’s investment figure is a company and government cumulative total, and no strike has begun. Some data-center deals and shadow-fleet discussions rely on unnamed sources and are not treated as completed transactions or final policy."
+  }
+}
