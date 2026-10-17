@@ -63,15 +63,14 @@ async function create(period,marketRows,metricEditions){
   sheet.freezePanes.freezeRows(1);sheet.freezePanes.freezeColumns(3);
   return end;
  }
- table(main,marketHeaders,marketRows,[14,14,24,24,36,30,42,42,42,55,72,45,80,36,48,48,24,24,80,62],'MarketEvents');
- // Store complete source URLs as text. HYPERLINK is not implemented by the
- // export calculation engine and otherwise leaves diagnostic text in caches.
+ table(main,marketHeaders,marketRows,[14,14,24,24,36,30,42,42,42,55,72,45,80,36,48,48,24,18,62],'MarketEvents');
+ // Store the edition URL as text; finish-workbook.py turns it into a short
+ // clickable link. HYPERLINK formulas are not implemented by the export engine.
  for(let i=0;i<marketRows.length;i++){
   const key=marketRows[i][2],parts=key.split(':');
-  const url=period==='day'?`https://aiwlulu.github.io/daily-brief-site/?view=day&date=${date}#story-${date}-${parts[1]}`:`https://aiwlulu.github.io/daily-brief-site/?view=week&date=${date}`;
-  main.getRange(`S${i+2}`).values=[[url]];
+  const url=period==='day'?`https://aiwlulu.github.io/daily-brief-site/?date=${date}#s${parts[1]}`:`https://aiwlulu.github.io/daily-brief-site/?view=week&date=${date}`;
+  main.getRange(`R${i+2}`).values=[[url]];
  }
- main.getRange(`S1:S${marketRows.length+1}`).format.columnWidth=62;
  const end=table(nums,metricHeaders,numberRows,[14,14,24,24,36,32,25,38,18,18,38,18,18,19,19,20,20,20,44,40,70,80],'QuantitativeDetails');
  for(const sheet of [main,nums])if(sheet.getUsedRange().values.length>1)sheet.getRange(`A2:B${sheet.getUsedRange().values.length}`).setNumberFormat('yyyy-mm-dd');
  let n=2;
@@ -100,6 +99,9 @@ async function create(period,marketRows,metricEditions){
  }
  const filename=period+'-'+(period==='day'?date:weekStart)+'.xlsx';
  await(await SpreadsheetFile.exportXlsx(wb)).save(path.join(output,filename));
+ // Prepend the 重點 and 摘要明細 sheets and shorten edition links.
+ const summary=execFileSync(process.execPath,[path.join(root,'scripts/summary-data.mjs'),root,period==='day'?date:weekStart,period]);
+ execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON||'python3',[path.join(root,'scripts/finish-workbook.py'),'--file',path.join(output,filename)],{input:summary,stdio:['pipe','inherit','inherit']});
  execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON||'python3',[path.join(root,'scripts/check-xlsx.py'),'--file',path.join(output,filename)],{stdio:'inherit'});
  manifest.exportVersions??={};manifest.exportVersions[period]??={};
  manifest.exportVersions[period][period==='day'?date:weekStart]=createHash('sha256').update(await fs.readFile(path.join(output,filename))).digest('hex').slice(0,12);
