@@ -19,7 +19,7 @@ export function periodRange(date, period) {
   if (!validDate(date)) throw new Error('Invalid date');
   if (period === 'day') return {start: date, end: date};
   const weekday = new Date(date + 'T00:00:00Z').getUTCDay();
-  const start = shiftDate(date, -((weekday + 6) % 7));
+  const start = shiftDate(date, -weekday);
   return {start, end: shiftDate(start, 6)};
 }
 export function selectEditions(editions, date, period) {
@@ -27,3 +27,4 @@ export function selectEditions(editions, date, period) {
   return editions.filter(e => e.date >= start && e.date <= end)
     .sort((a, b) => b.date.localeCompare(a.date));
 }
+

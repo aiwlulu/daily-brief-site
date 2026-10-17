@@ -4,7 +4,7 @@ import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
-let data, weekly, weekPaths={}, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
+let data, weekly, weekPaths={}, exportPaths={}, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
 const params = new URLSearchParams(location.search);
 let period = params.get('view') === 'week' ? 'week' : 'day';
 let selectedDate = validDate(params.get('date') || '') ? params.get('date') : taipeiToday();
@@ -45,6 +45,13 @@ function renderPeriod() {
   document.body.dataset.view=period;
   const zh = lang === 'zh', range = periodRange(selectedDate,period);
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
+  const exportPath=exportPaths[period]?.[period==='week'?range.start:selectedDate];
+  const excel=el('export-excel');excel.hidden=!exportPath;
+  if(exportPath){excel.href=exportPath;excel.download=exportPath.split('/').pop();}
+  else excel.removeAttribute('href');
+  excel.replaceChildren(icon('download'),node('span','Excel'));
+  excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'完整 Excel，含市場動向、數值及來源':'Download the complete '+(period==='week'?'weekly':'daily')+' Excel, including market changes, metrics and sources');
+  excel.dataset.tooltip=zh?'完整刊期 Excel，不受搜尋篩選影響':'Complete edition, independent of search filters';
   el('view-day').replaceChildren(icon('today'),node('span',zh?'日':'D'));
   el('view-day').setAttribute('aria-label',zh?'當日':'Daily view');
   el('view-day').dataset.tooltip=zh?'當日':'Daily view';
@@ -237,7 +244,7 @@ function render() {
     el('intro').textContent=weekly.throughline?t(weekly.throughline):(lang==='zh'?'快速回顧已收錄刊期的關鍵事件，完整細節可進入每日版閱讀。':'A concise selection from available editions. Open the daily edition for details.');
   }else {
     el('headline').textContent=lang==='zh'?'今天，值得理解的事。':'Today, with perspective.';
-    el('intro').textContent=lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.';
+    el('intro').textContent=data.perspective?(lang==='zh'?'台灣與東南亞，從 AEIS 的製程電源、資料中心及工業客戶決策看市場。':'Taiwan and Southeast Asia through AEIS process-power, data-center and industrial-customer decisions.'):(lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.');
   }
   el('lang').textContent = lang === 'zh' ? 'EN' : '中';
   el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
@@ -292,6 +299,7 @@ async function readJson(path) {
 }
 readJson('./editions/index.json').then(async manifest => {
   weekPaths=manifest.weeks||{};
+  exportPaths=manifest.exports||{};
   catalog=manifest.editions.slice().sort((a,b)=>b.date.localeCompare(a.date));
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';render();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});

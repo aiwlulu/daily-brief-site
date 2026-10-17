@@ -15,9 +15,9 @@ export function mountCalendar({date, locale, available, select}) {
     title.id='calendar-month';title.textContent=new Intl.DateTimeFormat(zh?'zh-TW':'en',{year:'numeric',month:'long',timeZone:'UTC'}).format(new Date(first+'T12:00:00Z'));
     function move(step){const d=new Date(first+'T12:00:00Z');d.setUTCMonth(d.getUTCMonth()+step);month=d.toISOString().slice(0,7);focusDate=month+'-01';render();panel.querySelector(step<0?'.calendar-header button:first-child':'.calendar-header button:last-child').focus();}
     prev.onclick=()=>move(-1);next.onclick=()=>move(1);header.append(prev,title,next);panel.append(header);
-    const weekdays=n('div');weekdays.className='calendar-weekdays';weekdays.setAttribute('aria-hidden','true');(zh?['一','二','三','四','五','六','日']:['M','T','W','T','F','S','S']).forEach(x=>weekdays.append(n('span',x)));panel.append(weekdays);
+    const weekdays=n('div');weekdays.className='calendar-weekdays';weekdays.setAttribute('aria-hidden','true');(zh?['日','一','二','三','四','五','六']:['S','M','T','W','T','F','S']).forEach(x=>weekdays.append(n('span',x)));panel.append(weekdays);
     const grid=n('div');grid.className='calendar-grid';grid.setAttribute('role','group');grid.setAttribute('aria-labelledby','calendar-month');
-    const offset=(new Date(first+'T12:00:00Z').getUTCDay()+6)%7;
+    const offset=new Date(first+'T12:00:00Z').getUTCDay();
     const published=new Set(available());
     for(let i=0;i<42;i++){
       const value=shiftDate(first,i-offset),b=n('button',String(Number(value.slice(-2))));b.type='button';b.dataset.date=value;b.tabIndex=value===focusDate?0:-1;
@@ -39,3 +39,4 @@ export function mountCalendar({date, locale, available, select}) {
   addEventListener('resize',close);
   return {close};
 }
+

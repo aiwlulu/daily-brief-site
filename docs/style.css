@@ -159,5 +159,9 @@ body[data-view="day"] .story{grid-template-columns:32px minmax(0,1fr);gap:22px;p
  .filters button,.search,.search input{font-size:15px}
  .section-top span,.edition-meta{font-size:14px}
 }
-@media print{.quick-brief{break-inside:avoid}.brief-layout{display:block}.quick-brief .lead{margin-top:16px}.editor-note{background:#f0f0e9}.story-sources a{font-size:11px}.story-body{border:0;padding-left:0}}
+.masthead nav .export-excel{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:7px 12px;border:1px solid var(--line);border-radius:6px;text-decoration:none;font-size:14px;line-height:1.3;white-space:nowrap}
+.export-excel .icon{width:18px;height:18px}.export-excel:hover{background:var(--ink);color:var(--paper)}
+.export-excel[hidden]{display:none!important}
+@media(max-width:540px){.masthead nav .export-excel{padding:7px 9px;gap:5px;font-size:12px}.masthead nav{gap:5px}}
+@media print{.export-excel{display:none!important}.quick-brief{break-inside:avoid}.brief-layout{display:block}.quick-brief .lead{margin-top:16px}.editor-note{background:#f0f0e9}.story-sources a{font-size:11px}.story-body{border:0;padding-left:0}}
 

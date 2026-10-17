@@ -27,6 +27,21 @@ for(const item of [...data.context,...data.lower,...data.memo.items]){bilingual(
 for(const item of data.deep){bilingual(item.question);bilingual(item.text);}
 assert.equal(new Set(data.stories.map(s=>s.id)).size,data.stories.length);
 for(const story of data.stories){
+  if(data.perspective){
+   const m=story.market;assert.ok(m&&validDate(m.eventDate),'Missing market date');
+   for(const key of ['countries','industries','chain'])bilingual(m[key]);
+   for(const key of ['investment','demand','fdi'])bilingual(m.changes[key]);
+   for(const key of ['exposure','impact','horizon','action','checkpoint'])bilingual(m.aeis[key]);
+   assert.ok(Array.isArray(story.metrics));
+   for(const metric of story.metrics){
+    bilingual(metric.name);bilingual(metric.impact);assert.ok(Number.isFinite(metric.current));
+    assert.ok(metric.base===null||Number.isFinite(metric.base));assert.ok(metric.reportedRate===null||Number.isFinite(metric.reportedRate));
+    for(const key of ['owner','unit','period','kind','comparison','baseStatus'])assert.ok(typeof metric[key]==='string'&&metric[key].trim());
+    assert.equal(new URL(metric.sourceUrl).protocol,'https:');
+    assert.ok(story.sources.some(s=>s.url===metric.sourceUrl),'Numeric source absent from story');
+    if(metric.base!==null)assert.ok(metric.basePeriod);
+   }
+  }
   if(story.takeaway)bilingual(story.takeaway);
   if(story.depth)assert.ok(['lead','standard'].includes(story.depth));
   assert.ok(['tech','taiwan','global'].includes(story.category));
@@ -52,13 +67,23 @@ for(const [weekStart,weekPath] of Object.entries(manifest.weeks||{})){
  const digest=JSON.parse(fs.readFileSync(new URL('../docs/'+weekPath,import.meta.url),'utf8'));
  checkChineseCopy(digest,weekPath);
  assert.equal(digest.weekStart,weekStart);bilingual(digest.throughline);
- assert.ok(digest.highlights.length<=7);assert.equal(new Set(digest.highlights.map(h=>h.id)).size,digest.highlights.length);
+ assert.ok(digest.highlights.length<=5);assert.equal(new Set(digest.highlights.map(h=>h.id)).size,digest.highlights.length);
+ const usedReferences=new Set();
  for(const item of digest.highlights){
   bilingual(item.title);bilingual(item.summary);assert.ok(['tech','taiwan','global'].includes(item.category));assert.ok(item.references.length);
   for(const ref of item.references){
+   const referenceKey=ref.date+':'+ref.storyId;assert.ok(!usedReferences.has(referenceKey),'Repeated weekly event '+referenceKey);usedReferences.add(referenceKey);
    assert.equal(periodRange(ref.date,'week').start,weekStart);const entry=manifest.editions.find(e=>e.date===ref.date);assert.ok(entry,'Missing referenced edition');
    const edition=JSON.parse(fs.readFileSync(new URL('../docs/'+entry.path,import.meta.url),'utf8'));assert.ok(edition.stories.some(s=>s.id===ref.storyId),'Missing referenced story');
   }
+ }
+}
+for(const [period,entries] of Object.entries(manifest.exports||{})){
+ assert.ok(['day','week'].includes(period));
+ for(const [date,path] of Object.entries(entries)){
+  assert.ok(validDate(date));assert.equal(path,'./exports/'+period+'-'+date+'.xlsx');
+  if(period==='week')assert.ok(manifest.weeks[date]);else assert.ok(manifest.editions.some(e=>e.date===date));
+  const bytes=fs.readFileSync(new URL('../docs/'+path,import.meta.url));assert.equal(bytes.subarray(0,2).toString(),'PK','Invalid XLSX');
  }
 }
 const html = fs.readFileSync(new URL('../docs/index.html',import.meta.url),'utf8');

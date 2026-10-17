@@ -23,7 +23,7 @@ jobs:
         run: |
           node --check docs/app.js
           node scripts/check.mjs
-          node --test scripts/dates.test.mjs
+          node --test scripts/*.test.mjs
       - name: Version page assets
         run: node scripts/prepare-pages.mjs
       - name: Configure Pages
@@ -37,3 +37,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
