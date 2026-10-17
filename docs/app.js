@@ -167,8 +167,12 @@ function renderStories() {
     }
     const details = node('details');
     details.open = openStories.has(s.id)||(readingMode==='deep'&&!closedStories.has(s.id));
-    details.addEventListener('toggle', () => {if(details.isConnected){if(details.open){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}}});
+    const rememberDisclosure=()=>{if(details.isConnected){if(details.open){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}}};
+    details.addEventListener('toggle',rememberDisclosure);
     const toggle=node('summary',lang==='zh'?'背景、商業邏輯與待查':'Context, economics & what to watch');toggle.append(icon('plus'));details.append(toggle);
+    // Save a user override synchronously before search or language can rebuild
+    // the list. Native toggle events may arrive after the old node is removed.
+    toggle.addEventListener('click',event=>{event.preventDefault();details.open=!details.open;rememberDisclosure();});
     const body = node('div', undefined, 'story-body');
     const metric=node('div',undefined,'metric');
     const metricText=s.editionDate==='2026-10-13'&&s.sourceId===11&&lang==='en'?'10M':s.metric;
