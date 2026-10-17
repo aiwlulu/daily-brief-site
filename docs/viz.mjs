@@ -21,7 +21,7 @@ export function formatMetric(m,lang){
  }
 }
 // Short data-status chip, so plans, specs and forecasts never read as actuals.
-const kinds=[[/實績/,'實績','Actual'],[/規格/,'規格','Spec'],[/目標/,'目標','Target'],[/預測/,'預測','Forecast'],[/估計|估算/,'估計','Estimate'],[/規劃|計畫/,'規劃','Plan'],[/統計/,'統計','Statistic'],[/引述|轉述/,'引述','Reported'],[/陳述/,'陳述','Statement'],[/超過/,'下限','Floor']];
+const kinds=[[/實績/,'實績','Actual'],[/規格/,'規格','Spec'],[/目標/,'目標','Target'],[/預測/,'預測','Forecast'],[/規劃|計畫/,'規劃','Plan'],[/估計|估算/,'估計','Estimate'],[/統計/,'統計','Statistic'],[/引述|轉述/,'引述','Reported'],[/陳述/,'陳述','Statement'],[/超過/,'下限','Floor']];
 export function kindLabel(m,lang){const k=kinds.find(([re])=>re.test(m.kind||''));return k?k[lang==='zh'?1:2]:(m.kind||'');}
 const rateLabel=(m,lang)=>m.reportedRate!=null&&/YoY|QoQ/.test(m.comparison)?m.comparison+' '+pct(m.reportedRate,lang,true):'';
 const name=(m,lang)=>m.name[lang]||m.name.zh;
