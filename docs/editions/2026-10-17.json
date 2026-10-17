@@ -70,16 +70,6 @@
         },
         {
           "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 AEIS 獲單或收入增加。",
-            "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish AEIS orders or revenue."
-          }
-        },
-        {
-          "label": {
             "zh": "值得注意",
             "en": "Watch next"
           },
@@ -324,16 +314,6 @@
         },
         {
           "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：應由雲端與 ODM 的認證時程往回排工程資源，確認功率密度、效率、可靠度、備援及供應責任。投資評估需要每櫃電源價值、量產毛利與營運資金，現有公告沒有這些可計算資料。",
-            "en": "Analysis: allocate engineering against cloud and ODM qualification calendars, checking power density, efficiency, reliability, redundancy and supply responsibilities. Investment decisions need power content per rack, production margin and working capital, none quantified by these announcements."
-          }
-        },
-        {
-          "label": {
             "zh": "數字怎麼看",
             "en": "Reading the numbers"
           },
@@ -501,16 +481,6 @@
         },
         {
           "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：先辨識新材料製程使用哪些設備、是否增加電源控制要求，再決定工程投入。零組件轉型可能形成設備需求，現階段未有可量化的 AEIS 訂單或資本支出影響。",
-            "en": "Analysis: identify the process tools and power-control requirements of new materials before allocating engineering. This transition could create equipment demand, but no quantified AEIS orders or capex effect is established."
-          }
-        },
-        {
-          "label": {
             "zh": "數字與查證限制",
             "en": "Numbers and verification limit"
           },
@@ -638,16 +608,6 @@
           "text": {
             "zh": "本地 AI 電腦由用戶購買硬體，成本包含晶片、封裝、記憶體及通路；能否節省雲端費用取決於實際工作負載。統一記憶體容量不能直接當成 HBM 需求，本期沒有核實 HBM 用量。",
             "en": "Users buy local-AI hardware covering chips, packaging, memory and distribution. Cloud savings depend on workloads. Unified-memory capacity does not establish HBM demand; no HBM content is verified here."
-          }
-        },
-        {
-          "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：分別追蹤前段設備電源、封裝設備及 PC 系統電源的可服務範圍。新品上市尚不足以調高供應量，應等待通路售出、企業導入、退貨率與平台毛利。",
-            "en": "Analysis: assess serviceable opportunities separately in process power, packaging tools and PC power. A launch alone does not justify higher supply commitments; await sell-through, enterprise adoption, returns and platform margins."
           }
         },
         {
@@ -1146,16 +1106,6 @@
         },
         {
           "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：先確認客戶取得的電力條件，再安排機櫃電源工程與交貨。節能、功率密度及可靠度仍有價值，但現有資料不足以估算 AEIS 收入或投資回收。",
-            "en": "Analysis: confirm customer power terms before committing rack-power engineering and delivery. Efficiency, density and reliability matter, but available evidence cannot quantify AEIS revenue or payback."
-          }
-        },
-        {
-          "label": {
             "zh": "值得注意",
             "en": "Watch next"
           },
@@ -1283,16 +1233,6 @@
           "text": {
             "zh": "後段製造要靠製程、測試、設備維修與廠務共同運作，設計聚落也需要客戶及製造端協作。職缺提供需求線索，不能直接當成新增就業、產能或已支付薪資。",
             "en": "Backend operations require process, test, maintenance and facilities staff; design clusters also need customers and manufacturing partners. Vacancies signal recruiting demand, not realized hires, output or payroll."
-          }
-        },
-        {
-          "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 AEIS 合作、客戶採購或新的工廠投資。",
-            "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no AEIS partnership, procurement or new factory investment is confirmed."
           }
         },
         {
@@ -1466,16 +1406,6 @@
           "text": {
             "zh": "註冊額包括新案、增資與股權交易，實現額是不同口徑，不能相加。兩者也未對應同一批投資案，不能以 210.7 除以 503.6 當成本期計畫完成率；本期來源未列可比基期金額。",
             "en": "Registrations include new projects, additions and equity transactions, while realized FDI uses a different scope. They cannot be added, and the ratio is not a project completion rate because cohorts differ. Comparable prior-year amounts are not provided."
-          }
-        },
-        {
-          "label": {
-            "zh": "AEIS 決策視角",
-            "en": "AEIS decision lens"
-          },
-          "text": {
-            "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 AEIS 的成長率。",
-            "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or AEIS growth rate."
           }
         },
         {
