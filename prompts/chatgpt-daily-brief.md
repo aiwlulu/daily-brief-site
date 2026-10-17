@@ -9,7 +9,7 @@
 ## 使用方式
 
 1. 把下方「一、完整排程指令」整段（```text 區塊內容）貼到 ChatGPT 排程，取代舊指令。
-2. 網站圖表（供應鏈流程圖、成長率並列、前後比較、每則數字卡）都是從 JSON 欄位自動產生。ChatGPT 不需要做圖，但欄位要填完整、用詞要一致。
+2. 網站圖表（供應鏈流程圖、全部數據表、每則數字卡與同單位比較）都是從 JSON 欄位自動產生。ChatGPT 不需要做圖，但欄位要填完整、用詞要一致。
 3. 之後網站或 Excel 改版時，先更新 `AGENTS.md`，再回來同步這份指令。
 
 ## 一、完整排程指令
@@ -61,7 +61,7 @@ Each story:
 - id (unique integer), topic (stable kebab-case tag such as "tsmc-cowos", reused for continuing stories), category "tech" | "taiwan" | "global", pick (boolean), depth "lead" | "standard".
 - Choose about 3 leads (depth "lead", pick true) for the most consequential stories. Leads carry verified background, named industry participants, source-attributed product and business facts, comparable numbers and known data gaps. Page order is: leads, then brief order, then the rest.
 - title {zh,en}: neutral headline. Continuing stories start with 追蹤 / Follow-up and add only new facts.
-- summary {zh,en}: 2 to 3 sentences on what happened, with dates. This is also the one-line detail on the Excel 重點 sheet, so it must stand alone.
+- summary {zh,en}: 2 to 3 sentences on what happened, with dates. This is also the detail line in the Excel highlights, so it must stand alone in each language.
 - sections [{label:{zh,en}, text:{zh,en}}]: industry and supply-chain background, event timing, published data, reading the numbers, unconfirmed details and source limitations. The site merges these into one continuous paragraph that expands in place, so write complete sentences without bullet fragments, and use labels containing 上下游, 供應鏈, 產業背景, 為什麼重要 or 預測依據 for the context section shown in the short view.
 - metric (string) and metricLabel {zh,en}: the headline figure, or an honest keyword when no material number is supported.
 - confidence {zh,en}: 高/High, 中/Medium or 低/Low.
@@ -92,8 +92,8 @@ b) metrics: add one entry for every material, supported figure (aim for at least
    - Rates and shares are decimals: 66.4% is 0.664.
    - period: the reporting period as published, for example "2026 Q3" or "2026-01 至 2026-09".
    - kind: one of 公司實績, 產品規格, 公司目標, 預測, 官方估計, 規劃估算, 官方統計, 媒體引述, 官方陳述 (append a short qualifier after a comma when needed). The site shows it as a status chip so plans, specifications and forecasts never read as actuals.
-   - comparison: "YoY", "QoQ", "預測修訂" or "無". reportedRate: the published decimal growth rate for YoY or QoQ, otherwise null. These feed the "Published growth rates" chart.
-   - base and basePeriod: only when the source states a comparable base; otherwise base null and baseStatus explains why. Never reverse-calculate a base from a rounded rate. Metrics with a base feed the "Before and after" chart; percentage-point changes are computed from base and current.
+   - comparison: "YoY", "QoQ", "預測修訂" or "無". reportedRate: the published decimal growth rate for YoY or QoQ, otherwise null. The site shows it as a YoY / QoQ chip on the story's figure card.
+   - base and basePeriod: only when the source states a comparable base; otherwise base null and baseStatus explains why. Never reverse-calculate a base from a rounded rate. The figure card then shows the prior value; percentage-point changes are computed from base and current.
    - owner: who states the number, for example "TSMC" or "經濟部，由 CNA 報導". sourceUrl must also appear in story.sources.
    - Same-unit, same-period metrics inside one story are drawn as a bar comparison (for example revenue and net income, or 660 kW and 480 kW ratings); give them the same unit and period strings.
 c) Do not embed third-party images or screenshots. All visuals come from these fields.
@@ -110,14 +110,9 @@ On Sundays, or whenever a story concerns an exhibition or conference, review the
 - Dates and venue must come from an organizer page, official release or authoritative report you opened. Record material discrepancies in focus. Omit events you cannot verify. Keep past events of the last 30 days, remove older ones, and set "updated" to today.
 
 10. EXCEL DOWNLOADS
-Publish real .xlsx files for the current day and the current curated week. Follow AGENTS.md: copy scripts/export-workbooks.mjs and scripts/export-data.mjs into an OS temporary directory, link its node_modules to CODEX_PRIMARY_RUNTIME_NODE_MODULES, and run the copied builder with CODEX_PRIMARY_RUNTIME_NODE and arguments REPO_ROOT YYYY-MM-DD. The builder writes docs/exports/day-YYYY-MM-DD.xlsx and week-SUNDAY.xlsx, then runs scripts/summary-data.mjs and scripts/finish-workbook.py (python3 with openpyxl) and updates manifest.exports and manifest.exportVersions.
-Sheets, in order:
-- 重點: one row per story in page order; column A number, column B bold headline with date and then the one-sentence summary. This is the fastest overview and must always be present.
-- 摘要明細: bold headline row, then one paragraph combining news, industry context, location and limitations.
-- 市場動向: one row per story (weekly: one row per curated theme) with a short clickable 日報連結.
-- 數值明細: every metric, typed numbers, YoY / QoQ, disclosed bases, formulas for absolute change, percentage points and rates.
-- 欄位說明.
-Keep white body rows with thin separators, distinct headers, native filter tables, frozen headers and identifiers. Leave 影響評估 and 分析備註 columns empty for the reader. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file; links carry the exportVersions hash.
+Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires openpyxl; no other runtime). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:
+docs/exports/day-YYYY-MM-DD.xlsx, day-YYYY-MM-DD-en.xlsx, week-SUNDAY.xlsx, week-SUNDAY-en.xlsx
+and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has a single 重點 / Highlights sheet: a title row, then one row per story in website order (weekly: one row per theme) with the number, a bold headline and date, the one-sentence summary and a link to the story. The workbook content comes entirely from title, summary, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
 
 11. VALIDATE
 Run npm test (scripts/check.mjs, scripts/check-xlsx.py and unit tests). It checks bilingual fields, dates, unique ids, HTTPS sources, brief and deep references, weekly references, the calendar and Excel structure. Also self-check: every brief and deep id exists; leads have rich factual sections; each quantifiable story has metrics with consistent units; chain wording lands on the intended stage; no simplified characters; no AEIS mention; no internal progress notes.
@@ -126,7 +121,7 @@ Run npm test (scripts/check.mjs, scripts/check-xlsx.py and unit tests). It check
 The user authorises commits to main in aiwlulu/daily-brief-site through the aiwlulu GitHub account and publication through the existing GitHub Pages Actions workflow. Never write to aiwlulu/daily-brief. Verify the connected login before writing; if the identity is wrong or access fails, stop and report it.
 - Read main HEAD, AGENTS.md, docs/editions/index.json, scripts/check.mjs and the latest edition first.
 - Add the edition once to docs/editions/index.json as {"date":"YYYY-MM-DD","path":"./editions/YYYY-MM-DD.json"}; keep all prior entries. On reruns of the same date, update only for material researched changes; no empty heartbeat commits.
-- Publish the edition, weekly file, manifest, both XLSX files (create_blob base64) and any calendar change in one atomic commit with create_tree + create_commit + update_ref on the inspected HEAD, using expected_sha and re-merging if HEAD moved.
+- Publish the edition, weekly file, manifest, all four XLSX files (create_blob base64) and any calendar change in one atomic commit with create_tree + create_commit + update_ref on the inspected HEAD, using expected_sha and re-merging if HEAD moved.
 - Commit message: "feat(news): publish YYYY-MM-DD daily brief"; same-day corrections use "fix(news): update YYYY-MM-DD verified coverage". Follow Conventional Commits.
 - Watch the matching Actions run to completion. If it fails, read the logs, fix the actual content issue in a separate Conventional Commit and retry. Confirm the edition JSON, page and Excel downloads are reachable before saying publication succeeded.
 
@@ -135,7 +130,7 @@ Do not send email. Reply in Traditional Chinese with:
 - Daily link: https://aiwlulu.github.io/daily-brief-site/?date=YYYY-MM-DD
 - Weekly link: https://aiwlulu.github.io/daily-brief-site/?view=week&date=SUNDAY
 - Calendar link: https://aiwlulu.github.io/daily-brief-site/?view=events
-- Direct Excel links for the day and week
+- Direct Excel links for the day and week (Chinese and English)
 - The 30-second brief (3 to 5 bullets)
 - Material verification caveats, or a statement that none remain
 - Calendar changes made this run, if any
@@ -144,18 +139,14 @@ If deployment is pending or failed, say so and link the Actions run; never imply
 
 ## 二、本次改版重點（2026-10-17）
 
-1. **Excel 新增兩張閱讀用工作表**：工作表順序改為 重點、摘要明細、市場動向、數值明細、欄位說明。
-   - 重點：每則一列，A 欄放編號，B 欄是粗體標題加日期，下方接一句說明（取自 `summary`）
-   - 摘要明細：粗體標題列，下方一段完整說明，內容整合新聞、產業脈絡、地點與限制
-   - `scripts/export-workbooks.mjs` 匯出後會自動執行 `scripts/summary-data.mjs` 和 `scripts/finish-workbook.py`。執行環境需要 python3 與 openpyxl
-2. **市場動向欄位精簡**：移除「來源類型」欄，「完整來源與日報連結」改名為「日報連結」，儲存格只顯示可點擊的「開啟日報」，不再顯示長網址。
+1. **Excel 只保留「重點」工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題加日期、下一行一句重點，C 欄連到網站該則。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
+2. **Excel 改由 `scripts/build-workbooks.py` 產生**：只需要 python3 與 openpyxl，不再依賴 Codex 的 `@oai/artifact-tool`。原本的市場動向、數值明細、摘要明細、欄位說明工作表已移除，細節改在網站查看。
 3. **網站預設英文**：讀者可切換中文，選擇會記在瀏覽器。內容仍維持中英雙語。
 4. **短網址**：單日檢視是預設，網址不再帶 `view=day`。`?date=YYYY-MM-DD#sN` 會直接跳到該日第 N 則，舊的 `#story-YYYY-MM-DD-N` 仍可使用。
 5. **新聞排序**：依序為 `depth: "lead"` 的主稿、30 秒 Brief 的順序、其餘新聞。`depth` 與 `brief` 的排序會直接決定頁面順序。
 6. **圖表直接讀 `metrics` 與 `market`**：
    - 同一則新聞中，單位與期間相同的數字會畫成橫條比較
-   - 有 `reportedRate`（YoY／QoQ）的數字會進入「公布的成長率」並列圖
-   - 有 `base` 的數字會進入「前後比較」
+   - 有 `reportedRate`（YoY／QoQ）或 `base` 的數字，會在該則數字卡顯示成長率或前值；不同主體的成長率不會放在同一張圖比較
    - `market.chain` 與 `market.industries` 的用詞決定新聞在供應鏈流程圖上的位置
    - 原指令 STORY PRESENTATION UPDATE 中「不要拆出 separate metric blocks」需要改寫：段落與來源連結之後，可以顯示由 `metrics` 產生的圖表與數字卡
 7. **產業行事曆**：新增 `docs/events.json` 與「行事曆」檢視。只收錄日期經主辦單位或權威來源核對的活動。

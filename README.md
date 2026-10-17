@@ -17,7 +17,7 @@
 - 分類篩選與文字搜尋
 
 **視覺化**
-- 數據一覽：供應鏈上下游流程圖、公布成長率並列、前後比較，每張圖都可切換成資料表
+- 數據一覽：供應鏈上下游流程圖，以及全部數字的資料表
 - 每則新聞：供應鏈位置條、同單位數字橫條比較、標示資料性質的數字卡（實績、規格、目標、預測、規劃等）
 - 產業行事曆：月份總覽與月份清單，可依地區篩選，台灣與東南亞活動以色彩標示
 
@@ -27,8 +27,8 @@
 - 響應式版面，列印時自動展開全文
 
 **Excel 下載**
-- 當日與當週各一份，依刊期完整匯出，不受頁面搜尋篩選影響
-- 工作表依序為：重點、摘要明細、市場動向、數值明細、欄位說明
+- 當日與當週各一份，分中文與英文版，依介面語言下載
+- 單一「重點」工作表：編號、粗體標題與日期、一句重點、網站連結
 
 ## 網址
 
@@ -74,7 +74,7 @@ AGENTS.md                內容、資料結構與介面的正式規格
 ## 資料檔
 
 - **刊期** `docs/editions/YYYY-MM-DD.json`：throughline、brief、stories、deep、context、lower、verificationNote 等欄位。新刊期的每則新聞需包含 `market`（日期、國家、產業、供應鏈環節、投資／需求／FDI 變化、事實與未知事項）；有數字時加入 `metrics`。圖表直接讀取這兩個欄位。
-- **索引** `docs/editions/index.json`：已發布刊期、週精華對照 `weeks`、Excel 路徑 `exports` 與快取用雜湊 `exportVersions`。
+- **索引** `docs/editions/index.json`：已發布刊期、週精華對照 `weeks`、Excel 路徑 `exports`／`exportsEn` 與快取用雜湊 `exportVersions`／`exportVersionsEn`。
 - **週精華** `docs/weeks/YYYY-MM-DD.json`：週日至週六，最多 5 個跨日主題，每個主題以 `references: [{date, storyId}]` 指向當週已發布的新聞。沒有週精華檔時，介面會從當週新聞選出最多 5 則。
 - **行事曆** `docs/events.json`：每個活動需有日期、地區、類型、中英文名稱／地點／重點，以及實際查閱過的官方或權威來源。
 
@@ -94,18 +94,18 @@ npm test
 
 `npm test` 會依序執行：
 - `scripts/check.mjs`：刊期、週精華、行事曆、索引與介面元素
-- `scripts/check-xlsx.py`：Excel 的 OOXML 關聯、表格範圍與表頭一致性
+- `scripts/check-xlsx.py`：Excel 的 OOXML 關聯與結構
 - `scripts/*.test.mjs`：日期、段落組合與匯出資料的單元測試
 
 網站本身是純 HTML、CSS 與 JavaScript，不需要安裝套件或 API 金鑰。
 
 ## Excel 匯出
 
-`scripts/export-workbooks.mjs` 使用 Codex 執行環境的 `@oai/artifact-tool` 產生活頁簿，接著執行：
-- `scripts/summary-data.mjs`：產生閱讀用摘要資料
-- `scripts/finish-workbook.py`：加入「重點」與「摘要明細」工作表，並把日報連結縮短成可點擊文字（需要 python3 與 openpyxl）
+```sh
+python3 scripts/build-workbooks.py . 2026-10-17
+```
 
-完成後會更新 `manifest.exports` 與 `exportVersions`。完整步驟見 `AGENTS.md`。
+需要 python3 與 openpyxl。會產生當日與當週的中英文共四個檔案，並更新索引中的 Excel 路徑與雜湊。內容取自刊期的標題、摘要、主稿與 Brief 順序，以及週精華。
 
 ## 部署
 
