@@ -61,7 +61,7 @@ Each story:
 - id (unique integer), topic (stable kebab-case tag such as "tsmc-cowos", reused for continuing stories), category "tech" | "taiwan" | "global", pick (boolean), depth "lead" | "standard".
 - Choose about 3 leads (depth "lead", pick true) for the most consequential stories. Leads carry verified background, named industry participants, source-attributed product and business facts, comparable numbers and known data gaps. Page order is: leads, then brief order, then the rest.
 - title {zh,en}: neutral headline. Continuing stories start with 追蹤 / Follow-up and add only new facts.
-- summary {zh,en}: 2 to 3 sentences on what happened, with dates. This is also the detail line in the Excel highlights, so it must stand alone in each language.
+- summary {zh,en}: 2 to 3 sentences that let a reader grasp the point without opening the story: first sentence states who did what, when and where, with the most important number; then the key supply-chain link or the main limitation. Avoid vague lines such as "no new figures" without saying what was disclosed. This is also the Excel 摘要版 row, so it must stand alone in each language.
 - sections [{label:{zh,en}, text:{zh,en}}]: industry and supply-chain background, event timing, published data, reading the numbers, unconfirmed details and source limitations. The site merges these into one continuous paragraph that expands in place, so write complete sentences without bullet fragments, and use labels containing 上下游, 供應鏈, 產業背景, 為什麼重要 or 預測依據 for the context section shown in the short view.
 - metric (string) and metricLabel {zh,en}: the headline figure, or an honest keyword when no material number is supported.
 - confidence {zh,en}: 高/High, 中/Medium or 低/Low.
@@ -110,9 +110,9 @@ On Sundays, or whenever a story concerns an exhibition or conference, review the
 - Dates and venue must come from an organizer page, official release or authoritative report you opened. Record material discrepancies in focus. Omit events you cannot verify. Keep past events of the last 30 days, remove older ones, and set "updated" to today. Then run python3 scripts/build-workbooks.py REPO_ROOT events to rebuild the calendar workbooks (events-UPDATED.xlsx and events-UPDATED-en.xlsx) and include them and the manifest in the same commit.
 
 10. EXCEL DOWNLOADS
-Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires openpyxl; no other runtime). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:
+Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires python3 with openpyxl and node). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:
 docs/exports/day-YYYY-MM-DD.xlsx, day-YYYY-MM-DD-en.xlsx, week-SUNDAY.xlsx, week-SUNDAY-en.xlsx
-and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has a single 重點 / Highlights sheet: a title row, then one row per story in website order (weekly: one row per theme) with the number, a bold headline and date, and the one-sentence summary. The workbook content comes entirely from title, summary, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
+and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has two sheets: 摘要版 / Summary (one row per story in website order, or per theme for the week, with the number, a bold headline and date, and the summary) and 完整版 / Full (the same stories with the full paragraph built from summary, location, sections and caveats; the weekly Full sheet lists each referenced story by theme). The content comes entirely from title, summary, sections, location, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. The builder needs python3 with openpyxl and node. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
 
 11. VALIDATE
 Run npm test (scripts/check.mjs, scripts/check-xlsx.py and unit tests). It checks bilingual fields, dates, unique ids, HTTPS sources, brief and deep references, weekly references, the calendar and Excel structure. Also self-check: every brief and deep id exists; leads have rich factual sections; each quantifiable story has metrics with consistent units; chain wording lands on the intended stage; no simplified characters; no AEIS mention; no internal progress notes.
@@ -139,7 +139,7 @@ If deployment is pending or failed, say so and link the Actions run; never imply
 
 ## 二、本次改版重點（2026-10-17）
 
-1. **Excel 只保留「重點」工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題加日期、下一行一句重點。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
+1. **Excel 改為「摘要版」與「完整版」兩張工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題加日期，下一行是摘要或完整段落。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
 2. **Excel 改由 `scripts/build-workbooks.py` 產生**：只需要 python3 與 openpyxl，不再依賴 Codex 的 `@oai/artifact-tool`。原本的市場動向、數值明細、摘要明細、欄位說明工作表已移除，細節改在網站查看。
 3. **網站預設英文**：讀者可切換中文，選擇會記在瀏覽器。內容仍維持中英雙語。
 4. **短網址**：單日檢視是預設，網址不再帶 `view=day`。`?date=YYYY-MM-DD#sN` 會直接跳到該日第 N 則，舊的 `#story-YYYY-MM-DD-N` 仍可使用。

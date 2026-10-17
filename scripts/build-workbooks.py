@@ -9,6 +9,7 @@ import datetime as dt
 import hashlib
 import json
 import math
+import subprocess
 import sys
 import unicodedata
 from pathlib import Path
@@ -50,10 +51,8 @@ def lines(text, size, width):
     return max(1, math.ceil(units * size / 11 / (width * 1.1)))
 
 
-def sheet(wb, lang, title, entries):
+def sheet(ws, lang, title, entries, field):
     font = FONTS[lang]
-    ws = wb.active
-    ws.title = '重點' if lang == 'zh' else 'Highlights'
     ws.sheet_view.showGridLines = False
     ws.sheet_view.zoomScale = 110
     for col, width in WIDTH.items():
@@ -77,12 +76,12 @@ def sheet(wb, lang, title, entries):
         body.value = CellRichText(
             TextBlock(InlineFont(rFont=font, sz=13, b=True, color=INK), e['heading']),
             TextBlock(InlineFont(rFont=font, sz=11, color=MUTED), '   ' + e['time'] + '\n'),
-            TextBlock(InlineFont(rFont=font, sz=11, color=TEXT), e['detail']),
+            TextBlock(InlineFont(rFont=font, sz=11, color=TEXT), e[field]),
         )
         body.alignment = Alignment(wrap_text=True, vertical='top')
         ws.row_dimensions[row].height = (
             lines(e['heading'] + '   ' + e['time'], 13, WIDTH['B']) * 20
-            + lines(e['detail'], 11, WIDTH['B']) * 16 + 10)
+            + lines(e[field], 11, WIDTH['B']) * 16 + 10)
         for col in range(1, 3):
             cell = ws.cell(row, col)
             cell.fill = fill
@@ -97,9 +96,18 @@ def sheet(wb, lang, title, entries):
     ws.sheet_properties.tabColor = BRAND
 
 
-def save(entries, title, lang, path):
+SHEETS = {'zh': ('摘要版', '完整版'), 'en': ('Summary', 'Full')}
+
+
+def save(summary, full, title, lang, path):
+    # Summary sheet first for scanning; full sheet keeps the whole paragraph.
     wb = Workbook()
-    sheet(wb, lang, title, entries)
+    first = wb.active
+    first.title = SHEETS[lang][0]
+    sheet(first, lang, title, summary, 'detail')
+    second = wb.create_sheet(SHEETS[lang][1])
+    sheet(second, lang, title, full, 'full')
+    second.sheet_properties.tabColor = MUTED
     wb.properties.title = title
     wb.save(path)
     return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
@@ -231,28 +239,40 @@ def main():
     end = (dt.date.fromisoformat(start) + dt.timedelta(days=6)).isoformat()
     editions = {e['date']: read(e['path']) for e in manifest['editions'] if start <= e['date'] <= end}
     digest = read(manifest['weeks'][start])
+    paragraphs = json.loads(subprocess.run(
+        ['node', str(root / 'scripts/story-paragraphs.mjs'), str(root), *editions],
+        check=True, capture_output=True, text=True).stdout)
     out = docs / 'exports'
     out.mkdir(exist_ok=True)
     for lang in ('zh', 'en'):
         suffix = '' if lang == 'zh' else '-en'
         day_entries = [{
             'heading': s['title'][lang], 'time': short(date, lang), 'detail': s['summary'][lang],
+            'full': paragraphs[date][str(s['id'])][lang],
             'lead': s.get('depth') == 'lead'} for s in ranked(edition)]
-        week_entries = []
+        week_entries, week_full = [], []
         for h in digest['highlights']:
             dates = sorted({r['date'] for r in h['references']})
             week_entries.append({
                 'heading': h['title'][lang], 'time': ('、' if lang == 'zh' else ', ').join(short(d, lang) for d in dates),
                 'detail': h['summary'][lang], 'lead': False})
+            # Full weekly sheet: each referenced story under its theme, in theme order.
+            for ref in sorted(h['references'], key=lambda r: r['date']):
+                story = next(x for x in editions[ref['date']]['stories'] if x['id'] == ref['storyId'])
+                week_full.append({
+                    'heading': story['title'][lang], 'time': short(ref['date'], lang),
+                    'full': paragraphs[ref['date']][str(ref['storyId'])][lang], 'lead': False})
         if lang == 'zh':
             titles = (f'{date} 日報重點', f'{start} 至 {end} 週報重點')
         else:
             titles = (f'Daily Brief highlights · {date}', f'Weekly highlights · {start} to {end}')
         exports = manifest.setdefault('exports' if lang == 'zh' else 'exportsEn', {})
         versions = manifest.setdefault('exportVersions' if lang == 'zh' else 'exportVersionsEn', {})
-        for period, key, entries, title in (('day', date, day_entries, titles[0]), ('week', start, week_entries, titles[1])):
+        for period, key, summary, full, title in (
+                ('day', date, day_entries, day_entries, titles[0]),
+                ('week', start, week_entries, week_full, titles[1])):
             name = f'{period}-{key}{suffix}.xlsx'
-            versions.setdefault(period, {})[key] = save(entries, title, lang, out / name)
+            versions.setdefault(period, {})[key] = save(summary, full, title, lang, out / name)
             exports.setdefault(period, {})[key] = './exports/' + name
             print('Wrote', name)
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + '\n')
