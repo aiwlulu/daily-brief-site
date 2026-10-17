@@ -2,8 +2,8 @@
   "weekStart": "2026-10-11",
   "generatedAt": "2026-10-17T11:53:49.157128+00:00",
   "throughline": {
-    "zh": "10/11 至 10/17 的五個主題，聚焦台灣與東南亞：晶圓與記憶體供給、整機櫃供電、台灣終端與布局、馬來西亞人才，以及越南投資落地。依已發布的 10/12 至 10/17 日報整理，同一事件只歸入一個主題。",
-    "en": "Five themes for October 11–17 focus on Taiwan and Southeast Asia: chip and memory supply, rack power, Taiwan endpoints and footprint, Malaysian talent, and Vietnam investment execution. Based on published October 12–17 editions, with each event assigned once."
+    "zh": "10/11 至 10/17 的五個主題，聚焦台灣與東南亞：晶圓與記憶體供給、整機櫃供電、台灣終端與布局、馬來西亞人才，以及越南資料中心電價。依已發布的 10/12 至 10/17 日報整理，同一事件只歸入一個主題。",
+    "en": "Five themes for October 11–17 focus on Taiwan and Southeast Asia: chip and memory supply, rack power, Taiwan endpoints and footprint, Malaysian talent, and Vietnam data-center tariffs. Based on published October 12–17 editions, with each event assigned once."
   },
   "highlights": [
     {
@@ -114,21 +114,17 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "越南資料中心電價與前三季外資統計",
-        "en": "Vietnam data-center tariffs and nine-month FDI statistics"
+        "zh": "胡志明市資料中心電價待釐清",
+        "en": "Ho Chi Minh City data-center tariffs await clarification"
       },
       "summary": {
-        "zh": "胡志明市要求釐清資料中心電價，最終費率及原始會議文件尚未取得；10 月 3 日發布的前三季 FDI 實現額估計年增 12.1%。個案電價與全國統計分開記錄，外資註冊額、實現額及製造業分項的分母亦不同。",
-        "en": "Ho Chi Minh City sought tariff clarification, with final tariffs and original meeting records unavailable; October 3 data estimated nine-month realized FDI growth at 12.1%. Project tariffs and national statistics remain separate, as do the denominators for registered, realized and manufacturing investment."
+        "zh": "胡志明市工業區管理機關要求統一 AI 資料中心電價指引，最終費率與原始會議文件尚未取得。AIC 與 KBC 計畫的 21 億美元投資已於 3 月公布，本週新進展是電價問題，並非新投資。",
+        "en": "Ho Chi Minh City’s industrial-zone authority sought unified AI data-center tariff guidance; final tariffs and original meeting records are unavailable. The AIC–KBC project’s $2.1 billion investment was announced in March, so the new development is tariffs, not new investment."
       },
       "references": [
         {
           "date": "2026-10-17",
           "storyId": 18
-        },
-        {
-          "date": "2026-10-17",
-          "storyId": 20
         }
       ]
     }

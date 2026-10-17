@@ -2,8 +2,8 @@
   "date": "2026-10-17",
   "generatedAt": "2026-10-17T11:53:49.157128+00:00",
   "throughline": {
-    "zh": "本期涵蓋台灣晶圓、HBM、封裝測試、機櫃電源與終端工廠，以及馬來西亞人才和越南投資、電價資料。",
-    "en": "This edition covers Taiwan wafers, HBM, packaging and test, rack power and factories, alongside Malaysian talent and Vietnam investment and tariff data."
+    "zh": "本期涵蓋台灣晶圓、HBM、封裝測試、機櫃電源與終端工廠，以及馬來西亞人才和越南資料中心電價。",
+    "en": "This edition covers Taiwan wafers, HBM, packaging and test, rack power and factories, alongside Malaysian talent and Vietnam data-center tariffs."
   },
   "stories": [
     {
@@ -1457,225 +1457,6 @@
       }
     },
     {
-      "id": 20,
-      "topic": "vietnam-fdi-execution",
-      "category": "global",
-      "pick": false,
-      "depth": "standard",
-      "title": {
-        "zh": "區域背景：越南前三季 FDI 實現額年增 12.1%，註冊額與落地須分開",
-        "en": "Regional background: Vietnam nine-month realized FDI rises 12.1%; distinguish registrations from execution"
-      },
-      "summary": {
-        "zh": "越南政府新聞網 10 月 3 日公布的前三季資料顯示，FDI 實現額估 210.7 億美元、年增 12.1%，總註冊外資為 503.6 億美元、年增 76.4%。這是本期新增的區域背景，資料截至 9 月 30 日，並非 10 月 17 日的新統計。",
-        "en": "Vietnam’s government news portal reported October 3 that estimated realized FDI reached $21.07 billion in the first nine months, up 12.1% yearly, while total registered foreign investment reached $50.36 billion, up 76.4%. This is regional background through September 30, not a new October 17 release."
-      },
-      "metric": "12.1% YoY",
-      "metricLabel": {
-        "zh": "前三季 FDI 實現額年增",
-        "en": "Nine-month realized FDI growth"
-      },
-      "sections": [
-        {
-          "label": {
-            "zh": "數字怎麼看",
-            "en": "Reading the numbers"
-          },
-          "text": {
-            "zh": "註冊額包括新案、增資與股權交易，實現額是不同口徑，不能相加。兩者也未對應同一批投資案，不能以 210.7 除以 503.6 當成本期計畫完成率；本期來源未列可比基期金額。",
-            "en": "Registrations include new projects, additions and equity transactions, while realized FDI uses a different scope. They cannot be added, and the ratio is not a project completion rate because cohorts differ. Comparable prior-year amounts are not provided."
-          }
-        },
-        {
-          "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
-          },
-          "text": {
-            "zh": "製造業及資金來源分項未核對官方原表；實現額屬估計",
-            "en": "Manufacturing and investor-origin details lack original-table verification; realized FDI is estimated"
-          }
-        },
-        {
-          "label": {
-            "zh": "製造業分項的分母是什麼？",
-            "en": "Which denominator applies to manufacturing?"
-          },
-          "text": {
-            "zh": "VnEconomy 10 月 4 日轉述，新案與增資合計中，製造加工業為 218.2 億美元、占 50.3%；新加坡則是新註冊外資最大來源，金額 92.6 億美元、占 31.7%。前者分母是新案加增資，後者是新註冊資本，均不能套用到 503.6 億美元總註冊額。這些分項尚未核對官方原始明細表，屬來源受限。",
-            "en": "VnEconomy reported October 4 that manufacturing and processing received $21.82 billion, or 50.3% of new and additional registrations. Singapore supplied $9.26 billion, or 31.7% of newly registered capital. Neither percentage uses the $50.36 billion total-registration denominator. These breakdowns have not been checked against original official tables and are source-limited."
-          }
-        }
-      ],
-      "sources": [
-        {
-          "name": {
-            "zh": "越南政府新聞網 · 10/3 統計發布",
-            "en": "Vietnam Government News · Oct 3 statistics"
-          },
-          "url": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
-          "type": "First-hand"
-        },
-        {
-          "name": {
-            "zh": "VnEconomy · 10/4 分項整理",
-            "en": "VnEconomy · Oct 4 breakdown"
-          },
-          "url": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
-          "type": "Second-hand"
-        }
-      ],
-      "confidence": {
-        "zh": "中：總量有官方來源，新增分項待核對原表",
-        "en": "Medium: official totals; added breakdowns await original-table verification"
-      },
-      "market": {
-        "eventDate": "2026-10-03",
-        "countries": {
-          "zh": "越南；新加坡",
-          "en": "Vietnam; Singapore"
-        },
-        "industries": {
-          "zh": "製造業；外商投資；工業電源",
-          "en": "Manufacturing; FDI; industrial power"
-        },
-        "chain": {
-          "zh": "資金註冊至工廠落地",
-          "en": "Investment registration to plant execution"
-        },
-        "changes": {
-          "investment": {
-            "zh": "總註冊外資 503.6 億美元",
-            "en": "Total registered foreign investment $50.36 billion"
-          },
-          "demand": {
-            "zh": "工廠設備需求尚須分項驗證",
-            "en": "Plant-equipment demand requires breakdowns"
-          },
-          "fdi": {
-            "zh": "FDI 實現額估 210.7 億美元，YoY 12.1%",
-            "en": "Estimated realized FDI $21.07 billion, up 12.1% YoY"
-          }
-        },
-        "facts": {
-          "relevance": {
-            "zh": "越南製造業投資及外資流量背景",
-            "en": "Vietnam manufacturing investment and FDI context"
-          },
-          "timing": {
-            "zh": "統計截至 9 月 30 日，10 月 3 日發布",
-            "en": "Statistics through September 30, released October 3"
-          },
-          "unknowns": {
-            "zh": "製造業及資金來源分項未核對官方原表；實現額屬估計",
-            "en": "Manufacturing and investor-origin details lack original-table verification; realized FDI is estimated"
-          }
-        }
-      },
-      "metrics": [
-        {
-          "name": {
-            "zh": "FDI 實現額估計",
-            "en": "Estimated realized FDI"
-          },
-          "current": 21.07,
-          "unit": "USD billion",
-          "period": {
-            "zh": "2026-01 至 2026-09",
-            "en": "Jan–Sep 2026"
-          },
-          "owner": {
-            "zh": "越南國家統計局，由政府新聞網公布",
-            "en": "Vietnam statistics office, via Government News"
-          },
-          "sourceUrl": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
-          "kind": "官方估計",
-          "comparison": "YoY",
-          "base": null,
-          "basePeriod": "2025-01 至 2025-09",
-          "reportedRate": 0.121,
-          "baseStatus": "未揭露可比基期；不倒推"
-        },
-        {
-          "name": {
-            "zh": "總註冊外資",
-            "en": "Total registered foreign investment"
-          },
-          "current": 50.36,
-          "unit": "USD billion",
-          "period": {
-            "zh": "2026-01 至 2026-09",
-            "en": "Jan–Sep 2026"
-          },
-          "owner": {
-            "zh": "越南國家統計局，由政府新聞網公布",
-            "en": "Vietnam statistics office, via Government News"
-          },
-          "sourceUrl": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
-          "kind": "官方統計",
-          "comparison": "YoY",
-          "base": null,
-          "basePeriod": "2025-01 至 2025-09",
-          "reportedRate": 0.764,
-          "baseStatus": "未揭露可比基期；不倒推"
-        },
-        {
-          "name": {
-            "zh": "製造加工業新案與增資",
-            "en": "Manufacturing new and additional registrations"
-          },
-          "current": 21.82,
-          "unit": "USD billion",
-          "period": {
-            "zh": "2026-01 至 2026-09",
-            "en": "Jan–Sep 2026"
-          },
-          "owner": {
-            "zh": "越南統計資料，由 VnEconomy 轉述",
-            "en": "Vietnam statistics, as reported by VnEconomy"
-          },
-          "sourceUrl": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
-          "kind": "媒體引述分項，官方原表待核對",
-          "comparison": "無",
-          "base": null,
-          "basePeriod": "",
-          "reportedRate": null,
-          "baseStatus": "未提供可比基期；不倒推"
-        },
-        {
-          "name": {
-            "zh": "新加坡來源的新註冊資本",
-            "en": "Newly registered capital from Singapore"
-          },
-          "current": 9.26,
-          "unit": "USD billion",
-          "period": {
-            "zh": "2026-01 至 2026-09",
-            "en": "Jan–Sep 2026"
-          },
-          "owner": {
-            "zh": "越南統計資料，由 VnEconomy 轉述",
-            "en": "Vietnam statistics, as reported by VnEconomy"
-          },
-          "sourceUrl": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
-          "kind": "媒體引述分項，官方原表待核對",
-          "comparison": "無",
-          "base": null,
-          "basePeriod": "",
-          "reportedRate": null,
-          "baseStatus": "未提供可比基期；不倒推"
-        }
-      ],
-      "location": {
-        "zh": "越南全國統計；非單一活動或工廠",
-        "en": "Nationwide Vietnam statistics; not a single event or factory"
-      },
-      "ceoView": {
-        "zh": "越南前三季外資註冊額年增 76.4%、製造業約占一半，顯示供應鏈持續分散到東南亞；但實現額只年增 12.1%，落地速度慢於承諾。CEO 會追蹤其中哪些屬於半導體、電子與資料中心專案，並以實際建廠與設備採購時程判斷機會，而不是看註冊金額。",
-        "en": "Vietnam's registered FDI rose 76.4% with manufacturing about half, showing continued supply-chain diversification into Southeast Asia, but realized FDI grew only 12.1%, so execution lags commitments. A CEO would track which projects are semiconductor, electronics or data-center related and judge opportunity by actual construction and tool purchases, not registered amounts."
-      }
-    },
-    {
       "id": 21,
       "topic": "factory-ai-adoption",
       "category": "tech",
@@ -1876,6 +1657,16 @@
         "zh": "公司實績、預測、展示規格、投資計畫與已實現外資分開記錄。未披露的訂單、產出、基期及財務影響保持未知。",
         "en": "Company results, forecasts, exhibit ratings, investment plans and realized FDI are recorded separately. Undisclosed orders, output, bases and financial effects remain unknown."
       }
+    },
+    {
+      "title": {
+        "zh": "越南前三季外資（10 月 3 日發布）",
+        "en": "Vietnam nine-month FDI (released October 3)"
+      },
+      "text": {
+        "zh": "越南政府新聞網 10 月 3 日公布，前三季 FDI 實現額估 210.7 億美元、年增 12.1%；總註冊外資 503.6 億美元、年增 76.4%。資料截至 9 月 30 日，非本期新統計。註冊額含新案、增資與股權交易，與實現額口徑不同，不能相加或相除成落地率。",
+        "en": "Vietnam’s government news portal reported on October 3 that estimated realized FDI reached $21.07 billion in the first nine months, up 12.1% yearly, while total registered foreign investment reached $50.36 billion, up 76.4%. Data run through September 30 and are not a new release in this edition. Registrations include new projects, additions and equity transactions, so they cannot be added to or divided by realized FDI as a completion rate."
+      }
     }
   ],
   "memo": {
@@ -1887,8 +1678,8 @@
   },
   "lower": [],
   "verificationNote": {
-    "zh": "本期聚焦台灣與東南亞。CoWoS、美光、10 月 14 日工廠 AI 合作及越南 10 月 3 日 FDI 資料明列為追蹤或背景。展示規格、公司目標、園區估算與 GDP 預測均非已完成訂單。友達與馬來西亞園區數字依具名採訪；胡志明市電價缺原始會議文件及最終費率，越南製造業及資金來源分項未核對官方原表，這些部分屬來源受限。未披露的訂單、基期與影響金額保持未知。 活動地點依主辦資料補充；MSRD 招募起日存在 10/14 與 10/15 兩種主辦頁記載，KLCC 場館則一致。",
-    "en": "Focused on Taiwan and Southeast Asia. CoWoS, Micron, October 14 factory AI collaboration and Vietnam’s October 3 FDI figures are follow-ups or background. Ratings, targets, park estimates and GDP forecasts are not completed orders. AUO and Malaysian park figures rely on named interviews. Original Ho Chi Minh City records and final tariffs are unavailable; Vietnam manufacturing and investor-origin breakdowns lack original-table verification. These portions are source-limited. Undisclosed orders, bases and financial effects remain unknown. Event locations use organizer sources. MSRD organizer pages differ on an October 14 or 15 start date but agree on KLCC."
+    "zh": "本期聚焦台灣與東南亞。CoWoS、美光及 10 月 14 日工廠 AI 合作明列為追蹤。展示規格、公司目標、園區估算與 GDP 預測均非已完成訂單。友達與馬來西亞園區數字依具名採訪；胡志明市電價缺原始會議文件及最終費率，屬來源受限。未披露的訂單、基期與影響金額保持未知。 活動地點依主辦資料補充；MSRD 招募起日存在 10/14 與 10/15 兩種主辦頁記載，KLCC 場館則一致。",
+    "en": "Focused on Taiwan and Southeast Asia. CoWoS, Micron and the October 14 factory AI collaboration are follow-ups. Ratings, targets, park estimates and GDP forecasts are not completed orders. AUO and Malaysian park figures rely on named interviews. Original Ho Chi Minh City records and final tariffs are unavailable, so that portion is source-limited. Undisclosed orders, bases and financial effects remain unknown. Event locations use organizer sources. MSRD organizer pages differ on an October 14 or 15 start date but agree on KLCC."
   },
   "coverage": {
     "focus": {
