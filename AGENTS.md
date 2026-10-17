@@ -46,3 +46,9 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 - For leads, add verified background, named industry participants, source-attributed product and business facts, comparable numbers and known data gaps. Preserve depth through factual detail and source documents. Do not add decision scenarios, strategic implications, action recommendations or unsupported causal conclusions.
 - Aim for newsletter-like reading richness with a concise entry layer. Preserve Traditional Chinese, bilingual factual agreement, source verification, compact weekly themes, date/search/language functionality and the custom loading skeleton.
 
+
+## Story paragraph presentation
+
+- Each daily story uses a bold headline followed inline by its edition date in a semantic time element. Use only verified timestamps if exact publication times are available; never invent hours or minutes.
+- Render one continuous reading paragraph below the headline. Combine the news, verified industry/supply-chain context, venue and material limitations within that paragraph. Do not render separate metrics, editorial boxes or subsection headings. Source links remain immediately after the paragraph.
+- Read more expands that same paragraph in place, retaining full source details and optional table figures as prose; Show less restores the shorter paragraph. Preserve global reading modes, individual overrides, search, language and complete print output. Keep the current factual-only coverage requirement, with no CEO role-play or decision advice.

@@ -1,4 +1,5 @@
 /* Content is rendered with textContent. News strings never become HTML. */
+import {storyParagraph} from './story-copy.mjs';
 import {fallbackWeekly} from './weekly.mjs';
 import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
@@ -146,10 +147,13 @@ function renderStories() {
     article.append(node('div', String(data.stories.indexOf(s)+1).padStart(2,'0'), 'story-number'));
     const content = node('div');
     const meta = node('div', undefined, 'story-meta');
-    const published=node('time',s.editionDate.slice(5).replace('-','/'));published.dateTime=s.editionDate;published.setAttribute('aria-label',s.editionDate);meta.append(node('span', words[lang][s.category]),published);
+    const published=node('time',s.editionDate.slice(5).replace('-','/'),'story-time');published.dateTime=s.editionDate;published.setAttribute('aria-label',(lang==='zh'?'刊期日期：':'Edition date: ')+s.editionDate);meta.append(node('span', words[lang][s.category]));
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
-    content.append(meta, node('h3', t(s.title)), node('p', t(s.summary), 'summary-text'));
-    if(s.location)content.append(node('p',(lang==='zh'?'地點：':'Location: ')+t(s.location),'story-location'));
+    const heading=node('h3',undefined,'story-heading');heading.append(node('strong',t(s.title)),document.createTextNode(' '),published);
+    const paragraph=node('p',undefined,'summary-text story-copy');paragraph.id=article.id+'-copy';
+    let expanded=openStories.has(s.id)||(readingMode==='deep'&&!closedStories.has(s.id));
+    paragraph.textContent=storyParagraph(s,lang,expanded);
+    content.append(meta,heading,paragraph);
     const sources = node('div',undefined,'source-links story-sources');
     sources.setAttribute('aria-label',(lang==='zh'?'相關連結：':'Related sources: ')+t(s.title));
     sources.append(node('span',lang==='zh'?'相關連結':'Sources','source-label'));
@@ -160,44 +164,21 @@ function renderStories() {
       sources.append(a);
     });
     content.append(sources);
-    if(s.takeaway&&data.coverage?.approach!=='facts-first'){
-      const note=node('aside',undefined,'editor-note');
-      note.append(node('span',lang==='zh'?'編輯解讀':'EDITOR’S LENS','eyebrow'),node('p',t(s.takeaway)));
-      content.append(note);
-    }
-    const details = node('details');
-    details.open = openStories.has(s.id)||(readingMode==='deep'&&!closedStories.has(s.id));
-    const rememberDisclosure=()=>{if(details.isConnected){if(details.open){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}}};
-    details.addEventListener('toggle',rememberDisclosure);
-    const toggle=node('summary',lang==='zh'?'背景、數據與待確認事項':'Background, data & unconfirmed details');toggle.append(icon('plus'));details.append(toggle);
-    // Save a user override synchronously before search or language can rebuild
-    // the list. Native toggle events may arrive after the old node is removed.
-    toggle.addEventListener('click',event=>{event.preventDefault();details.open=!details.open;rememberDisclosure();});
-    const body = node('div', undefined, 'story-body');
-    const metric=node('div',undefined,'metric');
-    const metricText=s.editionDate==='2026-10-13'&&s.sourceId===11&&lang==='en'?'10M':s.metric;
-    metric.append(node('strong',metricText),node('small',t(s.metricLabel)));body.append(metric);
-    if(s.table){
-      const table = node('table');
-      const caption = node('caption',lang === 'zh' ? '財務數據' : 'Financial data');
-      table.append(caption);
-      const tbody = node('tbody');
-      s.table.forEach(row => {
-        const tr = node('tr');
-        const th = node('th', row[lang]);
-        th.scope = 'row';
-        const value = lang === 'en' ? row.value.replace('1,336.49 億','133.649B').replace('876.27 億','87.627B') : row.value;
-        tr.append(th, node('td', value)); tbody.append(tr);
-      });
-      table.append(tbody); body.append(table);
-    }
-    s.sections.forEach(section => {
-      const n = node('section',undefined,'detail-section');
-      n.append(node('h4',t(section.label)),node('p',t(section.text)));
-      body.append(n);
-    });
-    body.append(node('p',words[lang].confidence+'：'+t(s.confidence),'confidence'));
-    details.append(body); content.append(details);
+    const toggle=node('button',undefined,'story-toggle');toggle.type='button';
+    toggle.setAttribute('aria-controls',paragraph.id);
+    const updateToggle=()=>{
+      const label=expanded?(lang==='zh'?'收合內容':'Show less'):(lang==='zh'?'閱讀更多':'Read more');
+      toggle.replaceChildren(node('span',label),icon('plus'));
+      toggle.setAttribute('aria-expanded',String(expanded));
+      toggle.setAttribute('aria-label',label+'：'+t(s.title));
+    };
+    updateToggle();
+    toggle.onclick=()=>{
+      expanded=!expanded;
+      if(expanded){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}
+      paragraph.textContent=storyParagraph(s,lang,expanded);updateToggle();
+    };
+    content.append(toggle);
     article.append(content); list.append(article);
   }
   [...el('filters').children].forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter === filter)));
@@ -305,8 +286,8 @@ function render() {
   renderStories();
 }
 let beforePrint = [];
-window.addEventListener('beforeprint',()=>{beforePrint=[...document.querySelectorAll('details')].map(n=>[n,n.open]);beforePrint.forEach(([n])=>n.open=true);});
-window.addEventListener('afterprint',()=>beforePrint.forEach(([n,open])=>n.open=open));
+window.addEventListener('beforeprint',()=>{beforePrint=[...document.querySelectorAll('.story-copy')].map(n=>[n,n.textContent]);for(const [n] of beforePrint){const story=data.stories.find(s=>'story-'+s.id+'-copy'===n.id);if(story)n.textContent=storyParagraph(story,lang,true);}});
+window.addEventListener('afterprint',()=>beforePrint.forEach(([n,copy])=>n.textContent=copy));
 async function readJson(path) {
   const response = await fetch(path,{cache:'no-cache'});
   if (!response.ok) throw new Error('Content unavailable');

@@ -171,3 +171,15 @@ body[data-view="day"] .story{grid-template-columns:32px minmax(0,1fr);gap:22px;p
 @media(max-width:540px){.masthead nav .export-excel{padding:7px 9px;gap:5px;font-size:12px}.masthead nav{gap:5px}}
 @media print{.export-excel{display:none!important}.quick-brief{break-inside:avoid}.brief-layout{display:block}.quick-brief .lead{margin-top:16px}.editor-note{background:#f0f0e9}.story-sources a{font-size:11px}.story-body{border:0;padding-left:0}}
 
+
+/* Inline dated headlines and a single paragraph per story at either depth. */
+.story-heading strong{font-weight:750}
+.story-heading .story-time{display:inline-block;margin-left:.6em;font-family:var(--sans);font-size:16px;font-weight:700;letter-spacing:0;white-space:nowrap;color:var(--muted);vertical-align:baseline}
+.story-copy{white-space:normal;overflow-wrap:anywhere}
+.story-toggle{display:inline-flex;align-items:center;gap:12px;border:0;border-radius:3px;padding:8px 0;min-height:44px;font-size:15px;background:transparent;color:var(--ink)}
+.story-toggle:hover{text-decoration:underline;text-underline-offset:5px}
+.story-toggle .icon{width:15px;height:15px;transition:transform .2s}
+.story-toggle[aria-expanded=true] .icon{transform:rotate(45deg)}
+@media(max-width:540px){.story-heading .story-time{font-size:14px;margin-left:.45em}.story-toggle{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.story-toggle .icon{transition:none}}
+@media print{.story-toggle,.reading-controls{display:none!important}}
