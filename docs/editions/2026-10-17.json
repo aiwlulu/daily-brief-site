@@ -1,19 +1,9 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-17T11:34:06.828336Z",
-  "perspective": {
-    "focus": {
-      "zh": "供應鏈與經營決策",
-      "en": "Supply chains and operating decisions"
-    },
-    "note": {
-      "zh": "從客戶採購、產品認證、產能、成本及現金回收評估影響。事實、公司展望與編輯分析分開，未披露的訂單及影響金額保持未知。",
-      "en": "Assess customer procurement, qualification, capacity, costs and cash conversion. Separate facts, company outlooks and editorial analysis; undisclosed orders and financial effects remain unknown."
-    }
-  },
+  "generatedAt": "2026-10-17T11:53:49.157128+00:00",
   "throughline": {
-    "zh": "從台灣晶圓、HBM 與封裝到東南亞工廠與資料中心，電源商需要追到認證、人才、費率與投資落地，才能判斷 AI 需求如何轉成收入。",
-    "en": "From Taiwan wafers, HBM and packaging to Southeast Asian factories and data centers, power suppliers need qualifications, talent, tariffs and realized investment to assess conversion of AI demand into revenue."
+    "zh": "本期涵蓋台灣晶圓、HBM、封裝測試、機櫃電源與終端工廠，以及馬來西亞人才和越南投資、電價資料。",
+    "en": "This edition covers Taiwan wafers, HBM, packaging and test, rack power and factories, alongside Malaysian talent and Vietnam investment and tariff data."
   },
   "stories": [
     {
@@ -23,8 +13,8 @@
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "本週追蹤：AI 晶片供給要同時看 CoWoS、HBM 與後段測試",
-        "en": "Weekly follow-up: AI chip supply depends on CoWoS, HBM and backend testing"
+        "zh": "本週追蹤：台積電 CoWoS 量產與美光台中 HBM 封裝測試廠啟用",
+        "en": "Weekly follow-up: TSMC CoWoS production and Micron’s Taichung HBM assembly/test opening"
       },
       "summary": {
         "zh": "台積電 10 月 15 日法說表示，5 倍光罩尺寸的 CoWoS 已量產；同日美光台中 AATT2 先進封裝測試廠開幕，支援 HBM。這兩項是本週進展，今日整合追蹤，並無新增產能數字。",
@@ -68,12 +58,12 @@
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤實際投產產能、良率、利用率及設備訂單。台積電對良率的說法屬公司陳述；AATT2 開幕資料沒有提供可核對的新增 HBM 產出。",
-            "en": "Track operational capacity, yields, utilization and equipment orders. TSMC’s yield statements are company assertions; the opening release provides no independently checkable incremental HBM output."
+            "zh": "AATT2 新增 HBM 產出、設備訂單及個別供應商營收未披露",
+            "en": "Added AATT2 HBM output, tool orders and individual supplier revenue are undisclosed"
           }
         },
         {
@@ -84,26 +74,6 @@
           "text": {
             "zh": "台積電第三季美元營收 467.2 億美元，毛利率 66.4%；新台幣營收約 1.494 兆元、年增 50.9%，淨利 7,630.6 億元、年增 68.7%。不同貨幣成長率不可混用，這些是 10 月 15 日公布的公司實績。",
             "en": "TSMC reported Q3 revenue of US$46.72 billion and a 66.4% gross margin. Taiwan-dollar revenue was about NT$1.494 trillion, up 50.9% annually, and net income NT$763.06 billion, up 68.7%. Growth rates in different currencies must remain distinct. These results were released October 15."
-          }
-        },
-        {
-          "label": {
-            "zh": "哪一段先變成收入？",
-            "en": "Where does revenue appear first?"
-          },
-          "text": {
-            "zh": "分析：晶圓廠、封裝廠與設備商各自有認列時點。廠房開幕之後，還要看設備進場、客戶認證、試產與量產驗收；電源零組件供應商則要確認客戶何時拉貨、是否要求備庫存，以及驗收後多久付款。市場需求與可收回現金之間，還有交期與營運資金。",
-            "en": "Analysis: fabs, packaging plants and tool vendors recognize revenue on different schedules. Openings must be followed by installation, qualification, trials and acceptance. Power-component suppliers need shipment calendars, inventory commitments and payment terms; delivery and working capital separate demand from cash."
-          }
-        },
-        {
-          "label": {
-            "zh": "什麼證據會改變判斷？",
-            "en": "What would change the assessment?"
-          },
-          "text": {
-            "zh": "分析：若封裝及 HBM 擴產已宣布，但設備認證或系統交付持續延後，就應檢查瓶頸是否轉移，而非直接追增備料。反過來，若利用率、客戶長約與設備拉貨一致改善，才較能支持增加工程或服務資源。這是決策情境，並非本期已觀察到的變化。",
-            "en": "Analysis: announced packaging and HBM expansion alongside persistent qualification or system delays would warrant checking whether bottlenecks moved before adding inventory. Improving utilization, customer commitments and tool shipments together would better support more engineering or service resources. These are decision scenarios, not observed developments."
           }
         }
       ],
@@ -143,10 +113,6 @@
         "zh": "高",
         "en": "High"
       },
-      "takeaway": {
-        "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 電源供應商 獲單或收入增加。",
-        "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish supplier orders or revenue."
-      },
       "market": {
         "eventDate": "2026-10-15",
         "countries": {
@@ -175,26 +141,18 @@
             "en": "U.S. company facility opening in Taiwan; new amount undisclosed"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "半導體設備精密電源，間接需求",
-            "en": "Semiconductor-tool precision power; indirect demand"
+        "facts": {
+          "relevance": {
+            "zh": "晶圓製造、HBM 與先進封裝測試",
+            "en": "Wafer fabrication, HBM and advanced assembly/test"
           },
-          "impact": {
-            "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 電源供應商 獲單或收入增加。",
-            "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish supplier orders or revenue."
+          "timing": {
+            "zh": "10 月 15 日法說及開幕；量產產出未完整披露",
+            "en": "October 15 earnings call and opening; production output not fully disclosed"
           },
-          "horizon": {
-            "zh": "近期認證與中期設備拉貨",
-            "en": "Near-term qualification and medium-term tool shipments"
-          },
-          "action": {
-            "zh": "確認設備客戶認證及備料節奏",
-            "en": "Confirm tool-customer qualifications and inventory timing"
-          },
-          "checkpoint": {
-            "zh": "實際產能、良率、利用率與設備訂單",
-            "en": "Operational capacity, yield, utilization and equipment orders"
+          "unknowns": {
+            "zh": "AATT2 新增 HBM 產出、設備訂單及個別供應商營收未披露",
+            "en": "Added AATT2 HBM output, tool orders and individual supplier revenue are undisclosed"
           }
         }
       },
@@ -214,11 +172,7 @@
           "base": null,
           "basePeriod": "2025 Q3",
           "reportedRate": 0.509,
-          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期",
-          "impact": {
-            "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 電源供應商 獲單或收入增加。",
-            "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish supplier orders or revenue."
-          }
+          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期"
         },
         {
           "name": {
@@ -235,11 +189,7 @@
           "base": null,
           "basePeriod": "2025 Q3",
           "reportedRate": 0.687,
-          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期",
-          "impact": {
-            "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 電源供應商 獲單或收入增加。",
-            "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish supplier orders or revenue."
-          }
+          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期"
         },
         {
           "name": {
@@ -256,11 +206,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期",
-          "impact": {
-            "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 電源供應商 獲單或收入增加。",
-            "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish supplier orders or revenue."
-          }
+          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期"
         },
         {
           "name": {
@@ -277,11 +223,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期",
-          "impact": {
-            "zh": "分析：優先向設備客戶確認先進邏輯與記憶體新增設備的認證、拉貨時間及每台設備電源含量，再決定產能與備料。HBM 封裝廠開幕本身，無法證明 電源供應商 獲單或收入增加。",
-            "en": "Analysis: confirm equipment-customer qualifications, shipment timing and power content per tool for advanced logic and memory before committing capacity and inventory. An HBM facility opening does not establish supplier orders or revenue."
-          }
+          "baseStatus": "本期值及公布增幅已核對；本表未收錄可比基期"
         }
       ],
       "location": {
@@ -296,8 +238,8 @@
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "OCP 台廠展示整機櫃、800 VDC 電源與液冷，量產驗收成為下一關",
-        "en": "Taiwan vendors show racks, 800 VDC power and liquid cooling at OCP"
+        "zh": "台廠於聖荷西 OCP 展示整機櫃、800 VDC 電源與液冷",
+        "en": "Taiwan vendors exhibit racks, 800 VDC power and liquid cooling at OCP in San Jose"
       },
       "summary": {
         "zh": "中央社 10 月 17 日整理 10 月 12 至 15 日於美國加州聖荷西舉辦的 OCP 展會：緯穎、華碩與勤誠等展示下一代伺服器或機櫃，台達電、光寶與康舒展示高壓直流電源及相關方案。台達電 10 月 15 日公司稿列出 800 VDC 電源櫃、備援與液冷產品，展示規格仍需與量產部署分開。",
@@ -351,32 +293,12 @@
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤認證通過、量產起點、客戶驗收與現場效率。若電網接入、冷卻或機房工程落後，電源設計導入也可能延後轉成出貨。",
-            "en": "Watch qualification, production start, acceptance and operating efficiency. Delays in grid connection, cooling or site construction can postpone shipments even after design selection."
-          }
-        },
-        {
-          "label": {
-            "zh": "誰付錢，誰承擔整合？",
-            "en": "Who pays and who owns integration?"
-          },
-          "text": {
-            "zh": "分析：雲端客戶、系統廠、電源模組與機房工程商處在不同採購層。應逐案確認誰選規格、誰下單、誰負責韌體與冷卻介面，以及故障時由誰保固。模組規格領先不代表掌握整櫃議價權，供應商還要取得平台認證並能按時交貨。",
-            "en": "Analysis: cloud buyers, system vendors, power-module suppliers and site contractors occupy different procurement layers. Establish who specifies, orders, integrates firmware and cooling interfaces, and warrants failures. Leading module specifications do not establish rack-level bargaining power; platform qualification and delivery still matter."
-          }
-        },
-        {
-          "label": {
-            "zh": "從售價看到毛利與現金",
-            "en": "From selling price to margin and cash"
-          },
-          "text": {
-            "zh": "分析：評估新架構時，要把研發與認證成本、備援設計、返修、現場支援及庫存放進同一張成本表。額定功率提高可能增加每櫃電源價值，也可能增加元件、測試與服務成本。本期沒有同口徑售價、毛利或部署資料，仍無法量化淨收益。",
-            "en": "Analysis: assess engineering, qualification, redundancy, returns, field support and inventory in one cost model. Higher power ratings could increase content per rack and also component, testing and service costs. Comparable selling prices, margins and deployment data are unavailable, so net gains remain unquantified."
+            "zh": "同口徑售價、成本、客戶訂單及實際部署量未披露",
+            "en": "Comparable prices, costs, customer orders and deployed volumes are undisclosed"
           }
         }
       ],
@@ -406,10 +328,6 @@
         "zh": "高",
         "en": "High"
       },
-      "takeaway": {
-        "zh": "分析：應由雲端與 ODM 的認證時程往回排工程資源，確認功率密度、效率、可靠度、備援及供應責任。投資評估需要每櫃電源價值、量產毛利與營運資金，現有公告沒有這些可計算資料。",
-        "en": "Analysis: allocate engineering against cloud and ODM qualification calendars, checking power density, efficiency, reliability, redundancy and supply responsibilities. Investment decisions need power content per rack, production margin and working capital, none quantified by these announcements."
-      },
       "market": {
         "eventDate": "2026-10-15",
         "countries": {
@@ -438,26 +356,18 @@
             "en": "No FDI amount disclosed"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "資料中心電源直接相關，未證實 電源供應商 新訂單",
-            "en": "Direct data-center power relevance; no supplier order established"
+        "facts": {
+          "relevance": {
+            "zh": "機櫃、電源、備援與液冷產品",
+            "en": "Rack, power, backup and liquid-cooling products"
           },
-          "impact": {
-            "zh": "分析：應由雲端與 ODM 的認證時程往回排工程資源，確認功率密度、效率、可靠度、備援及供應責任。投資評估需要每櫃電源價值、量產毛利與營運資金，現有公告沒有這些可計算資料。",
-            "en": "Analysis: allocate engineering against cloud and ODM qualification calendars, checking power density, efficiency, reliability, redundancy and supply responsibilities. Investment decisions need power content per rack, production margin and working capital, none quantified by these announcements."
+          "timing": {
+            "zh": "展期 10 月 12 至 15 日；各產品量產時程依廠商披露",
+            "en": "Summit October 12–15; production timing depends on vendor disclosures"
           },
-          "horizon": {
-            "zh": "依客戶認證及量產時程",
-            "en": "Dependent on customer qualification and production"
-          },
-          "action": {
-            "zh": "比較系統整合、效率與服務條件",
-            "en": "Compare system integration, efficiency and service terms"
-          },
-          "checkpoint": {
-            "zh": "認證、量產訂單與每櫃電源價值",
-            "en": "Qualification, production orders and power content per rack"
+          "unknowns": {
+            "zh": "同口徑售價、成本、客戶訂單及實際部署量未披露",
+            "en": "Comparable prices, costs, customer orders and deployed volumes are undisclosed"
           }
         }
       },
@@ -477,11 +387,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：應由雲端與 ODM 的認證時程往回排工程資源，確認功率密度、效率、可靠度、備援及供應責任。投資評估需要每櫃電源價值、量產毛利與營運資金，現有公告沒有這些可計算資料。",
-            "en": "Analysis: allocate engineering against cloud and ODM qualification calendars, checking power density, efficiency, reliability, redundancy and supply responsibilities. Investment decisions need power content per rack, production margin and working capital, none quantified by these announcements."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -498,11 +404,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：應由雲端與 ODM 的認證時程往回排工程資源，確認功率密度、效率、可靠度、備援及供應責任。投資評估需要每櫃電源價值、量產毛利與營運資金，現有公告沒有這些可計算資料。",
-            "en": "Analysis: allocate engineering against cloud and ODM qualification calendars, checking power density, efficiency, reliability, redundancy and supply responsibilities. Investment decisions need power content per rack, production margin and working capital, none quantified by these announcements."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         }
       ],
       "location": {
@@ -549,16 +451,6 @@
             "zh": "30% 是 2030 年純面板營收占比目標，並非營收下跌 30%。本期依中央社具名採訪，未取得逐字稿、客戶認證或新業務獲利資料，標為來源受限。",
             "en": "The 30% figure is a targeted revenue mix in 2030, not a 30% revenue decline. Coverage relies on CNA’s named interview; transcripts, customer qualification and profitability evidence were unavailable. Source-limited."
           }
-        },
-        {
-          "label": {
-            "zh": "材料能力如何成為可交付產品？",
-            "en": "How does materials expertise become a deliverable product?"
-          },
-          "text": {
-            "zh": "分析：先比較玻璃通孔、加工與檢測等製程的認證要求，再看設備投資及量產交期。顯示器製程經驗提供技術起點，但客戶驗證、產品設計與失效分析仍決定新業務能否收費；公司目前的轉型目標，尚不能換算新材料的營收或毛利。",
-            "en": "Analysis: compare qualification needs in through-glass vias, processing and inspection before evaluating equipment investment and schedules. Display expertise offers a starting point, while qualification, design and failure analysis determine commercial acceptance. Transition targets do not quantify new-material revenue or margins."
-          }
         }
       ],
       "sources": [
@@ -571,10 +463,6 @@
       "confidence": {
         "zh": "中",
         "en": "Medium"
-      },
-      "takeaway": {
-        "zh": "分析：先辨識新材料製程使用哪些設備、是否增加電源控制要求，再決定工程投入。零組件轉型可能形成設備需求，現階段未有可量化的 電源供應商 訂單或資本支出影響。",
-        "en": "Analysis: identify the process tools and power-control requirements of new materials before allocating engineering. This transition could create equipment demand, but no quantified supplier orders or capex effect is established."
       },
       "market": {
         "eventDate": "2026-10-17",
@@ -604,26 +492,18 @@
             "en": "Corning collaboration is technical; no investment inflow verified"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "新材料設備電源的潛在需求",
-            "en": "Potential power demand from new-material tools"
+        "facts": {
+          "relevance": {
+            "zh": "玻璃基板、TGV 與光通訊零組件",
+            "en": "Glass substrates, TGV and optical components"
           },
-          "impact": {
-            "zh": "分析：先辨識新材料製程使用哪些設備、是否增加電源控制要求，再決定工程投入。零組件轉型可能形成設備需求，現階段未有可量化的 電源供應商 訂單或資本支出影響。",
-            "en": "Analysis: identify the process tools and power-control requirements of new materials before allocating engineering. This transition could create equipment demand, but no quantified supplier orders or capex effect is established."
+          "timing": {
+            "zh": "2030 年營收組合目標；光通訊量產估兩至三年",
+            "en": "2030 revenue-mix target; optical volume-production outlook of two to three years"
           },
-          "horizon": {
-            "zh": "光通訊量產展望兩至三年，屬公司估計",
-            "en": "Company projects optical volume production in two to three years"
-          },
-          "action": {
-            "zh": "先確認製程與可服務設備",
-            "en": "Identify process steps and serviceable tools"
-          },
-          "checkpoint": {
-            "zh": "客戶認證、量產良率與新業務收入",
-            "en": "Customer qualification, production yield and new-business revenue"
+          "unknowns": {
+            "zh": "新業務獲利、客戶認證及完整逐字稿尚未取得",
+            "en": "New-business profitability, customer qualifications and a full transcript are unavailable"
           }
         }
       },
@@ -643,11 +523,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先辨識新材料製程使用哪些設備、是否增加電源控制要求，再決定工程投入。零組件轉型可能形成設備需求，現階段未有可量化的 電源供應商 訂單或資本支出影響。",
-            "en": "Analysis: identify the process tools and power-control requirements of new materials before allocating engineering. This transition could create equipment demand, but no quantified supplier orders or capex effect is established."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         }
       ]
     },
@@ -673,32 +549,22 @@
       "sections": [
         {
           "label": {
-            "zh": "商業邏輯",
-            "en": "Business logic"
+            "zh": "產品與供應鏈",
+            "en": "Product and supply chain"
           },
           "text": {
-            "zh": "本地 AI 電腦由用戶購買硬體，成本包含晶片、封裝、記憶體及通路；能否節省雲端費用取決於實際工作負載。統一記憶體容量不能直接當成 HBM 需求，本期沒有核實 HBM 用量。",
-            "en": "Users buy local-AI hardware covering chips, packaging, memory and distribution. Cloud savings depend on workloads. Unified-memory capacity does not establish HBM demand; no HBM content is verified here."
+            "zh": "NVIDIA 發布資料列出 Grace CPU、Blackwell GPU 及華碩、微星等品牌。公司主管向中央社表示，聯發科參與 CPU 設計，平台採 CoWoS 封裝；本期未核實 HBM 用量。",
+            "en": "NVIDIA lists Grace CPUs, Blackwell GPUs and brands including ASUS and MSI. An executive told CNA that MediaTek contributed CPU design and the platform uses CoWoS; this edition does not establish HBM content."
           }
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "公司強調可在本機執行 AI 工作，但尚無本期可核對的出貨、使用率或完整生命週期成本。以實際任務耗電與延遲驗證產品價值。",
-            "en": "The company emphasizes local AI, but shipments, utilization and full lifecycle costs are not verified here. Test value using workload-level energy and latency."
-          }
-        },
-        {
-          "label": {
-            "zh": "替代雲端還是增加另一筆支出？",
-            "en": "Cloud substitute or an additional expense?"
-          },
-          "text": {
-            "zh": "分析：終端電腦是否有經濟效益，取決於使用者能否把持續、適合本機的工作移過來。比較時要納入購機、電費、維護、模型更新與閒置時間，再對照實際替代的雲端用量；本期沒有這些工作負載資料，不能由記憶體規格推算節省比例。",
-            "en": "Analysis: local economics depend on moving sustained, suitable workloads onto the device. Compare purchase, energy, maintenance, model updates and idle time against cloud usage actually displaced. These workload data are unavailable; memory specifications cannot establish a savings rate."
+            "zh": "本期未取得出貨、使用率及完整生命週期成本",
+            "en": "Shipments, utilization and full lifecycle costs are unavailable in this edition"
           }
         }
       ],
@@ -717,10 +583,6 @@
       "confidence": {
         "zh": "高",
         "en": "High"
-      },
-      "takeaway": {
-        "zh": "分析：分別追蹤前段設備電源、封裝設備及 PC 系統電源的可服務範圍。新品上市尚不足以調高供應量，應等待通路售出、企業導入、退貨率與平台毛利。",
-        "en": "Analysis: assess serviceable opportunities separately in process power, packaging tools and PC power. A launch alone does not justify higher supply commitments; await sell-through, enterprise adoption, returns and platform margins."
       },
       "market": {
         "eventDate": "2026-10-16",
@@ -750,26 +612,18 @@
             "en": "Undisclosed"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "PC 電源與製程電源機會需分開",
-            "en": "Separate PC-power and process-power opportunities"
+        "facts": {
+          "relevance": {
+            "zh": "本地 AI 電腦、晶片設計與封裝",
+            "en": "Local AI PCs, chip design and packaging"
           },
-          "impact": {
-            "zh": "分析：分別追蹤前段設備電源、封裝設備及 PC 系統電源的可服務範圍。新品上市尚不足以調高供應量，應等待通路售出、企業導入、退貨率與平台毛利。",
-            "en": "Analysis: assess serviceable opportunities separately in process power, packaging tools and PC power. A launch alone does not justify higher supply commitments; await sell-through, enterprise adoption, returns and platform margins."
+          "timing": {
+            "zh": "10 月 16 日宣布上市",
+            "en": "Availability announced October 16"
           },
-          "horizon": {
-            "zh": "新品上市後數季",
-            "en": "Quarters following launch"
-          },
-          "action": {
-            "zh": "等待售出與企業導入，再調整供應",
-            "en": "Await sell-through and adoption before changing supply"
-          },
-          "checkpoint": {
-            "zh": "出貨、使用率、能耗與退貨率",
-            "en": "Shipments, utilization, energy use and returns"
+          "unknowns": {
+            "zh": "本期未取得出貨、使用率及完整生命週期成本",
+            "en": "Shipments, utilization and full lifecycle costs are unavailable in this edition"
           }
         }
       },
@@ -789,11 +643,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：分別追蹤前段設備電源、封裝設備及 PC 系統電源的可服務範圍。新品上市尚不足以調高供應量，應等待通路售出、企業導入、退貨率與平台毛利。",
-            "en": "Analysis: assess serviceable opportunities separately in process power, packaging tools and PC power. A launch alone does not justify higher supply commitments; await sell-through, enterprise adoption, returns and platform margins."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         }
       ]
     },
@@ -818,22 +668,12 @@
       "sections": [
         {
           "label": {
-            "zh": "商業邏輯",
-            "en": "Business logic"
+            "zh": "計畫範圍",
+            "en": "Plan scope"
           },
           "text": {
-            "zh": "大型晶片與伺服器廠赴美後，仍需要基板、散熱與其他中小型供應商。園區共用基礎設施與在地服務可能分攤進入成本，但實際優勢須由租用率、物流成本與客戶訂單驗證。",
-            "en": "Chip and server plants need substrate, cooling and other smaller suppliers. Shared infrastructure could spread entry costs; occupancy, logistics costs and customer orders must validate the advantage."
-          }
-        },
-        {
-          "label": {
-            "zh": "供應鏈位置",
-            "en": "Where it sits in the value chain"
-          },
-          "text": {
-            "zh": "零組件與材料供應商位於晶片製造、伺服器組裝之前，最終需求則來自雲端與企業客戶。分析上，共用園區可能降低個別廠商的行政與設施負擔，但客戶認證、良率、當地用工與交期仍須各自完成；入住園區不等於取得訂單。",
-            "en": "Component and materials suppliers sit upstream of chipmaking and server assembly, with demand ultimately coming from cloud and enterprise buyers. Shared parks may reduce administrative and facility burdens, but qualification, yields, staffing and delivery still depend on each supplier; tenancy does not secure orders."
+            "zh": "經濟部說明由業者出資、政府協助，並與電電公會推動海外產業園區。規劃從德州起步、不只一座，單一園區估算為 20 億至 40 億美元。",
+            "en": "The ministry described private funding with government assistance and TEEMA participation. Plans would start in Texas and involve more than one park, at an estimated $2–4 billion per park."
           }
         },
         {
@@ -848,22 +688,12 @@
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤開發主體、融資結構、用地、入駐名單與動工日期；美方對貿易投資關係的回應，尚不足以證明特定園區已獲核准。",
-            "en": "Watch the developer, funding structure, land, tenants and groundbreaking. U.S. comments on bilateral investment do not establish approval of a particular park."
-          }
-        },
-        {
-          "label": {
-            "zh": "經營決策",
-            "en": "Operating decisions"
-          },
-          "text": {
-            "zh": "分析：把在地工程、維修與庫存布局綁定已簽客戶需求，並比較當地製造成本與資金占用。園區規劃尚不足以支持 電源供應商 擴廠決策。",
-            "en": "Analysis: tie local engineering, service and inventory to contracted customer demand, comparing manufacturing costs and capital tied up. Park plans alone do not justify power suppliers expansion."
+            "zh": "開發主體、用地、完整融資及入駐名單尚未確認",
+            "en": "Developer, land, complete financing and tenant lists are unconfirmed"
           }
         }
       ],
@@ -887,10 +717,6 @@
       "confidence": {
         "zh": "中",
         "en": "Medium"
-      },
-      "takeaway": {
-        "zh": "大型客戶在美國蓋廠，只完成供應鏈在地化的一部分。對中小供應商，關鍵是園區能否提供穩定訂單、共用設施與可負擔的資金，而不只是一塊海外土地。",
-        "en": "An anchor customer’s U.S. plant is only part of localization. Smaller suppliers need durable orders, shared infrastructure and affordable financing, not simply an overseas plot."
       },
       "depth": "standard",
       "market": {
@@ -921,26 +747,18 @@
             "en": "Private funding plan, not realized FDI"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "在地服務、庫存與製造成本",
-            "en": "Local service, inventory and manufacturing costs"
+        "facts": {
+          "relevance": {
+            "zh": "海外產業園區與台灣零組件供應鏈",
+            "en": "Overseas industrial parks and Taiwan component supply chains"
           },
-          "impact": {
-            "zh": "大型客戶在美國蓋廠，只完成供應鏈在地化的一部分。對中小供應商，關鍵是園區能否提供穩定訂單、共用設施與可負擔的資金，而不只是一塊海外土地。",
-            "en": "An anchor customer’s U.S. plant is only part of localization. Smaller suppliers need durable orders, shared infrastructure and affordable financing, not simply an overseas plot."
+          "timing": {
+            "zh": "10 月 16 日說明；土地及動工時程未確認",
+            "en": "October 16 explanation; land and construction dates unconfirmed"
           },
-          "horizon": {
-            "zh": "用地及融資確定後",
-            "en": "After land and financing confirmation"
-          },
-          "action": {
-            "zh": "以已簽需求檢查布局",
-            "en": "Review footprint against contracted demand"
-          },
-          "checkpoint": {
-            "zh": "融資、土地、入駐名單與動工",
-            "en": "Financing, land, tenants and groundbreaking"
+          "unknowns": {
+            "zh": "開發主體、用地、完整融資及入駐名單尚未確認",
+            "en": "Developer, land, complete financing and tenant lists are unconfirmed"
           }
         }
       },
@@ -960,11 +778,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "大型客戶在美國蓋廠，只完成供應鏈在地化的一部分。對中小供應商，關鍵是園區能否提供穩定訂單、共用設施與可負擔的資金，而不只是一塊海外土地。",
-            "en": "An anchor customer’s U.S. plant is only part of localization. Smaller suppliers need durable orders, shared infrastructure and affordable financing, not simply an overseas plot."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -981,11 +795,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "大型客戶在美國蓋廠，只完成供應鏈在地化的一部分。對中小供應商，關鍵是園區能否提供穩定訂單、共用設施與可負擔的資金，而不只是一塊海外土地。",
-            "en": "An anchor customer’s U.S. plant is only part of localization. Smaller suppliers need durable orders, shared infrastructure and affordable financing, not simply an overseas plot."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         }
       ],
       "location": {
@@ -1012,10 +822,6 @@
         "zh": "中經院 2026 年全年 GDP 成長預測",
         "en": "CIER 2026 full-year GDP growth forecast"
       },
-      "takeaway": {
-        "zh": "這份預測的重點是 AI 硬體需求如何傳到投資與消費。分析時仍要分清：少數出口產業的強勁成長、整體 GDP，以及每個人的收入感受，三者不會等比例變動。",
-        "en": "The forecast connects AI hardware demand to investment and consumption. Export-industry growth, aggregate GDP and household income experiences need not move proportionately."
-      },
       "sections": [
         {
           "label": {
@@ -1029,32 +835,22 @@
         },
         {
           "label": {
-            "zh": "商業邏輯",
-            "en": "Business logic"
+            "zh": "預測依據",
+            "en": "Forecast attribution"
           },
           "text": {
-            "zh": "中經院把 AI 需求、企業擴產與國內投資列為動能。分析上，設備、工程與在地服務可能透過資本支出受益；但收益分布仍取決於訂單、薪資、進口投入與利潤留存，不能直接由總量推定。",
-            "en": "CIER identifies AI demand, capacity expansion and investment as drivers. Analysis: equipment, construction and local services may benefit through capex, but distribution depends on orders, wages, imports and retained profits."
+            "zh": "中經院把 AI 需求、企業擴產與國內投資列為預測動能，並列出融資、地緣政治與 AI 資安等不確定性。這些是研究機構對全年表現的預測依據。",
+            "en": "CIER cited AI demand, corporate expansion and domestic investment as forecast drivers, alongside financing, geopolitical and AI-cybersecurity uncertainties. These are the institution’s assumptions for its full-year forecast."
           }
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤主計總處後續 GDP 實績、民間投資與消費是否符合假設，以及主要雲端客戶資本支出。中經院亦列出融資、地緣政治與 AI 資安等不確定性；預測不能替代已公布統計。",
-            "en": "Watch official GDP releases, private investment, consumption and hyperscaler capex. CIER flags financing, geopolitics and AI security uncertainties; projections do not replace published outcomes."
-          }
-        },
-        {
-          "label": {
-            "zh": "經營決策",
-            "en": "Operating decisions"
-          },
-          "text": {
-            "zh": "分析：台灣投資展望可協助安排客戶拜訪與區域服務能力，但 GDP 預測不能直接換算 電源供應商 訂單。優先檢查設備客戶資本支出、拉貨及收款。",
-            "en": "Analysis: Taiwan’s investment outlook can guide customer coverage and regional service planning, but GDP forecasts cannot be converted into supplier orders. Check equipment-customer capex, shipments and collections."
+            "zh": "全年 GDP 尚為預測，後續實績可能修訂",
+            "en": "Full-year GDP remains a forecast, subject to subsequent actual data"
           }
         }
       ],
@@ -1112,26 +908,18 @@
             "en": "No FDI data provided"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "客戶資本支出與區域服務規劃",
-            "en": "Customer capex and regional service planning"
+        "facts": {
+          "relevance": {
+            "zh": "台灣總體經濟及投資、出口統計背景",
+            "en": "Taiwan macroeconomic, investment and export context"
           },
-          "impact": {
-            "zh": "這份預測的重點是 AI 硬體需求如何傳到投資與消費。分析時仍要分清：少數出口產業的強勁成長、整體 GDP，以及每個人的收入感受，三者不會等比例變動。",
-            "en": "The forecast connects AI hardware demand to investment and consumption. Export-industry growth, aggregate GDP and household income experiences need not move proportionately."
+          "timing": {
+            "zh": "10 月 16 日公布 2026 年第四季預測",
+            "en": "2026 fourth-quarter forecast released October 16"
           },
-          "horizon": {
-            "zh": "2026 年全年預測",
-            "en": "Full-year 2026 forecast"
-          },
-          "action": {
-            "zh": "用設備客戶訂單驗證總體展望",
-            "en": "Validate macro outlook against equipment orders"
-          },
-          "checkpoint": {
-            "zh": "GDP 實績、民間投資與客戶拉貨",
-            "en": "Actual GDP, private investment and customer shipments"
+          "unknowns": {
+            "zh": "全年 GDP 尚為預測，後續實績可能修訂",
+            "en": "Full-year GDP remains a forecast, subject to subsequent actual data"
           }
         }
       },
@@ -1151,11 +939,7 @@
           "base": 0.1035,
           "basePeriod": "2026 全年，2026-07 預測版",
           "reportedRate": null,
-          "baseStatus": "已揭露",
-          "impact": {
-            "zh": "這份預測的重點是 AI 硬體需求如何傳到投資與消費。分析時仍要分清：少數出口產業的強勁成長、整體 GDP，以及每個人的收入感受，三者不會等比例變動。",
-            "en": "The forecast connects AI hardware demand to investment and consumption. Export-industry growth, aggregate GDP and household income experiences need not move proportionately."
-          }
+          "baseStatus": "已揭露"
         }
       ]
     },
@@ -1191,12 +975,12 @@
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤主管機關正式費率分類、電力合約、融資及首期上線。本期依專業媒體報導，未取得 HEPZA 會議文件與最終行政決定，來源受限。",
-            "en": "Track official tariff classification, power contracts, financing and first-phase commissioning. Original HEPZA meeting records and a final administrative decision were unavailable; source-limited."
+            "zh": "原始會議文件、最終費率、用電曲線與電力合約未取得",
+            "en": "Original meeting records, final tariffs, load profiles and power contracts are unavailable"
           }
         },
         {
@@ -1207,26 +991,6 @@
           "text": {
             "zh": "TNGlobal 報導所列首期規劃最高 50 MW，而 21 億美元是既有計畫的總投資描述；兩者時程與範圍未完整對齊。本期不以總金額除以首期容量估算每 MW 造價，也不把規劃容量當成已通電或已出租容量。",
             "en": "TNGlobal describes phase-one plans of up to 50 MW, while $2.1 billion refers to the previously announced overall project. Their scope and timing are not fully aligned. No per-MW construction cost is calculated from these figures, and planned capacity is not energized or leased capacity."
-          }
-        },
-        {
-          "label": {
-            "zh": "電價如何傳進採購？",
-            "en": "How do tariffs feed into procurement?"
-          },
-          "text": {
-            "zh": "分析：費率認定會進入營運成本與客戶定價，若影響融資條件或開工時程，才可能再傳到電源、備援與冷卻設備的交貨。供應商應先查有沒有正式電力合約、確定的施工里程碑與驗收條件，避免把整案投資額當成可接單市場。",
-            "en": "Analysis: tariff classification affects operating costs and customer pricing. Effects on financing or construction could then alter delivery of power, backup and cooling equipment. Suppliers should check power contracts, construction milestones and acceptance terms before treating overall investment as an addressable order pool."
-          }
-        },
-        {
-          "label": {
-            "zh": "一個可檢驗的情境",
-            "en": "A testable scenario"
-          },
-          "text": {
-            "zh": "分析：如果費率較預期高，投資方可能重算定價、使用率或分期規模；若分類問題獲解決，仍需看電力接入與客戶簽約。現有資料不足以預測哪種情境會發生，下一步是追正式費率與投資方更新。",
-            "en": "Analysis: higher-than-expected tariffs could prompt revised pricing, utilization assumptions or phasing. A classification resolution would still need grid access and customers. Available evidence cannot predict either outcome; official rates and sponsor updates are the next tests."
           }
         }
       ],
@@ -1240,10 +1004,6 @@
       "confidence": {
         "zh": "中",
         "en": "Medium"
-      },
-      "takeaway": {
-        "zh": "分析：先確認客戶取得的電力條件，再安排機櫃電源工程與交貨。節能、功率密度及可靠度仍有價值，但現有資料不足以估算 電源供應商 收入或投資回收。",
-        "en": "Analysis: confirm customer power terms before committing rack-power engineering and delivery. Efficiency, density and reliability matter, but available evidence cannot quantify supplier revenue or payback."
       },
       "market": {
         "eventDate": "2026-10-15",
@@ -1273,26 +1033,18 @@
             "en": "Existing AIC–KBC plan, not new inflow"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "資料中心電源，部署時點風險",
-            "en": "Data-center power and deployment timing risk"
+        "facts": {
+          "relevance": {
+            "zh": "資料中心電力與越南工業區",
+            "en": "Data-center power and Vietnam industrial zones"
           },
-          "impact": {
-            "zh": "分析：先確認客戶取得的電力條件，再安排機櫃電源工程與交貨。節能、功率密度及可靠度仍有價值，但現有資料不足以估算 電源供應商 收入或投資回收。",
-            "en": "Analysis: confirm customer power terms before committing rack-power engineering and delivery. Efficiency, density and reliability matter, but available evidence cannot quantify supplier revenue or payback."
+          "timing": {
+            "zh": "10 月 15 日會議、10 月 16 日報導；最終費率未定",
+            "en": "October 15 meeting, October 16 reporting; final tariff unsettled"
           },
-          "horizon": {
-            "zh": "待費率分類與電力合約",
-            "en": "Pending tariff classification and power contracts"
-          },
-          "action": {
-            "zh": "確認電力條件再排工程及交貨",
-            "en": "Confirm power terms before engineering and delivery"
-          },
-          "checkpoint": {
-            "zh": "正式費率、融資與上線",
-            "en": "Final tariffs, financing and commissioning"
+          "unknowns": {
+            "zh": "原始會議文件、最終費率、用電曲線與電力合約未取得",
+            "en": "Original meeting records, final tariffs, load profiles and power contracts are unavailable"
           }
         }
       },
@@ -1312,11 +1064,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先確認客戶取得的電力條件，再安排機櫃電源工程與交貨。節能、功率密度及可靠度仍有價值，但現有資料不足以估算 電源供應商 收入或投資回收。",
-            "en": "Analysis: confirm customer power terms before committing rack-power engineering and delivery. Efficiency, density and reliability matter, but available evidence cannot quantify supplier revenue or payback."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -1333,11 +1081,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未提供可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先確認客戶取得的電力條件，再安排機櫃電源工程與交貨。節能、功率密度及可靠度仍有價值，但現有資料不足以估算 電源供應商 收入或投資回收。",
-            "en": "Analysis: confirm customer power terms before committing rack-power engineering and delivery. Efficiency, density and reliability matter, but available evidence cannot quantify supplier revenue or payback."
-          }
+          "baseStatus": "未提供可比基期；不倒推"
         }
       ],
       "location": {
@@ -1387,12 +1131,12 @@
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤實際聘用、工程師留任、設備客戶與認證。園區數字為官員陳述，未取得逐公司或薪資明細，本期以中央社現場報導為依據。",
-            "en": "Track actual hiring, retention, equipment customers and qualifications. Park figures are official statements without company-level or salary records, based on CNA’s on-site reporting."
+            "zh": "實際聘用與留任未披露；園區及計畫數字依官員陳述",
+            "en": "Actual hiring and retention are undisclosed; park and program figures are official statements"
           }
         },
         {
@@ -1401,8 +1145,8 @@
             "en": "Talent programs are distinct from investment flows"
           },
           "text": {
-            "zh": "中央社引述官員表示，雪蘭莪將與檳城及國民投資機構參與總值馬幣 1.5 億令吉的計畫。這是合作計畫的規模描述，未提供本期撥款、外資占比或到位時程，不能直接當成新增 FDI。對設備服務商，還要看人才是否轉為現場認證及可持續的維修能力。",
-            "en": "CNA quotes an official describing a RM150 million program involving Selangor, Penang and an investment institution. This is a program-size statement, without current disbursement, foreign share or funding timing, and is not incremental realized FDI. Equipment service providers still need field qualifications and sustained repair capability."
+            "zh": "中央社引述官員表示，雪蘭莪將與檳城及國民投資機構參與總值馬幣 1.5 億令吉的計畫。來源未列本期撥款、外資占比或到位時程；此金額為合作計畫規模，與新增 FDI 統計口徑不同。",
+            "en": "CNA quoted an official describing a RM150 million program involving Selangor, Penang and the national investment institution. Current disbursement, foreign-capital share and funding timing are not listed; program size differs from new FDI flows."
           }
         }
       ],
@@ -1426,10 +1170,6 @@
       "confidence": {
         "zh": "中",
         "en": "Medium"
-      },
-      "takeaway": {
-        "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 電源供應商 合作、客戶採購或新的工廠投資。",
-        "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no supplier partnership, procurement or new factory investment is confirmed."
       },
       "market": {
         "eventDate": "2026-10-16",
@@ -1459,26 +1199,18 @@
             "en": "No incremental FDI flow provided"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "區域服務與工程人才，間接相關",
-            "en": "Regional service and engineering talent; indirect relevance"
+        "facts": {
+          "relevance": {
+            "zh": "IC 設計、製程、設備、廠務與封測人才",
+            "en": "IC design, process, equipment, facilities and backend talent"
           },
-          "impact": {
-            "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 電源供應商 合作、客戶採購或新的工廠投資。",
-            "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no supplier partnership, procurement or new factory investment is confirmed."
+          "timing": {
+            "zh": "10 月中旬招募；主辦頁起日為 10/14 或 10/15",
+            "en": "Mid-October recruitment; organizer pages differ on October 14 or 15 start"
           },
-          "horizon": {
-            "zh": "當期招募與後續認證",
-            "en": "Current recruiting and subsequent qualifications"
-          },
-          "action": {
-            "zh": "檢查客戶密度、人才與維修週轉",
-            "en": "Assess customer density, talent and repair turnaround"
-          },
-          "checkpoint": {
-            "zh": "聘用、留任與客戶設備認證",
-            "en": "Hiring, retention and customer-tool qualification"
+          "unknowns": {
+            "zh": "實際聘用與留任未披露；園區及計畫數字依官員陳述",
+            "en": "Actual hiring and retention are undisclosed; park and program figures are official statements"
           }
         }
       },
@@ -1498,11 +1230,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 電源供應商 合作、客戶採購或新的工廠投資。",
-            "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no supplier partnership, procurement or new factory investment is confirmed."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -1519,11 +1247,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 電源供應商 合作、客戶採購或新的工廠投資。",
-            "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no supplier partnership, procurement or new factory investment is confirmed."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -1540,11 +1264,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 電源供應商 合作、客戶採購或新的工廠投資。",
-            "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no supplier partnership, procurement or new factory investment is confirmed."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -1561,11 +1281,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未提供可比基期；不倒推",
-          "impact": {
-            "zh": "分析：區域服務布局應同時評估客戶密度、現場工程人才與維修週轉時間。台馬培訓合作值得追蹤，但本期沒有確認 電源供應商 合作、客戶採購或新的工廠投資。",
-            "en": "Analysis: regional service planning should consider customer density, field-engineering talent and repair turnaround. Taiwan–Malaysia training links merit tracking, but no supplier partnership, procurement or new factory investment is confirmed."
-          }
+          "baseStatus": "未提供可比基期；不倒推"
         }
       ],
       "location": {
@@ -1605,12 +1321,12 @@
         },
         {
           "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "追蹤製造業投資分項及實際設備採購。本期以越南政府統計轉述與專業媒體交叉核對，實現額仍屬估計，可在後續統計修訂。",
-            "en": "Track manufacturing breakdowns and actual equipment purchases. Official reporting is cross-checked with specialist media; realized FDI remains an estimate subject to revision."
+            "zh": "製造業及資金來源分項未核對官方原表；實現額屬估計",
+            "en": "Manufacturing and investor-origin details lack original-table verification; realized FDI is estimated"
           }
         },
         {
@@ -1621,16 +1337,6 @@
           "text": {
             "zh": "VnEconomy 10 月 4 日轉述，新案與增資合計中，製造加工業為 218.2 億美元、占 50.3%；新加坡則是新註冊外資最大來源，金額 92.6 億美元、占 31.7%。前者分母是新案加增資，後者是新註冊資本，均不能套用到 503.6 億美元總註冊額。這些分項尚未核對官方原始明細表，屬來源受限。",
             "en": "VnEconomy reported October 4 that manufacturing and processing received $21.82 billion, or 50.3% of new and additional registrations. Singapore supplied $9.26 billion, or 31.7% of newly registered capital. Neither percentage uses the $50.36 billion total-registration denominator. These breakdowns have not been checked against original official tables and are source-limited."
-          }
-        },
-        {
-          "label": {
-            "zh": "從國家數字追到客戶名單",
-            "en": "From national totals to a customer pipeline"
-          },
-          "text": {
-            "zh": "分析：應把投資案拆成電子組裝、半導體後段、工業設備及資料中心等不同用途，再核對開工、進口設備與用電申請。資金來源地也不等於最終客戶或採購決策所在地；是否需要在地備庫、維修或增加工程人員，仍要回到具名客戶及交期。",
-            "en": "Analysis: distinguish electronics assembly, semiconductor backend, industrial equipment and data-center projects, then check construction, equipment imports and power applications. Funding origin is not necessarily the final customer or purchasing-decision location. Local inventory, repair and staffing need named customers and schedules."
           }
         }
       ],
@@ -1649,10 +1355,6 @@
       "confidence": {
         "zh": "中：總量有官方來源，新增分項待核對原表",
         "en": "Medium: official totals; added breakdowns await original-table verification"
-      },
-      "takeaway": {
-        "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 電源供應商 的成長率。",
-        "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or power suppliers growth rate."
       },
       "market": {
         "eventDate": "2026-10-03",
@@ -1682,26 +1384,18 @@
             "en": "Estimated realized FDI $21.07 billion, up 12.1% YoY"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "在地工業電源與服務的背景指標",
-            "en": "Context for local industrial power and service"
+        "facts": {
+          "relevance": {
+            "zh": "越南製造業投資及外資流量背景",
+            "en": "Vietnam manufacturing investment and FDI context"
           },
-          "impact": {
-            "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 電源供應商 的成長率。",
-            "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or power suppliers growth rate."
+          "timing": {
+            "zh": "統計截至 9 月 30 日，10 月 3 日發布",
+            "en": "Statistics through September 30, released October 3"
           },
-          "horizon": {
-            "zh": "截至 2026 年 9 月的區域背景",
-            "en": "Regional background through September 2026"
-          },
-          "action": {
-            "zh": "對到具名廠房與設備採購",
-            "en": "Map to named plants and equipment procurement"
-          },
-          "checkpoint": {
-            "zh": "製造業分項、電網接入與驗收",
-            "en": "Manufacturing details, grid connection and acceptance"
+          "unknowns": {
+            "zh": "製造業及資金來源分項未核對官方原表；實現額屬估計",
+            "en": "Manufacturing and investor-origin details lack original-table verification; realized FDI is estimated"
           }
         }
       },
@@ -1721,11 +1415,7 @@
           "base": null,
           "basePeriod": "2025-01 至 2025-09",
           "reportedRate": 0.121,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 電源供應商 的成長率。",
-            "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or power suppliers growth rate."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -1742,11 +1432,7 @@
           "base": null,
           "basePeriod": "2025-01 至 2025-09",
           "reportedRate": 0.764,
-          "baseStatus": "未揭露可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 電源供應商 的成長率。",
-            "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or power suppliers growth rate."
-          }
+          "baseStatus": "未揭露可比基期；不倒推"
         },
         {
           "name": {
@@ -1763,11 +1449,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未提供可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 電源供應商 的成長率。",
-            "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or power suppliers growth rate."
-          }
+          "baseStatus": "未提供可比基期；不倒推"
         },
         {
           "name": {
@@ -1784,11 +1466,7 @@
           "base": null,
           "basePeriod": "",
           "reportedRate": null,
-          "baseStatus": "未提供可比基期；不倒推",
-          "impact": {
-            "zh": "分析：先把投資案對到具名工廠、設備進口、電網接入與驗收，再估在地工業電源及維修需求。全國 FDI 只能提供市場背景，無法直接推成半導體設備或 電源供應商 的成長率。",
-            "en": "Analysis: map investments to named plants, equipment imports, grid connections and acceptance before assessing local industrial power and service demand. National FDI is context, not a semiconductor-tool or power suppliers growth rate."
-          }
+          "baseStatus": "未提供可比基期；不倒推"
         }
       ],
       "location": {
@@ -1803,8 +1481,8 @@
       "pick": false,
       "depth": "standard",
       "title": {
-        "zh": "背景追蹤：工廠 AI 合作延伸到檢測、測試與數位分身，收益仍待驗收",
-        "en": "Background follow-up: factory AI reaches inspection, testing and digital twins; benefits need acceptance"
+        "zh": "背景追蹤：NVIDIA 公布半導體檢測、測試與工廠 AI 合作",
+        "en": "Background follow-up: NVIDIA announces semiconductor inspection, testing and factory AI collaborations"
       },
       "summary": {
         "zh": "NVIDIA 10 月 14 日公司稿列出 KLA 檢測、Advantest 測試，以及鴻海、FANUC 等工廠 AI 合作。本期把它作為台灣供應鏈與終端工廠的背景追蹤；各場域地點、全面量產時程與全廠投資報酬未完整公開。",
@@ -1814,10 +1492,6 @@
       "metricLabel": {
         "zh": "觀察導入進度，尚無可核對的全廠收益",
         "en": "Track adoption; no verified plant-wide returns"
-      },
-      "takeaway": {
-        "zh": "分析：設備與軟體能否改善單一工序，和整廠能否增加可交付產出，是兩個驗收問題。採購前應建立基期，追到良率、停機、返工及現金回收。",
-        "en": "Analysis: improving one process and increasing deliverable plant output are separate acceptance tests. Establish a baseline before procurement and track yield, downtime, rework and cash recovery."
       },
       "sections": [
         {
@@ -1832,32 +1506,12 @@
         },
         {
           "label": {
-            "zh": "工廠真正為什麼付錢？",
-            "en": "What does a factory pay to improve?"
+            "zh": "尚未確認與來源限制",
+            "en": "Unconfirmed details and source limitations"
           },
           "text": {
-            "zh": "分析：工廠重視的是可驗收的品質、交期與成本改善。評估時，要把運算硬體、資料整理、軟體整合、停機導入及維護一起算入投入，再檢查省下的成本是否能持續。本期未公開合約計價或量化收益，不能推算供應商收入。",
-            "en": "Analysis: factories need accepted improvements in quality, delivery and cost. Include compute, data preparation, integration, installation downtime and maintenance in the investment, then test whether savings persist. Pricing and quantified benefits are undisclosed, preventing supplier-revenue estimates."
-          }
-        },
-        {
-          "label": {
-            "zh": "用哪一組數據驗收？",
-            "en": "Which measures should determine acceptance?"
-          },
-          "text": {
-            "zh": "分析：先定義改善前的期間、產品組合及產量，再對照誤判、重工、良率、非計畫停機與每件良品成本。模型運算較快，可能只改善流程中的一小段；應確認瓶頸是否移動，以及改善是否真的增加出貨或減少支出。",
-            "en": "Analysis: define the baseline period, mix and output, then compare false decisions, rework, yield, unplanned downtime and cost per good unit. Faster model execution may affect only one step; test whether bottlenecks move and whether shipments or spending actually improve."
-          }
-        },
-        {
-          "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
-          },
-          "text": {
-            "zh": "追蹤具名工廠、試點轉量產的驗收文件、同條件前後數據及持續維護成本。公司發布證實合作與產品方向，效能及收益仍須使用者或獨立資料驗證。",
-            "en": "Track named plants, pilot-to-production acceptance, comparable before-and-after data and recurring maintenance costs. The release establishes company-announced collaboration and direction; users or independent evidence must validate performance and benefits."
+            "zh": "具名部署廠址、合約計價與量化全廠收益未完整公開",
+            "en": "Named deployment sites, contract pricing and quantified plant-wide benefits are incompletely disclosed"
           }
         }
       ],
@@ -1901,26 +1555,18 @@
             "en": "Undisclosed"
           }
         },
-        "business": {
-          "exposure": {
-            "zh": "工業設備、製程控制及售後服務",
-            "en": "Industrial equipment, process control and service"
+        "facts": {
+          "relevance": {
+            "zh": "檢測、測試設備與工廠 AI 軟硬體合作",
+            "en": "Inspection, test equipment and factory AI hardware/software collaboration"
           },
-          "impact": {
-            "zh": "分析：設備與軟體能否改善單一工序，和整廠能否增加可交付產出，是兩個驗收問題。採購前應建立基期，追到良率、停機、返工及現金回收。",
-            "en": "Analysis: improving one process and increasing deliverable plant output are separate acceptance tests. Establish a baseline before procurement and track yield, downtime, rework and cash recovery."
+          "timing": {
+            "zh": "10 月 14 日公司發布；全面部署時程未完整公開",
+            "en": "October 14 company release; full deployment schedules undisclosed"
           },
-          "horizon": {
-            "zh": "試點至量產驗收，時程未完整公開",
-            "en": "Pilot to production acceptance; full timing undisclosed"
-          },
-          "action": {
-            "zh": "先建立基期，再看良品成本與現金回收",
-            "en": "Establish baseline, then assess cost per good unit and cash recovery"
-          },
-          "checkpoint": {
-            "zh": "具名工廠、同條件數據、驗收與維護成本",
-            "en": "Named plants, comparable data, acceptance and maintenance cost"
+          "unknowns": {
+            "zh": "具名部署廠址、合約計價與量化全廠收益未完整公開",
+            "en": "Named deployment sites, contract pricing and quantified plant-wide benefits are incompletely disclosed"
           }
         }
       },
@@ -1934,36 +1580,36 @@
     {
       "id": 12,
       "text": {
-        "zh": "本週追蹤 CoWoS 與美光 HBM 後段，設備拉貨與實際產能比開幕更能驗證需求。",
-        "en": "Track CoWoS and Micron HBM backend progress through tool shipments and operational capacity."
+        "zh": "台積電 CoWoS 量產與美光台中 HBM 封裝測試廠啟用，為 10 月 15 日的本週進展。",
+        "en": "TSMC CoWoS production and Micron’s Taichung HBM assembly and test opening are October 15 weekly developments."
       }
     },
     {
       "id": 13,
       "text": {
-        "zh": "OCP 展示整機櫃、800 VDC 與液冷，電源供應商 需比較認證、效率及量產交付。",
-        "en": "OCP rack, 800 VDC and cooling exhibits shift attention to qualification, efficiency and production delivery."
+        "zh": "台廠在聖荷西 OCP 展示整機櫃、800 VDC 電源與液冷，公布數字屬產品規格。",
+        "en": "Taiwan vendors exhibited racks, 800 VDC power and liquid cooling at OCP in San Jose; disclosed ratings are product specifications."
       }
     },
     {
       "id": 21,
       "text": {
-        "zh": "工廠 AI 要追到品質、停機與良品成本，合作名單尚不足以證明收益。",
-        "en": "Factory AI needs quality, downtime and cost-per-good-unit evidence; partnership lists do not establish returns."
+        "zh": "NVIDIA 10 月 14 日公布檢測、測試與工廠 AI 合作，實際場域與量化收益尚未完整披露。",
+        "en": "NVIDIA announced inspection, testing and factory AI collaborations on October 14; deployment sites and quantified benefits remain incompletely disclosed."
       }
     },
     {
       "id": 18,
       "text": {
-        "zh": "越南資料中心電價認定未明，既有 21 億美元計畫需要重看營運假設。",
-        "en": "Vietnam’s unresolved data-center tariff classification affects assumptions for an existing $2.1 billion plan."
+        "zh": "胡志明市要求釐清資料中心電價；21 億美元是 3 月已公布的投資計畫。",
+        "en": "Ho Chi Minh City sought data-center tariff clarification; the $2.1 billion investment plan was announced in March."
       }
     },
     {
       "id": 19,
       "text": {
-        "zh": "馬來西亞招募涵蓋設計、封測與廠務，區域布局也要驗證現場工程能力。",
-        "en": "Malaysia recruits across design, backend and facilities roles, making field capability a regional planning factor."
+        "zh": "馬來西亞 KLCC 半導體招募涵蓋設計、製程、設備及廠務，提供逾 1,500 個職缺。",
+        "en": "Semiconductor recruitment at Malaysia’s KLCC offered over 1,500 vacancies across design, process, equipment and facilities."
       }
     }
   ],
@@ -1971,56 +1617,56 @@
     {
       "id": 12,
       "question": {
-        "zh": "HBM 需求如何傳到設備電源？",
-        "en": "How does HBM demand reach equipment power?"
+        "zh": "CoWoS 與 HBM 公布了哪些產能資訊？",
+        "en": "What capacity information was disclosed for CoWoS and HBM?"
       },
       "text": {
-        "zh": "把晶圓、封裝、測試的認證與拉貨拆開，才能辨識可服務需求及交付限制。",
-        "en": "Separate fabrication, assembly and test qualifications and shipments to identify serviceable demand and delivery constraints."
+        "zh": "對照法說、開幕資料與公司實績，區分量產平台、廠房啟用和未披露的新增產出。",
+        "en": "Compare earnings calls, opening records and results, distinguishing production platforms, facility openings and undisclosed incremental output."
       }
     },
     {
       "id": 13,
       "question": {
-        "zh": "800 VDC 會改變誰的議價能力？",
-        "en": "Whose bargaining power changes with 800 VDC?"
+        "zh": "OCP 的電壓、功率與展品各指什麼？",
+        "en": "What do OCP voltage, power ratings and exhibits describe?"
       },
       "text": {
-        "zh": "比較模組、整機整合與現場驗收責任，理解電源規格如何轉成收入與成本。",
-        "en": "Compare modules, integration and site acceptance to understand revenue and cost conversion."
+        "zh": "整理機櫃、備援與液冷的產品資訊，保留額定規格與部署量之間的差異。",
+        "en": "Review rack, backup and cooling product information while separating ratings from deployed volumes."
       }
     },
     {
       "id": 18,
       "question": {
-        "zh": "電價怎麼改變資料中心的投資算式？",
-        "en": "How do tariffs change data-center economics?"
+        "zh": "越南電價爭點與既有投資計畫有哪些已知資料？",
+        "en": "What is established about Vietnam’s tariff issue and existing investment plan?"
       },
       "text": {
-        "zh": "把既有投資、電價分類與實際負載分開，才能檢查營運成本及設備交付風險。",
-        "en": "Separate existing investment, tariff classification and actual loads to assess operating costs and delivery risk."
+        "zh": "分列 3 月計畫、10 月會議報導、首期容量及尚未公布的正式費率。",
+        "en": "Separate the March plan, October meeting report, first-phase capacity and unpublished final tariffs."
       }
     }
   ],
   "context": [
     {
       "title": {
-        "zh": "供應鏈要追到終端工廠",
-        "en": "Follow the chain into end-use factories"
+        "zh": "本期供應鏈範圍",
+        "en": "Supply-chain coverage"
       },
       "text": {
-        "zh": "由晶圓、封裝與機櫃往下看，終端工廠還要驗證檢測、測試與流程整合是否改善良品成本。第十則以 10 月 14 日合作發布補上使用端，屬背景追蹤；本期並未核實全廠投資報酬。",
-        "en": "Beyond fabrication, packaging and racks, factories need to test whether inspection, testing and integration improve cost per good unit. Story ten follows the October 14 collaboration as adoption background, with no verified plant-wide ROI."
+        "zh": "依既有來源整理晶圓、HBM、封裝測試、機櫃電源、冷卻與工廠 AI。馬來西亞人才及越南投資、電價提供區域背景；個別事件與統計期間分別標示。",
+        "en": "Existing sources cover wafers, HBM, packaging/test, rack power, cooling and factory AI. Malaysian talent and Vietnam investment and tariffs provide regional context; event dates and statistical periods remain separate."
       }
     },
     {
       "title": {
-        "zh": "目前較像技術轉換，需求循環仍需分層",
-        "en": "Technology transition with distinct demand cycles"
+        "zh": "資料狀態分開記錄",
+        "en": "Separate data status"
       },
       "text": {
-        "zh": "高壓供電、HBM 與新封裝顯示技術架構變化；消費記憶體、終端 PC 及東南亞組裝則仍需實際銷售與庫存佐證。若設備拉貨、系統利用率或客戶資本支出轉弱，就需下修需求延續的判斷，不能只靠新品或展覽。",
-        "en": "High-voltage power, HBM and packaging signal architectural change. Consumer memory, PCs and Southeast Asian assembly still require sales and inventory evidence. Weaker tool shipments, system utilization or customer capex would challenge sustained-demand assumptions."
+        "zh": "公司實績、預測、展示規格、投資計畫與已實現外資分開記錄。未披露的訂單、產出、基期及財務影響保持未知。",
+        "en": "Company results, forecasts, exhibit ratings, investment plans and realized FDI are recorded separately. Undisclosed orders, output, bases and financial effects remain unknown."
       }
     }
   ],
@@ -2033,7 +1679,14 @@
   },
   "lower": [],
   "verificationNote": {
-    "zh": "本期聚焦台灣與東南亞。CoWoS、美光、10 月 14 日工廠 AI 合作及越南 10 月 3 日 FDI 資料明列為追蹤或背景。展示規格、公司目標、園區估算與 GDP 預測均非已完成訂單。友達與馬來西亞園區數字依具名採訪；胡志明市電價缺原始會議文件及最終費率，越南製造業及資金來源分項未核對官方原表，這些部分屬來源受限。營運影響與情境推演為編輯分析，未披露的訂單、基期與影響金額保持未知。 活動地點依主辦資料補充；MSRD 招募起日存在 10/14 與 10/15 兩種主辦頁記載，KLCC 場館則一致。",
-    "en": "Focused on Taiwan and Southeast Asia. CoWoS, Micron, October 14 factory AI collaboration and Vietnam’s October 3 FDI figures are follow-ups or background. Ratings, targets, park estimates and GDP forecasts are not completed orders. AUO and Malaysian park figures rely on named interviews. Original Ho Chi Minh City records and final tariffs are unavailable; Vietnam manufacturing and investor-origin breakdowns lack original-table verification. These portions are source-limited. Operating impacts and scenarios are editorial analysis; undisclosed orders, bases and financial effects remain unknown. Event locations use organizer sources. MSRD organizer pages differ on an October 14 or 15 start date but agree on KLCC."
+    "zh": "本期聚焦台灣與東南亞。CoWoS、美光、10 月 14 日工廠 AI 合作及越南 10 月 3 日 FDI 資料明列為追蹤或背景。展示規格、公司目標、園區估算與 GDP 預測均非已完成訂單。友達與馬來西亞園區數字依具名採訪；胡志明市電價缺原始會議文件及最終費率，越南製造業及資金來源分項未核對官方原表，這些部分屬來源受限。未披露的訂單、基期與影響金額保持未知。 活動地點依主辦資料補充；MSRD 招募起日存在 10/14 與 10/15 兩種主辦頁記載，KLCC 場館則一致。",
+    "en": "Focused on Taiwan and Southeast Asia. CoWoS, Micron, October 14 factory AI collaboration and Vietnam’s October 3 FDI figures are follow-ups or background. Ratings, targets, park estimates and GDP forecasts are not completed orders. AUO and Malaysian park figures rely on named interviews. Original Ho Chi Minh City records and final tariffs are unavailable; Vietnam manufacturing and investor-origin breakdowns lack original-table verification. These portions are source-limited. Undisclosed orders, bases and financial effects remain unknown. Event locations use organizer sources. MSRD organizer pages differ on an October 14 or 15 start date but agree on KLCC."
+  },
+  "coverage": {
+    "focus": {
+      "zh": "半導體設備、電源與工業供應鏈",
+      "en": "Semiconductor equipment, power and industrial supply chains"
+    },
+    "approach": "facts-first"
   }
 }

@@ -22,21 +22,24 @@ assert.equal(data.date,entry.date);
 assert.ok(validDate(data.date));
 assert.equal(entry.path,'./editions/'+data.date+'.json');
 bilingual(data.throughline);
-if(data.perspective)assert.ok(!/\bAEIS\b|Advanced Energy Industries/i.test(JSON.stringify(data)),'Private editorial lens exposed in public edition');
+if(data.perspective||data.coverage)assert.ok(!/\bAEIS\b|Advanced Energy Industries/i.test(JSON.stringify(data)),'Private editorial lens exposed in public edition');
 if(data.verificationNote)bilingual(data.verificationNote);
 if(data.generatedAt)assert.ok(!Number.isNaN(Date.parse(data.generatedAt)));
 for(const item of [...data.context,...data.lower,...data.memo.items]){bilingual(item.title);bilingual(item.text);}
 for(const item of data.deep){bilingual(item.question);bilingual(item.text);}
 assert.equal(new Set(data.stories.map(s=>s.id)).size,data.stories.length);
 for(const story of data.stories){
-  if(data.perspective){
+  if(data.perspective||data.coverage){
    const m=story.market;assert.ok(m&&validDate(m.eventDate),'Missing market date');
    for(const key of ['countries','industries','chain'])bilingual(m[key]);
    for(const key of ['investment','demand','fdi'])bilingual(m.changes[key]);
-   for(const key of ['exposure','impact','horizon','action','checkpoint'])bilingual(m.business[key]);
+   if(data.coverage?.approach==='facts-first'){
+    for(const key of ['relevance','timing','unknowns'])bilingual(m.facts[key]);
+    assert.ok(!m.business&&!story.takeaway,'Editorial judgment in factual edition');
+   }else for(const key of ['exposure','impact','horizon','action','checkpoint'])bilingual(m.business[key]);
    assert.ok(Array.isArray(story.metrics));
    for(const metric of story.metrics){
-    bilingual(metric.name);bilingual(metric.impact);assert.ok(Number.isFinite(metric.current));
+    bilingual(metric.name);if(data.coverage?.approach==='facts-first')assert.ok(!metric.impact);else bilingual(metric.impact);assert.ok(Number.isFinite(metric.current));
     assert.ok(metric.base===null||Number.isFinite(metric.base));assert.ok(metric.reportedRate===null||Number.isFinite(metric.reportedRate));
     for(const key of ['owner','unit','period','kind','comparison','baseStatus'])assert.ok(typeof metric[key]==='string'&&metric[key].trim());
     assert.equal(new URL(metric.sourceUrl).protocol,'https:');

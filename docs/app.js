@@ -109,7 +109,7 @@ function renderPeriod() {
 
 const openStories = new Set(), closedStories = new Set();
 const words = {
-  zh: {all:'全部',tech:'科技與商業',taiwan:'台灣與政策',global:'全球與能源',pick:'深讀推薦',detail:'分析',confidence:'判斷信心',sources:'新聞來源',count:n => n+' 則新聞',empty:'找不到符合條件的新聞。'},
+  zh: {all:'全部',tech:'科技與商業',taiwan:'台灣與政策',global:'全球與能源',pick:'深讀推薦',detail:'分析',confidence:'查證信心',sources:'新聞來源',count:n => n+' 則新聞',empty:'找不到符合條件的新聞。'},
   en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Analysis',confidence:'Confidence',sources:'Sources',count:n => n===1?'1 story':n+' stories',empty:'No stories match your search.'}
 };
 const t = value => value[lang];
@@ -160,7 +160,7 @@ function renderStories() {
       sources.append(a);
     });
     content.append(sources);
-    if(s.takeaway){
+    if(s.takeaway&&data.coverage?.approach!=='facts-first'){
       const note=node('aside',undefined,'editor-note');
       note.append(node('span',lang==='zh'?'編輯解讀':'EDITOR’S LENS','eyebrow'),node('p',t(s.takeaway)));
       content.append(note);
@@ -169,7 +169,7 @@ function renderStories() {
     details.open = openStories.has(s.id)||(readingMode==='deep'&&!closedStories.has(s.id));
     const rememberDisclosure=()=>{if(details.isConnected){if(details.open){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}}};
     details.addEventListener('toggle',rememberDisclosure);
-    const toggle=node('summary',lang==='zh'?'背景、商業邏輯與待查':'Context, economics & what to watch');toggle.append(icon('plus'));details.append(toggle);
+    const toggle=node('summary',lang==='zh'?'背景、數據與待確認事項':'Background, data & unconfirmed details');toggle.append(icon('plus'));details.append(toggle);
     // Save a user override synchronously before search or language can rebuild
     // the list. Native toggle events may arrive after the old node is removed.
     toggle.addEventListener('click',event=>{event.preventDefault();details.open=!details.open;rememberDisclosure();});
@@ -259,7 +259,7 @@ function render() {
     el('intro').textContent=weekly.throughline?t(weekly.throughline):(lang==='zh'?'快速回顧已收錄刊期的關鍵事件，完整細節可進入每日版閱讀。':'A concise selection from available editions. Open the daily edition for details.');
   }else {
     el('headline').textContent=lang==='zh'?'今天，值得理解的事。':'Today, with perspective.';
-    el('intro').textContent=data.perspective?(lang==='zh'?'台灣與東南亞，沿著設備、封裝、記憶體與終端工廠，追蹤需求、成本及投資如何落地。':'Taiwan and Southeast Asia: follow equipment, packaging, memory and end-use factories to understand demand, costs and investment execution.'):(lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.');
+    el('intro').textContent=(data.perspective||data.coverage)?(lang==='zh'?'台灣與東南亞，沿著設備、封裝、記憶體與終端工廠，追蹤需求、成本及投資如何落地。':'Taiwan and Southeast Asia: follow equipment, packaging, memory and end-use factories to understand demand, costs and investment execution.'):(lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.');
   }
   el('lang').textContent = lang === 'zh' ? 'EN' : '中';
   el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
