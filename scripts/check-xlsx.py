@@ -69,7 +69,8 @@ def validate(filename):
             if cell.get('t') == 's':
                 return strings[int(value)]
             if cell.get('t') == 'inlineStr':
-                return ''.join(cell.find('x:is', NS).itertext())
+                inline = cell.find('x:is', NS)
+                return '' if inline is None else ''.join(inline.itertext())
             return value
 
         all_table_names = set()

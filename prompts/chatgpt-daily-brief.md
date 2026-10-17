@@ -68,7 +68,7 @@ Each story:
 - sources [{name:{zh,en}, url, type}] with type "First-hand" | "Second-hand" | "Source-limited". Name sources as "Publisher · what it is" in both languages, for example {"zh":"TSMC · 第三季實績","en":"TSMC · Q3 results"}. The English page must never show Chinese text.
 - location {zh,en} for exhibitions, conferences, recruitment events, openings and projects: country, city and venue or site, stating whether it is the event venue or the project site, verified from the organizer or an authoritative source. Never substitute headquarters. Keep material date or venue disagreements.
 - market (required for every new story):
-  eventDate (YYYY-MM-DD); countries {zh,en}; industries {zh,en}; chain {zh,en};
+  eventDate (YYYY-MM-DD): the date the event happened, not the edition date. The website headline and the Excel event-date column show it, so readers can see when a story is a follow-up of earlier days; countries {zh,en}; industries {zh,en}; chain {zh,en};
   changes {investment, demand, fdi}, each {zh,en} stating the reported change or that none was disclosed;
   facts {relevance, timing, unknowns}, each {zh,en}.
 - metrics (section 7).
@@ -112,7 +112,7 @@ On Sundays, or whenever a story concerns an exhibition or conference, review the
 10. EXCEL DOWNLOADS
 Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires python3 with openpyxl and node). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:
 docs/exports/day-YYYY-MM-DD.xlsx, day-YYYY-MM-DD-en.xlsx, week-SUNDAY.xlsx, week-SUNDAY-en.xlsx
-and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has two sheets: 摘要版 / Summary (one row per story in website order, or per theme for the week, with the number, a bold headline and date, and the summary) and 完整版 / Full (the same stories with the full paragraph built from summary, location, sections and caveats; the weekly Full sheet lists each referenced story by theme). The content comes entirely from title, summary, sections, location, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. The builder needs python3 with openpyxl and node. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
+and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has two sheets: 摘要版 / Summary (one row per story in website order, or per theme for the week, with the number, a bold headline, the summary and a separate event-date column) and 完整版 / Full (the same stories with the full paragraph built from summary, location, sections and caveats; the weekly Full sheet lists each referenced story by theme). The content comes entirely from title, summary, sections, location, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. The builder needs python3 with openpyxl and node. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
 
 11. VALIDATE
 Run npm test (scripts/check.mjs, scripts/check-xlsx.py and unit tests). It checks bilingual fields, dates, unique ids, HTTPS sources, brief and deep references, weekly references, the calendar and Excel structure. Also self-check: every brief and deep id exists; leads have rich factual sections; each quantifiable story has metrics with consistent units; chain wording lands on the intended stage; no simplified characters; no AEIS mention; no internal progress notes.
@@ -139,7 +139,7 @@ If deployment is pending or failed, say so and link the Actions run; never imply
 
 ## 二、本次改版重點（2026-10-17）
 
-1. **Excel 改為「摘要版」與「完整版」兩張工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題加日期，下一行是摘要或完整段落。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
+1. **Excel 改為「摘要版」與「完整版」兩張工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題、下一行是摘要或完整段落，C 欄為事件日期（不再是刊期日期）。網站標題旁也改顯示事件日期。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
 2. **Excel 改由 `scripts/build-workbooks.py` 產生**：只需要 python3 與 openpyxl，不再依賴 Codex 的 `@oai/artifact-tool`。原本的市場動向、數值明細、摘要明細、欄位說明工作表已移除，細節改在網站查看。
 3. **網站預設英文**：讀者可切換中文，選擇會記在瀏覽器。內容仍維持中英雙語。
 4. **短網址**：單日檢視是預設，網址不再帶 `view=day`。`?date=YYYY-MM-DD#sN` 會直接跳到該日第 N 則，舊的 `#story-YYYY-MM-DD-N` 仍可使用。

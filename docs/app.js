@@ -175,7 +175,10 @@ function renderStories() {
     article.append(node('div', String(data.stories.indexOf(s)+1).padStart(2,'0'), 'story-number'));
     const content = node('div');
     const meta = node('div', undefined, 'story-meta');
-    const published=node('time',s.editionDate.slice(5).replace('-','/'),'story-time');published.dateTime=s.editionDate;published.setAttribute('aria-label',(lang==='zh'?'刊期日期：':'Edition date: ')+s.editionDate);meta.append(node('span', words[lang][s.category], 'category cat-'+s.category));
+    // Show when the event happened; older stories without one show the edition date.
+    const eventDate=s.market?.eventDate||s.editionDate,md=(+eventDate.slice(5,7))+'/'+(+eventDate.slice(8));
+    const published=node('time',s.market?.eventDate?(lang==='zh'?'事件 '+md:'Event '+new Intl.DateTimeFormat('en',{month:'short',day:'numeric',timeZone:'UTC'}).format(new Date(eventDate+'T12:00:00Z'))):md,'story-time');
+    published.dateTime=eventDate;published.setAttribute('aria-label',(s.market?.eventDate?(lang==='zh'?'事件日期：':'Event date: '):(lang==='zh'?'刊期日期：':'Edition date: '))+eventDate);meta.append(node('span', words[lang][s.category], 'category cat-'+s.category));
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
     const heading=node('h3',undefined,'story-heading');heading.append(node('strong',t(s.title)),document.createTextNode(' '),published);
     const paragraph=node('p',undefined,'summary-text story-copy');paragraph.id=article.id+'-copy';

@@ -22,7 +22,9 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 # PingFang TC has real bold weights on macOS; fallback CJK fonts often do not.
 FONTS = {'zh': 'PingFang TC', 'en': 'Calibri'}
 INK, TEXT, MUTED, BRAND, LINE, LEAD = '14322B', '3B4A44', '7A8780', '1F6B56', 'E3E6DF', 'F4F7EE'
-WIDTH = {'A': 6, 'B': 92}
+WIDTH = {'A': 6, 'B': 86, 'C': 13}
+HEADS = {'zh': ('#', '新聞', '事件日期'), 'en': ('#', 'Story', 'Event date')}
+DATE_FORMAT = {'zh': 'm/d', 'en': 'mmm d'}
 
 
 def week_start(date):
@@ -33,6 +35,11 @@ def week_start(date):
 def short(date, lang):
     day = dt.date.fromisoformat(date)
     return f'{day.month}/{day.day}' if lang == 'zh' else day.strftime('%b ') + str(day.day)
+
+
+def event_date(story, edition_date):
+    # Event date when recorded; older stories fall back to the edition date.
+    return story.get('market', {}).get('eventDate') or edition_date
 
 
 def ranked(edition):
@@ -57,15 +64,19 @@ def sheet(ws, lang, title, entries, field):
     ws.sheet_view.zoomScale = 110
     for col, width in WIDTH.items():
         ws.column_dimensions[col].width = width
-    ws.merge_cells('A1:B1')
+    ws.merge_cells('A1:C1')
     head = ws['A1']
     head.value = title
     head.font = Font(name=font, size=18, bold=True, color=INK)
     head.alignment = Alignment(vertical='center')
     ws.row_dimensions[1].height = 40
-    ws.row_dimensions[2].height = 6
-    for col in 'AB':
-        ws[f'{col}2'].border = Border(bottom=Side(style='medium', color=INK))
+    # Column headers; the event date has its own column, separate from the edition.
+    for col, text in enumerate(HEADS[lang], 1):
+        cell = ws.cell(2, col, text)
+        cell.font = Font(name=font, size=10, bold=True, color=MUTED)
+        cell.border = Border(bottom=Side(style='medium', color=INK))
+        cell.alignment = Alignment(horizontal='center' if col != 2 else 'left', vertical='bottom')
+    ws.row_dimensions[2].height = 22
     row = 3
     for i, e in enumerate(entries, 1):
         fill = PatternFill('solid', fgColor=LEAD if e['lead'] else 'FFFFFF')
@@ -74,15 +85,20 @@ def sheet(ws, lang, title, entries, field):
         number.alignment = Alignment(horizontal='center', vertical='top')
         body = ws.cell(row, 2)
         body.value = CellRichText(
-            TextBlock(InlineFont(rFont=font, sz=13, b=True, color=INK), e['heading']),
-            TextBlock(InlineFont(rFont=font, sz=11, color=MUTED), '   ' + e['time'] + '\n'),
+            TextBlock(InlineFont(rFont=font, sz=13, b=True, color=INK), e['heading'] + '\n'),
             TextBlock(InlineFont(rFont=font, sz=11, color=TEXT), e[field]),
         )
         body.alignment = Alignment(wrap_text=True, vertical='top')
+        # One date is a typed Excel date; several (weekly themes) stay as text.
+        when = ws.cell(row, 3, dt.date.fromisoformat(e['dates'][0]) if len(e['dates']) == 1
+                       else ('、' if lang == 'zh' else ', ').join(short(d, lang) for d in e['dates']))
+        when.number_format = DATE_FORMAT[lang]
+        when.font = Font(name=font, size=11, bold=True, color=TEXT)
+        when.alignment = Alignment(horizontal='center', vertical='top', wrap_text=True)
         ws.row_dimensions[row].height = (
-            lines(e['heading'] + '   ' + e['time'], 13, WIDTH['B']) * 20
-            + lines(e[field], 11, WIDTH['B']) * 16 + 10)
-        for col in range(1, 3):
+            lines(e['heading'], 13, WIDTH['B']) * 20
+            + lines(e[field], 11, WIDTH['B']) * 16 + 14)
+        for col in range(1, 4):
             cell = ws.cell(row, col)
             cell.fill = fill
             cell.border = Border(bottom=Side(style='thin', color=LINE))
@@ -247,20 +263,21 @@ def main():
     for lang in ('zh', 'en'):
         suffix = '' if lang == 'zh' else '-en'
         day_entries = [{
-            'heading': s['title'][lang], 'time': short(date, lang), 'detail': s['summary'][lang],
+            'heading': s['title'][lang], 'dates': [event_date(s, date)], 'detail': s['summary'][lang],
             'full': paragraphs[date][str(s['id'])][lang],
             'lead': s.get('depth') == 'lead'} for s in ranked(edition)]
         week_entries, week_full = [], []
         for h in digest['highlights']:
-            dates = sorted({r['date'] for r in h['references']})
+            refs = [(r['date'], next(x for x in editions[r['date']]['stories'] if x['id'] == r['storyId'])) for r in h['references']]
+            event_dates = sorted({event_date(story, d) for d, story in refs})
             week_entries.append({
-                'heading': h['title'][lang], 'time': ('、' if lang == 'zh' else ', ').join(short(d, lang) for d in dates),
+                'heading': h['title'][lang], 'dates': event_dates,
                 'detail': h['summary'][lang], 'lead': False})
             # Full weekly sheet: each referenced story under its theme, in theme order.
             for ref in sorted(h['references'], key=lambda r: r['date']):
                 story = next(x for x in editions[ref['date']]['stories'] if x['id'] == ref['storyId'])
                 week_full.append({
-                    'heading': story['title'][lang], 'time': short(ref['date'], lang),
+                    'heading': story['title'][lang], 'dates': [event_date(story, ref['date'])],
                     'full': paragraphs[ref['date']][str(ref['storyId'])][lang], 'lead': False})
         if lang == 'zh':
             titles = (f'{date} 日報重點', f'{start} 至 {end} 週報重點')
