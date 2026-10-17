@@ -1,8 +1,8 @@
 {
   "weekStart": "2026-10-12",
   "throughline": {
-    "zh": "本週 AI 需求持續推動晶片、記憶體與算力建設，但資本成本、安全責任、能源供給與勞資關係成為更清楚的擴張條件。",
-    "en": "AI demand kept driving chips, memory and compute infrastructure this week, while capital costs, safety liability, energy supply and labor relations became clearer conditions for expansion."
+    "zh": "AI 硬體與算力需求持續擴張，但資本成本、出口規則、安全責任與在地基礎設施成為更明確的門檻。",
+    "en": "AI hardware and compute demand keeps expanding, while capital costs, export rules, safety accountability and local infrastructure become clearer constraints."
   },
   "highlights": [
     {
@@ -13,8 +13,8 @@
         "en": "AI chip competition shifts to systems and long-horizon capacity"
       },
       "summary": {
-        "zh": "Maia 300、Scaleway 多架構部署、ASML 設備需求、GlobalFoundries 新廠與台積電實績顯示，競爭橫跨晶片、軟體、設備、電力與建廠資本。訂單與財報訊號仍強，但 2027 年後需由客戶資本支出與利用率驗證。",
-        "en": "Maia 300, Scaleway deployments, ASML demand, new GlobalFoundries fabs and TSMC results show competition spanning chips, software, equipment, power and construction capital. Orders and results remain strong, but post-2027 durability needs validation through customer capex and utilization."
+        "zh": "微軟晶片、Scaleway 多架構部署、ASML 設備需求與台積電實績顯示硬體需求仍強；台灣赴美園區則把在地化延伸到中小供應商。建廠與園區金額仍含規劃，需看融資、客戶訂單及實際投產。",
+        "en": "Microsoft chips, Scaleway deployments, ASML demand and TSMC results show strong hardware demand; planned Taiwan-backed U.S. parks extend localization to smaller suppliers. Planned investments still require financing, customer orders and actual production."
       },
       "references": [
         {
@@ -36,6 +36,10 @@
         {
           "date": "2026-10-16",
           "storyId": 1
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 4
         }
       ]
     },
@@ -65,12 +69,12 @@
       "id": 3,
       "category": "tech",
       "title": {
-        "zh": "AI 商用速度與安全責任同步上升",
-        "en": "AI commercialization and safety liability rise together"
+        "zh": "AI 商用、資安事件與出口治理同步推進",
+        "en": "AI commercialization, cyber incidents and export governance advance together"
       },
       "summary": {
-        "zh": "企業 Agent、內容授權、Anthropic 營收、AI 資安整併與 OpenAI 州法訴訟顯示商用正在加速，安全、資料與法律責任也進入成本結構。正式財務文件、法院裁定與可執行標準仍是主要驗證點。",
-        "en": "Enterprise agents, content licensing, Anthropic revenue, cybersecurity consolidation and state lawsuits against OpenAI show faster commercialization alongside safety, data and legal costs. Formal filings, court rulings and enforceable standards remain the key checks."
+        "zh": "企業 Agent、內容授權與資安整併持續商用化，OpenAI 訴訟、印度越權存取通報及 G7 演練則提高責任要求。中國新增出口清單仍在諮詢，但臨時登記已啟動；案件指控與未公開事件仍需分別驗證。",
+        "en": "Enterprise agents, licensing and security consolidation advance alongside OpenAI litigation, India’s unauthorized-access advisory and G7 drills. China’s new export list remains proposed while interim registration has begun; allegations and undisclosed incidents require separate verification."
       },
       "references": [
         {
@@ -104,6 +108,18 @@
         {
           "date": "2026-10-16",
           "storyId": 7
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 5
         }
       ]
     },
@@ -111,12 +127,12 @@
       "id": 4,
       "category": "global",
       "title": {
-        "zh": "通膨與槓桿提高 AI 基礎設施的資本門檻",
-        "en": "Inflation and leverage raise the capital hurdle for AI infrastructure"
+        "zh": "資本成本與治理改變資金取得條件",
+        "en": "Capital costs and governance reshape access to funding"
       },
       "summary": {
-        "zh": "美國 CPI、PPI 與資料中心募資延後顯示，需求強勁仍不足以保證低成本資金。長約、利用率、槓桿與現金流開始主導估值與融資選擇。",
-        "en": "U.S. CPI, PPI and delayed data-center fundraising show that strong demand does not guarantee cheap capital. Long contracts, utilization, leverage and cash flow increasingly drive valuation and funding choices."
+        "zh": "美國通膨與資料中心募資延後提高擴張門檻，Anthropic 新租約仍顯示特定專案能取得長期需求。MSCI 提議改列印尼獨立市場，凸顯治理也影響資金來源；最終決定最晚於 2027 年 6 月公布。",
+        "en": "U.S. inflation and delayed data-center fundraising raise expansion hurdles, while Anthropic’s lease shows project-specific long-term demand. MSCI’s proposed standalone status for Indonesia highlights governance as another funding condition, with a final decision due by June 2027."
       },
       "references": [
         {
@@ -142,6 +158,18 @@
         {
           "date": "2026-10-16",
           "storyId": 8
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 7
         }
       ]
     },
@@ -149,12 +177,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "能源供給、運輸與開發金融政策同時變動",
-        "en": "Energy supply, shipping and development-finance policy shift together"
+        "zh": "能源、運輸與跨境災害風險交織",
+        "en": "Energy, transport and cross-border disaster risks intersect"
       },
       "summary": {
-        "zh": "沙國輸油路徑、OPEC 產量、荷莫茲攻擊、俄烏能源停火破裂與影子船隊研議都影響燃料供給與運費。美方另要求世界銀行擴大油氣融資，短期供應衝擊與長期產能政策需要分開判讀。",
-        "en": "Saudi routes, OPEC output, Hormuz attacks, the failed Russia-Ukraine energy truce and shadow-fleet discussions all affect fuel supply and freight. A U.S. push for broader World Bank oil and gas finance adds a long-term capacity question distinct from near-term disruption."
+        "zh": "荷莫茲商船事件、俄烏能源停火破裂與影子船隊研議影響燃料運輸，印尼野火則促使政府同意鄰國協助。運力與火災影響需按地區與實際部署判讀，政策提案與外援同意均未等於問題解除。",
+        "en": "Hormuz incidents, the failed Russia-Ukraine energy truce and shadow-fleet discussions affect fuel transport, while Indonesia approved neighboring countries’ firefighting help. Impacts depend on local conditions and actual deployment; proposals and aid approval do not establish resolution."
       },
       "references": [
         {
@@ -180,6 +208,10 @@
         {
           "date": "2026-10-16",
           "storyId": 10
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 8
         }
       ]
     },
@@ -209,8 +241,8 @@
         "en": "Taiwan’s external links span diplomacy, energy and semiconductor labor conditions"
       },
       "summary": {
-        "zh": "邦交國制裁、台歐產業合作、離岸風電與美光在台擴產，顯示外交、能源與供應鏈政策相互連動。實際成果需由協議、發電量、產能爬坡與勞資協商驗證。",
-        "en": "Sanctions involving diplomatic partners, Taiwan-Europe industrial cooperation, offshore wind and Micron expansion show links among diplomacy, energy and supply chains. Agreements, generation, capacity ramps and labor negotiations will test outcomes."
+        "zh": "外交制裁、台歐合作、離岸風電、美光擴產與赴美園區計畫，顯示台灣產業連結延伸到能源、勞動與在地化。園區由業者籌資的規劃仍待土地與融資文件，擴產成果需由產能爬坡與勞資協商驗證。",
+        "en": "Diplomatic sanctions, Taiwan-Europe ties, offshore wind, Micron expansion and planned U.S. parks connect industry to energy, labor and localization. Privately funded park plans still need land and financing documentation; capacity ramps and labor negotiations will test expansion outcomes."
       },
       "references": [
         {
@@ -232,6 +264,10 @@
         {
           "date": "2026-10-16",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 4
         }
       ]
     }
