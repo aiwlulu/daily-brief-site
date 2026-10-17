@@ -93,6 +93,18 @@ for(const [period,entries] of Object.entries(manifest.exports||{})){
   const version=manifest.exportVersions?.[period]?.[date];if(version)assert.equal(version,createHash('sha256').update(bytes).digest('hex').slice(0,12),'Stale Excel download version');
  }
 }
+// Industry calendar: verified dates, bilingual copy and inspected HTTPS sources.
+const calendar=JSON.parse(fs.readFileSync(new URL('../docs/events.json',import.meta.url),'utf8'));
+assert.ok(validDate(calendar.updated));
+assert.equal(new Set(calendar.events.map(e=>e.id)).size,calendar.events.length);
+for(const e of calendar.events){
+ assert.ok(validDate(e.start)&&validDate(e.end)&&e.start<=e.end,'Invalid event dates '+e.id);
+ assert.ok(['tw','sea','nea','us','eu'].includes(e.region),'Unknown region '+e.id);
+ assert.ok(['semiconductor','datacenter','packaging','research','systems'].includes(e.type),'Unknown event type '+e.id);
+ for(const key of ['name','place','focus'])bilingual(e[key]);
+ checkChineseCopy(e,'events.'+e.id);
+ assert.equal(new URL(e.source.url).protocol,'https:');
+}
 const html = fs.readFileSync(new URL('../docs/index.html',import.meta.url),'utf8');
 const app = fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8');
 for(const match of app.matchAll(/el\('([^']+)'\)/g))assert.ok(html.includes('id="'+match[1]+'"'),'Missing element '+match[1]);

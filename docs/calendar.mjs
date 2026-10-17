@@ -11,7 +11,7 @@ export function mountCalendar({date, locale, available, select}) {
     panel.replaceChildren();
     const header=n('div');header.className='calendar-header';
     const prev=n('button'),next=n('button'),title=n('strong');
-    prev.type=next.type='button';prev.append(icon('left'));next.append(icon('right'));prev.setAttribute('aria-label',zh?'上一個月':'Previous month');next.setAttribute('aria-label',zh?'下一個月':'Next month');
+    prev.type=next.type='button';prev.append(icon('prev'));next.append(icon('next'));prev.setAttribute('aria-label',zh?'上一個月':'Previous month');next.setAttribute('aria-label',zh?'下一個月':'Next month');
     title.id='calendar-month';title.textContent=new Intl.DateTimeFormat(zh?'zh-TW':'en',{year:'numeric',month:'long',timeZone:'UTC'}).format(new Date(first+'T12:00:00Z'));
     function move(step){const d=new Date(first+'T12:00:00Z');d.setUTCMonth(d.getUTCMonth()+step);month=d.toISOString().slice(0,7);focusDate=month+'-01';render();panel.querySelector(step<0?'.calendar-header button:first-child':'.calendar-header button:last-child').focus();}
     prev.onclick=()=>move(-1);next.onclick=()=>move(1);header.append(prev,title,next);panel.append(header);

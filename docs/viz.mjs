@@ -1,0 +1,163 @@
+// Charts built from structured story metrics. Values come only from the
+// edition's metrics; nothing is derived beyond unit conversion and published
+// base comparisons.
+const n=(tag,text,className)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(className)e.className=className;return e;};
+const tidy=v=>Number(v.toPrecision(12));
+const num=(v,lang,max=2)=>new Intl.NumberFormat(lang==='zh'?'zh-TW':'en',{maximumFractionDigits:max}).format(tidy(v));
+const pct=(v,lang,signed=false)=>(signed&&v>0?'+':'')+num(v*100,lang,1)+'%';
+
+// Display value and unit for one metric in the reader's language.
+export function formatMetric(m,lang){
+ const v=m.current,zh=lang==='zh';
+ switch(m.unit){
+  case 'NTD billion':return zh?(v>=1000?'新台幣 '+num(v/1000,lang,3)+' 兆元':'新台幣 '+num(v*10,lang,1)+' 億元'):'NT$'+num(v,lang)+'B';
+  case 'USD billion':return zh?num(v*10,lang,1)+' 億美元':'US$'+num(v,lang)+'B';
+  case 'MYR million':return zh?num(v/100,lang,2)+' 億令吉':'RM'+num(v,lang)+'M';
+  case '%':return pct(v,lang);
+  case '個職缺':return zh?num(v,lang)+' 個職缺':num(v,lang)+' openings';
+  case '家':return zh?num(v,lang)+' 家':num(v,lang)+' companies';
+  case '人':return zh?num(v,lang)+' 人':num(v,lang)+' people';
+  default:return num(v,lang)+' '+m.unit;
+ }
+}
+// Short data-status chip, so plans, specs and forecasts never read as actuals.
+const kinds=[[/實績/,'實績','Actual'],[/規格/,'規格','Spec'],[/目標/,'目標','Target'],[/預測/,'預測','Forecast'],[/估計|估算/,'估計','Estimate'],[/規劃|計畫/,'規劃','Plan'],[/統計/,'統計','Statistic'],[/引述|轉述/,'引述','Reported'],[/陳述/,'陳述','Statement'],[/超過/,'下限','Floor']];
+export function kindLabel(m,lang){const k=kinds.find(([re])=>re.test(m.kind||''));return k?k[lang==='zh'?1:2]:(m.kind||'');}
+const rateLabel=(m,lang)=>m.reportedRate!=null&&/YoY|QoQ/.test(m.comparison)?m.comparison+' '+pct(m.reportedRate,lang,true):'';
+const name=(m,lang)=>m.name[lang]||m.name.zh;
+
+function barRow({label,value,display,detail,max,min=0,muted=false}){
+ const row=n('div',undefined,'viz-row'+(muted?' is-muted':''));
+ row.tabIndex=0;row.dataset.tooltip=detail;row.setAttribute('aria-label',label+': '+display+(detail?'. '+detail:''));
+ const track=n('div',undefined,'viz-track');
+ const span=max-min||1, zero=(0-min)/span*100, size=Math.abs(value)/span*100;
+ const bar=n('span',undefined,'viz-bar'+(value<0?' is-negative':''));
+ bar.style.left=(value<0?zero-size:zero)+'%';bar.style.width=Math.max(size,.6)+'%';
+ track.append(bar);
+ row.append(n('span',label,'viz-label'),track,n('strong',display,'viz-value'));
+ return row;
+}
+
+// Per-story figures: same-unit metrics become a bar comparison, the rest tiles.
+export function storyFigures(story,lang){
+ const metrics=story.metrics||[];
+ if(!metrics.length)return null;
+ const zh=lang==='zh',wrap=n('div',undefined,'story-figures');
+ wrap.setAttribute('aria-label',zh?'本則數據':'Figures in this story');
+ const groups=new Map();
+ for(const m of metrics){const key=m.unit==='%'?'%:'+m.period:m.unit;groups.set(key,[...(groups.get(key)||[]),m]);}
+ const tiles=n('div',undefined,'figure-tiles');
+ for(const group of groups.values()){
+  if(group.length>1&&group.every(m=>m.current>=0)){
+   const chart=n('div',undefined,'viz-mini');
+   const max=Math.max(...group.map(m=>m.current));
+   chart.append(n('p',(zh?'同單位比較 · ':'Same-unit comparison · ')+group[0].period,'viz-caption'));
+   for(const m of group)chart.append(barRow({label:name(m,lang)+' · '+kindLabel(m,lang),value:m.current,display:formatMetric(m,lang),detail:[m.owner,rateLabel(m,lang)].filter(Boolean).join(' · '),max}));
+   wrap.append(chart);
+  }else for(const m of group){
+   const tile=n('div',undefined,'figure-tile');
+   tile.append(n('span',name(m,lang),'figure-label'),n('strong',formatMetric(m,lang),'figure-value'));
+   const meta=n('span',undefined,'figure-meta');
+   meta.append(n('span',kindLabel(m,lang),'figure-kind'));
+   const rate=rateLabel(m,lang);if(rate)meta.append(n('span',rate,'figure-rate'));
+   if(m.base!=null)meta.append(n('span',(zh?'前值 ':'Prior ')+formatMetric({...m,current:m.base},lang),'figure-rate'));
+   meta.append(n('span',m.period,'figure-period'));
+   tile.append(meta);tiles.append(tile);
+  }
+ }
+ if(tiles.children.length)wrap.append(tiles);
+ return wrap;
+}
+
+// Supply-chain stages, upstream to downstream, matched from structured fields.
+const stages=[
+ ['materials','材料與設備','Materials & tools',/材料|設備|零組件|製程設備/],
+ ['wafer','晶圓製造','Wafer fab',/晶圓|代工|晶片設計|設計至/],
+ ['memory','記憶體','Memory',/HBM|DRAM|NAND|記憶體|SSD/],
+ ['packaging','封裝測試','Packaging & test',/封裝|封測|測試|載板|基板/],
+ ['systems','伺服器與整機','Servers & systems',/ODM|伺服器|整機|PC|電腦/],
+ ['power','電源與散熱','Power & cooling',/電源|供電|液冷|散熱|電力|電價/],
+ ['datacenter','資料中心','Data centers',/資料中心|機房|算力/],
+ ['factory','終端工廠','End-use factories',/工廠|在地工廠|自動化|終端/],
+ ['policy','投資與政策','Investment & policy',/投資|FDI|外資|園區|預測|人才|招募|資金/]
+];
+const stagesFor=s=>stages.filter(([,,,re])=>re.test([s.market?.chain?.zh,s.market?.industries?.zh].join(' '))).map(([key])=>key);
+function stageItem([key,labelZh,labelEn],hits,lang,number){
+ const li=n('li',undefined,'chain-stage'+(hits.length?' has-stories':''));li.dataset.stage=key;
+ const head=n('div',undefined,'chain-head');head.append(n('span',lang==='zh'?labelZh:labelEn,'chain-name'),n('span',String(hits.length),'chain-count'));
+ const chips=n('div',undefined,'chain-chips');
+ for(const s of hits){const a=n('a',number(s),'chain-chip');a.href='#story-'+s.id;a.dataset.tooltip=s.title[lang];a.setAttribute('aria-label',number(s)+' '+s.title[lang]);chips.append(a);}
+ li.append(head,chips);return li;
+}
+// Flow diagram: physical chain left to right, investment and policy as a band.
+export function chainMap(stories,lang,number){
+ const marked=stories.filter(s=>s.market);
+ if(!marked.length)return null;
+ const zh=lang==='zh',wrap=n('div',undefined,'chain-diagram');
+ const flow=n('ol',undefined,'chain-map');
+ flow.setAttribute('aria-label',zh?'供應鏈由上游到下游':'Supply chain from upstream to downstream');
+ for(const stage of stages.slice(0,-1))flow.append(stageItem(stage,marked.filter(s=>stagesFor(s).includes(stage[0])),lang,number));
+ const ends=n('div',undefined,'chain-ends');ends.setAttribute('aria-hidden','true');
+ ends.append(n('span',zh?'上游':'Upstream'),n('span',zh?'下游':'Downstream'));
+ const band=n('ul',undefined,'chain-band');
+ const policy=stages.at(-1);band.append(stageItem(policy,marked.filter(s=>stagesFor(s).includes(policy[0])),lang,number));
+ wrap.append(ends,flow,band);
+ return wrap;
+}
+// Compact per-story strip: the eight physical stages, matched ones filled.
+export function chainStrip(story,lang){
+ if(!story.market?.chain)return null;
+ const hit=stagesFor(story),zh=lang==='zh';
+ const wrap=n('div',undefined,'chain-strip');
+ const names=stages.filter(([key])=>hit.includes(key)).map(([,a,b])=>zh?a:b);
+ wrap.setAttribute('role','img');
+ wrap.setAttribute('aria-label',(zh?'供應鏈位置：':'Supply-chain position: ')+(names.join('、')||story.market.chain[lang]));
+ const track=n('span',undefined,'chain-strip-track');
+ for(const [key,a,b] of stages.slice(0,-1)){const seg=n('span',undefined,'chain-seg'+(hit.includes(key)?' is-on':''));seg.dataset.tooltip=zh?a:b;track.append(seg);}
+ wrap.append(n('span',zh?'上游':'Up','chain-strip-end'),track,n('span',zh?'下游':'Down','chain-strip-end'),n('span',story.market.chain[lang]+(hit.includes('policy')?(zh?' · 投資與政策':' · Investment & policy'):''),'chain-strip-label'));
+ return wrap;
+}
+
+// Edition-wide figures: published growth rates side by side, plus revisions.
+export function numbersOverview(stories,lang,number){
+ const zh=lang==='zh',rows=stories.flatMap(s=>(s.metrics||[]).map(m=>({s,m})));
+ const blocks=[];
+ const rates=rows.filter(({m})=>m.reportedRate!=null&&/YoY|QoQ/.test(m.comparison)).sort((a,b)=>b.m.reportedRate-a.m.reportedRate);
+ if(rates.length){
+  const chart=n('figure',undefined,'viz-card');
+  chart.append(n('figcaption',zh?'公布的成長率':'Published growth rates','viz-title'),n('p',zh?'依來源公布值排列；主體、期間與口徑不同，僅供並列查看。':'As published by each source; owners, periods and definitions differ, so this is a side-by-side view, not a ranking.','viz-note'));
+  const max=Math.max(0,...rates.map(r=>r.m.reportedRate)),min=Math.min(0,...rates.map(r=>r.m.reportedRate));
+  for(const {s,m} of rates)chart.append(barRow({label:number(s)+' · '+m.owner.replace(/，.*/,'')+' · '+name(m,lang),value:m.reportedRate,display:m.comparison+' '+pct(m.reportedRate,lang,true),detail:m.period+' · '+formatMetric(m,lang),max,min}));
+  blocks.push(chart);
+ }
+ const revisions=rows.filter(({m})=>m.base!=null&&Number.isFinite(m.base));
+ if(revisions.length){
+  const chart=n('figure',undefined,'viz-card');
+  chart.append(n('figcaption',zh?'前後比較':'Before and after','viz-title'),n('p',zh?'僅列來源明示基期的數字。':'Only figures with a base stated by the source.','viz-note'));
+  const legend=n('div',undefined,'viz-legend');
+  legend.append(n('span',zh?'基期':'Base','key is-muted'),n('span',zh?'本期':'Current','key'));
+  chart.append(legend);
+  for(const {s,m} of revisions){
+   const max=Math.max(m.base,m.current),group=n('div',undefined,'viz-pair');
+   const diff=m.unit==='%'?num((m.current-m.base)*100,lang,2)+(zh?' 個百分點':' pp'):formatMetric({...m,current:m.current-m.base},lang);
+   group.append(n('p',number(s)+' · '+name(m,lang)+' · '+(m.current>=m.base?'+':'')+diff,'viz-pair-title'));
+   group.append(barRow({label:m.basePeriod||(zh?'基期':'Base'),value:m.base,display:formatMetric({...m,current:m.base},lang),detail:m.owner,max,muted:true}));
+   group.append(barRow({label:m.period,value:m.current,display:formatMetric(m,lang),detail:m.owner,max}));
+   chart.append(group);
+  }
+  blocks.push(chart);
+ }
+ if(!rows.length)return blocks;
+ // Table view keeps every value reachable without the charts.
+ const details=n('details',undefined,'viz-table');
+ details.append(n('summary',zh?'檢視全部數據表':'View all figures as a table'));
+ const table=n('table'),head=n('tr');
+ for(const h of zh?['新聞','指標','數值','性質','期間','來源方']:['Story','Metric','Value','Status','Period','Owner'])head.append(n('th',h));
+ const thead=n('thead');thead.append(head);const body=n('tbody');
+ for(const {s,m} of rows){
+  const tr=n('tr');const link=n('a',number(s));link.href='#story-'+s.id;const td=n('td');td.append(link);
+  tr.append(td,n('td',name(m,lang)),n('td',formatMetric(m,lang)),n('td',kindLabel(m,lang)),n('td',m.period),n('td',m.owner));body.append(tr);
+ }
+ table.append(thead,body);details.append(table);blocks.push(details);
+ return blocks;
+}

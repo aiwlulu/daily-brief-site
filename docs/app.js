@@ -3,12 +3,17 @@ import {storyParagraph} from './story-copy.mjs';
 import {fallbackWeekly} from './weekly.mjs';
 import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
+import {storyFigures,chainMap,chainStrip,numbersOverview} from './viz.mjs';
+import {renderEvents} from './events.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
-let data, weekly, weekPaths={}, exportPaths={}, exportVersions={}, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
+let data, weekly, weekPaths={}, exportPaths={}, exportVersions={}, catalog = [], selectedEditions = [], lang = 'en', filter = 'all', query = '';
 let readingMode='summary';
 const params = new URLSearchParams(location.search);
-let period = params.get('view') === 'week' ? 'week' : 'day';
+let period = ['week','events'].includes(params.get('view')) ? params.get('view') : 'day';
+let events=null;const eventState={region:'all'};
+// English by default; a chosen language persists per browser.
+try{const saved=params.get('lang')||localStorage.getItem('brief-lang');if(saved==='zh'||saved==='en')lang=saved;}catch{}
 let selectedDate = validDate(params.get('date') || '') ? params.get('date') : taipeiToday();
 function setPageState(state) {
   document.body.dataset.state=state;
@@ -20,11 +25,12 @@ const editionCache=new Map(), weeklyCache=new Map();
 let requestVersion=0;
 async function choosePeriod() {
   const version=++requestVersion;
-  const requested=selectEditions(catalog,selectedDate,period);
+  const requested=selectEditions(catalog,selectedDate,period==='week'?'week':'day');
   const requestedWeek=periodRange(selectedDate,'week').start;
   if(!data||requested.some(entry=>!editionCache.has(entry.date))||(period==='week'&&weekPaths[requestedWeek]&&!weeklyCache.has(requestedWeek)))setPageState('loading');
   el('error').hidden=true;
   try {
+    if(period==='events'&&!events)events=await readJson('./events.json');
     const loaded=await Promise.all(requested.map(async entry=>{if(!editionCache.has(entry.date))editionCache.set(entry.date,await readJson(entry.path));return editionCache.get(entry.date);}));
     const weekStart=periodRange(selectedDate,'week').start;
     if(period==='week'&&weekPaths[weekStart]&&!weeklyCache.has(weekStart))weeklyCache.set(weekStart,await readJson(weekPaths[weekStart]));
@@ -33,19 +39,30 @@ async function choosePeriod() {
     selectedEditions=loaded;weekly=digest;
   const newest = selectedEditions[0];
   const blank = {date:selectedDate, throughline:{zh:'這段期間尚未收錄新聞。',en:'No editions have been published for this period.'},stories:[],deep:[],context:[],memo:{title:{zh:'',en:''},items:[]},lower:[]};
-  data = {...(newest || blank), stories:selectedEditions.flatMap(e => e.stories.map(s => ({...s, sourceId:s.id, editionDate:e.date, id:e.date+'-'+s.id})))};
+  data = {...(newest || blank), stories:selectedEditions.flatMap(e => rankStories(e).map(s => ({...s, sourceId:s.id, editionDate:e.date, id:e.date+'-'+s.id})))};
   data.deep = selectedEditions.flatMap(e => e.deep.map(d => ({...d,id:e.date+'-'+d.id}))).slice(0,3);
   const url = new URL(location.href);
-  url.searchParams.set('view',period); url.searchParams.set('date',selectedDate);
+  // Day is the default view, so it stays out of shared links.
+  if(period==='day')url.searchParams.delete('view');else url.searchParams.set('view',period);
+  url.searchParams.set('date',selectedDate);
   history.replaceState(null,'',url);
   render();
   setPageState('ready');
+  revealHash();
   } catch(error){if(version===requestVersion){setPageState('error');el('error').hidden=false;el('coverage').textContent=lang==='zh'?'刊期暫時無法載入，請重試。':'Edition could not be loaded. Please retry.';}}
   finally{if(version===requestVersion)document.querySelector('main').setAttribute('aria-busy','false');}
 }
+// Reading order: lead stories, then stories in the 30-second brief order,
+// then the rest (usually background follow-ups) in edition order.
+function rankStories(edition){
+  const brief=(edition.brief||[]).map(b=>b.id);
+  const rank=s=>s.depth==='lead'?0:brief.includes(s.id)?1:s.pick?2:3;
+  const pos=s=>brief.includes(s.id)?brief.indexOf(s.id):99;
+  return edition.stories.map((s,i)=>({s,i})).sort((a,b)=>rank(a.s)-rank(b.s)||pos(a.s)-pos(b.s)||a.i-b.i).map(x=>x.s);
+}
 function renderPeriod() {
   document.body.dataset.view=period;
-  const zh = lang === 'zh', range = periodRange(selectedDate,period);
+  const zh = lang === 'zh', range = periodRange(selectedDate,period==='week'?'week':'day');
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
   const exportKey=period==='week'?range.start:selectedDate;
   const exportPath=exportPaths[period]?.[exportKey];
@@ -56,20 +73,19 @@ function renderPeriod() {
   excel.replaceChildren(icon('download'),node('span','Excel'));
   excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'完整 Excel，含市場動向、數值及來源':'Download the complete '+(period==='week'?'weekly':'daily')+' Excel, including market changes, metrics and sources');
   excel.dataset.tooltip=zh?'完整刊期 Excel，不受搜尋篩選影響':'Complete edition, independent of search filters';
-  el('view-day').replaceChildren(icon('today'),node('span',zh?'日':'D'));
-  el('view-day').setAttribute('aria-label',zh?'當日':'Daily view');
-  el('view-day').dataset.tooltip=zh?'當日':'Daily view';
-  el('view-week').replaceChildren(icon('week'),node('span',zh?'週':'W'));
-  el('view-week').setAttribute('aria-label',zh?'當週':'Weekly view');
-  el('view-week').dataset.tooltip=zh?'當週':'Weekly view';
+  // Visible text labels; no tooltip repeating them.
+  el('view-day').replaceChildren(icon('today'),node('span',zh?'當日':'Day'));
+  el('view-week').replaceChildren(icon('week'),node('span',zh?'當週':'Week'));
+  el('view-events').replaceChildren(icon('flag'),node('span',zh?'行事曆':'Events'));
   el('view-day').setAttribute('aria-pressed',String(period === 'day'));
   el('view-week').setAttribute('aria-pressed',String(period === 'week'));
+  el('view-events').setAttribute('aria-pressed',String(period === 'events'));
   el('date-label').textContent = zh ? '日期' : 'Date';
   el('date').value = selectedDate;
   el('date-display').textContent = selectedDate.slice(5).replace('-','/');
   el('calendar-open').setAttribute('aria-label',(zh?'選擇日期：':'Choose date: ')+selectedDate);
   el('publication-status').textContent = data.archiveType==='backfill' ? (zh?'回溯補編':'RETROSPECTIVE EDITION') : data.generatedAt ? (zh?'更新於 ':'UPDATED ')+new Intl.DateTimeFormat(zh?'zh-TW':'en',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Taipei'}).format(new Date(data.generatedAt)) : '';
-  el('today').replaceChildren(icon('today'));
+  el('today').replaceChildren(icon('current'));
   el('today').setAttribute('aria-label',zh?'回到今天':'Back to today');
   el('today').dataset.tooltip=zh?'回到今天':'Back to today';
   el('latest').textContent = zh ? '閱讀最新一期' : 'Latest edition';
@@ -129,6 +145,7 @@ function link(source) {
   return a;
 }
 function renderStories() {
+  if(period==='events'){renderEvents(el('events-view'),events,lang,taipeiToday(),eventState);return;}
   if(period==='week'){renderWeekly();return;}
   const list = el('news-list');
   list.replaceChildren();
@@ -147,7 +164,7 @@ function renderStories() {
     article.append(node('div', String(data.stories.indexOf(s)+1).padStart(2,'0'), 'story-number'));
     const content = node('div');
     const meta = node('div', undefined, 'story-meta');
-    const published=node('time',s.editionDate.slice(5).replace('-','/'),'story-time');published.dateTime=s.editionDate;published.setAttribute('aria-label',(lang==='zh'?'刊期日期：':'Edition date: ')+s.editionDate);meta.append(node('span', words[lang][s.category]));
+    const published=node('time',s.editionDate.slice(5).replace('-','/'),'story-time');published.dateTime=s.editionDate;published.setAttribute('aria-label',(lang==='zh'?'刊期日期：':'Edition date: ')+s.editionDate);meta.append(node('span', words[lang][s.category], 'category cat-'+s.category));
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
     const heading=node('h3',undefined,'story-heading');heading.append(node('strong',t(s.title)),document.createTextNode(' '),published);
     const paragraph=node('p',undefined,'summary-text story-copy');paragraph.id=article.id+'-copy';
@@ -164,6 +181,8 @@ function renderStories() {
       sources.append(a);
     });
     content.append(sources);
+    const strip=chainStrip(s,lang);if(strip)content.append(strip);
+    const figures=storyFigures(s,lang);if(figures)content.append(figures);
     const toggle=node('button',undefined,'story-toggle');toggle.type='button';
     toggle.setAttribute('aria-controls',paragraph.id);
     const updateToggle=()=>{
@@ -192,7 +211,7 @@ function renderWeekly() {
     const article=node('article',undefined,'week-highlight');
     const number=node('span',String(item.id).padStart(2,'0'),'week-number');
     const content=node('div');
-    content.append(node('span',words[lang][item.category],'week-category'),node('h3',t(item.title)),node('p',t(item.summary)));
+    content.append(node('span',words[lang][item.category],'week-category category cat-'+item.category),node('h3',t(item.title)),node('p',t(item.summary)));
     const links=node('div',undefined,'week-references');
     const dates=[...new Set(item.references.map(r=>r.date))];
     for(const date of dates){const a=node('a',date.slice(5).replace('-','/')+(lang==='zh'?' 日報':' edition'));a.href='./?view=day&date='+date;a.append(icon('right'));links.append(a);}
@@ -207,6 +226,18 @@ function textSection(target, items) {
     target.append(n);
   });
 }
+const storyNumber=s=>String(data.stories.indexOf(s)+1).padStart(2,'0');
+function renderNumbers(){
+  const zh=lang==='zh',map=period==='day'?chainMap(data.stories,lang,storyNumber):null;
+  const charts=period==='day'?numbersOverview(data.stories,lang,storyNumber):[];
+  el('numbers').hidden=!map&&!charts.length;
+  el('numbers-title').textContent=zh?'數據一覽':'At a glance';
+  el('numbers-sub').textContent=zh?'先看圖，再讀全文':'Scan the charts, then read on';
+  el('chain-title').textContent=zh?'供應鏈位置：上游到下游':'Supply chain: upstream to downstream';
+  el('chain-note').textContent=zh?'依各則新聞的產業鏈欄位標示，一則可跨多個環節；點選編號跳到該則。':'Placed from each story’s supply-chain fields; a story can span several stages. Select a number to jump to it.';
+  el('chain-block').hidden=!map;el('chain-map').replaceChildren(...(map?[map]:[]));
+  el('numbers-charts').replaceChildren(...charts);
+}
 function renderBrief(){
   const list=el('brief-list');list.replaceChildren();
   const edition=selectedEditions[0];
@@ -220,15 +251,23 @@ function renderBrief(){
     li.append(a);list.append(li);
   }
 }
+const currentTheme=()=>document.documentElement.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+function renderTheme(){
+  const dark=currentTheme()==='dark',zh=lang==='zh';
+  const label=dark?(zh?'切換為淺色':'Light theme'):(zh?'切換為深色':'Dark theme');
+  el('theme').replaceChildren(icon(dark?'sun':'moon'));
+  el('theme').setAttribute('aria-label',label);el('theme').dataset.tooltip=label;
+  document.querySelector('meta[name=theme-color]').content=dark?'#0f1714':'#f7f6f1';
+}
 function render() {
   document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
   const copy = lang === 'zh' ? {
-    'brand-sub':'商業與科技日報',print:'列印',intro:'從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。',
+    'brand-sub':'商業與科技日報',skip:'跳到新聞內容',intro:'從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。',
     start:'閱讀本期','story-total':'11 則重點新聞','deep-title':'延伸深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞','brief-title':'30 秒 Brief','brief-sub':'先掌握今天的變化',
     'search-label':'搜尋','context-title':'產業脈絡','memo-title':'一頁分析備忘錄','lower-title':'降低權重的標題','sources-title':'來源與查證','back-top':'回到頁首',
     'source-note':'本期內容整理自提供的 2026 年 10 月 13 日日報，部分來源網址經重新檢索。原始財報、SPUR 技術標準及部分低權重新聞連結尚未找回，文中已註明。信心程度沿用原日報，並不表示本頁已完成全面獨立查證。'
   } : {
-    'brand-sub':'BUSINESS & TECHNOLOGY',print:'Print',intro:'From AI chips to energy supply. Read the events, the economics and the changes to watch.',
+    'brand-sub':'BUSINESS & TECHNOLOGY',skip:'Skip to stories',intro:'From AI chips to energy supply. Read the events, the economics and the changes to watch.',
     start:'Read this edition','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories','brief-title':'30-second Brief','brief-sub':'What changed today',
     'search-label':'Search','context-title':'Industry context','memo-title':'One-page analysis memo','lower-title':'Lower-priority headlines','sources-title':'Sources & verification','back-top':'Back to top',
     'source-note':'Adapted from the supplied October 13, 2026 brief. Some source URLs were recovered through search. Original earnings, SPUR standard and lower-priority article links remain incomplete, as noted. Confidence labels reflect the brief and do not establish a full independent fact-check.'
@@ -243,10 +282,7 @@ function render() {
     el('intro').textContent=(data.perspective||data.coverage)?(lang==='zh'?'台灣與東南亞，沿著設備、封裝、記憶體與終端工廠，追蹤需求、成本及投資如何落地。':'Taiwan and Southeast Asia: follow equipment, packaging, memory and end-use factories to understand demand, costs and investment execution.'):(lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.');
   }
   el('lang').textContent = lang === 'zh' ? 'EN' : '中';
-  el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
-  el('print').replaceChildren(icon('printer'));
-  el('print').setAttribute('aria-label',lang==='zh'?'列印':'Print');
-  el('print').dataset.tooltip=lang==='zh'?'列印':'Print';
+  renderTheme();
   el('lang').setAttribute('aria-label',lang === 'zh' ? 'Switch to English' : '切換為繁體中文');
   el('search').placeholder = lang === 'zh' ? '公司、事件或關鍵字' : 'Company, event or keyword';
   el('throughline').textContent = t(data.throughline);
@@ -283,11 +319,21 @@ function render() {
   });
   renderPeriod();
   renderBrief();
+  renderNumbers();
   renderStories();
 }
 let beforePrint = [];
 window.addEventListener('beforeprint',()=>{beforePrint=[...document.querySelectorAll('.story-copy')].map(n=>[n,n.textContent]);for(const [n] of beforePrint){const story=data.stories.find(s=>'story-'+s.id+'-copy'===n.id);if(story)n.textContent=storyParagraph(story,lang,true);}});
 window.addEventListener('afterprint',()=>beforePrint.forEach(([n,copy])=>n.textContent=copy));
+// Stories load after the page, so jump to a linked story once it exists.
+// Short links use #s12; #story-YYYY-MM-DD-12 remains supported.
+let hashHandled=false;
+function revealHash(){
+  if(hashHandled||!location.hash)return;hashHandled=true;
+  const short=location.hash.match(/^#s(\d+)$/);
+  const target=document.getElementById(short?'story-'+selectedDate+'-'+short[1]:decodeURIComponent(location.hash.slice(1)));
+  if(target)requestAnimationFrame(()=>target.scrollIntoView());
+}
 async function readJson(path) {
   const response = await fetch(path,{cache:'no-cache'});
   if (!response.ok) throw new Error('Content unavailable');
@@ -298,13 +344,14 @@ readJson('./editions/index.json').then(async manifest => {
   exportPaths=manifest.exports||{};
   exportVersions=manifest.exportVersions||{};
   catalog=manifest.editions.slice().sort((a,b)=>b.date.localeCompare(a.date));
-  el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';render();};
+  el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';try{localStorage.setItem('brief-lang',lang);}catch{}render();};
+  el('theme').onclick=()=>{const next=currentTheme()==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('brief-theme',next);}catch{}renderTheme();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});
   el('clear-search').onclick=()=>{query='';el('search').value='';renderStories();el('search').focus();};
   mountCalendar({date:()=>selectedDate,locale:()=>lang,available:()=>catalog.map(e=>e.date),select:value=>{selectedDate=value;choosePeriod();}});
-  el('print').onclick=()=>window.print();
   el('view-day').onclick=()=>{period='day';choosePeriod();};
   el('view-week').onclick=()=>{period='week';choosePeriod();};
+  el('view-events').onclick=()=>{period='events';choosePeriod();};
   const setReadingMode=mode=>{
     readingMode=mode;openStories.clear();closedStories.clear();
     for(const story of data.stories)(mode==='deep'?openStories:closedStories).add(story.id);
@@ -324,7 +371,7 @@ el('retry').onclick=()=>location.reload();
 function readingProgress(){const height=document.documentElement.scrollHeight-innerHeight;el('reading-progress').style.width=(height>0?Math.min(100,scrollY/height*100):0)+'%';}
 addEventListener('scroll',readingProgress,{passive:true});addEventListener('resize',readingProgress);
 
-el('previous').replaceChildren(icon('left'));el('next').replaceChildren(icon('right'));el('clear-search').replaceChildren(icon('close'));document.querySelector('.calendar-glyph').append(icon('calendar'));
+el('previous').replaceChildren(icon('prev'));el('next').replaceChildren(icon('next'));el('clear-search').replaceChildren(icon('close'));document.querySelector('.calendar-glyph').append(icon('calendar'));
 
 el('search-icon').append(icon('search'));
 

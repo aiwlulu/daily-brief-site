@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#153d34">
+  <meta name="theme-color" content="#f7f6f1">
+  <script>try{const t=localStorage.getItem('brief-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;}catch{}</script>
   <meta name="description" content="商業與科技日報：中英文新聞、產業分析、來源連結與查證提醒。">
   <title>Daily Brief｜商業與科技日報</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
@@ -14,17 +15,17 @@
 </head>
 <body data-state="loading">
   <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
-  <a class="skip" href="#stories">跳到新聞內容</a>
+  <a class="skip" id="skip" href="#stories">Skip to stories</a>
   <header class="masthead">
     <a class="brand" href="./"><span class="brand-mark">DB</span><span>DAILY BRIEF<small id="brand-sub">商業與科技日報</small></span></a>
     <nav aria-label="閱讀設定">
-      <button id="lang" type="button" aria-label="Switch to English">English</button>
-      <button id="print" type="button">列印</button>
+      <button id="lang" type="button" aria-label="切換為繁體中文">中</button>
+      <button id="theme" type="button" aria-label="Dark theme"></button>
       <a id="export-excel" class="export-excel" hidden download>Excel</a>
     </nav>
   </header>
   <main aria-busy="true">
-    <p id="loading-status" class="sr-only" role="status" aria-live="polite">正在載入新聞</p>
+    <p id="loading-status" class="sr-only" role="status" aria-live="polite">Loading news</p>
     <div id="loading-skeleton" class="loading-skeleton" aria-hidden="true">
       <div class="skeleton-toolbar"><div class="skeleton-block skeleton-switch"></div><div class="skeleton-block skeleton-date"></div></div>
       <div class="skeleton-block skeleton-coverage"></div>
@@ -39,6 +40,7 @@
       <div class="period-switch" role="group" aria-label="閱讀範圍">
         <button id="view-day" type="button" aria-pressed="true">當日</button>
         <button id="view-week" type="button" aria-pressed="false">當週</button>
+        <button id="view-events" type="button" aria-pressed="false">行事曆</button>
       </div>
       <div class="date-nav">
         <button id="previous" type="button" aria-label="上一日">←</button>
@@ -59,12 +61,18 @@
       <div class="brief-layout"><ol id="brief-list" class="brief-list"></ol>
       <aside class="lead"><span class="eyebrow" id="theme-label">今日主線</span><p id="throughline"></p><div class="edition-meta"><span id="story-total"></span><span id="edition-date"></span></div></aside></div>
     </section>
+    <section id="numbers" class="numbers" aria-labelledby="numbers-title" hidden>
+      <div class="section-top"><h2 id="numbers-title">數據一覽</h2><span id="numbers-sub"></span></div>
+      <div id="chain-block" class="chain-block"><h3 id="chain-title" class="viz-title">供應鏈位置</h3><p id="chain-note" class="viz-note"></p><div id="chain-map"></div></div>
+      <div id="numbers-charts" class="viz-grid"></div>
+    </section>
     <section id="stories" class="news" aria-labelledby="news-title">
       <div class="section-top"><h2 id="news-title">今日新聞</h2><span id="count" role="status" aria-live="polite"></span></div>
       <div id="reading-controls" class="reading-controls"><span id="reading-label">閱讀方式</span><div class="reading-switch" role="group" aria-labelledby="reading-label"><button id="reading-summary" type="button" aria-pressed="true">重點摘要</button><button id="reading-deep" type="button" aria-pressed="false">深度閱讀</button></div><span id="reading-note">每篇也可單獨展開</span></div>
       <div class="toolbar"><div id="filters" class="filters" role="group" aria-label="新聞分類"></div><label class="search"><span id="search-label" class="sr-only">搜尋</span><span id="search-icon" class="search-glyph" aria-hidden="true"></span><input id="search" aria-labelledby="search-label" type="text" placeholder="公司、事件或關鍵字" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label></div>
       <div id="news-list"></div><p id="empty" hidden>找不到符合條件的新聞。</p>
     </section>
+    <section id="events-view" class="events-view" aria-label="Industry calendar"></section>
     <section class="deep" aria-labelledby="deep-title"><div class="section-top"><h2 id="deep-title">本期深讀</h2><span id="deep-sub">三個值得多停留的問題</span></div><div id="deep-links" class="deep-grid"></div></section>
     <section class="context" aria-labelledby="context-title"><div class="section-top"><h2 id="context-title">產業脈絡</h2><span>CONTEXT</span></div><div id="context-content"></div></section>
     <section class="memo" aria-labelledby="memo-title"><div class="section-top"><h2 id="memo-title">一頁分析備忘錄</h2><span>ANALYSIS MEMO</span></div><h3 id="memo-topic"></h3><div id="memo-content" class="memo-grid"></div></section>
