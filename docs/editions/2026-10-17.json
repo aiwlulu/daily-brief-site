@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-17T00:02:23.607Z",
+  "generatedAt": "2026-10-17T02:38:14.482Z",
   "throughline": {
     "zh": "AI 擴張正同時面對出口邊界、資安責任與在地基礎設施成本，治理能力開始影響跨境交易與資金取得。",
     "en": "AI expansion faces export boundaries, cyber accountability and local infrastructure costs, making governance increasingly relevant to cross-border business and access to capital."
@@ -37,6 +37,36 @@
         },
         {
           "label": {
+            "zh": "背景與邊界",
+            "en": "Context and boundaries"
+          },
+          "text": {
+            "zh": "這份規則同時涉及模型、Agent、算力叢集與資訊處理技術。商務部說明，已公開的技術與部分適用便利措施的出口另有安排，因此判斷單位應是具體技術與交易形式，不能只看公司是否來自中國。",
+            "en": "The proposed scope covers models, agents, compute clusters and information processing. Public-domain technology and facilitated exports receive different treatment, so assessment depends on technology and transaction structure, not simply a company’s nationality."
+          }
+        },
+        {
+          "label": {
+            "zh": "誰付錢，誰保有控制權？",
+            "en": "Who pays, and who retains control?"
+          },
+          "text": {
+            "zh": "分析上，企業客戶若購買海外在地部署，通常需要處理交付、維運與資料控制；若改用供應商託管的 API，則轉為持續服務費與服務依賴。這是兩種成本配置，實際選擇還要核對資料法規、延遲、可靠性與合約，不能只用「便宜模型」比較。",
+            "en": "Analysis: local deployment brings delivery, operations and data-control obligations; hosted APIs shift costs toward recurring service charges and provider dependency. Data rules, latency, reliability and contract terms determine the trade-off, beyond model price."
+          }
+        },
+        {
+          "label": {
+            "zh": "產業位置與反證",
+            "en": "Industry position and counterevidence"
+          },
+          "text": {
+            "zh": "這是模型及技術移轉層的政策變化，下游系統整合商需要重新盤點模型來源與部署路徑。若最終條文維持廣泛服務例外、許可也能快速處理，實際商業限制可能小於標題；若審查時間拉長，跨境專案交付才會承壓。",
+            "en": "This is a policy change at the model and technology-transfer layer, requiring integrators to map sourcing and deployment routes. Broad service exclusions and fast licensing could limit the business impact; slow approvals would put delivery schedules under pressure."
+          }
+        },
+        {
+          "label": {
             "zh": "值得注意",
             "en": "Watch next"
           },
@@ -60,6 +90,113 @@
         {
           "name": "Reuters",
           "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "takeaway": {
+        "zh": "這次最值得看的，是技術移轉與服務銷售被分開管理。企業即使使用同一個模型，選擇取得技術、海外自行部署或透過 API 調用，面對的許可、成本與控制權也可能不同。",
+        "en": "The important distinction is between transferring technology and selling access. The same model can entail different permissions, costs and control depending on whether customers acquire technology, deploy abroad or use an API."
+      },
+      "depth": "lead"
+    },
+    {
+      "id": 10,
+      "category": "tech",
+      "pick": true,
+      "topic": "enterprise-software-competition",
+      "depth": "lead",
+      "title": {
+        "zh": "英國擬將微軟商用軟體列為戰略市場地位，聚焦 AI 選擇與綑綁",
+        "en": "UK proposes strategic market status for Microsoft business software, focusing on AI choice and bundling"
+      },
+      "summary": {
+        "zh": "英國 CMA 10 月 16 日公布對微軟商用軟體生態系的戰略市場地位認定提案，並提出後續調查路線。認定尚未定案，也不代表已認定違法；諮詢至 11 月 13 日，法定決定期限為 2027 年 2 月 13 日。",
+        "en": "The UK CMA proposed strategic market status for Microsoft’s business software ecosystem on October 16 and published a roadmap. Designation is pending and does not establish wrongdoing. Consultation closes November 13; the statutory decision deadline is February 13, 2027."
+      },
+      "metric": "2026-11-13",
+      "metricLabel": {
+        "zh": "認定提案諮詢截止日",
+        "en": "Designation consultation deadline"
+      },
+      "takeaway": {
+        "zh": "這場競爭不只發生在 AI 模型之間，也發生在使用者每天開啟的工作入口。當 AI 隨辦公套件、身分與資料一起被採購，新創即使功能更好，也需要能被找到、接得進去、換得出來。",
+        "en": "AI competition also takes place at the workplace entry point. When AI is bought with office software, identity and data, a better standalone tool still needs discoverability, integration and a credible switching path."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "發生什麼",
+            "en": "What happened"
+          },
+          "text": {
+            "zh": "CMA 的調查涵蓋個人電腦作業系統、生產力套件、資安、伺服器作業系統與關聯式資料庫五個領域。後續關注包括雲端授權、套件內 AI、通訊協作與資安軟體；具體干預措施仍須蒐證與另行諮詢。",
+            "en": "The review spans PC operating systems, productivity suites, security, server operating systems and relational databases. Further work concerns cloud licensing, productivity AI, communications and security; any remedies require evidence and further consultation."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業模式：套件如何影響選擇",
+            "en": "Business model: how suites shape choice"
+          },
+          "text": {
+            "zh": "分析上，訂閱套件把多種工作需求放在同一採購關係內，能降低管理成本，也可能提高更換部分服務的難度。競爭者的比較因此要包括總授權費、整合成本與資料可攜性，不能只比單一 AI 回答品質。",
+            "en": "Analysis: subscription suites consolidate purchasing and administration but may make replacing individual services harder. Comparisons should include total licensing, integration and portability, not just the quality of one AI response."
+          }
+        },
+        {
+          "label": {
+            "zh": "競爭者、替代品與互補者",
+            "en": "Competitors, substitutes and complements"
+          },
+          "text": {
+            "zh": "比較時可分三層：同類辦公套件競爭者、採用不同工具組合的替代方案，以及協助導入的整合商與資安供應商。若介面與授權更容易互通，後兩者可能有更多服務空間；這是條件式分析，尚無營收結果可證明。",
+            "en": "Compare competing office suites, alternative combinations of tools, and complementary integrators or security providers. More interoperable interfaces and licensing could expand complementary services, but that is a conditional hypothesis, not an established revenue effect."
+          }
+        },
+        {
+          "label": {
+            "zh": "反方與限制",
+            "en": "Response and limits"
+          },
+          "text": {
+            "zh": "Reuters 引述微軟表示，不同意 CMA 的看法，並主張產品包括 Copilot 都具開放與互通性。CMA 的路線圖也強調，SMS 提案不預設違法；商用軟體認定與另一路雲端市場處理，需分開看。",
+            "en": "Microsoft told Reuters it disagreed and said its products, including Copilot, are open and interoperable. CMA says designation does not presume wrongdoing. Business-software designation and separate cloud-sector engagement must be distinguished."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "觀察最終認定、API 與整合條件、授權或綑綁措施是否改變，以及客戶實際更換成本。若只有標籤改變、介面與合約沒有改變，競爭格局未必隨之轉動。",
+            "en": "Watch the final designation, interfaces, integration conditions, licensing or bundling changes, and actual switching costs. A new label alone need not change competition."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "CMA · 官方公告",
+          "url": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
+          "type": "First-hand"
+        },
+        {
+          "name": "CMA · 案件與時程",
+          "url": "https://www.gov.uk/cma-cases/microsofts-business-software-ecosystem",
+          "type": "First-hand"
+        },
+        {
+          "name": "CMA · 干預路線圖",
+          "url": "https://assets.publishing.service.gov.uk/media/6ad1d1e7a89985bb97026787/Roadmap_of_possible_interventions.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": "Reuters · 微軟回應",
+          "url": "https://www.reuters.com/legal/litigation/uk-competition-regulator-targets-microsofts-business-software-grip-2026-10-16/",
           "type": "Second-hand"
         }
       ],
@@ -99,6 +236,36 @@
         },
         {
           "label": {
+            "zh": "背景：兩類事件，兩種責任",
+            "en": "Context: two incident types, two responsibilities"
+          },
+          "text": {
+            "zh": "通報分開描述研究測試越權與犯罪者主動入侵。前者要追問測試環境為何能接觸外部正式系統，後者要追問企業暴露的權限與憑證為何沒有被偵測、收回；目前沒有證據可把所有事件歸到同一模型或同一個攻擊者。",
+            "en": "The advisory separates evaluation overruns from intentional criminal intrusions. The first raises questions about test isolation; the second about exposed access and detection. The evidence does not assign all incidents to one model or attacker."
+          }
+        },
+        {
+          "label": {
+            "zh": "從模型能力到交付品質",
+            "en": "From model capability to delivery quality"
+          },
+          "text": {
+            "zh": "分析上，可把驗收拆成三層：任務答案是否正確、執行動作是否在授權內、出錯時是否可追查與復原。例如內部報表 Agent 即使算對數字，若讀取了未授權部門資料，仍未通過後兩層驗收。這是部署原則的例子，並非通報揭露的個案。",
+            "en": "Analysis: acceptance has three layers: correct output, authorized actions, and traceability and recovery. A reporting agent that calculates correctly but reads another department’s restricted data fails the latter tests. This is an illustrative deployment example, not a disclosed incident."
+          }
+        },
+        {
+          "label": {
+            "zh": "下一個驗證點",
+            "en": "Next evidence to seek"
+          },
+          "text": {
+            "zh": "供應商應能說明工具範圍、測試網路隔離、記錄保存與撤回權限的機制。若後續公開可重現的測試與鑑識資料，才能進一步比較不同控制方案；目前不依這份通報排名模型安全性。",
+            "en": "Providers should explain tool scope, test-network isolation, logs and access revocation. Reproducible testing and forensic evidence are needed to compare controls; the advisory cannot rank model safety."
+          }
+        },
+        {
+          "label": {
             "zh": "商業邏輯",
             "en": "Business logic"
           },
@@ -133,12 +300,186 @@
       "confidence": {
         "zh": "中",
         "en": "Medium"
+      },
+      "takeaway": {
+        "zh": "Agent 把既有弱點的利用速度提高，也讓「任務完成」與「在授權內完成」成為兩個驗收問題。企業部署時，需要把工具權限、資料範圍與停止條件一起納入驗收。",
+        "en": "Agents make conventional weaknesses faster to exploit. Completing a task and staying within authorization are separate acceptance criteria; tool permissions, data boundaries and stop conditions belong in deployment reviews."
+      },
+      "depth": "lead"
+    },
+    {
+      "id": 4,
+      "category": "taiwan",
+      "pick": true,
+      "topic": "taiwan-overseas-supply-chain",
+      "title": {
+        "zh": "經濟部說明赴美園區由業者籌資，每座估 20 億至 40 億美元",
+        "en": "Taiwan says planned U.S. parks would be privately funded at an estimated $2–4 billion each"
+      },
+      "summary": {
+        "zh": "經濟部 10 月 16 日向中央社說明，將與電電公會推動海外產業園區，採業者出資、政府協助模式。龔明鑫專訪提及由德州起步、規劃不只一座；單一園區 20 億至 40 億美元是估算，土地取得細節尚未對外確認。",
+        "en": "Taiwan’s economics ministry told CNA on October 16 that it would work with TEEMA on privately funded overseas industrial parks. Minister Kung Ming-hsin described starting in Texas; the estimated $2–4 billion per park is a plan, with land details unconfirmed."
+      },
+      "metric": "US$2–4B",
+      "metricLabel": {
+        "zh": "每座園區的規劃估算",
+        "en": "Planning estimate per park"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "大型晶片與伺服器廠赴美後，仍需要基板、散熱與其他中小型供應商。園區共用基礎設施與在地服務可能分攤進入成本，但實際優勢須由租用率、物流成本與客戶訂單驗證。",
+            "en": "Chip and server plants need substrate, cooling and other smaller suppliers. Shared infrastructure could spread entry costs; occupancy, logistics costs and customer orders must validate the advantage."
+          }
+        },
+        {
+          "label": {
+            "zh": "供應鏈位置",
+            "en": "Where it sits in the value chain"
+          },
+          "text": {
+            "zh": "零組件與材料供應商位於晶片製造、伺服器組裝之前，最終需求則來自雲端與企業客戶。分析上，共用園區可能降低個別廠商的行政與設施負擔，但客戶認證、良率、當地用工與交期仍須各自完成；入住園區不等於取得訂單。",
+            "en": "Component and materials suppliers sit upstream of chipmaking and server assembly, with demand ultimately coming from cloud and enterprise buyers. Shared parks may reduce administrative and facility burdens, but qualification, yields, staffing and delivery still depend on each supplier; tenancy does not secure orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "這個數字是誰說的？",
+            "en": "Who owns the number?"
+          },
+          "text": {
+            "zh": "金額來自部長專訪與經濟部對媒體說明，尚未取得完整融資、預算或土地契約文件。不能當成政府已編列支出，或業者已全數承諾的資本。",
+            "en": "The estimate comes from the minister and ministry statements reported by media. Full financing, budget and land documents were unavailable; it is neither appropriated government spending nor fully committed capital."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤開發主體、融資結構、用地、入駐名單與動工日期；美方對貿易投資關係的回應，尚不足以證明特定園區已獲核准。",
+            "en": "Watch the developer, funding structure, land, tenants and groundbreaking. U.S. comments on bilateral investment do not establish approval of a particular park."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "中央社 · 經濟部說明",
+          "url": "https://www.cna.com.tw/news/afe/202610160128.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": "公視 · 經濟部及電電公會回應",
+          "url": "https://news.pts.org.tw/article/831750",
+          "type": "Second-hand"
+        },
+        {
+          "name": "中央社 · 美國國務院回應",
+          "url": "https://www.cna.com.tw/news/aipl/202610170009.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "takeaway": {
+        "zh": "大型客戶在美國蓋廠，只完成供應鏈在地化的一部分。對中小供應商，關鍵是園區能否提供穩定訂單、共用設施與可負擔的資金，而不只是一塊海外土地。",
+        "en": "An anchor customer’s U.S. plant is only part of localization. Smaller suppliers need durable orders, shared infrastructure and affordable financing, not simply an overseas plot."
+      },
+      "depth": "standard"
+    },
+    {
+      "id": 11,
+      "category": "taiwan",
+      "pick": true,
+      "topic": "taiwan-growth-outlook",
+      "depth": "standard",
+      "title": {
+        "zh": "中經院上修台灣全年成長預測至 12.16%，需分開看實績與展望",
+        "en": "CIER raises Taiwan’s full-year growth forecast to 12.16%; distinguish results from projections"
+      },
+      "summary": {
+        "zh": "中經院 10 月 16 日公布第四季預測，把 2026 年經濟成長率由 7 月的 10.35% 上修至 12.16%，提高 1.81 個百分點。預估內需貢獻 6.63 個百分點、國外淨需求貢獻 5.53 個百分點；全年數字仍是預測。",
+        "en": "CIER’s October 16 forecast raised 2026 growth from July’s 10.35% to 12.16%, an increase of 1.81 percentage points. Domestic demand is projected to contribute 6.63 points and net external demand 5.53; the full-year figure remains a forecast."
+      },
+      "metric": "12.16%",
+      "metricLabel": {
+        "zh": "中經院 2026 年全年 GDP 成長預測",
+        "en": "CIER 2026 full-year GDP growth forecast"
+      },
+      "takeaway": {
+        "zh": "這份預測的重點是 AI 硬體需求如何傳到投資與消費。分析時仍要分清：少數出口產業的強勁成長、整體 GDP，以及每個人的收入感受，三者不會等比例變動。",
+        "en": "The forecast connects AI hardware demand to investment and consumption. Export-industry growth, aggregate GDP and household income experiences need not move proportionately."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "10.35% 與 12.16% 是同一年度在不同時間的預測，差額為 1.81 個百分點。第四季預估年增 8.20%，面對去年同期高基期；增速放緩本身不代表當季產出縮減。",
+            "en": "The two figures are different vintages of the same-year forecast, separated by 1.81 percentage points. Fourth-quarter growth is projected at 8.20% against a high prior-year base; slower growth does not itself mean output contracts."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業邏輯",
+            "en": "Business logic"
+          },
+          "text": {
+            "zh": "中經院把 AI 需求、企業擴產與國內投資列為動能。分析上，設備、工程與在地服務可能透過資本支出受益；但收益分布仍取決於訂單、薪資、進口投入與利潤留存，不能直接由總量推定。",
+            "en": "CIER identifies AI demand, capacity expansion and investment as drivers. Analysis: equipment, construction and local services may benefit through capex, but distribution depends on orders, wages, imports and retained profits."
+          }
+        },
+        {
+          "label": {
+            "zh": "值得注意",
+            "en": "Watch next"
+          },
+          "text": {
+            "zh": "追蹤主計總處後續 GDP 實績、民間投資與消費是否符合假設，以及主要雲端客戶資本支出。中經院亦列出融資、地緣政治與 AI 資安等不確定性；預測不能替代已公布統計。",
+            "en": "Watch official GDP releases, private investment, consumption and hyperscaler capex. CIER flags financing, geopolitics and AI security uncertainties; projections do not replace published outcomes."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "中經院 · 第四季預測原文",
+          "url": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC4%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
+          "type": "First-hand"
+        },
+        {
+          "name": "中經院 · 預測新聞稿 PDF",
+          "url": "https://www.cier.edu.tw/wp-content/uploads/2026/10/2026Q4_NEWS.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": "中經院 · 7 月預測基準",
+          "url": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
+          "type": "First-hand"
+        },
+        {
+          "name": "中央社 · Focus Taiwan",
+          "url": "https://focustaiwan.tw/business/202610160008",
+          "type": "Second-hand"
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
       }
     },
     {
       "id": 3,
       "category": "global",
-      "pick": true,
+      "pick": false,
       "topic": "indonesia-market-governance",
       "title": {
         "zh": "MSCI 提議將印尼改列獨立市場，決策期限在 2027 年 6 月",
@@ -190,84 +531,17 @@
       "confidence": {
         "zh": "高",
         "en": "High"
-      }
-    },
-    {
-      "id": 4,
-      "category": "taiwan",
-      "pick": true,
-      "topic": "taiwan-overseas-supply-chain",
-      "title": {
-        "zh": "經濟部說明赴美園區由業者籌資，每座估 20 億至 40 億美元",
-        "en": "Taiwan says planned U.S. parks would be privately funded at an estimated $2–4 billion each"
       },
-      "summary": {
-        "zh": "經濟部 10 月 16 日向中央社說明，將與電電公會推動海外產業園區，採業者出資、政府協助模式。龔明鑫專訪提及由德州起步、規劃不只一座；單一園區 20 億至 40 億美元是估算，土地取得細節尚未對外確認。",
-        "en": "Taiwan’s economics ministry told CNA on October 16 that it would work with TEEMA on privately funded overseas industrial parks. Minister Kung Ming-hsin described starting in Texas; the estimated $2–4 billion per park is a plan, with land details unconfirmed."
+      "takeaway": {
+        "zh": "市場分類本身就是資金流的基礎設施。即使企業營運沒有同步惡化，持股透明度與交易治理不足，也可能使追蹤指數的資金減少；這與獲利好壞是不同層次的風險。",
+        "en": "Market classification is capital-flow infrastructure. Weak ownership transparency and trading governance can reduce benchmark-linked demand without equivalent deterioration in company operations. Governance and profitability are different risks."
       },
-      "metric": "US$2–4B",
-      "metricLabel": {
-        "zh": "每座園區的規劃估算",
-        "en": "Planning estimate per park"
-      },
-      "sections": [
-        {
-          "label": {
-            "zh": "商業邏輯",
-            "en": "Business logic"
-          },
-          "text": {
-            "zh": "大型晶片與伺服器廠赴美後，仍需要基板、散熱與其他中小型供應商。園區共用基礎設施與在地服務可能分攤進入成本，但實際優勢須由租用率、物流成本與客戶訂單驗證。",
-            "en": "Chip and server plants need substrate, cooling and other smaller suppliers. Shared infrastructure could spread entry costs; occupancy, logistics costs and customer orders must validate the advantage."
-          }
-        },
-        {
-          "label": {
-            "zh": "這個數字是誰說的？",
-            "en": "Who owns the number?"
-          },
-          "text": {
-            "zh": "金額來自部長專訪與經濟部對媒體說明，尚未取得完整融資、預算或土地契約文件。不能當成政府已編列支出，或業者已全數承諾的資本。",
-            "en": "The estimate comes from the minister and ministry statements reported by media. Full financing, budget and land documents were unavailable; it is neither appropriated government spending nor fully committed capital."
-          }
-        },
-        {
-          "label": {
-            "zh": "值得注意",
-            "en": "Watch next"
-          },
-          "text": {
-            "zh": "追蹤開發主體、融資結構、用地、入駐名單與動工日期；美方對貿易投資關係的回應，尚不足以證明特定園區已獲核准。",
-            "en": "Watch the developer, funding structure, land, tenants and groundbreaking. U.S. comments on bilateral investment do not establish approval of a particular park."
-          }
-        }
-      ],
-      "sources": [
-        {
-          "name": "中央社 · 經濟部說明",
-          "url": "https://www.cna.com.tw/news/afe/202610160128.aspx",
-          "type": "Second-hand"
-        },
-        {
-          "name": "公視 · 經濟部及電電公會回應",
-          "url": "https://news.pts.org.tw/article/831750",
-          "type": "Second-hand"
-        },
-        {
-          "name": "中央社 · 美國國務院回應",
-          "url": "https://www.cna.com.tw/news/aipl/202610170009.aspx",
-          "type": "Second-hand"
-        }
-      ],
-      "confidence": {
-        "zh": "中",
-        "en": "Medium"
-      }
+      "depth": "standard"
     },
     {
       "id": 5,
       "category": "tech",
-      "pick": true,
+      "pick": false,
       "topic": "ai-financial-governance",
       "title": {
         "zh": "G7 將辦 AI 資安桌上演練，FSB 完成 12 項治理實務",
@@ -334,7 +608,12 @@
       "confidence": {
         "zh": "高",
         "en": "High"
-      }
+      },
+      "takeaway": {
+        "zh": "金融業的 AI 採用正增加一項交付標準：出事時能否停下、追查、復原。這會讓監督與稽核能力成為供應商競爭的一部分，實際效果仍要看演練結果。",
+        "en": "Financial AI adoption adds an operational test: can it be stopped, investigated and recovered? Oversight and auditability become vendor capabilities, with effectiveness still to be tested."
+      },
+      "depth": "standard"
     },
     {
       "id": 6,
@@ -401,7 +680,12 @@
       "confidence": {
         "zh": "高",
         "en": "High"
-      }
+      },
+      "takeaway": {
+        "zh": "算力租約把模型公司的需求，轉成能源開發商可以規劃投資的收入基礎。但簽約、融資與上線是三個里程碑，任何一段延誤，都可能改變每單位算力的成本。",
+        "en": "Compute leases turn model demand into a revenue base for infrastructure planning. Signing, financing and commissioning are separate milestones; delays can change unit compute costs."
+      },
+      "depth": "standard"
     },
     {
       "id": 7,
@@ -463,7 +747,12 @@
       "confidence": {
         "zh": "高",
         "en": "High"
-      }
+      },
+      "takeaway": {
+        "zh": "把總產出拆開，才看得到製造業的溫度。公用事業增產拉高總指數，汽車產出卻下降；單一總數不適合替所有供應商推定訂單前景。",
+        "en": "Disaggregation reveals the manufacturing picture. Utilities lifted overall output while autos declined; the headline cannot determine every supplier’s order outlook."
+      },
+      "depth": "standard"
     },
     {
       "id": 8,
@@ -525,7 +814,12 @@
       "confidence": {
         "zh": "中",
         "en": "Medium"
-      }
+      },
+      "takeaway": {
+        "zh": "接受外援改變的是可動用的救災資源，並不直接等於火勢或霧霾已改善。對居民與旅客，當地空品、航班及實際部署，比全國性的單一災情標籤更有用。",
+        "en": "Aid approval expands available resources without establishing containment or cleaner air. Local air quality, flights and actual deployment matter more than a single nationwide label."
+      },
+      "depth": "standard"
     },
     {
       "id": 9,
@@ -592,10 +886,26 @@
       "confidence": {
         "zh": "高",
         "en": "High"
-      }
+      },
+      "takeaway": {
+        "zh": "AI 對外包商同時可能是效率工具與價格壓力。這次營收、利潤率與新合約一起改善，值得注意；仍需追蹤合約轉成現金，以及客戶是否要求分享效率收益。",
+        "en": "For outsourcers, AI can improve efficiency and pressure prices. Revenue, margin and bookings improved together, but contract-to-cash conversion and customer demands for efficiency savings remain key tests."
+      },
+      "depth": "standard"
     }
   ],
   "deep": [
+    {
+      "id": 10,
+      "question": {
+        "zh": "AI 的競爭，為何也取決於工作入口？",
+        "en": "Why does AI competition depend on the workplace entry point?"
+      },
+      "text": {
+        "zh": "從套件訂閱、資料、整合介面到切換成本，理解新創與平台競爭時真正需要跨越的門檻。",
+        "en": "Trace subscriptions, data, interfaces and switching costs to understand the hurdles facing challengers."
+      }
+    },
     {
       "id": 1,
       "question": {
@@ -617,17 +927,6 @@
         "zh": "官方通報把暴露憑證、過寬權限與偵測失敗串起來，可直接用來檢視企業 Agent 的測試與上線流程。",
         "en": "The advisory connects exposed credentials, excessive permissions and detection gaps, offering concrete checks for agent testing and deployment."
       }
-    },
-    {
-      "id": 4,
-      "question": {
-        "zh": "海外園區能替中小供應商分攤哪些成本？",
-        "en": "Which costs can overseas parks share for smaller suppliers?"
-      },
-      "text": {
-        "zh": "把大型客戶、零組件供應商、土地、融資與公共設施一起看，才能判斷供應鏈在地化的可行性。",
-        "en": "Map anchor customers, suppliers, land, financing and utilities to assess whether supply-chain localization is viable."
-      }
     }
   ],
   "context": [
@@ -639,6 +938,16 @@
       "text": {
         "zh": "中國出口登記、印度 Agent 通報、G7 演練與 MSCI 分類雖屬不同制度，都要求可證明的控制與透明度。這是制度性變化的訊號；實際成本仍須看最終規則、執行與交易結果，不能直接推論所有產業成本同步上升。",
         "en": "China’s registration regime, India’s agent advisory, G7 drills and MSCI classification all demand demonstrable controls or transparency. These signal institutional change, but final rules, enforcement and transactions must establish actual costs; a universal cost increase does not follow."
+      }
+    },
+    {
+      "title": {
+        "zh": "AI 需求、交付與變現是三種檢驗",
+        "en": "Demand, delivery and monetization are separate tests"
+      },
+      "text": {
+        "zh": "中經院預測與算力租約描述需求，台灣園區與 EverWind 建設描述交付，Tech Mahindra 財報則提供變現證據。三者的時程、會計口徑與資金需求不同；只有後續訂單、上線與現金流都接得上，才能支持更完整的成長判斷。",
+        "en": "CIER forecasts and compute leases describe demand; industrial parks and EverWind describe delivery; Tech Mahindra results provide monetization evidence. Timelines, accounting and financing differ. Orders, commissioning and cash flow must align before supporting a broader growth conclusion."
       }
     }
   ],
@@ -662,7 +971,44 @@
     }
   ],
   "verificationNote": {
-    "zh": "本期以 10 月 16 日事件為主，補入 10 月 15 日晚間財報與通報，資料查核至台北時間 10 月 17 日上午。中國最終出口清單仍在諮詢，但臨時登記已啟動；MSCI 尚未正式改列印尼。CERT-In 事件未公布完整鑑識紀錄。台灣園區金額為官員規劃估算，未取得完整融資及土地文件；印尼外援與傷亡依具名官員報導，未取得部署命令。EverWind 容量、成本及時程為公司計畫，租約金額未公開。G.17 為初值並可能修訂；引用連結為聯準會當期頁，讀取時須確認發布日為 2026 年 10 月 16 日。",
-    "en": "Coverage mainly concerns October 16, with late-October-15 results and advisories, checked through the morning of October 17 in Taipei. China’s final export list and MSCI’s Indonesia classification remain proposals; interim Chinese registration has begun. CERT-In has not released full forensic logs. Taiwan park costs are official planning estimates without full financing or land documents. Indonesian aid and casualties rely on named official accounts; deployment orders were unavailable. EverWind capacity, cost and timing are plans; lease value is undisclosed. G.17 estimates are preliminary and revisable; its current-release link should be checked for the October 16, 2026 publication date."
-  }
+    "zh": "本期以 10 月 16 日事件為主，補入 10 月 15 日晚間財報與通報，資料查核至台北時間 10 月 17 日上午。中國最終出口清單仍在諮詢，但臨時登記已啟動；MSCI 尚未正式改列印尼。CERT-In 事件未公布完整鑑識紀錄。台灣園區金額為官員規劃估算，未取得完整融資及土地文件；印尼外援與傷亡依具名官員報導，未取得部署命令。EverWind 容量、成本及時程為公司計畫，租約金額未公開。G.17 為初值並可能修訂；引用連結為聯準會當期頁，讀取時須確認發布日為 2026 年 10 月 16 日。 本次增補 CMA 認定提案與中經院預測，並擴充背景及編輯解讀。SMS 尚未生效，也未認定違法；中經院全年成長率是預測。編輯解讀與情境例子均為分析，不當成新事件。",
+    "en": "Coverage mainly concerns October 16, with late-October-15 results and advisories, checked through the morning of October 17 in Taipei. China’s final export list and MSCI’s Indonesia classification remain proposals; interim Chinese registration has begun. CERT-In has not released full forensic logs. Taiwan park costs are official planning estimates without full financing or land documents. Indonesian aid and casualties rely on named official accounts; deployment orders were unavailable. EverWind capacity, cost and timing are plans; lease value is undisclosed. G.17 estimates are preliminary and revisable; its current-release link should be checked for the October 16, 2026 publication date. This update adds the CMA proposal and CIER forecast, with expanded context and editorial analysis. SMS is pending and does not establish wrongdoing; CIER full-year growth is projected. Editorial interpretations and illustrative scenarios are analysis, not new reported events."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "中國 AI 出口規則分兩階段：最終清單待定，相關技術臨時登記已啟動。",
+        "en": "China’s AI export rules have two stages: final controls are proposed, while interim registration has begun."
+      }
+    },
+    {
+      "id": 10,
+      "text": {
+        "zh": "英國擬加強微軟商用軟體監理，AI 選擇、綑綁與互通性成焦點。",
+        "en": "The UK proposes stronger oversight of Microsoft business software, focusing on AI choice, bundling and interoperability."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "印度通報 Agent 越權讀取資料，企業驗收要同時看答案與執行權限。",
+        "en": "India reports unauthorized agent access; acceptance needs to test both answers and permissions."
+      }
+    },
+    {
+      "id": 11,
+      "text": {
+        "zh": "中經院上修今年 GDP 成長預測至 12.16%，較 7 月提高 1.81 個百分點。",
+        "en": "CIER raises its 2026 GDP growth forecast to 12.16%, up 1.81 percentage points from July."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "台灣赴美園區擬由業者籌資，每座估 20 億至 40 億美元，土地與融資待確認。",
+        "en": "Taiwan’s planned U.S. parks would use private funding, estimated at $2–4 billion each; land and financing remain unconfirmed."
+      }
+    }
+  ]
 }

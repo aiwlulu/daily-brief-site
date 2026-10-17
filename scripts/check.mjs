@@ -27,6 +27,8 @@ for(const item of [...data.context,...data.lower,...data.memo.items]){bilingual(
 for(const item of data.deep){bilingual(item.question);bilingual(item.text);}
 assert.equal(new Set(data.stories.map(s=>s.id)).size,data.stories.length);
 for(const story of data.stories){
+  if(story.takeaway)bilingual(story.takeaway);
+  if(story.depth)assert.ok(['lead','standard'].includes(story.depth));
   assert.ok(['tech','taiwan','global'].includes(story.category));
   for(const key of ['title','summary','metricLabel','confidence'])for(const lang of ['zh','en'])assert.ok(story[key][lang]);
   assert.ok(Number.isInteger(story.id));
@@ -38,6 +40,11 @@ for(const story of data.stories){
   story.sources.forEach(s=>assert.equal(new URL(s.url).protocol,'https:'));
 }
 for(const item of data.deep)assert.ok(data.stories.some(s=>s.id===item.id));
+if(data.brief){
+ assert.ok(data.brief.length>=3&&data.brief.length<=5);
+ assert.equal(new Set(data.brief.map(item=>item.id)).size,data.brief.length);
+ for(const item of data.brief){bilingual(item.text);assert.ok(data.stories.some(s=>s.id===item.id),'Missing brief story');}
+}
 }
 for(const [weekStart,weekPath] of Object.entries(manifest.weeks||{})){
  assert.ok(validDate(weekStart));assert.equal(periodRange(weekStart,'week').start,weekStart);
@@ -59,3 +66,4 @@ const app = fs.readFileSync(new URL('../docs/app.js',import.meta.url),'utf8');
 for(const match of app.matchAll(/el\('([^']+)'\)/g))assert.ok(html.includes('id="'+match[1]+'"'),'Missing element '+match[1]);
 assert.ok(!app.includes('innerHTML'));
 console.log('PASS: edition manifest, bilingual stories, source URLs, deep links and UI targets.');
+

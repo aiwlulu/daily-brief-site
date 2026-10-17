@@ -73,8 +73,8 @@
         "en": "AI commercialization, cyber incidents and export governance advance together"
       },
       "summary": {
-        "zh": "企業 Agent、內容授權與資安整併持續商用化，OpenAI 訴訟、印度越權存取通報及 G7 演練則提高責任要求。中國新增出口清單仍在諮詢，但臨時登記已啟動；案件指控與未公開事件仍需分別驗證。",
-        "en": "Enterprise agents, licensing and security consolidation advance alongside OpenAI litigation, India’s unauthorized-access advisory and G7 drills. China’s new export list remains proposed while interim registration has begun; allegations and undisclosed incidents require separate verification."
+        "zh": "企業 Agent 與內容授權加速商用，印度越權存取通報、G7 演練、微軟英國競爭審查及中國出口登記，則把安全與市場進入條件帶進產品設計。中國最終清單與微軟 SMS 仍未定案，OpenAI 訴訟指控亦待法院檢驗。",
+        "en": "Enterprise agents and licensing advance alongside India’s access advisory, G7 drills, UK scrutiny of Microsoft and Chinese export registration. Safety and market access affect product design, but final Chinese controls and Microsoft SMS are pending, while OpenAI allegations remain before courts."
       },
       "references": [
         {
@@ -120,6 +120,10 @@
         {
           "date": "2026-10-17",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 10
         }
       ]
     },
@@ -241,8 +245,8 @@
         "en": "Taiwan’s external links span diplomacy, energy and semiconductor labor conditions"
       },
       "summary": {
-        "zh": "外交制裁、台歐合作、離岸風電、美光擴產與赴美園區計畫，顯示台灣產業連結延伸到能源、勞動與在地化。園區由業者籌資的規劃仍待土地與融資文件，擴產成果需由產能爬坡與勞資協商驗證。",
-        "en": "Diplomatic sanctions, Taiwan-Europe ties, offshore wind, Micron expansion and planned U.S. parks connect industry to energy, labor and localization. Privately funded park plans still need land and financing documentation; capacity ramps and labor negotiations will test expansion outcomes."
+        "zh": "台灣 AI 供應鏈同時擴大產能與海外連結，中經院也把今年成長預測提高至 12.16%。赴美園區的融資與土地、擴產的勞資條件，以及投資與消費能否實現，將驗證預測中的成長路徑。",
+        "en": "Taiwan’s AI supply chain expands capacity and overseas links, while CIER raises its growth forecast to 12.16%. Park financing and land, expansion-related labor conditions, and realized investment and consumption will test the projected growth path."
       },
       "references": [
         {
@@ -268,6 +272,10 @@
         {
           "date": "2026-10-17",
           "storyId": 4
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 11
         }
       ]
     }

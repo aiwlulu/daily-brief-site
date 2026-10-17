@@ -83,13 +83,14 @@ function renderPeriod() {
   }
   document.querySelector('.sources').hidden=period==='week'||!selectedEditions.length;
   document.querySelector('.lead').hidden=period==='week'||!selectedEditions.length;
+  document.querySelector('.quick-brief').hidden=period==='week'||!data.stories.length;
   document.querySelector('.deep').hidden=period==='week'||!data.deep.length;
   document.querySelector('.context').hidden=period==='week'||!data.context.length;
   document.querySelector('.memo').hidden=period==='week'||!data.memo.items.length;
   document.querySelector('.lower').hidden=period==='week'||!data.lower.length;
 }
 
-const openStories = new Set();
+const openStories = new Set(), closedStories = new Set();
 const words = {
   zh: {all:'全部',tech:'科技與商業',taiwan:'台灣與政策',global:'全球與能源',pick:'深讀推薦',detail:'分析',confidence:'判斷信心',sources:'新聞來源',count:n => n+' 則新聞',empty:'找不到符合條件的新聞。'},
   en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Analysis',confidence:'Confidence',sources:'Sources',count:n => n+' stories',empty:'No stories match your search.'}
@@ -131,11 +132,29 @@ function renderStories() {
     const published=node('time',s.editionDate.slice(5).replace('-','/'));published.dateTime=s.editionDate;published.setAttribute('aria-label',s.editionDate);meta.append(node('span', words[lang][s.category]),published);
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
     content.append(meta, node('h3', t(s.title)), node('p', t(s.summary), 'summary-text'));
+    const sources = node('div',undefined,'source-links story-sources');
+    sources.setAttribute('aria-label',(lang==='zh'?'相關連結：':'Related sources: ')+t(s.title));
+    sources.append(node('span',lang==='zh'?'相關連結':'Sources','source-label'));
+    s.sources.forEach(source=>{
+      const a=link(source);
+      const labels=lang==='zh'?{'First-hand':'一手','Second-hand':'報導','Source-limited':'來源有限'}:{'First-hand':'Primary','Second-hand':'Reporting','Source-limited':'Limited'};
+      a.append(node('small',labels[source.type]||source.type,'source-kind'));
+      sources.append(a);
+    });
+    content.append(sources);
+    if(s.takeaway){
+      const note=node('aside',undefined,'editor-note');
+      note.append(node('span',lang==='zh'?'編輯解讀':'EDITOR’S LENS','eyebrow'),node('p',t(s.takeaway)));
+      content.append(note);
+    }
     const details = node('details');
-    details.open = openStories.has(s.id);
-    details.addEventListener('toggle', () => {if(details.isConnected) details.open ? openStories.add(s.id) : openStories.delete(s.id);});
-    const toggle=node('summary',words[lang].detail);toggle.append(icon('plus'));details.append(toggle);
+    details.open = openStories.has(s.id)||(s.depth==='lead'&&!closedStories.has(s.id));
+    details.addEventListener('toggle', () => {if(details.isConnected){if(details.open){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}}});
+    const toggle=node('summary',lang==='zh'?'背景、商業邏輯與待查':'Context, economics & what to watch');toggle.append(icon('plus'));details.append(toggle);
     const body = node('div', undefined, 'story-body');
+    const metric=node('div',undefined,'metric');
+    const metricText=s.editionDate==='2026-10-13'&&s.sourceId===11&&lang==='en'?'10M':s.metric;
+    metric.append(node('strong',metricText),node('small',t(s.metricLabel)));body.append(metric);
     if(s.table){
       const table = node('table');
       const caption = node('caption',lang === 'zh' ? '財務數據' : 'Financial data');
@@ -156,14 +175,8 @@ function renderStories() {
       body.append(n);
     });
     body.append(node('p',words[lang].confidence+'：'+t(s.confidence),'confidence'));
-    const sources = node('div',undefined,'source-links');
-    sources.setAttribute('aria-label',words[lang].sources);
-    s.sources.forEach(source=>sources.append(link(source)));
-    body.append(sources); details.append(body); content.append(details);
-    const metric = node('aside', undefined, 'metric');
-    const metricText = s.editionDate === '2026-10-13' && s.sourceId === 11 && lang === 'en' ? '10M' : s.metric;
-    metric.append(node('strong',metricText),node('small',t(s.metricLabel)));
-    article.append(content,metric); list.append(article);
+    details.append(body); content.append(details);
+    article.append(content); list.append(article);
   }
   [...el('filters').children].forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter === filter)));
 }
@@ -191,16 +204,29 @@ function textSection(target, items) {
     target.append(n);
   });
 }
+function renderBrief(){
+  const list=el('brief-list');list.replaceChildren();
+  const edition=selectedEditions[0];
+  const chosen=edition?.brief?.length?edition.brief: (edition?.stories||[]).filter(s=>s.pick).slice(0,5).map(s=>({id:s.id,text:s.title}));
+  for(const item of chosen){
+    const story=data.stories.find(s=>s.sourceId===item.id&&s.editionDate===edition.date);
+    if(!story)continue;
+    const li=node('li'),a=node('a');a.href='#story-'+story.id;
+    a.append(node('span',t(item.text)),icon('down'));
+    a.onclick=()=>{filter='all';query='';el('search').value='';renderStories();};
+    li.append(a);list.append(li);
+  }
+}
 function render() {
   document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
   const copy = lang === 'zh' ? {
     'brand-sub':'商業與科技日報',print:'列印',intro:'從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。',
-    start:'閱讀本期','story-total':'11 則重點新聞','deep-title':'本期深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞',
+    start:'閱讀本期','story-total':'11 則重點新聞','deep-title':'延伸深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞','brief-title':'30 秒 Brief','brief-sub':'先掌握今天的變化',
     'search-label':'搜尋','context-title':'產業脈絡','memo-title':'一頁分析備忘錄','lower-title':'降低權重的標題','sources-title':'來源與查證','back-top':'回到頁首',
     'source-note':'本期內容整理自提供的 2026 年 10 月 13 日日報，部分來源網址經重新檢索。原始財報、SPUR 技術標準及部分低權重新聞連結尚未找回，文中已註明。信心程度沿用原日報，並不表示本頁已完成全面獨立查證。'
   } : {
     'brand-sub':'BUSINESS & TECHNOLOGY',print:'Print',intro:'From AI chips to energy supply. Read the events, the economics and the changes to watch.',
-    start:'Read this edition','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories',
+    start:'Read this edition','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories','brief-title':'30-second Brief','brief-sub':'What changed today',
     'search-label':'Search','context-title':'Industry context','memo-title':'One-page analysis memo','lower-title':'Lower-priority headlines','sources-title':'Sources & verification','back-top':'Back to top',
     'source-note':'Adapted from the supplied October 13, 2026 brief. Some source URLs were recovered through search. Original earnings, SPUR standard and lower-priority article links remain incomplete, as noted. Confidence labels reflect the brief and do not establish a full independent fact-check.'
   };
@@ -209,7 +235,10 @@ function render() {
   if(period==='week'){
     el('headline').replaceChildren(node('span',lang==='zh'?'本週':'This week’s'),node('em',lang==='zh'?'關鍵精華。':' essentials.'));
     el('intro').textContent=weekly.throughline?t(weekly.throughline):(lang==='zh'?'快速回顧已收錄刊期的關鍵事件，完整細節可進入每日版閱讀。':'A concise selection from available editions. Open the daily edition for details.');
-  }else el('headline').replaceChildren(node('span',lang === 'zh'?'看見新聞背後的':'Read the news.'),node('br'),node('em',lang === 'zh'?'商業邏輯。':'See the economics.'));
+  }else {
+    el('headline').textContent=lang==='zh'?'今天，值得理解的事。':'Today, with perspective.';
+    el('intro').textContent=lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.';
+  }
   el('lang').textContent = lang === 'zh' ? 'EN' : '中';
   el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
   el('print').replaceChildren(icon('printer'));
@@ -250,6 +279,7 @@ function render() {
     el('source-list').append(n);
   });
   renderPeriod();
+  renderBrief();
   renderStories();
 }
 let beforePrint = [];
@@ -285,3 +315,4 @@ addEventListener('scroll',readingProgress,{passive:true});addEventListener('resi
 el('previous').replaceChildren(icon('left'));el('next').replaceChildren(icon('right'));el('clear-search').replaceChildren(icon('close'));document.querySelector('.calendar-glyph').append(icon('calendar'));
 
 el('search-icon').append(icon('search'));
+
