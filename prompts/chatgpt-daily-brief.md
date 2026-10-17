@@ -112,7 +112,7 @@ On Sundays, or whenever a story concerns an exhibition or conference, review the
 10. EXCEL DOWNLOADS
 Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires openpyxl; no other runtime). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:
 docs/exports/day-YYYY-MM-DD.xlsx, day-YYYY-MM-DD-en.xlsx, week-SUNDAY.xlsx, week-SUNDAY-en.xlsx
-and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has a single 重點 / Highlights sheet: a title row, then one row per story in website order (weekly: one row per theme) with the number, a bold headline and date, the one-sentence summary and a link to the story. The workbook content comes entirely from title, summary, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
+and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has a single 重點 / Highlights sheet: a title row, then one row per story in website order (weekly: one row per theme) with the number, a bold headline and date, and the one-sentence summary. The workbook content comes entirely from title, summary, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
 
 11. VALIDATE
 Run npm test (scripts/check.mjs, scripts/check-xlsx.py and unit tests). It checks bilingual fields, dates, unique ids, HTTPS sources, brief and deep references, weekly references, the calendar and Excel structure. Also self-check: every brief and deep id exists; leads have rich factual sections; each quantifiable story has metrics with consistent units; chain wording lands on the intended stage; no simplified characters; no AEIS mention; no internal progress notes.
@@ -139,7 +139,7 @@ If deployment is pending or failed, say so and link the Actions run; never imply
 
 ## 二、本次改版重點（2026-10-17）
 
-1. **Excel 只保留「重點」工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題加日期、下一行一句重點，C 欄連到網站該則。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
+1. **Excel 只保留「重點」工作表，並分中英文兩個版本**：A 欄編號，B 欄粗體標題加日期、下一行一句重點。主稿列以淺色底標示，不加說明列。英文介面下載英文版（`*-en.xlsx`）。
 2. **Excel 改由 `scripts/build-workbooks.py` 產生**：只需要 python3 與 openpyxl，不再依賴 Codex 的 `@oai/artifact-tool`。原本的市場動向、數值明細、摘要明細、欄位說明工作表已移除，細節改在網站查看。
 3. **網站預設英文**：讀者可切換中文，選擇會記在瀏覽器。內容仍維持中英雙語。
 4. **短網址**：單日檢視是預設，網址不再帶 `view=day`。`?date=YYYY-MM-DD#sN` 會直接跳到該日第 N 則，舊的 `#story-YYYY-MM-DD-N` 仍可使用。

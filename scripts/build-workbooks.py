@@ -16,11 +16,10 @@ from openpyxl.cell.rich_text import CellRichText, TextBlock
 from openpyxl.cell.text import InlineFont
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 
-SITE = 'https://aiwlulu.github.io/daily-brief-site/'
 # PingFang TC has real bold weights on macOS; fallback CJK fonts often do not.
 FONTS = {'zh': 'PingFang TC', 'en': 'Calibri'}
 INK, TEXT, MUTED, BRAND, LINE, LEAD = '14322B', '3B4A44', '7A8780', '1F6B56', 'E3E6DF', 'F4F7EE'
-WIDTH = {'A': 6, 'B': 88, 'C': 11}
+WIDTH = {'A': 6, 'B': 92}
 
 
 def week_start(date):
@@ -45,7 +44,7 @@ def ranked(edition):
 
 def lines(text, size, width):
     # Excel does not autofit wrapped rows on open, so estimate the height.
-    units = sum(2 if unicodedata.east_asian_width(c) in 'WF' else 0.95 for c in text)
+    units = sum(2 if unicodedata.east_asian_width(c) in 'WF' else 0.88 for c in text)
     return max(1, math.ceil(units * size / 11 / (width * 1.1)))
 
 
@@ -57,14 +56,14 @@ def sheet(wb, lang, title, entries):
     ws.sheet_view.zoomScale = 110
     for col, width in WIDTH.items():
         ws.column_dimensions[col].width = width
-    ws.merge_cells('A1:C1')
+    ws.merge_cells('A1:B1')
     head = ws['A1']
     head.value = title
     head.font = Font(name=font, size=18, bold=True, color=INK)
     head.alignment = Alignment(vertical='center')
     ws.row_dimensions[1].height = 40
     ws.row_dimensions[2].height = 6
-    for col in 'ABC':
+    for col in 'AB':
         ws[f'{col}2'].border = Border(bottom=Side(style='medium', color=INK))
     row = 3
     for i, e in enumerate(entries, 1):
@@ -79,14 +78,10 @@ def sheet(wb, lang, title, entries):
             TextBlock(InlineFont(rFont=font, sz=11, color=TEXT), e['detail']),
         )
         body.alignment = Alignment(wrap_text=True, vertical='top')
-        link = ws.cell(row, 3, '開啟 ›' if lang == 'zh' else 'Open ›')
-        link.hyperlink = e['url']
-        link.font = Font(name=font, size=11, color=BRAND, underline='single')
-        link.alignment = Alignment(horizontal='center', vertical='top')
         ws.row_dimensions[row].height = (
             lines(e['heading'] + '   ' + e['time'], 13, WIDTH['B']) * 20
             + lines(e['detail'], 11, WIDTH['B']) * 16 + 10)
-        for col in range(1, 4):
+        for col in range(1, 3):
             cell = ws.cell(row, col)
             cell.fill = fill
             cell.border = Border(bottom=Side(style='thin', color=LINE))
@@ -125,15 +120,13 @@ def main():
         suffix = '' if lang == 'zh' else '-en'
         day_entries = [{
             'heading': s['title'][lang], 'time': short(date, lang), 'detail': s['summary'][lang],
-            'lead': s.get('depth') == 'lead',
-            'url': f"{SITE}?lang={lang}&date={date}#s{s['id']}"} for s in ranked(edition)]
+            'lead': s.get('depth') == 'lead'} for s in ranked(edition)]
         week_entries = []
         for h in digest['highlights']:
             dates = sorted({r['date'] for r in h['references']})
             week_entries.append({
                 'heading': h['title'][lang], 'time': ('、' if lang == 'zh' else ', ').join(short(d, lang) for d in dates),
-                'detail': h['summary'][lang], 'lead': False,
-                'url': f"{SITE}?lang={lang}&date={dates[-1]}"})
+                'detail': h['summary'][lang], 'lead': False})
         if lang == 'zh':
             titles = (f'{date} 日報重點', f'{start} 至 {end} 週報重點')
         else:
