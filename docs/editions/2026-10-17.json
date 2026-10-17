@@ -17,8 +17,8 @@
         "en": "Weekly follow-up: TSMC CoWoS production and Micron’s Taichung HBM assembly/test opening"
       },
       "summary": {
-        "zh": "台積電 10 月 15 日法說表示，5 倍光罩尺寸的 CoWoS 已量產；同日美光台中 AATT2 先進封裝測試廠開幕，支援 HBM。這兩項是本週進展，今日整合追蹤，並無新增產能數字。",
-        "en": "TSMC said on October 15 that its five-reticle CoWoS platform was in production. Micron opened its Taichung AATT2 advanced assembly and test facility for HBM the same day. These are weekly follow-ups; no new capacity figures are established today."
+        "zh": "台積電 10 月 15 日法說表示，5 倍光罩尺寸的 CoWoS 已進入量產；同一天，美光在台中啟用支援 HBM 的 AATT2 先進封裝測試廠。兩件事都是本週稍早的進展，雙方都未公布新增產能數字。",
+        "en": "TSMC said at its October 15 earnings call that its five-reticle CoWoS platform is in volume production. The same day, Micron opened its AATT2 advanced assembly and test plant in Taichung for HBM. Both are developments from earlier this week, and neither company disclosed added capacity."
       },
       "metric": "CoWoS / HBM",
       "metricLabel": {
@@ -29,51 +29,51 @@
         {
           "label": {
             "zh": "上下游怎麼接",
-            "en": "Connecting the chain"
+            "en": "How the chain connects"
           },
           "text": {
-            "zh": "AI 設計需求先進入晶圓製造，再由封裝整合邏輯晶片與 HBM，經測試後交給伺服器廠。晶圓、記憶體及封裝任一環節的良率或交期，都可能限制最終交付；各廠擴產公告不能直接相加成可用系統。",
-            "en": "AI designs move through wafer fabrication, packaging with HBM, testing and server assembly. Yield or delivery constraints at any layer can limit systems output; announced expansions cannot simply be added together."
+            "zh": "AI 晶片從晶圓製造出發，經過封裝與 HBM 整合、測試後，才交給伺服器廠組裝。因此任何一段的良率或交期卡住，都會限制最終出貨，各廠的擴產公告也不能直接加總成可用的系統數量。",
+            "en": "AI chips start in wafer fabs, then are packaged with HBM and tested before server makers assemble them. A yield or lead-time problem at any step limits final shipments, so separate expansion announcements cannot simply be added up into usable systems."
           }
         },
         {
           "label": {
             "zh": "記憶體需要分開看",
-            "en": "Separate memory markets"
+            "en": "Memory markets differ"
           },
           "text": {
-            "zh": "HBM 連結加速器封裝，伺服器 DRAM 連結系統記憶體，NAND 與企業 SSD 則連結儲存。TrendForce 9 月 30 日研究描述伺服器與企業 SSD 需求較強、消費端採購審慎，屬背景與預測，不能推成所有記憶體供應商同步增加獲利。",
-            "en": "HBM serves accelerator packages, server DRAM system memory, and NAND and enterprise SSDs storage. TrendForce’s September 30 research describes stronger server and enterprise SSD demand alongside cautious consumer purchasing. This background forecast does not establish universal profit growth."
+            "zh": "HBM 用於加速器封裝，伺服器 DRAM 用於系統記憶體，NAND 與企業 SSD 則用於儲存。TrendForce 9 月 30 日的研究指出，伺服器與企業 SSD 需求較強，消費端採購偏保守；這是研究機構的預測，不代表所有記憶體廠的獲利會同步成長。",
+            "en": "HBM goes into accelerator packages, server DRAM into system memory, and NAND and enterprise SSDs into storage. TrendForce's September 30 research saw stronger server and enterprise SSD demand but cautious consumer buying; that is a forecast, not evidence that every memory maker's profits are rising."
           }
         },
         {
           "label": {
             "zh": "設備、材料與測試",
-            "en": "Equipment, materials and testing"
+            "en": "Tools, materials and test"
           },
           "text": {
-            "zh": "前段要看蝕刻、沉積與設備電源，後段要看基板、接合、探針、燒機及可靠度。TrendForce 10 月 13 日列出台灣的 MPI、WinWay、Chroma 與 ASE 等測試或封裝角色；這是產業角色圖，未證實它們取得本案新訂單。",
-            "en": "Upstream checks include etch, deposition and equipment power; downstream checks include substrates, bonding, probes, burn-in and reliability. TrendForce’s October 13 mapping identifies Taiwanese testing or assembly roles including MPI, WinWay, Chroma and ASE. It does not establish new orders for these events."
+            "zh": "前段製程仰賴蝕刻、沉積與設備電源，後段則看基板、接合、探針、燒機與可靠度測試。TrendForce 10 月 13 日列出 MPI、WinWay、Chroma 與 ASE 等台灣廠商在測試與封裝的角色，不過這是產業分工圖，並未顯示它們因這兩件事取得新訂單。",
+            "en": "Front-end processes rely on etch, deposition and tool power; back-end steps depend on substrates, bonding, probes, burn-in and reliability testing. TrendForce's October 13 map places Taiwan's MPI, WinWay, Chroma and ASE in testing and packaging roles, though it does not show new orders tied to these events."
           }
         },
         {
           "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
+            "zh": "本週財報數字",
+            "en": "This week’s results"
           },
           "text": {
-            "zh": "AATT2 新增 HBM 產出、設備訂單及個別供應商營收未披露",
-            "en": "Added AATT2 HBM output, tool orders and individual supplier revenue are undisclosed"
+            "zh": "台積電同日公布第三季實績：美元營收 467.2 億美元、毛利率 66.4%；新台幣營收約 1.494 兆元、年增 50.9%，淨利 7,630.6 億元、年增 68.7%。美元與新台幣的成長率各自計算，不宜混用。",
+            "en": "TSMC reported third-quarter results the same day: revenue of US$46.72 billion and a 66.4% gross margin; Taiwan-dollar revenue of about NT$1.494 trillion, up 50.9% year on year, and net income of NT$763.06 billion, up 68.7%. Growth rates in each currency are calculated separately and should not be mixed."
           }
         },
         {
           "label": {
-            "zh": "本週數據背景",
-            "en": "Weekly financial context"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "台積電第三季美元營收 467.2 億美元，毛利率 66.4%；新台幣營收約 1.494 兆元、年增 50.9%，淨利 7,630.6 億元、年增 68.7%。不同貨幣成長率不可混用，這些是 10 月 15 日公布的公司實績。",
-            "en": "TSMC reported Q3 revenue of US$46.72 billion and a 66.4% gross margin. Taiwan-dollar revenue was about NT$1.494 trillion, up 50.9% annually, and net income NT$763.06 billion, up 68.7%. Growth rates in different currencies must remain distinct. These results were released October 15."
+            "zh": "美光 AATT2 新增的 HBM 產出、設備訂單，以及對個別供應商營收的影響都尚未公布。",
+            "en": "AATT2's added HBM output, tool orders and any effect on individual suppliers' revenue have not been disclosed."
           }
         }
       ],
@@ -169,8 +169,8 @@
             "en": "October 15 earnings call and opening; production output not fully disclosed"
           },
           "unknowns": {
-            "zh": "AATT2 新增 HBM 產出、設備訂單及個別供應商營收未披露",
-            "en": "Added AATT2 HBM output, tool orders and individual supplier revenue are undisclosed"
+            "zh": "美光 AATT2 新增的 HBM 產出、設備訂單，以及對個別供應商營收的影響都尚未公布。",
+            "en": "AATT2's added HBM output, tool orders and any effect on individual suppliers' revenue have not been disclosed."
           }
         }
       },
@@ -245,8 +245,8 @@
         }
       ],
       "location": {
-        "zh": "美光啟用典禮：台灣台中，美光先進封裝測試二廠（AATT2）",
-        "en": "Micron opening: AATT2 advanced assembly and test facility, Taichung, Taiwan"
+        "zh": "台灣台中，美光先進封裝測試二廠（AATT2）",
+        "en": "Micron AATT2 advanced assembly and test plant, Taichung, Taiwan"
       },
       "ceoView": {
         "zh": "台積電 CoWoS 量產與美光 HBM 封測廠啟用，代表蝕刻、沉積等前段製程與先進封裝的電漿與射頻電源需求仍在延續。CEO 會追問台灣客戶的設備交機排程是否跟上這些產能、哪些製程需要更高精度的功率控制，以及在台服務與備品是否足以支援新廠爬坡。新增產出未披露，應以客戶實際下單與交機時程驗證，不宜直接推估營收。",
@@ -264,8 +264,8 @@
         "en": "Taiwan vendors exhibit racks, 800 VDC power and liquid cooling at OCP in San Jose"
       },
       "summary": {
-        "zh": "中央社 10 月 17 日整理 10 月 12 至 15 日於美國加州聖荷西舉辦的 OCP 展會：緯穎、華碩與勤誠等展示下一代伺服器或機櫃，台達電、光寶與康舒展示高壓直流電源及相關方案。台達電 10 月 15 日公司稿列出 800 VDC 電源櫃、備援與液冷產品，展示規格仍需與量產部署分開。",
-        "en": "CNA’s October 17 roundup of the October 12–15 OCP summit in San Jose, California describes server or rack exhibits from Wiwynn, ASUS and Chenbro, alongside power systems from Delta, Lite-On and AcBel. Delta’s October 15 release details 800 VDC power, backup and liquid cooling products. Exhibits are distinct from production deployments."
+        "zh": "據中央社 10 月 17 日整理，OCP 全球高峰會 10 月 12 至 15 日在美國聖荷西舉行，台廠是展場主角之一：緯穎、華碩與勤誠展出新一代伺服器與機櫃，台達電、光寶與康舒則主打高壓直流電源。台達電 10 月 15 日發布的資料列出 800 VDC 電源櫃、備援與液冷產品，這些仍是展示規格，不等於已量產部署。",
+        "en": "According to CNA's October 17 roundup, Taiwanese suppliers featured prominently at the OCP Global Summit in San Jose on October 12–15: Wiwynn, ASUS and Chenbro showed new servers and racks, while Delta, Lite-On and AcBel focused on high-voltage DC power. Delta's October 15 release lists 800 VDC power racks, backup and liquid cooling, though these are exhibit specifications rather than production deployments."
       },
       "metric": "800 VDC",
       "metricLabel": {
@@ -275,52 +275,32 @@
       "sections": [
         {
           "label": {
-            "zh": "活動時間與場館",
-            "en": "Event dates and venue"
-          },
-          "text": {
-            "zh": "OCP Global Summit 2026 於當地時間 10 月 12 至 15 日在美國加州聖荷西舉行，主場館為 San Jose McEnery Convention Center。本文追蹤台灣參展供應鏈；展會位於美國，不代表文中所有廠商的生產或投資地都在美國。",
-            "en": "OCP Global Summit 2026 ran October 12–15 local time in San Jose, California, at the San Jose McEnery Convention Center. Coverage follows Taiwanese exhibitors; the event location does not imply that their production or investment is located in the United States."
-          }
-        },
-        {
-          "label": {
-            "zh": "從晶片走到可交付機櫃",
+            "zh": "從晶片到可交付機櫃",
             "en": "From chips to deliverable racks"
           },
           "text": {
-            "zh": "晶片、HBM 與封裝完成後，仍需主機板、網路、機構、電源、備援、冷卻與整機測試。系統可用率及現場供電會影響客戶何時驗收；高算力規格只能回答其中一段。",
-            "en": "Chips, HBM and packaging still need boards, networking, mechanics, power, backup, cooling and system testing. Availability and site power affect customer acceptance; compute specifications cover only part of delivery."
+            "zh": "晶片、HBM 與封裝完成後，還需要主機板、網路、機構件、電源、備援、冷卻與整機測試，才能變成可交付的機櫃。也因此，客戶何時驗收取決於系統可用率與機房供電，而不只是算力規格。",
+            "en": "After chips, HBM and packaging, a rack still needs boards, networking, mechanics, power, backup, cooling and system testing before it can ship. Customer acceptance therefore depends on availability and site power, not compute specifications alone."
           }
         },
         {
           "label": {
-            "zh": "競爭位置",
-            "en": "Competitive position"
+            "zh": "電源廠的展示",
+            "en": "Power suppliers on show"
           },
           "text": {
-            "zh": "台達電、光寶與康舒的展示，讓高壓直流電源設計與整機整合成為可比較項目。本期未取得各廠同規格成本、效率曲線與量產訂單，無法判定市占變化；產品規格與客戶認證需要分開比較。",
-            "en": "Delta, Lite-On and AcBel exhibits make high-voltage DC design and integration comparable topics. Comparable costs, efficiency curves and production orders are unavailable, preventing market-share conclusions; product specifications and customer qualifications need separate comparisons."
+            "zh": "台達電列出 660 kW 電源櫃與 480 kW 備援規格，這是產品的額定能力，並非客戶實際用電或已售出的容量；800 V 則是供電架構的電壓，不是節電比例。台達電、光寶與康舒同場展出，讓高壓直流電源有了比較基礎，但各廠同規格的成本、效率曲線與量產訂單都未公開，目前還看不出市占變化。",
+            "en": "Delta lists a 660 kW power rack and a 480 kW backup rating; these are product ratings, not customers' actual consumption or sold capacity, and 800 V describes the architecture's voltage rather than an energy saving. With Delta, Lite-On and AcBel exhibiting side by side, high-voltage DC designs can now be compared, but comparable costs, efficiency curves and production orders are not public, so market-share shifts cannot yet be judged."
           }
         },
         {
           "label": {
-            "zh": "數字怎麼看",
-            "en": "Reading the numbers"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "台達電列出 660 kW 電源櫃及 480 kW 備援規格，代表產品額定能力，不能當成每個客戶實際用電或已售出的容量。800 V 是架構電壓，也不等於節電百分比。",
-            "en": "Delta lists a 660 kW power rack and 480 kW backup rating. These are product capabilities, not deployed customer consumption or sold capacity. The 800 V architecture is not an energy-saving percentage."
-          }
-        },
-        {
-          "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
-          },
-          "text": {
-            "zh": "同口徑售價、成本、客戶訂單及實際部署量未披露",
-            "en": "Comparable prices, costs, customer orders and deployed volumes are undisclosed"
+            "zh": "同規格售價、成本、客戶訂單與實際部署量都尚未公開。",
+            "en": "Comparable prices, costs, customer orders and deployed volumes have not been disclosed."
           }
         }
       ],
@@ -400,8 +380,8 @@
             "en": "Summit October 12–15; production timing depends on vendor disclosures"
           },
           "unknowns": {
-            "zh": "同口徑售價、成本、客戶訂單及實際部署量未披露",
-            "en": "Comparable prices, costs, customer orders and deployed volumes are undisclosed"
+            "zh": "同規格售價、成本、客戶訂單與實際部署量都尚未公開。",
+            "en": "Comparable prices, costs, customer orders and deployed volumes have not been disclosed."
           }
         }
       },
@@ -467,8 +447,8 @@
         "en": "AUO targets glass and optical components; pure-panel revenue share goal is 30% by 2030"
       },
       "summary": {
-        "zh": "友達董事長彭双浪 10 月 17 日表示，公司在先進封裝將扮演零組件供應者，運用玻璃與 TGV 技術；與康寧合作的技術已有低軌衛星天線應用。MicroLED 光通訊與 CPO 的量產時間估計仍為兩至三年，屬公司展望。",
-        "en": "AUO chairman Paul Peng said on October 17 that the company would supply advanced-packaging components using glass and TGV expertise. Technology developed with Corning already has low-earth-orbit antenna applications. A two-to-three-year volume-production outlook for MicroLED optical communications and CPO remains a company forecast."
+        "zh": "友達董事長彭双浪 10 月 17 日接受中央社專訪表示，友達將以玻璃與 TGV（玻璃通孔）技術切入先進封裝零組件，與康寧合作的技術已用於低軌衛星天線。他也預估，MicroLED 光通訊與 CPO 約兩到三年後量產。",
+        "en": "AUO chairman Paul Peng told CNA on October 17 that AUO will enter advanced-packaging components using glass and TGV (through-glass via) technology, and that technology developed with Corning is already used in low-earth-orbit satellite antennas. He expects MicroLED optical communications and CPO to reach volume production in about two to three years."
       },
       "metric": "2030 / 30%",
       "metricLabel": {
@@ -482,18 +462,28 @@
             "en": "Why it matters"
           },
           "text": {
-            "zh": "玻璃加工能力可延伸到不同零組件，但封裝用玻璃的可靠度、平整度與量產良率仍需客戶驗證。低軌衛星應用已有進展，不能直接當成半導體封裝已通過認證。",
-            "en": "Glass processing can extend into new components, but packaging reliability, flatness and production yield require qualification. Progress in satellite applications does not establish semiconductor-packaging acceptance."
+            "zh": "面板廠的玻璃加工能力可以延伸到封裝零組件，但封裝用玻璃對可靠度、平整度與良率的要求更高，仍需通過客戶驗證；衛星天線的應用進展，也不代表已取得半導體封裝認證。",
+            "en": "A panel maker's glass-processing skills can extend into packaging parts, but packaging glass faces stricter reliability, flatness and yield requirements and still needs customer qualification; progress in satellite antennas does not amount to semiconductor-packaging approval."
           }
         },
         {
           "label": {
-            "zh": "數字與查證限制",
-            "en": "Numbers and verification limit"
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
           },
           "text": {
-            "zh": "30% 是 2030 年純面板營收占比目標，並非營收下跌 30%。本期依中央社具名採訪，未取得逐字稿、客戶認證或新業務獲利資料，標為來源受限。",
-            "en": "The 30% figure is a targeted revenue mix in 2030, not a 30% revenue decline. Coverage relies on CNA’s named interview; transcripts, customer qualification and profitability evidence were unavailable. Source-limited."
+            "zh": "報導中的 30% 是友達 2030 年純面板營收占比的目標，並不是營收下滑 30%。",
+            "en": "The 30% in the report is AUO's target for pure-panel revenue as a share of the total in 2030, not a 30% revenue decline."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "目前資訊來自具名專訪，尚未取得逐字稿、客戶認證進度與新業務的獲利資料。",
+            "en": "The information comes from a named interview; a transcript, customer qualification status and new-business profitability are not yet available."
           }
         }
       ],
@@ -549,8 +539,8 @@
             "en": "2030 revenue-mix target; optical volume-production outlook of two to three years"
           },
           "unknowns": {
-            "zh": "新業務獲利、客戶認證及完整逐字稿尚未取得",
-            "en": "New-business profitability, customer qualifications and a full transcript are unavailable"
+            "zh": "目前資訊來自具名專訪，尚未取得逐字稿、客戶認證進度與新業務的獲利資料。",
+            "en": "The information comes from a named interview; a transcript, customer qualification status and new-business profitability are not yet available."
           }
         }
       },
@@ -592,8 +582,8 @@
         "en": "RTX Spark PCs launch October 16, connecting Taiwan design, packaging and brands to local AI"
       },
       "summary": {
-        "zh": "NVIDIA 10 月 16 日宣布 RTX Spark Windows 電腦上市，品牌包括華碩、微星及多家國際 PC 廠，採 Grace CPU 與 Blackwell GPU。公司主管向中央社說明聯發科參與 CPU 設計，並使用 CoWoS 封裝；需求與產能判斷仍屬公司說法。",
-        "en": "NVIDIA announced RTX Spark Windows PCs on October 16, with ASUS, MSI and international PC brands using Grace CPUs and Blackwell GPUs. An executive told CNA that MediaTek contributed CPU design and that the platform uses CoWoS; demand and capacity assessments remain company statements."
+        "zh": "NVIDIA 10 月 16 日宣布 RTX Spark Windows 電腦上市，華碩、微星等品牌推出搭載 Grace CPU 與 Blackwell GPU 的機種。NVIDIA 主管向中央社表示，聯發科參與了 CPU 設計，平台並採用 CoWoS 封裝。",
+        "en": "NVIDIA launched RTX Spark Windows PCs on October 16, with ASUS, MSI and other brands offering models built on Grace CPUs and Blackwell GPUs. An NVIDIA executive told CNA that MediaTek contributed to the CPU design and that the platform uses CoWoS packaging."
       },
       "metric": "128 GB",
       "metricLabel": {
@@ -607,18 +597,18 @@
             "en": "Product and supply chain"
           },
           "text": {
-            "zh": "NVIDIA 發布資料列出 Grace CPU、Blackwell GPU 及華碩、微星等品牌。公司主管向中央社表示，聯發科參與 CPU 設計，平台採 CoWoS 封裝；本期未核實 HBM 用量。",
-            "en": "NVIDIA lists Grace CPUs, Blackwell GPUs and brands including ASUS and MSI. An executive told CNA that MediaTek contributed CPU design and the platform uses CoWoS; this edition does not establish HBM content."
+            "zh": "這款平台把台灣的晶片設計、先進封裝與 PC 品牌串在一起：聯發科參與 CPU 設計，平台採 CoWoS 封裝，華碩、微星等品牌推出終端產品。公司公布的最高統一記憶體規格為 128 GB；需求與產能的說法都來自 NVIDIA，HBM 用量也尚未證實。",
+            "en": "The platform links Taiwan's chip design, advanced packaging and PC brands: MediaTek contributed CPU design, the platform uses CoWoS packaging, and ASUS and MSI build the end products. NVIDIA lists up to 128 GB of unified memory; demand and capacity claims come from NVIDIA, and HBM content is unconfirmed."
           }
         },
         {
           "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "本期未取得出貨、使用率及完整生命週期成本",
-            "en": "Shipments, utilization and full lifecycle costs are unavailable in this edition"
+            "zh": "出貨量、使用率與完整生命週期成本都尚未公開。",
+            "en": "Shipments, utilization and full lifecycle costs have not been disclosed."
           }
         }
       ],
@@ -682,8 +672,8 @@
             "en": "Availability announced October 16"
           },
           "unknowns": {
-            "zh": "本期未取得出貨、使用率及完整生命週期成本",
-            "en": "Shipments, utilization and full lifecycle costs are unavailable in this edition"
+            "zh": "出貨量、使用率與完整生命週期成本都尚未公開。",
+            "en": "Shipments, utilization and full lifecycle costs have not been disclosed."
           }
         }
       },
@@ -724,8 +714,8 @@
         "en": "Taiwan says planned U.S. parks would be privately funded at an estimated $2–4 billion each"
       },
       "summary": {
-        "zh": "經濟部 10 月 16 日向中央社說明，將與電電公會推動海外產業園區，採業者出資、政府協助模式。龔明鑫專訪提及由德州起步、規劃不只一座；單一園區 20 億至 40 億美元是估算，土地取得細節尚未對外確認。",
-        "en": "Taiwan’s economics ministry told CNA on October 16 that it would work with TEEMA on privately funded overseas industrial parks. Minister Kung Ming-hsin described starting in Texas; the estimated $2–4 billion per park is a plan, with land details unconfirmed."
+        "zh": "經濟部 10 月 16 日向中央社說明，將與電電公會推動海外產業園區，由業者出資、政府協助。部長龔明鑫在專訪中表示，計畫從美國德州起步，規劃不只一座，單一園區估計需要 20 億至 40 億美元。",
+        "en": "Taiwan's Ministry of Economic Affairs told CNA on October 16 that it will work with TEEMA on overseas industrial parks funded by companies with government support. Minister Kung Ming-hsin said in an interview that the plan starts in Texas and will include more than one park, each estimated at US$2–4 billion."
       },
       "metric": "US$2–4B",
       "metricLabel": {
@@ -735,32 +725,22 @@
       "sections": [
         {
           "label": {
-            "zh": "計畫範圍",
-            "en": "Plan scope"
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
           },
           "text": {
-            "zh": "經濟部說明由業者出資、政府協助，並與電電公會推動海外產業園區。規劃從德州起步、不只一座，單一園區估算為 20 億至 40 億美元。",
-            "en": "The ministry described private funding with government assistance and TEEMA participation. Plans would start in Texas and involve more than one park, at an estimated $2–4 billion per park."
+            "zh": "20 億至 40 億美元來自部長與經濟部對媒體的說明，屬於規劃估算；目前沒有融資、預算或土地契約文件，因此既不是政府已編列的支出，也不是業者已承諾的投資。",
+            "en": "The US$2–4 billion figure comes from the minister and ministry statements to media and is a planning estimate. Without financing, budget or land documents, it is neither appropriated government spending nor capital that companies have committed."
           }
         },
         {
           "label": {
-            "zh": "這個數字是誰說的？",
-            "en": "Who owns the number?"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "金額來自部長專訪與經濟部對媒體說明，尚未取得完整融資、預算或土地契約文件。不能當成政府已編列支出，或業者已全數承諾的資本。",
-            "en": "The estimate comes from the minister and ministry statements reported by media. Full financing, budget and land documents were unavailable; it is neither appropriated government spending nor fully committed capital."
-          }
-        },
-        {
-          "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
-          },
-          "text": {
-            "zh": "開發主體、用地、完整融資及入駐名單尚未確認",
-            "en": "Developer, land, complete financing and tenant lists are unconfirmed"
+            "zh": "開發主體、園區用地、完整融資方式與進駐廠商名單都尚未確認。",
+            "en": "The developer, land, full financing and tenant list have not been confirmed."
           }
         }
       ],
@@ -833,8 +813,8 @@
             "en": "October 16 explanation; land and construction dates unconfirmed"
           },
           "unknowns": {
-            "zh": "開發主體、用地、完整融資及入駐名單尚未確認",
-            "en": "Developer, land, complete financing and tenant lists are unconfirmed"
+            "zh": "開發主體、園區用地、完整融資方式與進駐廠商名單都尚未確認。",
+            "en": "The developer, land, full financing and tenant list have not been confirmed."
           }
         }
       },
@@ -887,8 +867,8 @@
         }
       ],
       "location": {
-        "zh": "投資規劃：美國德州；具體園區用地仍待確認",
-        "en": "Investment plan: Texas, United States; specific park land remains unconfirmed"
+        "zh": "美國德州（規劃中，具體用地待確認）",
+        "en": "Texas, United States (planned; specific site not yet confirmed)"
       },
       "ceoView": {
         "zh": "台灣廠商若在德州等地設立海外園區，美國在地的電子製造與設備需求可能增加，總部在美國的電源與量測設備商有機會就近服務台灣客戶的美國據點。不過目前只是規劃估算，用地、資金與進駐廠商都未確認；CEO 會先向既有台灣客戶確認其美國擴廠時程，再評估在地銷售與服務配置。",
@@ -906,8 +886,8 @@
         "en": "CIER raises Taiwan’s full-year growth forecast to 12.16%; distinguish results from projections"
       },
       "summary": {
-        "zh": "中經院 10 月 16 日公布第四季預測，把 2026 年經濟成長率由 7 月的 10.35% 上修至 12.16%，提高 1.81 個百分點。預估內需貢獻 6.63 個百分點、國外淨需求貢獻 5.53 個百分點；全年數字仍是預測。",
-        "en": "CIER’s October 16 forecast raised 2026 growth from July’s 10.35% to 12.16%, an increase of 1.81 percentage points. Domestic demand is projected to contribute 6.63 points and net external demand 5.53; the full-year figure remains a forecast."
+        "zh": "中經院 10 月 16 日公布最新預測，將台灣 2026 年經濟成長率從 7 月預估的 10.35% 上修至 12.16%，增加 1.81 個百分點。其中內需預估貢獻 6.63 個百分點，國外淨需求貢獻 5.53 個百分點。",
+        "en": "CIER's October 16 forecast raised Taiwan's 2026 GDP growth estimate from July's 10.35% to 12.16%, up 1.81 percentage points. Domestic demand is expected to contribute 6.63 points and net external demand 5.53 points."
       },
       "metric": "12.16%",
       "metricLabel": {
@@ -917,32 +897,32 @@
       "sections": [
         {
           "label": {
+            "zh": "預測依據",
+            "en": "Forecast basis"
+          },
+          "text": {
+            "zh": "中經院認為 AI 需求、企業擴產與國內投資是主要動能，同時提醒融資、地緣政治與 AI 資安等不確定因素。",
+            "en": "CIER sees AI demand, corporate expansion and domestic investment as the main drivers, while flagging financing, geopolitical and AI-security uncertainties."
+          }
+        },
+        {
+          "label": {
             "zh": "數字怎麼看",
             "en": "Reading the numbers"
           },
           "text": {
-            "zh": "10.35% 與 12.16% 是同一年度在不同時間的預測，差額為 1.81 個百分點。第四季預估年增 8.20%，面對去年同期高基期；增速放緩本身不代表當季產出縮減。",
-            "en": "The two figures are different vintages of the same-year forecast, separated by 1.81 percentage points. Fourth-quarter growth is projected at 8.20% against a high prior-year base; slower growth does not itself mean output contracts."
+            "zh": "10.35% 與 12.16% 是同一年度在不同時間點的預測。第四季預估年增 8.20%，去年同期基期較高；增速放緩本身不代表當季產出減少。",
+            "en": "10.35% and 12.16% are two forecasts for the same year made at different times. Fourth-quarter growth is projected at 8.20% against a high base a year earlier; slower growth on its own does not mean output is shrinking."
           }
         },
         {
           "label": {
-            "zh": "預測依據",
-            "en": "Forecast attribution"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "中經院把 AI 需求、企業擴產與國內投資列為預測動能，並列出融資、地緣政治與 AI 資安等不確定性。這些是研究機構對全年表現的預測依據。",
-            "en": "CIER cited AI demand, corporate expansion and domestic investment as forecast drivers, alongside financing, geopolitical and AI-cybersecurity uncertainties. These are the institution’s assumptions for its full-year forecast."
-          }
-        },
-        {
-          "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
-          },
-          "text": {
-            "zh": "全年 GDP 尚為預測，後續實績可能修訂",
-            "en": "Full-year GDP remains a forecast, subject to subsequent actual data"
+            "zh": "全年數字仍是預測，實際結果要等官方統計，屆時可能修正。",
+            "en": "The full-year figure is still a forecast and may be revised once official data are released."
           }
         }
       ],
@@ -1022,8 +1002,8 @@
             "en": "2026 fourth-quarter forecast released October 16"
           },
           "unknowns": {
-            "zh": "全年 GDP 尚為預測，後續實績可能修訂",
-            "en": "Full-year GDP remains a forecast, subject to subsequent actual data"
+            "zh": "全年數字仍是預測，實際結果要等官方統計，屆時可能修正。",
+            "en": "The full-year figure is still a forecast and may be revised once official data are released."
           }
         }
       },
@@ -1065,8 +1045,8 @@
         "en": "Ho Chi Minh City seeks clarity on AI data-center power tariffs"
       },
       "summary": {
-        "zh": "TNGlobal 10 月 16 日報導，胡志明市工業區管理機關在 10 月 15 日經濟會議要求統一 AI 資料中心電價指引。所涉 AIC 與 KBC 計畫早於 3 月公布，總規劃金額 21 億美元；本次新增進展是電價問題，並非新宣布投資。",
-        "en": "TNGlobal reported October 16 that Ho Chi Minh City’s industrial-zone authority sought unified AI data-center power-tariff guidance at an October 15 meeting. The AIC–KBC project, with a planned $2.1 billion investment, was announced in March. The new development is tariff clarification, not a new investment announcement."
+        "zh": "據 TNGlobal 10 月 16 日報導，胡志明市工業區管理機關在 10 月 15 日的經濟會議上，要求釐清並統一 AI 資料中心的電價適用規則。相關的 AIC 與 KBC 計畫早在 3 月就已公布，總投資規劃 21 億美元；這次的新進展是電價問題，而不是新的投資。",
+        "en": "According to TNGlobal on October 16, Ho Chi Minh City's industrial-zone authority asked at an October 15 economic meeting for unified guidance on power tariffs for AI data centers. The related AIC–KBC project, with a planned US$2.1 billion investment, was announced in March; the new development is the tariff question, not new investment."
       },
       "metric": "US$2.1B",
       "metricLabel": {
@@ -1080,28 +1060,28 @@
             "en": "Why it matters"
           },
           "text": {
-            "zh": "爭點是適用商業或製造業電價。較高電價可能改變營運成本、財務可行性及進度；本期沒有已定案費率、用電曲線或投資報酬模型，無法估算確切成本差額。",
-            "en": "The issue is business versus manufacturing tariffs. Higher tariffs could affect costs, feasibility and timing. Final rates, load profiles and a financial model are unavailable, preventing a quantified cost difference."
+            "zh": "爭點在於資料中心該適用商業電價還是製造業電價。電價較高會推升營運成本，也可能影響財務可行性與建設進度；不過最終費率、用電曲線與財務模型都還沒公開，目前無法估算確切差額。",
+            "en": "The question is whether data centers pay business or manufacturing tariffs. Higher tariffs would raise operating costs and could affect financial feasibility and construction timing, but final rates, load profiles and financial models are not public, so the cost difference cannot yet be estimated."
           }
         },
         {
           "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
+            "zh": "整案與首期容量",
+            "en": "Full project versus phase one"
           },
           "text": {
-            "zh": "原始會議文件、最終費率、用電曲線與電力合約未取得",
-            "en": "Original meeting records, final tariffs, load profiles and power contracts are unavailable"
+            "zh": "TNGlobal 提到首期規劃最高 50 MW，而 21 億美元是整體計畫的投資規模，兩者的範圍與時程並不一致，不宜相除推算每 MW 造價；規劃容量也不等於已通電或已出租的容量。",
+            "en": "TNGlobal cites up to 50 MW for phase one, while US$2.1 billion covers the whole project; their scope and timing differ, so dividing one by the other does not give a cost per MW, and planned capacity is not energized or leased capacity."
           }
         },
         {
           "label": {
-            "zh": "整案與首期容量要分開",
-            "en": "Separate the full project from phase one"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "TNGlobal 報導所列首期規劃最高 50 MW，而 21 億美元是既有計畫的總投資描述；兩者時程與範圍未完整對齊。本期不以總金額除以首期容量估算每 MW 造價，也不把規劃容量當成已通電或已出租容量。",
-            "en": "TNGlobal describes phase-one plans of up to 50 MW, while $2.1 billion refers to the previously announced overall project. Their scope and timing are not fully aligned. No per-MW construction cost is calculated from these figures, and planned capacity is not energized or leased capacity."
+            "zh": "原始會議紀錄、最終電價、用電曲線與購電合約都尚未取得。",
+            "en": "Original meeting records, final tariffs, load profiles and power contracts are not yet available."
           }
         }
       ],
@@ -1157,8 +1137,8 @@
             "en": "October 15 meeting, October 16 reporting; final tariff unsettled"
           },
           "unknowns": {
-            "zh": "原始會議文件、最終費率、用電曲線與電力合約未取得",
-            "en": "Original meeting records, final tariffs, load profiles and power contracts are unavailable"
+            "zh": "原始會議紀錄、最終電價、用電曲線與購電合約都尚未取得。",
+            "en": "Original meeting records, final tariffs, load profiles and power contracts are not yet available."
           }
         }
       },
@@ -1211,8 +1191,8 @@
         }
       ],
       "location": {
-        "zh": "越南胡志明市；專案位於新富中工業區（Tan Phu Trung Industrial Park）",
-        "en": "Ho Chi Minh City, Vietnam; project at Tan Phu Trung Industrial Park"
+        "zh": "越南胡志明市，新富中工業區（Tan Phu Trung Industrial Park）",
+        "en": "Tan Phu Trung Industrial Park, Ho Chi Minh City, Vietnam"
       },
       "ceoView": {
         "zh": "胡志明市資料中心電價尚未定案，會影響當地 AI 資料中心的成本與時程。電價越高，客戶越重視電源轉換效率與能源管理，這是高效率電源產品的賣點；但專案規模與時程仍不確定，CEO 會把越南列為觀察市場，等電價與首期 50 MW 時程明朗後再投入資源。",
@@ -1230,8 +1210,8 @@
         "en": "Malaysia semiconductor recruitment spans process, equipment and facilities roles"
       },
       "summary": {
-        "zh": "中央社 10 月 16 日報導，雪蘭莪相關機構在吉隆坡會展中心（KLCC）主辦的半導體招募活動提供逾 1,500 個職缺，涵蓋設計、軟韌體、製程、設備及廠務。官員表示兩座 IC 設計園區有 20 家公司、409 名工程師，與檳城製造、組裝測試形成互補。",
-        "en": "CNA reported October 16 that a semiconductor recruitment event organized by Selangor-linked institutions at KLCC in Kuala Lumpur offered over 1,500 vacancies across design, software, firmware, process, equipment and facilities. An official reported 20 companies and 409 engineers in two design parks, complementing Penang manufacturing, assembly and testing."
+        "zh": "中央社 10 月 16 日報導，雪蘭莪相關機構在吉隆坡會展中心（KLCC）舉辦半導體招募活動，提供逾 1,500 個職缺，涵蓋設計、軟韌體、製程、設備與廠務。官員表示，兩座 IC 設計園區已有 20 家公司、409 名工程師，可與檳城的製造與封裝測試形成互補。",
+        "en": "CNA reported on October 16 that Selangor-linked institutions held a semiconductor recruitment event at the Kuala Lumpur Convention Centre (KLCC), offering more than 1,500 openings in design, software and firmware, process, equipment and facilities. An official said two IC design parks host 20 companies and 409 engineers, complementing Penang's manufacturing, assembly and testing."
       },
       "metric": ">1,500",
       "metricLabel": {
@@ -1241,42 +1221,32 @@
       "sections": [
         {
           "label": {
-            "zh": "活動地點與日期",
-            "en": "Event venue and dates"
-          },
-          "text": {
-            "zh": "招募活動場館為馬來西亞吉隆坡的吉隆坡會展中心（KLCC），不是把主辦單位「雪蘭莪」當成城市。Sidec 與中央社資料列 10 月 14 至 17 日，ASEM 招募專頁則列 10 月 15 至 17 日；地點一致，但子活動起日有差異，本期保留此限制。",
-            "en": "The recruitment venue is KLCC in Kuala Lumpur, Malaysia, distinct from the organizing state of Selangor. Sidec and CNA list October 14–17, while ASEM’s recruitment page lists October 15–17. The venue agrees, but the subevent start date differs; that discrepancy is retained."
-          }
-        },
-        {
-          "label": {
             "zh": "供應鏈與人才",
             "en": "Supply chain and talent"
           },
           "text": {
-            "zh": "後段製造要靠製程、測試、設備維修與廠務共同運作，設計聚落也需要客戶及製造端協作。職缺提供需求線索，不能直接當成新增就業、產能或已支付薪資。",
-            "en": "Backend operations require process, test, maintenance and facilities staff; design clusters also need customers and manufacturing partners. Vacancies signal recruiting demand, not realized hires, output or payroll."
+            "zh": "後段製造需要製程、測試、設備維修與廠務人員一起運作，設計聚落也要有客戶與製造端配合。職缺數量反映招募需求，但不等於實際新增就業、產能或薪資支出。",
+            "en": "Back-end manufacturing depends on process, test, maintenance and facilities staff working together, and design clusters need customers and manufacturing partners. Openings show hiring demand, not actual new jobs, output or payroll."
           }
         },
         {
           "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
+            "zh": "人才計畫與投資",
+            "en": "Talent programs versus investment"
           },
           "text": {
-            "zh": "實際聘用與留任未披露；園區及計畫數字依官員陳述",
-            "en": "Actual hiring and retention are undisclosed; park and program figures are official statements"
+            "zh": "官員也提到，雪蘭莪將與檳城及國家投資機構合作推動規模 1.5 億令吉的計畫。來源未說明撥款時程與外資比例，這是合作計畫的規模，和 FDI 統計是不同的數字。",
+            "en": "The official also described a RM150 million program involving Selangor, Penang and the national investment agency. Disbursement timing and the foreign share were not given; this is a program budget, not an FDI figure."
           }
         },
         {
           "label": {
-            "zh": "人才計畫與投資流量不同",
-            "en": "Talent programs are distinct from investment flows"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "中央社引述官員表示，雪蘭莪將與檳城及國民投資機構參與總值馬幣 1.5 億令吉的計畫。來源未列本期撥款、外資占比或到位時程；此金額為合作計畫規模，與新增 FDI 統計口徑不同。",
-            "en": "CNA quoted an official describing a RM150 million program involving Selangor, Penang and the national investment institution. Current disbursement, foreign-capital share and funding timing are not listed; program size differs from new FDI flows."
+            "zh": "實際聘用與留任人數尚未公布；各主辦頁面記載的活動起日為 10 月 14 日或 15 日，場館則一致。",
+            "en": "Actual hires and retention have not been reported; organizer pages give October 14 or 15 as the start date, though they agree on the venue."
           }
         }
       ],
@@ -1348,8 +1318,8 @@
             "en": "Mid-October recruitment; organizer pages differ on October 14 or 15 start"
           },
           "unknowns": {
-            "zh": "實際聘用與留任未披露；園區及計畫數字依官員陳述",
-            "en": "Actual hiring and retention are undisclosed; park and program figures are official statements"
+            "zh": "實際聘用與留任人數尚未公布；各主辦頁面記載的活動起日為 10 月 14 日或 15 日，場館則一致。",
+            "en": "Actual hires and retention have not been reported; organizer pages give October 14 or 15 as the start date, though they agree on the venue."
           }
         }
       },
@@ -1448,8 +1418,8 @@
         }
       ],
       "location": {
-        "zh": "馬來西亞吉隆坡，吉隆坡會展中心（KLCC）；由雪蘭莪相關機構主辦",
-        "en": "Kuala Lumpur Convention Centre (KLCC), Kuala Lumpur, Malaysia; organized by Selangor-linked institutions"
+        "zh": "馬來西亞吉隆坡，吉隆坡會展中心（KLCC）",
+        "en": "Kuala Lumpur Convention Centre (KLCC), Kuala Lumpur, Malaysia"
       },
       "ceoView": {
         "zh": "馬來西亞積極招募設計、製程、設備與廠務人才，反映當地半導體後段與設計聚落持續擴張。對設備商而言，這代表當地客戶與裝機量可能增加，也意味工程與服務人才競爭更激烈。CEO 會檢視在馬來西亞的服務據點與人力布局，以及能否與當地大學和園區合作培訓。",
@@ -1467,8 +1437,8 @@
         "en": "Background follow-up: NVIDIA announces semiconductor inspection, testing and factory AI collaborations"
       },
       "summary": {
-        "zh": "NVIDIA 10 月 14 日公司稿列出 KLA 檢測、Advantest 測試，以及鴻海、FANUC 等工廠 AI 合作。本期把它作為台灣供應鏈與終端工廠的背景追蹤；各場域地點、全面量產時程與全廠投資報酬未完整公開。",
-        "en": "NVIDIA’s October 14 release describes KLA inspection, Advantest testing and factory AI collaborations involving Foxconn and FANUC. This is background for Taiwan-linked supply chains and end-use factories; deployment sites, full production schedules and plant-wide ROI are not fully disclosed."
+        "zh": "NVIDIA 10 月 14 日發布的資料列出多項合作：KLA 的檢測、Advantest 的測試，以及鴻海、FANUC 等業者的工廠 AI 應用。這是本週稍早的發布，各工廠的導入地點、量產時程與整廠投資報酬都尚未完整公開。",
+        "en": "NVIDIA's October 14 release lists several collaborations: KLA inspection, Advantest testing, and factory AI work with Foxconn, FANUC and others. Released earlier this week, it does not fully disclose deployment sites, production timelines or plant-wide returns."
       },
       "metric": "試點與驗收",
       "metricLabel": {
@@ -1478,22 +1448,22 @@
       "sections": [
         {
           "label": {
-            "zh": "供應鏈走到哪裡？",
-            "en": "Where does the chain end?"
+            "zh": "供應鏈走到哪裡",
+            "en": "Where the chain leads"
           },
           "text": {
-            "zh": "晶片及伺服器提供算力，檢測與測試設備產生資料，工廠再把模型接到工程、排程或現場流程。合作名單提供可能的整合介面，尚不足以證明所有設備已串接，或同一套方法可複製到每座工廠。",
-            "en": "Chips and servers provide compute, inspection and test tools generate data, and factories connect models to engineering, scheduling or operations. Partnership lists indicate possible interfaces; they do not establish complete integration or transferability across plants."
+            "zh": "晶片與伺服器提供算力，檢測與測試設備產生資料，工廠再把模型接進工程、排程與現場作業。合作名單顯示可能的整合方式，但還不能證明所有設備都已串接，或同一套做法能複製到每座工廠。",
+            "en": "Chips and servers supply compute, inspection and test tools generate data, and factories feed models into engineering, scheduling and floor operations. The partner list shows how integration could work, but it does not prove every tool is connected or that the approach transfers to every plant."
           }
         },
         {
           "label": {
-            "zh": "尚未確認與來源限制",
-            "en": "Unconfirmed details and source limitations"
+            "zh": "尚未確認",
+            "en": "Still unknown"
           },
           "text": {
-            "zh": "具名部署廠址、合約計價與量化全廠收益未完整公開",
-            "en": "Named deployment sites, contract pricing and quantified plant-wide benefits are incompletely disclosed"
+            "zh": "具名導入廠址、合約價格與可量化的整廠效益都尚未公開。",
+            "en": "Named deployment sites, contract pricing and quantified plant-wide benefits have not been disclosed."
           }
         }
       ],
@@ -1550,14 +1520,10 @@
             "en": "October 14 company release; full deployment schedules undisclosed"
           },
           "unknowns": {
-            "zh": "具名部署廠址、合約計價與量化全廠收益未完整公開",
-            "en": "Named deployment sites, contract pricing and quantified plant-wide benefits are incompletely disclosed"
+            "zh": "具名導入廠址、合約價格與可量化的整廠效益都尚未公開。",
+            "en": "Named deployment sites, contract pricing and quantified plant-wide benefits have not been disclosed."
           }
         }
-      },
-      "location": {
-        "zh": "全球合作發布；各工廠實際導入地點未完整披露",
-        "en": "Global collaboration announcement; individual factory deployment sites are not fully disclosed"
       },
       "ceoView": {
         "zh": "NVIDIA 與 KLA、Advantest 等檢測、測試及工廠自動化業者合作，代表工廠 AI 需要大量設備資料與即時控制。對精密量測與控制儀器廠商而言，設備資料介面、可程式化與即時回饋能力可能成為新的產品要求；CEO 會評估自家產品能否提供這類資料、是否需要加入相關生態系，但目前部署與效益仍未完整公開。",

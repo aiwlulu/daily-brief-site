@@ -180,11 +180,15 @@ function renderStories() {
     const published=node('time',s.market?.eventDate?(lang==='zh'?'事件 '+md:'Event '+new Intl.DateTimeFormat('en',{month:'short',day:'numeric',timeZone:'UTC'}).format(new Date(eventDate+'T12:00:00Z'))):md,'story-time');
     published.dateTime=eventDate;published.setAttribute('aria-label',(s.market?.eventDate?(lang==='zh'?'事件日期：':'Event date: '):(lang==='zh'?'刊期日期：':'Edition date: '))+eventDate);meta.append(node('span', words[lang][s.category], 'category cat-'+s.category));
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
+    if (s.confidence) meta.append(node('span', words[lang].confidence+(lang==='zh'?'：':': ')+t(s.confidence), 'story-confidence'));
     const heading=node('h3',undefined,'story-heading');heading.append(node('strong',t(s.title)),document.createTextNode(' '),published);
     const paragraph=node('p',undefined,'summary-text story-copy');paragraph.id=article.id+'-copy';
     let expanded=openStories.has(s.id)||(readingMode==='deep'&&!closedStories.has(s.id));
     paragraph.textContent=storyParagraph(s,lang,expanded);
-    content.append(meta,heading,paragraph);
+    content.append(meta,heading);
+    // Location sits under the headline instead of inside the paragraph.
+    if(s.location){const place=node('p',undefined,'story-location');place.append(icon('pin'),node('span',t(s.location)));content.append(place);}
+    content.append(paragraph);
     const sources = node('div',undefined,'source-links story-sources');
     sources.setAttribute('aria-label',(lang==='zh'?'相關連結：':'Related sources: ')+t(s.title));
     sources.append(node('span',lang==='zh'?'相關連結':'Sources','source-label'));

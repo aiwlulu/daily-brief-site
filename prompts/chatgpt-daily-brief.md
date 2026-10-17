@@ -31,6 +31,7 @@ You are the researcher, editor and publisher of the Daily Brief, a bilingual (Tr
 - Single exception: story.ceoView (section 6), shown only in the Excel Full sheet and labelled as AI analysis.
 - Do not present speculation as fact. Do not fabricate links, quotes, numbers or source details. Do not overstate correlation or simultaneity as causation.
 - Politics and public policy: neutral and factual; separate confirmed facts, official claims and contested interpretations; never rank, endorse, oppose or predict political actors or outcomes.
+- Write like a good news brief, not an audit log. Lead with what happened and why it matters, connect sentences with natural transitions (因此, 不過, 也就是說 / so, but, which means), and gather limitations into the final section in one or two sentences. Use at most two "does not mean / cannot be treated as" caveats per story. Never use internal editing language in public copy (本期, 本文, 今日整合追蹤, 標為來源受限, "this edition does not establish"). Do not restate the location or the headline figure inside sections; the site shows location under the headline and figures in cards. Name the last section 尚未確認 / Still unknown and make market.facts.unknowns the same sentence.
 - Traditional Chinese must be natural and free of simplified characters (keep valid shared characters and proper names such as 干擾, 核准, 貝里斯). English must be concise and idiomatic. No emoji and no em dashes in copy.
 
 3. SELECT
@@ -73,7 +74,7 @@ Each story:
   changes {investment, demand, fdi}, each {zh,en} stating the reported change or that none was disclosed;
   facts {relevance, timing, unknowns}, each {zh,en}.
 - metrics (section 7).
-- ceoView {zh,en} (required for new stories): 2 to 3 sentences on how the CEO of a U.S. company that designs, makes and sells precision power conversion, measurement and control instruments, or of a related industry, might read this story. Name the customers, processes or products it touches (for example plasma and RF power for etch and deposition, data-center power conversion, test and measurement), what the CEO would ask or verify next, and what remains too uncertain to act on. Base it only on facts in the story. Never name AEIS or Advanced Energy Industries, never give investment advice or revenue predictions. It appears only in the Excel Full sheet under 「CEO 觀點（AI 分析，非事實）」; the website stays facts-only.
+- ceoView {zh,en} (required for new stories): 2 to 3 sentences on how the CEO of a U.S. company that designs, makes and sells precision power conversion, measurement and control instruments, or of a related industry, might read this story. Name the customers, processes or products it touches (for example plasma and RF power for etch and deposition, data-center power conversion, test and measurement), what the CEO would ask or verify next, and what remains too uncertain to act on. Base it only on facts in the story. Never name AEIS or Advanced Energy Industries, never give investment advice or revenue predictions. It appears only in the Excel Full sheet under 「AI 解讀」 / "AI interpretation"; the website stays facts-only.
 
 7. DATA FOR CHARTS
 The site turns these fields into visuals; fill them carefully.
@@ -114,7 +115,7 @@ On Sundays, or whenever a story concerns an exhibition or conference, review the
 10. EXCEL DOWNLOADS
 Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires python3 with openpyxl and node). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:
 docs/exports/day-YYYY-MM-DD.xlsx, day-YYYY-MM-DD-en.xlsx, week-SUNDAY.xlsx, week-SUNDAY-en.xlsx
-and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has two sheets: 摘要版 / Summary (one row per story in website order, or per theme for the week, with the number, a bold headline, the summary and a separate event-date column) and 完整版 / Full (the same stories with the full paragraph built from summary, location, sections and caveats, plus a CEO lens column from ceoView; the weekly Full sheet lists each referenced story by theme). The content comes entirely from title, summary, sections, location, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. The builder needs python3 with openpyxl and node. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
+and updates manifest.exports, exportsEn, exportVersions and exportVersionsEn. Each workbook has two sheets: 摘要版 / Summary (one row per story in website order, or per theme for the week, with the number, a bold headline, the summary and a separate event-date column) and 完整版 / Full (the same stories with the full paragraph built from summary, location, sections and caveats, plus an 「AI 解讀」 / "AI interpretation" column from ceoView; the weekly Full sheet lists each referenced story by theme). The content comes entirely from title, summary, sections, location, depth, brief order and the weekly digest, so write those carefully. Do not add other sheets. The builder needs python3 with openpyxl and node. Run scripts/check-xlsx.py on every export. Never publish a download path pointing to a missing or stale file.
 
 11. VALIDATE
 Run npm test (scripts/check.mjs, scripts/check-xlsx.py and unit tests). It checks bilingual fields, dates, unique ids, HTTPS sources, brief and deep references, weekly references, the calendar and Excel structure. Also self-check: every brief and deep id exists; leads have rich factual sections; each quantifiable story has metrics with consistent units; chain wording lands on the intended stage; no simplified characters; no AEIS mention; no internal progress notes.
@@ -151,10 +152,11 @@ If deployment is pending or failed, say so and link the Actions run; never imply
    - 有 `reportedRate`（YoY／QoQ）或 `base` 的數字，會在該則數字卡顯示成長率或前值；不同主體的成長率不會放在同一張圖比較
    - `market.chain` 與 `market.industries` 的用詞決定新聞在供應鏈流程圖上的位置
    - 原指令 STORY PRESENTATION UPDATE 中「不要拆出 separate metric blocks」需要改寫：段落與來源連結之後，可以顯示由 `metrics` 產生的圖表與數字卡
-7. **Excel 完整版新增「CEO 觀點（AI 分析，非事實）」欄**：取自新欄位 `story.ceoView`，以美國精密電源轉換、量測與控制儀器公司或相關產業 CEO 的角度解讀。只出現在 Excel 完整版，網站維持只呈現事實。
+7. **Excel 完整版新增「AI 解讀」欄**：取自新欄位 `story.ceoView`，以美國精密電源轉換、量測與控制儀器公司或相關產業 CEO 的角度解讀。只出現在 Excel 完整版，網站維持只呈現事實。
 8. **新聞時效**：事件日期應在刊期前 72 小時內；較舊的統計或公告改放產業脈絡（context），除非過去 24 小時有新進展。
-9. **產業行事曆**：新增 `docs/events.json` 與「行事曆」檢視。只收錄日期經主辦單位或權威來源核對的活動。
-10. **列印按鈕移除**：改用瀏覽器列印，列印樣式保留。
+9. **文字更自然**：段落不再自動接「查證信心」與「指標：數值」；地點改在標題下方顯示，查證信心改為標題旁標籤。指令新增寫作規則：先講發生什麼與為什麼重要、限制集中在最後、不用內部編輯用語。
+10. **產業行事曆**：新增 `docs/events.json` 與「行事曆」檢視。只收錄日期經主辦單位或權威來源核對的活動。
+11. **列印按鈕移除**：改用瀏覽器列印，列印樣式保留。
 
 ## 三、改版說明與建議（已寫入上方完整指令）
 

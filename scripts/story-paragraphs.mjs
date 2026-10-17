@@ -9,7 +9,7 @@ for(const date of dates){
  const edition=JSON.parse(fs.readFileSync(path.join(root,'docs/editions',date+'.json'),'utf8'));
  out[date]=Object.fromEntries(edition.stories.map(s=>{
   const story={...s,editionDate:date,sourceId:s.id};
-  return [s.id,{zh:storyParagraph(story,'zh',true),en:storyParagraph(story,'en',true)}];
+  return [s.id,{zh:storyParagraph(story,'zh',true,{location:true}),en:storyParagraph(story,'en',true,{location:true})}];
  }));
 }
 process.stdout.write(JSON.stringify(out));

@@ -25,7 +25,7 @@ INK, TEXT, MUTED, BRAND, LINE, LEAD = '14322B', '3B4A44', '7A8780', '1F6B56', 'E
 WIDTH = {'A': 6, 'B': 86, 'C': 13}
 HEADS = {'zh': ('#', '新聞', '事件日期'), 'en': ('#', 'Story', 'Event date')}
 # Full sheet only: an interpretation column kept visibly apart from the facts.
-CEO_HEAD = {'zh': 'CEO 觀點（AI 分析，非事實）', 'en': 'CEO lens (AI analysis, not fact)'}
+CEO_HEAD = {'zh': 'AI 解讀', 'en': 'AI interpretation'}
 CEO_WIDTH, CEO_FILL = 52, 'FFF8E8'
 DATE_FORMAT = {'zh': 'm/d', 'en': 'mmm d'}
 
