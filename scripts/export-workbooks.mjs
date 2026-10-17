@@ -49,7 +49,15 @@ async function create(period,marketRows,metricEditions){
   range.format.rowHeight=70;range.format.verticalAlignment='top';range.format.wrapText=true;
   headers.forEach((_,i)=>sheet.getRange(`${col(i)}1:${col(i)}${end}`).format.columnWidth=widths[i]||32);
   const header=sheet.getRange(`A1:${last}1`);header.format.fill='#193D34';header.format.font={name:'Noto Sans CJK TC',size:12,bold:true,color:'#FFFFFF'};header.format.rowHeight=42;header.format.horizontalAlignment='center';header.format.verticalAlignment='center';
-  if(rows.length){const t=sheet.tables.add(`A1:${last}${end}`,true,name);t.showFilterButton=true;}
+  if(rows.length){
+   const t=sheet.tables.add(`A1:${last}${end}`,true,name);
+   // Use a neutral theme and explicit white fills so table data never picks
+   // up the default alternating colors when opened in Excel.
+   t.style='TableStyleLight1';t.showBandedColumns=false;t.showFilterButton=true;
+   const body=sheet.getRange(`A2:${last}${end}`);
+   body.format.fill='#FFFFFF';
+   body.format.borders={insideHorizontal:{style:'thin',color:'#DCE4DE'}};
+  }
   sheet.freezePanes.freezeRows(1);sheet.freezePanes.freezeColumns(3);
   return end;
  }
