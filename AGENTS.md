@@ -74,7 +74,8 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 ## Excel CEO lens (exception to facts-first)
 
 - New stories include `ceoView {zh,en}`: 2 to 3 sentences on how the CEO of a U.S. company that designs, makes and sells precision power conversion, measurement and control instruments, or a related industry, might read the story: which customers, processes or products it touches, what that CEO would ask or verify next, and what is too uncertain to act on.
-- It appears only in the Excel Full sheet, in its own column labelled as AI analysis. The website, summaries and weekly digests stay facts-only.
+- Write it without mentioning a CEO or any role; phrase it from the supplier side (for example 對精密電源與量測設備業者而言, 值得追問的是).
+- It appears only in the Excel Full sheet, in its own column labelled 「AI 解讀」 / "AI interpretation". The website, summaries and weekly digests stay facts-only.
 - Never name AEIS or Advanced Energy Industries. Do not give investment advice, predict any company's revenue, or present the view as fact; tie it to facts already in the story and state uncertainty.
 
 ## Freshness

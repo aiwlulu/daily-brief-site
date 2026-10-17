@@ -249,8 +249,8 @@
         "en": "Micron AATT2 advanced assembly and test plant, Taichung, Taiwan"
       },
       "ceoView": {
-        "zh": "台積電 CoWoS 量產與美光 HBM 封測廠啟用，代表蝕刻、沉積等前段製程與先進封裝的電漿與射頻電源需求仍在延續。CEO 會追問台灣客戶的設備交機排程是否跟上這些產能、哪些製程需要更高精度的功率控制，以及在台服務與備品是否足以支援新廠爬坡。新增產出未披露，應以客戶實際下單與交機時程驗證，不宜直接推估營收。",
-        "en": "TSMC's CoWoS production and Micron's HBM assembly-and-test opening point to continued demand for plasma and RF power in etch, deposition and advanced packaging. A CEO would ask whether Taiwanese customers' tool delivery schedules track this capacity, which processes need tighter power control, and whether local service and spares can support new-fab ramps. Added output is undisclosed, so customer orders and tool-delivery timing are the evidence to watch, not a revenue estimate."
+        "zh": "台積電 CoWoS 量產與美光 HBM 封測廠啟用，代表蝕刻、沉積等前段製程與先進封裝的電漿與射頻電源需求仍在延續。值得追問的是：台灣客戶的設備交機排程是否跟上這些產能、哪些製程需要更高精度的功率控制，以及在台服務與備品是否足以支援新廠爬坡。新增產出尚未披露，較適合以客戶實際下單與交機時程驗證，不宜直接推估營收。",
+        "en": "TSMC's CoWoS production and Micron's HBM plant opening point to continued demand for plasma and RF power in etch, deposition and advanced packaging. Worth asking: do Taiwanese customers' tool delivery schedules track this capacity, which processes need tighter power control, and is local service and spares coverage ready for new-fab ramps? Added output is undisclosed, so customer orders and delivery timing are better evidence than a revenue estimate."
       }
     },
     {
@@ -432,8 +432,8 @@
         "en": "San Jose McEnery Convention Center, San Jose, California, United States"
       },
       "ceoView": {
-        "zh": "800 VDC 機櫃供電與液冷成為台廠展示重點，顯示資料中心電源架構正朝高壓直流發展。對電源轉換廠商而言，關鍵在轉換效率、功率密度與認證時程，以及與台達、光寶等台灣電源廠是競爭還是合作。CEO 會檢視產品藍圖是否涵蓋 800 V 架構、是否需要與 ODM 及雲端客戶共同驗證；展示不等於量產訂單，仍需追蹤實際部署。",
-        "en": "800 VDC rack power and liquid cooling led Taiwanese exhibits, signalling a shift toward high-voltage DC in data-center power. For a power-conversion maker the questions are efficiency, power density and qualification timing, and whether Delta or Lite-On are competitors or partners. A CEO would check whether the roadmap covers 800 V architectures and whether joint validation with ODMs and cloud customers is needed; exhibits are not production orders."
+        "zh": "800 VDC 機櫃供電與液冷成為台廠展示重點，顯示資料中心電源架構正朝高壓直流發展。對電源轉換業者而言，關鍵在轉換效率、功率密度與認證時程，以及與台達、光寶等台灣電源廠是競爭還是合作。可以檢視產品藍圖是否涵蓋 800 V 架構、是否需要與 ODM 及雲端客戶共同驗證；展示不等於量產訂單，仍需追蹤實際部署。",
+        "en": "800 VDC rack power and liquid cooling led Taiwanese exhibits, signalling a shift toward high-voltage DC in data-center power. For power-conversion suppliers the questions are efficiency, power density and qualification timing, and whether Delta or Lite-On are competitors or partners. A useful check is whether product roadmaps cover 800 V architectures and need joint validation with ODMs and cloud customers; exhibits are not production orders."
       }
     },
     {
@@ -567,8 +567,8 @@
         }
       ],
       "ceoView": {
-        "zh": "面板廠跨入玻璃基板與 TGV 封裝零組件，先進封裝材料的供應來源可能增加。玻璃加工、雷射鑽孔與鍍膜同樣需要穩定的電漿與精密電源控制，CEO 可能把這類業者視為新的製程設備客群；但量產要等兩到三年，客戶認證也未確定，較適合先建立技術接觸並觀察驗證進度。",
-        "en": "A panel maker moving into glass substrates and TGV packaging parts could widen the supply base for advanced-packaging materials. Glass processing, laser drilling and coating also rely on stable plasma and precision power control, so a CEO might see a new process-tool customer group. Volume production is two to three years out and customer qualification is unconfirmed, so early technical contact and tracking qualification fit better than near-term plans."
+        "zh": "面板廠跨入玻璃基板與 TGV 封裝零組件，先進封裝材料的供應來源可能增加。玻璃加工、雷射鑽孔與鍍膜同樣需要穩定的電漿與精密電源控制，這類業者可能成為新的製程設備客群；但量產要等兩到三年，客戶認證也未確定，較適合先建立技術接觸並觀察驗證進度。",
+        "en": "A panel maker moving into glass substrates and TGV packaging parts could widen the supply base for advanced-packaging materials. Glass processing, laser drilling and coating also rely on stable plasma and precision power control, so such makers could become a new process-tool customer group. Volume production is two to three years out and qualification is unconfirmed, so early technical contact and tracking qualification fit better than near-term plans."
       }
     },
     {
@@ -700,8 +700,8 @@
         }
       ],
       "ceoView": {
-        "zh": "終端 AI PC 上市主要牽動 PC 需求，與精密電源設備的直接關聯較低；間接影響在於 CoWoS 需求增加，帶動上游設備與電源。CEO 多半會把它視為 AI 需求從資料中心延伸到終端的訊號，持續觀察出貨量，而非立即調整策略。",
-        "en": "AI PC launches mainly affect PC demand and relate only indirectly to precision power equipment, through added CoWoS demand upstream. A CEO would likely read it as AI demand spreading from data centers to devices and watch shipments rather than change strategy now."
+        "zh": "終端 AI PC 上市主要牽動 PC 需求，與精密電源設備的直接關聯較低；間接影響在於 CoWoS 需求增加，帶動上游設備與電源。比較適合把它視為 AI 需求從資料中心延伸到終端的訊號，持續觀察出貨量，而非據此調整策略。",
+        "en": "AI PC launches mainly affect PC demand and relate only indirectly to precision power equipment, through added CoWoS demand upstream. It reads best as a sign of AI demand spreading from data centers to devices, worth tracking through shipments rather than acting on now."
       }
     },
     {
@@ -871,8 +871,8 @@
         "en": "Texas, United States (planned; specific site not yet confirmed)"
       },
       "ceoView": {
-        "zh": "台灣廠商若在德州等地設立海外園區，美國在地的電子製造與設備需求可能增加，總部在美國的電源與量測設備商有機會就近服務台灣客戶的美國據點。不過目前只是規劃估算，用地、資金與進駐廠商都未確認；CEO 會先向既有台灣客戶確認其美國擴廠時程，再評估在地銷售與服務配置。",
-        "en": "Taiwanese industrial parks in Texas could add local electronics manufacturing and tool demand, letting a U.S.-based power and measurement company serve Taiwanese customers' U.S. sites up close. These are planning estimates with land, funding and tenants unconfirmed, so a CEO would first confirm existing Taiwanese customers' U.S. timelines before planning local sales and service."
+        "zh": "台灣廠商若在德州等地設立海外園區，美國在地的電子製造與設備需求可能增加，總部在美國的電源與量測設備商有機會就近服務台灣客戶的美國據點。不過目前只是規劃估算，用地、資金與進駐廠商都未確認，宜先向既有台灣客戶確認其美國擴廠時程，再評估在地銷售與服務配置。",
+        "en": "Taiwanese industrial parks in Texas could add local electronics manufacturing and tool demand, letting U.S.-based power and measurement suppliers serve Taiwanese customers' U.S. sites up close. These are planning estimates with land, funding and tenants unconfirmed, so confirming existing Taiwanese customers' U.S. timelines comes before planning local sales and service."
       }
     },
     {
@@ -1030,8 +1030,8 @@
         }
       ],
       "ceoView": {
-        "zh": "台灣全年成長預測上修至 12.16%，主要由 AI 需求與企業投資帶動，代表台灣客戶的資本支出環境仍偏強。CEO 會把它當作總體背景，搭配客戶個別擴產計畫、匯率與地緣風險一起判斷；預測仍可能修正，不宜單獨作為接單依據。",
-        "en": "Taiwan's growth forecast rising to 12.16%, driven by AI demand and corporate investment, suggests a still-strong capex environment among Taiwanese customers. A CEO would treat it as macro background alongside individual customer expansion plans, currency and geopolitical risk; forecasts can be revised and should not drive order expectations on their own."
+        "zh": "台灣全年成長預測上修至 12.16%，主要由 AI 需求與企業投資帶動，代表台灣客戶的資本支出環境仍偏強。這比較適合當作總體背景，搭配客戶個別擴產計畫、匯率與地緣風險一起判斷；預測仍可能修正，不宜單獨作為接單依據。",
+        "en": "Taiwan's growth forecast rising to 12.16%, driven by AI demand and corporate investment, suggests a still-strong capex environment among Taiwanese customers. It works best as macro background alongside individual customer expansion plans, currency and geopolitical risk; forecasts can be revised and should not drive order expectations on their own."
       }
     },
     {
@@ -1195,8 +1195,8 @@
         "en": "Tan Phu Trung Industrial Park, Ho Chi Minh City, Vietnam"
       },
       "ceoView": {
-        "zh": "胡志明市資料中心電價尚未定案，會影響當地 AI 資料中心的成本與時程。電價越高，客戶越重視電源轉換效率與能源管理，這是高效率電源產品的賣點；但專案規模與時程仍不確定，CEO 會把越南列為觀察市場，等電價與首期 50 MW 時程明朗後再投入資源。",
-        "en": "Unsettled data-center tariffs in Ho Chi Minh City affect the cost and timing of local AI data centers. Higher tariffs make conversion efficiency and energy management more valuable, which favours high-efficiency power products, but project scale and timing remain uncertain. A CEO would keep Vietnam on a watch list until tariffs and the 50 MW first-phase timeline are clear."
+        "zh": "胡志明市資料中心電價尚未定案，會影響當地 AI 資料中心的成本與時程。電價越高，客戶越重視電源轉換效率與能源管理，這是高效率電源產品的賣點；但專案規模與時程仍不確定，越南較適合列為觀察市場，等電價與首期 50 MW 時程明朗後再投入資源。",
+        "en": "Unsettled data-center tariffs in Ho Chi Minh City affect the cost and timing of local AI data centers. Higher tariffs make conversion efficiency and energy management more valuable, which favours high-efficiency power products, but project scale and timing remain uncertain. Vietnam fits a watch list until tariffs and the 50 MW first-phase timeline are clear."
       }
     },
     {
@@ -1422,8 +1422,8 @@
         "en": "Kuala Lumpur Convention Centre (KLCC), Kuala Lumpur, Malaysia"
       },
       "ceoView": {
-        "zh": "馬來西亞積極招募設計、製程、設備與廠務人才，反映當地半導體後段與設計聚落持續擴張。對設備商而言，這代表當地客戶與裝機量可能增加，也意味工程與服務人才競爭更激烈。CEO 會檢視在馬來西亞的服務據點與人力布局，以及能否與當地大學和園區合作培訓。",
-        "en": "Malaysia's push to hire design, process, equipment and facilities staff reflects growing back-end and design clusters. For a tool supplier that means more local customers and installed tools, and tighter competition for engineering and service talent. A CEO would review Malaysian service coverage and staffing, and partnerships with local universities and parks for training."
+        "zh": "馬來西亞積極招募設計、製程、設備與廠務人才，反映當地半導體後段與設計聚落持續擴張。對設備商而言，這代表當地客戶與裝機量可能增加，也意味工程與服務人才競爭更激烈。值得檢視在馬來西亞的服務據點與人力布局，以及能否與當地大學和園區合作培訓。",
+        "en": "Malaysia's push to hire design, process, equipment and facilities staff reflects growing back-end and design clusters. For tool suppliers that means more local customers and installed tools, and tighter competition for engineering and service talent. Worth reviewing: Malaysian service coverage and staffing, and training partnerships with local universities and parks."
       }
     },
     {
@@ -1526,8 +1526,8 @@
         }
       },
       "ceoView": {
-        "zh": "NVIDIA 與 KLA、Advantest 等檢測、測試及工廠自動化業者合作，代表工廠 AI 需要大量設備資料與即時控制。對精密量測與控制儀器廠商而言，設備資料介面、可程式化與即時回饋能力可能成為新的產品要求；CEO 會評估自家產品能否提供這類資料、是否需要加入相關生態系，但目前部署與效益仍未完整公開。",
-        "en": "NVIDIA's work with KLA, Advantest and factory-automation firms shows factory AI depends on rich tool data and real-time control. For precision measurement and control instruments, data interfaces, programmability and real-time feedback may become product requirements. A CEO would assess whether products can supply such data and whether to join these ecosystems, though deployments and benefits are not yet fully disclosed."
+        "zh": "NVIDIA 與 KLA、Advantest 等檢測、測試及工廠自動化業者合作，代表工廠 AI 需要大量設備資料與即時控制。對精密量測與控制儀器業者而言，設備資料介面、可程式化與即時回饋能力可能成為新的產品要求；可評估自家產品能否提供這類資料、是否需要加入相關生態系，但目前部署與效益仍未完整公開。",
+        "en": "NVIDIA's work with KLA, Advantest and factory-automation firms shows factory AI depends on rich tool data and real-time control. For precision measurement and control instrument makers, data interfaces, programmability and real-time feedback may become product requirements. It is worth assessing whether products can supply such data and whether to join these ecosystems, though deployments and benefits are not yet fully disclosed."
       }
     }
   ],
