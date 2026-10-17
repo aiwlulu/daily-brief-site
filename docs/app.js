@@ -64,7 +64,7 @@ function renderPeriod() {
   document.body.dataset.view=period;
   const zh = lang === 'zh', range = periodRange(selectedDate,period==='week'?'week':'day');
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
-  const exportKey=period==='week'?range.start:selectedDate;
+  const exportKey=period==='events'?events?.updated:period==='week'?range.start:selectedDate;
   // English interface downloads the English workbook when one exists.
   const en=!zh&&exportPathsEn[period]?.[exportKey];
   const exportPath=en?exportPathsEn[period][exportKey]:exportPaths[period]?.[exportKey];
@@ -73,8 +73,8 @@ function renderPeriod() {
   if(exportPath){excel.href=exportPath+(exportVersion?'?v='+exportVersion:'');excel.download=exportPath.split('/').pop();}
   else excel.removeAttribute('href');
   excel.replaceChildren(icon('download'),node('span','Excel'));
-  excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'重點 Excel':'Download '+(period==='week'?'weekly':'daily')+' highlights as Excel');
-  excel.dataset.tooltip=zh?'每則標題與一句重點':'Each headline with a one-line summary';
+  if(period==='events'){excel.setAttribute('aria-label',zh?'下載產業行事曆 Excel':'Download the industry calendar as Excel');excel.dataset.tooltip=zh?'依月份排列的活動日程':'Events by month';}
+  else{excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'重點 Excel':'Download '+(period==='week'?'weekly':'daily')+' highlights as Excel');excel.dataset.tooltip=zh?'每則標題與一句重點':'Each headline with a one-line summary';}
   // Visible text labels; no tooltip repeating them.
   el('view-day').replaceChildren(icon('today'),node('span',zh?'當日':'Day'));
   el('view-week').replaceChildren(icon('week'),node('span',zh?'當週':'Week'));

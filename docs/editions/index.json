@@ -34,6 +34,9 @@
     },
     "week": {
       "2026-10-11": "./exports/week-2026-10-11.xlsx"
+    },
+    "events": {
+      "2026-10-17": "./exports/events-2026-10-17.xlsx"
     }
   },
   "exportVersions": {
@@ -42,6 +45,9 @@
     },
     "week": {
       "2026-10-11": "1fffec148ec1"
+    },
+    "events": {
+      "2026-10-17": "771c00b42f67"
     }
   },
   "exportsEn": {
@@ -50,6 +56,9 @@
     },
     "week": {
       "2026-10-11": "./exports/week-2026-10-11-en.xlsx"
+    },
+    "events": {
+      "2026-10-17": "./exports/events-2026-10-17-en.xlsx"
     }
   },
   "exportVersionsEn": {
@@ -58,6 +67,9 @@
     },
     "week": {
       "2026-10-11": "408d38f94e0d"
+    },
+    "events": {
+      "2026-10-17": "bacaf7e577b4"
     }
   }
 }

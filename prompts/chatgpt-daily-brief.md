@@ -107,7 +107,7 @@ Summaries are about 2 sentences. References must point to real published stories
 On Sundays, or whenever a story concerns an exhibition or conference, review the calendar:
 - Check events in the next 60 days for official changes and add newly announced major events relevant to these supply chains (SEMICON Taiwan / Southeast Asia / Japan / Korea / West / Europa, OCP Global / APAC / EMEA, COMPUTEX, TPCA Show, Touch Taiwan, IEDM, ISSCC, VLSI Symposium, Hot Chips, SC, electronica, productronica and comparable Taiwan and Southeast Asian events).
 - Entry: {id, start, end, type: "semiconductor" | "datacenter" | "packaging" | "research" | "systems", region: "tw" | "sea" | "nea" | "us" | "eu", name:{zh,en}, place:{zh,en}, focus:{zh,en}, source:{name:{zh,en}, url}}.
-- Dates and venue must come from an organizer page, official release or authoritative report you opened. Record material discrepancies in focus. Omit events you cannot verify. Keep past events of the last 30 days, remove older ones, and set "updated" to today.
+- Dates and venue must come from an organizer page, official release or authoritative report you opened. Record material discrepancies in focus. Omit events you cannot verify. Keep past events of the last 30 days, remove older ones, and set "updated" to today. Then run python3 scripts/build-workbooks.py REPO_ROOT events to rebuild the calendar workbooks (events-UPDATED.xlsx and events-UPDATED-en.xlsx) and include them and the manifest in the same commit.
 
 10. EXCEL DOWNLOADS
 Run python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD after the edition, weekly file and manifest are final (requires openpyxl; no other runtime). It writes four highlight workbooks, Traditional Chinese and English, for the day and the current week:

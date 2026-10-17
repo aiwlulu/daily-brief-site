@@ -1,7 +1,9 @@
-"""Build the day and week highlight workbooks in Chinese and English.
+"""Build highlight and calendar workbooks in Chinese and English.
 
 Usage: python3 scripts/build-workbooks.py REPO_ROOT YYYY-MM-DD
-Writes docs/exports/{day,week}-DATE[-en].xlsx and updates the manifest.
+       python3 scripts/build-workbooks.py REPO_ROOT events
+Writes docs/exports/{day,week}-DATE[-en].xlsx and events-UPDATED[-en].xlsx
+and updates the manifest. The date form also rebuilds the calendar.
 """
 import datetime as dt
 import hashlib
@@ -103,11 +105,126 @@ def save(entries, title, lang, path):
     return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
 
 
+REGIONS = {'tw': ('台灣', 'Taiwan'), 'sea': ('東南亞', 'Southeast Asia'), 'nea': ('日韓', 'Japan & Korea'),
+           'us': ('美國', 'United States'), 'eu': ('歐洲', 'Europe')}
+TYPES = {'semiconductor': ('半導體', 'Semiconductor'), 'datacenter': ('資料中心', 'Data center'),
+         'packaging': ('電路板與載板', 'PCB & substrate'), 'research': ('學術研討', 'Research'),
+         'systems': ('電腦與系統', 'Computing systems')}
+FOCUS_FILL, FOCUS_INK, PAST = 'E8F1FC', '1F5FAF', 'A3ACA7'
+
+
+def date_range(start, end, lang):
+    a, b = dt.date.fromisoformat(start), dt.date.fromisoformat(end)
+    if lang == 'zh':
+        return f'{a.month}/{a.day} – {b.month}/{b.day}'
+    if a.month == b.month:
+        return a.strftime('%b ') + f'{a.day}–{b.day}'
+    return a.strftime('%b ') + str(a.day) + ' – ' + b.strftime('%b ') + str(b.day)
+
+
+def schedule(data, lang, today, path):
+    # Month-grouped schedule: dark month bands, one row per event.
+    i = 0 if lang == 'zh' else 1
+    font = FONTS[lang]
+    wb = Workbook()
+    ws = wb.active
+    ws.title = '行事曆' if lang == 'zh' else 'Calendar'
+    ws.sheet_view.showGridLines = False
+    ws.sheet_view.zoomScale = 110
+    widths = {'A': 17, 'B': 56, 'C': 15, 'D': 42, 'E': 15}
+    for col, width in widths.items():
+        ws.column_dimensions[col].width = width
+    ws.merge_cells('A1:E1')
+    ws['A1'] = '產業行事曆' if lang == 'zh' else 'Industry calendar'
+    ws['A1'].font = Font(name=font, size=18, bold=True, color=INK)
+    ws['A1'].alignment = Alignment(vertical='center')
+    ws.row_dimensions[1].height = 36
+    ws.merge_cells('A2:E2')
+    ws['A2'] = (f"核對至 {data['updated']} · 藍色為台灣與東南亞" if lang == 'zh'
+                else f"Checked {data['updated']} · Taiwan and Southeast Asia in blue")
+    ws['A2'].font = Font(name=font, size=10, color=MUTED)
+    ws.row_dimensions[2].height = 20
+    heads = ('日期', '活動', '地區', '地點', '類型') if lang == 'zh' else ('Dates', 'Event', 'Region', 'Venue', 'Type')
+    for col, text in enumerate(heads, 1):
+        cell = ws.cell(3, col, text)
+        cell.font = Font(name=font, size=10, bold=True, color=MUTED)
+        cell.border = Border(bottom=Side(style='medium', color=INK))
+        cell.alignment = Alignment(vertical='bottom')
+    ws.row_dimensions[3].height = 22
+    row, month = 4, None
+    for e in sorted(data['events'], key=lambda e: e['start']):
+        key = e['start'][:7]
+        if key != month:
+            month = key
+            first = dt.date.fromisoformat(key + '-01')
+            ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=5)
+            band = ws.cell(row, 1, f'{first.year} 年 {first.month} 月' if lang == 'zh' else first.strftime('%B %Y'))
+            band.font = Font(name=font, size=12, bold=True, color='FFFFFF')
+            band.alignment = Alignment(vertical='center', indent=1)
+            for col in range(1, 6):
+                ws.cell(row, col).fill = PatternFill('solid', fgColor=INK)
+            ws.row_dimensions[row].height = 24
+            row += 1
+        past = e['end'] < today
+        focus = e['region'] in ('tw', 'sea')
+        ink, text = (PAST, PAST) if past else (INK, TEXT)
+        when = ws.cell(row, 1, date_range(e['start'], e['end'], lang))
+        when.font = Font(name=font, size=12, bold=True, color=ink)
+        name = e['name'][lang]
+        detail = e['focus'][lang]
+        event = ws.cell(row, 2)
+        event.value = CellRichText(
+            TextBlock(InlineFont(rFont=font, sz=12, b=True, color=ink), name + '\n'),
+            TextBlock(InlineFont(rFont=font, sz=10, color=PAST if past else MUTED), detail))
+        region = ws.cell(row, 3, REGIONS[e['region']][i])
+        region.font = Font(name=font, size=11, bold=focus, color=PAST if past else FOCUS_INK if focus else text)
+        place = ws.cell(row, 4, e['place'][lang])
+        place.font = Font(name=font, size=11, color=text)
+        kind = ws.cell(row, 5, TYPES[e['type']][i])
+        kind.font = Font(name=font, size=10, color=PAST if past else MUTED)
+        for col in range(1, 6):
+            cell = ws.cell(row, col)
+            cell.alignment = Alignment(wrap_text=True, vertical='top', indent=1 if col == 1 else 0)
+            cell.border = Border(bottom=Side(style='thin', color=LINE))
+            cell.fill = PatternFill('solid', fgColor=FOCUS_FILL if focus and not past else 'FFFFFF')
+        ws.row_dimensions[row].height = max(
+            lines(name, 12, widths['B']) * 18 + lines(detail, 10, widths['B']) * 14,
+            lines(e['place'][lang], 11, widths['D']) * 16) + 12
+        row += 1
+    ws.freeze_panes = 'A4'
+    ws.print_title_rows = '1:3'
+    ws.page_setup.orientation = 'landscape'
+    ws.page_setup.fitToWidth = 1
+    ws.page_setup.fitToHeight = 0
+    ws.sheet_properties.pageSetUpPr.fitToPage = True
+    ws.sheet_properties.tabColor = BRAND
+    wb.properties.title = ws['A1'].value
+    wb.save(path)
+    return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
+
+
+def build_calendar(docs, manifest):
+    data = json.loads((docs / 'events.json').read_text())
+    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
+    for stale in (docs / 'exports').glob('events-*.xlsx'):
+        stale.unlink()
+    for lang, suffix, ekey, vkey in (('zh', '', 'exports', 'exportVersions'), ('en', '-en', 'exportsEn', 'exportVersionsEn')):
+        name = f"events-{data['updated']}{suffix}.xlsx"
+        manifest.setdefault(vkey, {})['events'] = {data['updated']: schedule(data, lang, today, docs / 'exports' / name)}
+        manifest.setdefault(ekey, {})['events'] = {data['updated']: './exports/' + name}
+        print('Wrote', name)
+
+
 def main():
     root, date = Path(sys.argv[1]).resolve(), sys.argv[2]
     docs = root / 'docs'
     manifest_path = docs / 'editions/index.json'
     manifest = json.loads(manifest_path.read_text())
+    (docs / 'exports').mkdir(exist_ok=True)
+    build_calendar(docs, manifest)
+    if date == 'events':
+        manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + '\n')
+        return
     read = lambda rel: json.loads((docs / rel).read_text())
     edition = read(next(e['path'] for e in manifest['editions'] if e['date'] == date))
     start = week_start(date)

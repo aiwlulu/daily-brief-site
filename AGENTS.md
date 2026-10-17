@@ -64,6 +64,7 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 ## Industry calendar
 
 - `docs/events.json` feeds the 行事曆 view. Include major semiconductor, packaging, data-center and research events, emphasising Taiwan and Southeast Asia; foreign events qualify when directly relevant to these supply chains.
+- The calendar view offers a schedule workbook (`docs/exports/events-UPDATED[-en].xlsx`): title, month bands, one row per event with dates, bold name with a one-line focus, region, venue and type; Taiwan and Southeast Asia rows are tinted and ended events are grey. Rebuild it with `python3 scripts/build-workbooks.py REPO_ROOT events` whenever `docs/events.json` changes (the date form rebuilds it too).
 - Each event needs dates, region, type, bilingual name/place/focus and an inspected organizer or authoritative HTTPS source. Record material date or venue discrepancies in `focus`. Omit events whose dates cannot be verified. Update `updated` when checked.
 
 ## Interface defaults
