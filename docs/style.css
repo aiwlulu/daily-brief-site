@@ -143,5 +143,21 @@ body[data-view="day"] .story{grid-template-columns:32px minmax(0,1fr);gap:22px;p
  .editor-note{padding:16px 18px}.story-body{padding-left:16px}.story-body .metric small{font-size:12px}
  .story details>summary{font-size:14px}.news .section-top{margin-bottom:18px}
 }
+/* Larger reading type on laptops and desktop displays. */
+@media screen and (min-width:801px){
+ .brief-list a{font-size:19px;line-height:1.85;padding:15px 0}
+ .quick-brief .lead p{font-size:19px;line-height:1.9}
+ .summary-text,.editor-note p,.detail-section p,.week-highlight p{font-size:20px;line-height:1.9}
+ .story h3,.week-highlight h3{font-size:28px;line-height:1.6}
+ .story-meta,.week-category,.source-label,.confidence,.story-body .metric small{font-size:14px}
+ .story-sources a,.source-row,.source-links a,.week-references a{font-size:15px}
+ .source-kind,.editor-note .eyebrow{font-size:12px}
+ .story details>summary,.detail-section h4,.memo-grid h4{font-size:16px}
+ .deep-card h3,#context-content h3{font-size:21px}
+ .deep-card p,#context-content p,.memo-grid p,.sources>p,.lower-item{font-size:18px;line-height:1.85}
+ body[data-view="day"] .hero #intro,body[data-view="week"] #intro{font-size:17px}
+ .filters button,.search,.search input{font-size:15px}
+ .section-top span,.edition-meta{font-size:14px}
+}
 @media print{.quick-brief{break-inside:avoid}.brief-layout{display:block}.quick-brief .lead{margin-top:16px}.editor-note{background:#f0f0e9}.story-sources a{font-size:11px}.story-body{border:0;padding-left:0}}
 
