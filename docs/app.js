@@ -132,6 +132,8 @@ const words = {
   en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Analysis',confidence:'Confidence',sources:'Sources',count:n => n===1?'1 story':n+' stories',empty:'No stories match your search.'}
 };
 const t = value => value[lang];
+// Source names may be plain strings (older data) or {zh,en}.
+const label = value => typeof value==='string'?value:value[lang]||value.zh;
 function node(tag, text, className) {
   const n = document.createElement(tag);
   if (text !== undefined) n.textContent = text;
@@ -139,7 +141,7 @@ function node(tag, text, className) {
   return n;
 }
 function link(source) {
-  const a = node('a', source.name);
+  const a = node('a', label(source.name));
   a.append(icon('external'));
   a.href = source.url;
   a.target = '_blank';

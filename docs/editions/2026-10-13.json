@@ -17,7 +17,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "2027 年實際部署量、晶片良率、每百萬 token 完整成本，以及可重現的獨立效能測試。", "en": "Actual deployments, yields, total cost per million tokens and reproducible independent benchmarks."}}
       ],
       "confidence": {"zh": "高：產品與計畫；中：效能優勢", "en": "High: product and plans. Medium: comparative performance."},
-      "sources": [{"name": "Microsoft · 官方公告", "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/", "type": "First-hand"}, {"name": "Reuters", "url": "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/", "type": "Second-hand"}]
+      "sources": [{"name": {"zh": "Microsoft · 官方公告", "en": "Microsoft · official announcement"}, "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/", "type": "First-hand"}, {"name": "Reuters", "url": "https://www.reuters.com/business/microsoft-plans-huge-deployment-its-own-ai-chips-with-an-eye-saving-costs-2026-10-12/", "type": "Second-hand"}]
     },
     {
       "id": 2, "category": "tech", "pick": true,
@@ -32,7 +32,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "第四季平均售價、庫存、同業擴產及 2027 年新廠裝機計畫。", "en": "Q4 selling prices, inventories, competitor capacity and 2027 equipment installation plans."}}
       ],
       "confidence": {"zh": "高：已公布自結數據", "en": "High: disclosed preliminary results."},
-      "sources": [{"name": "經濟日報 · 財報報導", "url": "https://money.udn.com/money/story/5612/9810361", "type": "Second-hand"}]
+      "sources": [{"name": {"zh": "經濟日報 · 財報報導", "en": "Economic Daily News · earnings report"}, "url": "https://money.udn.com/money/story/5612/9810361", "type": "Second-hand"}]
     },
     {
       "id": 3, "category": "tech",
@@ -45,7 +45,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "試點轉正式合約的比例、服務毛利率及大規模部署情況。合作公告不足以證明專案普遍產生正向報酬。", "en": "Pilot-to-contract conversion, service margins and scaled deployments. A partnership announcement alone does not establish positive project returns."}}
       ],
       "confidence": {"zh": "高：合作；財報數字沿用原日報，待對照原公告", "en": "High: partnership. Earnings figures retained from supplied brief, original release pending."},
-      "sources": [{"name": "HCLTech · 合作公告", "url": "https://www.hcltech.com/en-us/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai", "type": "First-hand"}]
+      "sources": [{"name": {"zh": "HCLTech · 合作公告", "en": "HCLTech · partnership announcement"}, "url": "https://www.hcltech.com/en-us/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai", "type": "First-hand"}]
     },
     {
       "id": 4, "category": "tech",
@@ -58,7 +58,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "完成時間、客戶留存、整合進度及組合方案採用率。", "en": "Closing, customer retention, integration and adoption of bundled offerings."}}
       ],
       "confidence": {"zh": "高：已簽協議；中：整合效益", "en": "High: agreement. Medium: integration benefits."},
-      "sources": [{"name": "IonQ · 收購公告", "url": "https://www.ionq.com/news/ionq-to-acquire-elisity-to-accelerate-zero-trust-for-the-quantum-era", "type": "First-hand"}]
+      "sources": [{"name": {"zh": "IonQ · 收購公告", "en": "IonQ · acquisition announcement"}, "url": "https://www.ionq.com/news/ionq-to-acquire-elisity-to-accelerate-zero-trust-for-the-quantum-era", "type": "First-hand"}]
     },
     {
       "id": 5, "category": "tech",
@@ -83,7 +83,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "實際電網投資、工程時程、AI 用電預測，以及再生能源與儲能配置。", "en": "Grid investment, construction timelines, AI demand forecasts and renewable/storage integration."}}
       ],
       "confidence": {"zh": "高：公開發言", "en": "High: public remarks."},
-      "sources": [{"name": "中央社 CNA", "url": "https://www.cna.com.tw/news/afe/202610120189.aspx", "type": "Second-hand"}]
+      "sources": [{"name": {"zh": "中央社 CNA", "en": "CNA"}, "url": "https://www.cna.com.tw/news/afe/202610120189.aspx", "type": "Second-hand"}]
     },
     {
       "id": 7, "category": "taiwan",
@@ -96,7 +96,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "審查結果、附加條件、餐廳抽成、外送員報酬與資料治理要求。", "en": "The decision, conditions, restaurant commissions, courier pay and data-governance requirements."}}
       ],
       "confidence": {"zh": "高：申請與審查進度", "en": "High: application and review status."},
-      "sources": [{"name": "中央社 CNA · 10 月 12 日", "url": "https://www.cna.com.tw/news/afe/202610120268.aspx", "type": "Second-hand"}, {"name": "中央社 CNA · 延長審議說明", "url": "https://www.cna.com.tw/news/afe/202607220147.aspx", "type": "Second-hand"}]
+      "sources": [{"name": {"zh": "中央社 CNA · 10 月 12 日", "en": "CNA · Oct 12"}, "url": "https://www.cna.com.tw/news/afe/202610120268.aspx", "type": "Second-hand"}, {"name": {"zh": "中央社 CNA · 延長審議說明", "en": "CNA · review extension"}, "url": "https://www.cna.com.tw/news/afe/202607220147.aspx", "type": "Second-hand"}]
     },
     {
       "id": 8, "category": "taiwan",
@@ -134,7 +134,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "研究方法、各國差異、實際就業人數與長期薪資資料。", "en": "Methods, country differences, employment levels and long-term wages."}}
       ],
       "confidence": {"zh": "中：待完整研究方法驗證", "en": "Medium: full methodology pending."},
-      "sources": [{"name": "中央社 CNA · 現場報導", "url": "https://www.cna.com.tw/news/afe/202610120243.aspx", "type": "Second-hand"}]
+      "sources": [{"name": {"zh": "中央社 CNA · 現場報導", "en": "CNA · on-site report"}, "url": "https://www.cna.com.tw/news/afe/202610120243.aspx", "type": "Second-hand"}]
     },
     {
       "id": 11, "category": "global",
@@ -148,7 +148,7 @@
         {"label": {"zh": "接下來觀察", "en": "What to watch"}, "text": {"zh": "改造時程、每日實際輸送量、紅海港口裝船能力與設施安全。", "en": "Engineering progress, actual throughput, Red Sea loading capacity and infrastructure security."}}
       ],
       "confidence": {"zh": "高：規劃宣布；中：工程時程", "en": "High: announcement. Medium: delivery timeline."},
-      "sources": [{"name": "EnergyNow · Reuters 轉載", "url": "https://energynow.ca/2026/10/saudi-arabia-eyes-raising-its-pipeline-oil-export-capacity-to-10-million-bpd-energy-minister-says/", "type": "Second-hand"}]
+      "sources": [{"name": {"zh": "EnergyNow · Reuters 轉載", "en": "EnergyNow · Reuters reprint"}, "url": "https://energynow.ca/2026/10/saudi-arabia-eyes-raising-its-pipeline-oil-export-capacity-to-10-million-bpd-energy-minister-says/", "type": "Second-hand"}]
     }
   ],
   "deep": [

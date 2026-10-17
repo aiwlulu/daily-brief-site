@@ -79,32 +79,32 @@
       ],
       "sources": [
         {
-          "name": "TSMC · 10/15 法說逐字稿",
+          "name": {"zh": "TSMC · 10/15 法說逐字稿", "en": "TSMC · Oct 15 earnings call transcript"},
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
           "type": "First-hand"
         },
         {
-          "name": "總統府 · AATT2 開幕",
+          "name": {"zh": "總統府 · AATT2 開幕", "en": "Office of the President · AATT2 opening"},
           "url": "https://www.president.gov.tw/NEWS/40429",
           "type": "First-hand"
         },
         {
-          "name": "TrendForce · 記憶體背景研究",
+          "name": {"zh": "TrendForce · 記憶體背景研究", "en": "TrendForce · memory background research"},
           "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
           "type": "First-hand"
         },
         {
-          "name": "TrendForce · CPO 測試鏈",
+          "name": {"zh": "TrendForce · CPO 測試鏈", "en": "TrendForce · CPO test chain"},
           "url": "https://www.trendforce.com/presscenter/news/20261013-13267.html",
           "type": "First-hand"
         },
         {
-          "name": "TSMC · 第三季實績",
+          "name": {"zh": "TSMC · 第三季實績", "en": "TSMC · Q3 results"},
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
           "type": "First-hand"
         },
         {
-          "name": "中央社 · 美光台中啟用典禮",
+          "name": {"zh": "中央社 · 美光台中啟用典禮", "en": "CNA · Micron Taichung opening"},
           "url": "https://focustaiwan.tw/politics/202610150012",
           "type": "Second-hand"
         }
@@ -304,22 +304,22 @@
       ],
       "sources": [
         {
-          "name": "中央社 · OCP 台灣供應鏈整理",
+          "name": {"zh": "中央社 · OCP 台灣供應鏈整理", "en": "CNA · OCP Taiwan supply-chain roundup"},
           "url": "https://www.cna.com.tw/news/afe/202610170022.aspx",
           "type": "Second-hand"
         },
         {
-          "name": "Delta · OCP 公司發布",
+          "name": {"zh": "Delta · OCP 公司發布", "en": "Delta · OCP press release"},
           "url": "https://www.prnewswire.com/news-releases/delta-highlights-collaboration-with-nvidia-in-advancing-energy-efficient-800-vdc-power-and-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026-302909912.html",
           "type": "First-hand"
         },
         {
-          "name": "OCP Foundation · 2026 活動官方資訊",
+          "name": {"zh": "OCP Foundation · 2026 活動官方資訊", "en": "OCP Foundation · 2026 summit information"},
           "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/",
           "type": "First-hand"
         },
         {
-          "name": "OCP Foundation · 場館與現場資訊",
+          "name": {"zh": "OCP Foundation · 場館與現場資訊", "en": "OCP Foundation · venue and onsite information"},
           "url": "https://2026ocpglobal.fnvirtual.app/onsite-info/",
           "type": "First-hand"
         }
@@ -379,7 +379,7 @@
           },
           "current": 660,
           "unit": "kW",
-          "period": "OCP 2026 展示",
+          "period": {"zh": "OCP 2026 展示", "en": "OCP 2026 exhibit"},
           "owner": "Delta",
           "sourceUrl": "https://www.prnewswire.com/news-releases/delta-highlights-collaboration-with-nvidia-in-advancing-energy-efficient-800-vdc-power-and-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026-302909912.html",
           "kind": "產品規格",
@@ -396,7 +396,7 @@
           },
           "current": 480,
           "unit": "kW",
-          "period": "OCP 2026 展示",
+          "period": {"zh": "OCP 2026 展示", "en": "OCP 2026 exhibit"},
           "owner": "Delta",
           "sourceUrl": "https://www.prnewswire.com/news-releases/delta-highlights-collaboration-with-nvidia-in-advancing-energy-efficient-800-vdc-power-and-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026-302909912.html",
           "kind": "產品規格",
@@ -455,7 +455,7 @@
       ],
       "sources": [
         {
-          "name": "中央社 · 友達董事長談轉型",
+          "name": {"zh": "中央社 · 友達董事長談轉型", "en": "CNA · AUO chairman on transformation"},
           "url": "https://www.cna.com.tw/news/afe/202610170118.aspx",
           "type": "Second-hand"
         }
@@ -516,7 +516,7 @@
           "current": 0.3,
           "unit": "%",
           "period": "2030",
-          "owner": "AUO 董事長，由 CNA 報導",
+          "owner": {"zh": "AUO 董事長，由 CNA 報導", "en": "AUO chairman, reported by CNA"},
           "sourceUrl": "https://www.cna.com.tw/news/afe/202610170118.aspx",
           "kind": "公司目標",
           "comparison": "無",
@@ -570,12 +570,12 @@
       ],
       "sources": [
         {
-          "name": "NVIDIA · RTX Spark 發布",
+          "name": {"zh": "NVIDIA · RTX Spark 發布", "en": "NVIDIA · RTX Spark launch"},
           "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
           "type": "First-hand"
         },
         {
-          "name": "中央社 · NVIDIA 主管訪談",
+          "name": {"zh": "中央社 · NVIDIA 主管訪談", "en": "CNA · NVIDIA executive interview"},
           "url": "https://www.cna.com.tw/news/afe/202610160345.aspx",
           "type": "Second-hand"
         }
@@ -635,7 +635,7 @@
           },
           "current": 128,
           "unit": "GB",
-          "period": "2026-10-16 發布",
+          "period": {"zh": "2026-10-16 發布", "en": "Released Oct 16 2026"},
           "owner": "NVIDIA",
           "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
           "kind": "產品規格",
@@ -699,17 +699,17 @@
       ],
       "sources": [
         {
-          "name": "中央社 · 經濟部說明",
+          "name": {"zh": "中央社 · 經濟部說明", "en": "CNA · Ministry of Economic Affairs briefing"},
           "url": "https://www.cna.com.tw/news/afe/202610160128.aspx",
           "type": "Second-hand"
         },
         {
-          "name": "公視 · 經濟部及電電公會回應",
+          "name": {"zh": "公視 · 經濟部及電電公會回應", "en": "PTS · MOEA and TEEMA responses"},
           "url": "https://news.pts.org.tw/article/831750",
           "type": "Second-hand"
         },
         {
-          "name": "中央社 · 美國國務院回應",
+          "name": {"zh": "中央社 · 美國國務院回應", "en": "CNA · U.S. State Department response"},
           "url": "https://www.cna.com.tw/news/aipl/202610170009.aspx",
           "type": "Second-hand"
         }
@@ -770,8 +770,8 @@
           },
           "current": 2,
           "unit": "USD billion",
-          "period": "規劃期未定",
-          "owner": "經濟部，由 CNA 報導",
+          "period": {"zh": "規劃期未定", "en": "Planning period not set"},
+          "owner": {"zh": "經濟部，由 CNA 報導", "en": "MOEA, reported by CNA"},
           "sourceUrl": "https://www.cna.com.tw/news/afe/202610160128.aspx",
           "kind": "規劃估算",
           "comparison": "無",
@@ -787,8 +787,8 @@
           },
           "current": 4,
           "unit": "USD billion",
-          "period": "規劃期未定",
-          "owner": "經濟部，由 CNA 報導",
+          "period": {"zh": "規劃期未定", "en": "Planning period not set"},
+          "owner": {"zh": "經濟部，由 CNA 報導", "en": "MOEA, reported by CNA"},
           "sourceUrl": "https://www.cna.com.tw/news/afe/202610160128.aspx",
           "kind": "規劃估算",
           "comparison": "無",
@@ -856,22 +856,22 @@
       ],
       "sources": [
         {
-          "name": "中經院 · 第四季預測原文",
+          "name": {"zh": "中經院 · 第四季預測原文", "en": "CIER · Q4 forecast release"},
           "url": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC4%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
           "type": "First-hand"
         },
         {
-          "name": "中經院 · 預測新聞稿 PDF",
+          "name": {"zh": "中經院 · 預測新聞稿 PDF", "en": "CIER · forecast press release PDF"},
           "url": "https://www.cier.edu.tw/wp-content/uploads/2026/10/2026Q4_NEWS.pdf",
           "type": "First-hand"
         },
         {
-          "name": "中經院 · 7 月預測基準",
+          "name": {"zh": "中經院 · 7 月預測基準", "en": "CIER · July forecast baseline"},
           "url": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
           "type": "First-hand"
         },
         {
-          "name": "中央社 · Focus Taiwan",
+          "name": {"zh": "中央社 · Focus Taiwan", "en": "CNA · Focus Taiwan"},
           "url": "https://focustaiwan.tw/business/202610160008",
           "type": "Second-hand"
         }
@@ -931,7 +931,7 @@
           },
           "current": 0.1216,
           "unit": "%",
-          "period": "2026 全年，2026-10 預測版",
+          "period": {"zh": "2026 全年，2026-10 預測版", "en": "Full-year 2026, October 2026 forecast"},
           "owner": "CIER",
           "sourceUrl": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC4%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
           "kind": "預測",
@@ -996,7 +996,7 @@
       ],
       "sources": [
         {
-          "name": "TNGlobal · 胡志明市電價爭點",
+          "name": {"zh": "TNGlobal · 胡志明市電價爭點", "en": "TNGlobal · Ho Chi Minh City tariff issue"},
           "url": "https://technode.global/2026/10/16/hcmc-seeks-clarification-on-power-price-for-2-1b-ai-data-center/",
           "type": "Second-hand"
         }
@@ -1056,8 +1056,8 @@
           },
           "current": 2.1,
           "unit": "USD billion",
-          "period": "2026-03 公布，2026-10 電價追蹤",
-          "owner": "AIC / KBC，由 TNGlobal 報導",
+          "period": {"zh": "2026-03 公布，2026-10 電價追蹤", "en": "Announced Mar 2026; tariff follow-up Oct 2026"},
+          "owner": {"zh": "AIC / KBC，由 TNGlobal 報導", "en": "AIC / KBC, reported by TNGlobal"},
           "sourceUrl": "https://technode.global/2026/10/16/hcmc-seeks-clarification-on-power-price-for-2-1b-ai-data-center/",
           "kind": "既有規劃",
           "comparison": "無",
@@ -1073,8 +1073,8 @@
           },
           "current": 50,
           "unit": "MW",
-          "period": "首期規劃，投產時程待核實",
-          "owner": "AIC / KBC 計畫，由 TNGlobal 報導",
+          "period": {"zh": "首期規劃，投產時程待核實", "en": "Phase 1 plan; operating date unverified"},
+          "owner": {"zh": "AIC / KBC 計畫，由 TNGlobal 報導", "en": "AIC / KBC project, reported by TNGlobal"},
           "sourceUrl": "https://technode.global/2026/10/16/hcmc-seeks-clarification-on-power-price-for-2-1b-ai-data-center/",
           "kind": "既有規劃，非已通電容量",
           "comparison": "無",
@@ -1152,17 +1152,17 @@
       ],
       "sources": [
         {
-          "name": "中央社 · 馬來西亞現場報導，經濟日報刊載",
+          "name": {"zh": "中央社 · 馬來西亞現場報導，經濟日報刊載", "en": "CNA · Malaysia on-site report via Economic Daily News"},
           "url": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "type": "Second-hand"
         },
         {
-          "name": "Sidec · AiSEM 與招募活動官方場館",
+          "name": {"zh": "Sidec · AiSEM 與招募活動官方場館", "en": "Sidec · AiSEM and recruitment venue"},
           "url": "https://www.sidec.com.my/aisemselangor/",
           "type": "First-hand"
         },
         {
-          "name": "ASEM · MSRD 場館與日期",
+          "name": {"zh": "ASEM · MSRD 場館與日期", "en": "ASEM · MSRD venue and dates"},
           "url": "https://www.asemedu.com/msrd-2026/",
           "type": "First-hand"
         }
@@ -1222,8 +1222,8 @@
           },
           "current": 1500,
           "unit": "個職缺",
-          "period": "2026-10 中旬招募；起日來源有差異",
-          "owner": "主辦活動，由 CNA 報導",
+          "period": {"zh": "2026-10 中旬招募；起日來源有差異", "en": "Mid-Oct 2026 recruitment; sources differ on start date"},
+          "owner": {"zh": "主辦活動，由 CNA 報導", "en": "Event organizers, reported by CNA"},
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "超過此數，非實際聘用",
           "comparison": "無",
@@ -1239,8 +1239,8 @@
           },
           "current": 20,
           "unit": "家",
-          "period": "2026-10-16 官員說明",
-          "owner": "雪蘭莪官員，由 CNA 報導",
+          "period": {"zh": "2026-10-16 官員說明", "en": "Official remarks, Oct 16 2026"},
+          "owner": {"zh": "雪蘭莪官員，由 CNA 報導", "en": "Selangor officials, reported by CNA"},
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "官方陳述",
           "comparison": "無",
@@ -1256,8 +1256,8 @@
           },
           "current": 409,
           "unit": "人",
-          "period": "2026-10-16 官員說明",
-          "owner": "雪蘭莪官員，由 CNA 報導",
+          "period": {"zh": "2026-10-16 官員說明", "en": "Official remarks, Oct 16 2026"},
+          "owner": {"zh": "雪蘭莪官員，由 CNA 報導", "en": "Selangor officials, reported by CNA"},
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "官方陳述",
           "comparison": "無",
@@ -1273,8 +1273,8 @@
           },
           "current": 150,
           "unit": "MYR million",
-          "period": "2026-10-16 官員說明，撥款時程未披露",
-          "owner": "雪蘭莪官員，由 CNA 報導",
+          "period": {"zh": "2026-10-16 官員說明，撥款時程未披露", "en": "Official remarks, Oct 16 2026; disbursement timing undisclosed"},
+          "owner": {"zh": "雪蘭莪官員，由 CNA 報導", "en": "Selangor officials, reported by CNA"},
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "官員陳述的計畫規模，非已實現 FDI",
           "comparison": "無",
@@ -1342,12 +1342,12 @@
       ],
       "sources": [
         {
-          "name": "越南政府新聞網 · 10/3 統計發布",
+          "name": {"zh": "越南政府新聞網 · 10/3 統計發布", "en": "Vietnam Government News · Oct 3 statistics"},
           "url": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
           "type": "First-hand"
         },
         {
-          "name": "VnEconomy · 10/4 分項整理",
+          "name": {"zh": "VnEconomy · 10/4 分項整理", "en": "VnEconomy · Oct 4 breakdown"},
           "url": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
           "type": "Second-hand"
         }
@@ -1407,8 +1407,8 @@
           },
           "current": 21.07,
           "unit": "USD billion",
-          "period": "2026-01 至 2026-09",
-          "owner": "越南國家統計局，由政府新聞網公布",
+          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
+          "owner": {"zh": "越南國家統計局，由政府新聞網公布", "en": "Vietnam statistics office, via Government News"},
           "sourceUrl": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
           "kind": "官方估計",
           "comparison": "YoY",
@@ -1424,8 +1424,8 @@
           },
           "current": 50.36,
           "unit": "USD billion",
-          "period": "2026-01 至 2026-09",
-          "owner": "越南國家統計局，由政府新聞網公布",
+          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
+          "owner": {"zh": "越南國家統計局，由政府新聞網公布", "en": "Vietnam statistics office, via Government News"},
           "sourceUrl": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
           "kind": "官方統計",
           "comparison": "YoY",
@@ -1441,8 +1441,8 @@
           },
           "current": 21.82,
           "unit": "USD billion",
-          "period": "2026-01 至 2026-09",
-          "owner": "越南統計資料，由 VnEconomy 轉述",
+          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
+          "owner": {"zh": "越南統計資料，由 VnEconomy 轉述", "en": "Vietnam statistics, as reported by VnEconomy"},
           "sourceUrl": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
           "kind": "媒體引述分項，官方原表待核對",
           "comparison": "無",
@@ -1458,8 +1458,8 @@
           },
           "current": 9.26,
           "unit": "USD billion",
-          "period": "2026-01 至 2026-09",
-          "owner": "越南統計資料，由 VnEconomy 轉述",
+          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
+          "owner": {"zh": "越南統計資料，由 VnEconomy 轉述", "en": "Vietnam statistics, as reported by VnEconomy"},
           "sourceUrl": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
           "kind": "媒體引述分項，官方原表待核對",
           "comparison": "無",
@@ -1517,7 +1517,7 @@
       ],
       "sources": [
         {
-          "name": "NVIDIA · 10/14 工廠與半導體合作發布",
+          "name": {"zh": "NVIDIA · 10/14 工廠與半導體合作發布", "en": "NVIDIA · Oct 14 factory and semiconductor partnerships"},
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
           "type": "First-hand"
         }

@@ -57,7 +57,7 @@
           "type": "Second-hand"
         },
         {
-          "name": "IMF · 發布預告",
+          "name": {"zh": "IMF · 發布預告", "en": "IMF · release notice"},
           "url": "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026",
           "type": "First-hand"
         }
@@ -108,12 +108,12 @@
       ],
       "sources": [
         {
-          "name": "Qualcomm · 聲明",
+          "name": {"zh": "Qualcomm · 聲明", "en": "Qualcomm · statement"},
           "url": "https://www.qualcomm.com/news/releases/2026/10/qualcomm-statement-on-trial-verdict-win",
           "type": "First-hand"
         },
         {
-          "name": "Arm · 聲明",
+          "name": {"zh": "Arm · 聲明", "en": "Arm · statement"},
           "url": "https://newsroom.arm.com/news/arm-qualcomm-legal-dispute",
           "type": "First-hand"
         },
@@ -179,12 +179,12 @@
       ],
       "sources": [
         {
-          "name": "Scaleway · 瑞典公告",
+          "name": {"zh": "Scaleway · 瑞典公告", "en": "Scaleway · Sweden announcement"},
           "url": "https://www.scaleway.com/en/news/scaleway-expands-ai-infrastructure-in-europe-with-new-amd-instinct-gpu-based-supercomputer-in-sweden/",
           "type": "First-hand"
         },
         {
-          "name": "Scaleway · 歐洲布局",
+          "name": {"zh": "Scaleway · 歐洲布局", "en": "Scaleway · European footprint"},
           "url": "https://www.scaleway.com/en/news/scaleway-scales-up-to-power-europes-ai-ambitions/",
           "type": "First-hand"
         },
@@ -291,12 +291,12 @@
       ],
       "sources": [
         {
-          "name": "Anthropic · 研究",
+          "name": {"zh": "Anthropic · 研究", "en": "Anthropic · research"},
           "url": "https://www.anthropic.com/research/self-replicating-ai",
           "type": "First-hand"
         },
         {
-          "name": "Reuters · 外部觀點",
+          "name": {"zh": "Reuters · 外部觀點", "en": "Reuters · outside view"},
           "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
           "type": "Second-hand"
         }
@@ -347,7 +347,7 @@
       ],
       "sources": [
         {
-          "name": "Reuters · 引述 OPEC",
+          "name": {"zh": "Reuters · 引述 OPEC", "en": "Reuters · citing OPEC"},
           "url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/",
           "type": "Source-limited"
         }
@@ -454,7 +454,7 @@
       ],
       "sources": [
         {
-          "name": "中央社 · 華沙現場報導",
+          "name": {"zh": "中央社 · 華沙現場報導", "en": "CNA · Warsaw on-site report"},
           "url": "https://www.cna.com.tw/news/aipl/202610130326.aspx",
           "type": "Second-hand"
         },

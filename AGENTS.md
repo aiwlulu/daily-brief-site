@@ -54,6 +54,8 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 
 ## Visual reading aids
 
+- Everything shown in the English interface must be English. Source names, metric `period` and metric `owner` use `{zh,en}` (older plain strings remain valid); calendar `source.name` likewise.
+
 - Daily view shows an "At a glance" section after the brief: a supply-chain flow (upstream to downstream, with investment and policy as a separate band) and a table of every figure. Do not chart growth rates or values from different owners, periods or definitions side by side. Each story may show a chain-position strip and its figures after the source links; source links stay directly below the paragraph.
 - Charts read only structured `metrics` and `market` fields. Same-unit metrics in a story are compared as bars; others become stat tiles with a status chip (actual, specification, target, forecast, estimate, plan, statistic, reported, statement). Never chart mismatched units or present growth rates from different owners as a ranking.
 - Data marks use the validated series blue; comparison baselines use gray. Colour never carries meaning alone.

@@ -585,7 +585,7 @@
       ],
       "sources": [
         {
-          "name": "經濟部能源署",
+          "name": {"zh": "經濟部能源署", "en": "MOEA Energy Administration"},
           "url": "https://www.moeaea.gov.tw/ECW/populace/news/News.aspx?kind=1&menu_id=41&news_id=34613",
           "type": "First-hand"
         }

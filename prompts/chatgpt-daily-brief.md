@@ -65,7 +65,7 @@ Each story:
 - sections [{label:{zh,en}, text:{zh,en}}]: industry and supply-chain background, event timing, published data, reading the numbers, unconfirmed details and source limitations. The site merges these into one continuous paragraph that expands in place, so write complete sentences without bullet fragments, and use labels containing 上下游, 供應鏈, 產業背景, 為什麼重要 or 預測依據 for the context section shown in the short view.
 - metric (string) and metricLabel {zh,en}: the headline figure, or an honest keyword when no material number is supported.
 - confidence {zh,en}: 高/High, 中/Medium or 低/Low.
-- sources [{name, url, type}] with type "First-hand" | "Second-hand" | "Source-limited". Name sources as "Publisher · what it is", for example "TSMC · 第三季財報".
+- sources [{name:{zh,en}, url, type}] with type "First-hand" | "Second-hand" | "Source-limited". Name sources as "Publisher · what it is" in both languages, for example {"zh":"TSMC · 第三季實績","en":"TSMC · Q3 results"}. The English page must never show Chinese text.
 - location {zh,en} for exhibitions, conferences, recruitment events, openings and projects: country, city and venue or site, stating whether it is the event venue or the project site, verified from the organizer or an authoritative source. Never substitute headquarters. Keep material date or venue disagreements.
 - market (required for every new story):
   eventDate (YYYY-MM-DD); countries {zh,en}; industries {zh,en}; chain {zh,en};
@@ -87,14 +87,14 @@ a) Supply-chain flow map and per-story chain strip read market.chain.zh and mark
    投資 / FDI / 外資 / 園區 / 預測 / 人才 / 招募 / 資金 -> Investment & policy band
    Example chain: "晶圓製造至封裝測試"; industries: "AI 半導體；HBM；先進封裝；測試".
 b) metrics: add one entry for every material, supported figure (aim for at least one per quantifiable story, all figures for earnings and statistics stories):
-   {name:{zh,en}, current:number, unit, period, owner, sourceUrl, kind, comparison, base, basePeriod, reportedRate, baseStatus}
+   {name:{zh,en}, current:number, unit, period:{zh,en}, owner:{zh,en}, sourceUrl, kind, comparison, base, basePeriod, reportedRate, baseStatus}
    - unit: use exactly "NTD billion", "USD billion", "MYR million", "%", "kW", "MW", "GW", "GB", or a plain count unit such as "個職缺", "家", "人". The site converts these to 億元 / 兆元 / 億美元 / NT$B / US$B automatically. Do not mix currencies within one comparison.
    - Rates and shares are decimals: 66.4% is 0.664.
-   - period: the reporting period as published, for example "2026 Q3" or "2026-01 至 2026-09".
+   - period {zh,en}: the reporting period as published, for example {"zh":"2026-01 至 2026-09","en":"Jan–Sep 2026"}. Same-unit metrics compared in one story must use identical period text.
    - kind: one of 公司實績, 產品規格, 公司目標, 預測, 官方估計, 規劃估算, 官方統計, 媒體引述, 官方陳述 (append a short qualifier after a comma when needed). The site shows it as a status chip so plans, specifications and forecasts never read as actuals.
    - comparison: "YoY", "QoQ", "預測修訂" or "無". reportedRate: the published decimal growth rate for YoY or QoQ, otherwise null. The site shows it as a YoY / QoQ chip on the story's figure card.
    - base and basePeriod: only when the source states a comparable base; otherwise base null and baseStatus explains why. Never reverse-calculate a base from a rounded rate. The figure card then shows the prior value; percentage-point changes are computed from base and current.
-   - owner: who states the number, for example "TSMC" or "經濟部，由 CNA 報導". sourceUrl must also appear in story.sources.
+   - owner {zh,en}: who states the number, for example {"zh":"經濟部，由 CNA 報導","en":"MOEA, reported by CNA"}. sourceUrl must also appear in story.sources.
    - Same-unit, same-period metrics inside one story are drawn as a bar comparison (for example revenue and net income, or 660 kW and 480 kW ratings); give them the same unit and period strings.
 c) Do not embed third-party images or screenshots. All visuals come from these fields.
 
@@ -106,7 +106,7 @@ Summaries are about 2 sentences. References must point to real published stories
 9. INDUSTRY CALENDAR: docs/events.json
 On Sundays, or whenever a story concerns an exhibition or conference, review the calendar:
 - Check events in the next 60 days for official changes and add newly announced major events relevant to these supply chains (SEMICON Taiwan / Southeast Asia / Japan / Korea / West / Europa, OCP Global / APAC / EMEA, COMPUTEX, TPCA Show, Touch Taiwan, IEDM, ISSCC, VLSI Symposium, Hot Chips, SC, electronica, productronica and comparable Taiwan and Southeast Asian events).
-- Entry: {id, start, end, type: "semiconductor" | "datacenter" | "packaging" | "research" | "systems", region: "tw" | "sea" | "nea" | "us" | "eu", name:{zh,en}, place:{zh,en}, focus:{zh,en}, source:{name, url}}.
+- Entry: {id, start, end, type: "semiconductor" | "datacenter" | "packaging" | "research" | "systems", region: "tw" | "sea" | "nea" | "us" | "eu", name:{zh,en}, place:{zh,en}, focus:{zh,en}, source:{name:{zh,en}, url}}.
 - Dates and venue must come from an organizer page, official release or authoritative report you opened. Record material discrepancies in focus. Omit events you cannot verify. Keep past events of the last 30 days, remove older ones, and set "updated" to today.
 
 10. EXCEL DOWNLOADS

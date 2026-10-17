@@ -56,7 +56,7 @@
       },
       "sources": [
         {
-          "name": "USITC · 官方公告",
+          "name": {"zh": "USITC · 官方公告", "en": "USITC · official notice"},
           "url": "https://www.usitc.gov/press_room/news_release/2026/er1009_69342.htm",
           "type": "First-hand"
         }
@@ -107,12 +107,12 @@
       },
       "sources": [
         {
-          "name": "中央社",
+          "name": {"zh": "中央社", "en": "CNA"},
           "url": "https://www.cna.com.tw/news/afe/202610110030.aspx",
           "type": "Second-hand"
         },
         {
-          "name": "TPCA · 展覽公告",
+          "name": {"zh": "TPCA · 展覽公告", "en": "TPCA · show announcement"},
           "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394",
           "type": "First-hand"
         }
@@ -163,7 +163,7 @@
       },
       "sources": [
         {
-          "name": "Reuters · Investing.com 轉載",
+          "name": {"zh": "Reuters · Investing.com 轉載", "en": "Reuters · Investing.com reprint"},
           "url": "https://www.investing.com/news/world-news/loud-blast-at-riyadh-airport-as-travellers-evacuated-and-airlines-cancel-flights-4942124",
           "type": "Second-hand"
         }
@@ -316,7 +316,7 @@
       },
       "sources": [
         {
-          "name": "AP · 引述 IOM",
+          "name": {"zh": "AP · 引述 IOM", "en": "AP · citing IOM"},
           "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95",
           "type": "Second-hand"
         }
@@ -367,7 +367,7 @@
       },
       "sources": [
         {
-          "name": "Reuters · StreetInsider 轉載",
+          "name": {"zh": "Reuters · StreetInsider 轉載", "en": "Reuters · StreetInsider reprint"},
           "url": "https://www.streetinsider.com/Reuters/Russias%2BYandex%2Bsays%2Bdata%2Bcentre%2Bin%2BVladimir%2Barea%2Bshut%2Bdown%2Bafter%2Bdrone%2Battack/27172786.html?classic=1",
           "type": "Second-hand"
         }
@@ -418,7 +418,7 @@
       },
       "sources": [
         {
-          "name": "Reuters · 轉述 WSJ",
+          "name": {"zh": "Reuters · 轉述 WSJ", "en": "Reuters · citing WSJ"},
           "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
           "type": "Second-hand"
         }

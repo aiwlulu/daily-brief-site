@@ -341,7 +341,7 @@
       ],
       "sources": [
         {
-          "name": "中華民國總統府",
+          "name": {"zh": "中華民國總統府", "en": "Office of the President, ROC"},
           "url": "https://www.president.gov.tw/NEWS/40429",
           "type": "First-hand"
         },

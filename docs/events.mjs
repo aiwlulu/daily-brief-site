@@ -66,7 +66,7 @@ export function renderEvents(root,data,lang,today,state){
   const meta=n('div',undefined,'event-meta');meta.append(n('span',t(regions[e.region]),'event-region'),n('span',t(types[e.type])));
   const title=n('h4',e.name[lang]);
   const place=n('p',undefined,'event-place');place.append(icon('pin'),n('span',e.place[lang]));
-  const source=n('a',e.source.name);source.href=e.source.url;source.target='_blank';source.rel='noopener noreferrer';source.append(icon('external'));source.className='event-source';
+  const source=n('a',typeof e.source.name==='string'?e.source.name:e.source.name[lang]);source.href=e.source.url;source.target='_blank';source.rel='noopener noreferrer';source.append(icon('external'));source.className='event-source';
   body.append(meta,title,place,n('p',e.focus[lang],'event-focus'),source);
   item.append(date,body);agenda.append(item);
  }

@@ -41,7 +41,9 @@ for(const story of data.stories){
    for(const metric of story.metrics){
     bilingual(metric.name);if(data.coverage?.approach==='facts-first')assert.ok(!metric.impact);else bilingual(metric.impact);assert.ok(Number.isFinite(metric.current));
     assert.ok(metric.base===null||Number.isFinite(metric.base));assert.ok(metric.reportedRate===null||Number.isFinite(metric.reportedRate));
-    for(const key of ['owner','unit','period','kind','comparison','baseStatus'])assert.ok(typeof metric[key]==='string'&&metric[key].trim());
+    for(const key of ['unit','kind','comparison','baseStatus'])assert.ok(typeof metric[key]==='string'&&metric[key].trim());
+    // Displayed text may be bilingual; older data keeps plain strings.
+    for(const key of ['owner','period'])typeof metric[key]==='string'?assert.ok(metric[key].trim()):bilingual(metric[key]);
     assert.equal(new URL(metric.sourceUrl).protocol,'https:');
     assert.ok(story.sources.some(s=>s.url===metric.sourceUrl),'Numeric source absent from story');
     if(metric.base!==null)assert.ok(metric.basePeriod);
@@ -58,7 +60,7 @@ for(const story of data.stories){
   assert.ok(story.sections.length);
   story.sections.forEach(section=>{bilingual(section.label);bilingual(section.text);});
   assert.ok(story.sources.length);
-  story.sources.forEach(s=>assert.equal(new URL(s.url).protocol,'https:'));
+  story.sources.forEach(s=>{assert.equal(new URL(s.url).protocol,'https:');if(typeof s.name!=='string')bilingual(s.name);});
 }
 for(const item of data.deep)assert.ok(data.stories.some(s=>s.id===item.id));
 if(data.brief){

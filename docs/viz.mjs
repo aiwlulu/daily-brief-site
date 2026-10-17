@@ -25,6 +25,7 @@ const kinds=[[/實績/,'實績','Actual'],[/規格/,'規格','Spec'],[/目標/,'
 export function kindLabel(m,lang){const k=kinds.find(([re])=>re.test(m.kind||''));return k?k[lang==='zh'?1:2]:(m.kind||'');}
 const rateLabel=(m,lang)=>m.reportedRate!=null&&/YoY|QoQ/.test(m.comparison)?m.comparison+' '+pct(m.reportedRate,lang,true):'';
 const name=(m,lang)=>m.name[lang]||m.name.zh;
+const text=(v,lang)=>typeof v==='string'?v:v?.[lang]||v?.zh||'';
 
 function barRow({label,value,display,detail,max,min=0,muted=false}){
  const row=n('div',undefined,'viz-row'+(muted?' is-muted':''));
@@ -45,14 +46,14 @@ export function storyFigures(story,lang){
  const zh=lang==='zh',wrap=n('div',undefined,'story-figures');
  wrap.setAttribute('aria-label',zh?'本則數據':'Figures in this story');
  const groups=new Map();
- for(const m of metrics){const key=m.unit==='%'?'%:'+m.period:m.unit;groups.set(key,[...(groups.get(key)||[]),m]);}
+ for(const m of metrics){const key=m.unit==='%'?'%:'+text(m.period,'zh'):m.unit;groups.set(key,[...(groups.get(key)||[]),m]);}
  const tiles=n('div',undefined,'figure-tiles');
  for(const group of groups.values()){
   if(group.length>1&&group.every(m=>m.current>=0)){
    const chart=n('div',undefined,'viz-mini');
    const max=Math.max(...group.map(m=>m.current));
-   chart.append(n('p',(zh?'同單位比較 · ':'Same-unit comparison · ')+group[0].period,'viz-caption'));
-   for(const m of group)chart.append(barRow({label:name(m,lang)+' · '+kindLabel(m,lang),value:m.current,display:formatMetric(m,lang),detail:[m.owner,rateLabel(m,lang)].filter(Boolean).join(' · '),max}));
+   chart.append(n('p',(zh?'同單位比較 · ':'Same-unit comparison · ')+text(group[0].period,lang),'viz-caption'));
+   for(const m of group)chart.append(barRow({label:name(m,lang)+' · '+kindLabel(m,lang),value:m.current,display:formatMetric(m,lang),detail:[text(m.owner,lang),rateLabel(m,lang)].filter(Boolean).join(' · '),max}));
    wrap.append(chart);
   }else for(const m of group){
    const tile=n('div',undefined,'figure-tile');
@@ -61,7 +62,7 @@ export function storyFigures(story,lang){
    meta.append(n('span',kindLabel(m,lang),'figure-kind'));
    const rate=rateLabel(m,lang);if(rate)meta.append(n('span',rate,'figure-rate'));
    if(m.base!=null)meta.append(n('span',(zh?'前值 ':'Prior ')+formatMetric({...m,current:m.base},lang),'figure-rate'));
-   meta.append(n('span',m.period,'figure-period'));
+   meta.append(n('span',text(m.period,lang),'figure-period'));
    tile.append(meta);tiles.append(tile);
   }
  }
@@ -132,7 +133,7 @@ export function numbersOverview(stories,lang,number){
  const thead=n('thead');thead.append(head);const body=n('tbody');
  for(const {s,m} of rows){
   const tr=n('tr');const link=n('a',number(s));link.href='#story-'+s.id;const td=n('td');td.append(link);
-  tr.append(td,n('td',name(m,lang)),n('td',formatMetric(m,lang)),n('td',kindLabel(m,lang)),n('td',m.period),n('td',m.owner));body.append(tr);
+  tr.append(td,n('td',name(m,lang)),n('td',formatMetric(m,lang)),n('td',kindLabel(m,lang)),n('td',text(m.period,lang)),n('td',text(m.owner,lang)));body.append(tr);
  }
  table.append(thead,body);details.append(table);blocks.push(details);
  return blocks;
