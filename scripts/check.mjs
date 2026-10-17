@@ -84,13 +84,14 @@ for(const [weekStart,weekPath] of Object.entries(manifest.weeks||{})){
   }
  }
 }
-for(const [period,entries] of Object.entries(manifest.exports||{})){
+for(const [exportKey,versionKey,suffix] of [['exports','exportVersions',''],['exportsEn','exportVersionsEn','-en']])
+for(const [period,entries] of Object.entries(manifest[exportKey]||{})){
  assert.ok(['day','week'].includes(period));
  for(const [date,path] of Object.entries(entries)){
-  assert.ok(validDate(date));assert.equal(path,'./exports/'+period+'-'+date+'.xlsx');
+  assert.ok(validDate(date));assert.equal(path,'./exports/'+period+'-'+date+suffix+'.xlsx');
   if(period==='week')assert.ok(manifest.weeks[date]);else assert.ok(manifest.editions.some(e=>e.date===date));
   const bytes=fs.readFileSync(new URL('../docs/'+path,import.meta.url));assert.equal(bytes.subarray(0,2).toString(),'PK','Invalid XLSX');
-  const version=manifest.exportVersions?.[period]?.[date];if(version)assert.equal(version,createHash('sha256').update(bytes).digest('hex').slice(0,12),'Stale Excel download version');
+  const version=manifest[versionKey]?.[period]?.[date];if(version)assert.equal(version,createHash('sha256').update(bytes).digest('hex').slice(0,12),'Stale Excel download version');
  }
 }
 // Industry calendar: verified dates, bilingual copy and inspected HTTPS sources.

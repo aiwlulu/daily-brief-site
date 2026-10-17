@@ -38,10 +38,26 @@
   },
   "exportVersions": {
     "day": {
-      "2026-10-17": "1518cbfbccce"
+      "2026-10-17": "a2d3a9b0d972"
     },
     "week": {
-      "2026-10-11": "06539fd44b90"
+      "2026-10-11": "6b896fc71bba"
+    }
+  },
+  "exportsEn": {
+    "day": {
+      "2026-10-17": "./exports/day-2026-10-17-en.xlsx"
+    },
+    "week": {
+      "2026-10-11": "./exports/week-2026-10-11-en.xlsx"
+    }
+  },
+  "exportVersionsEn": {
+    "day": {
+      "2026-10-17": "839efd7bae5a"
+    },
+    "week": {
+      "2026-10-11": "b488218cee8d"
     }
   }
 }

@@ -7,7 +7,7 @@ import {storyFigures,chainMap,chainStrip,numbersOverview} from './viz.mjs';
 import {renderEvents} from './events.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
-let data, weekly, weekPaths={}, exportPaths={}, exportVersions={}, catalog = [], selectedEditions = [], lang = 'en', filter = 'all', query = '';
+let data, weekly, weekPaths={}, exportPaths={}, exportVersions={}, exportPathsEn={}, exportVersionsEn={}, catalog = [], selectedEditions = [], lang = 'en', filter = 'all', query = '';
 let readingMode='summary';
 const params = new URLSearchParams(location.search);
 let period = ['week','events'].includes(params.get('view')) ? params.get('view') : 'day';
@@ -65,14 +65,16 @@ function renderPeriod() {
   const zh = lang === 'zh', range = periodRange(selectedDate,period==='week'?'week':'day');
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
   const exportKey=period==='week'?range.start:selectedDate;
-  const exportPath=exportPaths[period]?.[exportKey];
-  const exportVersion=exportVersions[period]?.[exportKey];
+  // English interface downloads the English workbook when one exists.
+  const en=!zh&&exportPathsEn[period]?.[exportKey];
+  const exportPath=en?exportPathsEn[period][exportKey]:exportPaths[period]?.[exportKey];
+  const exportVersion=(en?exportVersionsEn:exportVersions)[period]?.[exportKey];
   const excel=el('export-excel');excel.hidden=!exportPath;
   if(exportPath){excel.href=exportPath+(exportVersion?'?v='+exportVersion:'');excel.download=exportPath.split('/').pop();}
   else excel.removeAttribute('href');
   excel.replaceChildren(icon('download'),node('span','Excel'));
-  excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'完整 Excel，含市場動向、數值及來源':'Download the complete '+(period==='week'?'weekly':'daily')+' Excel, including market changes, metrics and sources');
-  excel.dataset.tooltip=zh?'完整刊期 Excel，不受搜尋篩選影響':'Complete edition, independent of search filters';
+  excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'重點 Excel':'Download '+(period==='week'?'weekly':'daily')+' highlights as Excel');
+  excel.dataset.tooltip=zh?'每則標題與一句重點':'Each headline with a one-line summary';
   // Visible text labels; no tooltip repeating them.
   el('view-day').replaceChildren(icon('today'),node('span',zh?'當日':'Day'));
   el('view-week').replaceChildren(icon('week'),node('span',zh?'當週':'Week'));
@@ -343,6 +345,8 @@ readJson('./editions/index.json').then(async manifest => {
   weekPaths=manifest.weeks||{};
   exportPaths=manifest.exports||{};
   exportVersions=manifest.exportVersions||{};
+  exportPathsEn=manifest.exportsEn||{};
+  exportVersionsEn=manifest.exportVersionsEn||{};
   catalog=manifest.editions.slice().sort((a,b)=>b.date.localeCompare(a.date));
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';try{localStorage.setItem('brief-lang',lang);}catch{}render();};
   el('theme').onclick=()=>{const next=currentTheme()==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('brief-theme',next);}catch{}renderTheme();};

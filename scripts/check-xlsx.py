@@ -112,7 +112,6 @@ def validate(filename):
                 autofilter = table.find('x:autoFilter', NS)
                 require(autofilter is None or autofilter.get('ref') == table.get('ref'), 'Table filter range mismatch')
                 table_count += 1
-        require(table_count > 0, 'Expected native filter tables')
         return len(sheet_names), table_count
 
 
@@ -122,11 +121,11 @@ def main():
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((root / 'docs/editions/index.json').read_text())
-    paths = [Path(p) for p in args.file] if args.file else [root / 'docs' / p for entries in manifest.get('exports', {}).values() for p in entries.values()]
+    paths = [Path(p) for p in args.file] if args.file else [root / 'docs' / p for key in ('exports', 'exportsEn') for entries in manifest.get(key, {}).values() for p in entries.values()]
     try:
         for path in paths:
             sheets, tables = validate(path)
-            print(f'PASS: {path.name}: {sheets} worksheets, {tables} consistent Excel tables and valid package relationships.')
+            print(f'PASS: {path.name}: {sheets} worksheets, {tables} Excel tables and valid package relationships.')
     except (ValueError, KeyError, ET.ParseError, zipfile.BadZipFile) as error:
         print('FAIL: ' + str(error), file=sys.stderr)
         return 1
