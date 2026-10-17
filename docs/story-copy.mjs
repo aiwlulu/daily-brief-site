@@ -22,5 +22,6 @@ export function storyParagraph(story,lang='zh',expanded=false){
   const clean=sentence(part,lang);
   if(clean&&!unique.some(existing=>existing.includes(clean)))unique.push(clean);
  }
- return unique.join(' ');
+ // Chinese sentences join without spaces.
+ return unique.join(lang==='zh'?'':' ');
 }

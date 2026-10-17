@@ -118,35 +118,11 @@ export function chainStrip(story,lang){
  return wrap;
 }
 
-// Edition-wide figures: published growth rates side by side, plus revisions.
+// Edition-wide figures as one table. Growth rates from different owners and
+// periods are not charted together; each story shows its own comparisons.
 export function numbersOverview(stories,lang,number){
  const zh=lang==='zh',rows=stories.flatMap(s=>(s.metrics||[]).map(m=>({s,m})));
  const blocks=[];
- const rates=rows.filter(({m})=>m.reportedRate!=null&&/YoY|QoQ/.test(m.comparison)).sort((a,b)=>b.m.reportedRate-a.m.reportedRate);
- if(rates.length){
-  const chart=n('figure',undefined,'viz-card');
-  chart.append(n('figcaption',zh?'公布的成長率':'Published growth rates','viz-title'),n('p',zh?'依來源公布值排列；主體、期間與口徑不同，僅供並列查看。':'As published by each source; owners, periods and definitions differ, so this is a side-by-side view, not a ranking.','viz-note'));
-  const max=Math.max(0,...rates.map(r=>r.m.reportedRate)),min=Math.min(0,...rates.map(r=>r.m.reportedRate));
-  for(const {s,m} of rates)chart.append(barRow({label:number(s)+' · '+m.owner.replace(/，.*/,'')+' · '+name(m,lang),value:m.reportedRate,display:m.comparison+' '+pct(m.reportedRate,lang,true),detail:m.period+' · '+formatMetric(m,lang),max,min}));
-  blocks.push(chart);
- }
- const revisions=rows.filter(({m})=>m.base!=null&&Number.isFinite(m.base));
- if(revisions.length){
-  const chart=n('figure',undefined,'viz-card');
-  chart.append(n('figcaption',zh?'前後比較':'Before and after','viz-title'),n('p',zh?'僅列來源明示基期的數字。':'Only figures with a base stated by the source.','viz-note'));
-  const legend=n('div',undefined,'viz-legend');
-  legend.append(n('span',zh?'基期':'Base','key is-muted'),n('span',zh?'本期':'Current','key'));
-  chart.append(legend);
-  for(const {s,m} of revisions){
-   const max=Math.max(m.base,m.current),group=n('div',undefined,'viz-pair');
-   const diff=m.unit==='%'?num((m.current-m.base)*100,lang,2)+(zh?' 個百分點':' pp'):formatMetric({...m,current:m.current-m.base},lang);
-   group.append(n('p',number(s)+' · '+name(m,lang)+' · '+(m.current>=m.base?'+':'')+diff,'viz-pair-title'));
-   group.append(barRow({label:m.basePeriod||(zh?'基期':'Base'),value:m.base,display:formatMetric({...m,current:m.base},lang),detail:m.owner,max,muted:true}));
-   group.append(barRow({label:m.period,value:m.current,display:formatMetric(m,lang),detail:m.owner,max}));
-   chart.append(group);
-  }
-  blocks.push(chart);
- }
  if(!rows.length)return blocks;
  // Table view keeps every value reachable without the charts.
  const details=n('details',undefined,'viz-table');

@@ -386,4 +386,15 @@ body[data-view=events] .edition-content>section:not(.period-bar):not(.events-vie
 /* Hidden tooltips must not widen the page. */
 html,body{overflow-x:clip}
 .chain-chip[data-tooltip]:after,.viz-row[data-tooltip]:after{white-space:normal;width:max-content;max-width:min(280px,80vw)}
-@media(min-width:801px){.viz-row{grid-template-columns:minmax(0,1.25fr) minmax(80px,1fr) 7.5em}}
+/* Bar charts share columns across rows, so long values never overflow. */
+.viz-mini,.viz-pair{display:grid;grid-template-columns:minmax(0,max-content) minmax(72px,1fr) max-content;column-gap:14px}
+.viz-mini>.viz-caption,.viz-pair>.viz-pair-title{grid-column:1/-1}
+.viz-mini>.viz-row,.viz-pair>.viz-row{grid-column:1/-1;grid-template-columns:subgrid}
+@media(max-width:800px){
+ .viz-mini,.viz-pair{grid-template-columns:minmax(0,1fr) max-content}
+ .viz-mini>.viz-row,.viz-pair>.viz-row{grid-template-areas:"label value" "track track"}
+}
+/* Calendar chips show full names on two lines instead of a hover label. */
+.event-chip{align-items:flex-start}
+.event-chip-name{white-space:normal;overflow:visible;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+[data-tooltip]:after{z-index:60}

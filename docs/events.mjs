@@ -44,8 +44,8 @@ export function renderEvents(root,data,lang,today,state){
   li.append(n('span',zh?y+' 年 '+mo+' 月':new Intl.DateTimeFormat('en',{month:'short',year:'numeric',timeZone:'UTC'}).format(day(key+'-01')),'event-month-label'));
   for(const e of inMonth){
    const a=n('a',undefined,'event-chip'+(focus(e)?' is-focus':'')+(e.end<today?' is-past':''));a.href='#event-'+e.id;
-   a.append(n('span',String(day(e.start).getUTCDate()),'event-chip-day'),n('span',e.name[lang].replace(/\s*\d{4}.*$/,''),'event-chip-name'));
-   a.dataset.tooltip=dateRange(e,lang)+' · '+t(regions[e.region]);
+   a.append(n('span',String(day(e.start).getUTCDate()),'event-chip-day'),n('span',e.name.en.replace(/\s*\d{4}.*$/,''),'event-chip-name'));
+   a.setAttribute('aria-label',e.name[lang]+', '+dateRange(e,lang)+', '+t(regions[e.region]));
    li.append(a);
   }
   grid.append(li);
