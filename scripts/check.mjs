@@ -50,6 +50,7 @@ for(const story of data.stories){
    }
   }
   if(story.takeaway)bilingual(story.takeaway);
+  if(story.ceoView)bilingual(story.ceoView);
   if(story.location)bilingual(story.location);
   if(story.depth)assert.ok(['lead','standard'].includes(story.depth));
   assert.ok(['tech','taiwan','global'].includes(story.category));

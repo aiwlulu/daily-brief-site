@@ -24,6 +24,9 @@ FONTS = {'zh': 'PingFang TC', 'en': 'Calibri'}
 INK, TEXT, MUTED, BRAND, LINE, LEAD = '14322B', '3B4A44', '7A8780', '1F6B56', 'E3E6DF', 'F4F7EE'
 WIDTH = {'A': 6, 'B': 86, 'C': 13}
 HEADS = {'zh': ('#', '新聞', '事件日期'), 'en': ('#', 'Story', 'Event date')}
+# Full sheet only: an interpretation column kept visibly apart from the facts.
+CEO_HEAD = {'zh': 'CEO 觀點（AI 分析，非事實）', 'en': 'CEO lens (AI analysis, not fact)'}
+CEO_WIDTH, CEO_FILL = 52, 'FFF8E8'
 DATE_FORMAT = {'zh': 'm/d', 'en': 'mmm d'}
 
 
@@ -58,24 +61,27 @@ def lines(text, size, width):
     return max(1, math.ceil(units * size / 11 / (width * 1.1)))
 
 
-def sheet(ws, lang, title, entries, field):
+def sheet(ws, lang, title, entries, field, ceo=False):
     font = FONTS[lang]
+    cols = 4 if ceo else 3
+    if ceo:
+        ws.column_dimensions['D'].width = CEO_WIDTH
     ws.sheet_view.showGridLines = False
     ws.sheet_view.zoomScale = 110
     for col, width in WIDTH.items():
         ws.column_dimensions[col].width = width
-    ws.merge_cells('A1:C1')
+    ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=cols)
     head = ws['A1']
     head.value = title
     head.font = Font(name=font, size=18, bold=True, color=INK)
     head.alignment = Alignment(vertical='center')
     ws.row_dimensions[1].height = 40
     # Column headers; the event date has its own column, separate from the edition.
-    for col, text in enumerate(HEADS[lang], 1):
+    for col, text in enumerate(HEADS[lang] + ((CEO_HEAD[lang],) if ceo else ()), 1):
         cell = ws.cell(2, col, text)
         cell.font = Font(name=font, size=10, bold=True, color=MUTED)
         cell.border = Border(bottom=Side(style='medium', color=INK))
-        cell.alignment = Alignment(horizontal='center' if col != 2 else 'left', vertical='bottom')
+        cell.alignment = Alignment(horizontal='center' if col in (1, 3) else 'left', vertical='bottom')
     ws.row_dimensions[2].height = 22
     row = 3
     for i, e in enumerate(entries, 1):
@@ -95,12 +101,16 @@ def sheet(ws, lang, title, entries, field):
         when.number_format = DATE_FORMAT[lang]
         when.font = Font(name=font, size=11, bold=True, color=TEXT)
         when.alignment = Alignment(horizontal='center', vertical='top', wrap_text=True)
-        ws.row_dimensions[row].height = (
-            lines(e['heading'], 13, WIDTH['B']) * 20
-            + lines(e[field], 11, WIDTH['B']) * 16 + 14)
-        for col in range(1, 4):
+        height = lines(e['heading'], 13, WIDTH['B']) * 20 + lines(e[field], 11, WIDTH['B']) * 16 + 14
+        if ceo:
+            view = ws.cell(row, 4, e.get('ceo') or None)
+            view.font = Font(name=font, size=11, color=TEXT)
+            view.alignment = Alignment(wrap_text=True, vertical='top')
+            height = max(height, lines(e.get('ceo') or '', 11, CEO_WIDTH) * 16 + 14)
+        ws.row_dimensions[row].height = height
+        for col in range(1, cols + 1):
             cell = ws.cell(row, col)
-            cell.fill = fill
+            cell.fill = PatternFill('solid', fgColor=CEO_FILL) if col == 4 else fill
             cell.border = Border(bottom=Side(style='thin', color=LINE))
         row += 1
     ws.freeze_panes = 'A3'
@@ -122,7 +132,9 @@ def save(summary, full, title, lang, path):
     first.title = SHEETS[lang][0]
     sheet(first, lang, title, summary, 'detail')
     second = wb.create_sheet(SHEETS[lang][1])
-    sheet(second, lang, title, full, 'full')
+    full_title = title.replace('重點', '完整版').replace('highlights', 'full edition').replace('Weekly highlights', 'Weekly full edition')
+    sheet(second, lang, full_title, full, 'full', ceo=True)
+    second.page_setup.orientation = 'landscape'
     second.sheet_properties.tabColor = MUTED
     wb.properties.title = title
     wb.save(path)
@@ -264,7 +276,7 @@ def main():
         suffix = '' if lang == 'zh' else '-en'
         day_entries = [{
             'heading': s['title'][lang], 'dates': [event_date(s, date)], 'detail': s['summary'][lang],
-            'full': paragraphs[date][str(s['id'])][lang],
+            'full': paragraphs[date][str(s['id'])][lang], 'ceo': s.get('ceoView', {}).get(lang),
             'lead': s.get('depth') == 'lead'} for s in ranked(edition)]
         week_entries, week_full = [], []
         for h in digest['highlights']:
@@ -278,7 +290,8 @@ def main():
                 story = next(x for x in editions[ref['date']]['stories'] if x['id'] == ref['storyId'])
                 week_full.append({
                     'heading': story['title'][lang], 'dates': [event_date(story, ref['date'])],
-                    'full': paragraphs[ref['date']][str(ref['storyId'])][lang], 'lead': False})
+                    'full': paragraphs[ref['date']][str(ref['storyId'])][lang],
+                    'ceo': story.get('ceoView', {}).get(lang), 'lead': False})
         if lang == 'zh':
             titles = (f'{date} 日報重點', f'{start} 至 {end} 週報重點')
         else:

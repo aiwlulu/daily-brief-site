@@ -79,32 +79,50 @@
       ],
       "sources": [
         {
-          "name": {"zh": "TSMC · 10/15 法說逐字稿", "en": "TSMC · Oct 15 earnings call transcript"},
+          "name": {
+            "zh": "TSMC · 10/15 法說逐字稿",
+            "en": "TSMC · Oct 15 earnings call transcript"
+          },
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "總統府 · AATT2 開幕", "en": "Office of the President · AATT2 opening"},
+          "name": {
+            "zh": "總統府 · AATT2 開幕",
+            "en": "Office of the President · AATT2 opening"
+          },
           "url": "https://www.president.gov.tw/NEWS/40429",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "TrendForce · 記憶體背景研究", "en": "TrendForce · memory background research"},
+          "name": {
+            "zh": "TrendForce · 記憶體背景研究",
+            "en": "TrendForce · memory background research"
+          },
           "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "TrendForce · CPO 測試鏈", "en": "TrendForce · CPO test chain"},
+          "name": {
+            "zh": "TrendForce · CPO 測試鏈",
+            "en": "TrendForce · CPO test chain"
+          },
           "url": "https://www.trendforce.com/presscenter/news/20261013-13267.html",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "TSMC · 第三季實績", "en": "TSMC · Q3 results"},
+          "name": {
+            "zh": "TSMC · 第三季實績",
+            "en": "TSMC · Q3 results"
+          },
           "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "中央社 · 美光台中啟用典禮", "en": "CNA · Micron Taichung opening"},
+          "name": {
+            "zh": "中央社 · 美光台中啟用典禮",
+            "en": "CNA · Micron Taichung opening"
+          },
           "url": "https://focustaiwan.tw/politics/202610150012",
           "type": "Second-hand"
         }
@@ -229,6 +247,10 @@
       "location": {
         "zh": "美光啟用典禮：台灣台中，美光先進封裝測試二廠（AATT2）",
         "en": "Micron opening: AATT2 advanced assembly and test facility, Taichung, Taiwan"
+      },
+      "ceoView": {
+        "zh": "台積電 CoWoS 量產與美光 HBM 封測廠啟用，代表蝕刻、沉積等前段製程與先進封裝的電漿與射頻電源需求仍在延續。CEO 會追問台灣客戶的設備交機排程是否跟上這些產能、哪些製程需要更高精度的功率控制，以及在台服務與備品是否足以支援新廠爬坡。新增產出未披露，應以客戶實際下單與交機時程驗證，不宜直接推估營收。",
+        "en": "TSMC's CoWoS production and Micron's HBM assembly-and-test opening point to continued demand for plasma and RF power in etch, deposition and advanced packaging. A CEO would ask whether Taiwanese customers' tool delivery schedules track this capacity, which processes need tighter power control, and whether local service and spares can support new-fab ramps. Added output is undisclosed, so customer orders and tool-delivery timing are the evidence to watch, not a revenue estimate."
       }
     },
     {
@@ -304,22 +326,34 @@
       ],
       "sources": [
         {
-          "name": {"zh": "中央社 · OCP 台灣供應鏈整理", "en": "CNA · OCP Taiwan supply-chain roundup"},
+          "name": {
+            "zh": "中央社 · OCP 台灣供應鏈整理",
+            "en": "CNA · OCP Taiwan supply-chain roundup"
+          },
           "url": "https://www.cna.com.tw/news/afe/202610170022.aspx",
           "type": "Second-hand"
         },
         {
-          "name": {"zh": "Delta · OCP 公司發布", "en": "Delta · OCP press release"},
+          "name": {
+            "zh": "Delta · OCP 公司發布",
+            "en": "Delta · OCP press release"
+          },
           "url": "https://www.prnewswire.com/news-releases/delta-highlights-collaboration-with-nvidia-in-advancing-energy-efficient-800-vdc-power-and-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026-302909912.html",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "OCP Foundation · 2026 活動官方資訊", "en": "OCP Foundation · 2026 summit information"},
+          "name": {
+            "zh": "OCP Foundation · 2026 活動官方資訊",
+            "en": "OCP Foundation · 2026 summit information"
+          },
           "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "OCP Foundation · 場館與現場資訊", "en": "OCP Foundation · venue and onsite information"},
+          "name": {
+            "zh": "OCP Foundation · 場館與現場資訊",
+            "en": "OCP Foundation · venue and onsite information"
+          },
           "url": "https://2026ocpglobal.fnvirtual.app/onsite-info/",
           "type": "First-hand"
         }
@@ -379,7 +413,10 @@
           },
           "current": 660,
           "unit": "kW",
-          "period": {"zh": "OCP 2026 展示", "en": "OCP 2026 exhibit"},
+          "period": {
+            "zh": "OCP 2026 展示",
+            "en": "OCP 2026 exhibit"
+          },
           "owner": "Delta",
           "sourceUrl": "https://www.prnewswire.com/news-releases/delta-highlights-collaboration-with-nvidia-in-advancing-energy-efficient-800-vdc-power-and-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026-302909912.html",
           "kind": "產品規格",
@@ -396,7 +433,10 @@
           },
           "current": 480,
           "unit": "kW",
-          "period": {"zh": "OCP 2026 展示", "en": "OCP 2026 exhibit"},
+          "period": {
+            "zh": "OCP 2026 展示",
+            "en": "OCP 2026 exhibit"
+          },
           "owner": "Delta",
           "sourceUrl": "https://www.prnewswire.com/news-releases/delta-highlights-collaboration-with-nvidia-in-advancing-energy-efficient-800-vdc-power-and-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026-302909912.html",
           "kind": "產品規格",
@@ -410,6 +450,10 @@
       "location": {
         "zh": "美國加州聖荷西，San Jose McEnery Convention Center",
         "en": "San Jose McEnery Convention Center, San Jose, California, United States"
+      },
+      "ceoView": {
+        "zh": "800 VDC 機櫃供電與液冷成為台廠展示重點，顯示資料中心電源架構正朝高壓直流發展。對電源轉換廠商而言，關鍵在轉換效率、功率密度與認證時程，以及與台達、光寶等台灣電源廠是競爭還是合作。CEO 會檢視產品藍圖是否涵蓋 800 V 架構、是否需要與 ODM 及雲端客戶共同驗證；展示不等於量產訂單，仍需追蹤實際部署。",
+        "en": "800 VDC rack power and liquid cooling led Taiwanese exhibits, signalling a shift toward high-voltage DC in data-center power. For a power-conversion maker the questions are efficiency, power density and qualification timing, and whether Delta or Lite-On are competitors or partners. A CEO would check whether the roadmap covers 800 V architectures and whether joint validation with ODMs and cloud customers is needed; exhibits are not production orders."
       }
     },
     {
@@ -455,7 +499,10 @@
       ],
       "sources": [
         {
-          "name": {"zh": "中央社 · 友達董事長談轉型", "en": "CNA · AUO chairman on transformation"},
+          "name": {
+            "zh": "中央社 · 友達董事長談轉型",
+            "en": "CNA · AUO chairman on transformation"
+          },
           "url": "https://www.cna.com.tw/news/afe/202610170118.aspx",
           "type": "Second-hand"
         }
@@ -516,7 +563,10 @@
           "current": 0.3,
           "unit": "%",
           "period": "2030",
-          "owner": {"zh": "AUO 董事長，由 CNA 報導", "en": "AUO chairman, reported by CNA"},
+          "owner": {
+            "zh": "AUO 董事長，由 CNA 報導",
+            "en": "AUO chairman, reported by CNA"
+          },
           "sourceUrl": "https://www.cna.com.tw/news/afe/202610170118.aspx",
           "kind": "公司目標",
           "comparison": "無",
@@ -525,7 +575,11 @@
           "reportedRate": null,
           "baseStatus": "未揭露可比基期；不倒推"
         }
-      ]
+      ],
+      "ceoView": {
+        "zh": "面板廠跨入玻璃基板與 TGV 封裝零組件，先進封裝材料的供應來源可能增加。玻璃加工、雷射鑽孔與鍍膜同樣需要穩定的電漿與精密電源控制，CEO 可能把這類業者視為新的製程設備客群；但量產要等兩到三年，客戶認證也未確定，較適合先建立技術接觸並觀察驗證進度。",
+        "en": "A panel maker moving into glass substrates and TGV packaging parts could widen the supply base for advanced-packaging materials. Glass processing, laser drilling and coating also rely on stable plasma and precision power control, so a CEO might see a new process-tool customer group. Volume production is two to three years out and customer qualification is unconfirmed, so early technical contact and tracking qualification fit better than near-term plans."
+      }
     },
     {
       "id": 15,
@@ -570,12 +624,18 @@
       ],
       "sources": [
         {
-          "name": {"zh": "NVIDIA · RTX Spark 發布", "en": "NVIDIA · RTX Spark launch"},
+          "name": {
+            "zh": "NVIDIA · RTX Spark 發布",
+            "en": "NVIDIA · RTX Spark launch"
+          },
           "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "中央社 · NVIDIA 主管訪談", "en": "CNA · NVIDIA executive interview"},
+          "name": {
+            "zh": "中央社 · NVIDIA 主管訪談",
+            "en": "CNA · NVIDIA executive interview"
+          },
           "url": "https://www.cna.com.tw/news/afe/202610160345.aspx",
           "type": "Second-hand"
         }
@@ -635,7 +695,10 @@
           },
           "current": 128,
           "unit": "GB",
-          "period": {"zh": "2026-10-16 發布", "en": "Released Oct 16 2026"},
+          "period": {
+            "zh": "2026-10-16 發布",
+            "en": "Released Oct 16 2026"
+          },
           "owner": "NVIDIA",
           "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
           "kind": "產品規格",
@@ -645,7 +708,11 @@
           "reportedRate": null,
           "baseStatus": "未揭露可比基期；不倒推"
         }
-      ]
+      ],
+      "ceoView": {
+        "zh": "終端 AI PC 上市主要牽動 PC 需求，與精密電源設備的直接關聯較低；間接影響在於 CoWoS 需求增加，帶動上游設備與電源。CEO 多半會把它視為 AI 需求從資料中心延伸到終端的訊號，持續觀察出貨量，而非立即調整策略。",
+        "en": "AI PC launches mainly affect PC demand and relate only indirectly to precision power equipment, through added CoWoS demand upstream. A CEO would likely read it as AI demand spreading from data centers to devices and watch shipments rather than change strategy now."
+      }
     },
     {
       "id": 4,
@@ -699,17 +766,26 @@
       ],
       "sources": [
         {
-          "name": {"zh": "中央社 · 經濟部說明", "en": "CNA · Ministry of Economic Affairs briefing"},
+          "name": {
+            "zh": "中央社 · 經濟部說明",
+            "en": "CNA · Ministry of Economic Affairs briefing"
+          },
           "url": "https://www.cna.com.tw/news/afe/202610160128.aspx",
           "type": "Second-hand"
         },
         {
-          "name": {"zh": "公視 · 經濟部及電電公會回應", "en": "PTS · MOEA and TEEMA responses"},
+          "name": {
+            "zh": "公視 · 經濟部及電電公會回應",
+            "en": "PTS · MOEA and TEEMA responses"
+          },
           "url": "https://news.pts.org.tw/article/831750",
           "type": "Second-hand"
         },
         {
-          "name": {"zh": "中央社 · 美國國務院回應", "en": "CNA · U.S. State Department response"},
+          "name": {
+            "zh": "中央社 · 美國國務院回應",
+            "en": "CNA · U.S. State Department response"
+          },
           "url": "https://www.cna.com.tw/news/aipl/202610170009.aspx",
           "type": "Second-hand"
         }
@@ -770,8 +846,14 @@
           },
           "current": 2,
           "unit": "USD billion",
-          "period": {"zh": "規劃期未定", "en": "Planning period not set"},
-          "owner": {"zh": "經濟部，由 CNA 報導", "en": "MOEA, reported by CNA"},
+          "period": {
+            "zh": "規劃期未定",
+            "en": "Planning period not set"
+          },
+          "owner": {
+            "zh": "經濟部，由 CNA 報導",
+            "en": "MOEA, reported by CNA"
+          },
           "sourceUrl": "https://www.cna.com.tw/news/afe/202610160128.aspx",
           "kind": "規劃估算",
           "comparison": "無",
@@ -787,8 +869,14 @@
           },
           "current": 4,
           "unit": "USD billion",
-          "period": {"zh": "規劃期未定", "en": "Planning period not set"},
-          "owner": {"zh": "經濟部，由 CNA 報導", "en": "MOEA, reported by CNA"},
+          "period": {
+            "zh": "規劃期未定",
+            "en": "Planning period not set"
+          },
+          "owner": {
+            "zh": "經濟部，由 CNA 報導",
+            "en": "MOEA, reported by CNA"
+          },
           "sourceUrl": "https://www.cna.com.tw/news/afe/202610160128.aspx",
           "kind": "規劃估算",
           "comparison": "無",
@@ -801,6 +889,10 @@
       "location": {
         "zh": "投資規劃：美國德州；具體園區用地仍待確認",
         "en": "Investment plan: Texas, United States; specific park land remains unconfirmed"
+      },
+      "ceoView": {
+        "zh": "台灣廠商若在德州等地設立海外園區，美國在地的電子製造與設備需求可能增加，總部在美國的電源與量測設備商有機會就近服務台灣客戶的美國據點。不過目前只是規劃估算，用地、資金與進駐廠商都未確認；CEO 會先向既有台灣客戶確認其美國擴廠時程，再評估在地銷售與服務配置。",
+        "en": "Taiwanese industrial parks in Texas could add local electronics manufacturing and tool demand, letting a U.S.-based power and measurement company serve Taiwanese customers' U.S. sites up close. These are planning estimates with land, funding and tenants unconfirmed, so a CEO would first confirm existing Taiwanese customers' U.S. timelines before planning local sales and service."
       }
     },
     {
@@ -856,22 +948,34 @@
       ],
       "sources": [
         {
-          "name": {"zh": "中經院 · 第四季預測原文", "en": "CIER · Q4 forecast release"},
+          "name": {
+            "zh": "中經院 · 第四季預測原文",
+            "en": "CIER · Q4 forecast release"
+          },
           "url": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC4%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "中經院 · 預測新聞稿 PDF", "en": "CIER · forecast press release PDF"},
+          "name": {
+            "zh": "中經院 · 預測新聞稿 PDF",
+            "en": "CIER · forecast press release PDF"
+          },
           "url": "https://www.cier.edu.tw/wp-content/uploads/2026/10/2026Q4_NEWS.pdf",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "中經院 · 7 月預測基準", "en": "CIER · July forecast baseline"},
+          "name": {
+            "zh": "中經院 · 7 月預測基準",
+            "en": "CIER · July forecast baseline"
+          },
           "url": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC3%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "中央社 · Focus Taiwan", "en": "CNA · Focus Taiwan"},
+          "name": {
+            "zh": "中央社 · Focus Taiwan",
+            "en": "CNA · Focus Taiwan"
+          },
           "url": "https://focustaiwan.tw/business/202610160008",
           "type": "Second-hand"
         }
@@ -931,7 +1035,10 @@
           },
           "current": 0.1216,
           "unit": "%",
-          "period": {"zh": "2026 全年，2026-10 預測版", "en": "Full-year 2026, October 2026 forecast"},
+          "period": {
+            "zh": "2026 全年，2026-10 預測版",
+            "en": "Full-year 2026, October 2026 forecast"
+          },
           "owner": "CIER",
           "sourceUrl": "https://www.cier.edu.tw/eco/2026%E5%B9%B4%E7%AC%AC4%E5%AD%A3%E8%87%BA%E7%81%A3%E7%B6%93%E6%BF%9F%E9%A0%90%E6%B8%AC/",
           "kind": "預測",
@@ -941,7 +1048,11 @@
           "reportedRate": null,
           "baseStatus": "已揭露"
         }
-      ]
+      ],
+      "ceoView": {
+        "zh": "台灣全年成長預測上修至 12.16%，主要由 AI 需求與企業投資帶動，代表台灣客戶的資本支出環境仍偏強。CEO 會把它當作總體背景，搭配客戶個別擴產計畫、匯率與地緣風險一起判斷；預測仍可能修正，不宜單獨作為接單依據。",
+        "en": "Taiwan's growth forecast rising to 12.16%, driven by AI demand and corporate investment, suggests a still-strong capex environment among Taiwanese customers. A CEO would treat it as macro background alongside individual customer expansion plans, currency and geopolitical risk; forecasts can be revised and should not drive order expectations on their own."
+      }
     },
     {
       "id": 18,
@@ -996,7 +1107,10 @@
       ],
       "sources": [
         {
-          "name": {"zh": "TNGlobal · 胡志明市電價爭點", "en": "TNGlobal · Ho Chi Minh City tariff issue"},
+          "name": {
+            "zh": "TNGlobal · 胡志明市電價爭點",
+            "en": "TNGlobal · Ho Chi Minh City tariff issue"
+          },
           "url": "https://technode.global/2026/10/16/hcmc-seeks-clarification-on-power-price-for-2-1b-ai-data-center/",
           "type": "Second-hand"
         }
@@ -1056,8 +1170,14 @@
           },
           "current": 2.1,
           "unit": "USD billion",
-          "period": {"zh": "2026-03 公布，2026-10 電價追蹤", "en": "Announced Mar 2026; tariff follow-up Oct 2026"},
-          "owner": {"zh": "AIC / KBC，由 TNGlobal 報導", "en": "AIC / KBC, reported by TNGlobal"},
+          "period": {
+            "zh": "2026-03 公布，2026-10 電價追蹤",
+            "en": "Announced Mar 2026; tariff follow-up Oct 2026"
+          },
+          "owner": {
+            "zh": "AIC / KBC，由 TNGlobal 報導",
+            "en": "AIC / KBC, reported by TNGlobal"
+          },
           "sourceUrl": "https://technode.global/2026/10/16/hcmc-seeks-clarification-on-power-price-for-2-1b-ai-data-center/",
           "kind": "既有規劃",
           "comparison": "無",
@@ -1073,8 +1193,14 @@
           },
           "current": 50,
           "unit": "MW",
-          "period": {"zh": "首期規劃，投產時程待核實", "en": "Phase 1 plan; operating date unverified"},
-          "owner": {"zh": "AIC / KBC 計畫，由 TNGlobal 報導", "en": "AIC / KBC project, reported by TNGlobal"},
+          "period": {
+            "zh": "首期規劃，投產時程待核實",
+            "en": "Phase 1 plan; operating date unverified"
+          },
+          "owner": {
+            "zh": "AIC / KBC 計畫，由 TNGlobal 報導",
+            "en": "AIC / KBC project, reported by TNGlobal"
+          },
           "sourceUrl": "https://technode.global/2026/10/16/hcmc-seeks-clarification-on-power-price-for-2-1b-ai-data-center/",
           "kind": "既有規劃，非已通電容量",
           "comparison": "無",
@@ -1087,6 +1213,10 @@
       "location": {
         "zh": "越南胡志明市；專案位於新富中工業區（Tan Phu Trung Industrial Park）",
         "en": "Ho Chi Minh City, Vietnam; project at Tan Phu Trung Industrial Park"
+      },
+      "ceoView": {
+        "zh": "胡志明市資料中心電價尚未定案，會影響當地 AI 資料中心的成本與時程。電價越高，客戶越重視電源轉換效率與能源管理，這是高效率電源產品的賣點；但專案規模與時程仍不確定，CEO 會把越南列為觀察市場，等電價與首期 50 MW 時程明朗後再投入資源。",
+        "en": "Unsettled data-center tariffs in Ho Chi Minh City affect the cost and timing of local AI data centers. Higher tariffs make conversion efficiency and energy management more valuable, which favours high-efficiency power products, but project scale and timing remain uncertain. A CEO would keep Vietnam on a watch list until tariffs and the 50 MW first-phase timeline are clear."
       }
     },
     {
@@ -1152,17 +1282,26 @@
       ],
       "sources": [
         {
-          "name": {"zh": "中央社 · 馬來西亞現場報導，經濟日報刊載", "en": "CNA · Malaysia on-site report via Economic Daily News"},
+          "name": {
+            "zh": "中央社 · 馬來西亞現場報導，經濟日報刊載",
+            "en": "CNA · Malaysia on-site report via Economic Daily News"
+          },
           "url": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "type": "Second-hand"
         },
         {
-          "name": {"zh": "Sidec · AiSEM 與招募活動官方場館", "en": "Sidec · AiSEM and recruitment venue"},
+          "name": {
+            "zh": "Sidec · AiSEM 與招募活動官方場館",
+            "en": "Sidec · AiSEM and recruitment venue"
+          },
           "url": "https://www.sidec.com.my/aisemselangor/",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "ASEM · MSRD 場館與日期", "en": "ASEM · MSRD venue and dates"},
+          "name": {
+            "zh": "ASEM · MSRD 場館與日期",
+            "en": "ASEM · MSRD venue and dates"
+          },
           "url": "https://www.asemedu.com/msrd-2026/",
           "type": "First-hand"
         }
@@ -1222,8 +1361,14 @@
           },
           "current": 1500,
           "unit": "個職缺",
-          "period": {"zh": "2026-10 中旬招募；起日來源有差異", "en": "Mid-Oct 2026 recruitment; sources differ on start date"},
-          "owner": {"zh": "主辦活動，由 CNA 報導", "en": "Event organizers, reported by CNA"},
+          "period": {
+            "zh": "2026-10 中旬招募；起日來源有差異",
+            "en": "Mid-Oct 2026 recruitment; sources differ on start date"
+          },
+          "owner": {
+            "zh": "主辦活動，由 CNA 報導",
+            "en": "Event organizers, reported by CNA"
+          },
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "超過此數，非實際聘用",
           "comparison": "無",
@@ -1239,8 +1384,14 @@
           },
           "current": 20,
           "unit": "家",
-          "period": {"zh": "2026-10-16 官員說明", "en": "Official remarks, Oct 16 2026"},
-          "owner": {"zh": "雪蘭莪官員，由 CNA 報導", "en": "Selangor officials, reported by CNA"},
+          "period": {
+            "zh": "2026-10-16 官員說明",
+            "en": "Official remarks, Oct 16 2026"
+          },
+          "owner": {
+            "zh": "雪蘭莪官員，由 CNA 報導",
+            "en": "Selangor officials, reported by CNA"
+          },
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "官方陳述",
           "comparison": "無",
@@ -1256,8 +1407,14 @@
           },
           "current": 409,
           "unit": "人",
-          "period": {"zh": "2026-10-16 官員說明", "en": "Official remarks, Oct 16 2026"},
-          "owner": {"zh": "雪蘭莪官員，由 CNA 報導", "en": "Selangor officials, reported by CNA"},
+          "period": {
+            "zh": "2026-10-16 官員說明",
+            "en": "Official remarks, Oct 16 2026"
+          },
+          "owner": {
+            "zh": "雪蘭莪官員，由 CNA 報導",
+            "en": "Selangor officials, reported by CNA"
+          },
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "官方陳述",
           "comparison": "無",
@@ -1273,8 +1430,14 @@
           },
           "current": 150,
           "unit": "MYR million",
-          "period": {"zh": "2026-10-16 官員說明，撥款時程未披露", "en": "Official remarks, Oct 16 2026; disbursement timing undisclosed"},
-          "owner": {"zh": "雪蘭莪官員，由 CNA 報導", "en": "Selangor officials, reported by CNA"},
+          "period": {
+            "zh": "2026-10-16 官員說明，撥款時程未披露",
+            "en": "Official remarks, Oct 16 2026; disbursement timing undisclosed"
+          },
+          "owner": {
+            "zh": "雪蘭莪官員，由 CNA 報導",
+            "en": "Selangor officials, reported by CNA"
+          },
           "sourceUrl": "https://money.udn.com/money/story/5599/9819018?from=edn_newestlist_cate_side",
           "kind": "官員陳述的計畫規模，非已實現 FDI",
           "comparison": "無",
@@ -1287,6 +1450,10 @@
       "location": {
         "zh": "馬來西亞吉隆坡，吉隆坡會展中心（KLCC）；由雪蘭莪相關機構主辦",
         "en": "Kuala Lumpur Convention Centre (KLCC), Kuala Lumpur, Malaysia; organized by Selangor-linked institutions"
+      },
+      "ceoView": {
+        "zh": "馬來西亞積極招募設計、製程、設備與廠務人才，反映當地半導體後段與設計聚落持續擴張。對設備商而言，這代表當地客戶與裝機量可能增加，也意味工程與服務人才競爭更激烈。CEO 會檢視在馬來西亞的服務據點與人力布局，以及能否與當地大學和園區合作培訓。",
+        "en": "Malaysia's push to hire design, process, equipment and facilities staff reflects growing back-end and design clusters. For a tool supplier that means more local customers and installed tools, and tighter competition for engineering and service talent. A CEO would review Malaysian service coverage and staffing, and partnerships with local universities and parks for training."
       }
     },
     {
@@ -1342,12 +1509,18 @@
       ],
       "sources": [
         {
-          "name": {"zh": "越南政府新聞網 · 10/3 統計發布", "en": "Vietnam Government News · Oct 3 statistics"},
+          "name": {
+            "zh": "越南政府新聞網 · 10/3 統計發布",
+            "en": "Vietnam Government News · Oct 3 statistics"
+          },
           "url": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
           "type": "First-hand"
         },
         {
-          "name": {"zh": "VnEconomy · 10/4 分項整理", "en": "VnEconomy · Oct 4 breakdown"},
+          "name": {
+            "zh": "VnEconomy · 10/4 分項整理",
+            "en": "VnEconomy · Oct 4 breakdown"
+          },
           "url": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
           "type": "Second-hand"
         }
@@ -1407,8 +1580,14 @@
           },
           "current": 21.07,
           "unit": "USD billion",
-          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
-          "owner": {"zh": "越南國家統計局，由政府新聞網公布", "en": "Vietnam statistics office, via Government News"},
+          "period": {
+            "zh": "2026-01 至 2026-09",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "越南國家統計局，由政府新聞網公布",
+            "en": "Vietnam statistics office, via Government News"
+          },
           "sourceUrl": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
           "kind": "官方估計",
           "comparison": "YoY",
@@ -1424,8 +1603,14 @@
           },
           "current": 50.36,
           "unit": "USD billion",
-          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
-          "owner": {"zh": "越南國家統計局，由政府新聞網公布", "en": "Vietnam statistics office, via Government News"},
+          "period": {
+            "zh": "2026-01 至 2026-09",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "越南國家統計局，由政府新聞網公布",
+            "en": "Vietnam statistics office, via Government News"
+          },
           "sourceUrl": "https://en.baochinhphu.vn/viet-nams-gdp-growth-accelerates-to-995-in-q3-111261003093646463.htm",
           "kind": "官方統計",
           "comparison": "YoY",
@@ -1441,8 +1626,14 @@
           },
           "current": 21.82,
           "unit": "USD billion",
-          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
-          "owner": {"zh": "越南統計資料，由 VnEconomy 轉述", "en": "Vietnam statistics, as reported by VnEconomy"},
+          "period": {
+            "zh": "2026-01 至 2026-09",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "越南統計資料，由 VnEconomy 轉述",
+            "en": "Vietnam statistics, as reported by VnEconomy"
+          },
           "sourceUrl": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
           "kind": "媒體引述分項，官方原表待核對",
           "comparison": "無",
@@ -1458,8 +1649,14 @@
           },
           "current": 9.26,
           "unit": "USD billion",
-          "period": {"zh": "2026-01 至 2026-09", "en": "Jan–Sep 2026"},
-          "owner": {"zh": "越南統計資料，由 VnEconomy 轉述", "en": "Vietnam statistics, as reported by VnEconomy"},
+          "period": {
+            "zh": "2026-01 至 2026-09",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "越南統計資料，由 VnEconomy 轉述",
+            "en": "Vietnam statistics, as reported by VnEconomy"
+          },
           "sourceUrl": "https://en.vneconomy.vn/vietnams-fdi-attraction-reaches-5036bln-in-9m.htm",
           "kind": "媒體引述分項，官方原表待核對",
           "comparison": "無",
@@ -1472,6 +1669,10 @@
       "location": {
         "zh": "越南全國統計；非單一活動或工廠",
         "en": "Nationwide Vietnam statistics; not a single event or factory"
+      },
+      "ceoView": {
+        "zh": "越南前三季外資註冊額年增 76.4%、製造業約占一半，顯示供應鏈持續分散到東南亞；但實現額只年增 12.1%，落地速度慢於承諾。CEO 會追蹤其中哪些屬於半導體、電子與資料中心專案，並以實際建廠與設備採購時程判斷機會，而不是看註冊金額。",
+        "en": "Vietnam's registered FDI rose 76.4% with manufacturing about half, showing continued supply-chain diversification into Southeast Asia, but realized FDI grew only 12.1%, so execution lags commitments. A CEO would track which projects are semiconductor, electronics or data-center related and judge opportunity by actual construction and tool purchases, not registered amounts."
       }
     },
     {
@@ -1517,7 +1718,10 @@
       ],
       "sources": [
         {
-          "name": {"zh": "NVIDIA · 10/14 工廠與半導體合作發布", "en": "NVIDIA · Oct 14 factory and semiconductor partnerships"},
+          "name": {
+            "zh": "NVIDIA · 10/14 工廠與半導體合作發布",
+            "en": "NVIDIA · Oct 14 factory and semiconductor partnerships"
+          },
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
           "type": "First-hand"
         }
@@ -1573,6 +1777,10 @@
       "location": {
         "zh": "全球合作發布；各工廠實際導入地點未完整披露",
         "en": "Global collaboration announcement; individual factory deployment sites are not fully disclosed"
+      },
+      "ceoView": {
+        "zh": "NVIDIA 與 KLA、Advantest 等檢測、測試及工廠自動化業者合作，代表工廠 AI 需要大量設備資料與即時控制。對精密量測與控制儀器廠商而言，設備資料介面、可程式化與即時回饋能力可能成為新的產品要求；CEO 會評估自家產品能否提供這類資料、是否需要加入相關生態系，但目前部署與效益仍未完整公開。",
+        "en": "NVIDIA's work with KLA, Advantest and factory-automation firms shows factory AI depends on rich tool data and real-time control. For precision measurement and control instruments, data interfaces, programmability and real-time feedback may become product requirements. A CEO would assess whether products can supply such data and whether to join these ecosystems, though deployments and benefits are not yet fully disclosed."
       }
     }
   ],
