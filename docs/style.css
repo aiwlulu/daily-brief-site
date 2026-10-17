@@ -126,7 +126,9 @@ body[data-view="day"] .story{grid-template-columns:32px minmax(0,1fr);gap:22px;p
 .confidence{font-size:12px;color:var(--muted);margin-bottom:8px}
 .deep{margin-top:26px}.sources{max-width:900px;margin:0 auto}#source-list{columns:1}
 .source-row{padding:12px 0;border-top:1px solid var(--line)}
+.toolbar .search{width:290px;flex:0 1 290px}.toolbar .search input{width:100%;min-width:80px}
 @media(max-width:800px){
+ .toolbar .search{width:100%;flex-basis:100%}
  .brief-layout{grid-template-columns:1fr;gap:22px}.quick-brief .lead{padding:20px}.quick-brief .lead p{font-size:16px;margin:10px 0 14px}
  .quick-brief .lead:before{display:none}.brief-list a{font-size:16px;padding:13px 0}.quick-brief .section-top span{font-size:11px}
  .story h3{font-size:23px}.story-sources a{font-size:13px;min-height:44px}.source-kind{font-size:10px}.source-label{font-size:12px}

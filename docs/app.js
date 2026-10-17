@@ -93,7 +93,7 @@ function renderPeriod() {
 const openStories = new Set(), closedStories = new Set();
 const words = {
   zh: {all:'全部',tech:'科技與商業',taiwan:'台灣與政策',global:'全球與能源',pick:'深讀推薦',detail:'分析',confidence:'判斷信心',sources:'新聞來源',count:n => n+' 則新聞',empty:'找不到符合條件的新聞。'},
-  en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Analysis',confidence:'Confidence',sources:'Sources',count:n => n+' stories',empty:'No stories match your search.'}
+  en: {all:'All',tech:'Tech & business',taiwan:'Taiwan & policy',global:'Global & energy',pick:'READ DEEPER',detail:'Analysis',confidence:'Confidence',sources:'Sources',count:n => n===1?'1 story':n+' stories',empty:'No stories match your search.'}
 };
 const t = value => value[lang];
 function node(tag, text, className) {
@@ -126,7 +126,7 @@ function renderStories() {
   for (const s of matches) {
     const article = node('article', undefined, 'story');
     article.id = 'story-'+s.id;
-    article.append(node('div', String(s.sourceId).padStart(2,'0'), 'story-number'));
+    article.append(node('div', String(data.stories.indexOf(s)+1).padStart(2,'0'), 'story-number'));
     const content = node('div');
     const meta = node('div', undefined, 'story-meta');
     const published=node('time',s.editionDate.slice(5).replace('-','/'));published.dateTime=s.editionDate;published.setAttribute('aria-label',s.editionDate);meta.append(node('span', words[lang][s.category]),published);
@@ -273,8 +273,8 @@ function render() {
     const n=node('div',undefined,'lower-item');n.append(node('strong',t(item.title)),node('p',t(item.text)));el('lower-content').append(n);
   });
   el('source-list').replaceChildren();
-  data.stories.forEach(story=>{
-    const n=node('div',undefined,'source-row');n.append(node('strong',story.editionDate+' / '+String(story.sourceId).padStart(2,'0')+' · '+t(story.title)));
+  data.stories.forEach((story,index)=>{
+    const n=node('div',undefined,'source-row');n.append(node('strong',story.editionDate+' / '+String(index+1).padStart(2,'0')+' · '+t(story.title)));
     story.sources.forEach(source=>{n.append(link(source),node('small',source.type+' '));});
     el('source-list').append(n);
   });
