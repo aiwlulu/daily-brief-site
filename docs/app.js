@@ -82,6 +82,13 @@ function renderPeriod() {
   el('view-day').setAttribute('aria-pressed',String(period === 'day'));
   el('view-week').setAttribute('aria-pressed',String(period === 'week'));
   el('view-events').setAttribute('aria-pressed',String(period === 'events'));
+  // Tab title follows language and view, e.g. "Oct 17, 2026 · Daily Brief".
+  const fmt=(d,o)=>new Intl.DateTimeFormat(zh?'zh-TW':'en',{...o,timeZone:'UTC'}).format(new Date(d+'T12:00:00Z'));
+  const md=d=>zh?fmt(d,{month:'numeric',day:'numeric'}):fmt(d,{month:'short',day:'numeric'});
+  document.title=period==='events'?(zh?'產業行事曆｜Daily Brief':'Industry calendar · Daily Brief')
+    :period==='week'?(zh?md(range.start)+'–'+md(range.end)+' 週報｜Daily Brief':'Week of '+md(range.start)+' · Daily Brief')
+    :(zh?md(selectedDate)+' 日報｜Daily Brief':fmt(selectedDate,{month:'short',day:'numeric',year:'numeric'})+' · Daily Brief');
+  document.querySelector('meta[name=description]').content=zh?'Daily Brief 商業與科技日報：台灣與東南亞半導體、資料中心與工廠供應鏈的查證新聞，附來源與圖表。':'Daily Brief: verified bilingual news on Taiwan and Southeast Asian semiconductor, data-center and factory supply chains, with sources and charts.';
   el('date-label').textContent = zh ? '日期' : 'Date';
   el('date').value = selectedDate;
   el('date-display').textContent = selectedDate.slice(5).replace('-','/');
