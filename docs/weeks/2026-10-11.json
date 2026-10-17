@@ -1,6 +1,6 @@
 {
   "weekStart": "2026-10-11",
-  "generatedAt": "2026-10-17T10:45:57.185453Z",
+  "generatedAt": "2026-10-17T11:34:06.828336Z",
   "throughline": {
     "zh": "10/11 至 10/17 的五個主題，聚焦台灣與東南亞：晶圓與記憶體供給、整機櫃供電、台灣終端與布局、馬來西亞人才，以及越南投資落地。依已發布的 10/12 至 10/17 日報整理，同一事件只歸入一個主題。",
     "en": "Five themes for October 11–17 focus on Taiwan and Southeast Asia: chip and memory supply, rack power, Taiwan endpoints and footprint, Malaysian talent, and Vietnam investment execution. Based on published October 12–17 editions, with each event assigned once."
@@ -14,8 +14,8 @@
         "en": "Chip, HBM and packaging supply: verify equipment orders"
       },
       "summary": {
-        "zh": "台積電法說與美光 AATT2 開幕串起先進邏輯、HBM 與後段測試，南亞科財報則提供一般 DRAM 的另一個觀察面。AEIS 應逐層確認認證、實際產能與客戶拉貨，不能將不同記憶體市場合併成同一成長率。",
-        "en": "TSMC’s results and Micron’s AATT2 opening connect advanced logic, HBM and backend testing, while Nanya offers a separate conventional-DRAM view. AEIS should verify qualifications, operational capacity and tool shipments by layer instead of applying one memory growth rate."
+        "zh": "台積電法說與美光 AATT2 開幕串起先進邏輯、HBM 與後段測試，南亞科財報則提供一般 DRAM 的另一個觀察面。電源供應商 應逐層確認認證、實際產能與客戶拉貨，不能將不同記憶體市場合併成同一成長率。",
+        "en": "TSMC’s results and Micron’s AATT2 opening connect advanced logic, HBM and backend testing, while Nanya offers a separate conventional-DRAM view. power suppliers should verify qualifications, operational capacity and tool shipments by layer instead of applying one memory growth rate."
       },
       "references": [
         {
@@ -44,8 +44,8 @@
         "en": "Racks move toward high-voltage power and liquid cooling; delivery determines timing"
       },
       "summary": {
-        "zh": "OCP 台廠展示把需求延伸到電源、備援、冷卻與整機整合，本週台電投資及電源專利調查也影響交付環境。對 AEIS，應比較產品認證、成本與供應責任，展示規格尚不足以證明量產市占。",
-        "en": "Taiwan’s OCP exhibits extend demand into power, backup, cooling and integration; grid investment and a power-patent investigation also affect delivery conditions. AEIS needs comparable qualification, costs and supply responsibilities; exhibit ratings do not establish production share."
+        "zh": "在美國加州聖荷西舉行的 OCP 台廠展示把需求延伸到電源、備援、冷卻與整機整合，本週台電投資及電源專利調查也影響交付環境。對 電源供應商，應比較產品認證、成本與供應責任，展示規格尚不足以證明量產市占。",
+        "en": "Taiwan’s OCP exhibits in San Jose, California extend demand into power, backup, cooling and integration; grid investment and a power-patent investigation also affect delivery conditions. power suppliers needs comparable qualification, costs and supply responsibilities; exhibit ratings do not establish production share."
       },
       "references": [
         {
@@ -66,12 +66,12 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "從終端 AI 到海外園區，投資要跟上已驗證需求",
-        "en": "From local AI to overseas parks, investment needs verified demand"
+        "zh": "終端 AI、工廠導入與海外布局，投資要對到實際需求",
+        "en": "Local AI, factory adoption and overseas footprint need verified demand"
       },
       "summary": {
-        "zh": "RTX Spark 推出帶來終端需求觀察點，台灣赴美園區規劃與中經院上修預測則反映布局及總體展望。銷售、用地、融資與客戶訂單仍需逐項驗證，AEIS 可據此安排服務與庫存，尚無已揭露的新增收入。",
-        "en": "RTX Spark offers an endpoint demand checkpoint, while Taiwan’s U.S. park plans and CIER’s upgraded forecast inform footprint and macro expectations. Sales, land, financing and customer orders need verification before AEIS service or inventory commitments; incremental revenue is undisclosed."
+        "zh": "RTX Spark 推出與工廠 AI 合作提供終端使用的觀察點，台灣赴美園區規劃及中經院預測則反映布局與總體展望。採購、驗收、用地、融資及可回收收益仍需逐項確認，才能支持服務、庫存或產能投入。",
+        "en": "RTX Spark and factory AI collaborations offer end-use checkpoints, while Taiwan’s U.S. park plans and CIER forecasts inform footprint and macro expectations. Procurement, acceptance, land, financing and recoverable returns require verification before service, inventory or capacity commitments."
       },
       "references": [
         {
@@ -85,6 +85,10 @@
         {
           "date": "2026-10-17",
           "storyId": 11
+        },
+        {
+          "date": "2026-10-17",
+          "storyId": 21
         }
       ]
     },
@@ -96,8 +100,8 @@
         "en": "Malaysia’s backend development depends on engineering talent"
       },
       "summary": {
-        "zh": "雪蘭莪半導體招募涵蓋設計、製程、設備與廠務，官方描述與檳城製造及封測聚落互補。對 AEIS，區域服務不能只看廠房數，還需驗證聘用、留任及客戶現場認證；職缺尚非新增產能。",
-        "en": "Selangor recruitment spans design, process, equipment and facilities, complementing Penang manufacturing and backend clusters according to officials. AEIS regional service planning needs hiring, retention and field qualifications alongside plant counts; vacancies are not added capacity."
+        "zh": "在吉隆坡 KLCC 舉辦的半導體招募涵蓋設計、製程、設備與廠務，官方描述與檳城製造及封測聚落互補。對 電源供應商，區域服務不能只看廠房數，還需驗證聘用、留任及客戶現場認證；職缺尚非新增產能。",
+        "en": "Recruitment at KLCC in Kuala Lumpur spans design, process, equipment and facilities, complementing Penang manufacturing and backend clusters according to officials. power suppliers regional service planning needs hiring, retention and field qualifications alongside plant counts; vacancies are not added capacity."
       },
       "references": [
         {
@@ -114,8 +118,8 @@
         "en": "Vietnam investment execution needs funding and power terms"
       },
       "summary": {
-        "zh": "胡志明市資料中心電價認定成為新增爭點；10 月 3 日區域統計則顯示前三季 FDI 實現額年增 12.1%。兩者分別提供個案風險與市場背景，對 AEIS 的機會仍須由具名工廠、電力合約及設備採購驗證，電價報導有第一手文件限制。",
-        "en": "Ho Chi Minh City’s data-center tariff classification is a new project issue; October 3 statistics show nine-month realized FDI up 12.1%. These provide case-level risk and market context, while AEIS opportunities require named plants, power contracts and procurement; tariff reporting has primary-document limits."
+        "zh": "胡志明市資料中心電價認定成為新增爭點；10 月 3 日區域統計則顯示前三季 FDI 實現額年增 12.1%。兩者分別提供個案風險與市場背景，對 電源供應商 的機會仍須由具名工廠、電力合約及設備採購驗證，電價報導有第一手文件限制。",
+        "en": "Ho Chi Minh City’s data-center tariff classification is a new project issue; October 3 statistics show nine-month realized FDI up 12.1%. These provide case-level risk and market context, while power suppliers opportunities require named plants, power contracts and procurement; tariff reporting has primary-document limits."
       },
       "references": [
         {

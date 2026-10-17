@@ -23,6 +23,7 @@ jobs:
         run: |
           node --check docs/app.js
           node scripts/check.mjs
+          python3 scripts/check-xlsx.py
           node --test scripts/*.test.mjs
       - name: Version page assets
         run: node scripts/prepare-pages.mjs

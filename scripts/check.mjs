@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {validDate,periodRange} from '../docs/dates.mjs';
 const bilingual=value=>{for(const lang of ['zh','en'])assert.ok(typeof value?.[lang]==='string' && value[lang].trim(),'Missing bilingual text');};
 // Guard the simplified character found in published Chinese copy.
@@ -21,6 +22,7 @@ assert.equal(data.date,entry.date);
 assert.ok(validDate(data.date));
 assert.equal(entry.path,'./editions/'+data.date+'.json');
 bilingual(data.throughline);
+if(data.perspective)assert.ok(!/\bAEIS\b|Advanced Energy Industries/i.test(JSON.stringify(data)),'Private editorial lens exposed in public edition');
 if(data.verificationNote)bilingual(data.verificationNote);
 if(data.generatedAt)assert.ok(!Number.isNaN(Date.parse(data.generatedAt)));
 for(const item of [...data.context,...data.lower,...data.memo.items]){bilingual(item.title);bilingual(item.text);}
@@ -31,7 +33,7 @@ for(const story of data.stories){
    const m=story.market;assert.ok(m&&validDate(m.eventDate),'Missing market date');
    for(const key of ['countries','industries','chain'])bilingual(m[key]);
    for(const key of ['investment','demand','fdi'])bilingual(m.changes[key]);
-   for(const key of ['exposure','impact','horizon','action','checkpoint'])bilingual(m.aeis[key]);
+   for(const key of ['exposure','impact','horizon','action','checkpoint'])bilingual(m.business[key]);
    assert.ok(Array.isArray(story.metrics));
    for(const metric of story.metrics){
     bilingual(metric.name);bilingual(metric.impact);assert.ok(Number.isFinite(metric.current));
@@ -43,6 +45,7 @@ for(const story of data.stories){
    }
   }
   if(story.takeaway)bilingual(story.takeaway);
+  if(story.location)bilingual(story.location);
   if(story.depth)assert.ok(['lead','standard'].includes(story.depth));
   assert.ok(['tech','taiwan','global'].includes(story.category));
   for(const key of ['title','summary','metricLabel','confidence'])for(const lang of ['zh','en'])assert.ok(story[key][lang]);
@@ -84,6 +87,7 @@ for(const [period,entries] of Object.entries(manifest.exports||{})){
   assert.ok(validDate(date));assert.equal(path,'./exports/'+period+'-'+date+'.xlsx');
   if(period==='week')assert.ok(manifest.weeks[date]);else assert.ok(manifest.editions.some(e=>e.date===date));
   const bytes=fs.readFileSync(new URL('../docs/'+path,import.meta.url));assert.equal(bytes.subarray(0,2).toString(),'PK','Invalid XLSX');
+  const version=manifest.exportVersions?.[period]?.[date];if(version)assert.equal(version,createHash('sha256').update(bytes).digest('hex').slice(0,12),'Stale Excel download version');
  }
 }
 const html = fs.readFileSync(new URL('../docs/index.html',import.meta.url),'utf8');

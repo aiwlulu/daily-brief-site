@@ -2,6 +2,8 @@
 // node_modules points to CODEX_PRIMARY_RUNTIME_NODE_MODULES. See AGENTS.md.
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
 import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
 import {marketHeaders,metricHeaders,marketRow,collectMetrics,metricFormulas,weeklyRows} from './export-data.mjs';
 const root=path.resolve(process.argv[2]||'.');
@@ -21,7 +23,7 @@ const previews=process.env.BRIEF_PREVIEW_DIR; if(previews)await fs.mkdir(preview
 const col=i=>{let s='';for(i++;i;i=Math.floor((i-1)/26))s=String.fromCharCode(65+(i-1)%26)+s;return s;};
 const noteRows=[
  ['欄位／方法','定義'],
- ['閱讀角度','Advanced Energy Industries (NASDAQ: AEIS)。半導體設備精密電源、資料中心電源、工業客戶與區域服務；影響為編輯分析。'],
+ ['閱讀角度','從半導體設備、電源、資料中心與工業供應鏈的經營決策評估市場；影響判斷為編輯分析。'],
  ['國家範圍','聚焦台灣與東南亞。美國等國家只在直接連結台灣供應鏈時列為關聯地點。'],
  ['日期','刊期與事件日期分欄。週報刊期欄為週起日，個別事件日期請查數值明細與日報。背景資料保留原發布時間。'],
  ['市場動向','日報每則一列。週報依精選五個主題合併，數值明細保留各事件。市場表連結至日報完整來源，數值表連結至原始數據。下載完整刊期，不受頁面搜尋篩選影響。'],
@@ -31,10 +33,10 @@ const noteRows=[
  ['變動計算','同口徑且基期可用時，金額變動＝本期減基期；變動率＝本期除基期減一。基期為零時變動率留空。'],
  ['百分點','比例或成長率的修訂以百分點表示。例如 GDP 預測由 10.35% 到 12.16%，增加 1.81 個百分點，並非年增 1.81%。'],
  ['資料性質','區分實績、官方估計、預測、公司目標、規劃與產品規格。規劃不是已實現 FDI，額定能力不是實際用電，職缺不是聘用。'],
- ['AEIS 影響','來源沒有披露 AEIS 訂單或影響金額時保持未知，不以市場增幅直接推算公司收入。'],
+ ['營運影響','未披露的訂單或影響金額保持未知，不以市場增幅直接推算個別公司的收入。'],
  ['背景資料','CoWoS 與美光屬本週追蹤；越南 FDI 於 10/3 發布，非今日新統計。'],
  ['來源限制',day.verificationNote.zh],
- ['AEIS 業務背景',day.perspective.source.url],
+ ['地點判讀','活動場館、企業所在地與投資案址分開記錄。未核實的場館保持未知，不以公司總部代替。'],
  ['資料更新',day.generatedAt]
 ];
 async function create(period,marketRows,metricEditions){
@@ -61,15 +63,15 @@ async function create(period,marketRows,metricEditions){
   sheet.freezePanes.freezeRows(1);sheet.freezePanes.freezeColumns(3);
   return end;
  }
- table(main,marketHeaders,marketRows,[14,14,24,24,36,30,42,42,42,55,72,45,80,36,48,48,24,24,80],'MarketEvents');
- // A single clickable daily/weekly page exposes every direct source without
- // creating unreadable multi-URL cells. Numeric rows retain original URLs.
+ table(main,marketHeaders,marketRows,[14,14,24,24,36,30,42,42,42,55,72,45,80,36,48,48,24,24,80,62],'MarketEvents');
+ // Store complete source URLs as text. HYPERLINK is not implemented by the
+ // export calculation engine and otherwise leaves diagnostic text in caches.
  for(let i=0;i<marketRows.length;i++){
   const key=marketRows[i][2],parts=key.split(':');
   const url=period==='day'?`https://aiwlulu.github.io/daily-brief-site/?view=day&date=${date}#story-${date}-${parts[1]}`:`https://aiwlulu.github.io/daily-brief-site/?view=week&date=${date}`;
-  main.getRange(`S${i+2}`).formulas=[[`=HYPERLINK("${url}","完整來源與日報")`]];
+  main.getRange(`S${i+2}`).values=[[url]];
  }
- main.getRange('S1').values=[['完整來源與日報連結']];main.getRange(`S1:S${marketRows.length+1}`).format.columnWidth=28;
+ main.getRange(`S1:S${marketRows.length+1}`).format.columnWidth=62;
  const end=table(nums,metricHeaders,numberRows,[14,14,24,24,36,32,25,38,18,18,38,18,18,19,19,20,20,20,44,40,70,80],'QuantitativeDetails');
  for(const sheet of [main,nums])if(sheet.getUsedRange().values.length>1)sheet.getRange(`A2:B${sheet.getUsedRange().values.length}`).setNumberFormat('yyyy-mm-dd');
  let n=2;
@@ -83,9 +85,6 @@ async function create(period,marketRows,metricEditions){
  }
  table(notes,noteRows[0],noteRows.slice(1),[28,110],'FieldDefinitions');
  notes.freezePanes.unfreeze();notes.getRange('A2:B16').format.rowHeight=64;
- for(let i=0;i<numberRows.length;i++){
-  const url=numberRows[i][21].replaceAll('"','""');nums.getRange(`V${i+2}`).formulas=[[`=HYPERLINK("${url}","${url}")`]];
- }
  for(const sh of [main,nums,notes])sh.getUsedRange().format.autofitRows();
  main.tabColor='#193D34';nums.tabColor='#719487';notes.tabColor='#D9DFD6';
  wb.recalculate();
@@ -101,6 +100,9 @@ async function create(period,marketRows,metricEditions){
  }
  const filename=period+'-'+(period==='day'?date:weekStart)+'.xlsx';
  await(await SpreadsheetFile.exportXlsx(wb)).save(path.join(output,filename));
+ execFileSync(process.env.CODEX_PRIMARY_RUNTIME_PYTHON||'python3',[path.join(root,'scripts/check-xlsx.py'),'--file',path.join(output,filename)],{stdio:'inherit'});
+ manifest.exportVersions??={};manifest.exportVersions[period]??={};
+ manifest.exportVersions[period][period==='day'?date:weekStart]=createHash('sha256').update(await fs.readFile(path.join(output,filename))).digest('hex').slice(0,12);
  return './exports/'+filename;
 }
 const dayPath=await create('day',day.stories.map(s=>marketRow(day,s)),[day]);

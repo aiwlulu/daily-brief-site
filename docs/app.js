@@ -4,7 +4,8 @@ import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
 import {taipeiToday, validDate, shiftDate, periodRange, selectEditions} from './dates.mjs';
 const el = id => document.getElementById(id);
-let data, weekly, weekPaths={}, exportPaths={}, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
+let data, weekly, weekPaths={}, exportPaths={}, exportVersions={}, catalog = [], selectedEditions = [], lang = 'zh', filter = 'all', query = '';
+let readingMode='summary';
 const params = new URLSearchParams(location.search);
 let period = params.get('view') === 'week' ? 'week' : 'day';
 let selectedDate = validDate(params.get('date') || '') ? params.get('date') : taipeiToday();
@@ -45,9 +46,11 @@ function renderPeriod() {
   document.body.dataset.view=period;
   const zh = lang === 'zh', range = periodRange(selectedDate,period);
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
-  const exportPath=exportPaths[period]?.[period==='week'?range.start:selectedDate];
+  const exportKey=period==='week'?range.start:selectedDate;
+  const exportPath=exportPaths[period]?.[exportKey];
+  const exportVersion=exportVersions[period]?.[exportKey];
   const excel=el('export-excel');excel.hidden=!exportPath;
-  if(exportPath){excel.href=exportPath;excel.download=exportPath.split('/').pop();}
+  if(exportPath){excel.href=exportPath+(exportVersion?'?v='+exportVersion:'');excel.download=exportPath.split('/').pop();}
   else excel.removeAttribute('href');
   excel.replaceChildren(icon('download'),node('span','Excel'));
   excel.setAttribute('aria-label',zh?'下載本'+(period==='week'?'週':'日')+'完整 Excel，含市場動向、數值及來源':'Download the complete '+(period==='week'?'weekly':'daily')+' Excel, including market changes, metrics and sources');
@@ -95,6 +98,13 @@ function renderPeriod() {
   document.querySelector('.context').hidden=period==='week'||!data.context.length;
   document.querySelector('.memo').hidden=period==='week'||!data.memo.items.length;
   document.querySelector('.lower').hidden=period==='week'||!data.lower.length;
+  el('reading-controls').hidden=period==='week'||!data.stories.length;
+  el('reading-label').textContent=zh?'閱讀方式':'Reading depth';
+  el('reading-summary').textContent=zh?'重點摘要':'Essentials';
+  el('reading-deep').textContent=zh?'深度閱讀':'Full analysis';
+  el('reading-summary').setAttribute('aria-pressed',String(readingMode==='summary'));
+  el('reading-deep').setAttribute('aria-pressed',String(readingMode==='deep'));
+  el('reading-note').textContent=zh?'每篇也可單獨展開或收合':'Each story can also be opened or closed individually';
 }
 
 const openStories = new Set(), closedStories = new Set();
@@ -139,6 +149,7 @@ function renderStories() {
     const published=node('time',s.editionDate.slice(5).replace('-','/'));published.dateTime=s.editionDate;published.setAttribute('aria-label',s.editionDate);meta.append(node('span', words[lang][s.category]),published);
     if (s.pick) meta.append(node('span', words[lang].pick, 'pick'));
     content.append(meta, node('h3', t(s.title)), node('p', t(s.summary), 'summary-text'));
+    if(s.location)content.append(node('p',(lang==='zh'?'地點：':'Location: ')+t(s.location),'story-location'));
     const sources = node('div',undefined,'source-links story-sources');
     sources.setAttribute('aria-label',(lang==='zh'?'相關連結：':'Related sources: ')+t(s.title));
     sources.append(node('span',lang==='zh'?'相關連結':'Sources','source-label'));
@@ -155,7 +166,7 @@ function renderStories() {
       content.append(note);
     }
     const details = node('details');
-    details.open = openStories.has(s.id)||(s.depth==='lead'&&!closedStories.has(s.id));
+    details.open = openStories.has(s.id)||(readingMode==='deep'&&!closedStories.has(s.id));
     details.addEventListener('toggle', () => {if(details.isConnected){if(details.open){openStories.add(s.id);closedStories.delete(s.id);}else{openStories.delete(s.id);closedStories.add(s.id);}}});
     const toggle=node('summary',lang==='zh'?'背景、商業邏輯與待查':'Context, economics & what to watch');toggle.append(icon('plus'));details.append(toggle);
     const body = node('div', undefined, 'story-body');
@@ -244,7 +255,7 @@ function render() {
     el('intro').textContent=weekly.throughline?t(weekly.throughline):(lang==='zh'?'快速回顧已收錄刊期的關鍵事件，完整細節可進入每日版閱讀。':'A concise selection from available editions. Open the daily edition for details.');
   }else {
     el('headline').textContent=lang==='zh'?'今天，值得理解的事。':'Today, with perspective.';
-    el('intro').textContent=data.perspective?(lang==='zh'?'台灣與東南亞，從 AEIS 的製程電源、資料中心及工業客戶決策看市場。':'Taiwan and Southeast Asia through AEIS process-power, data-center and industrial-customer decisions.'):(lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.');
+    el('intro').textContent=data.perspective?(lang==='zh'?'台灣與東南亞，沿著設備、封裝、記憶體與終端工廠，追蹤需求、成本及投資如何落地。':'Taiwan and Southeast Asia: follow equipment, packaging, memory and end-use factories to understand demand, costs and investment execution.'):(lang==='zh'?'先讀重點，再沿著背景、商業模式與競爭關係往下看。':'Start with the essentials, then explore the context, business models and competition.');
   }
   el('lang').textContent = lang === 'zh' ? 'EN' : '中';
   el('lang').dataset.tooltip=lang==='zh'?'English':'繁體中文';
@@ -300,6 +311,7 @@ async function readJson(path) {
 readJson('./editions/index.json').then(async manifest => {
   weekPaths=manifest.weeks||{};
   exportPaths=manifest.exports||{};
+  exportVersions=manifest.exportVersions||{};
   catalog=manifest.editions.slice().sort((a,b)=>b.date.localeCompare(a.date));
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';render();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});
@@ -308,6 +320,13 @@ readJson('./editions/index.json').then(async manifest => {
   el('print').onclick=()=>window.print();
   el('view-day').onclick=()=>{period='day';choosePeriod();};
   el('view-week').onclick=()=>{period='week';choosePeriod();};
+  const setReadingMode=mode=>{
+    readingMode=mode;openStories.clear();closedStories.clear();
+    for(const story of data.stories)(mode==='deep'?openStories:closedStories).add(story.id);
+    renderPeriod();renderStories();
+  };
+  el('reading-summary').onclick=()=>setReadingMode('summary');
+  el('reading-deep').onclick=()=>setReadingMode('deep');
   el('date').addEventListener('change',e=>{if(validDate(e.target.value)){selectedDate=e.target.value;choosePeriod();}});
   el('previous').onclick=()=>{selectedDate=shiftDate(selectedDate,period==='day'?-1:-7);choosePeriod();};
   el('next').onclick=()=>{selectedDate=shiftDate(selectedDate,period==='day'?1:7);choosePeriod();};
