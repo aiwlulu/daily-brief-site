@@ -91,13 +91,13 @@ const stages=[
  ['wafer','晶圓製造','Wafer fab',/晶圓|代工|晶片設計|設計至/],
  ['memory','記憶體','Memory',/HBM|DRAM|NAND|記憶體|SSD/],
  ['packaging','封裝測試','Packaging & test',/封裝|封測|測試|載板|基板/],
- ['systems','伺服器與整機','Servers & systems',/ODM|伺服器|整機|PC|電腦/],
+ ['systems','伺服器與整機','Servers & systems',/ODM|伺服器|整機|\bPC\b|電腦/],
  ['power','電源與散熱','Power & cooling',/電源|供電|液冷|散熱|電力|電價/],
  ['datacenter','資料中心','Data centers',/資料中心|機房|算力/],
  ['factory','終端工廠','End-use factories',/工廠|在地工廠|自動化|終端/],
  ['policy','投資與政策','Investment & policy',/投資|FDI|外資|園區|預測|人才|招募|資金/]
 ];
-const stagesFor=s=>stages.filter(([,,,re])=>re.test([s.market?.chain?.zh,s.market?.industries?.zh].join(' '))).map(([key])=>key);
+export const stagesFor=s=>stages.filter(([,,,re])=>re.test([s.market?.chain?.zh,s.market?.industries?.zh].join(' '))).map(([key])=>key);
 function stageItem([key,labelZh,labelEn],hits,lang,number){
  const li=n('li',undefined,'chain-stage'+(hits.length?' has-stories':''));li.dataset.stage=key;
  const head=n('div',undefined,'chain-head');head.append(n('span',lang==='zh'?labelZh:labelEn,'chain-name'),n('span',String(hits.length),'chain-count'));
@@ -127,7 +127,7 @@ export function chainStrip(story,lang){
  const wrap=n('div',undefined,'chain-strip');
  const names=stages.filter(([key])=>hit.includes(key)).map(([,a,b])=>zh?a:b);
  wrap.setAttribute('role','img');
- wrap.setAttribute('aria-label',(zh?'供應鏈位置：':'Supply-chain position: ')+(names.join('、')||story.market.chain[lang]));
+ wrap.setAttribute('aria-label',(zh?'供應鏈位置：':'Supply-chain position: ')+(names.join(zh?'、':', ')||story.market.chain[lang]));
  const track=n('span',undefined,'chain-strip-track');
  for(const [key,a,b] of stages.slice(0,-1)){const seg=n('span',undefined,'chain-seg'+(hit.includes(key)?' is-on':''));seg.dataset.tooltip=zh?a:b;track.append(seg);}
  wrap.append(n('span',zh?'上游':'Up','chain-strip-end'),track,n('span',zh?'下游':'Down','chain-strip-end'),n('span',story.market.chain[lang]+(hit.includes('policy')?(zh?' · 投資與政策':' · Investment & policy'):''),'chain-strip-label'));

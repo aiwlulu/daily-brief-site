@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {groupMetrics,formatMetric} from '../docs/viz.mjs';
+import {groupMetrics,formatMetric,stagesFor} from '../docs/viz.mjs';
 const metric={unit:'USD billion',owner:{zh:'公司',en:'Company'},period:{zh:'第三季',en:'Q3'},kind:'公司實績',current:1};
 test('unlike growth and inflation percentages stay separate',()=>{
  const values=[.10,.045,.086].map(current=>({...metric,unit:'%',current}));
@@ -15,4 +15,10 @@ test('physical capacity and area units have bilingual display text',()=>{
  assert.equal(formatMetric({...metric,unit:'tonnes/year',current:700000},'en'),'700,000 tonnes/year');
  assert.equal(formatMetric({...metric,unit:'designs',current:6},'en'),'6 chip designs');
  assert.equal(formatMetric({...metric,unit:'acres',current:430},'zh'),'430 英畝');
+});
+test('PCB materials do not match PC systems',()=>{
+ const story=zh=>({market:{industries:{zh}}});
+ assert.ok(!stagesFor(story('銅箔材料；PCB；銅箔基板')).includes('systems'));
+ assert.ok(stagesFor(story('PC；電源')).includes('systems'));
+ assert.ok(stagesFor(story('伺服器 ODM')).includes('systems'));
 });

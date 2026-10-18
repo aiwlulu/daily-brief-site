@@ -63,6 +63,10 @@ function rankStories(edition){
 function renderPeriod() {
   document.body.dataset.view=period;
   const zh = lang === 'zh', range = periodRange(selectedDate,period==='week'?'week':'day');
+  document.querySelector('header nav').setAttribute('aria-label',zh?'閱讀設定':'Reading settings');
+  document.querySelector('.period-bar').setAttribute('aria-label',zh?'閱讀日期':'Reading date');
+  document.querySelector('.period-switch').setAttribute('aria-label',zh?'閱讀範圍':'Reading period');
+  el('filters').setAttribute('aria-label',zh?'新聞分類':'Story categories');
   const label = period === 'day' ? selectedDate : range.start+' / '+range.end;
   const exportKey=period==='events'?events?.updated:period==='week'?range.start:selectedDate;
   // English interface downloads the English workbook when one exists.
