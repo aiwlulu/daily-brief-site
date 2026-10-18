@@ -1,0 +1,1235 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T00:08:06.351081+00:00",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：半導體、製程電源、設備材料至終端工廠",
+      "en": "Taiwan and Southeast Asia: semiconductors, process power, equipment/materials and end-use factories"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣供應商的日本設備服務與泰國材料用地進展，連同馬來西亞晶片發表及越南工廠設備合約，呈現設計、製造服務與終端建置各自不同的落地階段。",
+    "en": "Taiwanese firms’ Japanese equipment-service and Thai materials-site plans, Malaysian chip launches and a Vietnamese factory-equipment contract show distinct implementation stages across design, manufacturing services and end-use facilities."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "日本核准 JASM 熊本二廠 3 奈米變更計畫；首階段月產 6,000 片為規劃，非量產實績。",
+        "en": "Japan approved JASM’s revised 3nm Kumamoto plan; 6,000 wafers a month is planned initial capacity, not actual output."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台灣光罩擬由母公司收購熊本 TCK，授權上限 7.5 億日圓，交割尚待確認。",
+        "en": "Taiwan Mask proposes to acquire Kumamoto’s TCK through the parent, with a ¥750 million ceiling; closing remains unconfirmed."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "馬來西亞發表六項本土晶片創新；3 億令吉銷售潛力未列達成期間。",
+        "en": "Malaysia launched six domestic chip innovations; RM300 million in sales potential has no disclosed achievement period."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "VinMetal 訂購 Danieli 軋鋼核心設備，越南河靜產線設計年產逾 70 萬噸。",
+        "en": "VinMetal contracted Danieli for rolling equipment in Ha Tinh, with designed capacity above 700,000 tonnes a year."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "越南提出 2027 年 GDP 至少成長 10% 目標；2026 年貿易額 1.11 兆美元屬全年估計。",
+        "en": "Vietnam proposed at least 10% GDP growth for 2027; US$1.11 trillion in 2026 trade is a full-year estimate."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "tsmc-jasm-kumamoto",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：日本核准 JASM 熊本二廠變更計畫，首階段規劃 3 奈米月產 6,000 片",
+        "en": "Follow-up: Japan approves revised JASM Kumamoto plan with 6,000 3nm wafers a month initially"
+      },
+      "summary": {
+        "zh": "據 Reuters 與中央社報導，日本經產省 10 月 16 日核准台積電旗下 JASM 熊本第二工廠的變更計畫，首階段規劃每月生產 6,000 片 3 奈米晶圓。新增進展是計畫獲准；3 奈米轉向已於 2 月公布，工廠仍在建設，產能數字屬規劃。",
+        "en": "Reuters and CNA report that Japan approved a revised plan for TSMC subsidiary JASM’s second Kumamoto fab on October 16, with initial capacity of 6,000 3nm wafers a month. Approval is the new development; the technology shift was announced in February, and the fab remains under construction."
+      },
+      "metric": "6,000",
+      "metricLabel": {
+        "zh": "3 奈米首階段月產規劃",
+        "en": "Initial planned monthly 3nm capacity"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經產省核准與產能計畫",
+            "en": "CNA · approval and capacity plan"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610170082.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "Reuters · 日本計畫核准報導",
+            "en": "Reuters · Japan plan approval"
+          },
+          "url": "https://www.reuters.com/jp/world/ZG7OWM4UV5M7DO4D2K4EWUJRJA-2026-10-16/",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "半導體晶圓代工；製程設備",
+          "en": "Semiconductor foundry; process equipment"
+        },
+        "chain": {
+          "zh": "設備至晶圓代工",
+          "en": "Tools to wafer fabrication"
+        },
+        "changes": {
+          "investment": {
+            "zh": "第二工廠變更計畫獲核准；未取得可獨立核實的最新投資總額。",
+            "en": "The revised second-fab plan was approved; a current total investment figure was not independently verified."
+          },
+          "demand": {
+            "zh": "未公布新增訂單或出貨量。",
+            "en": "No incremental orders or shipments disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外商投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣晶圓代工業者在日本的製造專案，涉及前段製程與設備導入。",
+            "en": "A Taiwanese foundry’s Japanese manufacturing project involving front-end processes and tool installation."
+          },
+          "timing": {
+            "zh": "事件為 10/16 核准，10/17 中文報導；3 奈米布局為 2 月的既有背景。",
+            "en": "Approval was on October 16, with Chinese reporting on October 17; the 3nm shift dates to February."
+          },
+          "unknowns": {
+            "zh": "未直接取得經產省核准文件，產能與時程依專業報導；設備名單、良率與實際量產能力尚未公布。",
+            "en": "The METI approval document was not directly obtained; capacity and timing rely on professional reporting. Tool lists, yields and actual production capability remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與供應鏈",
+            "en": "Industry and supply chain"
+          },
+          "text": {
+            "zh": "JASM 為台積電在日本的製造子公司，二廠設於熊本既有廠區旁。這次核准連結晶圓製程與設備建置，並未包含新的 HBM、封裝測試或伺服器出貨資料。",
+            "en": "JASM is TSMC’s Japanese manufacturing subsidiary, and the second fab adjoins its existing Kumamoto facility. The approval concerns wafer processing and tool deployment; it contains no new HBM, packaging/test or server shipment data."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字與時程",
+            "en": "Numbers and timing"
+          },
+          "text": {
+            "zh": "中央社報導新計畫預定 2028 年底投產。先前的月產 4.8 萬片規劃涵蓋不同製程與建置範圍，不能直接與首階段 3 奈米月產 6,000 片計算減產率。",
+            "en": "CNA reports production is planned for late 2028. The earlier 48,000-wafer monthly plan covered a different process mix and build scope, so it is not a comparable base for calculating a capacity reduction."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未直接取得經產省核准文件，產能與時程依專業報導；設備名單、良率與實際量產能力尚未公布。",
+            "en": "The METI approval document was not directly obtained; capacity and timing rely on professional reporting. Tool lists, yields and actual production capability remain undisclosed."
+          }
+        }
+      ],
+      "location": {
+        "zh": "專案地點：日本熊本縣，JASM 第二工廠，鄰近既有第一工廠。",
+        "en": "Project site: JASM’s second fab in Kumamoto Prefecture, Japan, adjacent to its first fab."
+      },
+      "ceoView": {
+        "zh": "對蝕刻、沉積用精密電源與量測設備業者而言，相關客戶是晶圓廠及其製程設備商。值得追問的是 3 奈米設備認證、進機與驗收時程；計畫月產能尚不足以推定設備採購量或供應商訂單。",
+        "en": "For precision-power and measurement suppliers serving etch and deposition, the relevant customers are fabs and process-tool makers. Questions concern 3nm tool qualification, installation and acceptance timing; planned wafer capacity alone cannot establish equipment purchases or supplier orders."
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "3 奈米首階段月產規劃",
+            "en": "Initial planned monthly 3nm capacity"
+          },
+          "current": 6000,
+          "unit": "wafers/month",
+          "period": {
+            "zh": "二廠首階段，預定 2028 年底投產",
+            "en": "Second-fab initial phase, production planned for late 2028"
+          },
+          "owner": {
+            "zh": "經產省計畫，由中央社轉述",
+            "en": "METI plan, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610170082.aspx",
+          "kind": "規劃估算,媒體轉述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "先前計畫製程組合與範圍不同，不設可比基期。"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-mask-tck-acquisition",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：台灣光罩改由母公司擬收購熊本 TCK，授權上限 7.5 億日圓",
+        "en": "Follow-up: Taiwan Mask names parent as proposed TCK buyer, with a ¥750 million ceiling"
+      },
+      "summary": {
+        "zh": "台灣光罩 10 月 16 日董事會授權董事長在 7.5 億日圓內取得日本熊本設備服務商 TCK 的全部股權，中央社換算約新台幣 1.6 億元。相較 7 月公告，買方由光鉅控股改為台灣光罩本身，目前確認的是董事會決議與授權。",
+        "en": "Taiwan Mask’s board on October 16 authorized its chairman to acquire all of Kumamoto equipment-service company TCK for up to ¥750 million, about NT$160 million according to CNA. The proposed buyer changed from subsidiary Guang Ju Holdings in July to Taiwan Mask itself; the confirmed development is board authorization."
+      },
+      "metric": "¥750M",
+      "metricLabel": {
+        "zh": "授權交易上限",
+        "en": "Authorized transaction ceiling"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台灣光罩 · 重大訊息（鉅亨轉載）",
+            "en": "Taiwan Mask · filing reproduced by Cnyes"
+          },
+          "url": "https://news.cnyes.com/news/id/6632089",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 收購授權與標的業務",
+            "en": "CNA · acquisition authorization and target business"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610160185.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "半導體設備；在地工程服務",
+          "en": "Semiconductor equipment; local engineering services"
+        },
+        "chain": {
+          "zh": "設備組裝與工程服務至晶圓工廠",
+          "en": "Tool assembly and engineering services to wafer fabs"
+        },
+        "changes": {
+          "investment": {
+            "zh": "授權以不超過 7.5 億日圓取得 100% 股權，尚未確認交割。",
+            "en": "Authorization covers 100% of shares for no more than ¥750 million; closing has not been confirmed."
+          },
+          "demand": {
+            "zh": "未公布因本交易新增的設備服務訂單。",
+            "en": "No incremental equipment-service orders tied to the transaction were disclosed."
+          },
+          "fdi": {
+            "zh": "台灣公司擬跨境取得日本公司股權，實際成交金額待定。",
+            "en": "A Taiwanese company proposes a cross-border acquisition in Japan; the final consideration remains undetermined."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "光罩業者擬透過日本設備組裝與工程服務標的擴充在地服務。",
+            "en": "A mask supplier proposes to add Japanese equipment assembly and engineering services through an acquisition."
+          },
+          "timing": {
+            "zh": "10/16 決議修正 7/15 公告的收購主體。",
+            "en": "The October 16 resolution changes the buyer named in the July 15 filing."
+          },
+          "unknowns": {
+            "zh": "重大訊息依鉅亨轉載核對，未直接取得公開資訊觀測站原件；成交價、交割日及後續整合內容尚未公布。",
+            "en": "The filing was checked through Cnyes’s reproduction, without direct retrieval from MOPS. The final price, closing date and integration details remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與供應鏈",
+            "en": "Industry and supply chain"
+          },
+          "text": {
+            "zh": "台灣光罩原有業務為半導體光罩，TCK 則提供設備組裝及工程技術服務，標的位於熊本市。公告描述的是公司股權交易，沒有新增晶圓、封裝或測試產能數字。",
+            "en": "Taiwan Mask supplies semiconductor masks; Kumamoto-based TCK provides equipment assembly and engineering services. The filing concerns shares in a service business and gives no additional wafer, packaging or test capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "7.5 億日圓是授權上限，新台幣 1.6 億元為中央社約略換算，並非已支付對價；匯率與最終交易條件仍會影響新台幣金額。",
+            "en": "¥750 million is an authorization ceiling. CNA’s NT$160 million equivalent is approximate rather than paid consideration; exchange rates and final terms can change the Taiwan-dollar amount."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "重大訊息依鉅亨轉載核對，未直接取得公開資訊觀測站原件；成交價、交割日及後續整合內容尚未公布。",
+            "en": "The filing was checked through Cnyes’s reproduction, without direct retrieval from MOPS. The final price, closing date and integration details remain undisclosed."
+          }
+        }
+      ],
+      "location": {
+        "zh": "標的所在地：日本熊本市，T.C.K Corporation；董事會決議地點未公布。",
+        "en": "Target location: T.C.K Corporation, Kumamoto City, Japan. The board meeting venue was not disclosed."
+      },
+      "ceoView": {
+        "zh": "對供應製程電源與量測控制設備的業者而言，設備組裝及在地工程服務涉及安裝、維修與驗收支援。值得確認 TCK 的服務設備範圍、客戶授權與品質流程；股權授權仍不足以判斷是否形成新的供應關係。",
+        "en": "For process-power and measurement/control suppliers, equipment assembly and local engineering relate to installation, service and acceptance support. Relevant checks include TCK’s tool scope, customer authorizations and quality processes; the share-acquisition authorization does not establish new supply relationships."
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "授權上限，約當新台幣",
+            "en": "Authorized ceiling, approximate NT$ equivalent"
+          },
+          "current": 0.16,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026-10-16 董事會授權",
+            "en": "October 16, 2026 board authorization"
+          },
+          "owner": {
+            "zh": "台灣光罩；新台幣換算由中央社提供",
+            "en": "Taiwan Mask; NT$ conversion supplied by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610160185.aspx",
+          "kind": "公司目標,收購授權上限",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "交易上限非實付金額，未提供可比較的前期成交價。"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "malaysia-six-chip-designs",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "馬來西亞發表六項本土晶片創新，涵蓋 AI 儲存、工業 FPGA 與電源控制",
+        "en": "Malaysia launches six domestic chip innovations spanning AI storage, industrial FPGA and power control"
+      },
+      "summary": {
+        "zh": "馬來西亞 10 月 16 日在吉隆坡 AiSEM 活動發表六項本土半導體創新，涵蓋 AI 處理器、儲存、可程式邏輯與電源控制。經濟部長稱合計銷售潛力約 3 億令吉，但未說明達成期間，產品發表也未同時提供量產出貨數。",
+        "en": "Malaysia launched six domestic semiconductor innovations at AiSEM in Kuala Lumpur on October 16, spanning AI processors, storage, programmable logic and power control. The economy minister cited combined sales potential of RM300 million without an achievement period; production shipment figures were not provided."
+      },
+      "metric": "6",
+      "metricLabel": {
+        "zh": "本土半導體創新項目",
+        "en": "Domestic semiconductor innovations"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Media Selangor · 州政府活動報導",
+            "en": "Media Selangor · state-government event report"
+          },
+          "url": "https://mediaselangor.com/ms/2026/10/401567",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Media Selangor · 英文現場報導",
+            "en": "Media Selangor · English event report"
+          },
+          "url": "https://mediaselangor.com/en/2026/10/401535",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "The Edge · 產品與銷售潛力",
+            "en": "The Edge · products and sales potential"
+          },
+          "url": "https://theedgemalaysia.com/node/822114",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Sidec · AiSEM 主辦日程與場館",
+            "en": "Sidec · AiSEM organizer schedule and venues"
+          },
+          "url": "https://www.sidec.com.my/aisemselangor/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Malay Mail · 發表活動現場",
+            "en": "Malay Mail · launch event report"
+          },
+          "url": "https://www.malaymail.com/news/malaysia/2026/10/16/malaysia-unveils-six-homegrown-chips-worth-rm300m-as-it-shifts-from-making-to-designing-semiconductors/239357",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "晶片設計；AI 儲存；電源管理；工廠自動化",
+          "en": "Chip design; AI storage; power management; factory automation"
+        },
+        "chain": {
+          "zh": "晶片設計至儲存、電源控制與終端工廠",
+          "en": "Chip design to storage, power control and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "發表六項產品創新，未公布合計新增製造投資。",
+            "en": "Six product innovations were launched; no combined incremental manufacturing investment was disclosed."
+          },
+          "demand": {
+            "zh": "部長估計合計銷售潛力 3 億令吉，期間與客戶訂單未公布。",
+            "en": "The minister estimated RM300 million in combined sales potential; timing and customer orders were not disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外商投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "產品橫跨晶片設計、工業控制、儲存與電源應用，並由設計園區企業開發。",
+            "en": "Products span chip design, industrial control, storage and power applications, developed by design-park companies."
+          },
+          "timing": {
+            "zh": "10/16 發表；設計園區分別於 2024 年及 2025 年設立，屬既有背景。",
+            "en": "Products launched on October 16; the parks’ 2024 and 2025 openings are background."
+          },
+          "unknowns": {
+            "zh": "各產品的客戶認證、量產時間、銷售基期及合計潛力達成期間未公布；現場報導對 Grand Hyatt 與 KLCC 的場館記載有差異。",
+            "en": "Customer qualification, volume-production timing, sales bases and the period for realizing the combined potential remain undisclosed. Event reports differ between Grand Hyatt and KLCC as the launch venue."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產品與供應鏈",
+            "en": "Products and supply chain"
+          },
+          "text": {
+            "zh": "The Edge 列出的六項為 SkyeChip MARS1000 AI 處理器、MaiStorage aiDAPTIV+ 儲存方案、SiliconX 工業與車用 FPGA、Infinecs 車用電源調節器、Weeroc Space 衛星電源控制晶片，以及 Alphaswift FC Mini 飛行控制器；用途分別延伸至工廠、電腦、伺服器、車用與航太。",
+            "en": "The Edge lists SkyeChip’s MARS1000 AI processor, MaiStorage’s aiDAPTIV+ storage solution, SiliconX’s industrial/automotive FPGA, Infinecs’ automotive power regulator, Weeroc Space’s satellite power controller and Alphaswift’s FC Mini flight controller. Applications extend to factories, computers, servers, vehicles and aerospace."
+          }
+        },
+        {
+          "label": {
+            "zh": "開發階段與數字",
+            "en": "Development status and figures"
+          },
+          "text": {
+            "zh": "州政府英文報導引述州務大臣表示，Weeroc Space 氮化鎵電源晶片已完成第二次投片。投片、產品發表、客戶認證與量產為不同階段；3 億令吉是部長估計的合計商業潛力，未公布年度營收或已簽訂單。",
+            "en": "The state-government English report quotes the chief minister saying Weeroc Space’s GaN power chip completed its second tape-out. Tape-out, launch, customer qualification and volume production are separate milestones; RM300 million is the minister’s combined commercial-potential estimate, with no annual revenue or signed orders disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各產品的客戶認證、量產時間、銷售基期及合計潛力達成期間未公布；現場報導對 Grand Hyatt 與 KLCC 的場館記載有差異。",
+            "en": "Customer qualification, volume-production timing, sales bases and the period for realizing the combined potential remain undisclosed. Event reports differ between Grand Hyatt and KLCC as the launch venue."
+          }
+        }
+      ],
+      "location": {
+        "zh": "活動城市：馬來西亞吉隆坡。主辦日程、州政府英文與 Malay Mail 報導列 Grand Hyatt；州政府馬來文報導列 KLCC，發表場館記載不一致。",
+        "en": "Event city: Kuala Lumpur, Malaysia. The organizer schedule, state-government English report and Malay Mail identify Grand Hyatt; the state-government Malay report identifies KLCC, leaving a launch-venue discrepancy."
+      },
+      "ceoView": {
+        "zh": "對精密電源、量測與控制設備業者而言，車用電源調節、衛星電源控制及工廠邏輯控制是具體相關應用。值得確認各項產品所處的投片、測試與客戶驗證階段；合計銷售潛力尚不能作為設備需求或訂單的依據。",
+        "en": "For precision-power, measurement and control suppliers, automotive regulation, satellite power control and factory logic are specific related applications. Questions concern each product’s tape-out, test and customer-validation stage; combined sales potential cannot establish equipment demand or orders."
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "發表的半導體創新項目",
+            "en": "Semiconductor innovations launched"
+          },
+          "current": 6,
+          "unit": "designs",
+          "period": {
+            "zh": "2026-10-16 發表",
+            "en": "October 16, 2026 launch"
+          },
+          "owner": {
+            "zh": "經濟部長，由 Media Selangor 報導",
+            "en": "Economy minister, reported by Media Selangor"
+          },
+          "sourceUrl": "https://mediaselangor.com/ms/2026/10/401567",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "為本次發表數量，未公布可比的前期發表基數。"
+        },
+        {
+          "name": {
+            "zh": "合計銷售潛力，期間未公布",
+            "en": "Combined sales potential, period unspecified"
+          },
+          "current": 300,
+          "unit": "MYR million",
+          "period": {
+            "zh": "商業化潛力，達成期間未公布",
+            "en": "Commercial potential, achievement period undisclosed"
+          },
+          "owner": {
+            "zh": "經濟部長 Akmal Nasrullah，由 The Edge 報導",
+            "en": "Economy Minister Akmal Nasrullah, reported by The Edge"
+          },
+          "sourceUrl": "https://theedgemalaysia.com/node/822114",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未提供既有營收基數；非年度實績，無法計算 YoY。"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "vinmetal-danieli-rail-mill",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "VinMetal 與 Danieli 簽軋鋼設備合約，河靜產線規劃年產逾 70 萬噸",
+        "en": "VinMetal signs Danieli rolling-line contract for over 700,000 tonnes a year in Ha Tinh"
+      },
+      "summary": {
+        "zh": "VinMetal 與義大利 Danieli 10 月 15 日在河內簽約，由 Danieli 供應越南河靜鋼軌與型鋼軋製產線的核心設備。Vingroup 公告年設計產能逾 70 萬噸，範圍包含設計、製造、供應及試運轉，尚未公布合約金額與投產日期。",
+        "en": "VinMetal and Italy’s Danieli signed a contract in Hanoi on October 15 for core rail and structural-steel rolling equipment at VinMetal’s Ha Tinh project. Vingroup states designed annual capacity above 700,000 tonnes, with design, manufacturing, supply and commissioning in scope; price and start-up date remain undisclosed."
+      },
+      "metric": ">700,000",
+      "metricLabel": {
+        "zh": "產線年設計產能，噸",
+        "en": "Designed line capacity, tonnes/year"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Vingroup · Danieli 設備合作公告",
+            "en": "Vingroup · Danieli equipment agreement"
+          },
+          "url": "https://vingroup.net/vi/tin-tuc-su-kien/bai-viet/10096/vinmetal-hop-tac-voi-danieli-san-xuat-thep-ray-duong-sat-cao-toc-va-do-thi-tai-viet-nam",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "The Investor · 軋鋼產線合約報導",
+            "en": "The Investor · rolling-line contract report"
+          },
+          "url": "https://theinvestor.vn/vinmetal-partners-with-danieli-to-supply-heavy-rail-structural-steel-rolling-line-d20245.html",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-15",
+        "countries": {
+          "zh": "越南；義大利",
+          "en": "Vietnam; Italy"
+        },
+        "industries": {
+          "zh": "工廠自動化；工業設備；鋼軌與型鋼",
+          "en": "Factory automation; industrial equipment; rails and structural steel"
+        },
+        "chain": {
+          "zh": "工業設備至軋鋼終端工廠",
+          "en": "Industrial equipment to end-use rolling mills"
+        },
+        "changes": {
+          "investment": {
+            "zh": "已公布核心設備供應合約，未披露價格。",
+            "en": "A core-equipment supply contract was announced without a price."
+          },
+          "demand": {
+            "zh": "公司稱產品面向高速及城市軌道等用途，未披露客戶採購合約。",
+            "en": "The company identifies high-speed and urban rail uses without disclosing customer purchase contracts."
+          },
+          "fdi": {
+            "zh": "未披露本合約新增外商股權投資。",
+            "en": "No incremental foreign equity investment was disclosed for this contract."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "設備訂約涵蓋實體工廠的製造、安裝及試運轉階段。",
+            "en": "The equipment contract covers manufacturing, installation and commissioning for a physical factory."
+          },
+          "timing": {
+            "zh": "10/15 簽約，10/16 獨立媒體報導；設計產能尚未轉為營運實績。",
+            "en": "Signed on October 15 and independently reported on October 16; designed capacity is not operating output."
+          },
+          "unknowns": {
+            "zh": "設備交付、試運轉、客戶驗收、實際產量及合約對價尚未公布。",
+            "en": "Equipment delivery, commissioning and customer-acceptance schedules, actual output and contract consideration remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工廠設備與供應鏈",
+            "en": "Factory equipment and supply chain"
+          },
+          "text": {
+            "zh": "Danieli 負責軋製產線的核心設備與試運轉，公告並提及鋼軌精整及軌頭硬化技術。這些是鋼材由製造走向最終尺寸、性能與品質驗證的工序；公告沒有列出電源、量測或控制系統的供應商。",
+            "en": "Danieli’s scope includes core rolling equipment and commissioning, with rail finishing and head-hardening technology described in the release. These processes establish final dimensions, properties and quality; power, measurement and control-system suppliers were not named."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "逾 70 萬噸為這一條鋼軌與型鋼產線的年設計能力，不是整座鋼廠產能，也不是已生產或已銷售噸數。未取得同範圍前期產能，因此不計算年增率。",
+            "en": "Above 700,000 tonnes is the annual design capacity of this rail and structural-steel line, rather than the entire complex or produced/sold tonnage. No like-for-like prior capacity was supplied, so no growth rate is calculated."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "設備交付、試運轉、客戶驗收、實際產量及合約對價尚未公布。",
+            "en": "Equipment delivery, commissioning and customer-acceptance schedules, actual output and contract consideration remain undisclosed."
+          }
+        }
+      ],
+      "location": {
+        "zh": "簽約地：越南河內；專案地：越南河靜省永安經濟區的 VinMetal 工廠。",
+        "en": "Signing location: Hanoi, Vietnam. Project site: VinMetal’s factory in Vung Ang Economic Zone, Ha Tinh Province, Vietnam."
+      },
+      "ceoView": {
+        "zh": "對工業電源轉換與量測控制設備業者而言，軋製、精整與熱處理涉及製程控制及品質驗證。值得確認 Danieli 的設備介面、現地供電條件及驗收要求；目前缺少交付排程與分包清單，無法判斷個別設備需求。",
+        "en": "For industrial power-conversion and measurement/control suppliers, rolling, finishing and thermal processing involve process control and quality verification. Questions concern Danieli’s equipment interfaces, site power conditions and acceptance requirements; delivery schedules and subcontractor lists are still insufficient to establish specific equipment demand."
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "年設計產能下限，逾",
+            "en": "Annual designed capacity floor, above"
+          },
+          "current": 700000,
+          "unit": "tonnes/year",
+          "period": {
+            "zh": "規劃產線，投產日期未公布",
+            "en": "Planned line, start-up date undisclosed"
+          },
+          "owner": {
+            "zh": "Vingroup／VinMetal",
+            "en": "Vingroup / VinMetal"
+          },
+          "sourceUrl": "https://vingroup.net/vi/tin-tuc-su-kien/bai-viet/10096/vinmetal-hop-tac-voi-danieli-san-xuat-thep-ray-duong-sat-cao-toc-va-do-thi-tai-viet-nam",
+          "kind": "規劃估算,超過此值",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公告為逾此值的下限，未公布可比較的既有產能。"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "lcy-technology-thailand-land",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "榮科通過泰國子公司購地案，工業區地點與金額待定",
+        "en": "LCY Technology approves Thai subsidiary land purchase; site and price remain pending"
+      },
+      "summary": {
+        "zh": "榮科 10 月 16 日公告，董事會通過由泰國子公司 LCY Technology (Thailand) 購置泰國工業區土地。公司生產 PCB 與銅箔基板用電解銅箔，但這次未公布土地賣方、價款、城市或新增產能。",
+        "en": "LCY Technology announced on October 16 that its board approved an industrial-land purchase by LCY Technology (Thailand). The company makes electrolytic copper foil for PCBs and copper-clad laminates; the seller, price, city and added capacity were not disclosed."
+      },
+      "metric": "Land plan",
+      "metricLabel": {
+        "zh": "董事會核准階段",
+        "en": "Board-approved planning stage"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "榮科 · 重大訊息（鉅亨轉載）",
+            "en": "LCY Technology · filing reproduced by Cnyes"
+          },
+          "url": "https://news.cnyes.com/news/id/6632180",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 泰國購地與銅箔業務",
+            "en": "CNA · Thai land purchase and copper-foil business"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610163008.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "台灣；泰國",
+          "en": "Taiwan; Thailand"
+        },
+        "industries": {
+          "zh": "銅箔材料；PCB；銅箔基板；工廠投資",
+          "en": "Copper-foil materials; PCBs; copper-clad laminates; factory investment"
+        },
+        "chain": {
+          "zh": "銅箔材料至 PCB、基板與終端工廠",
+          "en": "Copper-foil materials to PCBs, laminates and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "泰國工業區購地案獲董事會通過，價款待公告。",
+            "en": "Board approval was given for Thai industrial land; consideration awaits disclosure."
+          },
+          "demand": {
+            "zh": "未公布新增銅箔訂單、客戶或出貨量。",
+            "en": "No incremental copper-foil orders, customers or shipments were disclosed."
+          },
+          "fdi": {
+            "zh": "台灣集團的泰國子公司擬購地，尚無本次實付投資金額。",
+            "en": "A Taiwanese group’s Thai subsidiary proposes to buy land; no paid investment amount for this transaction is available."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電解銅箔是 PCB 與銅箔基板的上游材料，這次進展位於工業用地階段。",
+            "en": "Electrolytic copper foil is an upstream input for PCBs and copper-clad laminates; this development concerns industrial land."
+          },
+          "timing": {
+            "zh": "新訊息為 10/16 購地決議，不是工廠開幕或產線投產。",
+            "en": "The October 16 land-purchase resolution is new, rather than a factory opening or production start."
+          },
+          "unknowns": {
+            "zh": "原始重大訊息依轉載核對；確切廠址、交易對象、土地金額、建廠與量產時程尚未公布。",
+            "en": "The original filing was checked through a reproduction. The precise site, counterparty, land price, construction and production schedules remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "材料與供應鏈",
+            "en": "Materials and supply chain"
+          },
+          "text": {
+            "zh": "中央社說明榮科產品用於 PCB 與銅箔基板，連結材料、板材與電子系統供應鏈。公告只通過購地，沒有區分未來產品等級、用途或客戶，不能據此認定為新增 AI 伺服器專用產線。",
+            "en": "CNA identifies PCB and copper-clad-laminate uses, linking materials and boards to electronic systems. The filing approves land only and does not specify future grades, applications or customers, leaving any dedicated AI-server line unconfirmed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "原始重大訊息依轉載核對；確切廠址、交易對象、土地金額、建廠與量產時程尚未公布。",
+            "en": "The original filing was checked through a reproduction. The precise site, counterparty, land price, construction and production schedules remain undisclosed."
+          }
+        }
+      ],
+      "location": {
+        "zh": "專案國家：泰國，工業區土地；城市與園區名稱尚未公布。",
+        "en": "Project country: Thailand, industrial-estate land. The city and estate name have not been disclosed."
+      },
+      "ceoView": {
+        "zh": "對製程電源與工業量測設備業者而言，銅箔工廠可能涉及電化學製程、品質量測與廠務供電，但這則公告只確認購地授權。值得追問後續產品規格、工程範圍及設備驗收條件；目前尚無可支持設備訂單判斷的建廠資料。",
+        "en": "For process-power and industrial-measurement suppliers, copper-foil production can involve electrochemical processing, quality measurement and site power, but this announcement establishes land authorization only. Questions concern product specifications, engineering scope and equipment acceptance; construction data do not yet support an equipment-order assessment."
+      },
+      "metrics": []
+    },
+    {
+      "id": 6,
+      "topic": "vietnam-2027-economic-targets",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "越南政府提出 2027 年至少 10% 成長目標，估 2026 年貿易額達 1.11 兆美元",
+        "en": "Vietnam proposes at least 10% growth for 2027 and estimates 2026 trade at US$1.11 trillion"
+      },
+      "summary": {
+        "zh": "越南政府 10 月 17 日向國會提出 2027 年 GDP 成長至少 10%、CPI 約 4.5% 及勞動生產力成長 8.6% 的目標。同份報告估計 2026 年全年商品進出口達 1.11 兆美元；前者為政策目標，後者為全年估計，均非已完成實績。",
+        "en": "Vietnam’s government presented 2027 targets to parliament on October 17: GDP growth of at least 10%, CPI around 4.5% and labor-productivity growth of 8.6%. Its report also estimates 2026 merchandise trade at US$1.11 trillion; the targets and full-year estimate are not completed results."
+      },
+      "metric": "≥10%",
+      "metricLabel": {
+        "zh": "2027 年 GDP 成長目標",
+        "en": "2027 GDP growth target"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "越南政府 · 10/17 國會經社報告全文",
+            "en": "Vietnam Government · October 17 socioeconomic report"
+          },
+          "url": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "VnExpress · 2027 年成長目標",
+            "en": "VnExpress · 2027 growth targets"
+          },
+          "url": "https://e.vnexpress.net/news/business/economy/vietnam-targets-at-least-10-gdp-growth-in-2027-5133546.html",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-17",
+        "countries": {
+          "zh": "越南",
+          "en": "Vietnam"
+        },
+        "industries": {
+          "zh": "工業政策；終端工廠；貿易；投資",
+          "en": "Industrial policy; end-use factories; trade; investment"
+        },
+        "chain": {
+          "zh": "政策與投資至工業生產、終端工廠",
+          "en": "Policy and investment to industrial production and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "政府提出次年成長與基礎建設政策方向；未就個別供應鏈專案披露新增投資額。",
+            "en": "The government set next-year growth and infrastructure policy directions without new investment amounts for individual supply-chain projects."
+          },
+          "demand": {
+            "zh": "全年進出口估計 1.11 兆美元，未拆分半導體、記憶體或電源設備新增需求。",
+            "en": "Full-year trade is estimated at US$1.11 trillion, without incremental demand figures for semiconductors, memory or power equipment."
+          },
+          "fdi": {
+            "zh": "此處所列目標不是已實現外商投資，未作新增 FDI 金額認定。",
+            "en": "The cited targets are not realized foreign investment and are not treated as a new FDI amount."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工業、貿易與基礎建設政策構成越南製造業的官方總體背景。",
+            "en": "Industrial, trade and infrastructure policy provide official macroeconomic context for Vietnamese manufacturing."
+          },
+          "timing": {
+            "zh": "10/17 向國會提出報告；2027 數字為次年目標，2026 貿易額為當年全年估計。",
+            "en": "The report was presented on October 17; 2027 figures are next-year targets, while 2026 trade is a current-year full-year estimate."
+          },
+          "unknowns": {
+            "zh": "目標是否獲完整落實及各產業分項需求仍未知；商品進出口總額同時計入出口與進口，不能等同境內新增訂單。",
+            "en": "Implementation and industry-level demand remain uncertain. Merchandise trade sums exports and imports and cannot be equated with new domestic orders."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "政策與產業背景",
+            "en": "Policy and industry context"
+          },
+          "text": {
+            "zh": "政府報告將製造業、配套產業、物流及能源基礎建設列為工作內容。這些是官方政策方向，尚未提供對應到特定晶圓、封測、伺服器或工廠設備的採購清單。",
+            "en": "The report includes manufacturing, supporting industries, logistics and energy infrastructure among its policy tasks. These are official policy directions without procurement lists for specific wafer, packaging/test, server or factory equipment."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字怎麼看",
+            "en": "Reading the numbers"
+          },
+          "text": {
+            "zh": "GDP 成長、消費者物價與勞動生產力各有不同定義，不能並列解讀為同一產業成長率。1.11 兆美元在結構化資料記為 1,110 十億美元；未用四捨五入的成長率反推基期，也未將全年估計標為已公布統計實績。",
+            "en": "GDP growth, consumer inflation and labor productivity have distinct definitions and are not alternative measures of one industry’s growth. US$1.11 trillion is stored as 1,110 USD billion; no base is reverse-calculated from rounded rates, and the full-year estimate is not labelled an actual statistic."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "目標是否獲完整落實及各產業分項需求仍未知；商品進出口總額同時計入出口與進口，不能等同境內新增訂單。",
+            "en": "Implementation and industry-level demand remain uncertain. Merchandise trade sums exports and imports and cannot be equated with new domestic orders."
+          }
+        }
+      ],
+      "location": {
+        "zh": "報告發表地：越南河內，國會會議。",
+        "en": "Report location: a National Assembly session in Hanoi, Vietnam."
+      },
+      "ceoView": {
+        "zh": "對工業電源、資料中心電源與量測控制設備業者而言，總體政策提供工廠及基礎建設客戶的背景。值得確認的是個別客戶已核准的工程、供電與驗收時程；GDP 目標和貿易估計無法單獨證明設備需求或採購訂單。",
+        "en": "For industrial-power, data-center-power and measurement/control suppliers, macroeconomic policy provides context for factory and infrastructure customers. Relevant checks concern specific customers’ approved projects, power supply and acceptance schedules; GDP targets and trade estimates alone do not establish equipment demand or purchase orders."
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "GDP 成長目標下限",
+            "en": "GDP growth target floor"
+          },
+          "current": 0.1,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年",
+            "en": "2027"
+          },
+          "owner": {
+            "zh": "越南政府",
+            "en": "Vietnam Government"
+          },
+          "sourceUrl": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "kind": "官方陳述,政策目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "政策目標，未以同定義已完成實績作基期。"
+        },
+        {
+          "name": {
+            "zh": "CPI 目標，約",
+            "en": "CPI target, approximately"
+          },
+          "current": 0.045,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年",
+            "en": "2027"
+          },
+          "owner": {
+            "zh": "越南政府",
+            "en": "Vietnam Government"
+          },
+          "sourceUrl": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "kind": "官方陳述,政策目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "物價目標非產值增幅，未提供可比前期目標。"
+        },
+        {
+          "name": {
+            "zh": "勞動生產力成長目標",
+            "en": "Labor-productivity growth target"
+          },
+          "current": 0.086,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年",
+            "en": "2027"
+          },
+          "owner": {
+            "zh": "越南政府",
+            "en": "Vietnam Government"
+          },
+          "sourceUrl": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "kind": "官方陳述,政策目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "生產力目標，未提供同口徑比較基期。"
+        },
+        {
+          "name": {
+            "zh": "全年商品進出口估計",
+            "en": "Estimated full-year merchandise trade"
+          },
+          "current": 1110,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年全年",
+            "en": "Full-year 2026"
+          },
+          "owner": {
+            "zh": "越南政府",
+            "en": "Vietnam Government"
+          },
+          "sourceUrl": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "全年估計，未提供本表可比的完整前期基數。"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "genting-huawei-johor-smart-campus",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "Genting 與華為合作規劃柔佛 430 英畝智慧園區，未披露新增投資額",
+        "en": "Genting and Huawei plan a 430-acre Johor smart campus without a new investment figure"
+      },
+      "summary": {
+        "zh": "10 月 16 日報導顯示，Genting Property 與華為馬來西亞已簽智慧城市總體規劃協議，合作範圍包含柔佛古來 430 英畝智慧園區。這次公布的是規劃合作，未披露已簽租戶、資料中心 MW 容量或新增外商投資金額。",
+        "en": "Reports on October 16 said Genting Property and Huawei Malaysia had signed a master-planning agreement covering a 430-acre smart campus in Kulai, Johor. This is a planning collaboration, with no signed tenants, data-center MW capacity or incremental FDI amount disclosed."
+      },
+      "metric": "430",
+      "metricLabel": {
+        "zh": "智慧園區規劃面積，英畝",
+        "en": "Planned smart-campus area, acres"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Bernama · 轉述 Genting 合作聲明",
+            "en": "Bernama · report of Genting’s partnership statement"
+          },
+          "url": "https://web26.bernama.com/en/general/news.php?id=2621248",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "EdgeProp · 古來園區與合作範圍",
+            "en": "EdgeProp · Kulai site and partnership scope"
+          },
+          "url": "https://www.edgeprop.my/content/1917881/genting-taps-huawei-plan-430-acre-smart-campus-kulai",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "馬來西亞；中國（簽約活動）",
+          "en": "Malaysia; China (signing event)"
+        },
+        "industries": {
+          "zh": "工業園區；智慧工廠；能源管理",
+          "en": "Industrial parks; smart factories; energy management"
+        },
+        "chain": {
+          "zh": "園區規劃至能源管理與終端工廠",
+          "en": "Campus planning to energy management and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "總體規劃協議涵蓋 430 英畝智慧園區，未公布本次投資對價。",
+            "en": "The master-planning agreement covers a 430-acre smart campus, without consideration for this agreement."
+          },
+          "demand": {
+            "zh": "未公布租戶簽約、工廠或資料中心設備訂單。",
+            "en": "No signed tenants or factory/data-center equipment orders were disclosed."
+          },
+          "fdi": {
+            "zh": "跨國技術規劃合作，尚無可核實的新增 FDI 金額。",
+            "en": "A cross-border technology-planning collaboration, without a verifiable new FDI amount."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "柔佛工業與科技園區規劃涉及智慧管理和能源管理，仍處藍圖階段。",
+            "en": "Johor industrial/technology-campus planning includes smart and energy management and remains at blueprint stage."
+          },
+          "timing": {
+            "zh": "以 10/16 公開報導日為事件日期；EdgeProp 稱聲明於 10/15 發出，Bernama 稱 10/16，確切簽署日未明。",
+            "en": "The event date uses the October 16 public reporting date. EdgeProp dates the statement to October 15, while Bernama says October 16; the exact signing date is unclear."
+          },
+          "unknowns": {
+            "zh": "未取得協議原文；聲明日期有一天差異，建設時程、實際投資、租戶及供電容量尚未公布。",
+            "en": "The agreement text was not obtained. Reports differ by a day on the statement date; construction timing, actual investment, tenants and power capacity remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "園區與產業背景",
+            "en": "Campus and industry context"
+          },
+          "text": {
+            "zh": "Bernama 引述公司表示，華為提供 AI 與智慧園區規劃經驗，合作亦提及農業科技與能源管理。430 英畝屬智慧園區規劃面積，沒有直接換算成資料中心機房面積或已通電容量的資料。",
+            "en": "Bernama quotes the company saying Huawei will contribute AI and smart-campus planning expertise, with agricultural technology and energy management also mentioned. The 430 acres are planned campus land, with no basis for conversion to data-hall floor area or energized capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未取得協議原文；聲明日期有一天差異，建設時程、實際投資、租戶及供電容量尚未公布。",
+            "en": "The agreement text was not obtained. Reports differ by a day on the statement date; construction timing, actual investment, tenants and power capacity remain undisclosed."
+          }
+        }
+      ],
+      "location": {
+        "zh": "專案地：馬來西亞柔佛州古來，Johor Tech Smart City；簽約活動場地：中國深圳龍崗國際藝術中心，確切簽署日未公布。",
+        "en": "Project site: Johor Tech Smart City, Kulai, Johor, Malaysia. Signing-event venue: Shenzhen Longgang International Art Centre, China; the exact signing date was not disclosed."
+      },
+      "ceoView": {
+        "zh": "對資料中心及工業電源、量測控制設備業者而言，園區能源管理是相關應用，但目前資料僅支持總體規劃合作。值得確認實際租戶、配電設計與機房容量；土地面積不能用來推算電源設備數量或採購時點。",
+        "en": "For data-center/industrial-power and measurement/control suppliers, campus energy management is a related application, but the evidence establishes master planning only. Questions concern actual tenants, distribution design and data-hall capacity; land area cannot establish power-equipment volumes or purchasing dates."
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "智慧園區規劃面積",
+            "en": "Planned smart-campus area"
+          },
+          "current": 430,
+          "unit": "acres",
+          "period": {
+            "zh": "2026 年 10 月總體規劃協議",
+            "en": "October 2026 master-planning agreement"
+          },
+          "owner": {
+            "zh": "Genting Property，由 Bernama 報導",
+            "en": "Genting Property, reported by Bernama"
+          },
+          "sourceUrl": "https://web26.bernama.com/en/general/news.php?id=2621248",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "本次規劃面積，未提供相同範圍的前期基數。"
+        }
+      ]
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "熊本二廠的核准、建置與量產如何分開讀？",
+        "en": "How do approval, construction and production differ at Kumamoto?"
+      },
+      "text": {
+        "zh": "對照新舊製程範圍、首階段產能及 2028 年底時程，可避免把計畫數字當作現有供給。",
+        "en": "Compare process scope, initial-phase capacity and the late-2028 schedule to distinguish planned from operating supply."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "六項創新各處於哪個產品與驗證階段？",
+        "en": "Which product and validation stages do the six innovations represent?"
+      },
+      "text": {
+        "zh": "把處理器、儲存、FPGA 與電源控制分開閱讀，並對照投片、認證及未定期間的銷售潛力。",
+        "en": "Separate processors, storage, FPGA and power control, then distinguish tape-out, qualification and sales potential with no stated period."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "一條產線的設計能力涵蓋哪些設備與驗收？",
+        "en": "What equipment and acceptance scope sits behind a line’s designed capacity?"
+      },
+      "text": {
+        "zh": "公告列出核心設備、精整及試運轉範圍，能釐清單條產線與整廠、設計噸數與實際產量的差異。",
+        "en": "The release identifies core tools, finishing and commissioning, distinguishing one line from the whole complex and design tonnage from actual output."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "產業參考備忘錄",
+      "en": "Industry reference memo"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "半導體股價與題材反應",
+        "en": "Semiconductor share-price and theme reactions"
+      },
+      "text": {
+        "zh": "未包含新的產能、交易、訂單或官方政策資料的價格反應，不另列為供應鏈新聞。",
+        "en": "Price reactions without new capacity, transactions, orders or official policy information are not treated as separate supply-chain developments."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "JASM 計畫核准依 Reuters 與中央社報導，未直接取得經產省核准文件；光罩及榮科公告依重大訊息轉載與中央社交叉核對。光罩收購尚未確認交割，榮科購地價款與廠址未定。馬來西亞六項創新的 3 億令吉為無明確期間的估計銷售潛力，Grand Hyatt／KLCC 場館報導有差異。VinMetal 產能為設計值；越南 2027 年指標為政策目標，2026 年貿易為全年估計。Genting 協議依媒體轉述公司聲明，聲明日期記載相差一天，未取得協議原文。",
+    "en": "JASM approval relies on Reuters and CNA reporting without direct retrieval of METI’s document. Taiwan Mask and LCY filings were checked through reproductions and CNA. The acquisition has no confirmed closing; the Thai land price and site are pending. Malaysia’s RM300 million is estimated sales potential without a period, and Grand Hyatt/KLCC venue reports differ. VinMetal capacity is designed capacity; Vietnam’s 2027 figures are policy targets and 2026 trade is a full-year estimate. Genting coverage relies on reports of its statement, whose date differs by a day; the agreement text was not obtained."
+  }
+}

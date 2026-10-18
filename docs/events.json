@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -20,7 +20,10 @@
         "en": "Open compute hardware, rack power and liquid cooling"
       },
       "source": {
-        "name": "OCP Foundation",
+        "name": {
+          "zh": "OCP Foundation",
+          "en": "OCP Foundation"
+        },
         "url": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/"
       }
     },
@@ -43,8 +46,37 @@
         "en": "Semiconductor equipment, materials and manufacturing; the venue page also lists October 14-15 exhibit days"
       },
       "source": {
-        "name": "Moscone Center",
+        "name": {
+          "zh": "Moscone Center",
+          "en": "Moscone Center"
+        },
         "url": "https://moscone.com/events/semicon-west-2026"
+      }
+    },
+    {
+      "id": "aisem-selangor-2026",
+      "start": "2026-10-14",
+      "end": "2026-10-17",
+      "type": "semiconductor",
+      "region": "sea",
+      "name": {
+        "zh": "AiSEM@Selangor 2026",
+        "en": "AiSEM@Selangor 2026"
+      },
+      "place": {
+        "zh": "馬來西亞吉隆坡 · KLCC 及 Grand Hyatt Kuala Lumpur",
+        "en": "KLCC and Grand Hyatt Kuala Lumpur, Malaysia"
+      },
+      "focus": {
+        "zh": "AI 與半導體設計、製造及人才；不同子活動分別於 KLCC 與 Grand Hyatt，依主辦日程區分場地。",
+        "en": "AI and semiconductor design, manufacturing and talent; individual sessions use KLCC or Grand Hyatt as listed in the organizer schedule."
+      },
+      "source": {
+        "name": {
+          "zh": "Sidec · 官方活動日程",
+          "en": "Sidec · official event schedule"
+        },
+        "url": "https://www.sidec.com.my/aisemselangor/"
       }
     },
     {
@@ -62,15 +94,15 @@
         "en": "Taipei Nangang Exhibition Center Hall 1, Taipei, Taiwan"
       },
       "focus": {
-        "zh": "電路板、載板與 AI 伺服器材料；IMPACT-IAAC 論壇 10/19 起",
-        "en": "PCBs, substrates and AI server materials; IMPACT-IAAC forum from October 19"
+        "zh": "PCB、載板與材料；展覽 10/20 至 10/22 於南港一館，IMPACT-IAAC 10/19 至 10/22 於南港二館。",
+        "en": "PCBs, substrates and materials; exhibition October 20-22 in Nangang Hall 1, IMPACT-IAAC October 19-22 in Hall 2."
       },
       "source": {
         "name": {
-          "zh": "工商時報",
-          "en": "Commercial Times"
+          "zh": "TPCA · 官方展覽與論壇公告",
+          "en": "TPCA · official exhibition and forum announcement"
         },
-        "url": "https://www.ctee.com.tw/news/20261008701636-431202"
+        "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394"
       }
     },
     {
@@ -92,14 +124,17 @@
         "en": "Electronic components, power and semiconductor manufacturing; SEMICON Europa is the partner event"
       },
       "source": {
-        "name": "electronica",
+        "name": {
+          "zh": "electronica",
+          "en": "electronica"
+        },
         "url": "https://electronica.de/en/"
       }
     },
     {
       "id": "sc26",
-      "start": "2026-11-16",
-      "end": "2026-11-19",
+      "start": "2026-11-15",
+      "end": "2026-11-20",
       "type": "datacenter",
       "region": "us",
       "name": {
@@ -107,19 +142,45 @@
         "en": "SC26"
       },
       "place": {
-        "zh": "美國芝加哥",
-        "en": "Chicago, United States"
+        "zh": "美國芝加哥 · McCormick Place",
+        "en": "McCormick Place, Chicago, United States"
       },
       "focus": {
-        "zh": "高效能運算、AI 系統與資料中心基礎設施",
-        "en": "High-performance computing, AI systems and data-center infrastructure"
+        "zh": "高效能運算、AI 系統與基礎設施；官方會期 11/15 至 11/20，展覽 11/17 至 11/19。",
+        "en": "HPC, AI systems and infrastructure; official conference November 15-20 and exhibits November 17-19."
       },
       "source": {
         "name": {
-          "zh": "OCP Foundation · 活動列表",
-          "en": "OCP Foundation · events list"
+          "zh": "SC26 · 官方會期與場館",
+          "en": "SC26 · official dates and venue"
         },
-        "url": "https://www.opencompute.org/events/upcoming-events"
+        "url": "https://sc26.supercomputing.org/attendees/chicago/"
+      }
+    },
+    {
+      "id": "datacenter-asia-malaysia-2026",
+      "start": "2026-11-17",
+      "end": "2026-11-19",
+      "type": "datacenter",
+      "region": "sea",
+      "name": {
+        "zh": "Data Center Asia Malaysia 2026",
+        "en": "Data Center Asia Malaysia 2026"
+      },
+      "place": {
+        "zh": "馬來西亞吉隆坡 · MITEC",
+        "en": "MITEC, Kuala Lumpur, Malaysia"
+      },
+      "focus": {
+        "zh": "資料中心、電源與散熱；官網部分介紹沿用 2025 字樣，展期依 2026 活動標題所列 11/17 至 11/19。",
+        "en": "Data centers, power and cooling; some body copy retains 2025 wording, while the 2026 event heading gives November 17-19."
+      },
+      "source": {
+        "name": {
+          "zh": "Data Center Asia · 馬來西亞官方活動頁",
+          "en": "Data Center Asia · official Malaysia event page"
+        },
+        "url": "https://www.datacenter-asia.com/kualalumpur/"
       }
     },
     {
@@ -167,7 +228,10 @@
         "en": "Transistor, memory and advanced device research"
       },
       "source": {
-        "name": "IEEE IEDM",
+        "name": {
+          "zh": "IEEE IEDM",
+          "en": "IEEE IEDM"
+        },
         "url": "https://ieee-iedm.org/"
       }
     },
@@ -190,7 +254,10 @@
         "en": "Chip circuit design, memory interfaces and power-management circuits"
       },
       "source": {
-        "name": "ISSCC",
+        "name": {
+          "zh": "ISSCC",
+          "en": "ISSCC"
+        },
         "url": "https://www.isscc.org/call-for-papers-overview-26"
       }
     },
@@ -213,7 +280,10 @@
         "en": "Moves to Phoenix with a spring schedule from 2027"
       },
       "source": {
-        "name": "City of Phoenix",
+        "name": {
+          "zh": "City of Phoenix",
+          "en": "City of Phoenix"
+        },
         "url": "https://www.phoenix.gov/newsroom/convention-center-news/semicon-west-announces-long-term-partnership-with-phoenix.html"
       }
     },
@@ -262,7 +332,10 @@
         "en": "Southeast Asian semiconductor manufacturing, assembly/test and supply chain"
       },
       "source": {
-        "name": "Bayern International",
+        "name": {
+          "zh": "Bayern International",
+          "en": "Bayern International"
+        },
         "url": "https://www.bayern-international.de/newsroom/news/mit-bayern-auf-die-semicon-messen-in-malaysia-und-taiwan-2027"
       }
     },
@@ -337,7 +410,10 @@
         "en": "About three weeks earlier than the usual September slot to secure multiple venues"
       },
       "source": {
-        "name": "Focus Taiwan",
+        "name": {
+          "zh": "Focus Taiwan",
+          "en": "Focus Taiwan"
+        },
         "url": "https://focustaiwan.tw/sci-tech/202609080007"
       }
     },
@@ -360,7 +436,10 @@
         "en": "Moves from San Jose to San Francisco from 2027"
       },
       "source": {
-        "name": "OCP Foundation",
+        "name": {
+          "zh": "OCP Foundation",
+          "en": "OCP Foundation"
+        },
         "url": "https://www.opencompute.org/news/ocp-global-summit-is-moving-to-a-new-location/"
       }
     }

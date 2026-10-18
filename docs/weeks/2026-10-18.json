@@ -1,0 +1,108 @@
+{
+  "weekStart": "2026-10-18",
+  "generatedAt": "2026-10-18T00:08:06.351081+00:00",
+  "throughline": {
+    "zh": "台灣供應商的日本設備服務與泰國材料用地進展，連同馬來西亞晶片發表及越南工廠設備合約，呈現設計、製造服務與終端建置各自不同的落地階段。",
+    "en": "Taiwanese firms’ Japanese equipment-service and Thai materials-site plans, Malaysian chip launches and a Vietnamese factory-equipment contract show distinct implementation stages across design, manufacturing services and end-use facilities."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "taiwan",
+      "title": {
+        "zh": "熊本晶圓計畫核准與台灣設備服務收購授權",
+        "en": "Kumamoto fab approval and Taiwanese equipment-service acquisition authorization"
+      },
+      "summary": {
+        "zh": "日本 10/16 核准 JASM 二廠變更計畫，台灣光罩同日改由母公司擬收購熊本 TCK。前者仍在建置，後者尚未確認交割，分別對應製程建置與在地設備服務。",
+        "en": "Japan approved JASM’s revised second-fab plan on October 16, while Taiwan Mask changed the proposed TCK buyer to the parent. Fab construction and unconfirmed acquisition closing represent separate process-build and local-service milestones."
+      },
+      "references": [
+        {
+          "date": "2026-10-18",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-18",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "tech",
+      "title": {
+        "zh": "馬來西亞六項晶片創新涵蓋儲存、工業控制與電源",
+        "en": "Malaysia’s six innovations span storage, industrial control and power"
+      },
+      "summary": {
+        "zh": "10/16 發表的六項創新包括 AI 處理器、儲存、FPGA、車用與衛星電源控制等。部長估計 3 億令吉合計銷售潛力但未列期間，客戶認證與量產數量仍待公布。",
+        "en": "The October 16 launches include AI processors, storage, FPGA and automotive/satellite power control. The minister’s RM300 million combined sales potential has no stated period, with customer qualification and production volumes undisclosed."
+      },
+      "references": [
+        {
+          "date": "2026-10-18",
+          "storyId": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "global",
+      "title": {
+        "zh": "越南軋鋼產線核心設備合約落定",
+        "en": "Vietnamese rolling line reaches core-equipment contract stage"
+      },
+      "summary": {
+        "zh": "VinMetal 與 Danieli 10/15 簽訂核心設備合約，專案位於河靜永安經濟區。逾 70 萬噸為單條產線年設計能力，交付、投產與客戶驗收時程尚未公布。",
+        "en": "VinMetal and Danieli signed the core-equipment contract on October 15 for Ha Tinh’s Vung Ang Economic Zone. Above 700,000 tonnes is one line’s annual design capacity; delivery, start-up and customer-acceptance schedules are undisclosed."
+      },
+      "references": [
+        {
+          "date": "2026-10-18",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "title": {
+        "zh": "泰國材料用地與柔佛智慧園區分處規劃階段",
+        "en": "Thai materials land and Johor smart campus remain planning-stage projects"
+      },
+      "summary": {
+        "zh": "榮科 10/16 通過泰國子公司購地案，價款與廠址待定；同日報導 Genting 與華為規劃古來 430 英畝智慧園區。兩案均未提供可核實的新增量產、租戶或實付投資數字。",
+        "en": "LCY Technology approved Thai subsidiary land plans on October 16 with site and price pending; reports the same day described Genting and Huawei’s 430-acre Kulai campus plan. Neither provides verified new production, tenant or paid-investment figures."
+      },
+      "references": [
+        {
+          "date": "2026-10-18",
+          "storyId": 5
+        },
+        {
+          "date": "2026-10-18",
+          "storyId": 7
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "global",
+      "title": {
+        "zh": "越南提出 2027 成長目標與 2026 全年貿易估計",
+        "en": "Vietnam sets 2027 targets and a 2026 full-year trade estimate"
+      },
+      "summary": {
+        "zh": "越南政府 10/17 向國會提出次年 GDP 至少成長 10%、CPI 約 4.5% 及生產力成長 8.6% 目標。2026 年商品進出口估計 1.11 兆美元，目標與估計皆須與已完成實績分開閱讀。",
+        "en": "The government presented next-year targets to parliament on October 17: at least 10% GDP growth, CPI around 4.5% and 8.6% productivity growth. Estimated 2026 merchandise trade of US$1.11 trillion and the targets must be distinguished from completed results."
+      },
+      "references": [
+        {
+          "date": "2026-10-18",
+          "storyId": 6
+        }
+      ]
+    }
+  ]
+}

@@ -17,6 +17,10 @@ export function formatMetric(m,lang){
   case '個職缺':return zh?num(v,lang)+' 個職缺':num(v,lang)+' openings';
   case '家':return zh?num(v,lang)+' 家':num(v,lang)+' companies';
   case '人':return zh?num(v,lang)+' 人':num(v,lang)+' people';
+  case 'wafers/month':return num(v,lang)+(zh?' 片／月':' wafers/month');
+  case 'tonnes/year':return num(v,lang)+(zh?' 噸／年':' tonnes/year');
+  case 'designs':return num(v,lang)+(zh?' 款晶片':' chip designs');
+  case 'acres':return num(v,lang)+(zh?' 英畝':' acres');
   default:return num(v,lang)+' '+m.unit;
  }
 }
@@ -39,16 +43,27 @@ function barRow({label,value,display,detail,max,min=0,muted=false}){
  return row;
 }
 
-// Per-story figures: same-unit metrics become a bar comparison, the rest tiles.
+// Percentage definitions differ (for example GDP, CPI and productivity).
+// Keep them as individual tiles. Absolute values also need a shared owner,
+// period and status before they can form a comparison.
+export function groupMetrics(metrics){
+ const groups=new Map();
+ metrics.forEach((m,index)=>{
+  const key=m.unit==='%'?'percent:'+index:JSON.stringify([m.unit,text(m.owner,'zh'),text(m.period,'zh'),m.kind]);
+  if(!groups.has(key))groups.set(key,[]);
+  groups.get(key).push(m);
+ });
+ return [...groups.values()];
+}
+
+// Per-story figures: comparable absolute metrics become bars, the rest tiles.
 export function storyFigures(story,lang){
  const metrics=story.metrics||[];
  if(!metrics.length)return null;
  const zh=lang==='zh',wrap=n('div',undefined,'story-figures');
  wrap.setAttribute('aria-label',zh?'本則數據':'Figures in this story');
- const groups=new Map();
- for(const m of metrics){const key=m.unit==='%'?'%:'+text(m.period,'zh'):m.unit;groups.set(key,[...(groups.get(key)||[]),m]);}
  const tiles=n('div',undefined,'figure-tiles');
- for(const group of groups.values()){
+ for(const group of groupMetrics(metrics)){
   if(group.length>1&&group.every(m=>m.current>=0)){
    const chart=n('div',undefined,'viz-mini');
    const max=Math.max(...group.map(m=>m.current));
