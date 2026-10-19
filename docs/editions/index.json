@@ -1,6 +1,10 @@
 {
   "editions": [
     {
+      "date": "2026-10-19",
+      "path": "./editions/2026-10-19.json"
+    },
+    {
       "date": "2026-10-18",
       "path": "./editions/2026-10-18.json"
     },
@@ -36,53 +40,57 @@
   "exports": {
     "day": {
       "2026-10-17": "./exports/day-2026-10-17.xlsx",
-      "2026-10-18": "./exports/day-2026-10-18.xlsx"
+      "2026-10-18": "./exports/day-2026-10-18.xlsx",
+      "2026-10-19": "./exports/day-2026-10-19.xlsx"
     },
     "week": {
       "2026-10-11": "./exports/week-2026-10-11.xlsx",
       "2026-10-18": "./exports/week-2026-10-18.xlsx"
     },
     "events": {
-      "2026-10-18": "./exports/events-2026-10-18.xlsx"
+      "2026-10-19": "./exports/events-2026-10-19.xlsx"
     }
   },
   "exportVersions": {
     "day": {
       "2026-10-17": "059d86b5e8e0",
-      "2026-10-18": "59eb46c8ddb9"
+      "2026-10-18": "59eb46c8ddb9",
+      "2026-10-19": "0e5ac02ead5a"
     },
     "week": {
       "2026-10-11": "3a5fdc854c65",
-      "2026-10-18": "7c74ddf287e7"
+      "2026-10-18": "0bf326ae242b"
     },
     "events": {
-      "2026-10-18": "f8dac98242be"
+      "2026-10-19": "fb4707d0908e"
     }
   },
   "exportsEn": {
     "day": {
       "2026-10-17": "./exports/day-2026-10-17-en.xlsx",
-      "2026-10-18": "./exports/day-2026-10-18-en.xlsx"
+      "2026-10-18": "./exports/day-2026-10-18-en.xlsx",
+      "2026-10-19": "./exports/day-2026-10-19-en.xlsx"
     },
     "week": {
       "2026-10-11": "./exports/week-2026-10-11-en.xlsx",
       "2026-10-18": "./exports/week-2026-10-18-en.xlsx"
     },
     "events": {
-      "2026-10-18": "./exports/events-2026-10-18-en.xlsx"
+      "2026-10-19": "./exports/events-2026-10-19-en.xlsx"
     }
   },
   "exportVersionsEn": {
     "day": {
       "2026-10-17": "301caa41574c",
-      "2026-10-18": "32d96adac254"
+      "2026-10-18": "32d96adac254",
+      "2026-10-19": "3ae0617a42bf"
     },
     "week": {
       "2026-10-11": "6bd09239e055",
-      "2026-10-18": "1f25bdf53b33"
+      "2026-10-18": "9ea21ec4a7e3"
     },
     "events": {
-      "2026-10-18": "93f31b8fcc5b"
+      "2026-10-19": "55911e7d747b"
     }
   }
 }

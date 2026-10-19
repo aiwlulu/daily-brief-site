@@ -15,6 +15,10 @@ test('physical capacity and area units have bilingual display text',()=>{
  assert.equal(formatMetric({...metric,unit:'tonnes/year',current:700000},'en'),'700,000 tonnes/year');
  assert.equal(formatMetric({...metric,unit:'designs',current:6},'en'),'6 chip designs');
  assert.equal(formatMetric({...metric,unit:'acres',current:430},'zh'),'430 英畝');
+ assert.equal(formatMetric({...metric,unit:'turbines',current:4},'en'),'4 turbines');
+ assert.equal(formatMetric({...metric,unit:'turbines',current:4},'zh'),'4 部風機');
+ assert.equal(formatMetric({...metric,unit:'JPY billion',current:115},'zh'),'1,150 億日圓');
+ assert.equal(formatMetric({...metric,unit:'JPY billion',current:115},'en'),'¥115B');
 });
 test('PCB materials do not match PC systems',()=>{
  const story=zh=>({market:{industries:{zh}}});

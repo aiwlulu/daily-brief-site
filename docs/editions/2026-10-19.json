@@ -1,0 +1,1251 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T00:05:07.006Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：設備、電源、工廠及區域貿易規則",
+      "en": "Taiwan and Southeast Asia: equipment, power, factories and regional trade rules"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "越南新增貿易協定、新加坡出口統計，以及台灣汽車設備與儲能合作，分別提供市場規則、跨境出貨與設備開發的事實；供電調度與工程完成狀態另有各自的驗證節點。",
+    "en": "Vietnam’s new trade agreement, Singapore’s export data and Taiwan’s automotive-equipment and storage partnerships provide distinct evidence on market rules, shipments and equipment development, alongside separate fuel-logistics and project-completion milestones."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "越南與 EFTA 四國 10/18 簽自由貿易協定，涵蓋設備貿易及投資規則，生效與產品條件仍須區分。",
+        "en": "Vietnam signed an FTA with four EFTA states on October 18; equipment-trade rules remain distinct from effective product-level treatment."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "鴻海 10/16 公布以 1,150 億日圓取得三菱電機移動 50% 股權的協議，預定 2027/10/1 交割。",
+        "en": "Foxconn announced a ¥115 billion agreement for 50% of Mitsubishi Electric Mobility on October 16, with closing planned October 1, 2027."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "新加坡 9 月 NODX 年增 68.4%、對台年增 96.9%；整體增幅含船體低基期因素。",
+        "en": "Singapore’s September NODX grew 68.4%, with Taiwan-bound exports up 96.9%; ship-structure base effects contributed to the aggregate surge."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "鴻海儲能團隊規劃 306 kWh 電池櫃，2027 上半年供貨及 100 MWh 建置量均屬目標。",
+        "en": "Foxconn’s storage partners plan a 306 kWh cabinet; H1 2027 supply and 100 MWh deployment remain targets."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "經部 10/18 稱台電離岸二期累計完成四部風機安裝；併網與銀行清償安排尚待確認。",
+        "en": "MOEA said on October 18 that four Phase II turbines were installed; grid connection and final bank-repayment arrangements remain unconfirmed."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "vietnam-efta-free-trade",
+      "category": "global",
+      "depth": "lead",
+      "title": {
+        "zh": "越南與 EFTA 四國簽署自由貿易協定，涵蓋工業品、原產地與投資規則",
+        "en": "Vietnam signs FTA with four EFTA states covering industrial goods, origin and investment rules"
+      },
+      "summary": {
+        "zh": "越南與瑞士、挪威、冰島、列支敦斯登 10 月 18 日在河內簽署自由貿易協定，涵蓋貨品、服務、原產地、投資及政府採購。電機與機械已是雙方貿易項目，但簽署不代表所有產品當日免稅；生效日與各產品優惠條件仍須以正式文本及附表確認。",
+        "en": "Vietnam and Switzerland, Norway, Iceland and Liechtenstein signed an FTA in Hanoi on October 18, covering goods, services, origin, investment and procurement. Electrical and mechanical machinery already feature in bilateral trade; signature does not establish immediate duty-free treatment for every product."
+      },
+      "metric": "FTA",
+      "metricLabel": {
+        "zh": "協定簽署",
+        "en": "Agreement signed"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "EFTA · 10/18 簽署公告",
+            "en": "EFTA · October 18 signing announcement"
+          },
+          "url": "https://www.efta.int/media-resources/news/efta-and-viet-nam-sign-free-trade-agreement",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "越南工商部 · 協定範圍",
+            "en": "Vietnam MOIT · agreement scope"
+          },
+          "url": "https://moit.gov.vn/en/news/signing-of-the-free-trade-agreement-between-viet-nam-and-the-member-states-of-the-european-free-trade-association-efta-.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "EFTA · 7 月談判結束章節說明",
+            "en": "EFTA · July conclusion-of-negotiations factsheet"
+          },
+          "url": "https://www.efta.int/sites/default/files/uploads/2026-07/26-1061%20EFTA-Viet%20Nam,%20Chapter%20by%20Chapter%20Factsheet%20FINAL.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "AFP · 簽署現場報導",
+            "en": "AFP · signing report"
+          },
+          "url": "https://www.afp.com/en/vietnam-signs-free-trade-deal-four-european-nations",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "簽署地點：越南河內；所閱官方公告未列具體會議場館。",
+        "en": "Signing location: Hanoi, Vietnam. The inspected official announcements do not identify the venue."
+      },
+      "market": {
+        "eventDate": "2026-10-18",
+        "countries": {
+          "zh": "越南；瑞士；挪威；冰島；列支敦斯登",
+          "en": "Vietnam; Switzerland; Norway; Iceland; Liechtenstein"
+        },
+        "industries": {
+          "zh": "電機與機械設備；工廠；貿易與投資政策",
+          "en": "Electrical/mechanical equipment; factories; trade and investment policy"
+        },
+        "chain": {
+          "zh": "設備貿易與投資規則至終端工廠",
+          "en": "Equipment trade and investment rules to end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "簽署涵蓋投資章節的協定，未公布新增工廠投資額。",
+            "en": "The signed agreement includes investment provisions, without a new factory investment amount."
+          },
+          "demand": {
+            "zh": "官方說明市場准入與關稅安排，未公布新增設備訂單。",
+            "en": "Officials described market-access and tariff arrangements without new equipment orders."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資金額。",
+            "en": "No new foreign direct investment amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "協定涵蓋工業貨品、技術性貿易障礙與原產地規則，與越南設備及製造供應鏈相連。",
+            "en": "The agreement covers industrial goods, technical barriers and origin rules relevant to Vietnam’s equipment and manufacturing chains."
+          },
+          "timing": {
+            "zh": "談判於 7/2 結束，10/18 正式簽署；兩個階段日期不同。",
+            "en": "Negotiations concluded on July 2 and the agreement was signed on October 18, separate milestones."
+          },
+          "unknowns": {
+            "zh": "所閱公告未確立生效日期或逐項產品優惠時程；個別設備稅則、原產地及認證適用仍須依正式協定與附表確認。",
+            "en": "The inspected announcements do not establish an entry-into-force date or product-level preference schedules. Equipment tariff, origin and certification treatment depends on the definitive agreement and schedules."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與供應鏈",
+            "en": "Industry and supply chain"
+          },
+          "text": {
+            "zh": "EFTA 指出，電機與機械均列於既有雙邊貨品貿易中。越南工商部列出的協定範圍包含關稅、技術性貿易障礙、海關程序及投資；公告沒有列出受惠供應商或新建產線名單。",
+            "en": "EFTA identifies electrical and mechanical machinery in existing bilateral goods trade. MOIT lists tariffs, technical barriers, customs procedures and investment among the agreement’s provisions, without naming suppliers or newly committed production lines."
+          }
+        },
+        {
+          "label": {
+            "zh": "文件與時間",
+            "en": "Documents and timing"
+          },
+          "text": {
+            "zh": "雙方 7 月 2 日結束談判，10 月 18 日完成簽署。EFTA 提供的章節說明仍為 7 月版本，列有產品別原產地規則；簽署、完成國內程序與優惠實際適用是不同階段。",
+            "en": "Negotiations concluded on July 2, followed by signature on October 18. EFTA’s linked chapter factsheet remains the July version and describes product-specific origin rules; signature, domestic procedures and effective preferences are separate stages."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "所閱公告未確立生效日期或逐項產品優惠時程；個別設備稅則、原產地及認證適用仍須依正式協定與附表確認。",
+            "en": "The inspected announcements do not establish an entry-into-force date or product-level preference schedules. Equipment tariff, origin and certification treatment depends on the definitive agreement and schedules."
+          }
+        }
+      ],
+      "metrics": [],
+      "ceoView": {
+        "zh": "對精密電源與量測控制設備供應商而言，相關環節是越南工廠設備與測試產品的跨境交易。值得核對的是產品稅則、原產地與認證條件在正式生效文本中的適用；目前沒有客戶採購資料，不能由協定簽署推定新增訂單。",
+        "en": "For precision-power and measurement/control suppliers, the relevant link is cross-border trade in Vietnamese factory equipment and test products. Questions concern tariff classification, origin and certification under the effective text; no customer purchasing data establish incremental orders from signature alone."
+      },
+      "pick": true
+    },
+    {
+      "id": 2,
+      "topic": "foxconn-mitsubishi-mobility",
+      "category": "taiwan",
+      "depth": "lead",
+      "title": {
+        "zh": "鴻海擬以 1,150 億日圓取得三菱電機移動 50% 股權，預定 2027 年交割",
+        "en": "Foxconn proposes ¥115 billion for 50% of Mitsubishi Electric Mobility, with closing planned in 2027"
+      },
+      "summary": {
+        "zh": "鴻海與三菱電機 10 月 16 日宣布，鴻海旗下利億國際投資擬以 1,150 億日圓取得三菱電機移動 50% 股權，共同經營汽車設備業務。交易預定 2027 年 10 月 1 日完成，仍須符合主管機關核准及契約條件。",
+        "en": "Foxconn and Mitsubishi Electric announced on October 16 that Foxconn subsidiary Lin Yin plans to acquire 50% of Mitsubishi Electric Mobility for ¥115 billion and jointly operate the automotive-equipment business. Closing is planned for October 1, 2027, subject to regulatory approvals and contractual conditions."
+      },
+      "metric": "¥115B",
+      "metricLabel": {
+        "zh": "預計股權移轉對價",
+        "en": "Expected share-transfer consideration"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "鴻海與三菱電機 · 合作及交易條件",
+            "en": "Foxconn and Mitsubishi Electric · alliance and transaction terms"
+          },
+          "url": "https://www.honhai.com.tw/en-us/press-center/press-releases/latest-news/2124",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 股權移轉與核准條件",
+            "en": "CNA · share transfer and approval conditions"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610160320.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "公告發布城市：台灣台北與日本東京；公告未指定新增工廠地點。",
+        "en": "Announcement cities: Taipei, Taiwan, and Tokyo, Japan. No new factory site is specified."
+      },
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "汽車設備；電動動力系統；車輛控制；終端工廠投資",
+          "en": "Automotive equipment; electric powertrains; vehicle control; end-use factory investment"
+        },
+        "chain": {
+          "zh": "電源與車輛控制零組件至汽車終端製造",
+          "en": "Power and vehicle-control components to automotive end-use manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "股權移轉對價預計 1,150 億日圓，對應標的 50% 股權。",
+            "en": "Expected consideration is ¥115 billion for 50% of the target."
+          },
+          "demand": {
+            "zh": "雙方公布合作領域，未披露新增客戶訂單或汽車出貨量。",
+            "en": "The partners identified cooperation areas without incremental customer orders or vehicle shipments."
+          },
+          "fdi": {
+            "zh": "台灣集團擬投資日本汽車設備事業，尚待交割。",
+            "en": "A Taiwanese group proposes an investment in a Japanese automotive-equipment business, pending closing."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "交易將電子動力系統、軟體與車輛控制納入雙方共同經營範圍。",
+            "en": "The proposed joint operation spans electric powertrains, software and vehicle control."
+          },
+          "timing": {
+            "zh": "10/16 公布最終合作協議，預計交割日為 2027/10/1。",
+            "en": "The final alliance agreement was announced October 16, with closing expected October 1, 2027."
+          },
+          "unknowns": {
+            "zh": "完成交割仍以主管機關核准與契約條件滿足為前提；公告未列新增訂單、整合後產量或新工廠投產時程。",
+            "en": "Closing remains conditional on regulatory approvals and contractual requirements. Incremental orders, integrated production volumes and new-factory start-up schedules were not disclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產品與供應鏈",
+            "en": "Products and supply chain"
+          },
+          "text": {
+            "zh": "三菱電機移動承接三菱電機的汽車設備事業。共同公告列出的結合範圍為電子動力系統、軟體及車輛控制，並提出在日本開發電動車平台的方向；這些屬合作內容與規劃，沒有宣告新增半導體製程或資料中心產能。",
+            "en": "Mitsubishi Electric Mobility handles Mitsubishi Electric’s automotive-equipment business. The joint release identifies electric powertrains, software and vehicle control, with Japan-developed EV platforms as a stated direction. These are cooperation plans rather than new semiconductor-process or data-center capacity announcements."
+          }
+        },
+        {
+          "label": {
+            "zh": "交易數字怎麼看",
+            "en": "Reading the transaction values"
+          },
+          "text": {
+            "zh": "協議中的企業價值為 3,200 億日圓，股權價值為 2,300 億日圓；50% 股權對價按股權價值計算為 1,150 億日圓。企業價值、全部股權價值與部分股權對價的範圍不同，金額保留原公告日圓，未自行換算成新台幣。",
+            "en": "The agreement states enterprise value of ¥320 billion and equity value of ¥230 billion; the ¥115 billion consideration represents 50% of equity value. Enterprise value, total equity value and a partial-stake price have different scopes. Figures remain in the announced yen, without an independently assumed Taiwan-dollar conversion."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "完成交割仍以主管機關核准與契約條件滿足為前提；公告未列新增訂單、整合後產量或新工廠投產時程。",
+            "en": "Closing remains conditional on regulatory approvals and contractual requirements. Incremental orders, integrated production volumes and new-factory start-up schedules were not disclosed."
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "預計 50% 股權對價",
+            "en": "Expected consideration for 50% stake"
+          },
+          "current": 115,
+          "unit": "JPY billion",
+          "period": {
+            "zh": "2026-10-16 協議",
+            "en": "October 16, 2026 agreement"
+          },
+          "owner": {
+            "zh": "鴻海與三菱電機",
+            "en": "Foxconn and Mitsubishi Electric"
+          },
+          "sourceUrl": "https://www.honhai.com.tw/en-us/press-center/press-releases/latest-news/2124",
+          "kind": "公司目標,股權對價",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        },
+        {
+          "name": {
+            "zh": "協議企業價值",
+            "en": "Agreed enterprise value"
+          },
+          "current": 320,
+          "unit": "JPY billion",
+          "period": {
+            "zh": "2026-10-16 協議",
+            "en": "October 16, 2026 agreement"
+          },
+          "owner": {
+            "zh": "鴻海與三菱電機",
+            "en": "Foxconn and Mitsubishi Electric"
+          },
+          "sourceUrl": "https://www.honhai.com.tw/en-us/press-center/press-releases/latest-news/2124",
+          "kind": "公司目標,企業估值",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        },
+        {
+          "name": {
+            "zh": "協議全部股權價值",
+            "en": "Agreed total equity value"
+          },
+          "current": 230,
+          "unit": "JPY billion",
+          "period": {
+            "zh": "2026-10-16 協議",
+            "en": "October 16, 2026 agreement"
+          },
+          "owner": {
+            "zh": "鴻海與三菱電機",
+            "en": "Foxconn and Mitsubishi Electric"
+          },
+          "sourceUrl": "https://www.honhai.com.tw/en-us/press-center/press-releases/latest-news/2124",
+          "kind": "公司目標,股權估值",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        },
+        {
+          "name": {
+            "zh": "擬移轉股權比例",
+            "en": "Proposed transferred ownership"
+          },
+          "current": 0.5,
+          "unit": "%",
+          "period": {
+            "zh": "預計 2027-10-01 交割",
+            "en": "Closing expected October 1, 2027"
+          },
+          "owner": {
+            "zh": "鴻海與三菱電機",
+            "en": "Foxconn and Mitsubishi Electric"
+          },
+          "sourceUrl": "https://www.honhai.com.tw/en-us/press-center/press-releases/latest-news/2124",
+          "kind": "公司目標,交割後持股",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電源轉換與量測控制設備供應商而言，相關產品是電動動力系統、車輛控制及其測試驗證。值得追問共同平台的電氣規格、供應商認證與量產驗收界面；交易仍待核准，公告也沒有設備採購或客戶訂單資料。",
+        "en": "For power-conversion and measurement/control suppliers, the relevant products are electric powertrains, vehicle control and their validation systems. Questions concern platform electrical specifications, supplier qualification and production acceptance; the transaction is conditional and contains no equipment purchasing or customer-order data."
+      },
+      "pick": true
+    },
+    {
+      "id": 3,
+      "topic": "singapore-september-exports",
+      "category": "global",
+      "depth": "lead",
+      "title": {
+        "zh": "新加坡 9 月非石油本地出口年增 68.4%，對台出口年增 96.9%",
+        "en": "Singapore’s September NODX rises 68.4%, with exports to Taiwan up 96.9%"
+      },
+      "summary": {
+        "zh": "新加坡企業發展局 10 月 16 日公布，9 月非石油本地出口（NODX）年增 68.4%，對台灣部分年增 96.9%。電子 NODX 年增 107.6%，但整體躍升亦受船體結構產品不規則出貨及去年低基期影響，不能全歸因於 AI 晶片需求。",
+        "en": "Enterprise Singapore reported on October 16 that September non-oil domestic exports rose 68.4% year on year, including a 96.9% rise to Taiwan. Electronic NODX grew 107.6%, but the overall surge also reflected lumpy ship-structure exports and a low prior-year base, rather than AI-chip demand alone."
+      },
+      "metric": "+68.4%",
+      "metricLabel": {
+        "zh": "9 月 NODX 年增率",
+        "en": "September NODX year-on-year growth"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Enterprise Singapore · 9 月貿易公告",
+            "en": "Enterprise Singapore · September trade release"
+          },
+          "url": "https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/october/mr04626_singapore-external-trade-september-2026",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Enterprise Singapore · 完整報告及對台分類",
+            "en": "Enterprise Singapore · full report and Taiwan breakdown"
+          },
+          "url": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "AsiaOne · 出口結構與低基期說明",
+            "en": "AsiaOne · export mix and low-base explanation"
+          },
+          "url": "https://www.asiaone.com/money/singapore-external-trade-september-2026-nodx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "新加坡；台灣",
+          "en": "Singapore; Taiwan"
+        },
+        "industries": {
+          "zh": "積體電路；專用機械設備；PC；外銷需求",
+          "en": "Integrated circuits; specialized machinery; PCs; export demand"
+        },
+        "chain": {
+          "zh": "設備與 IC 至電腦整機及終端工廠",
+          "en": "Equipment and ICs to computers and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "貿易統計沒有提供新增工廠或外商投資金額。",
+            "en": "The trade release provides no new factory or foreign-investment amount."
+          },
+          "demand": {
+            "zh": "9 月 NODX 年增 68.4%，電子年增 107.6%，非電子年增 54.2%。",
+            "en": "September NODX grew 68.4%, electronics 107.6% and non-electronics 54.2% year on year."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資金額。",
+            "en": "No new foreign direct investment amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "對台出口包含積體電路與專用機械，連結兩地製造供應鏈。",
+            "en": "Exports to Taiwan include ICs and specialized machinery, linking the two manufacturing chains."
+          },
+          "timing": {
+            "zh": "9 月統計於 10/16 首次公布；發表日期與統計月份分開記錄。",
+            "en": "September figures were first released October 16; release date and statistical period are recorded separately."
+          },
+          "unknowns": {
+            "zh": "出口為名目統計，無法單獨辨識價格、數量及產品組合貢獻；專用機械未逐項列出半導體設備，亦未對應到個別客戶採購案。",
+            "en": "These are nominal exports and do not isolate price, volume or product-mix effects. Specialized machinery is not broken down into semiconductor tools or individual customer purchases."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "對台灣的供應鏈連結",
+            "en": "Supply-chain links to Taiwan"
+          },
+          "text": {
+            "zh": "官方報告顯示，9 月對台 NODX 的成長來源包括儲存媒體、專用機械及積體電路；後兩者對台出口年增率分別為 115.6% 與 36.2%。這些是產品類別貿易值的變動，未指定設備廠、晶圓廠或終端客戶。",
+            "en": "The official report identifies disk media, specialized machinery and ICs among the drivers of NODX to Taiwan; the latter two rose 115.6% and 36.2% year on year. These are product-category trade-value changes without named toolmakers, fabs or end customers."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字與比較基準",
+            "en": "Figures and comparison bases"
+          },
+          "text": {
+            "zh": "非電子 NODX 年增 54.2%，船體結構產品是主要貢獻項目，官方因去年基期極低而未列該項年增率。1 至 9 月 NODX 累計年增 27.6%；累計期間與單月口徑不同，不能把 9 月成長率當作全年增速。",
+            "en": "Non-electronic NODX rose 54.2%, with ship structures a major contributor; the agency omitted their growth rate because the prior-year base was exceptionally low. January–September NODX grew 27.6%, a cumulative period distinct from the single-month rate."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "出口為名目統計，無法單獨辨識價格、數量及產品組合貢獻；專用機械未逐項列出半導體設備，亦未對應到個別客戶採購案。",
+            "en": "These are nominal exports and do not isolate price, volume or product-mix effects. Specialized machinery is not broken down into semiconductor tools or individual customer purchases."
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "非石油本地出口年增率",
+            "en": "NODX year-on-year growth"
+          },
+          "current": 0.684,
+          "unit": "%",
+          "period": {
+            "zh": "2026-09",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 0.684,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        },
+        {
+          "name": {
+            "zh": "電子 NODX 年增率",
+            "en": "Electronic NODX year-on-year growth"
+          },
+          "current": 1.076,
+          "unit": "%",
+          "period": {
+            "zh": "2026-09",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 1.076,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        },
+        {
+          "name": {
+            "zh": "非電子 NODX 年增率",
+            "en": "Non-electronic NODX year-on-year growth"
+          },
+          "current": 0.542,
+          "unit": "%",
+          "period": {
+            "zh": "2026-09",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 0.542,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        },
+        {
+          "name": {
+            "zh": "對台 NODX 年增率",
+            "en": "NODX to Taiwan year-on-year growth"
+          },
+          "current": 0.969,
+          "unit": "%",
+          "period": {
+            "zh": "2026-09",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 0.969,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        },
+        {
+          "name": {
+            "zh": "對台專用機械出口年增率",
+            "en": "Specialized machinery exports to Taiwan growth"
+          },
+          "current": 1.156,
+          "unit": "%",
+          "period": {
+            "zh": "2026-09",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 1.156,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        },
+        {
+          "name": {
+            "zh": "對台 IC 出口年增率",
+            "en": "IC exports to Taiwan growth"
+          },
+          "current": 0.362,
+          "unit": "%",
+          "period": {
+            "zh": "2026-09",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 0.362,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        },
+        {
+          "name": {
+            "zh": "前九月 NODX 累計年增率",
+            "en": "Jan–Sep NODX cumulative year-on-year growth"
+          },
+          "current": 0.276,
+          "unit": "%",
+          "period": {
+            "zh": "2026-01 至 2026-09",
+            "en": "January–September 2026"
+          },
+          "owner": {
+            "zh": "新加坡企業發展局",
+            "en": "Enterprise Singapore"
+          },
+          "sourceUrl": "https://www.enterprisesg.gov.sg/-/media/esg/files/media-centre/media-releases/2026/october/mr04626_monthly-trade-report---sep-26.pdf",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "reportedRate": 0.276,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "此為已公布年增率，未引用同項目的前一年名目金額；不由四捨五入比率反推基數。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密電源與量測控制供應商而言，對台專用機械及 IC 出口提供跨境設備與製造活動的總體線索。值得核對的是機械子分類、價格與實體出貨量，以及客戶驗收時點；名目出口增幅與船體低基期不能直接轉成設備訂單判斷。",
+        "en": "For precision-power and measurement/control suppliers, machinery and IC exports to Taiwan provide aggregate evidence of cross-border manufacturing activity. Questions concern machinery subcategories, prices, physical shipments and customer acceptance timing; nominal growth and ship-structure base effects cannot establish equipment orders."
+      },
+      "pick": true
+    },
+    {
+      "id": 4,
+      "topic": "foxconn-behind-meter-storage",
+      "category": "taiwan",
+      "depth": "standard",
+      "title": {
+        "zh": "鴻海等業者簽表後儲能協議，規劃 306 kWh 電池櫃與 2027 年供貨",
+        "en": "Foxconn-led storage partnership plans a 306 kWh cabinet and supply in 2027"
+      },
+      "summary": {
+        "zh": "鴻海與台灣儲能團隊 10 月 16 日在 Energy Taiwan 展期宣布簽署合作協議，規劃單櫃 306 kWh 的國產化表後儲能電池系統。團隊目標於 2027 年上半年完成認證及正式供貨，2027 年累計建置 100 MWh；兩項時間與規模均為目標。",
+        "en": "Foxconn and Taiwanese storage partners announced an agreement during Energy Taiwan on October 16 for a planned 306 kWh domestically developed behind-the-meter battery cabinet. They target certification and supply in the first half of 2027, and 100 MWh of cumulative deployment in 2027; both remain targets."
+      },
+      "metric": "306 kWh",
+      "metricLabel": {
+        "zh": "規劃單櫃儲存能量",
+        "en": "Planned energy per cabinet"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "鴻海 · 儲能合作、規格與時程",
+            "en": "Foxconn · storage partnership, specifications and timing"
+          },
+          "url": "https://www.honhai.com.tw/zh-tw/press-center/events/csr-events/2125",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 電芯至 PCS／EMS 整合",
+            "en": "CNA · cells through PCS/EMS integration"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610160107.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "盛達集團 · 盛齊與晟瑞的業務分工",
+            "en": "Billion group · Billion Watts and NoonSpare roles"
+          },
+          "url": "https://www.billion.com/zh-tw/About-Billion",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Energy Taiwan · 官方日期與場館",
+            "en": "Energy Taiwan · official dates and venue"
+          },
+          "url": "https://www.energytaiwan.com.tw/en/menu/B3D88B5F64327C47D0636733C6861689/info.html",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展會場地：台灣台北南港展覽館一館；Energy Taiwan 展期為 10/14 至 10/16。新聞稿未另列簽約儀式室別。",
+        "en": "Exhibition venue: Taipei Nangang Exhibition Center Hall 1, Taiwan, October 14–16. The release does not specify a separate signing room."
+      },
+      "market": {
+        "eventDate": "2026-10-16",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電池與儲能；PCS 電力轉換；EMS；工廠供電",
+          "en": "Batteries and storage; PCS power conversion; EMS; factory power"
+        },
+        "chain": {
+          "zh": "電芯與零組件至電源轉換、系統整合及終端工廠",
+          "en": "Cells and components to power conversion, integration and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "簽署開發、生產、認證及推廣協議，未公布投資總額。",
+            "en": "The agreement covers development, production, certification and marketing, without total investment."
+          },
+          "demand": {
+            "zh": "2027 年累計 100 MWh 為團隊建置目標，未披露已簽採購合約。",
+            "en": "Cumulative 2027 deployment of 100 MWh is a team target; signed purchase contracts were not disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資金額。",
+            "en": "No new foreign direct investment amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "表後系統從電芯、電池櫃連接到 PCS、EMS 與工商用戶現場。",
+            "en": "The behind-the-meter system links cells and cabinets with PCS, EMS and commercial/industrial sites."
+          },
+          "timing": {
+            "zh": "10/16 宣布協議；2026 年底開發及 2027 上半年供貨皆為公司規劃。",
+            "en": "The agreement was announced October 16; development by end-2026 and supply in H1 2027 are company plans."
+          },
+          "unknowns": {
+            "zh": "尚未公布完成認證、正式供貨或已驗收建置實績；306 kWh 是儲存能量，公告未列 PCS 額定輸出功率，不能換作 306 kW。",
+            "en": "Completed certification, commercial supply and accepted installations have not been disclosed. The 306 kWh figure is stored energy, not PCS output power, which was not stated."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電芯到終端的供應鏈",
+            "en": "Supply chain from cells to end users"
+          },
+          "text": {
+            "zh": "鴻海提供國產電芯，合作團隊包含利佳興業、盛達旗下盛齊綠能與晟瑞科技等業者，整合代工、工程與客戶服務。公司表示可供應單一電池直流櫃，或整合電力轉換系統 PCS 與能源管理系統 EMS，對應工商業儲能及需量管理。",
+            "en": "Foxconn supplies domestic cells, while partners including Rich Electric, Billion Watts and NoonSpare combine manufacturing, engineering and customer service. The company describes standalone DC battery cabinets or systems integrated with a power-conversion system (PCS) and energy-management system (EMS), for commercial/industrial storage and demand management."
+          }
+        },
+        {
+          "label": {
+            "zh": "規格與目標分開讀",
+            "en": "Specifications and targets"
+          },
+          "text": {
+            "zh": "306 kWh 為單櫃規劃能量，100 MWh 為 2027 年累計市場建置目標，範圍與期間均不同。團隊預計 2026 年完成直流櫃開發，再於 2027 上半年完成認證與供貨，未提供可比較的既有安裝基數。",
+            "en": "The 306 kWh figure describes planned energy per cabinet; 100 MWh describes cumulative market deployment targeted for 2027, a different scope and period. Development is planned in 2026, followed by certification and supply in H1 2027, without a comparable installed base."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚未公布完成認證、正式供貨或已驗收建置實績；306 kWh 是儲存能量，公告未列 PCS 額定輸出功率，不能換作 306 kW。",
+            "en": "Completed certification, commercial supply and accepted installations have not been disclosed. The 306 kWh figure is stored energy, not PCS output power, which was not stated."
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "單櫃規劃儲存能量",
+            "en": "Planned stored energy per cabinet"
+          },
+          "current": 306,
+          "unit": "kWh",
+          "period": {
+            "zh": "2026-10-16 公布的規劃規格",
+            "en": "Planned specification announced October 16, 2026"
+          },
+          "owner": {
+            "zh": "鴻海及合作團隊",
+            "en": "Foxconn and partners"
+          },
+          "sourceUrl": "https://www.honhai.com.tw/zh-tw/press-center/events/csr-events/2125",
+          "kind": "產品規格,規劃值",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        },
+        {
+          "name": {
+            "zh": "累計市場建置目標",
+            "en": "Cumulative market-deployment target"
+          },
+          "current": 100,
+          "unit": "MWh",
+          "period": {
+            "zh": "2027 年累計",
+            "en": "Cumulative 2027"
+          },
+          "owner": {
+            "zh": "鴻海及合作團隊",
+            "en": "Foxconn and partners"
+          },
+          "sourceUrl": "https://www.honhai.com.tw/zh-tw/press-center/events/csr-events/2125",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電力轉換與量測控制供應商而言，相關客戶包括電池系統整合商與工商用戶，介面涉及 PCS、EMS 及現場驗收。值得核對額定功率、通訊規格與認證要求；306 kWh 與 100 MWh 分別是規格及目標，不能據以推算已下單的轉換器數量。",
+        "en": "For power-conversion and measurement/control suppliers, relevant customers include battery-system integrators and industrial users, with PCS/EMS interfaces and site acceptance in scope. Questions concern rated power, communications and certification; the energy specification and deployment target do not establish ordered converter quantities."
+      },
+      "pick": false
+    },
+    {
+      "id": 5,
+      "topic": "taipower-offshore-phase2",
+      "category": "taiwan",
+      "depth": "standard",
+      "title": {
+        "zh": "經部稱台電離岸二期累計完成 4 部風機安裝，付款與聯貸爭議仍待處理",
+        "en": "MOEA reports four turbines installed at Taipower Phase II as payment and loan disputes continue"
+      },
+      "summary": {
+        "zh": "經濟部 10 月 18 日表示，台電離岸二期首批三部風機已於 16 日安裝完成，累計完成四部。針對富崴與銀行團的聯貸爭議，經部稱台電監督付款的對象限分包廠商；安裝進度與最終清償安排是不同事項。",
+        "en": "Taiwan’s MOEA said on October 18 that a batch of three turbines was installed at Taipower’s offshore Phase II project on October 16, bringing the cumulative total to four. MOEA said supervised payments cover subcontractors amid Fuwei’s syndicated-loan dispute; installation progress is separate from a final repayment arrangement."
+      },
+      "metric": "4",
+      "metricLabel": {
+        "zh": "經部所述累計安裝數",
+        "en": "Cumulative installations reported by MOEA"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經濟部工程與付款說明",
+            "en": "CNA · MOEA progress and payment statement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610180135.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "專案：台灣台電離岸二期風場；本次說明未列具體施工海域座標。",
+        "en": "Project: Taipower offshore Phase II, Taiwan. This statement does not provide precise worksite coordinates."
+      },
+      "market": {
+        "eventDate": "2026-10-18",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "風電設備；電力工程；專案融資",
+          "en": "Wind equipment; power engineering; project finance"
+        },
+        "chain": {
+          "zh": "發電設備與工程至併網供電",
+          "en": "Generation equipment and engineering to grid power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "政府說明工程與監督付款範圍，未公布新的投資或最終清償金額。",
+            "en": "The government described works and supervised-payment scope, without a new investment or final repayment amount."
+          },
+          "demand": {
+            "zh": "未公布新增訂單或出貨量。",
+            "en": "No incremental orders or shipments disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資金額。",
+            "en": "No new foreign direct investment amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工程安裝、系統併網與融資付款分屬不同專案節點。",
+            "en": "Installation, grid connection and financing payments are distinct project milestones."
+          },
+          "timing": {
+            "zh": "10/18 的新進展是經部公開說明；其中三部風機安裝日期為 10/16。",
+            "en": "The new October 18 development is MOEA’s public statement; the three-turbine installation date is October 16."
+          },
+          "unknowns": {
+            "zh": "工程數字依中央社轉述經部聲明，未直接取得現場驗收或原始契約；併網日期、最終責任及銀行清償安排尚未確認。",
+            "en": "Installation figures rely on CNA’s report of MOEA’s statement, without direct site-acceptance records or contracts. Grid-connection timing, final liability and bank-repayment arrangements remain unconfirmed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工程與供應鏈",
+            "en": "Engineering and supply chain"
+          },
+          "text": {
+            "zh": "經部表示，風機安裝由富崴主動請求台電接管，後續依氣候及工安條件推進。完成風機安裝並不等同已完成電氣測試、併網或商轉；公告未提供這些後續節點日期。",
+            "en": "MOEA said Fuwei requested Taipower take over turbine installation, with further work subject to weather and safety conditions. Turbine installation is distinct from electrical testing, grid connection and commercial operation, whose dates were not provided."
+          }
+        },
+        {
+          "label": {
+            "zh": "付款爭議的證據範圍",
+            "en": "Evidence on payment disputes"
+          },
+          "text": {
+            "zh": "經部稱台電在富崴與銀行團聯貸爭議中為第三人，並與銀行團溝通。這是主管機關對付款機制的說明，不能代替契約、銀行協議或法院對權利義務的認定。",
+            "en": "MOEA described Taipower as a third party to Fuwei’s loan dispute and said it was communicating with the lenders. This describes the ministry’s position on payment mechanisms rather than contractual, lender or court findings on rights and obligations."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "工程數字依中央社轉述經部聲明，未直接取得現場驗收或原始契約；併網日期、最終責任及銀行清償安排尚未確認。",
+            "en": "Installation figures rely on CNA’s report of MOEA’s statement, without direct site-acceptance records or contracts. Grid-connection timing, final liability and bank-repayment arrangements remain unconfirmed."
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "本批完成安裝風機",
+            "en": "Turbines installed in the reported batch"
+          },
+          "current": 3,
+          "unit": "turbines",
+          "period": {
+            "zh": "2026-10-16 完成安裝",
+            "en": "Installed October 16, 2026"
+          },
+          "owner": {
+            "zh": "經濟部，由中央社轉述",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610180135.aspx",
+          "kind": "官方陳述,媒體轉述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        },
+        {
+          "name": {
+            "zh": "累計完成安裝風機",
+            "en": "Cumulative installed turbines"
+          },
+          "current": 4,
+          "unit": "turbines",
+          "period": {
+            "zh": "截至 2026-10-18 聲明",
+            "en": "As stated October 18, 2026"
+          },
+          "owner": {
+            "zh": "經濟部，由中央社轉述",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610180135.aspx",
+          "kind": "官方陳述,媒體轉述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未公布同口徑可比基期，不反推基數。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源與量測控制設備業者而言，相關節點包括安裝後電氣測試、控制系統驗證與併網驗收。值得確認的是驗收依據及付款機制如何適用於設備供應與分包；目前缺少原始契約與最終清償安排，不能由安裝數推定回款。",
+        "en": "For industrial-power and measurement/control suppliers, relevant stages include post-installation electrical tests, control validation and grid acceptance. Questions concern acceptance criteria and payment mechanisms for equipment and subcontractors; installation counts do not establish cash collection without contracts and final repayment arrangements."
+      },
+      "pick": false
+    },
+    {
+      "id": 6,
+      "topic": "taiwan-energy-supply-procurement",
+      "category": "taiwan",
+      "depth": "standard",
+      "title": {
+        "zh": "經濟部稱年底油氣供應無虞，中油已提前展開 2027 年首季採購",
+        "en": "MOEA says year-end fuel supply is secured and CPC has begun Q1 2027 procurement"
+      },
+      "summary": {
+        "zh": "經濟部 10 月 18 日表示，中油持續安排替代油氣來源與船期，並已提前展開 2027 年第一季採購，官方評估供應可維持至今年底。這是主管機關對燃料調度的最新說明，未公布各貨源、船次、庫存或採購價格明細。",
+        "en": "Taiwan’s MOEA said on October 18 that CPC was arranging alternative fuel sources and shipping schedules and had begun procurement for Q1 2027, with supply assessed as secured through year-end. This is an official assessment of fuel logistics, without detailed sources, cargoes, inventories or purchase prices."
+      },
+      "metric": "Fuel logistics",
+      "metricLabel": {
+        "zh": "官方供應調度說明",
+        "en": "Official fuel-logistics statement"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部 · 10/18 能源調度說明",
+            "en": "MOEA · October 18 fuel-logistics statement"
+          },
+          "url": "https://www.moea.gov.tw/Mns/Populace/news/News.aspx?kind=9&menu_id=22333&news_id=124288",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 油氣供應及次季採購",
+            "en": "CNA · fuel supply and next-quarter procurement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610180143.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟部 · 6/18 既有電源規劃背景",
+            "en": "MOEA · June 18 power-plan background"
+          },
+          "url": "https://www.moea.gov.tw/Mns/populace/news/EpaperDetail.aspx?volume=20260618",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-18",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "燃料調度；電力供應；半導體與資料中心用電",
+          "en": "Fuel logistics; power supply; semiconductor and data-center electricity"
+        },
+        "chain": {
+          "zh": "燃料與發電供電至資料中心及終端工廠",
+          "en": "Fuel and generation supply to data centers and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "聲明重申既有供電規劃與預算主張，未公布新的發電專案投資額。",
+            "en": "The statement reiterates existing power plans and a budget position, without a new generation-project investment amount."
+          },
+          "demand": {
+            "zh": "官方將長期用電規劃連結半導體與 AI 資料中心，但未列客戶新增採購量。",
+            "en": "Officials link long-term power planning to semiconductors and AI data centers without customer-specific incremental purchases."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資金額。",
+            "en": "No new foreign direct investment amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "燃料供應與運輸是發電端條件，與晶圓廠、資料中心及工廠供電相連。",
+            "en": "Fuel availability and transport are generation-side conditions relevant to fabs, data centers and factories."
+          },
+          "timing": {
+            "zh": "10/18 公布對年底供應及 2027 第一季採購的說明，既有十年電源規劃另列有日期背景。",
+            "en": "The October 18 statement concerns year-end supply and Q1 2027 procurement; the existing ten-year generation plan is separately dated background."
+          },
+          "unknowns": {
+            "zh": "供應充足屬經濟部評估；未取得逐船採購與到港資料，也未公布可由本聲明驗證的用戶停電率或最終供電成本。",
+            "en": "Supply sufficiency is MOEA’s assessment. Cargo-level procurement and arrival records, user outage rates and final power costs were not provided for independent verification."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供電與產業背景",
+            "en": "Power supply and industry context"
+          },
+          "text": {
+            "zh": "經部說明中油尋找替代油氣來源並維持儲備，台電則負責發電與供電調度。這份聲明沒有宣布新的工業電價，也沒有對單一工廠、園區或資料中心保證特定供電量。",
+            "en": "MOEA describes CPC sourcing alternatives and maintaining reserves, with Taipower handling generation and electricity dispatch. The statement does not announce a new industrial tariff or guarantee a specific volume to any factory, park or data center."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "供應充足屬經濟部評估；未取得逐船採購與到港資料，也未公布可由本聲明驗證的用戶停電率或最終供電成本。",
+            "en": "Supply sufficiency is MOEA’s assessment. Cargo-level procurement and arrival records, user outage rates and final power costs were not provided for independent verification."
+          }
+        }
+      ],
+      "metrics": [],
+      "ceoView": {
+        "zh": "對工業與資料中心電源、量測控制設備業者而言，燃料調度是客戶供電環境的背景。值得核對實際場址的電網接入、供電品質與驗收條件；官方全國供應評估尚不足以判斷特定場址的可靠度或設備採購需求。",
+        "en": "For industrial/data-center-power and measurement/control suppliers, fuel logistics provide context for customer power conditions. Questions concern site-specific grid access, power quality and acceptance criteria; a national supply assessment does not establish a particular site’s reliability or equipment demand."
+      },
+      "pick": false
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "協定簽署後，哪些條件仍未等同生效？",
+        "en": "Which conditions distinguish signature from effective preferences?"
+      },
+      "text": {
+        "zh": "對照簽署公告與原產地、技術性貿易障礙章節，可釐清工業設備交易的規則範圍與未定日期。",
+        "en": "Compare the signing notice with origin and technical-barrier provisions to establish the scope of equipment-trade rules and unresolved timing."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "企業價值、股權價值與 50% 對價有何範圍差異？",
+        "en": "How do enterprise value, equity value and a 50% price differ?"
+      },
+      "text": {
+        "zh": "三個數字均來自同份協議，但分母不同；同時閱讀核准條件與 2027 年交割日，可避免把擬議收購寫成已完成投資。",
+        "en": "All three figures come from the agreement but cover different scopes. Approval conditions and the 2027 closing date distinguish a proposed acquisition from completed investment."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "新加坡出口增幅中，哪些是電子需求、哪些涉及基期？",
+        "en": "Which export changes concern electronics and which involve base effects?"
+      },
+      "text": {
+        "zh": "官方報告分列電子、非電子與對台產品，並說明船體低基期，能避免把整體增幅全部歸給單一技術。",
+        "en": "The report separates electronics, non-electronics and Taiwan-bound products and explains ship-structure base effects, preventing a single-technology explanation of the aggregate rate."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "既有電源規劃，2026 年 6 月已公布",
+        "en": "Power-plan background first published in June 2026"
+      },
+      "text": {
+        "zh": "經濟部 6 月 18 日電力供需報告說明，2026 至 2035 年燃氣機組累計新增規劃約 26 GW；10 月 18 日聲明再次提及。這是既有十年規劃，不能視為 10 月 18 日新增投資或已可供電容量，原始背景來源列於能源調度新聞下。",
+        "en": "MOEA’s June 18 power-supply report described about 26 GW of planned gas-generation additions over 2026–2035, reiterated on October 18. This existing ten-year plan is distinct from same-day incremental investment or energized capacity; its original background source is linked under the fuel-logistics story."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "產業參考備忘錄",
+      "en": "Industry reference memo"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價、法說預告與舊案重刊",
+        "en": "Share prices, earnings-date previews and recycled projects"
+      },
+      "text": {
+        "zh": "僅反映股價變動、預告法說行程，或更新文章日期但未增加開工、認證及驗收資料的建廠回顧，降低權重。",
+        "en": "Share-price reactions, earnings-calendar previews and project recaps with a new article date but no new construction, qualification or acceptance facts receive lower priority."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "鴻海汽車設備交易仍待核准與交割，日圓估值的範圍不同；儲能櫃為規劃規格，100 MWh 為公司目標。新加坡數據為名目出口年增率，含船體低基期，沒有用比率反推金額。EFTA 簽署公告未確立生效日與逐項產品待遇，章節說明為 7 月版本。離岸二期進度依媒體轉述經部聲明，未取得契約或現場驗收紀錄，安裝不等同併網，付款責任與清償尚無最終認定。年底油氣供應充足為官方評估，未取得逐船資料；26 GW 電源規劃為 6 月既有背景。",
+    "en": "Foxconn’s automotive transaction remains conditional; yen valuations have different scopes. The battery cabinet is a planned specification and 100 MWh a company target. Singapore figures are nominal export growth rates with ship-structure base effects, without reverse-calculated levels. EFTA’s signing notices do not establish effective dates or product treatment; the factsheet is the July version. Offshore progress relies on media reports of MOEA, without contracts or site-acceptance records: installation is distinct from grid connection, and final liability/repayment remain unresolved. Year-end fuel sufficiency is an official assessment without cargo records; the 26 GW power plan is June background."
+  }
+}

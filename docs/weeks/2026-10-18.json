@@ -1,21 +1,39 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-18T00:08:06.351081+00:00",
+  "generatedAt": "2026-10-19T00:05:07.006Z",
   "throughline": {
-    "zh": "台灣供應商的日本設備服務與泰國材料用地進展，連同馬來西亞晶片發表及越南工廠設備合約，呈現設計、製造服務與終端建置各自不同的落地階段。",
-    "en": "Taiwanese firms’ Japanese equipment-service and Thai materials-site plans, Malaysian chip launches and a Vietnamese factory-equipment contract show distinct implementation stages across design, manufacturing services and end-use facilities."
+    "zh": "已刊兩天的重點涵蓋越南貿易協定、台灣在日本的晶圓與設備布局、汽車設備股權交易，以及東南亞電子外銷與台灣能源工程。",
+    "en": "The two published days cover Vietnam’s trade agreement, Taiwanese wafer/equipment projects in Japan, an automotive-equipment equity transaction, Southeast Asian electronics exports and Taiwanese energy projects."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "taiwan",
+      "category": "global",
       "title": {
-        "zh": "熊本晶圓計畫核准與台灣設備服務收購授權",
-        "en": "Kumamoto fab approval and Taiwanese equipment-service acquisition authorization"
+        "zh": "越南與 EFTA 簽署協定，設備與投資規則待對照生效條件",
+        "en": "Vietnam–EFTA signature sets out equipment and investment rules, subject to effective terms"
       },
       "summary": {
-        "zh": "日本 10/16 核准 JASM 二廠變更計畫，台灣光罩同日改由母公司擬收購熊本 TCK。前者仍在建置，後者尚未確認交割，分別對應製程建置與在地設備服務。",
-        "en": "Japan approved JASM’s revised second-fab plan on October 16, while Taiwan Mask changed the proposed TCK buyer to the parent. Fab construction and unconfirmed acquisition closing represent separate process-build and local-service milestones."
+        "zh": "越南與 EFTA 四國 10/18 在河內簽署協定，涵蓋貨品、服務、投資、原產地及政府採購。工業設備與電機是既有貿易項目，生效日期和逐項產品待遇尚不能僅由簽署公告認定。",
+        "en": "Vietnam and the four EFTA states signed in Hanoi on October 18, covering goods, services, investment, origin and procurement. Machinery and electrical goods are established trade categories, while effective dates and product treatment cannot be established from signature alone."
+      },
+      "references": [
+        {
+          "date": "2026-10-19",
+          "storyId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "title": {
+        "zh": "熊本晶圓計畫核准與在地設備服務收購授權",
+        "en": "Kumamoto fab approval and local equipment-service acquisition authorization"
+      },
+      "summary": {
+        "zh": "據專業報導，日本 10/16 核准 JASM 二廠首階段 3 奈米計畫，台灣光罩同日改由母公司擬收購 TCK。晶圓產能仍為建置規劃，設備服務收購尚未確認交割，原始核准文件與公告取得範圍有限。",
+        "en": "Professional reports describe Japan’s October 16 approval of JASM’s initial 3nm phase, while Taiwan Mask changed the proposed TCK buyer to the parent. Wafer capacity remains planned and the acquisition has no confirmed closing, with limited direct access to the underlying approval and filing."
       },
       "references": [
         {
@@ -29,60 +47,46 @@
       ]
     },
     {
-      "id": 2,
-      "category": "tech",
-      "title": {
-        "zh": "馬來西亞六項晶片創新涵蓋儲存、工業控制與電源",
-        "en": "Malaysia’s six innovations span storage, industrial control and power"
-      },
-      "summary": {
-        "zh": "10/16 發表的六項創新包括 AI 處理器、儲存、FPGA、車用與衛星電源控制等。部長估計 3 億令吉合計銷售潛力但未列期間，客戶認證與量產數量仍待公布。",
-        "en": "The October 16 launches include AI processors, storage, FPGA and automotive/satellite power control. The minister’s RM300 million combined sales potential has no stated period, with customer qualification and production volumes undisclosed."
-      },
-      "references": [
-        {
-          "date": "2026-10-18",
-          "storyId": 3
-        }
-      ]
-    },
-    {
       "id": 3,
-      "category": "global",
+      "category": "taiwan",
       "title": {
-        "zh": "越南軋鋼產線核心設備合約落定",
-        "en": "Vietnamese rolling line reaches core-equipment contract stage"
+        "zh": "鴻海擬取得三菱電機移動半數股權，合作涵蓋電動動力與控制",
+        "en": "Foxconn’s proposed half-stake in Mitsubishi Electric Mobility covers powertrains and control"
       },
       "summary": {
-        "zh": "VinMetal 與 Danieli 10/15 簽訂核心設備合約，專案位於河靜永安經濟區。逾 70 萬噸為單條產線年設計能力，交付、投產與客戶驗收時程尚未公布。",
-        "en": "VinMetal and Danieli signed the core-equipment contract on October 15 for Ha Tinh’s Vung Ang Economic Zone. Above 700,000 tonnes is one line’s annual design capacity; delivery, start-up and customer-acceptance schedules are undisclosed."
+        "zh": "10/16 協議將 50% 股權對價定為 1,150 億日圓，標的全部股權價值為 2,300 億日圓。預定 2027/10/1 交割，仍待核准及契約條件；公告未提供新增出貨或工廠產量。",
+        "en": "The October 16 agreement sets ¥115 billion for 50%, against total equity value of ¥230 billion. Closing is planned for October 1, 2027 subject to approvals and conditions, without incremental shipments or factory-output figures."
       },
       "references": [
         {
-          "date": "2026-10-18",
-          "storyId": 4
+          "date": "2026-10-19",
+          "storyId": 2
         }
       ]
     },
     {
       "id": 4,
-      "category": "global",
+      "category": "taiwan",
       "title": {
-        "zh": "泰國材料用地與柔佛智慧園區分處規劃階段",
-        "en": "Thai materials land and Johor smart campus remain planning-stage projects"
+        "zh": "台灣儲能合作、燃料調度與風電工程各有不同完成節點",
+        "en": "Taiwanese storage, fuel logistics and wind works have separate completion milestones"
       },
       "summary": {
-        "zh": "榮科 10/16 通過泰國子公司購地案，價款與廠址待定；同日報導 Genting 與華為規劃古來 430 英畝智慧園區。兩案均未提供可核實的新增量產、租戶或實付投資數字。",
-        "en": "LCY Technology approved Thai subsidiary land plans on October 16 with site and price pending; reports the same day described Genting and Huawei’s 430-acre Kulai campus plan. Neither provides verified new production, tenant or paid-investment figures."
+        "zh": "鴻海團隊 10/16 公布 306 kWh 表後儲能櫃規劃與 2027 上半年供貨目標，經部 10/18 稱中油已展開次年首季採購。離岸二期累計四部完成安裝為經部轉述，尚未等同併網，聯貸付款爭議也未有最終清償安排。",
+        "en": "Foxconn’s partners announced a planned 306 kWh cabinet and H1 2027 supply target on October 16; MOEA said October 18 that CPC began next-quarter fuel procurement. Four installed offshore turbines are a reported official figure, distinct from grid connection or a final loan-repayment settlement."
       },
       "references": [
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-19",
           "storyId": 5
         },
         {
-          "date": "2026-10-18",
-          "storyId": 7
+          "date": "2026-10-19",
+          "storyId": 6
         }
       ]
     },
@@ -90,17 +94,21 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "越南提出 2027 成長目標與 2026 全年貿易估計",
-        "en": "Vietnam sets 2027 targets and a 2026 full-year trade estimate"
+        "zh": "新加坡電子外銷與馬來西亞晶片發表分屬出貨及開發資料",
+        "en": "Singapore electronics exports and Malaysian chip launches describe shipments and development"
       },
       "summary": {
-        "zh": "越南政府 10/17 向國會提出次年 GDP 至少成長 10%、CPI 約 4.5% 及生產力成長 8.6% 目標。2026 年商品進出口估計 1.11 兆美元，目標與估計皆須與已完成實績分開閱讀。",
-        "en": "The government presented next-year targets to parliament on October 17: at least 10% GDP growth, CPI around 4.5% and 8.6% productivity growth. Estimated 2026 merchandise trade of US$1.11 trillion and the targets must be distinguished from completed results."
+        "zh": "新加坡 10/16 公布 9 月 NODX 年增 68.4%、對台年增 96.9%，總體增幅包含船體低基期因素。馬來西亞同日發表六項本土晶片創新，3 億令吉銷售潛力無明確期間，發表場館記載亦有差異。",
+        "en": "Singapore reported September NODX growth of 68.4% and Taiwan-bound growth of 96.9% on October 16, with ship-structure base effects in the aggregate. Malaysia launched six domestic innovations the same day; RM300 million sales potential lacks a period, and launch-venue reports differ."
       },
       "references": [
         {
+          "date": "2026-10-19",
+          "storyId": 3
+        },
+        {
           "date": "2026-10-18",
-          "storyId": 6
+          "storyId": 3
         }
       ]
     }

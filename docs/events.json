@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -77,6 +77,32 @@
           "en": "Sidec · official event schedule"
         },
         "url": "https://www.sidec.com.my/aisemselangor/"
+      }
+    },
+    {
+      "id": "energy-taiwan-2026",
+      "start": "2026-10-14",
+      "end": "2026-10-16",
+      "type": "systems",
+      "region": "tw",
+      "name": {
+        "zh": "Energy Taiwan／Net-Zero Taiwan 2026",
+        "en": "Energy Taiwan / Net-Zero Taiwan 2026"
+      },
+      "place": {
+        "zh": "台灣台北 · 南港展覽館一館",
+        "en": "Taipei Nangang Exhibition Center Hall 1, Taiwan"
+      },
+      "focus": {
+        "zh": "電源、儲能、能源管理與工業用電；展覽 10/14 至 10/16，依主辦官方資料為一館。",
+        "en": "Power, storage, energy management and industrial electricity; October 14–16 in Hall 1, according to the organizer."
+      },
+      "source": {
+        "name": {
+          "zh": "Energy Taiwan · 官方活動資料",
+          "en": "Energy Taiwan · official fact sheet"
+        },
+        "url": "https://www.energytaiwan.com.tw/en/menu/B3D88B5F64327C47D0636733C6861689/info.html"
       }
     },
     {
