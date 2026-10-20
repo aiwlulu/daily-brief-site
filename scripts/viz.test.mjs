@@ -21,6 +21,9 @@ test('physical capacity and area units have bilingual display text',()=>{
  assert.equal(formatMetric({...metric,unit:'GPUs',current:4328},'en'),'4,328 GPUs');
  assert.equal(formatMetric({...metric,unit:'racks',current:100},'zh'),'100 櫃');
  assert.equal(formatMetric({...metric,unit:'racks',current:100},'en'),'100 racks');
+ assert.equal(formatMetric({...metric,unit:'USD billion',current:.086},'en'),'US$0.086B');
+ assert.equal(formatMetric({...metric,unit:'USD billion',current:.086},'zh'),'0.86 億美元');
+ assert.equal(formatMetric({...metric,unit:'USD billion',current:.000086},'en'),'US$0.000086B');
  assert.equal(formatMetric({...metric,unit:'JPY billion',current:115},'zh'),'1,150 億日圓');
  assert.equal(formatMetric({...metric,unit:'JPY billion',current:115},'en'),'¥115B');
 });

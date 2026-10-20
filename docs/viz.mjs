@@ -11,7 +11,7 @@ export function formatMetric(m,lang){
  const v=m.current,zh=lang==='zh';
  switch(m.unit){
   case 'NTD billion':return zh?(v>=1000?'新台幣 '+num(v/1000,lang,3)+' 兆元':'新台幣 '+num(v*10,lang,1)+' 億元'):'NT$'+num(v,lang)+'B';
-  case 'USD billion':return zh?num(v*10,lang,1)+' 億美元':'US$'+num(v,lang)+'B';
+  case 'USD billion':return zh?num(v*10,lang,5)+' 億美元':'US$'+num(v,lang,6)+'B';
   case 'MYR million':return zh?num(v/100,lang,2)+' 億令吉':'RM'+num(v,lang)+'M';
   case 'JPY billion':return zh?num(v*10,lang,1)+' 億日圓':'¥'+num(v,lang)+'B';
   case '%':return pct(v,lang);
