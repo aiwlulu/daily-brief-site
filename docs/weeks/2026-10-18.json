@@ -1,39 +1,47 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-19T00:05:07.006Z",
+  "generatedAt": "2026-10-20T00:11:01.105Z",
   "throughline": {
-    "zh": "已刊兩天的重點涵蓋越南貿易協定、台灣在日本的晶圓與設備布局、汽車設備股權交易，以及東南亞電子外銷與台灣能源工程。",
-    "en": "The two published days cover Vietnam’s trade agreement, Taiwanese wafer/equipment projects in Japan, an automotive-equipment equity transaction, Southeast Asian electronics exports and Taiwanese energy projects."
+    "zh": "10/18 至 10/20 已刊重點串連 AI 機房與伺服器、晶圓及先進封裝、PCB 設備人才、區域貿易與汽車設備交易，各自保留規劃及生效條件。",
+    "en": "Published coverage for October 18–20 connects AI facilities and servers, wafers and advanced packaging, PCB equipment and talent, regional trade and an automotive-equipment transaction, retaining plan and effectiveness conditions."
   },
   "highlights": [
     {
       "id": 1,
       "category": "global",
       "title": {
-        "zh": "越南與 EFTA 簽署協定，設備與投資規則待對照生效條件",
-        "en": "Vietnam–EFTA signature sets out equipment and investment rules, subject to effective terms"
+        "zh": "AI 機房與伺服器建置：營運、長約與投資分層披露",
+        "en": "AI facilities and servers: separate operating, contract and investment disclosures"
       },
       "summary": {
-        "zh": "越南與 EFTA 四國 10/18 在河內簽署協定，涵蓋貨品、服務、投資、原產地及政府採購。工業設備與電機是既有貿易項目，生效日期和逐項產品待遇尚不能僅由簽署公告認定。",
-        "en": "Vietnam and the four EFTA states signed in Hanoi on October 18, covering goods, services, investment, origin and procurement. Machinery and electrical goods are established trade categories, while effective dates and product treatment cannot be established from signature alone."
+        "zh": "Bitdeer 10/19 新公布 9 月集團 GPU 利用率 95%，馬來西亞 A201 尚待 2027 年分階段交付；Aolani 同日公布最高 500 MW 非約束性意向書。台灣神雲約 126.2 億元新廠及擴線計畫於 10/19 公開，三案未披露彼此供應關係，規劃容量不能等同上線。",
+        "en": "Bitdeer’s October 19 update reports 95% September group GPU utilization, with Malaysia A201 awaiting staged delivery in 2027; Aolani separately announces non-binding LOIs for up to 500 MW. MiTAC discloses a roughly NT$12.62 billion Taiwan manufacturing plan; no supply relationship among the three is stated, and planned capacity is not live capacity."
       },
       "references": [
         {
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "storyId": 1
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 2
         }
       ]
     },
     {
       "id": 2,
-      "category": "taiwan",
+      "category": "tech",
       "title": {
-        "zh": "熊本晶圓計畫核准與在地設備服務收購授權",
-        "en": "Kumamoto fab approval and local equipment-service acquisition authorization"
+        "zh": "晶圓、設備服務與先進封裝各有核准、投資及驗證節點",
+        "en": "Wafers, equipment services and packaging have separate approval, investment and validation milestones"
       },
       "summary": {
-        "zh": "據專業報導，日本 10/16 核准 JASM 二廠首階段 3 奈米計畫，台灣光罩同日改由母公司擬收購 TCK。晶圓產能仍為建置規劃，設備服務收購尚未確認交割，原始核准文件與公告取得範圍有限。",
-        "en": "Professional reports describe Japan’s October 16 approval of JASM’s initial 3nm phase, while Taiwan Mask changed the proposed TCK buyer to the parent. Wafer capacity remains planned and the acquisition has no confirmed closing, with limited direct access to the underlying approval and filing."
+        "zh": "據專業報導，JASM 10/16 獲准變更熊本二廠計畫，台灣光罩同日授權擬收購 TCK，原始文件取得仍有限。10/19 宸鴻提出兩年 60 億元 TGV 規劃，力成揭露區間合計約 7.39 億元封裝設備交易；規劃、授權及採購均未等同量產或交割完成。",
+        "en": "Professional reports describe JASM’s October 16 revised-plan approval and Taiwan Mask’s TCK acquisition authorization, with limited direct access to originals. On October 19, TPK outlines a two-year NT$6 billion TGV plan and PTI reports about NT$739 million in period equipment purchases; plans, authorization and purchases are distinct from production or closing."
       },
       "references": [
         {
@@ -43,72 +51,76 @@
         {
           "date": "2026-10-18",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 5
         }
       ]
     },
     {
       "id": 3,
-      "category": "taiwan",
+      "category": "global",
       "title": {
-        "zh": "鴻海擬取得三菱電機移動半數股權，合作涵蓋電動動力與控制",
-        "en": "Foxconn’s proposed half-stake in Mitsubishi Electric Mobility covers powertrains and control"
+        "zh": "PCB 泰國設備交易與台灣產學合作分別公布",
+        "en": "PCB equipment purchases in Thailand and academic cooperation in Taiwan"
       },
       "summary": {
-        "zh": "10/16 協議將 50% 股權對價定為 1,150 億日圓，標的全部股權價值為 2,300 億日圓。預定 2027/10/1 交割，仍待核准及契約條件；公告未提供新增出貨或工廠產量。",
-        "en": "The October 16 agreement sets ¥115 billion for 50%, against total equity value of ¥230 billion. Closing is planned for October 1, 2027 subject to approvals and conditions, without incremental shipments or factory-output figures."
+        "zh": "臻鼎 10/19 揭露泰國子公司近一年設備交易約 10.86 億元，金額不是單日新增投資，原始公告依轉載核對。同日中央大學與臻鼎、台光、大量、尖點簽約，四家合計 6,000 萬元支持教學及研發，未公布新增產能或招生規模。",
+        "en": "Zhen Ding’s October 19 disclosure covers about NT$1.086 billion of Thai equipment transactions over nearly a year, not one day of investment, checked through a filing reproduction. NCU separately signs a combined NT$60 million teaching and research partnership with four PCB firms; new capacity and enrollment are unspecified."
       },
       "references": [
         {
-          "date": "2026-10-19",
-          "storyId": 2
+          "date": "2026-10-20",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 7
         }
       ]
     },
     {
       "id": 4,
-      "category": "taiwan",
+      "category": "global",
       "title": {
-        "zh": "台灣儲能合作、燃料調度與風電工程各有不同完成節點",
-        "en": "Taiwanese storage, fuel logistics and wind works have separate completion milestones"
+        "zh": "越南協定簽署與新加坡出口統計分屬制度及需求資料",
+        "en": "Vietnam’s trade signature and Singapore’s exports describe rules and demand separately"
       },
       "summary": {
-        "zh": "鴻海團隊 10/16 公布 306 kWh 表後儲能櫃規劃與 2027 上半年供貨目標，經部 10/18 稱中油已展開次年首季採購。離岸二期累計四部完成安裝為經部轉述，尚未等同併網，聯貸付款爭議也未有最終清償安排。",
-        "en": "Foxconn’s partners announced a planned 306 kWh cabinet and H1 2027 supply target on October 16; MOEA said October 18 that CPC began next-quarter fuel procurement. Four installed offshore turbines are a reported official figure, distinct from grid connection or a final loan-repayment settlement."
+        "zh": "越南與 EFTA 四國 10/18 簽署自由貿易協定，產品優惠與生效日仍待正式文本條件。新加坡 10/16 公布 9 月 NODX 年增 68.4%、對台年增 96.9%，總體增幅含船體不規則出貨與低基期，不能全歸因於 AI。",
+        "en": "Vietnam and four EFTA states signed an FTA on October 18, with product preferences and effective dates subject to definitive terms. Singapore’s October 16 release reports September NODX growth of 68.4% and Taiwan-bound growth of 96.9%; lumpy ship-structure exports and base effects prevent an AI-only explanation."
       },
       "references": [
         {
           "date": "2026-10-19",
-          "storyId": 4
+          "storyId": 1
         },
         {
           "date": "2026-10-19",
-          "storyId": 5
-        },
-        {
-          "date": "2026-10-19",
-          "storyId": 6
+          "storyId": 3
         }
       ]
     },
     {
       "id": 5,
-      "category": "global",
+      "category": "taiwan",
       "title": {
-        "zh": "新加坡電子外銷與馬來西亞晶片發表分屬出貨及開發資料",
-        "en": "Singapore electronics exports and Malaysian chip launches describe shipments and development"
+        "zh": "鴻海擬取得三菱電機移動半數股權，交割仍有條件",
+        "en": "Foxconn proposes half of Mitsubishi Electric Mobility, subject to closing conditions"
       },
       "summary": {
-        "zh": "新加坡 10/16 公布 9 月 NODX 年增 68.4%、對台年增 96.9%，總體增幅包含船體低基期因素。馬來西亞同日發表六項本土晶片創新，3 億令吉銷售潛力無明確期間，發表場館記載亦有差異。",
-        "en": "Singapore reported September NODX growth of 68.4% and Taiwan-bound growth of 96.9% on October 16, with ship-structure base effects in the aggregate. Malaysia launched six domestic innovations the same day; RM300 million sales potential lacks a period, and launch-venue reports differ."
+        "zh": "10/16 公布協議將 50% 股權對價定為 1,150 億日圓，合作涵蓋汽車設備業務。預定 2027/10/1 交割，須完成主管機關核准與契約條件，未披露新增訂單或工廠產量。",
+        "en": "The agreement announced October 16 values the proposed 50% stake at ¥115 billion and covers the automotive-equipment business. Closing is planned for October 1, 2027 subject to approvals and contractual conditions, without incremental orders or factory-output figures."
       },
       "references": [
         {
           "date": "2026-10-19",
-          "storyId": 3
-        },
-        {
-          "date": "2026-10-18",
-          "storyId": 3
+          "storyId": 2
         }
       ]
     }

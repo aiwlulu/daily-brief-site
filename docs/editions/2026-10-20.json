@@ -1,0 +1,1605 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T00:11:01.105Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：製程設備、記憶體封裝、PCB、伺服器與資料中心供電",
+      "en": "Taiwan and Southeast Asia: process tools, memory packaging, PCBs, servers and data-center power"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "馬來西亞 AI 機房分別披露使用率、長約與非約束性容量意向；台灣伺服器、玻璃基板及封裝設備則各有投資、驗證與採購進展。",
+    "en": "Malaysian AI facilities disclose utilization, contracted coverage and non-binding capacity intentions, while Taiwanese server, glass-substrate and packaging businesses report investment, validation and equipment purchases."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "Bitdeer 新公布 9 月 GPU 利用率 95%；馬來西亞 A201 的一月機房就緒與四月完整部署仍屬不同未來節點。",
+        "en": "Bitdeer reports 95% September GPU utilization; Malaysia A201’s January readiness and April full deployment remain distinct future milestones."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "神雲約 126.2 億元台灣投資案公開，涵蓋楊梅新廠及竹南、林口擴線，投產日期未公布。",
+        "en": "MiTAC discloses its approximately NT$12.62 billion Taiwan manufacturing plan; production-start dates remain unspecified."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "宸鴻提出兩年 60 億元 TGV 規劃，300 × 300 毫米展品與量產目標須分開理解。",
+        "en": "TPK outlines NT$6 billion over two years for TGV; its 300 × 300 mm exhibit is distinct from a production milestone."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "Aolani 馬來西亞最高 500 MW 仍是非約束性意向書，不是已上線或已完成外資投入。",
+        "en": "Aolani’s Malaysian plan covers up to 500 MW under non-binding LOIs, not live capacity or completed FDI."
+      }
+    },
+    {
+      "id": 8,
+      "text": {
+        "zh": "中油約 85.5 公里第二海管環評須補件再審；尚未通過，也不是永久否決。",
+        "en": "CPC’s approximately 85.5 km second pipeline requires EIA supplements and further review, not approval or permanent rejection."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "bitdeer-malaysia-ai-cloud",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Bitdeer 公布 9 月 GPU 利用率 95%，馬來西亞 A201 列分階段交付時程",
+        "en": "Bitdeer reports 95% September GPU utilization and staged delivery dates for Malaysia A201"
+      },
+      "summary": {
+        "zh": "Bitdeer 於台灣時間 10 月 20 日公布 9 月未經審計營運更新，集團 AI Cloud GPU 利用率由 8 月 92% 升至 95%，已部署 GPU 維持 4,328 顆。馬來西亞柔佛新山 A201 約 21.7 MW 計畫已有逾七成長約涵蓋，仍未全面上線，機房就緒與完整部署列為不同節點。",
+        "en": "Bitdeer’s October 19 US release, published October 20 in Taiwan, reports September group AI Cloud GPU utilization of 95%, versus 92% in August, with deployed GPUs unchanged at 4,328. Its approximately 21.7 MW A201 project in Johor Bahru has over 70% long-term contract coverage but is not fully live, with separate readiness and deployment milestones."
+      },
+      "metric": "95%",
+      "metricLabel": {
+        "zh": "集團 9 月 GPU 利用率",
+        "en": "Group September GPU utilization"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "專案地點：馬來西亞柔佛州新山 A201 資料中心；公告另列馬來西亞 A101 已上線。",
+        "en": "Project site: A201 data center, Johor Bahru, Malaysia; the release also lists Malaysian A101 as live."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與已披露實績",
+            "en": "Supply chain and reported operating data"
+          },
+          "text": {
+            "zh": "GPU 訂閱服務連結伺服器機櫃、電源轉換、液冷與機房供電。9 月外部訂閱 GPU 為 4,007 顆，8 月為 3,998 顆；這些是集團合計，不是馬來西亞單一基地數字。公司另列馬來西亞 A101 的 2.5 MW 已上線，與 A201 規劃容量分開。",
+            "en": "GPU subscriptions connect racks, power conversion, liquid cooling and site power. External subscriptions rose to 4,007 GPUs from 3,998; these are group figures, not Malaysian site totals. A101’s 2.5 MW is listed as live, separately from planned A201 capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字與時程",
+            "en": "Definitions and milestones"
+          },
+          "text": {
+            "zh": "公司列 9 月年化收入運行率約 8,600 萬美元、收入儲備約 29 億美元，8 月分別為 8,600 萬及 9 億美元。前者按月底當日契約 GPU 收入乘 365，後者為未來合約收入，不是已認列年度營收。A201 表格列 2027 年 1 月機房就緒，正文列同年 4 月完整部署及上線目標，並稱已採購逾 100 櫃 GB300 NVL72。",
+            "en": "ARR is approximately US$86 million and backlog US$2.9 billion, versus US$86 million and US$0.9 billion in August. ARR annualizes month-end daily contracted GPU revenue; backlog is future contractual revenue, not recognized annual sales. A201 lists January 2027 readiness and April full deployment, with over 100 GB300 NVL72 racks procured."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "數字為公司未經審計更新；A201 一月機房就緒與四月全面上線的驗收定義、實際通電及收入認列時點未完整說明。",
+            "en": "Figures are unaudited company disclosures. Acceptance definitions for January readiness versus April go-live, actual energization and revenue-recognition timing are not fully explained."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "Bitdeer／SEC · 9 月營運更新附件",
+            "en": "Bitdeer / SEC · September operating update exhibit"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Bitdeer · 帶時間戳的原始新聞稿",
+            "en": "Bitdeer · timestamped original release"
+          },
+          "url": "https://www.globenewswire.com/news-release/2026/10/19/3383905/0/en/bitdeer-announces-september-2026-production-and-operations-update.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Benzinga · A201 合約進展報導",
+            "en": "Benzinga · reporting on A201 contracting"
+          },
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62454830/bitdeer-stock-jumps-after-hours-heres-why",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "馬來西亞；新加坡（發布地）",
+          "en": "Malaysia; Singapore (release location)"
+        },
+        "industries": {
+          "zh": "GPU 雲端；伺服器；液冷；資料中心；電源",
+          "en": "GPU cloud; servers; liquid cooling; data centers; power"
+        },
+        "chain": {
+          "zh": "伺服器機櫃至液冷、供電及資料中心",
+          "en": "Server racks through liquid cooling, site power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "A201 已採購逾 100 櫃 GB300 NVL72；未列採購金額。",
+            "en": "Over 100 GB300 NVL72 racks procured for A201; purchase value undisclosed."
+          },
+          "demand": {
+            "zh": "公司稱 A201 逾 70% 長約涵蓋；集團 9 月 GPU 利用率 95%。",
+            "en": "Company reports over 70% long-term coverage at A201 and 95% group September GPU utilization."
+          },
+          "fdi": {
+            "zh": "未披露本次新增外資金額。",
+            "en": "No incremental FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "已上線容量、GPU 使用量與未來機櫃交付分開列示。",
+            "en": "Live capacity, GPU usage and future rack deployment are reported separately."
+          },
+          "timing": {
+            "zh": "美東 10/19 16:30 發布，台灣為 10/20 04:30；9 月數字是新公布實績。",
+            "en": "Released October 19 at 16:30 ET, or October 20 at 04:30 in Taiwan; the September data are newly disclosed."
+          },
+          "unknowns": {
+            "zh": "數字為公司未經審計更新；A201 一月機房就緒與四月全面上線的驗收定義、實際通電及收入認列時點未完整說明。",
+            "en": "Figures are unaudited company disclosures. Acceptance definitions for January readiness versus April go-live, actual energization and revenue-recognition timing are not fully explained."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "集團 GPU 利用率",
+            "en": "Group GPU utilization"
+          },
+          "current": 0.95,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.92,
+          "basePeriod": {
+            "zh": "2026 年 8 月",
+            "en": "August 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司直接列示 2026 年 8 月比較值；為月度比較，非 QoQ。"
+        },
+        {
+          "name": {
+            "zh": "集團已部署 GPU",
+            "en": "Group deployed GPUs"
+          },
+          "current": 4328,
+          "unit": "GPUs",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司實績,部署",
+          "comparison": "無",
+          "base": 4328,
+          "basePeriod": {
+            "zh": "2026 年 8 月",
+            "en": "August 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司直接列示 2026 年 8 月比較值；為月度比較，非 QoQ。"
+        },
+        {
+          "name": {
+            "zh": "集團外部訂閱 GPU",
+            "en": "Group externally subscribed GPUs"
+          },
+          "current": 4007,
+          "unit": "GPUs",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司實績,訂閱",
+          "comparison": "無",
+          "base": 3998,
+          "basePeriod": {
+            "zh": "2026 年 8 月",
+            "en": "August 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司直接列示 2026 年 8 月比較值；為月度比較，非 QoQ。"
+        },
+        {
+          "name": {
+            "zh": "集團年化收入運行率，約",
+            "en": "Group ARR, approximately"
+          },
+          "current": 0.086,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司實績,年化收入運行率",
+          "comparison": "無",
+          "base": 0.086,
+          "basePeriod": {
+            "zh": "2026 年 8 月",
+            "en": "August 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司直接列示 2026 年 8 月比較值；為月度比較，非 QoQ。"
+        },
+        {
+          "name": {
+            "zh": "集團合約收入儲備，約",
+            "en": "Group revenue backlog, approximately"
+          },
+          "current": 2.9,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "預測,合約收入儲備",
+          "comparison": "無",
+          "base": 0.9,
+          "basePeriod": {
+            "zh": "2026 年 8 月",
+            "en": "August 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司直接列示 2026 年 8 月比較值；為月度比較，非 QoQ。"
+        },
+        {
+          "name": {
+            "zh": "馬來西亞 A101 已上線 IT 負載",
+            "en": "Malaysia A101 live IT load"
+          },
+          "current": 2.5,
+          "unit": "MW",
+          "period": {
+            "zh": "截至 2026-09-30",
+            "en": "As of September 30, 2026"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司實績,已上線",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "A201 規劃 IT 負載，約",
+            "en": "A201 planned IT load, approximately"
+          },
+          "current": 21.7,
+          "unit": "MW",
+          "period": {
+            "zh": "規劃 2027 年交付",
+            "en": "Planned delivery in 2027"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司目標,規劃容量",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "A201 長約涵蓋，逾",
+            "en": "A201 long-term coverage, above"
+          },
+          "current": 0.7,
+          "unit": "%",
+          "period": {
+            "zh": "2026-10-19 公告",
+            "en": "October 19, 2026 disclosure"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "官方陳述,公司合約涵蓋下限",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "A201 五年預期收入，逾",
+            "en": "A201 expected five-year revenue, above"
+          },
+          "current": 1.7,
+          "unit": "USD billion",
+          "period": {
+            "zh": "合約五年期間，起迄未列",
+            "en": "Five-year contract term; endpoints unspecified"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司目標,五年預期收入",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "A201 已採購 GB300 NVL72 機櫃，逾",
+            "en": "A201 GB300 NVL72 racks procured, above"
+          },
+          "current": 100,
+          "unit": "racks",
+          "period": {
+            "zh": "2026-10-19 公告",
+            "en": "October 19, 2026 disclosure"
+          },
+          "owner": {
+            "zh": "Bitdeer，未經審計營運更新",
+            "en": "Bitdeer, unaudited operating update"
+          },
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "kind": "公司實績,採購下限",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換及量測業者而言，A201 的機櫃採購、液冷架構與通電驗收值得分開追問。集團利用率無法代替馬來西亞基地的負載測試，仍需確認實際上架、供電品質及客戶接受條件，不能據規劃容量推定設備需求已落實。",
+        "en": "For power-conversion and measurement suppliers, A201 rack procurement, liquid cooling and energization acceptance raise separate questions. Group utilization cannot substitute for Malaysian load testing; rack installation, power quality and customer acceptance remain unverified, so planned MW alone do not establish equipment demand."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "mitac-taiwan-server-manufacturing",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "神雲台灣 126.2 億元投資案公開，規劃楊梅新廠及竹南、林口擴線",
+        "en": "MiTAC’s NT$12.62 billion Taiwan plan covers a new Yangmei plant and two expansions"
+      },
+      "summary": {
+        "zh": "投資臺灣事務所 10 月 19 日公開神雲科技約新台幣 126.2 億元投資案，規劃在桃園楊梅新建工廠，並擴增竹南與林口既有產線，預計新增 300 名本國員工。官方原文載明 10 月 16 日核准，這次公開的是伺服器與整機櫃製造計畫，尚無完工或投產日期。",
+        "en": "Invest Taiwan disclosed MiTAC Computing’s approximately NT$12.62 billion plan on October 19 for a new Yangmei plant and expansion in Zhunan and Linkou, with 300 planned domestic jobs. The official text dates approval to October 16; completion and production-start dates were not disclosed."
+      },
+      "metric": "NT$12.62B",
+      "metricLabel": {
+        "zh": "計畫總投資",
+        "en": "Planned total investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "專案地點：台灣桃園市楊梅區新廠；苗栗縣竹南及新北市林口既有廠區擴線。",
+        "en": "Project sites: new plant in Yangmei, Taoyuan, Taiwan; existing facilities in Zhunan, Miaoli and Linkou, New Taipei."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與製造內容",
+            "en": "Supply chain and manufacturing scope"
+          },
+          "text": {
+            "zh": "神雲是神達控股旗下、以 MiTAC Computing 品牌供應資料中心及企業級伺服器的公司。官方列出從伺服器平台延伸至機櫃、AI 叢集與 OCP 架構，並研發氣冷及液冷；產線將導入 AIoT、智慧倉儲物流、自動組裝與 AI 視覺，涵蓋整機及工廠自動化。",
+            "en": "MiTAC Computing, part of MiTAC Holdings, supplies data-center and enterprise servers. The release describes rack and AI-cluster integration, OCP architecture, air and liquid cooling, and planned AIoT, warehouse logistics, automated assembly and machine vision."
+          }
+        },
+        {
+          "label": {
+            "zh": "投資範圍與日期",
+            "en": "Investment scope and dates"
+          },
+          "text": {
+            "zh": "計畫另含企業 AI 算力中心、能源管理與太陽能；LEED 黃金級是爭取中的認證目標。126.2 億元是整體計畫金額，未按廠區分列，也不是當期設備支出實績。經濟日報將核准寫為 19 日，日期採官方原文的 16 日，19 日保留為公開日期。",
+            "en": "The plan includes an enterprise AI computing center, energy management and solar power; LEED Gold is an aspiration, not an awarded certification. NT$12.62 billion is the overall plan, without site allocations or current spending totals. Economic Daily dates approval to October 19; the official text’s October 16 is retained as approval, with October 19 as disclosure."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "廠區別資本支出、伺服器或機櫃年產能、供電核定量與完工投產日期尚未公布。",
+            "en": "Site-level spending, annual server or rack capacity, approved power allocation and completion/start-up dates remain undisclosed."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "投資臺灣 · 神雲投資案原始公告",
+            "en": "Invest Taiwan · original MiTAC investment announcement"
+          },
+          "url": "https://investtaiwan.nat.gov.tw/threeMajorNewsPage11351431cht?lang=cht&newsNum=11351431",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 投資內容與供電程序報導",
+            "en": "Economic Daily · investment and power-process reporting"
+          },
+          "url": "https://money.udn.com/money/story/5612/9824845?from=edn_previous_story",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器 ODM；整機櫃；液冷；工廠自動化；投資",
+          "en": "Server ODM; racks; liquid cooling; factory automation; investment"
+        },
+        "chain": {
+          "zh": "伺服器、整機櫃與液冷至終端工廠自動化",
+          "en": "Servers, racks and liquid cooling through factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "總投資約 126.2 億元，屬核准計畫。",
+            "en": "Approximately NT$12.62 billion in approved planned investment."
+          },
+          "demand": {
+            "zh": "公告未列新增訂單或實際出貨量。",
+            "en": "No incremental orders or actual shipment figures disclosed."
+          },
+          "fdi": {
+            "zh": "屬台商回台投資方案，未另列外資流入。",
+            "en": "A Taiwanese-company investment program; no separate FDI inflow stated."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涵蓋伺服器平台、機櫃整合、冷卻及製造自動化。",
+            "en": "Covers server platforms, rack integration, cooling and manufacturing automation."
+          },
+          "timing": {
+            "zh": "10/16 核准、10/19 公開；不是新廠落成或開始量產日期。",
+            "en": "Approved October 16 and disclosed October 19; neither is a plant opening or production start."
+          },
+          "unknowns": {
+            "zh": "廠區別資本支出、伺服器或機櫃年產能、供電核定量與完工投產日期尚未公布。",
+            "en": "Site-level spending, annual server or rack capacity, approved power allocation and completion/start-up dates remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "計畫總投資，約",
+            "en": "Planned total investment, approximately"
+          },
+          "current": 12.62,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "10/19 公開之投資計畫",
+            "en": "Investment plan disclosed October 19"
+          },
+          "owner": {
+            "zh": "投資臺灣事務所",
+            "en": "Invest Taiwan"
+          },
+          "sourceUrl": "https://investtaiwan.nat.gov.tw/threeMajorNewsPage11351431cht?lang=cht&newsNum=11351431",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "預計新增本國員工",
+            "en": "Planned additional domestic employees"
+          },
+          "current": 300,
+          "unit": "人",
+          "period": {
+            "zh": "投資完成後，日期未列",
+            "en": "After investment completion; date unspecified"
+          },
+          "owner": {
+            "zh": "投資臺灣事務所",
+            "en": "Invest Taiwan"
+          },
+          "sourceUrl": "https://investtaiwan.nat.gov.tw/threeMajorNewsPage11351431cht?lang=cht&newsNum=11351431",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機櫃電源、散熱控制與工廠量測供應商而言，三個廠區的產品分工及實際產線規格值得確認。公告還不足以判定新機櫃功率、設備驗收條件或需求時間，應將核准投資與已發包設備分開理解。",
+        "en": "For rack-power, cooling-control and factory-measurement suppliers, the product allocation and line specifications at the three sites merit verification. Approval alone does not establish rack power ratings, equipment acceptance requirements or demand timing; planned investment and awarded equipment contracts remain distinct."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "tpk-tgv-glass-substrates",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "宸鴻公布兩年 60 億元 TGV 擴建規劃，預告 300 毫米玻璃面板展品",
+        "en": "TPK outlines a two-year NT$6 billion TGV plan and a 300 mm glass-panel exhibit"
+      },
+      "summary": {
+        "zh": "宸鴻 10 月 19 日透過新聞稿表示，規劃兩年內在台灣逐步投入新台幣 60 億元，擴建玻璃通孔（TGV）廠房及產線，並預告在 TPCA Show 展出 300 × 300 毫米面板。中壢試產線正與封裝業者共同開發樣品，核心驗證以 2027 年底為目標，量產則預計 2028 年。",
+        "en": "TPK said in an October 19 release reported by CNA that it plans NT$6 billion over two years for Taiwanese through-glass-via facilities and lines, and a 300 × 300 mm panel exhibit at TPCA Show. Its Zhongli pilot line is developing samples with packaging companies, targeting core validation by end-2027 and production in 2028."
+      },
+      "metric": "NT$6B",
+      "metricLabel": {
+        "zh": "兩年規劃投入",
+        "en": "Planned two-year investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "location": {
+        "zh": "專案地點：台灣桃園中壢試產廠；展覽場地：台北南港展覽館 1 館 1、4 樓，TPCA Show 10/20 至 10/22。",
+        "en": "Project site: Zhongli pilot facility, Taoyuan, Taiwan. Exhibition venue: Taipei Nangang Exhibition Center Hall 1, floors 1 and 4, October 20–22."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "上下游與技術階段",
+            "en": "Supply chain and development stage"
+          },
+          "text": {
+            "zh": "TGV 連結玻璃基板加工、金屬填孔、電性量測及先進封裝。宸鴻稱與清華大學電資學院合作建立模型；300 毫米是方形展品的邊長，不是晶圓產能。10 月 15 日報導已提及試產線，因此新增資訊是這次投資規劃與展品細節，不是首次建成產線。",
+            "en": "TGV connects glass processing, metal-filled vias, electrical measurement and advanced packaging. TPK cites modeling work with National Tsing Hua University. The 300 mm figure is panel side length, not wafer capacity. An October 15 report already described the pilot line; the new details are the spending plan and exhibits."
+          }
+        },
+        {
+          "label": {
+            "zh": "展會與驗證時點",
+            "en": "Exhibition and validation timing"
+          },
+          "text": {
+            "zh": "主辦單位確認 TPCA Show 為 10 月 20 至 22 日、南港 1 館；IMPACT-IAAC 為 19 至 22 日、南港 2 館，兩者場館不同。兩年投入、驗證與量產日期均為公司規劃，不能當成已完成客戶認證或商用交付。",
+            "en": "The organizer places TPCA Show in Nangang Hall 1 on October 20–22, and IMPACT-IAAC in Hall 2 on October 19–22. Spending, validation and production dates are company plans, not completed customer qualification or commercial delivery."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未直接取得公司新聞稿原件；客戶名單、量產良率、實際支出與認證完成日期未公布，技術及時程依公司對外說法。",
+            "en": "The original company release was not directly retrieved. Customer names, production yields, actual spending and completed qualification dates are undisclosed; technical and timing claims remain company statements."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 宸鴻新聞稿內容報導",
+            "en": "CNA · reporting on TPK’s release"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610190188.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 10/15 試產線背景",
+            "en": "MoneyDJ · October 15 pilot-line background"
+          },
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3270e587-35ac-4669-9a43-365c7e6366ee",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "TPCA · 展覽與研討會日期、場館",
+            "en": "TPCA · exhibition and conference dates and venues"
+          },
+          "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "玻璃基板；TGV；先進封裝；製程設備；量測",
+          "en": "Glass substrates; TGV; advanced packaging; process equipment; metrology"
+        },
+        "chain": {
+          "zh": "玻璃材料、設備與基板至先進封裝及測試",
+          "en": "Glass materials, tools and substrates through advanced packaging and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司規劃兩年投入 60 億元，非已執行支出。",
+            "en": "Company plans NT$6 billion over two years, not completed spending."
+          },
+          "demand": {
+            "zh": "已披露樣品共同開發及驗證，未列量產客戶訂單。",
+            "en": "Joint sample development and validation disclosed, without volume customer orders."
+          },
+          "fdi": {
+            "zh": "未披露新增數字。",
+            "en": "No incremental figure disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "從玻璃通孔製程、填銅到封裝電性驗證。",
+            "en": "Connects through-glass-via processing and copper filling to package electrical validation."
+          },
+          "timing": {
+            "zh": "10/19 公布投資與展品；展覽 10/20 起，量產仍是 2028 年目標。",
+            "en": "Investment and exhibits disclosed October 19; exhibition starts October 20 and production remains targeted for 2028."
+          },
+          "unknowns": {
+            "zh": "未直接取得公司新聞稿原件；客戶名單、量產良率、實際支出與認證完成日期未公布，技術及時程依公司對外說法。",
+            "en": "The original company release was not directly retrieved. Customer names, production yields, actual spending and completed qualification dates are undisclosed; technical and timing claims remain company statements."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "兩年規劃投入",
+            "en": "Planned two-year investment"
+          },
+          "current": 6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "未來兩年，10/19 公告",
+            "en": "Next two years, disclosed October 19"
+          },
+          "owner": {
+            "zh": "宸鴻，由中央社報導",
+            "en": "TPK, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610190188.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "方形 TGV 展品邊長",
+            "en": "Square TGV exhibit side length"
+          },
+          "current": 300,
+          "unit": "mm",
+          "period": {
+            "zh": "2026 TPCA Show 預告展品",
+            "en": "Planned TPCA Show 2026 exhibit"
+          },
+          "owner": {
+            "zh": "宸鴻，由中央社報導",
+            "en": "TPK, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610190188.aspx",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對製程電源、電鍍控制及電性量測業者而言，玻璃加工、填孔與面板級驗證的設備規格值得追問。現有資訊是試產與展品，尚不能確認量產良率、客戶接受條件或設備訂單，仍需區分研發驗證與量產支出。",
+        "en": "For process-power, plating-control and electrical-measurement suppliers, glass processing, via filling and panel-level validation raise specification questions. Pilot work and exhibits do not establish production yield, customer acceptance or equipment orders; development qualification and production spending remain separate."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "aolani-malaysia-data-centres",
+      "category": "global",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "Aolani 簽馬來西亞最高 500 MW 意向書，仍待正式協議",
+        "en": "Aolani signs non-binding LOIs for up to 500 MW in Malaysia"
+      },
+      "summary": {
+        "zh": "新加坡 Aolani 10 月 19 日宣布，已簽意向書擬取得馬來西亞多處最高 500 MW AI 資料中心容量，目標自 2027 年下半年開始上線。公司明列意向書不具約束力，須再洽簽正式協議，未公開基地城市、供電條件或投資金額。",
+        "en": "Singapore-based Aolani announced October 19 that it signed LOIs for up to 500 MW of AI data-center capacity across Malaysian sites, targeting service from H2 2027. The LOIs are non-binding and subject to definitive agreements; cities, power conditions and investment value remain undisclosed."
+      },
+      "metric": "≤500 MW",
+      "metricLabel": {
+        "zh": "非約束性意向書容量上限",
+        "en": "Capacity ceiling under non-binding LOIs"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "專案地點：馬來西亞多處基地，城市及場址未公布；公告發布於新加坡。",
+        "en": "Project sites: multiple locations in Malaysia, with cities and sites undisclosed; announcement issued in Singapore."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與容量定義",
+            "en": "Supply chain and capacity definitions"
+          },
+          "text": {
+            "zh": "Aolani 將提供 AI 基礎設施、GPU 部署及營運需求；機房屬設計符合 Tier III，未稱已獲認證。公司稱 2026 年已承諾容量約 80 MW，目標 2027 年合計最高 580 MW；80 MW 不是已營運容量、580 MW 也不是此次新增量。官網與 TNGlobal 日期為 10/19，ACCESS 發稿頁列 10/18 23:45、未註明時區，實際簽字日未列。",
+            "en": "Aolani would provide AI infrastructure, GPU deployment and operating requirements. Sites are designed to Tier III standards, not stated as certified. It reports approximately 80 MW committed in 2026 and targets up to 580 MW by 2027, neither equivalent to live capacity or incremental capacity alone. Its site and TNGlobal date the news October 19; ACCESS lists October 18 at 23:45 without a time zone or signing date."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "意向書不具約束力；交易對手、基地、正式合約、供電核定、實際營運容量及簽署日期未公布。",
+            "en": "The LOIs are non-binding. Counterparties, sites, definitive contracts, approved power, live capacity and signing date remain undisclosed."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "Aolani · 意向書原始公告",
+            "en": "Aolani · original LOI announcement"
+          },
+          "url": "https://www.aolani.com/newsroom/aolani-500mw-ai-data-centre-capacity-malaysia",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "ACCESS Newswire · 同份公告與發布時間",
+            "en": "ACCESS Newswire · distributed release and timestamp"
+          },
+          "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/aolani-signs-letters-of-intent-for-up-to-500mw-of-ai-data-centre-1238232",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "TNGlobal · 馬來西亞容量計畫報導",
+            "en": "TNGlobal · Malaysian capacity-plan reporting"
+          },
+          "url": "https://technode.global/2026/10/19/singapores-aolani-plans-up-to-500mw-of-ai-data-center-capacity-in-malaysia/",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "馬來西亞；新加坡",
+          "en": "Malaysia; Singapore"
+        },
+        "industries": {
+          "zh": "GPU 雲端；資料中心；供電；伺服器",
+          "en": "GPU cloud; data centers; site power; servers"
+        },
+        "chain": {
+          "zh": "伺服器、供電與資料中心容量規劃",
+          "en": "Servers, site power and planned data-center capacity"
+        },
+        "changes": {
+          "investment": {
+            "zh": "只公布容量意向，未列資本支出。",
+            "en": "Capacity intentions disclosed without capital spending."
+          },
+          "demand": {
+            "zh": "最高 500 MW 意向書，正式需求承諾仍待協議。",
+            "en": "LOIs cover up to 500 MW; definitive demand commitments remain subject to agreement."
+          },
+          "fdi": {
+            "zh": "新加坡業者擬取得馬來西亞容量，未披露外資金額。",
+            "en": "Singapore operator proposes Malaysian capacity; FDI value undisclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "GPU 雲端部署須與機房、供電及營運分工銜接。",
+            "en": "GPU-cloud deployment connects to facilities, power and operating responsibilities."
+          },
+          "timing": {
+            "zh": "採公司 10/19 公開日；預定 2027 年下半年起上線，分發稿日期差異保留。",
+            "en": "Uses the company’s October 19 disclosure date; service targets H2 2027 onward, with the wire-date discrepancy retained."
+          },
+          "unknowns": {
+            "zh": "意向書不具約束力；交易對手、基地、正式合約、供電核定、實際營運容量及簽署日期未公布。",
+            "en": "The LOIs are non-binding. Counterparties, sites, definitive contracts, approved power, live capacity and signing date remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新增意向容量上限",
+            "en": "Incremental LOI capacity ceiling"
+          },
+          "current": 500,
+          "unit": "MW",
+          "period": {
+            "zh": "2027 下半年起規劃上線",
+            "en": "Planned service from H2 2027"
+          },
+          "owner": {
+            "zh": "Aolani",
+            "en": "Aolani"
+          },
+          "sourceUrl": "https://www.aolani.com/newsroom/aolani-500mw-ai-data-centre-capacity-malaysia",
+          "kind": "公司目標,非約束性意向",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "2026 已承諾容量，約",
+            "en": "2026 committed capacity, approximately"
+          },
+          "current": 80,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年公司所稱承諾",
+            "en": "Company-reported 2026 commitments"
+          },
+          "owner": {
+            "zh": "Aolani",
+            "en": "Aolani"
+          },
+          "sourceUrl": "https://www.aolani.com/newsroom/aolani-500mw-ai-data-centre-capacity-malaysia",
+          "kind": "官方陳述,公司已承諾容量",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 合計承諾容量目標上限",
+            "en": "2027 total committed-capacity target ceiling"
+          },
+          "current": 580,
+          "unit": "MW",
+          "period": {
+            "zh": "2027 年目標",
+            "en": "2027 target"
+          },
+          "owner": {
+            "zh": "Aolani",
+            "en": "Aolani"
+          },
+          "sourceUrl": "https://www.aolani.com/newsroom/aolani-500mw-ai-data-centre-capacity-malaysia",
+          "kind": "公司目標,合計容量",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換、配電量測及散熱控制業者而言，須先辨識意向容量對應的場址、業主與 GPU 營運分工。正式供電核定、機櫃規格及驗收時程均未公開，無法由 500 MW 意向推定已成立的設備需求。",
+        "en": "For data-center power-conversion, distribution-measurement and cooling-control suppliers, the intended sites, owners and GPU operating roles require identification. With power approvals, rack specifications and acceptance schedules undisclosed, the 500 MW intention does not establish equipment demand."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "pti-packaging-equipment",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "力成公告向 Onto 購買封裝設備，交易期間合計約 7.39 億元",
+        "en": "PTI discloses approximately NT$739 million in Onto packaging-equipment purchases"
+      },
+      "summary": {
+        "zh": "力成 10 月 19 日公告向 Onto Innovation 取得封裝設備一批，9 月 30 日至 10 月 19 日交易金額合計新台幣 7 億 3,855 萬元。資訊來自專業媒體轉載重大訊息，確認的是設備交易，未說明交付、裝機、驗收或特定 HBM 產線。",
+        "en": "PTI disclosed October 19 that packaging-equipment purchases from Onto Innovation totaled NT$738.55 million over September 30–October 19. The filing reproduced by professional media describes purchases, without delivery, installation, acceptance or assignment to a specific HBM line."
+      },
+      "metric": "NT$738.55M",
+      "metricLabel": {
+        "zh": "揭露期間設備交易額",
+        "en": "Equipment transaction amount for the disclosed period"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與供應鏈",
+            "en": "Industry background and supply chain"
+          },
+          "text": {
+            "zh": "力成官方封裝服務包含記憶體與 SSD 用途；Onto 官方業務涵蓋檢測、量測及微影設備。兩家公司業務背景不等於本批設備的具體用途，公告未列型號，不能據此指認為 Dragonfly G5、HBM 或面板級封裝擴產。金額是交易區間合計，不是 10/19 單日支出，也未提供同比基期。",
+            "en": "PTI’s official packaging materials describe memory and SSD applications, while Onto supplies inspection, metrology and lithography tools. These business descriptions do not identify this equipment batch as Dragonfly G5, HBM or panel-level packaging capacity. The amount spans the disclosed transaction period, not one day, and no year-earlier base is provided."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "重大訊息依 MoneyDJ 轉載核對，未直接取得公開資訊觀測站原件；設備型號、數量、設置基地、交付驗收及新增產能未公布。",
+            "en": "The disclosure was checked through MoneyDJ rather than directly retrieved from MOPS. Models, quantities, sites, delivery/acceptance and incremental capacity remain undisclosed."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 力成重大訊息轉載",
+            "en": "MoneyDJ · reproduction of PTI’s material disclosure"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=31a8cec8-30ec-4a07-b143-f802531254eb&c=MB070100",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "力成 · 記憶體與 SSD 封裝業務背景",
+            "en": "PTI · memory and SSD packaging background"
+          },
+          "url": "https://www.pti.com.tw/zh/service/packaging/wire-bond-bga",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Onto · 檢測與量測業務背景（3 月公告）",
+            "en": "Onto · inspection and metrology background (March release)"
+          },
+          "url": "https://investors.ontoinnovation.com/news/news-details/2026/Onto-Innovation-Launches-Dragonfly-G5-Inspection-System/default.aspx",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣；美國（設備供應商）",
+          "en": "Taiwan; United States (equipment supplier)"
+        },
+        "industries": {
+          "zh": "記憶體；SSD；封裝設備；檢測量測",
+          "en": "Memory; SSD; packaging equipment; inspection and metrology"
+        },
+        "chain": {
+          "zh": "封裝設備、記憶體及 SSD 封裝測試",
+          "en": "Packaging tools and memory/SSD packaging and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "9/30 至 10/19 設備交易合計 7.3855 億元。",
+            "en": "Equipment transactions total NT$738.55 million for September 30–October 19."
+          },
+          "demand": {
+            "zh": "設備採購已揭露，未列客戶新訂單。",
+            "en": "Equipment purchases disclosed without new customer orders."
+          },
+          "fdi": {
+            "zh": "未披露新增數字。",
+            "en": "No incremental figure disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "設備交易涉及封裝製程，特定產品線未指認。",
+            "en": "The transactions concern packaging processes without a specified product line."
+          },
+          "timing": {
+            "zh": "10/19 公告及董事長核決；交易期間自 9/30 起。",
+            "en": "Disclosure and chairman approval on October 19; transaction period begins September 30."
+          },
+          "unknowns": {
+            "zh": "重大訊息依 MoneyDJ 轉載核對，未直接取得公開資訊觀測站原件；設備型號、數量、設置基地、交付驗收及新增產能未公布。",
+            "en": "The disclosure was checked through MoneyDJ rather than directly retrieved from MOPS. Models, quantities, sites, delivery/acceptance and incremental capacity remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "封裝設備交易金額",
+            "en": "Packaging-equipment transaction value"
+          },
+          "current": 0.73855,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026-09-30 至 2026-10-19",
+            "en": "September 30–October 19, 2026"
+          },
+          "owner": {
+            "zh": "力成重大訊息，由 MoneyDJ 轉載",
+            "en": "PTI disclosure, reproduced by MoneyDJ"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=31a8cec8-30ec-4a07-b143-f802531254eb&c=MB070100",
+          "kind": "媒體引述,設備交易公告",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封裝設備電源與量測供應商而言，值得確認本批設備的機型、電源介面及實際裝機計畫。供應商名稱無法界定終端製程或 HBM 曝險，現有公告也不足以推算新增設備配套需求。",
+        "en": "For packaging-tool power and measurement suppliers, equipment models, power interfaces and installation plans merit verification. The seller’s name does not establish the end process or HBM exposure, and the disclosure is insufficient to infer incremental supporting-equipment demand."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "zdt-thailand-equipment",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "臻鼎泰國子公司揭露近一年設備交易，累計約 10.86 億元",
+        "en": "Zhen Ding’s Thai subsidiary discloses nearly a year of equipment purchases totaling NT$1.086 billion"
+      },
+      "summary": {
+        "zh": "臻鼎-KY 10 月 19 日代泰國子公司公告，向 SYMTEK AUTOMATION CHINA 取得營業用設備一批，2025 年 10 月 20 日至 2026 年 10 月 19 日累計金額約新台幣 10.86 億元。這是近一年交易期間的彙總，不是單日新增投資，也未列本批設備的驗收產能。",
+        "en": "Zhen Ding disclosed October 19 that its Thai subsidiary purchased operating equipment from SYMTEK AUTOMATION CHINA, totaling approximately NT$1.086 billion over October 20, 2025–October 19, 2026. This aggregates nearly a year of transactions, not a single day of new investment, and provides no accepted capacity for the equipment."
+      },
+      "metric": "NT$1.086B",
+      "metricLabel": {
+        "zh": "近一年交易區間合計",
+        "en": "Total for the nearly one-year transaction period"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "location": {
+        "zh": "專案地點：泰國子公司；本批設備的城市與廠址未公布。",
+        "en": "Project site: Thai subsidiary; the city and facility for this equipment batch were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "上下游與交易口徑",
+            "en": "Supply chain and transaction definition"
+          },
+          "text": {
+            "zh": "買方為 PENG SHEN TECHNOLOGY (THAILAND)，交易金額原文為新台幣 1,085,742,322 元，付款依設備合約辦理，對方不是關係人。臻鼎的電路板業務連結材料、製程設備及終端電子組裝，但這次公告未指認設備型號或 PCB／載板產品分工，不將集團業務直接當成本批設備產出。",
+            "en": "The buyer is PENG SHEN TECHNOLOGY (THAILAND); the exact disclosed value is NT$1,085,742,322, with contract-based payments to a non-related seller. Zhen Ding’s circuit-board business connects materials and process equipment to electronics assembly, but this filing does not assign the equipment to a specific PCB or substrate product."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "原始重大訊息依專業資訊轉載核對；設備機型、數量、實際裝機場址、驗收、產能及資金匯入時點未公布。",
+            "en": "The filing was checked through professional-information reproduction. Models, quantities, installation site, acceptance, capacity and timing of capital inflows remain undisclosed."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ／玉山證券 · 臻鼎重大訊息轉載",
+            "en": "MoneyDJ / E.SUN Securities · reproduction of Zhen Ding’s disclosure"
+          },
+          "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B93110FED-D96F-4D8B-8A88-28689E692661%7D",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 臻鼎電路板產學合作背景",
+            "en": "CNA · Zhen Ding circuit-board industry background"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610190239.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣；泰國",
+          "en": "Taiwan; Thailand"
+        },
+        "industries": {
+          "zh": "PCB；製程設備；工廠自動化；跨國投資",
+          "en": "PCB; process equipment; factory automation; cross-border investment"
+        },
+        "chain": {
+          "zh": "PCB 材料與設備至泰國終端工廠",
+          "en": "PCB materials and tools through Thai factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "近一年設備交易合計 1,085,742,322 元。",
+            "en": "Equipment transactions over nearly one year total NT$1,085,742,322."
+          },
+          "demand": {
+            "zh": "未公布新增客戶訂單、出貨或稼動率。",
+            "en": "New customer orders, shipments and utilization undisclosed."
+          },
+          "fdi": {
+            "zh": "台灣集團泰國子公司採購，未列本期新增外資流入統計。",
+            "en": "Purchases by a Taiwanese group’s Thai subsidiary; no current-period FDI-flow statistic disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "連結台灣電路板集團與泰國製造設備採購。",
+            "en": "Links a Taiwanese circuit-board group to Thai manufacturing-equipment purchases."
+          },
+          "timing": {
+            "zh": "10/19 公告及總經理核決；交易彙總期間為 2025/10/20 至 2026/10/19。",
+            "en": "Disclosure and general-manager approval on October 19; transactions span October 20, 2025–October 19, 2026."
+          },
+          "unknowns": {
+            "zh": "原始重大訊息依專業資訊轉載核對；設備機型、數量、實際裝機場址、驗收、產能及資金匯入時點未公布。",
+            "en": "The filing was checked through professional-information reproduction. Models, quantities, installation site, acceptance, capacity and timing of capital inflows remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "近一年營業設備交易合計",
+            "en": "Operating-equipment transactions over nearly one year"
+          },
+          "current": 1.085742322,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2025-10-20 至 2026-10-19",
+            "en": "October 20, 2025–October 19, 2026"
+          },
+          "owner": {
+            "zh": "臻鼎重大訊息，由 MoneyDJ 轉載",
+            "en": "Zhen Ding disclosure, reproduced by MoneyDJ"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B93110FED-D96F-4D8B-8A88-28689E692661%7D",
+          "kind": "媒體引述,設備交易公告",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工廠自動化與製程電源業者而言，應辨識這批設備的製程位置、當地服務與驗收需求。累計金額跨近一年，且沒有機型與裝機日，尚不足以判定下一期擴產或新增供應需求。",
+        "en": "For factory-automation and process-power suppliers, the equipment’s process position, local servicing and acceptance needs require identification. The nearly year-long aggregate lacks models and installation dates, so it does not establish next-period expansion or incremental supply requirements."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taiwan-pcb-university-partnership",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "中央大學與四家 PCB 業者簽約，合計 6,000 萬元推產學合作",
+        "en": "NCU and four PCB companies sign NT$60 million education and research partnership"
+      },
+      "summary": {
+        "zh": "中央大學 10 月 19 日在桃園與臻鼎、台光、大量及尖點簽署合作，四家合計提供新台幣 6,000 萬元，串連課程、企業專班、實習與共同研發。計畫涵蓋 PCB 材料及精密製程人才，也提出虛擬 PCB 學院構想，並非新增工廠產能公告。",
+        "en": "National Central University signed a partnership in Taoyuan on October 19 with Zhen Ding, Elite Material, Ta Liang and Topoint, with NT$60 million combined support for courses, company programs, internships and joint research. The PCB-materials and precision-process initiative includes a proposed virtual PCB college, rather than new factory capacity."
+      },
+      "metric": "NT$60M",
+      "metricLabel": {
+        "zh": "四家企業合計合作金額",
+        "en": "Combined support from four companies"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "簽約場地：台灣桃園市中央大學羅家倫講堂。",
+        "en": "Signing venue: Luo Jialun Lecture Hall, National Central University, Taoyuan, Taiwan."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與合作範圍",
+            "en": "Supply chain and partnership scope"
+          },
+          "text": {
+            "zh": "合作夥伴跨越電路板、銅箔基板材料與加工設備、工具，校方將整合跨領域教學及產業研究。校方新聞稿刊於中央社訊息平台，屬大學自行提供內容；中央社另有記者報導。6,000 萬元是四家合計金額，不是每家各投入相同金額，也不是已支付款項的查核結果。",
+            "en": "Partners span circuit boards, copper-clad laminate materials, machining equipment and tools. NCU plans interdisciplinary teaching and industry research. Its release on CNA’s submission platform is university-provided material, distinct from CNA’s separate reporting. NT$60 million is the combined amount, not an equal per-company payment or audited disbursement."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "招生規模、各家款項分配與實際支付、課程啟動及研發成果時程未公布。",
+            "en": "Enrollment, company-level allocations and actual payments, course launches and research-output schedules remain undisclosed."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "中央大學 · 產學合作新聞稿（中央社訊息平台）",
+            "en": "NCU · partnership release (CNA submission platform)"
+          },
+          "url": "https://www.cna.com.tw/postwrite/chi/447413",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 四家 PCB 業者簽約報導",
+            "en": "CNA · reporting on four-company PCB partnership"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610190239.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "PCB；材料；製程設備；精密加工；人才",
+          "en": "PCB; materials; process equipment; precision machining; talent"
+        },
+        "chain": {
+          "zh": "PCB 材料、設備與加工至產學人才培育",
+          "en": "PCB materials, tools and machining through industry-academic talent development"
+        },
+        "changes": {
+          "investment": {
+            "zh": "四家合計 6,000 萬元合作支持，未列支付期程。",
+            "en": "NT$60 million combined partnership support; payment schedule undisclosed."
+          },
+          "demand": {
+            "zh": "提出課程、實習與研發合作，未列新增產品訂單。",
+            "en": "Courses, internships and research cooperation proposed; new product orders undisclosed."
+          },
+          "fdi": {
+            "zh": "未披露新增數字。",
+            "en": "No incremental figure disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "合作串連電路板製造、材料、工具與大學研發。",
+            "en": "Partnership connects circuit-board manufacturing, materials, tools and university research."
+          },
+          "timing": {
+            "zh": "10/19 簽約，虛擬 PCB 學院屬後續構想。",
+            "en": "Signed October 19; the virtual PCB college remains a future proposal."
+          },
+          "unknowns": {
+            "zh": "招生規模、各家款項分配與實際支付、課程啟動及研發成果時程未公布。",
+            "en": "Enrollment, company-level allocations and actual payments, course launches and research-output schedules remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "四家企業合計合作金額",
+            "en": "Combined four-company partnership support"
+          },
+          "current": 0.06,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026-10-19 合作案",
+            "en": "October 19, 2026 partnership"
+          },
+          "owner": {
+            "zh": "中央大學",
+            "en": "National Central University"
+          },
+          "sourceUrl": "https://www.cna.com.tw/postwrite/chi/447413",
+          "kind": "官方陳述,合作金額",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對製程電源、精密控制及量測供應商而言，合作課程是否涵蓋材料測試、加工控制及設備驗證值得了解。現階段沒有招生與研發成果時程，不能由合作金額推定可用人力或量產技術已形成。",
+        "en": "For process-power, precision-control and measurement suppliers, it is worth verifying whether courses cover materials testing, process control and tool validation. Enrollment and research schedules are unavailable, so the support amount does not establish an available workforce or production-ready technology."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "cpc-tongxiao-datan-pipeline",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "中油通霄至大潭第二海管環評初審要求補件，尚未通過",
+        "en": "CPC’s second Tongxiao–Datan pipeline faces further EIA review after requests for supplements"
+      },
+      "summary": {
+        "zh": "據中央社，約 85.5 公里的中油通霄至大潭第二海底輸氣管線，10 月 19 日第二次環評初審仍須補充資料後再審，並未通過。審查涉及工程必要性、海域生態與施工影響；中油則稱管線與第三天然氣接收站功能不同，屬供氣網路備援規劃。",
+        "en": "CNA reports that CPC’s approximately 85.5 km second Tongxiao–Datan subsea gas pipeline was sent for further review after its second preliminary EIA meeting on October 19. The review concerns necessity, marine ecology and construction effects; CPC says the line has a different function from its third LNG terminal and forms part of supply-network backup planning."
+      },
+      "metric": "85.5 km",
+      "metricLabel": {
+        "zh": "規劃管線長度，約",
+        "en": "Planned pipeline length, approximately"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "location": {
+        "zh": "專案路線：台灣苗栗通霄輸氣中心，經苗栗、新竹、桃園外海，於桃園新屋上岸並銜接大潭。",
+        "en": "Project route: Tongxiao gas transmission center, Miaoli, Taiwan, offshore via Miaoli, Hsinchu and Taoyuan, landing in Xinwu, Taoyuan, toward Datan."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與審查事項",
+            "en": "Industry background and review scope"
+          },
+          "text": {
+            "zh": "天然氣輸送屬發電燃料上游基礎設施，與資料中心或工廠個別供電契約並不相同。報導指委員要求補充需求合理性、生態調查及陸域工程影響；中油提出的備援理由是開發單位說明，審查尚未定案。補件再審也不是永久否決，不能推定已改變任何用戶的電價或供電可靠度。",
+            "en": "Gas transport is upstream fuel infrastructure, distinct from individual data-center or factory power contracts. The report describes requests on demand justification, ecological surveys and land works. CPC’s backup rationale is the developer’s position; review is unresolved. Further review is not permanent rejection and does not establish changed user tariffs or reliability."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未直接取得會議紀錄或中油原始聲明；審查進度與立場依中央社報導，最終條件、施工及通氣日期尚未確認。",
+            "en": "Meeting minutes and CPC’s original statement were not directly retrieved. Review status and positions rely on CNA; final conditions, construction and gas-in dates remain unconfirmed."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 第二次環評初審現場報導",
+            "en": "CNA · reporting on the second preliminary EIA meeting"
+          },
+          "url": "https://www.cna.com.tw/news/ahel/202610190070.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 中油對供氣備援的說明",
+            "en": "CNA · CPC’s explanation of supply backup"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610190261.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "天然氣輸送；電力；工廠與資料中心供電背景",
+          "en": "Gas transmission; electricity; factory and data-center power background"
+        },
+        "chain": {
+          "zh": "燃料供應至電力及終端工廠、資料中心",
+          "en": "Fuel supply through electricity to factories and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次為環評補件程序，未確認新核准投資額。",
+            "en": "This development is an EIA supplement process; no newly approved investment value established."
+          },
+          "demand": {
+            "zh": "中油提出備援需求理由，委員要求補充必要性資料。",
+            "en": "CPC cites backup needs; reviewers request further necessity evidence."
+          },
+          "fdi": {
+            "zh": "未披露新增數字。",
+            "en": "No incremental figure disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及供氣基礎設施，不直接等同用戶可取得電力容量。",
+            "en": "Concerns gas infrastructure, not directly the power capacity available to users."
+          },
+          "timing": {
+            "zh": "10/19 第二次初審要求補件再審，尚未核准。",
+            "en": "Second preliminary review on October 19 requests supplements and further review; approval is pending."
+          },
+          "unknowns": {
+            "zh": "未直接取得會議紀錄或中油原始聲明；審查進度與立場依中央社報導，最終條件、施工及通氣日期尚未確認。",
+            "en": "Meeting minutes and CPC’s original statement were not directly retrieved. Review status and positions rely on CNA; final conditions, construction and gas-in dates remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "規劃海管長度，約",
+            "en": "Planned pipeline length, approximately"
+          },
+          "current": 85.5,
+          "unit": "km",
+          "period": {
+            "zh": "第二海管規劃，10/19 審查",
+            "en": "Second-pipeline plan reviewed October 19"
+          },
+          "owner": {
+            "zh": "中油計畫，由中央社報導",
+            "en": "CPC plan, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/ahel/202610190070.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期；不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源與廠務量測業者而言，管線屬燃料輸送背景，須與用戶實際供電條件分開看待。原始審查文件及通氣時程尚缺，無法從補件決定推定工廠擴充、停電率或設備需求的變化。",
+        "en": "For industrial-power and facilities-measurement suppliers, the pipeline is fuel-transport context rather than a user power commitment. Without original review documents or a gas-in schedule, the supplement decision cannot establish changes in factory expansion, outage rates or equipment demand."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "機房容量、GPU 利用率與收入儲備各在衡量什麼？",
+        "en": "What do facility MW, GPU utilization and backlog each measure?"
+      },
+      "text": {
+        "zh": "同一份更新並列已上線 A101、規劃 A201、集團利用率與未來合約收入，可對照營運、工程和財務指標的不同範圍。",
+        "en": "The update puts live A101, planned A201, group utilization and future contractual revenue side by side, allowing a factual comparison of operating, engineering and financial definitions."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "TGV 展品、試產及客戶驗證有哪些不同節點？",
+        "en": "How do a TGV exhibit, pilot production and customer validation differ?"
+      },
+      "text": {
+        "zh": "公司提出兩年投入、2027 年驗證及 2028 年量產目標，閱讀時可核對面板尺寸、製程驗證與實際良率各自需要的證據。",
+        "en": "The company gives spending, 2027 validation and 2028 production targets; panel dimensions, process validation and actual yield each require different evidence."
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "zh": "設備採購揭露期間如何改變投資數字的讀法？",
+        "en": "How does a purchase disclosure period change the reading of investment figures?"
+      },
+      "text": {
+        "zh": "臻鼎泰國案涵蓋近一年，力成案涵蓋數週；兩者都不能當作公告當天新增資本支出或已完成產能。",
+        "en": "Zhen Ding’s Thai disclosure covers nearly a year, while PTI’s spans weeks; neither is a one-day capital outlay or completed capacity."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "事實參考備忘錄",
+      "en": "Factual reference note"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價反應與舊建廠公告重刊",
+        "en": "Share-price reactions and recycled factory announcements"
+      },
+      "text": {
+        "zh": "僅有價格變化、券商推估，或未新增合約、投產及驗收資訊的舊公告重刊，未作為新進展列入。",
+        "en": "Price moves, broker projections and recycled announcements without new contracts, production or acceptance information were not selected as new developments."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "宸鴻技術與時程依公司說法的專業報導；力成及臻鼎設備公告以重大訊息轉載核對，未直接取得原件；海管審查依中央社報導，未取得會議紀錄。Bitdeer 為未經審計營運資料，A201 的一月與四月是不同節點；Aolani 意向書不具約束力且分發稿日期相差一天。神雲核准日採官方 10/16，公開日為 10/19。所有規劃容量、目標及收入儲備均非已完成實績；月度比較未標作 QoQ，也未反推缺少的基期。",
+    "en": "TPK technical and timing claims rely on professional reporting of company statements; PTI and Zhen Ding purchases were checked through filing reproductions without direct originals. Pipeline review relies on CNA without meeting minutes. Bitdeer data are unaudited, with separate January and April A201 milestones. Aolani’s LOIs are non-binding and distributed releases differ by one date. MiTAC approval follows the official October 16 date, with disclosure October 19. Planned capacity, targets and backlog are not completed results; monthly comparisons are not labeled QoQ and missing bases are not reverse-calculated."
+  }
+}

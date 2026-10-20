@@ -23,6 +23,8 @@ export function formatMetric(m,lang){
   case 'designs':return num(v,lang)+(zh?' 款晶片':' chip designs');
   case 'acres':return num(v,lang)+(zh?' 英畝':' acres');
   case 'turbines':return num(v,lang)+(zh?' 部風機':' turbines');
+  case 'GPUs':return num(v,lang)+(zh?' 顆 GPU':' GPUs');
+  case 'racks':return num(v,lang)+(zh?' 櫃':' racks');
   default:return num(v,lang)+' '+m.unit;
  }
 }
