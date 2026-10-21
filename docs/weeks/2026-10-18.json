@@ -1,9 +1,9 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-20T00:11:01.105Z",
+  "generatedAt": "2026-10-21T00:14:00.000Z",
   "throughline": {
-    "zh": "10/18 至 10/20 已刊重點串連 AI 機房與伺服器、晶圓及先進封裝、PCB 設備人才、區域貿易與汽車設備交易，各自保留規劃及生效條件。",
-    "en": "Published coverage for October 18–20 connects AI facilities and servers, wafers and advanced packaging, PCB equipment and talent, regional trade and an automotive-equipment transaction, retaining plan and effectiveness conditions."
+    "zh": "10/18 至 10/21 已刊重點串連 AI 機房與伺服器、晶圓及先進封裝、PCB 設備人才、區域貿易與汽車設備交易，各自保留規劃及生效條件。",
+    "en": "Published coverage for October 18–21 connects AI facilities and servers, wafers and advanced packaging, PCB equipment and talent, regional trade and an automotive-equipment transaction, retaining plan and effectiveness conditions."
   },
   "highlights": [
     {
@@ -18,6 +18,10 @@
         "en": "Bitdeer’s October 19 update reports 95% September group GPU utilization, with Malaysia A201 awaiting staged delivery in 2027; Aolani separately announces non-binding LOIs for up to 500 MW. MiTAC discloses a roughly NT$12.62 billion Taiwan manufacturing plan; no supply relationship among the three is stated, and planned capacity is not live capacity."
       },
       "references": [
+        {
+          "date": "2026-10-21",
+          "storyId": 1
+        },
         {
           "date": "2026-10-20",
           "storyId": 1

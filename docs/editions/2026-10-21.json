@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T00:14:00.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：AI 機房、伺服器、封裝設備與電源基建",
+      "en": "Taiwan and Southeast Asia: AI facilities, servers, packaging equipment and power infrastructure"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "馬來西亞 AI 機房與台灣伺服器與先進封裝投資仍以長約、採購與驗證節點為主，並未等同成為完整量產或已上線容量。",
+    "en": "Malaysia’s AI facility and Taiwan’s server and advanced-packaging investments remain defined by contracted coverage, equipment procurement and validation milestones, not completed live capacity."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "Bitdeer 與 Aolani 兩案都仍區分已上線、機房就緒與非約束性意向書；不能把規劃容量直接當成已到位容量。",
+        "en": "Bitdeer and Aolani both separate live capacity, site readiness and non-binding intent; planned capacity cannot be treated as installed capacity."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "神雲新廠與擴線計畫公開，投產日期與設備到位節點仍未一併確認；投資額不等於即時產出。",
+        "en": "MiTAC’s new facility and expansion plans are public, but production dates and equipment readiness are not yet confirmed together; investment does not equal immediate output."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "宸鴻、力成與 PCB 供應鏈的設備採購與驗證仍以試產與客戶認證為主，量產節點仍待確認。",
+        "en": "TPK, PTI and PCB-supply-chain equipment purchases remain centered on pilot production and customer validation, with mass production still pending."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "malaysia-ai-facility-capacity",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "馬來西亞 AI 機房相關長約與交付節點仍須分開看待",
+        "en": "Malaysia AI-facility commitments and delivery milestones remain distinct"
+      },
+      "summary": {
+        "zh": "Bitdeer 在馬來西亞的 A201 規劃仍以 2027 年 1 月機房就緒、4 月全面上線為不同節點，而 Aolani 也只揭露最高 500 MW 的非約束性意向書。兩家案子都顯示 AI 機房以長約、機房進度與供電完成度各自衡量，不能把計畫性容量直接當成已部署容量。",
+        "en": "Bitdeer’s A201 in Malaysia still distinguishes site readiness in January 2027 from full deployment in April 2027, while Aolani’s disclosure is only a non-binding LOI covering up to 500 MW. Both cases show that AI-facility progress is measured separately by contracted coverage, site completion and power readiness, and cannot be treated as installed capacity."
+      },
+      "metric": "95%",
+      "metricLabel": {
+        "zh": "Bitdeer 9 月 GPU 利用率",
+        "en": "Bitdeer September GPU utilization"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "馬來西亞柔佛州新山；A201、A101 兩處資料中心分別列示。",
+        "en": "Johor Bahru, Malaysia; A201 and A101 sites listed separately."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與已披露實績",
+            "en": "Supply chain and reported operating data"
+          },
+          "text": {
+            "zh": "AI 機房的關鍵節點涵蓋 GPU、伺服器機櫃、液冷和機房供電；公司更新中同時列出已上線 A101、規劃中 A201、集團 GPU 利用率和未來合約收入。這些數字屬不同層次：有的是當前已部署，另有的仍係規劃與長約。",
+            "en": "The critical milestones for an AI facility span GPUs, server racks, liquid cooling and site power. Company updates list an operating A101, a planned A201, group GPU utilization and future contracted revenue at the same time, which are distinct layers rather than one single operational figure."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字與節點的區別",
+            "en": "Definitions and milestones"
+          },
+          "text": {
+            "zh": "Bitdeer 披露 9 月 GPU 利用率 95%，但該值不能直接等同於 A201 的每月實際出力；A201 的階段交付仍分機房就緒與完整部署。Aolani 則列最高 500 MW 的非約束性 LOI，意思是未定義客戶最終落地與供電時間表。",
+            "en": "Bitdeer reports 95% September GPU utilization, but that does not equal A201’s actual monthly output; A201 still distinguishes readiness from full deployment. Aolani lists non-binding LOIs for up to 500 MW, which means the final customer uptake and power timeline are not yet defined."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "目前公開資料未完整說明 A201 交付條件、哪一批客戶已實際承租，以及機房通電與營收認列之間的落差。這些都仍須以正式交付公告、供電說明與長約條款為準。",
+            "en": "Public disclosure does not yet fully explain A201’s delivery conditions, which customers are already committed, or the gap between energization and revenue recognition. Those items remain contingent on formal delivery notices, power-availability statements and contractual terms."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "Bitdeer · 9 月營運更新原始新聞稿",
+            "en": "Bitdeer · original September operating update release"
+          },
+          "url": "https://www.globenewswire.com/news-release/2026/10/19/3383905/0/en/bitdeer-announces-september-2026-production-and-operations-update.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Bitdeer／SEC · 9 月營運更新",
+            "en": "Bitdeer / SEC · September operating update"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Aolani · 資料中心擴張公告",
+            "en": "Aolani · data-center expansion announcement"
+          },
+          "url": "https://www.aolani.com",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "馬來西亞官方數據中心發展資訊",
+            "en": "Official Malaysia data-center development information"
+          },
+          "url": "https://www.mida.gov.my",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {
+          "zh": "馬來西亞；新加坡（發布地）",
+          "en": "Malaysia; Singapore (release location)"
+        },
+        "industries": {
+          "zh": "GPU 雲端；伺服器；液冷；資料中心；電源",
+          "en": "GPU cloud; servers; liquid cooling; data centers; power"
+        },
+        "chain": {
+          "zh": "GPU 伺服器機櫃至液冷、供電與機房部署",
+          "en": "GPU server racks through liquid cooling, power and facility deployment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "A201 與 A101 均屬機房建置與採購階段，未顯示已完成所有機櫃與交付。",
+            "en": "A201 and A101 remain in facility deployment and procurement stages, without showing all racks and deliveries completed."
+          },
+          "demand": {
+            "zh": "長約覆蓋率、顧客承租與供電節點是衡量需求的關鍵。",
+            "en": "Contract coverage, customer take-up and power milestones are key demand measures."
+          },
+          "fdi": {
+            "zh": "馬來西亞顯示資料中心與電力基建延伸，仍須核對最終投資與執行條件。",
+            "en": "Malaysia shows a data-center and power-infrastructure extension, but final investment and execution conditions still require verification."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "這些資料直接影響整體 AI 伺服器供給鏈與高密度電源受理能力。",
+            "en": "These disclosures directly affect the broader AI-server supply chain and high-density power readiness."
+          },
+          "timing": {
+            "zh": "10/20 公開的進度資料仍以 2027 年交付與部署為主，未形成當前已上線容量。",
+            "en": "The October 20 disclosure centers on 2027 delivery and deployment milestones, not current live capacity."
+          },
+          "unknowns": {
+            "zh": "關鍵仍是實際通電時點、客戶裝機量與最終長約落地，公開資料未完整披露。",
+            "en": "The key unknowns remain energization timing, customer installation volumes and final contract execution, which public disclosures do not fully cover."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "Bitdeer 9 月 GPU 利用率",
+            "en": "Bitdeer September GPU utilization"
+          },
+          "current": 95,
+          "unit": "%",
+          "period": {
+            "zh": "9 月",
+            "en": "September"
+          },
+          "owner": {
+            "zh": "Bitdeer 集團公告",
+            "en": "Bitdeer group release"
+          },
+          "sourceUrl": "https://www.globenewswire.com/news-release/2026/10/19/3383905/0/en/bitdeer-announces-september-2026-production-and-operations-update.html",
+          "kind": "實績",
+          "comparison": "較 8 月 92%",
+          "base": 92,
+          "basePeriod": "8 月",
+          "reportedRate": null,
+          "baseStatus": "基期已明示；以 8 月為比較基準。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密電源與量測設備業者而言，重點不是單一數字，而是機房是否能順利交付、通電與驗證。若客戶承租與供電節點仍未落地，設備採購節奏會被延後，這些資訊仍需要與長約條款一併核對。",
+        "en": "For precision-power and measurement-equipment suppliers, the focus is not a single utilization number but whether the site can be delivered, energized and validated. If customer take-up and power milestones remain unresolved, equipment-purchase timing can be delayed, and those points must be checked alongside contract terms."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-server-investment",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "神雲新廠與擴線計畫再度公開，產能時間表仍未一併定義",
+        "en": "MiTAC’s new-factory and expansion plan is public, but capacity timing is not yet defined"
+      },
+      "summary": {
+        "zh": "神雲公布約 126.2 億元台灣投資案，涵蓋楊梅新廠、竹南與林口擴線，但公司未併同披露各站點的設備到位日期與開產驗收標準。這類案件仍以設備採購與擴產規劃為主，而非當前已出貨或已上線產能。",
+        "en": "MiTAC disclosed approximately NT$12.62 billion in Taiwan investment covering a new Yangmei plant and expansions in Zhunan and Linkou, but did not publish the equipment-install timing or acceptance thresholds for each site. The project remains a planned capital expansion rather than an immediate shipped or live capacity figure."
+      },
+      "metric": "NT$12.62B",
+      "metricLabel": {
+        "zh": "神雲台灣投資額",
+        "en": "MiTAC Taiwan investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "台灣桃園楊梅、新竹竹南、桃園林口；以廠區計畫為主。",
+        "en": "Yangmei, Zhunan and Linkou, Taiwan; the disclosure refers to site plans."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "投資內容與產線位置",
+            "en": "Investment scope and line locations"
+          },
+          "text": {
+            "zh": "投資案涵蓋新廠與原有產線擴大，對應伺服器、AI 相關組裝與電源技術的擴充需求。從供應鏈觀點，這代表先前產線、機櫃與高密度供電需求仍在擴張，而不是單一一個量產站點已完全落地。",
+            "en": "The package covers a new factory and expansion of existing lines, reflecting server, AI-related assembly and high-density power requirements. In supply-chain terms, this suggests expansion in racks, assembly and power-related demand, rather than a single mass-production site already fully online."
+          }
+        },
+        {
+          "label": {
+            "zh": "限制與待補足資訊",
+            "en": "Limits and missing detail"
+          },
+          "text": {
+            "zh": "公司未披露每個廠區的建廠工期、設備交期或新產能電力負載需求，因此不能將公布的投資額直接等同於近期期望出貨量。這些資訊會在後續公告中納入，唯目前仍須以計畫與驗收條件分開理解。",
+            "en": "The company did not disclose site-by-site build schedules, equipment lead times or power loads, so the disclosed investment cannot be equated directly with near-term shipments. Those details may appear in later filings, but current reading must keep plans and acceptance conditions separate."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "投資額、土地與工廠計畫已公開，但尚未公布實際開工日、設備到位日期與單站點產能目標，因此目前只能確認資本計畫與擴產方向。",
+            "en": "The investment, site and plant plans are public, but actual construction start dates, equipment installation dates and per-site capacity targets remain unpublished, so only the capital plan and expansion direction can be confirmed today."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "神雲／公開投資案新聞稿",
+            "en": "MiTAC / public investment announcement"
+          },
+          "url": "https://www.mitac.com.tw",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "台灣證券交易所公告",
+            "en": "Taiwan Stock Exchange disclosure"
+          },
+          "url": "https://www.tpex.org.tw",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "投資與產業新聞重點報導",
+            "en": "Investment and sector-news reporting"
+          },
+          "url": "https://www.cna.com.tw",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；AI 組裝；工廠擴建；高密度供電",
+          "en": "Servers; AI assembly; factory expansion; high-density power"
+        },
+        "chain": {
+          "zh": "伺服器組裝、機櫃與工廠擴能",
+          "en": "Server assembly, rack products and factory expansion"
+        },
+        "changes": {
+          "investment": {
+            "zh": "約 126.2 億元，涵蓋新廠與兩個擴線，代表資本支出仍在規劃與設計階段。",
+            "en": "Approximately NT$12.62 billion covering a new plant and two expansions implies capital outlay remains in planning and design."
+          },
+          "demand": {
+            "zh": "在高密度伺服器與 AI 設備需求持續的背景下，工廠擴張反映供應鏈需要加速產能準備。",
+            "en": "Against continued demand for high-density servers and AI equipment, factory expansion reflects the supply chain’s need to prepare capacity."
+          },
+          "fdi": {
+            "zh": "台灣內部投資並未直接等同外商投資；仍須確認是否啟動新增進出口或供應鏈重組。",
+            "en": "The Taiwan investment does not directly equal FDI; it still needs confirmation whether there is any new trade or supply-chain restructuring."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "此案直接關聯伺服器、AI 組裝和工廠供電的產線規劃。",
+            "en": "This case directly touches the planning of servers, AI assembly and factory power."
+          },
+          "timing": {
+            "zh": "投資公告發生在 10/19，產線啟動時間與採購時點尚未同步公開。",
+            "en": "The investment was announced on October 19, while line-start timing and procurement milestones were not disclosed together."
+          },
+          "unknowns": {
+            "zh": "沒有公開每個廠區的建造進度、產線品質認證與實際產能目標，不能直接推估近期量產。",
+            "en": "No site-specific build schedule, line-qualification plan or actual capacity target is public, so short-term output cannot be inferred directly."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "神雲台灣投資額",
+            "en": "MiTAC Taiwan investment"
+          },
+          "current": 12.62,
+          "unit": "億元新台幣",
+          "period": {
+            "zh": "投資案公告日",
+            "en": "Investment announcement"
+          },
+          "owner": {
+            "zh": "神雲公告",
+            "en": "MiTAC announcement"
+          },
+          "sourceUrl": "https://www.mitac.com.tw",
+          "kind": "規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資本計畫未提供可比基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器與電源供應鏈業者而言，這類投資案更多反映中長期產線準備，而不是立即性的出貨增量。關鍵要看設備交期、工廠通電和產線驗收，否則會把計畫性擴張誤判為已達成產能。",
+        "en": "For server and power-supply-chain firms, this type of investment mostly reflects medium-term line preparation rather than immediate shipment growth. The key is equipment lead times, facility energization and line acceptance; otherwise planned expansion can be mistaken for achieved capacity."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "advanced-packaging-equipment-validation",
+      "category": "tech",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "宸鴻與力成的封裝設備與玻璃基板驗證，仍以試產與客戶認證為核心",
+        "en": "TPK and PTI packaging equipment and glass-substrate validation still center on pilot runs and customer acceptance"
+      },
+      "summary": {
+        "zh": "宸鴻提出兩年 60 億元 TGV 規劃，力成則披露近期設備採購與封裝驗證節點。這些動作都強調驗證、規模擴張與適配客戶流程，尚無法視為量產落地，因為設備採購、試產與客戶驗證是不同的節點。",
+        "en": "TPK outlines a two-year NT$6 billion TGV plan, while PTI discloses nearby equipment procurement and packaging-validation milestones. Both actions emphasize validation, scale-up and customer-fit, but they do not yet amount to production readiness, because equipment purchase, pilot production and customer acceptance are separate milestones."
+      },
+      "metric": "NT$6B",
+      "metricLabel": {
+        "zh": "宸鴻兩年 TGV 規劃",
+        "en": "TPK two-year TGV plan"
+      },
+      "confidence": {
+        "zh": "中高",
+        "en": "Medium-high"
+      },
+      "location": {
+        "zh": "台灣；涉及封裝、玻璃基板與設備服務的測試與工程節點。",
+        "en": "Taiwan; involving packaging, glass-substrate and equipment-service test and engineering nodes."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "技術與設備鏈條",
+            "en": "Technology and equipment chain"
+          },
+          "text": {
+            "zh": "TGV、玻璃基板與分析設備屬先進封裝與高密度電源供應鏈的關鍵工具，關係到基板載具、熱管理與客戶驗證。這些案子都還是以試產、設備安裝與線體驗證為主，並不等同量產契約的落地。",
+            "en": "TGV, glass-substrate and analysis equipment sit on the critical path for advanced packaging and high-density power. These projects still revolve around pilot runs, equipment installation and line qualification, not mass-production contracts in place."
+          }
+        },
+        {
+          "label": {
+            "zh": "投資模式與產業判讀",
+            "en": "Investment pattern and industry interpretation"
+          },
+          "text": {
+            "zh": "區域設備採購與工廠規劃固然代表業者持續投入，但投資額要與實務量產、良率改善和客戶通過率分開看待。對供應鏈而言，技術能力還須在實際樣品與客戶驗證中確認。",
+            "en": "Regional equipment purchases and factory planning certainly show continued investment, but outlay must be kept separate from actual production volume, yield improvement and customer acceptance. For the supply chain, technical capability still needs to be confirmed through actual samples and customer verification."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "目前公開資料未提供完整良率、設備利用率與轉換班別資料，因此仍不能將規劃與試產直接界定成商業量產起點。",
+            "en": "Public information does not yet provide complete yield, equipment-utilization and conversion-rate data, so pilot-scale and planning figures cannot yet be treated as the start of commercial mass production."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "zh": "宸鴻／公司技術規劃新聞稿",
+            "en": "TPK / company technical-planning release"
+          },
+          "url": "https://www.tpk.com.tw",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "力成／重大訊息揭露",
+            "en": "PTI / significant-disclosure release"
+          },
+          "url": "https://www.pti.com.tw",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "封裝設備與基板報導",
+            "en": "Packaging-equipment and substrate news reporting"
+          },
+          "url": "https://www.eetimes.com",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "先進封裝；玻璃基板；設備；測試與驗證",
+          "en": "Advanced packaging; glass substrates; equipment; testing and validation"
+        },
+        "chain": {
+          "zh": "封裝設備、玻璃基板與客戶驗證",
+          "en": "Packaging equipment, glass substrate and customer validation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "投資與設備程式持續擴大，但仍處於驗證與規劃階段。",
+            "en": "Investment and equipment programs continue to expand, but remain in validation and planning stages."
+          },
+          "demand": {
+            "zh": "客戶驗證與良率要求仍是限制商業量產的重點。",
+            "en": "Customer validation and yield requirements remain the main constraints to commercial scale-up."
+          },
+          "fdi": {
+            "zh": "規劃內涵關聯國內設施與技術升級，不代表跨境直接投資增加。",
+            "en": "The plan relates to domestic facility and technology upgrades, not necessarily increased cross-border FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "這些設備與材料路線對高階封裝、AI 伺服器與散熱技術直接相關。",
+            "en": "These equipment and material routes are directly relevant to advanced packaging, AI servers and thermal management."
+          },
+          "timing": {
+            "zh": "投資與設備更新均發生在 10/20 前後，但量產時程仍未實際落地。",
+            "en": "Investment and equipment updates occurred around October 20, but production timing remains unestablished."
+          },
+          "unknowns": {
+            "zh": "目前缺少量產定義、良率與客戶認證明細，不能把它們等同於商業量產。",
+            "en": "The public record still lacks production definitions, yield details and customer-acceptance evidence, so they cannot be equated with commercial mass production."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "宸鴻 TGV 兩年規劃額",
+            "en": "TPK two-year TGV plan"
+          },
+          "current": 6,
+          "unit": "億元新台幣",
+          "period": {
+            "zh": "兩年規劃期",
+            "en": "Two-year plan horizon"
+          },
+          "owner": {
+            "zh": "宸鴻規劃公告",
+            "en": "TPK planning disclosure"
+          },
+          "sourceUrl": "https://www.tpk.com.tw",
+          "kind": "規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "規劃期未提供可比基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對供應鏈與封裝設備業者而言，這類投資案的意義在於技術與驗證能力的建立，而不是已經到達量產節點。要確認的關鍵是良率、交貨與客戶驗證是否持續向前，不是僅看資本支出總額。",
+        "en": "For packaging and equipment suppliers, the significance of this type of investment lies in building technical and validation capability, not in having reached a mass-production threshold. The key question is whether yield, delivery and customer validation keep moving forward, not just the capital outlay total."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "AI 機房的長約、設施完成度與實際出力，哪一個才是最可靠指標？",
+        "en": "Which is the most reliable metric for AI facilities: contracted coverage, facility completion or actual output?"
+      },
+      "text": {
+        "zh": "從公開內容看，長約、機房就緒與實際通電是三個不同層級的證據。閱讀時不能把規劃容量直接對應到實際裝機量。",
+        "en": "From public disclosure, contracted coverage, facility readiness and actual energization are three different evidence levels. They cannot be mapped directly onto one another."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "投資額與現場產能之間需要哪些中間證據？",
+        "en": "What intermediate evidence is needed between investment and site output?"
+      },
+      "text": {
+        "zh": "工廠投資案必須同時核對設備交付、施工進度、驗收標準與特定客戶需求，才能與產能建立關聯。",
+        "en": "A factory investment case must be checked against equipment delivery, construction progress, acceptance standards and specific customer demand before it can be linked to installed capacity."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "哪個訊號更能證明封裝或設備技術已成熟？",
+        "en": "Which signal best demonstrates that packaging or equipment technology has matured?"
+      },
+      "text": {
+        "zh": "完整量產需要良率、交付節點與客戶認證同時到位；單只看到規劃或試產，仍然不能代表成熟度。",
+        "en": "Complete scale-up requires yield, delivery milestones and customer validation all to be in place; seeing only planning or pilot activity still does not prove maturity."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "事實參考備忘錄",
+      "en": "Factual reference note"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "換日校正：規劃、到位與量產併列時，仍以實際交付與驗收為準",
+        "en": "Daily check: plans, readiness and mass production must be separated by actual delivery and acceptance"
+      },
+      "text": {
+        "zh": "本日新聞以機房進度、投資規模與設備驗證為主，沒有將計畫性擴張直接換算成已可使用產能。",
+        "en": "Today’s coverage focuses on site progress, investment scale and equipment validation, without converting planned expansion directly into usable output."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "本日資料以公司公開公告、官方資料中心與供應鏈發展資訊為主，將規劃、交付與量產節點分開處理；A201 與 Aolani 案例均未被視為已落地容量。神雲投資案以固定投資額披露為主，未同時公開各站點開工與量產時間；宸鴻、力成與封裝設備案則以規劃與驗證為主，未將其等同為量產起點。",
+    "en": "The day’s material relies on company disclosures, official data-center information and supply-chain development updates, with plans, delivery and production milestones separated. Neither the A201 nor the Aolani case is treated as installed capacity. MiTAC’s investment is read as a planned capital package without site-specific launch or output timings, while TPK, PTI and equipment-related matters are treated as planning and validation, not mass production."
+  }
+}
