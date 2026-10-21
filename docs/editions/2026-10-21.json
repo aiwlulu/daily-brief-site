@@ -1,87 +1,87 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T00:14:00.000Z",
+  "generatedAt": "2026-10-21T01:58:00.000Z",
   "coverage": {
     "focus": {
-      "zh": "台灣與東南亞：AI 機房、伺服器、封裝設備與電源基建",
-      "en": "Taiwan and Southeast Asia: AI facilities, servers, packaging equipment and power infrastructure"
+      "zh": "台灣與東南亞：資料中心電力、半導體供應鏈協作與電子製造投資",
+      "en": "Taiwan and Southeast Asia: data-center power, semiconductor supply-chain coordination, and electronics investment"
     },
     "approach": "facts-first"
   },
   "throughline": {
-    "zh": "馬來西亞 AI 機房與台灣伺服器與先進封裝投資仍以長約、採購與驗證節點為主，並未等同成為完整量產或已上線容量。",
-    "en": "Malaysia’s AI facility and Taiwan’s server and advanced-packaging investments remain defined by contracted coverage, equipment procurement and validation milestones, not completed live capacity."
+    "zh": "10/21 補刊改以馬來西亞資料中心核准與電力需求、台灣半導體夥伴合作，以及越南電子製造擴產為主，避免與前一日重複題材。",
+    "en": "This refreshed October 21 backfill focuses on Malaysia’s data-center approvals and power demand, Taiwan-linked semiconductor partner coordination, and electronics expansion in Vietnam to avoid overlap with the previous day."
   },
   "brief": [
     {
       "id": 1,
       "text": {
-        "zh": "Bitdeer 與 Aolani 兩案都仍區分已上線、機房就緒與非約束性意向書；不能把規劃容量直接當成已到位容量。",
-        "en": "Bitdeer and Aolani both separate live capacity, site readiness and non-binding intent; planned capacity cannot be treated as installed capacity."
+        "zh": "馬來西亞新增 27 件資料中心計畫、總值約 554 億美元，公開數字仍屬核准與規劃，不是全部已商轉容量。",
+        "en": "Malaysia reports 27 newly approved data-center projects worth about US$55.4 billion; the figures represent approvals and plans, not fully live capacity."
       }
     },
     {
       "id": 2,
       "text": {
-        "zh": "神雲新廠與擴線計畫公開，投產日期與設備到位節點仍未一併確認；投資額不等於即時產出。",
-        "en": "MiTAC’s new facility and expansion plans are public, but production dates and equipment readiness are not yet confirmed together; investment does not equal immediate output."
+        "zh": "市場報導估算馬來半島 2030 年資料中心用電需求約 8,391MW，Johor 占比超過一半，需與電網與接電時程分開看待。",
+        "en": "Reports estimate Peninsular Malaysia data-center demand at around 8,391MW by 2030, with Johor taking more than half; this must be read separately from grid and energization timelines."
       }
     },
     {
       "id": 3,
       "text": {
-        "zh": "宸鴻、力成與 PCB 供應鏈的設備採購與驗證仍以試產與客戶認證為主，量產節點仍待確認。",
-        "en": "TPK, PTI and PCB-supply-chain equipment purchases remain centered on pilot production and customer validation, with mass production still pending."
+        "zh": "越南電子製造擴產消息指向多筆十億美元等級投資意向，但落地時程與供應鏈帶動幅度仍待公司與主管機關後續揭露。",
+        "en": "Vietnam electronics expansion coverage points to multi-billion-dollar investment intentions, while implementation timing and supply-chain impact still await fuller disclosure from companies and authorities."
       }
     }
   ],
   "stories": [
     {
       "id": 1,
-      "topic": "malaysia-ai-facility-capacity",
+      "topic": "malaysia-approved-datacenter-projects",
       "category": "global",
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "馬來西亞 AI 機房相關長約與交付節點仍須分開看待",
-        "en": "Malaysia AI-facility commitments and delivery milestones remain distinct"
+        "zh": "馬來西亞核准 27 件資料中心計畫、金額約 554 億美元",
+        "en": "Malaysia approves 27 data-center projects worth about US$55.4 billion"
       },
       "summary": {
-        "zh": "Bitdeer 在馬來西亞的 A201 規劃仍以 2027 年 1 月機房就緒、4 月全面上線為不同節點，而 Aolani 也只揭露最高 500 MW 的非約束性意向書。兩家案子都顯示 AI 機房以長約、機房進度與供電完成度各自衡量，不能把計畫性容量直接當成已部署容量。",
-        "en": "Bitdeer’s A201 in Malaysia still distinguishes site readiness in January 2027 from full deployment in April 2027, while Aolani’s disclosure is only a non-binding LOI covering up to 500 MW. Both cases show that AI-facility progress is measured separately by contracted coverage, site completion and power readiness, and cannot be treated as installed capacity."
+        "zh": "10/21 檢視的區域報導指出，馬來西亞新增核准 27 件資料中心計畫，合計約 554 億美元。這組數字反映的是核准與投資承諾規模，不等同同日已完成接電、機櫃上架與商轉；對供應鏈而言，仍須看實際土建、變電與租戶導入節奏。",
+        "en": "Regional coverage reviewed on October 21 says Malaysia has approved 27 additional data-center projects worth about US$55.4 billion. The figure reflects approvals and investment commitments rather than same-day energization, rack deployment, and commercial operations; supply-chain impact still depends on construction, substation, and tenant ramp timing."
       },
-      "metric": "95%",
+      "metric": "US$55.4B",
       "metricLabel": {
-        "zh": "Bitdeer 9 月 GPU 利用率",
-        "en": "Bitdeer September GPU utilization"
+        "zh": "核准計畫金額",
+        "en": "Approved project value"
       },
       "confidence": {
-        "zh": "高",
-        "en": "High"
+        "zh": "中",
+        "en": "Medium"
       },
       "location": {
-        "zh": "馬來西亞柔佛州新山；A201、A101 兩處資料中心分別列示。",
-        "en": "Johor Bahru, Malaysia; A201 and A101 sites listed separately."
+        "zh": "馬來西亞（以半島地區資料中心走廊為主，Johor 與吉隆坡周邊最受關注）。",
+        "en": "Malaysia (centered on the Peninsular data-center corridor, with Johor and Greater Kuala Lumpur as key areas)."
       },
       "sections": [
         {
           "label": {
-            "zh": "供應鏈與已披露實績",
-            "en": "Supply chain and reported operating data"
+            "zh": "供應鏈關聯",
+            "en": "Supply-chain linkage"
           },
           "text": {
-            "zh": "AI 機房的關鍵節點涵蓋 GPU、伺服器機櫃、液冷和機房供電；公司更新中同時列出已上線 A101、規劃中 A201、集團 GPU 利用率和未來合約收入。這些數字屬不同層次：有的是當前已部署，另有的仍係規劃與長約。",
-            "en": "The critical milestones for an AI facility span GPUs, server racks, liquid cooling and site power. Company updates list an operating A101, a planned A201, group GPU utilization and future contracted revenue at the same time, which are distinct layers rather than one single operational figure."
+            "zh": "資料中心核准案會連動伺服器機櫃、配電、散熱、建廠與長週期電力設備需求。對台灣與東南亞鏈條的意義在於，新增核准會先轉化為工程與設備拉貨窗口，之後才是租戶實際裝機與營運收入。",
+            "en": "Data-center approvals affect server racks, power distribution, cooling, construction, and long-lead electrical equipment demand. For Taiwan and Southeast Asia, the first effect is an engineering and equipment-procurement window, followed later by actual tenant installation and operating revenue."
           }
         },
         {
           "label": {
-            "zh": "數字與節點的區別",
-            "en": "Definitions and milestones"
+            "zh": "數字怎麼讀",
+            "en": "How to read the numbers"
           },
           "text": {
-            "zh": "Bitdeer 披露 9 月 GPU 利用率 95%，但該值不能直接等同於 A201 的每月實際出力；A201 的階段交付仍分機房就緒與完整部署。Aolani 則列最高 500 MW 的非約束性 LOI，意思是未定義客戶最終落地與供電時間表。",
-            "en": "Bitdeer reports 95% September GPU utilization, but that does not equal A201’s actual monthly output; A201 still distinguishes readiness from full deployment. Aolani lists non-binding LOIs for up to 500 MW, which means the final customer uptake and power timeline are not yet defined."
+            "zh": "「27 件、554 億美元」是專案核准與總投資規模，不是可直接換算為當前上線 MW。若要評估短期影響，仍需拆開看土地取得、電力接入進度、機電建置與客戶簽約成熟度。",
+            "en": "“27 projects and US$55.4 billion” denotes approved pipeline scale, not directly live MW. Short-term impact still requires separating land progress, grid interconnection, MEP buildout, and contract maturity with tenants."
           }
         },
         {
@@ -90,164 +90,171 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "目前公開資料未完整說明 A201 交付條件、哪一批客戶已實際承租，以及機房通電與營收認列之間的落差。這些都仍須以正式交付公告、供電說明與長約條款為準。",
-            "en": "Public disclosure does not yet fully explain A201’s delivery conditions, which customers are already committed, or the gap between energization and revenue recognition. Those items remain contingent on formal delivery notices, power-availability statements and contractual terms."
+            "zh": "公開報導未完整列出每件專案的通電日期、IT 負載與分期啟用節點，因此無法將核准總額直接換算為年度可用容量。",
+            "en": "Public reporting does not fully list energization dates, IT loads, or phased go-live points for each project, so approved totals cannot be converted directly into annual live capacity."
           }
         }
       ],
       "sources": [
         {
           "name": {
-            "zh": "Bitdeer · 9 月營運更新原始新聞稿",
-            "en": "Bitdeer · original September operating update release"
+            "zh": "ET Datacenters：馬來西亞核准資料中心計畫報導",
+            "en": "ET Datacenters report on Malaysia project approvals"
           },
-          "url": "https://www.globenewswire.com/news-release/2026/10/19/3383905/0/en/bitdeer-announces-september-2026-production-and-operations-update.html",
-          "type": "First-hand"
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzNzM0NMSkREWVdUemNTbTg4d290enFfNWI2Q3h4Wm1SZ2xRTzcwS1FiQnkxeTM4UGZtUGlFUkJ4cXMyZUdQWTNIbk04SDlmU3B4aVlrOHRMYjBKdGhreWx2ZEJJdjVLbTY5UWR4d2VqUlliZVhUdHVmRkcyTmdxSUlVcmM1b2pXWFVRSnJWdjNPd2RYejJxTWtLbGFuNGhIZlFCMzVJUHI0M0pCTkY4V1AwVU1jdl95NTBlU2U4aHFxMHM0ZGJxNC1jcTlIY3pYcXBfcVB0MWFucnRB0gHgAUFVX3lxTFBSQTFJQjhwU0VCcXdvNm42SVNPUkQzeU9pN2FQNEltVEtKOFlFT0NfTVB2MmtwNkprU183Yk10b3RtamlmTk5PR2hSYUJNYVFPX3NTdTVjQW1wa2ZEeUZvajFhNFEwUlNaQXRDQVpyOHppUEVuQXVVNmc0M0dINlVWb19CbkFoX19OZ1Y3U3VCNmp4czh6bFlqWVZ3VnB3bnh3M3FFb0FaR1lXYkVuZWV4SngtS29lNWRINTNXTS0yaG1vTWI4NVF0MFhNaGNxUkZrT19PVTN3QU1pQnFyb3VL?oc=5",
+          "type": "Second-hand"
         },
         {
           "name": {
-            "zh": "Bitdeer／SEC · 9 月營運更新",
-            "en": "Bitdeer / SEC · September operating update"
+            "zh": "MIDA（馬來西亞投資發展機構）資料中心與投資資訊",
+            "en": "MIDA data-center and investment information"
           },
-          "url": "https://www.sec.gov/Archives/edgar/data/1899123/000121390026110703/ea030767901ex99-1.htm",
-          "type": "First-hand"
-        },
-        {
-          "name": {
-            "zh": "Aolani · 資料中心擴張公告",
-            "en": "Aolani · data-center expansion announcement"
-          },
-          "url": "https://www.aolani.com",
-          "type": "First-hand"
-        },
-        {
-          "name": {
-            "zh": "馬來西亞官方數據中心發展資訊",
-            "en": "Official Malaysia data-center development information"
-          },
-          "url": "https://www.mida.gov.my",
+          "url": "https://www.mida.gov.my/",
           "type": "First-hand"
         }
       ],
       "market": {
-        "eventDate": "2026-10-20",
+        "eventDate": "2026-10-21",
         "countries": {
-          "zh": "馬來西亞；新加坡（發布地）",
-          "en": "Malaysia; Singapore (release location)"
+          "zh": "馬來西亞",
+          "en": "Malaysia"
         },
         "industries": {
-          "zh": "GPU 雲端；伺服器；液冷；資料中心；電源",
-          "en": "GPU cloud; servers; liquid cooling; data centers; power"
+          "zh": "資料中心；伺服器；電力與配電；建廠工程",
+          "en": "Data centers; servers; power and distribution; construction engineering"
         },
         "chain": {
-          "zh": "GPU 伺服器機櫃至液冷、供電與機房部署",
-          "en": "GPU server racks through liquid cooling, power and facility deployment"
+          "zh": "機房建置、電力接入到伺服器上架",
+          "en": "Facility buildout, power interconnection, and server deployment"
         },
         "changes": {
           "investment": {
-            "zh": "A201 與 A101 均屬機房建置與採購階段，未顯示已完成所有機櫃與交付。",
-            "en": "A201 and A101 remain in facility deployment and procurement stages, without showing all racks and deliveries completed."
+            "zh": "核准計畫總值約 554 億美元，屬投資管線擴張訊號。",
+            "en": "Approved project value of about US$55.4 billion signals pipeline expansion."
           },
           "demand": {
-            "zh": "長約覆蓋率、顧客承租與供電節點是衡量需求的關鍵。",
-            "en": "Contract coverage, customer take-up and power milestones are key demand measures."
+            "zh": "新增核准提高後續設備與工程需求能見度，但不等於即期需求全數落地。",
+            "en": "Approvals raise visibility for future equipment and engineering demand, but do not mean all near-term demand is realized."
           },
           "fdi": {
-            "zh": "馬來西亞顯示資料中心與電力基建延伸，仍須核對最終投資與執行條件。",
-            "en": "Malaysia shows a data-center and power-infrastructure extension, but final investment and execution conditions still require verification."
+            "zh": "屬跨國資本流向馬來西亞資料中心基建的延續訊號。",
+            "en": "Indicates continued cross-border capital flow toward Malaysian data-center infrastructure."
           }
         },
         "facts": {
           "relevance": {
-            "zh": "這些資料直接影響整體 AI 伺服器供給鏈與高密度電源受理能力。",
-            "en": "These disclosures directly affect the broader AI-server supply chain and high-density power readiness."
+            "zh": "直接關聯區域機房、伺服器與供電設備採購節奏。",
+            "en": "Directly relevant to regional facility, server, and power-equipment procurement cadence."
           },
           "timing": {
-            "zh": "10/20 公開的進度資料仍以 2027 年交付與部署為主，未形成當前已上線容量。",
-            "en": "The October 20 disclosure centers on 2027 delivery and deployment milestones, not current live capacity."
+            "zh": "10/21 查核的新增披露重點是核准數與金額，不是完工進度。",
+            "en": "The October 21 update emphasizes approval counts and value rather than completion progress."
           },
           "unknowns": {
-            "zh": "關鍵仍是實際通電時點、客戶裝機量與最終長約落地，公開資料未完整披露。",
-            "en": "The key unknowns remain energization timing, customer installation volumes and final contract execution, which public disclosures do not fully cover."
+            "zh": "專案別完工時程、分期通電與租戶上架密度仍未完整揭露。",
+            "en": "Project-level completion schedules, phased energization, and tenant density are not fully disclosed."
           }
         }
       },
       "metrics": [
         {
           "name": {
-            "zh": "Bitdeer 9 月 GPU 利用率",
-            "en": "Bitdeer September GPU utilization"
+            "zh": "核准資料中心專案數",
+            "en": "Approved data-center project count"
           },
-          "current": 95,
-          "unit": "%",
+          "current": 27,
+          "unit": "件",
           "period": {
-            "zh": "9 月",
-            "en": "September"
+            "zh": "10/21 披露",
+            "en": "Disclosed on Oct 21"
           },
           "owner": {
-            "zh": "Bitdeer 集團公告",
-            "en": "Bitdeer group release"
+            "zh": "區域媒體引述官方投資資訊",
+            "en": "Regional media citing official investment information"
           },
-          "sourceUrl": "https://www.globenewswire.com/news-release/2026/10/19/3383905/0/en/bitdeer-announces-september-2026-production-and-operations-update.html",
-          "kind": "實績",
-          "comparison": "較 8 月 92%",
-          "base": 92,
-          "basePeriod": "8 月",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzNzM0NMSkREWVdUemNTbTg4d290enFfNWI2Q3h4Wm1SZ2xRTzcwS1FiQnkxeTM4UGZtUGlFUkJ4cXMyZUdQWTNIbk04SDlmU3B4aVlrOHRMYjBKdGhreWx2ZEJJdjVLbTY5UWR4d2VqUlliZVhUdHVmRkcyTmdxSUlVcmM1b2pXWFVRSnJWdjNPd2RYejJxTWtLbGFuNGhIZlFCMzVJUHI0M0pCTkY4V1AwVU1jdl95NTBlU2U4aHFxMHM0ZGJxNC1jcTlIY3pYcXBfcVB0MWFucnRB0gHgAUFVX3lxTFBSQTFJQjhwU0VCcXdvNm42SVNPUkQzeU9pN2FQNEltVEtKOFlFT0NfTVB2MmtwNkprU183Yk10b3RtamlmTk5PR2hSYUJNYVFPX3NTdTVjQW1wa2ZEeUZvajFhNFEwUlNaQXRDQVpyOHppUEVuQXVVNmc0M0dINlVWb19CbkFoX19OZ1Y3U3VCNmp4czh6bFlqWVZ3VnB3bnh3M3FFb0FaR1lXYkVuZWV4SngtS29lNWRINTNXTS0yaG1vTWI4NVF0MFhNaGNxUkZrT19PVTN3QU1pQnFyb3VL?oc=5",
+          "kind": "統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
           "reportedRate": null,
-          "baseStatus": "基期已明示；以 8 月為比較基準。"
+          "baseStatus": "來源未提供同口徑歷史基期。"
+        },
+        {
+          "name": {
+            "zh": "核准計畫總值",
+            "en": "Approved project value"
+          },
+          "current": 55.4,
+          "unit": "十億美元",
+          "period": {
+            "zh": "10/21 披露",
+            "en": "Disclosed on Oct 21"
+          },
+          "owner": {
+            "zh": "區域媒體引述官方投資資訊",
+            "en": "Regional media citing official investment information"
+          },
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzNzM0NMSkREWVdUemNTbTg4d290enFfNWI2Q3h4Wm1SZ2xRTzcwS1FiQnkxeTM4UGZtUGlFUkJ4cXMyZUdQWTNIbk04SDlmU3B4aVlrOHRMYjBKdGhreWx2ZEJJdjVLbTY5UWR4d2VqUlliZVhUdHVmRkcyTmdxSUlVcmM1b2pXWFVRSnJWdjNPd2RYejJxTWtLbGFuNGhIZlFCMzVJUHI0M0pCTkY4V1AwVU1jdl95NTBlU2U4aHFxMHM0ZGJxNC1jcTlIY3pYcXBfcVB0MWFucnRB0gHgAUFVX3lxTFBSQTFJQjhwU0VCcXdvNm42SVNPUkQzeU9pN2FQNEltVEtKOFlFT0NfTVB2MmtwNkprU183Yk10b3RtamlmTk5PR2hSYUJNYVFPX3NTdTVjQW1wa2ZEeUZvajFhNFEwUlNaQXRDQVpyOHppUEVuQXVVNmc0M0dINlVWb19CbkFoX19OZ1Y3U3VCNmp4czh6bFlqWVZ3VnB3bnh3M3FFb0FaR1lXYkVuZWV4SngtS29lNWRINTNXTS0yaG1vTWI4NVF0MFhNaGNxUkZrT19PVTN3QU1pQnFyb3VL?oc=5",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比基期。"
         }
       ],
       "ceoView": {
-        "zh": "對精密電源與量測設備業者而言，重點不是單一數字，而是機房是否能順利交付、通電與驗證。若客戶承租與供電節點仍未落地，設備採購節奏會被延後，這些資訊仍需要與長約條款一併核對。",
-        "en": "For precision-power and measurement-equipment suppliers, the focus is not a single utilization number but whether the site can be delivered, energized and validated. If customer take-up and power milestones remain unresolved, equipment-purchase timing can be delayed, and those points must be checked alongside contract terms."
+        "zh": "對精密電源與量測設備業者而言，這批核准案代表可追蹤的工程與接電需求管線，而不是立即可認列的設備銷售。下一步要核對的是分期上線節點、電網可用餘裕與實際租戶導入速度。",
+        "en": "For precision-power and measurement suppliers, this approval batch is a trackable engineering and energization pipeline rather than immediately recognizable equipment sales. The next checks are phased go-live timing, available grid headroom, and real tenant ramp speed."
       }
     },
     {
       "id": 2,
-      "topic": "taiwan-server-investment",
-      "category": "taiwan",
+      "topic": "peninsular-malaysia-dc-power-demand-2030",
+      "category": "global",
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "神雲新廠與擴線計畫再度公開，產能時間表仍未一併定義",
-        "en": "MiTAC’s new-factory and expansion plan is public, but capacity timing is not yet defined"
+        "zh": "馬來半島資料中心用電需求估 2030 年達 8,391MW，Johor 比重過半",
+        "en": "Peninsular Malaysia data-center demand estimated at 8,391MW by 2030, with Johor above half"
       },
       "summary": {
-        "zh": "神雲公布約 126.2 億元台灣投資案，涵蓋楊梅新廠、竹南與林口擴線，但公司未併同披露各站點的設備到位日期與開產驗收標準。這類案件仍以設備採購與擴產規劃為主，而非當前已出貨或已上線產能。",
-        "en": "MiTAC disclosed approximately NT$12.62 billion in Taiwan investment covering a new Yangmei plant and expansions in Zhunan and Linkou, but did not publish the equipment-install timing or acceptance thresholds for each site. The project remains a planned capital expansion rather than an immediate shipped or live capacity figure."
+        "zh": "10/21 追蹤報導顯示，馬來半島資料中心在 2030 年的用電需求估達 8,391MW，且 Johor 占比超過一半。這是需求估算，不是現況負載；對供應鏈的實際影響仍取決於電力系統升級、並網審批與機房分期投運。",
+        "en": "October 21 reporting indicates Peninsular Malaysia data-center demand could reach 8,391MW by 2030, with Johor accounting for more than half. This is a demand estimate rather than current load; real supply-chain effects still depend on grid upgrades, interconnection approvals, and phased commissioning."
       },
-      "metric": "NT$12.62B",
+      "metric": "8,391MW",
       "metricLabel": {
-        "zh": "神雲台灣投資額",
-        "en": "MiTAC Taiwan investment"
+        "zh": "2030 年需求估算",
+        "en": "Estimated demand by 2030"
       },
       "confidence": {
-        "zh": "高",
-        "en": "High"
+        "zh": "中",
+        "en": "Medium"
       },
       "location": {
-        "zh": "台灣桃園楊梅、新竹竹南、桃園林口；以廠區計畫為主。",
-        "en": "Yangmei, Zhunan and Linkou, Taiwan; the disclosure refers to site plans."
+        "zh": "馬來西亞半島（Johor 為主要集中區）。",
+        "en": "Peninsular Malaysia (with Johor as the main concentration)."
       },
       "sections": [
         {
           "label": {
-            "zh": "投資內容與產線位置",
-            "en": "Investment scope and line locations"
+            "zh": "電力與機房節點",
+            "en": "Power and facility milestones"
           },
           "text": {
-            "zh": "投資案涵蓋新廠與原有產線擴大，對應伺服器、AI 相關組裝與電源技術的擴充需求。從供應鏈觀點，這代表先前產線、機櫃與高密度供電需求仍在擴張，而不是單一一個量產站點已完全落地。",
-            "en": "The package covers a new factory and expansion of existing lines, reflecting server, AI-related assembly and high-density power requirements. In supply-chain terms, this suggests expansion in racks, assembly and power-related demand, rather than a single mass-production site already fully online."
+            "zh": "資料中心需求往往先反映在申請容量與併網規劃，其後才轉化為可用 IT 負載。若區域電網升級、變電站擴容與備援建設進度不同步，估算需求不會立即轉成可交付容量。",
+            "en": "Data-center demand usually appears first in requested capacity and interconnection planning, then later in usable IT load. If grid upgrades, substation expansion, and backup infrastructure progress are not synchronized, estimated demand will not immediately become deliverable capacity."
           }
         },
         {
           "label": {
-            "zh": "限制與待補足資訊",
-            "en": "Limits and missing detail"
+            "zh": "與前日題材差異",
+            "en": "Difference from the prior day"
           },
           "text": {
-            "zh": "公司未披露每個廠區的建廠工期、設備交期或新產能電力負載需求，因此不能將公布的投資額直接等同於近期期望出貨量。這些資訊會在後續公告中納入，唯目前仍須以計畫與驗收條件分開理解。",
-            "en": "The company did not disclose site-by-site build schedules, equipment lead times or power loads, so the disclosed investment cannot be equated directly with near-term shipments. Those details may appear in later filings, but current reading must keep plans and acceptance conditions separate."
+            "zh": "本則聚焦區域用電需求與地理分布，不重複前日對單一企業合約覆蓋率或機房交付節點的敘述。重點從單案營運數字轉為系統性電力壓力與配套建設。",
+            "en": "This story focuses on regional demand and geographic concentration, not the prior day’s company-level contract coverage or single-site delivery milestones. The emphasis shifts from one-project operating metrics to system-level power pressure and infrastructure support."
           }
         },
         {
@@ -256,156 +263,171 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "投資額、土地與工廠計畫已公開，但尚未公布實際開工日、設備到位日期與單站點產能目標，因此目前只能確認資本計畫與擴產方向。",
-            "en": "The investment, site and plant plans are public, but actual construction start dates, equipment installation dates and per-site capacity targets remain unpublished, so only the capital plan and expansion direction can be confirmed today."
+            "zh": "尚未取得完整公開清單可逐案比對各園區實際接電與上架時間，因此目前僅能把 8,391MW 視為需求規模指標。",
+            "en": "A complete public project-by-project list for energization and deployment timing is still unavailable, so 8,391MW should currently be treated as a scale indicator of demand."
           }
         }
       ],
       "sources": [
         {
           "name": {
-            "zh": "神雲／公開投資案新聞稿",
-            "en": "MiTAC / public investment announcement"
+            "zh": "The Vibes：馬來半島資料中心用電需求報導",
+            "en": "The Vibes report on Peninsular Malaysia data-center power demand"
           },
-          "url": "https://www.mitac.com.tw",
-          "type": "First-hand"
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHh6OXZjczZsT2NXR1JJUVhpTkxGSjhzYWNWTkEtVlY2Z3R3bjJjSXZjN2ItTnoyT1VGUlFwckZFZUJJZ3pWYnZ5UXNGTi0yNnRWVzNzVncxYlNsVENlSURLRm5JVFNEbHpsQ2doMkRDYnJTN0FPaFdfd3ptWVBYejFHOHF2U1F1SnJhTnVaWUZxMkRvSlhlQ3ZSaGItSUJzWHQ1NnhBOHRyQmM1X0xHWEN3SEM0REtWN0dj?oc=5",
+          "type": "Second-hand"
         },
         {
           "name": {
-            "zh": "台灣證券交易所公告",
-            "en": "Taiwan Stock Exchange disclosure"
+            "zh": "Reuters：馬來半島電力需求成長與資料中心連動",
+            "en": "Reuters on Peninsular power-demand growth linked to data centers"
           },
-          "url": "https://www.tpex.org.tw",
-          "type": "First-hand"
-        },
-        {
-          "name": {
-            "zh": "投資與產業新聞重點報導",
-            "en": "Investment and sector-news reporting"
-          },
-          "url": "https://www.cna.com.tw",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXduQVNWUzUzdzhycjUxMHhYR0ZLLVFXQ0NaR1pQdENZREUwaFlhY045Z2pianNsSXJmRGlkMGRQZzNBOVNMbm1nQVZNWl9QV2txdjJsZHVIenEzaGF3eHE3QWdzVUJaOGlJVFFsNTdHUFh4UGkzVjVhaGNuWl9IVGJ2eHZoZ1o4UURmUi1PaGRuVTFMUzVKS1JsdVV4WkpVN29BSG5Ha2l5MDhIX3N0Y1VURUQ2azQ?oc=5",
           "type": "Second-hand"
         }
       ],
       "market": {
-        "eventDate": "2026-10-19",
+        "eventDate": "2026-10-21",
         "countries": {
-          "zh": "台灣",
-          "en": "Taiwan"
+          "zh": "馬來西亞",
+          "en": "Malaysia"
         },
         "industries": {
-          "zh": "伺服器；AI 組裝；工廠擴建；高密度供電",
-          "en": "Servers; AI assembly; factory expansion; high-density power"
+          "zh": "資料中心；電網；配電與儲能",
+          "en": "Data centers; power grid; distribution and storage"
         },
         "chain": {
-          "zh": "伺服器組裝、機櫃與工廠擴能",
-          "en": "Server assembly, rack products and factory expansion"
+          "zh": "電網規劃到機房上線",
+          "en": "Grid planning to data-center go-live"
         },
         "changes": {
           "investment": {
-            "zh": "約 126.2 億元，涵蓋新廠與兩個擴線，代表資本支出仍在規劃與設計階段。",
-            "en": "Approximately NT$12.62 billion covering a new plant and two expansions implies capital outlay remains in planning and design."
+            "zh": "需求估算提升將推動後續配電、備援與土建投資評估。",
+            "en": "Higher demand estimates will drive later assessments of distribution, backup, and civil investment."
           },
           "demand": {
-            "zh": "在高密度伺服器與 AI 設備需求持續的背景下，工廠擴張反映供應鏈需要加速產能準備。",
-            "en": "Against continued demand for high-density servers and AI equipment, factory expansion reflects the supply chain’s need to prepare capacity."
+            "zh": "2030 年需求估值 8,391MW，顯示集中式成長壓力。",
+            "en": "The 8,391MW estimate by 2030 indicates concentrated growth pressure."
           },
           "fdi": {
-            "zh": "台灣內部投資並未直接等同外商投資；仍須確認是否啟動新增進出口或供應鏈重組。",
-            "en": "The Taiwan investment does not directly equal FDI; it still needs confirmation whether there is any new trade or supply-chain restructuring."
+            "zh": "需求集中區若加速落地，將持續吸引跨境機房與電力基建資本。",
+            "en": "If concentrated-demand zones accelerate implementation, they can continue attracting cross-border data-center and power-infrastructure capital."
           }
         },
         "facts": {
           "relevance": {
-            "zh": "此案直接關聯伺服器、AI 組裝和工廠供電的產線規劃。",
-            "en": "This case directly touches the planning of servers, AI assembly and factory power."
+            "zh": "可用於判讀伺服器、電源與冷卻設備在東南亞的區域部署節奏。",
+            "en": "Useful for reading the regional deployment cadence of servers, power, and cooling equipment in Southeast Asia."
           },
           "timing": {
-            "zh": "投資公告發生在 10/19，產線啟動時間與採購時點尚未同步公開。",
-            "en": "The investment was announced on October 19, while line-start timing and procurement milestones were not disclosed together."
+            "zh": "10/21 的重點是需求估算更新，不是即期用電實績公告。",
+            "en": "The October 21 update is an estimate refresh, not an immediate actual-consumption release."
           },
           "unknowns": {
-            "zh": "沒有公開每個廠區的建造進度、產線品質認證與實際產能目標，不能直接推估近期量產。",
-            "en": "No site-specific build schedule, line-qualification plan or actual capacity target is public, so short-term output cannot be inferred directly."
+            "zh": "估算模型假設、實際併網排程與各地區政策限制仍未完整公開。",
+            "en": "Model assumptions, actual interconnection schedules, and local policy constraints remain incompletely disclosed."
           }
         }
       },
       "metrics": [
         {
           "name": {
-            "zh": "神雲台灣投資額",
-            "en": "MiTAC Taiwan investment"
+            "zh": "2030 年資料中心需求估算",
+            "en": "Estimated data-center demand in 2030"
           },
-          "current": 12.62,
-          "unit": "億元新台幣",
+          "current": 8391,
+          "unit": "MW",
           "period": {
-            "zh": "投資案公告日",
-            "en": "Investment announcement"
+            "zh": "2030 年估算",
+            "en": "2030 estimate"
           },
           "owner": {
-            "zh": "神雲公告",
-            "en": "MiTAC announcement"
+            "zh": "媒體引述區域統計",
+            "en": "Media-cited regional estimate"
           },
-          "sourceUrl": "https://www.mitac.com.tw",
-          "kind": "規劃",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHh6OXZjczZsT2NXR1JJUVhpTkxGSjhzYWNWTkEtVlY2Z3R3bjJjSXZjN2ItTnoyT1VGUlFwckZFZUJJZ3pWYnZ5UXNGTi0yNnRWVzNzVncxYlNsVENlSURLRm5JVFNEbHpsQ2doMkRDYnJTN0FPaFdfd3ptWVBYejFHOHF2U1F1SnJhTnVaWUZxMkRvSlhlQ3ZSaGItSUJzWHQ1NnhBOHRyQmM1X0xHWEN3SEM0REtWN0dj?oc=5",
+          "kind": "預測",
           "comparison": "無",
           "base": null,
           "basePeriod": null,
           "reportedRate": null,
-          "baseStatus": "資本計畫未提供可比基期。"
+          "baseStatus": "報導未附同口徑歷史基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年馬來半島用電年增",
+            "en": "Peninsular power-use growth for 2027"
+          },
+          "current": 4.9,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年預估",
+            "en": "Estimated for 2027"
+          },
+          "owner": {
+            "zh": "Reuters 報導引述區域數據",
+            "en": "Regional data as cited by Reuters"
+          },
+          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXduQVNWUzUzdzhycjUxMHhYR0ZLLVFXQ0NaR1pQdENZREUwaFlhY045Z2pianNsSXJmRGlkMGRQZzNBOVNMbm1nQVZNWl9QV2txdjJsZHVIenEzaGF3eHE3QWdzVUJaOGlJVFFsNTdHUFh4UGkzVjVhaGNuWl9IVGJ2eHZoZ1o4UURmUi1PaGRuVTFMUzVKS1JsdVV4WkpVN29BSG5Ha2l5MDhIX3N0Y1VURUQ2azQ?oc=5",
+          "kind": "預測",
+          "comparison": "年增",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.049,
+          "baseStatus": "僅披露成長率，未附絕對基期值。"
         }
       ],
       "ceoView": {
-        "zh": "對伺服器與電源供應鏈業者而言，這類投資案更多反映中長期產線準備，而不是立即性的出貨增量。關鍵要看設備交期、工廠通電和產線驗收，否則會把計畫性擴張誤判為已達成產能。",
-        "en": "For server and power-supply-chain firms, this type of investment mostly reflects medium-term line preparation rather than immediate shipment growth. The key is equipment lead times, facility energization and line acceptance; otherwise planned expansion can be mistaken for achieved capacity."
+        "zh": "對精密電源與量測設備業者而言，8,391MW 代表的是潛在設計容量，不是當期可認列市場。要評估接單窗口，仍需同步追蹤變電節點、並網核准與客戶分期上架是否一致。",
+        "en": "For precision-power and measurement suppliers, 8,391MW is potential design load, not immediately recognizable market volume. Order timing still depends on whether substation milestones, interconnection approvals, and tenant deployment phases align."
       }
     },
     {
       "id": 3,
-      "topic": "advanced-packaging-equipment-validation",
-      "category": "tech",
+      "topic": "vietnam-electronics-expansion-signals",
+      "category": "global",
       "pick": true,
       "depth": "standard",
       "title": {
-        "zh": "宸鴻與力成的封裝設備與玻璃基板驗證，仍以試產與客戶認證為核心",
-        "en": "TPK and PTI packaging equipment and glass-substrate validation still center on pilot runs and customer acceptance"
+        "zh": "越南電子製造擴產訊號升溫，十億美元級投資意向待落地",
+        "en": "Vietnam electronics expansion signals strengthen, with multi-billion-dollar intentions still pending execution"
       },
       "summary": {
-        "zh": "宸鴻提出兩年 60 億元 TGV 規劃，力成則披露近期設備採購與封裝驗證節點。這些動作都強調驗證、規模擴張與適配客戶流程，尚無法視為量產落地，因為設備採購、試產與客戶驗證是不同的節點。",
-        "en": "TPK outlines a two-year NT$6 billion TGV plan, while PTI discloses nearby equipment procurement and packaging-validation milestones. Both actions emphasize validation, scale-up and customer-fit, but they do not yet amount to production readiness, because equipment purchase, pilot production and customer acceptance are separate milestones."
+        "zh": "10/21 匯整的供應鏈報導提到，越南電子與半導體測試鏈條持續出現十億美元等級投資意向，包括台系與韓系廠商的擴產規劃。現階段多為公告與媒體揭露，對產能與就業的實際影響仍須等正式核准、施工與設備進場時程。",
+        "en": "Supply-chain coverage reviewed on October 21 highlights continued multi-billion-dollar investment intentions in Vietnam’s electronics and chip-testing chain, including Taiwanese and Korean expansion plans. Most items remain at the disclosure stage, and real capacity or employment impact still depends on formal approvals, construction, and equipment-install timelines."
       },
-      "metric": "NT$6B",
+      "metric": "US$4.1B",
       "metricLabel": {
-        "zh": "宸鴻兩年 TGV 規劃",
-        "en": "TPK two-year TGV plan"
+        "zh": "單案投資意向",
+        "en": "Single-project investment intention"
       },
       "confidence": {
-        "zh": "中高",
-        "en": "Medium-high"
+        "zh": "中",
+        "en": "Medium"
       },
       "location": {
-        "zh": "台灣；涉及封裝、玻璃基板與設備服務的測試與工程節點。",
-        "en": "Taiwan; involving packaging, glass-substrate and equipment-service test and engineering nodes."
+        "zh": "越南北部電子製造走廊（含測試與封測相關基地）。",
+        "en": "Northern Vietnam electronics-manufacturing corridor, including test and packaging-related sites."
       },
       "sections": [
         {
           "label": {
-            "zh": "技術與設備鏈條",
-            "en": "Technology and equipment chain"
+            "zh": "供應鏈意義",
+            "en": "Supply-chain meaning"
           },
           "text": {
-            "zh": "TGV、玻璃基板與分析設備屬先進封裝與高密度電源供應鏈的關鍵工具，關係到基板載具、熱管理與客戶驗證。這些案子都還是以試產、設備安裝與線體驗證為主，並不等同量產契約的落地。",
-            "en": "TGV, glass-substrate and analysis equipment sit on the critical path for advanced packaging and high-density power. These projects still revolve around pilot runs, equipment installation and line qualification, not mass-production contracts in place."
+            "zh": "越南擴產若落地，會連動封測、電力系統、治具、自動化與周邊材料需求。對台灣與東南亞鏈條而言，重點不是單一新聞數字，而是是否形成連續的專案核准與設備導入節奏。",
+            "en": "If Vietnam expansion plans are executed, they would affect testing, power systems, fixtures, automation, and adjacent materials demand. For Taiwan and Southeast Asia, the key is not one headline number but whether approvals and equipment deployment form a sustained cadence."
           }
         },
         {
           "label": {
-            "zh": "投資模式與產業判讀",
-            "en": "Investment pattern and industry interpretation"
+            "zh": "與前一日區隔",
+            "en": "Separation from the prior day"
           },
           "text": {
-            "zh": "區域設備採購與工廠規劃固然代表業者持續投入，但投資額要與實務量產、良率改善和客戶通過率分開看待。對供應鏈而言，技術能力還須在實際樣品與客戶驗證中確認。",
-            "en": "Regional equipment purchases and factory planning certainly show continued investment, but outlay must be kept separate from actual production volume, yield improvement and customer acceptance. For the supply chain, technical capability still needs to be confirmed through actual samples and customer verification."
+            "zh": "本則改為越南電子製造與測試鏈條的跨國投資觀察，避免重複前日馬來西亞機房與台灣單一企業投資題材。分析重點落在區域產能遷移與擴廠執行條件。",
+            "en": "This item shifts to cross-border investment signals in Vietnam’s electronics and testing chain, avoiding repetition of prior-day Malaysia facility and Taiwan single-company investment themes. The focus is on regional capacity migration and execution conditions."
           }
         },
         {
@@ -414,108 +436,100 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "目前公開資料未提供完整良率、設備利用率與轉換班別資料，因此仍不能將規劃與試產直接界定成商業量產起點。",
-            "en": "Public information does not yet provide complete yield, equipment-utilization and conversion-rate data, so pilot-scale and planning figures cannot yet be treated as the start of commercial mass production."
+            "zh": "目前公開內容未完整揭露各案最終核准條件、施工里程碑與量產節點，因此仍不能把投資意向直接視為短期新增可用產能。",
+            "en": "Public information still lacks full disclosure on final approvals, construction milestones, and production start points, so investment intentions cannot yet be treated as near-term available capacity."
           }
         }
       ],
       "sources": [
         {
           "name": {
-            "zh": "宸鴻／公司技術規劃新聞稿",
-            "en": "TPK / company technical-planning release"
+            "zh": "Theinvestor：越南電子擴產與台系投資報導",
+            "en": "Theinvestor coverage on Vietnam electronics expansion and Taiwanese investment"
           },
-          "url": "https://www.tpk.com.tw",
-          "type": "First-hand"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMllWN2MzeUcyMGh6NGVhRTVCRFM5cmk4MTMxc3daZEZ5UWVqdUhWdk5YVmdIVHV5bkJBNVU2MUtRVVA5TVJ3azRrTVdGSlpHbEJsSUdaMDF4Zm5WaUpBcWZxTURYcV94VjZScnVXV1h5ZzVDZlB5NlZvUzBkbmlYZzVicXBlNklycjdHd0lacTI0alZ6VFRjcjNPNkpsYnJNOW8ydHAxeS1aOC00MUE?oc=5",
+          "type": "Second-hand"
         },
         {
           "name": {
-            "zh": "力成／重大訊息揭露",
-            "en": "PTI / significant-disclosure release"
+            "zh": "Theinvestor：三星越南測試投資報導",
+            "en": "Theinvestor report on Samsung testing investment in Vietnam"
           },
-          "url": "https://www.pti.com.tw",
-          "type": "First-hand"
-        },
-        {
-          "name": {
-            "zh": "封裝設備與基板報導",
-            "en": "Packaging-equipment and substrate news reporting"
-          },
-          "url": "https://www.eetimes.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkUwMkNKOWgzOTVRbmRHbXhEWlJYY3kwSlRkU1hGUzhSSF9HVXdUT0NSZ3Y4bUN0dlEtcHRuYWhrQUwtSDN4XzBCWTgyU0pDdW04Z3ViSXFweGEzZU1DV3h2NXdUd0FNS3dKMXJtbHpTaXFGME9BeDlUNHFLNFZ3cHB2WDdUcnZqVUVKeDR0NC1QREZHeUkxN09Lb0R1UWduQmZHWXdaS1d4ajdHcWRR?oc=5",
           "type": "Second-hand"
         }
       ],
       "market": {
-        "eventDate": "2026-10-20",
+        "eventDate": "2026-10-21",
         "countries": {
-          "zh": "台灣",
-          "en": "Taiwan"
+          "zh": "越南；台灣（投資來源之一）",
+          "en": "Vietnam; Taiwan (one of the investment sources)"
         },
         "industries": {
-          "zh": "先進封裝；玻璃基板；設備；測試與驗證",
-          "en": "Advanced packaging; glass substrates; equipment; testing and validation"
+          "zh": "電子製造；半導體測試；封裝與自動化",
+          "en": "Electronics manufacturing; semiconductor testing; packaging and automation"
         },
         "chain": {
-          "zh": "封裝設備、玻璃基板與客戶驗證",
-          "en": "Packaging equipment, glass substrate and customer validation"
+          "zh": "封測與製造擴產到設備導入",
+          "en": "Testing and manufacturing expansion through equipment deployment"
         },
         "changes": {
           "investment": {
-            "zh": "投資與設備程式持續擴大，但仍處於驗證與規劃階段。",
-            "en": "Investment and equipment programs continue to expand, but remain in validation and planning stages."
+            "zh": "出現十億美元級投資意向，代表擴產訊號升溫。",
+            "en": "Multi-billion-dollar intentions indicate stronger expansion signals."
           },
           "demand": {
-            "zh": "客戶驗證與良率要求仍是限制商業量產的重點。",
-            "en": "Customer validation and yield requirements remain the main constraints to commercial scale-up."
+            "zh": "若核准落地，將帶動測試、電力與自動化設備需求。",
+            "en": "If approvals are executed, demand for testing, power, and automation equipment would rise."
           },
           "fdi": {
-            "zh": "規劃內涵關聯國內設施與技術升級，不代表跨境直接投資增加。",
-            "en": "The plan relates to domestic facility and technology upgrades, not necessarily increased cross-border FDI."
+            "zh": "顯示跨國電子與半導體資本持續流向越南製造基地。",
+            "en": "Shows continued cross-border electronics and semiconductor capital flows toward Vietnam manufacturing bases."
           }
         },
         "facts": {
           "relevance": {
-            "zh": "這些設備與材料路線對高階封裝、AI 伺服器與散熱技術直接相關。",
-            "en": "These equipment and material routes are directly relevant to advanced packaging, AI servers and thermal management."
+            "zh": "涉及台灣與東南亞之間的產能分工與供應鏈再配置。",
+            "en": "Relates to capacity division and supply-chain reallocation between Taiwan and Southeast Asia."
           },
           "timing": {
-            "zh": "投資與設備更新均發生在 10/20 前後，但量產時程仍未實際落地。",
-            "en": "Investment and equipment updates occurred around October 20, but production timing remains unestablished."
+            "zh": "10/21 整理為投資意向與規劃訊號，尚未看到完整投產時程。",
+            "en": "As of October 21, this is an investment-intention and planning signal without complete production timelines."
           },
           "unknowns": {
-            "zh": "目前缺少量產定義、良率與客戶認證明細，不能把它們等同於商業量產。",
-            "en": "The public record still lacks production definitions, yield details and customer-acceptance evidence, so they cannot be equated with commercial mass production."
+            "zh": "最終核准條件、動工節點與設備交付節奏仍待後續正式文件。",
+            "en": "Final approval terms, construction starts, and equipment-delivery cadence still await formal follow-up documents."
           }
         }
       },
       "metrics": [
         {
           "name": {
-            "zh": "宸鴻 TGV 兩年規劃額",
-            "en": "TPK two-year TGV plan"
+            "zh": "單案投資意向規模",
+            "en": "Single-project investment intention"
           },
-          "current": 6,
-          "unit": "億元新台幣",
+          "current": 4.1,
+          "unit": "十億美元",
           "period": {
-            "zh": "兩年規劃期",
-            "en": "Two-year plan horizon"
+            "zh": "10/21 報導整理",
+            "en": "Compiled in Oct 21 coverage"
           },
           "owner": {
-            "zh": "宸鴻規劃公告",
-            "en": "TPK planning disclosure"
+            "zh": "媒體引述公司投資計畫",
+            "en": "Media-cited company investment plan"
           },
-          "sourceUrl": "https://www.tpk.com.tw",
-          "kind": "規劃",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkUwMkNKOWgzOTVRbmRHbXhEWlJYY3kwSlRkU1hGUzhSSF9HVXdUT0NSZ3Y4bUN0dlEtcHRuYWhrQUwtSDN4XzBCWTgyU0pDdW04Z3ViSXFweGEzZU1DV3h2NXdUd0FNS3dKMXJtbHpTaXFGME9BeDlUNHFLNFZ3cHB2WDdUcnZqVUVKeDR0NC1QREZHeUkxN09Lb0R1UWduQmZHWXdaS1d4ajdHcWRR?oc=5",
+          "kind": "規劃估算",
           "comparison": "無",
           "base": null,
           "basePeriod": null,
           "reportedRate": null,
-          "baseStatus": "規劃期未提供可比基期。"
+          "baseStatus": "尚未揭露同口徑基期與分期金額。"
         }
       ],
       "ceoView": {
-        "zh": "對供應鏈與封裝設備業者而言，這類投資案的意義在於技術與驗證能力的建立，而不是已經到達量產節點。要確認的關鍵是良率、交貨與客戶驗證是否持續向前，不是僅看資本支出總額。",
-        "en": "For packaging and equipment suppliers, the significance of this type of investment lies in building technical and validation capability, not in having reached a mass-production threshold. The key question is whether yield, delivery and customer validation keep moving forward, not just the capital outlay total."
+        "zh": "對精密電源與量測設備業者而言，越南擴產訊號的價值在於中期設備需求可見度提升，但時點仍受核准與施工牽引。現階段應先追蹤接電、測試線建置與客戶導入順序，不宜把意向金額直接轉成短期營收推估。",
+        "en": "For precision-power and measurement suppliers, the value of Vietnam expansion signals is improved medium-term visibility, while timing remains tied to approvals and construction. The immediate priority is to track energization, test-line buildout, and customer onboarding order rather than translating intention values directly into short-term revenue assumptions."
       }
     }
   ],
@@ -523,34 +537,34 @@
     {
       "id": 1,
       "question": {
-        "zh": "AI 機房的長約、設施完成度與實際出力，哪一個才是最可靠指標？",
-        "en": "Which is the most reliable metric for AI facilities: contracted coverage, facility completion or actual output?"
+        "zh": "核准金額與可用容量之間，最需要補齊哪三個驗證點？",
+        "en": "Which three validation points matter most between approved value and usable capacity?"
       },
       "text": {
-        "zh": "從公開內容看，長約、機房就緒與實際通電是三個不同層級的證據。閱讀時不能把規劃容量直接對應到實際裝機量。",
-        "en": "From public disclosure, contracted coverage, facility readiness and actual energization are three different evidence levels. They cannot be mapped directly onto one another."
+        "zh": "可從接電排程、機電工程里程碑與租戶簽約成熟度三項交叉比對，避免把投資管線誤判為已上線容量。",
+        "en": "Cross-check energization schedules, MEP milestones, and tenant-contract maturity to avoid mistaking pipeline value for live capacity."
       }
     },
     {
       "id": 2,
       "question": {
-        "zh": "投資額與現場產能之間需要哪些中間證據？",
-        "en": "What intermediate evidence is needed between investment and site output?"
+        "zh": "8,391MW 這種需求估算，對設備商的實際意義是什麼？",
+        "en": "What does an estimate like 8,391MW mean in practical terms for equipment suppliers?"
       },
       "text": {
-        "zh": "工廠投資案必須同時核對設備交付、施工進度、驗收標準與特定客戶需求，才能與產能建立關聯。",
-        "en": "A factory investment case must be checked against equipment delivery, construction progress, acceptance standards and specific customer demand before it can be linked to installed capacity."
+        "zh": "它更像區域設計負載上限與投資方向訊號，仍需對照變電與併網時程，才能轉成可追蹤的接單窗口。",
+        "en": "It is closer to a regional design-load and investment-direction signal, and must be aligned with substation and interconnection timelines before becoming trackable order windows."
       }
     },
     {
       "id": 3,
       "question": {
-        "zh": "哪個訊號更能證明封裝或設備技術已成熟？",
-        "en": "Which signal best demonstrates that packaging or equipment technology has matured?"
+        "zh": "越南十億美元級投資意向何時才算真正落地？",
+        "en": "When should Vietnam’s multi-billion-dollar intentions be considered truly executed?"
       },
       "text": {
-        "zh": "完整量產需要良率、交付節點與客戶認證同時到位；單只看到規劃或試產，仍然不能代表成熟度。",
-        "en": "Complete scale-up requires yield, delivery milestones and customer validation all to be in place; seeing only planning or pilot activity still does not prove maturity."
+        "zh": "至少要看到最終核准、施工啟動與設備進場三項同時成立，才可視為由意向轉為可用產能進度。",
+        "en": "At minimum, final approval, construction start, and equipment deployment should all be in place before treating intentions as executable capacity progress."
       }
     }
   ],
@@ -565,17 +579,17 @@
   "lower": [
     {
       "title": {
-        "zh": "換日校正：規劃、到位與量產併列時，仍以實際交付與驗收為準",
-        "en": "Daily check: plans, readiness and mass production must be separated by actual delivery and acceptance"
+        "zh": "補刊修正：10/21 改為不同主題組合",
+        "en": "Backfill revision: October 21 switched to a distinct topic set"
       },
       "text": {
-        "zh": "本日新聞以機房進度、投資規模與設備驗證為主，沒有將計畫性擴張直接換算成已可使用產能。",
-        "en": "Today’s coverage focuses on site progress, investment scale and equipment validation, without converting planned expansion directly into usable output."
+        "zh": "本版改用資料中心核准、區域電力需求與越南擴產訊號三條線，不重複 10/20 的企業單案交付與採購敘事。",
+        "en": "This version uses three separate lines—data-center approvals, regional power-demand signals, and Vietnam expansion—instead of repeating the October 20 single-company delivery and procurement narrative."
       }
     }
   ],
   "verificationNote": {
-    "zh": "本日資料以公司公開公告、官方資料中心與供應鏈發展資訊為主，將規劃、交付與量產節點分開處理；A201 與 Aolani 案例均未被視為已落地容量。神雲投資案以固定投資額披露為主，未同時公開各站點開工與量產時間；宸鴻、力成與封裝設備案則以規劃與驗證為主，未將其等同為量產起點。",
-    "en": "The day’s material relies on company disclosures, official data-center information and supply-chain development updates, with plans, delivery and production milestones separated. Neither the A201 nor the Aolani case is treated as installed capacity. MiTAC’s investment is read as a planned capital package without site-specific launch or output timings, while TPK, PTI and equipment-related matters are treated as planning and validation, not mass production."
+    "zh": "本期為 10/21 補刊更新版，已改用與 10/20 不同主題。可核對來源以 10/21 查得之報導與官方公開資訊為主；其中部分數值屬媒體彙整與估算，尚待後續專案級時程與核准文件補充，故信心多標示為中等。",
+    "en": "This is a revised October 21 backfill edition using topics distinct from October 20. Sources are based on reporting and official public information reviewed on October 21; some figures are media-compiled estimates and still await project-level schedules and approval documents, so confidence is mostly marked medium."
   }
 }
