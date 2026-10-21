@@ -1,38 +1,34 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-21T00:14:00.000Z",
+  "generatedAt": "2026-10-21T02:11:10.000Z",
   "throughline": {
-    "zh": "10/18 至 10/21 已刊重點串連 AI 機房與伺服器、晶圓及先進封裝、PCB 設備人才、區域貿易與汽車設備交易，各自保留規劃及生效條件。",
-    "en": "Published coverage for October 18–21 connects AI facilities and servers, wafers and advanced packaging, PCB equipment and talent, regional trade and an automotive-equipment transaction, retaining plan and effectiveness conditions."
+    "zh": "本週已刊登資料包括台灣與馬來西亞電子貿易統計、記憶體勞資事件、載板設備驗證，以及伺服器與跨國投資規劃；實績與意向須分別辨識。",
+    "en": "Published coverage this week spans Taiwan and Malaysia electronics trade, a Taiwan memory-industry labor dispute, substrate-equipment validation and server and cross-border investment plans; actual results and intentions remain distinct."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "global",
+      "category": "taiwan",
       "title": {
-        "zh": "AI 機房與伺服器建置：營運、長約與投資分層披露",
-        "en": "AI facilities and servers: separate operating, contract and investment disclosures"
+        "zh": "台灣與東南亞電子需求：外銷訂單、出口與再出口",
+        "en": "Electronics demand across Taiwan and Southeast Asia: orders, exports and re-exports"
       },
       "summary": {
-        "zh": "Bitdeer 10/19 新公布 9 月集團 GPU 利用率 95%，馬來西亞 A201 尚待 2027 年分階段交付；Aolani 同日公布最高 500 MW 非約束性意向書。台灣神雲約 126.2 億元新廠及擴線計畫於 10/19 公開，三案未披露彼此供應關係，規劃容量不能等同上線。",
-        "en": "Bitdeer’s October 19 update reports 95% September group GPU utilization, with Malaysia A201 awaiting staged delivery in 2027; Aolani separately announces non-binding LOIs for up to 500 MW. MiTAC discloses a roughly NT$12.62 billion Taiwan manufacturing plan; no supply relationship among the three is stated, and planned capacity is not live capacity."
+        "zh": "經濟部 10 月 20 日公布台灣 9 月外銷訂單 1,142.1 億美元，年增 62.4%；馬來西亞 10 月 19 日公布同期出口年增 54.5%，電機電子產品為主要動力。新加坡先前公布的非石油本地出口採另一種貿易定義，三地數字不可直接合計。",
+        "en": "Taiwan reported September export orders of US$114.21 billion, up 62.4%, on October 20, while Malaysia reported September export growth of 54.5% on October 19, driven largely by electrical and electronic products. Singapore's non-oil domestic exports use a separate definition and must not be aggregated with these figures."
       },
       "references": [
+        {
+          "date": "2026-10-19",
+          "storyId": 3
+        },
         {
           "date": "2026-10-21",
           "storyId": 1
         },
         {
-          "date": "2026-10-20",
-          "storyId": 1
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 4
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 2
+          "date": "2026-10-21",
+          "storyId": 6
         }
       ]
     },
@@ -40,28 +36,36 @@
       "id": 2,
       "category": "tech",
       "title": {
-        "zh": "晶圓、設備服務與先進封裝各有核准、投資及驗證節點",
-        "en": "Wafers, equipment services and packaging have separate approval, investment and validation milestones"
+        "zh": "載板、封裝及設備：採購、量測與展會技術",
+        "en": "Substrates, packaging and tools: procurement, metrology and exhibition technology"
       },
       "summary": {
-        "zh": "據專業報導，JASM 10/16 獲准變更熊本二廠計畫，台灣光罩同日授權擬收購 TCK，原始文件取得仍有限。10/19 宸鴻提出兩年 60 億元 TGV 規劃，力成揭露區間合計約 7.39 億元封裝設備交易；規劃、授權及採購均未等同量產或交割完成。",
-        "en": "Professional reports describe JASM’s October 16 revised-plan approval and Taiwan Mask’s TCK acquisition authorization, with limited direct access to originals. On October 19, TPK outlines a two-year NT$6 billion TGV plan and PTI reports about NT$739 million in period equipment purchases; plans, authorization and purchases are distinct from production or closing."
+        "zh": "台灣業者 10 月 19 日公布 TGV、封裝設備和 PCB 工廠設備計畫；10 月 20 日工研院公布載板溫測整合，TPCA Show 開幕並增設先進封裝主題區。採購公告、技術性能聲明及展覽規模各自屬不同驗證階段。",
+        "en": "Taiwanese companies reported TGV, packaging and PCB equipment plans on October 19; on October 20 ITRI presented integrated substrate metrology and TPCA Show opened with an advanced-packaging zone. Procurement notices, performance claims and exhibition size are distinct indicators."
       },
       "references": [
-        {
-          "date": "2026-10-18",
-          "storyId": 1
-        },
-        {
-          "date": "2026-10-18",
-          "storyId": 2
-        },
         {
           "date": "2026-10-20",
           "storyId": 3
         },
         {
           "date": "2026-10-20",
+          "storyId": 5
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 7
+        },
+        {
+          "date": "2026-10-21",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-21",
           "storyId": 5
         }
       ]
@@ -70,43 +74,43 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "PCB 泰國設備交易與台灣產學合作分別公布",
-        "en": "PCB equipment purchases in Thailand and academic cooperation in Taiwan"
+        "zh": "AI 伺服器與機房：投資、供電節點及交付",
+        "en": "AI servers and facilities: investment, power milestones and delivery"
       },
       "summary": {
-        "zh": "臻鼎 10/19 揭露泰國子公司近一年設備交易約 10.86 億元，金額不是單日新增投資，原始公告依轉載核對。同日中央大學與臻鼎、台光、大量、尖點簽約，四家合計 6,000 萬元支持教學及研發，未公布新增產能或招生規模。",
-        "en": "Zhen Ding’s October 19 disclosure covers about NT$1.086 billion of Thai equipment transactions over nearly a year, not one day of investment, checked through a filing reproduction. NCU separately signs a combined NT$60 million teaching and research partnership with four PCB firms; new capacity and enrollment are unspecified."
+        "zh": "10 月 19 日公布的神雲台灣工廠投資、Bitdeer 馬來西亞機房進度及 Aolani 意向書，涉及不同的金額與容量定義。工廠規劃、預定交付與非約束性意向書都尚未等同已完成產能。",
+        "en": "MiTAC's Taiwan manufacturing investment, Bitdeer's Malaysian facility milestones and Aolani's intentions published October 19 use different capital and capacity measures. Factory plans, delivery schedules and non-binding intent are not completed live capacity."
       },
       "references": [
         {
           "date": "2026-10-20",
-          "storyId": 6
+          "storyId": 1
         },
         {
           "date": "2026-10-20",
-          "storyId": 7
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-20",
+          "storyId": 4
         }
       ]
     },
     {
       "id": 4,
-      "category": "global",
+      "category": "taiwan",
       "title": {
-        "zh": "越南協定簽署與新加坡出口統計分屬制度及需求資料",
-        "en": "Vietnam’s trade signature and Singapore’s exports describe rules and demand separately"
+        "zh": "台灣記憶體製造與美光勞資進度",
+        "en": "Taiwan memory manufacturing and Micron labor developments"
       },
       "summary": {
-        "zh": "越南與 EFTA 四國 10/18 簽署自由貿易協定，產品優惠與生效日仍待正式文本條件。新加坡 10/16 公布 9 月 NODX 年增 68.4%、對台年增 96.9%，總體增幅含船體不規則出貨與低基期，不能全歸因於 AI。",
-        "en": "Vietnam and four EFTA states signed an FTA on October 18, with product preferences and effective dates subject to definitive terms. Singapore’s October 16 release reports September NODX growth of 68.4% and Taiwan-bound growth of 96.9%; lumpy ship-structure exports and base effects prevent an AI-only explanation."
+        "zh": "路透社 10 月 20 日報導美光桃園工會宣布 22 日預定單日罷工，台中工會仍安排調解。工會原始公告未獨立核對，且尚無已確認的 DRAM 或 HBM 產量損失。",
+        "en": "Reuters reported October 20 that Micron's Taoyuan union scheduled a one-day strike for October 22 while Taichung mediation remained pending. The original union notice was not independently obtained, and no DRAM or HBM output loss was confirmed."
       },
       "references": [
         {
-          "date": "2026-10-19",
-          "storyId": 1
-        },
-        {
-          "date": "2026-10-19",
-          "storyId": 3
+          "date": "2026-10-21",
+          "storyId": 2
         }
       ]
     },
@@ -114,17 +118,33 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "鴻海擬取得三菱電機移動半數股權，交割仍有條件",
-        "en": "Foxconn proposes half of Mitsubishi Electric Mobility, subject to closing conditions"
+        "zh": "台灣投資、電力與工廠智慧化的不同落地階段",
+        "en": "Taiwan investment, power and industrial automation milestones"
       },
       "summary": {
-        "zh": "10/16 公布協議將 50% 股權對價定為 1,150 億日圓，合作涵蓋汽車設備業務。預定 2027/10/1 交割，須完成主管機關核准與契約條件，未披露新增訂單或工廠產量。",
-        "en": "The agreement announced October 16 values the proposed 50% stake at ¥115 billion and covers the automotive-equipment business. Closing is planned for October 1, 2027 subject to approvals and contractual conditions, without incremental orders or factory-output figures."
+        "zh": "經濟部 10 月 20 日公布 13 家跨國企業招商意向書，同日產發署發表 TAITRONICS 技術成果與林園工廠監測示範。週內儲能及電力公告提供供電背景，投資意向與已完成設備驗收仍須區分。",
+        "en": "On October 20 MOEA reported 13 foreign-company LOIs and industrial authorities showcased TAITRONICS technologies and a Linyuan factory monitoring pilot. Power and storage updates provide context, but investment intentions and completed installations remain different milestones."
       },
       "references": [
         {
           "date": "2026-10-19",
-          "storyId": 2
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-19",
+          "storyId": 5
+        },
+        {
+          "date": "2026-10-21",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-21",
+          "storyId": 7
+        },
+        {
+          "date": "2026-10-21",
+          "storyId": 8
         }
       ]
     }

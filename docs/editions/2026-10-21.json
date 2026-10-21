@@ -1,87 +1,88 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T01:58:00.000Z",
+  "generatedAt": "2026-10-21T02:06:38.256Z",
   "coverage": {
     "focus": {
-      "zh": "台灣與東南亞：資料中心電力、半導體供應鏈協作與電子製造投資",
-      "en": "Taiwan and Southeast Asia: data-center power, semiconductor supply-chain coordination, and electronics investment"
+      "zh": "台灣與東南亞：半導體設備、載板、記憶體、伺服器需求與工廠自動化",
+      "en": "Taiwan and Southeast Asia: semiconductor equipment, substrates, memory, server demand and factory automation"
     },
     "approach": "facts-first"
   },
   "throughline": {
-    "zh": "10/21 補刊改以馬來西亞資料中心核准與電力需求、台灣半導體夥伴合作，以及越南電子製造擴產為主，避免與前一日重複題材。",
-    "en": "This refreshed October 21 backfill focuses on Malaysia’s data-center approvals and power demand, Taiwan-linked semiconductor partner coordination, and electronics expansion in Vietnam to avoid overlap with the previous day."
+    "zh": "台灣與馬來西亞最新貿易統計均顯示電子相關需求成長，台灣展會與設備公告則提供量測、載板及自動化的具體技術進度。",
+    "en": "Taiwanese and Malaysian trade statistics show electronics-related growth, while Taiwan's exhibition and equipment releases provide concrete progress on metrology, substrates and automation."
   },
   "brief": [
     {
       "id": 1,
       "text": {
-        "zh": "馬來西亞新增 27 件資料中心計畫、總值約 554 億美元，公開數字仍屬核准與規劃，不是全部已商轉容量。",
-        "en": "Malaysia reports 27 newly approved data-center projects worth about US$55.4 billion; the figures represent approvals and plans, not fully live capacity."
+        "zh": "台灣 9 月外銷訂單 1,142.1 億美元，年增 62.4%；經濟部提醒部分訂單在海外生產。",
+        "en": "Taiwan's September export orders hit US$114.21 billion, up 62.4%; some orders are produced overseas."
       }
     },
     {
       "id": 2,
       "text": {
-        "zh": "市場報導估算馬來半島 2030 年資料中心用電需求約 8,391MW，Johor 占比超過一半，需與電網與接電時程分開看待。",
-        "en": "Reports estimate Peninsular Malaysia data-center demand at around 8,391MW by 2030, with Johor taking more than half; this must be read separately from grid and energization timelines."
+        "zh": "美光桃園工會規劃 10 月 22 日單日罷工，台中仍協商；目前沒有已確認產量損失。",
+        "en": "Micron's Taoyuan union plans a one-day October 22 strike; Taichung talks continue and output effects are unconfirmed."
       }
     },
     {
       "id": 3,
       "text": {
-        "zh": "越南電子製造擴產消息指向多筆十億美元等級投資意向，但落地時程與供應鏈帶動幅度仍待公司與主管機關後續揭露。",
-        "en": "Vietnam electronics expansion coverage points to multi-billion-dollar investment intentions, while implementation timing and supply-chain impact still await fuller disclosure from companies and authorities."
+        "zh": "工研院將載板溫測系統整合群翊設備，宣稱可減少 20% 材料廢品；缺少獨立驗證數據。",
+        "en": "ITRI says its substrate thermal system is integrated into equipment and cuts material waste 20%; independent validation is missing."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "經濟部招商論壇公布 27 案約 6,660 億元投資規劃，13 家簽署意向書，尚未等同實際到資。",
+        "en": "Taiwan's investment forum reported about NT$666 billion in 27 proposals and 13 signed LOIs, not realized investment."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "馬來西亞 9 月出口年增 54.5%，電機電子產品為主因；國內出口與再出口應分開比較。",
+        "en": "Malaysia's September exports rose 54.5%, driven largely by E&E goods; domestic exports and re-exports differ."
       }
     }
   ],
   "stories": [
     {
       "id": 1,
-      "topic": "malaysia-approved-datacenter-projects",
-      "category": "global",
+      "topic": "taiwan-september-2026-export-orders",
+      "category": "taiwan",
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "馬來西亞核准 27 件資料中心計畫、金額約 554 億美元",
-        "en": "Malaysia approves 27 data-center projects worth about US$55.4 billion"
+        "zh": "台灣 9 月外銷訂單達 1,142.1 億美元，年增 62.4%",
+        "en": "Taiwan September export orders reach US$114.21 billion, up 62.4%"
       },
       "summary": {
-        "zh": "10/21 檢視的區域報導指出，馬來西亞新增核准 27 件資料中心計畫，合計約 554 億美元。這組數字反映的是核准與投資承諾規模，不等同同日已完成接電、機櫃上架與商轉；對供應鏈而言，仍須看實際土建、變電與租戶導入節奏。",
-        "en": "Regional coverage reviewed on October 21 says Malaysia has approved 27 additional data-center projects worth about US$55.4 billion. The figure reflects approvals and investment commitments rather than same-day energization, rack deployment, and commercial operations; supply-chain impact still depends on construction, substation, and tenant ramp timing."
-      },
-      "metric": "US$55.4B",
-      "metricLabel": {
-        "zh": "核准計畫金額",
-        "en": "Approved project value"
-      },
-      "confidence": {
-        "zh": "中",
-        "en": "Medium"
-      },
-      "location": {
-        "zh": "馬來西亞（以半島地區資料中心走廊為主，Johor 與吉隆坡周邊最受關注）。",
-        "en": "Malaysia (centered on the Peninsular data-center corridor, with Johor and Greater Kuala Lumpur as key areas)."
+        "zh": "經濟部 10 月 20 日公布，2026 年 9 月外銷訂單達 1,142.1 億美元，較去年同期增加 62.4%；前九月累計達 8,192 億美元，年增 56%。資訊通信與電子產品為主要成長項目，但外銷訂單可由海外工廠生產，不能直接視為台灣境內出口或產值。",
+        "en": "Taiwan's Ministry of Economic Affairs reported on October 20 that September 2026 export orders reached US$114.21 billion, up 62.4% year on year, while January–September orders totaled US$819.2 billion, up 56%. Information and communications products and electronics were principal drivers, but export orders include goods manufactured overseas and do not equal Taiwan's physical exports."
       },
       "sections": [
         {
           "label": {
-            "zh": "供應鏈關聯",
-            "en": "Supply-chain linkage"
+            "zh": "供應鏈與訂單結構",
+            "en": "Supply-chain composition"
           },
           "text": {
-            "zh": "資料中心核准案會連動伺服器機櫃、配電、散熱、建廠與長週期電力設備需求。對台灣與東南亞鏈條的意義在於，新增核准會先轉化為工程與設備拉貨窗口，之後才是租戶實際裝機與營運收入。",
-            "en": "Data-center approvals affect server racks, power distribution, cooling, construction, and long-lead electrical equipment demand. For Taiwan and Southeast Asia, the first effect is an engineering and equipment-procurement window, followed later by actual tenant installation and operating revenue."
+            "zh": "經濟部統計與中央社報導指出，9 月資訊通信產品訂單年增 87.3%，電子產品訂單年增 71.0%，對應伺服器、網通設備與半導體供應鏈。光學器材訂單年減 5.6%，部分檢測與量測設備訂單成長仍不足以抵銷其他品項減幅。",
+            "en": "MOEA data reported by CNA show year-on-year order growth of 87.3% for information and communications products and 71.0% for electronics, categories that include server, networking and semiconductor supply chains. Optical equipment orders fell 5.6%, despite growth in certain inspection and metrology orders."
           }
         },
         {
           "label": {
-            "zh": "數字怎麼讀",
-            "en": "How to read the numbers"
+            "zh": "數字口徑與比較基準",
+            "en": "Statistical definitions"
           },
           "text": {
-            "zh": "「27 件、554 億美元」是專案核准與總投資規模，不是可直接換算為當前上線 MW。若要評估短期影響，仍需拆開看土地取得、電力接入進度、機電建置與客戶簽約成熟度。",
-            "en": "“27 projects and US$55.4 billion” denotes approved pipeline scale, not directly live MW. Short-term impact still requires separating land progress, grid interconnection, MEP buildout, and contract maturity with tenants."
+            "zh": "9 月美元計價訂單較 8 月增加 112.5 億美元，未經季節調整月增 10.9%，經季節調整後月增 1.1%。第三季訂單 3,151 億美元，季增 15.8%、年增 65.0%；前九月累計的年增率為 56.0%，不同期間不得直接混用。",
+            "en": "September orders rose US$11.25 billion from August, up 10.9% before seasonal adjustment and 1.1% after adjustment. Third-quarter orders were US$315.1 billion, rising 15.8% quarter on quarter and 65.0% year on year; the nine-month growth rate was 56.0%, a distinct comparison period."
           }
         },
         {
@@ -90,171 +91,190 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "公開報導未完整列出每件專案的通電日期、IT 負載與分期啟用節點，因此無法將核准總額直接換算為年度可用容量。",
-            "en": "Public reporting does not fully list energization dates, IT loads, or phased go-live points for each project, so approved totals cannot be converted directly into annual live capacity."
+            "zh": "外銷訂單不直接揭露每家廠商的實際出貨、台灣生產比例或供應商分配，也無法從總額拆解個別晶圓廠、封裝廠或電源設備業者的訂單。",
+            "en": "Aggregate export orders do not disclose individual supplier shipments, Taiwan-based production shares or allocations among wafer fabs, packaging providers and power-equipment makers."
           }
         }
       ],
+      "metric": "US$114.21B",
+      "metricLabel": {
+        "zh": "9 月外銷訂單",
+        "en": "September export orders"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
       "sources": [
         {
           "name": {
-            "zh": "ET Datacenters：馬來西亞核准資料中心計畫報導",
-            "en": "ET Datacenters report on Malaysia project approvals"
+            "zh": "經濟部統計處 · 9 月外銷訂單公告",
+            "en": "MOEA Statistics · September export-order release"
           },
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzNzM0NMSkREWVdUemNTbTg4d290enFfNWI2Q3h4Wm1SZ2xRTzcwS1FiQnkxeTM4UGZtUGlFUkJ4cXMyZUdQWTNIbk04SDlmU3B4aVlrOHRMYjBKdGhreWx2ZEJJdjVLbTY5UWR4d2VqUlliZVhUdHVmRkcyTmdxSUlVcmM1b2pXWFVRSnJWdjNPd2RYejJxTWtLbGFuNGhIZlFCMzVJUHI0M0pCTkY4V1AwVU1jdl95NTBlU2U4aHFxMHM0ZGJxNC1jcTlIY3pYcXBfcVB0MWFucnRB0gHgAUFVX3lxTFBSQTFJQjhwU0VCcXdvNm42SVNPUkQzeU9pN2FQNEltVEtKOFlFT0NfTVB2MmtwNkprU183Yk10b3RtamlmTk5PR2hSYUJNYVFPX3NTdTVjQW1wa2ZEeUZvajFhNFEwUlNaQXRDQVpyOHppUEVuQXVVNmc0M0dINlVWb19CbkFoX19OZ1Y3U3VCNmp4czh6bFlqWVZ3VnB3bnh3M3FFb0FaR1lXYkVuZWV4SngtS29lNWRINTNXTS0yaG1vTWI4NVF0MFhNaGNxUkZrT19PVTN3QU1pQnFyb3VL?oc=5",
-          "type": "Second-hand"
+          "url": "https://www.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&menu_id=40&news_id=124297",
+          "type": "First-hand"
         },
         {
           "name": {
-            "zh": "MIDA（馬來西亞投資發展機構）資料中心與投資資訊",
-            "en": "MIDA data-center and investment information"
+            "zh": "中央社 · 各品項訂單年增率",
+            "en": "CNA · Product-category order growth"
           },
-          "url": "https://www.mida.gov.my/",
-          "type": "First-hand"
+          "url": "https://www.cna.com.tw/news/afe/202610200208.aspx",
+          "type": "Second-hand"
         }
       ],
       "market": {
-        "eventDate": "2026-10-21",
+        "eventDate": "2026-10-20",
         "countries": {
-          "zh": "馬來西亞",
-          "en": "Malaysia"
+          "zh": "台灣",
+          "en": "Taiwan"
         },
         "industries": {
-          "zh": "資料中心；伺服器；電力與配電；建廠工程",
-          "en": "Data centers; servers; power and distribution; construction engineering"
+          "zh": "伺服器；電子產品；半導體；晶圓；檢測設備",
+          "en": "Servers; electronics; semiconductors; wafer fabs; inspection equipment"
         },
         "chain": {
-          "zh": "機房建置、電力接入到伺服器上架",
-          "en": "Facility buildout, power interconnection, and server deployment"
+          "zh": "晶片設計、晶圓、設備至伺服器與整機需求",
+          "en": "Chip design, wafer fabrication and equipment through server systems"
         },
         "changes": {
           "investment": {
-            "zh": "核准計畫總值約 554 億美元，屬投資管線擴張訊號。",
-            "en": "Approved project value of about US$55.4 billion signals pipeline expansion."
+            "zh": "9 月外銷訂單 1,142.1 億美元；指標為接單額，非資本支出。",
+            "en": "September orders were US$114.21 billion, an order-flow measure rather than capital expenditure."
           },
           "demand": {
-            "zh": "新增核准提高後續設備與工程需求能見度，但不等於即期需求全數落地。",
-            "en": "Approvals raise visibility for future equipment and engineering demand, but do not mean all near-term demand is realized."
+            "zh": "資訊通信與電子產品訂單各年增 87.3% 與 71.0%。",
+            "en": "Information and communications orders rose 87.3%, and electronics orders rose 71.0%, year on year."
           },
           "fdi": {
-            "zh": "屬跨國資本流向馬來西亞資料中心基建的延續訊號。",
-            "en": "Indicates continued cross-border capital flow toward Malaysian data-center infrastructure."
+            "zh": "本次統計未發布新增外商直接投資金額。",
+            "en": "The release did not report incremental foreign direct investment."
           }
         },
         "facts": {
           "relevance": {
-            "zh": "直接關聯區域機房、伺服器與供電設備採購節奏。",
-            "en": "Directly relevant to regional facility, server, and power-equipment procurement cadence."
+            "zh": "電子與資訊通信接單涵蓋晶片、設備及伺服器供應鏈，但不能拆出單一廠商。",
+            "en": "Electronics and ICT orders cover chip, equipment and server value chains without identifying company-level orders."
           },
           "timing": {
-            "zh": "10/21 查核的新增披露重點是核准數與金額，不是完工進度。",
-            "en": "The October 21 update emphasizes approval counts and value rather than completion progress."
+            "zh": "統計於 10 月 20 日公布，資料期間為 2026 年 9 月及前三季。",
+            "en": "Released October 20 for September and January–September 2026."
           },
           "unknowns": {
-            "zh": "專案別完工時程、分期通電與租戶上架密度仍未完整揭露。",
-            "en": "Project-level completion schedules, phased energization, and tenant density are not fully disclosed."
+            "zh": "未揭露公司別、製造地與後續取消訂單比例。",
+            "en": "Company splits, manufacturing locations and subsequent cancellations are not disclosed."
           }
         }
       },
       "metrics": [
         {
           "name": {
-            "zh": "核准資料中心專案數",
-            "en": "Approved data-center project count"
+            "zh": "9 月外銷訂單",
+            "en": "September export orders"
           },
-          "current": 27,
-          "unit": "件",
+          "current": 114.21,
+          "unit": "USD billion",
           "period": {
-            "zh": "10/21 披露",
-            "en": "Disclosed on Oct 21"
+            "zh": "2026 年 9 月",
+            "en": "Sep 2026"
           },
           "owner": {
-            "zh": "區域媒體引述官方投資資訊",
-            "en": "Regional media citing official investment information"
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
           },
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzNzM0NMSkREWVdUemNTbTg4d290enFfNWI2Q3h4Wm1SZ2xRTzcwS1FiQnkxeTM4UGZtUGlFUkJ4cXMyZUdQWTNIbk04SDlmU3B4aVlrOHRMYjBKdGhreWx2ZEJJdjVLbTY5UWR4d2VqUlliZVhUdHVmRkcyTmdxSUlVcmM1b2pXWFVRSnJWdjNPd2RYejJxTWtLbGFuNGhIZlFCMzVJUHI0M0pCTkY4V1AwVU1jdl95NTBlU2U4aHFxMHM0ZGJxNC1jcTlIY3pYcXBfcVB0MWFucnRB0gHgAUFVX3lxTFBSQTFJQjhwU0VCcXdvNm42SVNPUkQzeU9pN2FQNEltVEtKOFlFT0NfTVB2MmtwNkprU183Yk10b3RtamlmTk5PR2hSYUJNYVFPX3NTdTVjQW1wa2ZEeUZvajFhNFEwUlNaQXRDQVpyOHppUEVuQXVVNmc0M0dINlVWb19CbkFoX19OZ1Y3U3VCNmp4czh6bFlqWVZ3VnB3bnh3M3FFb0FaR1lXYkVuZWV4SngtS29lNWRINTNXTS0yaG1vTWI4NVF0MFhNaGNxUkZrT19PVTN3QU1pQnFyb3VL?oc=5",
-          "kind": "統計",
-          "comparison": "無",
+          "sourceUrl": "https://www.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&menu_id=40&news_id=124297",
+          "kind": "官方統計",
+          "comparison": "YoY",
           "base": null,
           "basePeriod": null,
-          "reportedRate": null,
-          "baseStatus": "來源未提供同口徑歷史基期。"
+          "reportedRate": 0.624,
+          "baseStatus": "未公布可直接比對的基期數值。"
         },
         {
           "name": {
-            "zh": "核准計畫總值",
-            "en": "Approved project value"
+            "zh": "前九月累計外銷訂單",
+            "en": "January–September export orders"
           },
-          "current": 55.4,
-          "unit": "十億美元",
+          "current": 819.2,
+          "unit": "USD billion",
           "period": {
-            "zh": "10/21 披露",
-            "en": "Disclosed on Oct 21"
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
           },
           "owner": {
-            "zh": "區域媒體引述官方投資資訊",
-            "en": "Regional media citing official investment information"
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
           },
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzNzM0NMSkREWVdUemNTbTg4d290enFfNWI2Q3h4Wm1SZ2xRTzcwS1FiQnkxeTM4UGZtUGlFUkJ4cXMyZUdQWTNIbk04SDlmU3B4aVlrOHRMYjBKdGhreWx2ZEJJdjVLbTY5UWR4d2VqUlliZVhUdHVmRkcyTmdxSUlVcmM1b2pXWFVRSnJWdjNPd2RYejJxTWtLbGFuNGhIZlFCMzVJUHI0M0pCTkY4V1AwVU1jdl95NTBlU2U4aHFxMHM0ZGJxNC1jcTlIY3pYcXBfcVB0MWFucnRB0gHgAUFVX3lxTFBSQTFJQjhwU0VCcXdvNm42SVNPUkQzeU9pN2FQNEltVEtKOFlFT0NfTVB2MmtwNkprU183Yk10b3RtamlmTk5PR2hSYUJNYVFPX3NTdTVjQW1wa2ZEeUZvajFhNFEwUlNaQXRDQVpyOHppUEVuQXVVNmc0M0dINlVWb19CbkFoX19OZ1Y3U3VCNmp4czh6bFlqWVZ3VnB3bnh3M3FFb0FaR1lXYkVuZWV4SngtS29lNWRINTNXTS0yaG1vTWI4NVF0MFhNaGNxUkZrT19PVTN3QU1pQnFyb3VL?oc=5",
-          "kind": "規劃估算",
-          "comparison": "無",
+          "sourceUrl": "https://www.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&menu_id=40&news_id=124297",
+          "kind": "官方統計",
+          "comparison": "YoY",
           "base": null,
           "basePeriod": null,
-          "reportedRate": null,
-          "baseStatus": "來源未提供可比基期。"
+          "reportedRate": 0.56,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季外銷訂單",
+            "en": "Third-quarter export orders"
+          },
+          "current": 315.1,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&menu_id=40&news_id=124297",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.65,
+          "baseStatus": "未公布可直接比對的基期數值。"
         }
       ],
       "ceoView": {
-        "zh": "對精密電源與量測設備業者而言，這批核准案代表可追蹤的工程與接電需求管線，而不是立即可認列的設備銷售。下一步要核對的是分期上線節點、電網可用餘裕與實際租戶導入速度。",
-        "en": "For precision-power and measurement suppliers, this approval batch is a trackable engineering and energization pipeline rather than immediately recognizable equipment sales. The next checks are phased go-live timing, available grid headroom, and real tenant ramp speed."
+        "zh": "精密電源與量測設備業者可將資訊通信、電子產品與光學設備訂單分開查核，追問相關需求對應的終端品項與產線。統計尚無公司別、製造地及採購節點資料，無法推論特定設備訂單。",
+        "en": "Precision-power and metrology suppliers would separate ICT, electronics and optical-equipment orders and ask which end products and production lines generated them. The aggregate release does not identify customer allocations, fabrication locations or purchase schedules."
       }
     },
     {
       "id": 2,
-      "topic": "peninsular-malaysia-dc-power-demand-2030",
-      "category": "global",
+      "topic": "micron-taiwan-labour-dispute",
+      "category": "taiwan",
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "馬來半島資料中心用電需求估 2030 年達 8,391MW，Johor 比重過半",
-        "en": "Peninsular Malaysia data-center demand estimated at 8,391MW by 2030, with Johor above half"
+        "zh": "美光桃園工會宣布 10 月 22 日單日罷工，台中協商仍在進行",
+        "en": "Micron's Taoyuan union schedules October 22 one-day strike as Taichung talks continue"
       },
       "summary": {
-        "zh": "10/21 追蹤報導顯示，馬來半島資料中心在 2030 年的用電需求估達 8,391MW，且 Johor 占比超過一半。這是需求估算，不是現況負載；對供應鏈的實際影響仍取決於電力系統升級、並網審批與機房分期投運。",
-        "en": "October 21 reporting indicates Peninsular Malaysia data-center demand could reach 8,391MW by 2030, with Johor accounting for more than half. This is a demand estimate rather than current load; real supply-chain effects still depend on grid upgrades, interconnection approvals, and phased commissioning."
-      },
-      "metric": "8,391MW",
-      "metricLabel": {
-        "zh": "2030 年需求估算",
-        "en": "Estimated demand by 2030"
-      },
-      "confidence": {
-        "zh": "中",
-        "en": "Medium"
-      },
-      "location": {
-        "zh": "馬來西亞半島（Johor 為主要集中區）。",
-        "en": "Peninsular Malaysia (with Johor as the main concentration)."
+        "zh": "路透社 10 月 20 日報導，美光桃園工會宣布擬於 10 月 22 日進行單日警告性罷工，日期與美光台中工會的勞資調解同日。美光在台灣製造 DRAM 與 HBM，惟截至報導時尚無實際停工、產量損失或交期受影響的確認資料。",
+        "en": "Reuters reported on October 20 that Micron's Taoyuan union scheduled a one-day warning strike for October 22, the same day as a mediation session involving the Taichung union. Micron manufactures DRAM and HBM in Taiwan, but no actual stoppage, production loss or delivery disruption had been confirmed at publication."
       },
       "sections": [
         {
           "label": {
-            "zh": "電力與機房節點",
-            "en": "Power and facility milestones"
+            "zh": "記憶體供應鏈與廠區區別",
+            "en": "Memory supply chain and site distinction"
           },
           "text": {
-            "zh": "資料中心需求往往先反映在申請容量與併網規劃，其後才轉化為可用 IT 負載。若區域電網升級、變電站擴容與備援建設進度不同步，估算需求不會立即轉成可交付容量。",
-            "en": "Data-center demand usually appears first in requested capacity and interconnection planning, then later in usable IT load. If grid upgrades, substation expansion, and backup infrastructure progress are not synchronized, estimated demand will not immediately become deliverable capacity."
+            "zh": "桃園與台中工會是不同團體。路透社引述桃園工會說明，本次行動要求本年度獎金與可預期的分紅機制；台中工會截至 10 月 20 日尚未進行罷工投票。台灣廠區涉及一般 DRAM 與供 AI 伺服器使用的高頻寬記憶體，實際受影響產品須以公司和工會後續公告為準。",
+            "en": "The Taoyuan and Taichung unions are separate organizations. Reuters cited Taoyuan representatives seeking a satisfactory annual bonus and a predictable profit-sharing mechanism, while the Taichung union had not held a strike vote as of October 20. Taiwanese operations include DRAM and HBM for AI servers, but product-specific exposure depends on subsequent disclosures."
           }
         },
         {
           "label": {
-            "zh": "與前日題材差異",
-            "en": "Difference from the prior day"
+            "zh": "雙方說法與時間點",
+            "en": "Statements and timeline"
           },
           "text": {
-            "zh": "本則聚焦區域用電需求與地理分布，不重複前日對單一企業合約覆蓋率或機房交付節點的敘述。重點從單案營運數字轉為系統性電力壓力與配套建設。",
-            "en": "This story focuses on regional demand and geographic concentration, not the prior day’s company-level contract coverage or single-site delivery milestones. The emphasis shifts from one-project operating metrics to system-level power pressure and infrastructure support."
+            "zh": "報導引述美光表示尊重員工合法權利，並願繼續與兩地工會本於誠信協商。桃園工會先前已取得罷工授權，本次新進展是宣布具體預定日期；因此不能把 10 月 20 日公告描述為罷工已經發生。",
+            "en": "Micron told Reuters it respects employees' legal rights and intends to engage both unions in good faith. The Taoyuan union had already obtained strike authorization; the new October 20 development was the announcement of a specific planned date, not a strike already under way."
           }
         },
         {
@@ -263,171 +283,112 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "尚未取得完整公開清單可逐案比對各園區實際接電與上架時間，因此目前僅能把 8,391MW 視為需求規模指標。",
-            "en": "A complete public project-by-project list for energization and deployment timing is still unavailable, so 8,391MW should currently be treated as a scale indicator of demand."
+            "zh": "工會原始聲明目前未取得可直接核對的公開網址，時間表依路透社引述；實際參與人數、受影響產線、停工時數與產能損失都尚未確定。",
+            "en": "A publicly accessible original union statement was not independently retrieved, so the schedule rests on Reuters' direct reporting. Participation, affected lines, actual stoppage hours and output effects remain unconfirmed."
           }
         }
       ],
+      "metric": "10/22",
+      "metricLabel": {
+        "zh": "規劃罷工日期",
+        "en": "Planned strike date"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
       "sources": [
         {
           "name": {
-            "zh": "The Vibes：馬來半島資料中心用電需求報導",
-            "en": "The Vibes report on Peninsular Malaysia data-center power demand"
+            "zh": "路透社 · 桃園工會及美光回應",
+            "en": "Reuters · Taoyuan union and Micron responses"
           },
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHh6OXZjczZsT2NXR1JJUVhpTkxGSjhzYWNWTkEtVlY2Z3R3bjJjSXZjN2ItTnoyT1VGUlFwckZFZUJJZ3pWYnZ5UXNGTi0yNnRWVzNzVncxYlNsVENlSURLRm5JVFNEbHpsQ2doMkRDYnJTN0FPaFdfd3ptWVBYejFHOHF2U1F1SnJhTnVaWUZxMkRvSlhlQ3ZSaGItSUJzWHQ1NnhBOHRyQmM1X0xHWEN3SEM0REtWN0dj?oc=5",
-          "type": "Second-hand"
-        },
-        {
-          "name": {
-            "zh": "Reuters：馬來半島電力需求成長與資料中心連動",
-            "en": "Reuters on Peninsular power-demand growth linked to data centers"
-          },
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXduQVNWUzUzdzhycjUxMHhYR0ZLLVFXQ0NaR1pQdENZREUwaFlhY045Z2pianNsSXJmRGlkMGRQZzNBOVNMbm1nQVZNWl9QV2txdjJsZHVIenEzaGF3eHE3QWdzVUJaOGlJVFFsNTdHUFh4UGkzVjVhaGNuWl9IVGJ2eHZoZ1o4UURmUi1PaGRuVTFMUzVKS1JsdVV4WkpVN29BSG5Ha2l5MDhIX3N0Y1VURUQ2azQ?oc=5",
+          "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
           "type": "Second-hand"
         }
       ],
       "market": {
-        "eventDate": "2026-10-21",
+        "eventDate": "2026-10-20",
         "countries": {
-          "zh": "馬來西亞",
-          "en": "Malaysia"
+          "zh": "台灣",
+          "en": "Taiwan"
         },
         "industries": {
-          "zh": "資料中心；電網；配電與儲能",
-          "en": "Data centers; power grid; distribution and storage"
+          "zh": "DRAM；HBM；記憶體；封測；伺服器",
+          "en": "DRAM; HBM; memory; testing; servers"
         },
         "chain": {
-          "zh": "電網規劃到機房上線",
-          "en": "Grid planning to data-center go-live"
+          "zh": "記憶體、HBM 製造至封裝測試及伺服器組裝",
+          "en": "Memory and HBM manufacturing through packaging, test and server assembly"
         },
         "changes": {
           "investment": {
-            "zh": "需求估算提升將推動後續配電、備援與土建投資評估。",
-            "en": "Higher demand estimates will drive later assessments of distribution, backup, and civil investment."
+            "zh": "未公布新的設備投資或產能計畫。",
+            "en": "No new investment or capacity plan was disclosed."
           },
           "demand": {
-            "zh": "2030 年需求估值 8,391MW，顯示集中式成長壓力。",
-            "en": "The 8,391MW estimate by 2030 indicates concentrated growth pressure."
+            "zh": "預告短期勞資行動，尚未確認記憶體出貨變化。",
+            "en": "A short labor action was announced; memory shipments have not been shown to change."
           },
           "fdi": {
-            "zh": "需求集中區若加速落地，將持續吸引跨境機房與電力基建資本。",
-            "en": "If concentrated-demand zones accelerate implementation, they can continue attracting cross-border data-center and power-infrastructure capital."
+            "zh": "未公布新增外商投資。",
+            "en": "No new FDI was disclosed."
           }
         },
         "facts": {
           "relevance": {
-            "zh": "可用於判讀伺服器、電源與冷卻設備在東南亞的區域部署節奏。",
-            "en": "Useful for reading the regional deployment cadence of servers, power, and cooling equipment in Southeast Asia."
+            "zh": "台灣美光廠區與 DRAM、HBM 及伺服器記憶體供應鏈直接相關。",
+            "en": "Micron's Taiwanese operations form part of the DRAM and HBM supply chain serving servers."
           },
           "timing": {
-            "zh": "10/21 的重點是需求估算更新，不是即期用電實績公告。",
-            "en": "The October 21 update is an estimate refresh, not an immediate actual-consumption release."
+            "zh": "10 月 20 日公布規劃；10 月 22 日才是預定行動與調解日期。",
+            "en": "The plan was reported October 20 for a proposed October 22 action and mediation."
           },
           "unknowns": {
-            "zh": "估算模型假設、實際併網排程與各地區政策限制仍未完整公開。",
-            "en": "Model assumptions, actual interconnection schedules, and local policy constraints remain incompletely disclosed."
+            "zh": "工會聲明原始連結、停工實況、產量與交貨影響尚待確認。",
+            "en": "Primary union-statement URL, actual stoppage, output and delivery effects are unverified."
           }
         }
       },
-      "metrics": [
-        {
-          "name": {
-            "zh": "2030 年資料中心需求估算",
-            "en": "Estimated data-center demand in 2030"
-          },
-          "current": 8391,
-          "unit": "MW",
-          "period": {
-            "zh": "2030 年估算",
-            "en": "2030 estimate"
-          },
-          "owner": {
-            "zh": "媒體引述區域統計",
-            "en": "Media-cited regional estimate"
-          },
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHh6OXZjczZsT2NXR1JJUVhpTkxGSjhzYWNWTkEtVlY2Z3R3bjJjSXZjN2ItTnoyT1VGUlFwckZFZUJJZ3pWYnZ5UXNGTi0yNnRWVzNzVncxYlNsVENlSURLRm5JVFNEbHpsQ2doMkRDYnJTN0FPaFdfd3ptWVBYejFHOHF2U1F1SnJhTnVaWUZxMkRvSlhlQ3ZSaGItSUJzWHQ1NnhBOHRyQmM1X0xHWEN3SEM0REtWN0dj?oc=5",
-          "kind": "預測",
-          "comparison": "無",
-          "base": null,
-          "basePeriod": null,
-          "reportedRate": null,
-          "baseStatus": "報導未附同口徑歷史基期。"
-        },
-        {
-          "name": {
-            "zh": "2027 年馬來半島用電年增",
-            "en": "Peninsular power-use growth for 2027"
-          },
-          "current": 4.9,
-          "unit": "%",
-          "period": {
-            "zh": "2027 年預估",
-            "en": "Estimated for 2027"
-          },
-          "owner": {
-            "zh": "Reuters 報導引述區域數據",
-            "en": "Regional data as cited by Reuters"
-          },
-          "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXduQVNWUzUzdzhycjUxMHhYR0ZLLVFXQ0NaR1pQdENZREUwaFlhY045Z2pianNsSXJmRGlkMGRQZzNBOVNMbm1nQVZNWl9QV2txdjJsZHVIenEzaGF3eHE3QWdzVUJaOGlJVFFsNTdHUFh4UGkzVjVhaGNuWl9IVGJ2eHZoZ1o4UURmUi1PaGRuVTFMUzVKS1JsdVV4WkpVN29BSG5Ha2l5MDhIX3N0Y1VURUQ2azQ?oc=5",
-          "kind": "預測",
-          "comparison": "年增",
-          "base": null,
-          "basePeriod": null,
-          "reportedRate": 0.049,
-          "baseStatus": "僅披露成長率，未附絕對基期值。"
-        }
-      ],
+      "metrics": [],
       "ceoView": {
-        "zh": "對精密電源與量測設備業者而言，8,391MW 代表的是潛在設計容量，不是當期可認列市場。要評估接單窗口，仍需同步追蹤變電節點、並網核准與客戶分期上架是否一致。",
-        "en": "For precision-power and measurement suppliers, 8,391MW is potential design load, not immediately recognizable market volume. Order timing still depends on whether substation milestones, interconnection approvals, and tenant deployment phases align."
+        "zh": "測試、量測與製程電源業者會先釐清桃園與台中各廠作業狀態，以及是否涉及既有設備維護和新品驗證。罷工尚未發生，亦無經核實的產量損失數據，不能據此推論記憶體採購變化。",
+        "en": "Test, metrology and process-power suppliers would distinguish operational exposure at Taoyuan and Taichung, including equipment support and new-product qualification. The strike has not yet occurred and no verified production loss supports a procurement inference."
       }
     },
     {
       "id": 3,
-      "topic": "vietnam-electronics-expansion-signals",
-      "category": "global",
+      "topic": "itri-pcb-thermal-metrology",
+      "category": "tech",
       "pick": true,
-      "depth": "standard",
+      "depth": "lead",
       "title": {
-        "zh": "越南電子製造擴產訊號升溫，十億美元級投資意向待落地",
-        "en": "Vietnam electronics expansion signals strengthen, with multi-billion-dollar intentions still pending execution"
+        "zh": "工研院發布高階載板即時溫測技術，已整合群翊熱製程設備",
+        "en": "ITRI unveils real-time substrate thermal metrology integrated into Group Up's equipment"
       },
       "summary": {
-        "zh": "10/21 匯整的供應鏈報導提到，越南電子與半導體測試鏈條持續出現十億美元等級投資意向，包括台系與韓系廠商的擴產規劃。現階段多為公告與媒體揭露，對產能與就業的實際影響仍須等正式核准、施工與設備進場時程。",
-        "en": "Supply-chain coverage reviewed on October 21 highlights continued multi-billion-dollar investment intentions in Vietnam’s electronics and chip-testing chain, including Taiwanese and Korean expansion plans. Most items remain at the disclosure stage, and real capacity or employment impact still depends on formal approvals, construction, and equipment-install timelines."
-      },
-      "metric": "US$4.1B",
-      "metricLabel": {
-        "zh": "單案投資意向",
-        "en": "Single-project investment intention"
-      },
-      "confidence": {
-        "zh": "中",
-        "en": "Medium"
-      },
-      "location": {
-        "zh": "越南北部電子製造走廊（含測試與封測相關基地）。",
-        "en": "Northern Vietnam electronics-manufacturing corridor, including test and packaging-related sites."
+        "zh": "工研院 10 月 20 日在台北 TPCA Show 公布 AI 動態即時溫測校準系統，稱已成為群翊工業熱製程設備的整機標配，並宣稱可降低 20% 材料廢品。該項性能由工研院公告，尚缺獨立的客戶產線驗證樣本與良率統計。",
+        "en": "ITRI presented an AI-based real-time thermal calibration system at Taipei's TPCA Show on October 20 and said it had become standard equipment in Group Up Industrial's thermal-processing systems, claiming a 20% reduction in material waste. The performance claim comes from ITRI; independent customer-line datasets and yield results were not disclosed."
       },
       "sections": [
         {
           "label": {
-            "zh": "供應鏈意義",
-            "en": "Supply-chain meaning"
+            "zh": "製程與設備上下游",
+            "en": "Process and equipment supply chain"
           },
           "text": {
-            "zh": "越南擴產若落地，會連動封測、電力系統、治具、自動化與周邊材料需求。對台灣與東南亞鏈條而言，重點不是單一新聞數字，而是是否形成連續的專案核准與設備導入節奏。",
-            "en": "If Vietnam expansion plans are executed, they would affect testing, power systems, fixtures, automation, and adjacent materials demand. For Taiwan and Southeast Asia, the key is not one headline number but whether approvals and equipment deployment form a sustained cadence."
+            "zh": "高階 ABF 載板的熱固化均勻性會影響鼓包、分層與電性失效。工研院表示，以多模態紅外線和時序校正，修正高反射複合材料過去超過 5°C 的熱像量測偏差；另與川碩科技合作將微粒子監控整合於濕製程設備。",
+            "en": "Thermal-curing uniformity in high-end ABF substrates affects blistering, delamination and electrical failures. ITRI described using multimodal infrared sensing and temporal calibration to address image-based temperature errors previously exceeding 5°C on reflective composites; it also integrated particle monitoring into wet-process equipment with a separate equipment partner."
           }
         },
         {
           "label": {
-            "zh": "與前一日區隔",
-            "en": "Separation from the prior day"
+            "zh": "產品性能與聲明範圍",
+            "en": "Claimed performance and scope"
           },
           "text": {
-            "zh": "本則改為越南電子製造與測試鏈條的跨國投資觀察，避免重複前日馬來西亞機房與台灣單一企業投資題材。分析重點落在區域產能遷移與擴廠執行條件。",
-            "en": "This item shifts to cross-border investment signals in Vietnam’s electronics and testing chain, avoiding repetition of prior-day Malaysia facility and Taiwan single-company investment themes. The focus is on regional capacity migration and execution conditions."
+            "zh": "工研院稱目標可將出站不良率壓至 1% 以下，廣域空壓洩漏感測則具 5 至 10 公尺定位能力，約可降低空壓能耗 15%。這些指標涉及不同系統與量測對象，20% 廢品減量不能直接代表所有載板產品的良率改善。",
+            "en": "ITRI stated an outgoing-defect rate below 1% as a potential process outcome; a separate air-leak detection system covers 5–10 meters and claims roughly 15% compressed-air energy savings. These figures refer to distinct systems and measurement targets, so the 20% waste claim is not a general yield improvement rate for every substrate."
           }
         },
         {
@@ -436,100 +397,1058 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "目前公開內容未完整揭露各案最終核准條件、施工里程碑與量產節點，因此仍不能把投資意向直接視為短期新增可用產能。",
-            "en": "Public information still lacks full disclosure on final approvals, construction milestones, and production start points, so investment intentions cannot yet be treated as near-term available capacity."
+            "zh": "未列明第三方測試方法、材料廢品減少的比較基期、安裝台數，以及群翊設備在客戶量產線的覆蓋率。",
+            "en": "Independent test protocols, the waste-reduction baseline, installed-unit counts and customer production-line penetration were not disclosed."
           }
         }
       ],
+      "metric": "20%",
+      "metricLabel": {
+        "zh": "工研院宣稱材料廢品減量",
+        "en": "ITRI-claimed material-waste reduction"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "台灣台北市，台北南港展覽館 1 館；技術發表展場。",
+        "en": "Taipei, Taiwan, Taipei Nangang Exhibition Center Hall 1; exhibition venue."
+      },
       "sources": [
         {
           "name": {
-            "zh": "Theinvestor：越南電子擴產與台系投資報導",
-            "en": "Theinvestor coverage on Vietnam electronics expansion and Taiwanese investment"
+            "zh": "工研院 · 10 月 20 日技術公告",
+            "en": "ITRI · October 20 technology release"
           },
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMllWN2MzeUcyMGh6NGVhRTVCRFM5cmk4MTMxc3daZEZ5UWVqdUhWdk5YVmdIVHV5bkJBNVU2MUtRVVA5TVJ3azRrTVdGSlpHbEJsSUdaMDF4Zm5WaUpBcWZxTURYcV94VjZScnVXV1h5ZzVDZlB5NlZvUzBkbmlYZzVicXBlNklycjdHd0lacTI0alZ6VFRjcjNPNkpsYnJNOW8ydHAxeS1aOC00MUE?oc=5",
-          "type": "Second-hand"
+          "url": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&MGID=115102011343797737&MmmID=1036276263153520257&SiteID=1",
+          "type": "First-hand"
         },
         {
           "name": {
-            "zh": "Theinvestor：三星越南測試投資報導",
-            "en": "Theinvestor report on Samsung testing investment in Vietnam"
+            "zh": "中央社 · 展場技術訪查",
+            "en": "CNA · Exhibition technology reporting"
           },
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkUwMkNKOWgzOTVRbmRHbXhEWlJYY3kwSlRkU1hGUzhSSF9HVXdUT0NSZ3Y4bUN0dlEtcHRuYWhrQUwtSDN4XzBCWTgyU0pDdW04Z3ViSXFweGEzZU1DV3h2NXdUd0FNS3dKMXJtbHpTaXFGME9BeDlUNHFLNFZ3cHB2WDdUcnZqVUVKeDR0NC1QREZHeUkxN09Lb0R1UWduQmZHWXdaS1d4ajdHcWRR?oc=5",
+          "url": "https://www.cna.com.tw/news/afe/202610200109.aspx",
           "type": "Second-hand"
         }
       ],
       "market": {
-        "eventDate": "2026-10-21",
+        "eventDate": "2026-10-20",
         "countries": {
-          "zh": "越南；台灣（投資來源之一）",
-          "en": "Vietnam; Taiwan (one of the investment sources)"
+          "zh": "台灣",
+          "en": "Taiwan"
         },
         "industries": {
-          "zh": "電子製造；半導體測試；封裝與自動化",
-          "en": "Electronics manufacturing; semiconductor testing; packaging and automation"
+          "zh": "載板；封裝；測試；設備；自動化；量測",
+          "en": "Substrates; packaging; testing; equipment; automation; metrology"
         },
         "chain": {
-          "zh": "封測與製造擴產到設備導入",
-          "en": "Testing and manufacturing expansion through equipment deployment"
+          "zh": "設備量測至載板熱製程、濕製程與封裝測試",
+          "en": "Equipment metrology through substrate thermal and wet processing into packaging and test"
         },
         "changes": {
           "investment": {
-            "zh": "出現十億美元級投資意向，代表擴產訊號升溫。",
-            "en": "Multi-billion-dollar intentions indicate stronger expansion signals."
+            "zh": "揭露與群翊設備整合，未公布採購總額。",
+            "en": "Integration with Group Up equipment was disclosed without an aggregate purchase value."
           },
           "demand": {
-            "zh": "若核准落地，將帶動測試、電力與自動化設備需求。",
-            "en": "If approvals are executed, demand for testing, power, and automation equipment would rise."
+            "zh": "工研院宣稱材料廢品減量約 20%，未提供獨立客戶實績。",
+            "en": "ITRI claimed about 20% material-waste reduction without independent customer results."
           },
           "fdi": {
-            "zh": "顯示跨國電子與半導體資本持續流向越南製造基地。",
-            "en": "Shows continued cross-border electronics and semiconductor capital flows toward Vietnam manufacturing bases."
+            "zh": "未公開新增跨國股權投資或資本投入。",
+            "en": "No new cross-border equity investment was identified."
           }
         },
         "facts": {
           "relevance": {
-            "zh": "涉及台灣與東南亞之間的產能分工與供應鏈再配置。",
-            "en": "Relates to capacity division and supply-chain reallocation between Taiwan and Southeast Asia."
+            "zh": "對應先進載板的熱固化、量測校正與濕製程缺陷檢測。",
+            "en": "Relevant to thermal curing, metrology calibration and wet-process defect control in advanced substrates."
           },
           "timing": {
-            "zh": "10/21 整理為投資意向與規劃訊號，尚未看到完整投產時程。",
-            "en": "As of October 21, this is an investment-intention and planning signal without complete production timelines."
+            "zh": "系統於 10 月 20 日展出，工研院稱已列入群翊整機配置。",
+            "en": "Presented October 20; ITRI says integration into Group Up systems has occurred."
           },
           "unknowns": {
-            "zh": "最終核准條件、動工節點與設備交付節奏仍待後續正式文件。",
-            "en": "Final approval terms, construction starts, and equipment-delivery cadence still await formal follow-up documents."
+            "zh": "缺少第三方驗證、分母與使用台數。",
+            "en": "Third-party validation, denominators and installed-base counts are absent."
           }
         }
       },
       "metrics": [
         {
           "name": {
-            "zh": "單案投資意向規模",
-            "en": "Single-project investment intention"
+            "zh": "材料廢品宣稱減量",
+            "en": "Claimed reduction in material waste"
           },
-          "current": 4.1,
-          "unit": "十億美元",
+          "current": 0.2,
+          "unit": "%",
           "period": {
-            "zh": "10/21 報導整理",
-            "en": "Compiled in Oct 21 coverage"
+            "zh": "2026 年 10 月 20 日技術發布",
+            "en": "20 Oct 2026 technology release"
           },
           "owner": {
-            "zh": "媒體引述公司投資計畫",
-            "en": "Media-cited company investment plan"
+            "zh": "工研院",
+            "en": "ITRI"
           },
-          "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkUwMkNKOWgzOTVRbmRHbXhEWlJYY3kwSlRkU1hGUzhSSF9HVXdUT0NSZ3Y4bUN0dlEtcHRuYWhrQUwtSDN4XzBCWTgyU0pDdW04Z3ViSXFweGEzZU1DV3h2NXdUd0FNS3dKMXJtbHpTaXFGME9BeDlUNHFLNFZ3cHB2WDdUcnZqVUVKeDR0NC1QREZHeUkxN09Lb0R1UWduQmZHWXdaS1d4ajdHcWRR?oc=5",
+          "sourceUrl": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&MGID=115102011343797737&MmmID=1036276263153520257&SiteID=1",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "空壓節能宣稱比例",
+            "en": "Claimed compressed-air saving"
+          },
+          "current": 0.15,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月 20 日技術發布",
+            "en": "20 Oct 2026 technology release"
+          },
+          "owner": {
+            "zh": "工研院",
+            "en": "ITRI"
+          },
+          "sourceUrl": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&MGID=115102011343797737&MmmID=1036276263153520257&SiteID=1",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "精密量測與製程電源設備商會關注校準系統是否可跨材料與熱製程設備重現結果，以及對後段檢測的影響。工研院目前公布的是自身性能聲明，尚須核對獨立客戶數據與製程條件。",
+        "en": "Metrology and process-power suppliers would ask whether calibration results reproduce across substrate materials and thermal-processing tools, and how they affect downstream inspection. The reported performance remains an institute claim without independent customer-line evidence."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "taiwan-global-investment-forum-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "經濟部招商論壇簽 13 家跨國企業意向書，27 案規劃額約 6,660 億元",
+        "en": "Taiwan investment forum signs 13 foreign-company LOIs; 27 proposals total about NT$666 billion"
+      },
+      "summary": {
+        "zh": "經濟部 10 月 20 日在台北舉辦全球招商論壇，公布掌握 27 家業者約新台幣 6,660 億元投資規劃，其中 13 家簽署投資意向書。範圍包括半導體與非科技服務業，所列金額屬意向與規劃，尚未等同核准、到資或建廠支出。",
+        "en": "Taiwan's MOEA said at its October 20 investment forum in Taipei that 27 prospective investors represented about NT$666 billion in proposals, and 13 companies signed letters of intent. The total spans semiconductors and non-technology services, so it represents plans and expressions of intent rather than approved, funded or completed factory spending."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "投資與產業範圍",
+            "en": "Investment and sector coverage"
+          },
+          "text": {
+            "zh": "經濟部指明 13 家意向書業者規劃的未來投資約 621 億元，為全部 27 家約 6,660 億元規劃的子集合。公告點名巴斯夫擴建桃園觀音廠以服務先進製程化學材料、啟諾迪規劃擴產並預計增加約 200 個職缺、佳能半導體設備規劃台灣訓練中心，以及科林研發擴展在台研發活動；各案執行時間和資本支出須另行核對。",
+            "en": "MOEA said the 13 LOI signatories proposed about NT$62.1 billion of future investment, a subset of the roughly NT$666 billion across 27 prospective investors. Named participants included BASF expanding its Guanyin chemicals facility for advanced processes, Qnity planning capacity and about 200 additional jobs, Canon Semiconductor Equipment planning a Taiwan training center, and Lam Research expanding local R&D. Execution dates and expenditure schedules require project-level confirmation."
+          }
+        },
+        {
+          "label": {
+            "zh": "投資狀態與官方數據",
+            "en": "Project status and official data"
+          },
+          "text": {
+            "zh": "經濟部稱 2026 年 1 至 9 月外人來台投資額 192.3 億美元，與未來投資意向的定義不同，不能直接相加。13 家意向書約 621 億元仍屬規劃，須確認政府審批、正式合約與分期支出，且高科技以外也有零售服務業。",
+            "en": "MOEA separately cited US$19.23 billion in inward investment for January–September 2026, a different measure that cannot be added to forward-looking LOIs. The NT$62.1 billion represented by the 13 signatories remains planned investment subject to approvals, binding contracts and spending schedules; the portfolio also includes non-technology services."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚未公布 27 案逐案產業分類、實際廠址、可比投資期間，以及 13 家意向書轉成正式投資的進度。",
+            "en": "Project-level industries, sites, comparable investment periods and conversion of the 13 LOIs into binding investment were not fully disclosed."
+          }
+        }
+      ],
+      "metric": "NT$666B",
+      "metricLabel": {
+        "zh": "27 案投資規劃合計",
+        "en": "Aggregate planned investment across 27 proposals"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "台灣台北市南港展覽館 2 館 7 樓 701C、D 會議室；招商論壇活動場地，非投資案廠址。",
+        "en": "Taipei Nangang Exhibition Center Hall 2, 7F Rooms 701C/D, Taiwan; forum venue, not project sites."
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部投資促進司 · 招商論壇公告",
+            "en": "MOEA Investment Promotion · Forum release"
+          },
+          "url": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124313",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "招商論壇主辦方 · 活動地點",
+            "en": "Taiwan Investment Forum · Official venue"
+          },
+          "url": "https://aitaiwan.events/zh-tw",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "投資；FDI；半導體；服務業；園區",
+          "en": "Investment; FDI; semiconductors; services; industrial sites"
+        },
+        "chain": {
+          "zh": "海外投資意向與台灣半導體及終端產業資金",
+          "en": "Foreign investment intentions across Taiwanese semiconductor and end-use industries"
+        },
+        "changes": {
+          "investment": {
+            "zh": "27 家投資規劃約 6,660 億元，尚未披露逐案執行支出。",
+            "en": "Around NT$666 billion in proposals from 27 companies, without project-by-project outlays."
+          },
+          "demand": {
+            "zh": "涉及半導體及服務業，不代表全數新增設備需求。",
+            "en": "Semiconductors and services are included; equipment-specific demand is not quantified."
+          },
+          "fdi": {
+            "zh": "13 家簽 LOI；不能等同正式外資到位額。",
+            "en": "Thirteen signed LOIs, which are not equivalent to realized foreign investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "與台灣跨國投資及半導體供應鏈擴建規劃相關。",
+            "en": "Relevant to cross-border investment and Taiwan's semiconductor-capacity planning."
+          },
+          "timing": {
+            "zh": "10 月 20 日論壇新公布，後續進度依逐案申請與簽約而定。",
+            "en": "Newly disclosed October 20; future milestones depend on project-level applications and contracts."
+          },
+          "unknowns": {
+            "zh": "沒有完整個案名單、廠址及項目支出表。",
+            "en": "A complete project list, sites and spending breakdown were not published."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "投資案規劃總額",
+            "en": "Planned investment across proposals"
+          },
+          "current": 666,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 20 日論壇",
+            "en": "20 Oct 2026 forum"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124313",
           "kind": "規劃估算",
           "comparison": "無",
           "base": null,
           "basePeriod": null,
           "reportedRate": null,
-          "baseStatus": "尚未揭露同口徑基期與分期金額。"
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "簽署意向書跨國企業數",
+            "en": "Foreign companies signing LOIs"
+          },
+          "current": 13,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 10 月 20 日論壇",
+            "en": "20 Oct 2026 forum"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124313",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "經濟部掌握投資案數",
+            "en": "Proposed investor count"
+          },
+          "current": 27,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 10 月 20 日論壇",
+            "en": "20 Oct 2026 forum"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124313",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "13 家意向書擬投資金額",
+            "en": "Planned value of 13 signatories' LOIs"
+          },
+          "current": 62.1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 20 日論壇",
+            "en": "20 Oct 2026 forum"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124313",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "意向書金額未列比較基期。"
+        },
+        {
+          "name": {
+            "zh": "啟諾迪預計新增職缺",
+            "en": "Qnity's expected added jobs"
+          },
+          "current": 200,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 10 月 20 日論壇",
+            "en": "20 Oct 2026 forum"
+          },
+          "owner": {
+            "zh": "經濟部轉述啟諾迪計畫",
+            "en": "MOEA describing Qnity's plan"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124313",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "規劃職缺，未公布已聘人數。"
         }
       ],
       "ceoView": {
-        "zh": "對精密電源與量測設備業者而言，越南擴產訊號的價值在於中期設備需求可見度提升，但時點仍受核准與施工牽引。現階段應先追蹤接電、測試線建置與客戶導入順序，不宜把意向金額直接轉成短期營收推估。",
-        "en": "For precision-power and measurement suppliers, the value of Vietnam expansion signals is improved medium-term visibility, while timing remains tied to approvals and construction. The immediate priority is to track energization, test-line buildout, and customer onboarding order rather than translating intention values directly into short-term revenue assumptions."
+        "zh": "精密電源、量測及控制設備供應商會先確認投資案中有哪些涉及晶圓製造、封裝或工廠自動化，以及進度是否進入正式採購。官方公告尚未將 6,660 億元逐案分配，也未提供驗收時程，無法作為訂單預測。",
+        "en": "Precision-power, measurement and control suppliers would seek project-level identification of wafer-fab, packaging or factory-automation plans and their contractual status. The NT$666 billion is not broken down by project or delivery milestone and cannot establish equipment orders."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "tpca-show-2026-opening",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "TPCA Show 開幕稿列逾 680 品牌、1,840 攤位，新增先進封裝主題區",
+        "en": "TPCA Show opening reports over 680 brands, 1,840 booths and an advanced-packaging zone"
+      },
+      "summary": {
+        "zh": "台灣電路板協會 10 月 20 日宣布 TPCA Show 2026 在台北南港展覽館一館開幕，開幕新聞稿列超過 680 個國際品牌與 1,840 個攤位，展至 22 日。八大展區涵蓋 PCB、載板、材料、製程與檢測設備，並設置先進封裝專區；觀眾數屬展前預估，尚非實際到場數。",
+        "en": "The Taiwan Printed Circuit Association said TPCA Show 2026 opened at Taipei Nangang Exhibition Center Hall 1 on October 20, with more than 680 brands and 1,840 booths reported in the opening release; the exhibition runs through October 22. Eight zones span PCBs, substrates, materials, process and inspection equipment, plus a dedicated advanced-packaging area, while visitor numbers remain forecasts."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "展品涵蓋的上下游",
+            "en": "Exhibitor supply-chain scope"
+          },
+          "text": {
+            "zh": "主辦方公布的展區包括高階載板、PCB 原物料及化學品、乾濕製程設備、工廠自動化、檢測、構裝、SMT 與綠色技術。先進封裝主題區反映展示內容配置，不能從參展數量推論新增設備訂單。",
+            "en": "Organizer-listed zones cover advanced substrates, PCB materials and chemicals, dry and wet processing, automation, inspection, electronic packaging, SMT and green technology. The packaging zone is a program feature and cannot establish incremental equipment orders by itself."
+          }
+        },
+        {
+          "label": {
+            "zh": "展期與統計差異",
+            "en": "Dates and count revisions"
+          },
+          "text": {
+            "zh": "TPCA 表示同期 IMPACT 技術研討會自 10 月 19 日開始，約有 350 篇發表、報名人數超過 1,500。較早展前宣傳曾列 670 品牌與 1,830 攤位，10 月 20 日開幕稿更新為逾 680 品牌與 1,840 攤位，採較新的主辦方公告並保留口徑差異。",
+            "en": "The organizer states that the concurrent IMPACT conference began October 19 with about 350 technical presentations and more than 1,500 registrations. Earlier promotional material listed 670 brands and 1,830 booths; the October 20 opening release updated these to over 680 brands and 1,840 booths."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際專業觀眾人數、展中設備簽單、量產客戶認證與展出產品成交額仍待展後或公司公告。",
+            "en": "Actual visitors, equipment sales, production qualifications and transaction values await post-show or company disclosures."
+          }
+        }
+      ],
+      "metric": "1,840",
+      "metricLabel": {
+        "zh": "開幕稿公布攤位數",
+        "en": "Booths in opening release"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "台灣台北市，台北南港展覽館 1 館 1 與 4 樓；展覽場地。",
+        "en": "Taipei, Taiwan, Taipei Nangang Exhibition Center Hall 1, Floors 1 and 4; exhibition venue."
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "TPCA · 10 月 20 日開幕新聞稿",
+            "en": "TPCA · October 20 opening release"
+          },
+          "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=182&mod_no=5&news_no=500605",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "TPCA Show · 官方交通及展期",
+            "en": "TPCA Show · Official visitor information"
+          },
+          "url": "https://www.tpcashow.com/en/visitor.asp",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "載板；PCB；封裝；設備；材料；測試；工廠自動化",
+          "en": "Substrates; PCBs; packaging; tools; materials; test; factory automation"
+        },
+        "chain": {
+          "zh": "材料、設備、載板至封裝測試、工廠自動化",
+          "en": "Materials and equipment through substrates, packaging, test and factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "展出規模更新，未揭露現場設備資本支出。",
+            "en": "Exhibition size was updated without disclosed equipment capital expenditure."
+          },
+          "demand": {
+            "zh": "主辦方預估三日逾七萬名訪客，非實際需求數據。",
+            "en": "Organizer forecasts more than 70,000 visitors over three days, not realized demand."
+          },
+          "fdi": {
+            "zh": "未公布本屆由參展促成的外商直接投資。",
+            "en": "No show-attributable FDI total was published."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "展品涉及高階電路板與先進封裝設備及材料的供應鏈。",
+            "en": "Coverage includes advanced PCB, packaging equipment and materials."
+          },
+          "timing": {
+            "zh": "展期為 10 月 20 至 22 日；IMPACT 研討會自 19 日開始。",
+            "en": "Exhibition October 20–22; IMPACT conference began October 19."
+          },
+          "unknowns": {
+            "zh": "早期與開幕稿展商數不同；實際觀眾與交易額仍未確認。",
+            "en": "Pre-show and opening exhibitor counts differ; actual visitors and transactions remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "開幕稿攤位數",
+            "en": "Booths at opening"
+          },
+          "current": 1840,
+          "unit": "個攤位",
+          "period": {
+            "zh": "TPCA Show 2026",
+            "en": "TPCA Show 2026"
+          },
+          "owner": {
+            "zh": "台灣電路板協會",
+            "en": "Taiwan Printed Circuit Association"
+          },
+          "sourceUrl": "https://www.tpca.org.tw/web/news_detail.php?menu_no=182&mod_no=5&news_no=500605",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "開幕稿品牌數下限",
+            "en": "Minimum opening-release brand count"
+          },
+          "current": 680,
+          "unit": "家",
+          "period": {
+            "zh": "TPCA Show 2026",
+            "en": "TPCA Show 2026"
+          },
+          "owner": {
+            "zh": "台灣電路板協會",
+            "en": "Taiwan Printed Circuit Association"
+          },
+          "sourceUrl": "https://www.tpca.org.tw/web/news_detail.php?menu_no=182&mod_no=5&news_no=500605",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "精密電源、製程量測及自動化設備供應商可依乾濕製程、檢測、先進封裝與載板展區整理可核對的產品資訊。展會攤位和品牌數不能代表設備成交或導入量，仍須等待供應商與客戶的正式揭露。",
+        "en": "Precision-power, process-metrology and automation suppliers could examine verified product exhibits across wet and dry processing, inspection, packaging and substrates. Booth and brand counts do not establish equipment orders or deployed installations."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "malaysia-september-2026-trade",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "馬來西亞 9 月出口達 2,151 億令吉，年增 54.5%，電子電機產品為主因",
+        "en": "Malaysia's September exports rise 54.5% to RM215.1 billion, led by electronics"
+      },
+      "summary": {
+        "zh": "馬來西亞統計局 10 月 19 日公布，2026 年 9 月出口達 2,151 億令吉，年增 54.5%，進口達 1,814 億令吉，年增 52.7%。官方指出電機電子產品是主要驅動因素，但整體貿易額包含不同商品和再出口，不能視為半導體產量。",
+        "en": "Malaysia's Department of Statistics reported on October 19 that September exports reached RM215.1 billion, up 54.5% year on year, while imports reached RM181.4 billion, up 52.7%. Officials identified electrical and electronic products as a major driver, but the trade figures include other goods and re-exports and cannot be treated as semiconductor output."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電子產業與貿易結構",
+            "en": "Electronics and trade composition"
+          },
+          "text": {
+            "zh": "統計局公布 9 月貿易總額 3,965 億令吉，年增 53.7%。出口中的國內出口額為 1,620 億令吉，佔 75.3%，再出口額 531 億令吉，佔 24.7%；馬來西亞電機電子產業包含半導體封測與設備相關商品，仍應與零件的製造地和轉運活動分開解讀。",
+            "en": "DOSM recorded RM396.5 billion in total trade, up 53.7% year on year. Domestic exports reached RM162.0 billion, or 75.3% of exports, while re-exports reached RM53.1 billion, or 24.7%. Malaysia's E&E trade includes semiconductor assembly/test-related goods, but production and re-export channels must remain distinct."
+          }
+        },
+        {
+          "label": {
+            "zh": "比較基準",
+            "en": "Comparability"
+          },
+          "text": {
+            "zh": "9 月進口年增 52.7%，其中中間財進口增 69.6%，資本財進口增 20.9%。這是進口用途分類的年增率，無法單獨推論新半導體設備安裝或產能利用率。",
+            "en": "Imports rose 52.7% year on year; intermediate-goods imports rose 69.6% and capital-goods imports 20.9%. These are end-use-category import growth rates, not direct measures of installed semiconductor equipment or utilization."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "公告未按廠商揭露封測、記憶體或資料中心零件的進出口分布，與台灣供應商之間的直接交易額需另查雙邊細項。",
+            "en": "The release does not identify company-specific packaging, memory or data-center-component flows; direct trade with Taiwanese suppliers requires bilateral product data."
+          }
+        }
+      ],
+      "metric": "RM215.1B",
+      "metricLabel": {
+        "zh": "馬來西亞 9 月出口",
+        "en": "Malaysia September exports"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "馬來西亞統計局 · 9 月對外貿易",
+            "en": "DOSM · September external trade data"
+          },
+          "url": "https://www.dosm.gov.my/portal-main/release-content/monthly-external-trade-statistics-sep2026",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "台灣經貿資訊網 · 駐馬國經濟組彙整",
+            "en": "Taiwantrade · Taipei economic office summary"
+          },
+          "url": "https://info.taiwantrade.com/News_Content_Businessinfo.aspx?n=911&s=208011",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "電子產品；半導體；封測；零組件；設備；終端",
+          "en": "Electronics; semiconductors; packaging and test; components; tools; end-use"
+        },
+        "chain": {
+          "zh": "零組件、封測設備至終端電子產品與貿易",
+          "en": "Components and packaging/test equipment through finished electronics and trade"
+        },
+        "changes": {
+          "investment": {
+            "zh": "資本財進口年增 20.9%，未單列新廠設備投資額。",
+            "en": "Capital-goods imports rose 20.9% year on year; new-plant equipment investment was not broken out."
+          },
+          "demand": {
+            "zh": "出口年增 54.5%，電子電機產品為官方指出的主要動力。",
+            "en": "Exports rose 54.5%, with E&E products identified as a major driver."
+          },
+          "fdi": {
+            "zh": "整體貿易數字不等同外商直接投資。",
+            "en": "Aggregate trade figures are not FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "馬來西亞電機電子出口與東南亞半導體封測供應鏈相關。",
+            "en": "Malaysia's E&E exports are tied to Southeast Asian semiconductor assembly and test supply chains."
+          },
+          "timing": {
+            "zh": "10 月 19 日公布 2026 年 9 月數據。",
+            "en": "Published October 19 for September 2026."
+          },
+          "unknowns": {
+            "zh": "缺少廠商別與台灣雙邊的精細產品數據。",
+            "en": "Firm-level and detailed Taiwan bilateral data are missing."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "出口額",
+            "en": "Exports"
+          },
+          "current": 215100,
+          "unit": "MYR million",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "Sep 2026"
+          },
+          "owner": {
+            "zh": "馬來西亞統計局",
+            "en": "Department of Statistics Malaysia"
+          },
+          "sourceUrl": "https://www.dosm.gov.my/portal-main/release-content/monthly-external-trade-statistics-sep2026",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.545,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "進口額",
+            "en": "Imports"
+          },
+          "current": 181400,
+          "unit": "MYR million",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "Sep 2026"
+          },
+          "owner": {
+            "zh": "馬來西亞統計局",
+            "en": "Department of Statistics Malaysia"
+          },
+          "sourceUrl": "https://www.dosm.gov.my/portal-main/release-content/monthly-external-trade-statistics-sep2026",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.527,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "貿易總額",
+            "en": "Total trade"
+          },
+          "current": 396500,
+          "unit": "MYR million",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "Sep 2026"
+          },
+          "owner": {
+            "zh": "馬來西亞統計局",
+            "en": "Department of Statistics Malaysia"
+          },
+          "sourceUrl": "https://www.dosm.gov.my/portal-main/release-content/monthly-external-trade-statistics-sep2026",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.537,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "精密電源、測試與工業量測業者會區分國內出口與再出口，並進一步查核設備、封測零組件及終端產品的稅則細目。總額仍不足以判斷個別封測廠設備稼動率或客戶採購。",
+        "en": "Precision-power, test and industrial-metrology suppliers would distinguish domestic exports from re-exports and examine equipment and packaging-related tariff lines. The aggregate trade totals do not establish individual OSAT utilization or customer orders."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taitronics-2026-ipd-exhibition",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "TAITRONICS 產發署主題館展示 65 項成果，公布臺荷智慧港口合作意向",
+        "en": "Taiwan's TAITRONICS industry pavilion displays 65 results and announces Dutch-port cooperation"
+      },
+      "summary": {
+        "zh": "經濟部產業發展署 10 月 20 日在台北 TAITRONICS & AIoT Taiwan 2026 展示 65 項技術成果，並稱相關輔導帶動產值超過 342 億元。安恩嘉與荷蘭 CERTUS Automation 簽署港口 AI 視覺合作備忘錄；產發署指出該技術已於鹿特丹港試用且取得訂單，但展館總產值的個案歸屬未公開。",
+        "en": "Taiwan's Industrial Development Administration showcased 65 technology results at TAITRONICS & AIoT Taiwan on October 20, claiming associated program output exceeding NT$34.2 billion. Taiwanese firm An-En-Jia signed an AI-vision cooperation memorandum with Dutch company CERTUS Automation; the agency reported a Rotterdam port trial and a formal order, without a breakdown of output across exhibitors."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "技術與上下游",
+            "en": "Technologies and supply-chain links"
+          },
+          "text": {
+            "zh": "主題館分 AI 晶片、次世代通訊、產業 AI 化、智慧顯示及新創五區，與嵌入式系統、智慧電源及工廠應用相關。產發署表示近三年在電子資訊產業透過政策計畫投入約 70 億元；此為政策投入敘述，與產值的統計口徑不同。",
+            "en": "The five zones cover AI chips, next-generation communications, industrial AI, smart displays and startups, linking embedded systems, power electronics and factories. The agency separately reported around NT$7 billion in policy support over three years, a different measure from supported output."
+          }
+        },
+        {
+          "label": {
+            "zh": "合作狀態",
+            "en": "Cooperation status"
+          },
+          "text": {
+            "zh": "產發署指出，安恩嘉與荷蘭 CERTUS Automation 合作的技術在 2025 年於高雄港完成商業驗證，2026 年 6 月在鹿特丹港試用並取得正式訂單，預計 2027 年 1 月全面導入。此為產發署轉述的業者進度；正式訂單金額、交付設備數量與驗收條件未公布。",
+            "en": "According to IDA, An-En-Jia's system completed commercial validation at Kaohsiung Port in 2025, underwent a Rotterdam Port trial in June 2026, and secured a formal order. Full rollout is planned for January 2027, but order value, delivered unit count and acceptance criteria were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "產發署未分年列示 342 億元產值的公司、產品與統計口徑；鹿特丹港正式訂單的契約規模、裝機數量和實際使用成效也未公開。",
+            "en": "IDA did not disaggregate the NT$34.2 billion in attributed output by company, product or reporting period; the Rotterdam contract value, installed units and actual field outcomes remain unpublished."
+          }
+        }
+      ],
+      "metric": "65",
+      "metricLabel": {
+        "zh": "主題館技術成果數",
+        "en": "Technology results exhibited"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "台灣台北市南港展覽館 1 館；TAITRONICS & AIoT Taiwan 展場。",
+        "en": "Taipei Nangang Exhibition Center Hall 1, Taiwan; TAITRONICS & AIoT Taiwan exhibition venue."
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部產業發展署 · 主題館與合作公告",
+            "en": "MOEA IDA · Pavilion and partnership release"
+          },
+          "url": "https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124307",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "TAITRONICS · 官方展覽日期與場地",
+            "en": "TAITRONICS · Official dates and venue"
+          },
+          "url": "https://www.taitronics.tw/zh-tw/menu/566102D1961A557AD0636733C6861689/info.html",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；零組件；電源；工廠；自動化；終端",
+          "en": "Chip design; components; power; factories; automation; end-use"
+        },
+        "chain": {
+          "zh": "晶片設計、智慧電源與零組件至工廠自動化和終端",
+          "en": "Chip design, smart power and components through factory automation and end-use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "產發署稱過去政策扶植帶動產值逾 342 億元，不屬展場新投資。",
+            "en": "IDA attributed over NT$34.2 billion of output to support programs, not new on-site investment."
+          },
+          "demand": {
+            "zh": "產發署稱鹿特丹港 2026 年 6 月試用後取得正式訂單，未揭露數量與金額。",
+            "en": "IDA reported a formal Rotterdam order after a June 2026 trial without quantities or value."
+          },
+          "fdi": {
+            "zh": "公布臺荷合作備忘錄，未揭露跨境實際資金。",
+            "en": "A Taiwan–Netherlands memorandum was announced without a cross-border cash-flow value."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及 AI 晶片、智慧電源、嵌入式系統與工廠應用。",
+            "en": "Relevant to AI chips, smart power, embedded systems and factories."
+          },
+          "timing": {
+            "zh": "10 月 20 日開幕，展期至 22 日。",
+            "en": "Opened October 20, with exhibition through October 22."
+          },
+          "unknowns": {
+            "zh": "缺少總產值個案歸屬、港口訂單金額、裝機數與正式驗收資料。",
+            "en": "The output breakdown, port order value, deployed units and acceptance records remain unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "展示技術成果",
+            "en": "Technology results showcased"
+          },
+          "current": 65,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 10 月 20 日展出",
+            "en": "20 Oct 2026 exhibition"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124307",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "產發署稱相關帶動產值",
+            "en": "IDA-reported associated output"
+          },
+          "current": 34.2,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "截至 2026 年 10 月 20 日官方公告",
+            "en": "Reported by 20 Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124307",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電源轉換、量測與自動化設備業者而言，鹿特丹港試用後取得訂單的資訊比單純展出更接近商業驗證，但仍應區分 2027 年規劃導入與當前實際部署。產發署尚未披露契約金額、設備數量或採購流程。",
+        "en": "For power-conversion, metrology and automation suppliers, the Rotterdam order after a trial provides a more concrete commercialization milestone than a demonstration, but the planned 2027 rollout remains distinct from current deployment. Contract value, unit count and procurement terms were not disclosed."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "taiwan-linyuan-smart-factory-safety",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "經濟部在高雄台氯林園廠展示六類智慧工安監測技術",
+        "en": "MOEA demonstrates six smart industrial-safety technologies at Kaohsiung's Linyuan plant"
+      },
+      "summary": {
+        "zh": "經濟部產業發展署 10 月 20 日在高雄台氯林園廠舉辦工安技術示範，公布六類應用，涵蓋人員定位、巡檢、VOCs 分析、影像辨識、管線監測及工廠管理平台。這是現場示範與政策輔導成果，官方尚未列出工廠故障率、停機率或事故率的前後實測比較。",
+        "en": "Taiwan's Industrial Development Administration demonstrated six smart industrial-safety applications at Taiwan VCM's Linyuan factory in Kaohsiung on October 20, covering worker location, inspection, VOC analysis, machine vision, pipeline monitoring and factory management. The event documented a pilot implementation, but the agency did not report verified before-and-after fault, downtime or incident rates."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工廠自動化與儀控",
+            "en": "Industrial automation and controls"
+          },
+          "text": {
+            "zh": "六類應用包含人員異常辨識及定位、智慧巡檢、揮發性有機物檢測分析、人車環境影像辨識、設備管線監測，以及廠務營運管理。對應的是感測器、工業控制、監測軟體與現場設備維護等環節，與晶圓設備的驗證標準應分開理解。",
+            "en": "Six categories include anomalous-worker detection and location, automated inspections, volatile-organic-compound analysis, people/vehicle imaging, equipment and pipeline monitoring, and factory operations management. They touch sensors, industrial controls and maintenance software, whose qualification criteria differ from semiconductor-production tools."
+          }
+        },
+        {
+          "label": {
+            "zh": "示範與量化限制",
+            "en": "Pilot scope and evidence limits"
+          },
+          "text": {
+            "zh": "產發署指出自 2024 年推動林園園區的智慧工安計畫，台氯廠參與並獲選示範案例。10 月 20 日的新進展是現場展示技術應用；過往計畫成立時間不能當成本次全新部署日期。",
+            "en": "IDA says its smart-safety program began in 2024, with Taiwan VCM participating as a demonstration site. The new October 20 development was the on-site showcase, not the initial installation of all systems."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚未公布六項技術的設備數量、廠區覆蓋率、同口徑事故改善數據或跨廠擴充預算。",
+            "en": "Equipment counts, plant coverage, comparable safety outcomes and rollout budgets across other factories remain undisclosed."
+          }
+        }
+      ],
+      "metric": "6 類",
+      "metricLabel": {
+        "zh": "智慧工安應用類別",
+        "en": "Smart safety application categories"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "location": {
+        "zh": "台灣高雄市林園區，台灣氯乙烯工業林園廠；示範工廠場址。",
+        "en": "Taiwan VCM Linyuan plant, Linyuan District, Kaohsiung, Taiwan; demonstration factory site."
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部產業發展署 · 林園廠智慧工安示範",
+            "en": "MOEA IDA · Linyuan safety pilot release"
+          },
+          "url": "https://mnscdn.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124314",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；自動化；工業控制；感測；終端",
+          "en": "Factories; automation; industrial controls; sensing; end-use"
+        },
+        "chain": {
+          "zh": "工廠感測與控制設備至工廠自動化與終端",
+          "en": "Factory sensors and controls through industrial automation and end-use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "既有政策計畫示範，未公告此次新增採購金額。",
+            "en": "A pilot under an existing program, with no newly disclosed purchase value."
+          },
+          "demand": {
+            "zh": "展示六類工安應用，未報告產線實際新增產能。",
+            "en": "Six safety categories showcased without new production-capacity figures."
+          },
+          "fdi": {
+            "zh": "未公布外商直接投資。",
+            "en": "No FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "與工廠監測、工業感測、控制系統和維護有關。",
+            "en": "Relates to factory monitoring, industrial sensing, controls and maintenance."
+          },
+          "timing": {
+            "zh": "10 月 20 日林園廠示範；政策計畫源自 2024 年。",
+            "en": "Demonstrated October 20 at Linyuan; program began in 2024."
+          },
+          "unknowns": {
+            "zh": "改善成效、裝機與工廠覆蓋率尚未量化。",
+            "en": "Effectiveness, installations and plant coverage remain unquantified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "智慧工安技術類別",
+            "en": "Smart industrial safety categories"
+          },
+          "current": 6,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 10 月 20 日示範",
+            "en": "20 Oct 2026 demonstration"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://mnscdn.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124314",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可直接比對的基期數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "工業控制與量測設備商可從監測精度、警報誤報率、設備連線方式與既有廠務系統相容性查核示範範圍。官方尚未公布裝機量與同口徑改善數據，難以評估跨工廠複製程度。",
+        "en": "Industrial control and metrology suppliers could examine sensing accuracy, false alarms, connectivity and integration with existing factory systems. Installation counts and comparable operating outcomes are not yet published."
       }
     }
   ],
@@ -537,59 +1456,59 @@
     {
       "id": 1,
       "question": {
-        "zh": "核准金額與可用容量之間，最需要補齊哪三個驗證點？",
-        "en": "Which three validation points matter most between approved value and usable capacity?"
+        "zh": "台灣外銷訂單與實際出口有哪些不同？",
+        "en": "How do Taiwan's export orders differ from actual exports?"
       },
       "text": {
-        "zh": "可從接電排程、機電工程里程碑與租戶簽約成熟度三項交叉比對，避免把投資管線誤判為已上線容量。",
-        "en": "Cross-check energization schedules, MEP milestones, and tenant-contract maturity to avoid mistaking pipeline value for live capacity."
+        "zh": "經濟部的外銷訂單統計涵蓋可能在海外生產的訂單；檢查資訊通信、電子產品與境內產值時，應保持指標和期間一致。",
+        "en": "MOEA export orders can be fulfilled by overseas factories. Compare ICT and electronics orders with Taiwan production only when definitions and periods align."
       }
     },
     {
       "id": 2,
       "question": {
-        "zh": "8,391MW 這種需求估算，對設備商的實際意義是什麼？",
-        "en": "What does an estimate like 8,391MW mean in practical terms for equipment suppliers?"
+        "zh": "10 月 22 日美光勞資行動是否已影響 HBM？",
+        "en": "Has Micron's planned October 22 action affected HBM output?"
       },
       "text": {
-        "zh": "它更像區域設計負載上限與投資方向訊號，仍需對照變電與併網時程，才能轉成可追蹤的接單窗口。",
-        "en": "It is closer to a regional design-load and investment-direction signal, and must be aligned with substation and interconnection timelines before becoming trackable order windows."
+        "zh": "截至 10 月 20 日報導，桃園工會僅宣布預定日期，台中工會仍協商，且未取得實際停工與 HBM 產量資料。",
+        "en": "As of the October 20 report, Taoyuan had announced a planned date and Taichung was still negotiating; no stoppage or HBM production figures were confirmed."
       }
     },
     {
       "id": 3,
       "question": {
-        "zh": "越南十億美元級投資意向何時才算真正落地？",
-        "en": "When should Vietnam’s multi-billion-dollar intentions be considered truly executed?"
+        "zh": "工研院宣稱的減廢成效與量產良率如何區分？",
+        "en": "How does ITRI's waste-reduction claim relate to production yield?"
       },
       "text": {
-        "zh": "至少要看到最終核准、施工啟動與設備進場三項同時成立，才可視為由意向轉為可用產能進度。",
-        "en": "At minimum, final approval, construction start, and equipment deployment should all be in place before treating intentions as executable capacity progress."
+        "zh": "20% 材料減廢、1% 以下出站不良率與 15% 空壓節能各有不同分母及設備對象，目前沒有公開跨客戶產線的同口徑實測比較。",
+        "en": "The 20% waste, sub-1% outgoing-defect and 15% compressed-air savings figures concern different systems and denominators; cross-customer comparable data remain unpublished."
       }
     }
   ],
-  "context": [],
+  "context": [
+    {
+      "title": {
+        "zh": "比較基準",
+        "en": "Reading the base periods"
+      },
+      "text": {
+        "zh": "台灣外銷訂單和馬來西亞對外貿易皆屬 2026 年 9 月資料，發布日期分別是 10 月 20 日及 19 日。訂單、海關出口與工廠產量涵蓋範圍不同。",
+        "en": "Taiwan's export-order release and Malaysia's trade release both cover September 2026, published on October 20 and 19 respectively. Orders, customs exports and plant output use different definitions."
+      }
+    }
+  ],
   "memo": {
     "title": {
-      "zh": "事實參考備忘錄",
-      "en": "Factual reference note"
+      "zh": "數據說明",
+      "en": "Data notes"
     },
     "items": []
   },
-  "lower": [
-    {
-      "title": {
-        "zh": "補刊修正：10/21 改為不同主題組合",
-        "en": "Backfill revision: October 21 switched to a distinct topic set"
-      },
-      "text": {
-        "zh": "本版改用資料中心核准、區域電力需求與越南擴產訊號三條線，不重複 10/20 的企業單案交付與採購敘事。",
-        "en": "This version uses three separate lines—data-center approvals, regional power-demand signals, and Vietnam expansion—instead of repeating the October 20 single-company delivery and procurement narrative."
-      }
-    }
-  ],
+  "lower": [],
   "verificationNote": {
-    "zh": "本期為 10/21 補刊更新版，已改用與 10/20 不同主題。可核對來源以 10/21 查得之報導與官方公開資訊為主；其中部分數值屬媒體彙整與估算，尚待後續專案級時程與核准文件補充，故信心多標示為中等。",
-    "en": "This is a revised October 21 backfill edition using topics distinct from October 20. Sources are based on reporting and official public information reviewed on October 21; some figures are media-compiled estimates and still await project-level schedules and approval documents, so confidence is mostly marked medium."
+    "zh": "美光桃園工會預定行動的原始公告連結尚未獨立取得，日期與公司回應依路透社採訪。工研院性能數字為發布單位自行聲明；TPCA 開幕稿展商數高於展前宣傳，並採用較新的開幕口徑。",
+    "en": "The original Taoyuan union announcement was not independently retrieved; the planned date and Micron response rely on Reuters reporting. ITRI performance figures are the institute's own claims. TPCA's opening brand count exceeds its earlier promotional count; the newer opening figures are used."
   }
 }

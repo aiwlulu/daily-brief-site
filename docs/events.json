@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -129,6 +129,32 @@
           "en": "TPCA · official exhibition and forum announcement"
         },
         "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394"
+      }
+    },
+    {
+      "id": "taitronics-aiot-2026",
+      "start": "2026-10-20",
+      "end": "2026-10-22",
+      "type": "systems",
+      "region": "tw",
+      "name": {
+        "zh": "TAITRONICS & AIoT Taiwan 2026",
+        "en": "TAITRONICS & AIoT Taiwan 2026"
+      },
+      "place": {
+        "zh": "台灣台北 · 台北南港展覽館 1 館",
+        "en": "Taipei Nangang Exhibition Center, Hall 1, Taipei, Taiwan"
+      },
+      "focus": {
+        "zh": "AI 晶片、嵌入式系統、智慧電源與工廠自動化；展期由主辦方確認",
+        "en": "AI chips, embedded systems, smart power and factory automation; dates verified with organizer"
+      },
+      "source": {
+        "name": {
+          "zh": "TAITRONICS · 官方展覽資訊",
+          "en": "TAITRONICS · Official event overview"
+        },
+        "url": "https://www.taitronics.tw/zh-tw/menu/566102D1961A557AD0636733C6861689/info.html"
       }
     },
     {
