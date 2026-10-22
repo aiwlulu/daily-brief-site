@@ -1,151 +1,74 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-21T02:11:10.000Z",
+  "generatedAt": "2026-10-22T08:10:47+08:00",
   "throughline": {
-    "zh": "本週已刊登資料包括台灣與馬來西亞電子貿易統計、記憶體勞資事件、載板設備驗證，以及伺服器與跨國投資規劃；實績與意向須分別辨識。",
-    "en": "Published coverage this week spans Taiwan and Malaysia electronics trade, a Taiwan memory-industry labor dispute, substrate-equipment validation and server and cross-border investment plans; actual results and intentions remain distinct."
+    "zh": "本週電子需求仍由 AI、伺服器與記憶體拉動，但台灣及東南亞的最新資料顯示，產能落地同時受材料認證、原料、人力、工安、電力與網路韌性約束。",
+    "en": "AI, server and memory demand continue to support electronics activity this week, while the latest Taiwan and Southeast Asian evidence shows that capacity execution also depends on material qualification, inputs, labor, safety, power and network resilience."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "taiwan",
-      "title": {
-        "zh": "台灣與東南亞電子需求：外銷訂單、出口與再出口",
-        "en": "Electronics demand across Taiwan and Southeast Asia: orders, exports and re-exports"
-      },
-      "summary": {
-        "zh": "經濟部 10 月 20 日公布台灣 9 月外銷訂單 1,142.1 億美元，年增 62.4%；馬來西亞 10 月 19 日公布同期出口年增 54.5%，電機電子產品為主要動力。新加坡先前公布的非石油本地出口採另一種貿易定義，三地數字不可直接合計。",
-        "en": "Taiwan reported September export orders of US$114.21 billion, up 62.4%, on October 20, while Malaysia reported September export growth of 54.5% on October 19, driven largely by electrical and electronic products. Singapore's non-oil domestic exports use a separate definition and must not be aggregated with these figures."
-      },
+      "category": "tech",
+      "title": {"zh": "封裝、載板與 PCB 材料從台灣延伸至馬來西亞與泰國", "en": "Packaging, substrate and PCB materials extend from Taiwan into Malaysia and Thailand"},
+      "summary": {"zh": "本週台灣展會與公司資料涵蓋 TGV、封裝設備、載板量測、HVLP4 銅箔、CCL 與焊球。Mi Material 士乃試產、金居檳城規劃與聯茂泰國擴產均連結 AI、HBM 或高速 PCB，但量產良率、認證、原料與資本支出資料仍不完整。", "en": "This week's Taiwan exhibition and company disclosures covered TGV, packaging tools, substrate metrology, HVLP4 copper foil, CCL and solder spheres. Mi Material's Senai trials, Goldenmax's Penang plan and Elite Material's Thailand expansion link to AI, HBM or high-speed PCBs, but yield, qualification, material and capital-spending data remain incomplete."},
       "references": [
-        {
-          "date": "2026-10-19",
-          "storyId": 3
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 1
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 6
-        }
+        {"date": "2026-10-20", "storyId": 3},
+        {"date": "2026-10-20", "storyId": 5},
+        {"date": "2026-10-20", "storyId": 6},
+        {"date": "2026-10-20", "storyId": 7},
+        {"date": "2026-10-21", "storyId": 3},
+        {"date": "2026-10-21", "storyId": 5},
+        {"date": "2026-10-22", "storyId": 3},
+        {"date": "2026-10-22", "storyId": 5},
+        {"date": "2026-10-22", "storyId": 6}
       ]
     },
     {
       "id": 2,
-      "category": "tech",
-      "title": {
-        "zh": "載板、封裝及設備：採購、量測與展會技術",
-        "en": "Substrates, packaging and tools: procurement, metrology and exhibition technology"
-      },
-      "summary": {
-        "zh": "台灣業者 10 月 19 日公布 TGV、封裝設備和 PCB 工廠設備計畫；10 月 20 日工研院公布載板溫測整合，TPCA Show 開幕並增設先進封裝主題區。採購公告、技術性能聲明及展覽規模各自屬不同驗證階段。",
-        "en": "Taiwanese companies reported TGV, packaging and PCB equipment plans on October 19; on October 20 ITRI presented integrated substrate metrology and TPCA Show opened with an advanced-packaging zone. Procurement notices, performance claims and exhibition size are distinct indicators."
-      },
+      "category": "taiwan",
+      "title": {"zh": "台灣與馬來西亞電子需求：訂單、出口與再出口口徑分流", "en": "Electronics demand in Taiwan and Malaysia: separating orders, exports and re-exports"},
+      "summary": {"zh": "台灣 9 月外銷訂單 1,142.1 億美元、年增 62.4%，馬來西亞同期出口年增 54.5%，資訊通信、電子與電機電子產品為主要動力。外銷訂單、國內出口與再出口採不同定義，不能直接合計或視為單一地區實際產量。", "en": "Taiwan's September export orders reached US$114.21 billion, up 62.4%, while Malaysia's exports rose 54.5%, driven mainly by ICT, electronics and E&E products. Export orders, domestic exports and re-exports use different definitions and cannot be added or treated as production in one location."},
       "references": [
-        {
-          "date": "2026-10-20",
-          "storyId": 3
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 5
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 6
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 7
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 3
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 5
-        }
+        {"date": "2026-10-19", "storyId": 3},
+        {"date": "2026-10-21", "storyId": 1},
+        {"date": "2026-10-21", "storyId": 6}
       ]
     },
     {
       "id": 3,
-      "category": "global",
-      "title": {
-        "zh": "AI 伺服器與機房：投資、供電節點及交付",
-        "en": "AI servers and facilities: investment, power milestones and delivery"
-      },
-      "summary": {
-        "zh": "10 月 19 日公布的神雲台灣工廠投資、Bitdeer 馬來西亞機房進度及 Aolani 意向書，涉及不同的金額與容量定義。工廠規劃、預定交付與非約束性意向書都尚未等同已完成產能。",
-        "en": "MiTAC's Taiwan manufacturing investment, Bitdeer's Malaysian facility milestones and Aolani's intentions published October 19 use different capital and capacity measures. Factory plans, delivery schedules and non-binding intent are not completed live capacity."
-      },
+      "category": "taiwan",
+      "title": {"zh": "記憶體供應節點：美光台中達成協議，桃園行動影響待觀察", "en": "Memory-supply milestone: Micron settles in Taichung while Taoyuan effects remain pending"},
+      "summary": {"zh": "美光台中工會 10 月 21 日簽署協議並撤回調解，桃園工會仍規劃 22 日進行 24 小時行動。桃園連結 DRAM 前段晶圓，台中涵蓋先進 DRAM、HBM 及封裝測試，但協議條款、參與人數與產量影響都未公開。", "en": "Micron's Taichung union signed an agreement and withdrew from mediation on October 21, while the Taoyuan union maintained a 24-hour action planned for October 22. Taoyuan links to front-end DRAM and Taichung to advanced DRAM, HBM, packaging and testing, but agreement terms, participation and output effects remain undisclosed."},
       "references": [
-        {
-          "date": "2026-10-20",
-          "storyId": 1
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 2
-        },
-        {
-          "date": "2026-10-20",
-          "storyId": 4
-        }
+        {"date": "2026-10-21", "storyId": 2},
+        {"date": "2026-10-22", "storyId": 1}
       ]
     },
     {
       "id": 4,
-      "category": "taiwan",
-      "title": {
-        "zh": "台灣記憶體製造與美光勞資進度",
-        "en": "Taiwan memory manufacturing and Micron labor developments"
-      },
-      "summary": {
-        "zh": "路透社 10 月 20 日報導美光桃園工會宣布 22 日預定單日罷工，台中工會仍安排調解。工會原始公告未獨立核對，且尚無已確認的 DRAM 或 HBM 產量損失。",
-        "en": "Reuters reported October 20 that Micron's Taoyuan union scheduled a one-day strike for October 22 while Taichung mediation remained pending. The original union notice was not independently obtained, and no DRAM or HBM output loss was confirmed."
-      },
+      "category": "global",
+      "title": {"zh": "AI 伺服器與數位基礎設施：機房、供電、交付與海纜韌性", "en": "AI servers and digital infrastructure: facilities, power, delivery and cable resilience"},
+      "summary": {"zh": "本週資料涵蓋神雲台灣工廠投資、Bitdeer 馬來西亞機房節點、Aolani 意向書，以及台菲研議海纜保護合作。工廠規劃、預定交付、非約束性意向與政策探索分屬不同落地階段，尚不能合併為已上線算力或網路容量。", "en": "This week's coverage includes MiTAC's Taiwan factory investment, Bitdeer Malaysian facility milestones, an Aolani letter of intent and Taiwan-Philippines exploration of cable-protection cooperation. Factory plans, scheduled deliveries, non-binding intent and policy exploration are distinct stages and cannot be aggregated as live compute or network capacity."},
       "references": [
-        {
-          "date": "2026-10-21",
-          "storyId": 2
-        }
+        {"date": "2026-10-20", "storyId": 1},
+        {"date": "2026-10-20", "storyId": 2},
+        {"date": "2026-10-20", "storyId": 4},
+        {"date": "2026-10-22", "storyId": 7}
       ]
     },
     {
       "id": 5,
       "category": "taiwan",
-      "title": {
-        "zh": "台灣投資、電力與工廠智慧化的不同落地階段",
-        "en": "Taiwan investment, power and industrial automation milestones"
-      },
-      "summary": {
-        "zh": "經濟部 10 月 20 日公布 13 家跨國企業招商意向書，同日產發署發表 TAITRONICS 技術成果與林園工廠監測示範。週內儲能及電力公告提供供電背景，投資意向與已完成設備驗收仍須區分。",
-        "en": "On October 20 MOEA reported 13 foreign-company LOIs and industrial authorities showcased TAITRONICS technologies and a Linyuan factory monitoring pilot. Power and storage updates provide context, but investment intentions and completed installations remain different milestones."
-      },
+      "title": {"zh": "工廠擴張的執行條件：投資、電力、自動化與建廠安全", "en": "Execution conditions for factory expansion: investment, power, automation and construction safety"},
+      "summary": {"zh": "台灣招商意向、儲能與電力公告、工廠監測示範及新加坡製造 AI 補助顯示資金與數位化投入持續增加；台積電高雄 F22 工地 4 人死亡及全台同類鋼構作業暫停，則突顯施工與復工條件也是產能時程的一部分。意向、政策資金、已驗收設備與投產產能須分開判讀。", "en": "Taiwan investment intentions, power and storage disclosures, factory-monitoring pilots and Singapore's manufacturing-AI support show continuing capital and digitalization efforts. Four fatalities at TSMC's Kaohsiung F22 site and the suspension of similar steel work across Taiwan show that construction and restart conditions also shape capacity schedules; intentions, policy funding, accepted equipment and live capacity must remain separate."},
       "references": [
-        {
-          "date": "2026-10-19",
-          "storyId": 4
-        },
-        {
-          "date": "2026-10-19",
-          "storyId": 5
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 4
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 7
-        },
-        {
-          "date": "2026-10-21",
-          "storyId": 8
-        }
+        {"date": "2026-10-19", "storyId": 4},
+        {"date": "2026-10-19", "storyId": 5},
+        {"date": "2026-10-21", "storyId": 4},
+        {"date": "2026-10-21", "storyId": 7},
+        {"date": "2026-10-21", "storyId": 8},
+        {"date": "2026-10-22", "storyId": 2},
+        {"date": "2026-10-22", "storyId": 4}
       ]
     }
   ]

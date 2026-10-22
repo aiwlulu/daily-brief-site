@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -103,6 +103,32 @@
           "en": "Energy Taiwan · official fact sheet"
         },
         "url": "https://www.energytaiwan.com.tw/en/menu/B3D88B5F64327C47D0636733C6861689/info.html"
+      }
+    },
+    {
+      "id": "itap-2026",
+      "start": "2026-10-21",
+      "end": "2026-10-22",
+      "type": "systems",
+      "region": "sea",
+      "name": {
+        "zh": "Industrial Transformation ASIA-PACIFIC 2026",
+        "en": "Industrial Transformation ASIA-PACIFIC 2026"
+      },
+      "place": {
+        "zh": "新加坡 · Suntec Singapore Convention & Exhibition Centre",
+        "en": "Suntec Singapore Convention & Exhibition Centre, Singapore"
+      },
+      "focus": {
+        "zh": "先進製造、工業 AI、自動化、數位製造與工業資安；官方地址為 1 Raffles Boulevard。",
+        "en": "Advanced manufacturing, industrial AI, automation, digital manufacturing and industrial cybersecurity; the official venue address is 1 Raffles Boulevard."
+      },
+      "source": {
+        "name": {
+          "zh": "ITAP · 官方日期與場地",
+          "en": "ITAP · official dates and venue"
+        },
+        "url": "https://industrial-transformation.com/venue/"
       }
     },
     {

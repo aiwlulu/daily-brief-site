@@ -1,0 +1,773 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T08:10:47+08:00",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：記憶體、晶圓建廠、先進封裝材料、PCB、工廠自動化與數位基礎設施",
+      "en": "Taiwan and Southeast Asia: memory, fab construction, advanced-packaging materials, PCBs, factory automation and digital infrastructure"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣記憶體與晶圓製造面臨勞資及建廠安全節點，台灣、馬來西亞、泰國與新加坡則同步增加封裝材料、PCB 材料與工廠數位化投入，供應鏈擴張正從產能延伸到人員、施工與基礎設施治理。",
+    "en": "Taiwan's memory and foundry sectors face labor and construction-safety milestones, while Taiwan, Malaysia, Thailand and Singapore are adding packaging-material, PCB-material and factory-digitalization capacity, extending supply-chain execution from equipment into workforce, construction and infrastructure governance."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "美光台中工會已達成協議並撤回調解，桃園工會仍規劃 10 月 22 日上午 9 時起罷工 24 小時；實際停工範圍與產量影響尚未確認。",
+        "en": "Micron's Taichung union reached an agreement and withdrew from mediation, while the Taoyuan union still planned a 24-hour strike from 9 a.m. on October 22; the actual production scope remains unconfirmed."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台積電高雄 F22 新廠工地事故造成 4 名工人死亡，公司暫停高雄現場及全台新建廠區的同類鋼構作業。",
+        "en": "Four workers died at TSMC's Kaohsiung F22 construction site, prompting the company to suspend similar steel-structure work at new sites across Taiwan."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "Mi Material 以 2.15 億新加坡元 IPO 籌資，士乃新廠正試產，並計畫升級台南廠；焊球產品連結 AI、HBM 與先進封裝。",
+        "en": "Mi Material launched a S$215 million IPO, with trial runs under way at its Senai plant and a Taiwan-site upgrade planned; its solder spheres serve AI, HBM and advanced packaging."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "新加坡未來 3 年投入逾 4,500 萬新加坡元，協助先進製造中小企業導入設計、排程及預測維護 AI 工具。",
+        "en": "Singapore committed more than S$45 million over three years to help advanced-manufacturing SMEs adopt AI for design, scheduling and predictive maintenance."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "金居規劃在馬來西亞檳城周邊建置年產 3 萬噸 HVLP4 銅箔新廠，首期產能預計 2028 年下半年陸續開出。",
+        "en": "Goldenmax plans a 30,000-tonne annual HVLP4 copper-foil plant near Penang, with the first phase scheduled to start ramping in the second half of 2028."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "micron-taiwan-labour-dispute",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：美光台中工會達成協議，桃園工會仍規劃 24 小時罷工",
+        "en": "Follow-up: Micron reaches Taichung union agreement as Taoyuan union keeps 24-hour strike plan"
+      },
+      "summary": {
+        "zh": "Reuters 10 月 21 日報導，美光與台中工會已簽署協議並撤回原訂 10 月 22 日的調解，條款未公開；桃園工會則表示談判未取得具體分紅數字，仍規劃自 22 日上午 9 時起在桃園廠外進行 24 小時罷工。桃園廠以 DRAM 前段晶圓製造為主，台中廠涵蓋先進 DRAM、HBM 及封裝測試，但罷工參與範圍、維持運轉的人力與實際產量影響尚未確認。",
+        "en": "Reuters reported on October 21 that Micron and its Taichung union signed an agreement and withdrew from mediation scheduled for October 22, without disclosing terms. The Taoyuan union said talks produced no specific profit-sharing figures and maintained a 24-hour strike plan from 9 a.m. outside the Taoyuan site; Taoyuan focuses on front-end DRAM wafer production, while Taichung covers advanced DRAM, HBM, packaging and testing, but participation and output effects remain unknown."
+      },
+      "sections": [
+        {
+          "label": {"zh": "供應鏈與製程位置", "en": "Supply-chain and process position"},
+          "text": {
+            "zh": "TrendForce 分析師向 Reuters 表示，桃園主要進行 DRAM 前段晶圓製造，台中則生產先進 DRAM 與 HBM 並處理封裝測試。罷工是否轉化為供給變動，取決於實際參與的產線與人員，以及維護、製程監控與異常處理是否維持。",
+            "en": "A TrendForce analyst told Reuters that Taoyuan mainly handles front-end DRAM wafer manufacturing, while Taichung produces advanced DRAM and HBM and performs packaging and testing. Any supply effect depends on affected lines and staff and whether maintenance, process monitoring and abnormality handling continue."
+          }
+        },
+        {
+          "label": {"zh": "事件進度", "en": "Event status"},
+          "text": {
+            "zh": "台中工會協議與桃園工會罷工屬兩個不同勞資進程。美光表示仍希望持續對話；Reuters 報導時，桃園行動尚未開始，不能把預定 24 小時直接視為停產 24 小時。",
+            "en": "The Taichung agreement and Taoyuan strike are separate labor processes. Micron said it remained hopeful dialogue would continue; at the Reuters publication time, the Taoyuan action had not begun, so a planned 24-hour strike is not equivalent to 24 hours of lost production."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "台中協議條款、桃園工會實際參與人數、受影響產線、在製品處置、良率及出貨排程均未公開。",
+            "en": "The Taichung agreement terms, actual Taoyuan participation, affected lines, work-in-process handling, yields and shipment schedules were not disclosed."
+          }
+        }
+      ],
+      "metric": "24 小時",
+      "metricLabel": {"zh": "桃園工會預定行動時間", "en": "Planned Taoyuan action duration"},
+      "confidence": {"zh": "中", "en": "Medium"},
+      "sources": [
+        {
+          "name": {"zh": "Reuters · 台中協議與桃園罷工進度", "en": "Reuters · Taichung agreement and Taoyuan strike status"},
+          "url": "https://www.reuters.com/business/world-at-work/micron-says-it-has-reached-agreement-with-taiwan-union-2026-10-21/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "台灣桃園，美光桃園廠外（工會預定罷工地點，依 Reuters 轉述）",
+        "en": "Outside Micron's Taoyuan site, Taiwan (planned strike location as reported by Reuters)"
+      },
+      "market": {
+        "eventDate": "2026-10-21",
+        "countries": {"zh": "台灣；美國", "en": "Taiwan; United States"},
+        "industries": {"zh": "DRAM；HBM；晶圓；封裝；測試；AI 伺服器", "en": "DRAM; HBM; wafer fabrication; packaging; testing; AI servers"},
+        "chain": {"zh": "DRAM 晶圓製造至 HBM 封裝測試與伺服器記憶體", "en": "DRAM wafer fabrication through HBM packaging, testing and server memory"},
+        "changes": {
+          "investment": {"zh": "未公布新增投資或資本支出變動。", "en": "No new investment or capital-expenditure change was disclosed."},
+          "demand": {"zh": "未公布新增訂單或出貨數字；Reuters 指出 AI 需求推升記憶體業獲利背景。", "en": "No new order or shipment figures were disclosed; Reuters cited AI-driven memory profitability as context."},
+          "fdi": {"zh": "未公布新增外商直接投資。", "en": "No new foreign direct investment was disclosed."}
+        },
+        "facts": {
+          "relevance": {"zh": "事件分別觸及 DRAM 前段製造，以及 HBM、封裝測試與 AI 伺服器記憶體供應。", "en": "The two sites connect front-end DRAM manufacturing with HBM, packaging, testing and AI-server memory supply."},
+          "timing": {"zh": "台中協議與桃園工會最新決定均在 10 月 21 日確認；桃園行動預定 10 月 22 日。", "en": "The Taichung agreement and latest Taoyuan decision were confirmed October 21; the Taoyuan action was scheduled for October 22."},
+          "unknowns": {"zh": "尚無一手工會公告連結，也無實際停工、產量損失或交期延誤數據。", "en": "No direct union notice was obtained, and no actual stoppage, output loss or delivery delay had been reported."}
+        }
+      },
+      "metrics": [
+        {
+          "name": {"zh": "預定罷工時間", "en": "Planned strike duration"},
+          "current": 24,
+          "unit": "小時",
+          "period": {"zh": "2026 年 10 月 22 日", "en": "Oct 22, 2026"},
+          "owner": {"zh": "美光桃園工會，由 Reuters 報導", "en": "Micron Taoyuan union, reported by Reuters"},
+          "sourceUrl": "https://www.reuters.com/business/world-at-work/micron-says-it-has-reached-agreement-with-taiwan-union-2026-10-21/",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "事件時間，無比較基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程電源、量測與測試設備供應商而言，值得追問的是桃園廠實際維持運轉的人力、受影響機台與在製品節點，以及台中協議是否涵蓋關鍵技術人員。現有資料不足以判定 DRAM、HBM 或封裝測試設備的拉貨與維護節奏會改變。",
+        "en": "For semiconductor process-power, metrology and test-equipment suppliers, the next questions are actual Taoyuan staffing, affected tools and work-in-process nodes, and whether the Taichung agreement covers critical technical staff. Current evidence is insufficient to infer changes in DRAM, HBM or packaging-and-test equipment demand or service schedules."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "tsmc-kaohsiung-f22-construction-safety",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台積電高雄 F22 工地事故造成 4 人死亡，全台同類鋼構作業暫停",
+        "en": "Four workers die at TSMC Kaohsiung F22 site; similar steel work suspended across Taiwan"
+      },
+      "summary": {
+        "zh": "台積電高雄 F22 新廠工地 10 月 20 日鋼構吊掛安裝期間發生事故，4 名高空作業人員死亡；公司 21 日表示已暫停高雄現場及全台新建廠區的同類鋼構作業並配合調查。停工範圍是鋼構相關作業，來源沒有提供整體廠務工程停工天數、投產時程或資本支出變動。",
+        "en": "An accident during steel-structure lifting and installation at TSMC's Kaohsiung F22 project on October 20 killed four workers. TSMC said on October 21 that it suspended related work at the site and similar steel-structure work at new projects across Taiwan, but sources did not disclose an overall construction delay, production-start change or capital-spending revision."
+      },
+      "sections": [
+        {
+          "label": {"zh": "產業背景與工程範圍", "en": "Industry context and work scope"},
+          "text": {
+            "zh": "高雄 F22 屬台積電南部先進製程擴建的一部分，事故發生在廠房鋼構階段而非已投產晶圓線。台積電的自主停工擴及全台新建廠區的類似鋼構作業，顯示檢查範圍超過單一工地，但不代表所有機電、無塵室或設備安裝工程均停止。",
+            "en": "Kaohsiung F22 is part of TSMC's southern Taiwan advanced-node expansion. The accident occurred during structural construction, not on an operating wafer line. The voluntary suspension covers similar steel work at new Taiwan sites, a broader review than one project, but it does not establish that all mechanical, electrical, cleanroom or tool-installation work stopped."
+          }
+        },
+        {
+          "label": {"zh": "為什麼重要", "en": "Why it matters"},
+          "text": {
+            "zh": "晶圓廠擴建的時程由土建、鋼構、廠務、無塵室、機台搬入與認證串接。現階段已確認的是人員傷亡與同類鋼構作業暫停；若要評估產能時程，仍須等待復工條件、事故調查及關鍵路徑是否受影響。",
+            "en": "Fab schedules link civil work, steel structures, utilities, cleanrooms, tool move-in and qualification. The confirmed facts are the fatalities and suspension of similar steel work; assessing capacity timing requires restart conditions, investigation findings and evidence on whether the critical path changed."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "事故完整原因、承攬責任、復工條件、停工天數及對 F22 或其他新廠投產節點的影響仍待主管機關與公司說明。",
+            "en": "The full cause, contractor accountability, restart conditions, suspension length and effects on F22 or other fab milestones remain pending."
+          }
+        }
+      ],
+      "metric": "4 人",
+      "metricLabel": {"zh": "死亡人數", "en": "Fatalities"},
+      "confidence": {"zh": "高", "en": "High"},
+      "sources": [
+        {
+          "name": {"zh": "台積電聲明，由 Reuters 報導 · 事故與停工作業", "en": "TSMC statement reported by Reuters · accident and work suspension"},
+          "url": "https://www.reuters.com/world/asia-pacific/tsmc-says-four-construction-workers-killed-taiwan-site-halting-work-2026-10-21/",
+          "type": "Second-hand"
+        },
+        {
+          "name": {"zh": "中央社 · 高雄 F22 事故與全台自主停工", "en": "CNA · F22 accident and Taiwan-wide voluntary suspension"},
+          "url": "https://www.cna.com.tw/news/asoc/202610210060.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {"zh": "台灣高雄，台積電 F22 新廠工地（事故地點）", "en": "TSMC F22 new-fab construction site, Kaohsiung, Taiwan (accident site)"},
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {"zh": "台灣", "en": "Taiwan"},
+        "industries": {"zh": "晶圓代工；先進製程；工廠建設；設備安裝；職業安全", "en": "Foundry; advanced nodes; fab construction; tool installation; occupational safety"},
+        "chain": {"zh": "晶圓廠土建與鋼構至廠務、設備搬入及量產", "en": "Fab civil and steel construction through utilities, tool move-in and production"},
+        "changes": {
+          "investment": {"zh": "未公布資本支出修訂；僅確認同類鋼構作業暫停。", "en": "No capital-spending revision was disclosed; only the suspension of similar steel work was confirmed."},
+          "demand": {"zh": "未公布客戶需求或訂單變動。", "en": "No customer-demand or order change was disclosed."},
+          "fdi": {"zh": "未涉及新增外商直接投資。", "en": "No new foreign direct investment was involved."}
+        },
+        "facts": {
+          "relevance": {"zh": "事故位於新廠鋼構工程階段，後續是否影響廠務與設備進場須看復工和關鍵路徑。", "en": "The accident occurred during structural work; effects on utilities and tool move-in depend on restart timing and the project critical path."},
+          "timing": {"zh": "事故發生於 10 月 20 日傍晚，公司於 10 月 21 日確認死亡人數與停工範圍。", "en": "The accident occurred on the evening of October 20; TSMC confirmed fatalities and the suspension scope on October 21."},
+          "unknowns": {"zh": "尚未公布復工時間、工程延誤、投產時程及資本支出影響。", "en": "Restart timing, construction delay, production schedule and capital-spending effects were not disclosed."}
+        }
+      },
+      "metrics": [
+        {
+          "name": {"zh": "事故死亡人數", "en": "Accident fatalities"},
+          "current": 4,
+          "unit": "人",
+          "period": {"zh": "2026 年 10 月 20 日事故", "en": "Oct 20, 2026 accident"},
+          "owner": {"zh": "台積電聲明，由 Reuters 與中央社報導", "en": "TSMC statement, reported by Reuters and CNA"},
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/tsmc-says-four-construction-workers-killed-taiwan-site-halting-work-2026-10-21/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "事故人數，無比較基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程設備與精密電源供應商而言，後續應核對哪些新廠的鋼構、廠務與機台進場屬同一關鍵路徑，以及現場承攬商的復工條件。未公布停工天數與設備搬入節點前，不能判定裝機、驗收或服務時程已改變。",
+        "en": "For semiconductor equipment and precision-power suppliers, the next checks are which fabs link steel work, utilities and tool move-in on the same critical path and what contractor restart conditions apply. Without suspension duration and move-in milestones, changes to installation, acceptance or service schedules cannot be inferred."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "mi-material-singapore-ipo-senai-expansion",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Mi Material 啟動 2.15 億新加坡元 IPO，串接台南、士乃與新加坡研發",
+        "en": "Mi Material launches S$215 million IPO linking Tainan, Senai and Singapore R&D"
+      },
+      "summary": {
+        "zh": "Mi Material 10 月 19 日啟動新加坡主板 IPO，總募資規模 2.15 億新加坡元，公開及機構發售共 7,750 萬股，每股 1.80 新加坡元；其馬來西亞士乃第三座工廠正進行試產，預計 2027 年設置 7 條產線，並規劃升級台南既有廠及在新加坡設研發實驗室。公司焊球用於晶片與電路板、封裝間的互連，終端涵蓋 AI 高效能運算、HBM、行動裝置與車用，但新廠良率、客戶認證與實際產量尚未揭露。",
+        "en": "Mi Material launched a Singapore mainboard IPO on October 19 totaling S$215 million, offering 77.5 million shares at S$1.80 each. Trial production is under way at its third plant in Senai, Malaysia, with seven lines expected in 2027, alongside a planned Tainan upgrade and Singapore R&D lab; its solder spheres serve AI computing, HBM, mobile and automotive packaging, but ramp yield, customer qualification and actual output remain undisclosed."
+      },
+      "sections": [
+        {
+          "label": {"zh": "上下游與產品", "en": "Upstream and downstream products"},
+          "text": {
+            "zh": "SGX 招股資料指出，公司源自 1998 年成立於台南的 Accurus，主要設計與製造精密焊球，作為積體電路、封裝與印刷電路板之間的導電互連。母公司 Mi Technovation 另供應晶粒分選與檢測設備，客戶涵蓋晶圓廠與封測業者。",
+            "en": "SGX materials say the company originated from Accurus, founded in Tainan in 1998, and designs and manufactures precision solder spheres that provide electrical interconnects among integrated circuits, packages and printed circuit boards. Parent Mi Technovation also supplies die-sorting and inspection equipment to foundries and outsourced assembly and test providers."
+          }
+        },
+        {
+          "label": {"zh": "數字與客戶集中", "en": "Figures and customer concentration"},
+          "text": {
+            "zh": "公司 2025 年營收 6,530 萬美元、淨利 1,000 萬美元；三大終端晶片設計客戶占營收 50%，前五大直接客戶占約 46%。2026 年第三季營收 3,780 萬美元，季增 15.6%，毛利率 47.5%；上述數字來自招股與公司管理層資料，並非對 2027 年士乃量產的保證。",
+            "en": "The company reported 2025 revenue of US$65.3 million and net profit of US$10 million; its three largest end-market chip-design customers contributed 50% of revenue, while its top five direct customers contributed about 46%. Third-quarter 2026 revenue was US$37.8 million, up 15.6% sequentially, with a 47.5% gross margin; these prospectus and management figures do not guarantee the 2027 Senai ramp."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "未公布士乃各產線月產量、量產良率、客戶驗證進度、台南升級預算及新加坡研發實驗室的完成日期。",
+            "en": "Monthly output by Senai line, production yield, customer qualification, the Tainan upgrade budget and the Singapore lab completion date were not disclosed."
+          }
+        }
+      ],
+      "metric": "S$215M",
+      "metricLabel": {"zh": "IPO 總募資規模", "en": "Total IPO proceeds"},
+      "confidence": {"zh": "高", "en": "High"},
+      "sources": [
+        {
+          "name": {"zh": "SGX · Mi Material 招股資料", "en": "SGX · Mi Material prospectus materials"},
+          "url": "https://links.sgx.com/1.0.0/ipo-prospectus/3465",
+          "type": "First-hand"
+        },
+        {
+          "name": {"zh": "海峽時報 · IPO、工廠與財務數據", "en": "The Straits Times · IPO, plant and financial details"},
+          "url": "https://www.straitstimes.com/business/companies-markets/singapore-based-semiconductor-firm-mi-material-to-expand-into-us-malaysia-in-215m-ipo",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "新加坡證交所（上市地點）；馬來西亞柔佛州士乃（試產新廠）；台灣台南（既有廠與升級地點）",
+        "en": "Singapore Exchange (listing); Senai, Johor, Malaysia (new plant in trial production); Tainan, Taiwan (existing plant and planned upgrade)"
+      },
+      "market": {
+        "eventDate": "2026-10-19",
+        "countries": {"zh": "新加坡；馬來西亞；台灣", "en": "Singapore; Malaysia; Taiwan"},
+        "industries": {"zh": "先進封裝；焊球；HBM；AI 高效能運算；封測；印刷電路板", "en": "Advanced packaging; solder spheres; HBM; AI high-performance computing; assembly and test; PCBs"},
+        "chain": {"zh": "封裝材料與測試設備至 HBM、AI 晶片封裝及電路板", "en": "Packaging materials and test equipment through HBM, AI-chip packaging and PCBs"},
+        "changes": {
+          "investment": {"zh": "IPO 總規模 2.15 億新加坡元；多數淨募資擬投入美國研發中心，另設新加坡實驗室並升級台南廠。", "en": "The IPO totals S$215 million; most net proceeds are intended for a U.S. R&D center, with a Singapore lab and Tainan upgrade also planned."},
+          "demand": {"zh": "公司稱士乃廠已試產並預計 2027 年設置 7 條產線，但未公布訂單量與產能利用率。", "en": "The company said Senai trial production is under way and seven lines are expected in 2027, without order-volume or utilization data."},
+          "fdi": {"zh": "跨境布局涵蓋新加坡籌資與研發、馬來西亞製造、台灣既有產能升級；各地實際投入金額未完整拆分。", "en": "The cross-border plan combines Singapore financing and R&D, Malaysian manufacturing and a Taiwan-site upgrade; country-level spending was not fully split."}
+        },
+        "facts": {
+          "relevance": {"zh": "焊球是晶片封裝與電路板互連材料，直接連結 HBM、AI ASIC、封測與 PCB。", "en": "Solder spheres are interconnect materials linking chip packaging and PCBs, directly touching HBM, AI ASICs and outsourced assembly and test."},
+          "timing": {"zh": "IPO 於 10 月 19 日啟動，公開發售 10 月 26 日截止，預定 10 月 28 日掛牌。", "en": "The IPO launched October 19, closes October 26 and is scheduled to begin trading October 28."},
+          "unknowns": {"zh": "士乃量產良率、認證客戶、產線實際產能與台南升級投資額未公開。", "en": "Senai production yield, qualified customers, actual line capacity and Taiwan upgrade spending remain undisclosed."}
+        }
+      },
+      "metrics": [
+        {
+          "name": {"zh": "2025 年營收", "en": "FY2025 revenue"},
+          "current": 0.0653,
+          "unit": "USD billion",
+          "period": {"zh": "2025 財年", "en": "FY2025"},
+          "owner": {"zh": "Mi Material 招股資料，由海峽時報報導", "en": "Mi Material prospectus, reported by The Straits Times"},
+          "sourceUrl": "https://www.straitstimes.com/business/companies-markets/singapore-based-semiconductor-firm-mi-material-to-expand-into-us-malaysia-in-215m-ipo",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未在同一段提供 2024 年可比營收。"
+        },
+        {
+          "name": {"zh": "2025 年淨利", "en": "FY2025 net profit"},
+          "current": 0.01,
+          "unit": "USD billion",
+          "period": {"zh": "2025 財年", "en": "FY2025"},
+          "owner": {"zh": "Mi Material 招股資料，由海峽時報報導", "en": "Mi Material prospectus, reported by The Straits Times"},
+          "sourceUrl": "https://www.straitstimes.com/business/companies-markets/singapore-based-semiconductor-firm-mi-material-to-expand-into-us-malaysia-in-215m-ipo",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未在同一段提供 2024 年可比淨利。"
+        },
+        {
+          "name": {"zh": "三大終端客戶營收占比", "en": "Top-three end-customer revenue share"},
+          "current": 0.5,
+          "unit": "%",
+          "period": {"zh": "2025 財年", "en": "FY2025"},
+          "owner": {"zh": "Mi Material 招股資料，由海峽時報報導", "en": "Mi Material prospectus, reported by The Straits Times"},
+          "sourceUrl": "https://www.straitstimes.com/business/companies-markets/singapore-based-semiconductor-firm-mi-material-to-expand-into-us-malaysia-in-215m-ipo",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "客戶集中度，無比較基期。"
+        },
+        {
+          "name": {"zh": "2026 年第三季營收", "en": "Q3 2026 revenue"},
+          "current": 0.0378,
+          "unit": "USD billion",
+          "period": {"zh": "2026 年第三季", "en": "Q3 2026"},
+          "owner": {"zh": "Mi Material 管理層，由海峽時報報導", "en": "Mi Material management, reported by The Straits Times"},
+          "sourceUrl": "https://www.straitstimes.com/business/companies-markets/singapore-based-semiconductor-firm-mi-material-to-expand-into-us-malaysia-in-215m-ipo",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.156,
+          "baseStatus": "來源未提供前季精確營收，未反推基期。"
+        },
+        {
+          "name": {"zh": "2026 年第三季毛利率", "en": "Q3 2026 gross margin"},
+          "current": 0.475,
+          "unit": "%",
+          "period": {"zh": "2026 年第三季", "en": "Q3 2026"},
+          "owner": {"zh": "Mi Material 管理層，由海峽時報報導", "en": "Mi Material management, reported by The Straits Times"},
+          "sourceUrl": "https://www.straitstimes.com/business/companies-markets/singapore-based-semiconductor-firm-mi-material-to-expand-into-us-malaysia-in-215m-ipo",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源稱毛利率持平，未提供前季精確數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密電源、量測與封裝設備供應商而言，應分別追蹤士乃 7 條產線的機台配置、試產良率、客戶認證及台南升級範圍，並注意前三大終端客戶占營收一半。IPO 資金用途跨美國、新加坡與台灣，現有資料不足以拆出各地設備需求與採購時間。",
+        "en": "For precision-power, metrology and packaging-equipment suppliers, the useful checkpoints are tool configuration, trial yield and customer qualification across Senai's seven planned lines, plus the scope of the Tainan upgrade; the top three end customers account for half of revenue. IPO uses span the United States, Singapore and Taiwan, but available data do not split equipment demand or purchase timing by location."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "singapore-catalytic-ai-manufacturing",
+      "category": "global",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "新加坡投入逾 4,500 萬新加坡元，協助先進製造中小企業導入 AI",
+        "en": "Singapore commits more than S$45 million to manufacturing SME AI adoption"
+      },
+      "summary": {
+        "zh": "新加坡 10 月 21 日宣布未來 3 年投入逾 4,500 萬新加坡元，透過 EnterpriseSG 的 Catalytic AI Solutions 協助先進製造中小企業導入產品設計、報價文件處理、生產排程與預測維護工具。政府將共同補助符合資格的企業，但尚未公布個別補助比例、受惠企業數與產業別配置。",
+        "en": "Singapore announced on October 21 that it will commit more than S$45 million over three years through EnterpriseSG's Catalytic AI Solutions to help advanced-manufacturing SMEs adopt tools for product design, quotation-document processing, production scheduling and predictive maintenance. Eligible adoption will be co-funded, but company counts, sector allocation and individual subsidy rates were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {"zh": "產業背景與導入範圍", "en": "Industry context and deployment scope"},
+          "text": {
+            "zh": "計畫鎖定可部署的製造 AI，而非一般生成式 AI 訂閱。AIMfg 製造業 AI 卓越中心已與半導體、航太、製藥與能源等 30 家製造商合作，完成 23 個部署專案；首屆具身 AI 製造挑戰賽則以美光提供的半導體製造案例起步。",
+            "en": "The program targets deployable manufacturing AI rather than general-purpose AI subscriptions. The AIMfg center has worked with 30 manufacturers across semiconductors, aerospace, pharmaceuticals and energy and completed 23 deployment projects; an embodied-AI manufacturing challenge will begin with a semiconductor use case provided by Micron."
+          }
+        },
+        {
+          "label": {"zh": "數字怎麼看", "en": "Reading the figures"},
+          "text": {
+            "zh": "4,500 萬新加坡元是 3 年期政策承諾，並非單一工廠投資，也未等同已撥款。成效需以實際參與企業、導入完成率、設備停機下降、良率或排程改善等後續指標驗證。",
+            "en": "The S$45 million is a three-year policy commitment, not one factory investment or money already disbursed. Results require later evidence on participating firms, deployment completion, downtime, yield and scheduling improvements."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "尚未公布每家企業補助上限、方案清單、申請時程、半導體業分配占比與專案成效基準。",
+            "en": "Per-company caps, solution lists, application timing, semiconductor-sector allocation and outcome baselines were not disclosed."
+          }
+        }
+      ],
+      "metric": ">S$45M",
+      "metricLabel": {"zh": "3 年期政策承諾", "en": "Three-year policy commitment"},
+      "confidence": {"zh": "高", "en": "High"},
+      "sources": [
+        {
+          "name": {"zh": "CNA · EnterpriseSG 製造業 AI 計畫", "en": "CNA · EnterpriseSG manufacturing AI initiative"},
+          "url": "https://www.channelnewsasia.com/singapore/singapore-manufacturer-ai-adoption-45-million-6477566",
+          "type": "Second-hand"
+        },
+        {
+          "name": {"zh": "海峽時報 · 補助範圍與製造業應用", "en": "The Straits Times · funding scope and manufacturing uses"},
+          "url": "https://www.straitstimes.com/business/singapore-sets-aside-45m-to-help-advanced-manufacturing-smes-use-ai-solutions",
+          "type": "Second-hand"
+        },
+        {
+          "name": {"zh": "ITAP · 官方日期與場地", "en": "ITAP · official dates and venue"},
+          "url": "https://industrial-transformation.com/venue/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {"zh": "新加坡，Suntec Singapore Convention & Exhibition Centre（ITAP 2026 公布地點）", "en": "Suntec Singapore Convention & Exhibition Centre, Singapore (announcement venue at ITAP 2026)"},
+      "market": {
+        "eventDate": "2026-10-21",
+        "countries": {"zh": "新加坡", "en": "Singapore"},
+        "industries": {"zh": "工廠自動化；工業 AI；半導體製造；預測維護；生產排程", "en": "Factory automation; industrial AI; semiconductor manufacturing; predictive maintenance; production scheduling"},
+        "chain": {"zh": "工廠設計、設備維護與自動化至終端製造", "en": "Factory design, equipment maintenance and automation through end-use manufacturing"},
+        "changes": {
+          "investment": {"zh": "政府承諾未來 3 年投入逾 4,500 萬新加坡元。", "en": "The government committed more than S$45 million over three years."},
+          "demand": {"zh": "計畫將共同補助合格中小企業導入現成方案；尚無申請量或採用量。", "en": "The program will co-fund eligible SME adoption of ready-to-deploy solutions; application and adoption volumes are not yet available."},
+          "fdi": {"zh": "未公布新增外商直接投資。", "en": "No new foreign direct investment was disclosed."}
+        },
+        "facts": {
+          "relevance": {"zh": "方案直接涵蓋設計、報價、排程及預測維護，與半導體及精密製造工廠的軟體和自動化節點相關。", "en": "The initiative covers design, quotation processing, scheduling and predictive maintenance, touching software and automation in semiconductor and precision-manufacturing plants."},
+          "timing": {"zh": "計畫於 10 月 21 日 ITAP 2026 公布，資金期間為未來 3 年。", "en": "Announced at ITAP 2026 on October 21, with funding over the next three years."},
+          "unknowns": {"zh": "企業名單、補助比率、導入時程及可量化生產成果尚未公布。", "en": "Participating companies, subsidy rates, deployment schedules and quantified production outcomes remain undisclosed."}
+        }
+      },
+      "metrics": [
+        {
+          "name": {"zh": "計畫資金約當美元", "en": "Program funding, USD equivalent"},
+          "current": 0.035,
+          "unit": "USD billion",
+          "period": {"zh": "未來 3 年", "en": "Next three years"},
+          "owner": {"zh": "新加坡政府，由 CNA 報導", "en": "Singapore government, reported by CNA"},
+          "sourceUrl": "https://www.channelnewsasia.com/singapore/singapore-manufacturer-ai-adoption-45-million-6477566",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "政策承諾，無比較基期；CNA 提供約 3,500 萬美元換算。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密製造設備、量測與控制方案供應商而言，可追蹤補助是否涵蓋設備資料介接、預測維護、製程控制與報價自動化，以及半導體案例的實際部署規模。計畫金額屬政策承諾，未公布受惠企業與採購清單，現階段不足以判定硬體需求。",
+        "en": "For precision-manufacturing equipment, measurement and control suppliers, the useful checks are whether grants cover equipment-data integration, predictive maintenance, process control and quotation automation, and the deployment scale of semiconductor use cases. The funding is a policy commitment without beneficiary or procurement lists, so hardware demand cannot yet be inferred."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "goldenmax-malaysia-hvlp4-copper-foil",
+      "category": "global",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "金居規劃馬來西亞 HVLP4 銅箔廠，年產能目標 3 萬噸",
+        "en": "Goldenmax plans Malaysia HVLP4 copper-foil plant with 30,000-tonne annual target"
+      },
+      "summary": {
+        "zh": "金居董事長 10 月 20 日在 TPCA Show 表示，公司規劃於馬來西亞檳城周邊興建 HVLP4 高階銅箔廠，總年產能目標 3 萬噸，分兩期建置，首期預計 2028 年第三至第四季陸續開出，第二期規劃 2029 年下半年啟動。這是公司規劃值，具體廠址、資本支出、核准進度、客戶認證與量產良率尚未公布。",
+        "en": "Goldenmax's chairman said at TPCA Show on October 20 that the company plans an HVLP4 copper-foil plant near Penang with 30,000 tonnes of annual capacity in two phases. Initial output is scheduled to ramp in the third to fourth quarter of 2028 and phase two in the second half of 2029, but the site, capital spending, approvals, customer qualifications and production yield remain undisclosed."
+      },
+      "sections": [
+        {
+          "label": {"zh": "上下游與材料位置", "en": "Upstream and material position"},
+          "text": {
+            "zh": "HVLP4 超低輪廓銅箔位於高速印刷電路板與銅箔基板上游，用於降低高頻訊號傳輸損耗，連結 AI 伺服器、高速網通、PCB、CCL 及相關壓合製程。馬來西亞廠規劃將與台灣三廠高階銅箔產能搭配。",
+            "en": "HVLP4 very-low-profile copper foil sits upstream of high-speed PCBs and copper-clad laminates, reducing high-frequency signal loss for AI servers and networking equipment. The planned Malaysian plant would complement Goldenmax's high-end copper-foil capacity at its third Taiwan plant."
+          }
+        },
+        {
+          "label": {"zh": "數字怎麼看", "en": "Reading the figures"},
+          "text": {
+            "zh": "3 萬噸是兩期合計的年產能規劃，不是已完工或已接單數字。首期開出時間落在 2028 年下半年，尚有建廠、設備進場、試產與客戶驗證等節點。",
+            "en": "The 30,000 tonnes is combined planned annual capacity across two phases, not completed or contracted output. The first ramp is targeted for the second half of 2028, after construction, tool installation, trials and customer qualification."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "具體土地、投資金額、各期產能拆分、能源與用水需求、設備供應商及量產良率未公布。",
+            "en": "The exact site, investment amount, phase-level capacity, power and water needs, equipment suppliers and production yield were not disclosed."
+          }
+        }
+      ],
+      "metric": "3 萬噸/年",
+      "metricLabel": {"zh": "兩期合計規劃產能", "en": "Planned two-phase capacity"},
+      "confidence": {"zh": "中", "en": "Medium"},
+      "sources": [
+        {
+          "name": {"zh": "中央社 · 金居馬來西亞廠規劃", "en": "CNA · Goldenmax Malaysia plant plan"},
+          "url": "https://www.cna.com.tw/news/afe/202610200365.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {"zh": "MoneyDJ · 兩期時程與 HVLP4 產能", "en": "MoneyDJ · two-phase timing and HVLP4 capacity"},
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=a657f257-2c5c-4260-a8b6-e0ce9a3f2fc0",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {"zh": "馬來西亞檳城周邊（規劃廠址，尚未公布具體園區）", "en": "Penang area, Malaysia (planned site; specific industrial park not disclosed)"},
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {"zh": "台灣；馬來西亞", "en": "Taiwan; Malaysia"},
+        "industries": {"zh": "高階銅箔；HVLP4；銅箔基板；PCB；AI 伺服器；高速網通", "en": "High-end copper foil; HVLP4; copper-clad laminates; PCBs; AI servers; high-speed networking"},
+        "chain": {"zh": "上游銅箔材料至 CCL、PCB、伺服器與網通整機", "en": "Upstream copper-foil materials through CCL, PCBs, servers and networking systems"},
+        "changes": {
+          "investment": {"zh": "規劃兩期新廠，未公布資本支出。", "en": "A two-phase new plant is planned; capital spending was not disclosed."},
+          "demand": {"zh": "公司以 AI 高速訊號材料需求作為擴產依據，但未公布訂單或客戶。", "en": "The company cited AI high-speed-material demand but did not disclose orders or customers."},
+          "fdi": {"zh": "台灣企業規劃在馬來西亞新增製造據點，實際核准與到資尚未公布。", "en": "A Taiwanese company plans a new Malaysian manufacturing site; approvals and realized investment were not disclosed."}
+        },
+        "facts": {
+          "relevance": {"zh": "HVLP4 位於高速 PCB 上游，與 AI 伺服器及網通訊號完整性直接相關。", "en": "HVLP4 is upstream of high-speed PCBs and directly linked to signal integrity in AI servers and networking equipment."},
+          "timing": {"zh": "公司於 10 月 20 日 TPCA Show 場邊說明，首期規劃 2028 年下半年開出。", "en": "The plan was described at TPCA Show on October 20, with phase-one output targeted for the second half of 2028."},
+          "unknowns": {"zh": "投資額、具體廠址、設備名單、客戶認證與實際量產時程未確認。", "en": "Investment, exact site, equipment list, customer qualification and actual production timing remain unconfirmed."}
+        }
+      },
+      "metrics": [
+        {
+          "name": {"zh": "馬來西亞廠規劃年產能", "en": "Planned Malaysian annual capacity"},
+          "current": 30000,
+          "unit": "噸",
+          "period": {"zh": "兩期完成後", "en": "After both phases"},
+          "owner": {"zh": "金居董事長，由中央社與 MoneyDJ 報導", "en": "Goldenmax chairman, reported by CNA and MoneyDJ"},
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610200365.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "新廠規劃值，無可比基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高階材料製程、電源與量測設備供應商而言，應追蹤檳城廠的實際選址、兩期產能拆分、表面處理與檢測設備規格，以及 HVLP4 客戶認證節點。3 萬噸為遠期規劃值，尚不足以判定設備下單與驗收時程。",
+        "en": "For high-end materials processing, power and metrology suppliers, the key checkpoints are the Penang site, phase-level capacity, surface-treatment and inspection specifications, and HVLP4 customer qualifications. The 30,000-tonne figure is a long-term plan and does not establish tool order or acceptance timing."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "elite-material-thailand-ccl-expansion",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "聯茂規劃 2029 年 CCL 月產能達 915 萬張，泰國廠承接高階材料擴產",
+        "en": "Elite Material targets 9.15 million CCL sheets monthly by 2029 with Thailand expansion"
+      },
+      "summary": {
+        "zh": "聯茂執行長 10 月 20 日表示，公司已排定至 2029 年的中國無錫與泰國擴產，集團月產能規劃由 2026 年底 570 萬張增至 2029 年底 915 萬張；M9 材料預計 2027 年放量，M10 仍在送樣認證。公司同時指出 E-glass 電子玻纖布供應吃緊，需求預測、認證進度與原料供給仍是產能轉化為出貨的限制。",
+        "en": "Elite Material's chief executive said on October 20 that its Wuxi and Thailand expansions are scheduled through 2029, taking group monthly CCL capacity from a planned 5.7 million sheets at end-2026 to 9.15 million at end-2029. M9 material is expected to ramp in 2027 while M10 remains under sampling and qualification, and tight E-glass fabric supply remains a constraint."
+      },
+      "sections": [
+        {
+          "label": {"zh": "供應鏈與產品認證", "en": "Supply chain and product qualification"},
+          "text": {
+            "zh": "CCL 位於玻纖布、樹脂與銅箔之後、PCB 壓合之前。聯茂稱 M9 已通過主要美系 AI GPU 業者與數家 PCB 廠認證，M9 搭配 Q 布產品預計 2027 年放量，M10 則仍送樣；不同材料世代不可只以總產能判斷可交付量。",
+            "en": "CCL sits after glass fabric, resin and copper foil and before PCB lamination. Elite Material said M9 has passed qualification at a major U.S. AI GPU company and several PCB makers, with M9 plus Q-cloth expected to ramp in 2027, while M10 remains in sampling; total capacity alone does not establish shippable high-end output."
+          }
+        },
+        {
+          "label": {"zh": "數字與基準", "en": "Figures and base"},
+          "text": {
+            "zh": "2029 年底 915 萬張為公司產能規劃，較 2026 年底 570 萬張增加約 60.5%，是跨三年規劃差，不是年增率。公司表示工廠與設備已訂定，但仍須分年完成建置、驗證及原料供應。",
+            "en": "The end-2029 target of 9.15 million sheets is planned capacity, about 60.5% above the end-2026 plan of 5.7 million; this is a three-year plan difference, not a year-on-year rate. The company said factories and equipment have been arranged, but annual construction, qualification and material supply remain necessary."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "泰國各階段高階產品占比、實際利用率、良率、客戶別訂單與 E-glass 缺料解除時間仍未公布。",
+            "en": "Thailand's high-end product mix, utilization, yield, customer orders and timing for easing E-glass shortages were not disclosed."
+          }
+        }
+      ],
+      "metric": "915 萬張/月",
+      "metricLabel": {"zh": "2029 年底規劃月產能", "en": "Planned monthly capacity at end-2029"},
+      "confidence": {"zh": "中", "en": "Medium"},
+      "sources": [
+        {
+          "name": {"zh": "經濟日報 · 聯茂高階 CCL 與泰國擴產", "en": "Economic Daily News · Elite Material high-end CCL and Thailand expansion"},
+          "url": "https://money.udn.com/money/story/5612/9826980",
+          "type": "Second-hand"
+        },
+        {
+          "name": {"zh": "自由財經 · 產能、原料與產品認證", "en": "Liberty Times Business · capacity, materials and product qualification"},
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5612522",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "泰國巴真府（擴產廠址，依公司受訪資料）；台灣台北南港展覽館一館（TPCA Show 發布地點）",
+        "en": "Prachin Buri, Thailand (expansion site, based on company interviews); Taipei Nangang Exhibition Center Hall 1, Taiwan (TPCA Show announcement venue)"
+      },
+      "market": {
+        "eventDate": "2026-10-20",
+        "countries": {"zh": "台灣；泰國；中國", "en": "Taiwan; Thailand; China"},
+        "industries": {"zh": "銅箔基板；玻纖布；PCB；AI 伺服器；高速網通；材料認證", "en": "Copper-clad laminates; glass fabric; PCBs; AI servers; high-speed networking; material qualification"},
+        "chain": {"zh": "玻纖布、樹脂與銅箔材料至 CCL、PCB 與伺服器整機", "en": "Glass fabric, resin and copper foil through CCL, PCBs and server systems"},
+        "changes": {
+          "investment": {"zh": "公司稱無錫與泰國擴產的工廠及設備已排定，未公布本次資本支出總額。", "en": "The company said factories and equipment for Wuxi and Thailand expansion are arranged, without disclosing total capital spending."},
+          "demand": {"zh": "公司預期高階材料需求延續至 2028 至 2029 年，屬公司預測；M10 尚在認證。", "en": "The company forecast high-end material demand through 2028 to 2029; M10 remains under qualification."},
+          "fdi": {"zh": "台灣企業持續擴充泰國製造產能，新增到資額未公布。", "en": "A Taiwanese company continues expanding manufacturing in Thailand; new realized investment was not disclosed."}
+        },
+        "facts": {
+          "relevance": {"zh": "CCL 與高階玻纖布、銅箔是 AI 伺服器高速 PCB 的上游材料，認證與原料供給共同限制出貨。", "en": "CCL, advanced glass fabric and copper foil are upstream materials for AI-server high-speed PCBs, with qualification and material supply constraining shipments."},
+          "timing": {"zh": "公司於 10 月 20 日 TPCA Show 說明至 2029 年的擴產與產品時程。", "en": "The company described its expansion and product timeline through 2029 at TPCA Show on October 20."},
+          "unknowns": {"zh": "泰國廠高階材料產出、利用率、良率、客戶訂單及 E-glass 缺料時程未公開。", "en": "High-end Thailand output, utilization, yield, customer orders and E-glass shortage timing remain undisclosed."}
+        }
+      },
+      "metrics": [
+        {
+          "name": {"zh": "集團規劃月產能", "en": "Planned group monthly capacity"},
+          "current": 915,
+          "unit": "萬張/月",
+          "period": {"zh": "2029 年底", "en": "End-2029"},
+          "owner": {"zh": "聯茂管理層，由經濟日報與自由財經報導", "en": "Elite Material management, reported by Economic Daily News and Liberty Times Business"},
+          "sourceUrl": "https://money.udn.com/money/story/5612/9826980",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": 570,
+          "basePeriod": "2026 年底規劃月產能",
+          "reportedRate": null,
+          "baseStatus": "公司規劃由 570 萬張增至 915 萬張，跨三年增加約 60.5%，非 YoY。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 CCL 製程電源、量測與自動化設備供應商而言，應把總月產能拆成泰國各期、材料等級與認證狀態，並核對 E-glass 供應是否限制實際開機率。M9 預計放量、M10 仍送樣，兩者不能以同一設備需求時程處理。",
+        "en": "For CCL process-power, metrology and automation suppliers, total monthly capacity should be split by Thailand phase, material grade and qualification status, with E-glass availability checked against actual utilization. M9 is expected to ramp while M10 is still sampling, so their equipment timing should not be treated as identical."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taiwan-philippines-subsea-cable-cooperation",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "菲律賓表示正與台灣研議海纜保護合作，現階段以知識分享與能力建設為主",
+        "en": "Philippines says it is exploring subsea-cable cooperation with Taiwan, starting with knowledge and capacity building"
+      },
+      "summary": {
+        "zh": "菲律賓駐美副館長 10 月 21 日在華盛頓一場研討會表示，馬尼拉正與台灣探索海底電纜保護、知識分享與能力建設合作，重點涵蓋巴士海峽的灰色地帶活動。雙方尚未公布協議、預算、共同巡邏安排或執行時間，因此目前屬政策探索而非已上線的保護機制。",
+        "en": "The Philippines' deputy chief of mission in Washington said at an October 21 seminar that Manila is exploring cooperation with Taiwan on subsea-cable protection, knowledge sharing and capacity building, focused on gray-zone activity around the Bashi Channel. No agreement, budget, joint-patrol arrangement or implementation date was announced, so this remains policy exploration rather than an operating protection mechanism."
+      },
+      "sections": [
+        {
+          "label": {"zh": "供應鏈與基礎設施位置", "en": "Supply-chain and infrastructure position"},
+          "text": {
+            "zh": "海底電纜承載跨境資料流，連結台灣、菲律賓及區域資料中心、雲端服務與企業網路。合作若落地，涉及海事監控、故障通報、維修船調度、備援路由及責任追查，但 Reuters 引述的發言尚未具體到這些執行項目。",
+            "en": "Subsea cables carry cross-border data flows linking Taiwan, the Philippines and regional data centers, cloud services and enterprise networks. Implementation could involve maritime surveillance, fault notification, repair-vessel coordination, route redundancy and accountability, but the remarks reported by Reuters did not specify these measures."
+          }
+        },
+        {
+          "label": {"zh": "政策進度", "en": "Policy status"},
+          "text": {
+            "zh": "菲方官員稱合作須在其一中政策下採取務實方式，現階段提到的是知識分享與能力建設。台灣官員則表示將增加無人系統資源以提升海上監控，兩項說法都屬官方立場，尚未形成公開共同文件。",
+            "en": "The Philippine official said cooperation must be practical within Manila's one-China policy and currently cited knowledge sharing and capacity building. A Taiwan official said resources for unmanned maritime surveillance would increase; both are official positions without a published joint document."
+          }
+        },
+        {
+          "label": {"zh": "尚未確認", "en": "Still unknown"},
+          "text": {
+            "zh": "合作範圍、參與機關、預算、資料交換規則、巡邏或維修協調機制與完成日期均未公布。",
+            "en": "Scope, participating agencies, budget, data-sharing rules, patrol or repair coordination and completion dates were not disclosed."
+          }
+        }
+      ],
+      "metric": "能力建設",
+      "metricLabel": {"zh": "已公開合作層級", "en": "Disclosed cooperation level"},
+      "confidence": {"zh": "中", "en": "Medium"},
+      "sources": [
+        {
+          "name": {"zh": "Reuters · 台菲海纜合作官員發言", "en": "Reuters · Taiwan-Philippines cable-cooperation remarks"},
+          "url": "https://www.reuters.com/world/china/philippines-exploring-deeper-cooperation-with-taiwan-protect-cables-2026-10-21/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "美國華盛頓，Center for a New American Security 研討會（發言地點）；合作範圍聚焦台菲之間巴士海峽",
+        "en": "Center for a New American Security seminar, Washington, United States (remarks); cooperation focus around the Bashi Channel between Taiwan and the Philippines"
+      },
+      "market": {
+        "eventDate": "2026-10-21",
+        "countries": {"zh": "台灣；菲律賓", "en": "Taiwan; Philippines"},
+        "industries": {"zh": "海底電纜；資料中心；雲端；網路韌性；海事監控", "en": "Subsea cables; data centers; cloud; network resilience; maritime surveillance"},
+        "chain": {"zh": "海纜與網路基礎設施至資料中心、雲端與終端企業", "en": "Cable and network infrastructure through data centers, cloud and enterprise users"},
+        "changes": {
+          "investment": {"zh": "未公布投資或預算。", "en": "No investment or budget was disclosed."},
+          "demand": {"zh": "未公布新增頻寬、路由或設備採購。", "en": "No new bandwidth, route or equipment procurement was disclosed."},
+          "fdi": {"zh": "未涉及新增外商直接投資。", "en": "No new foreign direct investment was involved."}
+        },
+        "facts": {
+          "relevance": {"zh": "海纜是台菲與區域資料中心連線的底層基礎設施，政策重點是保護與監控，而非新增容量。", "en": "Subsea cables underpin Taiwan-Philippines and regional data-center connectivity; the policy focus is protection and surveillance, not added capacity."},
+          "timing": {"zh": "官員於 10 月 21 日公開說明正在探索合作。", "en": "Officials publicly described the exploratory cooperation on October 21."},
+          "unknowns": {"zh": "尚無共同協議、工程範圍、設備清單、預算或執行時程。", "en": "No joint agreement, engineering scope, equipment list, budget or implementation schedule was released."}
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對資料中心電源、網路監控與測試設備供應商而言，應先確認合作是否延伸到海纜登陸站、備援供電、故障定位與維修協調，而不只政策對話。現階段沒有預算、採購與技術規格，不足以推論新增設備需求。",
+        "en": "For data-center power, network-monitoring and test-equipment suppliers, the key question is whether cooperation extends to cable landing stations, backup power, fault location and repair coordination rather than policy dialogue alone. There is no budget, procurement or technical specification from which to infer new equipment demand."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {"zh": "罷工安排如何轉化為實際記憶體供給影響？", "en": "How could the strike plan translate into actual memory-supply effects?"},
+      "text": {"zh": "檢查實際參與人數、受影響製程、維護與異常處理人力，以及在製品、良率和交期資料；預定 24 小時不能直接視為停產 24 小時。", "en": "Check actual participation, affected process steps, maintenance and abnormality-response staffing, and work-in-process, yield and delivery data; a planned 24-hour action is not automatically a 24-hour shutdown."}
+    },
+    {
+      "id": 3,
+      "question": {"zh": "Mi Material 的跨境布局如何從募資進入量產？", "en": "How does Mi Material's cross-border plan move from financing to volume production?"},
+      "text": {"zh": "依序核對士乃試產良率、7 條產線設備進度、客戶認證、台南升級範圍與各地資金拆分，同時留意前三大終端客戶占營收 50% 的集中度。", "en": "Track Senai trial yield, equipment progress for seven lines, customer qualification, the Tainan upgrade and country-level use of proceeds, while noting that the top three end customers provide 50% of revenue."}
+    },
+    {
+      "id": 6,
+      "question": {"zh": "CCL 規劃產能與可交付高階材料有何差距？", "en": "What separates planned CCL capacity from qualified high-end output?"},
+      "text": {"zh": "把總月產能拆成泰國各期、M9 與 M10 認證狀態、E-glass 供應、良率與利用率；跨三年增加 60.5% 並非年增率。", "en": "Split monthly capacity by Thailand phase, M9 and M10 qualification, E-glass supply, yield and utilization; the 60.5% increase spans three years and is not a YoY rate."}
+    }
+  ],
+  "context": [
+    {
+      "title": {"zh": "新加坡製造 AI 計畫的既有基礎", "en": "Existing base for Singapore's manufacturing AI program"},
+      "text": {"zh": "AIMfg 製造業 AI 卓越中心自 2024 年成立後，官方稱已與 30 家製造商合作並完成 23 個部署專案；10 月 21 日公布的新資金是擴大導入的政策承諾，並非 23 案的追加實績。", "en": "Singapore says the AIMfg center, established in 2024, has worked with 30 manufacturers and completed 23 deployment projects. The funding announced October 21 is a policy commitment to broaden adoption, not additional completed results for those 23 projects."}
+    }
+  ],
+  "memo": {
+    "title": {"zh": "一頁分析備忘錄", "en": "One-page analysis memo"},
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {"zh": "降低權重：中國 NAND 升級計畫", "en": "Lower priority: China NAND upgrade plans"},
+      "text": {"zh": "Samsung 與 SK hynix 中國廠升級由匿名消息人士提供部分產能目標，且報導未建立與台灣或東南亞供應鏈的直接新連結，因此不列入主新聞。", "en": "Production targets for Samsung and SK hynix China-fab upgrades relied partly on unnamed sources, and the report did not establish a new direct link to Taiwan or Southeast Asian supply chains, so it was excluded from the main edition."}
+    },
+    {
+      "title": {"zh": "降低權重：股價與分析師主導的 AI 題材", "en": "Lower priority: stock-price and analyst-led AI headlines"},
+      "text": {"zh": "僅反映股價、估值或分析師情緒、未提供區域產能、認證、出貨或政策新事實的內容未納入。", "en": "Items driven mainly by stock prices, valuations or analyst sentiment without new regional capacity, qualification, shipment or policy facts were excluded."}
+    }
+  ],
+  "verificationNote": {
+    "zh": "美光桃園工會行動在資料截點時尚未開始，實際參與與產量影響待確認；台中協議條款未公開。金居與聯茂的產能、需求及時程是公司受訪時提出的規劃或預測，缺少資本支出、良率與客戶訂單驗證。台菲海纜合作仍是官員公開表述，尚無共同協議或預算。",
+    "en": "Micron's Taoyuan action had not begun at the data cutoff, so participation and output effects remain unconfirmed; Taichung agreement terms are undisclosed. Goldenmax and Elite Material capacity, demand and timing figures are company plans or forecasts reported from interviews, without capital-spending, yield or customer-order validation. Taiwan-Philippines cable cooperation remains an official policy statement without a joint agreement or budget."
+  }
+}
