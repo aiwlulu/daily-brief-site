@@ -87,3 +87,12 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 - Paragraphs read as news, not audit notes: lead with what happened and why it matters, use natural transitions, and gather limitations at the end in one or two sentences. Avoid internal editing language (本期, 本文, 今日整合追蹤, 標為來源受限) and repeated "does not mean" caveats.
 - The website shows location under the headline and verification confidence as a chip beside the category; paragraphs no longer append location, confidence or "label: figure" text. The Excel Full paragraph appends location at the end.
 - The final section is labelled 尚未確認 / Still unknown and matches `market.facts.unknowns`, which is then not repeated.
+
+## Traditional Chinese typography
+
+- Before publishing a newly researched edition, format all reader-facing Chinese strings using `node scripts/format-copy.mjs YYYY-MM-DD`. Apply it to the edition and its current weekly digest before rebuilding Excel downloads.
+- Put exactly one ASCII space at Chinese-to-English and Chinese-to-number boundaries: `NVIDIA 公布`, `AI model 的輸出`, `10 月 22 日`, `15 倍` and `11 億美元`.
+- Separate numbers from Chinese measure words with one space, but keep numbers attached to standard Western units such as `20MB`, `100ms`, `500MW` and to percent marks such as `11.55%`.
+- Use fullwidth punctuation in Chinese prose. Embedded English syntax, decimal dots, thousands separators, URLs, ticker symbols and immutable metric-schema units retain their original ASCII punctuation.
+- Apply these changes to published Chinese copy, including `story.metric`, `title.zh`, `summary.zh`, `sections[*].text.zh`, `market` labels, `ceoView.zh`, weekly highlights and calendar display text. Preserve all English copy, numeric values, identifiers, URLs and event dates.
+- The browser also applies the display-only typography normalizer to archived JSON, so earlier editions render consistently without changing prior archives or their published Excel checksums.

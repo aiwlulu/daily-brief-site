@@ -1,6 +1,6 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-22T15:29:01.366Z",
+  "generatedAt": "2026-10-22T15:47:05.757Z",
   "throughline": {
     "zh": "本週台灣與東南亞的供應鏈資訊涵蓋載板、封測與光學引擎的擴產目標、矽電容晶圓驗證、記憶體設計研發、勞資協商，以及廠務電力、設備材料和工程人力條件。",
     "en": "This week's Taiwan and Southeast Asian reporting covers substrate, test and optical-engine capacity targets, silicon-capacitor wafer validation, memory design R&D, labor talks and factory power, equipment-material and engineering workforce conditions."
@@ -14,7 +14,7 @@
         "en": "Advanced packaging and interconnect: substrates, optical engines, silicon capacitors and materials"
       },
       "summary": {
-        "zh": "台灣展會和NVIDIA、聯電及愛普公告揭露載板、晶片測試、CPO光學引擎與矽電容的新驗證或擴產節點；矽品規劃2027年中將光學引擎產能提升至現有15倍，愛普Gen2D已完成初步晶圓驗證。馬來西亞及泰國則有銅箔、CCL與焊球產能規劃，相關認證和實際產出仍待公開。",
+        "zh": "台灣展會和 NVIDIA、聯電及愛普公告揭露載板、晶片測試、CPO 光學引擎與矽電容的新驗證或擴產節點；矽品規劃 2027 年中將光學引擎產能提升至現有 15 倍，愛普 Gen2D 已完成初步晶圓驗證。馬來西亞及泰國則有銅箔、CCL 與焊球產能規劃，相關認證和實際產出仍待公開。",
         "en": "Taiwan industry disclosures added capacity and qualification milestones for substrates, testing, CPO optical engines and silicon capacitors. SPIL targets a 15-fold optical-engine increase by mid-2027 and AP Memory completed initial Gen2D wafer validation, while Malaysian and Thai materials expansions remain subject to qualification and actual output."
       },
       "references": [
@@ -72,7 +72,7 @@
         "en": "Wafer production and electronics demand: orders, exports and electric load"
       },
       "summary": {
-        "zh": "台灣9月外銷訂單達1,142.1億美元、馬來西亞同期出口年增54.5%，台綜院另報9月半導體用電年增11.55%。三組數據的地域、統計範圍與基期不同，半導體用電無法直接換算為晶圓出貨。",
+        "zh": "台灣 9 月外銷訂單達 1,142.1 億美元、馬來西亞同期出口年增 54.5%，台綜院另報 9 月半導體用電年增 11.55%。三組數據的地域、統計範圍與基期不同，半導體用電無法直接換算為晶圓出貨。",
         "en": "Taiwan's September export orders reached US$114.21 billion, Malaysia's exports grew 54.5% year-on-year, and the Taiwan Research Institute reported 11.55% growth in semiconductor electricity use. Geography, bases and definitions differ; power consumption cannot be converted directly into wafer shipments."
       },
       "references": [
@@ -98,11 +98,11 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "記憶體：美光勞資進度與馬日ZAM設計合作",
+        "zh": "記憶體：美光勞資進度與馬日 ZAM 設計合作",
         "en": "Memory: Micron labor developments and Malaysia-Japan ZAM design collaboration"
       },
       "summary": {
-        "zh": "美光台中工會10月21日達成協議，桃園工會22日有11名幹部展開行動；公司另公布季度分潤及台灣勞退提撥調升。馬來西亞SkyeChip與日本SAIMEMORY合作新型記憶體架構研發，尚未公布樣品良率或量產計畫。",
+        "zh": "美光台中工會 10 月 21 日達成協議，桃園工會 22 日有 11 名幹部展開行動；公司另公布季度分潤及台灣勞退提撥調升。馬來西亞 SkyeChip 與日本 SAIMEMORY 合作新型記憶體架構研發，尚未公布樣品良率或量產計畫。",
         "en": "Micron reached a Taichung union agreement on October 21 and 11 Taoyuan union officers began strike action on October 22, when Micron also detailed compensation changes. Malaysia's SkyeChip joined Japan's SAIMEMORY memory architecture R&D, without prototype yield or production timing disclosures."
       },
       "references": [
@@ -128,11 +128,11 @@
       "id": 4,
       "category": "global",
       "title": {
-        "zh": "AI資料中心系統：台灣ODM與模組化機房交付",
+        "zh": "AI 資料中心系統：台灣 ODM 與模組化機房交付",
         "en": "AI data-center systems: Taiwan ODMs and modular deployment"
       },
       "summary": {
-        "zh": "神雲台灣擴廠、東南亞機房計畫與NVIDIA DSX POD新型模組化AI機房依不同進度推進，DSX POD列名鴻海、台達電、技嘉、和碩、雲達及緯創等合作廠商。最快14天部署是備妥案場條件的公司估算，與已上線機房容量不能混用。",
+        "zh": "神雲台灣擴廠、東南亞機房計畫與 NVIDIA DSX POD 新型模組化 AI 機房依不同進度推進，DSX POD 列名鴻海、台達電、技嘉、和碩、雲達及緯創等合作廠商。最快 14 天部署是備妥案場條件的公司估算，與已上線機房容量不能混用。",
         "en": "MiTAC's Taiwan factory program, Southeast Asian site plans and NVIDIA's modular DSX POD reference design represent distinct stages. Taiwan partners include Foxconn, Delta, GIGABYTE, Pegatron, QCT and Wistron, while the 14-day prepared-site target is an estimate rather than installed data-center capacity."
       },
       "references": [
@@ -166,7 +166,7 @@
         "en": "Capacity execution: construction, tool materials, talent and power"
       },
       "summary": {
-        "zh": "台積電高雄F22工地事故造成4名工人死亡並暫停同類作業；Reuters另報導台積電正洽詢設備馬達降低稀土使用量，尚未獲原廠證實。新加坡製造AI補助與馬來西亞半導體人才培訓資金均為計畫或核准支出，與實際產線投產不同。",
+        "zh": "台積電高雄 F22 工地事故造成 4 名工人死亡並暫停同類作業；Reuters 另報導台積電正洽詢設備馬達降低稀土使用量，尚未獲原廠證實。新加坡製造 AI 補助與馬來西亞半導體人才培訓資金均為計畫或核准支出，與實際產線投產不同。",
         "en": "Four workers died at TSMC's Kaohsiung F22 site, prompting suspension of similar work, and Reuters separately reported preliminary, unconfirmed inquiries into rare-earth alternatives for fab motors. Singapore's manufacturing-AI support and Malaysia's semiconductor training approvals are program measures, distinct from commissioned factory capacity."
       },
       "references": [

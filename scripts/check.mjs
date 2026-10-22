@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {validDate,periodRange} from '../docs/dates.mjs';
+import {formatChineseFields} from '../docs/typography.mjs';
 const bilingual=value=>{for(const lang of ['zh','en'])assert.ok(typeof value?.[lang]==='string' && value[lang].trim(),'Missing bilingual text');};
 // Guard the simplified character found in published Chinese copy.
 // Do not convert shared forms such as 干, 准, 台 or proper names automatically.
@@ -19,6 +20,7 @@ for(const entry of manifest.editions) {
 const data = JSON.parse(fs.readFileSync(new URL('../docs/'+entry.path,import.meta.url),'utf8'));
 checkChineseCopy(data,entry.path);
 assert.equal(data.date,entry.date);
+if(data.date>='2026-10-23')assert.deepEqual(formatChineseFields(data),data,'Unformatted Chinese edition '+data.date);
 assert.ok(validDate(data.date));
 assert.equal(entry.path,'./editions/'+data.date+'.json');
 bilingual(data.throughline);
@@ -76,6 +78,7 @@ for(const [weekStart,weekPath] of Object.entries(manifest.weeks||{})){
  const digest=JSON.parse(fs.readFileSync(new URL('../docs/'+weekPath,import.meta.url),'utf8'));
  checkChineseCopy(digest,weekPath);
  assert.equal(digest.weekStart,weekStart);bilingual(digest.throughline);
+if(weekStart>='2026-10-18')assert.deepEqual(formatChineseFields(digest),digest,'Unformatted weekly digest '+weekStart);
  assert.ok(digest.highlights.length<=5);assert.equal(new Set(digest.highlights.map(h=>h.id)).size,digest.highlights.length);
  const usedReferences=new Set();
  for(const item of digest.highlights){

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T15:29:01.366Z",
+  "generatedAt": "2026-10-22T15:47:05.757Z",
   "coverage": {
     "focus": {
       "zh": "台灣與東南亞半導體、記憶體、封測、資料中心供電及工廠自動化",
@@ -9,42 +9,42 @@
     "approach": "facts-first"
   },
   "throughline": {
-    "zh": "NVIDIA公布台灣測試、載板與光學引擎擴產計畫，聯電和愛普推進封裝內供電驗證，台灣記憶體勞資進程與晶圓廠零組件替代評估則提供不同的製造執行資訊。",
+    "zh": "NVIDIA 公布台灣測試、載板與光學引擎擴產計畫，聯電和愛普推進封裝內供電驗證，台灣記憶體勞資進程與晶圓廠零組件替代評估則提供不同的製造執行資訊。",
     "en": "NVIDIA detailed Taiwan-linked test, substrate and optical-engine expansion, UMC and AP Memory advanced in-package power validation, and separate labor and equipment sourcing developments affect semiconductor manufacturing operations."
   },
   "brief": [
     {
       "id": 1,
       "text": {
-        "zh": "NVIDIA公布京元電11億美元產能預付款，矽品光學引擎規劃2027年中提升至15倍；產能仍屬未來目標。",
+        "zh": "NVIDIA 公布京元電 11 億美元產能預付款，矽品光學引擎規劃 2027 年中提升至 15 倍；產能仍屬未來目標。",
         "en": "NVIDIA disclosed a US$1.1B KYEC capacity advance and SPIL's 15-fold optical-engine target for mid-2027; these are future milestones."
       }
     },
     {
       "id": 2,
       "text": {
-        "zh": "聯電與愛普10月22日宣布DTC矽電容合作，Gen2D已完成初步晶圓驗證，系統級測試仍待進行。",
+        "zh": "聯電與愛普 10 月 22 日宣布 DTC 矽電容合作，Gen2D 已完成初步晶圓驗證，系統級測試仍待進行。",
         "en": "UMC and AP Memory announced DTC silicon-capacitor collaboration on Oct 22; Gen2D initial wafer validation is complete, with system testing ahead."
       }
     },
     {
       "id": 3,
       "text": {
-        "zh": "美光桃園工會11名幹部22日展開罷工，公司同日公布季度分潤與勞退10%提撥；產量影響未知。",
+        "zh": "美光桃園工會 11 名幹部 22 日展開罷工，公司同日公布季度分潤與勞退 10% 提撥；產量影響未知。",
         "en": "Eleven Micron Taoyuan union officers began a strike as the company unveiled quarterly bonuses and 10% retirement contributions; output effects are unknown."
       }
     },
     {
       "id": 4,
       "text": {
-        "zh": "Reuters披露台積電正評估無稀土設備馬達，供應商接洽仍屬早期，尚未廣泛導入。",
+        "zh": "Reuters 披露台積電正評估無稀土設備馬達，供應商接洽仍屬早期，尚未廣泛導入。",
         "en": "Reuters reported preliminary TSMC inquiries into rare-earth-free equipment motors with no broad rollout."
       }
     },
     {
       "id": 5,
       "text": {
-        "zh": "NVIDIA發布DSX POD，台灣ODM及電源供應商列名；備妥場址最快14天部署是公司估計。",
+        "zh": "NVIDIA 發布 DSX POD，台灣 ODM 及電源供應商列名；備妥場址最快 14 天部署是公司估計。",
         "en": "NVIDIA launched DSX POD with Taiwan ODM and power partners; 14-day prepared-site deployment is a company estimate."
       }
     }
@@ -57,11 +57,11 @@
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "NVIDIA公布京元電11億美元預付款，矽品光學引擎規劃增產15倍",
+        "zh": "NVIDIA 公布京元電 11 億美元預付款，矽品光學引擎規劃增產 15 倍",
         "en": "NVIDIA details $1.1B KYEC reservation advance and SPIL 15-fold optical-engine capacity target"
       },
       "summary": {
-        "zh": "NVIDIA 10月21日在柏林GTC宣布，規劃以11億美元測試產能預訂預付款支持京元電美國新廠，目標2027年4月量產；矽品台灣CPO光學引擎產能目標2027年中提升至現有15倍。欣興台灣KF載板擴產預定2027年第2季起增加產能，均為未來計畫。",
+        "zh": "NVIDIA 10 月 21 日在柏林 GTC 宣布，規劃以 11 億美元測試產能預訂預付款支持京元電美國新廠，目標 2027 年 4 月量產；矽品台灣 CPO 光學引擎產能目標 2027 年中提升至現有 15 倍。欣興台灣 KF 載板擴產預定 2027 年第 2 季起增加產能，均為未來計畫。",
         "en": "At GTC Berlin on October 21, NVIDIA disclosed a US$1.1 billion testing-capacity reservation advance supporting KYEC's planned U.S. facility, targeting high-volume production in April 2027. SPIL aims for a 15-fold optical-engine capacity increase in Taiwan by mid-2027, while Unimicron plans to begin adding KF substrate capacity in Q2 2027; all are future milestones."
       },
       "sections": [
@@ -71,7 +71,7 @@
             "en": "Industry and supply chain"
           },
           "text": {
-            "zh": "公告跨越晶片載板、晶圓級封裝、測試與光學引擎。京元電提供晶片測試，矽品負責CPO光學引擎，欣興提供先進封裝載板；NVIDIA並預期2027年集團半導體測試產能較2026年翻倍，包含美國、台灣與新加坡擴充。",
+            "zh": "公告跨越晶片載板、晶圓級封裝、測試與光學引擎。京元電提供晶片測試，矽品負責 CPO 光學引擎，欣興提供先進封裝載板；NVIDIA 並預期 2027 年集團半導體測試產能較 2026 年翻倍，包含美國、台灣與新加坡擴充。",
             "en": "The disclosure spans package substrates, advanced packaging, testing and optical engines. KYEC supplies chip-testing services, SPIL focuses on CPO optical engines and Unimicron on advanced substrates. NVIDIA expects total testing capacity in 2027 to double versus 2026 across U.S., Taiwan and Singapore expansion."
           }
         },
@@ -81,7 +81,7 @@
             "en": "Disclosures and timing"
           },
           "text": {
-            "zh": "NVIDIA表示新加坡測試產能計畫2027年2月開始大規模生產；矽品產能於2028年底前另力求再翻倍。與京元電的11億美元為產能預訂預付款，不能列為已完成廠房投資或公司營收。",
+            "zh": "NVIDIA 表示新加坡測試產能計畫 2027 年 2 月開始大規模生產；矽品產能於 2028 年底前另力求再翻倍。與京元電的 11 億美元為產能預訂預付款，不能列為已完成廠房投資或公司營收。",
             "en": "NVIDIA targets February 2027 for expanded high-volume testing in Singapore and a further doubling of SPIL optical-engine capacity by end-2028. The US$1.1 billion is a reservation advance, not confirmed completed factory spending or recognized revenue."
           }
         },
@@ -143,7 +143,7 @@
         },
         "changes": {
           "investment": {
-            "zh": "NVIDIA宣布11億美元京元電產能預訂預付款；其他資本支出未統一披露。",
+            "zh": "NVIDIA 宣布 11 億美元京元電產能預訂預付款；其他資本支出未統一披露。",
             "en": "NVIDIA announced a US$1.1B KYEC reservation advance; other capital budgets were not fully itemized."
           },
           "demand": {
@@ -157,11 +157,11 @@
         },
         "facts": {
           "relevance": {
-            "zh": "連結台灣載板、封裝測試與CPO光學引擎供應鏈。",
+            "zh": "連結台灣載板、封裝測試與 CPO 光學引擎供應鏈。",
             "en": "Links Taiwan substrates, assembly/test and CPO optical-engine supply."
           },
           "timing": {
-            "zh": "2026-10-21公告；2027至2028為規劃達產節點。",
+            "zh": "2026-10-21 公告；2027 至 2028 為規劃達產節點。",
             "en": "Announced Oct 21, 2026; capacity milestones run from 2027 into 2028."
           },
           "unknowns": {
@@ -179,7 +179,7 @@
           "current": 1.1,
           "unit": "USD billion",
           "period": {
-            "zh": "2026年10月21日公告",
+            "zh": "2026 年 10 月 21 日公告",
             "en": "Announced Oct 21, 2026"
           },
           "owner": {
@@ -196,7 +196,7 @@
         }
       ],
       "ceoView": {
-        "zh": "對封測機台、測試量測、基板製程電源與光學模組供應商而言，可核對2027年京元電設備裝機、矽品CPO光學引擎合格產出及欣興KF載板認證節點。公告未提供基準產出和最終採購量，無法從倍率推算設備需求。",
+        "zh": "對封測機台、測試量測、基板製程電源與光學模組供應商而言，可核對 2027 年京元電設備裝機、矽品 CPO 光學引擎合格產出及欣興 KF 載板認證節點。公告未提供基準產出和最終採購量，無法從倍率推算設備需求。",
         "en": "Process-power, test and metrology suppliers would check KYEC tool installation, SPIL CPO optical-engine qualified output and Unimicron KF substrate qualification milestones. Absolute capacity bases and procurement volumes are missing."
       }
     },
@@ -207,11 +207,11 @@
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "聯電與愛普合作矽電容，Gen2D已完成投片和初步驗證",
+        "zh": "聯電與愛普合作矽電容，Gen2D 已完成投片和初步驗證",
         "en": "UMC and AP Memory team on silicon capacitors after Gen2D tape-out validation"
       },
       "summary": {
-        "zh": "聯電與愛普10月22日在新竹宣布深溝槽電容（DTC）晶圓製造與S-SiCap矽電容設計合作。愛普Gen2D產品已於第三季完成投片和初步功能驗證，後續將進行封裝基板系統級效能與可靠度測試；雙方尚未宣布客戶量產驗收。",
+        "zh": "聯電與愛普 10 月 22 日在新竹宣布深溝槽電容（DTC）晶圓製造與 S-SiCap 矽電容設計合作。愛普 Gen2D 產品已於第三季完成投片和初步功能驗證，後續將進行封裝基板系統級效能與可靠度測試；雙方尚未宣布客戶量產驗收。",
         "en": "UMC and AP Memory announced a deep-trench-capacitor foundry and S-SiCap design collaboration in Hsinchu on October 22. AP Memory's Gen2D completed tape-out and initial functional validation in Q3, with substrate-level system performance and reliability tests next; customer production acceptance has not been announced."
       },
       "sections": [
@@ -221,7 +221,7 @@
             "en": "Industry and supply chain"
           },
           "text": {
-            "zh": "DTC矽電容可配置於晶片附近、中介層、封裝基板或封裝底部，降低供電路徑阻抗，與既有PCB上的穩壓元件形成不同整合層級。這項合作連結晶圓代工、先進封裝、電容元件與資料中心晶片供電完整性。",
+            "zh": "DTC 矽電容可配置於晶片附近、中介層、封裝基板或封裝底部，降低供電路徑阻抗，與既有 PCB 上的穩壓元件形成不同整合層級。這項合作連結晶圓代工、先進封裝、電容元件與資料中心晶片供電完整性。",
             "en": "DTC silicon capacitors can sit near compute dies, within interposers and substrates or on package landsides, moving capacitance closer to the load. The collaboration links foundry process technology, advanced packaging and data-center power integrity."
           }
         },
@@ -258,7 +258,7 @@
       "sources": [
         {
           "name": {
-            "zh": "聯電 · 10月22日技術合作公告",
+            "zh": "聯電 · 10 月 22 日技術合作公告",
             "en": "UMC · October 22 technology release"
           },
           "url": "https://www.umc.com/en/News/press_release/Content/technology_related/20261022",
@@ -303,11 +303,11 @@
         },
         "facts": {
           "relevance": {
-            "zh": "涵蓋晶圓製程與AI晶片封裝內供電元件。",
+            "zh": "涵蓋晶圓製程與 AI 晶片封裝內供電元件。",
             "en": "Connects foundry processing with in-package AI-chip power components."
           },
           "timing": {
-            "zh": "2026-10-22宣布；第三季投片驗證已完成，系統可靠度測試待進行。",
+            "zh": "2026-10-22 宣布；第三季投片驗證已完成，系統可靠度測試待進行。",
             "en": "Announced Oct 22; Q3 tape-out validation completed and system reliability tests are next."
           },
           "unknowns": {
@@ -318,7 +318,7 @@
       },
       "metrics": [],
       "ceoView": {
-        "zh": "對電源轉換、晶圓製程與封裝量測業者，值得核對DTC的電壓規格、可靠度測試方法、封裝整合良率和客戶設計導入狀況。目前沒有量產承諾或交貨量可判斷後續需求。",
+        "zh": "對電源轉換、晶圓製程與封裝量測業者，值得核對 DTC 的電壓規格、可靠度測試方法、封裝整合良率和客戶設計導入狀況。目前沒有量產承諾或交貨量可判斷後續需求。",
         "en": "Power-conversion, process-power and metrology suppliers would ask for DTC voltage ratings, reliability methods, packaging yield and design-in milestones. There are no committed volume deliveries or customer ramps yet."
       }
     },
@@ -329,11 +329,11 @@
       "pick": true,
       "depth": "lead",
       "title": {
-        "zh": "追蹤：美光桃園11名工會幹部罷工，公布季度分潤及勞退調升",
+        "zh": "追蹤：美光桃園 11 名工會幹部罷工，公布季度分潤及勞退調升",
         "en": "Follow-up: 11 Micron Taoyuan union officers strike as company details quarterly bonuses"
       },
       "summary": {
-        "zh": "美光桃園工會11名幹部10月22日上午9時起展開24小時罷工，台中工會則已於前一天達成協議。美光同日公布季度分潤獎金採現金與股票各半，台灣員工勞退提撥率由8%提高至10%，並增3天有薪假；實際產線損失仍未披露。",
+        "zh": "美光桃園工會 11 名幹部 10 月 22 日上午 9 時起展開 24 小時罷工，台中工會則已於前一天達成協議。美光同日公布季度分潤獎金採現金與股票各半，台灣員工勞退提撥率由 8% 提高至 10%，並增 3 天有薪假；實際產線損失仍未披露。",
         "en": "Eleven Micron Taoyuan union officers began a 24-hour strike at 9 a.m. on October 22, a day after the separate Taichung union reached an agreement. Micron announced quarterly profit-linked bonuses paid half in cash and half in equity, raised Taiwan retirement contributions from 8% to 10% and added three paid-leave days; production effects were not disclosed."
       },
       "sections": [
@@ -343,7 +343,7 @@
             "en": "Industry and supply chain"
           },
           "text": {
-            "zh": "桃園廠牽涉DRAM前段晶圓製造，台中廠有先進DRAM、HBM與封裝測試。工會幹部參與行動的實際規模，不能直接推算成整座晶圓廠停產時間。",
+            "zh": "桃園廠牽涉 DRAM 前段晶圓製造，台中廠有先進 DRAM、HBM 與封裝測試。工會幹部參與行動的實際規模，不能直接推算成整座晶圓廠停產時間。",
             "en": "Taoyuan is linked to front-end DRAM manufacturing, while Taichung covers advanced DRAM, HBM and packaging/test. Participation by union officers does not establish a fab-wide shutdown or a specific wafer loss."
           }
         },
@@ -368,7 +368,7 @@
           }
         }
       ],
-      "metric": "11人",
+      "metric": "11 人",
       "metricLabel": {
         "zh": "罷工工會幹部",
         "en": "Union officers on strike"
@@ -418,7 +418,7 @@
           "en": "DRAM; HBM; memory; wafers; packaging; testing"
         },
         "chain": {
-          "zh": "DRAM晶圓至HBM封裝測試與伺服器記憶體",
+          "zh": "DRAM 晶圓至 HBM 封裝測試與伺服器記憶體",
           "en": "DRAM wafer manufacturing through HBM packaging/test and server memory"
         },
         "changes": {
@@ -437,11 +437,11 @@
         },
         "facts": {
           "relevance": {
-            "zh": "涉及台灣記憶體製造人力及DRAM、HBM製程。",
+            "zh": "涉及台灣記憶體製造人力及 DRAM、HBM 製程。",
             "en": "Relates to Taiwan DRAM and HBM manufacturing staffing."
           },
           "timing": {
-            "zh": "罷工自2026-10-22上午9時至23日上午9時；獎酬方案22日公布。",
+            "zh": "罷工自 2026-10-22 上午 9 時至 23 日上午 9 時；獎酬方案 22 日公布。",
             "en": "Strike scheduled Oct 22, 9 a.m. to Oct 23, 9 a.m.; compensation plan announced Oct 22."
           },
           "unknowns": {
@@ -459,7 +459,7 @@
           "current": 11,
           "unit": "人",
           "period": {
-            "zh": "2026年10月22日",
+            "zh": "2026 年 10 月 22 日",
             "en": "Oct 22, 2026"
           },
           "owner": {
@@ -482,7 +482,7 @@
           "current": 0.1,
           "unit": "%",
           "period": {
-            "zh": "2026年10月22日公布方案",
+            "zh": "2026 年 10 月 22 日公布方案",
             "en": "Plan announced Oct 22, 2026"
           },
           "owner": {
@@ -502,7 +502,7 @@
         }
       ],
       "ceoView": {
-        "zh": "製程電源與記憶體測試供應商可核實罷工當日的輪班覆蓋、設備維護及在製品狀態，並留意薪酬協商對工廠排程是否有具體變動。現階段11名工會幹部的行動不足以估算設備需求或良率影響。",
+        "zh": "製程電源與記憶體測試供應商可核實罷工當日的輪班覆蓋、設備維護及在製品狀態，並留意薪酬協商對工廠排程是否有具體變動。現階段 11 名工會幹部的行動不足以估算設備需求或良率影響。",
         "en": "Process-power and memory-test suppliers would verify shift coverage, maintenance and work-in-process status, and any concrete schedule effects from talks. Eleven union officers' participation alone does not quantify tool demand or yield changes."
       }
     },
@@ -517,7 +517,7 @@
         "en": "Reuters: TSMC explores rare-earth-free fab motors in early supplier discussions"
       },
       "summary": {
-        "zh": "Reuters 10月22日引述3名知情人士指出，台積電正調查半導體自動化設備使用低稀土或無稀土馬達的可能性，以降低部分設備供應受出口管制影響。報導指出供應商洽詢尚處早期，未有廣泛導入；台積電拒絕評論。",
+        "zh": "Reuters 10 月 22 日引述 3 名知情人士指出，台積電正調查半導體自動化設備使用低稀土或無稀土馬達的可能性，以降低部分設備供應受出口管制影響。報導指出供應商洽詢尚處早期，未有廣泛導入；台積電拒絕評論。",
         "en": "Reuters reported on October 22, citing three informed sources, that TSMC is surveying suppliers about alternatives to rare-earth-containing motors in automated fab equipment. Discussions remain preliminary with no broad rollout, and TSMC declined comment."
       },
       "sections": [
@@ -537,7 +537,7 @@
             "en": "Disclosures and timing"
           },
           "text": {
-            "zh": "Reuters另引述工研院聲明，台灣正與經濟部產業技術司規劃稀土相關技術專案。工研院過去提及試量產線及供應目標屬先前政策背景，不能視為10月22日新增產能。",
+            "zh": "Reuters 另引述工研院聲明，台灣正與經濟部產業技術司規劃稀土相關技術專案。工研院過去提及試量產線及供應目標屬先前政策背景，不能視為 10 月 22 日新增產能。",
             "en": "Reuters also cited ITRI's statement that it is planning a rare-earth technology project with Taiwan's Ministry of Economic Affairs. Earlier pilot-line and supply ambitions are policy background, not new production installed on October 22."
           }
         },
@@ -605,7 +605,7 @@
             "en": "Potential motor substitutions affect precision automation components in fabs."
           },
           "timing": {
-            "zh": "Reuters於2026-10-22首次披露早期調查。",
+            "zh": "Reuters 於 2026-10-22 首次披露早期調查。",
             "en": "Reuters first reported the early supplier inquiries on Oct 22, 2026."
           },
           "unknowns": {
@@ -627,11 +627,11 @@
       "pick": true,
       "depth": "standard",
       "title": {
-        "zh": "NVIDIA推出DSX POD模組化AI機房，鴻海與台灣ODM列合作供應商",
+        "zh": "NVIDIA 推出 DSX POD 模組化 AI 機房，鴻海與台灣 ODM 列合作供應商",
         "en": "NVIDIA launches DSX POD modular AI factories with Taiwan ODM partners"
       },
       "summary": {
-        "zh": "NVIDIA 10月21日在德國柏林公布以Vera Rubin為核心的DSX POD模組化AI工廠參考設計，合作廠商包括鴻海鴻佰、台達電、技嘉、和碩、雲達及緯創。NVIDIA稱已備妥現場基礎設施的案場部署可由6個月縮短至最快14天，全球合作交付目標為2027年初。",
+        "zh": "NVIDIA 10 月 21 日在德國柏林公布以 Vera Rubin 為核心的 DSX POD 模組化 AI 工廠參考設計，合作廠商包括鴻海鴻佰、台達電、技嘉、和碩、雲達及緯創。NVIDIA 稱已備妥現場基礎設施的案場部署可由 6 個月縮短至最快 14 天，全球合作交付目標為 2027 年初。",
         "en": "At GTC Berlin on October 21, NVIDIA introduced the Vera Rubin-based DSX POD modular AI-factory reference design, naming Foxconn Ingrasys, Delta, GIGABYTE, Pegatron, QCT and Wistron among its partners. NVIDIA estimates deployment at a prepared site could fall from six months to as little as 14 days, with partner deliveries targeted for early 2027."
       },
       "sections": [
@@ -641,7 +641,7 @@
             "en": "Industry and supply chain"
           },
           "text": {
-            "zh": "DSX POD將伺服器整機、配線、機櫃電源、網路與液冷管路的整合測試提前在工廠完成；交付後仍須案場電力、散熱與網路就緒。台灣合作廠商分布在ODM、電源與機櫃系統。",
+            "zh": "DSX POD 將伺服器整機、配線、機櫃電源、網路與液冷管路的整合測試提前在工廠完成；交付後仍須案場電力、散熱與網路就緒。台灣合作廠商分布在 ODM、電源與機櫃系統。",
             "en": "DSX POD preintegrates compute, rack power, networking, cabling and liquid-cooling systems before shipment. Operating sites still need prepared electrical, cooling and network infrastructure; the Taiwan partner list spans ODM, power and rack integration."
           }
         },
@@ -651,7 +651,7 @@
             "en": "Disclosures and timing"
           },
           "text": {
-            "zh": "所稱14天為NVIDIA參考設計在已備妥案場條件下的最快目標，6個月為其比較情境，非所有專案實績。公司未列個別台廠供貨量與認證時程。",
+            "zh": "所稱 14 天為 NVIDIA 參考設計在已備妥案場條件下的最快目標，6 個月為其比較情境，非所有專案實績。公司未列個別台廠供貨量與認證時程。",
             "en": "The 14-day figure is NVIDIA's best-case estimate for prepared sites, compared with its six-month reference case, not average project performance. Volumes and qualification schedules for individual Taiwan partners were not disclosed."
           }
         },
@@ -666,7 +666,7 @@
           }
         }
       ],
-      "metric": "14天",
+      "metric": "14 天",
       "metricLabel": {
         "zh": "備妥場址的最快部署目標",
         "en": "Fastest target at a prepared site"
@@ -678,7 +678,7 @@
       "sources": [
         {
           "name": {
-            "zh": "NVIDIA · DSX POD產品公告",
+            "zh": "NVIDIA · DSX POD 產品公告",
             "en": "NVIDIA · DSX POD announcement"
           },
           "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
@@ -686,7 +686,7 @@
         },
         {
           "name": {
-            "zh": "中央社 · 台灣ODM合作名單",
+            "zh": "中央社 · 台灣 ODM 合作名單",
             "en": "CNA · Taiwan ODM partner list"
           },
           "url": "https://www.cna.com.tw/news/afe/202610210336.aspx",
@@ -708,7 +708,7 @@
           "en": "ODM; servers; racks; power; liquid cooling; data centers"
         },
         "chain": {
-          "zh": "ODM伺服器與電源液冷整機至資料中心",
+          "zh": "ODM 伺服器與電源液冷整機至資料中心",
           "en": "ODM servers, rack power and cooling to data centers"
         },
         "changes": {
@@ -717,7 +717,7 @@
             "en": "No incremental investment amount was disclosed."
           },
           "demand": {
-            "zh": "2027年初交付為公司目標，未公告訂單數。",
+            "zh": "2027 年初交付為公司目標，未公告訂單數。",
             "en": "Early-2027 partner delivery is a target without order volumes."
           },
           "fdi": {
@@ -727,11 +727,11 @@
         },
         "facts": {
           "relevance": {
-            "zh": "台灣伺服器ODM及電源供應鏈名列模組化機房生態系。",
+            "zh": "台灣伺服器 ODM 及電源供應鏈名列模組化機房生態系。",
             "en": "Taiwan server ODMs and power suppliers are named in the modular facility ecosystem."
           },
           "timing": {
-            "zh": "GTC柏林2026-10-21發布，計畫2027年初交付。",
+            "zh": "GTC 柏林 2026-10-21 發布，計畫 2027 年初交付。",
             "en": "Announced at GTC Berlin on Oct 21; deliveries targeted for early 2027."
           },
           "unknowns": {
@@ -749,7 +749,7 @@
           "current": 14,
           "unit": "天",
           "period": {
-            "zh": "2026年10月21日公告設計目標",
+            "zh": "2026 年 10 月 21 日公告設計目標",
             "en": "Design target disclosed Oct 21, 2026"
           },
           "owner": {
@@ -766,7 +766,7 @@
         }
       ],
       "ceoView": {
-        "zh": "資料中心電源轉換、液冷CDU、機櫃測試業者可核實箱體出廠的功能驗證範圍、現場變電與散熱介面，以及各ODM責任分工。最短部署時間仍是估計，尚無可比較的實際交付數據。",
+        "zh": "資料中心電源轉換、液冷 CDU、機櫃測試業者可核實箱體出廠的功能驗證範圍、現場變電與散熱介面，以及各 ODM 責任分工。最短部署時間仍是估計，尚無可比較的實際交付數據。",
         "en": "Data-center power, CDU and rack test suppliers would verify factory acceptance scope, on-site power and cooling interfaces and partner responsibilities. The minimum deployment duration remains an estimate without observed installation results."
       }
     },
@@ -777,11 +777,11 @@
       "pick": false,
       "depth": "standard",
       "title": {
-        "zh": "馬來西亞SkyeChip與日本SAIMEMORY合作ZAM新型AI記憶體設計",
+        "zh": "馬來西亞 SkyeChip 與日本 SAIMEMORY 合作 ZAM 新型 AI 記憶體設計",
         "en": "Malaysia's SkyeChip joins Japan's SAIMEMORY ZAM memory design program"
       },
       "summary": {
-        "zh": "日本SAIMEMORY與馬來西亞SkyeChip於10月21日宣布設計工程合作，由SkyeChip提供記憶體介面、矽晶片設計及客製化IP，參與面向AI資料中心的Z-Angle Memory（ZAM）開發。官方公告未提供原型測試結果、記憶體頻寬或量產時程。",
+        "zh": "日本 SAIMEMORY 與馬來西亞 SkyeChip 於 10 月 21 日宣布設計工程合作，由 SkyeChip 提供記憶體介面、矽晶片設計及客製化 IP，參與面向 AI 資料中心的 Z-Angle Memory（ZAM）開發。官方公告未提供原型測試結果、記憶體頻寬或量產時程。",
         "en": "Japan's SAIMEMORY and Malaysia's SkyeChip announced a design-engineering engagement on October 21 for Z-Angle Memory (ZAM) targeting AI data centers. SkyeChip will contribute silicon design, memory-interface engineering and custom IP; prototype validation, bandwidth and commercialization dates were not disclosed."
       },
       "sections": [
@@ -791,7 +791,7 @@
             "en": "Industry and supply chain"
           },
           "text": {
-            "zh": "SAIMEMORY為SoftBank旗下技術公司，ZAM定位為高容量、高頻寬及降低功耗的記憶體架構；SkyeChip提供IP設計、驗證與整合能力。這是新型記憶體研發合作，尚未等同HBM產線建成。",
+            "zh": "SAIMEMORY 為 SoftBank 旗下技術公司，ZAM 定位為高容量、高頻寬及降低功耗的記憶體架構；SkyeChip 提供 IP 設計、驗證與整合能力。這是新型記憶體研發合作，尚未等同 HBM 產線建成。",
             "en": "SAIMEMORY is a SoftBank subsidiary developing a high-capacity, high-bandwidth memory architecture; SkyeChip provides memory IP design and integration. This is a development engagement, without evidence of a completed HBM manufacturing line."
           }
         },
@@ -801,7 +801,7 @@
             "en": "Disclosures and timing"
           },
           "text": {
-            "zh": "合作在日本NEDO補助的Post-5G基礎設施研發計畫下進行。官方公告著重工程支援與未來商業化意向，未披露交付規格和產線資本支出。",
+            "zh": "合作在日本 NEDO 補助的 Post-5G 基礎設施研發計畫下進行。官方公告著重工程支援與未來商業化意向，未披露交付規格和產線資本支出。",
             "en": "The work is associated with a Japan NEDO-subsidized Post-5G infrastructure R&D project. The statement covers engineering support and eventual commercialization intentions, without product specifications or fab investment figures."
           }
         },
@@ -811,12 +811,12 @@
             "en": "Still unknown"
           },
           "text": {
-            "zh": "ZAM原型良率、傳輸頻寬、功耗測試、客戶樣品及商業量產日期尚未公布。",
+            "zh": "ZAM 原型良率、傳輸頻寬、功耗測試、客戶樣品及商業量產日期尚未公布。",
             "en": "ZAM prototype yield, bandwidth, measured power, customer samples and volume-production timing remain unknown."
           }
         }
       ],
-      "metric": "ZAM研發",
+      "metric": "ZAM 研發",
       "metricLabel": {
         "zh": "設計與工程合作",
         "en": "Design and engineering engagement"
@@ -828,7 +828,7 @@
       "sources": [
         {
           "name": {
-            "zh": "SAIMEMORY與SkyeChip · 官方聯合公告",
+            "zh": "SAIMEMORY 與 SkyeChip · 官方聯合公告",
             "en": "SAIMEMORY and SkyeChip · joint notice"
           },
           "url": "https://www.saimemory.co.jp/en/news/notices/20261021_01/",
@@ -850,11 +850,11 @@
           "en": "Malaysia; Japan"
         },
         "industries": {
-          "zh": "晶片設計；記憶體；AI資料中心；半導體IP",
+          "zh": "晶片設計；記憶體；AI 資料中心；半導體 IP",
           "en": "Chip design; memory; AI data centers; semiconductor IP"
         },
         "chain": {
-          "zh": "記憶體晶片設計與IP至資料中心算力",
+          "zh": "記憶體晶片設計與 IP 至資料中心算力",
           "en": "Memory-chip design and IP to data-center compute"
         },
         "changes": {
@@ -873,22 +873,22 @@
         },
         "facts": {
           "relevance": {
-            "zh": "東南亞晶片設計供應商參與下一代AI記憶體研發。",
+            "zh": "東南亞晶片設計供應商參與下一代 AI 記憶體研發。",
             "en": "Southeast Asian chip IP supplier participates in next-generation AI memory research."
           },
           "timing": {
-            "zh": "2026-10-21官方公告，商用時程未定。",
+            "zh": "2026-10-21 官方公告，商用時程未定。",
             "en": "Officially announced Oct 21, 2026; commercialization schedule unspecified."
           },
           "unknowns": {
-            "zh": "ZAM原型良率、傳輸頻寬、功耗測試、客戶樣品及商業量產日期尚未公布。",
+            "zh": "ZAM 原型良率、傳輸頻寬、功耗測試、客戶樣品及商業量產日期尚未公布。",
             "en": "ZAM prototype yield, bandwidth, measured power, customer samples and volume-production timing remain unknown."
           }
         }
       },
       "metrics": [],
       "ceoView": {
-        "zh": "記憶體電源、測試及高速介面供應商應查詢ZAM的實際電壓、頻寬、封裝介面與驗證方法。現階段缺少樣品量產、封裝基板及測試產能資訊。",
+        "zh": "記憶體電源、測試及高速介面供應商應查詢 ZAM 的實際電壓、頻寬、封裝介面與驗證方法。現階段缺少樣品量產、封裝基板及測試產能資訊。",
         "en": "Memory power, test and interface suppliers would need ZAM voltage, bandwidth, packaging and qualification specifications. There is no evidence yet of sample production or test-capacity demand."
       }
     },
@@ -899,11 +899,11 @@
       "pick": false,
       "depth": "standard",
       "title": {
-        "zh": "台綜院：9月半導體用電首破45億度，年增11.55%",
+        "zh": "台綜院：9 月半導體用電首破 45 億度，年增 11.55%",
         "en": "Taiwan semiconductor electricity use exceeds 4.5B kWh in September, up 11.55%"
       },
       "summary": {
-        "zh": "台灣綜合研究院10月21日公布，2026年9月台灣半導體業用電量首次突破45億度，較去年同期增加11.55%；製造業高壓以上用電年增1.96%。台綜院預估全年半導體用電超過500億度，屬研究機構估計，並非全年已發生實績。",
+        "zh": "台灣綜合研究院 10 月 21 日公布，2026 年 9 月台灣半導體業用電量首次突破 45 億度，較去年同期增加 11.55%；製造業高壓以上用電年增 1.96%。台綜院預估全年半導體用電超過 500 億度，屬研究機構估計，並非全年已發生實績。",
         "en": "Taiwan Research Institute reported on October 21 that September semiconductor electricity use exceeded 4.5 billion kWh for the first time, up 11.55% year-on-year; high-voltage manufacturing use rose 1.96%. Its full-year semiconductor electricity estimate above 50 billion kWh is a projection, not realized consumption."
       },
       "sections": [
@@ -923,7 +923,7 @@
             "en": "Disclosures and timing"
           },
           "text": {
-            "zh": "台綜院同時公布9月全國高壓以上產業用電年增1.76%，半導體分項年增11.55%；其2026全年500億度估計尚待後續實際統計驗證。",
+            "zh": "台綜院同時公布 9 月全國高壓以上產業用電年增 1.76%，半導體分項年增 11.55%；其 2026 全年 500 億度估計尚待後續實際統計驗證。",
             "en": "The institute also reported a 1.76% rise in nationwide high-voltage industrial consumption for September, compared with 11.55% for semiconductors. Its full-year estimate remains subject to later statistics."
           }
         },
@@ -940,7 +940,7 @@
       ],
       "metric": "11.55%",
       "metricLabel": {
-        "zh": "半導體業9月用電年增",
+        "zh": "半導體業 9 月用電年增",
         "en": "September semiconductor electricity YoY"
       },
       "confidence": {
@@ -950,7 +950,7 @@
       "sources": [
         {
           "name": {
-            "zh": "中央社 · 台綜院9月電力統計",
+            "zh": "中央社 · 台綜院 9 月電力統計",
             "en": "CNA · TRI September electricity statistics"
           },
           "url": "https://www.cna.com.tw/news/afe/202610210082.aspx",
@@ -991,7 +991,7 @@
             "en": "Connects semiconductor operations with industrial electrical loads."
           },
           "timing": {
-            "zh": "2026-10-21公布2026年9月統計，全年為預測。",
+            "zh": "2026-10-21 公布 2026 年 9 月統計，全年為預測。",
             "en": "September results released Oct 21; full-year figure is a forecast."
           },
           "unknowns": {
@@ -1003,13 +1003,13 @@
       "metrics": [
         {
           "name": {
-            "zh": "9月半導體用電年增",
+            "zh": "9 月半導體用電年增",
             "en": "September semiconductor power-use growth"
           },
           "current": 0.1155,
           "unit": "%",
           "period": {
-            "zh": "2026年9月",
+            "zh": "2026 年 9 月",
             "en": "September 2026"
           },
           "owner": {
@@ -1026,13 +1026,13 @@
         },
         {
           "name": {
-            "zh": "9月製造業高壓用電年增",
+            "zh": "9 月製造業高壓用電年增",
             "en": "September high-voltage manufacturing power-use growth"
           },
           "current": 0.0196,
           "unit": "%",
           "period": {
-            "zh": "2026年9月",
+            "zh": "2026 年 9 月",
             "en": "September 2026"
           },
           "owner": {
@@ -1060,11 +1060,11 @@
       "pick": false,
       "depth": "standard",
       "title": {
-        "zh": "馬國國會披露半導體培訓核准4,767萬令吉，涵蓋1.9萬名額",
+        "zh": "馬國國會披露半導體培訓核准 4,767 萬令吉，涵蓋 1.9 萬名額",
         "en": "Malaysia reports RM47.67M semiconductor training approvals covering 19,084 places"
       },
       "summary": {
-        "zh": "馬來西亞貿工部長10月22日經媒體報導向國會指出，HRD Corp已於8月核准4,767萬令吉高科技培訓補助，涵蓋19,084個名額及9類半導體相關技能。截至2026年第3季，累計已有22,849名勞工完成各項相關訓練；這些數字各屬不同統計期間，不能直接相減作為未完成名額。",
+        "zh": "馬來西亞貿工部長 10 月 22 日經媒體報導向國會指出，HRD Corp 已於 8 月核准 4,767 萬令吉高科技培訓補助，涵蓋 19,084 個名額及 9 類半導體相關技能。截至 2026 年第 3 季，累計已有 22,849 名勞工完成各項相關訓練；這些數字各屬不同統計期間，不能直接相減作為未完成名額。",
         "en": "Malaysia's trade minister told parliament in reporting published October 22 that HRD Corp had approved RM47.67 million in August for 19,084 training places across nine semiconductor-related skills. A separate tally reported 22,849 trained workers by Q3 2026; the figures have different periods and populations and are not directly subtractable."
       },
       "sections": [
@@ -1074,7 +1074,7 @@
             "en": "Industry and supply chain"
           },
           "text": {
-            "zh": "培訓項目涵蓋IC設計、先進封裝、自動化及數位技術，是國家半導體策略人力供給的一環。2030年6萬名高技能工程師是政策目標，不能視為已受訓人數。",
+            "zh": "培訓項目涵蓋 IC 設計、先進封裝、自動化及數位技術，是國家半導體策略人力供給的一環。2030 年 6 萬名高技能工程師是政策目標，不能視為已受訓人數。",
             "en": "The programs span IC design, advanced packaging, automation and digital technology under Malaysia's National Semiconductor Strategy. The goal of 60,000 high-skilled engineers by 2030 is a target, not a delivered headcount."
           }
         },
@@ -1084,7 +1084,7 @@
             "en": "Disclosures and timing"
           },
           "text": {
-            "zh": "依The Star引述，款項是在2026年8月獲核准；10月22日的新資訊為國會披露最新累計訓練進度。官方國會紀錄及核准項目細表未取得。",
+            "zh": "依 The Star 引述，款項是在 2026 年 8 月獲核准；10 月 22 日的新資訊為國會披露最新累計訓練進度。官方國會紀錄及核准項目細表未取得。",
             "en": "The Star reported the grant approval occurred in August 2026; the October 22 development is parliamentary disclosure of cumulative training progress. Original Hansard records and line-item approvals were not available."
           }
         },
@@ -1134,7 +1134,7 @@
         },
         "changes": {
           "investment": {
-            "zh": "2026年8月核准培訓補助4,767萬令吉；非廠房資本支出。",
+            "zh": "2026 年 8 月核准培訓補助 4,767 萬令吉；非廠房資本支出。",
             "en": "RM47.67M in training aid approved in August; not factory capital spending."
           },
           "demand": {
@@ -1152,7 +1152,7 @@
             "en": "Pertains to Malaysia's semiconductor engineering workforce."
           },
           "timing": {
-            "zh": "8月核准資金；10月22日國會報導披露訓練進度。",
+            "zh": "8 月核准資金；10 月 22 日國會報導披露訓練進度。",
             "en": "Funds approved in August; updated parliamentary figures reported Oct 22."
           },
           "unknowns": {
@@ -1170,11 +1170,11 @@
           "current": 47.67,
           "unit": "MYR million",
           "period": {
-            "zh": "2026年8月核准，10月22日披露",
+            "zh": "2026 年 8 月核准，10 月 22 日披露",
             "en": "Approved Aug 2026, reported Oct 22"
           },
           "owner": {
-            "zh": "馬來西亞貿工部長，由The Star報導",
+            "zh": "馬來西亞貿工部長，由 The Star 報導",
             "en": "Malaysian trade minister, reported by The Star"
           },
           "sourceUrl": "https://www.thestar.com.my/news/nation/2026/10/22/rm47mil-okayed-forsemiconductor-training",
@@ -1193,11 +1193,11 @@
           "current": 19084,
           "unit": "人",
           "period": {
-            "zh": "2026年8月核准，10月22日披露",
+            "zh": "2026 年 8 月核准，10 月 22 日披露",
             "en": "Approved Aug 2026, reported Oct 22"
           },
           "owner": {
-            "zh": "HRD Corp，由The Star報導",
+            "zh": "HRD Corp，由 The Star 報導",
             "en": "HRD Corp, reported by The Star"
           },
           "sourceUrl": "https://www.thestar.com.my/news/nation/2026/10/22/rm47mil-okayed-forsemiconductor-training",
@@ -1216,11 +1216,11 @@
           "current": 22849,
           "unit": "人",
           "period": {
-            "zh": "截至2026年第三季",
+            "zh": "截至 2026 年第三季",
             "en": "Through Q3 2026"
           },
           "owner": {
-            "zh": "馬來西亞貿工部長，由The Star報導",
+            "zh": "馬來西亞貿工部長，由 The Star 報導",
             "en": "Malaysian trade minister, reported by The Star"
           },
           "sourceUrl": "https://www.thestar.com.my/news/nation/2026/10/22/rm47mil-okayed-forsemiconductor-training",
@@ -1242,7 +1242,7 @@
     {
       "id": 1,
       "question": {
-        "zh": "NVIDIA的15倍產能與11億美元預付款能否換算成實際產出？",
+        "zh": "NVIDIA 的 15 倍產能與 11 億美元預付款能否換算成實際產出？",
         "en": "Can the 15-fold target and US$1.1B advance be converted to actual output?"
       },
       "text": {
@@ -1268,7 +1268,7 @@
         "en": "What is established about the strike size and new compensation?"
       },
       "text": {
-        "zh": "中央社確認11名工會幹部罷工，美光公布現金股票各半的季度分潤與台灣勞退提撥調整；設備稼動與產量損失尚無數字。",
+        "zh": "中央社確認 11 名工會幹部罷工，美光公布現金股票各半的季度分潤與台灣勞退提撥調整；設備稼動與產量損失尚無數字。",
         "en": "CNA confirmed 11 officers on strike, while Micron set out cash/equity bonus and Taiwan retirement changes; no fab utilization or output-loss figures were released."
       }
     }
@@ -1280,7 +1280,7 @@
         "en": "Edition date and reporting cutoff"
       },
       "text": {
-        "zh": "2026年10月23日的報導以截至10月22日晚間已公開的產業資訊為基礎；各事件日期仍依公告當日標示，23日新增資料未包含在內。",
+        "zh": "2026 年 10 月 23 日的報導以截至 10 月 22 日晚間已公開的產業資訊為基礎；各事件日期仍依公告當日標示，23 日新增資料未包含在內。",
         "en": "The October 23 edition reflects industry disclosures available by late October 22, with original event dates retained; later October 23 developments are outside this cutoff."
       }
     }
@@ -1295,17 +1295,17 @@
   "lower": [
     {
       "title": {
-        "zh": "菲律賓FDI比較報導",
+        "zh": "菲律賓 FDI 比較報導",
         "en": "Philippines FDI comparison"
       },
       "text": {
-        "zh": "10月22日刊出但核心前七個月數字此前已發布，缺少新的官方統計更新，僅作背景不列新事件。",
+        "zh": "10 月 22 日刊出但核心前七個月數字此前已發布，缺少新的官方統計更新，僅作背景不列新事件。",
         "en": "The October 22 comparison relied mainly on previously released January-July figures without a new official statistics update, so it was not elevated to a new story."
       }
     }
   ],
   "verificationNote": {
-    "zh": "本版包含2026年10月21日至22日已披露事項，截點為10月22日晚間。台積電稀土替代僅據Reuters引述消息人士，原廠未證實；美光桃園行動不等於產線停產。NVIDIA各項產能倍數與交期均屬目標；馬來西亞人才補助缺少原始國會紀錄。",
+    "zh": "本版包含 2026 年 10 月 21 日至 22 日已披露事項，截點為 10 月 22 日晚間。台積電稀土替代僅據 Reuters 引述消息人士，原廠未證實；美光桃園行動不等於產線停產。NVIDIA 各項產能倍數與交期均屬目標；馬來西亞人才補助缺少原始國會紀錄。",
     "en": "Coverage includes disclosures from October 21-22, with a late-October-22 cutoff. TSMC's rare-earth inquiry is source-limited Reuters reporting without company confirmation, and Micron's strike cannot be equated with a fab shutdown. NVIDIA capacity and delivery figures are targets; original Malaysian parliamentary records were not available."
   }
 }

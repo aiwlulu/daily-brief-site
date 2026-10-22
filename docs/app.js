@@ -1,5 +1,6 @@
 /* Content is rendered with textContent. News strings never become HTML. */
 import {storyParagraph} from './story-copy.mjs';
+import {formatChineseFields} from './typography.mjs';
 import {fallbackWeekly} from './weekly.mjs';
 import {icon} from './icons.mjs';
 import {mountCalendar} from './calendar.mjs';
@@ -359,7 +360,7 @@ function revealHash(){
 async function readJson(path) {
   const response = await fetch(path,{cache:'no-cache'});
   if (!response.ok) throw new Error('Content unavailable');
-  return response.json();
+  return formatChineseFields(await response.json());
 }
 readJson('./editions/index.json').then(async manifest => {
   weekPaths=manifest.weeks||{};
