@@ -1,0 +1,1313 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T01:53:44.662Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、晶圓封測、工業電力及跨境供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, wafer test, industrial power and regional supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "經濟部公布 9 月台灣電子製造與積體電路生產持續成長，漢測規劃擴充探針卡與矽光子設備製造，漢翔工業微電網上線，顯示製造、檢測與廠務供電有各自的實績與規劃節點。",
+    "en": "Taiwan's official output figures showed continued electronics and IC growth, while Hermes Testing authorized probe-card and photonics equipment investment and AIDC commissioned a factory microgrid, each at a distinct stage of manufacturing execution."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "台灣 9 月製造業生產年增 20.21%，積體電路業年增 26.51%；伺服器產品組合變動使製造業指數低於原先預估。",
+        "en": "Taiwan's September manufacturing index grew 20.21% YoY and IC output rose 26.51%; changing server mix contributed to a forecast miss."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "漢測董事會核准總計 64 億元研發與製造中心預算，規劃 MEMS 探針卡及矽光子設備產線，確切投產時程未公布。",
+        "en": "Hermes Testing Systems authorized NT$6.4B for R&D and manufacturing, including MEMS probe-card and photonics equipment lines, without a commissioning date."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "美光桃園工會 1,633 人反對公司獎酬方案，受颱風影響，下一輪協商延至 10 月 27 日。",
+        "en": "Micron's Taoyuan union reported 1,633 members opposed the compensation proposal, with talks postponed to October 27."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "漢翔台中水湳廠啟用 9MW／54MWh 微電網，可提供最高 6 小時備援；近 40% 節費為公司估計。",
+        "en": "AIDC commissioned a 9MW / 54MWh Taichung microgrid with up to six hours of backup; near-40% savings remain an estimate."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "貿易署更新高科技貨品出口實體名單，新增 343 個、移除 90 個受管制對象。",
+        "en": "Taiwan's trade authority added 343 and removed 90 entries from its strategic export control list."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taiwan-september-industrial-production-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "9 月製造業生產年增 20.21%，伺服器產品組合變動使月產出低於預期",
+        "en": "Taiwan September manufacturing output rises 20.21% YoY but misses forecast on server mix"
+      },
+      "summary": {
+        "zh": "經濟部 10 月 23 日公布台灣 9 月製造業生產指數 143.31，年增 20.21%，工業生產指數 140.76，年增 19.17%；積體電路業年增 26.51%，電腦電子產品及光學製品業年增 45.92%。製造業指數低於原先預估的 146.03 至 150.03，經濟部指出伺服器產品組合變動影響月產出。",
+        "en": "Taiwan's Ministry of Economic Affairs reported on October 23 a September manufacturing production index of 143.31, up 20.21% year on year, and an industrial index of 140.76, up 19.17%. Integrated circuits rose 26.51% and computer, electronic and optical products 45.92%, but manufacturing came in below the original 146.03–150.03 range, partly because of a change in server product mix."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "半導體晶圓代工、DRAM、IC 封測及載板生產同屬電子零組件供應鏈，9 月電子零組件業年增 23.62%。機械設備業另年增 26.02%，經濟部指出半導體廠先進製程與封測設備擴充為相關因素。",
+            "en": "Wafer foundry, DRAM, IC assembly/test and substrates contribute to electronic component manufacturing, up 23.62% year on year. Machinery and equipment output increased 26.02%, partly associated with semiconductor process and test capacity investment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "經濟部表示 9 月電腦電子產品及光學製品業月減 15.38%，製造業實績低於先前預測；整體年增和個別產品月減屬不同比較期間。10 月製造業指數 141.56 至 145.86 為官方預測，非實績。",
+            "en": "The ministry reported a 15.38% monthly decline in computer, electronic and optical output, contributing to the overall forecast miss. Year-on-year growth and month-on-month contraction use distinct comparison periods. The 141.56–145.86 October manufacturing range is a forecast."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "9 月各類產品的實際出貨片數、訂單組成及伺服器型號比重未公布；經濟部原始附表未直接取得。",
+            "en": "Wafer shipments, order breakdown and server model mix were not disclosed, and the original full ministry tables were not directly retrieved."
+          }
+        }
+      ],
+      "metric": "20.21%",
+      "metricLabel": {
+        "zh": "9 月製造業生產年增",
+        "en": "September manufacturing output YoY"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經濟部工業生產及預測落差",
+            "en": "CNA · industrial production and forecast miss"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 各產業生產年增率",
+            "en": "CNA · sector output growth"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610230153.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-23",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓代工；DRAM；封裝測試；載板；伺服器；設備",
+          "en": "Wafer foundry; DRAM; packaging and test; substrates; servers; equipment"
+        },
+        "chain": {
+          "zh": "晶圓記憶體製造與封裝測試至 ODM 伺服器設備",
+          "en": "Wafer and memory fabrication through packaging/test and ODM servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的資本支出。",
+            "en": "No new capital spending disclosed."
+          },
+          "demand": {
+            "zh": "經濟部公布 9 月工業生產指數及各產業年增率，不能視同企業已接訂單。",
+            "en": "Official September output index and annual rates were released, not new company bookings."
+          },
+          "fdi": {
+            "zh": "未公布新的外商直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "半導體晶圓代工、DRAM、IC 封測及載板生產同屬電子零組件供應鏈，9 月電子零組件業年增 23.62%。機械設備業另年增 26.02%，經濟部指出半導體廠先進製程與封測設備擴充為相關因素。",
+            "en": "Wafer foundry, DRAM, IC assembly/test and substrates contribute to electronic component manufacturing, up 23.62% year on year. Machinery and equipment output increased 26.02%, partly associated with semiconductor process and test capacity investment."
+          },
+          "timing": {
+            "zh": "經濟部表示 9 月電腦電子產品及光學製品業月減 15.38%，製造業實績低於先前預測；整體年增和個別產品月減屬不同比較期間。10 月製造業指數 141.56 至 145.86 為官方預測，非實績。",
+            "en": "The ministry reported a 15.38% monthly decline in computer, electronic and optical output, contributing to the overall forecast miss. Year-on-year growth and month-on-month contraction use distinct comparison periods. The 141.56–145.86 October manufacturing range is a forecast."
+          },
+          "unknowns": {
+            "zh": "9 月各類產品的實際出貨片數、訂單組成及伺服器型號比重未公布；經濟部原始附表未直接取得。",
+            "en": "Wafer shipments, order breakdown and server model mix were not disclosed, and the original full ministry tables were not directly retrieved."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "製造業生產指數",
+            "en": "Manufacturing production index"
+          },
+          "current": 143.31,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，由中央社報導",
+            "en": "MOEA statistics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "工業生產指數",
+            "en": "Industrial production index"
+          },
+          "current": 140.76,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，由中央社報導",
+            "en": "MOEA statistics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "製造業年增率",
+            "en": "Manufacturing YoY"
+          },
+          "current": 0.2021,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，由中央社報導",
+            "en": "MOEA statistics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2021,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "工業生產年增率",
+            "en": "Industrial output YoY"
+          },
+          "current": 0.1917,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，由中央社報導",
+            "en": "MOEA statistics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.1917,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "積體電路業年增率",
+            "en": "IC industry output YoY"
+          },
+          "current": 0.2651,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，由中央社報導",
+            "en": "MOEA statistics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2651,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "電腦電子與光學產業年增率",
+            "en": "Computer/electronics/optics output YoY"
+          },
+          "current": 0.4592,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，由中央社報導",
+            "en": "MOEA statistics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230204.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.4592,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "精密製程電源、封測量測與伺服器電力業者可釐清哪些成長來自實際設備稼動及產品組合變化，並核對伺服器品項調整對產線負載的影響。總體指數不含個別廠商訂單或設備採購資訊。",
+        "en": "Process-power, test-equipment and server-power suppliers would examine whether output changes reflect utilization or product mix and how server configuration affects factory loads. Aggregate indices do not reveal specific equipment orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "hermes-testing-taiwan-rd-manufacturing-investment",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "漢測董事會授權 64 億元，規劃研發中心與探針卡設備製造產線",
+        "en": "Hermes Testing Systems authorizes NT$6.4B for R&D and probe-card manufacturing"
+      },
+      "summary": {
+        "zh": "漢民測試系統 10 月 22 日公告，董事會核准新竹研發中心與中南部製造中心兩項預算授權，合計新台幣 64 億元。製造中心規劃矽光子設備組裝、MEMS 及薄膜探針卡、回焊設備與雷射清針機產線，實際支出會依市場及工程進度調整。",
+        "en": "Hermes Testing Systems announced on October 22 that its board authorized two projects totaling NT$6.4 billion, covering a Hsinchu R&D center and a central/southern Taiwan manufacturing center. The latter includes silicon photonics tools, MEMS and thin-film probe cards, reflow equipment and laser probe cleaners, with actual spending contingent on execution."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "MEMS 探針卡是晶圓測試與封裝前電性驗證的重要耗材和設備介面；矽光子設備涉及光學封裝組裝及量測。公司目前公布的是授權預算，不能直接視為設備完成採購或產線已投產。",
+            "en": "MEMS probe cards are interfaces for wafer-level electrical testing, while silicon photonics assembly tools support optical packaging and testing. The board authorization is not evidence of equipment delivery or commissioning."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "新竹研發中心房屋與裝修投資上限 15 億元，中南部製造中心廠房 37 億元、設備 12 億元，合計 64 億元；董事長可在總預算 10% 範圍內依實際需求調整。",
+            "en": "The R&D center building and fit-out budget is capped at NT$1.5 billion, with NT$3.7 billion for the manufacturing building and NT$1.2 billion for equipment. The chairman has delegated flexibility of up to 10% of the aggregate budget."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "中南部中心的確切城市、土地位置、興建開工與設備驗收日期均未揭露。",
+            "en": "The manufacturing site's exact city and address, construction start and equipment acceptance dates were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$6.4B",
+      "metricLabel": {
+        "zh": "兩中心授權投資合計",
+        "en": "Combined authorized budgets"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 漢測董事會授權案",
+            "en": "CNA · Hermes Testing board authorization"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610220404.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "台灣新竹（研發中心計畫）、台灣中南部（製造中心候選區域）；確切工地地址未公布。",
+        "en": "Hsinchu, Taiwan (planned R&D center), and central/southern Taiwan (proposed manufacturing center); specific sites undisclosed."
+      },
+      "market": {
+        "eventDate": "2026-10-22",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；MEMS 探針卡；晶圓測試；矽光子；封裝",
+          "en": "Semiconductor equipment; MEMS probe cards; wafer test; silicon photonics; packaging"
+        },
+        "chain": {
+          "zh": "半導體設備零組件至晶圓測試與先進封裝",
+          "en": "Semiconductor tooling to wafer testing and advanced packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "董事會通過 64 億元投資授權，分別為研發、廠房及設備規劃。",
+            "en": "Board authorized NT$6.4B in planned R&D, facility and equipment spending."
+          },
+          "demand": {
+            "zh": "未提供新增訂單或已交付數字。",
+            "en": "No incremental orders or delivered units were disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新的外商直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "MEMS 探針卡是晶圓測試與封裝前電性驗證的重要耗材和設備介面；矽光子設備涉及光學封裝組裝及量測。公司目前公布的是授權預算，不能直接視為設備完成採購或產線已投產。",
+            "en": "MEMS probe cards are interfaces for wafer-level electrical testing, while silicon photonics assembly tools support optical packaging and testing. The board authorization is not evidence of equipment delivery or commissioning."
+          },
+          "timing": {
+            "zh": "新竹研發中心房屋與裝修投資上限 15 億元，中南部製造中心廠房 37 億元、設備 12 億元，合計 64 億元；董事長可在總預算 10% 範圍內依實際需求調整。",
+            "en": "The R&D center building and fit-out budget is capped at NT$1.5 billion, with NT$3.7 billion for the manufacturing building and NT$1.2 billion for equipment. The chairman has delegated flexibility of up to 10% of the aggregate budget."
+          },
+          "unknowns": {
+            "zh": "中南部中心的確切城市、土地位置、興建開工與設備驗收日期均未揭露。",
+            "en": "The manufacturing site's exact city and address, construction start and equipment acceptance dates were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新竹研發中心房屋預算",
+            "en": "Hsinchu R&D facility budget"
+          },
+          "current": 1.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 23 日公布",
+            "en": "Disclosed October 23, 2026"
+          },
+          "owner": {
+            "zh": "漢測，由中央社轉述",
+            "en": "Hermes Testing Systems, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610220404.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "中南部製造中心廠房預算",
+            "en": "Manufacturing center building budget"
+          },
+          "current": 3.7,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 23 日公布",
+            "en": "Disclosed October 23, 2026"
+          },
+          "owner": {
+            "zh": "漢測，由中央社轉述",
+            "en": "Hermes Testing Systems, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610220404.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "中南部製造中心設備預算",
+            "en": "Manufacturing center equipment budget"
+          },
+          "current": 1.2,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 23 日公布",
+            "en": "Disclosed October 23, 2026"
+          },
+          "owner": {
+            "zh": "漢測，由中央社轉述",
+            "en": "Hermes Testing Systems, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610220404.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體測試電源、精密量測和探針卡製造設備業者可確認中南部廠的測試規格、產線類別、設備驗收節點與實際資本支出。授權總額尚未對應確定設備採購單。",
+        "en": "Test-power, metrology and probe-card tool suppliers would check production specifications, line configurations, acceptance milestones and actual capital disbursement. The authorization does not identify binding equipment purchase orders."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "micron-taiwan-labour-dispute",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：美光桃園工會 1,633 人反對方案，協商延期至 10 月 27 日",
+        "en": "Follow-up: 1,633 Micron Taoyuan union members oppose plan; talks move to Oct 27"
+      },
+      "summary": {
+        "zh": "美光桃園工會 10 月 23 日公布會員投票，1,637 人參與、1,633 人反對公司 10 月 22 日公布的獎酬方案，工會稱反對人數約占全體會員七成。因颱風影響，原訂 10 月 23 日與美光的協商延至 10 月 27 日；沒有公告生產中斷或晶圓損失數字。",
+        "en": "On October 23, Micron's Taoyuan union reported 1,637 ballots on the company's revised compensation plan, of which 1,633 rejected it, about 70% of all union members according to the union. Talks originally scheduled for October 23 were postponed to October 27 because of the typhoon; no production-loss figures were disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "桃園廠與 DRAM 前段晶圓製造相關，10 月 22 日由 11 名工會幹部進行的 24 小時罷工已於 23 日上午 9 時結束。此次新增資訊是會員投票與協商延期，而非再次發起罷工。",
+            "en": "Taoyuan is associated with front-end DRAM fabrication. A 24-hour action by 11 union officers began October 22 and ended at 9 a.m. October 23. The new development is the membership ballot and rescheduled meeting, not another strike."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "美光此前公布季度分潤、輪班津貼和勞退提撥調整；工會認為方案未達其訴求。1,633 人占投票者約 99%，占全體工會會員近七成，兩個比例的分母不同。",
+            "en": "Micron had proposed quarterly bonuses, shift allowances and higher retirement contributions. The union said 1,633 rejections represented roughly 99% of votes cast but around 70% of total membership, which are different denominators."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未取得可核對的工會完整會員名冊、雙方會議逐字稿或對產量、良率與交付的量化影響。",
+            "en": "Full membership rolls, meeting transcripts and quantified effects on output, yield or deliveries were not available."
+          }
+        }
+      ],
+      "metric": "1,633 人",
+      "metricLabel": {
+        "zh": "反對公司方案會員人數",
+        "en": "Union members rejecting proposal"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 桃園會員投票與協商延期",
+            "en": "CNA · Taoyuan ballot and talks delay"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610230158.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-23",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "DRAM；HBM；晶圓；記憶體；封裝測試",
+          "en": "DRAM; HBM; wafers; memory; packaging/test"
+        },
+        "chain": {
+          "zh": "DRAM 晶圓製造至 HBM 封裝測試",
+          "en": "DRAM wafer fabrication through HBM packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的資本支出。",
+            "en": "No new capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未提供新增訂單或已交付數字。",
+            "en": "No incremental orders or delivered units were disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新的外商直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "桃園廠與 DRAM 前段晶圓製造相關，10 月 22 日由 11 名工會幹部進行的 24 小時罷工已於 23 日上午 9 時結束。此次新增資訊是會員投票與協商延期，而非再次發起罷工。",
+            "en": "Taoyuan is associated with front-end DRAM fabrication. A 24-hour action by 11 union officers began October 22 and ended at 9 a.m. October 23. The new development is the membership ballot and rescheduled meeting, not another strike."
+          },
+          "timing": {
+            "zh": "美光此前公布季度分潤、輪班津貼和勞退提撥調整；工會認為方案未達其訴求。1,633 人占投票者約 99%，占全體工會會員近七成，兩個比例的分母不同。",
+            "en": "Micron had proposed quarterly bonuses, shift allowances and higher retirement contributions. The union said 1,633 rejections represented roughly 99% of votes cast but around 70% of total membership, which are different denominators."
+          },
+          "unknowns": {
+            "zh": "未取得可核對的工會完整會員名冊、雙方會議逐字稿或對產量、良率與交付的量化影響。",
+            "en": "Full membership rolls, meeting transcripts and quantified effects on output, yield or deliveries were not available."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "反對公司方案會員",
+            "en": "Members opposing company plan"
+          },
+          "current": 1633,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 10 月 23 日公布",
+            "en": "Disclosed October 23, 2026"
+          },
+          "owner": {
+            "zh": "桃園工會，由中央社報導",
+            "en": "Taoyuan union, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230158.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "參與投票會員",
+            "en": "Union members voting"
+          },
+          "current": 1637,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 10 月 23 日公布",
+            "en": "Disclosed October 23, 2026"
+          },
+          "owner": {
+            "zh": "桃園工會，由中央社報導",
+            "en": "Taoyuan union, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230158.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "記憶體製程電源與封測設備服務業者可核對未來協商日期，以及實際機台維護人力是否受到影響。工會投票人數不能換算產能利用率或交期。",
+        "en": "Memory process-power and testing suppliers would track the rescheduled negotiation and actual technical staffing. A membership ballot does not quantify utilization or shipment impacts."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "aerospace-microgrid-taichung-sustainability",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "漢翔台中廠啟用 9MW／54MWh 工業微電網，最高備援 6 小時",
+        "en": "AIDC commissions 9MW / 54MWh industrial microgrid in Taichung"
+      },
+      "summary": {
+        "zh": "漢翔航空工業 10 月 22 日在台中水湳廠啟用 9MW／54MWh 微電網，整合電池儲能、能源管理、控制和電力保護。公司稱可提供全廠最高 6 小時供電備援，依既有電價條件估計年能源成本可降低近 40%；節費比例仍為評估數。",
+        "en": "Aerospace Industrial Development Corporation commissioned a 9MW / 54MWh industrial microgrid at its Shuinan plant in Taichung on October 22, integrating storage, energy management and electrical protection. AIDC claims up to six hours of plant backup and estimates nearly 40% annual energy-cost savings under current tariffs; the savings remain a projection."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "此表後儲能系統可透過離峰充電、尖峰放電管理工廠需量，亦可與風力、太陽光電及備援機組連結。案例涉及工廠配電、電源控制、電池管理和資料中心類型負載的供電需求。",
+            "en": "The behind-the-meter storage system shifts consumption between off-peak and peak periods, with potential integration of wind, solar and backup generation. It involves industrial power conversion, battery management and electrical controls relevant to factory and data-center loads."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "公司宣稱具備孤島運轉及多層電氣安全保護功能，台電夏季尖離峰電價差每度 9.29 元被用於節費試算。2025 年先前 2MW／2.7MWh 示範案為背景，與本次啟用的 9MW／54MWh 案不同。",
+            "en": "AIDC describes islanded operation and layered electrical safety systems, using a NT$9.29/kWh summer peak/off-peak tariff differential in its savings model. An earlier 2MW / 2.7MWh demonstration is separate from the new 9MW / 54MWh facility."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未公布完整年度節費實績、設備供應商合約金額、系統效率和各負載的備援測試分布。",
+            "en": "Full-year realized savings, supplier contract values, system round-trip efficiency and backup test profiles were not disclosed."
+          }
+        }
+      ],
+      "metric": "9MW",
+      "metricLabel": {
+        "zh": "微電網額定功率",
+        "en": "Microgrid rated power"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 漢翔微電網啟用",
+            "en": "CNA · AIDC microgrid commissioning"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610220392.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "台灣台中市水湳廠區（已啟用工業電力島案場）",
+        "en": "Shuinan plant, Taichung, Taiwan (commissioned microgrid site)"
+      },
+      "market": {
+        "eventDate": "2026-10-22",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；儲能；電力；電源；工業自動化；資料中心",
+          "en": "Factories; storage; electricity; power; industrial automation; data centers"
+        },
+        "chain": {
+          "zh": "工廠自動化與電源供電至資料中心備援",
+          "en": "Factory automation and power systems to data-center backup"
+        },
+        "changes": {
+          "investment": {
+            "zh": "已啟用系統，總投資成本未披露。",
+            "en": "System commissioned; capex undisclosed."
+          },
+          "demand": {
+            "zh": "未提供新增訂單或已交付數字。",
+            "en": "No incremental orders or delivered units were disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新的外商直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "此表後儲能系統可透過離峰充電、尖峰放電管理工廠需量，亦可與風力、太陽光電及備援機組連結。案例涉及工廠配電、電源控制、電池管理和資料中心類型負載的供電需求。",
+            "en": "The behind-the-meter storage system shifts consumption between off-peak and peak periods, with potential integration of wind, solar and backup generation. It involves industrial power conversion, battery management and electrical controls relevant to factory and data-center loads."
+          },
+          "timing": {
+            "zh": "公司宣稱具備孤島運轉及多層電氣安全保護功能，台電夏季尖離峰電價差每度 9.29 元被用於節費試算。2025 年先前 2MW／2.7MWh 示範案為背景，與本次啟用的 9MW／54MWh 案不同。",
+            "en": "AIDC describes islanded operation and layered electrical safety systems, using a NT$9.29/kWh summer peak/off-peak tariff differential in its savings model. An earlier 2MW / 2.7MWh demonstration is separate from the new 9MW / 54MWh facility."
+          },
+          "unknowns": {
+            "zh": "未公布完整年度節費實績、設備供應商合約金額、系統效率和各負載的備援測試分布。",
+            "en": "Full-year realized savings, supplier contract values, system round-trip efficiency and backup test profiles were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "微電網額定功率",
+            "en": "Microgrid rated power"
+          },
+          "current": 9,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 10 月 22 日啟用",
+            "en": "Commissioned October 22, 2026"
+          },
+          "owner": {
+            "zh": "漢翔，由中央社報導",
+            "en": "AIDC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610220392.aspx",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "儲能電量",
+            "en": "Storage capacity"
+          },
+          "current": 54,
+          "unit": "MWh",
+          "period": {
+            "zh": "2026 年 10 月 22 日啟用",
+            "en": "Commissioned October 22, 2026"
+          },
+          "owner": {
+            "zh": "漢翔，由中央社報導",
+            "en": "AIDC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610220392.aspx",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "工業電源與儲能供應商可檢視島狀運轉轉換時間、負載耐受與實際尖離峰用電；節費 40% 的公司估算仍須長期運轉驗證。",
+        "en": "Industrial power and storage suppliers would evaluate islanding transition times, load tolerance and peak/off-peak metering. AIDC's 40% cost estimate needs full-year operational evidence."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "taiwan-strategic-export-entities-oct2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "國際貿易署更新高科技貨品實體名單：新增 343 個、移除 90 個",
+        "en": "Taiwan trade authority adds 343 entities and removes 90 from strategic export list"
+      },
+      "summary": {
+        "zh": "經濟部國際貿易署 10 月 22 日公告，戰略性高科技貨品出口實體管理名單新增 343 個實體、移除 90 個，依貿易法第 13 條辦理。向名單上受管制對象出口相關貨品須事先取得戰略性高科技貨品輸出許可，海關會執行相關查核。",
+        "en": "Taiwan's International Trade Administration announced on October 22 the addition of 343 entities and removal of 90 from its strategic high-tech export entity list under Article 13 of the Trade Act. Exports of covered goods to listed recipients require prior authorization, with Customs supporting border enforcement."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "涉及軍商兩用貨品及技術的管理範圍，可涵蓋特定半導體設備、電子、材料加工、電腦和感測器，但是否需要許可，仍取決於貨品分類、交易對象及最終用途。",
+            "en": "The strategic high-tech regime can cover dual-use semiconductor tools, electronics, material processing, computing and sensors, subject to product classification, listed end users and end-use rules."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "官方指出目前逾 11,660 個實體與個人列入管理名單，10 月 22 日新增分布於伊朗、俄羅斯、墨西哥、阿聯、土耳其及中國等地；更新名單已公開。",
+            "en": "The agency says over 11,660 people and entities are now included; newly added entries span Iran, Russia, Mexico, UAE, Türkiye and China, among others. The October 22 list update has been published."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "官方新聞稿未逐一列出各台灣企業是否有受影響交易，也未提供依產業分類的輸出貨值變化。",
+            "en": "The release does not identify affected Taiwan company transactions or sector-specific trade values."
+          }
+        }
+      ],
+      "metric": "343 個",
+      "metricLabel": {
+        "zh": "新增受管制實體",
+        "en": "Entities added"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部國際貿易署 · 實體清單更新公告",
+            "en": "Taiwan ITA · export entity list update"
+          },
+          "url": "https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=821477",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-22",
+        "countries": {
+          "zh": "台灣；多國受管制實體所在地",
+          "en": "Taiwan; multiple listed-recipient jurisdictions"
+        },
+        "industries": {
+          "zh": "政策；高科技設備；材料；晶圓；工業控制",
+          "en": "Policy; high-tech equipment; materials; wafers; industrial controls"
+        },
+        "chain": {
+          "zh": "半導體材料設備零組件出口與投資政策",
+          "en": "Semiconductor materials and equipment exports and investment policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的資本支出。",
+            "en": "No new capital spending disclosed."
+          },
+          "demand": {
+            "zh": "規管交易對象調整，未公布新增需求。",
+            "en": "Recipient controls changed, with no new demand figures."
+          },
+          "fdi": {
+            "zh": "未公布新的外商直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及軍商兩用貨品及技術的管理範圍，可涵蓋特定半導體設備、電子、材料加工、電腦和感測器，但是否需要許可，仍取決於貨品分類、交易對象及最終用途。",
+            "en": "The strategic high-tech regime can cover dual-use semiconductor tools, electronics, material processing, computing and sensors, subject to product classification, listed end users and end-use rules."
+          },
+          "timing": {
+            "zh": "官方指出目前逾 11,660 個實體與個人列入管理名單，10 月 22 日新增分布於伊朗、俄羅斯、墨西哥、阿聯、土耳其及中國等地；更新名單已公開。",
+            "en": "The agency says over 11,660 people and entities are now included; newly added entries span Iran, Russia, Mexico, UAE, Türkiye and China, among others. The October 22 list update has been published."
+          },
+          "unknowns": {
+            "zh": "官方新聞稿未逐一列出各台灣企業是否有受影響交易，也未提供依產業分類的輸出貨值變化。",
+            "en": "The release does not identify affected Taiwan company transactions or sector-specific trade values."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新增受管制實體",
+            "en": "Newly listed entities"
+          },
+          "current": 343,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 10 月 22 日更新",
+            "en": "October 22, 2026 update"
+          },
+          "owner": {
+            "zh": "經濟部國際貿易署",
+            "en": "International Trade Administration"
+          },
+          "sourceUrl": "https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=821477",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "移除受管制實體",
+            "en": "Delisted entities"
+          },
+          "current": 90,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 10 月 22 日更新",
+            "en": "October 22, 2026 update"
+          },
+          "owner": {
+            "zh": "經濟部國際貿易署",
+            "en": "International Trade Administration"
+          },
+          "sourceUrl": "https://www.trade.gov.tw/Pages/Detail.aspx?nodeID=40&pid=821477",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "設備與測試供應商可核對零件分類、最終用途及官方名單更新與既有出口許可條件是否涉及同一交易；本文無法從實體數量推估出口金額變化。",
+        "en": "Equipment and test suppliers would need to distinguish commodity classification, end-use and recipient-list status from granted export permits. The entity count does not quantify changed export revenue."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "taiwan-france-sipearl-chiplet-cooperation",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "神盾與法國 SiPearl 簽策略合作，推進 CPU Chiplet 平台",
+        "en": "Taiwan's Egis and French SiPearl sign CPU chiplet collaboration"
+      },
+      "summary": {
+        "zh": "神盾集團 10 月 22 日在台灣舉辦的 2026 Tech Day 宣布與法國 SiPearl 簽署策略合作協議，涉及 CPU 技術、小晶片整合及高效能運算市場合作。旗下安國國際科技在 SiPearl 支援下開發 Mobius100 平台；雙方未披露產品出貨、資本支出或驗證日期。",
+        "en": "Taiwan's Egis group signed a strategic agreement with French CPU designer SiPearl at its October 22 Tech Day, covering processor technology, chiplet integration and high-performance computing markets. Group company ALi is developing the Mobius100 platform with SiPearl support; no shipment volumes, capital expenditure or validation dates were disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "SiPearl 為無晶圓廠處理器設計商，合作與台灣晶片設計、先進封裝及高效能伺服器整機供應鏈有連結。簽訂策略協議不代表 CPU 已經完成設計驗證或客戶採購。",
+            "en": "SiPearl is a fabless processor designer, connecting the cooperation with Taiwan chip design, advanced packaging and HPC system supply chains. Signing a framework does not establish product qualification or customer procurement."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "中央社引述公司與經濟部說明，台法過去已有研發合作補助計畫，相關 2025 年投資數字僅為歷史背景，與新協議的投資金額不同。",
+            "en": "CNA cited the companies and the Ministry of Economic Affairs on an existing Taiwan-France R&D support framework. Historical 2025 commitments are context and are not contract value for this new agreement."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "合作的核心授權條款、CPU 效能、製程節點、封裝方案、驗證進度及客戶名稱未公開。",
+            "en": "Licensing terms, CPU performance, process node, packaging configuration, test progress and customer names are undisclosed."
+          }
+        }
+      ],
+      "metric": "合作協議",
+      "metricLabel": {
+        "zh": "CPU 小晶片策略合作",
+        "en": "CPU chiplet collaboration"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台法 CPU 技術合作",
+            "en": "CNA · Taiwan-France CPU cooperation"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610220339.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-22",
+        "countries": {
+          "zh": "台灣；法國",
+          "en": "Taiwan; France"
+        },
+        "industries": {
+          "zh": "晶片設計；CPU；chiplet；封裝；伺服器；資料中心",
+          "en": "Chip design; CPU; chiplets; packaging; servers; data centers"
+        },
+        "chain": {
+          "zh": "CPU 晶片設計至先進封裝與伺服器整機",
+          "en": "CPU design through advanced packaging and servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的資本支出。",
+            "en": "No new capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未提供新增訂單或已交付數字。",
+            "en": "No incremental orders or delivered units were disclosed."
+          },
+          "fdi": {
+            "zh": "公告跨境技術合作，未揭露外資金額。",
+            "en": "Cross-border technology agreement without an FDI figure."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "SiPearl 為無晶圓廠處理器設計商，合作與台灣晶片設計、先進封裝及高效能伺服器整機供應鏈有連結。簽訂策略協議不代表 CPU 已經完成設計驗證或客戶採購。",
+            "en": "SiPearl is a fabless processor designer, connecting the cooperation with Taiwan chip design, advanced packaging and HPC system supply chains. Signing a framework does not establish product qualification or customer procurement."
+          },
+          "timing": {
+            "zh": "中央社引述公司與經濟部說明，台法過去已有研發合作補助計畫，相關 2025 年投資數字僅為歷史背景，與新協議的投資金額不同。",
+            "en": "CNA cited the companies and the Ministry of Economic Affairs on an existing Taiwan-France R&D support framework. Historical 2025 commitments are context and are not contract value for this new agreement."
+          },
+          "unknowns": {
+            "zh": "合作的核心授權條款、CPU 效能、製程節點、封裝方案、驗證進度及客戶名稱未公開。",
+            "en": "Licensing terms, CPU performance, process node, packaging configuration, test progress and customer names are undisclosed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "先進封裝電源與伺服器量測業者可確認 Mobius100 設計驗證、chiplet 介面及封裝測試需求，合作仍缺少產品技術規格與量產日期。",
+        "en": "Advanced packaging power and server test suppliers would seek Mobius100 qualification, chiplet interface and packaging details. Technical specifications and manufacturing dates remain unannounced."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taiwan-singapore-switch-startups-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台灣公布 33 家新創赴新加坡 SWITCH 參展，聚焦半導體與機器人",
+        "en": "Taiwan announces 33 startups for Singapore SWITCH event"
+      },
+      "summary": {
+        "zh": "國發會 10 月 23 日表示，10 月 27 日至 29 日將率領 33 家台灣新創赴新加坡 SWITCH 展會，參展規模為歷年最多，涵蓋半導體、機器人、AI 與永續能源。與投資機構和科技企業的對接為規劃活動，並未公布已成交投資或合作金額。",
+        "en": "Taiwan's National Development Council said on October 23 it will bring 33 startups to Singapore's SWITCH event from October 27 to 29, its largest delegation yet, spanning semiconductors, robotics, AI and clean energy. Meetings with investors and enterprises are scheduled engagements, not completed investments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "新加坡 SWITCH 為跨境技術創新交流活動，台灣國家館由國發會聯合相關機關規劃，將安排國際創投、產業公司與研發合作交流。此項新公告涉及人才及科技投資生態系，尚無新增工廠產能。",
+            "en": "SWITCH is a technology innovation event, and Taiwan's planned national pavilion will connect startups with venture funds, industrial firms and research partners. This is an investment ecosystem announcement without new installed factory capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "CNA 報導台灣館將安排台星新創論壇及 Taiwan Tech Connect 交流。SWITCH 官方網站確認活動 10 月 27 至 29 日在新加坡濱海灣金沙會議展覽中心舉行，場地包含 1 樓 A 至 C 展館及 3 樓宴會廳。",
+            "en": "CNA reported plans for the Taiwan-Singapore startup forum and Taiwan Tech Connect. The official SWITCH website confirms October 27-29 at Marina Bay Sands Expo & Convention Centre, Halls A-C on Level 1 and ballrooms on Level 3."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚未公布 33 家新創的最終投資、客戶簽約及技術驗證成果；上述為預定活動。",
+            "en": "Investments, customer agreements and technical qualification outcomes for the 33 participating startups have not been disclosed; attendance remains scheduled."
+          }
+        }
+      ],
+      "metric": "33 家",
+      "metricLabel": {
+        "zh": "預定參展台灣新創",
+        "en": "Taiwan startups scheduled to attend"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 國發會赴新加坡新創活動",
+            "en": "CNA · Taiwan startup delegation to Singapore"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610230084.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "SWITCH · 官方活動日期與場地",
+            "en": "SWITCH · Official dates and venue"
+          },
+          "url": "https://www.switchsg.org/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "新加坡濱海灣金沙會議展覽中心，1 樓 A 至 C 展館及 3 樓宴會廳（預定展覽及會議場地）。",
+        "en": "Marina Bay Sands Expo & Convention Centre, Halls A-C (Level 1) and ballrooms (Level 3), Singapore (scheduled exhibition and conference venue)."
+      },
+      "market": {
+        "eventDate": "2026-10-23",
+        "countries": {
+          "zh": "台灣；新加坡",
+          "en": "Taiwan; Singapore"
+        },
+        "industries": {
+          "zh": "半導體；機器人；自動化；資金；投資；AI",
+          "en": "Semiconductors; robotics; automation; funding; investment; AI"
+        },
+        "chain": {
+          "zh": "晶片設計及工廠自動化至東南亞科技投資",
+          "en": "Chip design and factory automation to Southeast Asian tech investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的資本支出。",
+            "en": "No new capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未提供新增訂單或已交付數字。",
+            "en": "No incremental orders or delivered units were disclosed."
+          },
+          "fdi": {
+            "zh": "規劃跨境投資交流，但尚未公布實際外商投資。",
+            "en": "Cross-border investment meetings planned; no actual FDI announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新加坡 SWITCH 為跨境技術創新交流活動，台灣國家館由國發會聯合相關機關規劃，將安排國際創投、產業公司與研發合作交流。此項新公告涉及人才及科技投資生態系，尚無新增工廠產能。",
+            "en": "SWITCH is a technology innovation event, and Taiwan's planned national pavilion will connect startups with venture funds, industrial firms and research partners. This is an investment ecosystem announcement without new installed factory capacity."
+          },
+          "timing": {
+            "zh": "CNA 報導台灣館將安排台星新創論壇及 Taiwan Tech Connect 交流，連結 SGInnovate、投資機構與製造商。官方主辦場館在所取得的報導中未明確揭露，因此只記錄新加坡的活動城市。",
+            "en": "CNA reported planned Taiwan-Singapore startup forums and Taiwan Tech Connect with SGInnovate and venture participants. The specific organizer-verified venue was not provided by the source reviewed, so only Singapore is recorded."
+          },
+          "unknowns": {
+            "zh": "尚未公布 33 家新創的最終投資、客戶簽約及技術驗證成果；上述為預定活動。",
+            "en": "Investments, customer agreements and technical qualification outcomes for the 33 participating startups have not been disclosed; attendance remains scheduled."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "預定參展新創",
+            "en": "Startups slated to attend"
+          },
+          "current": 33,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 10 月 27 至 29 日活動規劃",
+            "en": "Planned Oct 27-29, 2026 event"
+          },
+          "owner": {
+            "zh": "國發會，由中央社報導",
+            "en": "NDC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230084.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始報導未提供可比絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體量測與智慧工廠供應商可在活動後查閱具有實際技術驗證與供應鏈導入的合作公告。目前只有參展名額及規劃，無具體採購或合作成交量。",
+        "en": "Semiconductor metrology and industrial automation suppliers would look for actual qualification and supplier-adoption outcomes after the event. Only delegation size and activities have been announced."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "9 月製造業指數與伺服器產品組合要如何分開閱讀？",
+        "en": "How should the September index and server mix changes be distinguished?"
+      },
+      "text": {
+        "zh": "9 月製造業指數年增 20.21%，但電腦電子光學類別月減 15.38%，且製造業指數低於原先 146.03 至 150.03 預估區間；須區別年增、月增與預測差異。",
+        "en": "Manufacturing rose 20.21% YoY while computer/electronics/optics fell 15.38% sequentially and the headline index missed a prior 146.03–150.03 range; these are separate comparisons."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "64 億元董事會授權包含哪些廠房與設備預算？",
+        "en": "How is the NT$6.4B board authorization allocated?"
+      },
+      "text": {
+        "zh": "新竹研發中心房屋與裝修 15 億元、中南部製造中心廠房 37 億元及設備 12 億元，資本支出支付仍依工程和市場進度。",
+        "en": "The authorization covers NT$1.5B for Hsinchu facilities, NT$3.7B for a manufacturing building and NT$1.2B for equipment, subject to actual execution."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "工會投票如何區分投票比率與全部會員比率？",
+        "en": "How does the ballot percentage differ from total membership?"
+      },
+      "text": {
+        "zh": "1,633 人反對方案，占 1,637 名投票者約 99%，但依工會口徑，僅占全體會員近七成；也不代表相同比例的產線人力罷工。",
+        "en": "The 1,633 rejections were about 99% of 1,637 ballots, versus roughly 70% of all members per the union; neither ratio measures fab staff on strike."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "參考資料",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價與評論報導",
+        "en": "Share-price and commentary coverage"
+      },
+      "text": {
+        "zh": "沒有新增可核實營運節點的股價及分析師評論，未收錄為新聞。",
+        "en": "Stock moves and analyst views without new verifiable operational milestones were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "經濟部 9 月工業生產原始統計附表未直接取得，相關數字依中央社報導經濟部公告；漢測為董事會投資授權而非已支付金額。美光投票數字依工會經媒體轉述，工廠產量影響未揭露。漢翔節費近 40% 屬公司估計。SWITCH 場館與會期依主辦官網核對；投資與合作成果仍未公布。",
+    "en": "The original September MOEA tables were not directly obtained; production figures follow CNA's ministry reporting. Hermes' investment is authorized budget rather than actual disbursement. Micron ballot counts are union statements reported by CNA without quantified fab output effects. AIDC's near-40% savings are projected; SWITCH dates and venue are organizer-verified, but investment and partnership outcomes are not known."
+  }
+}

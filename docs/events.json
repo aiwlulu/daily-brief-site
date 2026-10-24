@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-24",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -106,32 +106,6 @@
       }
     },
     {
-      "id": "itap-2026",
-      "start": "2026-10-21",
-      "end": "2026-10-22",
-      "type": "systems",
-      "region": "sea",
-      "name": {
-        "zh": "Industrial Transformation ASIA-PACIFIC 2026",
-        "en": "Industrial Transformation ASIA-PACIFIC 2026"
-      },
-      "place": {
-        "zh": "新加坡 · Suntec Singapore Convention & Exhibition Centre",
-        "en": "Suntec Singapore Convention & Exhibition Centre, Singapore"
-      },
-      "focus": {
-        "zh": "先進製造、工業 AI、自動化、數位製造與工業資安；官方地址為 1 Raffles Boulevard。",
-        "en": "Advanced manufacturing, industrial AI, automation, digital manufacturing and industrial cybersecurity; the official venue address is 1 Raffles Boulevard."
-      },
-      "source": {
-        "name": {
-          "zh": "ITAP · 官方日期與場地",
-          "en": "ITAP · official dates and venue"
-        },
-        "url": "https://industrial-transformation.com/venue/"
-      }
-    },
-    {
       "id": "tpca-2026",
       "start": "2026-10-20",
       "end": "2026-10-22",
@@ -181,6 +155,58 @@
           "en": "TAITRONICS · Official event overview"
         },
         "url": "https://www.taitronics.tw/zh-tw/menu/566102D1961A557AD0636733C6861689/info.html"
+      }
+    },
+    {
+      "id": "itap-2026",
+      "start": "2026-10-21",
+      "end": "2026-10-22",
+      "type": "systems",
+      "region": "sea",
+      "name": {
+        "zh": "Industrial Transformation ASIA-PACIFIC 2026",
+        "en": "Industrial Transformation ASIA-PACIFIC 2026"
+      },
+      "place": {
+        "zh": "新加坡 · Suntec Singapore Convention & Exhibition Centre",
+        "en": "Suntec Singapore Convention & Exhibition Centre, Singapore"
+      },
+      "focus": {
+        "zh": "先進製造、工業 AI、自動化、數位製造與工業資安；官方地址為 1 Raffles Boulevard。",
+        "en": "Advanced manufacturing, industrial AI, automation, digital manufacturing and industrial cybersecurity; the official venue address is 1 Raffles Boulevard."
+      },
+      "source": {
+        "name": {
+          "zh": "ITAP · 官方日期與場地",
+          "en": "ITAP · official dates and venue"
+        },
+        "url": "https://industrial-transformation.com/venue/"
+      }
+    },
+    {
+      "id": "switch-2026",
+      "start": "2026-10-27",
+      "end": "2026-10-29",
+      "type": "systems",
+      "region": "sea",
+      "name": {
+        "zh": "SWITCH 2026 新加坡科技創新週",
+        "en": "SWITCH 2026 Singapore Week of Innovation and Technology"
+      },
+      "place": {
+        "zh": "新加坡 · 濱海灣金沙會議展覽中心，1 樓 A 至 C 展館及 3 樓宴會廳",
+        "en": "Marina Bay Sands Expo & Convention Centre, Halls A-C (L1) and Ballrooms (L3), Singapore"
+      },
+      "focus": {
+        "zh": "半導體、AI、機器人、先進製造及跨境科技投資交流；台灣預定 33 家新創參展。",
+        "en": "Semiconductors, AI, robotics, advanced manufacturing and cross-border investment; Taiwan plans a 33-startup delegation."
+      },
+      "source": {
+        "name": {
+          "zh": "SWITCH · 主辦單位",
+          "en": "SWITCH · organizer"
+        },
+        "url": "https://www.switchsg.org/"
       }
     },
     {

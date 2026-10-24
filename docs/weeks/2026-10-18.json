@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-10-18",
-  "generatedAt": "2026-10-22T15:47:05.757Z",
+  "generatedAt": "2026-10-24T01:53:44.662Z",
   "throughline": {
-    "zh": "本週台灣與東南亞的供應鏈資訊涵蓋載板、封測與光學引擎的擴產目標、矽電容晶圓驗證、記憶體設計研發、勞資協商，以及廠務電力、設備材料和工程人力條件。",
-    "en": "This week's Taiwan and Southeast Asian reporting covers substrate, test and optical-engine capacity targets, silicon-capacitor wafer validation, memory design R&D, labor talks and factory power, equipment-material and engineering workforce conditions."
+    "zh": "本週台灣製造業與積體電路統計成長，同時晶圓測試、矽光子設備、工業微電網、先進封裝材料與記憶體勞資談判揭露不同執行進度，跨境晶片設計與技術合作則仍待驗證和商用交付。",
+    "en": "This week's Taiwan manufacturing and IC output improved, alongside test and photonics equipment plans, a commissioned factory microgrid, packaging materials and labor developments; cross-border chip design partnerships remain subject to product qualification and commercial delivery."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "先進封裝與高速互連：載板、光學引擎、矽電容及材料",
-        "en": "Advanced packaging and interconnect: substrates, optical engines, silicon capacitors and materials"
+        "zh": "先進封裝、測試與高速互連：設備與材料擴建",
+        "en": "Advanced packaging, testing and interconnect: equipment and materials"
       },
       "summary": {
-        "zh": "台灣展會和 NVIDIA、聯電及愛普公告揭露載板、晶片測試、CPO 光學引擎與矽電容的新驗證或擴產節點；矽品規劃 2027 年中將光學引擎產能提升至現有 15 倍，愛普 Gen2D 已完成初步晶圓驗證。馬來西亞及泰國則有銅箔、CCL 與焊球產能規劃，相關認證和實際產出仍待公開。",
-        "en": "Taiwan industry disclosures added capacity and qualification milestones for substrates, testing, CPO optical engines and silicon capacitors. SPIL targets a 15-fold optical-engine increase by mid-2027 and AP Memory completed initial Gen2D wafer validation, while Malaysian and Thai materials expansions remain subject to qualification and actual output."
+        "zh": "本週公告涵蓋台灣載板、矽電容、光學引擎、測試設備及封裝材料，漢測 10 月 22 日新增 64 億元的研發與探針卡設備製造預算授權。新台幣預算屬董事會核准額，京元電產能預付款及矽品倍數則屬不同計畫，認證和實際出貨尚需分開查證。",
+        "en": "This week's coverage includes substrates, silicon capacitors, optical engines, test equipment and packaging materials. Hermes Testing authorized NT$6.4B for R&D and probe-card equipment facilities on October 22, while KYEC advances and SPIL multiplier targets are separate plans without published qualified shipment volumes."
       },
       "references": [
         {
@@ -60,6 +60,10 @@
         },
         {
           "date": "2026-10-23",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-24",
           "storyId": 2
         }
       ]
@@ -68,12 +72,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "晶圓製造與電子需求：訂單、出口和電力負載",
-        "en": "Wafer production and electronics demand: orders, exports and electric load"
+        "zh": "晶圓製造與電子需求：外銷訂單、出口及 9 月生產",
+        "en": "Foundry and electronics demand: orders, exports and September output"
       },
       "summary": {
-        "zh": "台灣 9 月外銷訂單達 1,142.1 億美元、馬來西亞同期出口年增 54.5%，台綜院另報 9 月半導體用電年增 11.55%。三組數據的地域、統計範圍與基期不同，半導體用電無法直接換算為晶圓出貨。",
-        "en": "Taiwan's September export orders reached US$114.21 billion, Malaysia's exports grew 54.5% year-on-year, and the Taiwan Research Institute reported 11.55% growth in semiconductor electricity use. Geography, bases and definitions differ; power consumption cannot be converted directly into wafer shipments."
+        "zh": "台灣 9 月外銷訂單達 1,142.1 億美元，10 月 23 日公布的製造業生產指數年增 20.21%，積體電路業年增 26.51%；馬來西亞 9 月出口亦年增 54.5%。製造業指數低於原預估區間，且外銷訂單、實際生產及用電數字不能直接合計。",
+        "en": "Taiwan's September orders reached US$114.21B, manufacturing output rose 20.21% and IC output 26.51% in figures released October 23; Malaysia's exports increased 54.5%. Manufacturing missed the previous index range, while orders, production and electricity use remain distinct statistical measures."
       },
       "references": [
         {
@@ -91,6 +95,10 @@
         {
           "date": "2026-10-23",
           "storyId": 7
+        },
+        {
+          "date": "2026-10-24",
+          "storyId": 1
         }
       ]
     },
@@ -98,12 +106,12 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "記憶體：美光勞資進度與馬日 ZAM 設計合作",
-        "en": "Memory: Micron labor developments and Malaysia-Japan ZAM design collaboration"
+        "zh": "記憶體供應：美光桃園協商進度及馬日設計合作",
+        "en": "Memory supply: Micron negotiations and Malaysia-Japan design"
       },
       "summary": {
-        "zh": "美光台中工會 10 月 21 日達成協議，桃園工會 22 日有 11 名幹部展開行動；公司另公布季度分潤及台灣勞退提撥調升。馬來西亞 SkyeChip 與日本 SAIMEMORY 合作新型記憶體架構研發，尚未公布樣品良率或量產計畫。",
-        "en": "Micron reached a Taichung union agreement on October 21 and 11 Taoyuan union officers began strike action on October 22, when Micron also detailed compensation changes. Malaysia's SkyeChip joined Japan's SAIMEMORY memory architecture R&D, without prototype yield or production timing disclosures."
+        "zh": "美光台中工會 21 日達成協議，桃園工會幹部 22 日罷工，23 日公布 1,633 名會員反對公司方案，協商延至 27 日。另一方面，馬來西亞 SkyeChip 與日本 SAIMEMORY 公布新型記憶體設計合作，尚無產品量產資料。",
+        "en": "Micron reached a Taichung union agreement on October 21; Taoyuan union officers struck on October 22, and the union reported 1,633 ballots against Micron's proposal on October 23, moving talks to October 27. Separately, Malaysia's SkyeChip joined SAIMEMORY memory architecture development without production data."
       },
       "references": [
         {
@@ -121,6 +129,10 @@
         {
           "date": "2026-10-23",
           "storyId": 6
+        },
+        {
+          "date": "2026-10-24",
+          "storyId": 3
         }
       ]
     },
@@ -128,12 +140,12 @@
       "id": 4,
       "category": "global",
       "title": {
-        "zh": "AI 資料中心系統：台灣 ODM 與模組化機房交付",
-        "en": "AI data-center systems: Taiwan ODMs and modular deployment"
+        "zh": "資料中心與晶片系統：台灣 ODM、CPU 合作及新加坡展會",
+        "en": "Data centers and chip systems: Taiwan ODMs, CPUs and Singapore event"
       },
       "summary": {
-        "zh": "神雲台灣擴廠、東南亞機房計畫與 NVIDIA DSX POD 新型模組化 AI 機房依不同進度推進，DSX POD 列名鴻海、台達電、技嘉、和碩、雲達及緯創等合作廠商。最快 14 天部署是備妥案場條件的公司估算，與已上線機房容量不能混用。",
-        "en": "MiTAC's Taiwan factory program, Southeast Asian site plans and NVIDIA's modular DSX POD reference design represent distinct stages. Taiwan partners include Foxconn, Delta, GIGABYTE, Pegatron, QCT and Wistron, while the 14-day prepared-site target is an estimate rather than installed data-center capacity."
+        "zh": "本週涵蓋神雲擴廠、資料中心機房計畫、NVIDIA 模組化機房設計、神盾與法國 SiPearl 的 CPU 晶片合作，以及台灣預定 33 家新創赴新加坡展覽。系統開發合作、設備交付目標及預定投資交流未揭露相同口徑的已交付營運容量。",
+        "en": "This week's developments span MiTAC expansion, data-center facilities, NVIDIA's modular design, Egis-SiPearl CPU-chiplet cooperation and 33 Taiwanese startups heading to Singapore. Technology agreements, delivery targets and planned investment meetings do not represent comparable live capacity."
       },
       "references": [
         {
@@ -155,6 +167,14 @@
         {
           "date": "2026-10-23",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-24",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-24",
+          "storyId": 7
         }
       ]
     },
@@ -162,12 +182,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "擴廠執行條件：施工、設備材料、人才與電力",
-        "en": "Capacity execution: construction, tool materials, talent and power"
+        "zh": "工廠擴張條件：工安、電力、設備材料與出口管制",
+        "en": "Factory execution: safety, power, materials and export controls"
       },
       "summary": {
-        "zh": "台積電高雄 F22 工地事故造成 4 名工人死亡並暫停同類作業；Reuters 另報導台積電正洽詢設備馬達降低稀土使用量，尚未獲原廠證實。新加坡製造 AI 補助與馬來西亞半導體人才培訓資金均為計畫或核准支出，與實際產線投產不同。",
-        "en": "Four workers died at TSMC's Kaohsiung F22 site, prompting suspension of similar work, and Reuters separately reported preliminary, unconfirmed inquiries into rare-earth alternatives for fab motors. Singapore's manufacturing-AI support and Malaysia's semiconductor training approvals are program measures, distinct from commissioned factory capacity."
+        "zh": "台積電高雄工地事故後同類鋼構作業暫停，另有設備稀土替代評估；漢翔 22 日啟用 9MW／54MWh 工業微電網，貿易署同日新增 343 個受管制實體。工廠設備、廠務供電與出口管制各有不同的技術、施工及法定查核條件。",
+        "en": "Similar steel work was suspended after the TSMC Kaohsiung site accident, with separate reporting on alternative motor materials. AIDC commissioned a 9MW / 54MWh microgrid on October 22, and Taiwan's trade authority added 343 controlled entities, each requiring distinct technical, construction and regulatory interpretation."
       },
       "references": [
         {
@@ -205,6 +225,14 @@
         {
           "date": "2026-10-23",
           "storyId": 8
+        },
+        {
+          "date": "2026-10-24",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-24",
+          "storyId": 5
         }
       ]
     }
