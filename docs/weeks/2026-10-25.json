@@ -1,0 +1,104 @@
+{
+  "weekStart": "2026-10-25",
+  "generatedAt": "2026-10-24T14:40:00Z",
+  "throughline": {
+    "zh": "10 月 24 日最新資料分別涉及台灣稀土材料供應計畫、颱風後配電復原，以及台菲半導體合作；東南亞海纜與精密光學合作的時程和進度則採不同口徑揭露。",
+    "en": "The latest updates cover Taiwan's rare-earth plans, power restoration and Philippine semiconductor cooperation, while Southeast Asian subsea connectivity and precision optics are at separate implementation stages."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "tech",
+      "title": {
+        "zh": "稀土材料與精密設備供應鏈",
+        "en": "Rare-earth materials and precision tooling"
+      },
+      "summary": {
+        "zh": "工研院 10 月 24 日表示，規劃 2028 年底完成稀土示範廠、2030 年達年產 500 噸，預期可滿足台灣約半數需求。建廠預算、地點及實際磁材產出尚未核定。",
+        "en": "On October 24, ITRI described plans for a rare-earth demo plant by end-2028 and annual output of 500 tonnes by end-2030, aimed at roughly half of Taiwan's demand. Funding, location and qualified material output remain unconfirmed."
+      },
+      "references": [
+        {
+          "date": "2026-10-25",
+          "storyId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "title": {
+        "zh": "颱風後電網復原與智慧工廠設備",
+        "en": "Typhoon grid restoration and smart-factory systems"
+      },
+      "summary": {
+        "zh": "台電 10 月 24 日下午通報全台逾 34 萬戶曾停電、已復電逾 9 成；雲林局部線路因鹽塵害增加搶修工序。中華電信另成立智慧影像子公司，現階段沒有工廠停線損失或新裝機量數據。",
+        "en": "By October 24 afternoon, Taipower reported more than 340,000 accounts affected and over 90% restored, including salt-related insulation problems in Yunlin. Chunghwa Telecom separately formed an intelligent-vision subsidiary, with no related fab downtime or new device installation figures."
+      },
+      "references": [
+        {
+          "date": "2026-10-25",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-25",
+          "storyId": 6
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "global",
+      "title": {
+        "zh": "東南亞四國海纜招標及越南機房規劃",
+        "en": "Southeast Asian subsea cable and Vietnam campus planning"
+      },
+      "summary": {
+        "zh": "MViSTA 開發商表示串聯馬來西亞、越南、新加坡及泰國的 2,500 公里海纜仍在招標，成本預估約 4 億美元、目標 2028 年底啟用。美國 USTDA 資助的胡志明市機房可行性研究與海纜工程是不同階段。",
+        "en": "The developer of the proposed 2,500-km MViSTA cable connecting four Southeast Asian countries reported ongoing bidding, an estimated US$400 million cost and a late-2028 target. A USTDA-backed data-center feasibility study in Ho Chi Minh City is a separate undertaking."
+      },
+      "references": [
+        {
+          "date": "2026-10-25",
+          "storyId": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "title": {
+        "zh": "玉晶光與 3M 光互連合作及自結財務",
+        "en": "GSEO-3M optical interconnect and earnings update"
+      },
+      "summary": {
+        "zh": "玉晶光 10 月 23 日公告 9 月自結歸母淨利約 4.34 億元、年減 15%，媒體另報導約 48.13 億元的 3M 私募股款已入帳。EBO、CPO 產品仍在合作開發及認證階段。",
+        "en": "GSEO reported about NT$434 million in self-compiled September parent-attributable profit, down 15%, while reporting said the roughly NT$4.813 billion 3M placement proceeds arrived. EBO and CPO product qualification remains pending."
+      },
+      "references": [
+        {
+          "date": "2026-10-25",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "global",
+      "title": {
+        "zh": "台菲半導體合作方向與 2030 年出口目標",
+        "en": "Taiwan-Philippines semiconductor cooperation and 2030 goals"
+      },
+      "summary": {
+        "zh": "駐菲代表 10 月 24 日在馬卡蒂市提及串聯台菲與呂宋經濟走廊的可能性，並引用菲律賓 2030 年電子與半導體產品年出口 1,100 億美元目標。現階段未公告新的半導體工廠核定投資。",
+        "en": "Taiwan's envoy discussed a potential link between Taiwan-Philippines and Luzon economic corridors in Makati on October 24, citing the Philippines' US$110 billion 2030 electronics and semiconductor export goal. No new fab investment approval was announced."
+      },
+      "references": [
+        {
+          "date": "2026-10-25",
+          "storyId": 5
+        }
+      ]
+    }
+  ]
+}

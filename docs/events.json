@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -106,32 +106,6 @@
       }
     },
     {
-      "id": "tpca-2026",
-      "start": "2026-10-20",
-      "end": "2026-10-22",
-      "type": "packaging",
-      "region": "tw",
-      "name": {
-        "zh": "TPCA Show 2026 台灣電路板產業國際展覽會",
-        "en": "TPCA Show 2026"
-      },
-      "place": {
-        "zh": "台北 · 南港展覽館一館",
-        "en": "Taipei Nangang Exhibition Center Hall 1, Taipei, Taiwan"
-      },
-      "focus": {
-        "zh": "PCB、載板與材料；展覽 10/20 至 10/22 於南港一館，IMPACT-IAAC 10/19 至 10/22 於南港二館。",
-        "en": "PCBs, substrates and materials; exhibition October 20-22 in Nangang Hall 1, IMPACT-IAAC October 19-22 in Hall 2."
-      },
-      "source": {
-        "name": {
-          "zh": "TPCA · 官方展覽與論壇公告",
-          "en": "TPCA · official exhibition and forum announcement"
-        },
-        "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394"
-      }
-    },
-    {
       "id": "taitronics-aiot-2026",
       "start": "2026-10-20",
       "end": "2026-10-22",
@@ -155,6 +129,32 @@
           "en": "TAITRONICS · Official event overview"
         },
         "url": "https://www.taitronics.tw/zh-tw/menu/566102D1961A557AD0636733C6861689/info.html"
+      }
+    },
+    {
+      "id": "tpca-2026",
+      "start": "2026-10-20",
+      "end": "2026-10-22",
+      "type": "packaging",
+      "region": "tw",
+      "name": {
+        "zh": "TPCA Show 2026 台灣電路板產業國際展覽會",
+        "en": "TPCA Show 2026"
+      },
+      "place": {
+        "zh": "台北 · 南港展覽館一館",
+        "en": "Taipei Nangang Exhibition Center Hall 1, Taipei, Taiwan"
+      },
+      "focus": {
+        "zh": "PCB、載板與材料；展覽 10/20 至 10/22 於南港一館，IMPACT-IAAC 10/19 至 10/22 於南港二館。",
+        "en": "PCBs, substrates and materials; exhibition October 20-22 in Nangang Hall 1, IMPACT-IAAC October 19-22 in Hall 2."
+      },
+      "source": {
+        "name": {
+          "zh": "TPCA · 官方展覽與論壇公告",
+          "en": "TPCA · official exhibition and forum announcement"
+        },
+        "url": "https://www.tpca.org.tw/web/news_detail.php?menu_no=161&mod_no=1&news_no=500394"
       }
     },
     {
@@ -229,10 +229,36 @@
       },
       "source": {
         "name": {
-          "zh": "electronica",
-          "en": "electronica"
+          "zh": "electronica · 官方開放日期",
+          "en": "electronica · official dates"
         },
-        "url": "https://electronica.de/en/"
+        "url": "https://electronica.de/en/trade-fair/plan-your-visit/opening-hours/"
+      }
+    },
+    {
+      "id": "semicon-europa-2026",
+      "start": "2026-11-10",
+      "end": "2026-11-13",
+      "type": "semiconductor",
+      "region": "eu",
+      "name": {
+        "zh": "SEMICON Europa 2026",
+        "en": "SEMICON Europa 2026"
+      },
+      "place": {
+        "zh": "德國慕尼黑 · 慕尼黑展覽中心，與 electronica 同期",
+        "en": "Trade Fair Center Messe München, Munich, Germany; co-located with electronica"
+      },
+      "focus": {
+        "zh": "半導體設備、材料、先進封裝、晶圓廠管理與產業標準；展區涵蓋 B0、B1、C1 與 C2 館。",
+        "en": "Semiconductor equipment, materials, advanced packaging, fab operations and standards; exhibition spans Halls B0, B1, C1 and C2."
+      },
+      "source": {
+        "name": {
+          "zh": "SEMI · SEMICON Europa 主辦官網",
+          "en": "SEMI · SEMICON Europa organizer"
+        },
+        "url": "https://semiconeuropa.org/"
       }
     },
     {
@@ -255,8 +281,8 @@
       },
       "source": {
         "name": {
-          "zh": "SC26 · 官方會期與場館",
-          "en": "SC26 · official dates and venue"
+          "zh": "SC26 · 官方會期與場地",
+          "en": "SC26 · official venue and dates"
         },
         "url": "https://sc26.supercomputing.org/attendees/chicago/"
       }
@@ -298,8 +324,8 @@
         "en": "SEMICON Japan 2026"
       },
       "place": {
-        "zh": "日本東京 · Tokyo Big Sight",
-        "en": "Tokyo Big Sight, Tokyo, Japan"
+        "zh": "日本東京 · 東京國際展示場、有明中央塔會議廳及 TFT 大樓",
+        "en": "Tokyo Big Sight, Ariake Central Tower Hall & Conference and TFT Building, Tokyo, Japan"
       },
       "focus": {
         "zh": "半導體設備、材料與後段製程",
@@ -307,10 +333,10 @@
       },
       "source": {
         "name": {
-          "zh": "ICE 義大利貿易局",
-          "en": "ICE Italian Trade Agency"
+          "zh": "SEMI · SEMICON Japan 活動概覽",
+          "en": "SEMI · SEMICON Japan event overview"
         },
-        "url": "https://www.ice.it/it/mercati/giappone/presenza-istituzionale-semicon-japan-2026-tokyo-9-11-dicembre-2026"
+        "url": "https://www.semiconjapan.org/en/about"
       }
     },
     {

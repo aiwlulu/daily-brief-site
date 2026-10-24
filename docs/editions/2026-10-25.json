@@ -1,0 +1,1156 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-24T14:40:00Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、材料、封測、機房電力與終端工廠",
+      "en": "Taiwan and Southeast Asia semiconductor equipment, materials, test, data-center power and factories"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "工研院的稀土供應規劃、台電颱風後配電復原與東南亞海纜招標分別處於技術開發、實際搶修及跨境基礎設施規劃階段。",
+    "en": "ITRI's rare-earth plan, Taipower's typhoon restoration and Southeast Asia's subsea cable tender are at distinct stages of technology development, operational recovery and cross-border infrastructure planning."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "工研院提出 2028 年示範廠與 2030 年年產 500 噸稀土目標，預算與廠址尚未核定。",
+        "en": "ITRI targets an end-2028 rare-earth demonstration plant and 500 tonnes per year by 2030, without approved funding or a site."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台電 10 月 24 日下午通報全台逾 34 萬戶曾停電、復電率逾 9 成，未揭露半導體產線停工數據。",
+        "en": "Taipower reported more than 340,000 accounts affected and over 90% restored on Oct 24, without fab shutdown data."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "MViSTA 海纜預計串聯馬、越、星、泰四國，估計 4 億美元，供應商仍未決標。",
+        "en": "MViSTA's proposed four-country cable has an estimated US$400M budget; supplier selection is pending."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "玉晶光 9 月自結歸母淨利 4.34 億元，媒體報導 3M 私募款項已匯入，EBO 與 CPO 量產仍未確認。",
+        "en": "GSEO reported NT$434M in September net profit and 3M placement proceeds reportedly arrived; EBO and CPO production remains unconfirmed."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "駐菲代表提及台菲半導體經濟走廊合作及菲律賓 2030 年 1,100 億美元出口目標，尚無新建廠案。",
+        "en": "Taiwan's envoy discussed Philippine semiconductor corridors and its US$110B 2030 export goal, without new fab approvals."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taiwan-itri-rare-earth-demo-factory",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "工研院規劃稀土示範廠，2030 年產 500 噸及滿足半數需求為目標",
+        "en": "ITRI plans rare-earth pilot-to-demo plant, targets 500 tonnes a year by 2030"
+      },
+      "summary": {
+        "zh": "工研院院長張培仁 10 月 24 日向中央社表示，現有稀土實驗線年產約 5,000 公斤，計畫 2028 年底在工業區完成示範工廠，並在 2030 年底前達年產 500 噸及滿足台灣約 50% 需求的目標。示範工廠尚待國科會編列預算，廠址與商業營運安排尚未確定。",
+        "en": "ITRI president Chang Pei-jen told CNA on October 24 that its existing rare-earth pilot line has a capacity of about 5,000 kg a year. ITRI aims to complete an industrial-park demonstration plant by end-2028 and reach 500 tonnes annually, representing roughly half of Taiwan's demand, by end-2030; funding, site selection and the commercial model are not finalized."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "稀土分離、金屬製造與高階磁鐵製程可連結工廠自動化馬達、精密設備驅動與半導體製造機台零組件。工研院指出，現有工作涉及中興院區的分離與金屬技術，以及六甲院區的磁鐵設備；材料精製與磁鐵成品不能用同一產能直接替代計算。",
+            "en": "Rare-earth separation, metallurgy and high-performance magnets are relevant to automation motors, precision drive systems and semiconductor equipment components. ITRI described separation and metal processes at its Zhongxing campus and magnet-making equipment at Liujia. Intermediate materials and finished magnets are not interchangeable output measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Data and implementation timing"
+          },
+          "text": {
+            "zh": "工研院透露示範工廠將選址工業區，以利未來技術移轉，但仍須國科會支持建廠預算，價格保障與商業合作模式也在討論。10 月 22 日媒體所稱台積電評估稀土替代馬達屬另一項來源受限報導，不代表工研院產能已有晶圓廠客戶認證。",
+            "en": "ITRI is considering an industrial-park site to facilitate technology transfer, while National Science and Technology Council budget authorization and possible price-support arrangements remain under discussion. Separate October 22 reporting on alternative fab motors does not establish that ITRI's future output has qualified semiconductor customers."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "示範廠的城市、地號、核定經費、產線良率、稀土元素組合與實際量產時點未公布；500 噸與 50% 為 2030 年目標。",
+            "en": "The demo site's city and address, approved funding, yields, element mix and actual production timing are undisclosed; 500 tonnes and 50% are targets for 2030."
+          }
+        }
+      ],
+      "metric": "500 噸／年",
+      "metricLabel": {
+        "zh": "2030 年規劃產能",
+        "en": "Planned annual capacity by 2030"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 工研院院長專訪",
+            "en": "CNA · ITRI president interview"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610240025.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "台灣，擬選工業區建示範廠；尚未指定城市、土地或確切工地。",
+        "en": "Taiwan, proposed industrial-park demonstration plant; no specific city or project site selected."
+      },
+      "market": {
+        "eventDate": "2026-10-24",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "稀土材料；設備零組件；晶圓；工廠自動化；投資",
+          "en": "Rare-earth materials; equipment components; wafers; factory automation; investment"
+        },
+        "chain": {
+          "zh": "稀土材料與精密設備零組件至晶圓工廠自動化",
+          "en": "Rare-earth materials and precision drive components to wafer-fab automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "示範廠設計中，國科會預算仍待編列，未公布經費金額。",
+            "en": "Demonstration plant is under design; NSTC funding has not been approved or quantified."
+          },
+          "demand": {
+            "zh": "未公布實際新增訂單或出貨量。",
+            "en": "No incremental booked orders or shipments disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資。",
+            "en": "No new foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "磁材、馬達與設備零組件可用於半導體與工廠自動化。",
+            "en": "Magnetic materials and motor components connect to semiconductor and factory automation tools."
+          },
+          "timing": {
+            "zh": "10 月 24 日披露規劃，2028 年建廠與 2030 年年產量均為未來目標。",
+            "en": "Plan disclosed October 24; end-2028 construction and end-2030 output are future targets."
+          },
+          "unknowns": {
+            "zh": "示範廠的城市、地號、核定經費、產線良率、稀土元素組合與實際量產時點未公布；500 噸與 50% 為 2030 年目標。",
+            "en": "The demo site's city and address, approved funding, yields, element mix and actual production timing are undisclosed; 500 tonnes and 50% are targets for 2030."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2030 年稀土示範廠年產能目標",
+            "en": "2030 rare-earth annual capacity target"
+          },
+          "current": 500,
+          "unit": "噸",
+          "period": {
+            "zh": "2030 年底目標",
+            "en": "End-2030 target"
+          },
+          "owner": {
+            "zh": "工研院院長，由中央社報導",
+            "en": "ITRI president, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610240025.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "2030 年台灣需求自給占比目標",
+            "en": "2030 share of Taiwan rare-earth demand target"
+          },
+          "current": 0.5,
+          "unit": "%",
+          "period": {
+            "zh": "2030 年底目標",
+            "en": "End-2030 target"
+          },
+          "owner": {
+            "zh": "工研院院長，由中央社報導",
+            "en": "ITRI president, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610240025.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "既有實驗線年產量約數",
+            "en": "Approximate current pilot-line output"
+          },
+          "current": 5000,
+          "unit": "公斤",
+          "period": {
+            "zh": "2026 年 10 月 24 日介紹之既有實驗線",
+            "en": "Pilot line described Oct 24, 2026"
+          },
+          "owner": {
+            "zh": "工研院院長，由中央社報導",
+            "en": "ITRI president, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610240025.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密電源、驅動與設備控制供應商而言，需釐清示範廠將產出哪些磁材規格，以及如何驗證可用於定位馬達及設備零組件。預算、良率與認證均未確定，現階段無法推算供應規模。",
+        "en": "Precision-power, motor-drive and controls suppliers would need magnet grades, positioning-motor qualification methods and tool-level specifications. Funding, yields and certifications are unresolved, so supply implications cannot yet be quantified."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-typhoon-grid-restoration-2026-10",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "薔琵颱風造成全台逾 34 萬戶曾停電，台電 10 月 24 日下午稱復電率逾 9 成",
+        "en": "Taipower reports over 340,000 storm-affected accounts and more than 90% restored"
+      },
+      "summary": {
+        "zh": "台電 10 月 24 日下午 3 時公布，薔琵颱風造成全台累計逾 34 萬戶曾停電，當時已復電近 31 萬戶、復電率逾 9 成，並動員逾 1.5 萬人次搶修。雲林區處同日下午 2 時指出強風挾帶鹽塵導致礙子閃絡、部分線路反覆跳脫；上述屬電網供電事故統計，未公布半導體或工廠停線損失。",
+        "en": "Taipower reported at 3 p.m. on October 24 that more than 340,000 customer accounts had experienced typhoon-related outages, nearly 310,000 had been restored and restoration exceeded 90%, with over 15,000 worker-shifts deployed. Its Yunlin branch cited salt contamination and repeated insulator flashovers, but no fab or industrial production-loss figures were reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "颱風供電事件涉及架空線路、配電礙子、變壓器及緊急備援系統，也與高可靠度工廠電力和資料中心設施的電力品質相關。台電表示優先恢復主幹線、分歧線及重要民生設施，累計受影響戶數並不等於單一時點同時停電戶數。",
+            "en": "Storm restoration covers distribution circuits, insulators, transformers and backup infrastructure, all relevant to power reliability in factories and data centers. Taipower prioritizes transmission and feeder recovery; cumulative affected accounts are not simultaneous outages at one time."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Data and implementation timing"
+          },
+          "text": {
+            "zh": "中央社 10 月 24 日報導，下午 3 時主要尚待復電區域為新北約 1.2 萬戶、桃園約 7,000 戶、宜蘭約 6,000 戶。台電雲林區處下午 2 時稱縣內累計逾 3.4 萬戶停電，剩約 1,800 戶未復電，沿海鹽塵降低絕緣效能並增加清洗礙子的工序。",
+            "en": "CNA reported that as of 3 p.m. about 12,000 accounts in New Taipei, 7,000 in Taoyuan and 6,000 in Yilan remained without power. Taipower's Yunlin branch said over 34,000 accounts had been affected locally and roughly 1,800 remained out at 2 p.m.; coastal salt and dust reduced insulation performance and prolonged line washing and repairs."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "全台最終停電戶數、全面復電時間、個別晶圓廠或設備產線的實際供電與生產損失未公布。",
+            "en": "Final national outage totals, restoration time and actual fab, tool or factory production losses are not available."
+          }
+        }
+      ],
+      "metric": "逾 34 萬戶",
+      "metricLabel": {
+        "zh": "10 月 24 日 15 時累計曾停電戶數",
+        "en": "Cumulative affected accounts at 3 p.m. Oct 24"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台電下午 3 時復電通報",
+            "en": "CNA · Taipower 3 p.m. restoration status"
+          },
+          "url": "https://www.cna.com.tw/news/ahel/202610240121.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "台電雲林區處 · 鹽塵害及搶修公告",
+            "en": "Taipower Yunlin · salt contamination and repairs"
+          },
+          "url": "https://service.taipower.com.tw/branch/d120/xmdoc/cont?sid=0Q297557642596386193&xsmsid=0M242581316296880113",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-24",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；供電；工廠；自動化；資料中心",
+          "en": "Electricity; power distribution; factories; automation; data centers"
+        },
+        "chain": {
+          "zh": "電力配電與工廠備援供電至資料中心",
+          "en": "Electrical distribution and factory backup power to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次修復成本或新增電網建設投資額。",
+            "en": "No reconstruction cost or new grid capex disclosed."
+          },
+          "demand": {
+            "zh": "未公布工廠復工訂單或新增供電設備採購。",
+            "en": "No industrial restart orders or new power-equipment procurement disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資。",
+            "en": "No new foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "全台配電復原與工廠、機房用電可靠性有關，但尚無個別生產中斷證據。",
+            "en": "National power restoration concerns site reliability, without evidence of specific manufacturing outages."
+          },
+          "timing": {
+            "zh": "10 月 24 日 14 時與 15 時的快照，後續數據可能更新。",
+            "en": "Snapshots at 2 p.m. and 3 p.m. Oct 24; subsequent figures may change."
+          },
+          "unknowns": {
+            "zh": "全台最終停電戶數、全面復電時間、個別晶圓廠或設備產線的實際供電與生產損失未公布。",
+            "en": "Final national outage totals, restoration time and actual fab, tool or factory production losses are not available."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "累計曾停電戶數逾數",
+            "en": "Accounts affected, lower bound"
+          },
+          "current": 340000,
+          "unit": "戶",
+          "period": {
+            "zh": "2026 年 10 月 24 日 15 時",
+            "en": "Oct 24, 2026 at 3 p.m."
+          },
+          "owner": {
+            "zh": "台電，由中央社報導",
+            "en": "Taipower, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/ahel/202610240121.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "累計搶修投入逾人次",
+            "en": "Repair worker-shifts, lower bound"
+          },
+          "current": 15000,
+          "unit": "人次",
+          "period": {
+            "zh": "截至 2026 年 10 月 24 日 15 時",
+            "en": "Through Oct 24, 2026 at 3 p.m."
+          },
+          "owner": {
+            "zh": "台電，由中央社報導",
+            "en": "Taipower, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/ahel/202610240121.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "雲林累計曾停電戶數逾數",
+            "en": "Yunlin accounts affected, lower bound"
+          },
+          "current": 34000,
+          "unit": "戶",
+          "period": {
+            "zh": "2026 年 10 月 24 日 14 時",
+            "en": "Oct 24, 2026 at 2 p.m."
+          },
+          "owner": {
+            "zh": "台電雲林區營業處",
+            "en": "Taipower Yunlin branch"
+          },
+          "sourceUrl": "https://service.taipower.com.tw/branch/d120/xmdoc/cont?sid=0Q297557642596386193&xsmsid=0M242581316296880113",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對供電設備與工業電力品質業者，應區分配電故障與廠區內備援系統失效，確認鹽塵環境下的絕緣設計、UPS 或儲能切換與實際停電波形。缺少個別工廠測量記錄，無法推定設備停機或產能損失。",
+        "en": "Power-conversion and industrial power-quality suppliers would separate distribution failure from on-site backup behavior and review insulation protection, UPS transfer and observed voltage events. Without site-level records, tool downtime and lost output cannot be inferred."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "mvista-southeast-asia-subsea-cable",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "MViSTA 海纜開發商稱將於 10 月決標，規劃串聯東南亞四國與越南資料中心",
+        "en": "MViSTA developer targets October cable supplier selection across four Southeast Asian countries"
+      },
+      "summary": {
+        "zh": "Reuters 10 月 22 日引述越南 Stavian 旗下 MViSTA 開發主管表示，連接馬來西亞、越南、新加坡及泰國的 16 對光纖海底電纜，預估長 2,500 公里、成本約 4 億美元，將在日本 NEC 與法國 Alcatel Submarine Networks 間選擇供應商，目標 2028 年底啟用。工程尚未決標，越南資料中心園區也仍處可行性研究階段。",
+        "en": "Reuters reported October 22 that an executive at Vietnamese project developer Stavian expects the 16-fiber-pair MViSTA subsea cable connecting Malaysia, Vietnam, Singapore and Thailand to select a supplier from Japan's NEC and France's Alcatel Submarine Networks in October. The proposed 2,500-km, approximately US$400 million cable targets late-2028 service, while the linked Vietnam data center remains at feasibility-study stage."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "海纜可提供跨國資料中心及雲端流量互連；相關股東含越南 Stavian、日本 Midas Capital 與馬來西亞 OMS Group 子公司 LitUp Network，後者預定負責鋪設工程。海纜容量、陸上機房電力、光纖上線及雲端承租並非相同進度。",
+            "en": "Subsea connectivity links regional cloud and data-center traffic. Reported stakeholders include Vietnam's Stavian, Japan's Midas Capital and Malaysia's LitUp Network, an OMS Group subsidiary intended to lay the cable. Cable construction, power infrastructure and hyperscale tenancy have different development schedules."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Data and implementation timing"
+          },
+          "text": {
+            "zh": "Reuters 引述開發商稱仍待招標定案；USTDA 於 9 月 23 日公告，資助越南胡志明市 Stavian Digital Park 的供電、散熱與連接設施可行性研究，該研究並不等於園區已取得建廠融資。開發商對供應商排除條件的早期發言之後已澄清為個人看法，不應作為採購禁令。",
+            "en": "Reuters described an ongoing supplier tender. A September 23 USTDA announcement separately confirms funding for a feasibility study of power, cooling and connectivity at Stavian Digital Park in Ho Chi Minh City; that does not establish construction financing. An early executive comment about excluding certain suppliers was later clarified as a personal view, not a formal purchasing rule."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未公布最終海纜供應商、確定合約價格、路線許可、登陸站、測試容量與越南資料中心最終投資額；4 億美元及 2028 年底均為預估。",
+            "en": "Final cable supplier, contract value, routing permits, landing stations, tested capacity and the Vietnam data-center funding are unconfirmed; US$400 million and late 2028 remain estimates."
+          }
+        }
+      ],
+      "metric": "US$400M",
+      "metricLabel": {
+        "zh": "開發商預估海纜成本",
+        "en": "Developer estimate of cable cost"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · MViSTA 開發商與招標進度",
+            "en": "Reuters · MViSTA developer and tender"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/new-us-backed-southeast-asia-data-cable-pick-nec-or-alcatel-supplier-developer-2026-10-22/",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "USTDA · 越南資料中心可行性研究",
+            "en": "USTDA · Vietnam data-center feasibility study"
+          },
+          "url": "https://ustda.gov/ustda-advances-major-ai-data-center-campus-in-vietnam/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "計畫連接越南、馬來西亞、新加坡及泰國；登陸站點未公布。關聯機房園區規劃位於越南胡志明市。",
+        "en": "Proposed route connects Vietnam, Malaysia, Singapore and Thailand; landing stations are unannounced. Associated planned data-center campus is in Ho Chi Minh City, Vietnam."
+      },
+      "market": {
+        "eventDate": "2026-10-22",
+        "countries": {
+          "zh": "越南；馬來西亞；新加坡；泰國；美國；日本；法國",
+          "en": "Vietnam; Malaysia; Singapore; Thailand; United States; Japan; France"
+        },
+        "industries": {
+          "zh": "資料中心；光纖；機房；電力；液冷；投資",
+          "en": "Data centers; optical fiber; facilities; power; cooling; investment"
+        },
+        "chain": {
+          "zh": "海纜光纖零組件至資料中心機房、電力和液冷",
+          "en": "Subsea optical components to data-center facilities, power and cooling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "海纜成本約 4 億美元屬開發商估算；資料中心仍僅有可行性研究資助。",
+            "en": "The cable's US$400M cost is a developer estimate; data-center financing only supports feasibility studies."
+          },
+          "demand": {
+            "zh": "尚未公布資料中心客戶簽約或海纜容量租約。",
+            "en": "No firm data-center tenants or cable capacity leases disclosed."
+          },
+          "fdi": {
+            "zh": "越南、馬來西亞及日本企業參與跨境項目，尚無新增實際入帳 FDI 金額。",
+            "en": "Cross-border stakeholders were named without new realized FDI totals."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "東南亞四國海纜與越南規劃機房涉及光纖連接、電力及散熱供應鏈。",
+            "en": "Regional subsea connectivity and proposed Vietnam campus link optical transport to power and cooling supply chains."
+          },
+          "timing": {
+            "zh": "10 月 22 日披露招標與成本，目標 10 月選供應商、2028 年底營運。",
+            "en": "Tender details reported October 22; supplier selection targeted for October and service for late 2028."
+          },
+          "unknowns": {
+            "zh": "未公布最終海纜供應商、確定合約價格、路線許可、登陸站、測試容量與越南資料中心最終投資額；4 億美元及 2028 年底均為預估。",
+            "en": "Final cable supplier, contract value, routing permits, landing stations, tested capacity and the Vietnam data-center funding are unconfirmed; US$400 million and late 2028 remain estimates."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "MViSTA 開發商預估海纜成本",
+            "en": "MViSTA developer-estimated cable cost"
+          },
+          "current": 0.4,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 22 日專訪",
+            "en": "Oct 22, 2026 report"
+          },
+          "owner": {
+            "zh": "Stavian 開發主管，由 Reuters 報導",
+            "en": "Stavian developer executive, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/new-us-backed-southeast-asia-data-cable-pick-nec-or-alcatel-supplier-developer-2026-10-22/",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "海纜規劃長度",
+            "en": "Planned cable length"
+          },
+          "current": 2500,
+          "unit": "公里",
+          "period": {
+            "zh": "2026 年 10 月 22 日披露規劃",
+            "en": "Project plan reported Oct 22, 2026"
+          },
+          "owner": {
+            "zh": "Stavian 開發主管，由 Reuters 報導",
+            "en": "Stavian developer executive, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/new-us-backed-southeast-asia-data-cable-pick-nec-or-alcatel-supplier-developer-2026-10-22/",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "海纜光纖對數",
+            "en": "Planned fiber pairs"
+          },
+          "current": 16,
+          "unit": "對",
+          "period": {
+            "zh": "2026 年 10 月 22 日披露規劃",
+            "en": "Project plan reported Oct 22, 2026"
+          },
+          "owner": {
+            "zh": "Stavian 開發主管，由 Reuters 報導",
+            "en": "Stavian developer executive, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/new-us-backed-southeast-asia-data-cable-pick-nec-or-alcatel-supplier-developer-2026-10-22/",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源、液冷與量測業者，需將海纜招標時程、越南園區可行性研究和機房實際供電容量分開追蹤。尚缺確定登陸站、雲端承租人、電力容量契約與施工許可，無法估算設備裝機時點。",
+        "en": "Data-center power, liquid-cooling and metrology suppliers would track the cable tender separately from Vietnam campus feasibility and site power agreements. Landing stations, anchor tenants, power contracts and construction permits are still missing."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "gseo-3m-optical-private-placement",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "玉晶光公告 9 月自結淨利 4.34 億元，3M 私募股款已匯入",
+        "en": "GSEO reports NT$434M September net profit as 3M placement proceeds arrive"
+      },
+      "summary": {
+        "zh": "玉晶光 10 月 23 日公告自結 9 月歸屬母公司淨利約新台幣 4.34 億元，年減 15%，每股盈餘 3.85 元；同日媒體報導 3M 認購私募股款約 48.13 億元已匯入。雙方先前公布合作研發擴束光學（EBO）、共封裝光學與資料中心互連產品，但尚未公布量產客戶驗收或出貨量；股款入帳不等於新產品量產。",
+        "en": "Genius Electronic Optical reported October 23 self-compiled September profit attributable to owners of about NT$434 million, down 15% year on year, and EPS of NT$3.85. Separate reporting said 3M's roughly NT$4.813 billion private-placement payment had arrived. Earlier cooperation covers Expanded Beam Optical, co-packaged optics and data-center interconnects, without a confirmed customer production ramp."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "玉晶光現有精密光學製造能力將支援 3M 的 EBO 光連接套管及光互連模組研製，供應鏈涉及精密材料、光學零組件、先進封裝與資料中心交換連接。自結損益反映既有業務，無法單獨歸因於尚未量產的光學互連合作。",
+            "en": "GSEO's precision optics production is intended to support 3M's EBO ferrules and optical interconnect development. This links precision optical materials, advanced packaging and data-center networking, while September financial performance cannot be attributed to products not yet in volume production."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Data and implementation timing"
+          },
+          "text": {
+            "zh": "3M 10 月 19 日第一手公告稱擬取得玉晶光約 4.7% 股權，原計畫須完成慣例交割條件；10 月 23 日媒體說股款已匯入。玉晶光第三季營收約 78.12 億元、年增約 1%，歸屬母公司淨利約 10.92 億元、年減 23%，依中央社當日報導口徑，季度數字與單月不同。",
+            "en": "3M's October 19 release said it expected to acquire approximately 4.7% of GSEO subject to customary closing conditions, while October 23 reporting said funds were remitted. CNA reported Q3 revenue around NT$7.812 billion, up about 1%, and parent-attributable net profit around NT$1.092 billion, down about 23%, which are separate quarterly figures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "私募法律程序最終交割日、EBO 製造良率、客戶認證和出貨排程尚未完全披露；9 月及第三季損益屬公司自結。",
+            "en": "Final legal closing, EBO manufacturing yields, customer qualification and shipment schedules remain undisclosed; reported profits are self-compiled."
+          }
+        }
+      ],
+      "metric": "NT$4.34 億",
+      "metricLabel": {
+        "zh": "9 月歸母自結淨利",
+        "en": "Self-reported September net profit"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 玉晶光 9 月與第三季自結損益",
+            "en": "CNA · GSEO September and Q3 earnings"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610230198.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 3M 股款入帳與光互連",
+            "en": "Cnyes · 3M placement proceeds and optics"
+          },
+          "url": "https://m.cnyes.com/news/id/6636653",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "3M · EBO 光互連合作與投資公告",
+            "en": "3M · EBO partnership and investment release"
+          },
+          "url": "https://investors.3m.com/news-events/press-releases/detail/1945/3m-announces-collaboration-with-gseo-to-advance-expanded",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-23",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "光學材料；精密零組件；封裝；CPO；資料中心；投資",
+          "en": "Optical materials; precision components; packaging; CPO; data centers; investment"
+        },
+        "chain": {
+          "zh": "精密光學材料零組件至 CPO 封裝與資料中心高速互連",
+          "en": "Precision optical materials to CPO packaging and data-center interconnects"
+        },
+        "changes": {
+          "investment": {
+            "zh": "3M 私募認購約新台幣 48.13 億元，媒體稱股款已匯入；交割手續仍須區分。",
+            "en": "3M's approximately NT$4.813B placement proceeds were reported received; final transaction closing is distinct."
+          },
+          "demand": {
+            "zh": "未公布 EBO 或 CPO 產品新增出貨與量產訂單。",
+            "en": "No new EBO or CPO customer production volumes reported."
+          },
+          "fdi": {
+            "zh": "3M 擬取得玉晶光約 4.7% 股權，私募款項據報已入帳。",
+            "en": "3M intends to acquire about 4.7% of GSEO, with proceeds reported received."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣精密光學生產與美國資料中心光互連材料及模組合作。",
+            "en": "Taiwan precision optics capacity is tied to U.S. data-center interconnect materials and modules."
+          },
+          "timing": {
+            "zh": "10 月 23 日新增自結財務公告及私募款項進度，合作初步公告早於本週。",
+            "en": "October 23 brought the earnings update and placement payment report; collaboration was first announced earlier."
+          },
+          "unknowns": {
+            "zh": "私募法律程序最終交割日、EBO 製造良率、客戶認證和出貨排程尚未完全披露；9 月及第三季損益屬公司自結。",
+            "en": "Final legal closing, EBO manufacturing yields, customer qualification and shipment schedules remain undisclosed; reported profits are self-compiled."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "9 月歸母自結淨利",
+            "en": "September profit attributable to owners"
+          },
+          "current": 0.434,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "玉晶光，由中央社報導",
+            "en": "GSEO, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230198.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.15,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "9 月每股盈餘",
+            "en": "September EPS"
+          },
+          "current": 3.85,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "玉晶光，由中央社報導",
+            "en": "GSEO, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610230198.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        },
+        {
+          "name": {
+            "zh": "3M 私募款項據報匯入金額",
+            "en": "3M placement proceeds reportedly paid"
+          },
+          "current": 4.813,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 23 日報導",
+            "en": "Reported October 23, 2026"
+          },
+          "owner": {
+            "zh": "玉晶光，由鉅亨網報導",
+            "en": "GSEO, reported by Cnyes"
+          },
+          "sourceUrl": "https://m.cnyes.com/news/id/6636653",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密製造量測、光學封裝設備與資料中心電源商而言，值得核實 EBO 接頭良率、客戶認證和 CPO 光互連產品實際產量。私募資金入帳與既有光學營收並不能直接推算新模組設備需求。",
+        "en": "Precision manufacturing metrology, optical packaging and data-center suppliers would need EBO ferrule yields, customer qualification and actual CPO production volumes. Placement funding and existing lens revenue do not reveal interconnect equipment demand."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "philippines-taiwan-semiconductor-corridors-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "駐菲代表於台灣連結展談台菲半導體合作，菲國 2030 年出口目標 1,100 億美元",
+        "en": "Taiwan envoy discusses Philippines semiconductor corridors and US$110B 2030 export target"
+      },
+      "summary": {
+        "zh": "台灣駐菲代表 10 月 24 日在菲律賓馬卡蒂市台灣連結展致詞表示，可結合台菲經濟走廊與呂宋經濟走廊發展半導體合作。他引述菲律賓希望 2030 年半導體與電子產品年出口達 1,100 億美元的目標，另稱截至 2025 年底登記於 PEZA 的台資超過 450 億披索；目前並未公布新的晶圓廠或封測專案核准案。",
+        "en": "At the TaiwanLink Fair in Makati on October 24, Taiwan's envoy discussed linking the Taiwan-Philippines and Luzon economic corridors for semiconductor cooperation. He cited the Philippines' goal of US$110 billion in annual electronics and semiconductor exports by 2030 and more than PHP45 billion of registered Taiwanese PEZA investment through end-2025; no new fab or assembly/test project approval was announced."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "菲律賓現有電子組裝、測試及產業園區基礎，與台灣晶片設計、晶圓製造及設備供應鏈有互補可能。經濟走廊與技術合作在演講中仍屬政策方向，不能作為資本支出或建廠承諾。",
+            "en": "The Philippines has electronics assembly, testing and industrial-park capacity, while Taiwan has chip design, wafer fabrication and equipment strengths. Economic-corridor linkages remain proposals in a speech, not finalized capex or facility approvals."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Data and implementation timing"
+          },
+          "text": {
+            "zh": "中央社報導駐菲代表引用截至 2025 年 12 月台企在 PEZA 登記投資超過 450 億披索、創造逾 2 萬個直接就業機會，以及 2026 年前 8 個月雙邊貿易超過 70 億美元。上述歷史統計應與 10 月 24 日的新政策合作表述分開。",
+            "en": "The envoy cited historical PEZA registrations exceeding PHP45 billion and more than 20,000 direct jobs through December 2025, plus bilateral trade exceeding US$7 billion in the first eight months of 2026. These are dated reference figures, distinct from the October 24 cooperation remarks."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚未公布新台菲半導體製造合約、經濟走廊共同施工計畫、合作廠商名單與承諾資本額。",
+            "en": "No new Taiwan-Philippines semiconductor manufacturing contract, shared corridor construction plan, named manufacturer or committed project capital was disclosed."
+          }
+        }
+      ],
+      "metric": "US$110B",
+      "metricLabel": {
+        "zh": "菲國 2030 年電子與半導體出口目標",
+        "en": "Philippines 2030 electronics and semiconductor export goal"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 菲律賓台灣連結展與駐菲代表說明",
+            "en": "CNA · TaiwanLink Fair and envoy remarks"
+          },
+          "url": "https://www.cna.com.tw/news/aopl/202610240193.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "菲律賓大馬尼拉地區馬卡蒂市（台灣連結展開幕活動，確切展館未由所取得報導確認）。",
+        "en": "Makati, Metro Manila, Philippines (TaiwanLink Fair opening event; specific venue unverified)."
+      },
+      "market": {
+        "eventDate": "2026-10-24",
+        "countries": {
+          "zh": "菲律賓；台灣",
+          "en": "Philippines; Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；半導體封測；工廠；園區；FDI",
+          "en": "Chip design; wafers; semiconductor assembly/test; factories; parks; FDI"
+        },
+        "chain": {
+          "zh": "晶圓設備與封裝測試至菲律賓電子終端工廠及投資政策",
+          "en": "Wafer tools and packaging/test to Philippine electronics factories and policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新核准製造投資；PEZA 歷史累計台資金額僅作背景。",
+            "en": "No newly approved manufacturing investment announced; PEZA historical Taiwan investment is background."
+          },
+          "demand": {
+            "zh": "2030 年 1,100 億美元為出口目標，不是新接訂單。",
+            "en": "US$110 billion is a 2030 export target, not booked orders."
+          },
+          "fdi": {
+            "zh": "2025 年底 PEZA 台資登記累計逾 450 億披索為歷史資料。",
+            "en": "Over PHP45 billion of registered Taiwan investment through 2025 is historical context."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台菲半導體組裝、測試與晶片製造合作政策連結。",
+            "en": "Taiwan-Philippines discussions link chip manufacturing to electronics assembly and test."
+          },
+          "timing": {
+            "zh": "10 月 24 日台灣連結展發言；2030 年出口及 2025 年台資屬不同時點。",
+            "en": "Remarks on October 24; 2030 target and end-2025 investment figures have distinct dates."
+          },
+          "unknowns": {
+            "zh": "尚未公布新台菲半導體製造合約、經濟走廊共同施工計畫、合作廠商名單與承諾資本額。",
+            "en": "No new Taiwan-Philippines semiconductor manufacturing contract, shared corridor construction plan, named manufacturer or committed project capital was disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2030 年電子與半導體年出口目標",
+            "en": "2030 electronics and semiconductor export goal"
+          },
+          "current": 110,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2030 年年度目標",
+            "en": "Annual target for 2030"
+          },
+          "owner": {
+            "zh": "駐菲代表引述菲律賓目標，由中央社報導",
+            "en": "Philippines target quoted by Taiwan envoy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/aopl/202610240193.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的原始基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封裝測試電源、工業控制和設備供應商，可核對兩條經濟走廊是否出現正式的工業園區專案、半導體製程規格與合格客戶。政策目標與既有 PEZA 註冊資料尚不能推估新增設備需求。",
+        "en": "Packaging test-power and industrial controls suppliers would verify whether corridor discussions turn into permitted industrial projects, process specifications and qualified customers. Goals and historical PEZA investment do not quantify new equipment demand."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "cht-intelligent-vision-edge-ai-spinoff",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "中華電信成立中華曜智科技，整合 Edge AI 影像辨識與智慧安防",
+        "en": "Chunghwa Telecom launches intelligent vision subsidiary for edge AI systems"
+      },
+      "summary": {
+        "zh": "中華電信 10 月 22 日宣布成立中華曜智科技股份有限公司，將原有智慧影像、影像辨識與智慧安防技術整合為新公司，服務政府、企業及智慧城市。公司提及 Edge AI 與視覺應用，但沒有公布新廠、硬體設備訂單、營收基期或建置量。",
+        "en": "Chunghwa Telecom announced October 22 the establishment of CHT Intelligent Vision Solutions, consolidating its video analytics, image recognition and smart-security capabilities for enterprise and public-sector use. The announcement covers edge AI applications but gives no factory capital spending, hardware orders or deployment volumes."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "邊緣影像辨識應用可使用工業電腦、視覺感測器、網路設備與伺服器平台，部分解決方案適用工廠安防與設施監控。公告沒有提供在半導體廠、資料中心或自動化產線已交付的實例及客戶驗收數據。",
+            "en": "Edge video analytics may involve industrial PCs, imaging sensors, networking and servers, with applications in facility security and industrial monitoring. The release does not identify delivered deployments or acceptance metrics for fabs, data centers or automated factories."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Data and implementation timing"
+          },
+          "text": {
+            "zh": "官方指出新公司由中華電信既有研發團隊和技術延伸，將聚焦智慧安防、辨識與影像分析，並整合雲網及資安能力。此舉為公司組織與產品路線公告，而非建置完成的新增算力。",
+            "en": "The company says its new subsidiary builds on existing R&D capabilities, integrating intelligent surveillance and computer-vision services with cloud, network and security platforms. The disclosure is an organizational and product-direction update, not installed compute capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新公司實收資本、量產硬體規格、客戶採購數量、影像辨識準確率及工業客戶導入實績未公布。",
+            "en": "Paid-in capital, production hardware specifications, customer volumes, measured accuracy and industrial customer acceptance remain undisclosed."
+          }
+        }
+      ],
+      "metric": "Edge AI",
+      "metricLabel": {
+        "zh": "智慧影像子公司成立",
+        "en": "Intelligent vision subsidiary formed"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中華電信 · 子公司成立官方公告",
+            "en": "Chunghwa Telecom · subsidiary announcement"
+          },
+          "url": "https://www.cht.com.tw/zh-tw/home/cht/messages/2026/1022-1610",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-22",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；自動化；視覺感測器；工業電腦；伺服器；資料中心",
+          "en": "Factories; automation; vision sensors; industrial PCs; servers; data centers"
+        },
+        "chain": {
+          "zh": "工業電腦與視覺感測零組件至自動化終端工廠",
+          "en": "Industrial PCs and vision sensors to automated end-use facilities"
+        },
+        "changes": {
+          "investment": {
+            "zh": "新公司成立，但未公布新增資本支出或投資款項。",
+            "en": "Subsidiary created without new project capital disclosure."
+          },
+          "demand": {
+            "zh": "未披露硬體新增訂單、導入客戶或安裝量。",
+            "en": "No hardware orders, named client installations or deployment counts."
+          },
+          "fdi": {
+            "zh": "未公布新增外商直接投資。",
+            "en": "No new foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "企業視覺分析與感測系統涉及工業設備與終端應用，但新公司的實際工廠客戶未確認。",
+            "en": "Enterprise computer vision touches industrial automation, but actual factory customers were not named."
+          },
+          "timing": {
+            "zh": "2026 年 10 月 22 日官方發布成立消息。",
+            "en": "Official subsidiary formation announcement on Oct 22, 2026."
+          },
+          "unknowns": {
+            "zh": "新公司實收資本、量產硬體規格、客戶採購數量、影像辨識準確率及工業客戶導入實績未公布。",
+            "en": "Paid-in capital, production hardware specifications, customer volumes, measured accuracy and industrial customer acceptance remain undisclosed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "工業控制電源、工業視覺測試與邊緣運算硬體供應商可確認新公司實際採用的攝影機、伺服器及邊緣裝置規格與驗收條件。尚無部署數量及工廠應用簽約資訊。",
+        "en": "Industrial power, machine-vision test and edge compute hardware suppliers would seek camera, server and appliance specifications and site acceptance requirements. No deployment volumes or factory customer contracts were disclosed."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "工研院 500 噸目標與現有稀土實驗線如何區分？",
+        "en": "How does ITRI's 500-tonne goal differ from its pilot line?"
+      },
+      "text": {
+        "zh": "工研院現有實驗線約年產 5,000 公斤，2028 年示範廠、2030 年年產 500 噸仍待預算及工程確認，元素組合與成品磁材規格也未公布。",
+        "en": "The existing line reportedly produces about 5,000 kg annually, while the 2028 plant and 500-tonne 2030 target depend on funding and implementation; element grades remain unspecified."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "全台 34 萬戶停電與工廠停線可以畫上等號嗎？",
+        "en": "Does 340,000 affected power accounts imply fab downtime?"
+      },
+      "text": {
+        "zh": "台電數字是累計曾停電戶數，並非同時停電量；需另外取得各廠區電力品質、UPS 切換、實際停機及良率紀錄，才能討論生產影響。",
+        "en": "Taipower counted cumulative affected accounts, not simultaneous outages. Site power-quality, backup transfers and actual tool records would be needed to establish manufacturing effects."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "海纜 4 億美元預估與越南機房可行性研究是否屬同一投資？",
+        "en": "Is the US$400M cable estimate the same as the Vietnam data-center project?"
+      },
+      "text": {
+        "zh": "MViSTA 為海纜規劃成本與供應商招標，USTDA 資助的是胡志明市資料中心園區可行性研究；兩案尚未公開可相加的核定資本支出。",
+        "en": "MViSTA's US$400M is a cable cost estimate and tender; USTDA funds a feasibility study for a separate Ho Chi Minh City campus, not an approved project capex total."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "資料更新截點",
+        "en": "Reporting cutoff"
+      },
+      "text": {
+        "zh": "提前發布日期為 2026 年 10 月 25 日，內容以 10 月 24 日晚間前可取得的公開聲明為準，尚未包含 25 日後續變化。",
+        "en": "This early October 25 edition uses disclosures available through late October 24, before any October 25 follow-up changes."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料參照",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "重複的晶圓產能與財報報導",
+        "en": "Previously covered wafer capacity and earnings"
+      },
+      "text": {
+        "zh": "10 月 23 日前已發布且無新增營運或決策事實的舊晶圓產能規劃、股價變動及分析師估計不重複列為新聞。",
+        "en": "Previously published fab capacity plans, price movements and analyst forecasts without new operational milestones were not repeated."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "工研院稀土示範廠為未核定計畫，年產能和自給率為 2030 年目標；颱風供電數字為 10 月 24 日下午特定時間點，未取得工廠停線資料；海纜成本與時程為開發商估計，供應商尚未決標；玉晶光自結損益未經正式查核，光學互連量產仍待驗證；菲律賓 2030 年出口數字為政策目標。 稀土產能與菲國政策目標未直接取得原始官方公告，按受訪者經媒體轉述列出；主要數值已標示來源限制。",
+    "en": "ITRI's rare-earth site, output and self-sufficiency figures remain unapproved targets. Storm outage figures are October 24 afternoon snapshots without site-level production losses. MViSTA's cost and schedule are developer estimates with no supplier awarded. GSEO's earnings are self-reported and interconnect production unqualified; the Philippines' 2030 export figure is a policy target. The ITRI and Philippines targets were reported from interviews rather than independently available original official notices; material claims retain source limitations."
+  }
+}
