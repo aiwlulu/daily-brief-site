@@ -1,9 +1,9 @@
 {
   "weekStart": "2026-10-25",
-  "generatedAt": "2026-10-24T14:40:00Z",
+  "generatedAt": "2026-10-25T12:09:45.888Z",
   "throughline": {
-    "zh": "10 月 24 日最新資料分別涉及台灣稀土材料供應計畫、颱風後配電復原，以及台菲半導體合作；東南亞海纜與精密光學合作的時程和進度則採不同口徑揭露。",
-    "en": "The latest updates cover Taiwan's rare-earth plans, power restoration and Philippine semiconductor cooperation, while Southeast Asian subsea connectivity and precision optics are at separate implementation stages."
+    "zh": "本週台灣稀土材料與電力基礎設施公布不同階段資訊，東南亞則涵蓋海纜招標與資料中心投資意向；高科技貨運的最新管理階層陳述提供另一個出貨物流角度。",
+    "en": "This week's developments cover Taiwan rare-earth planning and power restoration, a Southeast Asian cable tender and data-center investment intention, plus new management comments on high-tech airfreight."
   },
   "highlights": [
     {
@@ -28,12 +28,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "颱風後電網復原與智慧工廠設備",
-        "en": "Typhoon grid restoration and smart-factory systems"
+        "zh": "颱風後供電復原與工廠電力、智慧系統",
+        "en": "Storm recovery, factory power and smart systems"
       },
       "summary": {
-        "zh": "台電 10 月 24 日下午通報全台逾 34 萬戶曾停電、已復電逾 9 成；雲林局部線路因鹽塵害增加搶修工序。中華電信另成立智慧影像子公司，現階段沒有工廠停線損失或新裝機量數據。",
-        "en": "By October 24 afternoon, Taipower reported more than 340,000 accounts affected and over 90% restored, including salt-related insulation problems in Yunlin. Chunghwa Telecom separately formed an intelligent-vision subsidiary, with no related fab downtime or new device installation figures."
+        "zh": "10 月 24 日台電通報全台累計逾 34 萬戶曾停電，宜蘭區處於 25 日宣布下午 4 時完成逾 3 萬受災民生用戶復電；各項數字分屬不同時點和地區，尚無半導體工廠停機資料。中華電信另公布智慧影像子公司成立，未揭露工業端裝機量。",
+        "en": "Taipower reported more than 340,000 accounts affected nationwide on October 24, and Yilan declared restoration to over 30,000 affected household accounts by 4 p.m. October 25. The dates and geographies differ, with no fab downtime data. Chunghwa Telecom separately formed an intelligent-vision subsidiary without industrial installation figures."
       },
       "references": [
         {
@@ -43,6 +43,10 @@
         {
           "date": "2026-10-25",
           "storyId": 6
+        },
+        {
+          "date": "2026-10-26",
+          "storyId": 2
         }
       ]
     },
@@ -50,17 +54,21 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "東南亞四國海纜招標及越南機房規劃",
-        "en": "Southeast Asian subsea cable and Vietnam campus planning"
+        "zh": "東南亞海纜招標與馬來西亞資料中心投資意向",
+        "en": "Southeast Asian cable tender and Malaysia data-center intentions"
       },
       "summary": {
-        "zh": "MViSTA 開發商表示串聯馬來西亞、越南、新加坡及泰國的 2,500 公里海纜仍在招標，成本預估約 4 億美元、目標 2028 年底啟用。美國 USTDA 資助的胡志明市機房可行性研究與海纜工程是不同階段。",
-        "en": "The developer of the proposed 2,500-km MViSTA cable connecting four Southeast Asian countries reported ongoing bidding, an estimated US$400 million cost and a late-2028 target. A USTDA-backed data-center feasibility study in Ho Chi Minh City is a separate undertaking."
+        "zh": "MViSTA 海纜開發商提出約 4 億美元建置估算與 2028 年底啟用目標；馬來西亞總理 24 日另轉述 500 億美元 AI／資料中心投資意向，媒體 25 日指涉 SoftBank 孫正義。兩案均缺少實際施工、併網及完工驗證，且投資金額不可視為已支出。",
+        "en": "The MViSTA developer estimates a roughly US$400 million cable with service targeted for late 2028. Malaysia's prime minister separately cited a US$50 billion AI/data-center investment intention on October 24, with media naming SoftBank's Masayoshi Son on October 25. Neither plan supplies approved construction or energization milestones; neither is realized spending."
       },
       "references": [
         {
           "date": "2026-10-25",
           "storyId": 3
+        },
+        {
+          "date": "2026-10-26",
+          "storyId": 1
         }
       ]
     },
@@ -68,17 +76,21 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "玉晶光與 3M 光互連合作及自結財務",
-        "en": "GSEO-3M optical interconnect and earnings update"
+        "zh": "台灣光互連合作與高科技設備物流",
+        "en": "Taiwan optical interconnect and high-tech equipment logistics"
       },
       "summary": {
-        "zh": "玉晶光 10 月 23 日公告 9 月自結歸母淨利約 4.34 億元、年減 15%，媒體另報導約 48.13 億元的 3M 私募股款已入帳。EBO、CPO 產品仍在合作開發及認證階段。",
-        "en": "GSEO reported about NT$434 million in self-compiled September parent-attributable profit, down 15%, while reporting said the roughly NT$4.813 billion 3M placement proceeds arrived. EBO and CPO product qualification remains pending."
+        "zh": "玉晶光與 3M 的光互連合作尚未確認量產交付；長榮航總經理 10 月 25 日稱 AI 伺服器等高科技貨運需求持續，但也指出航空燃油成本壓力。長榮航 9 月貨運營收年增 42.55%，為已公布的歷史營收數據，沒有拆分 AI 貨物量價。",
+        "en": "GSEO and 3M's interconnect collaboration has not published qualified production deliveries. On October 25 EVA Air cited sustained AI server and high-tech freight demand alongside fuel-cost pressure. September cargo revenue rose 42.55% year-on-year, but historical revenue does not isolate AI freight volume or pricing."
       },
       "references": [
         {
           "date": "2026-10-25",
           "storyId": 4
+        },
+        {
+          "date": "2026-10-26",
+          "storyId": 3
         }
       ]
     },

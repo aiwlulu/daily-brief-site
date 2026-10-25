@@ -1,0 +1,633 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-25T12:09:45.888Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體供應鏈、資料中心電源、電子終端與工廠",
+      "en": "Taiwan and Southeast Asian semiconductor supply chains, data-center power and industrial systems"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "馬來西亞提出新的資料中心投資意向，同時台灣航空公司披露高科技貨運需求及台電完成颱風後區域復電，三者分別屬未核定資本計畫、企業市場陳述與已完成電網作業。",
+    "en": "Malaysia announced a prospective data-center investment while Taiwan's airline reported high-tech cargo demand and Taipower completed regional storm restoration; these represent proposed capital, a company demand statement and completed grid operations."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "馬來西亞總理表示國際投資人提出 500 億美元 AI／資料中心投資意向，投資案、供電容量與施工時程仍未證實。",
+        "en": "Malaysia's prime minister cited a US$50B AI/data-center investment intention without approved sites, power allocations or construction dates."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "追蹤薔琵颱風：台電 10 月 25 日 16 時完成宜蘭逾 3 萬戶受災民生用戶復電，未公布高科技工廠停線數據。",
+        "en": "Typhoon follow-up: Taipower restored power to over 30,000 affected Yilan accounts by 4 p.m. Oct 25, without fab downtime data."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "長榮航 10 月 25 日指出高科技空運需求強勁，9 月貨運營收年增 42.55% 為既有實績，燃油成本仍是重要變數。",
+        "en": "EVA Air cited strong high-tech freight demand on Oct 25; previously reported September cargo revenue rose 42.55% YoY, amid fuel cost pressure."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "malaysia-ai-datacenter-usd50b-investor-intention",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "馬國總理披露 500 億美元 AI 與資料中心投資意向，未公告專案核准",
+        "en": "Malaysia PM discloses US$50B AI and data-center investment intention, with no approved projects"
+      },
+      "summary": {
+        "zh": "馬來西亞總理安華 10 月 24 日在馬六甲表示，一名國際投資人於視訊會議中提出約 500 億美元的 AI、新科技與資料中心投資意向，地點包括砂拉越古晉及馬來西亞半島。新加坡《商業時報》10 月 25 日將投資人指為 SoftBank 創辦人孫正義，但尚無 SoftBank 正式投資承諾、核准專案、供電容量或動工日期公告。",
+        "en": "On October 24 in Melaka, Malaysian Prime Minister Anwar Ibrahim said an international investor had conveyed an intended US$50 billion investment across AI, emerging technologies and data centers in Kuching, Sarawak, and Peninsular Malaysia. Singapore's Business Times identified the investor on October 25 as SoftBank's Masayoshi Son, but no SoftBank commitment, approved site, power allocation or construction schedule was published."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry background"
+          },
+          "text": {
+            "zh": "大型資料中心計畫涉及伺服器與機櫃 ODM、UPS 與電力轉換、冷卻設備、變電系統和光纖互連。安華亦談及半導體人才及向較高附加價值技術環節發展，但並未宣布半導體晶圓廠新案。",
+            "en": "Large data-center projects depend on server and rack ODMs, UPS and power conversion, cooling, substations and fiber connectivity. Anwar also discussed semiconductor workforce upgrading, without announcing a new wafer-fab project."
+          }
+        },
+        {
+          "label": {
+            "zh": "官方說法與投資階段",
+            "en": "Government account and project stage"
+          },
+          "text": {
+            "zh": "馬來西亞國家通訊社 Bernama 記錄安華於 10 月 24 日公開發言，投資人意向來自前一週二的視訊會議。新加坡《商業時報》 25 日補充投資人姓名，並指 SoftBank 尚未回應置評要求；兩篇報導均未取得具體合約或許可文件。",
+            "en": "Bernama recorded Anwar's October 24 public remarks referring to a videoconference held the prior Tuesday. Business Times identified the investor on October 25 and reported that SoftBank had not immediately replied to requests for comment. Neither report included signed agreements or permits."
+          }
+        },
+        {
+          "label": {
+            "zh": "數值口徑",
+            "en": "Reading the figure"
+          },
+          "text": {
+            "zh": "500 億美元是總理轉述的跨領域投資意向，沒有逐年撥款表、各州配置或已支付金額，不能計入核准 FDI、已建置機房容量或設備採購。",
+            "en": "US$50 billion is an attributed multi-sector investment intention, not an approved or disbursed FDI amount. No annual spending profile or site allocation was given, so it cannot be counted as commissioned IT capacity or equipment procurement."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "投資人正式企業公告、土地權利、電網併接與需量、冷卻用水、專案融資、機房建照及交付時程尚未公布。",
+            "en": "Formal investor confirmation, land rights, grid interconnection and load, cooling-water needs, financing, permits and delivery dates are unknown."
+          }
+        }
+      ],
+      "metric": "US$50B",
+      "metricLabel": {
+        "zh": "總理轉述的投資意向",
+        "en": "Investment intention cited by PM"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Bernama · 安華 10 月 24 日發言",
+            "en": "Bernama · Anwar's October 24 remarks"
+          },
+          "url": "https://web26.bernama.com/en/news.php?id=2625154",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Business Times · 10 月 25 日投資人身分報導",
+            "en": "Business Times · October 25 investor identification"
+          },
+          "url": "https://www.businesstimes.com.sg/international/softbanks-son-plans-us50-billion-malaysia-tech-outlay-anwar-ibrahim",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "The Star · 總理發言報導",
+            "en": "The Star · PM remarks"
+          },
+          "url": "https://www.thestar.com.my/news/nation/2026/10/24/anwar-says-039global-investor039-has-chosen-malaysia-for-us50bil-tech-sector-investment",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "馬來西亞砂拉越州古晉及馬來西亞半島（擬投資地區，無已核實工地）；發言活動於馬六甲 Hang Jebat 運動場。",
+        "en": "Kuching, Sarawak, and Peninsular Malaysia are proposed investment regions with no verified site; announcement event held at Hang Jebat Sports Complex, Melaka."
+      },
+      "market": {
+        "eventDate": "2026-10-24",
+        "countries": {
+          "zh": "馬來西亞；日本（媒體指涉投資人）",
+          "en": "Malaysia; Japan (investor identified by media)"
+        },
+        "industries": {
+          "zh": "資料中心；伺服器；電源；供電；散熱；機房；投資；FDI",
+          "en": "Data centers; servers; power conversion; electricity; cooling; investment; FDI"
+        },
+        "chain": {
+          "zh": "伺服器 ODM、供電與液冷至資料中心機房及外資政策",
+          "en": "Server ODM, power and liquid cooling to data-center facilities and FDI policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "500 億美元為總理所述投資意向，非已核准或已支付金額。",
+            "en": "US$50 billion is an intention reported by the prime minister, not approved or disbursed spending."
+          },
+          "demand": {
+            "zh": "未公布機櫃、GPU、變電設備或冷卻系統訂單。",
+            "en": "No server racks, GPUs, power or cooling orders were disclosed."
+          },
+          "fdi": {
+            "zh": "具跨境投資意向，但未取得批准、合約或入帳證據。",
+            "en": "Cross-border intention reported without proof of approvals, contracts or realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "計畫地點與馬來西亞資料中心電力、冷卻及伺服器供應鏈有直接關聯。",
+            "en": "Named Malaysian regions link prospective facilities with server, power and cooling supply chains."
+          },
+          "timing": {
+            "zh": "10 月 24 日公開發言；10 月 25 日媒體補充投資人身分，未公布施工時程。",
+            "en": "Public remarks on Oct 24, with media identification on Oct 25; no construction schedule."
+          },
+          "unknowns": {
+            "zh": "投資人承諾與核准案尚未證實，未提供實際機房裝機、資本支出或併網資料。",
+            "en": "Investor commitment and permitted projects remain unconfirmed; commissioned capacity, spending and grid data are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "總理轉述的投資意向",
+            "en": "Investment intention reported by prime minister"
+          },
+          "current": 50,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 24 日發言",
+            "en": "Remarks Oct 24, 2026"
+          },
+          "owner": {
+            "zh": "馬來西亞總理，由 Bernama 引述",
+            "en": "Malaysia PM, reported by Bernama"
+          },
+          "sourceUrl": "https://web26.bernama.com/en/news.php?id=2625154",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未揭露可比較的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "資料中心電源轉換、UPS、電力品質及液冷廠商，需要先核對項目地點、兆瓦級實際供電許可、客戶認證與採購節點。單一意向總額缺乏場址及供應商分配資訊，無法推算設備出貨。",
+        "en": "Power-conversion, UPS, power-quality and liquid-cooling suppliers would verify specific sites, permitted MW load, qualification and purchasing milestones. An aggregate intention without allocation cannot indicate equipment deliveries."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-typhoon-grid-restoration-2026-10",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：台電宜蘭 10 月 25 日 16 時完成逾 3 萬戶復電",
+        "en": "Follow-up: Taipower restores service to over 30,000 affected Yilan accounts by 4 p.m. Oct 25"
+      },
+      "summary": {
+        "zh": "台電宜蘭區營業處 10 月 25 日公告，薔琵颱風造成宜蘭累計逾 3 萬戶受災民生用戶停電，經跨區搶修，當日下午 4 時已完成復電。台電新竹區處另確認當地累計 10,886 戶曾停電，已於 10 月 24 日晚間 9 時全數復電；兩項均為區域配電數據，未公開晶圓廠設備停機或良率損失。",
+        "en": "On October 25 Taipower's Yilan branch reported that all more than 30,000 affected household accounts had power restored by 4 p.m. after cross-region repairs. Its Hsinchu branch separately reported 10,886 accounts affected and full restoration by 9 p.m. October 24. These are regional distribution figures, with no disclosed wafer-fab tool downtime or yield losses."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industrial context"
+          },
+          "text": {
+            "zh": "受災線路包含山區與沿海配電設備，主要因素為強風、樹竹碰觸及高低壓線路斷落。新竹工業區與半導體供應鏈用電可靠性需透過廠區自身電力紀錄判定，不能用民生復電數據直接推估工廠產線損失。",
+            "en": "Storm damage affected coastal and mountain distribution circuits, including trees touching lines and broken high- and low-voltage conductors. Industrial and fab impacts require site-level electrical records rather than inferred losses from residential restoration numbers."
+          }
+        },
+        {
+          "label": {
+            "zh": "與前日的差別",
+            "en": "Change from the prior day's report"
+          },
+          "text": {
+            "zh": "10 月 25 日新增事實為宜蘭區處宣布在 16 時完成受災民生用戶全數復電；10 月 24 日全台累計逾 34 萬戶曾停電為前一期已公布資料。新竹的全數復電為 10 月 24 日晚間發布的另項地區實績。",
+            "en": "The new October 25 milestone is Yilan's 4 p.m. household restoration completion. The national tally of over 340,000 affected accounts is the previous day's reported backdrop. Hsinchu's complete recovery was a separate October 24 evening update."
+          }
+        },
+        {
+          "label": {
+            "zh": "復電口徑",
+            "en": "Scope of restoration"
+          },
+          "text": {
+            "zh": "台電仍提醒個別偏遠末端線路住戶可能需另外報修，因此公告中的「全數復電」係指已掌握的受災民生用戶。數字未提供實際用電負載或高科技工廠停線時數。",
+            "en": "Taipower cautioned that isolated users on remote line ends may still need to report problems, so full restoration refers to identified affected household accounts. No megawatt load or industrial outage duration was reported."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "個別半導體設備機台、資料中心、工廠產線的停機紀錄與生產影響未公布，且台電仍受理零星用戶報修。",
+            "en": "Specific semiconductor tools, data centers and factory downtime or production effects were not disclosed; isolated customer faults may still be reported."
+          }
+        }
+      ],
+      "metric": "逾 3 萬戶",
+      "metricLabel": {
+        "zh": "宜蘭全數復電戶數規模",
+        "en": "Yilan affected accounts restored"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台電宜蘭區處 · 10 月 25 日復電公告",
+            "en": "Taipower Yilan · October 25 restoration notice"
+          },
+          "url": "https://service.taipower.com.tw/branch/d113/xmdoc/cont?sid=0Q298567609760838255&xsmsid=0M242581313636852538",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "台電新竹區處 · 10 月 24 日復電公告",
+            "en": "Taipower Hsinchu · October 24 restoration notice"
+          },
+          "url": "https://service.taipower.com.tw/branch/d104/xmdoc/cont?sid=0Q297684262019632449&xsmsid=0M242581319249050237",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-25",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；供電；設備；工廠；自動化；晶圓；資料中心",
+          "en": "Electricity; power supply; equipment; factories; automation; wafers; data centers"
+        },
+        "chain": {
+          "zh": "配電電力設備與供電至工廠自動化及資料中心",
+          "en": "Grid distribution equipment and power supply to factories and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布此次修復總投資與新設備金額。",
+            "en": "No total repair spending or new equipment capex reported."
+          },
+          "demand": {
+            "zh": "未公布工廠設備與電力備援實際新訂單。",
+            "en": "No new industrial backup-power orders disclosed."
+          },
+          "fdi": {
+            "zh": "無新增外商直接投資公告。",
+            "en": "No new foreign investment was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "供電復原影響區域電力基礎設施，與工業製程電源可靠性相關，但無實際工廠停線證據。",
+            "en": "Distribution recovery is relevant to industrial power reliability without evidenced plant outages."
+          },
+          "timing": {
+            "zh": "宜蘭 10 月 25 日 16 時全數復電；新竹 10 月 24 日 21 時完成復電。",
+            "en": "Yilan restoration reached completion Oct 25 at 4 p.m.; Hsinchu at 9 p.m. Oct 24."
+          },
+          "unknowns": {
+            "zh": "尚無工廠停線、供電品質與良率之可查數值。",
+            "en": "No verified fab downtime, power-quality or yield statistics."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "宜蘭累計受影響戶數下限",
+            "en": "Minimum Yilan affected accounts"
+          },
+          "current": 30000,
+          "unit": "戶",
+          "period": {
+            "zh": "截至 2026 年 10 月 25 日 16 時",
+            "en": "As of Oct 25, 2026 at 4 p.m."
+          },
+          "owner": {
+            "zh": "台電宜蘭區營業處",
+            "en": "Taipower Yilan branch"
+          },
+          "sourceUrl": "https://service.taipower.com.tw/branch/d113/xmdoc/cont?sid=0Q298567609760838255&xsmsid=0M242581313636852538",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公告稱逾 3 萬戶，3 萬為下限，不是精確總數。"
+        },
+        {
+          "name": {
+            "zh": "新竹累計受影響戶數",
+            "en": "Hsinchu affected accounts"
+          },
+          "current": 10886,
+          "unit": "戶",
+          "period": {
+            "zh": "2026 年 10 月 24 日",
+            "en": "Oct 24, 2026"
+          },
+          "owner": {
+            "zh": "台電新竹區營業處",
+            "en": "Taipower Hsinchu branch"
+          },
+          "sourceUrl": "https://service.taipower.com.tw/branch/d104/xmdoc/cont?sid=0Q297684262019632449&xsmsid=0M242581319249050237",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未揭露可比較的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "製程電源、UPS 和廠務監控供應商可查明各廠是否有實際電壓驟降、儲能切換或異常警報。家庭戶數復電不揭露機台開機狀態，因此不能換算設備停產或備援採購。",
+        "en": "Process-power, UPS and plant monitoring suppliers would review actual voltage dips, storage transfer events and plant alerts. Household restoration totals do not measure tool availability or backup equipment demand."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "evaair-high-tech-cargo-demand-oct2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "長榮航稱高科技空運需求持續，9 月貨運營收年增 42.55%",
+        "en": "EVA Air cites sustained high-tech airfreight demand; September cargo revenue rose 42.55%"
+      },
+      "summary": {
+        "zh": "長榮航空總經理孫嘉明 10 月 25 日在台北受訪表示，AI 伺服器及其他高科技貨運需求全年維持強勁，帶動運價，但航空燃油上漲仍是重要成本變數。公司先前公布的 9 月貨運營收為新台幣 61.67 億元、年增 42.55%，此為歷史月份實績，並非 10 月 25 日新增出貨量。",
+        "en": "Speaking in Taipei on October 25, EVA Air president Clay Sun said AI server and other high-tech airfreight demand remained strong through the year, supporting cargo rates, while aviation fuel costs pressured margins. Previously released September cargo revenue was NT$6.167 billion, up 42.55% year on year; it is historical monthly revenue, not October 25 shipment volume."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與貨物範圍",
+            "en": "Supply-chain cargo mix"
+          },
+          "text": {
+            "zh": "航空貨運與台灣出口的 AI 伺服器、伺服器機櫃、半導體設備及高價值電子零組件有直接物流連結。不同貨型對載重、艙位、時效及地面操作要求不同，空運貨值與設備實際產能無法直接相比。",
+            "en": "Air cargo transports Taiwan-origin AI servers, racks, semiconductor equipment and high-value electronics. Different cargo types impose distinct weight, space, handling and time constraints; freight revenue cannot be translated directly into equipment production capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "新揭露的營運說法",
+            "en": "New executive comments"
+          },
+          "text": {
+            "zh": "長榮航管理階層 10 月 25 日表示航空油價曾達每桶約 177 美元，公司調整部分票價與運價，並指出高科技空運需求持續。9 月合併營收 207.49 億元、貨運營收 61.67 億元為先前公告實績，不能全部歸因於 AI 類貨物。",
+            "en": "Management said on October 25 that aviation fuel had reached approximately US$177 per barrel at one point, and that fares and freight rates had been adjusted. September consolidated revenue of NT$20.749 billion and cargo revenue of NT$6.167 billion are earlier reported results, not exclusively AI-related revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據口徑",
+            "en": "Reading the reported figures"
+          },
+          "text": {
+            "zh": "貨運營收年增 42.55% 同時反映貨量、運價與運送組合，現有報導未提供分離量價因素的同期比較表。每桶 177 美元為受訪者引用的先前燃油水準，不是 10 月 25 日官方即時成交價格。",
+            "en": "Cargo-revenue growth reflects shipment volume, rates and product mix, but the report gives no decomposition. US$177 a barrel is a past fuel price referenced by an executive, not a verified spot quote for October 25."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未公布當日貨機裝載率、各類 AI 貨物實際噸數、客戶長約、燃油避險覆蓋或跨境專用運力新增合約。",
+            "en": "Same-day cargo load factors, AI-specific tonnage, long-term customer contracts, fuel-hedging coverage and incremental dedicated freight contracts were not disclosed."
+          }
+        }
+      ],
+      "metric": "42.55%",
+      "metricLabel": {
+        "zh": "9 月貨運營收年增（既有實績）",
+        "en": "September cargo revenue YoY (previously reported)"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 10 月 25 日長榮航總經理受訪",
+            "en": "CNA · EVA Air president interview, Oct 25"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610250131.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "長榮航空 · 官方客運燃油附加費與燃油資料",
+            "en": "EVA Air · official fuel surcharge disclosure"
+          },
+          "url": "https://www.evaair.com/zh-tw/customer-services/fuel-surcharge/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 航空高科技貨物流向背景",
+            "en": "CNA · high-tech airfreight context"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202609240024.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-25",
+        "countries": {
+          "zh": "台灣；美國（出口市場）",
+          "en": "Taiwan; United States (export market)"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；半導體設備；零組件；貨運；終端",
+          "en": "Servers; ODM; semiconductor tools; components; airfreight; end markets"
+        },
+        "chain": {
+          "zh": "半導體設備零組件與伺服器 ODM 至跨境貨運交付",
+          "en": "Semiconductor equipment components and server ODM products through cross-border airfreight"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新貨機或物流設備已執行投資。",
+            "en": "No new executed aircraft or cargo facility capex disclosed."
+          },
+          "demand": {
+            "zh": "公司管理階層指出 AI、高科技貨運維持強勁，未揭露各品項當日貨運量。",
+            "en": "Company executive cited strong high-tech cargo demand without same-day category tonnage."
+          },
+          "fdi": {
+            "zh": "本次未涉及新外商直接投資。",
+            "en": "No new FDI announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣高價值伺服器與半導體設備跨境交付和貨運價格、燃料成本相關。",
+            "en": "Taiwan server and semiconductor-tool shipments depend on air-cargo transport capacity and fuel-related rates."
+          },
+          "timing": {
+            "zh": "10 月 25 日新受訪說法；營收數據屬 2026 年 9 月歷史實績。",
+            "en": "New comments Oct 25; revenue data is historical September 2026 actuals."
+          },
+          "unknowns": {
+            "zh": "尚無 AI 專屬噸數、即時裝載率與貨運量價拆解。",
+            "en": "No AI-specific tonnage, current load factor or volume/rate breakdown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "9 月貨運營收",
+            "en": "September cargo revenue"
+          },
+          "current": 6.167,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "長榮航空，由中央社報導",
+            "en": "EVA Air, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610250131.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.4255,
+          "baseStatus": "公布年增率，但未提供可直接比對的上一年同月實數。"
+        },
+        {
+          "name": {
+            "zh": "9 月合併營收",
+            "en": "September consolidated revenue"
+          },
+          "current": 20.749,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "長榮航空，由中央社報導",
+            "en": "EVA Air, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610250131.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3286,
+          "baseStatus": "來源未揭露可比較的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "伺服器、機櫃及半導體設備物流與工業電源供應商，可釐清空運需求反映急單、正常補貨或專用航班，並分別核對運價與燃料因素。貨運營收未區分 AI 出貨占比，尚不足以推算設備產量。",
+        "en": "Server-rack and semiconductor-tool logistics and industrial power suppliers would distinguish urgent shipments from routine volumes and separate freight rates from fuel effects. Cargo revenue lacks an AI-specific mix and cannot establish production volume."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "馬來西亞 500 億美元是否已成為核定資料中心投資？",
+        "en": "Is Malaysia's US$50B an approved data-center investment?"
+      },
+      "text": {
+        "zh": "安華轉述投資人視訊會議所提意向；缺少企業正式承諾、專案分配、土地、電網併接與工程核准，因此不能列為已支付投資或已建置機房。",
+        "en": "Anwar relayed an investor's videoconference intention; no committed sites, power permits, project budgets or construction approvals were supplied."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "宜蘭復電完成是否表示工廠全部正常生產？",
+        "en": "Does restored Yilan household power prove factory production was unaffected?"
+      },
+      "text": {
+        "zh": "台電公告涵蓋已掌握的受災民生用戶配電復原；半導體機台的低電壓紀錄、UPS 切換及產線實際停機時數仍須廠商資料。",
+        "en": "Taipower's notice covers identified affected household customers; fab voltage-event records, UPS transfer and tool downtime need separate plant reporting."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "貨運營收年增 42.55% 可否視為 AI 伺服器出貨量同幅成長？",
+        "en": "Does 42.55% cargo-revenue growth imply comparable AI-server volume growth?"
+      },
+      "text": {
+        "zh": "貨運營收由運價、貨量、幣別和品項組合共同決定，且 42.55% 是 9 月貨運營收年比，不是單一 AI 類貨品噸數。",
+        "en": "Freight revenue combines rates, shipment volume and mix, and the 42.55% is September cargo-revenue growth, not AI-specific tonnage."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "參考備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "重複的 10 月 24 日稀土規劃與先前海纜招標",
+        "en": "Repeated rare-earth plans and older cable tender"
+      },
+      "text": {
+        "zh": "前一日日報已報導稀土示範廠及 MViSTA 海纜規劃，10 月 25 日未見可獨立確認的新核准、交付或採購，因此沒有再列為新聞。",
+        "en": "The previous edition covered the rare-earth demo plan and MViSTA cable proposal, without new verifiable permitting, awards or commissioning on October 25."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "500 億美元為馬來西亞總理轉述的投資意向，SoftBank 尚未發布正式專案承諾，媒體指認投資人未能取代公司公告。宜蘭復電資料限於台電已掌握民生用戶，不能證明晶圓廠無停機。長榮航的 9 月營收為先前公布實績，10 月 25 日的新資訊為管理階層對貨運需求及燃油的說明。",
+    "en": "US$50B is an investment intention relayed by Malaysia's prime minister, without a formal SoftBank project commitment. Yilan restoration refers to identified household customers and cannot prove fab operating continuity. EVA Air's September revenue is historical data; the October 25 development is management's cargo and fuel commentary."
+  }
+}
