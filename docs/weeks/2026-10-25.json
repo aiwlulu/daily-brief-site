@@ -1,26 +1,30 @@
 {
   "weekStart": "2026-10-25",
-  "generatedAt": "2026-10-25T12:09:45.888Z",
+  "generatedAt": "2026-10-26T15:09:57.072Z",
   "throughline": {
-    "zh": "本週台灣稀土材料與電力基礎設施公布不同階段資訊，東南亞則涵蓋海纜招標與資料中心投資意向；高科技貨運的最新管理階層陳述提供另一個出貨物流角度。",
-    "en": "This week's developments cover Taiwan rare-earth planning and power restoration, a Southeast Asian cable tender and data-center investment intention, plus new management comments on high-tech airfreight."
+    "zh": "本週資料涵蓋東南亞能源與資料中心計畫、泰國電子材料新廠、越南前段晶圓建設進度，以及台灣電子製造自動化與跨境設備供應鏈的不同執行階段。",
+    "en": "This week's data spans Southeast Asian power and data-center plans, Thailand's new electronics materials plant, Vietnam's front-end wafer-fab progress and Taiwan-linked factory automation and equipment supply."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "稀土材料與精密設備供應鏈",
-        "en": "Rare-earth materials and precision tooling"
+        "zh": "稀土、PCB 材料與新廠產能進度",
+        "en": "Rare earths, PCB materials and production capacity"
       },
       "summary": {
-        "zh": "工研院 10 月 24 日表示，規劃 2028 年底完成稀土示範廠、2030 年達年產 500 噸，預期可滿足台灣約半數需求。建廠預算、地點及實際磁材產出尚未核定。",
-        "en": "On October 24, ITRI described plans for a rare-earth demo plant by end-2028 and annual output of 500 tonnes by end-2030, aimed at roughly half of Taiwan's demand. Funding, location and qualified material output remain unconfirmed."
+        "zh": "工研院規劃稀土示範廠，仍待預算與廠址；騰輝 10 月 26 日在泰國大城府啟用 PCB 銅箔基板與黏合片工廠，並開始小量出貨。2030 年稀土目標與泰國廠年底量產均尚非實際產能。",
+        "en": "ITRI's rare-earth demonstration plant remains unfunded and unsited, while Tenghui opened its Thai PCB laminate and prepreg factory on October 26 with small initial shipments. The rare-earth 2030 goal and Thai volume ramp are future targets."
       },
       "references": [
         {
           "date": "2026-10-25",
           "storyId": 1
+        },
+        {
+          "date": "2026-10-27",
+          "storyId": 2
         }
       ]
     },
@@ -28,12 +32,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "颱風後供電復原與工廠電力、智慧系統",
-        "en": "Storm recovery, factory power and smart systems"
+        "zh": "工廠電力復原、AI 自動化與精密設備",
+        "en": "Grid restoration, factory AI automation and precision tools"
       },
       "summary": {
-        "zh": "10 月 24 日台電通報全台累計逾 34 萬戶曾停電，宜蘭區處於 25 日宣布下午 4 時完成逾 3 萬受災民生用戶復電；各項數字分屬不同時點和地區，尚無半導體工廠停機資料。中華電信另公布智慧影像子公司成立，未揭露工業端裝機量。",
-        "en": "Taipower reported more than 340,000 accounts affected nationwide on October 24, and Yilan declared restoration to over 30,000 affected household accounts by 4 p.m. October 25. The dates and geographies differ, with no fab downtime data. Chunghwa Telecom separately formed an intelligent-vision subsidiary without industrial installation figures."
+        "zh": "台電於 10 月 25 日公布宜蘭復電進度，沒有晶圓廠停機損失資料；鴻海與 NVIDIA 26 日公布特定工廠排程工時降低 25% 的測試，JIMTOF 亦在東京開展，台灣公會表示 94 家廠商參展。各數值來自不同場景，不適合直接比較。",
+        "en": "Taipower completed household restoration in Yilan without fab downtime data. Foxconn and NVIDIA reported a 25% scheduling-hour reduction for selected workflows on October 26, and JIMTOF opened in Tokyo with 94 Taiwanese exhibitors according to an association. These metrics measure different activities."
       },
       "references": [
         {
@@ -47,6 +51,14 @@
         {
           "date": "2026-10-26",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-27",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-27",
+          "storyId": 6
         }
       ]
     },
@@ -54,12 +66,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "東南亞海纜招標與馬來西亞資料中心投資意向",
-        "en": "Southeast Asian cable tender and Malaysia data-center intentions"
+        "zh": "東南亞海纜、機房投資意向及跨境供電",
+        "en": "Southeast Asia cables, data-center intentions and cross-border power"
       },
       "summary": {
-        "zh": "MViSTA 海纜開發商提出約 4 億美元建置估算與 2028 年底啟用目標；馬來西亞總理 24 日另轉述 500 億美元 AI／資料中心投資意向，媒體 25 日指涉 SoftBank 孫正義。兩案均缺少實際施工、併網及完工驗證，且投資金額不可視為已支出。",
-        "en": "The MViSTA developer estimates a roughly US$400 million cable with service targeted for late 2028. Malaysia's prime minister separately cited a US$50 billion AI/data-center investment intention on October 24, with media naming SoftBank's Masayoshi Son on October 25. Neither plan supplies approved construction or energization milestones; neither is realized spending."
+        "zh": "MViSTA 海纜仍在招標、馬國總理提出 500 億美元資料中心投資意向；新加坡 EMA 於 26 日有條件核准 1.3GW 跨國低碳電力輸入，預定 2035 年啟動。三項進展分別為規劃、意向與條件性核准，非已完成建設。",
+        "en": "MViSTA's cable remains in tender, Malaysia's prime minister cited a US$50B data-center intention, and Singapore EMA conditionally approved a 1.3GW power import plan for 2035. These are tender, intention and conditional approval stages, not finished infrastructure."
       },
       "references": [
         {
@@ -69,6 +81,10 @@
         {
           "date": "2026-10-26",
           "storyId": 1
+        },
+        {
+          "date": "2026-10-27",
+          "storyId": 1
         }
       ]
     },
@@ -76,12 +92,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "台灣光互連合作與高科技設備物流",
-        "en": "Taiwan optical interconnect and high-tech equipment logistics"
+        "zh": "光互連、貨運與 SMT 設備事業結構",
+        "en": "Optical interconnects, cargo and SMT equipment structure"
       },
       "summary": {
-        "zh": "玉晶光與 3M 的光互連合作尚未確認量產交付；長榮航總經理 10 月 25 日稱 AI 伺服器等高科技貨運需求持續，但也指出航空燃油成本壓力。長榮航 9 月貨運營收年增 42.55%，為已公布的歷史營收數據，沒有拆分 AI 貨物量價。",
-        "en": "GSEO and 3M's interconnect collaboration has not published qualified production deliveries. On October 25 EVA Air cited sustained AI server and high-tech freight demand alongside fuel-cost pressure. September cargo revenue rose 42.55% year-on-year, but historical revenue does not isolate AI freight volume or pricing."
+        "zh": "玉晶光與 3M 的 EBO 光互連產品尚未公布量產驗收，長榮航管理層 25 日說明高科技貨運需求；Reuters 26 日則報導 ASMPT 的 SMT 設備業務潛在出售競標。已公開的上半年接單、九月營收和潛在交易估值屬不同口徑。",
+        "en": "GSEO and 3M have not announced qualified EBO production, EVA Air discussed high-tech freight demand on October 25, and Reuters reported potential bids for ASMPT's SMT unit on October 26. Historical bookings, freight revenue and possible deal valuations are not directly comparable."
       },
       "references": [
         {
@@ -91,6 +107,10 @@
         {
           "date": "2026-10-26",
           "storyId": 3
+        },
+        {
+          "date": "2026-10-27",
+          "storyId": 5
         }
       ]
     },
@@ -98,17 +118,21 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "台菲半導體合作方向與 2030 年出口目標",
-        "en": "Taiwan-Philippines semiconductor cooperation and 2030 goals"
+        "zh": "東南亞晶圓製造及半導體合作",
+        "en": "Southeast Asian wafer-fab development and semiconductor cooperation"
       },
       "summary": {
-        "zh": "駐菲代表 10 月 24 日在馬卡蒂市提及串聯台菲與呂宋經濟走廊的可能性，並引用菲律賓 2030 年電子與半導體產品年出口 1,100 億美元目標。現階段未公告新的半導體工廠核定投資。",
-        "en": "Taiwan's envoy discussed a potential link between Taiwan-Philippines and Luzon economic corridors in Makati on October 24, citing the Philippines' US$110 billion 2030 electronics and semiconductor export goal. No new fab investment approval was announced."
+        "zh": "駐菲代表提出台菲半導體走廊合作方向，並引述 2030 年電子出口目標；Reuters 26 日實地報導 Viettel 越南晶圓廠仍無建築、DUV 設備未成交，但 Viettel 表示按階段推進。兩國均未在本週披露新晶圓廠已完成裝機。",
+        "en": "Taiwan's envoy discussed Philippine semiconductor corridors and a 2030 electronics export goal. Reuters reported Viettel's Vietnam fab lacked buildings and a finalized DUV order, while Viettel maintained phased progress. No newly commissioned front-end fab was established."
       },
       "references": [
         {
           "date": "2026-10-25",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-27",
+          "storyId": 3
         }
       ]
     }

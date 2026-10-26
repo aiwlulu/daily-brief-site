@@ -1,0 +1,1008 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-26T15:09:57.072Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、電子材料、智慧工廠、資料中心電力",
+      "en": "Taiwan and Southeast Asia semiconductors, electronics materials, smart factories and data-center power"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "新加坡跨國供電計畫取得條件性核准、騰輝泰國板材廠啟用出貨，以及 Viettel 晶圓廠建置與設備採購進度受到檢視，分別呈現電力、材料及前段製造的不同執行階段。",
+    "en": "Singapore's conditional power-import approval, Tenghui's Thai factory opening and scrutiny of Viettel's fab construction mark distinct development stages for electricity, materials and wafer fabrication."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "新加坡條件性核准 1.3GW 跨國供電計畫，2035 年開始輸電為目標，尚須融資與跨境許可。",
+        "en": "Singapore approved a 1.3GW cross-border power import plan conditionally, targeting 2035, with financing and permits pending."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "騰輝泰國銅箔基板廠正式開幕並小量出貨，年底量產及 2027 年擴產為規劃。",
+        "en": "Tenghui's Thai copper-clad laminate plant opened and has shipped small volumes, with future ramps still planned."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "Reuters 實地指出 Viettel 越南晶圓廠基地尚無建築，ASML DUV 機台仍未成交；Viettel 維持既定計畫說法。",
+        "en": "Reuters found no buildings at Viettel's fab site and no finalized ASML DUV deal; Viettel maintains its planned schedule."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "鴻海與 NVIDIA 公布特定智慧工廠排程工時減少 25% 的實測成果。",
+        "en": "Foxconn and NVIDIA reported a 25% scheduling labor-hour reduction in specified manufacturing workflows."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "ASMPT SMT 可能出售仍在洽談，尚未簽約；東京工具機展另有公會所述 94 家台廠參展。",
+        "en": "ASMPT's SMT sale remains reported negotiations; Taiwan's machine-tool association reports 94 JIMTOF exhibitors."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "vms-cross-border-power",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "新加坡有條件核准跨境進口電力 1.3GW，目標 2035 年開始供應",
+        "en": "Singapore conditionally approves 1.3GW regional power imports, targeting 2035"
+      },
+      "summary": {
+        "zh": "EMA 於 10 月 26 日有條件核准 Sembcorp Utilities 輸入最多 1.3GW 低碳電力，規劃由越南與馬來西亞供應新加坡，目標 2035 年供電。計畫包含越南離岸風電及馬國太陽能與儲能，但仍待多國許可、購電協議及融資。",
+        "en": "Singapore's EMA conditionally approved Sembcorp Utilities on October 26 to import up to 1.3GW of low-carbon power from a proposed Vietnam-Malaysia-Singapore project, targeting 2035. Offshore wind, solar and storage are proposed sources; approvals, offtake contracts and financing remain pending."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry"
+          },
+          "text": {
+            "zh": "跨國電力走廊涉及輸變電、電源轉換、儲能及資料中心供電。1.3GW 是有條件核准額度，並非實際併網或發電容量。",
+            "en": "The corridor concerns transmission, conversion, storage and data-center power. The 1.3GW figure is approved conditionally, not commissioned capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "時程與核准階段",
+            "en": "Timeline and approvals"
+          },
+          "text": {
+            "zh": "參與企業包括 Petronas、TNB 及越南 PTSC，早於 2025 年 5 月簽訂共同開發協議。10 月 26 日新增條件性核准，後續還須完成跨境許可與融資。",
+            "en": "Partners include Petronas, TNB and PTSC, following a May 2025 development agreement. The October 26 approval is conditional, requiring further permits and financing."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際線路場址、建設經費、購電價格與正式併網時程尚未確定。",
+            "en": "Routes, capex, tariffs and commissioning timetable remain unconfirmed."
+          }
+        }
+      ],
+      "metric": "1.3GW",
+      "metricLabel": {
+        "zh": "條件性核准的最大進口規模",
+        "en": "Conditionally approved imports"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "新加坡 EMA · 核准公告",
+            "en": "EMA · conditional approval"
+          },
+          "url": "https://www.ema.gov.sg/news-events/news/media-releases/2026/ema-grants-conditional-approval-to-sembcorp-utilities",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-26",
+        "countries": {
+          "zh": "新加坡；馬來西亞；越南",
+          "en": "Singapore; Malaysia; Vietnam"
+        },
+        "industries": {
+          "zh": "電力；供電；儲能；資料中心",
+          "en": "Electricity; power supply; storage; data centers"
+        },
+        "chain": {
+          "zh": "電力設備與供電至資料中心",
+          "en": "Power equipment to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布核定資本支出。",
+            "en": "No approved capex disclosed."
+          },
+          "demand": {
+            "zh": "未公布新購電合約。",
+            "en": "No new offtake contracts disclosed."
+          },
+          "fdi": {
+            "zh": "無實際外資流入數據。",
+            "en": "No realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及東南亞資料中心與工廠供電。",
+            "en": "Relevant to regional industrial power."
+          },
+          "timing": {
+            "zh": "10 月 26 日核准，2035 年目標啟用。",
+            "en": "Approved conditionally Oct 26; target 2035."
+          },
+          "unknowns": {
+            "zh": "實際線路場址、建設經費、購電價格與正式併網時程尚未確定。",
+            "en": "Routes, capex, tariffs and commissioning timetable remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "條件性核准輸入容量",
+            "en": "Conditionally approved imports"
+          },
+          "current": 1.3,
+          "unit": "GW",
+          "period": {
+            "zh": "2026 年 10 月 26 日",
+            "en": "Oct 26, 2026"
+          },
+          "owner": {
+            "zh": "新加坡 EMA",
+            "en": "Singapore EMA"
+          },
+          "sourceUrl": "https://www.ema.gov.sg/news-events/news/media-releases/2026/ema-grants-conditional-approval-to-sembcorp-utilities",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "無可比較之歷史基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "電力轉換與機房供電設備業者可核對輸配電規格、電池配置及購電合約。尚無施工與融資定案資料，無法推估供應商設備交付。",
+        "en": "Power conversion and data-center suppliers need transmission specifications, storage designs and offtake terms. No finalized construction or financing plans are available."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "tenghui-thailand-ccl-factory",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "騰輝泰國 PCB 材料新廠啟用並小量出貨，年底量產為目標",
+        "en": "Tenghui opens Thai PCB materials plant and starts small shipments"
+      },
+      "summary": {
+        "zh": "騰輝電子 10 月 26 日在泰國大城府 Hi-Tech 工業園區啟用占地約 3.5 萬平方公尺的銅箔基板與黏合片工廠，已小量出貨。公司預計 2026 年底量產，2027 年增加上膠設備後，總設計產能目標再增加 15%，但絕對產量尚未公布。",
+        "en": "Tenghui Electronics opened a roughly 35,000-square-meter copper-clad laminate and prepreg factory at Hi-Tech Industrial Estate in Ayutthaya, Thailand, on October 26, and reported initial shipments. Volume production is targeted by end-2026, with a 15% design-capacity increase planned for 2027; absolute throughput was not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "銅箔基板與黏合片為多層 PCB、伺服器板件與汽車電子的上游材料，泰國廠是集團首座東南亞生產基地。啟用並小量出貨不等於已達量產良率。",
+            "en": "Copper-clad laminates and prepregs are upstream inputs for server PCBs and automotive electronics. This is Tenghui's first Southeast Asian plant; initial shipments do not establish qualified high-volume output."
+          }
+        },
+        {
+          "label": {
+            "zh": "投資與量產時程",
+            "en": "Investment and production timing"
+          },
+          "text": {
+            "zh": "公司另提及 9 月核准的昆山廠 15 億元擴產計畫，該預算是既有中國工廠投資，不應計入本次泰國新廠資本支出。",
+            "en": "The company also referenced a previously authorized NT$1.5 billion expansion of its Kunshan, China, plant. That earlier budget is separate from Thailand's factory opening."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "泰國建廠投入金額、月出貨量、良率及客戶認證進度未公布。",
+            "en": "Thai project capex, monthly shipments, yield and customer qualification remain undisclosed."
+          }
+        }
+      ],
+      "metric": "3.5 萬㎡",
+      "metricLabel": {
+        "zh": "新廠占地約數",
+        "en": "Approximate site area"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 泰國新廠啟用",
+            "en": "CNA · Thai factory opening"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610260166.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 泰國廠出貨與擴建",
+            "en": "Cnyes · Thai plant shipments and expansion"
+          },
+          "url": "https://m.cnyes.com/news/id/6637671",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "泰國大城府 Hi-Tech 工業園區（正式啟用之生產工廠）。",
+        "en": "Hi-Tech Industrial Estate, Ayutthaya, Thailand (operating plant)."
+      },
+      "market": {
+        "eventDate": "2026-10-26",
+        "countries": {
+          "zh": "台灣；泰國",
+          "en": "Taiwan; Thailand"
+        },
+        "industries": {
+          "zh": "材料；銅箔基板；PCB；伺服器；工廠",
+          "en": "Materials; copper-clad laminates; PCBs; servers; factories"
+        },
+        "chain": {
+          "zh": "PCB 材料與零組件至 ODM 伺服器",
+          "en": "PCB materials and components to ODM servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "開幕但未公布泰國廠新增資本支出。",
+            "en": "Thai factory opened without a quantified new capex amount."
+          },
+          "demand": {
+            "zh": "有小量出貨，未公布件數與新增訂單。",
+            "en": "Initial shipments reported without volumes or new orders."
+          },
+          "fdi": {
+            "zh": "台灣企業新增泰國生產據點，未公布入帳 FDI。",
+            "en": "New Taiwan-linked Thai production without realized FDI data."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "東南亞增加電子板材生產據點。",
+            "en": "Adds Southeast Asian electronics materials production."
+          },
+          "timing": {
+            "zh": "10 月 26 日開幕，後續產能目標至 2027 年。",
+            "en": "Opened Oct 26, with targets through 2027."
+          },
+          "unknowns": {
+            "zh": "泰國建廠投入金額、月出貨量、良率及客戶認證進度未公布。",
+            "en": "Thai project capex, monthly shipments, yield and customer qualification remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "泰國廠面積約數",
+            "en": "Approximate Thai factory area"
+          },
+          "current": 35000,
+          "unit": "平方公尺",
+          "period": {
+            "zh": "2026 年 10 月 26 日",
+            "en": "Oct 26, 2026"
+          },
+          "owner": {
+            "zh": "騰輝，由中央社報導",
+            "en": "Tenghui, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610260166.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "新建廠，無可比舊廠基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年設計產能增幅目標",
+            "en": "2027 planned capacity uplift"
+          },
+          "current": 0.15,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年擴產計畫",
+            "en": "2027 expansion plan"
+          },
+          "owner": {
+            "zh": "騰輝，由中央社報導",
+            "en": "Tenghui, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610260166.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布增幅的絕對產能基礎。"
+        }
+      ],
+      "ceoView": {
+        "zh": "PCB 製程電源與量測設備業者可核對上膠線規格、實際稼動率及客戶驗收時程。小量出貨不代表已完成全部設備認證，無法推算後續機台採購。",
+        "en": "PCB process-power and metrology suppliers would verify prepreg line specifications, utilization and customer qualification. Initial shipments do not establish tool acceptance or future procurement."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "viettel-vietnam-first-wafer-fab-progress",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Reuters：越南 Viettel 晶圓廠尚無廠房，DUV 設備採購未定案",
+        "en": "Reuters: Viettel fab lacks buildings and DUV equipment deal remains pending"
+      },
+      "summary": {
+        "zh": "Reuters 10 月 26 日報導，越南 Viettel 在河內近郊規劃的首座晶圓廠，自 1 月動土以來尚未建起廠房，與 ASML 的 DUV 曝光機洽談亦未成交。知情人士認為 2027 年試產可能延後，但 Viettel 表示計畫仍依階段推進；目前沒有一致確認的新試產日期。",
+        "en": "Reuters reported October 26 that no buildings have been constructed at Viettel's planned wafer fab outside Hanoi since a January groundbreaking and talks to purchase a DUV lithography tool from ASML remain unresolved. Sources doubt the 2027 trial-production target, whereas Viettel says progress remains in line with its plan."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "越南已有 Intel、Amkor、Hana Micron 等封裝測試基地，Viettel 計畫進入前段晶圓製造，將涉及微影、沉積、蝕刻、製程電源與無塵室設施。封測產能不能替代前段晶圓廠建設。",
+            "en": "Vietnam already hosts Intel, Amkor and Hana Micron packaging/test sites. Viettel's proposed front-end fab would require lithography, deposition, etch, process power and utilities, distinct from installed packaging capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "現地調查與原先目標",
+            "en": "Field investigation versus stated goals"
+          },
+          "text": {
+            "zh": "Reuters 實地查訪與衛星影像指出仍無建築，並報導越南當局先前估算建廠約 13 億美元、原定 2027 年試產及 2030 年全面運作。Viettel 回應計畫按階段推進，ASML 未確認設備合約。",
+            "en": "Reuters' site visit and satellite images found no buildings. Authorities previously estimated US$1.3 billion cost, a 2027 trial and full operation by 2030. Viettel says phased progress continues, while ASML has not confirmed a contract."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "DUV 型號、正式採購合約、施工許可、製程技轉方及可查證的試產日期均未公布。",
+            "en": "DUV tool type, a signed procurement contract, construction permits, technology partner and validated trial date remain unknown."
+          }
+        }
+      ],
+      "metric": "US$1.3B",
+      "metricLabel": {
+        "zh": "先前估計建廠成本",
+        "en": "Previously estimated fab cost"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · 廠址調查與 Viettel 說法",
+            "en": "Reuters · site investigation and Viettel response"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/vietnams-first-chip-plant-unlikely-meet-2027-target-sources-say-no-deal-yet-with-2026-10-26/",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 越南晶圓廠調查報導",
+            "en": "CNA · Vietnam fab reporting"
+          },
+          "url": "https://www.cna.com.tw/news/aopl/202610260195.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "越南河內近郊 Viettel 規劃晶圓廠基地（確切工業區未披露）。",
+        "en": "Planned Viettel wafer fab site on the outskirts of Hanoi, Vietnam (industrial estate not specified)."
+      },
+      "market": {
+        "eventDate": "2026-10-26",
+        "countries": {
+          "zh": "越南；荷蘭",
+          "en": "Vietnam; Netherlands"
+        },
+        "industries": {
+          "zh": "晶圓；DUV；半導體設備；封裝；測試；工廠",
+          "en": "Wafers; DUV lithography; semiconductor tools; packaging; testing; factories"
+        },
+        "chain": {
+          "zh": "晶圓製程設備至封裝測試",
+          "en": "Wafer-fab equipment through assembly and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "13 億美元為先前估算，不是當日撥款實績。",
+            "en": "US$1.3 billion is an earlier estimate, not new disbursement."
+          },
+          "demand": {
+            "zh": "DUV 設備據報仍在洽談，無確定機台訂單。",
+            "en": "DUV talks reportedly continue without confirmed orders."
+          },
+          "fdi": {
+            "zh": "未公布新 FDI 投入。",
+            "en": "No new FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "越南晶圓製造能力及半導體設備採購進度。",
+            "en": "Vietnam fab readiness and semiconductor tool procurement."
+          },
+          "timing": {
+            "zh": "10 月 26 日首次報導現地與設備進展，2027 年為原試產目標。",
+            "en": "Site and sourcing status first reported Oct 26; 2027 is original target."
+          },
+          "unknowns": {
+            "zh": "DUV 型號、正式採購合約、施工許可、製程技轉方及可查證的試產日期均未公布。",
+            "en": "DUV tool type, a signed procurement contract, construction permits, technology partner and validated trial date remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "先前廠房成本估算",
+            "en": "Earlier fab cost estimate"
+          },
+          "current": 1.3,
+          "unit": "USD billion",
+          "period": {
+            "zh": "先前計畫；2026 年 10 月 26 日追蹤",
+            "en": "Prior plan, revisited Oct 26, 2026"
+          },
+          "owner": {
+            "zh": "越南當局，由 Reuters 引述",
+            "en": "Vietnamese authorities, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/vietnams-first-chip-plant-unlikely-meet-2027-target-sources-say-no-deal-yet-with-2026-10-26/",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比已執行資本支出。"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源、量測與廠務設備業者可追問正式機台採購、技術合約與開工許可。現地觀察和業者回覆存在差異，不能把 2027 年當作已確認的量產日期。",
+        "en": "Wafer process-power and metrology suppliers would check signed equipment orders, process partnerships and building permits. Differing site evidence and developer statements leave the 2027 milestone unconfirmed."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "foxconn-nvidia-ai-factory-results",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "鴻海與 NVIDIA 公布智慧工廠實測：排程工時減 25%",
+        "en": "Foxconn and NVIDIA report 25% lower scheduling labor hours"
+      },
+      "summary": {
+        "zh": "鴻海與 NVIDIA 10 月 26 日公布特定智慧工廠流程數據，生產排程工時降低 25%，射出工程工作量降低 50%。DGX 平台的特定模型訓練速度為既有 H100 系統的 2.48 倍，尚未提供跨廠驗證。",
+        "en": "Foxconn and NVIDIA reported October 26 that scheduling labor hours fell 25% and molding engineering work fell 50% in selected manufacturing processes. A specified model-training task ran 2.48 times faster on DGX than an older H100 system; cross-factory validation was not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "製造應用涵蓋 SMT、排程、自動化、工業量測與伺服器 AI 訓練平台。",
+            "en": "Applications span SMT, scheduling, automation, metrology and server AI training."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告量測",
+            "en": "Published metrics"
+          },
+          "text": {
+            "zh": "NVIDIA 指出測試以既有 H100 平台為比較基準，且 12 天處理 1 兆 Token；流程改善數據不可視為整體工廠平均成效。",
+            "en": "NVIDIA cites an H100 comparison and one trillion tokens processed over 12 days; selected workflow outcomes are not factory-wide averages."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "受測廠區、絕對工時及產線良率比較資料未公布。",
+            "en": "Test sites, absolute baseline hours and line yield data remain undisclosed."
+          }
+        }
+      ],
+      "metric": "25%",
+      "metricLabel": {
+        "zh": "特定流程排程工時減幅",
+        "en": "Reported scheduling-hour reduction"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "NVIDIA · 鴻海 AI 工廠個案",
+            "en": "NVIDIA · Foxconn AI factory case"
+          },
+          "url": "https://www.nvidia.com/en-us/case-studies/foxconn-ai-factory-manufacturing/",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-26",
+        "countries": {
+          "zh": "台灣；全球工廠",
+          "en": "Taiwan; global factories"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；工廠自動化；SMT；量測",
+          "en": "Servers; ODM; automation; SMT; metrology"
+        },
+        "chain": {
+          "zh": "伺服器 ODM 與工廠自動化至 SMT 測試",
+          "en": "Server ODM and factory automation to SMT testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出。",
+            "en": "No new capex reported."
+          },
+          "demand": {
+            "zh": "未公布新增訂單。",
+            "en": "No additional orders reported."
+          },
+          "fdi": {
+            "zh": "未公布外資金額。",
+            "en": "No FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "屬電子組裝與產線自動化的實測案例。",
+            "en": "Measurements relate to assembly automation."
+          },
+          "timing": {
+            "zh": "10 月 26 日公布。",
+            "en": "Published Oct 26."
+          },
+          "unknowns": {
+            "zh": "受測廠區、絕對工時及產線良率比較資料未公布。",
+            "en": "Test sites, absolute baseline hours and line yield data remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "排程工時降幅",
+            "en": "Scheduling labor-hour reduction"
+          },
+          "current": 0.25,
+          "unit": "%",
+          "period": {
+            "zh": "10 月 26 日特定流程",
+            "en": "Specific workflow, Oct 26"
+          },
+          "owner": {
+            "zh": "鴻海與 NVIDIA",
+            "en": "Foxconn and NVIDIA"
+          },
+          "sourceUrl": "https://www.nvidia.com/en-us/case-studies/foxconn-ai-factory-manufacturing/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未提供原始工時。"
+        }
+      ],
+      "ceoView": {
+        "zh": "製程量測與工業電源供應商可核對導入範圍及基準工時。缺乏跨廠數據，尚無法推定全面效益。",
+        "en": "Metrology and process-power suppliers would verify baseline labor hours and site scope. Results cannot be generalized without controlled samples."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "asmpt-smt-business-sale-bidding",
+      "category": "global",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "Reuters：ASMPT 的 SMT 業務出售仍在競標，尚無完成交易",
+        "en": "Reuters: Bidding on ASMPT's SMT business continues with no signed sale"
+      },
+      "summary": {
+        "zh": "Reuters 10 月 26 日引述匿名人士稱，IDG Capital 在新加坡總部 ASMPT 的 SMT 事業洽購中較為領先，潛在交易價值可能逾 10 億美元，但尚未定案。ASMPT 於 2026 年 1 月啟動策略檢視，原始公告列出售、合資、分拆、上市或保留等多種選項。",
+        "en": "Reuters reported October 26 that IDG Capital was the leading bidder for Singapore-headquartered ASMPT's SMT business, with a potential deal value above US$1 billion, but no agreement finalized. ASMPT's January strategic review considered sale, joint venture, spin-off, listing or retention."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "SMT 設備涉及電子板件印刷、貼片、檢測及產線軟體，應用於 AI 伺服器、光收發器及汽車電子組裝。競標報導尚不能證明設備支援與保固安排將改變。",
+            "en": "SMT equipment covers board printing, placement and inspection for servers, transceivers and electronics. Reported bidding does not establish service or warranty changes."
+          }
+        },
+        {
+          "label": {
+            "zh": "既有業績與新進度",
+            "en": "Past results and new reports"
+          },
+          "text": {
+            "zh": "Reuters 引述上半年業務數據：SMT 營收年增 53.1% 至 38.7 億港元，接單年增 87.8% 至 69.8 億港元。上述為上半年歷史實績，新消息僅是洽購進度。",
+            "en": "Reuters cited H1 SMT revenue growth of 53.1% to HK$3.87 billion and bookings growth of 87.8% to HK$6.98 billion. Those are historical results; bidder progress is the new claim."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未簽正式出售合約，買方、價金、監管申報及員工安排均未證實。",
+            "en": "No signed agreement, final buyer, price, regulatory filings or workforce plan confirmed."
+          }
+        }
+      ],
+      "metric": "交易未定",
+      "metricLabel": {
+        "zh": "媒體引述的 SMT 潛在出售",
+        "en": "Reported potential SMT divestiture"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · SMT 競標消息",
+            "en": "Reuters · SMT bidding report"
+          },
+          "url": "https://www.reuters.com/world/idg-leads-race-asmpts-smt-unit-valued-over-1-billion-sources-say-2026-10-26/",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "ASMPT · 策略檢視官方公告",
+            "en": "ASMPT · official strategic review"
+          },
+          "url": "https://www.asmpt.com/en/investor-relations/news-events/asmpt-announces-assessment-of-strategic-options-for-smt-solutions-segment/",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-26",
+        "countries": {
+          "zh": "新加坡；台灣電子組裝供應鏈",
+          "en": "Singapore; Taiwan electronics supply chain"
+        },
+        "industries": {
+          "zh": "SMT；設備；PCB；伺服器；封裝測試",
+          "en": "SMT; equipment; PCB; servers; packaging and test"
+        },
+        "chain": {
+          "zh": "電子組裝設備至 PCB、伺服器與測試",
+          "en": "Assembly equipment to PCB, servers and testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "傳聞交易金額尚非完成投資。",
+            "en": "Reported value is not committed spending."
+          },
+          "demand": {
+            "zh": "上半年訂單為歷史數字，未公布當日新訂單。",
+            "en": "H1 orders are historical, not new bookings."
+          },
+          "fdi": {
+            "zh": "交易未完成，無實際外資流入。",
+            "en": "Transaction unsigned, no realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新加坡半導體與電子組裝設備商的業務結構檢視。",
+            "en": "Singapore-headquartered electronics tooling review."
+          },
+          "timing": {
+            "zh": "1 月正式檢視，10 月 26 日新增競標媒體消息。",
+            "en": "January review; Oct 26 bidder report."
+          },
+          "unknowns": {
+            "zh": "未簽正式出售合約，買方、價金、監管申報及員工安排均未證實。",
+            "en": "No signed agreement, final buyer, price, regulatory filings or workforce plan confirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "SMT 上半年營收年增率",
+            "en": "SMT H1 revenue growth"
+          },
+          "current": 0.531,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年上半年",
+            "en": "H1 2026"
+          },
+          "owner": {
+            "zh": "ASMPT，由 Reuters 引述",
+            "en": "ASMPT, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/idg-leads-race-asmpts-smt-unit-valued-over-1-billion-sources-say-2026-10-26/",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.531,
+          "baseStatus": "未取得上年同期同口徑絕對營收。"
+        }
+      ],
+      "ceoView": {
+        "zh": "SMT 電源、測試及設備服務供應商可追蹤正式買方與保固責任是否變更。未有已簽合約，不應推定採購或客戶合約轉移。",
+        "en": "SMT power, test and service suppliers would track any formal ownership and warranty changes. Reported bidding does not establish a contract transfer."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "jimtof-2026-taiwan-machine-tool-exhibitors",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "JIMTOF 東京開展，公會表示有 94 家台灣廠商參展",
+        "en": "JIMTOF opens in Tokyo with 94 Taiwan exhibitors, association says"
+      },
+      "summary": {
+        "zh": "日本工具機展 JIMTOF 於 10 月 26 日在東京國際展示場開展，展期至 31 日。台灣工具機公會稱有 94 家台廠參展，包含 CNC、量測與工廠自動化設備；實際成交額及設備訂單未公布。",
+        "en": "JIMTOF opened October 26 at Tokyo Big Sight, running through October 31. Taiwan's machine-tool association reported 94 participating companies covering CNC, metrology and automation; new orders were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "精密加工及控制設備涉及工廠自動化與半導體設備零組件製造，展出不等於簽單。",
+            "en": "Precision machinery and controls support industrial automation and semiconductor tool components; exhibiting is not a signed order."
+          }
+        },
+        {
+          "label": {
+            "zh": "活動日期與場館",
+            "en": "Event dates and venue"
+          },
+          "text": {
+            "zh": "主辦方確認 10 月 26 至 31 日於 Tokyo Big Sight 舉行；公會參展家數由中央社轉述。",
+            "en": "Organizer confirms October 26-31 at Tokyo Big Sight; exhibitor number was reported by CNA."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "展後成交、客戶驗證及設備採購量尚未公布。",
+            "en": "Signed deals, qualification and equipment procurement are unknown."
+          }
+        }
+      ],
+      "metric": "94 家",
+      "metricLabel": {
+        "zh": "台灣參展商（公會說法）",
+        "en": "Taiwan exhibitors (association count)"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "JIMTOF · 官方場館及展期",
+            "en": "JIMTOF · official venue and dates"
+          },
+          "url": "https://jimtof.org/en/outline.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 參展業者數",
+            "en": "CNA · exhibitor count"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610260082.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "日本東京 Tokyo Big Sight（實際展覽場館）。",
+        "en": "Tokyo Big Sight, Tokyo, Japan (exhibition venue)."
+      },
+      "market": {
+        "eventDate": "2026-10-26",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "設備；工廠自動化；量測；工具機；機器人",
+          "en": "Equipment; factory automation; metrology; machine tools; robotics"
+        },
+        "chain": {
+          "zh": "精密設備零組件與量測至工廠自動化",
+          "en": "Precision tooling and metrology to factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資。",
+            "en": "No new investment."
+          },
+          "demand": {
+            "zh": "尚無成交訂單。",
+            "en": "No order figures."
+          },
+          "fdi": {
+            "zh": "未公布新增外資。",
+            "en": "No new FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣精密設備與自動化供應鏈參展。",
+            "en": "Taiwan machinery and automation suppliers exhibited."
+          },
+          "timing": {
+            "zh": "10 月 26 至 31 日。",
+            "en": "October 26-31."
+          },
+          "unknowns": {
+            "zh": "展後成交、客戶驗證及設備採購量尚未公布。",
+            "en": "Signed deals, qualification and equipment procurement are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "參展台灣廠商",
+            "en": "Taiwan exhibitors"
+          },
+          "current": 94,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 10 月 26 至 31 日",
+            "en": "Oct 26-31, 2026"
+          },
+          "owner": {
+            "zh": "台灣工具機公會，由中央社報導",
+            "en": "Taiwan machine-tool association, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610260082.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未提供前屆同口徑家數。"
+        }
+      ],
+      "ceoView": {
+        "zh": "設備電源與精密量測業者可核實展出技術規格與客戶驗收情況。參展家數不代表新設備訂單。",
+        "en": "Equipment-power and precision metrology suppliers would verify tool specifications and customer acceptance; participation does not prove sales."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "1.3GW 是已交付新加坡的電力嗎？",
+        "en": "Is the 1.3GW already delivered to Singapore?"
+      },
+      "text": {
+        "zh": "不是。EMA 公告的是有條件核准進口規模，計畫仍需跨境許可、購電合約及融資，2035 年也是預定開始供電時間。",
+        "en": "No. EMA granted conditional import approval; cross-border permits, purchase contracts and financing remain, and 2035 is a proposed start."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "泰國銅箔基板新廠開幕與量產有何不同？",
+        "en": "How do the Thai opening and production ramp differ?"
+      },
+      "text": {
+        "zh": "10 月 26 日已有啟用及小量出貨，但年底量產和 2027 年總設計產能增加 15% 仍屬目標，基準產能與良率未公布。",
+        "en": "Opening and small shipments are realized; mass production and the 15% design-capacity expansion remain targets without reported qualified yields or base capacity."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "越南晶圓廠 2027 年試產目標是否已定案？",
+        "en": "Is Viettel's 2027 trial production assured?"
+      },
+      "text": {
+        "zh": "Reuters 實地與衛星查訪指出尚無建築，知情人士對時程提出疑慮；Viettel 表示按階段推進，缺少新的可查證試產時間。",
+        "en": "Reuters' site findings raised timing concerns, while Viettel maintains phased progress; no newly verified trial-production milestone exists."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "補充資料",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "舊有擴廠新聞與股價評論",
+        "en": "Older expansions and share-price commentary"
+      },
+      "text": {
+        "zh": "沒有 10 月 26 日新增簽約、核准或實際產出的舊有擴產資訊，以及僅評論股價走勢的報導，不列為新事件。",
+        "en": "Previously reported expansions without new October 26 contracts, permits or operational output, and price-only commentary, were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "EMA 核准為條件性進口計畫，非已建成電力；騰輝小量出貨與未來擴產須區分。Reuters 報導的 Viettel 工程與設備洽談仍有不同說法。鴻海數據是指定流程的公司量測；ASMPT 買方尚無簽約證據；JIMTOF 台灣展商數由公會經媒體披露。",
+    "en": "EMA's power approval is conditional, not installed capacity; Tenghui's shipments are distinct from targets. Viettel's construction and tool procurement remain contested. Foxconn data reflects company-measured workflows; ASMPT bids are unsigned, and JIMTOF exhibitor counts come from the association."
+  }
+}

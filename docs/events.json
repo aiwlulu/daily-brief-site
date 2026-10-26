@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-27",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -181,6 +181,32 @@
           "en": "ITAP · official dates and venue"
         },
         "url": "https://industrial-transformation.com/venue/"
+      }
+    },
+    {
+      "id": "jimtof-2026",
+      "start": "2026-10-26",
+      "end": "2026-10-31",
+      "type": "systems",
+      "region": "nea",
+      "name": {
+        "zh": "JIMTOF 2026 日本國際工具機展",
+        "en": "JIMTOF 2026 Japan International Machine Tool Fair"
+      },
+      "place": {
+        "zh": "日本東京都江東區有明 · 東京國際展示場 Tokyo Big Sight",
+        "en": "Tokyo Big Sight, Ariake, Koto City, Tokyo, Japan"
+      },
+      "focus": {
+        "zh": "工具機、精密控制、量測、機器人與工業自動化；台灣工具機公會稱有 94 家台廠參展。",
+        "en": "Machine tools, precision controls, metrology, robotics and industrial automation; 94 Taiwan exhibitors according to the Taiwan industry association."
+      },
+      "source": {
+        "name": {
+          "zh": "JIMTOF · 官方展覽會概要",
+          "en": "JIMTOF · official fair outline"
+        },
+        "url": "https://jimtof.org/en/outline.html"
       }
     },
     {
