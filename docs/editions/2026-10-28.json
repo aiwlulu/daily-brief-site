@@ -1,0 +1,1497 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T01:17:55.146Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞的記憶體、封測、半導體設備及工業自動化",
+      "en": "Taiwan and Southeast Asian memory, packaging/test, semiconductor equipment and industrial automation"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "力成封裝驗證與旺宏記憶體擴產仍屬未來節點，精測與晶豪科公布實際第三季財報；台達泰國設備交易則為集團內設備移轉安排。",
+    "en": "Powertech's packaging qualification and Macronix's memory expansion remain future milestones, CHPT and ESMT released actual Q3 results, and Delta's Thai equipment acquisition is an intercompany transaction."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "力成第三季營收 253.34 億元，先進封裝營收占比逾三成，FOPLP 仍待 2027 年量產。",
+        "en": "Powertech had NT$25.334B Q3 sales; advanced packaging exceeds 30% of revenue while FOPLP production is targeted for 2027."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "旺宏第三季營收 242.37 億元，新 NAND 與 eMMC 產能要到 2027 年下半年才陸續產出。",
+        "en": "Macronix reported NT$24.237B Q3 revenue; new NAND and eMMC output is expected in H2 2027."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "智原稱取得 2 奈米 GAA 雲端 AI 晶片委託設計案，首筆收入估明年上半年認列。",
+        "en": "Faraday reports a 2nm GAA cloud AI chip NRE win with initial revenue expected in H1 2027."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "中華精測第三季營收 19.05 億元、歸母淨利 5.51 億元，前九月探針卡營收占比為 71%。",
+        "en": "CHPT Q3 revenue was NT$1.905B and attributable profit NT$551M; probe cards were 71% of Jan-Sep sales."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "台達泰國子公司公告取得約 3,450 萬美元關係人設備，交易並非新增 FDI。",
+        "en": "Delta Thailand's US$34.5M intra-group equipment deal is not new realized FDI."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "powertech-advanced-packaging-foplp-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "力成先進封裝營收占比逾三成，第三季封測稼動率逾九成",
+        "en": "Powertech says advanced packaging exceeds 30% of revenue and utilization tops 90%"
+      },
+      "summary": {
+        "zh": "力成 10 月 27 日法說公布第三季營收 253.34 億元、毛利率 24%、歸母淨利 26.12 億元；公司稱先進封裝營收占比已逾三成，第三季封裝與測試產能利用率逾九成。FOPLP 客戶驗證仍在進行，2027 年量產及新加坡投資進度均尚未確定完成。",
+        "en": "Powertech Technology reported October 27 third-quarter revenue of NT$25.334 billion, 24% gross margin and NT$2.612 billion in profit attributable to shareholders. It said advanced packaging now exceeds 30% of group revenue and packaging/test utilization topped 90% in Q3; FOPLP qualification, the 2027 production target and its Singapore investment remain pending."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "公司業務涵蓋 DRAM、NAND／eSSD 與邏輯封測，新規劃包含 FOPLP、FCBGA、2.5D／3D 異質整合及 CPO 光學引擎。這些製程分屬不同封裝產品，不應合併為已量產的同一產能。",
+            "en": "The company serves DRAM, NAND/eSSD and logic packaging, with planned FOPLP, FCBGA, heterogeneous integration and optical engines for CPO. These product types cannot be counted as one commissioned capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "公司稱第三季大型晶片 FCBGA 已導入量產，第四季規劃更大尺寸；FOPLP 仍為 2027 年量產目標。董事長表示不排除與晶圓廠合作，但尚無正式策略聯盟合約。",
+            "en": "Large-die FCBGA entered production in Q3 according to management, with larger packages slated for Q4. FOPLP remains a 2027 target, and potential alliances with foundries are not signed agreements."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "FOPLP 客戶認證、絕對月產能、新加坡投資金額與實際交付時點未公布。",
+            "en": "FOPLP customer acceptance, absolute monthly capacity, Singapore investment size and shipment dates were not disclosed."
+          }
+        }
+      ],
+      "metric": "30%+",
+      "metricLabel": {
+        "zh": "先進封裝營收占比",
+        "en": "Advanced packaging revenue share"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270200.aspx",
+          "name": {
+            "zh": "中央社 · 先進封裝量產進度",
+            "en": "CNA · advanced packaging milestones"
+          },
+          "type": "Source-limited"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270168.aspx",
+          "name": {
+            "zh": "中央社 · 第三季財務與封測需求",
+            "en": "CNA · Q3 results and testing demand"
+          },
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣；新加坡（尚待投資確認）",
+          "en": "Taiwan; Singapore (proposed investment)"
+        },
+        "industries": {
+          "zh": "DRAM；NAND；記憶體；封裝；封測；測試；CPO",
+          "en": "DRAM; NAND; memory; packaging/test; CPO"
+        },
+        "chain": {
+          "zh": "記憶體封測至先進封裝、CPO 與伺服器",
+          "en": "Memory assembly/test through advanced packaging and CPO"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增已核定資本支出；新加坡投資仍在評估。",
+            "en": "No newly approved capex; Singapore project under consideration."
+          },
+          "demand": {
+            "zh": "第三季稼動率逾九成、先進封裝營收占比逾三成，為公司陳述。",
+            "en": "Q3 utilization and advanced packaging share are company statements."
+          },
+          "fdi": {
+            "zh": "未發布新的外商直接投資實績。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司業務涵蓋 DRAM、NAND／eSSD 與邏輯封測，新規劃包含 FOPLP、FCBGA、2.5D／3D 異質整合及 CPO 光學引擎。這些製程分屬不同封裝產品，不應合併為已量產的同一產能。",
+            "en": "The company serves DRAM, NAND/eSSD and logic packaging, with planned FOPLP, FCBGA, heterogeneous integration and optical engines for CPO. These product types cannot be counted as one commissioned capacity."
+          },
+          "timing": {
+            "zh": "公司稱第三季大型晶片 FCBGA 已導入量產，第四季規劃更大尺寸；FOPLP 仍為 2027 年量產目標。董事長表示不排除與晶圓廠合作，但尚無正式策略聯盟合約。",
+            "en": "Large-die FCBGA entered production in Q3 according to management, with larger packages slated for Q4. FOPLP remains a 2027 target, and potential alliances with foundries are not signed agreements."
+          },
+          "unknowns": {
+            "zh": "FOPLP 客戶認證、絕對月產能、新加坡投資金額與實際交付時點未公布。",
+            "en": "FOPLP customer acceptance, absolute monthly capacity, Singapore investment size and shipment dates were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 25.334,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 第三季財務與封測需求所引述的公司數據",
+            "en": "CNA · Q3 results and testing demand attributed company data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270168.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.269,
+          "baseStatus": "公開來源未載可直接比較的同口徑基期，未倒推數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 parent-attributable profit"
+          },
+          "current": 2.612,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 第三季財務與封測需求所引述的公司數據",
+            "en": "CNA · Q3 results and testing demand attributed company data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270168.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.698,
+          "baseStatus": "公開來源未載可直接比較的同口徑基期，未倒推數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.24,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 第三季財務與封測需求所引述的公司數據",
+            "en": "CNA · Q3 results and testing demand attributed company data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270168.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公開來源未載可直接比較的同口徑基期，未倒推數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "先進封裝設備、測試電源及量測介面供應商需要確認 FOPLP 與高階 FCBGA 實際通過客戶認證的封裝尺寸、產線設備要求及交付里程碑。第三季稼動率與 2027 年擴產計畫屬不同時點，不能直接換算設備需求。",
+        "en": "Packaging tool, test-power and metrology suppliers would check qualified package sizes, line requirements and actual delivery milestones. Q3 utilization and future expansion are separate measures, not equipment orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "macronix-nand-emmc-capacity-2027",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "旺宏第三季營收 242.37 億元，新 NAND／eMMC 產能估 2027 下半年投入",
+        "en": "Macronix reports NT$24.237B Q3 revenue; new NAND/eMMC output expected H2 2027"
+      },
+      "summary": {
+        "zh": "旺宏 10 月 27 日法說公布第三季營收 242.37 億元、毛利率 70.5%、淨利 109.51 億元。公司表示今年投資超過 300 億元，新增產能須待 2027 年下半年逐步產出，將以 NAND Flash 與 eMMC 為主；NOR Flash 不再擴充，並逐步淡出 ROM。",
+        "en": "Macronix said on October 27 that Q3 revenue reached NT$24.237 billion, gross margin 70.5% and net profit NT$10.951 billion. Management described more than NT$30 billion in 2026 investment, with added NAND flash and eMMC output emerging only in H2 2027, while NOR expansion is paused and ROM deemphasized."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "旺宏的 NOR、NAND、eMMC 供應工業控制、車載電子及儲存等不同用途，新增產能規劃與本季因價格及產品組合變動的營收，須區分不同驅動因素。",
+            "en": "NOR, NAND and eMMC serve industrial, automotive and storage applications. Planned output expansion is distinct from Q3 revenue affected by pricing and product mix."
+          }
+        },
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "董事長指出新建產能須超過一年才能產出，短期收入提升主要來自價格變化，並未披露新增晶圓月投片數或取得的實際設備交貨。",
+            "en": "Management said new capacity typically takes more than a year, and near-term sales changes depend on prices; no added monthly wafer-start figure or confirmed tool deliveries were disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "新產線廠區配置、實際 NAND／eMMC 投片規模、良率及訂單數量未公布。",
+            "en": "Fab allocation, incremental wafer starts, yields and customer order volumes are unavailable."
+          }
+        }
+      ],
+      "metric": "2027 H2",
+      "metricLabel": {
+        "zh": "新產能預定開始產出",
+        "en": "Expected new-output window"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270245.aspx",
+          "name": {
+            "zh": "中央社 · 旺宏第三季與產能時程",
+            "en": "CNA · Macronix Q3 and expansion timing"
+          },
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "NAND；記憶體；SSD；eMMC；晶圓；設備",
+          "en": "NAND; memory; SSD; eMMC; wafers; equipment"
+        },
+        "chain": {
+          "zh": "晶圓記憶體製造至 NAND、eMMC 與終端工廠",
+          "en": "Wafer memory manufacturing to NAND/eMMC end markets"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2026 年投入逾 300 億元屬公司說明，未逐項公告已付工程或設備金額。",
+            "en": "Management described over NT$30B 2026 investment without itemized disbursements."
+          },
+          "demand": {
+            "zh": "新增產能尚未開出；第三季收入成長包含價格因素。",
+            "en": "New output is pending; Q3 sales growth includes pricing effects."
+          },
+          "fdi": {
+            "zh": "未發布新的外商直接投資實績。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "旺宏的 NOR、NAND、eMMC 供應工業控制、車載電子及儲存等不同用途，新增產能規劃與本季因價格及產品組合變動的營收，須區分不同驅動因素。",
+            "en": "NOR, NAND and eMMC serve industrial, automotive and storage applications. Planned output expansion is distinct from Q3 revenue affected by pricing and product mix."
+          },
+          "timing": {
+            "zh": "董事長指出新建產能須超過一年才能產出，短期收入提升主要來自價格變化，並未披露新增晶圓月投片數或取得的實際設備交貨。",
+            "en": "Management said new capacity typically takes more than a year, and near-term sales changes depend on prices; no added monthly wafer-start figure or confirmed tool deliveries were disclosed."
+          },
+          "unknowns": {
+            "zh": "新產線廠區配置、實際 NAND／eMMC 投片規模、良率及訂單數量未公布。",
+            "en": "Fab allocation, incremental wafer starts, yields and customer order volumes are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 24.237,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 旺宏第三季與產能時程所引述的公司數據",
+            "en": "CNA · Macronix Q3 and expansion timing attributed company data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270245.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.27,
+          "baseStatus": "公開來源未載可直接比較的同口徑基期，未倒推數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 after-tax profit"
+          },
+          "current": 10.951,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 旺宏第三季與產能時程所引述的公司數據",
+            "en": "CNA · Macronix Q3 and expansion timing attributed company data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270245.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.42,
+          "baseStatus": "公開來源未載可直接比較的同口徑基期，未倒推數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.705,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 旺宏第三季與產能時程所引述的公司數據",
+            "en": "CNA · Macronix Q3 and expansion timing attributed company data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270245.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公開來源未載可直接比較的同口徑基期，未倒推數值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "記憶體製程電源與量測設備供應商會先核對新增 NAND 晶圓線的實際機台交期、投片及測試規格。公司所述的未來產出時間並不能證明現有採購已完成。",
+        "en": "Memory process-power and metrology suppliers would seek installed-tool schedules, wafer starts and qualification specifications. A future output target does not establish procurement completion."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "faraday-2nm-gaa-nre-order",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "智原取得三星 2 奈米 GAA 雲端晶片設計專案，明年上半年擬認列收入",
+        "en": "Faraday secures Samsung 2nm GAA design project, targets first revenue in H1 2027"
+      },
+      "summary": {
+        "zh": "智原 10 月 27 日於法說會表示，與三星晶圓代工、聯電及記憶體供應商合作，取得美國客戶 2 奈米 GAA 雲端 AI 晶片 NRE 專案，金額為數千萬美元。公司預估 2027 年上半年開始認列首筆設計收入，但未公布精確訂單價值、客戶及晶片量產驗證日期。",
+        "en": "On October 27, Faraday Technology announced a U.S. cloud AI chip non-recurring engineering project using Samsung's 2nm GAA foundry, with UMC and memory partners. Management described project value in the tens of millions of U.S. dollars and expects initial revenue recognition in H1 2027, without a precise contract value or qualified production date."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "NRE 專案涵蓋先進製程晶片設計及多廠協作；使用三星 2 奈米代工與聯電合作，不等於聯電已可製造 2 奈米晶圓。",
+            "en": "The design project requires advanced-node IP and coordination across foundry and memory partners. UMC's participation does not make it the 2nm wafer foundry."
+          }
+        },
+        {
+          "label": {
+            "zh": "營運與時程",
+            "en": "Operations and timing"
+          },
+          "text": {
+            "zh": "公司第三季營收 36.64 億元，毛利率 42.5%，歸母淨利 2.79 億元；管理階層說明量產產品比重上升影響毛利率，業外評價利益亦影響淨利成長。",
+            "en": "Q3 revenue was NT$3.664B, gross margin 42.5% and attributable profit NT$279M. Management attributed margin changes partly to product mix and profit changes partly to non-operating valuation gains."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "未知客戶、製程封裝、NRE 收入精確排程及客戶晶片實際出貨量。",
+            "en": "Customer identity, package technology, exact NRE timing and chip shipment volumes were not given."
+          }
+        }
+      ],
+      "metric": "2nm",
+      "metricLabel": {
+        "zh": "客製晶片採用製程",
+        "en": "Customer chip node"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270179.aspx",
+          "name": {
+            "zh": "中央社 · 智原 2 奈米客製設計訂單",
+            "en": "CNA · Faraday 2nm custom design project"
+          },
+          "type": "Source-limited"
+        },
+        {
+          "url": "https://money.udn.com/money/story/5612/9840065?from=edn_search_result",
+          "name": {
+            "zh": "聯合新聞網 · 智原法說會資料",
+            "en": "UDN · Faraday earnings briefing"
+          },
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣；韓國；美國",
+          "en": "Taiwan; South Korea; United States"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓代工；2 奈米；先進封裝；記憶體",
+          "en": "Chip design; wafer foundry; 2nm; advanced packaging; memory"
+        },
+        "chain": {
+          "zh": "晶片設計至三星晶圓代工與封裝測試",
+          "en": "Chip design through Samsung foundry and packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布由智原承擔的新增設備資本支出。",
+            "en": "No new Faraday tool capex disclosed."
+          },
+          "demand": {
+            "zh": "管理層公告取得 NRE 專案，但金額僅以數千萬美元範圍描述。",
+            "en": "Company described a new NRE contract valued in tens of millions, without an exact figure."
+          },
+          "fdi": {
+            "zh": "未發布新外商直接投資實績。",
+            "en": "No new realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "NRE 專案涵蓋先進製程晶片設計及多廠協作；使用三星 2 奈米代工與聯電合作，不等於聯電已可製造 2 奈米晶圓。",
+            "en": "The design project requires advanced-node IP and coordination across foundry and memory partners. UMC's participation does not make it the 2nm wafer foundry."
+          },
+          "timing": {
+            "zh": "公司第三季營收 36.64 億元，毛利率 42.5%，歸母淨利 2.79 億元；管理階層說明量產產品比重上升影響毛利率，業外評價利益亦影響淨利成長。",
+            "en": "Q3 revenue was NT$3.664B, gross margin 42.5% and attributable profit NT$279M. Management attributed margin changes partly to product mix and profit changes partly to non-operating valuation gains."
+          },
+          "unknowns": {
+            "zh": "未知客戶、製程封裝、NRE 收入精確排程及客戶晶片實際出貨量。",
+            "en": "Customer identity, package technology, exact NRE timing and chip shipment volumes were not given."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 3.664,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯合新聞網 · 智原法說會資料引述數據",
+            "en": "UDN · Faraday earnings briefing reported data"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9840065?from=edn_search_result",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.106,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 0.279,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯合新聞網 · 智原法說會資料引述數據",
+            "en": "UDN · Faraday earnings briefing reported data"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9840065?from=edn_search_result",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.408,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.425,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯合新聞網 · 智原法說會資料引述數據",
+            "en": "UDN · Faraday earnings briefing reported data"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9840065?from=edn_search_result",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源與先進封裝測試業者會確認實際代工場、封裝介面、矽智財驗證及後續晶片試產時程。專案 NRE 金額並非晶圓代工或設備採購支出。",
+        "en": "Wafer process-power and advanced packaging test suppliers would verify actual foundry, package interface and qualification milestones. NRE contract value is not wafer manufacturing or equipment spending."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "chpt-q3-2026-probe-card-results",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "中華精測第三季營收 19.05 億元、淨利 5.51 億元，晶圓測試卡占前九月營收 71%",
+        "en": "CHPT reports NT$1.905B Q3 sales and NT$551M profit; probe cards lead mix"
+      },
+      "summary": {
+        "zh": "中華精測 10 月 27 日董事會通過第三季營運成果，合併營收新台幣 19.05 億元，年增 53.4%，歸母淨利 5.51 億元，年增 100%。公司指出前九月晶圓測試卡占營收 71%、IC 測試板 21%，但下一代探針卡的個別客戶認證及產能尚未公布。",
+        "en": "CHPT's board approved October 27 Q3 results showing NT$1.905 billion revenue, up 53.4% YoY, and NT$551 million attributable profit, up 100% YoY. Wafer probe cards accounted for 71% of Jan-Sep revenue and IC load boards for 21%; next-generation customer qualification data is not public."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "晶圓探針卡、IC 測試板與高頻高速測試介面連結記憶體、AI ASIC 及先進晶圓製程的晶圓電測和後段測試。產品營收占比並非絕對生產片數。",
+            "en": "Wafer probe cards and IC load boards support wafer sorting and package test for memory and AI ASICs. Revenue mix is not production quantity."
+          }
+        },
+        {
+          "label": {
+            "zh": "營運與時程",
+            "en": "Operations and timing"
+          },
+          "text": {
+            "zh": "公司第一手報告另列第三季毛利率 57.3%、營業利益率約 35%，且提及 AI 客製晶片相關測試介面需求。第三季營收及獲利的 YoY 基期未於該新聞稿列同口徑絕對金額。",
+            "en": "Its primary release reports 57.3% Q3 gross margin and roughly 35% operating margin, citing demand for customized AI testing interfaces. It gives growth rates without every absolute prior-year base."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "未公布下一代探針卡客戶清單、產能稼動、產品認證周期與實際新增機台投資。",
+            "en": "Next-generation probe-card customer roster, utilization, qualification times and new tool investments were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$1.905B",
+      "metricLabel": {
+        "zh": "第三季營收",
+        "en": "Q3 revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "url": "https://www.cht-pt.com.tw/xmeventsnews/cont?sid=0Q300669379269508945&xsmsid=0G328584354524406609",
+          "name": {
+            "zh": "中華精測 · 2026 年第三季營運報告",
+            "en": "CHPT · 2026 third-quarter results"
+          },
+          "type": "First-hand"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270283.aspx",
+          "name": {
+            "zh": "中央社 · 晶圓測試營收組成",
+            "en": "CNA · wafer test product mix"
+          },
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；探針卡；測試；封裝；載板；設備",
+          "en": "Wafers; probe cards; testing; packaging; load boards; equipment"
+        },
+        "chain": {
+          "zh": "晶圓電測至封裝測試與精密設備",
+          "en": "Wafer sort through packaging/test and precision tooling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新核定設備支出。",
+            "en": "No newly approved tool capex disclosed."
+          },
+          "demand": {
+            "zh": "前九月測試卡營收占 71%，不代表出貨片數占比。",
+            "en": "Probe cards were 71% of Jan-Sep revenue, not shipments."
+          },
+          "fdi": {
+            "zh": "未發布新外商直接投資實績。",
+            "en": "No new realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶圓探針卡、IC 測試板與高頻高速測試介面連結記憶體、AI ASIC 及先進晶圓製程的晶圓電測和後段測試。產品營收占比並非絕對生產片數。",
+            "en": "Wafer probe cards and IC load boards support wafer sorting and package test for memory and AI ASICs. Revenue mix is not production quantity."
+          },
+          "timing": {
+            "zh": "公司第一手報告另列第三季毛利率 57.3%、營業利益率約 35%，且提及 AI 客製晶片相關測試介面需求。第三季營收及獲利的 YoY 基期未於該新聞稿列同口徑絕對金額。",
+            "en": "Its primary release reports 57.3% Q3 gross margin and roughly 35% operating margin, citing demand for customized AI testing interfaces. It gives growth rates without every absolute prior-year base."
+          },
+          "unknowns": {
+            "zh": "未公布下一代探針卡客戶清單、產能稼動、產品認證周期與實際新增機台投資。",
+            "en": "Next-generation probe-card customer roster, utilization, qualification times and new tool investments were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 1.905,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中華精測 · 2026 年第三季營運報告引述數據",
+            "en": "CHPT · 2026 third-quarter results reported data"
+          },
+          "sourceUrl": "https://www.cht-pt.com.tw/xmeventsnews/cont?sid=0Q300669379269508945&xsmsid=0G328584354524406609",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.534,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 0.551,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中華精測 · 2026 年第三季營運報告引述數據",
+            "en": "CHPT · 2026 third-quarter results reported data"
+          },
+          "sourceUrl": "https://www.cht-pt.com.tw/xmeventsnews/cont?sid=0Q300669379269508945&xsmsid=0G328584354524406609",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.573,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中華精測 · 2026 年第三季營運報告引述數據",
+            "en": "CHPT · 2026 third-quarter results reported data"
+          },
+          "sourceUrl": "https://www.cht-pt.com.tw/xmeventsnews/cont?sid=0Q300669379269508945&xsmsid=0G328584354524406609",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月晶圓測試卡營收比重",
+            "en": "Jan-Sep wafer probe card sales share"
+          },
+          "current": 0.71,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan-Sep 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 晶圓測試營收組成引述數據",
+            "en": "CNA · wafer test product mix reported data"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270283.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布完整可比前期絕對基數；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "高頻測試電源與探針卡設備業者可核對實際驗證通道、訊號與電源完整性標準，以及下一代測試卡的客戶接受節點。營收結構不能直接換算設備採購或實際測試吞吐量。",
+        "en": "High-frequency test-power and probe-card suppliers would seek channel-level signal/power-integrity specifications and qualification timelines. Sales mix cannot quantify tester procurement or throughput."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "narlabs-mss-high-na-euv-mor-cross-section",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "國研院與汎銓公布 High-NA EUV 光阻奈米結構鍍膜檢測技術",
+        "en": "NARLabs and MSS report high-NA EUV resist cross-section metrology technique"
+      },
+      "summary": {
+        "zh": "國研院 10 月 27 日宣布，國儀中心與汎銓合作，在 High-NA EUV 與金屬氧化物光阻（MOR）曝光後，以鍍膜強化奈米結構，支援後續晶圓剖面分析。國研院稱技術已協助汎銓進入大型半導體設備與製造商供應鏈，但未公布已完成驗收的客戶、良率或量產導入規模。",
+        "en": "NARLabs announced October 27 that its instrumentation center and Materials Analysis Technology Inc. (MSS) developed a coating approach to stabilize high-NA EUV metal-oxide-resist nanostructures for subsequent wafer cross-section analysis. NARLabs says it helped MSS enter major semiconductor suppliers' process chains, without customer acceptance, yield or deployment volumes."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "在高數值孔徑 EUV 微影後，金屬氧化物光阻形成的微細結構在斷面檢測前須保持形狀。樣品製備與量測結果涉及先進晶圓製程、材料分析及電子顯微技術。",
+            "en": "High-NA EUV metal-oxide-resist patterns require structural preservation during cross-section sample preparation, linking advanced lithography to metrology and microscopy."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Published data and timing"
+          },
+          "text": {
+            "zh": "國研院指出，以專用鍍膜輔助強化脆弱奈米結構後，可提供後續檢測分析；公開的是研究技術突破，並未表示某製程節點已進入高良率量產。",
+            "en": "NARLabs describes stabilizing fragile patterned structures with coating prior to analysis. The disclosed research milestone is not evidence of a qualified high-volume manufacturing node."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "未披露可比較的缺陷率、解析度實驗結果、半導體廠認證時程及商用檢測設備採購量。",
+            "en": "Comparative defect rates, tested resolution, fab qualification dates and commercial metrology orders were not disclosed."
+          }
+        }
+      ],
+      "metric": "High-NA EUV",
+      "metricLabel": {
+        "zh": "光阻結構分析技術",
+        "en": "Resist structure metrology"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270164.aspx",
+          "name": {
+            "zh": "中央社 · 國研院與汎銓技術發布",
+            "en": "CNA · NARLabs and MSS announcement"
+          },
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；EUV；光阻材料；設備；測試；量測",
+          "en": "Wafers; EUV; resist materials; equipment; testing; metrology"
+        },
+        "chain": {
+          "zh": "晶圓微影材料與設備至精密量測測試",
+          "en": "Wafer lithography materials to precision metrology"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布設備購置與研發投入金額。",
+            "en": "No equipment procurement or R&D investment total disclosed."
+          },
+          "demand": {
+            "zh": "公布分析能力，非量產良率或晶圓出貨增加。",
+            "en": "A characterization method was described, not increased wafer shipments."
+          },
+          "fdi": {
+            "zh": "無新增外資實績。",
+            "en": "No new realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "在高數值孔徑 EUV 微影後，金屬氧化物光阻形成的微細結構在斷面檢測前須保持形狀。樣品製備與量測結果涉及先進晶圓製程、材料分析及電子顯微技術。",
+            "en": "High-NA EUV metal-oxide-resist patterns require structural preservation during cross-section sample preparation, linking advanced lithography to metrology and microscopy."
+          },
+          "timing": {
+            "zh": "國研院指出，以專用鍍膜輔助強化脆弱奈米結構後，可提供後續檢測分析；公開的是研究技術突破，並未表示某製程節點已進入高良率量產。",
+            "en": "NARLabs describes stabilizing fragile patterned structures with coating prior to analysis. The disclosed research milestone is not evidence of a qualified high-volume manufacturing node."
+          },
+          "unknowns": {
+            "zh": "未披露可比較的缺陷率、解析度實驗結果、半導體廠認證時程及商用檢測設備採購量。",
+            "en": "Comparative defect rates, tested resolution, fab qualification dates and commercial metrology orders were not disclosed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "製程量測、電源及分析設備業者可檢查不同光阻與膜層的適用範圍、樣品重現性及實際客戶驗證程序。研究成功不代表已取得量產設備合約。",
+        "en": "Process-metrology, power and analysis-tool suppliers would examine material compatibility, specimen reproducibility and qualification. Research success does not establish volume tool contracts."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "delta-thailand-35m-related-party-equipment",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台達電泰國子公司擬取得 3,450 萬美元設備，賣方為集團新加坡公司",
+        "en": "Delta Thailand plans US$34.5M equipment purchase from Singapore affiliate"
+      },
+      "summary": {
+        "zh": "台達電 10 月 27 日代泰國子公司 DET 公告，董事會決議向同集團新加坡子公司 DEIL-SG 取得供營業使用設備，總交易金額約 3,450 萬美元，說明與轉型智慧工廠的製造策略有關。此為關係人間設備資產交易，不等同於新增跨境外商投資或設備已全部驗收。",
+        "en": "Delta Electronics announced October 27 that its Thai subsidiary DET approved acquiring roughly US$34.5 million of operating equipment from fellow group company DEIL-SG in Singapore to support smart-factory manufacturing. It is a related-party asset transaction, not proof of incremental foreign investment or completed commissioning."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "設備轉移可能涉及產線自動化、產能配置與集團廠區間資產管理；公告僅以『供營業使用設備』描述，未提供品項和製造線別。",
+            "en": "Intercompany equipment transfers can concern line automation and production allocation. The disclosure only calls the assets operating equipment, without model or line detail."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與時程",
+            "en": "Published data and timing"
+          },
+          "text": {
+            "zh": "中央社引述上市公司 10 月 27 日重大訊息，交易由 DET 董事會決議，對手方為台達電新加坡子公司，交易金額約美金 3,450 萬。公告列明議價及電匯，不是新加坡外部企業對泰國的新股權投資。",
+            "en": "CNA reported the company's October 27 material disclosure: DET's board approved an approximately US$34.5M related-party acquisition from the group's Singapore unit, with negotiated terms and wire payment."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "設備清單、所在廠址、原值、安裝時程、產能變動與實際付款日期未公布。",
+            "en": "Equipment list, plant location, carrying value, installation timing, capacity changes and settlement date remain undisclosed."
+          }
+        }
+      ],
+      "metric": "US$34.5M",
+      "metricLabel": {
+        "zh": "關係人營業設備交易金額",
+        "en": "Related-party equipment transaction value"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610273003.aspx",
+          "name": {
+            "zh": "中央社 · 台達電泰國子公司設備交易",
+            "en": "CNA · Delta Thailand equipment transaction"
+          },
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "泰國 DET 子公司（實際設備裝設廠址未公告）；交易相對方位於新加坡。",
+        "en": "DET Thailand (installation site undisclosed); seller is a group affiliate in Singapore."
+      },
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣；泰國；新加坡",
+          "en": "Taiwan; Thailand; Singapore"
+        },
+        "industries": {
+          "zh": "工廠；自動化；設備；電源；伺服器；供電",
+          "en": "Factories; automation; equipment; power supply; servers"
+        },
+        "chain": {
+          "zh": "電源與工廠自動化設備至泰國製造終端",
+          "en": "Power and automation equipment to Thai manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "泰國子公司決議向集團新加坡公司購入資產，為交易額而非新增整體資本投入。",
+            "en": "Thai unit approved acquiring assets from Singapore affiliate; value is an intragroup transaction."
+          },
+          "demand": {
+            "zh": "未披露新增對外訂單或出貨。",
+            "en": "No new external orders or shipments disclosed."
+          },
+          "fdi": {
+            "zh": "屬關係企業間資產交易，不能計為新的實際 FDI 流入。",
+            "en": "Related-party asset transaction; not new realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "設備轉移可能涉及產線自動化、產能配置與集團廠區間資產管理；公告僅以『供營業使用設備』描述，未提供品項和製造線別。",
+            "en": "Intercompany equipment transfers can concern line automation and production allocation. The disclosure only calls the assets operating equipment, without model or line detail."
+          },
+          "timing": {
+            "zh": "中央社引述上市公司 10 月 27 日重大訊息，交易由 DET 董事會決議，對手方為台達電新加坡子公司，交易金額約美金 3,450 萬。公告列明議價及電匯，不是新加坡外部企業對泰國的新股權投資。",
+            "en": "CNA reported the company's October 27 material disclosure: DET's board approved an approximately US$34.5M related-party acquisition from the group's Singapore unit, with negotiated terms and wire payment."
+          },
+          "unknowns": {
+            "zh": "設備清單、所在廠址、原值、安裝時程、產能變動與實際付款日期未公布。",
+            "en": "Equipment list, plant location, carrying value, installation timing, capacity changes and settlement date remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "公告交易金額",
+            "en": "Announced equipment transaction value"
+          },
+          "current": 0.0345,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 27 日",
+            "en": "Oct 27, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 台達電泰國子公司設備交易之引述數據",
+            "en": "CNA · Delta Thailand equipment transaction attributed figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610273003.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未提供可比基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "智慧工廠電源、控制與測試系統業者可核對移轉設備類別、既有與新增裝機占比以及驗收階段。關係人交易價值不等於泰國廠新增加的生產能力。",
+        "en": "Smart-factory power and test suppliers would check equipment type, whether transferred or newly built, and acceptance status. An intercompany book transaction cannot establish incremental production capacity."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "esmt-2026-q3-memory-financial-results",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "晶豪科第三季營收 221.5 億元、歸母淨利 107.59 億元，毛利率 77.44%",
+        "en": "Elite Semiconductor Memory reports NT$22.15B sales and NT$10.759B Q3 profit"
+      },
+      "summary": {
+        "zh": "晶豪科 10 月 27 日公告第三季營收 221.5 億元、毛利率 77.44%、歸母淨利 107.59 億元與每股純益 36.79 元。公司報告營收季增 58.8%、淨利季增約 82%，但漲價及產品組合因素未附完整量價拆解，不能將收入成長當成晶圓產量成長。",
+        "en": "Elite Semiconductor Memory announced October 27 Q3 revenue of NT$22.15 billion, gross margin 77.44%, attributable profit NT$10.759 billion and EPS of NT$36.79. Revenue rose 58.8% sequentially and profit around 82%, without a decomposition of pricing, product mix and shipment volume."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "晶豪科提供各類記憶體晶片與控制用途元件，記憶體市場價格變化對其毛利率與營收具有影響；本期公司財務數據無法直接代表 NAND、DRAM 或其他品類個別量產增幅。",
+            "en": "ESMT sells memory products for a range of applications. Aggregate results do not isolate NAND, DRAM or other product output changes."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與進度",
+            "en": "Reported figures and timing"
+          },
+          "text": {
+            "zh": "第三季毛利率較第二季增加 8.74 個百分點。累計前九月營收 433.63 億元、歸母淨利 187.3 億元，是前三季累計，不能與單季同列比較。",
+            "en": "Q3 gross margin increased 8.74 percentage points sequentially. Jan-Sep revenue of NT$43.363B and profit of NT$18.73B are cumulative figures and not directly comparable with Q3 totals."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "未取得公司原始正式財報、產品分項出貨量、價格與銷量的個別變動。",
+            "en": "Original detailed financial statement, category shipments and the separate contribution from price and volume were not independently reviewed."
+          }
+        }
+      ],
+      "metric": "77.44%",
+      "metricLabel": {
+        "zh": "第三季毛利率",
+        "en": "Q3 gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270292.aspx",
+          "name": {
+            "zh": "中央社 · 晶豪科第三季財務實績",
+            "en": "CNA · ESMT Q3 earnings"
+          },
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "記憶體；晶圓；DRAM；NAND；終端設備",
+          "en": "Memory; wafers; DRAM; NAND; end-use devices"
+        },
+        "chain": {
+          "zh": "晶圓記憶體至電子終端",
+          "en": "Wafer memory to electronics devices"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增已核定資本支出。",
+            "en": "No new authorized capex."
+          },
+          "demand": {
+            "zh": "財務營收成長，未提供出貨量價拆解。",
+            "en": "Revenue grew without volume/price split."
+          },
+          "fdi": {
+            "zh": "未公布新的實際外資流入。",
+            "en": "No new realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶豪科提供各類記憶體晶片與控制用途元件，記憶體市場價格變化對其毛利率與營收具有影響；本期公司財務數據無法直接代表 NAND、DRAM 或其他品類個別量產增幅。",
+            "en": "ESMT sells memory products for a range of applications. Aggregate results do not isolate NAND, DRAM or other product output changes."
+          },
+          "timing": {
+            "zh": "第三季毛利率較第二季增加 8.74 個百分點。累計前九月營收 433.63 億元、歸母淨利 187.3 億元，是前三季累計，不能與單季同列比較。",
+            "en": "Q3 gross margin increased 8.74 percentage points sequentially. Jan-Sep revenue of NT$43.363B and profit of NT$18.73B are cumulative figures and not directly comparable with Q3 totals."
+          },
+          "unknowns": {
+            "zh": "未取得公司原始正式財報、產品分項出貨量、價格與銷量的個別變動。",
+            "en": "Original detailed financial statement, category shipments and the separate contribution from price and volume were not independently reviewed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 22.15,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 晶豪科第三季財務實績引述公司實績",
+            "en": "CNA · ESMT Q3 earnings attributed company results"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270292.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.588,
+          "baseStatus": "未於已取得來源明列可比絕對基期，不進行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 10.759,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 晶豪科第三季財務實績引述公司實績",
+            "en": "CNA · ESMT Q3 earnings attributed company results"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270292.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.82,
+          "baseStatus": "未於已取得來源明列可比絕對基期，不進行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.7744,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 晶豪科第三季財務實績引述公司實績",
+            "en": "CNA · ESMT Q3 earnings attributed company results"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270292.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未於已取得來源明列可比絕對基期，不進行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季每股純益",
+            "en": "Q3 earnings per share"
+          },
+          "current": 36.79,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 晶豪科第三季財務實績引述公司實績",
+            "en": "CNA · ESMT Q3 earnings attributed company results"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270292.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未於已取得來源明列可比絕對基期，不進行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "記憶體製程電源與測試設備業者應確認產品組合、實際投片與封測產能利用率是否有相對應的實績。營收大幅上升不能直接證明設備新增訂單或晶圓出貨同幅成長。",
+        "en": "Memory process-power and testing suppliers would verify wafer starts, product mix and utilization. Higher revenue alone does not establish matching equipment orders or unit shipments."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "hongwei-industrial-lift-3year-orders",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "宏偉電機稱高載重及無塵室工業電梯訂單能見度達三年",
+        "en": "Hongwei says specialized industrial lift orders now provide three years of visibility"
+      },
+      "summary": {
+        "zh": "宏偉電機 10 月 27 日媒體交流會指出，高載重、無塵室與自動搬運用途電梯的在手訂單能見度延長至三年，今年在手訂單數量較 2025 年增加一倍。公司說半導體周邊相關出貨占比約 59%，客戶涵蓋晶圓、封測與高科技工廠，但未公布可供核對的訂單絕對金額或特定廠房。",
+        "en": "On October 27, Hongwei Electric said its backlog for heavy-duty, cleanroom and automated material-handling lifts now offers three years of visibility, with orders on hand doubling versus 2025. It described semiconductor-related shipments as roughly 59% of the relevant mix, without disclosing absolute contract value or customer site details."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain"
+          },
+          "text": {
+            "zh": "高載重、無塵室與防爆電梯可用於晶圓、封測和精密工廠的物流與廠務動線。這類建廠周邊設備不等同於曝光、蝕刻或封測機台本身。",
+            "en": "Cleanroom, heavy-load and explosion-proof lifts support factory logistics and utilities, not front-end lithography or process equipment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與進度",
+            "en": "Reported figures and timing"
+          },
+          "text": {
+            "zh": "公司說今年接單出貨比持續逾一，業務涵蓋晶圓代工、半導體設備及後段封測客戶；在手訂單三年是企業口徑，並非確定三年營收額。",
+            "en": "Management said orders-to-shipments remained above one and reported sales to semiconductor and testing-related customers; three-year backlog visibility is a company estimate, not realized revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "沒有完整訂單台數、金額、交貨表、最終工地與客戶名稱，亦無可獨立驗證的在手訂單明細。",
+            "en": "Absolute backlog units, contract values, delivery schedule and named project sites were not disclosed or independently verified."
+          }
+        }
+      ],
+      "metric": "3 年",
+      "metricLabel": {
+        "zh": "在手訂單能見度",
+        "en": "Order backlog visibility"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610270188.aspx",
+          "name": {
+            "zh": "中央社 · 宏偉特殊工業設備接單",
+            "en": "CNA · Hongwei industrial equipment orders"
+          },
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；自動化；精密設備；晶圓；封裝；測試",
+          "en": "Factories; automation; precision equipment; wafers; packaging; test"
+        },
+        "chain": {
+          "zh": "精密設備與工廠自動化至晶圓封測廠務",
+          "en": "Industrial equipment to fab and testing facility systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增已支付的建廠或設備投資金額。",
+            "en": "No realized new facility or equipment capex disclosed."
+          },
+          "demand": {
+            "zh": "公司聲稱在手訂單能見度三年，但未提供可查總額。",
+            "en": "Management cited a three-year backlog without a disclosed total."
+          },
+          "fdi": {
+            "zh": "未公布新的實際外資流入。",
+            "en": "No new realized FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高載重、無塵室與防爆電梯可用於晶圓、封測和精密工廠的物流與廠務動線。這類建廠周邊設備不等同於曝光、蝕刻或封測機台本身。",
+            "en": "Cleanroom, heavy-load and explosion-proof lifts support factory logistics and utilities, not front-end lithography or process equipment."
+          },
+          "timing": {
+            "zh": "公司說今年接單出貨比持續逾一，業務涵蓋晶圓代工、半導體設備及後段封測客戶；在手訂單三年是企業口徑，並非確定三年營收額。",
+            "en": "Management said orders-to-shipments remained above one and reported sales to semiconductor and testing-related customers; three-year backlog visibility is a company estimate, not realized revenue."
+          },
+          "unknowns": {
+            "zh": "沒有完整訂單台數、金額、交貨表、最終工地與客戶名稱，亦無可獨立驗證的在手訂單明細。",
+            "en": "Absolute backlog units, contract values, delivery schedule and named project sites were not disclosed or independently verified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "訂單能見度",
+            "en": "Reported backlog visibility"
+          },
+          "current": 3,
+          "unit": "年",
+          "period": {
+            "zh": "2026 年 10 月 27 日說明",
+            "en": "Oct 27, 2026 statement"
+          },
+          "owner": {
+            "zh": "中央社 · 宏偉特殊工業設備接單引述公司實績",
+            "en": "CNA · Hongwei industrial equipment orders attributed company results"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610270188.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未於已取得來源明列可比絕對基期，不進行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "工廠電力與自動搬運設備業者可核對實際交付工地、升降設備負載規格及施工驗收。訂單能見度不是已實現營收，也不能用來推估任何晶圓廠的投產日期。",
+        "en": "Industrial power and material-handling suppliers would seek delivery sites, load ratings and acceptance milestones. Backlog visibility is not recognized revenue or evidence of wafer-fab commissioning."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "力成先進封裝逾三成營收是否表示 FOPLP 全部量產？",
+        "en": "Does Powertech's advanced packaging mix imply full FOPLP production?"
+      },
+      "text": {
+        "zh": "不是。逾三成是整體先進封裝營收占比，FOPLP 仍在客戶驗證、朝 2027 年量產目標推進。",
+        "en": "No. The share covers advanced packaging broadly, while FOPLP is still under customer qualification for a 2027 ramp."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "旺宏第三季營收成長有多少來自已完成擴產？",
+        "en": "How much of Macronix's Q3 growth came from finished expansion?"
+      },
+      "text": {
+        "zh": "公司表示新增產能預定 2027 年下半年才開出，且目前的營收成長與價格因素有關；無法由單一財務數字反推產能。",
+        "en": "Management says additional output starts in H2 2027 and current revenue includes price changes. Revenue cannot be converted into added wafer capacity."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "智原 2 奈米 NRE 訂單和量產出貨有何不同？",
+        "en": "How is Faraday's 2nm NRE contract different from volume shipments?"
+      },
+      "text": {
+        "zh": "NRE 是委託設計專案，預估 2027 年上半年開始認列收入；晶片尚須經過製程與客戶驗證才能談實際製造出貨。",
+        "en": "NRE covers design work with revenue expected in H1 2027, while fab qualification and volume chip shipments are separate milestones."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "參考備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "舊有 USB 合作新聞",
+        "en": "Older USB collaboration"
+      },
+      "text": {
+        "zh": "10 月 27 日媒體報導祥碩與英飛凌合作，惟該合作原始發布日為 9 月 30 日，未有足以單獨成為新事件的 10 月 27 日驗證資料。",
+        "en": "ASMedia-Infineon cooperation was re-reported October 27, but its original announcement was September 30 with no confirmed new operational milestone."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "力成、旺宏、智原、晶豪科及宏偉的主要資料由媒體引述公司說明，原始財報並未全部取得；中華精測則有原始第三季公告。台達泰國決議為集團內設備取得，不可列為新增外資；後續裝機與驗收未公布。",
+    "en": "Powertech, Macronix, Faraday, ESMT and Hongwei rely on company statements reported by CNA where original filings were not all available; CHPT has a primary Q3 report. Delta Thailand's equipment acquisition is intragroup rather than new FDI, with commissioning unconfirmed."
+  }
+}
