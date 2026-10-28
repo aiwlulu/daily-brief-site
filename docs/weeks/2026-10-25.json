@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-10-25",
-  "generatedAt": "2026-10-28T01:17:55.146Z",
+  "generatedAt": "2026-10-28T13:24:28.828Z",
   "throughline": {
-    "zh": "本週半導體產業呈現差異化的營運階段：旺宏記憶體及力成 FOPLP 擴產尚有量產時程，精測和晶豪科揭露第三季實績，泰國與新加坡的設備、電力和海纜計畫各有不同核准進度。",
-    "en": "This week reveals distinct stages: Macronix memory and Powertech FOPLP ramps are future targets, CHPT and ESMT published Q3 results, and equipment, power and connectivity projects in Thailand and Singapore remain at different execution stages."
+    "zh": "本週資料從晶圓與封測擴產授權、記憶體模組新廠及光學元件產能進度，延伸到資料中心電力與物流監管；各公司實績、未來計畫和官方查扣均保留獨立日期與狀態。",
+    "en": "This week's coverage spans foundry/test expansion approvals, memory-module and optical component ramps, data-center power and trade enforcement, preserving distinct dates and status for actual results, plans and seizures."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "記憶體、電子材料與稀土供應",
-        "en": "Memory, electronics materials and rare earths"
+        "zh": "記憶體模組、材料與高速晶片供應",
+        "en": "Memory modules, materials and high-speed chips"
       },
       "summary": {
-        "zh": "工研院規劃稀土示範廠，騰輝在泰國啟用銅箔基板廠，旺宏說明新增 NAND／eMMC 產能預計 2027 年下半年開出；晶豪科則公布第三季記憶體財務實績。上述資訊分別屬未來目標、已啟用廠房與已認列收入。",
-        "en": "ITRI described a rare-earth demonstration target and Tenghui opened a Thai laminate plant, while Macronix targets H2 2027 new NAND/eMMC output and ESMT reported Q3 earnings. These are planned capacity, opened facilities and realized financial results."
+        "zh": "工研院提出稀土材料規劃、騰輝泰國銅箔基板廠已小量出貨，旺宏記憶體擴產仍待 2027 年開出。十銓 10 月 28 日提出新北模組廠 2027 年第二季投產目標；譜瑞則預估第四季高速介面晶片營收季減，這些數字分屬實際、規劃及財測。",
+        "en": "ITRI presented a rare-earth plan, Tenghui's Thai CCL plant began small shipments and Macronix memory expansion targets 2027. TeamGroup plans Q2 2027 module production while Parade guided lower Q4 interface-chip revenue; actuals, plans and forecasts have different statuses."
       },
       "references": [
         {
@@ -33,6 +33,14 @@
         {
           "date": "2026-10-28",
           "storyId": 7
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 5
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 7
         }
       ]
     },
@@ -40,12 +48,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "工廠設備、製程量測與自動化",
-        "en": "Factory equipment, process metrology and automation"
+        "zh": "晶圓測試、工廠自動化與精密設備",
+        "en": "Wafer testing, factory automation and precision tools"
       },
       "summary": {
-        "zh": "台電公布颱風復電進度，鴻海與 NVIDIA 報告特定流程效率，中華電信成立智慧影像子公司；國研院與汎銓公布 High-NA EUV 樣品檢測方法，宏偉聲稱特殊工業電梯訂單能見度達三年。製造效率、技術開發與接單指標不能等量比較。",
-        "en": "Taipower restored power after a typhoon, Foxconn/NVIDIA reported measured workflow changes and Chunghwa Telecom launched a vision subsidiary. NARLabs/MSS presented a high-NA EUV metrology method and Hongwei reported three years of specialized-lift backlog visibility; these are different metrics."
+        "zh": "颱風後電網復原與鴻海 AI 工廠效率資料各屬不同營運場景；國研院與汎銓發表 High-NA EUV 樣品分析方法。中華精測 10 月 28 日新增探針卡營收與 2027 年產能目標，金鞍機械龍潭廠正式啟用，兩案仍有待確認絕對產能與交付。",
+        "en": "Grid restoration, Foxconn's AI manufacturing measurements and a NARLabs/MSS high-NA EUV metrology method represent separate stages. CHPT reported probe-card results and a 2027 capacity target on October 28, while Jin-An opened its Longtan factory; absolute throughput and deliveries remain distinct."
       },
       "references": [
         {
@@ -75,6 +83,14 @@
         {
           "date": "2026-10-28",
           "storyId": 8
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 9
         }
       ]
     },
@@ -82,12 +98,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "東南亞電源與資料中心基礎設施",
-        "en": "Southeast Asian power and data-center infrastructure"
+        "zh": "台灣與東南亞資料中心電力及供應鏈",
+        "en": "Power and data-center infrastructure across Taiwan and Southeast Asia"
       },
       "summary": {
-        "zh": "MViSTA 海纜仍在供應商招標，馬來西亞總理談及大型資料中心投資意向，新加坡 EMA 另有條件核准 1.3GW 跨境電力計畫；台達電泰國子公司公告向集團新加坡公司取得設備。跨境電力核准、投資意向及關係人資產取得都不能視為已裝機容量。",
-        "en": "MViSTA remains in tender, Malaysia's prime minister cited an investment intention, and Singapore EMA granted conditional 1.3GW power-import approval. Delta Thailand approved an intragroup equipment acquisition, none of which independently establishes live data-center capacity."
+        "zh": "MViSTA 海纜仍在招標，馬來西亞 500 億美元資料中心投資意向未具正式專案核准；新加坡跨國電力輸入取得條件性核准。台達電公布第三季合併財報，是方電訊報告機房業績與 LY2 進駐率目標；各案的財務實績、投資意向及已併網容量不可混為一談。",
+        "en": "MViSTA remains in tender, Malaysia's US$50B intention lacks approved projects and Singapore granted conditional power-import approval. Delta published Q3 results and Chief Telecom described data-center revenue and an LY2 occupancy goal; financial results, intentions and energized capacity are different measures."
       },
       "references": [
         {
@@ -105,6 +121,14 @@
         {
           "date": "2026-10-28",
           "storyId": 6
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 4
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 8
         }
       ]
     },
@@ -112,12 +136,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "封裝測試、光互連與高科技設備供應",
-        "en": "Packaging, optical interconnect and equipment supply"
+        "zh": "先進封裝、光通訊與電子測試設備",
+        "en": "Advanced packaging, optics and electronics test equipment"
       },
       "summary": {
-        "zh": "玉晶光與 3M 光互連合作尚無已驗收量產數據，長榮航說明高科技貨運需求，ASMPT 的 SMT 事業出售仍在洽談；力成新公布先進封裝營收占比逾三成，中華精測公布晶圓測試卡帶動的第三季實績。FOPLP 的 2027 年量產目標仍與現有封測收入分開。",
-        "en": "GSEO/3M's optical interconnect remains unqualified at volume, EVA Air discussed cargo and ASMPT's SMT sale remains under review. Powertech reports over 30% advanced packaging revenue and CHPT Q3 results reflect probe-card sales, while FOPLP's 2027 ramp is still prospective."
+        "zh": "玉晶光與 3M 光互連合作尚未公布量產客戶驗收；力成先進封裝營收占比已逾三成，FOPLP 仍待量產認證。ASMPT SMT 交易仍屬未簽約洽談，穩懋 10 月 28 日公布光接收 PD 產能爬坡與第三季財報，不能將遠期出貨目標視為已交付。",
+        "en": "GSEO and 3M's optical interconnect has no published customer volume qualification, while Powertech's advanced packaging share exceeds 30% but FOPLP awaits qualification. ASMPT's SMT divestiture remains unsigned and WIN reported Q3 results and a photodiode ramp on October 28, with future deliveries unconfirmed."
       },
       "references": [
         {
@@ -139,6 +163,10 @@
         {
           "date": "2026-10-28",
           "storyId": 4
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 6
         }
       ]
     },
@@ -146,12 +174,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "晶圓設計、製造專案與跨境合作",
-        "en": "Wafer design, fab development and cross-border cooperation"
+        "zh": "晶圓製造、跨境合作及晶片監管",
+        "en": "Wafer fabrication, regional cooperation and chip controls"
       },
       "summary": {
-        "zh": "台菲經濟走廊合作仍屬政策方向，Reuters 指越南 Viettel 晶圓廠工程與 DUV 採購未完成；智原 10 月 27 日公布與三星及聯電相關的美國 2 奈米 GAA 設計案。晶片委託設計、晶圓廠建造與量產出貨是不同執行階段。",
-        "en": "Philippine semiconductor corridors remain policy discussions and Reuters reported uncompleted Viettel fab construction and DUV sourcing. Faraday announced a U.S. 2nm GAA design project with Samsung and UMC partnerships; design work, fab building and volume production are separate stages."
+        "zh": "台菲半導體經濟走廊仍為政策討論，Reuters 先前報導越南 Viettel 晶圓廠工地與 DUV 採購未完成，智原另宣布 2 奈米晶片委託設計案。聯電 10 月 28 日核准追加約 32 億美元擴產預算，馬來西亞海關同日公布 15 日查獲的 AI 晶片伺服器案件；核准資本支出與海關查扣均須保留其性質與日期。",
+        "en": "Philippine semiconductor corridors remain policy discussions, Reuters reported incomplete Viettel fab and DUV milestones, and Faraday disclosed a 2nm design project. UMC authorized about US$3.2B extra expansion on October 28; Malaysian customs separately disclosed an October 15 AI-server seizure, with distinct approval and enforcement dates."
       },
       "references": [
         {
@@ -164,6 +192,14 @@
         },
         {
           "date": "2026-10-28",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-29",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-29",
           "storyId": 3
         }
       ]

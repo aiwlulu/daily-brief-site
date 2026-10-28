@@ -1,0 +1,1910 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-28T13:24:28.828Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣及東南亞的晶圓、記憶體模組、半導體測試、電源散熱與資料中心",
+      "en": "Wafer fabs, memory modules, semiconductor testing, power/cooling and data centers in Taiwan and Southeast Asia"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "聯電追加擴產預算及中華精測探針卡產能規劃，呈現半導體製造與測試的未來設備節點；台達電和是方已公布第三季財務實績，馬來西亞海關則公告 AI 伺服器轉運查扣案件。",
+    "en": "UMC's expansion authorization and CHPT's probe-card ramp detail planned semiconductor capacity, while Delta and Chief Telecom reported Q3 financials and Malaysian customs disclosed an AI-server transshipment seizure."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "聯電董事會追加核准約 32 億美元擴產預算，擬加快新加坡及南科建置；第三季稼動率 92%。",
+        "en": "UMC approved roughly US$3.2B in additional expansion budget for Singapore and Tainan; Q3 utilization was 92%."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "追蹤中華精測：高階探針卡第三季營收近 4 億元，2027 年第一季產能目標為 2025 年底的 3 倍。",
+        "en": "CHPT follow-up: advanced probe cards contributed nearly NT$400M in Q3; Q1 2027 capacity targets three times end-2025."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "馬來西亞海關 10 月 28 日公布，15 日查獲 30 台疑涉違規轉運的 AI 晶片伺服器，晶片估值 4,950 萬令吉。",
+        "en": "Malaysia customs disclosed Oct 28 that 30 servers with AI chips valued at MYR49.5M were seized Oct 15 in a suspected transit-control violation."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "台達電第三季營收 1,970.59 億元、淨利 234.95 億元；10 月 29 日法說尚未舉行。",
+        "en": "Delta Q3 revenue reached NT$197.059B and attributable profit NT$23.495B; its October 29 outlook call is pending."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "十銓計畫在新北市的新廠 2027 年第二季投產，模組產能目標提高約 50%。",
+        "en": "TeamGroup plans a New Taipei memory-module plant for Q2 2027, targeting around 50% additional capacity."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "umc-2026-q3-extra-capex-singapore-tainan",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "聯電董事會追加約 32 億美元擴產預算，指向新加坡與南科",
+        "en": "UMC approves approximately US$3.2B additional capacity budget for Singapore and Tainan"
+      },
+      "summary": {
+        "zh": "聯電 10 月 28 日董事會通過約 32 億美元追加擴產預算，公司表示將用於加快新加坡與南科擴建進度，但未提供新產能逐月開出日期。第三季合併營收 742.4 億元、毛利率 34%，12 吋約當晶圓出貨逾 120 萬片，產能利用率達 92%。",
+        "en": "On October 28, UMC's board approved around US$3.2 billion of additional expansion budget, intended to accelerate its Singapore and Tainan capacity plans, with no individual ramp dates. Q3 revenue was NT$74.24 billion, gross margin 34%, 12-inch-equivalent shipments over 1.2 million wafers and utilization 92%."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "晶圓代工產能包括成熟節點與 22／28 奈米特殊製程，涉及電源管理 IC、連接晶片、矽光子和工業控制。追加核准資金不等於設備已裝機或支出已發生。",
+            "en": "The foundry serves mature and specialty nodes including 22/28nm technologies for power management, connectivity, silicon photonics and industrial controls. Board-authorized funding is not commissioned equipment or cash spent."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "聯電原定 2026 年資本支出約 20 億美元，此次為董事會另外核准的擴產預算，不應與季度費用混為一談。公司預估第四季出貨季增 1% 至 3%、稼動率約 91% 至 93%，2027 年平均售價年增 10% 為管理階層預期，非已簽實績。",
+            "en": "UMC described US$2 billion 2026 capex separately from the new authorization. Guidance calls for Q4 shipment growth of 1% to 3% and utilization of 91% to 93%; 2027 blended ASP growth of 10% is a management expectation, not realized pricing."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "沒有分廠核定支出配置、採購設備清單、投片擴增量、實際動工或轉量產日期；遠期平均售價及 AI 營收占比均為預測。",
+            "en": "Site-by-site spending, tool awards, additional wafer starts, construction and commissioning dates are unknown; ASP and AI mix statements are forecasts."
+          }
+        }
+      ],
+      "metric": "US$3.2B",
+      "metricLabel": {
+        "zh": "董事會追加核准擴產預算",
+        "en": "Board-approved additional capex"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "url": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20261028",
+          "type": "First-hand",
+          "name": {
+            "zh": "聯電 · 第三季正式營運報告",
+            "en": "UMC · official Q3 results"
+          }
+        },
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280287.aspx",
+          "type": "Second-hand",
+          "name": {
+            "zh": "中央社 · 董事會擴產與法說",
+            "en": "CNA · capex and outlook"
+          }
+        }
+      ],
+      "location": {
+        "zh": "台灣台南科學園區及新加坡既有與規劃廠區（擴產所在區域，未指定新增廠房地址）。",
+        "en": "Tainan Science Park, Taiwan, and Singapore facilities (regions for expansion; specific new building sites unspecified)."
+      },
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣；新加坡",
+          "en": "Taiwan; Singapore"
+        },
+        "industries": {
+          "zh": "晶圓；代工；設備；電源管理 IC；矽光子；封裝",
+          "en": "Wafers; foundry; equipment; power-management IC; silicon photonics; packaging"
+        },
+        "chain": {
+          "zh": "晶圓代工設備與電源管理晶片至封裝測試",
+          "en": "Foundry equipment and power ICs through packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "追加約 32 億美元為董事會核准預算，非已支出 FDI。",
+            "en": "US$3.2B is approved expansion budget, not disbursed FDI."
+          },
+          "demand": {
+            "zh": "未公布實際新增訂單或出貨件數。",
+            "en": "No new verified orders or shipment counts disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶圓代工產能包括成熟節點與 22／28 奈米特殊製程，涉及電源管理 IC、連接晶片、矽光子和工業控制。追加核准資金不等於設備已裝機或支出已發生。",
+            "en": "The foundry serves mature and specialty nodes including 22/28nm technologies for power management, connectivity, silicon photonics and industrial controls. Board-authorized funding is not commissioned equipment or cash spent."
+          },
+          "timing": {
+            "zh": "聯電原定 2026 年資本支出約 20 億美元，此次為董事會另外核准的擴產預算，不應與季度費用混為一談。公司預估第四季出貨季增 1% 至 3%、稼動率約 91% 至 93%，2027 年平均售價年增 10% 為管理階層預期，非已簽實績。",
+            "en": "UMC described US$2 billion 2026 capex separately from the new authorization. Guidance calls for Q4 shipment growth of 1% to 3% and utilization of 91% to 93%; 2027 blended ASP growth of 10% is a management expectation, not realized pricing."
+          },
+          "unknowns": {
+            "zh": "沒有分廠核定支出配置、採購設備清單、投片擴增量、實際動工或轉量產日期；遠期平均售價及 AI 營收占比均為預測。",
+            "en": "Site-by-site spending, tool awards, additional wafer starts, construction and commissioning dates are unknown; ASP and AI mix statements are forecasts."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "追加擴產授權額",
+            "en": "Additional expansion authorization"
+          },
+          "current": 3.2,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 28 日董事會決議",
+            "en": "Board decision Oct 28, 2026"
+          },
+          "owner": {
+            "zh": "聯電董事會，由中央社引述",
+            "en": "UMC board, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280287.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 74.24,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯電 · 第三季正式營運報告公布或引述的數值",
+            "en": "UMC · official Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20261028",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "reportedRate": 0.08,
+          "base": 68.73,
+          "basePeriod": "2026 年第二季 / Q2 2026",
+          "baseStatus": "採用來源明列的同口徑基期數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 16.43,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯電 · 第三季正式營運報告公布或引述的數值",
+            "en": "UMC · official Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20261028",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.34,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯電 · 第三季正式營運報告公布或引述的數值",
+            "en": "UMC · official Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20261028",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季稼動率",
+            "en": "Q3 utilization"
+          },
+          "current": 0.92,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯電 · 第三季正式營運報告公布或引述的數值",
+            "en": "UMC · official Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20261028",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季 22/28 奈米占營收比率",
+            "en": "Q3 22/28nm wafer revenue share"
+          },
+          "current": 0.35,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯電 · 第三季正式營運報告公布或引述的數值",
+            "en": "UMC · official Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20261028",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源、量測和先進封裝設備供應商需核對新加坡與南科分別核准的工具規格、採購及設備驗收時點。現階段只有董事會授權額與現有稼動率，尚不足以量化未來交付。",
+        "en": "Process-power, metrology and packaging tool suppliers would verify equipment specifications and procurement schedules separately for Singapore and Tainan. Authorization and current utilization do not establish tool delivery."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "chpt-probecard-2026-10-28-follow-up",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：中華精測高階探針卡第三季近 4 億元，2027 年第一季產能目標達 2025 年底 3 倍",
+        "en": "Follow-up: CHPT reports nearly NT$400M Q3 advanced probe-card sales and 3x capacity target"
+      },
+      "summary": {
+        "zh": "中華精測 10 月 28 日法說指出，今年第三季高階探針卡營收接近 4 億元，約占單季營收 21%，高效能運算（HPC）業務占比 65.9%。公司表示今年 8 月產能已達 2025 年底的 2 倍，並規劃 2027 年第一季達 3 倍；這是前一日財報以外新增的產品與擴產進度。",
+        "en": "At an October 28 briefing, CHPT said advanced probe cards contributed nearly NT$400 million or 21% of Q3 revenue, while HPC products represented 65.9%. Capacity had doubled relative to end-2025 by August, with a threefold level targeted for Q1 2027, adding operational detail to the previous day's earnings."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "探針卡、晶圓測試板及高功率老化測試板支援 GPU、TPU、ASIC 和矽光子 CPO 的晶圓與封裝測試。高頻訊號、電力完整性和高溫耐受規格因產品而異。",
+            "en": "Probe cards, wafer test boards and high-power burn-in systems serve GPUs, TPUs, ASICs and CPO testing. Signal, power-integrity and temperature requirements differ by product."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "公司表示高階 CPU 探針卡工程驗證樣品預計 11 月出貨，量產仍以 2027 年為目標；CPO 測試介面正在與五家以上企業洽談。已核實的是公司當日陳述，不代表所有客戶驗證完成。",
+            "en": "Management expects engineering CPU probe-card samples in November and targets volume production in 2027; CPO test interface talks involve more than five firms. These are stated qualification and commercial milestones, not completed acceptance."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未披露各產線絕對測試通道、測試介面月產能、已驗收客戶清單及高功率老化板出貨量。",
+            "en": "Absolute throughput, channel counts, accepted customers and high-power burn-in board volumes remain undisclosed."
+          }
+        }
+      ],
+      "metric": "近 NT$4 億",
+      "metricLabel": {
+        "zh": "第三季高階探針卡營收",
+        "en": "Q3 advanced probe-card sales"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280220.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 精測法說與探針卡產能",
+            "en": "CNA · CHPT briefing and probe-card capacity"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；封測；測試；探針卡；設備；CPO",
+          "en": "Wafers; packaging/test; probe cards; tools; CPO"
+        },
+        "chain": {
+          "zh": "晶圓測試與封測設備至高功率老化測試",
+          "en": "Wafer sort and test equipment through burn-in"
+        },
+        "changes": {
+          "investment": {
+            "zh": "規劃擴產，但未公布本次新增核定設備支出。",
+            "en": "Capacity expansion discussed with no new approved tool spending disclosed."
+          },
+          "demand": {
+            "zh": "已披露第三季探針卡營收；11 月工程樣品和 2027 年量產仍屬預計。",
+            "en": "Q3 probe-card sales reported; November samples and 2027 volume are pending."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "探針卡、晶圓測試板及高功率老化測試板支援 GPU、TPU、ASIC 和矽光子 CPO 的晶圓與封裝測試。高頻訊號、電力完整性和高溫耐受規格因產品而異。",
+            "en": "Probe cards, wafer test boards and high-power burn-in systems serve GPUs, TPUs, ASICs and CPO testing. Signal, power-integrity and temperature requirements differ by product."
+          },
+          "timing": {
+            "zh": "公司表示高階 CPU 探針卡工程驗證樣品預計 11 月出貨，量產仍以 2027 年為目標；CPO 測試介面正在與五家以上企業洽談。已核實的是公司當日陳述，不代表所有客戶驗證完成。",
+            "en": "Management expects engineering CPU probe-card samples in November and targets volume production in 2027; CPO test interface talks involve more than five firms. These are stated qualification and commercial milestones, not completed acceptance."
+          },
+          "unknowns": {
+            "zh": "未披露各產線絕對測試通道、測試介面月產能、已驗收客戶清單及高功率老化板出貨量。",
+            "en": "Absolute throughput, channel counts, accepted customers and high-power burn-in board volumes remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季 HPC 營收占比",
+            "en": "Q3 HPC revenue share"
+          },
+          "current": 0.659,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 精測法說與探針卡產能公布或引述的數值",
+            "en": "CNA · CHPT briefing and probe-card capacity reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280220.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季探針卡營收占比",
+            "en": "Q3 probe-card revenue share"
+          },
+          "current": 0.21,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 精測法說與探針卡產能公布或引述的數值",
+            "en": "CNA · CHPT briefing and probe-card capacity reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280220.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年第一季相對 2025 年底產能目標倍數",
+            "en": "Q1 2027 capacity multiple vs end-2025"
+          },
+          "current": 3,
+          "unit": "倍",
+          "period": {
+            "zh": "2027 年第一季目標",
+            "en": "Q1 2027 target"
+          },
+          "owner": {
+            "zh": "中央社 · 精測法說與探針卡產能公布或引述的數值",
+            "en": "CNA · CHPT briefing and probe-card capacity reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280220.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "測試電源、探針台和高功率老化設備供應商需確認 HPC 探針卡的功率密度、通道數和客戶驗收時程。倍數產能目標沒有絕對片數，無法據此推算裝機量。",
+        "en": "Test-power, prober and burn-in suppliers would verify power density, channel requirements and qualification dates. A capacity multiple without absolute unit throughput cannot determine equipment volumes."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "malaysia-klia-ai-chips-customs-seizure-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "馬來西亞海關公布查扣 30 台伺服器，疑載價值約 4,950 萬令吉 AI 晶片",
+        "en": "Malaysia customs reports seizure of 30 servers containing AI chips valued near MYR49.5M"
+      },
+      "summary": {
+        "zh": "馬來西亞海關 10 月 28 日公布，本月 15 日在吉隆坡國際機場自由貿易區查獲 30 台伺服器，內含疑涉違規轉運的高階 AI 晶片，估值約 4,950 萬令吉。貨物據稱以電子零組件申報，原產國、目的地、晶片型號和最終責任仍在調查，不能視為已確認走私判決。",
+        "en": "On October 28, Malaysian customs disclosed that it intercepted 30 servers carrying advanced AI chips at Kuala Lumpur International Airport's free trade zone on October 15, estimating their value at MYR49.5 million. Authorities allege misdeclaration during transshipment; origin, final destination, chip models and legal findings remain under investigation."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "跨境伺服器、GPU 與晶片組件的出口管制及轉運許可對資料中心供應鏈有直接影響。海關查獲貨件與合法跨境伺服器出貨須分開，案件數量不能代表市場正常運量。",
+            "en": "Export controls and transit permits affect international GPU and server movements. Customs seizures are not a measure of legitimate server shipping volume."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "Reuters 引述海關表示貨運需申請貿易許可，且已調查至少五宗可能相關案件，累計查扣晶片價值逾 1 億令吉；其中 4,950 萬令吉為本次 10 月 15 日查獲批次。",
+            "en": "Reuters cited customs saying transshipment required a trade permit and that at least five suspected related cases involved more than MYR100 million in total seized chips. MYR49.5 million refers specifically to the October 15 interception."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "尚無起訴及判決、原始和目的國、晶片性能及客戶名稱，也未確認貨物最終處理方式。",
+            "en": "Charges, convictions, shipment origin/destination, chip specifications, customers and disposition remain undisclosed."
+          }
+        }
+      ],
+      "metric": "MYR49.5M",
+      "metricLabel": {
+        "zh": "本次查獲晶片估值",
+        "en": "Estimated value of this seizure"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/china/ai-chips-worth-121-million-seized-malaysia-airport-customs-authority-says-2026-10-28/",
+          "type": "Second-hand",
+          "name": {
+            "zh": "Reuters · 馬來西亞海關記者會",
+            "en": "Reuters · Malaysia customs briefing"
+          }
+        }
+      ],
+      "location": {
+        "zh": "馬來西亞雪蘭莪州雪邦，吉隆坡國際機場自由貿易區（海關查獲地）。",
+        "en": "KL International Airport free trade zone, Sepang, Selangor, Malaysia (customs seizure site)."
+      },
+      "market": {
+        "eventDate": "2026-10-15",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "伺服器；GPU；晶片；資料中心；政策；海關",
+          "en": "Servers; GPUs; chips; data centers; regulation; customs"
+        },
+        "chain": {
+          "zh": "晶片零組件與伺服器跨境物流及監管",
+          "en": "Chips and servers through cross-border logistics and regulatory control"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增核定資本支出。",
+            "en": "No newly approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "查扣貨品非新增合法客戶訂單，無出貨需求推論。",
+            "en": "Seized cargo does not represent legitimate new orders."
+          },
+          "fdi": {
+            "zh": "非投資事件，無新增 FDI。",
+            "en": "Enforcement action, not a new FDI event."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "跨境伺服器、GPU 與晶片組件的出口管制及轉運許可對資料中心供應鏈有直接影響。海關查獲貨件與合法跨境伺服器出貨須分開，案件數量不能代表市場正常運量。",
+            "en": "Export controls and transit permits affect international GPU and server movements. Customs seizures are not a measure of legitimate server shipping volume."
+          },
+          "timing": {
+            "zh": "10 月 15 日於機場查獲，10 月 28 日馬來西亞海關公開說明。",
+            "en": "Seized Oct 15 at the airport; disclosed Oct 28 by Malaysian customs."
+          },
+          "unknowns": {
+            "zh": "尚無起訴及判決、原始和目的國、晶片性能及客戶名稱，也未確認貨物最終處理方式。",
+            "en": "Charges, convictions, shipment origin/destination, chip specifications, customers and disposition remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "本次查獲晶片價值",
+            "en": "Value of seized AI chips"
+          },
+          "current": 49.5,
+          "unit": "MYR million",
+          "period": {
+            "zh": "2026 年 10 月 15 日查獲，28 日公布",
+            "en": "Seized Oct 15; disclosed Oct 28, 2026"
+          },
+          "owner": {
+            "zh": "Reuters · 馬來西亞海關記者會公布或引述的數值",
+            "en": "Reuters · Malaysia customs briefing reporting attributed figure"
+          },
+          "sourceUrl": "https://www.reuters.com/world/china/ai-chips-worth-121-million-seized-malaysia-airport-customs-authority-says-2026-10-28/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "查獲伺服器台數",
+            "en": "Number of seized servers"
+          },
+          "current": 30,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 10 月 15 日查獲，28 日公布",
+            "en": "Seized Oct 15; disclosed Oct 28, 2026"
+          },
+          "owner": {
+            "zh": "Reuters · 馬來西亞海關記者會公布或引述的數值",
+            "en": "Reuters · Malaysia customs briefing reporting attributed figure"
+          },
+          "sourceUrl": "https://www.reuters.com/world/china/ai-chips-worth-121-million-seized-malaysia-airport-customs-authority-says-2026-10-28/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "伺服器與測試設備物流相關業者須區分轉運申報、原產地文件與出口許可要求。案件仍在調查，不能推論任何已具名供應商涉及違法行為。",
+        "en": "Server and test-equipment logistics providers would distinguish declarations, origin documentation and required permits. The investigation does not establish wrongdoing by any named manufacturer."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "delta-electronics-2026-q3-financials",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "台達電第三季營收 1,970.59 億元、歸母淨利 234.95 億元，29 日將召開法說",
+        "en": "Delta Electronics Q3 revenue reaches NT$197.059B; attributable profit NT$23.495B"
+      },
+      "summary": {
+        "zh": "台達電 10 月 28 日公布第三季營收新台幣 1,970.59 億元、歸母淨利 234.95 億元，每股盈餘 9.04 元；營收年增約 31%，獲利季減 6.5%。公司預定 10 月 29 日法說會說明後續電源及散熱業務展望，尚不能提前寫成正式財測。",
+        "en": "Delta Electronics released October 28 Q3 results: NT$197.059 billion revenue, NT$23.495 billion attributable profit and EPS of NT$9.04. Sales rose roughly 31% year on year while profit declined 6.5% sequentially; an October 29 investor call has yet to provide updated power and cooling guidance."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "台達電營運涵蓋伺服器電源、資料中心供電、熱管理、工業自動化及能源設備。合併營收涵蓋多部門，不等於 AI 機櫃電源的獨立出貨收入。",
+            "en": "Delta's consolidated business spans server power, data-center infrastructure, thermal systems and automation. Group revenue does not measure AI rack power alone."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "第三季毛利率 34.08%，較上年同期減少 0.79 個百分點；歸母淨利年增 26.3% 但季減 6.5%。數值屬正式財報，尚無 29 日法說的後續明確出貨及產品別財測。",
+            "en": "Q3 gross margin was 34.08%, down 0.79 percentage points year over year, and attributable profit rose 26.3% YoY but fell 6.5% QoQ. The next day's investor guidance is not yet available."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未公布本次可直接核對的 HVDC／液冷／機櫃電源個別營收與獲利，也沒有 29 日法說的正式展望。",
+            "en": "Separate HVDC, liquid-cooling and rack power revenue/profit and October 29 guidance are unavailable."
+          }
+        }
+      ],
+      "metric": "NT$197.059B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280291.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 台達電第三季財報",
+            "en": "CNA · Delta Electronics Q3 results"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣；泰國（集團既有營運）",
+          "en": "Taiwan; Thailand (existing operations)"
+        },
+        "industries": {
+          "zh": "電源；供電；資料中心；散熱；液冷；工廠自動化",
+          "en": "Power conversion; data centers; cooling; liquid cooling; factories"
+        },
+        "chain": {
+          "zh": "資料中心電源與液冷至工廠自動化",
+          "en": "Data-center power and liquid cooling through factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增核定資本支出。",
+            "en": "No newly approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未公布實際新增訂單或出貨件數。",
+            "en": "No new verified orders or shipment counts disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台達電營運涵蓋伺服器電源、資料中心供電、熱管理、工業自動化及能源設備。合併營收涵蓋多部門，不等於 AI 機櫃電源的獨立出貨收入。",
+            "en": "Delta's consolidated business spans server power, data-center infrastructure, thermal systems and automation. Group revenue does not measure AI rack power alone."
+          },
+          "timing": {
+            "zh": "第三季毛利率 34.08%，較上年同期減少 0.79 個百分點；歸母淨利年增 26.3% 但季減 6.5%。數值屬正式財報，尚無 29 日法說的後續明確出貨及產品別財測。",
+            "en": "Q3 gross margin was 34.08%, down 0.79 percentage points year over year, and attributable profit rose 26.3% YoY but fell 6.5% QoQ. The next day's investor guidance is not yet available."
+          },
+          "unknowns": {
+            "zh": "未公布本次可直接核對的 HVDC／液冷／機櫃電源個別營收與獲利，也沒有 29 日法說的正式展望。",
+            "en": "Separate HVDC, liquid-cooling and rack power revenue/profit and October 29 guidance are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 197.059,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 台達電第三季財報公布或引述的數值",
+            "en": "CNA · Delta Electronics Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280291.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.31,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 23.495,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 台達電第三季財報公布或引述的數值",
+            "en": "CNA · Delta Electronics Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280291.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.263,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.3408,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 台達電第三季財報公布或引述的數值",
+            "en": "CNA · Delta Electronics Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280291.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季每股純益",
+            "en": "Q3 EPS"
+          },
+          "current": 9.04,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 台達電第三季財報公布或引述的數值",
+            "en": "CNA · Delta Electronics Q3 results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280291.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "電源轉換與工業量測供應商應分清集團財報與資料中心電源各產品的實際交付量，並核對後續法說是否揭露新款產品驗收。財報數值不能直接推算新增機櫃設備需求。",
+        "en": "Power and industrial metrology suppliers would separate group results from actual delivery of data-center modules and monitor later product qualification disclosures. Consolidated sales alone cannot quantify new rack deployment."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "teamgroup-new-taiwan-factory-2027",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "十銓在新北購置約 1,000 坪新廠，2027 年第二季規劃投產並增產能約 50%",
+        "en": "TeamGroup plans New Taipei factory launch in Q2 2027 with 50% capacity increase"
+      },
+      "summary": {
+        "zh": "十銓 10 月 28 日公布，在新北市購置約 1,000 坪廠房，計畫於 2027 年第一季裝修及導入自動化設備、第二季投產，預估產能增加約 50%。第三季營收 101.39 億元、EPS 37.19 元；媒體同篇報導的第三季淨利金額出現前後不一致，因此暫不採用該數字。",
+        "en": "On October 28, TeamGroup described purchasing an approximately 1,000-ping facility in New Taipei City, targeting automation installation in Q1 2027 and production in Q2, with roughly 50% additional capacity. Q3 revenue was NT$10.139 billion and EPS NT$37.19; inconsistent net-profit figures within the same report are omitted pending reconciliation."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "十銓從事 DRAM、SSD 等記憶體模組及企業與工控用儲存產品，新增工廠聚焦少量多樣的模組組裝與測試。模組產能與上游記憶體晶圓產能不可混為一談。",
+            "en": "TeamGroup makes DRAM and SSD modules for enterprise, industrial and consumer systems. The new factory expands module assembly/test, not upstream DRAM wafer capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "公司亦整合 B2B 與 B2C 事業群，另購置約 700 坪辦公空間。50% 為公司預估的總產能增幅，但未提供目前月產量基準或設備投資額。",
+            "en": "The company also reorganized business units and acquired about 700 ping of office space. The 50% target lacks a published absolute monthly-output base or equipment capex."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "新廠精確位置、契約金額、機台採購、合格模組產能及財報矛盾的單季淨利數值仍待查明。",
+            "en": "Exact location, transaction value, tool orders, qualified module output and the conflicting net-profit figure remain unresolved."
+          }
+        }
+      ],
+      "metric": "50%",
+      "metricLabel": {
+        "zh": "2027 年規劃模組產能增幅",
+        "en": "Planned module capacity expansion"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280201.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 十銓廠房與組織調整",
+            "en": "CNA · TeamGroup factory and reorganization"
+          }
+        }
+      ],
+      "location": {
+        "zh": "台灣新北市（已購置廠房，未公開確切地址或工業區）。",
+        "en": "New Taipei City, Taiwan (acquired facility; exact address not disclosed)."
+      },
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "DRAM；SSD；記憶體；工廠自動化；測試；零組件",
+          "en": "DRAM; SSD; memory; factory automation; testing; components"
+        },
+        "chain": {
+          "zh": "記憶體模組及 SSD 至自動化終端工廠",
+          "en": "Memory modules and SSDs to automated end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "購置新北市約千坪廠房，未披露交易額。",
+            "en": "Acquired a roughly 1,000-ping New Taipei site without purchase price disclosure."
+          },
+          "demand": {
+            "zh": "擴產為企業及工控應用規劃，新增訂單絕對量未公布。",
+            "en": "Factory targets enterprise and industrial products without booked-order volumes."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "十銓從事 DRAM、SSD 等記憶體模組及企業與工控用儲存產品，新增工廠聚焦少量多樣的模組組裝與測試。模組產能與上游記憶體晶圓產能不可混為一談。",
+            "en": "TeamGroup makes DRAM and SSD modules for enterprise, industrial and consumer systems. The new factory expands module assembly/test, not upstream DRAM wafer capacity."
+          },
+          "timing": {
+            "zh": "公司亦整合 B2B 與 B2C 事業群，另購置約 700 坪辦公空間。50% 為公司預估的總產能增幅，但未提供目前月產量基準或設備投資額。",
+            "en": "The company also reorganized business units and acquired about 700 ping of office space. The 50% target lacks a published absolute monthly-output base or equipment capex."
+          },
+          "unknowns": {
+            "zh": "新廠精確位置、契約金額、機台採購、合格模組產能及財報矛盾的單季淨利數值仍待查明。",
+            "en": "Exact location, transaction value, tool orders, qualified module output and the conflicting net-profit figure remain unresolved."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 10.139,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 十銓廠房與組織調整公布或引述的數值",
+            "en": "CNA · TeamGroup factory and reorganization reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280201.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季 EPS",
+            "en": "Q3 EPS"
+          },
+          "current": 37.19,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 十銓廠房與組織調整公布或引述的數值",
+            "en": "CNA · TeamGroup factory and reorganization reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280201.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "新廠產能增加目標",
+            "en": "Target additional assembly capacity"
+          },
+          "current": 0.5,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年第二季預計投產",
+            "en": "Target commissioning Q2 2027"
+          },
+          "owner": {
+            "zh": "中央社 · 十銓廠房與組織調整公布或引述的數值",
+            "en": "CNA · TeamGroup factory and reorganization reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280201.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "記憶體模組測試電源與工廠自動化設備業者需了解新廠的模組測試流程、稼動率基準及客戶認證需求。增產 50% 是規劃值，不能視為已完成的設備安裝量。",
+        "en": "Memory module test-power and automation suppliers would verify test flow, utilization and qualification; 50% is a projected capacity uplift, not installed output."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "win-semiconductors-2026-q3-rf-opto",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "穩懋第三季營收 58.59 億元，光接收元件尚在產能爬坡",
+        "en": "WIN Semiconductors Q3 sales reach NT$5.859B; photodiode ramp ongoing"
+      },
+      "summary": {
+        "zh": "穩懋 10 月 28 日公布第三季營收 58.59 億元、毛利率 37.4%，歸母淨利 19.3 億元；公司稱光通訊接收端 PD 元件仍處初期量產爬坡，較大規模出貨目標落在 2028 年。衛星通訊及點對點通訊需求與公司基礎設施業務相關，但並未公布各應用的獨立出貨件數。",
+        "en": "WIN Semiconductors announced October 28 Q3 revenue of NT$5.859 billion, gross margin 37.4% and attributable profit of NT$1.93 billion. Optical receiver photodiodes remain in early production ramp, with management pointing to larger-scale shipments in 2028; application-level volume was not reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "穩懋的砷化鎵 RF 和光接收元件連結衛星、光通訊及資料中心光模組等用途。產品銷售成長和前段晶圓製程擴產是不同概念。",
+            "en": "WIN's GaAs RF and receiver products serve satellite links, optical communications and data-center modules. Revenue growth is not evidence of new wafer-fab commissioning."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "公司表示毛利率較第二季提高 9.2 個百分點，獲利季增約 98%。預估第四季營收僅低個位數增長，手機業務因記憶體價格影響仍面臨需求變化。",
+            "en": "Management said gross margin rose 9.2 percentage points from Q2 and profit increased around 98% sequentially. Q4 revenue guidance is low-single-digit sequential growth amid mixed handset demand."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未披露 PD 產品絕對月出貨量、合格良率、主要客戶及 2028 年產能配置。",
+            "en": "PD monthly shipments, yields, qualified customers and planned 2028 capacity allocations were not disclosed."
+          }
+        }
+      ],
+      "metric": "37.4%",
+      "metricLabel": {
+        "zh": "第三季毛利率",
+        "en": "Q3 gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280251.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 穩懋財報與光通訊進度",
+            "en": "CNA · WIN Semiconductor earnings and optical ramp"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；材料；光通訊；射頻晶片；設備；資料中心",
+          "en": "Wafers; materials; optical communications; RF chips; equipment; data centers"
+        },
+        "chain": {
+          "zh": "砷化鎵晶圓與光學零組件至資料中心通訊",
+          "en": "GaAs wafers and optical components to data-center interconnects"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增核定資本支出。",
+            "en": "No newly approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未公布實際新增訂單或出貨件數。",
+            "en": "No new verified orders or shipment counts disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "穩懋的砷化鎵 RF 和光接收元件連結衛星、光通訊及資料中心光模組等用途。產品銷售成長和前段晶圓製程擴產是不同概念。",
+            "en": "WIN's GaAs RF and receiver products serve satellite links, optical communications and data-center modules. Revenue growth is not evidence of new wafer-fab commissioning."
+          },
+          "timing": {
+            "zh": "公司表示毛利率較第二季提高 9.2 個百分點，獲利季增約 98%。預估第四季營收僅低個位數增長，手機業務因記憶體價格影響仍面臨需求變化。",
+            "en": "Management said gross margin rose 9.2 percentage points from Q2 and profit increased around 98% sequentially. Q4 revenue guidance is low-single-digit sequential growth amid mixed handset demand."
+          },
+          "unknowns": {
+            "zh": "未披露 PD 產品絕對月出貨量、合格良率、主要客戶及 2028 年產能配置。",
+            "en": "PD monthly shipments, yields, qualified customers and planned 2028 capacity allocations were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 5.859,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 穩懋財報與光通訊進度公布或引述的數值",
+            "en": "CNA · WIN Semiconductor earnings and optical ramp reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280251.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "reportedRate": 0.11,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 1.93,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 穩懋財報與光通訊進度公布或引述的數值",
+            "en": "CNA · WIN Semiconductor earnings and optical ramp reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280251.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "reportedRate": 0.98,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.374,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 穩懋財報與光通訊進度公布或引述的數值",
+            "en": "CNA · WIN Semiconductor earnings and optical ramp reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280251.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "射頻製程電源與光學量測供應商需確認 PD 製程良率、接收端產品類型與測試頻寬。較大出貨為遠期規劃，不能從本期集團獲利推算光模組產量。",
+        "en": "RF process-power and optical metrology suppliers would verify PD yields and receiver test bandwidth. Future volume projections cannot be inferred from consolidated profit."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "parade-2026-q4-forecast-lower",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "譜瑞預估第四季營收季減 20% 至 27%，高速介面晶片受 PC 零組件成本影響",
+        "en": "Parade expects Q4 revenue down 20% to 27% as PC costs weigh on interface chips"
+      },
+      "summary": {
+        "zh": "譜瑞 10 月 28 日表示第四季營收估約 9,500 萬至 1.05 億美元，季減約 20% 至 27%；第三季營收約 1.3 億美元、毛利率 40.29%。公司指出 DRAM 及晶圓代工、後段封測漲價影響筆電需求與成本，預期第四季毛利率區間 41% 至 45% 為財測而非已實現結果。",
+        "en": "Parade Technologies guided October 28 for Q4 revenue of US$95 million to US$105 million, down 20% to 27% sequentially, versus Q3 revenue near US$130 million and a 40.29% gross margin. Management linked PC softness to DRAM and manufacturing cost increases; Q4 margin guidance of 41% to 45% is a forecast."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "高速傳輸晶片用於筆記型電腦、顯示器與資料通道，供應鏈含晶圓代工及封裝測試。需求與定價受終端 PC、DRAM 及製造成本共同影響，不能單以記憶體價格解釋全部營收變化。",
+            "en": "High-speed interface chips support PCs, displays and data links through foundry and test supply chains. Volume and pricing are affected by multiple factors, not solely DRAM costs."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "公司表示上游代工與封測成本提高，將調整產品售價；第四季營收與毛利率皆為區間估計，沒有提供確認的客戶訂單數。",
+            "en": "Management reported foundry and test cost increases and planned pricing changes. Q4 figures are ranges rather than firm orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未公布主要 PC 客戶訂單數、成本轉嫁比例及第四季已出貨產品組合。",
+            "en": "Named PC customer volumes, pass-through percentages and actual Q4 shipped mix remain undisclosed."
+          }
+        }
+      ],
+      "metric": "US$95–105M",
+      "metricLabel": {
+        "zh": "第四季營收預估區間",
+        "en": "Q4 revenue guidance"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280183.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 譜瑞法說與第四季展望",
+            "en": "CNA · Parade guidance and results"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣；亞洲晶圓封測供應鏈",
+          "en": "Taiwan; Asian wafer and test supply chain"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；封測；PC；電腦；記憶體",
+          "en": "Chip design; wafers; packaging/test; PCs; memory"
+        },
+        "chain": {
+          "zh": "高速晶片設計與晶圓製造至 PC 終端",
+          "en": "High-speed interface chip design through wafer manufacturing to PCs"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增核定資本支出。",
+            "en": "No newly approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未公布實際新增訂單或出貨件數。",
+            "en": "No new verified orders or shipment counts disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高速傳輸晶片用於筆記型電腦、顯示器與資料通道，供應鏈含晶圓代工及封裝測試。需求與定價受終端 PC、DRAM 及製造成本共同影響，不能單以記憶體價格解釋全部營收變化。",
+            "en": "High-speed interface chips support PCs, displays and data links through foundry and test supply chains. Volume and pricing are affected by multiple factors, not solely DRAM costs."
+          },
+          "timing": {
+            "zh": "公司表示上游代工與封測成本提高，將調整產品售價；第四季營收與毛利率皆為區間估計，沒有提供確認的客戶訂單數。",
+            "en": "Management reported foundry and test cost increases and planned pricing changes. Q4 figures are ranges rather than firm orders."
+          },
+          "unknowns": {
+            "zh": "未公布主要 PC 客戶訂單數、成本轉嫁比例及第四季已出貨產品組合。",
+            "en": "Named PC customer volumes, pass-through percentages and actual Q4 shipped mix remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第四季營收預測下緣",
+            "en": "Q4 revenue guidance lower bound"
+          },
+          "current": 0.095,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年第四季預估",
+            "en": "Q4 2026 guidance"
+          },
+          "owner": {
+            "zh": "中央社 · 譜瑞法說與第四季展望公布或引述的數值",
+            "en": "CNA · Parade guidance and results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280183.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第四季營收預測上緣",
+            "en": "Q4 revenue guidance upper bound"
+          },
+          "current": 0.105,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年第四季預估",
+            "en": "Q4 2026 guidance"
+          },
+          "owner": {
+            "zh": "中央社 · 譜瑞法說與第四季展望公布或引述的數值",
+            "en": "CNA · Parade guidance and results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280183.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 0.13,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 譜瑞法說與第四季展望公布或引述的數值",
+            "en": "CNA · Parade guidance and results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280183.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.4029,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 譜瑞法說與第四季展望公布或引述的數值",
+            "en": "CNA · Parade guidance and results reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280183.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源與測試設備業者會分辨高階介面晶片的現有出貨與尚未實現的季營收指引，確認實際需求及產品組合。售價與成本轉嫁仍需後續財報才能驗證。",
+        "en": "Foundry process-power and test suppliers would distinguish current interface-chip shipments from Q4 guidance and verify actual demand/mix. Pricing pass-through needs later earnings confirmation."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "chief-telecom-ly2-occupancy-q3",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "是方第三季營收 10.77 億元，聯雲 LY2 年底進駐率目標八成",
+        "en": "Chief Telecom reports NT$1.077B Q3 revenue and targets 80% LY2 occupancy by year-end"
+      },
+      "summary": {
+        "zh": "是方 10 月 28 日公布第三季營收 10.77 億元、毛利率 51.5%、稅後淨利 3.32 億元。公司說聯雲 LY2 資料中心客戶進駐率逐季提高，目標年底達八成；虎尾 AI 資料中心已於 10 月 20 日動土，規劃 2028 年下半年營運，但沒有公布已完成裝機的 IT 負載或新增機櫃數。",
+        "en": "Chief Telecom reported October 28 Q3 revenue of NT$1.077 billion, gross margin of 51.5% and net income NT$332 million. Management targets 80% occupancy at LY2 by year-end; the Huwei AI data-center project broke ground October 20 and aims for H2 2028 operation, with no new commissioned IT load or rack count disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "資料中心需求涉及機房配電、UPS、散熱及跨境網路連接。進駐率是租用或客戶使用比例，不能直接視為機房滿載電力或 GPU 運算使用率。",
+            "en": "Data-center tenancy relates to UPS, electricity, cooling and interconnect. Occupancy is not equal to IT power loading or GPU utilization."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "管理層指出今年起 LY2 折舊費用完整認列，第三季毛利率仍高於上半年 48.55% 的水準；年末進駐率八成是目標，尚非 10 月 28 日的實際占用率。",
+            "en": "Management said LY2 depreciation is now fully reflected, with Q3 gross margin above the first-half 48.55% level. An 80% year-end occupancy is a target, not the occupancy verified on October 28."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未披露最新實際進駐率、總可用機架、已供電 MW、冷卻密度及虎尾機房核定容量。",
+            "en": "Current occupancy, total racks, energized MW, cooling density and Huwei capacity are not disclosed."
+          }
+        }
+      ],
+      "metric": "51.5%",
+      "metricLabel": {
+        "zh": "第三季毛利率",
+        "en": "Q3 gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280184.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 是方第三季與機房進駐",
+            "en": "CNA · Chief Telecom Q3 and data-center tenancy"
+          }
+        }
+      ],
+      "location": {
+        "zh": "台灣台北市聯雲 LY2 資料中心（已營運機房）；雲林縣虎尾鎮另有規劃中的 AI 機房工地。",
+        "en": "LY2 operating data center in Taipei, Taiwan; separate planned AI data-center project site in Huwei, Yunlin County."
+      },
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "資料中心；機房；供電；電源；散熱；跨境網路",
+          "en": "Data centers; facilities; power supply; cooling; cross-border networks"
+        },
+        "chain": {
+          "zh": "資料中心機房、供電與散熱至雲端伺服器",
+          "en": "Data-center power and cooling to cloud servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增核定資本支出。",
+            "en": "No newly approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "未公布實際新增訂單或出貨件數。",
+            "en": "No new verified orders or shipment counts disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心需求涉及機房配電、UPS、散熱及跨境網路連接。進駐率是租用或客戶使用比例，不能直接視為機房滿載電力或 GPU 運算使用率。",
+            "en": "Data-center tenancy relates to UPS, electricity, cooling and interconnect. Occupancy is not equal to IT power loading or GPU utilization."
+          },
+          "timing": {
+            "zh": "管理層指出今年起 LY2 折舊費用完整認列，第三季毛利率仍高於上半年 48.55% 的水準；年末進駐率八成是目標，尚非 10 月 28 日的實際占用率。",
+            "en": "Management said LY2 depreciation is now fully reflected, with Q3 gross margin above the first-half 48.55% level. An 80% year-end occupancy is a target, not the occupancy verified on October 28."
+          },
+          "unknowns": {
+            "zh": "未披露最新實際進駐率、總可用機架、已供電 MW、冷卻密度及虎尾機房核定容量。",
+            "en": "Current occupancy, total racks, energized MW, cooling density and Huwei capacity are not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 1.077,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 是方第三季與機房進駐公布或引述的數值",
+            "en": "CNA · Chief Telecom Q3 and data-center tenancy reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280184.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.149,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 net profit"
+          },
+          "current": 0.332,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 是方第三季與機房進駐公布或引述的數值",
+            "en": "CNA · Chief Telecom Q3 and data-center tenancy reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280184.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.224,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.515,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 是方第三季與機房進駐公布或引述的數值",
+            "en": "CNA · Chief Telecom Q3 and data-center tenancy reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280184.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "年底 LY2 進駐率目標",
+            "en": "LY2 year-end occupancy goal"
+          },
+          "current": 0.8,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年底目標",
+            "en": "Year-end 2026 target"
+          },
+          "owner": {
+            "zh": "中央社 · 是方第三季與機房進駐公布或引述的數值",
+            "en": "CNA · Chief Telecom Q3 and data-center tenancy reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280184.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "機房電源、UPS 和液冷業者需確認進駐率定義、實際獲供電的機架和每機櫃功率。進駐率八成為管理層預期，尚不能換算已採購設備數量。",
+        "en": "UPS, power and liquid-cooling suppliers would verify the occupancy denominator, energized racks and power per cabinet. An 80% tenancy goal is not an equipment purchase count."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "jinan-machinery-longtan-ice-thermal-storage",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "金鞍機械桃園龍潭新廠啟用，布局儲冰空調及工業無人載具設備",
+        "en": "Jin-An Machinery opens Longtan plant for ice-storage cooling and industrial unmanned systems"
+      },
+      "summary": {
+        "zh": "義美關係企業金鞍機械 10 月 28 日在桃園龍潭啟用投資逾 10 億元的新製造大樓，預計承製逾 20 座大型離峰儲冰空調系統供集團廠區使用。公司稱義美既有龍潭廠導入儲冰空調後，尖峰用電需求下降約 25% 至 30%；此為特定廠區陳述，不代表所有資料中心或工廠能取得相同節電幅度。",
+        "en": "I-Mei affiliate Jin-An Machinery opened a new manufacturing building in Longtan, Taoyuan on October 28, following investment above NT$1 billion. The facility plans to make more than 20 off-peak ice-storage cooling systems for group factories; management claims a 25% to 30% reduction in peak electricity draw at an existing Longtan site, not a universal efficiency result."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "儲冰空調夜間製冰、白天釋冷，屬工廠空調冷負載移轉，不等同於液冷機櫃冷板、晶片散熱效能或總用電量降低。無人載具及極端環境測試為新廠另一研發方向。",
+            "en": "Ice-storage cooling shifts HVAC electricity loads from daytime to off-peak hours, rather than directly reducing chip-cooling load or total kWh. Unmanned systems and environmental tests are a separate line of work."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行時程",
+            "en": "Numbers and implementation"
+          },
+          "text": {
+            "zh": "公司表示新大樓包含冷凍真空乾燥、儲冰系統及無人載具製造；逾 10 億元是投資額陳述，尚未拆分工程與機台支出。逾 20 座系統為計畫承製數量。",
+            "en": "The facility houses freeze-drying, thermal-storage and unmanned-system production. The above-NT$1B figure is a company-stated project total without tool/facility breakdown; 20-plus cooling systems are prospective production."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未公布建置工期、各套儲冰系統額定 kW、實際耗電度數及對外客戶完成驗收數。",
+            "en": "Construction periods, individual system kW ratings, measured kWh and external customer acceptance counts are unavailable."
+          }
+        }
+      ],
+      "metric": "逾 NT$1B",
+      "metricLabel": {
+        "zh": "新廠投資額（公司陳述）",
+        "en": "Reported factory investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610280305.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 金鞍機械儲冰空調廠啟用",
+            "en": "CNA · Jin-An Machinery ice-storage factory"
+          }
+        }
+      ],
+      "location": {
+        "zh": "台灣桃園市龍潭區，金鞍機械製造新大樓（新廠啟用地點，詳細地址未取得）。",
+        "en": "Longtan District, Taoyuan City, Taiwan, Jin-An manufacturing building (opened site, street address not verified)."
+      },
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；自動化；冷卻；電力；電價；設備",
+          "en": "Factories; automation; cooling; electricity; equipment"
+        },
+        "chain": {
+          "zh": "工廠冷卻設備與電力調度至終端製造",
+          "en": "Factory thermal-storage cooling and power management to end-use manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司宣稱新廠投入逾新台幣 10 億元，未分項查核。",
+            "en": "Company reports over NT$1B plant investment, without itemized figures."
+          },
+          "demand": {
+            "zh": "規劃承製逾 20 座系統供集團自用，無外部客戶訂單數。",
+            "en": "Plans 20-plus systems for group facilities without third-party orders."
+          },
+          "fdi": {
+            "zh": "未公布新增已入帳外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "儲冰空調夜間製冰、白天釋冷，屬工廠空調冷負載移轉，不等同於液冷機櫃冷板、晶片散熱效能或總用電量降低。無人載具及極端環境測試為新廠另一研發方向。",
+            "en": "Ice-storage cooling shifts HVAC electricity loads from daytime to off-peak hours, rather than directly reducing chip-cooling load or total kWh. Unmanned systems and environmental tests are a separate line of work."
+          },
+          "timing": {
+            "zh": "公司表示新大樓包含冷凍真空乾燥、儲冰系統及無人載具製造；逾 10 億元是投資額陳述，尚未拆分工程與機台支出。逾 20 座系統為計畫承製數量。",
+            "en": "The facility houses freeze-drying, thermal-storage and unmanned-system production. The above-NT$1B figure is a company-stated project total without tool/facility breakdown; 20-plus cooling systems are prospective production."
+          },
+          "unknowns": {
+            "zh": "未公布建置工期、各套儲冰系統額定 kW、實際耗電度數及對外客戶完成驗收數。",
+            "en": "Construction periods, individual system kW ratings, measured kWh and external customer acceptance counts are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "龍潭新廠投資額下限",
+            "en": "Longtan plant investment lower bound"
+          },
+          "current": 1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 28 日開幕",
+            "en": "Opened Oct 28, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 金鞍機械儲冰空調廠啟用公布或引述的數值",
+            "en": "CNA · Jin-An Machinery ice-storage factory reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280305.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "計畫承製大型儲冰系統下限",
+            "en": "Planned ice-storage systems lower bound"
+          },
+          "current": 20,
+          "unit": "套",
+          "period": {
+            "zh": "新廠初步規劃",
+            "en": "Initial plant plan"
+          },
+          "owner": {
+            "zh": "中央社 · 金鞍機械儲冰空調廠啟用公布或引述的數值",
+            "en": "CNA · Jin-An Machinery ice-storage factory reporting attributed figure"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610280305.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未於查核來源提供可比較的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "工業冷卻、壓縮機驅動及電力控制供應商需確認儲冰容量、負載曲線和峰時需量計算方式。個別廠區降低尖峰負載並不等於所有製造或機房情境可直接複製。",
+        "en": "Industrial cooling, drives and power-controls suppliers would verify thermal-storage size, load profiles and peak demand calculations. A single site's reduction is not a universal data-center efficiency result."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "聯電追加 32 億美元是否已完成設備投資？",
+        "en": "Is UMC's extra US$3.2B already spent on tools?"
+      },
+      "text": {
+        "zh": "不是。董事會核准額是擴建授權，需與已支付資本支出、設備採購訂單、實際投片及量產日期分開；第三季 92% 是既有產線的稼動率。",
+        "en": "No. A board authorization differs from cash spending, tool orders, additional wafer starts and commissioning; Q3 utilization measures existing operations."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "中華精測的 3 倍產能與當前探針卡營收有何不同？",
+        "en": "How does CHPT's threefold capacity target differ from current probe-card sales?"
+      },
+      "text": {
+        "zh": "第三季探針卡近 4 億元為已實現營收，2027 年第一季達 2025 年底 3 倍是規劃產能，還需驗證產線稼動、良率與客戶接受度。",
+        "en": "Nearly NT$400M is realized Q3 sales; the threefold target compares potential Q1 2027 capacity with end-2025, pending line utilization, yields and customer acceptance."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "10 月 28 日馬來西亞查扣 AI 晶片的事件日期是哪一天？",
+        "en": "When did the Malaysia AI-chip seizure occur?"
+      },
+      "text": {
+        "zh": "海關在 10 月 28 日公開案件，但本次 30 台伺服器是在 10 月 15 日於機場自由貿易區查獲；貨物真正來源、目的地及違規責任仍待調查。",
+        "en": "Customs publicly disclosed the case October 28, but the 30 servers were seized October 15 at the airport free trade zone; origin, destination and legal responsibility remain under investigation."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "日期口徑",
+        "en": "Date basis"
+      },
+      "text": {
+        "zh": "本版提前於 10 月 28 日晚間編製；10 月 29 日尚未發生的法說或後續公告不計為已確認。",
+        "en": "This edition was prepared October 28 evening; October 29 investor calls and disclosures are not yet treated as realized."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考資訊",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "較早的新加坡能源五年計畫",
+        "en": "Earlier Singapore energy plan"
+      },
+      "text": {
+        "zh": "新加坡電網五年計畫與 1.3GW 跨境輸電核准於 10 月 26 日已發布並收錄前幾期，10 月 28 日媒體重述未被另計為新計畫。",
+        "en": "Singapore's five-year infrastructure plan and 1.3GW conditional import approval were announced October 26 and already covered; later re-reporting is not new execution."
+      }
+    },
+    {
+      "title": {
+        "zh": "十銓單季淨利金額不一致",
+        "en": "Inconsistent TeamGroup profit numbers"
+      },
+      "text": {
+        "zh": "同一篇 10 月 28 日報導前後分別寫第三季淨利 36.18 億元與 26.18 億元，未取得足以釐清的原始報表，因此不採用該項數字。",
+        "en": "The same October 28 report gives NT$3.618B and NT$2.618B as Q3 profit in different paragraphs; without a reconciling primary filing, that figure is excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "聯電追加預算為董事會核准金額，尚無分廠實際設備交付時程；精測、十銓及多家上市公司營運說明以媒體引述為主，未全部取得原始報表。十銓單季淨利在同一來源前後矛盾，未引用該項數值；馬來西亞海關查扣行動於 10 月 15 日執行、28 日公布，案件尚未裁判。",
+    "en": "UMC's extra budget is authorization without site-level delivery dates. CHPT, TeamGroup and several other company updates rely on media reports without all primary filings. TeamGroup's conflicting Q3 net profit was omitted. Malaysia's seizure occurred Oct 15 and was disclosed Oct 28, with no judicial determination yet."
+  }
+}
