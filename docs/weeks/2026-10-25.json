@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-10-25",
-  "generatedAt": "2026-10-26T15:09:57.072Z",
+  "generatedAt": "2026-10-28T01:17:55.146Z",
   "throughline": {
-    "zh": "本週資料涵蓋東南亞能源與資料中心計畫、泰國電子材料新廠、越南前段晶圓建設進度，以及台灣電子製造自動化與跨境設備供應鏈的不同執行階段。",
-    "en": "This week's data spans Southeast Asian power and data-center plans, Thailand's new electronics materials plant, Vietnam's front-end wafer-fab progress and Taiwan-linked factory automation and equipment supply."
+    "zh": "本週半導體產業呈現差異化的營運階段：旺宏記憶體及力成 FOPLP 擴產尚有量產時程，精測和晶豪科揭露第三季實績，泰國與新加坡的設備、電力和海纜計畫各有不同核准進度。",
+    "en": "This week reveals distinct stages: Macronix memory and Powertech FOPLP ramps are future targets, CHPT and ESMT published Q3 results, and equipment, power and connectivity projects in Thailand and Singapore remain at different execution stages."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "稀土、PCB 材料與新廠產能進度",
-        "en": "Rare earths, PCB materials and production capacity"
+        "zh": "記憶體、電子材料與稀土供應",
+        "en": "Memory, electronics materials and rare earths"
       },
       "summary": {
-        "zh": "工研院規劃稀土示範廠，仍待預算與廠址；騰輝 10 月 26 日在泰國大城府啟用 PCB 銅箔基板與黏合片工廠，並開始小量出貨。2030 年稀土目標與泰國廠年底量產均尚非實際產能。",
-        "en": "ITRI's rare-earth demonstration plant remains unfunded and unsited, while Tenghui opened its Thai PCB laminate and prepreg factory on October 26 with small initial shipments. The rare-earth 2030 goal and Thai volume ramp are future targets."
+        "zh": "工研院規劃稀土示範廠，騰輝在泰國啟用銅箔基板廠，旺宏說明新增 NAND／eMMC 產能預計 2027 年下半年開出；晶豪科則公布第三季記憶體財務實績。上述資訊分別屬未來目標、已啟用廠房與已認列收入。",
+        "en": "ITRI described a rare-earth demonstration target and Tenghui opened a Thai laminate plant, while Macronix targets H2 2027 new NAND/eMMC output and ESMT reported Q3 earnings. These are planned capacity, opened facilities and realized financial results."
       },
       "references": [
         {
@@ -25,6 +25,14 @@
         {
           "date": "2026-10-27",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 7
         }
       ]
     },
@@ -32,12 +40,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "工廠電力復原、AI 自動化與精密設備",
-        "en": "Grid restoration, factory AI automation and precision tools"
+        "zh": "工廠設備、製程量測與自動化",
+        "en": "Factory equipment, process metrology and automation"
       },
       "summary": {
-        "zh": "台電於 10 月 25 日公布宜蘭復電進度，沒有晶圓廠停機損失資料；鴻海與 NVIDIA 26 日公布特定工廠排程工時降低 25% 的測試，JIMTOF 亦在東京開展，台灣公會表示 94 家廠商參展。各數值來自不同場景，不適合直接比較。",
-        "en": "Taipower completed household restoration in Yilan without fab downtime data. Foxconn and NVIDIA reported a 25% scheduling-hour reduction for selected workflows on October 26, and JIMTOF opened in Tokyo with 94 Taiwanese exhibitors according to an association. These metrics measure different activities."
+        "zh": "台電公布颱風復電進度，鴻海與 NVIDIA 報告特定流程效率，中華電信成立智慧影像子公司；國研院與汎銓公布 High-NA EUV 樣品檢測方法，宏偉聲稱特殊工業電梯訂單能見度達三年。製造效率、技術開發與接單指標不能等量比較。",
+        "en": "Taipower restored power after a typhoon, Foxconn/NVIDIA reported measured workflow changes and Chunghwa Telecom launched a vision subsidiary. NARLabs/MSS presented a high-NA EUV metrology method and Hongwei reported three years of specialized-lift backlog visibility; these are different metrics."
       },
       "references": [
         {
@@ -59,6 +67,14 @@
         {
           "date": "2026-10-27",
           "storyId": 6
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 5
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 8
         }
       ]
     },
@@ -66,12 +82,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "東南亞海纜、機房投資意向及跨境供電",
-        "en": "Southeast Asia cables, data-center intentions and cross-border power"
+        "zh": "東南亞電源與資料中心基礎設施",
+        "en": "Southeast Asian power and data-center infrastructure"
       },
       "summary": {
-        "zh": "MViSTA 海纜仍在招標、馬國總理提出 500 億美元資料中心投資意向；新加坡 EMA 於 26 日有條件核准 1.3GW 跨國低碳電力輸入，預定 2035 年啟動。三項進展分別為規劃、意向與條件性核准，非已完成建設。",
-        "en": "MViSTA's cable remains in tender, Malaysia's prime minister cited a US$50B data-center intention, and Singapore EMA conditionally approved a 1.3GW power import plan for 2035. These are tender, intention and conditional approval stages, not finished infrastructure."
+        "zh": "MViSTA 海纜仍在供應商招標，馬來西亞總理談及大型資料中心投資意向，新加坡 EMA 另有條件核准 1.3GW 跨境電力計畫；台達電泰國子公司公告向集團新加坡公司取得設備。跨境電力核准、投資意向及關係人資產取得都不能視為已裝機容量。",
+        "en": "MViSTA remains in tender, Malaysia's prime minister cited an investment intention, and Singapore EMA granted conditional 1.3GW power-import approval. Delta Thailand approved an intragroup equipment acquisition, none of which independently establishes live data-center capacity."
       },
       "references": [
         {
@@ -85,6 +101,10 @@
         {
           "date": "2026-10-27",
           "storyId": 1
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 6
         }
       ]
     },
@@ -92,12 +112,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "光互連、貨運與 SMT 設備事業結構",
-        "en": "Optical interconnects, cargo and SMT equipment structure"
+        "zh": "封裝測試、光互連與高科技設備供應",
+        "en": "Packaging, optical interconnect and equipment supply"
       },
       "summary": {
-        "zh": "玉晶光與 3M 的 EBO 光互連產品尚未公布量產驗收，長榮航管理層 25 日說明高科技貨運需求；Reuters 26 日則報導 ASMPT 的 SMT 設備業務潛在出售競標。已公開的上半年接單、九月營收和潛在交易估值屬不同口徑。",
-        "en": "GSEO and 3M have not announced qualified EBO production, EVA Air discussed high-tech freight demand on October 25, and Reuters reported potential bids for ASMPT's SMT unit on October 26. Historical bookings, freight revenue and possible deal valuations are not directly comparable."
+        "zh": "玉晶光與 3M 光互連合作尚無已驗收量產數據，長榮航說明高科技貨運需求，ASMPT 的 SMT 事業出售仍在洽談；力成新公布先進封裝營收占比逾三成，中華精測公布晶圓測試卡帶動的第三季實績。FOPLP 的 2027 年量產目標仍與現有封測收入分開。",
+        "en": "GSEO/3M's optical interconnect remains unqualified at volume, EVA Air discussed cargo and ASMPT's SMT sale remains under review. Powertech reports over 30% advanced packaging revenue and CHPT Q3 results reflect probe-card sales, while FOPLP's 2027 ramp is still prospective."
       },
       "references": [
         {
@@ -111,6 +131,14 @@
         {
           "date": "2026-10-27",
           "storyId": 5
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-28",
+          "storyId": 4
         }
       ]
     },
@@ -118,12 +146,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "東南亞晶圓製造及半導體合作",
-        "en": "Southeast Asian wafer-fab development and semiconductor cooperation"
+        "zh": "晶圓設計、製造專案與跨境合作",
+        "en": "Wafer design, fab development and cross-border cooperation"
       },
       "summary": {
-        "zh": "駐菲代表提出台菲半導體走廊合作方向，並引述 2030 年電子出口目標；Reuters 26 日實地報導 Viettel 越南晶圓廠仍無建築、DUV 設備未成交，但 Viettel 表示按階段推進。兩國均未在本週披露新晶圓廠已完成裝機。",
-        "en": "Taiwan's envoy discussed Philippine semiconductor corridors and a 2030 electronics export goal. Reuters reported Viettel's Vietnam fab lacked buildings and a finalized DUV order, while Viettel maintained phased progress. No newly commissioned front-end fab was established."
+        "zh": "台菲經濟走廊合作仍屬政策方向，Reuters 指越南 Viettel 晶圓廠工程與 DUV 採購未完成；智原 10 月 27 日公布與三星及聯電相關的美國 2 奈米 GAA 設計案。晶片委託設計、晶圓廠建造與量產出貨是不同執行階段。",
+        "en": "Philippine semiconductor corridors remain policy discussions and Reuters reported uncompleted Viettel fab construction and DUV sourcing. Faraday announced a U.S. 2nm GAA design project with Samsung and UMC partnerships; design work, fab building and volume production are separate stages."
       },
       "references": [
         {
@@ -132,6 +160,10 @@
         },
         {
           "date": "2026-10-27",
+          "storyId": 3
+        },
+        {
+          "date": "2026-10-28",
           "storyId": 3
         }
       ]
