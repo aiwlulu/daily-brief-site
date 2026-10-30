@@ -1,0 +1,1692 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T01:05:11.839Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、晶圓測試、工業設備、伺服器電源與資料中心",
+      "en": "Taiwan and Southeast Asian semiconductors, wafer testing, industrial equipment, server power and data centers"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "友達出售廠房予台積電、京元電在德州採購測試設備，以及國巨公布產能利用率與擴產目標，分別揭示半導體廠房資產、測試設備採購與被動元件生產的不同執行階段。",
+    "en": "AUO's planned factory sale to TSMC, KYEC's Texas testing equipment purchases and Yageo's utilization and capacity targets show distinct execution stages across property, test tooling and passive component production."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "友達董事會核准以 388 億元出售台中廠予台積電，另取消原售廣達華亞廠的交易，交屋最快 2027 年後。",
+        "en": "AUO approved a NT$38.8B Taichung factory sale to TSMC, canceled a separate Quanta deal, and expects closing procedures no earlier than 2027."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "追蹤京元電德州新測試廠：土地建物約 7,935 萬美元，新增公布設備與廠務採購約 5.34 億美元。",
+        "en": "KYEC's Texas test-site follow-up reports US$79.35M property acquisition and US$534M of equipment and facility purchases."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "國巨第三季營收 495.32 億元，AI 應用占比近兩成；第四季稼動率逾 95% 是公司預估。",
+        "en": "Yageo reported NT$49.532B Q3 revenue and near-20% AI mix; above-95% Q4 utilization is guidance."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "追蹤台達電：10 月 29 日法說將第三季存貨跌價損失連結至機房建置延遲與供應鏈長短料，約占營收 1.7%。",
+        "en": "Delta's Oct 29 briefing links Q3 inventory write-downs, about 1.7% of sales, to data-center delays and component imbalances."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "技嘉董事會通過 500 億元聯貸供償債及 AI 產品週轉，並非已動用款項或確認新增伺服器訂單。",
+        "en": "Gigabyte approved a NT$50B syndicated credit facility for refinancing and AI working capital, not confirmed shipments or drawn cash."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "auo-tsmc-taichung-plant-sale",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "友達董事會決議以 388 億元出售台中廠予台積電，華亞廠交易取消",
+        "en": "AUO approves NT$38.8B Taichung facility sale to TSMC and cancels a separate deal"
+      },
+      "summary": {
+        "zh": "友達 10 月 29 日董事會決議將台中二期廠房、無塵室及廠務附屬設備以新台幣 388 億元售予台積電，建物權狀面積約 42.9 萬平方公尺。公司同日終止原擬售予廣達的華亞廠案，另核准增加 57.28 億元資本支出；台中廠仍在運作，交易行政程序最快 2027 年以後完成。",
+        "en": "On October 29, AUO's board approved selling its Taichung phase-two factory, cleanrooms and auxiliary facilities to TSMC for NT$38.8 billion, encompassing approximately 429,030 square meters of titled floor area. AUO also canceled an earlier Hwa Ya facility deal with Quanta and approved NT$5.728 billion of additional capex; the Taichung factory remains operational and transfer procedures may extend into 2027."
+      },
+      "context": [
+        "既有廠房及廠務設施交易連結晶圓代工擴建、潔淨室改造與先進封裝空間；友達本身另研究玻璃核心基板、重布線層和光學互連元件，但目前不能視為已在買賣廠房內完成相關產線。",
+        "A sale of an existing factory and cleanroom facilities relates to foundry expansion and potential packaging infrastructure. AUO separately studies glass-core substrates, redistribution layers and optical interconnects; the sold space is not evidence of commissioned semiconductor production."
+      ],
+      "progress": [
+        "買賣標的位於台中市西屯區安林段，交易未稅且董事會已核准。友達表示將持續使用廠房一段時間；取消華亞廠交易是因規格與交付時程未達共識。友達新核准資本支出 57.28 億元與資產出售價 388 億元屬不同財務項目。",
+        "The property is in Anlin Section, Xitun District, Taichung. The board-approved price excludes tax, and AUO will continue using the site temporarily. Hwa Ya negotiations ended over specifications and handover timing; AUO's additional capex authorization is separate from sale proceeds."
+      ],
+      "unknown": [
+        "交易最終過戶日、台積電改裝用途、晶圓或先進封裝設備購置、實際投片與量產時程均未公布。",
+        "Closing date, TSMC facility conversion purpose, tool orders, wafer starts and commissioning dates have not been disclosed."
+      ],
+      "metric": "NT$38.8B",
+      "metricLabel": {
+        "zh": "台中廠房交易核准價",
+        "en": "Approved Taichung facility sale value"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 友達處分公告及法說",
+            "en": "CNA · AUO asset sale and briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290267.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣",
+        "Taiwan"
+      ],
+      "industries": [
+        "晶圓；代工；先進封裝；基板；廠務設備；工廠；投資",
+        "Wafers; foundry; advanced packaging; substrates; fab facilities; investment"
+      ],
+      "chain": [
+        "工廠廠務設備至晶圓代工及封裝",
+        "Factory facilities and tools to wafer foundry and packaging"
+      ],
+      "investment": [
+        "董事會核准出售 388 億元資產及新增 57.28 億元資本支出；不等於已收款或已投產。",
+        "Board approved NT$38.8B asset sale and NT$5.728B extra capex; neither equals cash received or commissioned capacity."
+      ],
+      "demand": [
+        "未公布晶圓產能增加量或設備實際採購數。",
+        "No incremental wafer starts or equipment orders reported."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "台中廠房核准交易價",
+            "en": "Approved factory sale value"
+          },
+          "current": 38.8,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 29 日董事會",
+            "en": "Board decision Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 友達處分公告及法說引述的公司資料",
+            "en": "CNA · AUO asset sale and briefing attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290267.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "友達追加資本支出預算",
+            "en": "AUO additional capex approval"
+          },
+          "current": 5.728,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 29 日董事會",
+            "en": "Board decision Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 友達處分公告及法說引述的公司資料",
+            "en": "CNA · AUO asset sale and briefing attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290267.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源、測試及廠務設備供應商需區分既有無塵室與重新改裝的機台需求，並確認正式交屋、電力容量與設備資格驗收。交易價格未揭露任何可直接採購的製程設備數量。",
+        "en": "Process-power, test and fab-utility suppliers would verify closing, electrical capacity and qualification of any retrofitted cleanrooms. A real-estate purchase price does not identify tool orders."
+      },
+      "location": {
+        "zh": "台灣台中市西屯區安林段，友達台中二期廠房（交易標的；仍在使用）。",
+        "en": "AUO Taichung phase-two factory, Anlin Section, Xitun District, Taichung, Taiwan (sale property, still in operation)."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；代工；先進封裝；基板；廠務設備；工廠；投資",
+          "en": "Wafers; foundry; advanced packaging; substrates; fab facilities; investment"
+        },
+        "chain": {
+          "zh": "工廠廠務設備至晶圓代工及封裝",
+          "en": "Factory facilities and tools to wafer foundry and packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "董事會核准出售 388 億元資產及新增 57.28 億元資本支出；不等於已收款或已投產。",
+            "en": "Board approved NT$38.8B asset sale and NT$5.728B extra capex; neither equals cash received or commissioned capacity."
+          },
+          "demand": {
+            "zh": "未公布晶圓產能增加量或設備實際採購數。",
+            "en": "No incremental wafer starts or equipment orders reported."
+          },
+          "fdi": {
+            "zh": "未公布本事件已實現的新增外國直接投資。",
+            "en": "No realized incremental FDI was disclosed for this event."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "既有廠房及廠務設施交易連結晶圓代工擴建、潔淨室改造與先進封裝空間；友達本身另研究玻璃核心基板、重布線層和光學互連元件，但目前不能視為已在買賣廠房內完成相關產線。",
+            "en": "A sale of an existing factory and cleanroom facilities relates to foundry expansion and potential packaging infrastructure. AUO separately studies glass-core substrates, redistribution layers and optical interconnects; the sold space is not evidence of commissioned semiconductor production."
+          },
+          "timing": {
+            "zh": "買賣標的位於台中市西屯區安林段，交易未稅且董事會已核准。友達表示將持續使用廠房一段時間；取消華亞廠交易是因規格與交付時程未達共識。友達新核准資本支出 57.28 億元與資產出售價 388 億元屬不同財務項目。",
+            "en": "The property is in Anlin Section, Xitun District, Taichung. The board-approved price excludes tax, and AUO will continue using the site temporarily. Hwa Ya negotiations ended over specifications and handover timing; AUO's additional capex authorization is separate from sale proceeds."
+          },
+          "unknowns": {
+            "zh": "交易最終過戶日、台積電改裝用途、晶圓或先進封裝設備購置、實際投片與量產時程均未公布。",
+            "en": "Closing date, TSMC facility conversion purpose, tool orders, wafer starts and commissioning dates have not been disclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "既有廠房及廠務設施交易連結晶圓代工擴建、潔淨室改造與先進封裝空間；友達本身另研究玻璃核心基板、重布線層和光學互連元件，但目前不能視為已在買賣廠房內完成相關產線。",
+            "en": "A sale of an existing factory and cleanroom facilities relates to foundry expansion and potential packaging infrastructure. AUO separately studies glass-core substrates, redistribution layers and optical interconnects; the sold space is not evidence of commissioned semiconductor production."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行進度",
+            "en": "Figures and execution"
+          },
+          "text": {
+            "zh": "買賣標的位於台中市西屯區安林段，交易未稅且董事會已核准。友達表示將持續使用廠房一段時間；取消華亞廠交易是因規格與交付時程未達共識。友達新核准資本支出 57.28 億元與資產出售價 388 億元屬不同財務項目。",
+            "en": "The property is in Anlin Section, Xitun District, Taichung. The board-approved price excludes tax, and AUO will continue using the site temporarily. Hwa Ya negotiations ended over specifications and handover timing; AUO's additional capex authorization is separate from sale proceeds."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "交易最終過戶日、台積電改裝用途、晶圓或先進封裝設備購置、實際投片與量產時程均未公布。",
+            "en": "Closing date, TSMC facility conversion purpose, tool orders, wafer starts and commissioning dates have not been disclosed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 2,
+      "topic": "kyec-texas-test-capacity-expansion",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：京元電美國子公司購德州廠址 7,935 萬美元，設備採購約 5.34 億美元",
+        "en": "Follow-up: KYEC acquires Texas facility for US$79.35M and reports US$534M of tool purchases"
+      },
+      "summary": {
+        "zh": "京元電子 10 月 29 日公告，美國全資子公司 AeternZ 取得德州土地及建物，交易額約 7,935 萬美元；另陸續向鴻勁精密、EO Technics、KLA 及 TRANTEK 採購約 5.34 億美元機器與廠務設備。較早由 NVIDIA 提供的 11 億美元產能預付款是背景，2027 年 4 月量產仍為目標。",
+        "en": "On October 29, Taiwan's KYEC said its U.S. subsidiary AeternZ acquired a Texas site and building for US$79.35 million and disclosed about US$534 million in equipment and fab-utility purchases from Hon.Precision, EO Technics, KLA and TRANTEK. NVIDIA's previously announced US$1.1 billion capacity prepayment is background, while an April 2027 high-volume start remains a target."
+      },
+      "context": [
+        "京元電提供 AI GPU 和 ASIC 的測試服務；測試機台、探針、電源及散熱設備、廠務設施在晶圓製造後端形成獨立測試產線。美國新廠可作為台灣封測企業海外測試擴充，但現階段是土地、廠房與設備取得公告。",
+        "KYEC serves AI GPUs and ASICs through semiconductor testing, involving handlers, test-power systems, thermal management and facility utilities. A U.S. test site expands the geographic footprint of a Taiwan supplier, but the latest milestones are real-estate and equipment procurement."
+      ],
+      "progress": [
+        "公司公告土地約 117.97 萬平方英尺、建物約 48.95 萬平方英尺。這次約 6.13 億美元的廠址與設備金額為兩類採購合計，不能與 NVIDIA 的 11 億美元預付款直接相加為投資總額；付款條件與採購時間亦可能不同。",
+        "KYEC disclosed about 1,179,700 square feet of land and 489,494 square feet of buildings. Real-estate and tool transactions total roughly US$613 million as separate disclosed purchases; NVIDIA's US$1.1B prepayment is not an additional project cost to add to those figures."
+      ],
+      "unknown": [
+        "德州精確地址、各設備驗收日期、最終月測試量、良率和首批客戶量產接受日期未公布。",
+        "Exact Texas address, equipment acceptance dates, monthly test throughput, yields and first customer acceptance remain undisclosed."
+      ],
+      "metric": "US$534M",
+      "metricLabel": {
+        "zh": "已公告設備與廠務採購額",
+        "en": "Disclosed equipment and utility purchases"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 京元電德州廠及設備公告",
+            "en": "CNA · KYEC Texas property and tool disclosures"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290345.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣；美國德州",
+        "Taiwan; Texas, United States"
+      ],
+      "industries": [
+        "晶圓；封測；測試；設備；GPU；ASIC；投資",
+        "Wafers; packaging/test; test equipment; GPUs; ASICs; investment"
+      ],
+      "chain": [
+        "晶圓測試設備與電源至 AI 晶片封測",
+        "Wafer test equipment and process power to AI-chip testing"
+      ],
+      "investment": [
+        "土地建物約 7,935 萬美元，設備與廠務採購約 5.34 億美元，均為公告交易。",
+        "US$79.35M for site/buildings and US$534M for tools/utilities are disclosed transactions."
+      ],
+      "demand": [
+        "相關測試產能為客戶預留，尚無新廠正式量產出貨量。",
+        "Test capacity is being built for reserved customer demand; no commissioned new-site test output."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "德州土地及建物取得價",
+            "en": "Texas land and building acquisition"
+          },
+          "current": 0.07935,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 29 日公告",
+            "en": "Announced Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 京元電德州廠及設備公告引述的公司資料",
+            "en": "CNA · KYEC Texas property and tool disclosures attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290345.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "設備與廠務採購金額",
+            "en": "Tool and facility equipment purchases"
+          },
+          "current": 0.534,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 29 日公告",
+            "en": "Announced Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 京元電德州廠及設備公告引述的公司資料",
+            "en": "CNA · KYEC Texas property and tool disclosures attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290345.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "德州建物面積",
+            "en": "Texas building area"
+          },
+          "current": 489494,
+          "unit": "平方英尺",
+          "period": {
+            "zh": "2026 年 10 月 29 日公告",
+            "en": "Announced Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 京元電德州廠及設備公告引述的公司資料",
+            "en": "CNA · KYEC Texas property and tool disclosures attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290345.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體測試電源、精密量測及熱管理設備供應商需核對已購設備配置、站點上線節點及最終客戶驗收規格。設備採購額已公告，但不代表 2027 年目標產能已完成驗證。",
+        "en": "Semiconductor test-power, precision metrology and thermal suppliers would verify purchased tool configuration, site bring-up and customer acceptance requirements. Procurement disclosures do not establish qualified 2027 output."
+      },
+      "location": {
+        "zh": "美國德州 AeternZ 擬建半導體測試廠址（已取得土地與建物，街道地址未揭露）。",
+        "en": "AeternZ semiconductor test site in Texas, United States (land/building acquired; street address undisclosed)."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣；美國德州",
+          "en": "Taiwan; Texas, United States"
+        },
+        "industries": {
+          "zh": "晶圓；封測；測試；設備；GPU；ASIC；投資",
+          "en": "Wafers; packaging/test; test equipment; GPUs; ASICs; investment"
+        },
+        "chain": {
+          "zh": "晶圓測試設備與電源至 AI 晶片封測",
+          "en": "Wafer test equipment and process power to AI-chip testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "土地建物約 7,935 萬美元，設備與廠務採購約 5.34 億美元，均為公告交易。",
+            "en": "US$79.35M for site/buildings and US$534M for tools/utilities are disclosed transactions."
+          },
+          "demand": {
+            "zh": "相關測試產能為客戶預留，尚無新廠正式量產出貨量。",
+            "en": "Test capacity is being built for reserved customer demand; no commissioned new-site test output."
+          },
+          "fdi": {
+            "zh": "未公布本事件已實現的新增外國直接投資。",
+            "en": "No realized incremental FDI was disclosed for this event."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "京元電提供 AI GPU 和 ASIC 的測試服務；測試機台、探針、電源及散熱設備、廠務設施在晶圓製造後端形成獨立測試產線。美國新廠可作為台灣封測企業海外測試擴充，但現階段是土地、廠房與設備取得公告。",
+            "en": "KYEC serves AI GPUs and ASICs through semiconductor testing, involving handlers, test-power systems, thermal management and facility utilities. A U.S. test site expands the geographic footprint of a Taiwan supplier, but the latest milestones are real-estate and equipment procurement."
+          },
+          "timing": {
+            "zh": "公司公告土地約 117.97 萬平方英尺、建物約 48.95 萬平方英尺。這次約 6.13 億美元的廠址與設備金額為兩類採購合計，不能與 NVIDIA 的 11 億美元預付款直接相加為投資總額；付款條件與採購時間亦可能不同。",
+            "en": "KYEC disclosed about 1,179,700 square feet of land and 489,494 square feet of buildings. Real-estate and tool transactions total roughly US$613 million as separate disclosed purchases; NVIDIA's US$1.1B prepayment is not an additional project cost to add to those figures."
+          },
+          "unknowns": {
+            "zh": "德州精確地址、各設備驗收日期、最終月測試量、良率和首批客戶量產接受日期未公布。",
+            "en": "Exact Texas address, equipment acceptance dates, monthly test throughput, yields and first customer acceptance remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "京元電提供 AI GPU 和 ASIC 的測試服務；測試機台、探針、電源及散熱設備、廠務設施在晶圓製造後端形成獨立測試產線。美國新廠可作為台灣封測企業海外測試擴充，但現階段是土地、廠房與設備取得公告。",
+            "en": "KYEC serves AI GPUs and ASICs through semiconductor testing, involving handlers, test-power systems, thermal management and facility utilities. A U.S. test site expands the geographic footprint of a Taiwan supplier, but the latest milestones are real-estate and equipment procurement."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行進度",
+            "en": "Figures and execution"
+          },
+          "text": {
+            "zh": "公司公告土地約 117.97 萬平方英尺、建物約 48.95 萬平方英尺。這次約 6.13 億美元的廠址與設備金額為兩類採購合計，不能與 NVIDIA 的 11 億美元預付款直接相加為投資總額；付款條件與採購時間亦可能不同。",
+            "en": "KYEC disclosed about 1,179,700 square feet of land and 489,494 square feet of buildings. Real-estate and tool transactions total roughly US$613 million as separate disclosed purchases; NVIDIA's US$1.1B prepayment is not an additional project cost to add to those figures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "德州精確地址、各設備驗收日期、最終月測試量、良率和首批客戶量產接受日期未公布。",
+            "en": "Exact Texas address, equipment acceptance dates, monthly test throughput, yields and first customer acceptance remain undisclosed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 3,
+      "topic": "yageo-passive-parts-utilization-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "國巨第三季營收 495.32 億元，AI 占比近兩成；第四季稼動率逾 95% 為預估",
+        "en": "Yageo reports NT$49.532B Q3 revenue and near-20% AI mix; Q4 utilization above 95% is guidance"
+      },
+      "summary": {
+        "zh": "國巨 10 月 29 日法說公布第三季合併營收 495.32 億元、毛利率 41%、歸母淨利 119.81 億元；AI 應用營收占比由第二季 16% 上升至接近兩成。公司預估第四季稼動率超過 95%，2027 年分階段擴充約 10% 至 15% 產能，尚未公布新增產能的絕對件數。",
+        "en": "At its October 29 briefing, Yageo reported Q3 revenue of NT$49.532 billion, 41% gross margin and NT$11.981 billion attributable profit. AI-related revenue mix increased from 16% in Q2 to nearly 20% in Q3; Q4 utilization above 95% and a staged 10% to 15% capacity expansion into 2027 are management targets."
+      },
+      "context": [
+        "積層陶瓷電容、鉭質電容及特殊被動元件用於伺服器供電、通訊設備及工業終端。AI 應用占營收比率是公司營收結構，不能直接換算成伺服器機櫃出貨或各類電容產量。",
+        "MLCCs, tantalum capacitors and specialty components support server power, communications and industrial systems. AI revenue mix cannot be converted into rack shipment volume or specific capacitor units."
+      ],
+      "progress": [
+        "國巨表示第三季接單出貨比接近 2，特殊品及標準品稼動率接近 95%，並已與部分大客戶協商長期供貨。第四季及 2027 年數值是公司預期，與第三季已認列營收不同。",
+        "Yageo said Q3 book-to-bill was near two, both standard and specialty utilization approached 95%, and supply agreements were discussed with major customers. Q4 and 2027 figures are guidance distinct from recognized Q3 sales."
+      ],
+      "unknown": [
+        "未披露 AI 相關 MLCC 及鉭電容的獨立產量、2027 年擴產絕對片數、客戶合約價與新設備支出金額。",
+        "AI-specific MLCC/tantalum unit output, absolute new capacity, contract pricing and tool spending remain undisclosed."
+      ],
+      "metric": "NT$49.532B",
+      "metricLabel": {
+        "zh": "第三季營收",
+        "en": "Q3 revenue"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 國巨第三季與產能指引",
+            "en": "CNA · Yageo Q3 results and utilization targets"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290288.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣；國巨跨國生產據點",
+        "Taiwan; Yageo's international operations"
+      ],
+      "industries": [
+        "材料；零組件；被動元件；伺服器；電源；資料中心",
+        "Materials; components; passive parts; servers; power; data centers"
+      ],
+      "chain": [
+        "材料及被動零組件至伺服器電源",
+        "Materials and passive components to server power"
+      ],
+      "investment": [
+        "公司預告產能擴充 10% 至 15%，未發布新核定設備投資總額。",
+        "Company expects 10% to 15% future capacity growth without new approved tooling capex."
+      ],
+      "demand": [
+        "第三季接單出貨比接近 2，第四季稼動率逾 95% 尚屬預估。",
+        "Q3 book-to-bill near two; Q4 utilization above 95% is a forecast."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 49.532,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 國巨第三季與產能指引引述的公司資料",
+            "en": "CNA · Yageo Q3 results and utilization targets attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290288.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.114,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 11.981,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 國巨第三季與產能指引引述的公司資料",
+            "en": "CNA · Yageo Q3 results and utilization targets attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290288.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.272,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.41,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 國巨第三季與產能指引引述的公司資料",
+            "en": "CNA · Yageo Q3 results and utilization targets attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290288.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "伺服器電源轉換和電子量測供應商需確認被動元件的功率、溫度與可靠度規格，以及擴產項目的實際產線驗收時程。營收占比及管理階層稼動率預估不足以量化未來設備採購。",
+        "en": "Server power-conversion and test suppliers would verify component electrical and reliability specifications and line qualification schedules. Revenue mix and forecast utilization are not equipment purchase commitments."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣；國巨跨國生產據點",
+          "en": "Taiwan; Yageo's international operations"
+        },
+        "industries": {
+          "zh": "材料；零組件；被動元件；伺服器；電源；資料中心",
+          "en": "Materials; components; passive parts; servers; power; data centers"
+        },
+        "chain": {
+          "zh": "材料及被動零組件至伺服器電源",
+          "en": "Materials and passive components to server power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司預告產能擴充 10% 至 15%，未發布新核定設備投資總額。",
+            "en": "Company expects 10% to 15% future capacity growth without new approved tooling capex."
+          },
+          "demand": {
+            "zh": "第三季接單出貨比接近 2，第四季稼動率逾 95% 尚屬預估。",
+            "en": "Q3 book-to-bill near two; Q4 utilization above 95% is a forecast."
+          },
+          "fdi": {
+            "zh": "未公布本事件已實現的新增外國直接投資。",
+            "en": "No realized incremental FDI was disclosed for this event."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "積層陶瓷電容、鉭質電容及特殊被動元件用於伺服器供電、通訊設備及工業終端。AI 應用占營收比率是公司營收結構，不能直接換算成伺服器機櫃出貨或各類電容產量。",
+            "en": "MLCCs, tantalum capacitors and specialty components support server power, communications and industrial systems. AI revenue mix cannot be converted into rack shipment volume or specific capacitor units."
+          },
+          "timing": {
+            "zh": "國巨表示第三季接單出貨比接近 2，特殊品及標準品稼動率接近 95%，並已與部分大客戶協商長期供貨。第四季及 2027 年數值是公司預期，與第三季已認列營收不同。",
+            "en": "Yageo said Q3 book-to-bill was near two, both standard and specialty utilization approached 95%, and supply agreements were discussed with major customers. Q4 and 2027 figures are guidance distinct from recognized Q3 sales."
+          },
+          "unknowns": {
+            "zh": "未披露 AI 相關 MLCC 及鉭電容的獨立產量、2027 年擴產絕對片數、客戶合約價與新設備支出金額。",
+            "en": "AI-specific MLCC/tantalum unit output, absolute new capacity, contract pricing and tool spending remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "積層陶瓷電容、鉭質電容及特殊被動元件用於伺服器供電、通訊設備及工業終端。AI 應用占營收比率是公司營收結構，不能直接換算成伺服器機櫃出貨或各類電容產量。",
+            "en": "MLCCs, tantalum capacitors and specialty components support server power, communications and industrial systems. AI revenue mix cannot be converted into rack shipment volume or specific capacitor units."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行進度",
+            "en": "Figures and execution"
+          },
+          "text": {
+            "zh": "國巨表示第三季接單出貨比接近 2，特殊品及標準品稼動率接近 95%，並已與部分大客戶協商長期供貨。第四季及 2027 年數值是公司預期，與第三季已認列營收不同。",
+            "en": "Yageo said Q3 book-to-bill was near two, both standard and specialty utilization approached 95%, and supply agreements were discussed with major customers. Q4 and 2027 figures are guidance distinct from recognized Q3 sales."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未披露 AI 相關 MLCC 及鉭電容的獨立產量、2027 年擴產絕對片數、客戶合約價與新設備支出金額。",
+            "en": "AI-specific MLCC/tantalum unit output, absolute new capacity, contract pricing and tool spending remain undisclosed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 4,
+      "topic": "delta-datacenter-inventory-write-down-2026q3",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：台達電說明資料中心建置延遲及缺料，第三季存貨跌價約占營收 1.7%",
+        "en": "Follow-up: Delta attributes Q3 inventory write-down to data-center delays and supply mismatches"
+      },
+      "summary": {
+        "zh": "台達電董事長鄭平 10 月 29 日法說表示，第三季部分資料中心建置延遲、供應鏈長短料等因素導致存貨跌價損失，金額約占總營收 1.7%。公司預期第四季營收高於第三季，但供電設備、人力、材料和地方審批等問題仍會影響大型資料中心交付速度。",
+        "en": "At an October 29 investor briefing, Delta chairman Ping Cheng said delayed data-center projects and shortages/excesses in component supply contributed to inventory write-downs equal to about 1.7% of Q3 revenue. Management expects Q4 sales to exceed Q3, while power infrastructure, labor, materials and local permitting remain schedule constraints."
+      },
+      "context": [
+        "資料中心電源、HVDC、UPS、變電及散熱系統依機房土建與電網可用時間交付，設備製造商的已備料庫存不代表最終客戶已完成機櫃部署。",
+        "Data-center HVDC, UPS, substations and cooling systems depend on site construction and grid readiness. Supplier inventory is not proof of end-customer rack deployment."
+      ],
+      "progress": [
+        "第三季歸母淨利 234.95 億元是 10 月 28 日已公布的歷史實績；29 日新增的是管理階層對存貨跌價、材料匹配及機房建置障礙的解釋。存貨跌價占營收 1.7% 亦不可視為 1.7% 的設備故障率。",
+        "The previous day's reported Q3 attributable profit of NT$23.495 billion is historical context. New October 29 comments describe inventory write-downs and project execution constraints; 1.7% of revenue is not equipment failure incidence."
+      ],
+      "unknown": [
+        "尚未提供逐機房延遲天數、受影響客戶、第四季實際存貨迴轉額或各電源產品的獨立訂單量。",
+        "Project delay days by site, affected customers, actual Q4 inventory reversal and product-specific order volumes remain undisclosed."
+      ],
+      "metric": "1.7%",
+      "metricLabel": {
+        "zh": "第三季存貨跌價損失相對營收",
+        "en": "Q3 inventory write-down as share of sales"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台達電 10 月 29 日法說",
+            "en": "CNA · Delta Oct 29 investor briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290248.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣；海外資料中心客戶",
+        "Taiwan; overseas data-center customers"
+      ],
+      "industries": [
+        "電源；供電；UPS；資料中心；散熱；伺服器",
+        "Power; electricity; UPS; data centers; cooling; servers"
+      ],
+      "chain": [
+        "伺服器電源、機房供電與散熱至資料中心",
+        "Server power, facility electricity and cooling to data centers"
+      ],
+      "investment": [
+        "未公布此次說明引起的新核定資本支出。",
+        "No new approved capital expenditure in the briefing."
+      ],
+      "demand": [
+        "公司預期第四季營收回升，但非已確認交付量。",
+        "Management expects Q4 revenue recovery, not yet actual deliveries."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "存貨跌價損失占營收",
+            "en": "Inventory write-down share of revenue"
+          },
+          "current": 0.017,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 台達電 10 月 29 日法說引述的公司資料",
+            "en": "CNA · Delta Oct 29 investor briefing attributed company figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290248.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接對比的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "資料中心供電、電源轉換和量測產品供應商需核對客戶電網就緒、工程人力及設備交付驗收節點。存貨損失反映部分時程與供應配置問題，不能直接等同設備品質不良。",
+        "en": "Data-center power and measurement suppliers would verify customers' grid readiness, electricians and equipment acceptance milestones. Inventory impairments reflect schedule and supply-mix issues, not necessarily product defects."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣；海外資料中心客戶",
+          "en": "Taiwan; overseas data-center customers"
+        },
+        "industries": {
+          "zh": "電源；供電；UPS；資料中心；散熱；伺服器",
+          "en": "Power; electricity; UPS; data centers; cooling; servers"
+        },
+        "chain": {
+          "zh": "伺服器電源、機房供電與散熱至資料中心",
+          "en": "Server power, facility electricity and cooling to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布此次說明引起的新核定資本支出。",
+            "en": "No new approved capital expenditure in the briefing."
+          },
+          "demand": {
+            "zh": "公司預期第四季營收回升，但非已確認交付量。",
+            "en": "Management expects Q4 revenue recovery, not yet actual deliveries."
+          },
+          "fdi": {
+            "zh": "未公布本事件已實現的新增外國直接投資。",
+            "en": "No realized incremental FDI was disclosed for this event."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心電源、HVDC、UPS、變電及散熱系統依機房土建與電網可用時間交付，設備製造商的已備料庫存不代表最終客戶已完成機櫃部署。",
+            "en": "Data-center HVDC, UPS, substations and cooling systems depend on site construction and grid readiness. Supplier inventory is not proof of end-customer rack deployment."
+          },
+          "timing": {
+            "zh": "第三季歸母淨利 234.95 億元是 10 月 28 日已公布的歷史實績；29 日新增的是管理階層對存貨跌價、材料匹配及機房建置障礙的解釋。存貨跌價占營收 1.7% 亦不可視為 1.7% 的設備故障率。",
+            "en": "The previous day's reported Q3 attributable profit of NT$23.495 billion is historical context. New October 29 comments describe inventory write-downs and project execution constraints; 1.7% of revenue is not equipment failure incidence."
+          },
+          "unknowns": {
+            "zh": "尚未提供逐機房延遲天數、受影響客戶、第四季實際存貨迴轉額或各電源產品的獨立訂單量。",
+            "en": "Project delay days by site, affected customers, actual Q4 inventory reversal and product-specific order volumes remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "資料中心電源、HVDC、UPS、變電及散熱系統依機房土建與電網可用時間交付，設備製造商的已備料庫存不代表最終客戶已完成機櫃部署。",
+            "en": "Data-center HVDC, UPS, substations and cooling systems depend on site construction and grid readiness. Supplier inventory is not proof of end-customer rack deployment."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與執行進度",
+            "en": "Figures and execution"
+          },
+          "text": {
+            "zh": "第三季歸母淨利 234.95 億元是 10 月 28 日已公布的歷史實績；29 日新增的是管理階層對存貨跌價、材料匹配及機房建置障礙的解釋。存貨跌價占營收 1.7% 亦不可視為 1.7% 的設備故障率。",
+            "en": "The previous day's reported Q3 attributable profit of NT$23.495 billion is historical context. New October 29 comments describe inventory write-downs and project execution constraints; 1.7% of revenue is not equipment failure incidence."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "尚未提供逐機房延遲天數、受影響客戶、第四季實際存貨迴轉額或各電源產品的獨立訂單量。",
+            "en": "Project delay days by site, affected customers, actual Q4 inventory reversal and product-specific order volumes remain undisclosed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 5,
+      "topic": "gigabyte-ntd50b-syndicated-credit-ai-inventory",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "技嘉董事會通過 500 億元聯貸，資金供償債及 AI 產品營運週轉",
+        "en": "Gigabyte board approves NT$50B syndicated credit for debt refinancing and AI working capital"
+      },
+      "summary": {
+        "zh": "技嘉 10 月 29 日董事會通過與台灣銀行、兆豐、華南及國泰世華等主辦銀行團簽訂新台幣 500 億元聯合授信合約，資金用途包含償還金融機構借款及中期週轉。公司指出 2027 年 AI 產品備料與採購需求，但授信額度並非已動用資金、已簽客戶訂單或新增營收。",
+        "en": "On October 29, Gigabyte's board approved a NT$50 billion syndicated credit facility led by Bank of Taiwan, Mega Bank, Hua Nan and Cathay United Bank. The facility is intended for refinancing and medium-term working capital, including preparation for 2027 AI products; committed credit is not drawn cash, new sales or customer orders."
+      },
+      "context": [
+        "技嘉製造主機板、GPU 系統及 AI 伺服器與機櫃設備，營運週轉金可涉及晶片、記憶體及整機備料。銀行聯貸核准本身不代表特定伺服器型號或零組件已投入生產。",
+        "Gigabyte makes motherboards, GPUs, AI servers and systems, using working capital for chip, memory and assembly procurement. Bank credit approval does not prove component shipments or production of particular systems."
+      ],
+      "progress": [
+        "董事會核准聯合授信條件，銀行包括台灣銀行、兆豐國際、華南及國泰世華。公司未在公告中細分 AI 採購與債務償還分配比例，也沒有揭露實際提款金額。",
+        "The banking syndicate includes Bank of Taiwan, Mega, Hua Nan and Cathay United. Gigabyte did not provide the allocation between refinancing and AI procurement, nor amounts actually drawn."
+      ],
+      "unknown": [
+        "貸款動用率、實際 AI 伺服器物料採購金額、客戶與交機數量、借款成本及具體備貨月份未公布。",
+        "Drawdown, actual component purchases, customer shipments, financing costs and timing of inventory build remain undisclosed."
+      ],
+      "metric": "NT$50B",
+      "metricLabel": {
+        "zh": "董事會核准的聯合授信額度",
+        "en": "Board-approved syndicated credit facility"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 技嘉 500 億元聯貸董事會決議",
+            "en": "CNA · Gigabyte syndicated credit approval"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290321.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣",
+        "Taiwan"
+      ],
+      "industries": [
+        "ODM；伺服器；GPU；記憶體；零組件；資金",
+        "ODM; servers; GPUs; memory; components; financing"
+      ],
+      "chain": [
+        "記憶體與零組件採購至伺服器 ODM 整機",
+        "Memory and component sourcing through server ODM systems"
+      ],
+      "investment": [
+        "500 億元為融資授信額度，非新增資本支出或實際放款。",
+        "NT$50B is a credit facility, not new capex or cash drawn."
+      ],
+      "demand": [
+        "公司稱為 2027 年 AI 產品備料，未公布對應客戶採購合約。",
+        "Company cites 2027 AI materials preparations without named customer contracts."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "核准聯合授信額度",
+            "en": "Approved syndicated credit amount"
+          },
+          "current": 50,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月 29 日董事會",
+            "en": "Board decision Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 技嘉 500 億元聯貸董事會決議提供或引述的資料",
+            "en": "CNA · Gigabyte syndicated credit approval reported figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290321.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "伺服器電源、機櫃配電及電子測試設備供應商應核對實際採購排程與客戶驗收條件。聯貸額度無法直接換算為機櫃數、電源模組訂單或晶片出貨。",
+        "en": "Server power, rack distribution and electronic test suppliers would verify actual procurement schedules and customer acceptance. Credit capacity cannot be translated into rack volumes or module purchase orders."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "ODM；伺服器；GPU；記憶體；零組件；資金",
+          "en": "ODM; servers; GPUs; memory; components; financing"
+        },
+        "chain": {
+          "zh": "記憶體與零組件採購至伺服器 ODM 整機",
+          "en": "Memory and component sourcing through server ODM systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "500 億元為融資授信額度，非新增資本支出或實際放款。",
+            "en": "NT$50B is a credit facility, not new capex or cash drawn."
+          },
+          "demand": {
+            "zh": "公司稱為 2027 年 AI 產品備料，未公布對應客戶採購合約。",
+            "en": "Company cites 2027 AI materials preparations without named customer contracts."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現外商直接投資額。",
+            "en": "No new realized foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "技嘉製造主機板、GPU 系統及 AI 伺服器與機櫃設備，營運週轉金可涉及晶片、記憶體及整機備料。銀行聯貸核准本身不代表特定伺服器型號或零組件已投入生產。",
+            "en": "Gigabyte makes motherboards, GPUs, AI servers and systems, using working capital for chip, memory and assembly procurement. Bank credit approval does not prove component shipments or production of particular systems."
+          },
+          "timing": {
+            "zh": "董事會核准聯合授信條件，銀行包括台灣銀行、兆豐國際、華南及國泰世華。公司未在公告中細分 AI 採購與債務償還分配比例，也沒有揭露實際提款金額。",
+            "en": "The banking syndicate includes Bank of Taiwan, Mega, Hua Nan and Cathay United. Gigabyte did not provide the allocation between refinancing and AI procurement, nor amounts actually drawn."
+          },
+          "unknowns": {
+            "zh": "貸款動用率、實際 AI 伺服器物料採購金額、客戶與交機數量、借款成本及具體備貨月份未公布。",
+            "en": "Drawdown, actual component purchases, customer shipments, financing costs and timing of inventory build remain undisclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "技嘉製造主機板、GPU 系統及 AI 伺服器與機櫃設備，營運週轉金可涉及晶片、記憶體及整機備料。銀行聯貸核准本身不代表特定伺服器型號或零組件已投入生產。",
+            "en": "Gigabyte makes motherboards, GPUs, AI servers and systems, using working capital for chip, memory and assembly procurement. Bank credit approval does not prove component shipments or production of particular systems."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與執行進度",
+            "en": "Published figures and timing"
+          },
+          "text": {
+            "zh": "董事會核准聯合授信條件，銀行包括台灣銀行、兆豐國際、華南及國泰世華。公司未在公告中細分 AI 採購與債務償還分配比例，也沒有揭露實際提款金額。",
+            "en": "The banking syndicate includes Bank of Taiwan, Mega, Hua Nan and Cathay United. Gigabyte did not provide the allocation between refinancing and AI procurement, nor amounts actually drawn."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "貸款動用率、實際 AI 伺服器物料採購金額、客戶與交機數量、借款成本及具體備貨月份未公布。",
+            "en": "Drawdown, actual component purchases, customer shipments, financing costs and timing of inventory build remain undisclosed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 6,
+      "topic": "advantech-2026q3-industrial-edge-ai-results",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "研華第三季營收 324.4 億元、淨利 62.18 億元，半導體設備及邊緣運算需求持續",
+        "en": "Advantech reports NT$32.44B Q3 revenue and NT$6.218B profit amid industrial demand"
+      },
+      "summary": {
+        "zh": "研華 10 月 29 日公布第三季營收 324.4 億元、年增 83%，歸母淨利 62.18 億元、年增 125%，EPS 7.15 元。公司說明半導體設備、邊緣 AI 和智慧醫療的應用需求帶動接單，第三季接單出貨比為 1.64；該比率並不等於收入成長率。",
+        "en": "Advantech released Q3 results on October 29: NT$32.44 billion revenue, up 83% YoY, and NT$6.218 billion net income, up 125%, with EPS of NT$7.15. The company cited semiconductor equipment, edge AI and healthcare demand and a Q3 book-to-bill ratio of 1.64, which is not a revenue growth rate."
+      },
+      "context": [
+        "工業電腦及嵌入式邊緣系統供工廠自動化、半導體設備與智慧醫療使用。不同區域接單與出貨比率的分母為出貨金額，不是設備產能利用率。",
+        "Industrial computers and embedded edge systems serve factory automation, semiconductor tools and medical devices. Regional book-to-bill uses order and shipment values rather than capacity utilization."
+      ],
+      "progress": [
+        "研華官方報告第三季營收季增 24%、營業利益 67.95 億元、稅後淨利 62.18 億元。中央社另引述公司說明北美接單出貨比 2.12，歐洲 1.52、中國 1.50；不同地區指標應分開解讀。",
+        "Advantech's primary release shows 24% QoQ revenue growth, NT$6.795B operating profit and NT$6.218B net income. CNA cites management on regional book-to-bill ratios of 2.12 for North America, 1.52 for Europe and 1.50 for China."
+      ],
+      "unknown": [
+        "AI、半導體設備、醫療各項產品的單獨營收與測試裝機數、不同客戶的實際交貨日期尚未公布。",
+        "Product-specific revenue, equipment installations and customer delivery schedules by application were not disclosed."
+      ],
+      "metric": "NT$32.44B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "研華 · 2026 年第三季正式財務公告",
+            "en": "Advantech · official Q3 2026 results"
+          },
+          "url": "https://www.advantech.com/en-us/resources/news/advantech-reports-3q26-eps-of-nt715",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 研華產業需求與接單出貨比",
+            "en": "CNA · Advantech demand and book-to-bill"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290312.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "region": [
+        "台灣；北美及其他出貨市場",
+        "Taiwan; North America and other destination markets"
+      ],
+      "industries": [
+        "工廠；自動化；半導體設備；工業電腦；伺服器；終端",
+        "Factories; automation; semiconductor equipment; industrial PCs; servers; end-use systems"
+      ],
+      "chain": [
+        "設備與工業電腦至工廠自動化及終端",
+        "Equipment and industrial PCs to factory automation"
+      ],
+      "investment": [
+        "未公布新的單一建廠資本支出。",
+        "No new site-specific capex reported."
+      ],
+      "demand": [
+        "第三季接單出貨比 1.64 為公司實績比率，不能解作新增訂單金額。",
+        "Q3 book-to-bill of 1.64 is reported ratio, not an absolute new order total."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 32.44,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華 · 2026 年第三季正式財務公告提供或引述的資料",
+            "en": "Advantech · official Q3 2026 results reported figures"
+          },
+          "sourceUrl": "https://www.advantech.com/en-us/resources/news/advantech-reports-3q26-eps-of-nt715",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.83,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 net income"
+          },
+          "current": 6.218,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華 · 2026 年第三季正式財務公告提供或引述的資料",
+            "en": "Advantech · official Q3 2026 results reported figures"
+          },
+          "sourceUrl": "https://www.advantech.com/en-us/resources/news/advantech-reports-3q26-eps-of-nt715",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.25,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益",
+            "en": "Q3 operating profit"
+          },
+          "current": 6.795,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華 · 2026 年第三季正式財務公告提供或引述的資料",
+            "en": "Advantech · official Q3 2026 results reported figures"
+          },
+          "sourceUrl": "https://www.advantech.com/en-us/resources/news/advantech-reports-3q26-eps-of-nt715",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.33,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季每股盈餘",
+            "en": "Q3 EPS"
+          },
+          "current": 7.15,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華 · 2026 年第三季正式財務公告提供或引述的資料",
+            "en": "Advantech · official Q3 2026 results reported figures"
+          },
+          "sourceUrl": "https://www.advantech.com/en-us/resources/news/advantech-reports-3q26-eps-of-nt715",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "工業量測、精密電源與半導體設備供應商需對照研華的不同應用產品、區域接單結構與實際交貨。接單出貨比提供需求指標，仍需出貨明細才可確認最終設備使用情境。",
+        "en": "Industrial metrology, precision power and semiconductor-tool suppliers would distinguish applications and geography and verify deliveries. Book-to-bill indicates order flow, not the specific downstream deployment."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣；北美及其他出貨市場",
+          "en": "Taiwan; North America and other destination markets"
+        },
+        "industries": {
+          "zh": "工廠；自動化；半導體設備；工業電腦；伺服器；終端",
+          "en": "Factories; automation; semiconductor equipment; industrial PCs; servers; end-use systems"
+        },
+        "chain": {
+          "zh": "設備與工業電腦至工廠自動化及終端",
+          "en": "Equipment and industrial PCs to factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的單一建廠資本支出。",
+            "en": "No new site-specific capex reported."
+          },
+          "demand": {
+            "zh": "第三季接單出貨比 1.64 為公司實績比率，不能解作新增訂單金額。",
+            "en": "Q3 book-to-bill of 1.64 is reported ratio, not an absolute new order total."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現外商直接投資額。",
+            "en": "No new realized foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工業電腦及嵌入式邊緣系統供工廠自動化、半導體設備與智慧醫療使用。不同區域接單與出貨比率的分母為出貨金額，不是設備產能利用率。",
+            "en": "Industrial computers and embedded edge systems serve factory automation, semiconductor tools and medical devices. Regional book-to-bill uses order and shipment values rather than capacity utilization."
+          },
+          "timing": {
+            "zh": "研華官方報告第三季營收季增 24%、營業利益 67.95 億元、稅後淨利 62.18 億元。中央社另引述公司說明北美接單出貨比 2.12，歐洲 1.52、中國 1.50；不同地區指標應分開解讀。",
+            "en": "Advantech's primary release shows 24% QoQ revenue growth, NT$6.795B operating profit and NT$6.218B net income. CNA cites management on regional book-to-bill ratios of 2.12 for North America, 1.52 for Europe and 1.50 for China."
+          },
+          "unknowns": {
+            "zh": "AI、半導體設備、醫療各項產品的單獨營收與測試裝機數、不同客戶的實際交貨日期尚未公布。",
+            "en": "Product-specific revenue, equipment installations and customer delivery schedules by application were not disclosed."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "工業電腦及嵌入式邊緣系統供工廠自動化、半導體設備與智慧醫療使用。不同區域接單與出貨比率的分母為出貨金額，不是設備產能利用率。",
+            "en": "Industrial computers and embedded edge systems serve factory automation, semiconductor tools and medical devices. Regional book-to-bill uses order and shipment values rather than capacity utilization."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與執行進度",
+            "en": "Published figures and timing"
+          },
+          "text": {
+            "zh": "研華官方報告第三季營收季增 24%、營業利益 67.95 億元、稅後淨利 62.18 億元。中央社另引述公司說明北美接單出貨比 2.12，歐洲 1.52、中國 1.50；不同地區指標應分開解讀。",
+            "en": "Advantech's primary release shows 24% QoQ revenue growth, NT$6.795B operating profit and NT$6.218B net income. CNA cites management on regional book-to-bill ratios of 2.12 for North America, 1.52 for Europe and 1.50 for China."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "AI、半導體設備、醫療各項產品的單獨營收與測試裝機數、不同客戶的實際交貨日期尚未公布。",
+            "en": "Product-specific revenue, equipment installations and customer delivery schedules by application were not disclosed."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      }
+    },
+    {
+      "id": 7,
+      "topic": "jpp-thailand-power-rack-bbu-components-q4",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "泰國經寶精密切入電源櫃及 BBU 機構件，第四季大規模量產為公司目標",
+        "en": "Thailand-based JPP reports power-cabinet and BBU component production ramp in Q4"
+      },
+      "summary": {
+        "zh": "台灣上市、在泰國生產的經寶精密 10 月 29 日表示，已進入當地電源管理企業的供應鏈，電源櫃、備援電池模組（BBU）及伺服器機構件預計在第四季進入大規模量產。公司另表示完成 20 項 Airbus A350 航太製程認證，但沒有公布電源產品實際出貨量或量產驗收。",
+        "en": "On October 29, Taiwan-listed JPP, which manufactures in Thailand, said it had entered a Thai power-management supplier's chain and targets Q4 volume production of power cabinets, battery backup unit (BBU) housings and server components. It separately reported 20 Airbus A350 aerospace process qualifications, while actual electrical-product shipment volumes and acceptance remain undisclosed."
+      },
+      "context": [
+        "精密鈑金外殼與電源櫃機構件用於機櫃電力配線、BBU 儲能及伺服器整機，與實際電源轉換模組及電芯製造不同。公司亦供應航太機構件，但航太認證與 AI 電源生產線不可混為同一產品驗證。",
+        "Precision sheet-metal enclosures support rack power distribution, BBU systems and server chassis but are distinct from converters and battery cells. Aerospace qualifications concern another product category, not electrical system validation."
+      ],
+      "progress": [
+        "公司接受記者詢問稱與泰國電源管理業者合作，第四季能源產品轉入大規模生產階段，尚未公開產品名稱、產線或個別客戶的出貨合約。A350 航太製程認證總計 20 項，不能換算成電力模組量產數。",
+        "Management described a partnership with a Thai power-management company and a Q4 production ramp, without named product SKUs, lines or customer delivery orders. The 20 aerospace certifications do not quantify BBU production."
+      ],
+      "unknown": [
+        "未公布電源櫃和 BBU 的月出貨量、電氣測試規格、客戶正式驗收，以及北美機房客戶交付時程。",
+        "Monthly power-cabinet and BBU shipments, electrical test standards, customer sign-off and North American data-center delivery timing are unknown."
+      ],
+      "metric": "BBU 機構件",
+      "metricLabel": {
+        "zh": "進入量產爬坡的產品類別",
+        "en": "Products under planned production ramp"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 泰國精密機構件量產進度",
+            "en": "CNA · Thai precision sheet-metal production"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290295.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣；泰國",
+        "Taiwan; Thailand"
+      ],
+      "industries": [
+        "零組件；電源；供電；BBU；伺服器；ODM；工廠",
+        "Components; power; BBU; servers; ODM; factories"
+      ],
+      "chain": [
+        "精密機構零組件至伺服器電源與資料中心",
+        "Precision enclosure components to server power and data centers"
+      ],
+      "investment": [
+        "未公告此次轉量產新增核定資本支出。",
+        "No new approved capex for this ramp disclosed."
+      ],
+      "demand": [
+        "公司稱第四季能源類機構件轉入大規模量產，未揭露具體訂單與出貨量。",
+        "Company describes Q4 volume ramp but gives no verified product shipment or order totals."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "A350 航太專業製程認證項數",
+            "en": "A350 aerospace process qualifications"
+          },
+          "current": 20,
+          "unit": "項",
+          "period": {
+            "zh": "截至 2026 年 10 月 29 日",
+            "en": "As of Oct 29, 2026"
+          },
+          "owner": {
+            "zh": "中央社 · 泰國精密機構件量產進度提供或引述的資料",
+            "en": "CNA · Thai precision sheet-metal production reported figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290295.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "機櫃供電、BBU 及工業電源供應商需核對機構件的散熱、絕緣、EMI 和可靠度驗收。公司提及量產規劃，但未揭露交付基數，不應換算成資料中心電源實際部署。",
+        "en": "Rack-power, BBU and industrial-power suppliers would verify mechanical thermal, insulation, EMI and reliability qualifications. Production plans without order volumes do not establish deployed data-center power."
+      },
+      "location": {
+        "zh": "泰國經寶精密製造基地（公司所述營運據點；本次未公布具體廠址）。",
+        "en": "JPP manufacturing operations in Thailand (site referenced by company; specific factory address not disclosed)."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣；泰國",
+          "en": "Taiwan; Thailand"
+        },
+        "industries": {
+          "zh": "零組件；電源；供電；BBU；伺服器；ODM；工廠",
+          "en": "Components; power; BBU; servers; ODM; factories"
+        },
+        "chain": {
+          "zh": "精密機構零組件至伺服器電源與資料中心",
+          "en": "Precision enclosure components to server power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告此次轉量產新增核定資本支出。",
+            "en": "No new approved capex for this ramp disclosed."
+          },
+          "demand": {
+            "zh": "公司稱第四季能源類機構件轉入大規模量產，未揭露具體訂單與出貨量。",
+            "en": "Company describes Q4 volume ramp but gives no verified product shipment or order totals."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現外商直接投資額。",
+            "en": "No new realized foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "精密鈑金外殼與電源櫃機構件用於機櫃電力配線、BBU 儲能及伺服器整機，與實際電源轉換模組及電芯製造不同。公司亦供應航太機構件，但航太認證與 AI 電源生產線不可混為同一產品驗證。",
+            "en": "Precision sheet-metal enclosures support rack power distribution, BBU systems and server chassis but are distinct from converters and battery cells. Aerospace qualifications concern another product category, not electrical system validation."
+          },
+          "timing": {
+            "zh": "公司接受記者詢問稱與泰國電源管理業者合作，第四季能源產品轉入大規模生產階段，尚未公開產品名稱、產線或個別客戶的出貨合約。A350 航太製程認證總計 20 項，不能換算成電力模組量產數。",
+            "en": "Management described a partnership with a Thai power-management company and a Q4 production ramp, without named product SKUs, lines or customer delivery orders. The 20 aerospace certifications do not quantify BBU production."
+          },
+          "unknowns": {
+            "zh": "未公布電源櫃和 BBU 的月出貨量、電氣測試規格、客戶正式驗收，以及北美機房客戶交付時程。",
+            "en": "Monthly power-cabinet and BBU shipments, electrical test standards, customer sign-off and North American data-center delivery timing are unknown."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "精密鈑金外殼與電源櫃機構件用於機櫃電力配線、BBU 儲能及伺服器整機，與實際電源轉換模組及電芯製造不同。公司亦供應航太機構件，但航太認證與 AI 電源生產線不可混為同一產品驗證。",
+            "en": "Precision sheet-metal enclosures support rack power distribution, BBU systems and server chassis but are distinct from converters and battery cells. Aerospace qualifications concern another product category, not electrical system validation."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與執行進度",
+            "en": "Published figures and timing"
+          },
+          "text": {
+            "zh": "公司接受記者詢問稱與泰國電源管理業者合作，第四季能源產品轉入大規模生產階段，尚未公開產品名稱、產線或個別客戶的出貨合約。A350 航太製程認證總計 20 項，不能換算成電力模組量產數。",
+            "en": "Management described a partnership with a Thai power-management company and a Q4 production ramp, without named product SKUs, lines or customer delivery orders. The 20 aerospace certifications do not quantify BBU production."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "未公布電源櫃和 BBU 的月出貨量、電氣測試規格、客戶正式驗收，以及北美機房客戶交付時程。",
+            "en": "Monthly power-cabinet and BBU shipments, electrical test standards, customer sign-off and North American data-center delivery timing are unknown."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": 8,
+      "topic": "tsia-taiwan-2026-ic-output-forecast",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "TSIA 估台灣 2026 年半導體產值逾 9.1 兆元，年增 40.9% 為預測",
+        "en": "TSIA forecasts Taiwan 2026 chip industry output above NT$9.1T, up 40.9%"
+      },
+      "summary": {
+        "zh": "台灣半導體產業協會（TSIA）理事長侯永清 10 月 29 日在新竹年會表示，2026 年台灣 IC 產值預估超過新台幣 9.1 兆元，較 2025 年成長約 40.9%。協會同時指出電力、材料、人才及國際產業合作議題；全年產值仍是預測，並非已結算的官方年度實績。",
+        "en": "At an October 29 annual meeting in Hsinchu, Taiwan Semiconductor Industry Association chair Hou Yong-ching projected 2026 Taiwan IC industry output above NT$9.1 trillion, roughly 40.9% higher year on year. The association also discussed electricity reliability, materials, talent and international collaboration; the full-year figure is a forecast, not audited annual output."
+      },
+      "context": [
+        "協會產值估計涵蓋 IC 設計、晶圓代工及封裝測試產業，與單一公司財報或晶圓出貨片數不同。2025 年產值約 6.5 兆元為對比背景，均為報告中的整體產業口徑。",
+        "The industry output estimate spans chip design, foundry and packaging/test activities and cannot be compared directly with a company's sales or wafer counts. The cited 2025 industry output of roughly NT$6.5 trillion is historical context."
+      ],
+      "progress": [
+        "TSIA 當天舉行 30 週年年會，表示現有約 220 家會員、12 個委員會，今年材料委員會也加入協會架構。協會說明支持在符合法規及安全前提下評估核能選項，並不代表能源政策已正式變更。",
+        "At its 30th anniversary event TSIA reported about 220 members and 12 committees, including a materials committee. Its conditional statement on reviewing nuclear energy options represents an industry association position, not a government policy decision."
+      ],
+      "unknown": [
+        "目前未公布可查核的全年實際產值總表，材料、設備、設計與製造分項的正式全年數字及與 40.9% 預測相符的精確基期仍待確認。",
+        "Verified full-year realized output, component breakdowns and the exact unrounded base underlying the 40.9% growth forecast remain unavailable."
+      ],
+      "metric": ">NT$9.1T",
+      "metricLabel": {
+        "zh": "2026 年台灣 IC 產值預測下限",
+        "en": "2026 Taiwan IC output forecast floor"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · TSIA 30 週年年會產值預測",
+            "en": "CNA · TSIA 30th anniversary output forecast"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610290199.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "region": [
+        "台灣",
+        "Taiwan"
+      ],
+      "industries": [
+        "半導體設備；材料；晶片設計；晶圓；封裝測試；供電；人才；政策",
+        "Semiconductor equipment; materials; chip design; wafers; packaging/test; power; skills; policy"
+      ],
+      "chain": [
+        "晶片設計、晶圓代工至封裝測試及產業政策",
+        "Chip design and foundry through packaging/test and policy"
+      ],
+      "investment": [
+        "無單一已核准建廠金額，協會僅報告產業產值估計。",
+        "No new single-project capex; this is an aggregate industry output forecast."
+      ],
+      "demand": [
+        "2026 年產值估逾 9.1 兆元、成長 40.9%，尚非全年實績。",
+        "2026 output above NT$9.1T and 40.9% growth are forecasts."
+      ],
+      "metrics": [
+        {
+          "name": {
+            "zh": "2026 年產業產值預測下限",
+            "en": "2026 industry output forecast floor"
+          },
+          "current": 9100,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預測",
+            "en": "Full-year 2026 forecast"
+          },
+          "owner": {
+            "zh": "中央社 · TSIA 30 週年年會產值預測提供或引述的資料",
+            "en": "CNA · TSIA 30th anniversary output forecast reported figures"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610290199.aspx",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.409,
+          "baseStatus": "來源未提供可直接比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體製程電源及量測產業參與者需確認產值統計的產品分項、設備投資和供電成本資料是否分別可得。整體產業產值預測沒有直接揭露單一製造設備的需求。",
+        "en": "Process-power and metrology businesses would examine subsector output, tool capex and electricity demand separately. An aggregate industry forecast does not quantify any individual equipment category."
+      },
+      "location": {
+        "zh": "台灣新竹市國賓大飯店（TSIA 30 週年年會活動地點，依當日媒體報導）。",
+        "en": "Ambassador Hotel Hsinchu, Hsinchu City, Taiwan (reported event venue for TSIA's 30th anniversary)."
+      },
+      "market": {
+        "eventDate": "2026-10-29",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；材料；晶片設計；晶圓；封裝測試；供電；人才；政策",
+          "en": "Semiconductor equipment; materials; chip design; wafers; packaging/test; power; skills; policy"
+        },
+        "chain": {
+          "zh": "晶片設計、晶圓代工至封裝測試及產業政策",
+          "en": "Chip design and foundry through packaging/test and policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "無單一已核准建廠金額，協會僅報告產業產值估計。",
+            "en": "No new single-project capex; this is an aggregate industry output forecast."
+          },
+          "demand": {
+            "zh": "2026 年產值估逾 9.1 兆元、成長 40.9%，尚非全年實績。",
+            "en": "2026 output above NT$9.1T and 40.9% growth are forecasts."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現外商直接投資額。",
+            "en": "No new realized foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "協會產值估計涵蓋 IC 設計、晶圓代工及封裝測試產業，與單一公司財報或晶圓出貨片數不同。2025 年產值約 6.5 兆元為對比背景，均為報告中的整體產業口徑。",
+            "en": "The industry output estimate spans chip design, foundry and packaging/test activities and cannot be compared directly with a company's sales or wafer counts. The cited 2025 industry output of roughly NT$6.5 trillion is historical context."
+          },
+          "timing": {
+            "zh": "TSIA 當天舉行 30 週年年會，表示現有約 220 家會員、12 個委員會，今年材料委員會也加入協會架構。協會說明支持在符合法規及安全前提下評估核能選項，並不代表能源政策已正式變更。",
+            "en": "At its 30th anniversary event TSIA reported about 220 members and 12 committees, including a materials committee. Its conditional statement on reviewing nuclear energy options represents an industry association position, not a government policy decision."
+          },
+          "unknowns": {
+            "zh": "目前未公布可查核的全年實際產值總表，材料、設備、設計與製造分項的正式全年數字及與 40.9% 預測相符的精確基期仍待確認。",
+            "en": "Verified full-year realized output, component breakdowns and the exact unrounded base underlying the 40.9% growth forecast remain unavailable."
+          }
+        }
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "協會產值估計涵蓋 IC 設計、晶圓代工及封裝測試產業，與單一公司財報或晶圓出貨片數不同。2025 年產值約 6.5 兆元為對比背景，均為報告中的整體產業口徑。",
+            "en": "The industry output estimate spans chip design, foundry and packaging/test activities and cannot be compared directly with a company's sales or wafer counts. The cited 2025 industry output of roughly NT$6.5 trillion is historical context."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與執行進度",
+            "en": "Published figures and timing"
+          },
+          "text": {
+            "zh": "TSIA 當天舉行 30 週年年會，表示現有約 220 家會員、12 個委員會，今年材料委員會也加入協會架構。協會說明支持在符合法規及安全前提下評估核能選項，並不代表能源政策已正式變更。",
+            "en": "At its 30th anniversary event TSIA reported about 220 members and 12 committees, including a materials committee. Its conditional statement on reviewing nuclear energy options represents an industry association position, not a government policy decision."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns and limitations"
+          },
+          "text": {
+            "zh": "目前未公布可查核的全年實際產值總表，材料、設備、設計與製造分項的正式全年數字及與 40.9% 預測相符的精確基期仍待確認。",
+            "en": "Verified full-year realized output, component breakdowns and the exact unrounded base underlying the 40.9% growth forecast remain unavailable."
+          }
+        }
+      ],
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "台積電買下友達廠房是否代表已完成新晶圓廠投產？",
+        "en": "Does TSMC's purchase of AUO facilities mean new wafer capacity is operating?"
+      },
+      "text": {
+        "zh": "沒有。友達董事會核准 388 億元交易，廠房仍在營運中，行政程序最快 2027 年後完成；製程設備改裝、投片與量產日期未公告。",
+        "en": "No. AUO approved the NT$38.8B sale, but the factory remains in use and transfer procedures may extend into 2027. Conversion and wafer production are not yet evidenced."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "京元電的 5.34 億美元採購與 NVIDIA 先前 11 億美元預付款能否相加？",
+        "en": "Can KYEC's US$534M tool purchases be added to NVIDIA's earlier US$1.1B prepayment?"
+      },
+      "text": {
+        "zh": "不宜直接相加。5.34 億美元是京元電公告的設備與廠務採購，11 億美元則為客戶為保留未來測試產能支付的預付款，分屬支出與客戶融資安排。",
+        "en": "Not as project cost. US$534M represents tooling and utilities purchases; US$1.1B is an earlier customer capacity reservation prepayment with different accounting treatment."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "國巨第三季 AI 比重與第四季稼動率如何區分？",
+        "en": "How should Yageo's reported Q3 AI mix be distinguished from Q4 utilization?"
+      },
+      "text": {
+        "zh": "第三季 AI 占營收近兩成是公司報告的歷史營收結構；第四季稼動率預估逾 95%，以及 2027 年擴產 10% 至 15%，均是未來目標。",
+        "en": "Near-20% AI mix describes reported Q3 revenue, while above-95% Q4 utilization and 10% to 15% expansion through 2027 are prospective."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "歷史預付款與資產收購口徑",
+        "en": "Historical prepayments and asset acquisitions"
+      },
+      "text": {
+        "zh": "京元電與 NVIDIA 於 10 月上旬已有預付款安排；10 月 29 日的新事實為德州廠址和設備取得公告。友達廠房交易核准也應與實際設備裝機區分。",
+        "en": "KYEC and NVIDIA announced a prepayment arrangement earlier in October; October 29 added Texas site and procurement disclosures. AUO's asset sale approval is likewise separate from physical semiconductor tool deployment."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考資料",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "僅報導股價與未核實訂單推估",
+        "en": "Price-only reports and unverified contract estimates"
+      },
+      "text": {
+        "zh": "僅涉及股票評價、分析師對 AI 題材的預期，以及未有 10 月 29 日新核准或實際交付證據的舊消息，不納入新新聞。",
+        "en": "Stock-price reactions, analyst AI forecasts and older items without a new October 29 approval or delivery milestone were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "友達廠房交易仍待交屋及改裝，京元電德州設備採購不等於量產驗收；國巨第四季稼動率與 TSIA 全年產值均為預測。研華第三季數值具公司第一手公告，其餘主要交易及法說資料以中央社引述公司公告為主要來源；泰國經寶產品轉量產仍缺實際出貨基數。",
+    "en": "AUO's transaction still awaits closing, KYEC's purchases do not establish qualified output, and Yageo utilization and TSIA annual output are forecasts. Advantech has a first-hand earnings release; other material company transaction and briefing figures rely mainly on CNA reporting. JPP's Thai production ramp lacks verified shipped volumes."
+  }
+}
