@@ -1,0 +1,1361 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-30T14:54:05.239Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞的 AI 晶片、伺服器供電、先進封裝及工廠擴產",
+      "en": "AI chips, server power, advanced packaging and factory expansion in Taiwan and Southeast Asia"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "聯發科揭露 ASIC 初期出貨與未來指引，光寶科和川湖分別公布高功率電源與機構件資本支出，鴻海則說明跨境機櫃製造能力；已實績與未來量產目標有所區分。",
+    "en": "MediaTek disclosed initial ASIC shipments and guidance, Lite-On and King Slide reported power and chassis capex while Foxconn described global rack capacity; reported operations and planned production remain distinct."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "聯發科首款資料中心 ASIC 已於 9 月開始出貨，第四季 25 億美元及 2027 年 160 億美元營收仍是公司預估。",
+        "en": "MediaTek's first data-center ASIC started shipments in September; US$2.5B Q4 and US$16B 2027 sales are forecasts."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "光寶科全年資本支出預算上調至 197 億元，公布 8.5kW 電源與 BBU 量產進度。",
+        "en": "Lite-On raised annual capex to NT$19.7B and reported 8.5kW supply and BBU production milestones."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "川湖董事會核准高雄兩座滑軌廠 197.12 億元建廠設備預算，尚待工程合約及後續驗收。",
+        "en": "King Slide approved NT$19.712B for two Kaohsiung slide plants, pending contracts and commissioning."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "鴻海表示 AI 機櫃每週產能一年來由 1,000 台翻倍，並說明台越與北美製造分工。",
+        "en": "Foxconn reported doubling weekly rack capacity from 1,000 units and described manufacturing roles across Asia and North America."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "華通規劃連續三年每年逾 200 億元資本支出，擴充台灣與泰國等地 mSAP／HDI 產能。",
+        "en": "Compeq plans annual capex over NT$20B through 2028 for mSAP/HDI capacity including Taiwan and Thailand."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "medIATEK-ai-asic-deliveries",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "聯發科 AI ASIC 出貨與營收指引",
+        "en": "MediaTek AI ASIC shipments and guidance"
+      },
+      "summary": {
+        "zh": "聯發科 10 月 30 日表示首款資料中心 ASIC 已於 9 月開始小量出貨，預估第四季相關營收 25 億美元、2027 年 160 億美元。公司第三季營收 1,680.58 億元、毛利率 46.3%，2028 年第一季量產第二款 ASIC 仍是目標。",
+        "en": "On October 30 MediaTek said its first data-center ASIC began initial shipments in September and forecast US$2.5B of Q4 sales and US$16B in 2027. Q3 revenue was NT$168.058B with a 46.3% gross margin; a second ASIC targets Q1 2028 production."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "晶片設計；晶圓；先進封裝；資料中心",
+            "en": "Chip design; foundry; packaging; data centers"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "晶片設計及資料中心加速器設計涉及晶圓代工、先進封裝、載板與高速互連。公司另提及第二個 ASIC 專案與新客戶，尚未揭露客戶名稱、晶圓及封裝採購量。",
+            "en": "Data-center accelerator designs depend on foundry, advanced packaging, substrates and interconnects. A second ASIC and customer were discussed without identifying the customer or wafer/package orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "現有 ASIC 已開始出貨，未來營收、客戶市占及第二款晶片量產仍屬管理層預估。",
+            "en": "Initial ASIC shipments have started, but future revenue, market share and a second chip ramp remain management forecasts."
+          }
+        }
+      ],
+      "metric": "2027 US$16B",
+      "metricLabel": {
+        "zh": "2027 年 AI ASIC 營收預估",
+        "en": "2027 AI ASIC sales outlook"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 聯發科 AI ASIC 出貨與營收指",
+            "en": "CNA · MediaTek AI ASIC shipments and guidance"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300190.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；先進封裝；資料中心",
+          "en": "Chip design; foundry; packaging; data centers"
+        },
+        "chain": {
+          "zh": "晶片設計至晶圓、先進封裝與資料中心",
+          "en": "Chip design through wafers and packaging to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告可確認的新增已支付投資額。",
+            "en": "No new realized spending verified."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶片設計；晶圓；先進封裝；資料中心",
+            "en": "Chip design; foundry; packaging; data centers"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "現有 ASIC 已開始出貨，未來營收、客戶市占及第二款晶片量產仍屬管理層預估。",
+            "en": "Initial ASIC shipments have started, but future revenue, market share and a second chip ramp remain management forecasts."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 168.058,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯發科，由中央社報導",
+            "en": "MediaTek, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300190.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.463,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "聯發科，由中央社報導",
+            "en": "MediaTek, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300190.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "第四季 ASIC 營收目標",
+            "en": "Q4 ASIC sales guidance"
+          },
+          "current": 2.5,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年第四季預估",
+            "en": "Q4 2026 forecast"
+          },
+          "owner": {
+            "zh": "聯發科，由中央社報導",
+            "en": "MediaTek, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300190.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年 ASIC 營收預估",
+            "en": "2027 ASIC revenue outlook"
+          },
+          "current": 16,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 年預估",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "聯發科，由中央社報導",
+            "en": "MediaTek, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300190.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體製程電源與測試儀器供應商可核對 ASIC 使用的晶圓廠、封裝規格及客戶量產驗收節點。未來營收指引尚不能直接換算設備採購量。",
+        "en": "Process-power and test-equipment suppliers would verify the foundry, package and customer qualification milestones. Future sales guidance does not quantify equipment orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "liteon-capex-hvdc-bbu-2026",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "光寶科上修資本支出至 197 億元，高功率電源新品進入量產",
+        "en": "Lite-On raises 2026 capex to NT$19.7B and discusses high-power supply production"
+      },
+      "summary": {
+        "zh": "光寶科 10 月 30 日公布第三季營收 574 億元、稅後純益 74 億元，並再度上修 2026 年資本支出預算至 197 億元。公司稱 8.5kW ASIC 電源及 BBU 進入量產，800VDC Power Rack 第四季擬出貨樣機；越南新廠規劃 11 月開幕。",
+        "en": "Lite-On on October 30 reported Q3 revenue of NT$57.4B and net profit of NT$7.4B, raising 2026 capex authorization to NT$19.7B. It said 8.5kW ASIC power supplies and BBUs are entering production; 800VDC Power Rack samples are planned for Q4 and its Vietnam plant targets a November opening."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "電源；供電；BBU；伺服器；資料中心；測試；工廠",
+            "en": "Power; BBU; servers; data centers; test; factories"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "公司說明前九月已投入約 131 億元資本支出，與本次全年 197 億元預算屬不同口徑。新加坡及北美等海外據點之外，越南新廠預計 11 月開幕，美國德州廠以 2027 年第二季營運為目標。",
+            "en": "The company said capex spent through September was about NT$13.1B, distinct from the NT$19.7B full-year budget. Vietnam's plant targets a November opening and the Texas site targets operations in Q2 2027."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "197 億元是全年資本支出預算，與前九月已支付約 131 億元不同；越南廠和美國廠尚待後續啟用。",
+            "en": "NT$19.7B is full-year budget, distinct from about NT$13.1B spent through September. Vietnam and U.S. site starts are future milestones."
+          }
+        }
+      ],
+      "metric": "NT$19.7B",
+      "metricLabel": {
+        "zh": "全年資本支出預算",
+        "en": "Annual capex budget"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 光寶科上修資本支出至 197 億元，",
+            "en": "CNA · Lite-On raises 2026 capex to NT$19.7B and discus"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300203.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣；越南；美國",
+          "en": "Taiwan; Vietnam; United States"
+        },
+        "industries": {
+          "zh": "電源；供電；BBU；伺服器；資料中心；測試；工廠",
+          "en": "Power; BBU; servers; data centers; test; factories"
+        },
+        "chain": {
+          "zh": "電源與供電零組件至伺服器及資料中心",
+          "en": "Power components through servers to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "全年資本支出預算上修至 197 億元。",
+            "en": "Annual capex budget increased to NT$19.7B."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電源；供電；BBU；伺服器；資料中心；測試；工廠",
+            "en": "Power; BBU; servers; data centers; test; factories"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "197 億元是全年資本支出預算，與前九月已支付約 131 億元不同；越南廠和美國廠尚待後續啟用。",
+            "en": "NT$19.7B is full-year budget, distinct from about NT$13.1B spent through September. Vietnam and U.S. site starts are future milestones."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 57.4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "光寶科技，由中央社報導",
+            "en": "Lite-On Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300203.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後純益",
+            "en": "Q3 net profit"
+          },
+          "current": 7.4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "光寶科技，由中央社報導",
+            "en": "Lite-On Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300203.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "2026 年資本支出預算",
+            "en": "2026 capex budget"
+          },
+          "current": 19.7,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年預算",
+            "en": "2026 budget"
+          },
+          "owner": {
+            "zh": "光寶科技，由中央社報導",
+            "en": "Lite-On Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300203.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "8.5kW ASIC 電源規格",
+            "en": "ASIC power supply rating"
+          },
+          "current": 8.5,
+          "unit": "kW",
+          "period": {
+            "zh": "10 月 30 日公布",
+            "en": "Oct 30 disclosure"
+          },
+          "owner": {
+            "zh": "光寶科技，由中央社報導",
+            "en": "Lite-On Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300203.aspx",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "高功率電源及資料中心供電企業會關注 8.5kW 電源、BBU 與 800VDC 樣機的可靠度測試及驗收日期。資本支出預算不等於已交付產品。",
+        "en": "High-power conversion providers would check reliability and qualification milestones for 8.5kW modules, BBUs and 800VDC samples. Capex budgets do not establish completed deliveries."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "kingslide-kaohsiung-third-fifth-plants",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "川湖核准高雄滑軌廠投資預算 197.12 億元",
+        "en": "King Slide authorizes NT$19.712B for Kaohsiung slide factories"
+      },
+      "summary": {
+        "zh": "川湖 10 月 30 日代子公司川益公布，董事會核准 3 廠與 5 廠共 197.12 億元資本支出預算，包含高雄廠房新建及設備購置。另有約 117.33 億元工程價款決議，最終價格依議價簽約確認；105 億元現金增資與可轉債為資金安排，不宜重複算成廠房成本。",
+        "en": "On October 30 King Slide said subsidiary Chuan Yi approved NT$19.712B in capex authorization for two Kaohsiung slide factories. A NT$11.733B construction amount awaits contractual pricing; NT$10.5B of equity financing and proposed convertible bonds are funding mechanisms, not additional construction cost."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "零組件；伺服器；ODM；工廠；投資",
+            "en": "Components; servers; ODM; factories; investment"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "川湖子公司川益董事會通過 3 廠與 5 廠的建置及設備預算，工程款約 117.33 億元仍待議價、簽約。105 億元現金增資及可轉債屬資金籌措，不能與 197.12 億元預算相加。",
+            "en": "Subsidiary Chuan Yi approved third/fifth plant construction and equipment spending, with about NT$11.733B construction consideration pending negotiation and signing. NT$10.5B equity funding and proposed convertible bonds are financing instruments, not additional capex."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "產能擴建尚在預算及工程簽約階段，沒有公布滑軌月產量及驗收日期。",
+            "en": "Expansion is at budget and contracting stage; absolute output and acceptance dates were not announced."
+          }
+        }
+      ],
+      "metric": "NT$19.712B",
+      "metricLabel": {
+        "zh": "新廠資本支出授權",
+        "en": "Plant capex approval"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 川湖核准高雄滑軌廠投資預算 197.",
+            "en": "CNA · King Slide authorizes NT$19.712B for Kaohsiung s"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300255.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "零組件；伺服器；ODM；工廠；投資",
+          "en": "Components; servers; ODM; factories; investment"
+        },
+        "chain": {
+          "zh": "伺服器滑軌零組件至 ODM 整機",
+          "en": "Server slide-rail components to ODM systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "高雄廠房及設備預算 197.12 億元已獲董事會核准。",
+            "en": "NT$19.712B board-authorized factory/tool budget."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "零組件；伺服器；ODM；工廠；投資",
+            "en": "Components; servers; ODM; factories; investment"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "產能擴建尚在預算及工程簽約階段，沒有公布滑軌月產量及驗收日期。",
+            "en": "Expansion is at budget and contracting stage; absolute output and acceptance dates were not announced."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "資本支出授權總額",
+            "en": "Authorized capex budget"
+          },
+          "current": 19.712,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "10 月 30 日核准",
+            "en": "Approved Oct 30"
+          },
+          "owner": {
+            "zh": "川湖，由中央社報導",
+            "en": "King Slide, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300255.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "工程價款初步金額",
+            "en": "Preliminary construction value"
+          },
+          "current": 11.733,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "10 月 30 日核准",
+            "en": "Approved Oct 30"
+          },
+          "owner": {
+            "zh": "川湖，由中央社報導",
+            "en": "King Slide, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300255.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "製造設備與精密量測供應商會核對新廠滑軌產能、機台自動化規格及設備驗收時程。董事會預算核准並未揭露產出或已下達的設備訂單。",
+        "en": "Manufacturing and metrology suppliers would verify slide output, automation specifications and tool acceptance. Board-approved capex does not establish production or executed equipment orders."
+      },
+      "location": {
+        "zh": "台灣高雄市川益科技規劃 3 廠及 5 廠（確切廠址未揭露）。",
+        "en": "Planned Chuan Yi factories 3 and 5 in Kaohsiung, Taiwan; specific addresses undisclosed."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "foxconn-ai-rack-weekly-capacity-2026",
+      "category": "tech",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "鴻海稱 AI 機櫃每週產能由千台翻倍，台越與北美分工整合",
+        "en": "Foxconn says weekly AI-rack capacity doubled from 1,000 units"
+      },
+      "summary": {
+        "zh": "鴻海 10 月 30 日科技日指出，AI 機櫃每週產能一年來由約 1,000 台翻倍，並在台灣、越南及美國與墨西哥建立不同層級系統整合流程。NVIDIA 說明超過 10 座廠參與 Vera Rubin 平台製造；實際客戶交機量與跨廠有效產出尚未披露。",
+        "en": "At its October 30 Technology Day Foxconn said weekly AI-rack capacity doubled from roughly 1,000 units over a year, supported by differentiated assembly roles across Taiwan, Vietnam, the U.S. and Mexico. NVIDIA described more than ten factories involved in Vera Rubin manufacturing; actual shipments and qualified output remain undisclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "ODM；伺服器；整機；CPO；供電；散熱；資料中心",
+            "en": "ODM; servers; CPO; power; cooling; data centers"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "公司說明 Level 1 至 Level 12 的生產分工，台灣與越南製造部分零組件，北美負責更高層級系統整合。NVIDIA 指出超過十座工廠參與 Vera Rubin 平台生產，但未公布逐廠驗收量與對外交付。",
+            "en": "Foxconn described Level 1–12 production integration across Taiwan, Vietnam and North America. NVIDIA cited more than ten factories participating in Vera Rubin production without disclosing factory-level qualified output or customer deliveries."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "翻倍是公司公布的每週產能變化，並非當週實際出貨；Vera Rubin 仍在生產建置階段。",
+            "en": "The doubling refers to reported weekly capacity rather than current shipments; Vera Rubin assembly plans remain in execution."
+          }
+        }
+      ],
+      "metric": "2×",
+      "metricLabel": {
+        "zh": "每週 AI 機櫃產能倍數",
+        "en": "Weekly AI-rack capacity multiple"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 鴻海稱 AI 機櫃每週產能由千台翻倍",
+            "en": "CNA · Foxconn says weekly AI-rack capacity doubled fro"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300052.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣；越南；美國；墨西哥",
+          "en": "Taiwan; Vietnam; United States; Mexico"
+        },
+        "industries": {
+          "zh": "ODM；伺服器；整機；CPO；供電；散熱；資料中心",
+          "en": "ODM; servers; CPO; power; cooling; data centers"
+        },
+        "chain": {
+          "zh": "ODM 伺服器機櫃整合至供電散熱及資料中心",
+          "en": "ODM servers to power/cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告可確認的新增已支付投資額。",
+            "en": "No new realized spending verified."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "ODM；伺服器；整機；CPO；供電；散熱；資料中心",
+            "en": "ODM; servers; CPO; power; cooling; data centers"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "翻倍是公司公布的每週產能變化，並非當週實際出貨；Vera Rubin 仍在生產建置階段。",
+            "en": "The doubling refers to reported weekly capacity rather than current shipments; Vera Rubin assembly plans remain in execution."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "先前每週機櫃產能",
+            "en": "Prior weekly rack capacity"
+          },
+          "current": 1000,
+          "unit": "台",
+          "period": {
+            "zh": "約一年前",
+            "en": "About one year earlier"
+          },
+          "owner": {
+            "zh": "鴻海，由中央社報導",
+            "en": "Foxconn, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300052.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "機櫃電源、散熱與光通訊測試業者可確認 Level 11、12 整合規格及 CPO 製程驗收。每週產能倍增不等於實際交付與客戶接受量同步倍增。",
+        "en": "Rack-power, cooling and optical-test suppliers would verify Level 11/12 integration and CPO acceptance. Weekly nameplate capacity growth does not establish actual shipments."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "compeq-msap-hdi-thailand-capex",
+      "category": "tech",
+      "pick": true,
+      "depth": "standard",
+      "title": {
+        "zh": "華通擬連三年資本支出逾 200 億元，擴充 mSAP 與高階 HDI",
+        "en": "Compeq plans annual capex above NT$20B from 2026 to 2028"
+      },
+      "summary": {
+        "zh": "華通 10 月 30 日表示，規劃 2026 至 2028 年每年資本支出超過 200 億元，用於台灣、中國及泰國廠區升級。公司第三季營收 225.85 億元，並稱高階 6 層以上 HDI 已量產；2027 年 mSAP 與衛星產品各 250 億元營收屬預估。",
+        "en": "On October 30 Compeq described planned annual capex above NT$20B in each year from 2026 to 2028 for Taiwan, China and Thailand facilities. Q3 revenue was NT$22.585B and high-layer HDI production is reported, while 2027 mSAP and satellite sales targets of NT$25B each remain forecasts."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "基板；載板；PCB；零組件；伺服器；資料中心；投資",
+            "en": "Substrates; PCB; components; servers; data centers; investment"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "公司稱 6 階以上高密度板已量產，擴充 mSAP、光模組與衛星用 PCB 產能。2027 年 mSAP 與衛星業務各 250 億元營收為管理階層預估，仍有各產品驗證、客戶採購和分廠開工時間待確認。",
+            "en": "Management says high-layer HDI boards are already produced and it plans mSAP, optical-module and satellite PCB capacity. The two NT$25B 2027 category sales expectations remain forecasts without plant-level ramp details."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "連三年資本支出及明年產品營收為公司規劃；沒有逐廠設備交貨及量產良率數據。",
+            "en": "Three-year capex and 2027 product revenue are plans, without plant-level tool deliveries or accepted production yields."
+          }
+        }
+      ],
+      "metric": "NT$20B+",
+      "metricLabel": {
+        "zh": "每年資本支出計畫下限",
+        "en": "Annual planned capex floor"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 華通擬連三年資本支出逾 200 億元",
+            "en": "CNA · Compeq plans annual capex above NT$20B from 2026"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300177.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣；泰國；中國",
+          "en": "Taiwan; Thailand; China"
+        },
+        "industries": {
+          "zh": "基板；載板；PCB；零組件；伺服器；資料中心；投資",
+          "en": "Substrates; PCB; components; servers; data centers; investment"
+        },
+        "chain": {
+          "zh": "PCB 材料與高密度載板至伺服器及資料中心",
+          "en": "PCB and dense boards to servers and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2026 至 2028 年每年資本支出逾 200 億元是公司規劃。",
+            "en": "Annual capex above NT$20B through 2028 is a plan."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "基板；載板；PCB；零組件；伺服器；資料中心；投資",
+            "en": "Substrates; PCB; components; servers; data centers; investment"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "連三年資本支出及明年產品營收為公司規劃；沒有逐廠設備交貨及量產良率數據。",
+            "en": "Three-year capex and 2027 product revenue are plans, without plant-level tool deliveries or accepted production yields."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 22.585,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "華通，由中央社報導",
+            "en": "Compeq, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300177.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        },
+        {
+          "name": {
+            "zh": "年度資本支出下限目標",
+            "en": "Annual capex floor target"
+          },
+          "current": 20,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 至 2028 年每年規劃",
+            "en": "Each year 2026–2028 planned"
+          },
+          "owner": {
+            "zh": "華通，由中央社報導",
+            "en": "Compeq, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300177.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "伺服器 PCB 製程電源與測試設備業者可確認 mSAP 與 HDI 產線設備、量產良率及客戶驗證階段。跨三年預算與未來營收目標尚無逐廠實際訂單資料。",
+        "en": "PCB process-power and test suppliers would verify mSAP/HDI tools, yields and customer qualification. Multiyear capex and sales targets lack plant-specific procurement details."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "tsmc-air-washer-fab-pump-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台積電外氣空調洗滌改裝驗證，水泵功率由 10 馬力降至 4 馬力",
+        "en": "TSMC validates air-washer retrofits lowering pump power from 10 hp to 4 hp"
+      },
+      "summary": {
+        "zh": "台積電 10 月 30 日 ESG 資訊說明，外氣空調箱洗滌技術改裝後，水泵由 10 馬力降至 4 馬力，該項電力減幅達 60%；截至 10 月已在晶圓六廠與先進封測七廠完成運轉驗證。該百分比對應特定水泵，不能視為整座晶圓廠節電 60%。",
+        "en": "In a report carried October 30, TSMC described air-washer retrofits reducing pump ratings from 10 to 4 horsepower, a 60% reduction for that pump. Operational validation was completed at Fab 6 and Advanced Backend Fab 7 by October; this is not a 60% reduction in total fab electricity use."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "晶圓；封測；設備；供電；電力；工廠",
+            "en": "Wafers; packaging/test; equipment; power; electricity; factories"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "新型外氣空調箱使用濕膜板及重力水流取代馬達加壓，台積電表示晶圓六廠與先進封測七廠已完成驗證。節電 60% 是這一款水泵的功率變化，並非晶圓製造用電量的減幅。",
+            "en": "A new wetted-media gravity-fed design reduces motorized pump load, according to TSMC, validated at Fab 6 and Advanced Backend Fab 7. The 60% saving is pump-specific rather than total wafer-fab energy use."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "驗證限於兩座指名廠，沒有全廠電量基準，亦未公布其他 12 吋廠的全面導入日期。",
+            "en": "Validated only in two named fabs with no total-site kWh baseline or complete rollout timeline."
+          }
+        }
+      ],
+      "metric": "60%",
+      "metricLabel": {
+        "zh": "單一水泵功率減幅",
+        "en": "Specific pump power reduction"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台積電外氣空調洗滌改裝驗證，水泵功率",
+            "en": "CNA · TSMC validates air-washer retrofits lowering pum"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300202.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；封測；設備；供電；電力；工廠",
+          "en": "Wafers; packaging/test; equipment; power; electricity; factories"
+        },
+        "chain": {
+          "zh": "晶圓廠務設備及供電至封裝測試",
+          "en": "Fab facilities and power through packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告可確認的新增已支付投資額。",
+            "en": "No new realized spending verified."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶圓；封測；設備；供電；電力；工廠",
+            "en": "Wafers; packaging/test; equipment; power; electricity; factories"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "驗證限於兩座指名廠，沒有全廠電量基準，亦未公布其他 12 吋廠的全面導入日期。",
+            "en": "Validated only in two named fabs with no total-site kWh baseline or complete rollout timeline."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "外氣洗滌水泵節電率",
+            "en": "Air-washer pump power reduction"
+          },
+          "current": 0.6,
+          "unit": "%",
+          "period": {
+            "zh": "截至 2026 年 10 月",
+            "en": "As of Oct 2026"
+          },
+          "owner": {
+            "zh": "台積電，由中央社報導",
+            "en": "TSMC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300202.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "尚無來源明列的可比較同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "廠務電源與工業控制設備業者會關注改裝後的泵浦負載、控制器規格及維護條件。特定設備節電率不能直接推估所有晶圓廠總電量變化。",
+        "en": "Facility-power and control suppliers would check modified pump load, controller specifications and maintenance constraints. Savings on a specific pump cannot be generalized to entire fabs."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taiwan-silicon-photonics-lab-oif-2027",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國發會規劃矽光子驗證實驗室，2027 年擬與海外互認",
+        "en": "Taiwan plans silicon-photonics test lab with overseas mutual validation in 2027"
+      },
+      "summary": {
+        "zh": "國發會主委 10 月 30 日表示，將建置矽光子測試驗證實驗室，目標 2027 年與海外實驗室交互認證，2028 年爭取通過 OIF 認證。現行產品送海外驗證歷時 6 個月至 2 年是官員說法，尚無新實驗室正式啟用與驗收資料。",
+        "en": "On October 30 Taiwan's National Development Council described a planned silicon-photonics validation laboratory targeting overseas inter-laboratory recognition in 2027 and OIF certification in 2028. Management cited existing offshore verification times of six months to two years; no new domestic lab has yet been commissioned."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "CPO；矽光子；測試；封裝；晶圓；政策",
+            "en": "CPO; silicon photonics; testing; packaging; wafers; policy"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "政府說明目前矽光子產品送海外驗證需約半年至兩年，擬建立國內測試驗證設施以支援 CPO 和高速光互連。海外實驗室互認及 OIF 認證均為政策目標，沒有已完成的國內認證成果。",
+            "en": "Government officials cited overseas silicon-photonics validation taking six months to two years and proposed a domestic lab for CPO and optical interconnects. Mutual recognition and OIF certification remain future policy milestones."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "實驗室地址、預算、設備清單、互認條件與實際認證均待確認。",
+            "en": "Lab address, capex, tool list, mutual-recognition terms and certification are pending."
+          }
+        }
+      ],
+      "metric": "2027",
+      "metricLabel": {
+        "zh": "規劃國際互認年份",
+        "en": "Planned mutual recognition year"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 國發會規劃矽光子驗證實驗室，2027",
+            "en": "CNA · Taiwan plans silicon-photonics test lab with ove"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202610300281.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣；歐美合作實驗室",
+          "en": "Taiwan; prospective European and U.S. lab partners"
+        },
+        "industries": {
+          "zh": "CPO；矽光子；測試；封裝；晶圓；政策",
+          "en": "CPO; silicon photonics; testing; packaging; wafers; policy"
+        },
+        "chain": {
+          "zh": "矽光子晶圓至 CPO 封裝與測試驗證",
+          "en": "Silicon photonics wafers to CPO packaging and validation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告可確認的新增已支付投資額。",
+            "en": "No new realized spending verified."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "CPO；矽光子；測試；封裝；晶圓；政策",
+            "en": "CPO; silicon photonics; testing; packaging; wafers; policy"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "實驗室地址、預算、設備清單、互認條件與實際認證均待確認。",
+            "en": "Lab address, capex, tool list, mutual-recognition terms and certification are pending."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "光學量測與半導體測試企業可確認國內實驗室的設備項目、測試規範和跨境互認條件。未來認證時間點還無法視為已完成商用驗證。",
+        "en": "Optical metrology and semiconductor-test firms would examine lab instrumentation, test standards and mutual-recognition rules. Future certification dates are not completed commercial qualification."
+      },
+      "location": {
+        "zh": "台灣台北市，矽光子驗證實驗室規劃中（實際場址未公布）。",
+        "en": "Taipei, Taiwan; proposed silicon-photonics lab (specific site undisclosed)."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "ase-2026q3-packaging-utilization",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "日月光投控公布第三季封測營收及產能利用率",
+        "en": "ASE reports Q3 packaging/testing results and utilization"
+      },
+      "summary": {
+        "zh": "日月光投控 10 月 30 日揭露第三季合併營收約 2,442 億元，並表示封裝、測試及材料產能在部分高階業務接近滿載；電子代工服務占比亦需與封測收入區分。已公布第三季數值不應與全年成長指引或市場分析師預測混用。",
+        "en": "ASE Technology reported Q3 consolidated revenue around NT$244.2B on October 30 and described tight assembly, test and materials utilization in advanced applications. Packaging, testing and EMS segments must be distinguished, and actuals should not be conflated with guidance or analyst estimates."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain background"
+          },
+          "text": {
+            "zh": "封裝；封測；測試；材料；伺服器",
+            "en": "Packaging; testing; materials; servers"
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與實際進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "日月光的合併營收涵蓋封裝、測試、材料及電子製造服務，不能將集團營收全部視為先進封裝收入。二手報導提及產能吃緊，但未提供按產線的絕對設備或測試通道數。",
+            "en": "ASE consolidated revenue covers assembly, test, materials and electronics manufacturing services, not advanced packaging alone. Secondary reporting suggests constrained capacity without absolute tool/channel counts."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "目前來源是二手媒體摘要，尚待原始公司報表確認分項營收與滿載程度。",
+            "en": "The available source is a secondary report; original company disclosure is needed to verify segment results and utilization."
+          }
+        }
+      ],
+      "metric": "NT$244.2B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Investors.com · 日月光第三季報導",
+            "en": "Investors.com · ASE Q3 report"
+          },
+          "url": "https://www.investors.com/news/technology/asx-stock-ase-technology-q3-2026-earnings-beat/",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣；東南亞",
+          "en": "Taiwan; Southeast Asia"
+        },
+        "industries": {
+          "zh": "封裝；封測；測試；材料；伺服器",
+          "en": "Packaging; testing; materials; servers"
+        },
+        "chain": {
+          "zh": "晶圓封裝測試至伺服器系統",
+          "en": "Wafer packaging/test to servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告可確認的新增已支付投資額。",
+            "en": "No new realized spending verified."
+          },
+          "demand": {
+            "zh": "已公布營運實績或需求計畫；不可直接換算為新增客戶訂單量。",
+            "en": "Published company data or outlook does not establish new customer order volume."
+          },
+          "fdi": {
+            "zh": "未公布實際新增外商直接投資。",
+            "en": "No new realized FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "封裝；封測；測試；材料；伺服器",
+            "en": "Packaging; testing; materials; servers"
+          },
+          "timing": {
+            "zh": "10 月 30 日公布，產品交付與預計時程在內文區分。",
+            "en": "Reported Oct 30; realized and planned product timelines distinguished."
+          },
+          "unknowns": {
+            "zh": "目前來源是二手媒體摘要，尚待原始公司報表確認分項營收與滿載程度。",
+            "en": "The available source is a secondary report; original company disclosure is needed to verify segment results and utilization."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "封裝測試設備與精密電源業者可追問各產品產線稼動率及客戶訂單驗收細節。目前取得的次級報導尚不足以分辨先進封裝設備實際新增量。",
+        "en": "Packaging/test equipment and precision-power suppliers would seek utilization and customer acceptance by line. Available secondary reporting does not quantify additional advanced-packaging tools."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "聯發科已出貨 ASIC 與 2027 年預估收入能否視為相同實績？",
+        "en": "Are MediaTek's initial ASIC shipments and 2027 forecast both realized?"
+      },
+      "text": {
+        "zh": "首款產品 9 月已開始出貨是公司陳述；25 億美元第四季與 160 億美元 2027 年收入，以及第二款晶片量產日期均是預測。",
+        "en": "Initial September shipments are company reported, whereas Q4 and 2027 revenue and second-ASIC production dates remain guidance."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "光寶科 197 億元資本支出是否全數已支付？",
+        "en": "Has Lite-On already spent the full NT$19.7B capex?"
+      },
+      "text": {
+        "zh": "沒有。197 億元是全年最新預算，公司表示前九月實際投入約 131 億元；新廠啟用、樣機出貨與量產各有不同日期。",
+        "en": "No. NT$19.7B is the updated budget and about NT$13.1B had been spent through September; plant openings, samples and volume production have distinct timelines."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "川湖廠房資本支出、工程款與籌資額可以全部加總嗎？",
+        "en": "Can King Slide's capex, construction contract and financing be added?"
+      },
+      "text": {
+        "zh": "不能。197.12 億元涵蓋廠房與設備，117.33 億元為其中工程價款初步額度，增資與可轉債則是籌資管道。",
+        "en": "No. NT$19.712B covers facilities and tools, NT$11.733B is a construction component and equity/bonds fund the project."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "參考備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "舊案重述與僅有市場評價的消息",
+        "en": "Older restatements and market-only commentary"
+      },
+      "text": {
+        "zh": "10 月 29 日已發布的廠房交易、舊預付款及沒有新驗收或核准里程碑的舊技術公告，未重新列為 10 月 30 日事件。",
+        "en": "Prior-day factory deals, older prepayments and technical announcements without new Oct 30 milestones were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "聯發科未來 ASIC 營收、華通未來產品收入及產能、光寶科新廠開幕、國發會矽光子認證均屬目標。鴻海公布的是產能倍數，非實際交貨量。日月光第三季營收僅透過次級媒體取得，產品分項與稼動率仍待第一手財報核對。",
+    "en": "MediaTek ASIC revenue, Compeq future sales and capacity, Lite-On plant openings and silicon-photonics certification are plans. Foxconn reported capacity, not deliveries. ASE Q3 figures rely on secondary reporting pending primary financial confirmation."
+  }
+}

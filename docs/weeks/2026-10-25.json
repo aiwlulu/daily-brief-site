@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-10-25",
-  "generatedAt": "2026-10-30T01:05:11.839Z",
+  "generatedAt": "2026-10-30T14:54:05.239Z",
   "throughline": {
-    "zh": "本週從晶圓廠房資產移轉、海外測試設備採購、被動元件與工業電腦第三季財報，延伸到資料中心供電、融資與東南亞工廠機構件進度；各項交易、實績及未來目標分開呈現。",
-    "en": "This week spans fab asset transfers, overseas test-tool procurement, passive component and industrial PC earnings, data-center power constraints, financing and Thai manufacturing, distinguishing realized transactions, results and targets."
+    "zh": "本週涵蓋台灣晶圓與封測設備投資、東南亞電源及電子材料產線，以及 10 月 30 日公布的 ASIC 出貨、高功率電源與機櫃產能；實際進度與預估分別標示。",
+    "en": "This week spans Taiwan wafer and test investments, Southeast Asian power/materials manufacturing and Oct 30 ASIC, power-system and rack-capacity updates, keeping realized operations distinct from forecasts."
   },
   "highlights": [
     {
       "id": 1,
       "category": "tech",
       "title": {
-        "zh": "記憶體、被動元件與電子材料供應",
-        "en": "Memory, passive components and electronics materials"
+        "zh": "材料、PCB 與高密度電路板擴產",
+        "en": "Materials, PCB and dense-board expansion"
       },
       "summary": {
-        "zh": "工研院與泰國騰輝新廠反映稀土及 PCB 材料規劃，旺宏新增 NAND／eMMC 產能、十銓新北模組廠仍待 2027 年開出。國巨 10 月 29 日公布第三季 AI 應用近兩成、MLCC 與鉭電容稼動率接近 95%，未來擴產尚待驗收。",
-        "en": "ITRI and Tenghui disclosed rare-earth and Thai PCB-materials developments, while Macronix and TeamGroup target 2027 capacity ramps. On October 29 Yageo reported an AI mix near 20% and high MLCC/tantalum utilization, with future capacity still to be qualified."
+        "zh": "本週先有泰國電子材料新廠啟用與記憶體擴產規劃，華通於 10 月 30 日新增 2026 至 2028 年每年資本支出逾 200 億元的規劃，用於 mSAP 與 HDI 在台灣、泰國等地擴建。各項目仍須區分已出貨與未來產能。",
+        "en": "The week covered Thai electronics materials and memory expansion plans, while Compeq on October 30 described annual capex above NT$20B from 2026 to 2028 for mSAP/HDI capacity in Taiwan, Thailand and elsewhere. Existing shipments and planned capacity are separate."
       },
       "references": [
         {
@@ -45,6 +45,10 @@
         {
           "date": "2026-10-30",
           "storyId": 3
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 5
         }
       ]
     },
@@ -52,12 +56,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "工廠自動化、製程量測與工業設備",
-        "en": "Factory automation, process metrology and industrial systems"
+        "zh": "半導體製程、廠務節電與光學測試驗證",
+        "en": "Semiconductor process, fab power and optical testing"
       },
       "summary": {
-        "zh": "本週台電復電、鴻海 AI 工廠效率量測與國研院 High-NA EUV 分析技術各為不同實績。中華精測公布探針卡擴產時程，金鞍機械啟用龍潭冷卻設備廠；研華 10 月 29 日公告第三季營收 324.4 億元及接單出貨比 1.64，數據涵蓋工業電腦與半導體設備需求。",
-        "en": "Taipower restoration, Foxconn workflow measurements and NARLabs high-NA EUV metrology reflect different operating evidence. CHPT described probe-card capacity and Jin-An opened a thermal plant; Advantech reported Q3 revenue of NT$32.44B and book-to-bill of 1.64 across industrial and equipment demand."
+        "zh": "工廠自動化與探針卡擴產提供不同產線進度，台積電 10 月 30 日另外公布外氣洗滌水泵由 10 降至 4 馬力的驗證成果；國發會規劃矽光子測試實驗室與 2027 年海外互認。單一泵浦節電率與未來實驗室認證不可等同已全面導入。",
+        "en": "Factory automation and probe-card expansion were reported alongside TSMC's October 30 pump retrofit validation, reducing a specific 10 hp rating to 4 hp. Taiwan also proposed silicon-photonics testing with 2027 overseas recognition; neither is system-wide commissioning."
       },
       "references": [
         {
@@ -99,6 +103,14 @@
         {
           "date": "2026-10-30",
           "storyId": 6
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 6
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 7
         }
       ]
     },
@@ -106,12 +118,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "資料中心供電、伺服器資金及東南亞能源零組件",
-        "en": "Data-center power, server financing and Southeast Asian power components"
+        "zh": "伺服器電源、機櫃產能與跨境供應鏈",
+        "en": "Server power, rack capacity and cross-border supply"
       },
       "summary": {
-        "zh": "MViSTA 海纜招標、馬來西亞資料中心投資意向及新加坡 1.3GW 條件性輸電核准仍未等於機房完工。台達電 29 日說明機房延遲與存貨跌價，技嘉核准 500 億元聯貸，泰國經寶精密則描述 BBU 與電源櫃機構件量產爬坡；三者屬營運說明、融資授權及產線目標。",
-        "en": "MViSTA's cable tender, Malaysia's data-center investment intention and Singapore's conditional 1.3GW power approval are not commissioned facilities. On October 29 Delta described delayed sites and inventory write-downs, Gigabyte approved NT$50B credit, and Thailand-based JPP reported a power-cabinet and BBU enclosure ramp."
+        "zh": "新加坡條件性電力進口、台達電資料中心延遲與技嘉融資均反映不同執行階段。10 月 30 日光寶科提高電源產線資本支出預算，鴻海表示 AI 機櫃產能翻倍並說明台灣、越南及北美系統整合分工，均須與實際出貨分開。",
+        "en": "Singapore's conditional imports, Delta's data-center delays and Gigabyte's financing had different statuses. Lite-On raised its power capex budget and Foxconn described doubled AI rack capacity and manufacturing roles across Taiwan, Vietnam and North America on October 30; output must be separated from shipments."
       },
       "references": [
         {
@@ -149,6 +161,14 @@
         {
           "date": "2026-10-30",
           "storyId": 7
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 2
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 4
         }
       ]
     },
@@ -156,12 +176,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "先進封裝、光通訊與半導體測試設備",
-        "en": "Advanced packaging, optics and semiconductor test tooling"
+        "zh": "先進封裝、ASIC 與半導體測試",
+        "en": "Advanced packaging, ASIC and semiconductor test"
       },
       "summary": {
-        "zh": "力成先進封裝營收占比與精測探針卡財報為本週已公布數字，FOPLP 與 CPO 仍有產品認證階段；ASMPT SMT 出售未簽約，穩懋光接收產品在產能爬坡。京元電 10 月 29 日公布德州新測試廠土地建物及約 5.34 億美元設備取得，2027 年量產仍屬目標。",
-        "en": "Powertech's advanced packaging mix and CHPT's probe-card results were reported this week while FOPLP and CPO remain in qualification. ASMPT's SMT sale is unsigned and WIN optical receivers are ramping. KYEC announced Texas property and around US$534M of tool purchases on October 29, with 2027 production still targeted."
+        "zh": "力成與中華精測公布封裝測試實績，京元電進一步採購德州測試設備。聯發科 10 月 30 日揭露首款資料中心 ASIC 已自 9 月出貨，第四季及 2027 年營收仍為預估；日月光第三季財報需依來源分級查核。",
+        "en": "Powertech and CHPT reported packaging/test results and KYEC procured Texas test tooling. MediaTek on October 30 described initial ASIC shipments and forward revenue forecasts, while ASE Q3 coverage retains source qualifications."
       },
       "references": [
         {
@@ -191,6 +211,14 @@
         {
           "date": "2026-10-30",
           "storyId": 2
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 1
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 8
         }
       ]
     },
@@ -198,12 +226,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "晶圓廠房、晶片設計及產業政策",
-        "en": "Wafer facilities, chip design and sector policy"
+        "zh": "晶圓資產交易、工廠投資與產業政策",
+        "en": "Fab assets, factory investment and policy"
       },
       "summary": {
-        "zh": "台菲合作仍屬政策議題、越南 Viettel 晶圓廠建造與 DUV 採購尚有爭議，智原取得 2 奈米晶片設計專案，聯電核准追加擴產預算。友達 29 日決議以 388 億元出售台中廠予台積電，TSIA 同日預估全年產值逾 9.1 兆元；資產交易、研發設計、產能授權與總產值預測是不同類型資訊。",
-        "en": "Philippine cooperation remains policy discussion, Viettel's fab and DUV status are disputed, Faraday reported a 2nm design project and UMC approved extra expansion budget. On October 29 AUO authorized a NT$38.8B factory sale to TSMC and TSIA forecast annual output above NT$9.1T; property, design, capex and output forecasts are distinct."
+        "zh": "台灣晶圓廠資產交易與聯電擴產授權各有不同時程，川湖 10 月 30 日另核准高雄兩座伺服器滑軌廠 197.12 億元資本支出預算。預算核准、工程簽約與真正投產仍屬不同節點。",
+        "en": "Taiwan fab property transactions and UMC's capex authorization have distinct timelines, while King Slide on October 30 approved NT$19.712B for two Kaohsiung slide-rail plants. Authorizations, construction contracts and commissioning are separate milestones."
       },
       "references": [
         {
@@ -233,6 +261,10 @@
         {
           "date": "2026-10-30",
           "storyId": 8
+        },
+        {
+          "date": "2026-10-31",
+          "storyId": 3
         }
       ]
     }
