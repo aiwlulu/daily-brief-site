@@ -9,29 +9,29 @@
     "approach": "facts-first"
   },
   "throughline": {
-    "zh": "10 月 31 日政府清查的無人機晶片來源涉及零組件追溯及整機交貨驗收，分別連結晶片供應與政府採購環節。",
-    "en": "The October 31 drone review links semiconductor provenance and system-level delivery acceptance under public procurement requirements."
+    "zh": "無人機採購清查揭示晶片來源查核進度，聯發科提出 AI ASIC 市占預測，主計總處公布半導體設備進口年增，分別對應政策、設計市場與製造設備供應鏈。",
+    "en": "Drone procurement reviews, MediaTek's AI ASIC share outlook and reported semiconductor equipment import growth describe policy enforcement, chip-design forecasts and manufacturing supply-chain activity."
   },
   "brief": [
     {
       "id": 1,
       "text": {
-        "zh": "內政部初步清查涉及 3 機關共 32 架亞拓相關無人機，尚未完成個案違規認定。",
-        "en": "The Interior Ministry is reviewing 32 drones across three agencies, with alleged violations unproven."
+        "zh": "內政部清查 3 機關 32 架無人機採購，其中 30 架合約尚未交貨。",
+        "en": "Interior Ministry reviews 32 drone procurements across three agencies; 30 contract units remain undelivered."
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "text": {
-        "zh": "移民署 30 架、275 萬元的無人機採購已決標，迄今尚未交貨履約。",
-        "en": "A 30-drone, NT$2.75M immigration-agency contract remains undelivered."
+        "zh": "追蹤聯發科：10 月 31 日新增報導 2027 年 AI ASIC 市占約 20% 的公司預期，仍屬預測。",
+        "en": "MediaTek follow-up: Oct 31 reporting adds a projected 20% AI ASIC market share for 2027, not realized share."
       }
     },
     {
-      "id": 1,
+      "id": 3,
       "text": {
-        "zh": "原產地及晶片來源仍待確認；內政部表示採購須遵守非紅供應鏈條件。",
-        "en": "Chip origin remains under investigation; the ministry says public procurement must comply with origin restrictions."
+        "zh": "主計總處公布第三季 GDP 年增概估 14.36%，半導體設備進口年增 35.66%。",
+        "en": "DGBAS reports 14.36% Q3 GDP growth and 35.66% growth in semiconductor equipment imports."
       }
     }
   ],
@@ -227,6 +227,336 @@
         "zh": "電子測試、精密電源與控制儀器業者可核對無人機電源管理晶片、控制板來源及政府採購的零組件追溯文件。疑似違規仍在調查階段，尚不能判定特定供應商的實際出貨或責任。",
         "en": "Power-management, control and test-instrument suppliers would examine chip traceability, board origins and procurement documentation. Allegations remain under investigation and do not establish a vendor's actual breach."
       }
+    },
+    {
+      "id": 2,
+      "topic": "mediatek-ai-asic-2027-market-share",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：聯發科估 2027 年 AI 加速器 ASIC 市占約 20%",
+        "en": "Follow-up: MediaTek projects roughly 20% of AI accelerator ASIC market in 2027"
+      },
+      "summary": {
+        "zh": "中央社 10 月 31 日進一步報導聯發科 10 月 30 日法說內容，執行長蔡力行預估 2027 年 AI 加速器 ASIC 市占率約 20%。他此前已說明首款 ASIC 自 9 月出貨、2027 年營收估 160 億美元；市場占比和收入均屬管理階層預測，尚無已完成的全市場出貨比較。",
+        "en": "On October 31, CNA reported additional detail from MediaTek's October 30 earnings briefing: CEO Rick Tsai forecasts around a 20% share of the AI accelerator ASIC market in 2027. Initial September shipments are reported, while market share and US$16 billion 2027 revenue remain company forecasts without verified marketwide shipment data."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "AI ASIC 設計涉及晶圓代工、先進封裝、測試、HBM 與伺服器組裝。市占率預測依特定市場定義，無法直接用作整體半導體或 GPU 市占。",
+            "en": "AI ASIC designs connect foundries, advanced packaging, testing, HBM and servers. The forecast concerns a defined AI accelerator ASIC market, not all semiconductors or GPUs."
+          }
+        },
+        {
+          "label": {
+            "zh": "本次補充披露",
+            "en": "Additional reported detail"
+          },
+          "text": {
+            "zh": "10 月 31 日報導增加公司對 2027 年約 20% 市占的預期。10 月 30 日已公布的首款 ASIC 初步出貨、第四季 25 億美元及明年 160 億美元營收預期，均作為明確標日期的背景。",
+            "en": "The October 31 report adds management's approximate 20% market-share outlook for 2027. Already reported September initial shipments, Q4 US$2.5B guidance and 2027 US$16B guidance remain dated background."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unresolved questions"
+          },
+          "text": {
+            "zh": "未揭露預測使用的市占分母、客戶出貨明細、已認列收入與未來 ASIC 實際供貨量；報導為媒體轉述法說。",
+            "en": "The forecast market denominator, customer shipments, recognized ASIC revenue and future delivery volumes remain undisclosed; reporting is based on the earnings call."
+          }
+        }
+      ],
+      "metric": "20%",
+      "metricLabel": {
+        "zh": "2027 年 ASIC 市占率預估",
+        "en": "Forecast 2027 ASIC market share"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社英文網 · 聯發科 10 月 31 日報導",
+            "en": "Focus Taiwan · MediaTek report, Oct 31"
+          },
+          "url": "https://focustaiwan.tw/business/202610310007",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣；全球客戶",
+          "en": "Taiwan; global customers"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；先進封裝；HBM；伺服器",
+          "en": "Chip design; wafers; advanced packaging; HBM; servers"
+        },
+        "chain": {
+          "zh": "晶片設計至晶圓代工及封裝測試、伺服器",
+          "en": "Chip design through foundry and packaging/test to servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未新增已核定資本支出。",
+            "en": "No new authorized capex disclosed."
+          },
+          "demand": {
+            "zh": "2027 年市占率和營收是預測，不是新增已認列訂單。",
+            "en": "2027 share and revenue are forecasts, not recognized new orders."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "AI ASIC 設計供應鏈的市場預估。",
+            "en": "AI ASIC design market outlook."
+          },
+          "timing": {
+            "zh": "10 月 30 日法說，10 月 31 日新增媒體報導市占預測。",
+            "en": "Oct 30 briefing, with share forecast reported Oct 31."
+          },
+          "unknowns": {
+            "zh": "市場分母及未來交貨尚無可核對實績。",
+            "en": "Market denominator and future deliveries not verified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2027 年 AI 加速器 ASIC 市占預估",
+            "en": "Forecast 2027 AI accelerator ASIC share"
+          },
+          "current": 0.2,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年預測",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "中央社英文網 · 聯發科 10 月 31 日報導公告數值",
+            "en": "Focus Taiwan · MediaTek report, Oct 31 published figures"
+          },
+          "sourceUrl": "https://focustaiwan.tw/business/202610310007",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源及測試設備業者可核對 ASIC 實際流片、封裝驗收和與客戶的量產時程。市占預測沒有對應的已核定機台採購量。",
+        "en": "Wafer process-power and test suppliers would verify actual tape-outs, package qualification and customer volume milestones. A market-share projection does not establish tool orders."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "taiwan-q3-2026-gdp-equipment-imports",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台灣第三季 GDP 年增概估 14.36%，半導體設備進口年增 35.66%",
+        "en": "Taiwan Q3 GDP advance estimate grows 14.36% YoY; semiconductor equipment imports rise 35.66%"
+      },
+      "summary": {
+        "zh": "主計總處 10 月 30 日公布台灣第三季實質 GDP 概估年增 14.36%，較 8 月預測上修 2.94 個百分點。中央社引述主計總處指出，第三季以新台幣衡量的資本設備進口年增 58.5%，其中半導體設備進口年增 35.66%；GDP 概估及設備進口金額變化均不等於新增晶圓產能已完成裝機。",
+        "en": "On October 30, Taiwan's DGBAS released a Q3 real GDP advance estimate of 14.36% YoY, 2.94 percentage points above its August forecast. CNA reported capital-equipment imports up 58.5% in Taiwan-dollar terms, including semiconductor equipment imports up 35.66%; import growth does not establish commissioned wafer capacity."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "半導體設備進口與晶圓廠擴建、精密製程設備和封裝測試設施相關，但統計不提供個別設備買主、驗收進度或終端產品出貨。",
+            "en": "Semiconductor equipment imports relate to fab expansion and process/test tooling but do not identify buyers, tool acceptance or downstream shipments."
+          }
+        },
+        {
+          "label": {
+            "zh": "發布口徑與比較",
+            "en": "Release and comparisons"
+          },
+          "text": {
+            "zh": "主計總處明列第三季 GDP 年增 14.36%，季調折年率 13.48%，兩者比較方式不同；14.36% 為概估值。中央社另引述投資與存貨變動實質年增 26.36%，這些是宏觀統計，不能與公司單季營收直接比較。",
+            "en": "DGBAS reports 14.36% YoY GDP growth and 13.48% seasonally adjusted annualized quarter-on-quarter growth, which use different bases. CNA also cites 26.36% real growth in investment plus inventory changes; these macro measures are not company revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unknowns"
+          },
+          "text": {
+            "zh": "半導體設備進口來源與客戶、個別廠區裝機、設備驗收及對產能實際貢獻未於本次概估中公布。",
+            "en": "Importer identity, plant-level commissioning, acceptance and contributions to actual capacity were not disclosed."
+          }
+        }
+      ],
+      "metric": "14.36%",
+      "metricLabel": {
+        "zh": "第三季實質 GDP 年增概估",
+        "en": "Q3 real GDP advance estimate, YoY"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "主計總處 · 第三季經濟成長概估",
+            "en": "DGBAS · Q3 GDP advance estimate"
+          },
+          "url": "https://www.dgbas.gov.tw/News_Content.aspx?n=3602&s=236826",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社英文網 · 設備進口與投資組成",
+            "en": "Focus Taiwan · equipment imports and investment"
+          },
+          "url": "https://focustaiwan.tw/business/202610300021",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；晶圓；封裝；測試；投資；工廠",
+          "en": "Semiconductor equipment; wafers; packaging; test; investment; factories"
+        },
+        "chain": {
+          "zh": "半導體設備投資至晶圓製造及封裝測試",
+          "en": "Semiconductor equipment investment through wafers and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "第三季資本設備進口年增 58.5%，其中半導體設備進口年增 35.66%，為統計變動非新增核准投資額。",
+            "en": "Q3 capital equipment imports grew 58.5%, including 35.66% for semiconductor tools; these are statistical changes, not new approved capex."
+          },
+          "demand": {
+            "zh": "主計總處將出口與企業投資列為成長因素，未公布單一客戶訂單。",
+            "en": "DGBAS attributes growth partly to exports and investment; no customer orders disclosed."
+          },
+          "fdi": {
+            "zh": "未公布此事件新增 FDI。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "反映晶圓與設備供應鏈的已公布宏觀統計。",
+            "en": "Published macro indicators for Taiwan's equipment and wafer supply chain."
+          },
+          "timing": {
+            "zh": "第三季統計概估於 10 月 30 日公布。",
+            "en": "Q3 advance estimates released Oct 30."
+          },
+          "unknowns": {
+            "zh": "仍缺實際機台驗收與對應產能分項。",
+            "en": "Tool acceptance and capacity breakdown remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季實質 GDP 年增概估",
+            "en": "Q3 real GDP growth, YoY"
+          },
+          "current": 0.1436,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "主計總處 · 第三季經濟成長概估公告數值",
+            "en": "DGBAS · Q3 GDP advance estimate published figures"
+          },
+          "sourceUrl": "https://www.dgbas.gov.tw/News_Content.aspx?n=3602&s=236826",
+          "kind": "官方估計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.1436,
+          "baseStatus": "未公布可比的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季半導體設備進口年增",
+            "en": "Q3 semiconductor equipment imports, YoY"
+          },
+          "current": 0.3566,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社英文網 · 設備進口與投資組成公告數值",
+            "en": "Focus Taiwan · equipment imports and investment published figures"
+          },
+          "sourceUrl": "https://focustaiwan.tw/business/202610300021",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3566,
+          "baseStatus": "未公布可比的同口徑絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季資本設備進口年增",
+            "en": "Q3 capital equipment imports, YoY"
+          },
+          "current": 0.585,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "中央社英文網 · 設備進口與投資組成公告數值",
+            "en": "Focus Taiwan · equipment imports and investment published figures"
+          },
+          "sourceUrl": "https://focustaiwan.tw/business/202610300021",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.585,
+          "baseStatus": "未公布可比的同口徑絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體設備電源與量測業者可將進口統計與設備驗收、產線建置期程分開核實。GDP 與設備進口成長不能直接換算任何個別廠商的設備收入。",
+        "en": "Process-power and metrology suppliers would distinguish imports from equipment acceptance and fab timelines. GDP and import growth cannot be converted into a specific vendor's sales."
+      }
     }
   ],
   "deep": [
@@ -285,7 +615,7 @@
     }
   ],
   "verificationNote": {
-    "zh": "10 月 31 日符合本版供應鏈範圍的新發布消息有限。本期無人機案的 32 架是初步採購盤點，30 架未交貨；晶片產地、違約及司法結果尚待確認。",
-    "en": "Few October 31 disclosures met this edition's supply-chain scope. The 32 drones are an initial procurement tally, including 30 not delivered; chip origins, contractual breaches and legal outcomes remain unresolved."
+    "zh": "無人機案 30 架仍未交貨，晶片來源及責任未獲最終認定。聯發科 2027 年約 20% ASIC 市占為預測，並非 10 月 31 日新出貨；第三季 GDP 為概估值，設備進口統計不代表機台完成驗收。",
+    "en": "Thirty drone contract units remain undelivered and liability is unconfirmed. MediaTek's 2027 20% ASIC market share is a forecast, not new October 31 shipments. Q3 GDP is an advance estimate; tool imports do not establish qualified installations."
   }
 }
