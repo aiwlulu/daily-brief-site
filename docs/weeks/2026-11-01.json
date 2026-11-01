@@ -1,0 +1,28 @@
+{
+  "weekStart": "2026-11-01",
+  "generatedAt": "2026-11-01T00:32:14.460Z",
+  "throughline": {
+    "zh": "本週首則已查證新聞涉及政府無人機的晶片來源清查，連結電子零組件追溯、整機採購與交貨驗收。",
+    "en": "The first verified story this week concerns drone chip-origin reviews, linking component traceability with public procurement and delivery acceptance."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "taiwan",
+      "title": {
+        "zh": "無人機晶片來源與政府採購查核",
+        "en": "Drone chip provenance and public procurement"
+      },
+      "summary": {
+        "zh": "內政部 10 月 31 日初步盤點 3 個機關涉及亞拓相關無人機採購共 32 架，包含移民署 30 架、總價 275 萬元但尚未交貨的合約。主管機關將核對非紅供應鏈規範，晶片來源與個案違約責任尚未有最終結論。",
+        "en": "On October 31 Taiwan's Interior Ministry identified 32 drone procurements across three agencies, including a NT$2.75 million, 30-unit immigration contract not yet delivered. Component provenance and contractual liability remain under investigation."
+      },
+      "references": [
+        {
+          "date": "2026-11-01",
+          "storyId": 1
+        }
+      ]
+    }
+  ]
+}

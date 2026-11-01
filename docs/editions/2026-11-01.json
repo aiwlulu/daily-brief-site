@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T00:31:49.164Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣及東南亞半導體設備、電子零組件與工業終端供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, components and industrial supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "10 月 31 日政府清查的無人機晶片來源涉及零組件追溯及整機交貨驗收，分別連結晶片供應與政府採購環節。",
+    "en": "The October 31 drone review links semiconductor provenance and system-level delivery acceptance under public procurement requirements."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "內政部初步清查涉及 3 機關共 32 架亞拓相關無人機，尚未完成個案違規認定。",
+        "en": "The Interior Ministry is reviewing 32 drones across three agencies, with alleged violations unproven."
+      }
+    },
+    {
+      "id": 1,
+      "text": {
+        "zh": "移民署 30 架、275 萬元的無人機採購已決標，迄今尚未交貨履約。",
+        "en": "A 30-drone, NT$2.75M immigration-agency contract remains undelivered."
+      }
+    },
+    {
+      "id": 1,
+      "text": {
+        "zh": "原產地及晶片來源仍待確認；內政部表示採購須遵守非紅供應鏈條件。",
+        "en": "Chip origin remains under investigation; the ministry says public procurement must comply with origin restrictions."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taiwan-drone-chip-origin-procurement-review",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "內政部清查 3 機關共 32 架無人機採購，30 架尚未交貨",
+        "en": "Interior Ministry reviews 32 drones across three agencies; 30 remain undelivered"
+      },
+      "summary": {
+        "zh": "台灣內政部 10 月 31 日公告，因無人機使用中國製晶片的疑慮，初步清查涉及 3 個機關共 32 架亞拓科技相關無人機。其中國家公園署及中央警察大學各採購 1 架，移民署今年決標的 30 架合約價值新台幣 275 萬元，尚未交貨；晶片來源與個案違約責任仍待確認。",
+        "en": "Taiwan's Ministry of the Interior said on October 31 it was reviewing 32 drones linked to Align Corp. across three agencies amid allegations involving Chinese-made chips. Two agencies each purchased one drone, while a NT$2.75 million contract for 30 drones at the National Immigration Agency remains undelivered; component origin and any breach remain under review."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "無人機使用飛控、通訊、電源管理及影像處理等晶片與零組件，政府採購規格涉及原產地文件與零組件追溯。內政部所稱非紅供應鏈規範已用於政府採購，但單一案件調查仍需確認實際元件來源。",
+            "en": "Drone assemblies contain flight-control, communications, power-management and imaging chips. Government procurement involves component traceability and origin restrictions; individual suspected parts still require examination."
+          }
+        },
+        {
+          "label": {
+            "zh": "清查數量與履約進度",
+            "en": "Counts and delivery status"
+          },
+          "text": {
+            "zh": "內政部表示 2025 年國家公園署及中央警察大學各買 1 架；2026 年移民署透過公開招標向速源科技採購 30 架，合約 275 萬元。後者原擬交付亞拓產品，但尚未交貨，主管機關已表示將依契約要求符合來源條件。",
+            "en": "The ministry reported one drone purchased each by the National Park Service and Central Police University in 2025. In 2026 the National Immigration Agency awarded a public tender for 30 drones worth NT$2.75 million to Suyuan Technology; the planned Align-made drones have not been delivered and the ministry says contract origin requirements will be enforced."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unresolved questions"
+          },
+          "text": {
+            "zh": "32 架涵蓋已購與尚未交貨數量，不表示 32 架均已查驗不合格。檢方偵查中的晶片產地、責任歸屬、合約後續及是否求償均尚無最終認定。",
+            "en": "The 32 figure combines past purchases and undelivered contract items; it does not mean all 32 were inspected and failed. Chip origin, legal responsibility, contract disposition and damages remain unsettled."
+          }
+        }
+      ],
+      "metric": "32 架",
+      "metricLabel": {
+        "zh": "初步清查涉及採購數",
+        "en": "Drone procurements under initial review"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "內政部 · 無人機採購清查公告",
+            "en": "Ministry of the Interior · drone procurement review"
+          },
+          "url": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=342885",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社英文網 · 採購及調查進度",
+            "en": "Focus Taiwan · drone procurement and investigation"
+          },
+          "url": "https://focustaiwan.tw/politics/202610310006",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-31",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；零組件；測試；工廠；政府採購；無人載具",
+          "en": "Chip design; components; testing; factories; government procurement; drones"
+        },
+        "chain": {
+          "zh": "晶片與電源零組件至工廠整機及政府採購政策",
+          "en": "Chips and power components through systems manufacturing and procurement policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的工廠或設備投資。",
+            "en": "No new factory or tool investment reported."
+          },
+          "demand": {
+            "zh": "移民署已決標 30 架合約，但尚未交貨，不代表新增已驗收需求。",
+            "en": "Thirty drones were contracted but not delivered or accepted."
+          },
+          "fdi": {
+            "zh": "不涉及新增外國直接投資。",
+            "en": "No new foreign direct investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及政府無人機晶片來源認定與電子零組件可追溯性。",
+            "en": "Relevant to drone semiconductor provenance and component traceability."
+          },
+          "timing": {
+            "zh": "2025 年已購 2 架，2026 年另有 30 架合約；清查於 10 月 31 日公布。",
+            "en": "Two earlier purchases in 2025, one 30-unit 2026 contract; review disclosed Oct 31."
+          },
+          "unknowns": {
+            "zh": "實際違規晶片及合約法律結果尚未獲最終確認。",
+            "en": "Suspected chip origins and contract/legal outcomes are unconfirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "初步清查無人機數",
+            "en": "Drones under review"
+          },
+          "current": 32,
+          "unit": "架",
+          "period": {
+            "zh": "2026-10-31",
+            "en": "2026-10-31"
+          },
+          "owner": {
+            "zh": "內政部 10 月 31 日公告",
+            "en": "Taiwan Ministry of the Interior, Oct 31 announcement"
+          },
+          "sourceUrl": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=342885",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "清查案件，無可比較前期基數。"
+        },
+        {
+          "name": {
+            "zh": "移民署尚未交貨採購數",
+            "en": "Undelivered NIA drone contract units"
+          },
+          "current": 30,
+          "unit": "架",
+          "period": {
+            "zh": "2026-10-31",
+            "en": "2026-10-31"
+          },
+          "owner": {
+            "zh": "內政部 10 月 31 日公告",
+            "en": "Taiwan Ministry of the Interior, Oct 31 announcement"
+          },
+          "sourceUrl": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=342885",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "清查案件，無可比較前期基數。"
+        },
+        {
+          "name": {
+            "zh": "移民署採購金額",
+            "en": "NIA contract value"
+          },
+          "current": 0.00275,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026-10-31",
+            "en": "2026-10-31"
+          },
+          "owner": {
+            "zh": "內政部 10 月 31 日公告",
+            "en": "Taiwan Ministry of the Interior, Oct 31 announcement"
+          },
+          "sourceUrl": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=342885",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "清查案件，無可比較前期基數。"
+        }
+      ],
+      "ceoView": {
+        "zh": "電子測試、精密電源與控制儀器業者可核對無人機電源管理晶片、控制板來源及政府採購的零組件追溯文件。疑似違規仍在調查階段，尚不能判定特定供應商的實際出貨或責任。",
+        "en": "Power-management, control and test-instrument suppliers would examine chip traceability, board origins and procurement documentation. Allegations remain under investigation and do not establish a vendor's actual breach."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "32 架是否都已交付且驗出違規晶片？",
+        "en": "Were all 32 drones delivered and found noncompliant?"
+      },
+      "text": {
+        "zh": "沒有。清查範圍包含 2025 年兩機關各購 1 架，以及 2026 年移民署尚未交貨的 30 架；採購盤點不是檢驗結果。",
+        "en": "No. The count includes two previous purchases and 30 undelivered contracted drones; the procurement tally is not a finding of component noncompliance."
+      }
+    },
+    {
+      "id": 1,
+      "question": {
+        "zh": "275 萬元是完成付款的採購支出嗎？",
+        "en": "Is NT$2.75M confirmed disbursed spending?"
+      },
+      "text": {
+        "zh": "官方證實的是公開招標決標的契約總額，且 30 架尚未交貨；沒有公布款項已全數支付。",
+        "en": "The official figure is an awarded contract value for 30 undelivered drones; full payment was not reported."
+      }
+    },
+    {
+      "id": 1,
+      "question": {
+        "zh": "晶片違規與責任認定目前進度為何？",
+        "en": "What has been established about chip provenance and responsibility?"
+      },
+      "text": {
+        "zh": "內政部已啟動行政清查；中央社另引述檢方正在調查涉嫌使用中國製晶片的情況。最終產地、違約及司法責任尚待確認。",
+        "en": "The ministry initiated administrative review, and CNA reported a criminal investigation. Final chip provenance, contractual breach and legal liability remain undetermined."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "參考資料",
+      "en": "References"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "10 月 31 日股市評論及舊法說重述",
+        "en": "October 31 market commentary and recycled earnings"
+      },
+      "text": {
+        "zh": "10 月 31 日對台積電 ADR 的股價評論，以及聯發科 10 月 30 日法說的隔日重述，均未提供新的營運執行日期或產品交付證據，因此未作為新新聞重刊。",
+        "en": "TSMC ADR commentary and October 31 re-reporting of MediaTek's October 30 briefing did not establish new operational milestones, so were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "10 月 31 日符合本版供應鏈範圍的新發布消息有限。本期無人機案的 32 架是初步採購盤點，30 架未交貨；晶片產地、違約及司法結果尚待確認。",
+    "en": "Few October 31 disclosures met this edition's supply-chain scope. The 32 drones are an initial procurement tally, including 30 not delivered; chip origins, contractual breaches and legal outcomes remain unresolved."
+  }
+}
