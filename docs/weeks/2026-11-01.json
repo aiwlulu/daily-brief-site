@@ -1,43 +1,51 @@
 {
   "weekStart": "2026-11-01",
-  "generatedAt": "2026-11-01T00:35:03.683Z",
+  "generatedAt": "2026-11-02T01:07:56.778Z",
   "throughline": {
-    "zh": "本週首日資料涵蓋無人機晶片來源清查、AI ASIC 設計市場預測與台灣半導體設備進口統計，各自區分監管進度、預期及概估實績。",
-    "en": "The first week-day coverage includes drone chip-origin reviews, AI ASIC market projections and semiconductor equipment import statistics, distinguishing enforcement, forecasts and advance data."
+    "zh": "本週已公布南韓對東協半導體與設備貿易統計，以及台灣手機記憶體成本、資料中心液冷、跨境投資和研發資金資料；產業實績、歷史基期與未來預測保留各自日期。",
+    "en": "This week covers Korea–ASEAN semiconductor and equipment trade, Taiwan smartphone memory costs, AI data-center cooling, bilateral investment and research funding, with actuals, historical baselines and forecasts dated separately."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "taiwan",
+      "category": "global",
       "title": {
-        "zh": "無人機晶片來源與政府採購查核",
-        "en": "Drone chip provenance and public procurement"
+        "zh": "半導體貿易、製程設備與研發資金",
+        "en": "Semiconductor trade, process equipment and R&D"
       },
       "summary": {
-        "zh": "內政部 10 月 31 日初步盤點 3 個機關涉及亞拓相關無人機採購共 32 架，包含移民署 30 架、總價 275 萬元但尚未交貨的合約。主管機關將核對非紅供應鏈規範，晶片來源與個案違約責任尚未有最終結論。",
-        "en": "On October 31 Taiwan's Interior Ministry identified 32 drone procurements across three agencies, including a NT$2.75 million, 30-unit immigration contract not yet delivered. Component provenance and contractual liability remain under investigation."
+        "zh": "南韓產業通商部 11 月 1 日發布 10 月半導體出口 564.4 億美元、對東協整體出口 213.3 億美元，並披露半導體設備進口增加；台灣主計總處先前公布第三季設備進口統計，國科會公告 2025 年全國研發經費 1.138 兆元。出口額、研發支出與設備裝機分屬不同口徑。",
+        "en": "Korea's November 1 trade release detailed US$56.44B of October chip exports and US$21.33B of total ASEAN exports, alongside equipment imports. Taiwan's Q3 equipment-import statistics and its 2025 NT$1.138T R&D survey provide distinct evidence on trade and research, not commissioned capacity."
       },
       "references": [
         {
           "date": "2026-11-01",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-02",
           "storyId": 1
+        },
+        {
+          "date": "2026-11-02",
+          "storyId": 5
         }
       ]
     },
     {
       "id": 2,
-      "category": "tech",
+      "category": "taiwan",
       "title": {
-        "zh": "聯發科 AI ASIC 市占預期",
-        "en": "MediaTek AI ASIC market-share outlook"
+        "zh": "記憶體價格與手機終端產品",
+        "en": "Memory costs and smartphone systems"
       },
       "summary": {
-        "zh": "中央社 10 月 31 日補充報導聯發科 10 月 30 日法說：公司估 2027 年 AI 加速器 ASIC 市占約 20%，先前已公布首款 ASIC 自 9 月開始出貨。市占及營收屬公司未來預測。",
-        "en": "CNA's October 31 follow-up on MediaTek's October 30 investor briefing added a forecast of roughly 20% of AI accelerator ASIC market share in 2027. Initial September shipments have been reported, while the share and sales targets remain forecasts."
+        "zh": "11 月 1 日台灣三星、vivo 與 OPPO 的受訪內容顯示各品牌面臨不同記憶體成本與售價安排；vivo 表示高階 X 系列在台銷量年增約兩成。TrendForce 的記憶體物料成本占比 34% 取自 8 月的特定 iPhone 研究，須與最新品牌發言分開。",
+        "en": "November 1 interviews with Samsung, vivo and OPPO Taiwan executives describe differing responses to memory costs, with vivo reporting around 20% growth in its premium X series. TrendForce's 34% BOM memory share is an August estimate for a specific iPhone, not a new November measure."
       },
       "references": [
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "storyId": 2
         }
       ]
@@ -46,17 +54,57 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "台灣經濟概估與半導體設備進口",
-        "en": "Taiwan GDP estimate and semiconductor equipment imports"
+        "zh": "資料中心電力轉換與液冷部署",
+        "en": "AI data-center power and liquid cooling"
       },
       "summary": {
-        "zh": "主計總處 10 月 30 日公布第三季 GDP 年增概估 14.36%，中央社另引述半導體設備進口年增 35.66%。設備進口不等於完成裝機的產能。",
-        "en": "DGBAS released a 14.36% Q3 GDP advance estimate on October 30, while CNA reported semiconductor equipment imports increased 35.66% YoY. Imports do not establish commissioned fab capacity."
+        "zh": "鴻海亞灣超算 10 月 31 日表示近期 AI 資料中心主要採液冷，並討論 NVIDIA 的 800V 高壓直流路線圖。已於 7 月上線的 5MW 叢集為舊有商轉紀錄，本次沒有公布新增已通電負載。",
+        "en": "On October 31 Foxconn's Visionbay described liquid cooling in recent deployments and discussed NVIDIA's 800V DC roadmap. Its 5MW cluster started in July, with no new energized load announced."
+      },
+      "references": [
+        {
+          "date": "2026-11-02",
+          "storyId": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "title": {
+        "zh": "日本對台材料設備投資與綠電條件",
+        "en": "Japanese materials investment and power requirements"
+      },
+      "summary": {
+        "zh": "台北市日本工商會 10 月 31 日說明日企對台灣半導體材料、精密設備與再生能源的關注，並提出綠電供應與憑證成本問題。官方統計顯示 2025 年日本對台投資 271 件、8.68 億美元，當日未公布新增核准外資案件。",
+        "en": "Japan's chamber discussed materials, precision machinery and renewable-power access on October 31. Official records of 271 investments worth US$868M refer to 2025, with no new approved inflow on the briefing date."
+      },
+      "references": [
+        {
+          "date": "2026-11-02",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "tech",
+      "title": {
+        "zh": "晶片設計市場與政府零組件追溯",
+        "en": "Chip design outlook and procurement traceability"
+      },
+      "summary": {
+        "zh": "台灣內政部 10 月 31 日公告無人機晶片來源清查，涉及 32 架採購且 30 架尚未交貨；相關司法與契約責任仍待確認。聯發科對 2027 年 AI ASIC 市占約兩成的估計屬未來預測，與政府零組件查核屬不同事件。",
+        "en": "Taiwan's Interior Ministry reviewed 32 drone procurements, including 30 undelivered units, with sourcing and liability unresolved. MediaTek's estimated 20% AI ASIC share in 2027 is a separate forward-looking chip-design claim."
       },
       "references": [
         {
           "date": "2026-11-01",
-          "storyId": 3
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-01",
+          "storyId": 2
         }
       ]
     }

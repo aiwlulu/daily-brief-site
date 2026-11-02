@@ -1,0 +1,1072 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T01:07:56.778Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、記憶體、伺服器供電及精密製造供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductor, memory, server power and precision manufacturing supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "南韓最新貿易統計揭露對東協半導體與設備供應鏈變動，台灣手機業者反映記憶體成本壓力，鴻海亞灣超算則說明近期資料中心採液冷的部署方式。",
+    "en": "Korea's latest trade statistics detail semiconductor flows to ASEAN, Taiwan smartphone makers describe memory-cost pressures, and Foxconn's Visionbay reports liquid-cooling use in recent AI data-center deployments."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "南韓 10 月半導體出口 564.4 億美元、年增 259.4%，對東協整體出口年增 128%；工作天數差異須一併閱讀。",
+        "en": "Korean October chip exports reached US$56.44B, up 259.4%; total ASEAN exports grew 128%, with holiday-related working-day effects."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台灣手機業者 11 月 1 日談記憶體成本，vivo 稱 X 系列台灣銷量年增約兩成；iPhone 成本占比為 8 月舊研究。",
+        "en": "Taiwan vendors discuss memory costs; vivo reports about 20% premium X-series growth, while iPhone cost-share estimates date to August."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "鴻海亞灣超算 10 月 31 日表示近期 AI 資料中心主要採液冷；800V 高壓直流仍屬架構路線圖討論。",
+        "en": "Visionbay says recent Foxconn AI data centers use liquid cooling; 800V DC remains a discussed power roadmap."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "日工商會關注台灣半導體材料、精密設備與綠電，2025 年日本對台投資 271 件、8.68 億美元屬歷史統計。",
+        "en": "Japan's chamber highlights semiconductor materials and renewable-power issues; 271 investments worth US$868M refer to 2025."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "國科會 10 月 30 日公布 2025 年研發經費 1.138 兆元，民間資金占 86.2%，涵蓋全產業而非僅半導體。",
+        "en": "Taiwan's Oct 30 survey release shows 2025 R&D of NT$1.138T with 86.2% private funding, covering all sectors."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "korea-oct-2026-exports-asean-chip-equipment",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "南韓 10 月半導體出口達 564.4 億美元，對東協出口年增 128%",
+        "en": "South Korea's October chip exports reach US$56.44B; shipments to ASEAN rise 128%"
+      },
+      "summary": {
+        "zh": "南韓產業通商部 11 月 1 日公布，10 月半導體出口達 564.4 億美元，年增 259.4%；對東協整體出口達 213.3 億美元，年增 128%。半導體設備進口則達 25.2 億美元、年增 49.2%；東協出口涵蓋半導體、顯示器及石油產品，不能全數視為晶片出貨。",
+        "en": "South Korea's Ministry of Trade released October figures on November 1: semiconductor exports reached US$56.44 billion, up 259.4% YoY, while total exports to ASEAN reached US$21.33 billion, up 128%. Semiconductor equipment imports were US$2.52 billion, up 49.2%; ASEAN sales also include displays and petroleum products."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "韓國記憶體及半導體設備貿易連結東南亞封裝測試、電子組裝與伺服器供應鏈。對東協總額涵蓋多種貨品，部會僅針對 10 月 1 日至 25 日另公布對東協半導體出口約 86 億美元的部分期間統計。",
+            "en": "Korean memory and chip equipment trade connects to Southeast Asian assembly, packaging, testing and server operations. The ministry provides a separate partial-period figure of around US$8.6 billion of semiconductor exports to ASEAN for October 1–25, not a whole-month chip-specific total."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與執行狀態",
+            "en": "Published figures and status"
+          },
+          "text": {
+            "zh": "官方數據顯示南韓 10 月全部出口 1,152.8 億美元、年增 93.7%，對東協 213.3 億美元，半導體出口 564.4 億美元。工作天數受去年中秋連假落點影響，日均出口年增 76.1%，低於未調整天數的 93.7%；不同市場與產品的出口統計也不可相加為新增產能。",
+            "en": "Official October total exports were US$115.28 billion, up 93.7% YoY, while ASEAN exports were US$21.33 billion and semiconductor exports US$56.44 billion. Different Chuseok holiday timing affected the year-on-year comparison: daily average exports rose 76.1%, versus 93.7% without working-day normalization."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "官方摘要未提供 10 月整月對東協半導體分國別出貨、產品型號、最終客戶或對應封測產線稼動率。",
+            "en": "The summary does not provide full-month country-level ASEAN chip shipments, product mix, customers or related test/assembly utilization."
+          }
+        }
+      ],
+      "metric": "US$56.44B",
+      "metricLabel": {
+        "zh": "南韓 10 月半導體出口",
+        "en": "October semiconductor exports"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+          "type": "First-hand",
+          "name": {
+            "zh": "南韓產業通商部 · 10 月進出口正式統計",
+            "en": "South Korea MOTIR · official October trade release"
+          }
+        },
+        {
+          "url": "https://en.yna.co.kr/view/AEN20261101000952320",
+          "type": "Second-hand",
+          "name": {
+            "zh": "韓聯社 · 出口及東協分項報導",
+            "en": "Yonhap · October exports and ASEAN breakdown"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-01",
+        "countries": {
+          "zh": "南韓；東協",
+          "en": "South Korea; ASEAN"
+        },
+        "industries": {
+          "zh": "HBM；DRAM；NAND；記憶體；半導體設備；封測；測試；伺服器",
+          "en": "HBM; DRAM; NAND; memory; semiconductor equipment; packaging/test; servers"
+        },
+        "chain": {
+          "zh": "記憶體及設備出口至東協封裝測試與伺服器組裝",
+          "en": "Memory and equipment exports to ASEAN packaging/test and server assembly"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未披露本次新增核定的設備或廠房投資。",
+            "en": "No new authorized equipment or factory investment disclosed."
+          },
+          "demand": {
+            "zh": "韓國官方統計顯示對東協出口年增 128%，其中含半導體等產品，但未提供整月半導體分項。",
+            "en": "Official exports to ASEAN rose 128% YoY across multiple products; a full-month chip-only ASEAN breakdown is not supplied."
+          },
+          "fdi": {
+            "zh": "未公布本次新增已實現外國直接投資。",
+            "en": "No new realized foreign direct investment disclosed for this development."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "韓國記憶體及半導體設備貿易連結東南亞封裝測試、電子組裝與伺服器供應鏈。對東協總額涵蓋多種貨品，部會僅針對 10 月 1 日至 25 日另公布對東協半導體出口約 86 億美元的部分期間統計。",
+            "en": "Korean memory and chip equipment trade connects to Southeast Asian assembly, packaging, testing and server operations. The ministry provides a separate partial-period figure of around US$8.6 billion of semiconductor exports to ASEAN for October 1–25, not a whole-month chip-specific total."
+          },
+          "timing": {
+            "zh": "官方數據顯示南韓 10 月全部出口 1,152.8 億美元、年增 93.7%，對東協 213.3 億美元，半導體出口 564.4 億美元。工作天數受去年中秋連假落點影響，日均出口年增 76.1%，低於未調整天數的 93.7%；不同市場與產品的出口統計也不可相加為新增產能。",
+            "en": "Official October total exports were US$115.28 billion, up 93.7% YoY, while ASEAN exports were US$21.33 billion and semiconductor exports US$56.44 billion. Different Chuseok holiday timing affected the year-on-year comparison: daily average exports rose 76.1%, versus 93.7% without working-day normalization."
+          },
+          "unknowns": {
+            "zh": "官方摘要未提供 10 月整月對東協半導體分國別出貨、產品型號、最終客戶或對應封測產線稼動率。",
+            "en": "The summary does not provide full-month country-level ASEAN chip shipments, product mix, customers or related test/assembly utilization."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "半導體出口金額",
+            "en": "Semiconductor exports"
+          },
+          "current": 56.44,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "南韓產業通商部",
+            "en": "South Korea MOTIR"
+          },
+          "sourceUrl": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 2.594,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "對東協整體出口",
+            "en": "Total exports to ASEAN"
+          },
+          "current": 21.33,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "南韓產業通商部",
+            "en": "South Korea MOTIR"
+          },
+          "sourceUrl": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.28,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "整體出口",
+            "en": "Total exports"
+          },
+          "current": 115.28,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "南韓產業通商部",
+            "en": "South Korea MOTIR"
+          },
+          "sourceUrl": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.937,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "半導體設備進口",
+            "en": "Semiconductor equipment imports"
+          },
+          "current": 2.52,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "南韓產業通商部",
+            "en": "South Korea MOTIR"
+          },
+          "sourceUrl": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.492,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "對東協半導體出口",
+            "en": "Chip exports to ASEAN, partial month"
+          },
+          "current": 8.6,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月 1 至 25 日",
+            "en": "October 1–25, 2026"
+          },
+          "owner": {
+            "zh": "南韓產業通商部",
+            "en": "South Korea MOTIR"
+          },
+          "sourceUrl": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 2.52,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體製程電源與測試設備企業可核對韓國半導體設備進口的實際設備類別，並檢視東協封測廠的採購與驗收進度。總出口及年增率沒有揭露特定晶圓廠的產能開出或設備訂單。",
+        "en": "A process-power and test-equipment supplier would verify equipment categories within Korea's imports and qualification or ordering at ASEAN test sites. National export growth does not establish tool awards or newly commissioned fab capacity."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-phone-memory-component-costs-nov-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台灣手機業者談記憶體漲價與產品組合，vivo 稱高階系列銷量年增約兩成",
+        "en": "Taiwan smartphone vendors discuss memory costs; vivo says premium-series volumes grew about 20%"
+      },
+      "summary": {
+        "zh": "中央社 11 月 1 日報導三星、vivo 與 OPPO 台灣市場主管對記憶體成本及手機售價的最新說明；vivo 表示旗下高階 X 系列今年台灣銷量年增約 20%，部分低價機型縮減投入。TrendForce 早在 8 月已估算 2026 年第三季 iPhone Pro 256GB 記憶體物料成本占比約 34%，該數字屬既有研究，並非 11 月新調查。",
+        "en": "On November 1, CNA reported new Taiwan-market comments from Samsung, vivo and OPPO executives on memory costs and phone pricing. Vivo said its premium X-series volumes rose about 20% YoY in Taiwan while reducing some lower-price models. TrendForce's roughly 34% Q3 memory share of the 256GB iPhone Pro bill of materials was published in August, not newly measured in November."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "DRAM 與 NAND／SSD 上游價格透過手機記憶體配置、零件採購及終端定價反映於品牌產品。TrendForce 的物料成本比例是特定機型與容量的估計，不能套用至全部 Android 手機或 HBM 類產品。",
+            "en": "Upstream DRAM and NAND costs influence memory configurations, procurement and consumer pricing. TrendForce's bill-of-materials estimate covers a particular iPhone Pro storage configuration, not all Android devices or HBM."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與執行狀態",
+            "en": "Published figures and status"
+          },
+          "text": {
+            "zh": "vivo 台灣主管表示，今年 X 系列在台銷售量年增約兩成，但低階機型縮減投入、全年整體出貨估持平或微減。三星主管認為明年手機市場仍有記憶體成本壓力；OPPO 主管說現售機型目前無調價計畫。TrendForce 8 月研究估計該 iPhone Pro 機型第三季記憶體成本占比約 34%，2027 年上半年超過 40% 屬預測。",
+            "en": "Vivo's Taiwan executive reported around 20% YoY growth for X-series sales while forecasting flat to slightly lower total shipments. Samsung expected continuing memory-cost pressure, while OPPO reported no current price change plan for existing models. TrendForce's August report estimated a 34% Q3 memory cost share for the specified iPhone Pro model and forecast over 40% in H1 2027."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各手機品牌未公布統一口徑的記憶體採購價格、各機型毛利率及 2027 年確認的 DRAM／NAND 採購量。",
+            "en": "Comparable procurement prices, device-level margins and confirmed 2027 DRAM/NAND purchase volumes were not disclosed."
+          }
+        }
+      ],
+      "metric": "約 20%",
+      "metricLabel": {
+        "zh": "vivo 台灣高階 X 系列銷量年增",
+        "en": "Vivo Taiwan premium X-series sales volume growth"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202611010029.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 手機業者成本與售價採訪",
+            "en": "CNA · Taiwan smartphone vendor interviews"
+          }
+        },
+        {
+          "url": "https://www.trendforce.com/presscenter/news/20260810-13172.html",
+          "type": "First-hand",
+          "name": {
+            "zh": "TrendForce · 8 月智慧手機物料成本研究",
+            "en": "TrendForce · August smartphone BOM study"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-01",
+        "countries": {
+          "zh": "台灣；全球記憶體供應鏈",
+          "en": "Taiwan; global memory supply chain"
+        },
+        "industries": {
+          "zh": "DRAM；NAND；記憶體；SSD；零組件；手機；終端",
+          "en": "DRAM; NAND; memory; SSD; components; smartphones; end-use devices"
+        },
+        "chain": {
+          "zh": "DRAM 與 NAND 記憶體零組件至手機終端",
+          "en": "DRAM and NAND components to smartphone end-use systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未披露本次新增核定的設備或廠房投資。",
+            "en": "No new authorized equipment or factory investment disclosed."
+          },
+          "demand": {
+            "zh": "vivo 表示高階 X 系列台灣銷量年增約兩成，但整體出貨仍估持平或微減。",
+            "en": "Vivo reports about 20% growth in its Taiwan X-series, while total company shipments are expected flat or slightly lower."
+          },
+          "fdi": {
+            "zh": "未公布本次新增已實現外國直接投資。",
+            "en": "No new realized foreign direct investment disclosed for this development."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "DRAM 與 NAND／SSD 上游價格透過手機記憶體配置、零件採購及終端定價反映於品牌產品。TrendForce 的物料成本比例是特定機型與容量的估計，不能套用至全部 Android 手機或 HBM 類產品。",
+            "en": "Upstream DRAM and NAND costs influence memory configurations, procurement and consumer pricing. TrendForce's bill-of-materials estimate covers a particular iPhone Pro storage configuration, not all Android devices or HBM."
+          },
+          "timing": {
+            "zh": "vivo 台灣主管表示，今年 X 系列在台銷售量年增約兩成，但低階機型縮減投入、全年整體出貨估持平或微減。三星主管認為明年手機市場仍有記憶體成本壓力；OPPO 主管說現售機型目前無調價計畫。TrendForce 8 月研究估計該 iPhone Pro 機型第三季記憶體成本占比約 34%，2027 年上半年超過 40% 屬預測。",
+            "en": "Vivo's Taiwan executive reported around 20% YoY growth for X-series sales while forecasting flat to slightly lower total shipments. Samsung expected continuing memory-cost pressure, while OPPO reported no current price change plan for existing models. TrendForce's August report estimated a 34% Q3 memory cost share for the specified iPhone Pro model and forecast over 40% in H1 2027."
+          },
+          "unknowns": {
+            "zh": "各手機品牌未公布統一口徑的記憶體採購價格、各機型毛利率及 2027 年確認的 DRAM／NAND 採購量。",
+            "en": "Comparable procurement prices, device-level margins and confirmed 2027 DRAM/NAND purchase volumes were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "vivo X 系列在台銷量年增",
+            "en": "Vivo X-series Taiwan unit sales growth"
+          },
+          "current": 0.2,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年，11 月 1 日受訪說明",
+            "en": "2026, reported Nov 1"
+          },
+          "owner": {
+            "zh": "vivo 台灣主管，由中央社報導",
+            "en": "Vivo Taiwan executive, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611010029.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "iPhone Pro 記憶體物料成本占比",
+            "en": "iPhone Pro memory share of BOM"
+          },
+          "current": 0.34,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季，8 月研究估計",
+            "en": "Q3 2026, estimated in August"
+          },
+          "owner": {
+            "zh": "TrendForce 8 月研究",
+            "en": "TrendForce August research"
+          },
+          "sourceUrl": "https://www.trendforce.com/presscenter/news/20260810-13172.html",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "電子測試與電源控制設備企業需區分 DRAM、NAND、HBM 的不同應用需求與產品規格，核對零件成本變動是否反映於實際手機出貨。品牌的價格預期與個別高階系列成長，仍不足以量化半導體製程設備需求。",
+        "en": "A test-and-power supplier would separate DRAM, NAND and HBM applications and verify whether component cost trends translate into shipped devices. Vendor price expectations and premium-segment growth cannot quantify semiconductor equipment demand."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "foxconn-visionbay-liquid-cooling-datacenter-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "亞灣超算說明鴻海近期 AI 資料中心採液冷，並討論 800V 直流供電架構",
+        "en": "Visionbay says recent Foxconn AI data-center deployments use liquid cooling; discusses 800V DC"
+      },
+      "summary": {
+        "zh": "鴻海旗下亞灣超算執行長 10 月 31 日在台北舉行的鴻海科技日表示，集團近期部署 AI 資料中心基本上採液冷技術，並說明 NVIDIA 機櫃規格朝 800V 高壓直流電力架構演進。亞灣超算 7 月已啟用的 5MW HGX B300 叢集屬歷史背景，本次未公布新增已上線 MW、PUE 或新機房驗收容量。",
+        "en": "At Hon Hai Tech Day in Taipei on October 31, Visionbay's CEO said recent Foxconn AI data-center deployments generally use liquid cooling and discussed NVIDIA's transition toward 800V high-voltage DC rack architecture. Its 5MW HGX B300 cluster went live in July; no additional energized MW, PUE or accepted capacity was disclosed on October 31."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "AI 機櫃電力密度提高，使液冷、UPS、電源轉換和機房配電成為資料中心部署項目。800V HVDC 在此為 NVIDIA 產品路線圖和供電架構討論，尚不能視為鴻海已全面採用 800V 的實際部署證明。",
+            "en": "Higher-density AI racks involve liquid cooling, UPS, converters and facility distribution. The 800V DC reference concerns NVIDIA's power-architecture roadmap and does not establish a fully commissioned 800V deployment at Foxconn sites."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與執行狀態",
+            "en": "Published figures and status"
+          },
+          "text": {
+            "zh": "亞灣超算執行長指出電力供應與晶片、關鍵零組件交付須與機房部署期程配合，近期鴻海部署的 AI 資料中心主要採液冷。鴻海此前於 7 月公告首座 5MW NVIDIA HGX B300 叢集正式商轉、客戶使用率逾九成，這是舊里程碑，未被列為 10 月 31 日新增算力。",
+            "en": "Visionbay's CEO discussed scheduling chips, components and electricity for deployment and said liquid cooling is common in recent projects. Foxconn's previously announced July start of a 5MW NVIDIA HGX B300 cluster at over 90% utilization is dated background, not new October 31 capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未揭露近期各資料中心的液冷部署規模、實際 PUE、800V 直流配電已驗收機櫃數或 10 月 31 日新增投入營運 MW。",
+            "en": "The company did not provide site-by-site liquid-cooled MW, measured PUE, accepted 800V rack count or newly energized capacity on October 31."
+          }
+        }
+      ],
+      "metric": "液冷",
+      "metricLabel": {
+        "zh": "近期 AI 資料中心部署方式",
+        "en": "Cooling approach in recent AI data centers"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610310076.aspx",
+          "type": "Source-limited",
+          "name": {
+            "zh": "中央社 · 亞灣超算供電與液冷發言",
+            "en": "CNA · Visionbay AI power and cooling briefing"
+          }
+        },
+        {
+          "url": "https://hhtd.honhai.com/zh-tw",
+          "type": "First-hand",
+          "name": {
+            "zh": "鴻海科技日 · 官方日期與會場",
+            "en": "Hon Hai Tech Day · official event venue and dates"
+          }
+        }
+      ],
+      "location": {
+        "zh": "台灣台北市，南港展覽館一館（2026 鴻海科技日發表會場地；資料中心營運場址未由此推定）。",
+        "en": "Taipei Nangang Exhibition Center Hall 1, Taipei, Taiwan (2026 Hon Hai Tech Day venue; not asserted to be the data-center site)."
+      },
+      "market": {
+        "eventDate": "2026-10-31",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；供電；電源；液冷；散熱；資料中心；機房",
+          "en": "Servers; power supply; liquid cooling; thermal systems; data centers"
+        },
+        "chain": {
+          "zh": "伺服器機櫃至電源供電、液冷與資料中心",
+          "en": "Servers through rack power, liquid cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未披露本次新增核定的設備或廠房投資。",
+            "en": "No new authorized equipment or factory investment disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增已簽訂的可核對客戶訂單數。",
+            "en": "No additional verified booked customer orders disclosed."
+          },
+          "fdi": {
+            "zh": "未公布本次新增已實現外國直接投資。",
+            "en": "No new realized foreign direct investment disclosed for this development."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "AI 機櫃電力密度提高，使液冷、UPS、電源轉換和機房配電成為資料中心部署項目。800V HVDC 在此為 NVIDIA 產品路線圖和供電架構討論，尚不能視為鴻海已全面採用 800V 的實際部署證明。",
+            "en": "Higher-density AI racks involve liquid cooling, UPS, converters and facility distribution. The 800V DC reference concerns NVIDIA's power-architecture roadmap and does not establish a fully commissioned 800V deployment at Foxconn sites."
+          },
+          "timing": {
+            "zh": "亞灣超算執行長指出電力供應與晶片、關鍵零組件交付須與機房部署期程配合，近期鴻海部署的 AI 資料中心主要採液冷。鴻海此前於 7 月公告首座 5MW NVIDIA HGX B300 叢集正式商轉、客戶使用率逾九成，這是舊里程碑，未被列為 10 月 31 日新增算力。",
+            "en": "Visionbay's CEO discussed scheduling chips, components and electricity for deployment and said liquid cooling is common in recent projects. Foxconn's previously announced July start of a 5MW NVIDIA HGX B300 cluster at over 90% utilization is dated background, not new October 31 capacity."
+          },
+          "unknowns": {
+            "zh": "未揭露近期各資料中心的液冷部署規模、實際 PUE、800V 直流配電已驗收機櫃數或 10 月 31 日新增投入營運 MW。",
+            "en": "The company did not provide site-by-site liquid-cooled MW, measured PUE, accepted 800V rack count or newly energized capacity on October 31."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "伺服器電源、機櫃配電與液冷設備供應商可確認資料中心電力架構、電網接入及實際驗收 PUE；同時區分液冷技術採用與已安裝 800V 直流電源機櫃數。現有發言未提供新增設備採購或已上線 MW。",
+        "en": "Rack-power, distribution and liquid-cooling suppliers would verify power architecture, utility readiness and measured PUE, separating general liquid-cooling use from accepted 800V racks. The briefing contains no verified new equipment awards or energized MW."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "japan-taiwan-fdi-2025-chamber-response-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "日工商會 10 月 31 日談半導體材料、精密設備與綠電供應，2025 年對台投資 271 件",
+        "en": "Japanese chamber outlines materials, precision tools and renewable-power concerns; 271 Taiwan investments in 2025"
+      },
+      "summary": {
+        "zh": "台北市日本工商會 10 月 31 日受中央社詢問，表示日企關注台灣半導體與 AI 材料、精密機械及能源供應，並提出綠電供應量、憑證價格及電網接入等營運議題。官方資料顯示日本 2025 年對台投資 271 件、金額 8.68 億美元；這是上一年度歷史統計，當日並未宣布新增 8.68 億美元投資。",
+        "en": "In comments reported October 31, the Japanese Chamber of Commerce and Industry, Taipei discussed semiconductor materials, precision machinery, renewable-power supply, certificate pricing and grid access. Official bilateral data records 271 Japanese investments in Taiwan worth US$868 million in 2025, a historical amount rather than new October 31 FDI."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "台灣晶圓與封裝供應鏈採購日本化學材料、精密機械及半導體製程設備。日本商會對綠電可取得性、憑證及併網制度的說法是會員營運觀點，相關政府規則並未因此立即變更。",
+            "en": "Taiwan's wafer and packaging supply chains use Japanese materials, precision machinery and process tools. Chamber comments on renewable electricity, certificates and grid interconnection are member views, not enacted regulatory changes."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與執行狀態",
+            "en": "Published figures and status"
+          },
+          "text": {
+            "zh": "台灣日本關係協會官方資料列出 2025 年日本對台投資 271 件、8.68 億美元；商會於 10 月初提交第 18 次白皮書，10 月 31 日進一步說明對材料設備、精密機械和綠電條件的關注。汽車零組件關稅調整仍是商會訴求，尚無政策定案。",
+            "en": "Taiwan–Japan Relations Association lists 271 investments and US$868 million of Japanese FDI in Taiwan for 2025. The chamber submitted its 18th white paper in early October and gave additional October 31 comments on materials, precision tools and renewable-power conditions. Requests on automotive parts tariffs remain proposals."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "沒有公布 10 月 31 日新核准的半導體投資案件、分公司設備採購額或綠電憑證新價格規範。",
+            "en": "No October 31 semiconductor investment approvals, company-level tool orders or new renewable-certificate pricing rules were announced."
+          }
+        }
+      ],
+      "metric": "US$868M",
+      "metricLabel": {
+        "zh": "2025 年日本對台直接投資實績",
+        "en": "Japan's 2025 direct investment in Taiwan"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "url": "https://subsite.mofa.gov.tw/aear/News.aspx?n=5879&sms=1607",
+          "type": "First-hand",
+          "name": {
+            "zh": "臺灣日本關係協會 · 2025 雙邊投資統計",
+            "en": "Taiwan–Japan Relations Association · 2025 bilateral investment data"
+          }
+        },
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610310065.aspx",
+          "type": "Second-hand",
+          "name": {
+            "zh": "中央社 · 日工商會白皮書與能源議題採訪",
+            "en": "CNA · Japanese chamber white paper and power issues"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-31",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "材料；設備；零組件；晶圓；半導體；電力；供電；投資；FDI",
+          "en": "Materials; tools; components; wafers; semiconductors; electricity; investment; FDI"
+        },
+        "chain": {
+          "zh": "材料及精密設備至晶圓製造、電力供應與外資投資",
+          "en": "Materials and precision tools through wafer manufacturing, power supply and FDI"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2025 年既有日本對台投資 271 件，非 10 月 31 日新核准計畫。",
+            "en": "The 271 investments are recorded 2025 transactions, not new projects approved October 31."
+          },
+          "demand": {
+            "zh": "未公布新增已簽訂的可核對客戶訂單數。",
+            "en": "No additional verified booked customer orders disclosed."
+          },
+          "fdi": {
+            "zh": "2025 年日本對台投資 8.68 億美元為歷史實績，沒有 10 月 31 日新增投資額。",
+            "en": "Japan's US$868M FDI is historical 2025 investment, not new October 31 inflows."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣晶圓與封裝供應鏈採購日本化學材料、精密機械及半導體製程設備。日本商會對綠電可取得性、憑證及併網制度的說法是會員營運觀點，相關政府規則並未因此立即變更。",
+            "en": "Taiwan's wafer and packaging supply chains use Japanese materials, precision machinery and process tools. Chamber comments on renewable electricity, certificates and grid interconnection are member views, not enacted regulatory changes."
+          },
+          "timing": {
+            "zh": "台灣日本關係協會官方資料列出 2025 年日本對台投資 271 件、8.68 億美元；商會於 10 月初提交第 18 次白皮書，10 月 31 日進一步說明對材料設備、精密機械和綠電條件的關注。汽車零組件關稅調整仍是商會訴求，尚無政策定案。",
+            "en": "Taiwan–Japan Relations Association lists 271 investments and US$868 million of Japanese FDI in Taiwan for 2025. The chamber submitted its 18th white paper in early October and gave additional October 31 comments on materials, precision tools and renewable-power conditions. Requests on automotive parts tariffs remain proposals."
+          },
+          "unknowns": {
+            "zh": "沒有公布 10 月 31 日新核准的半導體投資案件、分公司設備採購額或綠電憑證新價格規範。",
+            "en": "No October 31 semiconductor investment approvals, company-level tool orders or new renewable-certificate pricing rules were announced."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2025 年日本對台直接投資",
+            "en": "Japan's 2025 FDI in Taiwan"
+          },
+          "current": 0.868,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2025 年全年歷史統計",
+            "en": "Full-year 2025 historical data"
+          },
+          "owner": {
+            "zh": "臺灣日本關係協會",
+            "en": "Taiwan–Japan Relations Association"
+          },
+          "sourceUrl": "https://subsite.mofa.gov.tw/aear/News.aspx?n=5879&sms=1607",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "2025 年日本對台投資件數",
+            "en": "Japanese investment cases in 2025"
+          },
+          "current": 271,
+          "unit": "件",
+          "period": {
+            "zh": "2025 年全年歷史統計",
+            "en": "Full-year 2025 historical data"
+          },
+          "owner": {
+            "zh": "臺灣日本關係協會",
+            "en": "Taiwan–Japan Relations Association"
+          },
+          "sourceUrl": "https://subsite.mofa.gov.tw/aear/News.aspx?n=5879&sms=1607",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "製程電源、材料及精密量測設備供應商可比較日本材料供應商的台灣服務與品質驗證能力，並核對工廠用電與綠電契約的實際條件。商會評論與 2025 年投資總額不足以確認當前新增設備訂單。",
+        "en": "A process-power, materials or metrology supplier would verify Japanese vendors' Taiwanese qualification capabilities and real factory power terms. Chamber commentary and 2025 aggregate FDI do not establish new tool demand."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "taiwan-2025-rnd-survey-release-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國科會公布 2025 年研發經費 1.138 兆元，民間資金占 86.2%",
+        "en": "Taiwan's 2025 R&D expenditure reached NT$1.138T; private funding accounted for 86.2%"
+      },
+      "summary": {
+        "zh": "國科會 10 月 30 日發布 2025 年全國科技動態調查，研發經費新台幣 1 兆 1,380 億元，較 2024 年增加 8.5%，其中民間來源為 9,810 億元，占整體 86.2%。數字涵蓋全國各產業研發，不能全部視為半導體設備或先進封裝投入；研發支出占 GDP 比率為 3.96%。",
+        "en": "On October 30, Taiwan's National Science and Technology Council released 2025 R&D survey results totaling NT$1.138 trillion, up 8.5% on 2024. Private-sector funding provided NT$981 billion, or 86.2%; these are economy-wide R&D figures, not semiconductor equipment capex, and R&D intensity was 3.96% of GDP."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "全國研發統計包括技術發展、應用研究和基礎研究，涉及半導體、資訊通訊、材料及其他領域。投入研發支出不等於製程設備採購、已驗證產品或完成的工廠產能。",
+            "en": "National R&D aggregates technology development, applied research and basic research across chips, ICT, materials and other sectors. R&D expenditure is distinct from equipment procurement, product qualification or commissioned fabs."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布數據與執行狀態",
+            "en": "Published figures and status"
+          },
+          "text": {
+            "zh": "國科會報告 2025 年技術發展經費 8,480 億元，應用研究 2,011 億元，基礎研究 889 億元；研發人力全時約當數 31 萬 8,261 人年、年增 2.3%。2025 年民間經費占比 86.2%，企業執行研發經費中 500 人以上企業占 83.2%，須保留經費來源與執行面的不同分母。",
+            "en": "The council reports NT$848B of technology development, NT$201.1B of applied research and NT$88.9B of basic research in 2025. R&D personnel amounted to 318,261 full-time equivalents, up 2.3%. The 86.2% private-funding share and 83.2% share of enterprise R&D performed at firms with over 500 staff have different denominators."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "本次全國總額不能直接推算個別半導體廠研發費用、單項設備裝機或 2026 年完整研發成果。",
+            "en": "National totals do not disclose company-specific semiconductor R&D spending, installed tools or full-year 2026 outcomes."
+          }
+        }
+      ],
+      "metric": "NT$1.138T",
+      "metricLabel": {
+        "zh": "2025 年全國研發經費",
+        "en": "Taiwan's 2025 R&D expenditure"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "url": "https://www.nstc.gov.tw/folksonomy/detail/eccab6a5-72fa-487a-a01a-0d5d31553f18?l=ch",
+          "type": "First-hand",
+          "name": {
+            "zh": "國科會 · 2025 年全國科技動態調查結果",
+            "en": "NSTC · 2025 national R&D survey"
+          }
+        },
+        {
+          "url": "https://www.cna.com.tw/news/afe/202610300129.aspx",
+          "type": "Second-hand",
+          "name": {
+            "zh": "中央社 · 研發經費與人力公布",
+            "en": "CNA · R&D funding and workforce report"
+          }
+        }
+      ],
+      "market": {
+        "eventDate": "2026-10-30",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體；材料；設備；零組件；晶圓；封裝；人才；投資",
+          "en": "Semiconductors; materials; tools; components; wafers; packaging; talent; investment"
+        },
+        "chain": {
+          "zh": "研發資金與人才連結材料設備、晶圓及封裝測試",
+          "en": "R&D funding and talent across materials, tools, wafer fabs and packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2025 年研發支出為歷史統計，不等於本次新增核定資本投資。",
+            "en": "2025 R&D is historical spending, not newly approved capital investment."
+          },
+          "demand": {
+            "zh": "未公布新增已簽訂的可核對客戶訂單數。",
+            "en": "No additional verified booked customer orders disclosed."
+          },
+          "fdi": {
+            "zh": "未公布本次新增已實現外國直接投資。",
+            "en": "No new realized foreign direct investment disclosed for this development."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "全國研發統計包括技術發展、應用研究和基礎研究，涉及半導體、資訊通訊、材料及其他領域。投入研發支出不等於製程設備採購、已驗證產品或完成的工廠產能。",
+            "en": "National R&D aggregates technology development, applied research and basic research across chips, ICT, materials and other sectors. R&D expenditure is distinct from equipment procurement, product qualification or commissioned fabs."
+          },
+          "timing": {
+            "zh": "國科會報告 2025 年技術發展經費 8,480 億元，應用研究 2,011 億元，基礎研究 889 億元；研發人力全時約當數 31 萬 8,261 人年、年增 2.3%。2025 年民間經費占比 86.2%，企業執行研發經費中 500 人以上企業占 83.2%，須保留經費來源與執行面的不同分母。",
+            "en": "The council reports NT$848B of technology development, NT$201.1B of applied research and NT$88.9B of basic research in 2025. R&D personnel amounted to 318,261 full-time equivalents, up 2.3%. The 86.2% private-funding share and 83.2% share of enterprise R&D performed at firms with over 500 staff have different denominators."
+          },
+          "unknowns": {
+            "zh": "本次全國總額不能直接推算個別半導體廠研發費用、單項設備裝機或 2026 年完整研發成果。",
+            "en": "National totals do not disclose company-specific semiconductor R&D spending, installed tools or full-year 2026 outcomes."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "全國研發經費",
+            "en": "National R&D expenditure"
+          },
+          "current": 1138,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2025 年全年",
+            "en": "Full-year 2025"
+          },
+          "owner": {
+            "zh": "國科會，由中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300129.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.085,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "民間來源研發經費",
+            "en": "Privately funded R&D"
+          },
+          "current": 981,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2025 年全年",
+            "en": "Full-year 2025"
+          },
+          "owner": {
+            "zh": "國科會，由中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300129.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.09,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "政府來源研發經費",
+            "en": "Government-funded R&D"
+          },
+          "current": 157,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2025 年全年",
+            "en": "Full-year 2025"
+          },
+          "owner": {
+            "zh": "國科會，由中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300129.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.054,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "研發經費占 GDP 比率",
+            "en": "R&D as a share of GDP"
+          },
+          "current": 0.0396,
+          "unit": "%",
+          "period": {
+            "zh": "2025 年全年",
+            "en": "Full-year 2025"
+          },
+          "owner": {
+            "zh": "國科會，由中央社報導"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300129.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        },
+        {
+          "name": {
+            "zh": "研發人力全時約當數",
+            "en": "R&D workforce full-time equivalents"
+          },
+          "current": 318261,
+          "unit": "人年",
+          "period": {
+            "zh": "2025 年全年",
+            "en": "Full-year 2025"
+          },
+          "owner": {
+            "zh": "國科會，由中央社報導"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202610300129.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.023,
+          "baseStatus": "來源未公布可比較的同口徑絕對基期，未由成長率倒推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "精密製程電源與量測儀器供應商可進一步查驗研發資金中與先進半導體材料、設備、測試驗證有關的細分項目。全國研發總額與資金來源比例無法推算單一供應商已接獲的訂單或設備安裝量。",
+        "en": "Precision process-power and metrology suppliers would examine R&D funding specific to advanced materials, tools and test qualification. Aggregate R&D expenditure and funding shares do not identify equipment awards or installations."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "南韓出口對東協年增 128%，是否全部來自半導體？",
+        "en": "Does Korea's 128% ASEAN export growth come entirely from chips?"
+      },
+      "text": {
+        "zh": "沒有。213.3 億美元是全部貨品出口；官方指出其中包括半導體、顯示器與石油產品。10 月前 25 天的半導體對東協出口約 86 億美元，屬部分月份統計。",
+        "en": "No. US$21.33B is total exports across chips, displays, petroleum and other products. Around US$8.6B of semiconductor exports is only an October 1–25 partial-period figure."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "手機記憶體成本占比 34% 是 11 月新公布的資料嗎？",
+        "en": "Was the 34% smartphone memory cost share first released in November?"
+      },
+      "text": {
+        "zh": "該數字出自 TrendForce 8 月 10 日發布的指定 iPhone Pro 256GB 研究；11 月 1 日的新內容為台灣手機業者對成本、機型組合及銷售表現的受訪說明。",
+        "en": "That figure is from TrendForce's August 10 study for a specified 256GB iPhone Pro. November 1 adds vendor comments on costs, product mix and actual Taiwan sales trends."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "鴻海採用液冷是否證實新上線 5MW 或全面改採 800V？",
+        "en": "Does Foxconn's liquid-cooling statement confirm a new 5MW site or a full 800V rollout?"
+      },
+      "text": {
+        "zh": "5MW 叢集已在 7 月宣布商轉。10 月 31 日發言證實近期部署採用液冷，但沒有提供新增 MW、已驗收 800V 配電機櫃數或實測 PUE。",
+        "en": "The 5MW cluster was announced as operational in July. October 31 comments describe liquid-cooling use but give no new energized MW, accepted 800V racks or measured PUE."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "統計與預測的不同發布時間",
+        "en": "Different reporting dates and data status"
+      },
+      "text": {
+        "zh": "南韓 10 月貿易數字於 11 月 1 日公布；手機物料成本占比取自 8 月研究；日本投資與全國研發支出則為 2025 年歷史實績。",
+        "en": "Korean October trade data was released November 1, smartphone BOM shares trace to an August study, and Japanese FDI and national R&D spending are 2025 historical figures."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考資訊",
+      "en": "Reference information"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "德州 40 億美元產業園區重述",
+        "en": "Recycled Texas industrial-park proposal"
+      },
+      "text": {
+        "zh": "11 月 1 日對德州產業園區最高 40 億美元的報導，重述 10 月 16 日經濟部已說明的規劃，沒有新增核定投資、購地或開工事實。",
+        "en": "November 1 coverage of a potential US$4B Texas park repeats MOEA's October 16 proposal without a newly approved investment, land transaction or construction milestone."
+      }
+    },
+    {
+      "title": {
+        "zh": "南韓全年出口兆元推估",
+        "en": "Korea annual trillion-dollar export projection"
+      },
+      "text": {
+        "zh": "11 月出口總額跨過 1 兆美元屬部會預期，尚非已實現的年度貿易數據，故不作為獨立新聞。",
+        "en": "A potential US$1T full-year export milestone is ministry guidance, not completed annual trade data, and is not a separate story."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "南韓對東協 213.3 億美元是全產品出口，半導體分項僅另有 10 月前 25 天數值；工作日差異影響年增率。手機物料成本 34% 為 8 月研究，2027 年成本是預測。鴻海 5MW 叢集已於 7 月上線，本次未核實新增 MW；日資與研發經費皆為 2025 年歷史統計。",
+    "en": "Korean ASEAN exports cover all goods, with a chip-only partial-period statistic, and working-day effects influence growth comparisons. The 34% phone memory cost share dates to August and later projections are forecasts. Foxconn's 5MW site was energized in July, with no new MW established. Japanese investment and Taiwan R&D are 2025 historical data."
+  }
+}
