@@ -363,6 +363,9 @@ body[data-view=events] .edition-content>section:not(.period-bar):not(.events-vie
 .event-focus{margin:6px 0 8px;color:var(--muted);font-size:14px;line-height:1.75}
 .event-source{display:inline-flex;align-items:center;gap:6px;font-size:13px;min-height:32px}.event-source .icon{width:12px;height:12px}
 .events-empty{color:var(--muted);padding:24px 0}
+.event-past-bar{display:flex;flex-wrap:wrap;align-items:center;gap:4px 16px;padding:4px 0;border-bottom:1px solid var(--line)}
+.event-past-note{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+@media print{.event-past-bar{display:none}}
 
 @media(max-width:800px){
  .masthead{padding:10px 20px}
