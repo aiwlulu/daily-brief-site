@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-11-03",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -233,6 +233,32 @@
           "en": "SWITCH · organizer"
         },
         "url": "https://www.switchsg.org/"
+      }
+    },
+    {
+      "id": "a-sscc-2026",
+      "start": "2026-11-01",
+      "end": "2026-11-04",
+      "type": "research",
+      "region": "tw",
+      "name": {
+        "zh": "IEEE A-SSCC 2026 亞洲固態電路會議",
+        "en": "IEEE Asian Solid-State Circuits Conference (A-SSCC 2026)"
+      },
+      "place": {
+        "zh": "台灣台中市 · 林酒店（The Lin Hotel）",
+        "en": "The Lin Hotel, Taichung, Taiwan"
+      },
+      "focus": {
+        "zh": "AI 晶片、記憶體介面、類比與 RF、數位電路及固態電路設計研究；11 月 2 日舉行開幕典禮，會期 11 月 1 至 4 日。",
+        "en": "AI chips, memory interfaces, analog/RF, digital and solid-state circuit research; opening ceremony on Nov 2 during the Nov 1–4 conference."
+      },
+      "source": {
+        "name": {
+          "zh": "IEEE A-SSCC 2026 · 官方會期及場館",
+          "en": "IEEE A-SSCC 2026 · organizer dates and venue"
+        },
+        "url": "https://a-sscc2026.org/registration"
       }
     },
     {

@@ -1,0 +1,1617 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T01:50:57.076Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、記憶體、光通訊、配電系統與製造工廠",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, memory, optics, power distribution and factories"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "毅嘉馬來西亞光通訊產品完成客戶認證並投產，宏于電機說明越南配電設備產線進度；台灣與東南亞製造業調查則同步揭露原料價格及交貨時間的變化。",
+    "en": "IChia reported qualified optical production in Malaysia and Horng Yu detailed Vietnam switchgear operations, while Taiwan and Southeast Asian manufacturing surveys described component-cost and delivery-time changes."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "毅嘉馬來西亞居林光通訊產品通過客戶測試、開始量產，10 月合併營收 11.34 億元，年增 21%。",
+        "en": "IChia's Kulim optical products passed customer qualification and entered production; October group sales rose 21% to NT$1.134B."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台灣 10 月製造業 PMI 為 62.5，電子暨光學業 60.0；關鍵料件缺貨及供應商交期延長仍是調查重點。",
+        "en": "Taiwan's October PMI was 62.5, with electronics/optics at 60.0; component supply and lead times remain survey concerns."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "宏于電機確認越南興安廠第三季已投產，2027 年預製型變電站出貨仍為試產計畫。",
+        "en": "Horng Yu says its Hung Yen plant started operating in Q3; prefabricated substation pilot shipments are planned for 2027."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "TrendForce 預估 2027 年 AI 網通與互連產值 2,798 億美元，其中可插拔光收發模組 841 億美元，均屬預測。",
+        "en": "TrendForce forecasts a US$279.8B AI networking market in 2027, including US$84.1B for pluggable optics, with both figures projected."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "馬來西亞 10 月製造業 PMI 升至 51.0，越南升至 52.3；兩國調查均提及成本與交期壓力。",
+        "en": "Malaysia's October PMI reached 51.0 and Vietnam's 52.3, with both surveys flagging costs and supply lead times."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "ichia-kulim-optical-components-qualified-production",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "毅嘉馬來西亞居林新廠光通訊產品通過客戶認證，10 月營收年增 21%",
+        "en": "IChia's Kulim optical products clear customer qualification; October revenue up 21%"
+      },
+      "summary": {
+        "zh": "毅嘉 11 月 2 日公布 10 月自結合併營收 11.34 億元，年增 21%，並指出馬來西亞居林新廠光通訊產品已通過客戶測試認證、投入量產且開始貢獻收入。前 10 月營收據公司受訪說明約 106 億元，但光通訊單獨的交貨數及收入未公開。",
+        "en": "IChia said on November 2 its October consolidated revenue was NT$1.134 billion, up 21% YoY. Optical communications products at its new Kulim, Malaysia plant passed customer qualification, entered production and began contributing sales; the company separately cited around NT$10.6 billion of year-to-date revenue without isolating optical shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "光通訊模組的精密機構件、電子組裝及測試能力連結 AI 伺服器網路互連、資料中心交換設備及光學傳輸；居林廠的客戶認證涉及指定產品與產線，與所有產品已量產不同。",
+            "en": "Precision optical-module mechanics, electronics assembly and test feed AI server networking and data-center optical links. Qualification covers specified products and processes, not proof that every planned Kulim product has ramped."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字及執行進度",
+            "en": "Published figures and execution"
+          },
+          "text": {
+            "zh": "公司說 10 月電子模組與整合模組收入分別約 8.11 億及 3.28 億元，與合併營收總額並非完全一致，因此分項不做加總比較。另一份 11 月 2 日採訪說居林廠已建置 3 條打件線，2027 年規劃擴至 8 至 12 條，2028 年目標 24 條；這些數量是不同時間的現況與規劃。",
+            "en": "The company disclosed roughly NT$811 million in electronics modules and NT$328 million in integrated modules; these do not fully reconcile to the stated group total, so no unsupported reconciliation is made. A separate November 2 interview said three SMT lines are installed, with 8–12 planned for 2027 and 24 targeted by 2028."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "客戶名稱、光通訊產品型號、產線實測良率、獨立量產出貨量及光通訊營收占比尚未公布。",
+            "en": "Customer names, optical SKUs, qualified yields, optical shipment units and stand-alone optical revenue remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$1.134B",
+      "metricLabel": {
+        "zh": "10 月自結合併營收",
+        "en": "October consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 馬來西亞光通訊量產及營收",
+            "en": "CNA · Malaysia optical production and sales"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611020254.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "知新聞 · 馬來西亞工廠打件線採訪",
+            "en": "Knews · Kulim SMT line interview"
+          },
+          "url": "https://www.knews.com.tw/news/DCD5EB745C7610A4251E0887E80823A1",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "馬來西亞吉打州居林，毅嘉新廠（生產廠區；精確地址未披露）。",
+        "en": "IChia new plant in Kulim, Kedah, Malaysia (manufacturing site; street address not disclosed)."
+      },
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "台灣；馬來西亞",
+          "en": "Taiwan; Malaysia"
+        },
+        "industries": {
+          "zh": "光通訊；零組件；測試；伺服器；資料中心；工廠；自動化",
+          "en": "Optics; components; test; servers; data centers; factories; automation"
+        },
+        "chain": {
+          "zh": "光通訊零組件與測試至伺服器及資料中心",
+          "en": "Optical components and testing through servers and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增核定資本支出。",
+            "en": "No new approved capex reported."
+          },
+          "demand": {
+            "zh": "光通訊產品已通過客戶認證並開始貢獻營收，但未單獨披露出貨量。",
+            "en": "Qualified optical products contribute revenue, without separate delivery volumes."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現的外國直接投資。",
+            "en": "No realized incremental FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "光通訊模組的精密機構件、電子組裝及測試能力連結 AI 伺服器網路互連、資料中心交換設備及光學傳輸；居林廠的客戶認證涉及指定產品與產線，與所有產品已量產不同。",
+            "en": "Precision optical-module mechanics, electronics assembly and test feed AI server networking and data-center optical links. Qualification covers specified products and processes, not proof that every planned Kulim product has ramped."
+          },
+          "timing": {
+            "zh": "公司說 10 月電子模組與整合模組收入分別約 8.11 億及 3.28 億元，與合併營收總額並非完全一致，因此分項不做加總比較。另一份 11 月 2 日採訪說居林廠已建置 3 條打件線，2027 年規劃擴至 8 至 12 條，2028 年目標 24 條；這些數量是不同時間的現況與規劃。",
+            "en": "The company disclosed roughly NT$811 million in electronics modules and NT$328 million in integrated modules; these do not fully reconcile to the stated group total, so no unsupported reconciliation is made. A separate November 2 interview said three SMT lines are installed, with 8–12 planned for 2027 and 24 targeted by 2028."
+          },
+          "unknowns": {
+            "zh": "客戶名稱、光通訊產品型號、產線實測良率、獨立量產出貨量及光通訊營收占比尚未公布。",
+            "en": "Customer names, optical SKUs, qualified yields, optical shipment units and stand-alone optical revenue remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收",
+            "en": "October revenue"
+          },
+          "current": 1.134,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "毅嘉，由中央社報導",
+            "en": "IChia, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020254.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.21,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 10 月累計營收",
+            "en": "Jan–Oct revenue"
+          },
+          "current": 10.6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "毅嘉，由知新聞報導",
+            "en": "IChia, reported by Knews"
+          },
+          "sourceUrl": "https://www.knews.com.tw/news/DCD5EB745C7610A4251E0887E80823A1",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "居林已建置打件線",
+            "en": "Installed Kulim SMT lines"
+          },
+          "current": 3,
+          "unit": "條",
+          "period": {
+            "zh": "截至 2026 年 11 月 2 日",
+            "en": "As of Nov 2, 2026"
+          },
+          "owner": {
+            "zh": "毅嘉，由知新聞報導",
+            "en": "IChia, reported by Knews"
+          },
+          "sourceUrl": "https://www.knews.com.tw/news/DCD5EB745C7610A4251E0887E80823A1",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "資料中心高速互連產品的量測、精密電源及測試供應商可核對居林廠的產品認證範圍、測試規格與實際出貨節奏。公司公布的營收及打件線數量尚不足以確認光通訊的個別設備採購額。",
+        "en": "A provider of high-speed interconnect test, precision power and measurement instruments would verify Kulim's qualified SKUs, test criteria and delivery cadence. Consolidated sales and SMT counts do not establish optical test-equipment purchases."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-october-2026-manufacturing-pmi-supply-delays",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台灣 10 月製造業 PMI 為 62.5，電子暨光學業 60.0；交期及成本壓力延續",
+        "en": "Taiwan October manufacturing PMI at 62.5, electronics at 60.0 amid delivery pressure"
+      },
+      "summary": {
+        "zh": "中華經濟研究院 11 月 2 日發布台灣 10 月經季調製造業採購經理人指數（PMI）62.5，較 9 月下滑 0.9 點，仍連續 13 個月位於擴張區間。新增訂單指數 63.2，電子暨光學產業 PMI 為 60.0、電力暨機械設備為 64.5；後兩項產業別指標未季調。",
+        "en": "On November 2, CIER reported Taiwan's seasonally adjusted October manufacturing PMI at 62.5, 0.9 points below September but in expansion for a 13th month. New orders registered 63.2; electronics and optical manufacturers reported an unadjusted 60.0, while power and machinery equipment stood at 64.5."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "PMI 是企業採購經理的擴散指標，50 以上代表較上月回報改善的比例較高，並非產量或產值的年增率。電子、光學及電力機械受記憶體、載板供應及設備交期影響，仍需依個別產品量產及交貨資料判讀。",
+            "en": "PMI is a diffusion index comparing conditions with the prior month, not annual output growth. Electronics, optics, power and machinery suppliers report component, substrate and delivery constraints that require product-level shipment evidence."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字及執行進度",
+            "en": "Published figures and execution"
+          },
+          "text": {
+            "zh": "中經院公布季調後新增訂單 63.2、生產 64.7、未完成訂單 53.9；供應商交貨時間與原物料價格指數約在 70 附近。產業別 PMI 全數為未季調，電力暨機械設備 64.5、電子暨光學 60.0，不能直接與季調總指數做相同基礎比較。",
+            "en": "CIER reported seasonally adjusted new orders of 63.2, production of 64.7 and unfilled orders of 53.9, while supplier lead times and input costs remained near 70. Industry indices are unadjusted, so the 64.5 power/machinery and 60.0 electronics/optics readings differ in adjustment basis from the overall index."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "調查未揭露特定記憶體或載板廠的實際短缺量、設備交貨日期、各廠產能利用率與新增訂單金額。",
+            "en": "The survey does not reveal individual memory or substrate shortfalls, tool delivery dates, utilization or booked order values."
+          }
+        }
+      ],
+      "metric": "62.5",
+      "metricLabel": {
+        "zh": "10 月製造業 PMI 指數",
+        "en": "October manufacturing PMI index"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中經院 · 2026 年 10 月 PMI 正式發布",
+            "en": "CIER · official October 2026 PMI release"
+          },
+          "url": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · PMI 產業別及交期說明",
+            "en": "CNA · PMI sectors and delivery pressures"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611020224.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；電力；電子零組件；記憶體；載板；封裝；伺服器；工廠；自動化",
+          "en": "Equipment; electricity; electronics; memory; substrates; packaging; servers; factory automation"
+        },
+        "chain": {
+          "zh": "電子材料、載板與設備至伺服器及工廠生產",
+          "en": "Electronic materials, substrates and tools through servers and factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增核定資本支出。",
+            "en": "No new approved capex reported."
+          },
+          "demand": {
+            "zh": "未公布可直接對應的新增訂單金額。",
+            "en": "No incremental confirmed order value disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現的外國直接投資。",
+            "en": "No realized incremental FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "PMI 是企業採購經理的擴散指標，50 以上代表較上月回報改善的比例較高，並非產量或產值的年增率。電子、光學及電力機械受記憶體、載板供應及設備交期影響，仍需依個別產品量產及交貨資料判讀。",
+            "en": "PMI is a diffusion index comparing conditions with the prior month, not annual output growth. Electronics, optics, power and machinery suppliers report component, substrate and delivery constraints that require product-level shipment evidence."
+          },
+          "timing": {
+            "zh": "中經院公布季調後新增訂單 63.2、生產 64.7、未完成訂單 53.9；供應商交貨時間與原物料價格指數約在 70 附近。產業別 PMI 全數為未季調，電力暨機械設備 64.5、電子暨光學 60.0，不能直接與季調總指數做相同基礎比較。",
+            "en": "CIER reported seasonally adjusted new orders of 63.2, production of 64.7 and unfilled orders of 53.9, while supplier lead times and input costs remained near 70. Industry indices are unadjusted, so the 64.5 power/machinery and 60.0 electronics/optics readings differ in adjustment basis from the overall index."
+          },
+          "unknowns": {
+            "zh": "調查未揭露特定記憶體或載板廠的實際短缺量、設備交貨日期、各廠產能利用率與新增訂單金額。",
+            "en": "The survey does not reveal individual memory or substrate shortfalls, tool delivery dates, utilization or booked order values."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "整體製造業 PMI",
+            "en": "Overall manufacturing PMI"
+          },
+          "current": 62.5,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "中華經濟研究院",
+            "en": "Chung-Hua Institution for Economic Research"
+          },
+          "sourceUrl": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "季調新增訂單指數",
+            "en": "Seasonally adjusted new orders"
+          },
+          "current": 63.2,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "中華經濟研究院",
+            "en": "CIER"
+          },
+          "sourceUrl": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "季調生產指數",
+            "en": "Seasonally adjusted production"
+          },
+          "current": 64.7,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "中華經濟研究院",
+            "en": "CIER"
+          },
+          "sourceUrl": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "電子暨光學業 PMI（未季調）",
+            "en": "Electronics and optics PMI, unadjusted"
+          },
+          "current": 60,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月未季調",
+            "en": "October 2026, unadjusted"
+          },
+          "owner": {
+            "zh": "中華經濟研究院",
+            "en": "CIER"
+          },
+          "sourceUrl": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "電力暨機械設備業 PMI（未季調）",
+            "en": "Power and machinery PMI, unadjusted"
+          },
+          "current": 64.5,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月未季調",
+            "en": "October 2026, unadjusted"
+          },
+          "owner": {
+            "zh": "中華經濟研究院",
+            "en": "CIER"
+          },
+          "sourceUrl": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "未完成訂單指數",
+            "en": "Unfilled orders index"
+          },
+          "current": 53.9,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "中華經濟研究院",
+            "en": "CIER"
+          },
+          "sourceUrl": "https://www.cier.edu.tw/eco_cat/pmi-ch/?nocache=1",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "製程電源、載板及精密量測設備供應商可將 PMI 中的交期、成本與未完成訂單訊號，與客戶實際採購及設備驗收進度分開比對。未季調的產業指標無法單獨證明特定設備的訂單成長。",
+        "en": "Process-power, substrate and metrology suppliers would compare PMI delivery and backlog signals with specific customer bookings and tool acceptance. Unadjusted sector indices cannot identify tool-level order growth."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "macronix-memory-equipment-lead-times-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "旺宏董事長談記憶體設備交期拉長與漲價，2030 年缺貨屬個人預測",
+        "en": "Macronix chairman cites tool lead-time and pricing pressure; 2030 shortage is a forecast"
+      },
+      "summary": {
+        "zh": "旺宏董事長吳敏求 11 月 2 日在台中 IEEE 亞洲固態電路會議期間表示，目前記憶體相關設備交期延長且價格上漲，自己已與設備供應商溝通加速交貨。他認為記憶體可能缺到 2030 年，但此說法為公司高層市場判斷，未提供記憶體供需缺口、設備交貨清單或新增投片實績。",
+        "en": "At IEEE A-SSCC in Taichung on November 2, Macronix chairman Miin Wu cited longer equipment lead times and higher prices and said he had approached tool suppliers to accelerate deliveries. His view that memory shortages could last through 2030 is a forecast without quantified supply gaps or newly commissioned wafer capacity."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "旺宏生產 NOR、NAND 及嵌入式記憶體，擴充設備會涉及晶圓製程、封裝及測試。A-SSCC 為電路設計與半導體研究會議，現場受訪評論不同於已公告的擴產核准或設備驗收。",
+            "en": "Macronix supplies NOR, NAND and embedded memories, with capacity tied to process, assembly and test tools. A-SSCC is a chip-design conference; the chairman's interview is not a new capex approval or tool-acceptance report."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字及執行進度",
+            "en": "Published figures and execution"
+          },
+          "text": {
+            "zh": "11 月 2 日於 IEEE A-SSCC 開幕活動，吳敏求提及設備供貨緊張並表示曾拜會設備商。主辦方確認會期是 11 月 1 日至 4 日，地點為台中林酒店。旺宏先前公布的 2027 年擴產規劃為舊資料，不列為這次新達成的產能。",
+            "en": "At the November 2 A-SSCC opening, Wu discussed equipment delivery constraints and supplier contact. Organizers confirm a November 1–4 conference at The Lin Hotel, Taichung. Previously disclosed 2027 expansion plans remain background rather than newly qualified production."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "具體設備種類、交貨時點、訂金、2027 年新增實際投片片數及延長至 2030 年的全球供需量化模型均未公開。",
+            "en": "Tool types, deliveries, deposits, qualified additional 2027 wafers and a quantified global shortage model through 2030 remain unavailable."
+          }
+        }
+      ],
+      "metric": "設備交期",
+      "metricLabel": {
+        "zh": "董事長指稱交期延長",
+        "en": "Equipment delivery constraint reported by chairman"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 旺宏董事長於 A-SSCC 受訪",
+            "en": "CNA · Macronix chairman at A-SSCC"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611020208.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "IEEE A-SSCC · 主辦單位會期與場地",
+            "en": "IEEE A-SSCC · organizer dates and venue"
+          },
+          "url": "https://a-sscc2026.org/registration",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "台灣台中市西屯區台中林酒店（2026 年 IEEE A-SSCC 活動會場，非旺宏生產廠區）。",
+        "en": "The Lin Hotel, Xitun District, Taichung, Taiwan (2026 IEEE A-SSCC event venue, not a Macronix fab)."
+      },
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "記憶體；NOR；NAND；晶圓；設備；封裝；測試",
+          "en": "Memory; NOR; NAND; wafers; tools; packaging; test"
+        },
+        "chain": {
+          "zh": "晶圓製程設備至 NAND 記憶體及封裝測試",
+          "en": "Wafer process tools to NAND memory and packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增核定資本支出。",
+            "en": "No new approved capex reported."
+          },
+          "demand": {
+            "zh": "未公布可直接對應的新增訂單金額。",
+            "en": "No incremental confirmed order value disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現的外國直接投資。",
+            "en": "No realized incremental FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "旺宏生產 NOR、NAND 及嵌入式記憶體，擴充設備會涉及晶圓製程、封裝及測試。A-SSCC 為電路設計與半導體研究會議，現場受訪評論不同於已公告的擴產核准或設備驗收。",
+            "en": "Macronix supplies NOR, NAND and embedded memories, with capacity tied to process, assembly and test tools. A-SSCC is a chip-design conference; the chairman's interview is not a new capex approval or tool-acceptance report."
+          },
+          "timing": {
+            "zh": "11 月 2 日於 IEEE A-SSCC 開幕活動，吳敏求提及設備供貨緊張並表示曾拜會設備商。主辦方確認會期是 11 月 1 日至 4 日，地點為台中林酒店。旺宏先前公布的 2027 年擴產規劃為舊資料，不列為這次新達成的產能。",
+            "en": "At the November 2 A-SSCC opening, Wu discussed equipment delivery constraints and supplier contact. Organizers confirm a November 1–4 conference at The Lin Hotel, Taichung. Previously disclosed 2027 expansion plans remain background rather than newly qualified production."
+          },
+          "unknowns": {
+            "zh": "具體設備種類、交貨時點、訂金、2027 年新增實際投片片數及延長至 2030 年的全球供需量化模型均未公開。",
+            "en": "Tool types, deliveries, deposits, qualified additional 2027 wafers and a quantified global shortage model through 2030 remain unavailable."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "晶圓製程電源、測試及量測設備供應商可詢問目前的機台採購、加價幅度、製程規格和預定驗收期程。2030 年缺貨屬高層對市場的預測，無法直接量化新的設備訂單。",
+        "en": "Wafer process-power, test and measurement suppliers would verify tool purchase orders, price changes, specifications and acceptance dates. A 2030 shortage outlook is management opinion rather than quantified equipment demand."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "horng-yu-power-vietnam-hung-yen-production",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "宏于電機越南興安廠第三季投產，預製型變電站規劃 2027 年試產",
+        "en": "Horng Yu says Hung Yen power plant began production in Q3; prefabricated substations target 2027 pilot"
+      },
+      "summary": {
+        "zh": "宏于電機 11 月 2 日對外說明，越南興安新廠已於 2026 年第三季投產，面積約為台灣廠的 3 倍，滿載後預估新增 40 億至 60 億元營運產能。公司與施耐德電機合作取得在台製造 OKKEN 低壓配電櫃授權，預製型貨櫃變電站規劃 2027 年試產出貨，未來新增產值尚非實績。",
+        "en": "On November 2 Horng Yu said its Hung Yen plant in Vietnam began operations in Q3 2026 and has roughly three times the floor area of its Taiwan facility. Management estimates NT$4B–6B in potential full-utilization output; Taiwanese OKKEN switchgear licensing and prefabricated substation pilot shipments planned for 2027 are separate product milestones."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "高壓與低壓配電櫃、銅排及預製變電站用於資料中心與半導體廠房的機房供電及電力建置。不同製造基地可能負責機構、組裝及配電系統整合，客戶實際裝機需通過現場電氣與安全驗收。",
+            "en": "Switchgear, copper busbars and prefabricated substations supply site electricity for data centers and fabs. Production location and the electrical commissioning of delivered systems are distinct milestones."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字及執行進度",
+            "en": "Published figures and execution"
+          },
+          "text": {
+            "zh": "公司說興安廠第三季開始投產，規劃滿載後 40 億至 60 億元的額外營運產能；該金額代表未來產能規劃口徑，非已認列收入。台灣銅排年產能約 1,700 公噸；與施耐德的 OKKEN 授權已取得，2027 年預製型貨櫃變電站僅為預定試產節點。",
+            "en": "Management reports the Hung Yen plant started production in Q3, while the NT$4B–6B incremental capacity figure applies only at planned full utilization, not recognized sales. Taiwan busbar capacity is about 1,700 tonnes annually; OKKEN licensing was obtained and 2027 containerized-substation pilot shipments remain a goal."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "興安廠實際出貨金額、滿載所需期間、產品電氣驗證結果、2027 年試產客戶及轉正式商用的交貨量未披露。",
+            "en": "The plant's realized shipments, ramp duration, electrical certification results, 2027 pilot customers and commercial order volumes are undisclosed."
+          }
+        }
+      ],
+      "metric": "Q3 投產",
+      "metricLabel": {
+        "zh": "越南興安新廠投產狀態",
+        "en": "Hung Yen production commenced in Q3"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 宏于電機越南廠及電力設備說明",
+            "en": "CNA · Horng Yu Vietnam facility and switchgear briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611020153.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "越南興安省，宏于電機新廠（實際廠址未披露）；非 11 月 2 日發表會地點。",
+        "en": "Horng Yu's new Hung Yen plant, Vietnam (exact site undisclosed; distinct from the Nov 2 briefing venue)."
+      },
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "台灣；越南",
+          "en": "Taiwan; Vietnam"
+        },
+        "industries": {
+          "zh": "電源；供電；配電；設備；資料中心；伺服器；工廠；投資",
+          "en": "Power; switchgear; equipment; data centers; servers; factories; investment"
+        },
+        "chain": {
+          "zh": "電力配電設備與工廠自動化至伺服器資料中心",
+          "en": "Power distribution equipment and factory operations through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "越南新廠已投產，尚未公布本次新增核定投資額。",
+            "en": "The Vietnam facility began production; no new capex approval was quantified in this statement."
+          },
+          "demand": {
+            "zh": "滿載時額外營運產能估 40 億至 60 億元，尚非實際出貨或訂單。",
+            "en": "NT$4B–6B in potential full-utilization output is a plan, not shipped revenue or booked orders."
+          },
+          "fdi": {
+            "zh": "未公布新增已實現的外國直接投資。",
+            "en": "No realized incremental FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高壓與低壓配電櫃、銅排及預製變電站用於資料中心與半導體廠房的機房供電及電力建置。不同製造基地可能負責機構、組裝及配電系統整合，客戶實際裝機需通過現場電氣與安全驗收。",
+            "en": "Switchgear, copper busbars and prefabricated substations supply site electricity for data centers and fabs. Production location and the electrical commissioning of delivered systems are distinct milestones."
+          },
+          "timing": {
+            "zh": "公司說興安廠第三季開始投產，規劃滿載後 40 億至 60 億元的額外營運產能；該金額代表未來產能規劃口徑，非已認列收入。台灣銅排年產能約 1,700 公噸；與施耐德的 OKKEN 授權已取得，2027 年預製型貨櫃變電站僅為預定試產節點。",
+            "en": "Management reports the Hung Yen plant started production in Q3, while the NT$4B–6B incremental capacity figure applies only at planned full utilization, not recognized sales. Taiwan busbar capacity is about 1,700 tonnes annually; OKKEN licensing was obtained and 2027 containerized-substation pilot shipments remain a goal."
+          },
+          "unknowns": {
+            "zh": "興安廠實際出貨金額、滿載所需期間、產品電氣驗證結果、2027 年試產客戶及轉正式商用的交貨量未披露。",
+            "en": "The plant's realized shipments, ramp duration, electrical certification results, 2027 pilot customers and commercial order volumes are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "銅排設計年產能",
+            "en": "Annual copper busbar capacity"
+          },
+          "current": 1700,
+          "unit": "公噸",
+          "period": {
+            "zh": "2026 年 11 月 2 日公司說明",
+            "en": "Company statement Nov 2, 2026"
+          },
+          "owner": {
+            "zh": "宏于電機，由中央社報導",
+            "en": "Horng Yu, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020153.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "越南新廠滿載產值下限",
+            "en": "Vietnam full-utilization capacity, lower bound"
+          },
+          "current": 4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "越南新廠滿載規劃",
+            "en": "Planned full utilization at Vietnam site"
+          },
+          "owner": {
+            "zh": "宏于電機，由中央社報導",
+            "en": "Horng Yu, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020153.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "越南新廠滿載產值上限",
+            "en": "Vietnam full-utilization capacity, upper bound"
+          },
+          "current": 6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "越南新廠滿載規劃",
+            "en": "Planned full utilization at Vietnam site"
+          },
+          "owner": {
+            "zh": "宏于電機，由中央社報導",
+            "en": "Horng Yu, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020153.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "未公布可比較的同口徑絕對基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "資料中心電源轉換、配電與工業量測供應商可查證越南廠已驗收產品的電氣規格、IEC 或 UL 認證和實際供貨節奏。40 億至 60 億元是規劃滿載產值，不足以確認當期可交貨設備量。",
+        "en": "A provider of data-center power conversion, switchgear or industrial metrology would verify qualified electrical ratings, IEC/UL certificates and delivered units from Hung Yen. Full-utilization capacity is a plan, not booked production."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "trendforce-ai-optical-interconnect-2027-forecast",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "TrendForce 估 2027 年 AI 網通互連產值 2,798 億美元，光收發模組估 841 億美元",
+        "en": "TrendForce forecasts US$279.8B AI networking market in 2027, including US$84.1B optical transceivers"
+      },
+      "summary": {
+        "zh": "TrendForce 11 月 2 日發布研究，預估 2027 年全球 AI 網通與互連市場產值 2,798 億美元；交換器 1,050 億美元、可插拔光收發模組 841 億美元、NIC／DPU 574 億美元均為預測。台灣及東南亞的光通訊與機櫃零組件供應鏈可對照產品類別，但全球預測不能直接視為任何一家供應商的已簽約收入。",
+        "en": "On November 2, TrendForce forecast the global AI networking and interconnect market at US$279.8B in 2027. It projected US$105B in switches, US$84.1B in pluggable optical transceivers and US$57.4B in NICs/DPUs; these are market forecasts, not contracted revenue for Taiwanese or Southeast Asian suppliers."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "高速互連涵蓋機櫃內 Scale-up 銅纜與光學連接，以及跨伺服器 Scale-out 網路交換器、網卡和光收發模組；產業供應鏈連結台灣伺服器 ODM、光通訊測試與東南亞電子模組製造。不同網路拓樸對零組件配置有顯著差異。",
+            "en": "Scale-up interconnects cover in-rack copper and optical links, whereas scale-out networks include switches, NICs and transceivers. These product categories connect Taiwanese ODM and optical-test supply chains to Southeast Asian module manufacturing, though bill of materials differs by network topology."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "研究以 2024 年 379 億美元為歷史估計基期，預估 2027 年 2,798 億美元。交換器占約 38%；光收發模組 2027 年收入成長 76% 及 1.6T 規格約占模組營收 56% 皆為研究機構預測；Google TPU 光學連接和 NVIDIA GPU 機櫃銅纜用法不同，不可視為單一統一規格。",
+            "en": "The study uses an estimated US$37.9B 2024 baseline for a US$279.8B 2027 projection. Switches represent nearly 38%; a 76% rise in optical-module revenue and a 56% revenue share for 1.6T products in 2027 are forecasts. Google TPU optical fabrics and NVIDIA GPU rack copper links have distinct architectures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "市場估值模型的設備配置假設、出貨通路、各零組件廠實際 1.6T 出貨、光學測試驗收量與單一公司收入均未揭露。",
+            "en": "Model assumptions, customer bookings, qualified 1.6T volumes and supplier-specific optical testing or recognized sales are undisclosed."
+          }
+        }
+      ],
+      "metric": "US$279.8B",
+      "metricLabel": {
+        "zh": "2027 年 AI 網通互連市場預測",
+        "en": "Projected AI networking and interconnect market, 2027"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "TrendForce · 2027 年 AI 網通互連正式研究",
+            "en": "TrendForce · original AI interconnect forecast"
+          },
+          "url": "https://www.trendforce.com/presscenter/news/20261102-13291.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 互連產品分類報導",
+            "en": "CNA · interconnect product breakdown"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611020204.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "台灣；東南亞供應鏈；全球終端",
+          "en": "Taiwan; Southeast Asian suppliers; global end markets"
+        },
+        "industries": {
+          "zh": "光通訊；零組件；設備；測試；封裝；伺服器；ODM；資料中心；供電",
+          "en": "Optics; components; equipment; test; packaging; servers; ODM; data centers; power"
+        },
+        "chain": {
+          "zh": "光通訊零組件及封裝測試至伺服器 ODM 與資料中心",
+          "en": "Optical components and packaging/test through server ODMs to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告本次新增核定廠房或設備投資。",
+            "en": "No new plant or equipment investment approved in this release."
+          },
+          "demand": {
+            "zh": "2027 年各產品市場規模屬 TrendForce 預估，尚非已實現採購。",
+            "en": "2027 product market values are TrendForce forecasts, not realized procurement."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資。",
+            "en": "No new realized foreign direct investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高速互連涵蓋機櫃內 Scale-up 銅纜與光學連接，以及跨伺服器 Scale-out 網路交換器、網卡和光收發模組；產業供應鏈連結台灣伺服器 ODM、光通訊測試與東南亞電子模組製造。不同網路拓樸對零組件配置有顯著差異。",
+            "en": "Scale-up interconnects cover in-rack copper and optical links, whereas scale-out networks include switches, NICs and transceivers. These product categories connect Taiwanese ODM and optical-test supply chains to Southeast Asian module manufacturing, though bill of materials differs by network topology."
+          },
+          "timing": {
+            "zh": "研究以 2024 年 379 億美元為歷史估計基期，預估 2027 年 2,798 億美元。交換器占約 38%；光收發模組 2027 年收入成長 76% 及 1.6T 規格約占模組營收 56% 皆為研究機構預測；Google TPU 光學連接和 NVIDIA GPU 機櫃銅纜用法不同，不可視為單一統一規格。",
+            "en": "The study uses an estimated US$37.9B 2024 baseline for a US$279.8B 2027 projection. Switches represent nearly 38%; a 76% rise in optical-module revenue and a 56% revenue share for 1.6T products in 2027 are forecasts. Google TPU optical fabrics and NVIDIA GPU rack copper links have distinct architectures."
+          },
+          "unknowns": {
+            "zh": "市場估值模型的設備配置假設、出貨通路、各零組件廠實際 1.6T 出貨、光學測試驗收量與單一公司收入均未揭露。",
+            "en": "Model assumptions, customer bookings, qualified 1.6T volumes and supplier-specific optical testing or recognized sales are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2027 年 AI 網通與互連總額",
+            "en": "2027 AI networking and interconnect total"
+          },
+          "current": 279.8,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 年市場預測",
+            "en": "2027 market forecast"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com/presscenter/news/20261102-13291.html",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年交換器產值",
+            "en": "2027 switch market revenue"
+          },
+          "current": 105,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 年市場預測",
+            "en": "2027 market forecast"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com/presscenter/news/20261102-13291.html",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年可插拔光收發模組",
+            "en": "2027 pluggable transceiver revenue"
+          },
+          "current": 84.1,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 年市場預測",
+            "en": "2027 market forecast"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com/presscenter/news/20261102-13291.html",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年 NIC／DPU 產值",
+            "en": "2027 NIC/DPU revenue"
+          },
+          "current": 57.4,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 年市場預測",
+            "en": "2027 market forecast"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com/presscenter/news/20261102-13291.html",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "2027 年 1.6T 模組營收占比",
+            "en": "2027 1.6T share of optical module revenue"
+          },
+          "current": 0.56,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年市場預測",
+            "en": "2027 market forecast"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com/presscenter/news/20261102-13291.html",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "光通訊量測、精密電源與機櫃測試設備供應商可比對 800G、1.6T 光模組及 CPO 的驗收規格與不同 AI 網路拓樸。研究中的市場金額屬預測，尚無足夠證據換算為單一設備廠的實際訂單。",
+        "en": "Optical metrology, precision power and rack-test suppliers would verify 800G/1.6T module and CPO qualification by architecture. Forecast global spending cannot be translated into an individual equipment vendor's booked orders."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "malaysia-october-2026-manufacturing-pmi",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "馬來西亞 10 月製造業 PMI 回升至 51.0，新訂單與產出恢復擴張",
+        "en": "Malaysia October manufacturing PMI returns to 51.0 as orders and output expand"
+      },
+      "summary": {
+        "zh": "馬來西亞 11 月 2 日公布的 S&P Global 製造業調查指出，10 月 PMI 由 9 月 49.9 升至 51.0，重回 50 以上的擴張區間，新訂單及產出同步回升。受訪廠商提到 AI 相關產品需求支撐部分新增訂單，但這是全體製造業調查，沒有提供半導體或資料中心設備的分項出貨金額。",
+        "en": "S&P Global's Malaysia survey released November 2 put October manufacturing PMI at 51.0, up from 49.9 in September, as new orders and output returned to growth. Respondents cited some AI-product demand; the economy-wide survey provides no chip-specific or data-center equipment shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "馬來西亞製造業涵蓋電子元件、半導體封測、工業機械及其他終端工廠。PMI 表示企業相較前月的營運變化，不能直接換算為馬來西亞半導體封裝產能或各廠出口量。",
+            "en": "Malaysia's manufacturers include electronics, chip assembly/testing, industrial machinery and other factories. A diffusion-index improvement does not quantify packaging capacity or factory export volumes."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "調查稱新訂單擴張速度為約四年半最快之一，產出為三個月來首次成長；企業增加採購與人力，但仍以庫存應付部分出貨需求，且運輸與原材料成本上升。受訪廠商信心下滑至六個月低點，不能只看 51.0 就推定全產業產能充足。",
+            "en": "The survey reported one of the strongest new-order expansions in roughly four and a half years and the first output increase in three months. Firms raised purchasing and employment while drawing down finished goods stocks; input and transport costs increased, and sentiment fell to a six-month low."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未提供半導體、電子模組、工廠設備各子產業的客戶訂單、廠區產出及已投資設備驗收金額。",
+            "en": "No separate chip, module or equipment bookings, plant output or accepted tooling totals were provided."
+          }
+        }
+      ],
+      "metric": "51.0",
+      "metricLabel": {
+        "zh": "10 月馬來西亞製造業 PMI",
+        "en": "October Malaysia manufacturing PMI"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "馬新社 · S&P Global 10 月製造業調查",
+            "en": "Bernama · S&P Global October manufacturing survey"
+          },
+          "url": "https://web26.bernama.com/en/region/news.php?id=2628895",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "The Edge Malaysia · 訂單及產出調查報導",
+            "en": "The Edge Malaysia · survey order and output details"
+          },
+          "url": "https://theedgemalaysia.com/node/824108",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "電子零組件；封測；測試；設備；工廠；自動化；終端",
+          "en": "Electronic components; assembly/test; equipment; factories; automation; end use"
+        },
+        "chain": {
+          "zh": "電子材料及零組件至封裝測試、工廠終端",
+          "en": "Electronics components through packaging/test and end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告本次新增核定廠房或設備投資。",
+            "en": "No new plant or equipment investment approved in this release."
+          },
+          "demand": {
+            "zh": "未公布單一企業可核對新增客戶訂單。",
+            "en": "No verified additional customer order totals disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資。",
+            "en": "No new realized foreign direct investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "馬來西亞製造業涵蓋電子元件、半導體封測、工業機械及其他終端工廠。PMI 表示企業相較前月的營運變化，不能直接換算為馬來西亞半導體封裝產能或各廠出口量。",
+            "en": "Malaysia's manufacturers include electronics, chip assembly/testing, industrial machinery and other factories. A diffusion-index improvement does not quantify packaging capacity or factory export volumes."
+          },
+          "timing": {
+            "zh": "調查稱新訂單擴張速度為約四年半最快之一，產出為三個月來首次成長；企業增加採購與人力，但仍以庫存應付部分出貨需求，且運輸與原材料成本上升。受訪廠商信心下滑至六個月低點，不能只看 51.0 就推定全產業產能充足。",
+            "en": "The survey reported one of the strongest new-order expansions in roughly four and a half years and the first output increase in three months. Firms raised purchasing and employment while drawing down finished goods stocks; input and transport costs increased, and sentiment fell to a six-month low."
+          },
+          "unknowns": {
+            "zh": "未提供半導體、電子模組、工廠設備各子產業的客戶訂單、廠區產出及已投資設備驗收金額。",
+            "en": "No separate chip, module or equipment bookings, plant output or accepted tooling totals were provided."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "馬來西亞 10 月 PMI",
+            "en": "Malaysia October manufacturing PMI"
+          },
+          "current": 51,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "S&P Global，由馬新社報導",
+            "en": "S&P Global, reported by Bernama"
+          },
+          "sourceUrl": "https://web26.bernama.com/en/region/news.php?id=2628895",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": 49.9,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "來源明列的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "供應工業電源與半導體測試設備的企業可確認馬來西亞客戶實際新增出貨、廠務供電與採購延遲是否符合 PMI 訊號。整體指數無法證明特定封測廠已完成新產線驗收。",
+        "en": "Industrial power and semiconductor test suppliers would compare the PMI with actual customer deliveries, site utilities and supplier lead times. The index does not establish qualified new packaging/test lines."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "vietnam-october-2026-manufacturing-pmi",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "越南 10 月製造業 PMI 升至 52.3，但新出口訂單仍下滑",
+        "en": "Vietnam October manufacturing PMI climbs to 52.3 while new export orders decline"
+      },
+      "summary": {
+        "zh": "越南 11 月 2 日公布的 S&P Global 製造業調查顯示，10 月 PMI 從 9 月 51.9 升至 52.3，連續 16 個月高於 50。整體新訂單仍增加但增速放緩，新出口訂單下降，原料取得困難及運輸成本提高也影響工廠交期，尚不能用 PMI 推算電子組裝出口額。",
+        "en": "S&P Global's Vietnam manufacturing survey released November 2 showed October PMI at 52.3, up from 51.9 in September and above 50 for a 16th month. Overall new orders rose more slowly while new export orders fell, with raw-material constraints and transport costs affecting delivery times; the index does not quantify electronics export revenue."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "越南為電子零組件、PC、伺服器系統和工業終端的組裝基地。製造業調查涵蓋多種貨品，當新出口訂單減少時，需保留產業結構差異，不能直接視為所有台資電子廠訂單同步衰退。",
+            "en": "Vietnam assembles electronics, PCs, server systems and industrial products. Economy-wide PMI export-order weakness cannot be attributed uniformly to Taiwan-linked electronics factories."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "越南之聲援引 S&P Global 統計，10 月指數 52.3，9 月為 51.9，16 個月連續高於 50。產出成長已放慢，新出口訂單仍下滑，供應商交期受燃料成本和不利天氣影響；投入價格通膨速度為 6 月以來最快。",
+            "en": "Voice of Vietnam cited an October index of 52.3 versus 51.9 in September, marking 16 months above 50. Output growth slowed and new export orders declined. Supplier lead times lengthened due to fuel costs and adverse weather, with input-cost inflation the fastest since June."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚無可與調查對照的個別電子組裝廠月出貨、工業設備驗收、伺服器專項出口與材料缺口數量。",
+            "en": "Plant-level electronics shipments, accepted equipment, server export breakdowns and material shortage volumes were not provided."
+          }
+        }
+      ],
+      "metric": "52.3",
+      "metricLabel": {
+        "zh": "10 月越南製造業 PMI",
+        "en": "October Vietnam manufacturing PMI"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "越南之聲 · S&P Global 10 月製造業調查",
+            "en": "Voice of Vietnam · S&P Global October manufacturing PMI"
+          },
+          "url": "https://english.vov.vn/en/economy/vietnams-manufacturing-pmi-stays-above-50-for-16th-straight-month-post1346667.vov",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "越南",
+          "en": "Vietnam"
+        },
+        "industries": {
+          "zh": "電子零組件；PC；電腦；伺服器；ODM；工廠；自動化",
+          "en": "Electronics; PCs; computers; servers; ODM; factories; automation"
+        },
+        "chain": {
+          "zh": "電子零組件至 PC 與伺服器整機組裝、工廠終端",
+          "en": "Electronic components through PC and server assembly to end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告本次新增核定廠房或設備投資。",
+            "en": "No new plant or equipment investment approved in this release."
+          },
+          "demand": {
+            "zh": "未公布單一企業可核對新增客戶訂單。",
+            "en": "No verified additional customer order totals disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資。",
+            "en": "No new realized foreign direct investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "越南為電子零組件、PC、伺服器系統和工業終端的組裝基地。製造業調查涵蓋多種貨品，當新出口訂單減少時，需保留產業結構差異，不能直接視為所有台資電子廠訂單同步衰退。",
+            "en": "Vietnam assembles electronics, PCs, server systems and industrial products. Economy-wide PMI export-order weakness cannot be attributed uniformly to Taiwan-linked electronics factories."
+          },
+          "timing": {
+            "zh": "越南之聲援引 S&P Global 統計，10 月指數 52.3，9 月為 51.9，16 個月連續高於 50。產出成長已放慢，新出口訂單仍下滑，供應商交期受燃料成本和不利天氣影響；投入價格通膨速度為 6 月以來最快。",
+            "en": "Voice of Vietnam cited an October index of 52.3 versus 51.9 in September, marking 16 months above 50. Output growth slowed and new export orders declined. Supplier lead times lengthened due to fuel costs and adverse weather, with input-cost inflation the fastest since June."
+          },
+          "unknowns": {
+            "zh": "尚無可與調查對照的個別電子組裝廠月出貨、工業設備驗收、伺服器專項出口與材料缺口數量。",
+            "en": "Plant-level electronics shipments, accepted equipment, server export breakdowns and material shortage volumes were not provided."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "越南 10 月 PMI",
+            "en": "Vietnam October manufacturing PMI"
+          },
+          "current": 52.3,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "S&P Global，由越南之聲報導",
+            "en": "S&P Global, reported by Voice of Vietnam"
+          },
+          "sourceUrl": "https://english.vov.vn/en/economy/vietnams-manufacturing-pmi-stays-above-50-for-16th-straight-month-post1346667.vov",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": 51.9,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "來源明列的同口徑基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "工業電源、電子量測及工廠控制設備業者可核對越南電子製造客戶的原料到貨與產線驗收時間。整體製造業出口新訂單下降，不能直接換算伺服器或測試設備需求。",
+        "en": "Industrial power, electronic measurement and factory-control suppliers would verify customer material receipts and line acceptance in Vietnam. An economy-wide fall in export orders does not quantify server or test-equipment demand."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "elan-microelectronics-q3-2026-pc-touch-results",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "義隆電第三季營收 22.2 億元、季減 30.7%，觸控晶片需求受整機供應不均影響",
+        "en": "Elan Q3 revenue falls 30.7% sequentially to NT$2.22B amid PC component imbalance"
+      },
+      "summary": {
+        "zh": "義隆電 11 月 2 日公布第三季自結營收 22.2 億元，較第二季減少 30.7%；營業利益約 2.96 億元，季減 57.5%，稅前淨利約 1.96 億元。公司表示 PC 組裝供應鏈的零件長短料導致部分整機出貨下降，相關原因為管理階層解釋，尚未提出個別晶片型號訂單數。",
+        "en": "On November 2 Elan Microelectronics reported Q3 revenue of NT$2.22B, down 30.7% QoQ, operating profit around NT$296M, down 57.5%, and pretax profit around NT$196M. Management cited mismatched PC component supply and lower system shipments; no chip-level customer order data was released."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "義隆電觸控晶片用於筆電、觸控板及 PC 系統，半導體設計與整機 ODM 出貨時程相關。記憶體等上游零組件的供貨錯置由公司解釋，不能單憑單一公司的營收表現推定所有 PC 需求下滑。",
+            "en": "Elan's touch controllers are used in notebooks, touchpads and PCs and follow ODM system delivery schedules. Management attributed a portion of weakness to uneven component supplies, which does not establish a uniform downturn in all PC orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與進度",
+            "en": "Published data and status"
+          },
+          "text": {
+            "zh": "第三季營收季減 30.7%，營業利益季減 57.5%；稅前淨利 1.96 億元，季減逾 80%，但公司未提供可直接比較的完整絕對基期。公司的商務筆電與 AI PC 需求展望仍屬預期，與第三季實績應分開。",
+            "en": "Revenue declined 30.7% QoQ and operating profit 57.5%. Pretax profit was NT$196M, down more than 80%, without an exact comparable absolute base in the article. Management's commercial notebook and AI-PC outlook is forward-looking."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未公布可核對的筆電 ODM 出貨量、觸控晶片各型號營收及缺料產品明細，亦未量化由供應不均造成的損失比例。",
+            "en": "PC ODM shipment volumes, touch-controller revenue by SKU, specific shortage components and quantified impacts from mismatches were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$2.22B",
+      "metricLabel": {
+        "zh": "第三季營收",
+        "en": "Q3 revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 義隆電第三季自結財務",
+            "en": "CNA · Elan Q3 self-reported results"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611020028.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-02",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；電子零組件；PC；電腦；ODM；工廠",
+          "en": "Chip design; components; PCs; ODM; factories"
+        },
+        "chain": {
+          "zh": "觸控晶片設計及零組件至 PC ODM 整機",
+          "en": "Touch chip design and components through PC ODM systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告本次新增核定廠房或設備投資。",
+            "en": "No new plant or equipment investment approved in this release."
+          },
+          "demand": {
+            "zh": "未公布單一企業可核對新增客戶訂單。",
+            "en": "No verified additional customer order totals disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資。",
+            "en": "No new realized foreign direct investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "義隆電觸控晶片用於筆電、觸控板及 PC 系統，半導體設計與整機 ODM 出貨時程相關。記憶體等上游零組件的供貨錯置由公司解釋，不能單憑單一公司的營收表現推定所有 PC 需求下滑。",
+            "en": "Elan's touch controllers are used in notebooks, touchpads and PCs and follow ODM system delivery schedules. Management attributed a portion of weakness to uneven component supplies, which does not establish a uniform downturn in all PC orders."
+          },
+          "timing": {
+            "zh": "第三季營收季減 30.7%，營業利益季減 57.5%；稅前淨利 1.96 億元，季減逾 80%，但公司未提供可直接比較的完整絕對基期。公司的商務筆電與 AI PC 需求展望仍屬預期，與第三季實績應分開。",
+            "en": "Revenue declined 30.7% QoQ and operating profit 57.5%. Pretax profit was NT$196M, down more than 80%, without an exact comparable absolute base in the article. Management's commercial notebook and AI-PC outlook is forward-looking."
+          },
+          "unknowns": {
+            "zh": "未公布可核對的筆電 ODM 出貨量、觸控晶片各型號營收及缺料產品明細，亦未量化由供應不均造成的損失比例。",
+            "en": "PC ODM shipment volumes, touch-controller revenue by SKU, specific shortage components and quantified impacts from mismatches were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 2.22,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "義隆電，由中央社報導",
+            "en": "Elan Microelectronics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020028.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.307,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益",
+            "en": "Q3 operating profit"
+          },
+          "current": 0.296,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "義隆電，由中央社報導",
+            "en": "Elan, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020028.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.575,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅前淨利",
+            "en": "Q3 pretax profit"
+          },
+          "current": 0.196,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "義隆電，由中央社報導",
+            "en": "Elan, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611020028.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可比較的絕對基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "精密電源與電子測試設備企業可核對 PC 觸控控制器需求對應的 ODM 裝機與實際交貨，並區分供應不均與終端客戶下單減少。單季財報和管理層敘述尚不能確認特定測試設備採購或減單。",
+        "en": "Precision power and electronic-test suppliers would distinguish ODM system shipments from component shortages and customer order changes. Quarterly results and management attribution do not establish specific test-tool purchasing."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "毅嘉居林新廠的光通訊認證是否等於全部產線已達規劃產能？",
+        "en": "Does IChia's Kulim optical qualification mean all planned lines are operating?"
+      },
+      "text": {
+        "zh": "公司證實特定光通訊產品通過客戶測試並貢獻營收，目前已建置 3 條打件線；2027 年擴至 8 至 12 條、2028 年 24 條仍為規劃。",
+        "en": "The company reports qualified optical products contributing sales and three existing SMT lines; the 8–12 lines for 2027 and 24 for 2028 remain plans."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "台灣 PMI 62.5 及馬來西亞 51.0 代表產值年增 62.5% 與 51% 嗎？",
+        "en": "Do Taiwan's PMI 62.5 and Malaysia's 51.0 mean those percentages of annual production growth?"
+      },
+      "text": {
+        "zh": "兩者皆為擴散指標，衡量企業相較前月的營運變動。指數高於 50 表示改善回報較多，不提供產量、出口或營收的年增百分比；台灣產業別未季調指標也不能直接視為季調總指數。",
+        "en": "Both are diffusion indices comparing business conditions month to month. Values above 50 do not denote annual production growth, and Taiwan's unadjusted industry readings differ in adjustment basis from its headline series."
+      }
+    },
+    {
+      "id": 5,
+      "question": {
+        "zh": "TrendForce 的 2,798 億美元能否直接對應台灣光通訊設備出貨？",
+        "en": "Can TrendForce's US$279.8B projection be treated as Taiwanese optical equipment shipments?"
+      },
+      "text": {
+        "zh": "該數字包含交換器、網卡、DPU、光收發模組與其他互連市場，是 2027 年全球預估值。各平台拓樸、產品單價及實際驗收配置不同，尚無單一供應商可核對出貨總量。",
+        "en": "The 2027 global projection covers switches, NICs, DPUs, optics and other interconnects. Product mixes, prices and architectures differ, and supplier-level shipment data is not established."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "月度調查與實績的口徑",
+        "en": "Survey indices versus realized operations"
+      },
+      "text": {
+        "zh": "台灣、中華經濟研究院與馬來西亞、越南的 PMI 均於 11 月 2 日發布 10 月調查結果，屬擴散指標。毅嘉的 10 月營收及客戶認證、宏于的越南新廠投產則為公司對已發生營運進度的說明。",
+        "en": "Taiwan, Malaysia and Vietnam released October PMI surveys on November 2. Those diffusion readings differ from IChia's reported sales and customer qualification or Horng Yu's stated factory operating milestone."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考資訊",
+      "en": "Reference information"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "僅據前期公告重述的擴產交易",
+        "en": "Earlier capex transactions without new execution milestones"
+      },
+      "text": {
+        "zh": "先前已公布的記憶體廠房收購、封測資本支出與 10 月 29 日財報，若 11 月 2 日沒有新的交貨或驗收事實，不再列作新新聞。",
+        "en": "Previously disclosed fab acquisitions, packaging capex and October 29 results were excluded without new November 2 delivery or qualification facts."
+      }
+    },
+    {
+      "title": {
+        "zh": "市場價格走勢與未能確認產線的評論",
+        "en": "Market-price commentary without plant-level evidence"
+      },
+      "text": {
+        "zh": "單純股價變動、分析師評價及缺少來源的 AI 題材報導不納入。",
+        "en": "Stock-price moves, analyst valuations and unsourced AI commentary were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "毅嘉居林光通訊已通過客戶認證，但個別出貨量未公開，且分項營收與合併數字不能直接加總。宏于越南廠未揭露實際滿載出貨；旺宏董事長對 2030 年記憶體供需的看法屬預測。TrendForce 2027 年網通市場為研究預測；台灣與東南亞 PMI 為調查擴散指標，並非實際產量。",
+    "en": "IChia reported optical qualification but did not disclose individual volumes, and its reported segments do not fully reconcile to consolidated sales. Horng Yu's full-capacity output is not realized; Macronix's 2030 outlook is a forecast. TrendForce's 2027 estimates are projections, while PMI readings are diffusion survey indices rather than production totals."
+  }
+}
