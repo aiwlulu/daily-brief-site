@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-01",
-  "generatedAt": "2026-11-04T12:55:00.000Z",
+  "generatedAt": "2026-11-04T14:23:14.000Z",
   "throughline": {
-    "zh": "本週台灣與東南亞陸續公布資料中心工程與供電規劃、半導體測試設施試運轉及光通訊研發合作，已完工設施與未來目標均分別標示。",
-    "en": "This week's Taiwan and Southeast Asian releases cover operating data centers, power plans, chip-testing trials and photonics research, with completed capacity distinguished from future targets."
+    "zh": "台灣工業電腦與封裝設備商公布訂單、軟體整合及產品規劃，東南亞製造鏈同時揭露試產、機房工程及新增資金，數據分屬不同實現階段。",
+    "en": "Taiwanese industrial-computing and packaging firms reported orders and integration plans, while Southeast Asian manufacturing releases covered trials, built data centers and fresh funding at different stages."
   },
   "highlights": [
     {
       "id": 1,
       "category": "global",
       "title": {
-        "zh": "馬來西亞資料中心投資、印尼機房與電力供應",
-        "en": "Malaysia data-center investment, Indonesian facilities and power"
+        "zh": "資料中心、供電與通訊韌性",
+        "en": "Data centers, power and telecom resilience"
       },
       "summary": {
-        "zh": "Google 11 月 4 日公布馬來西亞 2027 至 2028 年投資 150 億美元的計畫；LG CNS 與 NTT DATA 分別揭露雅加達 30MW 已完工設施及 12MW IT 容量新機房。台電另說明未來十年天然氣新機組規劃，鴻海亞灣超算與越南宏于電機則公布既有供電、液冷與配電設施進度。",
-        "en": "Google announced planned US$15B Malaysian investment for 2027–28, while LG CNS and NTT DATA detailed a completed 30MW Jakarta facility and a new site with 12MW of IT capacity. Taipower outlined future gas capacity, and Foxconn Visionbay and Horng Yu discussed cooling and electrical infrastructure."
+        "zh": "Google 公布馬來西亞機房與能源投資計畫，雅加達 LG CNS 與 NTT DATA 分別公布已完工設施；台電另提出十年電力擴充構想。鴻海亞灣超算及嘉義嘉太變電所案例分別揭露液冷部署與電力、網路備援資訊，時間與容量定義各不相同。",
+        "en": "Google described Malaysian data-center spending while LG CNS and NTT DATA detailed separate completed Jakarta facilities; Taipower outlined planned future generation. Foxconn Visionbay and Taiwan's Jiatai substation inspection provided distinct cooling and telecom-backup examples, with different dates and capacity measures."
       },
       "references": [
         {
@@ -41,6 +41,10 @@
         {
           "date": "2026-11-04",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 10
         }
       ]
     },
@@ -48,12 +52,12 @@
       "id": 2,
       "category": "tech",
       "title": {
-        "zh": "光子封裝、高速光通訊與 AI 晶片",
-        "en": "Photonic packaging, optical links and AI chip design"
+        "zh": "光子封裝、晶圓協作與高速材料",
+        "en": "Photonics, wafer-fab coordination and high-speed materials"
       },
       "summary": {
-        "zh": "毅嘉公布馬來西亞光通訊產品通過客戶認證，台荷 11 月 4 日公布 4 項共同光子研發合作，涉及先進封裝與 3.2T 光收發模組。TrendForce 公布 2027 年互連市場預測，聯發科另提出 AI ASIC 市占預測，均須與已實現出貨區分。",
-        "en": "IChia reported qualified Malaysian optical products, while Taiwan and the Netherlands detailed four photonics R&D projects covering packaging and 3.2T optics. TrendForce's interconnect estimates and MediaTek's AI ASIC outlook remain forecasts rather than realized shipments."
+        "zh": "毅嘉公布馬來西亞光通訊產品通過驗證，台荷發布光子封裝研發合作，志聖則決議換股增持設備控制軟體公司。聯發科宣布先進製程與封測協作人事，台郡提出 PTFE 於 2028 年放量的目標，兩者目前尚未公布新量產驗收數據。",
+        "en": "IChia reported qualified Malaysian optical products, Taiwan and the Netherlands detailed photonics research, and C Sun approved a proposed equipment-software share swap. MediaTek announced an advanced-process leadership appointment, while Taiflex targeted a 2028 PTFE ramp without new production-acceptance data."
       },
       "references": [
         {
@@ -71,6 +75,18 @@
         {
           "date": "2026-11-04",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 8
         }
       ]
     },
@@ -78,12 +94,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "越南晶片測試試產、半導體貿易與設備投資",
-        "en": "Vietnam chip-testing trials, chip trade and equipment investment"
+        "zh": "東南亞封測、網通試產與製造擴建",
+        "en": "Southeast Asian chip testing, networking trials and plant expansion"
       },
       "summary": {
-        "zh": "FPT 11 月 3 日公布北寧封測廠開始試運轉，最大設計年產能為 3 億顆，實際出貨與良率尚未揭露。南韓對東協半導體出口統計及台灣第三季半導體設備進口增長，提供不同日期的區域供應鏈背景。",
-        "en": "FPT began trial operations at its Bac Ninh test and packaging facility with nameplate capacity of 300 million chips per year; shipments and yields are undisclosed. Korea's ASEAN semiconductor exports and Taiwan's Q3 equipment imports provide separately dated regional context."
+        "zh": "FPT 公布越南封測廠進入試運轉，合勤控亦說明越南網通生產基地試產、新代更新馬來西亞等地工廠擴建目標。南韓對東協半導體出口統計及台灣半導體設備進口數據提供貿易背景；設計產能和規劃倍率均尚待實際驗證。",
+        "en": "FPT described a Vietnamese chip-testing trial, Zyxel confirmed Vietnamese networking trial production, and Syntec updated Malaysia-related plant plans. South Korea's ASEAN semiconductor exports and Taiwan's equipment imports provide dated trade context; design ratings and capacity multipliers remain unverified output."
       },
       "references": [
         {
@@ -97,6 +113,14 @@
         {
           "date": "2026-11-04",
           "storyId": 2
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 7
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 9
         }
       ]
     },
@@ -104,12 +128,12 @@
       "id": 4,
       "category": "taiwan",
       "title": {
-        "zh": "電子製造景氣、記憶體缺料與電源供應商財報",
-        "en": "Electronics manufacturing, memory constraints and power-supply earnings"
+        "zh": "工業電腦接單、ODM 出貨與零組件缺料",
+        "en": "Industrial-computing orders, ODM shipments and component shortages"
       },
       "summary": {
-        "zh": "11 月初的台灣、馬來西亞及越南製造業 PMI 調查呈現不同的新訂單與交期情況。群光電能 11 月 4 日公布第三季營收 74.14 億元，指出筆電記憶體與伺服器測試設備短缺影響部分產品供應。",
-        "en": "Early-November manufacturing PMI releases described differing order flows and supplier delivery times across Taiwan, Malaysia and Vietnam. Chicony Power reported Q3 revenue of NT$7.414B and linked shipment delays to notebook memory and server test-equipment shortages."
+        "zh": "研華 11 月 4 日公布在手訂單及工廠擴建進度，英業達公布 10 月營收與伺服器缺料情況；群電揭露電源業務亦受記憶體及測試設備供應影響。台灣、馬來西亞與越南製造業調查分別呈現交期、新訂單與投入成本變化。",
+        "en": "Advantech reported backlog and factory plans, Inventec released October revenue and described supply shortages, and Chicony Power reported memory and test-equipment constraints. Manufacturing surveys in Taiwan, Malaysia and Vietnam separately traced lead times, orders and input costs."
       },
       "references": [
         {
@@ -139,6 +163,14 @@
         {
           "date": "2026-11-04",
           "storyId": 6
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 3
         }
       ]
     },
@@ -146,12 +178,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "台灣核能設備合資、研發投入與跨境供應鏈",
-        "en": "Taiwan energy-equipment venture, R&D and cross-border supply chains"
+        "zh": "台灣能源設備及東南亞材料與連接器投資",
+        "en": "Taiwan energy equipment and Southeast Asian materials/connector investment"
       },
       "summary": {
-        "zh": "華新麗華等 4 家企業 11 月 3 日簽約成立核能設備供應鏈合資公司，尚未公開資本額與訂單。台灣此前公布研發支出統計及日商會對半導體材料與設備供應鏈的看法，資料各有原始發布日期。",
-        "en": "Four Taiwan companies signed a November 3 nuclear-equipment venture agreement without disclosing capital or orders. Previously reported R&D spending and Japanese industry observations on semiconductor materials and equipment provide dated context."
+        "zh": "華新麗華等企業公布能源設備合資協議，金居與湧德 11 月 4 日分別公告對馬來西亞銅箔子公司及越南連接器子公司的增資決議。台灣研發支出與日商會對半導體材料供應的觀察屬先前已發布背景，公告的股權與資金額尚不代表設備交付。",
+        "en": "Walsin and partners reported an energy-equipment venture, while COTECH and UDE separately disclosed Malaysian copper-foil and Vietnamese connector funding. Taiwan R&D statistics and Japan business commentary are earlier context; announced funding does not establish delivered equipment."
       },
       "references": [
         {
@@ -165,6 +197,14 @@
         {
           "date": "2026-11-04",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-05",
+          "storyId": 5
         }
       ]
     }

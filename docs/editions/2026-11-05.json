@@ -1,0 +1,1888 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-04T14:23:14.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "截至 11 月 4 日晚間的台灣及東南亞半導體、工業自動化、伺服器與電力供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductors, automation, servers and power through the evening of Nov 4"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣設備與工業電腦廠公布控制軟體整合及新訂單，馬來西亞銅箔與越南網路連接器子公司同日公告增資，反映不同階段的設備、訂單與資金資訊。",
+    "en": "Taiwanese industrial-computing and equipment firms reported backlog and control-software integration, while copper-foil and connector makers disclosed Malaysian and Vietnamese funding, separating orders, transactions and capital plans."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "研華 11 月 4 日法說稱在手訂單約 25 億美元，並更新台灣等地工廠擴建計畫。",
+        "en": "Advantech reported about US$2.5B in backlog and updated its factory plans."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "志聖決議換股增持視動，交易完成後預定持股 75.06%，仍待交割。",
+        "en": "C Sun approved a swap to raise its VMotion stake to 75.06% after closing."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "英業達 10 月營收約 799.66 億元，年增約 46%，伺服器與筆電仍受缺料影響。",
+        "en": "Inventec reported NT$79.966B in October sales, up 46%, while citing shortages."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "金居公告增資馬來西亞子公司 500 萬美元；董事會早於 10 月 16 日通過。",
+        "en": "COTECH disclosed US$5M for Penang; its board had approved the plan October 16."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "湧德決議對越南子公司增資 1,000 萬美元，新增設備與產能尚未公布。",
+        "en": "UDE approved US$10M for Vietnam without disclosing new tools or capacity."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "advantech-nov4-orders-industrial-computing",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "研華 11 月 4 日法說稱在手訂單接近 25 億美元，公布工業電腦產能布局",
+        "en": "Advantech reports nearly US$2.5B order backlog at November 4 briefing"
+      },
+      "summary": {
+        "zh": "研華 11 月 4 日舉行線上法說，據中央社與 TVBS 報導，公司稱累計至 2027 年的在手訂單接近 25 億美元，第三季接單出貨比為 1.64。公司另提出台灣華亞園區、日本北九州及中國昆山廠擴建規劃，相關未來投產日期與成長率均屬預期。",
+        "en": "Advantech held an online investor briefing on November 4. CNA and TVBS reported a near-US$2.5 billion order backlog extending into 2027 and a third-quarter book-to-bill ratio of 1.64. The company also outlined planned expansion in Taiwan, Kitakyushu and Kunshan, with commissioning dates and growth outlooks still projections."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "研華供應工業電腦、嵌入式運算與工廠自動化設備，應用涵蓋半導體設備、醫療與邊緣 AI。公司指出，台灣與昆山產線利用率均超過 100% 的數值係公司口徑，未附逐廠產能定義。",
+            "en": "Advantech provides industrial PCs, embedded computing and automation systems used in semiconductor equipment, healthcare and edge AI. The company reportedly said utilization at its Taiwan and Kunshan sites exceeded 100% under its own capacity definition, without site-level methodological details."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社報導，研華台灣華亞園區規劃投資約 56 億元，預計於 2028 年第一季前完工；日本北九州投資約 55 億日圓，昆山則規劃第六期擴建。TVBS 報導第三季營收 324.4 億元、歸母淨利 62.18 億元，該季財報在 10 月 29 日已公告，今天新增的是法說中的訂單及工程進度說明。",
+            "en": "CNA cited roughly NT$5.6 billion planned for Taiwan's Huaya site, targeted before Q1 2028, plus an approximately JPY5.5 billion Kitakyushu project and a sixth Kunshan phase. TVBS restated Q3 sales of NT$32.44 billion and profit of NT$6.218 billion; those results were released October 29, while the November 4 news concerns backlog and expansion commentary."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "在手訂單的取消及延期細項、各擴建工程已實現的產能，以及最終客戶驗收日未公布。",
+            "en": "Backlog cancellation and deferral breakdowns, realized capacity additions and customer-acceptance dates were not disclosed."
+          }
+        }
+      ],
+      "metric": "US$2.5B",
+      "metricLabel": {
+        "zh": "在手訂單約數",
+        "en": "Approximate order backlog"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 研華法說報導",
+            "en": "CNA · Advantech briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040315.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "研華 · 官方法說活動資訊",
+            "en": "Advantech · official briefing schedule"
+          },
+          "url": "https://www.advantech.com/zh-tw/investor/investor-events",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "TVBS · 接單與財報報導",
+            "en": "TVBS · backlog and results coverage"
+          },
+          "url": "https://news.tvbs.com.tw/money/4045865",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "法說活動：線上舉行；公司公布的工廠計畫分布於台灣、日本及中國，未將法說場地視為工廠位置",
+        "en": "Event: online investor briefing; planned factories are in Taiwan, Japan and China, not at an inferred conference venue"
+      },
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣；日本；中國；美國",
+          "en": "Taiwan; Japan; China; United States"
+        },
+        "industries": {
+          "zh": "半導體設備；工業電腦；工廠自動化；投資",
+          "en": "Semiconductor tools; industrial PCs; factory automation; investment"
+        },
+        "chain": {
+          "zh": "設備與零組件至工廠自動化、終端設備及投資",
+          "en": "Tools and components to factory automation and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "台灣華亞園區規劃投資約 56 億元，日本北九州擬投資約 55 億日圓",
+            "en": "Around NT$5.6B planned at Huaya and JPY5.5B at Kitakyushu"
+          },
+          "demand": {
+            "zh": "公司稱在手訂單接近 25 億美元，尚未全部出貨",
+            "en": "Company reports backlog near US$2.5B, not fully shipped"
+          },
+          "fdi": {
+            "zh": "跨境擴建計畫已提出，未公布本次新增外資核定額",
+            "en": "Cross-border expansion plans described; new approved FDI amount not disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工業電腦訂單、半導體設備應用與自動化產線擴建",
+            "en": "Industrial-computing orders, semiconductor-equipment applications and factory expansion"
+          },
+          "timing": {
+            "zh": "11 月 4 日線上法說；第三季財報已於 10 月 29 日公布",
+            "en": "Nov 4 investor call; Q3 earnings were published Oct 29"
+          },
+          "unknowns": {
+            "zh": "在手訂單的取消及延期細項、各擴建工程已實現的產能，以及最終客戶驗收日未公布。",
+            "en": "Backlog cancellation and deferral breakdowns, realized capacity additions and customer-acceptance dates were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "在手訂單約數",
+            "en": "Approximate backlog"
+          },
+          "current": 2.5,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 4 日口徑，涵蓋至 2027 年",
+            "en": "Reported Nov 4, 2026; extends to 2027"
+          },
+          "owner": {
+            "zh": "研華，經中央社報導",
+            "en": "Advantech, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040315.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 32.44,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華，經 TVBS 報導",
+            "en": "Advantech, reported by TVBS"
+          },
+          "sourceUrl": "https://news.tvbs.com.tw/money/4045865",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.83,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 parent-attributable profit"
+          },
+          "current": 6.218,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華，經 TVBS 報導",
+            "en": "Advantech, reported by TVBS"
+          },
+          "sourceUrl": "https://news.tvbs.com.tw/money/4045865",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.25,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "華亞園區計畫投資",
+            "en": "Planned Huaya investment"
+          },
+          "current": 5.6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "目標 2028 年第一季前完工",
+            "en": "Targeted before Q1 2028"
+          },
+          "owner": {
+            "zh": "研華，經中央社報導",
+            "en": "Advantech, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040315.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季接單出貨比",
+            "en": "Q3 book-to-bill ratio"
+          },
+          "current": 1.64,
+          "unit": "倍",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "研華，經 TVBS 報導",
+            "en": "Advantech, reported by TVBS"
+          },
+          "sourceUrl": "https://news.tvbs.com.tw/money/4045865",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源、量測與控制設備供應商而言，研華公布半導體設備、工廠自動化與邊緣運算相關訂單及擴產方向。需核對工廠分期驗收、設備規格與實際客戶需求，25 億美元訂單數不能直接換算設備採購額。",
+        "en": "For industrial-power, metrology and control suppliers, Advantech described orders and capacity plans for semiconductor equipment, automation and edge computing. Factory commissioning, equipment specifications and end-customer requirements remain unverified; backlog cannot be converted into equipment procurement."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "c-sun-vmotion-share-swap-automation",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "志聖決議換股增持視動至 75.06%，整合先進封裝設備控制軟體",
+        "en": "C Sun approves share swap raising VMotion stake to 75.06%"
+      },
+      "summary": {
+        "zh": "志聖工業 11 月 4 日公布董事會決議，擬以新股換股增持視動自動化科技，完成後持股將由 20.7% 增至 75.06%，換股基準日暫訂 2027 年 1 月 4 日。視動的設備控制與通訊軟體將結合志聖等製程設備，交易仍待執行。",
+        "en": "Taiwan equipment maker C Sun announced a board-approved stock swap on November 4 to raise its VMotion Automation Technology stake from 20.7% to 75.06%. The tentative exchange date is January 4, 2027; VMotion's control and equipment-communications software would be integrated with process-tool development after completion."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "視動提供 PC 與 PLC 控制、運動控制、人機介面、資料擷取及 SECS/GEM 通訊模組，對應晶圓廠、封測廠的設備及工廠管理系統。志聖同時提及 G2C+ 聯盟與均豪、均華及東捷的跨設備開發需求。",
+            "en": "VMotion provides PC and PLC controls, motion control, HMIs, data collection and SECS/GEM interfaces for fab and packaging/test tools. C Sun cited equipment-software integration needs across the G2C+ alliance with other equipment makers The proposed collaboration does not establish immediate customer qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社引述志聖重訊，每 1 股視動股份擬換發 0.40665 股志聖新發行普通股。視動將在交易完成後成為合併報表子公司；公告未提供已完成交割的證據。",
+            "en": "CNA reported a ratio of 0.40665 newly issued C Sun shares for each VMotion share. VMotion would become a consolidated subsidiary only once the exchange is completed; closing has not been reported."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "交易最終完成日、整合軟體於各設備的商用驗證，以及對客戶交期的影響尚未公布。",
+            "en": "The actual closing date, production qualification of integrated software and any effect on delivery schedules remain undisclosed."
+          }
+        }
+      ],
+      "metric": "75.06%",
+      "metricLabel": {
+        "zh": "完成換股後預定持股",
+        "en": "Proposed post-swap stake"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 志聖重大訊息",
+            "en": "CNA · C Sun material announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040353.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；封裝；封測；測試；設備；工廠自動化",
+          "en": "Wafer fab; packaging; testing; tools; factory automation"
+        },
+        "chain": {
+          "zh": "設備與控制軟體至晶圓、封裝封測及工廠自動化",
+          "en": "Process tools and controls for wafer fabs and packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "擬以換股方式增加股權，未公布現金收購金額",
+            "en": "Equity stake to rise through share exchange; no cash acquisition amount"
+          },
+          "demand": {
+            "zh": "尚未公布新增設備訂單",
+            "en": "No new equipment orders disclosed"
+          },
+          "fdi": {
+            "zh": "未公布 FDI",
+            "en": "No FDI announced"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "影響先進封裝製程設備控制及量產前軟硬體驗證整合",
+            "en": "Addresses control software and pre-production validation of packaging tools"
+          },
+          "timing": {
+            "zh": "11 月 4 日董事會決議；換股基準日暫訂 2027 年 1 月 4 日",
+            "en": "Board resolution Nov 4; tentative exchange date Jan 4, 2027"
+          },
+          "unknowns": {
+            "zh": "交易最終完成日、整合軟體於各設備的商用驗證，以及對客戶交期的影響尚未公布。",
+            "en": "The actual closing date, production qualification of integrated software and any effect on delivery schedules remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "現有持股比例",
+            "en": "Current stake"
+          },
+          "current": 0.207,
+          "unit": "%",
+          "period": {
+            "zh": "交易前",
+            "en": "Pre-transaction"
+          },
+          "owner": {
+            "zh": "志聖工業，中央社引述",
+            "en": "C Sun, quoted by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040353.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "交易後預定持股比例",
+            "en": "Proposed post-swap stake"
+          },
+          "current": 0.7506,
+          "unit": "%",
+          "period": {
+            "zh": "交易完成後",
+            "en": "After closing"
+          },
+          "owner": {
+            "zh": "志聖工業，中央社引述",
+            "en": "C Sun, quoted by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040353.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "每股視動換發志聖股數",
+            "en": "C Sun shares issued per VMotion share"
+          },
+          "current": 0.40665,
+          "unit": "股",
+          "period": {
+            "zh": "預定換股條件",
+            "en": "Proposed swap terms"
+          },
+          "owner": {
+            "zh": "志聖工業，中央社引述",
+            "en": "C Sun, quoted by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040353.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對先進封裝製程電源、運動控制與量測設備商而言，視動的 SECS/GEM 與設備控制模組是跨機台整合的公開技術範圍。需查核交割、產品驗證及客戶系統相容性，現階段尚無訂單或產能提升數據。",
+        "en": "For packaging power, motion-control and measurement suppliers, VMotion's SECS/GEM and tool-control modules define the disclosed integration scope. Closing, qualification and factory-system compatibility require verification; new orders or capacity gains were not disclosed."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "inventec-oct-2026-revenue-servers",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "英業達公布 10 月營收 799.66 億元、年增 46%，伺服器與筆電均受缺料影響",
+        "en": "Inventec reports NT$79.966B October revenue, up 46% year on year"
+      },
+      "summary": {
+        "zh": "英業達 11 月 4 日公布 2026 年 10 月合併營收約 799.66 億元，年增約 46%，累計前 10 個月營收 8,222.28 億元、年增 43.1%。公司表示，第四季伺服器與消費性產品出貨受到缺料影響，細部展望待 11 月 10 日法說揭露。",
+        "en": "Inventec reported October 2026 consolidated revenue of approximately NT$79.966 billion on November 4, up 46% year on year, and January–October revenue of NT$822.228 billion, up 43.1%. It cited component shortages affecting both servers and consumer products and said further guidance would come at its November 10 investor meeting."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "英業達承接伺服器整機與筆記型電腦 ODM 製造。月營收涵蓋多產品業務，不能依整體成長率推導單一 AI 伺服器產品的出貨增幅。",
+            "en": "Inventec is an ODM for server systems and notebooks. Consolidated monthly revenue covers multiple product lines and cannot be used to derive shipments or revenue growth for individual AI-server configurations."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社報導，英業達 10 月筆電出貨約 140 萬台，比 9 月少 40 萬台；營收月減約 18.9%，年增約 46%。每月營收與前 10 月累計數字的期間不同，須分開比較。",
+            "en": "CNA reported about 1.4 million notebook shipments in October, down 400,000 units month on month. Revenue declined about 18.9% sequentially but grew about 46% from a year earlier; the October and 10-month cumulative periods are distinct."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "伺服器業務單獨營收、缺料零組件項目、延後交貨規模及第四季精確出貨預估尚未揭露。",
+            "en": "Standalone server revenue, components in shortage, delayed-shipment volumes and precise Q4 delivery expectations have not been disclosed."
+          }
+        }
+      ],
+      "metric": "NT$79.966B",
+      "metricLabel": {
+        "zh": "2026 年 10 月營收",
+        "en": "October 2026 revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 英業達 10 月營收",
+            "en": "CNA · Inventec October revenue"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040299.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；電腦；記憶體；電源",
+          "en": "Servers; ODM; PCs; memory; power"
+        },
+        "chain": {
+          "zh": "記憶體與零組件至伺服器 ODM、電腦及電源",
+          "en": "Memory and components to server ODMs and PC power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資額",
+            "en": "No new investment amount disclosed"
+          },
+          "demand": {
+            "zh": "公司表示伺服器需求仍有支持，但缺料影響出貨",
+            "en": "Company indicated server demand remains but shortages affect shipments"
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI",
+            "en": "No new FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "揭露台灣 ODM 月營收及伺服器、筆電零組件供應限制",
+            "en": "Taiwan ODM revenue and server/notebook component constraints"
+          },
+          "timing": {
+            "zh": "11 月 4 日公布 10 月營收；11 月 10 日預定法說",
+            "en": "October revenue released Nov 4; next investor call scheduled Nov 10"
+          },
+          "unknowns": {
+            "zh": "伺服器業務單獨營收、缺料零組件項目、延後交貨規模及第四季精確出貨預估尚未揭露。",
+            "en": "Standalone server revenue, components in shortage, delayed-shipment volumes and precise Q4 delivery expectations have not been disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October revenue"
+          },
+          "current": 79.966,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040299.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.46,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "前 10 月累計營收",
+            "en": "Jan–Oct cumulative revenue"
+          },
+          "current": 822.228,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040299.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.431,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "10 月筆電出貨",
+            "en": "October notebook shipments"
+          },
+          "current": 1400000,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040299.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器機櫃電源、量測及製造測試業者而言，英業達公開整體營收與缺料情況，仍無伺服器產品線細分數字。後續需核對零件短缺與客戶驗收時程，不能以集團營收直接估算特定設備需求。",
+        "en": "For rack-power, metrology and production-test suppliers, Inventec reported group sales and component constraints but no server-specific breakout. Shortage details and customer acceptance need verification; consolidated revenue cannot estimate demand for specific equipment."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "cotech-malaysia-nov4-capital-injection",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "金居公告增資馬來西亞子公司 500 萬美元，原董事會決議日期為 10 月 16 日",
+        "en": "COTECH discloses US$5M Malaysia subsidiary capital injection"
+      },
+      "summary": {
+        "zh": "銅箔廠金居於 11 月 4 日公告對馬來西亞檳城子公司 COTECH Development 增資 500 萬美元，資金將依實際需求分次投入。董事會已於 10 月 16 日通過，這次新消息是正式對外公告；更早公布的檳城高階銅箔廠產能計畫不可視為今天核定。",
+        "en": "Copper-foil producer COTECH disclosed a US$5 million capital increase for its Penang subsidiary on November 4, with funding to be injected in tranches. The board had approved it on October 16; earlier Penang copper-foil capacity plans are background, not newly approved capacity."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "銅箔用於 PCB、載板與高頻高速訊號傳輸結構；金居先前已提出高階 HVLP4 產品與馬來西亞檳城新廠規劃。此筆增資尚無個別設備訂單或產能驗收資料。",
+            "en": "Copper foil supplies PCB and substrate stacks for high-frequency transmission. COTECH previously described HVLP4 foil plans for Penang, but this capital increase does not itself establish equipment orders or accepted production capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社引述公司公告，金居持有檳城子公司 100% 股權，增資用途為長期股權投資及海外據點；分次注資代表已核定最高額度，實際撥款節奏待確定。",
+            "en": "CNA cites a 100%-owned Penang subsidiary, with proceeds intended for long-term investment and an overseas site. The maximum announced equity injection may be disbursed in stages, and actual drawdown timing is unspecified."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "分次注資日期、新廠實際設備採購與驗收進度，以及產能啟用日期未公告。",
+            "en": "Disbursement dates, plant equipment procurement, acceptance and production start dates are undisclosed."
+          }
+        }
+      ],
+      "metric": "US$5M",
+      "metricLabel": {
+        "zh": "公告增資總額",
+        "en": "Announced capital injection"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 金居馬來西亞增資公告",
+            "en": "CNA · COTECH Malaysia capital announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611043004.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣；馬來西亞",
+          "en": "Taiwan; Malaysia"
+        },
+        "industries": {
+          "zh": "材料；銅箔；PCB；基板；投資；外資",
+          "en": "Materials; copper foil; PCBs; substrates; investment; FDI"
+        },
+        "chain": {
+          "zh": "材料、銅箔至基板與投資",
+          "en": "Copper-foil materials to substrates and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "宣布對檳城子公司增資 500 萬美元",
+            "en": "Announced US$5M capital increase for Penang subsidiary"
+          },
+          "demand": {
+            "zh": "未披露新客戶或銅箔出貨量",
+            "en": "No new customers or foil shipments disclosed"
+          },
+          "fdi": {
+            "zh": "台灣企業對馬來西亞子公司股權增資",
+            "en": "Taiwanese company funding Malaysian subsidiary equity"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "為馬來西亞電子材料布局提供新核定資金",
+            "en": "Additional approved funding for Malaysia electronics materials"
+          },
+          "timing": {
+            "zh": "10 月 16 日董事會決議，11 月 4 日公告",
+            "en": "Board decision Oct 16; public disclosure Nov 4"
+          },
+          "unknowns": {
+            "zh": "分次注資日期、新廠實際設備採購與驗收進度，以及產能啟用日期未公告。",
+            "en": "Disbursement dates, plant equipment procurement, acceptance and production start dates are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "增資額",
+            "en": "Capital injection"
+          },
+          "current": 0.005,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 4 日公告",
+            "en": "Disclosed Nov 4, 2026"
+          },
+          "owner": {
+            "zh": "金居，中央社引述",
+            "en": "COTECH, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611043004.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高階 PCB 材料製程電源與量測供應商而言，金居公告的是海外子公司資金投入。要判斷是否涉及新設備，仍須核實檳城廠產線規格、交付與客戶認證，公告未揭露採購清單。",
+        "en": "For high-end PCB materials process-power and metrology suppliers, the announcement concerns subsidiary funding. Penang tool specifications, delivery and customer qualification remain unknown; no purchase list was disclosed."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "ude-electronic-vietnam-nov4-capital-increase",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "湧德董事會決議對越南子公司增資 1,000 萬美元，資金擬由銀行借款支應",
+        "en": "UDE approves US$10M capital increase for Vietnam subsidiary"
+      },
+      "summary": {
+        "zh": "台灣網路連接器廠湧德電子 11 月 4 日公告，董事會決議對 100% 持股越南子公司 U.D. Electronic Vietnam 現金增資 1,000 萬美元，資金來源擬為銀行借款。公告將用途列為長期投資，未明列新增機台、產能或產線啟用日期。",
+        "en": "Taiwan connector maker UDE announced a board-approved US$10 million cash injection into its wholly owned Vietnam subsidiary on November 4, to be funded through bank borrowing. It described the purpose as long-term investment without identifying new tools, rated output or commissioning dates."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "湧德供應整合型乙太網路連接器及相關網路零組件，產品可進入網通設備供應鏈。對越南子公司注資與連接器交貨量、良率是不同指標。",
+            "en": "UDE supplies integrated Ethernet connectors and networking components. Funding a Vietnamese subsidiary is distinct from connector shipments, yields or customer acceptance."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社引述公司資料，湧德 10 月營收 7.34 億元，年增 63.67%；前 10 月營收 73.32 億元，年增 47.09%。這些屬已公布的營收實績，資本額仍是董事會決議的資金配置。",
+            "en": "CNA also cited October revenue of NT$734 million, up 63.67% year on year, and 10-month revenue of NT$7.332 billion, up 47.09%. These are reported sales results, separate from the approved capital allocation."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "越南廠新增設備、實際注資日、資金提款及客戶認證進度尚未披露。",
+            "en": "New Vietnam tooling, funding and drawdown dates, and customer qualifications remain undisclosed."
+          }
+        }
+      ],
+      "metric": "US$10M",
+      "metricLabel": {
+        "zh": "核准越南子公司增資",
+        "en": "Vietnam subsidiary capital increase"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 湧德越南增資公告",
+            "en": "CNA · UDE Vietnam capital approval"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611043003.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣；越南",
+          "en": "Taiwan; Vietnam"
+        },
+        "industries": {
+          "zh": "網通零組件；設備；伺服器；投資；FDI",
+          "en": "Networking parts; tools; servers; investment; FDI"
+        },
+        "chain": {
+          "zh": "零組件至伺服器網通及投資",
+          "en": "Networking components to servers and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "對越南子公司決議增資 1,000 萬美元",
+            "en": "US$10M Vietnam subsidiary equity increase approved"
+          },
+          "demand": {
+            "zh": "未披露新增連接器訂單",
+            "en": "No new connector orders disclosed"
+          },
+          "fdi": {
+            "zh": "台灣企業透過越南子公司投資",
+            "en": "Taiwanese investment in Vietnam subsidiary"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "顯示乙太網路連接器製造商在越南的資金安排",
+            "en": "Funding plans for an Ethernet-connector manufacturer in Vietnam"
+          },
+          "timing": {
+            "zh": "11 月 4 日董事會決議",
+            "en": "Board resolution Nov 4"
+          },
+          "unknowns": {
+            "zh": "越南廠新增設備、實際注資日、資金提款及客戶認證進度尚未披露。",
+            "en": "New Vietnam tooling, funding and drawdown dates, and customer qualifications remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "越南子公司核准增資",
+            "en": "Approved Vietnam equity injection"
+          },
+          "current": 0.01,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 4 日決議",
+            "en": "Board resolution Nov 4, 2026"
+          },
+          "owner": {
+            "zh": "湧德，中央社引述",
+            "en": "UDE, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611043003.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October revenue"
+          },
+          "current": 0.734,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "湧德，中央社引述",
+            "en": "UDE, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611043003.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.6367,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "前 10 月營收",
+            "en": "Jan–Oct revenue"
+          },
+          "current": 7.332,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "湧德，中央社引述",
+            "en": "UDE, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611043003.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.4709,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對網通設備電源、連接器測試與量測供應商而言，新增股本僅反映資金配置。仍需確認越南據點的設備清單、驗收節點和產品類別，現有公告無法推出實際新增產能。",
+        "en": "For networking-power and connector-test suppliers, the capital injection documents funding rather than equipment demand. Vietnam tooling, qualification milestones and product scope remain undisclosed."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "taiflex-ptfe-high-frequency-materials-2028",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台郡法說稱 PTFE 高頻材料擬於 2028 年放量，第三季仍虧損 1.79 億元",
+        "en": "Taiflex targets 2028 PTFE ramp; reports NT$179M Q3 loss"
+      },
+      "summary": {
+        "zh": "台郡科技 11 月 4 日法說表示，高頻高速 PTFE 材料規劃於 2028 年開始放量；2026 年第三季營收 61.4 億元、歸母淨損 1.79 億元、毛利率 10.8%。量產時間是公司預期，尚無獨立核實的客戶驗收或產量。",
+        "en": "Taiflex stated at its November 4 investor briefing that it targets volume production of high-frequency PTFE materials in 2028. Q3 revenue was NT$6.14 billion, with a NT$179 million attributable loss and 10.8% gross margin; customer qualifications and output for the proposed ramp remain undisclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "PTFE 具有低介電損耗特性，應用涵蓋高頻通訊、雷達與高速傳輸材料。公司將其列為高階材料新產品方向；與現有柔性電路板實際出貨須分別看待。",
+            "en": "PTFE's low dielectric loss supports high-frequency links, radar and high-speed electronics. Taiflex is developing it as a higher-end materials line, separate from existing flexible-circuit-board shipments."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社引述公司，第三季營業利益率為負 4.3%，每股虧損 0.56 元；公司估計 2027 年消費性產品營收占比可能降至 50% 以下。這些未來產品組合預估不代表已取得量產訂單。",
+            "en": "CNA reported a negative 4.3% Q3 operating margin and a loss of NT$0.56 per share. Taiflex projected consumer products could fall below half of revenue in 2027, but this is an outlook, not evidence of contracted PTFE volume."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "PTFE 材料客戶驗證、規格、良率、工程階段與實際開始出貨日期未提供。",
+            "en": "PTFE customer qualification, specifications, yields, engineering milestones and shipment launch date have not been disclosed."
+          }
+        }
+      ],
+      "metric": "2028",
+      "metricLabel": {
+        "zh": "PTFE 目標量產年份",
+        "en": "Target PTFE volume-production year"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台郡法說報導",
+            "en": "CNA · Taiflex earnings briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040271.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；基板；PCB；伺服器；零組件",
+          "en": "Materials; substrates; PCBs; servers; components"
+        },
+        "chain": {
+          "zh": "高頻材料與基板至伺服器與通訊零組件",
+          "en": "High-frequency materials and substrates to server components"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未在本次報導揭露 PTFE 產線投資額",
+            "en": "No PTFE line capital spending disclosed"
+          },
+          "demand": {
+            "zh": "PTFE 量產屬 2028 年公司目標，未披露出貨訂單",
+            "en": "PTFE production targeted for 2028; no shipments booked"
+          },
+          "fdi": {
+            "zh": "未公布 FDI",
+            "en": "No FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及高頻材料製程與高速傳輸產品驗證",
+            "en": "High-frequency material processing and high-speed product validation"
+          },
+          "timing": {
+            "zh": "11 月 4 日法說；PTFE 規劃 2028 年放量",
+            "en": "Nov 4 briefing; PTFE ramp projected for 2028"
+          },
+          "unknowns": {
+            "zh": "PTFE 材料客戶驗證、規格、良率、工程階段與實際開始出貨日期未提供。",
+            "en": "PTFE customer qualification, specifications, yields, engineering milestones and shipment launch date have not been disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 sales"
+          },
+          "current": 6.14,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "台郡，中央社引述",
+            "en": "Taiflex, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040271.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨損",
+            "en": "Q3 attributable net loss"
+          },
+          "current": -0.179,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "台郡，中央社引述",
+            "en": "Taiflex, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040271.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.108,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "台郡，中央社引述",
+            "en": "Taiflex, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040271.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益率",
+            "en": "Q3 operating margin"
+          },
+          "current": -0.043,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "台郡，中央社引述",
+            "en": "Taiflex, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040271.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高頻材料製程電源及介電量測業者而言，PTFE 生產規劃涉及材料製程控制與品質檢測。應確認特定 PTFE 規格、驗證狀態及良率，2028 年仍是公司目標。",
+        "en": "For high-frequency materials process-power and dielectric metrology suppliers, the PTFE plan touches production control and qualification. Material specifications, yields and customer acceptance remain unknown; 2028 is a company target."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "syntec-malaysia-production-sites-2027",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "新代 11 月 4 日更新馬來西亞二廠進度，規劃整體產能達現況 2.6 倍",
+        "en": "Syntec updates Malaysia second-plant timing and 2.6x capacity target"
+      },
+      "summary": {
+        "zh": "工業控制器廠新代科技 11 月 4 日表示，馬來西亞第二廠、中國蘇州第二廠及另一海外據點預計自 2027 年 2 月起陸續完工與搬遷，整體產能規劃提高至目前約 2.6 倍。馬來西亞建廠安排先前已有報導，這次新增的是公司對多廠進度與總產能的更新。",
+        "en": "Industrial controller supplier Syntec said on November 4 that its second Malaysia factory, second Suzhou facility and another overseas site should begin staged completion or relocation from February 2027. Its combined capacity target is 2.6 times the current level; the Malaysia plant had been discussed earlier, while the new disclosure updates the group-wide plan."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "新代供應 CNC、運動控制、伺服元件與機械手臂控制技術，應用於工廠自動化與精密加工。此次產能倍率為集團多據點規劃，並非馬來西亞單廠已完成擴產。",
+            "en": "Syntec supplies CNC, motion control, servo components and robotic controls for industrial automation. The capacity multiplier is group-wide and does not mean the Malaysia factory alone has achieved higher output."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社報導，企業將感測、製程資料與控制器整合至現場加工應用。公司原在 2026 年 5 月已預告馬來西亞廠目標於 2027 年 2 月完工，11 月 4 日的說明增加整體 2.6 倍產能規劃；報導亦提及印度據點，但不將其列入本站東南亞市場範圍。",
+            "en": "CNA described integrating sensing, shop-floor data and CNC applications. The February 2027 Malaysia target had already been disclosed in May; the November 4 update adds a 2.6x group-wide capacity goal. An India site is mentioned in the source but is outside this edition's geographic focus."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各地新廠實際產線數、馬來西亞單廠增幅、客戶需求量及具體完工日仍未公開。",
+            "en": "Plant-level line counts, the Malaysia-only capacity increase, customer volume and exact completion dates remain undisclosed."
+          }
+        }
+      ],
+      "metric": "2.6×",
+      "metricLabel": {
+        "zh": "集團整體規劃產能倍率",
+        "en": "Planned group capacity multiplier"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 新代海外建廠更新",
+            "en": "CNA · Syntec site development update"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040182.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣；馬來西亞",
+          "en": "Taiwan; Malaysia"
+        },
+        "industries": {
+          "zh": "工廠自動化；設備；精密控制；投資",
+          "en": "Factory automation; tools; precision controls; investment"
+        },
+        "chain": {
+          "zh": "工廠自動化設備與精密控制至終端加工廠",
+          "en": "Factory automation and motion controls to end-use plants"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公布跨國廠區擴建計畫，未揭露馬來西亞新增投資額",
+            "en": "Cross-border plant expansion plans disclosed; new Malaysia spending not stated"
+          },
+          "demand": {
+            "zh": "產能倍率屬規劃，實際客戶訂單未量化",
+            "en": "Capacity multiple is a plan; customer orders not quantified"
+          },
+          "fdi": {
+            "zh": "台灣企業持續建置馬來西亞據點，新增外資額未揭露",
+            "en": "Taiwanese company expanding Malaysia operations; FDI amount undisclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "關聯台灣與馬來西亞工業自動化控制器供應",
+            "en": "Relates to Taiwanese and Malaysian industrial-controller production"
+          },
+          "timing": {
+            "zh": "11 月 4 日更新；部分廠區預定 2027 年 2 月起完成",
+            "en": "Updated Nov 4; staged plant completion expected from Feb 2027"
+          },
+          "unknowns": {
+            "zh": "各地新廠實際產線數、馬來西亞單廠增幅、客戶需求量及具體完工日仍未公開。",
+            "en": "Plant-level line counts, the Malaysia-only capacity increase, customer volume and exact completion dates remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "規劃整體產能倍率",
+            "en": "Planned total capacity multiplier"
+          },
+          "current": 2.6,
+          "unit": "倍",
+          "period": {
+            "zh": "後續據點投入營運後",
+            "en": "After planned sites begin operations"
+          },
+          "owner": {
+            "zh": "新代科技，中央社引述",
+            "en": "Syntec, cited by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040182.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業控制器電源及生產測試設備商而言，新代揭露的是多據點整體擴產目標。需先查核馬來西亞的個別設備與試產驗收，無法把 2.6 倍視為現有機台的已實現產出。",
+        "en": "For controller-power and production-test suppliers, Syntec disclosed a group-wide capacity goal. Malaysia-specific tooling and trial qualifications remain to be checked; 2.6x is not realized output."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "mediatek-advanced-process-test-vp-novid",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "聯發科宣布 11 月 9 日延攬前英特爾主管，負責先進製程與封裝協同",
+        "en": "MediaTek appoints former Intel executive for advanced process and packaging coordination"
+      },
+      "summary": {
+        "zh": "聯發科 11 月 4 日宣布，前英特爾主管 Navid Shahriari 預定 11 月 9 日加入，擔任資深副總經理，負責先進製程、良率平台、設計協同優化、先進測試封裝及品質可靠度團隊。公司表示將深化與台積電等供應鏈夥伴的合作，未公布新產能或新訂單。",
+        "en": "MediaTek announced November 4 that former Intel executive Navid Shahriari will join on November 9 as senior vice president overseeing advanced process and yield platforms, design-technology optimization, advanced test and packaging, and quality/reliability. MediaTek cited closer work with suppliers including TSMC, but announced no new capacity or orders."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "IC 設計公司與晶圓代工、封裝測試夥伴之間的設計技術協同，涉及元件良率、測試流程及產品可靠度驗證。人事任命沒有直接量化個別製程的成熟度或客戶驗證進展。",
+            "en": "Design-technology co-optimization across fabless design, foundry and packaging/test touches yield, test and reliability flows. The appointment provides no direct measure of manufacturing maturity or customer acceptance."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社引述聯發科公告，Shahriari 擁有 37 年相關工程經驗，將向總經理暨營運長陳冠州報告。聯發科先前提出的資料中心 ASIC 營收與市占預測屬舊資料，此次報導以人事與供應鏈職責變動為主。",
+            "en": "CNA reported Shahriari has 37 years of relevant engineering experience and will report to president and COO Joe Chen. Previously announced data-center ASIC forecasts are background; this development is the leadership and supplier-coordination appointment."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "供應鏈合作協議是否有變更、量產良率改進幅度與新產品時程未披露。",
+            "en": "Changes to supply agreements, yield improvements and new-product schedules were not disclosed."
+          }
+        }
+      ],
+      "metric": "11/9",
+      "metricLabel": {
+        "zh": "預定到任日期",
+        "en": "Planned start date"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 聯發科人事公告",
+            "en": "CNA · MediaTek appointment"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040344.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；封裝；封測；測試；設備",
+          "en": "Chip design; wafer fabs; packaging; testing; tools"
+        },
+        "chain": {
+          "zh": "晶片設計至晶圓、封裝封測與測試",
+          "en": "Chip design through wafer fab and packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資",
+            "en": "No new investment disclosed"
+          },
+          "demand": {
+            "zh": "未公布新增產品訂單",
+            "en": "No new product orders announced"
+          },
+          "fdi": {
+            "zh": "未公布 FDI",
+            "en": "No FDI reported"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及晶片設計、晶圓代工與封裝測試協作職責",
+            "en": "Concerns foundry and test coordination at a Taiwan chip designer"
+          },
+          "timing": {
+            "zh": "11 月 4 日公布任命，11 月 9 日預定到任",
+            "en": "Appointment announced Nov 4; start planned Nov 9"
+          },
+          "unknowns": {
+            "zh": "供應鏈合作協議是否有變更、量產良率改進幅度與新產品時程未披露。",
+            "en": "Changes to supply agreements, yield improvements and new-product schedules were not disclosed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對蝕刻與沉積製程電源、封裝測試量測設備商而言，任務涵蓋先進製程良率與測試協同。需先觀察是否有正式驗證專案或共同規範公布，單一人事公告尚無設備需求量。",
+        "en": "For etch/deposition power and packaging-test metrology suppliers, the remit covers yields and test collaboration. Joint qualifications or specifications would require separate confirmation; the appointment contains no equipment-demand figure."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "zyxel-vietnam-2026-trial-networking",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "合勤控 11 月 3 日法說確認越南網通廠試產，預期 2027 年放量",
+        "en": "Zyxel Group confirms Vietnam production trial and targets 2027 ramp"
+      },
+      "summary": {
+        "zh": "合勤控 11 月 3 日在線上法說表示，越南生產基地於 2026 年進入試產，預計 2027 年放量，並規劃推出 Wi-Fi 8 與 50G PON 網通設備。第三季歸母淨利為 4.69 億元；公司稱記憶體成本上升，使部分電信客戶放緩拉貨。",
+        "en": "Taiwan networking company Zyxel Group said at its November 3 investor call that its Vietnam plant is in trial production and is expected to ramp in 2027, alongside planned Wi-Fi 8 and 50G PON products. It reported Q3 net profit of NT$469 million and cited memory costs behind slower orders from some telecom customers."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "合勤控生產寬頻接取與企業網通設備，越南基地被公司列為新增製造據點，與現有無錫產能並行。新產品的開發完成、客戶下單及正式量產是不同階段。",
+            "en": "Zyxel Group supplies broadband access and enterprise networking systems. The Vietnam facility complements existing Wuxi manufacturing. Product development, customer orders and volume qualification are separate stages."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "中央社報導前 3 季歸母淨利 10.99 億元，寬頻設備營收占比 76%、企業網通占比 14%。自由財經報導第三季營收 77.53 億元，季減 11.4%、年減 20.8%。上述數字不代表越南新廠單獨營收。",
+            "en": "CNA reported nine-month attributable profit of NT$1.099 billion and revenue shares of 76% broadband and 14% enterprise networking. Liberty Times reported Q3 revenue of NT$7.753 billion, down 11.4% quarter on quarter and 20.8% year on year. None measures the Vietnam plant on a standalone basis."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "越南基地設計產能、良率、客戶驗收及正式量產月份未公布。",
+            "en": "Vietnam nameplate capacity, yields, qualifications and exact volume-production start month were not disclosed."
+          }
+        }
+      ],
+      "metric": "試產",
+      "metricLabel": {
+        "zh": "越南廠現況",
+        "en": "Vietnam plant status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 合勤控法說",
+            "en": "CNA · Zyxel investor call"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611030223.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 產品與越南廠進度",
+            "en": "Liberty Times · products and Vietnam plant"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5628163",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-03",
+        "countries": {
+          "zh": "台灣；越南",
+          "en": "Taiwan; Vietnam"
+        },
+        "industries": {
+          "zh": "網路零組件；伺服器；資料中心；工廠；記憶體",
+          "en": "Networking; servers; data centers; factories; memory"
+        },
+        "chain": {
+          "zh": "記憶體與網通零組件至工廠、伺服器及資料中心",
+          "en": "Memory and networking components through factories and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "越南基地試產，新增資本支出未公布",
+            "en": "Vietnam plant in trial; no new capex figure"
+          },
+          "demand": {
+            "zh": "公司稱部分電信商因記憶體成本放緩拉貨",
+            "en": "Company said memory costs slowed some telecom customers' purchasing"
+          },
+          "fdi": {
+            "zh": "越南製造基地進入試產，新增股權投資額未揭露",
+            "en": "Vietnam manufacturing site in trial; incremental FDI unknown"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及東南亞寬頻與網通設備試產及零組件供應",
+            "en": "Southeast Asian broadband equipment production and components"
+          },
+          "timing": {
+            "zh": "11 月 3 日法說披露 2026 年試產；預期 2027 年量產增幅",
+            "en": "Nov 3 disclosure of 2026 trial; ramp targeted for 2027"
+          },
+          "unknowns": {
+            "zh": "越南基地設計產能、良率、客戶驗收及正式量產月份未公布。",
+            "en": "Vietnam nameplate capacity, yields, qualifications and exact volume-production start month were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 7.753,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "合勤控，經自由財經報導",
+            "en": "Zyxel Group, reported by Liberty Times"
+          },
+          "sourceUrl": "https://ec.ltn.com.tw/article/breakingnews/5628163",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.208,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "第三季淨利",
+            "en": "Q3 net income"
+          },
+          "current": 0.469,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "合勤控，經自由財經報導",
+            "en": "Zyxel Group, reported by Liberty Times"
+          },
+          "sourceUrl": "https://ec.ltn.com.tw/article/breakingnews/5628163",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.155,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "前 3 季歸母淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 1.099,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前 3 季",
+            "en": "First nine months of 2026"
+          },
+          "owner": {
+            "zh": "合勤控，中央社報導",
+            "en": "Zyxel Group, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611030223.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對網通電源、射頻量測與可靠度測試供應商而言，越南廠試產及 Wi-Fi 8、50G PON 產品開發值得分別核對。客戶認證、機台驗收與設備用量尚未公開，無法把預定放量直接視為已交付產能。",
+        "en": "For networking-power, RF measurement and reliability-test suppliers, Vietnam trial production and Wi-Fi 8/50G PON product development require separate verification. Customer qualification and tool acceptance are unknown; planned ramp is not delivered capacity."
+      }
+    },
+    {
+      "id": 10,
+      "topic": "moda-jiatai-substation-resilient-base-station",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "數發部訪查嘉義嘉太變電所基地台，確認今年 6 月完工的供電與通訊備援配置",
+        "en": "Taiwan ministry inspects resilient base station at Chiayi substation"
+      },
+      "summary": {
+        "zh": "台灣數位發展部 11 月 3 日赴嘉義縣太保市嘉太變電所，訪查與台電變電所整合的高抗災基地台。官方指出設施早在 2026 年 6 月完工，具備電力、雷射光傳輸第二路由及抗 15 級風結構；新事件是此次訪查與配置揭露，不能當作 11 月新建完工。",
+        "en": "Taiwan's Ministry of Digital Affairs inspected a resilient mobile base station at the Jiatai power substation in Taibao, Chiayi County on November 3. The ministry says the site was completed in June 2026 and combines substation power, a second laser-based backhaul and wind resistance to Beaufort force 15; the November event was an inspection and technical disclosure, not new construction completion."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry context"
+          },
+          "text": {
+            "zh": "基地台的斷電、後傳光纜中斷及耐風是不同失效模式。數發部表示三家電信商各自設置雷射光傳輸設備作為第二條路由，並利用變電所供電降低斷電風險。",
+            "en": "Power loss, backhaul interruption and wind damage are distinct mobile-network failure modes. The ministry says three telecom providers installed laser-based second backhaul paths, while substation integration improves access to power."
+          }
+        },
+        {
+          "label": {
+            "zh": "公布內容與數字",
+            "en": "Disclosure and numbers"
+          },
+          "text": {
+            "zh": "官方公告回顧 2023 至 2025 年補助建置或優化 93 處高抗災基地台、55 輛行動基地台車等既有成果。93 處等數字屬先前完成計畫的累計量，不是 11 月 3 日新增完工量。",
+            "en": "The ministry separately cited cumulative 2023–25 work on 93 resilient base stations and 55 mobile base-station vehicles. These are historical cumulative program figures, not additional November 3 completions."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "此次示範站的實測備援持續時間、分業者投資成本與後續擴建據點尚未公布。",
+            "en": "Measured backup runtime at this site, provider-specific costs and additional rollout sites were not specified."
+          }
+        }
+      ],
+      "metric": "3 面向",
+      "metricLabel": {
+        "zh": "電力、傳輸及結構韌性面向",
+        "en": "Power, backhaul and structural resilience"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "數發部 · 嘉太變電所基地台訪查原始公告",
+            "en": "Ministry of Digital Affairs · official Jiatai inspection"
+          },
+          "url": "https://web.moda.gov.tw/press/press-releases/21234",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 訪查報導",
+            "en": "CNA · inspection report"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611030292.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：台灣嘉義縣太保市嘉太變電所；本次為既有基地台訪查",
+        "en": "Project site: Jiatai Substation, Taibao, Chiayi County, Taiwan; an inspection of an existing site"
+      },
+      "market": {
+        "eventDate": "2026-11-03",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；供電；網通零組件；資料中心；通訊設備",
+          "en": "Electricity; power; networking; communications infrastructure"
+        },
+        "chain": {
+          "zh": "電力供電設備與傳輸零組件至終端通訊設施",
+          "en": "Electrical power and backhaul components to communications end-use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "官方未公布此次單站投資金額",
+            "en": "No site-specific spending disclosed"
+          },
+          "demand": {
+            "zh": "官方說明備援建置成效，未公布新增設備採購",
+            "en": "Ministry described resilience systems; no new purchasing announced"
+          },
+          "fdi": {
+            "zh": "未涉及 FDI",
+            "en": "No FDI involved"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "展示變電所電源與電信備援整合",
+            "en": "Shows integration of substation power and telecom redundancy"
+          },
+          "timing": {
+            "zh": "基地台 2026 年 6 月完工；11 月 3 日部長訪查",
+            "en": "Facility completed June 2026; minister inspected Nov 3"
+          },
+          "unknowns": {
+            "zh": "此次示範站的實測備援持續時間、分業者投資成本與後續擴建據點尚未公布。",
+            "en": "Measured backup runtime at this site, provider-specific costs and additional rollout sites were not specified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "設置第二傳輸路由電信商",
+            "en": "Operators with secondary backhaul"
+          },
+          "current": 3,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 3 日訪查",
+            "en": "Inspection Nov 3, 2026"
+          },
+          "owner": {
+            "zh": "數位發展部",
+            "en": "Ministry of Digital Affairs"
+          },
+          "sourceUrl": "https://web.moda.gov.tw/press/press-releases/21234",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        },
+        {
+          "name": {
+            "zh": "既有高抗災基地台建置優化數",
+            "en": "Historical resilient base stations upgraded"
+          },
+          "current": 93,
+          "unit": "處",
+          "period": {
+            "zh": "2023 至 2025 年累計",
+            "en": "Cumulative 2023–25"
+          },
+          "owner": {
+            "zh": "數位發展部",
+            "en": "Ministry of Digital Affairs"
+          },
+          "sourceUrl": "https://web.moda.gov.tw/press/press-releases/21234",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供相容且未經推算的比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對通訊電源備援、轉換器與量測設備業者而言，示範站涉及變電所供電、第二傳輸鏈路及耐候設計。仍須取得單站備援測試結果、硬體配置與擴建採購資料，不能以歷史累計 93 站推估新增訂單。",
+        "en": "For telecom backup power, converter and metrology suppliers, the demonstration combines grid power, redundant backhaul and weather resistance. Site test results, bills of materials and future procurement are unknown; the historical 93-site total does not establish new orders."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "25 億美元在手訂單等於認列營收嗎？",
+        "en": "Is US$2.5B of backlog recognized revenue?"
+      },
+      "text": {
+        "zh": "研華公布的是接單量與期限資訊，尚須經出貨、驗收與會計認列；報導未提供取消及延期訂單的完整拆分。",
+        "en": "Advantech's reported backlog extends into future periods and awaits delivery, acceptance and accounting recognition; the detailed cancellation and deferral split is unavailable."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "志聖的 75.06% 持股是否已完成？",
+        "en": "Has C Sun already acquired 75.06%?"
+      },
+      "text": {
+        "zh": "該比例為完成換股後的預定持股，11 月 4 日僅公布董事會決議，換股基準日暫訂 2027 年 1 月 4 日。",
+        "en": "The figure is a proposed post-transaction stake. The November 4 release was a board decision, with a tentative January 4, 2027 exchange date."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "馬來西亞 500 萬美元與檳城新廠總投資相同嗎？",
+        "en": "Is the US$5M injection the total Penang plant budget?"
+      },
+      "text": {
+        "zh": "500 萬美元為本次對子公司的增資額，與先前公布的檳城新廠總投資規劃分屬不同範圍，尚待實際注資。",
+        "en": "US$5M is this subsidiary equity injection, distinct from previously described total Penang factory spending; actual staged payments remain to be made."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "11 月 4 日已報導的機房投資",
+        "en": "Previously published data-center news"
+      },
+      "text": {
+        "zh": "Google 馬來西亞投資計畫、印尼 LG CNS 與 NTT DATA 資料中心進度已收錄 11 月 4 日日報；這些事件在本版僅作前期背景，並未重複當作新消息。",
+        "en": "Google's Malaysian data-center plans and the LG CNS and NTT DATA facility reports were covered in the November 4 edition and are retained only as dated context."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料註記",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價反應與政治預測",
+        "en": "Market reactions and political forecasts"
+      },
+      "text": {
+        "zh": "11 月 4 日科技股波動及美國選舉影響的市場評論以價格與推測為主，缺乏本期新增的產能、出貨或已核定政策證據，因此未列入新聞。",
+        "en": "November 4 price movements and election-driven market commentary lacked new verified capacity, shipments or enacted policy measures and were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "研華、志聖、英業達、金居、湧德與台郡的部分數字以中央社等媒體引述企業公告或法說為依據；研華官網可確認法說日期，但無法直接取得本次數字的官方逐字稿。金居 500 萬美元增資於 11 月 4 日公告，董事會決議日期為 10 月 16 日。未完成的交易、在手訂單、產能與量產目標均按各自狀態呈現。",
+    "en": "Several figures for Advantech, C Sun, Inventec, COTECH, UDE and Taiflex rely on CNA or other reporting of company statements. Advantech's investor-relations page confirms the briefing date, but an official transcript for the numerical claims was unavailable. COTECH's US$5M injection was disclosed November 4 after an October 16 board decision. Pending transactions, backlog and capacity targets are identified by status."
+  }
+}
