@@ -1,0 +1,1448 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T12:55:00.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、電源、機房與工業供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductors, power, data centers and industrial supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "馬來西亞新增資料中心投資計畫、印尼機房啟用與越南晶片測試試產，分別呈現基礎設施規劃、已完工容量及尚待驗證的設計產能。",
+    "en": "Malaysia's data-center plans, Indonesian facility openings and Vietnam's chip-testing trial distinguish announced investment, completed facilities and unverified design capacity."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "Google 計畫 2027 至 2028 年投資馬來西亞 150 億美元，包含資料中心及電力、水務基礎設施。",
+        "en": "Google plans US$15B in Malaysian campuses and supporting infrastructure in 2027–28."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "FPT 北寧封測廠已試運轉，6 條產線設計年產能 3 億顆，尚無實際出貨數據。",
+        "en": "FPT starts trial operations in Bac Ninh; six lines have 300 million chips of annual design capacity."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "台荷公布 4 項光子技術共同研發合作，涵蓋先進封裝與 3.2T 光通訊。",
+        "en": "Taiwan and the Netherlands detailed four photonics R&D collaborations, including packaging and 3.2T optics."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "雅加達新增 LG CNS 30MW 及 NTT DATA 12MW 兩項資料中心設施；規模定義不同。",
+        "en": "Jakarta saw 30MW LG CNS and 12MW NTT DATA facility announcements, with distinct capacity definitions."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "群電第三季營收 74.14 億元，指出記憶體與測試設備缺料影響出貨。",
+        "en": "Chicony Power reported NT$7.414B Q3 revenue and cited memory and testing-equipment shortages."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "google-malaysia-2027-2028-data-centers",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Google 宣布 2027 至 2028 年在馬來西亞投資 150 億美元，擴建資料中心",
+        "en": "Google announces US$15B Malaysia investment for 2027–28 data centers"
+      },
+      "summary": {
+        "zh": "Google 於 11 月 4 日在吉隆坡宣布，計畫於 2027 至 2028 年在馬來西亞投資 150 億美元，擴充資料中心、潔淨能源及水資源設施。新園區規劃位於雪蘭莪與森美蘭；Google 另稱將協助電網新增逾 1GW 潔淨能源，相關數值均屬承諾或預測。",
+        "en": "Google announced on November 4 in Kuala Lumpur that it plans to invest US$15 billion in Malaysia in 2027–28, covering data centers, clean energy and water infrastructure. New campuses are planned in Selangor and Negeri Sembilan; Google also targets more than 1GW of additional clean-energy capacity on the grid, with amounts and impacts remaining company plans or projections."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and industry"
+          },
+          "text": {
+            "zh": "Google 表示，現有 Elmina Business Park 園區已營運，新建案將涉及資料中心供電、散熱、配電及網路設備。這項規劃尚未列出個別園區的 IT 容量與設備採購清單。",
+            "en": "Google says its Elmina Business Park campus is operational. The new construction encompasses data-center power, cooling, electrical distribution and network infrastructure, but individual IT-load figures and equipment procurement lists were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "發布數字與性質",
+            "en": "Disclosed figures and status"
+          },
+          "text": {
+            "zh": "據路透報導，Google 估算施工期間每年平均支持逾 37,000 個工作機會，並計畫培訓約 800,000 人；這些屬公司預測或計畫，不能當成已實現成果。",
+            "en": "Reuters attributes projected annual support for more than 37,000 jobs during construction and plans to train about 800,000 people to Google. These are estimates and commitments, not realized outcomes."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "投資在園區、能源、水務及培訓間的正式分配、各園區動工與啟用時程、實際 IT 容量尚未逐項公布。",
+            "en": "A project-by-project spending allocation, construction and commissioning schedules, and actual IT capacity have not been disclosed."
+          }
+        }
+      ],
+      "metric": "US$15B",
+      "metricLabel": {
+        "zh": "2027 至 2028 年計畫投資",
+        "en": "Planned investment in 2027–28"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · Google 馬來西亞投資公告",
+            "en": "Reuters · Google Malaysia announcement"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/google-invest-15-billion-malaysia-2027-2028-2026-11-04/",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Malay Mail · 活動現場報導",
+            "en": "Malay Mail · event reporting"
+          },
+          "url": "https://www.malaymail.com/news/malaysia/2026/11/04/google-commits-additional-us15b-to-malaysia-data-centre-expansion-over-two-years-projects-37000-jobs-as-anwar-hails-investment/241985",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "發布活動：馬來西亞吉隆坡馬來亞大學；園區規劃位於雪蘭莪、森美蘭",
+        "en": "Announcement venue: Universiti Malaya, Kuala Lumpur, Malaysia; planned campuses in Selangor and Negeri Sembilan"
+      },
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "資料中心；電力；供電；散熱；投資；FDI",
+          "en": "Data centers; power; cooling; investment; FDI"
+        },
+        "chain": {
+          "zh": "資料中心與供電、散熱至投資",
+          "en": "Data centers, power and cooling, and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "Google 宣布 2027 至 2028 年計畫投資 150 億美元",
+            "en": "Google announced a planned US$15B investment for 2027–28"
+          },
+          "demand": {
+            "zh": "園區規劃擴充雲端與 AI 基礎設施，未揭露具體 IT 負載",
+            "en": "Cloud and AI campuses planned; IT load not disclosed"
+          },
+          "fdi": {
+            "zh": "美國企業對馬來西亞的新增投資計畫",
+            "en": "New planned U.S. corporate investment in Malaysia"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涵蓋資料中心建置、電力與水資源基礎設施",
+            "en": "Covers data-center construction and electricity and water infrastructure"
+          },
+          "timing": {
+            "zh": "11 月 4 日公布；支出預計於 2027 至 2028 年",
+            "en": "Announced Nov 4; spending planned for 2027–28"
+          },
+          "unknowns": {
+            "zh": "資金分配、園區工期與 IT 容量未公布",
+            "en": "Allocation, campus timetables and IT load undisclosed"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "計畫投資",
+            "en": "Planned investment"
+          },
+          "current": 15,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 至 2028 年",
+            "en": "2027–28"
+          },
+          "owner": {
+            "zh": "Google，由 Reuters 報導",
+            "en": "Google, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/google-invest-15-billion-malaysia-2027-2028-2026-11-04/",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "預計新增潔淨能源容量下限",
+            "en": "Clean-energy addition lower bound"
+          },
+          "current": 1,
+          "unit": "GW",
+          "period": {
+            "zh": "未定完工日",
+            "en": "Completion date unspecified"
+          },
+          "owner": {
+            "zh": "Google，由 Reuters 報導",
+            "en": "Google, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/google-invest-15-billion-malaysia-2027-2028-2026-11-04/",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "施工期間年支持就業估計下限",
+            "en": "Projected jobs per construction year, lower bound"
+          },
+          "current": 37000,
+          "unit": "people",
+          "period": {
+            "zh": "2027 至 2028 年施工期",
+            "en": "Construction period 2027–28"
+          },
+          "owner": {
+            "zh": "Google，由 Reuters 報導",
+            "en": "Google, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/google-invest-15-billion-malaysia-2027-2028-2026-11-04/",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "施工期每年 GDP 貢獻預估",
+            "en": "Projected annual GDP contribution during construction"
+          },
+          "current": 1.1,
+          "unit": "USD billion",
+          "period": {
+            "zh": "施工期間每年",
+            "en": "Annually during construction"
+          },
+          "owner": {
+            "zh": "Google，由 Reuters 報導",
+            "en": "Google, reported by Reuters"
+          },
+          "sourceUrl": "https://www.reuters.com/world/asia-pacific/google-invest-15-billion-malaysia-2027-2028-2026-11-04/",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換與量測設備業者而言，Google 的規劃涉及配電、冷卻及機房電力管理。應先核對各園區實際 IT 負載、採購規範及工程時程，公告尚無可驗證的設備採購量。",
+        "en": "For power-conversion and measurement suppliers, Google's plans involve electrical distribution, cooling and site power management. Campus IT loads, equipment specifications and construction schedules remain unverified, so no equipment order volume can be inferred."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "fpt-bac-ninh-chip-testing-trial",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "越南 FPT 北寧封測廠開始試運轉，6 條產線設計年產能 3 億顆",
+        "en": "FPT starts trial runs at Bac Ninh chip testing plant with six lines"
+      },
+      "summary": {
+        "zh": "越南 FPT 於 11 月 3 日宣布，北寧省安豐 II-C 工業區的晶片測試與封裝廠開始試運轉，設有 6 條產線，設計年產能最高 3 億顆。現階段著重功能與可靠度測試；公司尚未公告實際出貨量或量產良率。",
+        "en": "Vietnam's FPT announced on November 3 that its chip testing and packaging plant in Bac Ninh's Yen Phong II-C Industrial Park has begun trial operations. Six lines have a maximum designed capacity of 300 million chips a year; shipments, mass-production yield and utilization were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與測試流程",
+            "en": "Supply chain and test process"
+          },
+          "text": {
+            "zh": "FPT 表示，廠內配置 ATE 自動測試機、Handler 分選設備與 ISO Class 7 無塵室，現階段進行功能及可靠度測試。設備配置與標準屬公司揭露內容，未代表已取得個別客戶產品認證。",
+            "en": "FPT reports using automated test equipment, handlers and an ISO Class 7 cleanroom for functional and reliability testing. The disclosed systems and controls do not establish customer-product qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "試產與產能定義",
+            "en": "Trial stage versus design capacity"
+          },
+          "text": {
+            "zh": "3 億顆為廠房最大設計年產能，6 條為產線數，兩者都不能代表 2026 年實際測試或封裝出貨量。公司稱首批南韓夥伴測試訂單仍在安排中。",
+            "en": "The 300 million figure is maximum annual design capacity and six is the line count; neither measures 2026 tested or packaged output. FPT says a first testing order for a South Korean partner is expected."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際稼動率、已接受驗證的晶片型號、量產良率和商業出貨起始日未公布。",
+            "en": "Utilization, qualified chip types, production yield and commercial-shipment start date are undisclosed."
+          }
+        }
+      ],
+      "metric": "300M",
+      "metricLabel": {
+        "zh": "最大設計年產能",
+        "en": "Maximum designed annual capacity"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "FPT · 北寧封測廠試運轉公告",
+            "en": "FPT · Bac Ninh trial-operation release"
+          },
+          "url": "https://en.prnasia.com/releases/apac/fpt-semiconductor-chip-testing-and-packaging-plant-officially-begins-trial-operations-in-bac-ninh-554396.shtml",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：越南北寧省安豐 II-C 工業區",
+        "en": "Project site: Yen Phong II-C Industrial Park, Bac Ninh, Vietnam"
+      },
+      "market": {
+        "eventDate": "2026-11-03",
+        "countries": {
+          "zh": "越南",
+          "en": "Vietnam"
+        },
+        "industries": {
+          "zh": "半導體；封裝；封測；測試；設備",
+          "en": "Semiconductor packaging and test equipment"
+        },
+        "chain": {
+          "zh": "晶片製造後段至封裝、封測及測試設備",
+          "en": "Back-end packaging, test and equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資額",
+            "en": "No new investment amount disclosed"
+          },
+          "demand": {
+            "zh": "公司預期承接南韓夥伴首批測試訂單，尚未公布成交量",
+            "en": "First Korean-partner testing order expected; volume undisclosed"
+          },
+          "fdi": {
+            "zh": "未公布新增外資承諾",
+            "en": "No new FDI commitment disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "增加越南境內晶片功能測試與可靠度測試的試產設施",
+            "en": "Adds a trial-stage chip functional and reliability testing facility in Vietnam"
+          },
+          "timing": {
+            "zh": "11 月 3 日公布試運轉，首批商業訂單尚未確定",
+            "en": "Trial operation announced Nov 3; first commercial order not confirmed"
+          },
+          "unknowns": {
+            "zh": "設計產能以外的實際出貨、客戶認證及良率未公布",
+            "en": "Actual output, customer qualification and yields not disclosed"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "最大設計年產能",
+            "en": "Maximum designed annual chip capacity"
+          },
+          "current": 300000000,
+          "unit": "chips",
+          "period": {
+            "zh": "設計年產能",
+            "en": "Annual nameplate capacity"
+          },
+          "owner": {
+            "zh": "FPT",
+            "en": "FPT"
+          },
+          "sourceUrl": "https://en.prnasia.com/releases/apac/fpt-semiconductor-chip-testing-and-packaging-plant-officially-begins-trial-operations-in-bac-ninh-554396.shtml",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "試產產線",
+            "en": "Trial production lines"
+          },
+          "current": 6,
+          "unit": "lines",
+          "period": {
+            "zh": "2026 年 11 月試運轉",
+            "en": "November 2026 trial operations"
+          },
+          "owner": {
+            "zh": "FPT",
+            "en": "FPT"
+          },
+          "sourceUrl": "https://en.prnasia.com/releases/apac/fpt-semiconductor-chip-testing-and-packaging-plant-officially-begins-trial-operations-in-bac-ninh-554396.shtml",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程量測與測試電源供應商而言，FPT 的試產涉及 ATE、分選與可靠度測試流程。後續需查核產品類型、測試規格與客戶認證進度，設計產能尚不足以推估設備需求量。",
+        "en": "For semiconductor measurement and test-power suppliers, the FPT trial involves ATE, handlers and reliability testing. Chip categories, test specifications and customer qualifications remain to be verified; design capacity is insufficient to estimate equipment demand."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "taiwan-netherlands-photonic-packaging-rd",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台荷公布 4 項共同研發合作，涵蓋先進光子封裝及 3.2T 光收發模組",
+        "en": "Taiwan and Netherlands detail four joint photonics R&D projects"
+      },
+      "summary": {
+        "zh": "台灣經濟部產業發展署 11 月 4 日公布與荷蘭共同徵案的 4 項跨國研發合作，涵蓋先進光子封裝、光通訊、AI 資料中心及量子技術。合作規劃研發 3.2T 光收發模組及低損耗光纖組裝，尚未公布商用量產或客戶驗證日期。",
+        "en": "Taiwan's Industrial Development Administration reported four jointly selected R&D projects with the Netherlands on November 4, covering photonic packaging, communications, AI data centers and quantum technologies. Proposed work includes 3.2T optical transceivers and low-loss fiber alignment, with no commercial-production or qualification timetable disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "上下游與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "先進光子封裝結合荷蘭精密光纖對位與台灣自動化組裝；AI 資料中心計畫包含高速光收發模組、異質整合與浸沒式液冷。合作屬研發及驗證階段。",
+            "en": "Photonic packaging combines Dutch high-precision fiber alignment with Taiwan's automated assembly. The AI data-center work includes high-speed optics, heterogeneous integration and immersion cooling; it remains R&D and validation."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時點",
+            "en": "Announcement timing"
+          },
+          "text": {
+            "zh": "台荷代表於 11 月 2 日交流，11 月 3 日赴荷蘭恩荷芬的 PIC Summit Europe，並見證工研院、TOSIA 與 PhotonDelta 簽署合作備忘錄；11 月 4 日由台灣產發署公布。",
+            "en": "Bilateral representatives met November 2; delegates attended PIC Summit Europe in Eindhoven on November 3, when ITRI, TOSIA and PhotonDelta signed a memorandum. Taiwan's agency released the details November 4."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "四案預算、參與公司的個別分工、3.2T 光模組規格及客戶量產導入日未公開。",
+            "en": "Project budgets, partner work shares, detailed 3.2T specifications and customer ramp dates remain undisclosed."
+          }
+        }
+      ],
+      "metric": "4",
+      "metricLabel": {
+        "zh": "跨國研發合作",
+        "en": "Joint R&D projects"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 引述經濟部產發署公告",
+            "en": "CNA · Taiwan IDA R&D announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040086.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "活動場地：荷蘭恩荷芬 PIC Summit Europe；非晶圓廠或專案設址",
+        "en": "Event venue: PIC Summit Europe, Eindhoven, Netherlands; not a project site"
+      },
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣；荷蘭",
+          "en": "Taiwan; Netherlands"
+        },
+        "industries": {
+          "zh": "光子封裝；設備；零組件；資料中心；液冷",
+          "en": "Photonic packaging; tools; data centers; liquid cooling"
+        },
+        "chain": {
+          "zh": "精密設備及零組件至光子封裝、資料中心與液冷",
+          "en": "Precision tools and parts to photonic packaging, data centers and liquid cooling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "合作研發預算未公布",
+            "en": "R&D project budgets undisclosed"
+          },
+          "demand": {
+            "zh": "開發高速光通訊技術，未揭露採購訂單",
+            "en": "Developing high-speed optical communications; no purchase orders disclosed"
+          },
+          "fdi": {
+            "zh": "未公布新的跨境資本投資",
+            "en": "No new cross-border capital commitment disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "直接涉及光纖對位、先進封裝、自動化設備與資料中心光連接",
+            "en": "Directly addresses fiber alignment, packaging, automation and optical data-center links"
+          },
+          "timing": {
+            "zh": "11 月 2 至 3 日交流與簽署，11 月 4 日公布",
+            "en": "Meetings and signing Nov 2–3; announced Nov 4"
+          },
+          "unknowns": {
+            "zh": "經費、產業夥伴產品驗證與量產時程未公布",
+            "en": "Budgets, partner qualifications and commercialization dates undisclosed"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "共同研發合作",
+            "en": "Joint R&D projects"
+          },
+          "current": 4,
+          "unit": "projects",
+          "period": {
+            "zh": "2026 年 11 月公布",
+            "en": "Announced Nov 2026"
+          },
+          "owner": {
+            "zh": "台灣經濟部產業發展署，由中央社報導",
+            "en": "Taiwan IDA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040086.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對先進封裝量測、精密製程控制與電源設備供應商而言，技術合作涵蓋光纖對位、異質整合及浸沒式液冷。需要進一步確認示範線規格與驗證設備需求，目前仍屬研發階段。",
+        "en": "For packaging metrology, precision process controls and power-system suppliers, the research spans fiber alignment, heterogeneous integration and immersion cooling. Pilot-line specifications and validation requirements are unconfirmed at the R&D stage."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "lg-cns-jakarta-30mw-ai-datacenter",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "LG CNS 在雅加達完成 30MW AI 資料中心，後續 400MW 仍屬規劃",
+        "en": "LG CNS completes 30MW Jakarta AI data center; 400MW remains planned"
+      },
+      "summary": {
+        "zh": "LG CNS 於 11 月 2 日公告，印尼雅加達 30MW AI 資料中心已完工，並稱完工前已取得全數容量對應的客戶承租安排，11 月 1 日曾舉行完工典禮。公司另規劃後續階段將整體受電容量擴至 400MW，目前尚未完工。",
+        "en": "LG CNS announced on November 2 that a 30MW AI data center in Jakarta was completed, with a completion ceremony held November 1. The company says the initial capacity was contracted before completion, while a later expansion to 400MW of received power remains in design."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供電與冷卻設施",
+            "en": "Power and cooling"
+          },
+          "text": {
+            "zh": "LG CNS 表示，已建構可支援單機櫃逾 300kW 的配電系統，首階段採氣冷，未來階段才規劃加入液冷；LG 電子的空調及 LG Energy Solution 電池納入專案。",
+            "en": "LG CNS says the facility has electrical distribution designed for racks exceeding 300kW. Phase one uses air cooling, with liquid cooling planned later; LG Electronics HVAC and LG Energy Solution batteries are integrated."
+          }
+        },
+        {
+          "label": {
+            "zh": "規模定義",
+            "en": "Capacity definitions"
+          },
+          "text": {
+            "zh": "30MW 為此次完工設施規模，400MW 為後續整體受電容量計畫，兩者涵蓋階段與定義不同。公司未公開各階段實際 IT 負載與運轉數據。",
+            "en": "The completed 30MW site figure and proposed 400MW total power intake refer to different phases and definitions. Phase-specific IT loads and operating data were not released."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際上電與營運負載、後續液冷裝機日、400MW 擴建核准與工期尚未公布。",
+            "en": "Actual energized load, liquid-cooling commissioning, permits and timing for the 400MW expansion remain undisclosed."
+          }
+        }
+      ],
+      "metric": "30MW",
+      "metricLabel": {
+        "zh": "已完工資料中心規模",
+        "en": "Completed data-center capacity"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "LG CNS · 印尼 AI 資料中心完工公告",
+            "en": "LG CNS · Indonesian data-center completion release"
+          },
+          "url": "https://connect.lgcns.com/kr/newsroom/press/detail.ax-2611-1",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：印尼雅加達；公司公告未指明街址",
+        "en": "Project site: Jakarta, Indonesia; street address not disclosed"
+      },
+      "market": {
+        "eventDate": "2026-11-01",
+        "countries": {
+          "zh": "印尼；南韓",
+          "en": "Indonesia; South Korea"
+        },
+        "industries": {
+          "zh": "資料中心；伺服器；供電；散熱；液冷",
+          "en": "Data centers; servers; power; cooling"
+        },
+        "chain": {
+          "zh": "伺服器至機房、供電、液冷散熱與資料中心",
+          "en": "Servers to power, cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次公告未公布新增金額",
+            "en": "No new investment amount announced"
+          },
+          "demand": {
+            "zh": "LG CNS 稱完工前已取得對應全數容量的客戶",
+            "en": "LG CNS says capacity was fully contracted before completion"
+          },
+          "fdi": {
+            "zh": "跨國工程建置已完成，新增 FDI 金額未揭露",
+            "en": "Cross-border project completed; new FDI amount undisclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "提供雅加達 AI 算力的機房、配電及後續冷卻規劃",
+            "en": "Adds Jakarta AI data-center infrastructure and power systems"
+          },
+          "timing": {
+            "zh": "11 月 1 日完工典禮；11 月 2 日公司公告",
+            "en": "Completion ceremony Nov 1; release Nov 2"
+          },
+          "unknowns": {
+            "zh": "實際 IT 負載及 400MW 後續階段工期不明",
+            "en": "Actual IT load and timetable for 400MW later phases unknown"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "已完工設施規模",
+            "en": "Completed facility size"
+          },
+          "current": 30,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 11 月第一階段",
+            "en": "Phase one, Nov 2026"
+          },
+          "owner": {
+            "zh": "LG CNS",
+            "en": "LG CNS"
+          },
+          "sourceUrl": "https://connect.lgcns.com/kr/newsroom/press/detail.ax-2611-1",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "後續整體受電容量目標",
+            "en": "Planned total power intake"
+          },
+          "current": 400,
+          "unit": "MW",
+          "period": {
+            "zh": "後續階段，日期未定",
+            "en": "Later stages, date unspecified"
+          },
+          "owner": {
+            "zh": "LG CNS",
+            "en": "LG CNS"
+          },
+          "sourceUrl": "https://connect.lgcns.com/kr/newsroom/press/detail.ax-2611-1",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "單機櫃配電支援門檻",
+            "en": "Rack power design threshold"
+          },
+          "current": 300,
+          "unit": "kW",
+          "period": {
+            "zh": "2026 年 11 月第一階段",
+            "en": "Phase one, Nov 2026"
+          },
+          "owner": {
+            "zh": "LG CNS",
+            "en": "LG CNS"
+          },
+          "sourceUrl": "https://connect.lgcns.com/kr/newsroom/press/detail.ax-2611-1",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高密度機櫃電源及量測供應商而言，已部署的配電架構與未來液冷階段需分開確認。400MW 是後續受電規劃，仍需核實實際負載、階段工程與設備規格。",
+        "en": "For high-density rack-power and measurement suppliers, existing electrical equipment and future liquid cooling need separate verification. The 400MW figure is a later power-intake plan; actual loads, build phases and equipment requirements remain unconfirmed."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "ntt-data-jakarta-jkt2a-12mw-open",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "NTT DATA 雅加達 JKT2A 資料中心啟用，提供 12MW IT 容量",
+        "en": "NTT DATA opens JKT2A in Jakarta with 12MW of IT load"
+      },
+      "summary": {
+        "zh": "NTT DATA 於 11 月 3 日在雅加達宣布 JKT2A 資料中心啟用，提供 12MW IT 容量，並推出連結 JKT2、JKT2A 與 JKT3 的光子網路服務。公司列明備援供電及散熱設計，但未公布租用率。",
+        "en": "NTT DATA announced the opening of JKT2A in Jakarta on November 3 with 12MW of IT capacity and a photonics-based service connecting JKT2/JKT2A with JKT3. The company specified redundant power and cooling architecture but did not disclose occupancy."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與機房設計",
+            "en": "Supply chain and facility design"
+          },
+          "text": {
+            "zh": "公司公告 JKT2A 採雙變電站、2N UPS、N+1 備用發電機及空調冷卻，屬設施設計規格。JKT2 現有逾 240 家網路服務業者，JKT2A 可與其連接。",
+            "en": "The facility is designed with dual substations, 2N UPS, N+1 generators and air-cooling infrastructure. The adjacent JKT2 interconnects with more than 240 network providers."
+          }
+        },
+        {
+          "label": {
+            "zh": "時間與連線",
+            "en": "Timing and connectivity"
+          },
+          "text": {
+            "zh": "同步啟用的 APN Connect 使用全光網路連結相距約 35 公里的資料中心，以支援跨站點資料同步及備援。35 公里是站點間約略距離，並非資料中心新建容量。",
+            "en": "APN Connect uses an all-photonics network between facilities roughly 35km apart for cross-site synchronization and resilience. The distance is a network span, not additional computing capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "承租率、開站後實際用電、客戶組合與 AI 設備配置未公布。",
+            "en": "Occupancy, live power draw, customer mix and AI hardware deployments were not disclosed."
+          }
+        }
+      ],
+      "metric": "12MW",
+      "metricLabel": {
+        "zh": "已公布 IT 容量",
+        "en": "Published IT capacity"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "NTT DATA · JKT2A 啟用公告",
+            "en": "NTT DATA · JKT2A opening release"
+          },
+          "url": "https://www.nttdata.com/en-us/news/2026/ntt-data-opens-jakarta-data-center",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：印尼雅加達 NTT Global Data Centers 園區 JKT2A",
+        "en": "Project site: NTT Global Data Centers' JKT2A campus, Jakarta, Indonesia"
+      },
+      "market": {
+        "eventDate": "2026-11-03",
+        "countries": {
+          "zh": "印尼；日本",
+          "en": "Indonesia; Japan"
+        },
+        "industries": {
+          "zh": "資料中心；機房；供電；散熱；網路零組件",
+          "en": "Data centers; power; cooling; optical networking"
+        },
+        "chain": {
+          "zh": "網路零組件至供電與資料中心",
+          "en": "Networking parts to power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增工程投資額",
+            "en": "Capital spending amount undisclosed"
+          },
+          "demand": {
+            "zh": "12MW IT 容量已公告，承租需求未量化",
+            "en": "12MW IT capacity announced; leasing demand not quantified"
+          },
+          "fdi": {
+            "zh": "日本企業在印尼的已完工設施，新增 FDI 額未公布",
+            "en": "Japanese company's completed Indonesian facility; new FDI not stated"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "雅加達新增可供企業及 AI 工作負載使用的 IT 容量",
+            "en": "Additional Jakarta IT capacity for enterprise and AI loads"
+          },
+          "timing": {
+            "zh": "11 月 3 日正式宣布啟用",
+            "en": "Opening announced Nov 3"
+          },
+          "unknowns": {
+            "zh": "出租率與實際 IT 負載未公布",
+            "en": "Occupancy and operating IT load undisclosed"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新設施 IT 容量",
+            "en": "New facility IT capacity"
+          },
+          "current": 12,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 11 月啟用",
+            "en": "Opened Nov 2026"
+          },
+          "owner": {
+            "zh": "NTT DATA",
+            "en": "NTT DATA"
+          },
+          "sourceUrl": "https://www.nttdata.com/en-us/news/2026/ntt-data-opens-jakarta-data-center",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機房 UPS、電源轉換及量測供應商而言，NTT DATA 公布了 12MW IT 容量與備援架構。後續需確認實際上電量、供應設備清單及服務使用率，現有資料不足以量化新增採購。",
+        "en": "For UPS, power conversion and data-center metrology vendors, NTT DATA disclosed 12MW of IT capacity and power redundancy. Actual energized load, equipment vendors and service utilization remain unknown."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "chicony-power-q3-2026-shortage",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "群電第三季營收 74.14 億元、淨利 1.44 億元，反映筆電與測試設備缺料",
+        "en": "Chicony Power Q3 sales reach NT$7.414B; net profit NT$144M"
+      },
+      "summary": {
+        "zh": "台灣電源供應器廠群光電能 11 月 4 日公布第三季營收新台幣 74.14 億元，年減約 18%，歸母淨利 1.44 億元，年減約 8 成。公司表示，筆電記憶體缺貨及伺服器測試設備短缺影響部分客戶拉貨時程。",
+        "en": "Taiwan power-supply maker Chicony Power reported Q3 revenue of NT$7.414 billion on November 4, down about 18% year on year, and parent-attributable profit of NT$144 million, down about 80%. The company cited notebook memory shortages and testing-equipment constraints that delayed some server-power customer orders."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "營運數據",
+            "en": "Operating results"
+          },
+          "text": {
+            "zh": "第三季營收季減 12.2%，歸母淨利季減 82.3%，毛利率為 12%，較前季減少 1.1 個百分點；年增率、季增率與毛利率變化採不同比較基準，不宜混為同一成長率。",
+            "en": "Q3 revenue declined 12.2% sequentially, parent-attributable profit fell 82.3% sequentially, and gross margin was 12%, down 1.1 percentage points quarter on quarter. The measures use distinct comparison bases."
+          }
+        },
+        {
+          "label": {
+            "zh": "供應鏈與產品",
+            "en": "Supply chain and products"
+          },
+          "text": {
+            "zh": "公司稱筆電電源受到記憶體短缺衝擊，伺服器電源又受關鍵零件與測試設備供給限制；通訊電源需求維持。這些為公司的營運說明，未提供各產品線缺料數量。",
+            "en": "The company attributed weaker notebook-power pull-through to memory shortages and said server-power shipments were delayed by components and test equipment. It also reported continued communications-power demand, without quantifying shortages by product."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "伺服器電源遞延訂單金額、測試設備供應商及修復時程未公布。",
+            "en": "The value of delayed server-power orders, affected test-equipment suppliers and recovery timing were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$7.414B",
+      "metricLabel": {
+        "zh": "第三季營收",
+        "en": "Q3 revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 群電第三季財報報導",
+            "en": "CNA · Chicony Power Q3 report"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040172.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 財報與毛利率",
+            "en": "Liberty Times · earnings and margin"
+          },
+          "url": "https://ec.ltn.com.tw/amp/article/breakingnews/5629054",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源；記憶體；伺服器；PC；測試",
+          "en": "Power supplies; memory; servers; PCs; testing"
+        },
+        "chain": {
+          "zh": "記憶體與測試設備至 PC、伺服器電源",
+          "en": "Memory and test equipment to PCs and server power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增投資",
+            "en": "No new investment reported"
+          },
+          "demand": {
+            "zh": "公司指出部分伺服器電源客戶拉貨延後",
+            "en": "Company reported delays in some server-power orders"
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI",
+            "en": "No new FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "提供電源供應商的營運實績及缺料影響",
+            "en": "Reports power-supply earnings and component constraints"
+          },
+          "timing": {
+            "zh": "11 月 4 日發布 2026 年第三季實績",
+            "en": "Q3 2026 results released Nov 4"
+          },
+          "unknowns": {
+            "zh": "遞延訂單金額、缺料數量及修復日未公開",
+            "en": "Delayed-order value, shortages and recovery dates undisclosed"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 7.414,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "群光電能，由中央社報導",
+            "en": "Chicony Power, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040172.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.18,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 0.144,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "群光電能，由中央社報導",
+            "en": "Chicony Power, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040172.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.823,
+          "baseStatus": "No directly reported comparable base"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.12,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "群光電能，由中央社報導",
+            "en": "Chicony Power, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040172.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源與測試量測設備業者而言，群電披露記憶體及測試設備短缺影響拉貨時程。需分別核實筆電需求與伺服器電源測試瓶頸，財報未量化延遲訂單金額。",
+        "en": "For server-power and test-equipment suppliers, Chicony described component and testing bottlenecks affecting customer pull-through. Notebook demand and server-test constraints should be separately verified; the company gave no delayed-order amount."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taipower-gas-plan-2026-2036",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台電董事長稱未來十年天然氣新機組規劃約 25.98GW",
+        "en": "Taipower chair outlines 25.98GW of planned gas-fired units over ten years"
+      },
+      "summary": {
+        "zh": "台電董事長曾文生 11 月 4 日在受訪報導中表示，台電與民營電廠未來十年已規劃的天然氣新機組裝置容量合計約 25.98GW，並以現有約 39GW 用電負載說明供電計畫。此為新增機組容量規劃，尚未等同淨新增可供電量或全部工程已獲准。",
+        "en": "Taipower chair Tseng Wen-sheng said in an interview reported on November 4 that Taipower and independent producers plan around 25.98GW of new gas-fired nameplate capacity over ten years, compared with a current load of roughly 39GW. Planned gross unit capacity is not net deliverable power or confirmation that all projects are permitted."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與供電鏈",
+            "en": "Power-system context"
+          },
+          "text": {
+            "zh": "台電表示，半導體與資料中心用電需求需同步考慮發電、輸電及特高壓設備，電源鄰近大用戶可減少長距離送電損耗。",
+            "en": "Taipower says semiconductor and data-center power demand involves generation, transmission and extra-high-voltage equipment; proximity to generation can reduce transmission losses."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字比較基礎",
+            "en": "Comparison basis"
+          },
+          "text": {
+            "zh": "25.98GW 是未來十年規劃的天然氣機組裝置容量，39GW 為受訪時引用的用電負載；容量與負載不同，且未扣除機組除役、檢修或電網限制。",
+            "en": "The 25.98GW is planned gas nameplate capacity while 39GW is cited electricity load. These are different measures, and the comparison does not net out retirements, maintenance or grid constraints."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各機組核准、併網日期、淨增可用容量及區域輸電限制未逐項列出。",
+            "en": "Unit-level permits, grid connection dates, net available additions and regional transmission constraints were not detailed."
+          }
+        }
+      ],
+      "metric": "25.98GW",
+      "metricLabel": {
+        "zh": "十年天然氣新機組規劃",
+        "en": "Ten-year planned gas capacity"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台電董事長專訪報導",
+            "en": "CNA · Taipower chair interview"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611040132.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；供電；資料中心；晶圓；投資",
+          "en": "Electricity; power; data centers; wafer fabs; investment"
+        },
+        "chain": {
+          "zh": "電力及供電設施至晶圓廠與資料中心",
+          "en": "Power infrastructure for wafer fabs and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "工程投資額未在受訪報導量化",
+            "en": "Project spending not quantified in the interview"
+          },
+          "demand": {
+            "zh": "董事長引述目前用電負載約 39GW，並提及半導體與資料中心需求",
+            "en": "Chair cited current load of about 39GW and fab/data-center needs"
+          },
+          "fdi": {
+            "zh": "未公布 FDI 變化",
+            "en": "No FDI change disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "發電規劃與高科技用電及配電設備具直接關係",
+            "en": "Generation plans directly relate to tech-industry power supply"
+          },
+          "timing": {
+            "zh": "11 月 4 日專訪報導；規劃涵蓋未來十年",
+            "en": "Interview reported Nov 4; plans span ten years"
+          },
+          "unknowns": {
+            "zh": "機組逐案許可、除役調整及實際淨增容量不明",
+            "en": "Project permits, retirements and net additions undisclosed"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "規劃天然氣機組裝置容量",
+            "en": "Planned gas generation nameplate capacity"
+          },
+          "current": 25.98,
+          "unit": "GW",
+          "period": {
+            "zh": "2026 至 2036 年規劃",
+            "en": "Plans for 2026–36"
+          },
+          "owner": {
+            "zh": "台電董事長，由中央社報導",
+            "en": "Taipower chair, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611040132.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工廠與資料中心電源轉換、量測及控制設備業者而言，台電規劃涵蓋發電、輸電與高壓配電。需先核對個別案場、送電計畫與實際負載，不能以 25.98GW 推導即期設備需求。",
+        "en": "For industrial and data-center power conversion, measurement and controls, the plan encompasses generation and high-voltage transmission. Project sites, grid schedules and actual loads require verification; 25.98GW does not establish near-term equipment demand."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "walsin-nuclear-supply-jv-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "華新麗華等 4 家台灣企業簽約設立核能設備合資公司",
+        "en": "Four Taiwan companies sign agreement for nuclear supply-chain venture"
+      },
+      "summary": {
+        "zh": "華新麗華 11 月 3 日宣布，與世紀能源設備、高力熱處理工業及泰豐貿易簽約成立華新世紀核能系統，將整合核用材料、精密製造、銲接與熱交換技術。公司尚未公布新合資公司的資本額、訂單或核能專案核准資訊。",
+        "en": "Walsin Lihwa announced on November 3 that it signed an agreement with Century Energy Equipment, Kaori Heat Treatment and Tai-Feng Trading to form a nuclear-supply-chain venture. The partners cited materials, precision manufacturing, welding and heat-transfer expertise but did not disclose the venture's capital, orders or approved projects."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈分工",
+            "en": "Industrial supply chain"
+          },
+          "text": {
+            "zh": "華新麗華列出不銹鋼、鎳基合金、核用管材與電纜；世紀能源設備提供重件製造及銲接；高力提供熱交換與精密製造能力，泰豐貿易協助商務聯繫。",
+            "en": "Walsin cites stainless steel, nickel alloys, nuclear-grade tubes and cables; Century supplies heavy fabrication and welding expertise, Kaori heat exchangers and precision manufacturing, and Tai-Feng commercial services."
+          }
+        },
+        {
+          "label": {
+            "zh": "商業與政策狀態",
+            "en": "Commercial and regulatory status"
+          },
+          "text": {
+            "zh": "公司稱初期優先面向海外核能市場及國內既有核電設備與材料需求，並研議未來小型模組化反應器相關製造能力。簽約不代表任何特定電廠案已獲核准或開工。",
+            "en": "The company says it will initially address overseas markets and existing domestic nuclear equipment needs, while exploring future modular-reactor manufacturing. Signing the venture does not establish approval or construction of any reactor project."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "合資持股、資本額、核能組件認證狀態及簽約訂單尚未公開。",
+            "en": "Equity stakes, capital, component certifications and contracted orders were not disclosed."
+          }
+        }
+      ],
+      "metric": "4",
+      "metricLabel": {
+        "zh": "參與設立合資公司",
+        "en": "Venture partners"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "華新麗華 · 核能供應鏈合資公告",
+            "en": "Walsin Lihwa · nuclear venture announcement"
+          },
+          "url": "https://www.walsin.com/%E8%8F%AF%E6%96%B0%E9%BA%97%E8%8F%AF%E6%94%9C%E6%89%8B%E7%94%A2%E6%A5%AD%E5%A4%A5%E4%BC%B4%E5%BC%B7%E5%BC%B7%E8%81%AF%E6%89%8B-%E5%85%B1%E7%AF%89%E5%8F%B0%E7%81%A3%E6%A0%B8%E8%83%BD%E4%BE%9B/",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-03",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；設備；零組件；電力；投資",
+          "en": "Materials; equipment; components; power; investment"
+        },
+        "chain": {
+          "zh": "材料與製造設備至電力系統及產業投資",
+          "en": "Materials and fabrication tools to power systems and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "成立合資公司，資本額未公布",
+            "en": "Venture formed; capital amount undisclosed"
+          },
+          "demand": {
+            "zh": "擬開拓海外核能及國內既有設備市場，未揭露訂單",
+            "en": "Targets overseas and existing domestic nuclear equipment markets; no orders disclosed"
+          },
+          "fdi": {
+            "zh": "未公布跨境投資金額",
+            "en": "No cross-border investment value reported"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及電力相關金屬材料、銲接與熱交換製造鏈",
+            "en": "Addresses metals, welding and heat-transfer manufacturing for power systems"
+          },
+          "timing": {
+            "zh": "11 月 3 日簽署設立協議",
+            "en": "Agreement signed Nov 3"
+          },
+          "unknowns": {
+            "zh": "認證、資本額、實際訂單及專案核准尚未明朗",
+            "en": "Certifications, capital, orders and permits not established"
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "簽約企業數",
+            "en": "Participating companies"
+          },
+          "current": 4,
+          "unit": "companies",
+          "period": {
+            "zh": "2026 年 11 月 3 日",
+            "en": "Nov 3, 2026"
+          },
+          "owner": {
+            "zh": "華新麗華",
+            "en": "Walsin Lihwa"
+          },
+          "sourceUrl": "https://www.walsin.com/%E8%8F%AF%E6%96%B0%E9%BA%97%E8%8F%AF%E6%94%9C%E6%89%8B%E7%94%A2%E6%A5%AD%E5%A4%A5%E4%BC%B4%E5%BC%B7%E5%BC%B7%E8%81%AF%E6%89%8B-%E5%85%B1%E7%AF%89%E5%8F%B0%E7%81%A3%E6%A0%B8%E8%83%BD%E4%BE%9B/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "No directly reported comparable base"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源控制、量測與熱管理設備業者而言，合資計畫涉及核能材料、熱交換器與大型設備製造。須先查證合資公司資本、認證與實際專案進度，公告未構成新增供應合約的證據。",
+        "en": "For industrial power controls, metrology and thermal-management suppliers, the venture covers nuclear materials, heat exchangers and heavy fabrication. Capital, certification and contracted projects remain unverified; the announcement is not evidence of new supply orders."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "150 億美元與 1GW 都屬什麼數字？",
+        "en": "What is the status of US$15B and 1GW?"
+      },
+      "text": {
+        "zh": "Google 將前者列為 2027 至 2028 年投資計畫，後者為未來新增潔淨能源容量目標；工程進度與採購尚未逐項公布。",
+        "en": "Google presents the first as planned 2027–28 spending and the second as a clean-energy capacity target. Project timing and procurement have not been detailed."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "3 億顆設計產能是否代表目前出貨？",
+        "en": "Does the 300 million capacity indicate current shipments?"
+      },
+      "text": {
+        "zh": "FPT 的數字為最大設計年產能，試運轉中的稼動率、量產良率與已完成訂單仍未知。",
+        "en": "FPT states a maximum design rate; trial-stage utilization, commercial yield and completed orders remain undisclosed."
+      }
+    },
+    {
+      "id": 7,
+      "question": {
+        "zh": "25.98GW 與 39GW 可以直接相減嗎？",
+        "en": "Can 25.98GW be directly compared with 39GW?"
+      },
+      "text": {
+        "zh": "前者是未來新天然氣機組的規劃裝置容量，後者是受訪時引用的用電負載；兩者定義不同，且未計除役與輸電限制。",
+        "en": "The former is proposed new gas nameplate generation capacity; the latter is a cited electricity load. Retirements and transmission constraints are not accounted for."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "既有台灣製造業數據",
+        "en": "Earlier Taiwan manufacturing data"
+      },
+      "text": {
+        "zh": "中華經濟研究院於 11 月 2 日公布台灣 10 月製造業 PMI 為 62.5，相關數據已收錄在 11 月 3 日日報，本期僅作日期明確的背景。",
+        "en": "Taiwan's CIER released an October manufacturing PMI of 62.5 on November 2. That statistic appears in the November 3 edition and remains dated background here."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料註記",
+      "en": "Data notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "光寶第三季財報",
+        "en": "LITEON Q3 results"
+      },
+      "text": {
+        "zh": "部分媒體於 11 月 4 日再度報導，但公司原始財報公告日期為 10 月 30 日，未以舊財報重新入選。",
+        "en": "Some coverage resurfaced on November 4, but the company's original results release was October 30, so the older earnings report was not republished as new."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "Google 投資由 Reuters 與 Malay Mail 引述 11 月 4 日公司公告，未取得可直接查閱的 Google 原始稿；群電與台電數據亦依媒體報導核對。金額、設計產能及長期供電規劃已分別標示狀態，尚未公開的工程時程與客戶訂單保留未確認。",
+    "en": "Google's announcement was checked through Reuters and Malay Mail; a directly accessible Google primary release was unavailable. Chicony Power and Taipower figures were cross-checked in reporting. Planned spending, design capacity and long-term power proposals are labelled by status; project timetables and orders remain unresolved."
+  }
+}

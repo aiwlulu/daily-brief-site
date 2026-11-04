@@ -1,21 +1,59 @@
 {
   "weekStart": "2026-11-01",
-  "generatedAt": "2026-11-03T01:50:57.076Z",
+  "generatedAt": "2026-11-04T12:55:00.000Z",
   "throughline": {
-    "zh": "台灣及東南亞電子製造鏈本週新增客戶驗收的光通訊產品、越南配電設備廠投產進度與各地製造業調查，同時保留晶片、記憶體和政策資料的原始時點。",
-    "en": "This week's Taiwan and Southeast Asian coverage includes qualified optical products, Vietnam power-equipment production and manufacturing surveys, alongside dated chip, memory and policy disclosures."
+    "zh": "本週台灣與東南亞陸續公布資料中心工程與供電規劃、半導體測試設施試運轉及光通訊研發合作，已完工設施與未來目標均分別標示。",
+    "en": "This week's Taiwan and Southeast Asian releases cover operating data centers, power plans, chip-testing trials and photonics research, with completed capacity distinguished from future targets."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "tech",
+      "category": "global",
       "title": {
-        "zh": "光通訊、AI 晶片及網路互連",
-        "en": "Optical interconnects, AI chips and networking"
+        "zh": "馬來西亞資料中心投資、印尼機房與電力供應",
+        "en": "Malaysia data-center investment, Indonesian facilities and power"
       },
       "summary": {
-        "zh": "聯發科對 AI ASIC 市占提出 2027 年預估，毅嘉 11 月 2 日則證實馬來西亞居林光通訊產品通過客戶驗證並量產。TrendForce 同日提出 2027 年全球網路互連 2,798 億美元市場預測；產品驗收、公司指引與研究估計各自獨立。",
-        "en": "MediaTek's 2027 ASIC outlook is a forecast, while IChia confirmed qualified optical production in Kulim on November 2. TrendForce projected US$279.8B in global interconnect revenue for 2027, distinct from supplier acceptance and booked sales."
+        "zh": "Google 11 月 4 日公布馬來西亞 2027 至 2028 年投資 150 億美元的計畫；LG CNS 與 NTT DATA 分別揭露雅加達 30MW 已完工設施及 12MW IT 容量新機房。台電另說明未來十年天然氣新機組規劃，鴻海亞灣超算與越南宏于電機則公布既有供電、液冷與配電設施進度。",
+        "en": "Google announced planned US$15B Malaysian investment for 2027–28, while LG CNS and NTT DATA detailed a completed 30MW Jakarta facility and a new site with 12MW of IT capacity. Taipower outlined future gas capacity, and Foxconn Visionbay and Horng Yu discussed cooling and electrical infrastructure."
+      },
+      "references": [
+        {
+          "date": "2026-11-02",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-03",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-04",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-04",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-04",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-04",
+          "storyId": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "tech",
+      "title": {
+        "zh": "光子封裝、高速光通訊與 AI 晶片",
+        "en": "Photonic packaging, optical links and AI chip design"
+      },
+      "summary": {
+        "zh": "毅嘉公布馬來西亞光通訊產品通過客戶認證，台荷 11 月 4 日公布 4 項共同光子研發合作，涉及先進封裝與 3.2T 光收發模組。TrendForce 公布 2027 年互連市場預測，聯發科另提出 AI ASIC 市占預測，均須與已實現出貨區分。",
+        "en": "IChia reported qualified Malaysian optical products, while Taiwan and the Netherlands detailed four photonics R&D projects covering packaging and 3.2T optics. TrendForce's interconnect estimates and MediaTek's AI ASIC outlook remain forecasts rather than realized shipments."
       },
       "references": [
         {
@@ -29,28 +67,10 @@
         {
           "date": "2026-11-03",
           "storyId": 5
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "global",
-      "title": {
-        "zh": "資料中心供電、液冷與越南配電產線",
-        "en": "Data-center power, liquid cooling and Vietnam switchgear"
-      },
-      "summary": {
-        "zh": "鴻海亞灣超算 10 月 31 日說明資料中心採用液冷的技術方向，但未公告新增 MW。宏于 11 月 2 日表示越南興安新廠第三季已投產，預製型變電站及滿載產能數字仍有後續試產與驗收節點。",
-        "en": "Visionbay described liquid cooling in recent data-center deployments without new energized MW. Horng Yu said its Hung Yen power-equipment factory began production in Q3, with prefabricated substations and full-utilization capacity still subject to later milestones."
-      },
-      "references": [
-        {
-          "date": "2026-11-02",
-          "storyId": 3
         },
         {
-          "date": "2026-11-03",
-          "storyId": 4
+          "date": "2026-11-04",
+          "storyId": 3
         }
       ]
     },
@@ -58,21 +78,51 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "台灣與東南亞製造調查及半導體貿易",
-        "en": "Taiwan and Southeast Asian manufacturing surveys and chip trade"
+        "zh": "越南晶片測試試產、半導體貿易與設備投資",
+        "en": "Vietnam chip-testing trials, chip trade and equipment investment"
       },
       "summary": {
-        "zh": "南韓 11 月 1 日公布對東協出口及半導體貿易數字；11 月 2 日台灣、馬來西亞與越南的製造業 PMI 新值顯示營運仍在擴張區間，但部分電子零組件、原料價格及交貨條件有壓力。PMI 屬調查指數，不能與出口金額直接比較。",
-        "en": "South Korea released ASEAN and chip trade data on November 1. Manufacturing PMIs published November 2 show expansion in Taiwan, Malaysia and Vietnam alongside input-cost and delivery constraints; diffusion indices are distinct from trade-value growth."
+        "zh": "FPT 11 月 3 日公布北寧封測廠開始試運轉，最大設計年產能為 3 億顆，實際出貨與良率尚未揭露。南韓對東協半導體出口統計及台灣第三季半導體設備進口增長，提供不同日期的區域供應鏈背景。",
+        "en": "FPT began trial operations at its Bac Ninh test and packaging facility with nameplate capacity of 300 million chips per year; shipments and yields are undisclosed. Korea's ASEAN semiconductor exports and Taiwan's Q3 equipment imports provide separately dated regional context."
       },
       "references": [
+        {
+          "date": "2026-11-01",
+          "storyId": 3
+        },
         {
           "date": "2026-11-02",
           "storyId": 1
         },
         {
+          "date": "2026-11-04",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "taiwan",
+      "title": {
+        "zh": "電子製造景氣、記憶體缺料與電源供應商財報",
+        "en": "Electronics manufacturing, memory constraints and power-supply earnings"
+      },
+      "summary": {
+        "zh": "11 月初的台灣、馬來西亞及越南製造業 PMI 調查呈現不同的新訂單與交期情況。群光電能 11 月 4 日公布第三季營收 74.14 億元，指出筆電記憶體與伺服器測試設備短缺影響部分產品供應。",
+        "en": "Early-November manufacturing PMI releases described differing order flows and supplier delivery times across Taiwan, Malaysia and Vietnam. Chicony Power reported Q3 revenue of NT$7.414B and linked shipment delays to notebook memory and server test-equipment shortages."
+      },
+      "references": [
+        {
+          "date": "2026-11-02",
+          "storyId": 2
+        },
+        {
           "date": "2026-11-03",
           "storyId": 2
+        },
+        {
+          "date": "2026-11-03",
+          "storyId": 3
         },
         {
           "date": "2026-11-03",
@@ -81,32 +131,14 @@
         {
           "date": "2026-11-03",
           "storyId": 7
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "category": "taiwan",
-      "title": {
-        "zh": "記憶體成本、設備交期與 PC 晶片營運",
-        "en": "Memory costs, equipment lead times and PC-chip results"
-      },
-      "summary": {
-        "zh": "台灣手機品牌 11 月 1 日受訪談記憶體成本及機型策略，旺宏董事長 11 月 2 日指出記憶體設備交期拉長、價格上升。義隆電同日公布第三季營收季減 30.7%，並將部分整機出貨下滑歸因於零件供應不均；不同公司的原因與數據不能直接混算。",
-        "en": "Taiwan smartphone vendors discussed memory costs on November 1; Macronix management cited longer equipment lead times and higher prices on November 2. Elan reported a 30.7% sequential fall in Q3 revenue and pointed to uneven PC component supply, with different company metrics kept separate."
-      },
-      "references": [
-        {
-          "date": "2026-11-02",
-          "storyId": 2
-        },
-        {
-          "date": "2026-11-03",
-          "storyId": 3
         },
         {
           "date": "2026-11-03",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-04",
+          "storyId": 6
         }
       ]
     },
@@ -114,22 +146,14 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "研發、設備投資與零組件追溯政策",
-        "en": "R&D, equipment investment and component traceability"
+        "zh": "台灣核能設備合資、研發投入與跨境供應鏈",
+        "en": "Taiwan energy-equipment venture, R&D and cross-border supply chains"
       },
       "summary": {
-        "zh": "內政部公布無人機晶片來源清查，主計總處揭露第三季半導體設備進口與 GDP 概估，國科會另提供 2025 年研發經費歷史統計。日工商會對材料、精密設備及綠電的意見屬產業團體觀點，各項政策、統計與投資時間均有明確區別。",
-        "en": "The Interior Ministry reviewed drone component origins; Taiwan reported Q3 equipment imports and GDP estimates, while NSTC disclosed historical 2025 R&D spending. Japan's chamber also discussed materials, tools and renewable power, with policy positions and historical statistics distinguished."
+        "zh": "華新麗華等 4 家企業 11 月 3 日簽約成立核能設備供應鏈合資公司，尚未公開資本額與訂單。台灣此前公布研發支出統計及日商會對半導體材料與設備供應鏈的看法，資料各有原始發布日期。",
+        "en": "Four Taiwan companies signed a November 3 nuclear-equipment venture agreement without disclosing capital or orders. Previously reported R&D spending and Japanese industry observations on semiconductor materials and equipment provide dated context."
       },
       "references": [
-        {
-          "date": "2026-11-01",
-          "storyId": 1
-        },
-        {
-          "date": "2026-11-01",
-          "storyId": 3
-        },
         {
           "date": "2026-11-02",
           "storyId": 4
@@ -137,6 +161,10 @@
         {
           "date": "2026-11-02",
           "storyId": 5
+        },
+        {
+          "date": "2026-11-04",
+          "storyId": 8
         }
       ]
     }
