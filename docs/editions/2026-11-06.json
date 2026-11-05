@@ -1,0 +1,2027 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-05T14:48:54.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "截至 2026 年 11 月 5 日晚間的台灣與東南亞半導體、資料中心、電源與製造供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductors, data centers, power and manufacturing through Nov 5, 2026"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣公布高階封測與石英材料投資核准，馬來西亞披露機房融資與半導體設備零件廠擴建，而美光桃園新廠工程消息仍待核實。",
+    "en": "Taiwan approved packaging and quartz investments, Malaysia disclosed data-center funding and semiconductor-equipment component capacity plans, and reports about Micron's Taoyuan construction remain unverified."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "經濟部通過日月光約 1,237 億元高階封測投資案，規劃增聘 3,553 人。",
+        "en": "Taiwan approved ASE's proposed NT$123.7B packaging/test investment and 3,553 planned hires."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "外媒稱美光桃園新廠暫緩施工，美光表示現有台灣營運正常，停工範圍仍未確認。",
+        "en": "Micron says Taiwan operations are normal amid unverified reports of a Taoyuan construction pause."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "PDG 宣布取得約 13 億美元融資擴建柔佛 JH1 資料中心，200MW 為園區設計規模。",
+        "en": "PDG secured about US$1.3B for Johor JH1; 200MW is planned campus scale."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "馬來西亞投資局揭露 Ferrotec 居林第二廠細節，兩廠累計投資約 19 億令吉。",
+        "en": "MIDA detailed Ferrotec's second Kulim plant; combined investment is about RM1.9B."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "鴻海公布 10 月營收約 1.3 兆元，雲端網路產品月減涉及客戶採購模式與供料因素。",
+        "en": "Hon Hai reported about NT$1.3T in October sales, with cloud-networking figures affected by procurement models."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "ase-2026-investment-high-end-packaging",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "經濟部核准日月光 1,237 億元高階封測投資，將擴充南台灣產線",
+        "en": "Taiwan approves ASE's NT$123.7B advanced packaging and test investment"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 5 日公告，投資臺灣事務所通過日月光半導體約 1,237 億元投資申請，將於高雄楠梓、南科高雄及台南園區擴充高階封裝測試產線，計畫增聘 3,553 人。公告屬投資核准及擴產規劃，未列出分廠產能或設備驗收時程。",
+        "en": "On November 5, Taiwan's Ministry of Economic Affairs approved ASE Semiconductor's proposed NT$123.7 billion investment across packaging and test sites in Kaohsiung and Tainan, with 3,553 planned local hires. The approval sets out a capital plan but gives no site-level output capacity or equipment acceptance schedule."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "日月光的封測供應鏈連接晶圓製造、異質整合、微系統封裝與後段測試，公告列出智能化、高異質性機器設備及製程數據分析。這些屬計畫導入技術，尚未量化對晶片測試量或封裝良率的影響。",
+            "en": "ASE's operations link wafer fabrication with heterogeneous integration, microsystem packaging and back-end test. The ministry described planned automation, diverse equipment and production-data analysis without quantifying additional tested chips or yield changes."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "經濟部 15 時公告同批 3 案合計約 1,268.7 億元，日月光為其中一案。規劃據點包括楠梓科技園區、南科高雄園區及台南園區；增聘 3,553 人為企業預估，新增職缺與生產線尚待實施。",
+            "en": "The ministry's 3 approvals total about NT$126.87 billion, of which ASE accounts for NT$123.7 billion. The named sites are Nanzih Technology Industrial Park, Southern Taiwan Science Park's Kaohsiung site and a Tainan park; the 3,553 positions remain planned hiring."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各園區實際資本支出、進機驗收、晶圓與封測新增產能及預定量產月份未公布。",
+            "en": "Site-level spending, tool acceptance, incremental wafer and test capacity, and mass-production dates were not released."
+          }
+        }
+      ],
+      "metric": "NT$123.7B",
+      "metricLabel": {
+        "zh": "核准投資規劃",
+        "en": "Approved planned investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部 · 投資臺灣 11 月 5 日核准公告",
+            "en": "MOEA · November 5 investment approvals"
+          },
+          "url": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124481",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 日月光投資案報導",
+            "en": "CNA · ASE investment coverage"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050208.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：台灣高雄楠梓科技園區、南科高雄園區及台南園區；未提供單一廠址",
+        "en": "Project sites: Nanzih and the Southern Taiwan Science Park Kaohsiung and Tainan areas; no individual street address"
+      },
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體；先進封裝；封測；測試；設備；工廠自動化；投資",
+          "en": "Semiconductors; advanced packaging; test; automation; investment"
+        },
+        "chain": {
+          "zh": "晶圓至封裝、封測及設備自動化、投資",
+          "en": "Wafer fab through packaging, test, automation and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "通過日月光約 1,237 億元擴建規劃",
+            "en": "Approved ASE's approximate NT$123.7B expansion plan"
+          },
+          "demand": {
+            "zh": "經濟部引述 AI 與 HPC 封測需求，未公布新訂單量",
+            "en": "Ministry cited AI and HPC requirements, without disclosing new orders"
+          },
+          "fdi": {
+            "zh": "國內投資方案，無新增跨境 FDI 公告",
+            "en": "Domestic investment approval; no additional FDI reported"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及高階封裝及測試產線設備、自動化與製程驗證",
+            "en": "Concerns advanced packaging/test tools, automation and process verification"
+          },
+          "timing": {
+            "zh": "11 月 5 日審議通過，工廠完工時間未公布",
+            "en": "Approved Nov 5; factory completion dates undisclosed"
+          },
+          "unknowns": {
+            "zh": "各園區實際資本支出、進機驗收、晶圓與封測新增產能及預定量產月份未公布。",
+            "en": "Site-level spending, tool acceptance, incremental wafer and test capacity, and mass-production dates were not released."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "日月光核准投資規劃",
+            "en": "ASE approved investment plan"
+          },
+          "current": 123.7,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 5 日核准",
+            "en": "Approved Nov 5, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Department of Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124481",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "規劃新增本國人力",
+            "en": "Planned local hires"
+          },
+          "current": 3553,
+          "unit": "人",
+          "period": {
+            "zh": "本次投資計畫",
+            "en": "Current investment plan"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Department of Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124481",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封裝、蝕刻後段製程電源與測試量測設備供應商而言，投資案涉及高階封測設備與製程數據整合。仍須確認各廠設備採購規範、驗收時程和實際新增封測產能，核准金額不能直接視為已下單額。",
+        "en": "For packaging process power and test/metrology suppliers, the approval encompasses advanced equipment and production-data integration. Site-level procurement specifications, acceptance timing and incremental test capacity remain unknown; the approved budget is not an equipment order."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "micron-taoyuan-plant-labor-talks",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "外媒稱美光桃園建廠計畫暫緩，美光稱在台營運正常並持續協商",
+        "en": "Micron says Taiwan operations continue amid reported Taoyuan plant pause"
+      },
+      "summary": {
+        "zh": "11 月 5 日 Bloomberg 引述消息人士稱，美光因勞資協商不確定性，暫緩桃園記憶體新廠施工；Reuters 明言無法獨立證實。美光對中央社表示台灣既有營運正常，期待與桃園工會繼續協商，經濟部則稱個別工程進度以公司說明為準。",
+        "en": "On November 5, Bloomberg reported that a Micron memory-plant project in Taoyuan was largely paused amid labor uncertainty; Reuters said it could not independently verify the claim. Micron told CNA its Taiwan operations remain normal and talks with the Taoyuan union continue; Taiwan's economic ministry referred project details to the company."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "美光在台灣布局 DRAM 記憶體製造及高階封裝，桃園新建案、台中現有工廠與其他據點的施工及營運狀態不可混用。勞資協商尚未確認會否改變已出貨產品或既有廠區產量。",
+            "en": "Micron manufactures DRAM and advanced memory-related products in Taiwan. The reported Taoyuan construction situation must be distinguished from operations at existing sites such as Taichung; effects on current output have not been established."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "路透 11 月 5 日上午報導停工主張，明列無法確認；當晚中央社引述美光回應稱，台中工會已有協議，桃園工會仍待後續會議。經濟部表示將協助勞資協商，未核定停工日期或工地剩餘工程。",
+            "en": "Reuters relayed the report on November 5 and explicitly said it was unverified. Later CNA reporting quoted Micron on a Taichung labor agreement and continuing Taoyuan negotiations. The ministry offered to facilitate discussions but did not verify a site-wide stoppage date."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "桃園新廠各工程項目的停復工範圍、設備進場時程及對既有 DRAM 出貨的影響仍無官方一致說明。",
+            "en": "The scope and duration of any Taoyuan pause, tool-delivery timetable and effects on existing DRAM shipments lack independently confirmed project-level disclosure."
+          }
+        }
+      ],
+      "metric": "待確認",
+      "metricLabel": {
+        "zh": "桃園工廠工程狀態",
+        "en": "Taoyuan construction status"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · 引述 Bloomberg 停工消息與查證限制",
+            "en": "Reuters · Bloomberg report and verification caveat"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/micron-pauses-work-45-billion-taiwan-plant-bloomberg-news-reports-2026-11-05/",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 美光公司回應",
+            "en": "CNA · Micron company response"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050327.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 經濟部說明",
+            "en": "CNA · Ministry response"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050330.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "報導所涉專案場址：台灣桃園市美光記憶體新廠，未公開可核對的街址",
+        "en": "Reported project site: Micron's new memory plant in Taoyuan, Taiwan; street address not verified"
+      },
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "DRAM；記憶體；晶圓；半導體設備；投資",
+          "en": "DRAM; memory; wafer fabs; semiconductor tools; investment"
+        },
+        "chain": {
+          "zh": "記憶體晶圓、半導體設備與建廠投資",
+          "en": "Memory wafer fabrication, tools and capital projects"
+        },
+        "changes": {
+          "investment": {
+            "zh": "媒體稱桃園新廠計畫暫緩，公司未正式確認停工範圍",
+            "en": "Media reports alleged a Taoyuan pause; company did not confirm its scope"
+          },
+          "demand": {
+            "zh": "美光稱現有營運正常，無出貨變化數據",
+            "en": "Micron said existing operations continue; no shipment changes reported"
+          },
+          "fdi": {
+            "zh": "美國業者在台建廠工程狀態待核實",
+            "en": "U.S. company's Taiwan construction status remains unverified"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及 DRAM 新廠工程、製程設備與既有供應鏈營運的區別",
+            "en": "Concerns new DRAM project construction versus ongoing production"
+          },
+          "timing": {
+            "zh": "11 月 5 日媒體報導及公司、政府回應；後續勞資會議待舉行",
+            "en": "Media reports and responses Nov 5; future labor talks pending"
+          },
+          "unknowns": {
+            "zh": "桃園新廠各工程項目的停復工範圍、設備進場時程及對既有 DRAM 出貨的影響仍無官方一致說明。",
+            "en": "The scope and duration of any Taoyuan pause, tool-delivery timetable and effects on existing DRAM shipments lack independently confirmed project-level disclosure."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對晶圓製程 RF 電源、設備與工程測試供應商而言，外媒提出的桃園停工說法仍待公司工程資訊證實。應分辨新廠驗收、設備訂單及既有產線運作，不能依未核實報導推定全面取消採購。",
+        "en": "For fab RF-power and process-tool suppliers, the reported Taoyuan project pause needs company-level confirmation. New-fab commissioning, tool orders and ongoing plant operations must be distinguished; the unverified report cannot establish canceled procurement."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "pdg-johor-jh1-green-financing",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "PDG 宣布柔佛 JH1 園區取得約 13 億美元綠色融資，200MW 為設計規模",
+        "en": "PDG secures about US$1.3B green financing for Johor JH1 campus"
+      },
+      "summary": {
+        "zh": "Princeton Digital Group 11 月 4 日宣布，已為馬來西亞柔佛 JH1 資料中心園區取得約 13 億美元綠色融資，由 6 家銀行承作，用於持續建置與擴充。JH1 位於 Sedenak Tech Park，200MW 為園區設計規模，本次並未公布新增已上線 IT 容量。",
+        "en": "Princeton Digital Group announced on November 4 that it secured around US$1.3 billion in green financing from six banks for continued development of its JH1 campus in Johor, Malaysia. The 200MW figure describes JH1's designed campus scale, not newly commissioned IT load."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "JH1 提供高密度 AI 與雲端機房基礎設施，工程範圍涉及受電、備援電源及散熱。集團表示已取得綠建築設計與營運認證，這些認證與機房運轉功率不同。",
+            "en": "JH1 is a high-density AI and cloud data-center campus involving site power, redundancy and thermal systems. Its green building certifications describe building standards rather than actual energized computing capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "PDG 指出承作銀行為 Affin、HSBC、Maybank、OCBC、Standard Chartered 及 UOB。這筆融資接續 2024 年與 2025 年的貸款安排；公司於 2026 年 3 月提出的泛亞太 50 億美元債務融資目標則屬較早規劃。",
+            "en": "PDG named Affin, HSBC, Maybank, OCBC, Standard Chartered and UOB as the six lenders. The facility follows debt arrangements in 2024 and 2025. A broader US$5 billion Asia-Pacific debt plan was announced in March 2026 and is background."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "貸款逐期動用、各機房完工和客戶驗收、實際 IT 負載及現階段配電設備採購均未明列。",
+            "en": "Loan drawdown phases, building completion and customer acceptance, current IT load and site-specific equipment orders were not disclosed."
+          }
+        }
+      ],
+      "metric": "US$1.3B",
+      "metricLabel": {
+        "zh": "已取得綠色融資約數",
+        "en": "Secured green financing"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "PDG · 11 月 4 日柔佛融資公告",
+            "en": "PDG · November 4 Johor financing release"
+          },
+          "url": "https://princetondg.com/press-releases/pdg-secures-usd-1-3-billion-for-jh1-campus-in-johor/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Data Center Dynamics · 融資與園區背景",
+            "en": "Data Center Dynamics · financing and campus context"
+          },
+          "url": "https://www.datacenterdynamics.com/en/news/apac-operator-pdg-secures-13-billion-for-malaysia-build-out/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：馬來西亞柔佛州 Sedenak Tech Park 的 JH1 資料中心園區",
+        "en": "Project site: JH1 data-center campus, Sedenak Tech Park, Johor, Malaysia"
+      },
+      "market": {
+        "eventDate": "2026-11-04",
+        "countries": {
+          "zh": "馬來西亞；新加坡",
+          "en": "Malaysia; Singapore"
+        },
+        "industries": {
+          "zh": "資料中心；電力；供電；散熱；投資；FDI",
+          "en": "Data centers; power; cooling; investment; FDI"
+        },
+        "chain": {
+          "zh": "資料中心、供電與散熱至資金投資",
+          "en": "Data-center power and cooling through project financing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司取得約 13 億美元綠色融資，用於 JH1 持續擴建",
+            "en": "Company secured about US$1.3B for continued JH1 construction"
+          },
+          "demand": {
+            "zh": "200MW 為設計規模，未揭露新增客戶用電量",
+            "en": "200MW is design capacity; no newly contracted live load given"
+          },
+          "fdi": {
+            "zh": "跨國開發商於馬來西亞的融資，未分列 FDI 流入數字",
+            "en": "Cross-border developer financing; FDI inflow not separately stated"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心資金、機房受電與散熱基礎設施",
+            "en": "Data-center financing, power and cooling infrastructure"
+          },
+          "timing": {
+            "zh": "11 月 4 日融資公告，未公告本次對應機房完工日期",
+            "en": "Financing announced Nov 4; covered building completion dates unspecified"
+          },
+          "unknowns": {
+            "zh": "貸款逐期動用、各機房完工和客戶驗收、實際 IT 負載及現階段配電設備採購均未明列。",
+            "en": "Loan drawdown phases, building completion and customer acceptance, current IT load and site-specific equipment orders were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "JH1 綠色融資",
+            "en": "JH1 green financing"
+          },
+          "current": 1.3,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 4 日公告",
+            "en": "Announced Nov 4, 2026"
+          },
+          "owner": {
+            "zh": "Princeton Digital Group",
+            "en": "Princeton Digital Group"
+          },
+          "sourceUrl": "https://princetondg.com/press-releases/pdg-secures-usd-1-3-billion-for-jh1-campus-in-johor/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "JH1 園區設計容量",
+            "en": "JH1 designed campus capacity"
+          },
+          "current": 200,
+          "unit": "MW",
+          "period": {
+            "zh": "園區設計規模",
+            "en": "Campus design scale"
+          },
+          "owner": {
+            "zh": "Princeton Digital Group",
+            "en": "Princeton Digital Group"
+          },
+          "sourceUrl": "https://princetondg.com/press-releases/pdg-secures-usd-1-3-billion-for-jh1-campus-in-johor/",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機房電源轉換、備援供電與量測設備供應商而言，融資與 200MW 園區設計規模提供工程背景。尚須確認實際上電分期、設備規格及出貨驗收，不能把融資額當成新增採購合約。",
+        "en": "For site-power conversion, redundancy and metrology suppliers, the funding and 200MW design capacity describe project scope. Energization phases, specifications and acceptance remain unconfirmed; financing does not equal new purchase orders."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "ferrotec-kulim-plant-2-mida-release",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "馬來西亞投資局 11 月 5 日披露 Ferrotec 10 月底落成居林第二廠，明年分階段增產",
+        "en": "MIDA details Ferrotec's October Kulim Plant 2 opening and 2027 ramp"
+      },
+      "summary": {
+        "zh": "馬來西亞投資發展局 11 月 5 日公布，Ferrotec 居林 Padang Meha 第二廠已於 10 月 28 日舉行落成典禮，兩廠累計投資約 19 億令吉，第二廠規劃配置逾 700 部高精度 CNC 設備。新披露的是設施與投資規模；第二廠預定 2027 年第一季爬坡、第二季全面生產。",
+        "en": "On November 5, Malaysia's MIDA disclosed that Ferrotec's second Kulim plant in Padang Meha was inaugurated October 28, with approximately RM1.9 billion invested across both plants. The new facility is equipped for more than 700 precision CNC machines and targets a Q1 2027 ramp and Q2 full production."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "Ferrotec 居林廠供應半導體製造設備用石英、先進陶瓷、精密金屬及機電組裝。投資局記載 Lam Research 與 Applied Materials 代表參加落成活動，但未據此宣稱兩家公司新增訂單。",
+            "en": "Ferrotec's Kulim operations make semiconductor-tool quartz, ceramics, precision metal parts and electromechanical assemblies. MIDA notes attendance by representatives from Lam Research and Applied Materials, which does not establish new supply orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "首廠於 2024 年 1 月投產，初期投資逾 9 億令吉，後續擴建承諾約 10 億令吉，兩廠合計約 19 億令吉；公司稱第二廠可新增逾 1,000 個工作機會、園區合計現有員工超過 2,200 人。這些與 10 月 28 日落成日期及 11 月 5 日發布日期分開記錄。",
+            "en": "Plant 1 began operating in January 2024 with over RM900 million initially invested; a further roughly RM1 billion commitment brings the two-plant total to around RM1.9 billion. MIDA cited more than 1,000 additional planned jobs and more than 2,200 existing workers, distinguishing the October inauguration from the November publication."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "第二廠實際已驗收 CNC 設備數、客戶產品認證、各製程稼動率及實際量產日期仍未揭露。",
+            "en": "The number of accepted CNC units, customer qualifications, process utilization and actual mass-production date remain undisclosed."
+          }
+        }
+      ],
+      "metric": "RM1.9B",
+      "metricLabel": {
+        "zh": "兩廠累計投資約數",
+        "en": "Approximate two-plant investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MIDA · 居林第二廠 11 月 5 日公告",
+            "en": "MIDA · November 5 Plant 2 disclosure"
+          },
+          "url": "https://www.mida.gov.my/media-release/ferrotec-opens-second-kulim-plant-creating-over-1000-high-value-jobs-for-malaysians/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：馬來西亞吉打州居林 Padang Meha 的 Ferrotec Manufacturing Malaysia 第二廠；10 月 28 日落成典禮",
+        "en": "Project site: Ferrotec Manufacturing Malaysia Plant 2, Padang Meha, Kulim, Kedah; inaugurated Oct 28"
+      },
+      "market": {
+        "eventDate": "2026-10-28",
+        "countries": {
+          "zh": "馬來西亞；日本",
+          "en": "Malaysia; Japan"
+        },
+        "industries": {
+          "zh": "半導體設備；精密零組件；石英；陶瓷；工廠自動化；投資",
+          "en": "Semiconductor tools; precision components; quartz; ceramics; automation; investment"
+        },
+        "chain": {
+          "zh": "材料與設備零組件至半導體工廠及投資",
+          "en": "Materials and tool parts through semiconductor equipment manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "兩廠投資累計約 19 億令吉，其中擴建承諾約 10 億令吉",
+            "en": "Approximately RM1.9B across two plants, including about RM1B expansion commitment"
+          },
+          "demand": {
+            "zh": "未公布新客戶訂單與設備零件出貨量",
+            "en": "No new customer orders or component shipments disclosed"
+          },
+          "fdi": {
+            "zh": "國際半導體設備供應商在馬來西亞製造據點的既有與擴建投資",
+            "en": "International equipment supplier's existing and expanded Malaysian operations"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "半導體製程設備石英、陶瓷及精密零件的在地生產",
+            "en": "Local production of quartz, ceramic and precision tool components"
+          },
+          "timing": {
+            "zh": "10 月 28 日落成；11 月 5 日首次公布細節，規劃 2027 年第一季爬坡",
+            "en": "Opened Oct 28; details released Nov 5; ramp targeted Q1 2027"
+          },
+          "unknowns": {
+            "zh": "第二廠實際已驗收 CNC 設備數、客戶產品認證、各製程稼動率及實際量產日期仍未揭露。",
+            "en": "The number of accepted CNC units, customer qualifications, process utilization and actual mass-production date remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "兩廠累計投資",
+            "en": "Investment across both plants"
+          },
+          "current": 1900,
+          "unit": "MYR million",
+          "period": {
+            "zh": "截至 2026 年 11 月 5 日公布",
+            "en": "Disclosed as of Nov 5, 2026"
+          },
+          "owner": {
+            "zh": "馬來西亞投資發展局",
+            "en": "Malaysian Investment Development Authority"
+          },
+          "sourceUrl": "https://www.mida.gov.my/media-release/ferrotec-opens-second-kulim-plant-creating-over-1000-high-value-jobs-for-malaysians/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "第二廠規劃 CNC 設備容納量下限",
+            "en": "Plant 2 CNC machine design threshold"
+          },
+          "current": 700,
+          "unit": "台",
+          "period": {
+            "zh": "第二廠設計配置",
+            "en": "Plant 2 equipment design"
+          },
+          "owner": {
+            "zh": "馬來西亞投資發展局",
+            "en": "Malaysian Investment Development Authority"
+          },
+          "sourceUrl": "https://www.mida.gov.my/media-release/ferrotec-opens-second-kulim-plant-creating-over-1000-high-value-jobs-for-malaysians/",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "規劃新增就業下限",
+            "en": "Planned added employment lower bound"
+          },
+          "current": 1000,
+          "unit": "人",
+          "period": {
+            "zh": "第二廠擴建規劃",
+            "en": "Plant 2 expansion plan"
+          },
+          "owner": {
+            "zh": "馬來西亞投資發展局",
+            "en": "Malaysian Investment Development Authority"
+          },
+          "sourceUrl": "https://www.mida.gov.my/media-release/ferrotec-opens-second-kulim-plant-creating-over-1000-high-value-jobs-for-malaysians/",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對蝕刻與沉積設備用精密零件、陶瓷和製程控制供應商而言，居林新廠的 CNC 設計配置與爬坡時程屬可核實的工程資訊。實際設備驗收、客戶認證與利用率仍待公布，投資額不能直接推導產品出貨。",
+        "en": "For etch/deposition equipment components, ceramics and process-control suppliers, the designed CNC installation and ramp schedule are reported engineering parameters. Equipment acceptance, customer qualification and utilization remain unknown; the investment total is not shipment data."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "foxconn-october-2026-revenue-cloud-network",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "鴻海 10 月營收約 1.3 兆元，雲端網路產品月減與交易模式調整有關",
+        "en": "Hon Hai reports about NT$1.3T October sales; cloud networking down sequentially"
+      },
+      "summary": {
+        "zh": "鴻海 11 月 5 日公布 10 月未經查核合併營收約 1.3 兆元，年增 45.73%、月增 12.66%；前 10 月累計約 8.975 兆元，年增 40.4%。公司表示雲端網路產品較 9 月略減，部分受客戶指定採購模式、物料供應及新機種量產階段影響。",
+        "en": "Hon Hai released approximately NT$1.3 trillion in unaudited October revenue on November 5, up 45.73% year on year and 12.66% sequentially. January–October sales totaled about NT$8.975 trillion, up 40.4%; the company said cloud-networking revenue eased sequentially amid consignment arrangements, component constraints and new-model ramp-up."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "鴻海產品涵蓋雲端網路、伺服器整機、電腦終端及消費智能設備，集團營收成長混合不同產品群與交易認列方式。營收月變動不等於 AI 伺服器實際出貨台數變動。",
+            "en": "Hon Hai supplies cloud networking, server systems, PCs and consumer devices. Consolidated growth combines product categories and accounting models, so a monthly revenue change is not a direct measure of AI server unit shipments."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "10 月月營收連續第二個月突破兆元；累計前 10 月自結營收 8 兆 9,750.92 億元，去年同期 6 兆 3,926.73 億元。公司對第四季的展望屬前瞻性說法，沒有公布分產品線的實際月出貨量。",
+            "en": "October was the second consecutive trillion-NT-dollar month. January–October revenue was NT$8,975.092 billion versus NT$6,392.673 billion a year earlier. The fourth-quarter company outlook remains forward-looking, with no product-level October shipment counts."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "雲端網路指定採購造成的會計影響金額、AI 伺服器單獨營收與客戶驗收量未公布。",
+            "en": "The revenue effect of consignment accounting, standalone AI-server sales and customer acceptance volumes were not provided."
+          }
+        }
+      ],
+      "metric": "NT$1.3T",
+      "metricLabel": {
+        "zh": "10 月未經查核營收約數",
+        "en": "Approximate unaudited October revenue"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 鴻海 10 月營收與公司說明",
+            "en": "CNA · Hon Hai October figures"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050211.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣；全球供應鏈",
+          "en": "Taiwan; global supply chain"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；電腦；電源；資料中心",
+          "en": "Servers; ODM systems; computers; power; data centers"
+        },
+        "chain": {
+          "zh": "零組件至伺服器 ODM、整機與資料中心",
+          "en": "Components to server ODM systems and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布此次新增資本支出",
+            "en": "No new capital expenditure disclosed"
+          },
+          "demand": {
+            "zh": "公司稱雲端網路月營收略減，AI 需求仍在但未公布台數",
+            "en": "Company reported a slight sequential cloud-networking decline without unit figures"
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI",
+            "en": "No new FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器 ODM、雲端網路產品及零組件交易模式",
+            "en": "Server ODM operations, cloud-networking products and component procurement"
+          },
+          "timing": {
+            "zh": "11 月 5 日公布 10 月自結數字",
+            "en": "October unaudited figures released Nov 5"
+          },
+          "unknowns": {
+            "zh": "雲端網路指定採購造成的會計影響金額、AI 伺服器單獨營收與客戶驗收量未公布。",
+            "en": "The revenue effect of consignment accounting, standalone AI-server sales and customer acceptance volumes were not provided."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月營收約數",
+            "en": "Approximate October sales"
+          },
+          "current": 1300,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "鴻海，經中央社報導",
+            "en": "Hon Hai, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050211.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.4573,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 10 月累計營收",
+            "en": "Jan–Oct sales"
+          },
+          "current": 8975.092,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "鴻海，經中央社報導",
+            "en": "Hon Hai, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050211.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": 6392.673,
+          "basePeriod": "2025 年 1 至 10 月",
+          "reportedRate": 0.404,
+          "baseStatus": "原始資料明列相同比較基礎。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高密度伺服器機櫃電源與測試量測供應商而言，鴻海提到的新機種量產與指定採購方式涉及產品認列和供應節奏。需核對實際出貨與客戶驗收及電源架構，集團營收不足以識別單一系統的設備需求。",
+        "en": "For high-density rack-power and system-test suppliers, Hon Hai's new-model ramp and consignment arrangements affect how product activity appears in revenue. Actual shipments, customer acceptance and power architecture remain unverified at product level."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "zhen-ding-oct-2026-pcb-optics-sales",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "臻鼎 10 月營收 271.97 億元，伺服器、光模組與載板合計營收占比逾 28%",
+        "en": "Zhen Ding October revenue reaches NT$27.197B; server, optics and substrate mix exceeds 28%"
+      },
+      "summary": {
+        "zh": "臻鼎科技 11 月 5 日公布 10 月合併營收 271.97 億元，年增 39.99%、月增 3.18%，前 10 個月累計營收約 1,809.8 億元。公司指出伺服器、光模組及 IC 載板三類合計占 10 月營收超過 28%，與 2025 年全年 11.7% 的產品占比口徑不同。",
+        "en": "Zhen Ding Technology released October sales of NT$27.197 billion on November 5, up 39.99% year on year and 3.18% month on month, with January–October revenue of about NT$180.98 billion. The company said servers, optical modules and IC substrates exceeded 28% of October sales, versus 11.7% for full-year 2025, a different reporting period."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "臻鼎提供 PCB、IC 載板與高速互連基板，服務伺服器、光通訊與其他終端。三大業務合計占比僅揭露整體比例，未拆分單一產品的成本、出貨量或良率。",
+            "en": "Zhen Ding manufactures PCBs, IC substrates and high-speed interconnect boards for servers, optics and other markets. The combined mix is disclosed without product-specific shipments, cost or yield."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "公司公告累計前 10 月營收年增 24.75%；中央社報導三大業務合計年增逾 3 倍。前者是集團累計營收，後者是特定產品組合的公司說法，不可混作單一成長率。",
+            "en": "Company reporting gives 24.75% year-on-year growth for ten-month consolidated sales, while CNA attributes more than threefold annual growth to the combined server, optical-module and substrate business. These refer to different scopes."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "三類業務各自營收、精確占比、客戶認證及新增產線出貨規模未披露。",
+            "en": "Standalone sales by business, exact mix, customer qualifications and output from new lines are undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$27.197B",
+      "metricLabel": {
+        "zh": "10 月合併營收",
+        "en": "October consolidated sales"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 臻鼎 10 月營收與產品比重",
+            "en": "CNA · Zhen Ding October revenue and mix"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050265.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣；東南亞供應鏈",
+          "en": "Taiwan; Southeast Asian supply chain"
+        },
+        "industries": {
+          "zh": "PCB；IC 載板；基板；伺服器；光模組；零組件",
+          "en": "PCBs; IC substrates; servers; optical modules; components"
+        },
+        "chain": {
+          "zh": "零組件與 PCB 基板至載板、伺服器與資料中心",
+          "en": "Components and PCB substrates through servers and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未在本次公告揭露新增投資額",
+            "en": "No new capex amount disclosed in this release"
+          },
+          "demand": {
+            "zh": "公司揭露三類產品合計占比逾 28%，未公布分產品出貨",
+            "en": "Company disclosed greater than 28% combined mix without unit shipments"
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI",
+            "en": "No new FDI announced"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "PCB 與高速光通訊基板的實際銷售及產品組合",
+            "en": "Actual PCB sales and product mix in high-speed networking"
+          },
+          "timing": {
+            "zh": "11 月 5 日公布 10 月營收",
+            "en": "October results published Nov 5"
+          },
+          "unknowns": {
+            "zh": "三類業務各自營收、精確占比、客戶認證及新增產線出貨規模未披露。",
+            "en": "Standalone sales by business, exact mix, customer qualifications and output from new lines are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October sales"
+          },
+          "current": 27.197,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "臻鼎，經中央社報導",
+            "en": "Zhen Ding, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050265.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3999,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 10 月累計營收",
+            "en": "Jan–Oct revenue"
+          },
+          "current": 180.98,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "臻鼎，經中央社報導",
+            "en": "Zhen Ding, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050265.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2475,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "伺服器、光模組與載板占比下限",
+            "en": "Server, optics and substrate share lower bound"
+          },
+          "current": 0.28,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "臻鼎，經中央社報導",
+            "en": "Zhen Ding, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050265.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高速介面測試、載板檢測及資料中心電源供應商而言，臻鼎公布了產品組合與營收口徑。需要區分光模組、伺服器及 IC 載板的獨立出貨與認證，合計占比尚無法推算各設備採購額。",
+        "en": "For interconnect test, substrate inspection and data-center power suppliers, Zhen Ding's product mix and revenue scope offer reported context. Separate optical, server and substrate shipments and qualifications remain undisclosed."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "hiwin-oct-2026-semiconductor-motion-components",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "上銀 10 月營收 28.5 億元，半導體設備傳動零件部分交期達 6.5 個月",
+        "en": "Hiwin October sales reach NT$2.85B; selected motion-component lead times hit 6.5 months"
+      },
+      "summary": {
+        "zh": "上銀科技 11 月 5 日公布 10 月自結合併營收 28.5 億元，年增 35.66%、月增 4.8%，前 10 月累計約 248.47 億元。公司先前揭露研磨級滾珠螺桿交期約 6.5 個月，晶圓機器人、移載平台等設備零件訂單能見度延伸至 2027 年中。",
+        "en": "Hiwin reported NT$2.85 billion in October revenue on November 5, up 35.66% year on year and 4.8% sequentially, with ten-month sales of NT$24.847 billion. The company previously cited 6.5-month lead times for ground ball screws and order visibility into mid-2027 for wafer-handling equipment components."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "上銀的線性滑軌、滾珠螺桿與精密傳動件可進入半導體設備、晶圓移載機器人及自動化工廠。交期與營收數字為不同時點的資訊，且無法由接單能見度推估每一客戶裝機量。",
+            "en": "Hiwin's linear guides, ball screws and precision motion components serve semiconductor tools, wafer-transfer robotics and automated factories. Lead-time disclosures predate the October sales and do not quantify customer-level tool installations."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "前 10 月合併營收年增 25.11%。旗下大銀微系統 10 月營收約 4.1 億元、年增 68.75%，應獨立於母集團 28.5 億元的口徑，不將兩者相加。",
+            "en": "January–October consolidated sales grew 25.11% year on year. Subsidiary Hiwin Mikrosystem reported approximately NT$410 million in October sales, up 68.75%; that subsidiary figure is not added to consolidated revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "半導體設備分產品營收、客戶認證進度、訂單取消條款與設備交付數量未公布。",
+            "en": "Semiconductor-specific revenue, customer qualifications, cancellation terms and tool-delivery units remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$2.85B",
+      "metricLabel": {
+        "zh": "10 月自結營收",
+        "en": "October unaudited sales"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 上銀 10 月營收及交期",
+            "en": "CNA · Hiwin sales and lead times"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050177.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；零組件；晶圓；工廠自動化；測試",
+          "en": "Semiconductor tools; components; wafers; factory automation"
+        },
+        "chain": {
+          "zh": "設備、精密零組件至晶圓機器人與工廠自動化",
+          "en": "Precision tool components through wafer handling and automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布本次新增投資",
+            "en": "No new investment announced"
+          },
+          "demand": {
+            "zh": "公司報導部分精密零件交期較長，未揭露確切訂單台數",
+            "en": "Reported longer lead times for selected components; unit orders undisclosed"
+          },
+          "fdi": {
+            "zh": "未公布 FDI",
+            "en": "No FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "反映設備運動控制元件的已實現營收及供應交期",
+            "en": "Reported motion-component sales and delivery lead times"
+          },
+          "timing": {
+            "zh": "11 月 5 日公告 10 月營收；交期為先前公司口徑",
+            "en": "October revenue announced Nov 5; lead times from earlier statements"
+          },
+          "unknowns": {
+            "zh": "半導體設備分產品營收、客戶認證進度、訂單取消條款與設備交付數量未公布。",
+            "en": "Semiconductor-specific revenue, customer qualifications, cancellation terms and tool-delivery units remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收",
+            "en": "October consolidated revenue"
+          },
+          "current": 2.85,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "上銀科技，經中央社報導",
+            "en": "Hiwin, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050177.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3566,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 10 月累計營收",
+            "en": "January–October sales"
+          },
+          "current": 24.847,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "上銀科技，經中央社報導",
+            "en": "Hiwin, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050177.aspx",
+          "kind": "媒體引述",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2511,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "研磨級滾珠螺桿交期",
+            "en": "Ground ball-screw lead time"
+          },
+          "current": 6.5,
+          "unit": "個月",
+          "period": {
+            "zh": "公司先前揭露之交期",
+            "en": "Previously stated lead time"
+          },
+          "owner": {
+            "zh": "上銀科技，經中央社報導",
+            "en": "Hiwin, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050177.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓移載設備電源、運動控制與定位量測供應商而言，上銀的精密元件交期提供可追查的供應鏈時程資訊。需要核實不同零件的實際交貨期與機台驗收，合併營收無法換算單一晶圓設備產出。",
+        "en": "For wafer-handling power, motion controls and positioning metrology suppliers, reported component lead times provide supply-chain timing. Delivery by part type and tool acceptance remain unverified; consolidated sales cannot quantify individual semiconductor tools."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "sigurd-q3-2026-chip-testing-earnings",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "矽格第三季營收 61.72 億元、歸母淨利 13.54 億元，先進晶片測試需求增長",
+        "en": "Sigurd Q3 sales reach NT$6.172B and attributable profit NT$1.354B"
+      },
+      "summary": {
+        "zh": "矽格 11 月 5 日公布第三季合併營收 61.72 億元，年增 27.15%，歸母淨利 13.54 億元，年增逾 68%；前 3 季累計歸母淨利為 35.8 億元。公司表示先進製程晶片與 CPU、GPU、ASIC、光通訊及記憶體測試需求支持營運，但未公布各類晶片的稼動率。",
+        "en": "Chip tester Sigurd reported Q3 revenue of NT$6.172 billion on November 5, up 27.15% year on year, and attributable net profit of NT$1.354 billion, up more than 68%. Nine-month attributable profit reached NT$3.58 billion; the company cited demand across processors, AI accelerators, optics and memory without disclosing utilization by device type."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "封測後段的晶片功能、可靠度及量產測試需要測試機台、探針、供電、精密量測與熱管理。矽格的營收和獲利為公司整體報表，與晶片驗證次數及客戶良率有不同定義。",
+            "en": "Back-end semiconductor testing involves automated testers, contactors, power delivery, precision measurement and thermal control. Sigurd's reported financial results do not disclose test counts or customer yields."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "中央社同篇報導另列南電及京元電前 3 季獲利，但各公司帳期與產品結構不同，未用於同圖比較。矽格第三季每股純益 2.84 元，前 3 季每股純益 7.49 元；成長率以去年同期作基準。",
+            "en": "The same CNA report includes Nan Ya PCB and KYEC earnings, but their business scopes differ and are not combined in one metric chart. Sigurd reported Q3 EPS of NT$2.84 and nine-month EPS of NT$7.49, with the reported growth rates using year-earlier periods."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "封測產品結構分項、實際新增測試機台與客戶驗收、晶片量產良率未公布。",
+            "en": "Detailed test-product mix, incremental installed testers, customer acceptance and production yields were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$6.172B",
+      "metricLabel": {
+        "zh": "第三季營收",
+        "en": "Q3 revenue"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 矽格第三季實績",
+            "en": "CNA · Sigurd Q3 earnings"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050259.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體；封測；晶片測試；記憶體；設備",
+          "en": "Semiconductors; outsourced test; memory; equipment"
+        },
+        "chain": {
+          "zh": "晶圓及記憶體至封測、測試設備",
+          "en": "Wafer and memory chips through back-end test equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未在本次財報新增資本支出金額",
+            "en": "No new capex amount in this release"
+          },
+          "demand": {
+            "zh": "公司表示多類晶片測試需求增加，未揭露實際測試顆數",
+            "en": "Company cited broader test demand without tested unit counts"
+          },
+          "fdi": {
+            "zh": "未公布 FDI",
+            "en": "No FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "呈現台灣測試業營收、淨利與晶片產品組合",
+            "en": "Taiwan outsourced test financial results and chip-category exposure"
+          },
+          "timing": {
+            "zh": "11 月 5 日公布 2026 年第三季實績",
+            "en": "Q3 results released Nov 5"
+          },
+          "unknowns": {
+            "zh": "封測產品結構分項、實際新增測試機台與客戶驗收、晶片量產良率未公布。",
+            "en": "Detailed test-product mix, incremental installed testers, customer acceptance and production yields were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 6.172,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "矽格，經中央社報導",
+            "en": "Sigurd, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050259.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2715,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 1.354,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "矽格，經中央社報導",
+            "en": "Sigurd, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050259.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季歸母淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 3.58,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "矽格，經中央社報導",
+            "en": "Sigurd, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050259.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.89,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶片量產測試電源、精密量測與溫度控制設備供應商而言，矽格公布的財報涉及多種晶片測試需求。需要核對測試平台型號、驗收機台與稼動率，財務成長率不能直接換算測試設備採購。",
+        "en": "For production-test power, precision metrology and thermal control suppliers, Sigurd cited demand across multiple chip types. Tester platforms, accepted tools and utilization remain unknown; financial growth cannot be converted directly into equipment orders."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "formosa-smart-energy-equity-battery-changbin",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台塑新智能擬現增 130 億元，彰濱第二期電芯產線目標 2028 年量產",
+        "en": "Formosa Smart Energy plans NT$13B share issue for Changbin battery expansion"
+      },
+      "summary": {
+        "zh": "台塑集團 11 月 5 日公告，台塑新智能擬辦理 130 億元現金增資，台塑、南亞、台化與台塑化擬依持股比例合計投入約 123.5 億元，支應彰濱電芯廠第二期計畫。公司先前提出第二期規劃增加 5GWh 產能、目標 2028 年 5 月量產，此次新事件為增資安排。",
+        "en": "Formosa Plastics affiliates announced November 5 that Formosa Smart Energy plans a NT$13 billion cash capital increase, with four group companies subscribing for about NT$12.35 billion to fund its Changbin battery expansion. A previously disclosed second-phase target adds 5GWh of cell capacity by May 2028; the new development is the financing plan."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "鋰鐵電芯製造涉及電極材料、電池充放電、測試量測與工廠電力系統，可用於儲能等終端。2022 年成立與一期 2.1GWh 量產屬背景事實，二期新增 5GWh 尚未投產。",
+            "en": "LFP cell manufacturing uses electrode materials, charging/discharging test equipment and plant power systems for storage applications. The first phase's existing 2.1GWh production is background; the proposed second-phase 5GWh has not started production."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "中央社報導，台塑、南亞及台塑化各擬增資 32.5 億元，台化擬投入 26 億元，合計 123.5 億元。第二期預計 2026 年底啟動，2028 年 5 月是公司規劃量產目標，與已實現產量分開。",
+            "en": "CNA reported subscriptions of NT$3.25 billion each from Formosa Plastics, Nan Ya Plastics and Formosa Petrochemical, plus NT$2.6 billion from Formosa Chemicals, totaling NT$12.35 billion. The late-2026 construction start and May 2028 production target remain plans."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "增資完成日、設備採購細節、二期建廠工程許可與量產良率未公布。",
+            "en": "Capital-raising completion, equipment orders, second-phase permits and production yields remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$13B",
+      "metricLabel": {
+        "zh": "規劃現金增資",
+        "en": "Planned equity financing"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台塑新智能增資及彰濱二期規劃",
+            "en": "CNA · Formosa Smart Energy financing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050193.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：台灣彰化縣彰濱工業區台塑新智能電芯廠二期，未揭露單一廠房門牌",
+        "en": "Project site: Formosa Smart Energy cell plant phase two, Changbin Industrial Park, Changhua County, Taiwan; street address not specified"
+      },
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；儲能；工廠；自動化；測試；投資",
+          "en": "Power; energy storage; factories; automation; test; investment"
+        },
+        "chain": {
+          "zh": "儲能材料、測試設備至工廠、電力與投資",
+          "en": "Storage materials and test equipment through factories and power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "台塑新智能擬現金增資 130 億元",
+            "en": "Planned NT$13B equity raise"
+          },
+          "demand": {
+            "zh": "二期電芯產能規劃增加 5GWh，未有已出貨量",
+            "en": "Phase two targets 5GWh additional cell capacity; no realized shipments"
+          },
+          "fdi": {
+            "zh": "國內增資，未公布 FDI",
+            "en": "Domestic financing; no FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電芯製造、測試設備及儲能供電製造鏈",
+            "en": "Battery-cell manufacturing, test equipment and storage power supply chain"
+          },
+          "timing": {
+            "zh": "11 月 5 日增資公告；二期規劃 2028 年 5 月量產",
+            "en": "Financing announced Nov 5; phase two targets May 2028 production"
+          },
+          "unknowns": {
+            "zh": "增資完成日、設備採購細節、二期建廠工程許可與量產良率未公布。",
+            "en": "Capital-raising completion, equipment orders, second-phase permits and production yields remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "規劃現金增資總額",
+            "en": "Planned share issuance"
+          },
+          "current": 13,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 5 日公告",
+            "en": "Announced Nov 5, 2026"
+          },
+          "owner": {
+            "zh": "台塑新智能，經中央社報導",
+            "en": "Formosa Smart Energy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050193.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "台塑四寶擬認購額",
+            "en": "Planned group subscription"
+          },
+          "current": 12.35,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 5 日公告",
+            "en": "Announced Nov 5, 2026"
+          },
+          "owner": {
+            "zh": "台塑四寶，經中央社報導",
+            "en": "Formosa Group affiliates, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050193.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對儲能電源轉換、電芯充放電測試及工廠量測設備供應商而言，二期規劃與資金籌措分屬工程和財務階段。還需要核實產線設備、測試規範與資金到位日期，5GWh 仍屬規劃產能。",
+        "en": "For storage converters, cell cycling testers and plant metrology suppliers, phase-two plans and financing are different milestones. Line equipment, test specifications and capital closing remain unverified; 5GWh is a future capacity target."
+      }
+    },
+    {
+      "id": 10,
+      "topic": "taiwan-yuanyi-quartz-tongluo-expansion",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "經濟部通過台灣圓益石英 23.4 億元銅鑼擴廠，規劃新增 176 個職缺",
+        "en": "Taiwan approves NT$2.34B Yuanyi Quartz expansion in Tongluo"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 5 日公布，台灣圓益石英約 23.4 億元的苗栗銅鑼擴廠計畫通過投資審查，規劃導入智慧化產線，預計增聘 176 人。公司產品包括半導體前段製程所需的高純度石英器皿、擴散管與清洗組件，尚未公布新增產能。",
+        "en": "On November 5, Taiwan's economic ministry approved a NT$2.34 billion expansion plan by Taiwan Yuanyi Quartz in Tongluo, Miaoli, targeting 176 additional jobs and smart production lines. Its products include high-purity quartzware, diffusion tubes and cleaning components for front-end semiconductor processes; incremental production capacity was not specified."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "高純度石英耗材用於半導體擴散、清洗與其他高溫製程，材料純度及零件驗證影響設備使用條件。新產線規劃採高階機器手臂、製程履歷及能源監測，仍待實際安裝及驗收。",
+            "en": "High-purity quartzware is used in diffusion, cleaning and other front-end semiconductor processes where materials and component qualification matter. The planned facility includes robots, process tracking and energy monitoring, pending installation and acceptance."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "本案與日月光投資案同在 11 月 5 日通過，但各自擁有獨立預算與廠址。經濟部指出此案旨在解決原有產能飽和問題，未提供明確擴廠百分比、晶圓廠客戶清單或投產日。",
+            "en": "Approved on the same day as ASE's separate investment, Yuanyi's proposal has its own budget and Tongluo location. The ministry cited existing capacity saturation but did not specify expansion percentages, customer fabs or commissioning dates."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "銅鑼新增石英零件月產能、量產驗證、供應客戶及工程完成日未提供。",
+            "en": "Monthly quartz-part capacity additions, qualification status, customers and construction completion date remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$2.34B",
+      "metricLabel": {
+        "zh": "核准擴廠金額約數",
+        "en": "Approved expansion budget"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部 · 台灣圓益石英投資審查公告",
+            "en": "MOEA · Yuanyi Quartz investment approval"
+          },
+          "url": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124481",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 擴產報導",
+            "en": "CNA · manufacturing expansion coverage"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050208.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：台灣苗栗縣銅鑼區，經濟部未公開個別新廠地址",
+        "en": "Project site: Tongluo, Miaoli County, Taiwan; individual factory address undisclosed"
+      },
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體材料；石英；晶圓；設備；工廠自動化；投資",
+          "en": "Semiconductor quartz materials; wafer fabs; tools; automation; investment"
+        },
+        "chain": {
+          "zh": "石英材料與設備零組件至晶圓製造、工廠投資",
+          "en": "Quartz materials and equipment components to wafer fabs and factory investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "經濟部通過約 23.4 億元銅鑼擴廠",
+            "en": "Ministry approved about NT$2.34B for Tongluo expansion"
+          },
+          "demand": {
+            "zh": "經濟部指出原有產能飽和，未揭露採購合約",
+            "en": "Ministry cited full existing capacity without new contract details"
+          },
+          "fdi": {
+            "zh": "本地擴廠，未公布 FDI",
+            "en": "Domestic expansion; no FDI disclosed"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "半導體前段石英耗材及智能化製造產能規劃",
+            "en": "Front-end quartz consumables and smart manufacturing plans"
+          },
+          "timing": {
+            "zh": "11 月 5 日核准投資，開工與完工日期未公布",
+            "en": "Approved Nov 5; construction and commissioning dates undisclosed"
+          },
+          "unknowns": {
+            "zh": "銅鑼新增石英零件月產能、量產驗證、供應客戶及工程完成日未提供。",
+            "en": "Monthly quartz-part capacity additions, qualification status, customers and construction completion date remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "核准擴廠規劃",
+            "en": "Approved expansion plan"
+          },
+          "current": 2.34,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 5 日核准",
+            "en": "Approved Nov 5, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Department of Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124481",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "規劃新增本國人力",
+            "en": "Planned local hires"
+          },
+          "current": 176,
+          "unit": "人",
+          "period": {
+            "zh": "本次投資計畫",
+            "en": "Current investment plan"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司",
+            "en": "MOEA Department of Investment Promotion"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124481",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓擴散與清洗製程電源、石英零件驗證及材料量測供應商而言，銅鑼計畫涉及高純度耗材與自動化製程。仍須確認材料規格、客戶驗證及設備驗收數據，核准預算尚未等同已交付產能。",
+        "en": "For diffusion/cleaning process-power, quartz-component qualification and materials metrology suppliers, the Tongluo plan covers high-purity consumables and automation. Specifications, customer acceptance and installed equipment remain unconfirmed."
+      }
+    },
+    {
+      "id": 11,
+      "topic": "chenbro-q3-2026-server-chassis-results",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "勤誠第三季歸母淨利 10.05 億元、季減 27.2%，10 月營收 23.07 億元",
+        "en": "Chenbro Q3 profit declines 27.2% sequentially; October sales at NT$2.307B"
+      },
+      "summary": {
+        "zh": "伺服器機殼廠勤誠 11 月 5 日公布第三季歸母淨利 10.05 億元，季減 27.2%、年增 1.2%；10 月營收 23.07 億元，年增 15.8%、月減 6.8%。公司已從伺服器機殼布局機櫃設計，預定 11 月 6 日法說，相關後續展望尚未公布。",
+        "en": "Server chassis maker Chenbro reported Q3 attributable profit of NT$1.005 billion on November 5, down 27.2% quarter on quarter but up 1.2% year on year. October sales were NT$2.307 billion, up 15.8% year on year and down 6.8% sequentially; the company plans an investor briefing on November 6."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply chain and background"
+          },
+          "text": {
+            "zh": "機殼、機櫃與整機系統設計關係到伺服器空間、散熱和供電配置，但公司財務結果合併多產品。既有機櫃布局可列作背景，未公布新機櫃出貨量。",
+            "en": "Chassis and racks determine mechanical integration for server cooling and power delivery, but financial results aggregate products. Earlier rack expansion is background and no new rack shipment count was released."
+          }
+        },
+        {
+          "label": {
+            "zh": "數字、日期與進度",
+            "en": "Figures, dates and status"
+          },
+          "text": {
+            "zh": "前三季歸母淨利約 37.23 億元，年增約 5 成；前 10 月營收約 246.31 億元，年增 42.75%。這兩組數字的計算期間、財務定義不同，不能並列成同一季的報表。",
+            "en": "Attributable profit for nine months was approximately NT$3.723 billion, up around 50% year on year, while ten-month revenue was NT$24.631 billion, up 42.75%. The figures cover different periods and accounting measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "機櫃產品個別營收、液冷及電源規格、後續客戶驗收與第四季指引待法說揭露。",
+            "en": "Standalone rack revenue, cooling and power specifications, customer acceptance and Q4 guidance await further disclosure."
+          }
+        }
+      ],
+      "metric": "NT$1.005B",
+      "metricLabel": {
+        "zh": "第三季歸母淨利",
+        "en": "Q3 attributable profit"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 勤誠第三季財報",
+            "en": "CNA · Chenbro Q3 earnings"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611050272.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；機櫃；整機；供電；散熱；資料中心",
+          "en": "Server chassis; racks; systems; power; cooling; data centers"
+        },
+        "chain": {
+          "zh": "伺服器整機與機櫃至供電、散熱及資料中心",
+          "en": "Server systems and racks through power, cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出",
+            "en": "No new capital spending disclosed"
+          },
+          "demand": {
+            "zh": "財報公布機殼及機櫃相關業務背景，但未提供出貨台數",
+            "en": "Company reported financial results, without rack unit shipments"
+          },
+          "fdi": {
+            "zh": "未公布 FDI",
+            "en": "No FDI reported"
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "涉及伺服器機櫃製造及其配電、冷卻介面",
+            "en": "Relates to server-rack manufacture and power/cooling interfaces"
+          },
+          "timing": {
+            "zh": "11 月 5 日財報；11 月 6 日預定法說",
+            "en": "Earnings released Nov 5; call scheduled Nov 6"
+          },
+          "unknowns": {
+            "zh": "機櫃產品個別營收、液冷及電源規格、後續客戶驗收與第四季指引待法說揭露。",
+            "en": "Standalone rack revenue, cooling and power specifications, customer acceptance and Q4 guidance await further disclosure."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 1.005,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "勤誠，經中央社報導",
+            "en": "Chenbro, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050272.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.272,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October revenue"
+          },
+          "current": 2.307,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "勤誠，經中央社報導",
+            "en": "Chenbro, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050272.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.158,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季歸母淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 3.723,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "勤誠，經中央社報導",
+            "en": "Chenbro, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611050272.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未提供可直接核對的相容基期；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機櫃電源、液冷配電與整機測試供應商而言，勤誠已公開財務表現及機櫃業務布局。需要進一步核對產品型號、電力密度及客戶驗收規格，財報仍未拆分機櫃產品實際出貨。",
+        "en": "For rack-power, cooling distribution and system-test suppliers, Chenbro disclosed financial performance and rack business direction. Model-level power density, acceptance standards and unit shipments remain unavailable."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 2,
+      "question": {
+        "zh": "美光桃園廠是否已確認全面停工？",
+        "en": "Is a full Micron Taoyuan shutdown confirmed?"
+      },
+      "text": {
+        "zh": "Reuters 指明無法獨立查證停工報導。美光對中央社稱台灣現有營運正常，經濟部表示個別工程進度仍以公司對外說明為準。",
+        "en": "Reuters could not verify the report. Micron said existing Taiwan operations remain normal, while the ministry deferred project-level construction details to the company."
+      }
+    },
+    {
+      "id": 1,
+      "question": {
+        "zh": "日月光的 1,237 億元已完成投入嗎？",
+        "en": "Has ASE already spent NT$123.7B?"
+      },
+      "text": {
+        "zh": "這是經濟部通過的投資計畫，未列出工程付款、設備驗收或新增實際產能。",
+        "en": "It is an approved investment plan, with no project payment breakdown, accepted tooling or realized capacity specified."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "柔佛 JH1 的 200MW 是否已全部上線？",
+        "en": "Is JH1's 200MW already online?"
+      },
+      "text": {
+        "zh": "200MW 是 PDG 公告的園區設計規模，本次融資沒有附帶新增已上線 IT 負載或機房分期完工表。",
+        "en": "The 200MW figure is the designed campus capacity. The financing disclosure gives no incremental live IT load or building-by-building completion schedule."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "已發布的 11 月 4 日事件",
+        "en": "Previously reported November 4 developments"
+      },
+      "text": {
+        "zh": "Google 馬來西亞資料中心投資、越南 FPT 封測廠試運轉、研華訂單與英業達營收已見於 11 月 4 日及 5 日的既有日報；本版不將它們重新列為新事件。",
+        "en": "Google's Malaysian plans, FPT's Vietnamese testing trial, Advantech's backlog and Inventec's sales appeared in earlier November 4–5 editions and are not republished as new events."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "事實與數據註記",
+      "en": "Factual reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價與分析師題材評論",
+        "en": "Price-only and analyst-led commentary"
+      },
+      "text": {
+        "zh": "未採納單純股價走勢、AI 需求泛論及未公布實際產能或訂單的推測；個別業者先前提出的 2028 年目標僅在相關新聞中註明舊資料日期。",
+        "en": "Price movements, generic AI commentary and unverified capacity forecasts were excluded. Previously stated 2028 targets appear only as dated background where relevant."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "美光桃園新廠的暫停施工說法來自外媒消息人士，Reuters 表示無法獨立證實；美光回覆僅確認現有營運正常。部分台灣上市公司的營收與財報細節依中央社引述，未取得可直接檢閱的原始揭露文件。Ferrotec 第二廠於 10 月 28 日落成，詳細投資與設備資訊由馬來西亞投資局 11 月 5 日首次公布。",
+    "en": "The reported Micron Taoyuan construction pause is based on anonymous sources and was not independently verified by Reuters; Micron confirmed only that ongoing operations remain normal. Some Taiwanese company figures are reported through CNA without independently accessible source filings. Ferrotec Plant 2 opened October 28, with detailed investment and equipment information published by MIDA on November 5."
+  }
+}
