@@ -1,0 +1,63 @@
+name: Publish Nov 7 Daily Brief with project workbook builder
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/news-publish-2026-11-07.yml
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Set up Python for original workbook builder
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check "openpyxl>=3.1.5,<4"
+      - name: Materialize independently researched draft JSON and weekly digest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/80cefa9367134e2ff5187851aec50fa1424c94b5" --jq '.content' | base64 -d > docs/editions/2026-11-07.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/1b57358627a652adfccab7b10c75eeb0d5ac0213" --jq '.content' | base64 -d > docs/weeks/2026-11-01.json
+      - name: Update edition index and format Chinese news copy
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("docs/editions/index.json")
+          manifest=json.loads(p.read_text())
+          date="2026-11-07"
+          assert not any(e["date"]==date for e in manifest["editions"]), "Edition already exists"
+          manifest["editions"].insert(0, {"date":date,"path":"./editions/"+date+".json"})
+          manifest["weeks"]["2026-11-01"]="./weeks/2026-11-01.json"
+          p.write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+"\n")
+          PY
+          node scripts/format-copy.mjs 2026-11-07
+      - name: Build four Excel files using project script and validate complete repository
+        run: |
+          .venv/bin/python scripts/build-workbooks.py "$GITHUB_WORKSPACE" 2026-11-07
+          node scripts/check.mjs
+          python3 scripts/check-xlsx.py
+          node --test scripts/*.test.mjs
+      - name: Commit edition weekly manifest and all workbook binaries atomically
+        run: |
+          git config user.name aiwlulu
+          git config user.email aiwlulu@users.noreply.github.com
+          git rm .github/workflows/news-publish-2026-11-07.yml
+          git add docs/editions/2026-11-07.json docs/editions/index.json docs/weeks/2026-11-01.json docs/exports
+          git diff --cached --check
+          git commit -m "feat(news): publish 2026-11-07 daily brief"
+          git push origin HEAD:main
+      - name: Dispatch the existing Pages deployment workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
