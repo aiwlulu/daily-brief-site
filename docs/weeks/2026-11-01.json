@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-01",
-  "generatedAt": "2026-11-05T14:48:54.000Z",
+  "generatedAt": "2026-11-06T14:06:50.000Z",
   "throughline": {
-    "zh": "台灣封裝與記憶體產業出現新投資核准和未證實的工程消息，馬來西亞資料中心與半導體設備廠則披露融資、廠房及爬坡進度。",
-    "en": "Taiwan's packaging sector reported new approvals alongside unverified memory-plant construction claims, while Malaysian data-center and tool-component facilities disclosed funding and ramp schedules."
+    "zh": "新加坡 SG6 機房正式開幕，奇鋐越南公告工程支出，緯穎與其他台灣業者揭露跨境投資，而台灣記憶體廠相關協商仍未結束。",
+    "en": "SG6 opened in Singapore, AVC disclosed Vietnam construction spending, Taiwanese manufacturers announced cross-border funding, and memory-fab labor talks in Taiwan remained unresolved."
   },
   "highlights": [
     {
       "id": 1,
       "category": "global",
       "title": {
-        "zh": "資料中心融資、供電與通訊備援",
-        "en": "Data-center financing, power and telecom resilience"
+        "zh": "資料中心開幕、電力與機房融資",
+        "en": "Data-center openings, power and facility financing"
       },
       "summary": {
-        "zh": "11 月 4 日 PDG 宣布取得約 13 億美元綠色融資擴建柔佛 JH1 園區；此前 Google 在馬來西亞公布新投資計畫，雅加達兩座機房亦陸續揭露工程進度。台電供電規劃與嘉義備援基地台提供不同日期的電力及基礎設施資訊。",
-        "en": "PDG reported about US$1.3B in Johor financing on November 4, following earlier Malaysian data-center plans and Indonesian site openings. Taiwan's power planning and telecom-backup disclosures provide separately dated grid-infrastructure context."
+        "zh": "11 月 6 日 Equinix 啟用新加坡 SG6，一期提供 8MW IT 容量，與先前馬來西亞 PDG 柔佛融資、雅加達機房開幕共同構成不同工程階段的資料中心動態。台灣電力規劃與通訊備援仍按各自公告日期呈現。",
+        "en": "Equinix opened Singapore SG6 with 8MW phase-one IT capacity on November 6, adding an operational milestone to earlier Johor financing and Jakarta data-center openings. Taiwan grid plans and telecom backup remain separately dated developments."
       },
       "references": [
         {
@@ -49,6 +49,10 @@
         {
           "date": "2026-11-06",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 1
         }
       ]
     },
@@ -56,12 +60,12 @@
       "id": 2,
       "category": "tech",
       "title": {
-        "zh": "高階封測投資、記憶體新廠與高速基板",
-        "en": "Advanced packaging, memory plant reports and high-speed substrates"
+        "zh": "封裝、記憶體供應與研發合作",
+        "en": "Packaging, memory supply and R&D cooperation"
       },
       "summary": {
-        "zh": "經濟部 11 月 5 日通過日月光 1,237 億元封測規劃與圓益石英 23.4 億元擴廠；臻鼎和矽格同日公布營收及封測實績。美光桃園新廠暫緩工程的外媒說法仍待查證，與前幾日的光子封裝研發及設備軟體整合分屬不同進度。",
-        "en": "Taiwan approved ASE's NT$123.7B packaging plan and Yuanyi Quartz's NT$2.34B project; Zhen Ding and Sigurd released new results. Reports of a Micron Taoyuan construction pause remain unverified, while earlier photonics research and tool-software integration are separately dated."
+        "zh": "台灣高階封測與石英材料投資於 11 月 5 日通過，11 月 6 日美光桃園勞資調解未達成協議，仍需另行查證施工情況。臻鼎、矽格與創見的財報及記憶體報價說法使用不同期間，台美產業研發合作則進入徵案準備。",
+        "en": "Taiwan approved advanced packaging and quartz investments on November 5, while Micron's Taoyuan mediation ended without agreement on November 6; construction status remains separately unverified. Zhen Ding, Sigurd and Transcend reported different financial and memory periods, alongside a new Taiwan-US R&D call."
       },
       "references": [
         {
@@ -111,6 +115,14 @@
         {
           "date": "2026-11-06",
           "storyId": 10
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 8
         }
       ]
     },
@@ -118,12 +130,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "東南亞半導體設備製造、晶片測試與網通試產",
-        "en": "Southeast Asian toolmaking, chip-testing and networking trials"
+        "zh": "東南亞封測與液冷製造工程",
+        "en": "Southeast Asian testing and liquid-cooling construction"
       },
       "summary": {
-        "zh": "FPT 與合勤控披露越南封測及網通試產，新代更新馬來西亞工廠規劃。馬來西亞投資發展局 11 月 5 日首次公開 Ferrotec 居林第二廠的設備配置與投資數字，廠房落成實際發生於 10 月 28 日。",
-        "en": "FPT and Zyxel reported trial production in Vietnam, while Syntec updated Malaysia plant plans. On November 5 MIDA published the investment and equipment details of Ferrotec's second Kulim plant, whose opening occurred October 28."
+        "zh": "FPT 在越南進行晶片封測試產、Ferrotec 居林第二廠公布擴建細節；11 月 6 日奇鋐越南子公司再披露機電與配套工程合約。各項消息分別涵蓋試產、廠房設計及工程合約，不代表相同驗收或量產進度。",
+        "en": "FPT reported Vietnamese semiconductor testing trials and Ferrotec detailed its second Kulim plant. On November 6 AVC disclosed Vietnam electrical and ancillary works, covering a different stage from customer acceptance or volume production."
       },
       "references": [
         {
@@ -149,6 +161,10 @@
         {
           "date": "2026-11-06",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 2
         }
       ]
     },
@@ -156,12 +172,12 @@
       "id": 4,
       "category": "taiwan",
       "title": {
-        "zh": "工業設備接單、伺服器營收與精密零組件",
-        "en": "Industrial equipment orders, server revenue and precision components"
+        "zh": "伺服器營收與馬來西亞、越南製造資金",
+        "en": "Server sales and Malaysian/Vietnamese manufacturing funding"
       },
       "summary": {
-        "zh": "研華先前公布工業電腦接單與擴廠，英業達說明伺服器缺料；11 月 5 日鴻海及勤誠新增伺服器相關營收與財報，上銀公布精密傳動元件營收。不同公司的月營收、季度淨利與零件交期均使用各自的統計期間。",
-        "en": "Advantech earlier reported backlog and Inventec described component shortages. On November 5, Hon Hai and Chenbro added server-related financial results while Hiwin reported motion-component sales; their monthly revenue, quarterly profits and delivery lead times use distinct periods."
+        "zh": "研華、英業達、鴻海與上銀陸續公布接單、營收及設備零件供應資訊，11 月 6 日緯創公布 10 月營收約 4,026 億元。緯穎馬來西亞及佳世達越南子公司亦公布增資，資金用途與實際設備採購須區分。",
+        "en": "Advantech, Inventec, Hon Hai and Hiwin disclosed backlog, sales and component conditions, while Wistron reported October sales near NT$402.6 billion on November 6. Wiwynn's Malaysian and Qisda's Vietnamese subsidiaries announced financing that should not be treated as tool procurement."
       },
       "references": [
         {
@@ -211,6 +227,18 @@
         {
           "date": "2026-11-06",
           "storyId": 11
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 9
         }
       ]
     },
@@ -218,12 +246,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "台灣能源設備、儲能與跨境製造投資",
-        "en": "Taiwan energy equipment, storage and cross-border manufacturing investment"
+        "zh": "電源、材料與跨境工業投資",
+        "en": "Power, materials and cross-border industrial investment"
       },
       "summary": {
-        "zh": "先前華新麗華公布能源設備合資，金居及湧德公告東南亞子公司增資。11 月 5 日台塑新智能再提出 130 億元現金增資支應彰濱電芯廠二期，相關資金、設計產能與量產目標仍依其實際狀態列示。",
-        "en": "Earlier Walsin announced an energy-equipment venture and COTECH and UDE reported Southeast Asian subsidiary funding. On November 5 Formosa Smart Energy outlined a NT$13B equity issue for Changbin battery phase two, with funding and future production targets identified separately."
+        "zh": "華新麗華先前公告能源設備合作及其他台灣公司對東南亞子公司投資，11 月 6 日再決議規劃在越南設立 3,000 萬美元的精密不銹鋼材料子公司。台塑新智能的儲能增資規劃仍依公告狀態標示，未視為已投產產能。",
+        "en": "Walsin's earlier equipment collaboration and regional industrial investments were followed on November 6 by a planned US$30 million Vietnamese precision-materials subsidiary. Formosa Smart Energy's battery financing remains a plan rather than commissioned output."
       },
       "references": [
         {
@@ -249,6 +277,14 @@
         {
           "date": "2026-11-06",
           "storyId": 9
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-07",
+          "storyId": 7
         }
       ]
     }

@@ -1,0 +1,1469 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-06T14:06:50.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、機櫃供電、資料中心與製造供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductor, rack power, data center and manufacturing supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "Equinix 開幕新加坡機房，奇鋐公告越南機電工程，而緯穎與佳世達分別核准海外子公司增資，各自揭露了營運與資金進度。",
+    "en": "Equinix opened a Singapore facility, AVC disclosed Vietnam electrical works, and Wiwynn and Qisda approved overseas capital injections, each documenting a distinct operational or financing milestone."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "Equinix 新加坡 SG6 開幕，一期 8MW、全期規劃 20MW IT 容量。",
+        "en": "Equinix opened Singapore SG6 with 8MW in phase one and 20MW full-build design."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "奇鋐越南子公司新增機電及配套工程合約約 15.73 億元，與先前工程範圍仍待核對。",
+        "en": "AVC's Vietnam unit reported about NT$1.573B in electrical works; overlap with earlier contracts is unconfirmed."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "緯穎決議向馬來西亞子公司增資 2 億美元，公告用途是營運資金。",
+        "en": "Wiwynn approved US$200M in working capital for its Malaysian subsidiary."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "緯創 10 月營收 4,026.15 億元，公司表示美國投資計畫沒有變動。",
+        "en": "Wistron reported NT$402.615B October revenue and said its US investment plan was unchanged."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "美光與桃園工會 11 月 6 日調解尚未達成協議，後續會議待安排。",
+        "en": "Micron's November 6 union mediation ended without an agreement; another session is planned."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "equinix-singapore-sg6-opening",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Equinix 新加坡 SG6 啟用，一期 8MW、全期規劃 20MW IT 容量",
+        "en": "Equinix opens SG6 in Singapore with 8MW first phase and 20MW full-build IT design"
+      },
+      "summary": {
+        "zh": "Equinix 於 11 月 6 日正式啟用新加坡第六座 IBX 資料中心 SG6，第一期提供 8MW IT 容量及約 1,550 個機櫃，初期投資約 2.9 億美元。20MW 是全期建置後的目標容量，公司未公布第一期實際使用率。",
+        "en": "Equinix opened SG6, its sixth Singapore IBX data center, on November 6 with 8MW of phase-one IT capacity and approximately 1,550 cabinets, backed by an initial US$290 million investment. The 20MW figure represents full-build design capacity, with no first-phase utilization reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "SG6 採用液冷與高密度機房設計，涉及機櫃供電、配電、冷卻及營運監測。該場址依新加坡資料中心徵案制度建設；公司公布的設計 PUE 目標為 1.20，不能視為已實測成績。",
+            "en": "SG6 uses liquid-cooling and high-density infrastructure involving rack power, distribution, thermal management and monitoring. The facility falls under Singapore's data-center capacity allocation framework, while its 1.20 PUE is a design target rather than a measured operating result."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "公司公告第一期 8MW 與全期 20MW 採不同階段口徑，20MW 不能當作 11 月 6 日新增已上線負載。Equinix 預計 2027 年與新加坡國立大學設立共同創新設施，研究液冷、數位孿生與儲能；這是規劃中的合作。",
+            "en": "Company figures distinguish 8MW in phase one from a 20MW complete-build target. Equinix also plans a 2027 joint innovation facility with the National University of Singapore focused on cooling, digital twins and battery storage; it is a future initiative."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際簽約機櫃、客戶使用率、液冷系統運轉功率及後續擴建時程未揭露。",
+            "en": "Contracted cabinets, actual utilization, running liquid-cooling load and remaining-phase timelines were not disclosed."
+          }
+        }
+      ],
+      "metric": "8MW",
+      "metricLabel": {
+        "zh": "一期 IT 容量",
+        "en": "First-phase IT capacity"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Equinix · SG6 11 月 6 日開幕公告",
+            "en": "Equinix · November 6 SG6 launch"
+          },
+          "url": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-to-Support-Singapores-Digital-Future-and-Strengthen-Its-Role-as-a-Global-Innovation-Hub",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "開幕與專案場址：新加坡 SG6 IBX 資料中心；公司公告未提供可核對街址。",
+        "en": "Opening and project site: SG6 IBX data center, Singapore; the release did not provide a verifiable street address."
+      },
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "新加坡",
+          "en": "Singapore"
+        },
+        "industries": {
+          "zh": "資料中心；機櫃；液冷；電源；供電；電力；儲能；投資",
+          "en": "Data centers; racks; liquid cooling; power; energy storage; investment"
+        },
+        "chain": {
+          "zh": "伺服器機櫃、供電與液冷至資料中心",
+          "en": "Server racks through power, liquid cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "Equinix 公布初期投入約 2.9 億美元。",
+            "en": "Equinix reported an initial US$290M investment."
+          },
+          "demand": {
+            "zh": "第一期提供 8MW，未公布客戶實際負載。",
+            "en": "Phase one provides 8MW; customer utilization is undisclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增跨境直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心實際開幕與分期機房容量、電源及散熱配置直接相關。",
+            "en": "A newly opened data center with distinct capacity phases, power and cooling requirements."
+          },
+          "timing": {
+            "zh": "11 月 6 日正式開幕，全期完成日期未公布。",
+            "en": "Opened Nov 6; final build-out date was not specified."
+          },
+          "unknowns": {
+            "zh": "實際簽約機櫃、客戶使用率、液冷系統運轉功率及後續擴建時程未揭露。",
+            "en": "Contracted cabinets, actual utilization, running liquid-cooling load and remaining-phase timelines were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "SG6 第一期 IT 容量",
+            "en": "SG6 first-phase IT capacity"
+          },
+          "current": 8,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 11 月 6 日開幕",
+            "en": "Opening Nov 6, 2026"
+          },
+          "owner": {
+            "zh": "Equinix",
+            "en": "Equinix"
+          },
+          "sourceUrl": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-to-Support-Singapores-Digital-Future-and-Strengthen-Its-Role-as-a-Global-Innovation-Hub",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "SG6 全期規劃 IT 容量",
+            "en": "SG6 full-build design IT capacity"
+          },
+          "current": 20,
+          "unit": "MW",
+          "period": {
+            "zh": "全期設計規劃",
+            "en": "Full-build design"
+          },
+          "owner": {
+            "zh": "Equinix",
+            "en": "Equinix"
+          },
+          "sourceUrl": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-to-Support-Singapores-Digital-Future-and-Strengthen-Its-Role-as-a-Global-Innovation-Hub",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "SG6 初期投資",
+            "en": "SG6 initial investment"
+          },
+          "current": 0.29,
+          "unit": "USD billion",
+          "period": {
+            "zh": "截至 2026 年 11 月 6 日公告",
+            "en": "Disclosed Nov 6, 2026"
+          },
+          "owner": {
+            "zh": "Equinix",
+            "en": "Equinix"
+          },
+          "sourceUrl": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-to-Support-Singapores-Digital-Future-and-Strengthen-Its-Role-as-a-Global-Innovation-Hub",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "第一期機櫃數約數",
+            "en": "Approximate phase-one cabinet count"
+          },
+          "current": 1550,
+          "unit": "個機櫃",
+          "period": {
+            "zh": "第一期",
+            "en": "Phase one"
+          },
+          "owner": {
+            "zh": "Equinix",
+            "en": "Equinix"
+          },
+          "sourceUrl": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-to-Support-Singapores-Digital-Future-and-Strengthen-Its-Role-as-a-Global-Innovation-Hub",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心供電轉換、電力品質與液冷控制業者而言，SG6 開幕與 8MW 上線容量提供具體專案基礎。仍須查核實際機櫃功率密度、設備驗收與客戶利用率，20MW 尚屬全期設計目標。",
+        "en": "For data-center power-conversion, power-quality and liquid-cooling control suppliers, SG6's opening and 8MW first phase are tangible project milestones. Cabinet power density, equipment acceptance and utilization remain unknown; 20MW is the full-build target."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "avc-vietnam-factory-phase5-contracts",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "奇鋐越南子公司簽訂約 15.73 億元機電與配套工程合約",
+        "en": "AVC's Vietnam unit signs about NT$1.573B in electrical and ancillary construction contracts"
+      },
+      "summary": {
+        "zh": "奇鋐 11 月 6 日代越南子公司 AVC TECH. 公告兩筆機電及配套裝修工程合約，合計約 1.2586 兆越南盾，折合約新台幣 15.73 億元，用於生產及營運。這是新增工程合約，與先前公告的第五期土建工程應分別核對範圍。",
+        "en": "AVC disclosed two electrical and ancillary construction contracts for its Vietnam subsidiary on November 6 totaling approximately VND1.2586 trillion, or NT$1.573 billion, for production and operations. These are newly reported contracts and must be distinguished from earlier phase-five civil construction commitments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "奇鋐業務涵蓋伺服器散熱、液冷與其他熱管理零組件；越南製造設施的機電工程屬設備上線前的廠務支出，不能直接推導新增散熱模組量。",
+            "en": "AVC supplies server thermal-management and liquid-cooling components. Electrical and construction work at a Vietnam manufacturing site is facility spending, which cannot establish additional delivered cooling-module volume."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "其中一項合約約 7,494 億越南盾，另一項約 5,092 億越南盾，合計約 1.2586 兆越南盾。此前 9 月曾公告第五期土建及機電規劃，兩次公告的合約內容是否重疊仍須核對原始契約。",
+            "en": "The two contracts total roughly VND749.4 billion and VND509.2 billion. Earlier September disclosures addressed phase-five civil and electromechanical works; whether the latest contracts overlap with earlier scope requires checking the original contracts."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新工程與既有第五期預算的重疊範圍、完工月份、液冷產線驗收與產能未公布。",
+            "en": "Contract-scope overlap, completion month, liquid-cooling line acceptance and output capacity remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$1.573B",
+      "metricLabel": {
+        "zh": "新增公告工程合約約數",
+        "en": "Reported construction contracts"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 奇鋐越南工程合約",
+            "en": "CNA · AVC Vietnam contracts"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611063003.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：越南 AVC TECH. 子公司生產設施，公告未載明城市及門牌。",
+        "en": "Project site: AVC TECH Vietnam manufacturing premises; city and street address were not specified in the cited notice."
+      },
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "越南；台灣",
+          "en": "Vietnam; Taiwan"
+        },
+        "industries": {
+          "zh": "液冷；散熱；伺服器；工廠；零組件；投資",
+          "en": "Liquid cooling; servers; factories; components; investment"
+        },
+        "chain": {
+          "zh": "散熱零組件至伺服器與工廠自動化",
+          "en": "Cooling components through server systems and factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公告約新台幣 15.73 億元工程合約，未確認與舊案是否重疊。",
+            "en": "Approximately NT$1.573B newly disclosed construction contracts; overlap with earlier projects unconfirmed."
+          },
+          "demand": {
+            "zh": "未公布訂單或出貨變化。",
+            "en": "No order or shipment changes disclosed."
+          },
+          "fdi": {
+            "zh": "台灣企業越南子公司進行工程採購，未公布新增 FDI 統計。",
+            "en": "Vietnam subsidiary construction procurement; incremental FDI figure not given."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工廠供電、液冷製造基礎設施與設備驗收時程。",
+            "en": "Manufacturing-site electrical infrastructure and cooling-equipment commissioning."
+          },
+          "timing": {
+            "zh": "11 月 6 日公告工程合約。",
+            "en": "Construction contracts announced Nov 6."
+          },
+          "unknowns": {
+            "zh": "新工程與既有第五期預算的重疊範圍、完工月份、液冷產線驗收與產能未公布。",
+            "en": "Contract-scope overlap, completion month, liquid-cooling line acceptance and output capacity remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "越南工程合約總額約數",
+            "en": "Approximate Vietnam construction contracts"
+          },
+          "current": 1.573,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 6 日簽約公告",
+            "en": "Reported Nov 6, 2026"
+          },
+          "owner": {
+            "zh": "奇鋐公告，中央社報導",
+            "en": "AVC filing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611063003.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器機櫃液冷、泵浦控制與配電設備供應商而言，奇鋐新增工程合約顯示廠務工程進度。仍須核實工程範圍是否重複、設備驗收與實際產能，合約總額不代表散熱產品出貨。",
+        "en": "For rack liquid-cooling, pump-control and site-power suppliers, the contracts document facility-work milestones. Scope overlap, equipment acceptance and actual production remain unverified; construction spending is not product shipment data."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "wiwynn-malaysia-subsidiary-capital-increase",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "緯穎決議向馬來西亞子公司現金增資 2 億美元，公告用途為營運資金",
+        "en": "Wiwynn approves US$200M cash injection into Malaysian subsidiary for working capital"
+      },
+      "summary": {
+        "zh": "緯穎 11 月 6 日公告，董事會決議讓 Wiwynn Technology Service Malaysia 辦理 2 億美元現金增資，預計由 100% 持股母公司認購。公告指出用途為充實營運資金，未列為新增機器設備或擴建產能支出。",
+        "en": "Wiwynn disclosed on November 6 that its wholly owned Wiwynn Technology Service Malaysia subsidiary approved a US$200 million cash capital increase, to be subscribed by the parent. The stated purpose is working capital, with no new machine order or incremental factory capacity specified."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "緯穎供應資料中心伺服器與系統，馬來西亞業務涉及整機製造及組裝，對零組件、供電和測試製程有實際需求。增資決議與製造設備採購及產線上線屬不同財務事件。",
+            "en": "Wiwynn supplies data-center servers and systems, with Malaysian manufacturing operations linked to components, power and system testing. A capital injection is a financing action distinct from equipment procurement or a new line reaching production."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "公開資訊觀測站轉載公告列出增資總額 200,000 仟美元，每股面額 1 馬來西亞令吉，股數將依繳款日匯率換算。增資後持股仍為 100%，資金用途明列充實營運資金。",
+            "en": "The reproduced material-information filing states US$200,000 thousand in proceeds, shares at MYR1 par value with share count determined by the payment-date FX rate. Parent ownership remains 100% and proceeds are designated working capital."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際繳款日、換算股數、採購項目和馬來西亞產線新增產能未公告。",
+            "en": "Payment date, final share count, procurement items and any Malaysian capacity change were not disclosed."
+          }
+        }
+      ],
+      "metric": "US$0.2B",
+      "metricLabel": {
+        "zh": "核准現金增資",
+        "en": "Approved cash capital increase"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 轉載公開資訊觀測站重大訊息",
+            "en": "MoneyDJ · reproduction of exchange material filing"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=F4ED0A1C-3EF8-4658-99B5-8F17266519BD",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "台灣；馬來西亞",
+          "en": "Taiwan; Malaysia"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；測試；電源；投資",
+          "en": "Servers; ODM; systems; testing; power; investment"
+        },
+        "chain": {
+          "zh": "伺服器 ODM 整機、電源測試與跨境投資",
+          "en": "Server ODM systems, power testing and investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "核准對馬來西亞子公司注資 2 億美元，用於營運資金。",
+            "en": "Approved US$200M in working capital for Malaysian subsidiary."
+          },
+          "demand": {
+            "zh": "未公布訂單或出貨變化。",
+            "en": "No order or shipment changes disclosed."
+          },
+          "fdi": {
+            "zh": "跨境子公司增資計畫，未揭露資金匯入日期。",
+            "en": "Planned cross-border subsidiary injection, with remittance date undisclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器製造營運資金融通與實際產線資本支出的區分。",
+            "en": "Distinguishes server production working capital from new factory capex."
+          },
+          "timing": {
+            "zh": "11 月 6 日董事會決議，完成繳款日期待公告。",
+            "en": "Board resolution Nov 6; closing date unannounced."
+          },
+          "unknowns": {
+            "zh": "實際繳款日、換算股數、採購項目和馬來西亞產線新增產能未公告。",
+            "en": "Payment date, final share count, procurement items and any Malaysian capacity change were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "子公司現金增資",
+            "en": "Subsidiary capital increase"
+          },
+          "current": 0.2,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 6 日決議",
+            "en": "Resolved Nov 6, 2026"
+          },
+          "owner": {
+            "zh": "緯穎董事會，重大訊息轉載",
+            "en": "Wiwynn board, reproduced filing"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=F4ED0A1C-3EF8-4658-99B5-8F17266519BD",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源轉換、量測及整機測試業者而言，這筆馬來西亞增資涉及製造營運資金。應確認是否有獨立設備採購或驗收公告，目前 2 億美元不能解讀成新增產線訂單。",
+        "en": "For server power-conversion, metrology and integration-test suppliers, the financing supports manufacturing working capital. Separate procurement and commissioning disclosures are needed; US$200M is not a reported tool purchase."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "wistron-oct-2026-revenue-servers",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "緯創 10 月營收 4,026.15 億元，表示美國投資計畫暫無變動",
+        "en": "Wistron October sales reach NT$402.615B; US investment plan unchanged"
+      },
+      "summary": {
+        "zh": "緯創 11 月 6 日公布 10 月合併營收約 4,026.15 億元，月增 5.7%、年增超過 117%，前 10 個月累計營收約 3.29 兆元。公司對中央社表示美國既定投資計畫沒有變動，未另外揭露 AI 伺服器 10 月實際出貨台數。",
+        "en": "Wistron reported October consolidated revenue of about NT$402.615 billion on November 6, up 5.7% month on month and more than 117% year on year, with ten-month sales near NT$3.29 trillion. It told CNA its existing US investment plan is unchanged; actual October AI-server unit shipments were not reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "緯創的伺服器 ODM 與電子整機業務涵蓋機櫃、主機板、機構及電源模組整合，集團營收仍混合筆電等產品。不可將單月整體營收成長視為特定 GPU 機櫃出貨增幅。",
+            "en": "Wistron's server ODM and system integration cover racks, mainboards, enclosures and power modules, alongside PCs. Consolidated monthly revenue growth is not an AI GPU rack shipment growth rate."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "10 月筆電出貨 120 萬台，桌上型電腦 50 萬台，顯示器 85 萬台。公司表示第四季 AI 業務展望未改變，預期 11 月和 12 月表現優於 10 月；這是前瞻性說法。",
+            "en": "Wistron reported 1.2 million notebook units, 500,000 desktop units and 850,000 displays for October. Management maintained an outlook for stronger AI-related activity in November and December, which is forward-looking rather than realized shipment data."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "AI 伺服器及機櫃個別營收、出貨量、美國工程採購及驗收日期未公開。",
+            "en": "AI-server/rack revenue and units, US project procurement, and customer acceptance dates were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$402.615B",
+      "metricLabel": {
+        "zh": "10 月合併營收",
+        "en": "October consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 緯創 10 月營收及公司回應",
+            "en": "CNA · Wistron October results and company comment"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611060276.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；電源；測試；投資",
+          "en": "Servers; ODM; systems; power; test; investment"
+        },
+        "chain": {
+          "zh": "零組件至伺服器 ODM 整機與資料中心",
+          "en": "Components through server ODM systems and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司表示美國既定投資計畫未變，未新增金額。",
+            "en": "Company said its US investment plan is unchanged, without a new amount."
+          },
+          "demand": {
+            "zh": "公司稱伺服器業務持續出貨，未提供 AI 伺服器台數。",
+            "en": "Company described continued server activity without AI-server units."
+          },
+          "fdi": {
+            "zh": "未公布新增跨境直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器系統製造收入與客戶出貨的不同計量口徑。",
+            "en": "Separates consolidated revenue from product-specific shipments."
+          },
+          "timing": {
+            "zh": "11 月 6 日公布 10 月營收。",
+            "en": "October figures disclosed Nov 6."
+          },
+          "unknowns": {
+            "zh": "AI 伺服器及機櫃個別營收、出貨量、美國工程採購及驗收日期未公開。",
+            "en": "AI-server/rack revenue and units, US project procurement, and customer acceptance dates were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October revenue"
+          },
+          "current": 402.615,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "緯創，經中央社報導",
+            "en": "Wistron, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611060276.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.057,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月筆記型電腦出貨",
+            "en": "October notebook shipments"
+          },
+          "current": 1200000,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "緯創，經中央社報導",
+            "en": "Wistron, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611060276.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源、機櫃配電與系統驗證業者而言，營收及產品出貨口徑應分開閱讀。仍須確認特定機櫃平台、電源設計與量產驗收，集團營收無法直接轉換成配電設備採購。",
+        "en": "For rack power, power distribution and validation suppliers, consolidated sales and product shipments need separate assessment. Platform-level power specifications and acceptance remain unknown."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "micron-taoyuan-plant-labor-talks",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：美光與桃園工會 11 月 6 日調解未成，市府安排下一次會議",
+        "en": "Follow-up: Micron and Taoyuan union hold talks without agreement; another session planned"
+      },
+      "summary": {
+        "zh": "美光 11 月 6 日與桃園工會在桃園市政府安排下調解，當天尚未達成協議，市府已安排下次會議。美光重申已與台中工會達成協議，但沒有公布桃園新廠工程全面停工的確認資訊。",
+        "en": "Micron and its Taoyuan union met for mediation on November 6 without a settlement; the city government has scheduled another session. Micron reiterated its Taichung union agreement but released no confirmation of a complete stoppage at its Taoyuan new-build project."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "美光台灣涉及 DRAM 記憶體晶圓製造，桃園新廠工程與台中既有營運的範圍不同。前一日外媒停工說法仍未由政府或公司提供相符的工程進度文件。",
+            "en": "Micron's Taiwan business includes DRAM wafer production. A Taoyuan construction project is distinct from ongoing Taichung operations, and the prior day's reported stoppage remains without a verified project-work schedule."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "中央社 11 月 6 日晚間引述美光回應，確認桃園市政府勞動局協助當天調解，並安排下次會議。報導未載明新一輪協商的具體日期或施工狀態變更。",
+            "en": "CNA quoted Micron confirming mediation supported by Taoyuan's labor authority and another planned meeting. No date for that meeting or change in construction status was specified."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "下一輪協商日期、桃園新廠實際施工範圍、設備進場與對記憶體出貨影響仍待公布。",
+            "en": "The next meeting date, actual construction status, equipment move-in and shipment implications remain undisclosed."
+          }
+        }
+      ],
+      "metric": "協商中",
+      "metricLabel": {
+        "zh": "11 月 6 日調解進度",
+        "en": "November 6 mediation status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 美光 11 月 6 日公司說明",
+            "en": "CNA · Micron November 6 response"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611060324.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "協商地點：台灣桃園市政府相關調解程序；涉及專案為桃園記憶體新廠。",
+        "en": "Mediation in Taoyuan municipal process, Taiwan; related project is a Taoyuan memory fab."
+      },
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "DRAM；記憶體；晶圓；設備；投資",
+          "en": "DRAM; memory; wafer fabs; equipment; investment"
+        },
+        "chain": {
+          "zh": "DRAM 記憶體晶圓、半導體設備與建廠",
+          "en": "DRAM fabrication, semiconductor equipment and factory construction"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布桃園建廠投資金額變更。",
+            "en": "No revised capital plan for the Taoyuan facility disclosed."
+          },
+          "demand": {
+            "zh": "未公布訂單或出貨變化。",
+            "en": "No order or shipment changes disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增跨境直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "記憶體晶圓廠勞資協商及工程狀態需分開確認。",
+            "en": "Separates labor negotiations from verified fab construction status."
+          },
+          "timing": {
+            "zh": "11 月 6 日舉行調解，下次會議日期未明。",
+            "en": "Mediation occurred Nov 6; next session date unannounced."
+          },
+          "unknowns": {
+            "zh": "下一輪協商日期、桃園新廠實際施工範圍、設備進場與對記憶體出貨影響仍待公布。",
+            "en": "The next meeting date, actual construction status, equipment move-in and shipment implications remain undisclosed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對晶圓蝕刻 RF 電源、機台量測及設備供應商而言，美光新公告只確認勞資調解仍在進行。設備進場與驗收應以工程公告核實，不能由協商結果推估取消採購或記憶體減產。",
+        "en": "For wafer etch RF-power, metrology and process-equipment suppliers, the new disclosure establishes continuing mediation only. Tool move-in and acceptance need project-level evidence; negotiations cannot substantiate canceled orders or reduced memory output."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "walsin-vietnam-stainless-precision-manufacturing",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "華新麗華決議投入 3,000 萬美元，規劃越南不銹鋼精密材料基地",
+        "en": "Walsin approves US$30M to establish Vietnamese precision stainless-steel materials subsidiary"
+      },
+      "summary": {
+        "zh": "華新麗華 11 月 6 日公告，董事會決議以 3,000 萬美元在越南設立持股 100% 的子公司，規劃作為不銹鋼精密製造材料生產基地。公告未列明廠址、廠房產能或設備採購細節，須待設立完成後進一步披露。",
+        "en": "Walsin announced on November 6 that its board approved US$30 million to form a wholly owned Vietnamese subsidiary for precision stainless-steel manufacturing materials. The release did not identify a site, production capacity or equipment procurement, with further details due after incorporation."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "不銹鋼精密材料可供各種工業設備及製造用途；尚無直接證據表明此案已取得半導體、伺服器或資料中心個別客戶的資格認證。",
+            "en": "Precision stainless-steel materials serve industrial manufacturing and equipment; no evidence establishes semiconductor, server or data-center customer qualification for this particular project."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "本案屬 11 月 6 日董事會投資決議，3,000 萬美元為規劃投入資金。公司現有跨國生產據點與本次越南新法人仍須獨立辨識。",
+            "en": "The US$30 million is a board-approved investment plan from November 6. The new entity is distinct from Walsin's existing international manufacturing facilities."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新公司設立時程、越南城市與廠址、材料規格、設備清單和投產日期未揭露。",
+            "en": "Incorporation timing, city and factory address, product grades, equipment list and commissioning date were not provided."
+          }
+        }
+      ],
+      "metric": "US$30M",
+      "metricLabel": {
+        "zh": "越南子公司規劃投資",
+        "en": "Planned Vietnam subsidiary investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 華新麗華越南子公司公告",
+            "en": "CNA · Walsin Vietnam investment filing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611063002.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "越南；台灣",
+          "en": "Vietnam; Taiwan"
+        },
+        "industries": {
+          "zh": "工業材料；零組件；工廠；投資；FDI",
+          "en": "Industrial materials; components; factories; FDI"
+        },
+        "chain": {
+          "zh": "精密材料與設備零組件至終端工廠投資",
+          "en": "Precision materials and components through factory investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "規劃設立越南子公司，投入 3,000 萬美元。",
+            "en": "Plans US$30M in a newly incorporated Vietnam subsidiary."
+          },
+          "demand": {
+            "zh": "未公布訂單或出貨變化。",
+            "en": "No order or shipment changes disclosed."
+          },
+          "fdi": {
+            "zh": "台灣對越南規劃跨境投資，實際匯款尚未公布。",
+            "en": "Planned Taiwan-to-Vietnam investment; remittance unconfirmed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "精密金屬材料新法人與製造據點規劃。",
+            "en": "A new precision-metal materials entity and proposed manufacturing base."
+          },
+          "timing": {
+            "zh": "11 月 6 日董事會決議，後續設立待公告。",
+            "en": "Approved Nov 6; incorporation pending."
+          },
+          "unknowns": {
+            "zh": "新公司設立時程、越南城市與廠址、材料規格、設備清單和投產日期未揭露。",
+            "en": "Incorporation timing, city and factory address, product grades, equipment list and commissioning date were not provided."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "越南子公司規劃投資",
+            "en": "Planned Vietnam subsidiary investment"
+          },
+          "current": 0.03,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 6 日董事會決議",
+            "en": "Board resolution Nov 6, 2026"
+          },
+          "owner": {
+            "zh": "華新麗華，中央社報導",
+            "en": "Walsin, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611063002.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業設備精密金屬零件與製程控制供應商而言，華新麗華提出越南製造材料基地構想。尚須確認產品等級、客戶驗證與廠房設備規範，增資金額仍屬規劃。",
+        "en": "For precision metal components and industrial process-control suppliers, Walsin proposed a Vietnam materials base. Product grades, customer qualifications and equipment specifications remain unknown."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taiwan-us-industrial-innovation-nsf-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台美簽署產業創新研發合作意向書，11 月 17 日啟動首波徵案",
+        "en": "Taiwan and US sign industrial R&D cooperation letter; first call opens Nov 17"
+      },
+      "summary": {
+        "zh": "經濟部與美國國家科學基金會於 11 月 6 日啟動台美產業創新研發合作平台，並簽署合作意向書，首波共同徵案將於 11 月 17 日開放至 2027 年 3 月 17 日。合作領域涵蓋半導體、光子、先進材料及潔淨能源，尚未公布獲選企業或量產成果。",
+        "en": "Taiwan's economic ministry and the US National Science Foundation launched an industry R&D cooperation platform on November 6. Applications are scheduled for November 17 through March 17, 2027, covering semiconductors, photonics, advanced materials and clean energy, with no awarded projects or production results yet."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "計畫由工研院、東北大學及 MTM Venture Partners 等參與執行，目的是連接研發、原型、測試驗證與產業量產。簽署意向書屬合作制度啟動，不能視為商業訂單。",
+            "en": "The initiative involves ITRI, Northeastern University and MTM Venture Partners to connect R&D with prototypes and production validation. A cooperation letter establishes a framework rather than a commercial order."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "經濟部表示 NSF 透過美國東北大學與台灣、日本、南韓、新加坡推動徵案，四方合計預計補助 16 案。台方補助最高為總研發經費 50%，美方新創公司每案最高 25 萬美元；兩項是補助上限。",
+            "en": "The ministry says NSF's regional collaboration via Northeastern University involves Taiwan, Japan, South Korea and Singapore, with 16 projects anticipated across the arrangement. Taiwan-side funding may cover up to 50% of eligible R&D budgets and US startups up to US$250,000 per project; both are ceilings."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "徵案審查結果、各案半導體技術驗證、實際補助額與量產成果未公布。",
+            "en": "Selection outcomes, semiconductor qualification milestones, actual grants and production achievements remain unknown."
+          }
+        }
+      ],
+      "metric": "16 案",
+      "metricLabel": {
+        "zh": "跨國計畫預計補助總案數",
+        "en": "Expected cross-market supported projects"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經濟部跨國研發合作公告",
+            "en": "CNA · Taiwan-US industrial R&D announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611060202.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "台灣；美國；新加坡；日本；南韓",
+          "en": "Taiwan; United States; Singapore; Japan; South Korea"
+        },
+        "industries": {
+          "zh": "半導體；光子；設備；先進材料；工廠自動化；投資",
+          "en": "Semiconductors; photonics; equipment; advanced materials; industrial R&D"
+        },
+        "chain": {
+          "zh": "半導體材料、設備、晶圓研發與產業合作投資",
+          "en": "Semiconductor materials, equipment and R&D policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公布跨國研發補助上限，未公布已核撥金額。",
+            "en": "Announced grant ceilings, not disbursed funding."
+          },
+          "demand": {
+            "zh": "未公布訂單或出貨變化。",
+            "en": "No order or shipment changes disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增跨境直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "半導體前段技術研發、測試驗證與產業合作機制。",
+            "en": "Semiconductor R&D, qualification testing and technology collaboration."
+          },
+          "timing": {
+            "zh": "11 月 6 日簽署；首波徵案 11 月 17 日至次年 3 月 17 日。",
+            "en": "Signed Nov 6; application window Nov 17 to Mar 17, 2027."
+          },
+          "unknowns": {
+            "zh": "徵案審查結果、各案半導體技術驗證、實際補助額與量產成果未公布。",
+            "en": "Selection outcomes, semiconductor qualification milestones, actual grants and production achievements remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "跨國預定支持計畫",
+            "en": "Planned regional supported projects"
+          },
+          "current": 16,
+          "unit": "案",
+          "period": {
+            "zh": "本次合作計畫",
+            "en": "Current cooperation framework"
+          },
+          "owner": {
+            "zh": "經濟部，中央社報導",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611060202.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對製程電源、半導體量測與試驗設備業者而言，平台公開的合作領域涉及材料及晶片製程測試。仍須核對入選技術、研發驗收和實際補助金額，尚不能推定量產採購。",
+        "en": "For process-power and semiconductor metrology firms, the platform covers materials and chip-process validation. Awarded technologies, testing milestones and actual funding remain unknown; commercial procurement cannot be inferred."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "transcend-dram-nand-q4-2026-pricing",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "創見表示第四季 DRAM 與 NAND 報價趨於持平，第三季淨利季減 41.8%",
+        "en": "Transcend expects steadier Q4 DRAM and NAND pricing after Q3 profit decline"
+      },
+      "summary": {
+        "zh": "創見董事長 11 月 6 日表示，預期第四季 DRAM 與 NAND Flash 報價大致持平，創見營運表現估與第三季相近。公司第三季稅後淨利為新台幣 69.2 億元、季減 41.8%，報價與未來缺貨程度均屬公司判斷，未公布供應商合約價格。",
+        "en": "Transcend's chairman said on November 6 that DRAM and NAND flash prices should be broadly steady in Q4 and the company's operations roughly flat versus Q3. Q3 after-tax profit was NT$6.92 billion, down 41.8% sequentially; pricing and potential shortages are management assessments, not published supplier contract prices."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "創見供應記憶體模組與儲存產品，DRAM、NAND 及 HBM 市場的供需條件各異。公司指出原料採購成本上升壓縮第三季獲利，不能單憑模組價格推估 HBM 產能。",
+            "en": "Transcend sells memory modules and storage products, while DRAM, NAND and HBM have different supply dynamics. Management attributed Q3 margin pressure partly to rising input costs; module pricing does not quantify HBM capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "公司公布第三季每股純益 16.11 元，前 3 季稅後淨利約 269.4 億元、每股純益 62.74 元。董事長預期明年上半年 DRAM 可能更吃緊，應標示為前瞻性判斷。",
+            "en": "The company reported Q3 EPS of NT$16.11 and nine-month net income of about NT$26.94 billion with EPS of NT$62.74. Management's expectation of tighter DRAM supply in first-half 2027 remains forward-looking."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "DRAM 與 NAND 分別採購均價、供應商分配額度及下一季實際出貨量未揭露。",
+            "en": "Separate DRAM and NAND purchase prices, supplier allocations and next-quarter shipments were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$6.92B",
+      "metricLabel": {
+        "zh": "第三季稅後淨利",
+        "en": "Q3 after-tax profit"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 創見董事長記憶體報價說明",
+            "en": "CNA · Transcend memory pricing remarks"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611060269.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "DRAM；NAND；SSD；記憶體；伺服器",
+          "en": "DRAM; NAND; SSD; memory; servers"
+        },
+        "chain": {
+          "zh": "記憶體 DRAM 與 NAND 至模組及伺服器",
+          "en": "DRAM and NAND through memory modules and servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment disclosed."
+          },
+          "demand": {
+            "zh": "管理階層預期第四季價格持平，未給出合約價或出貨量。",
+            "en": "Management expects stable Q4 prices without contract quotations or shipment volumes."
+          },
+          "fdi": {
+            "zh": "未公布新增跨境直接投資。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "記憶體模組產品的實際獲利和材料成本資訊。",
+            "en": "Realized module profitability and input costs."
+          },
+          "timing": {
+            "zh": "11 月 6 日媒體交流，第三季財報屬已結束期間。",
+            "en": "Remarks Nov 6; Q3 results cover a completed period."
+          },
+          "unknowns": {
+            "zh": "DRAM 與 NAND 分別採購均價、供應商分配額度及下一季實際出貨量未揭露。",
+            "en": "Separate DRAM and NAND purchase prices, supplier allocations and next-quarter shipments were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 after-tax profit"
+          },
+          "current": 6.92,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "創見，中央社報導",
+            "en": "Transcend, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611060269.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.418,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季稅後淨利",
+            "en": "Nine-month after-tax profit"
+          },
+          "current": 26.94,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "創見，中央社報導",
+            "en": "Transcend, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611060269.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對記憶體模組測試及伺服器電源業者而言，創見揭露的獲利及報價觀察有助界定市場資料來源。尚需查核實際料號、供應商交期及客戶採購數量，前瞻性缺貨判斷不等於出貨。",
+        "en": "For memory-module testing and server-power suppliers, Transcend's financials and pricing commentary identify reported market conditions. Part-level quotes, supplier lead times and shipments remain unknown; a shortage expectation is not a delivered-volume figure."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "qisda-vietnam-subsidiary-construction-capital",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "佳世達 11 月 6 日決議對越南子公司增資 1,000 萬美元，供興建計畫使用",
+        "en": "Qisda approves US$10M injection into Vietnam property subsidiary for construction"
+      },
+      "summary": {
+        "zh": "佳世達 11 月 6 日決議增資 100% 持有的 Qisda Property Vietnam 子公司 1,000 萬美元，公告目的為支應興建計畫資金需求。公司未公開新建案的廠址、用途細節與設備清單，無法直接視為新增電子產品產能。",
+        "en": "Qisda approved a US$10 million capital injection into wholly owned Qisda Property Vietnam on November 6, citing funding needs for a construction project. The announcement did not specify the construction site, equipment or product capacity."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "佳世達經營電子產品及醫療與企業解決方案，子公司的興建資金與電子產品量產線驗收屬不同階段。",
+            "en": "Qisda has electronics and diversified operations, while financing for a property subsidiary's construction is separate from commissioning a production line."
+          }
+        },
+        {
+          "label": {
+            "zh": "最新數字與時間",
+            "en": "Figures and timing"
+          },
+          "text": {
+            "zh": "公開資訊觀測站轉載公告與中央社報導均列出 1,000 萬美元及 100% 持股。未列示這筆投入資金的各期付款時程。",
+            "en": "The reproduced material filing and CNA report agree on US$10 million and 100% ownership. They provide no construction payment schedule."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "工程場址、建設內容、完工時間與是否涉及伺服器或半導體產線均待公布。",
+            "en": "Site, construction scope, completion date and any server or semiconductor production linkage remain undisclosed."
+          }
+        }
+      ],
+      "metric": "US$10M",
+      "metricLabel": {
+        "zh": "越南子公司增資規劃",
+        "en": "Vietnam subsidiary capital plan"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 佳世達越南子公司增資",
+            "en": "CNA · Qisda Vietnam cash injection"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611063008.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "越南；台灣",
+          "en": "Vietnam; Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；設備；電子系統；投資；FDI",
+          "en": "Factories; equipment; electronic systems; investment; FDI"
+        },
+        "chain": {
+          "zh": "工廠建設與產業投資，產品供應鏈待確定",
+          "en": "Factory construction and industrial investment; product chain unspecified"
+        },
+        "changes": {
+          "investment": {
+            "zh": "決議投入 1,000 萬美元供越南子公司興建計畫。",
+            "en": "Approved US$10M for Vietnamese construction funding."
+          },
+          "demand": {
+            "zh": "未公布訂單或出貨變化。",
+            "en": "No order or shipment changes disclosed."
+          },
+          "fdi": {
+            "zh": "台灣母公司向越南全資子公司注資，實際匯款未公布。",
+            "en": "Planned parent-to-Vietnam funding; remittance date undisclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電子製造集團的境外廠務建置資金安排。",
+            "en": "Funding for an electronics group's overseas construction project."
+          },
+          "timing": {
+            "zh": "11 月 6 日董事會決議。",
+            "en": "Board resolved Nov 6."
+          },
+          "unknowns": {
+            "zh": "工程場址、建設內容、完工時間與是否涉及伺服器或半導體產線均待公布。",
+            "en": "Site, construction scope, completion date and any server or semiconductor production linkage remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "越南子公司增資",
+            "en": "Vietnam subsidiary capital injection"
+          },
+          "current": 0.01,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 6 日決議",
+            "en": "Board resolution Nov 6, 2026"
+          },
+          "owner": {
+            "zh": "佳世達董事會，中央社報導",
+            "en": "Qisda board, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611063008.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供可直接比較的基期數值；未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工廠自動化、配電與量測設備業者而言，此公告僅證實佳世達對越南子公司的建設資金安排。仍須確認場址、建廠用途與設備需求，無法由增資金額判定單一產品產能。",
+        "en": "For factory automation, power-distribution and instrumentation suppliers, the notice confirms construction financing only. Site, facility purpose and equipment requirements remain unknown."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "SG6 的 20MW 已全部運轉嗎？",
+        "en": "Is all 20MW at SG6 already operational?"
+      },
+      "text": {
+        "zh": "公司公告第一期提供 8MW，20MW 為完整建置後 IT 設計容量，實際使用率未披露。",
+        "en": "Equinix reports 8MW in phase one; 20MW is a full-build IT target, with no utilization rate disclosed."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "越南新工程合約是否都屬新增產能支出？",
+        "en": "Are all the Vietnam contracts incremental capacity spending?"
+      },
+      "text": {
+        "zh": "兩筆合約在 11 月 6 日公告，但與先前第五期廠務工程範圍是否重疊，仍需核對原始契約。",
+        "en": "The contracts were announced on November 6, but overlap with previously announced phase-five factory work requires original contract review."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "緯穎的 2 億美元能直接當成設備採購嗎？",
+        "en": "Is Wiwynn's US$200M an equipment order?"
+      },
+      "text": {
+        "zh": "董事會公告資金用途為充實營運資金，未揭露單獨的設備採購或新增產能。",
+        "en": "The board specified working capital and disclosed no corresponding equipment purchase or production capacity."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "前期已報導的封測投資",
+        "en": "Previously published packaging investments"
+      },
+      "text": {
+        "zh": "11 月 5 日的日月光封測核准投資及馬來西亞 PDG 融資已在先前日報列載，本次不重複當作新公告。",
+        "en": "ASE's November 5 packaging approval and PDG's Malaysian financing appeared in previous editions and are not restated as new announcements."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "核對說明",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價波動與舊有擴建敘事",
+        "en": "Market prices and repeated project announcements"
+      },
+      "text": {
+        "zh": "未選用單純股價變化、分析師推測及先前披露而沒有新工程或公司決議的題材。",
+        "en": "Share-price movements, analyst speculation and older expansion plans without newly disclosed milestones were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "部分台灣公司數據及公告由中央社或重大訊息轉載來源呈現，未逐一取得公開資訊觀測站原始文件；已明列資訊來源。奇鋐越南新工程合約與先前擴廠預算是否重疊仍待確認；美光桃園廠實際施工狀態仍缺乏獨立工程文件。",
+    "en": "Some Taiwanese filings and results were checked through CNA or reproduced exchange announcements rather than independently accessed exchange originals. Possible overlap between AVC's latest contracts and earlier factory budgets remains unresolved; Micron's exact Taoyuan construction status also lacks an independently verified work schedule."
+  }
+}
