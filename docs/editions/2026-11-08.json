@@ -1,0 +1,999 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-07T11:49:17.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、記憶體、資料中心電力及工廠投資",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, memory, data-center power and factory investments"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "京鼎核准泰國廠房資產交易、高雄公布中鋼燃料電池規劃，而馬來西亞資料中心承包商與台灣記憶體業者分別披露工程和既有投資的不同進度。",
+    "en": "Foxsemicon approved a Thai industrial property transaction, Kaohsiung detailed China Steel's fuel-cell project, and a Malaysian data-center contractor and Taiwanese memory maker disclosed distinct construction and previously approved capital plans."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "京鼎泰國子公司核准 5.05 億泰銖羅勇府土地廠房交易，未公布新增設備產能。",
+        "en": "Foxsemicon's Thai unit approved a THB505M Rayong factory-property purchase; no capacity addition was announced."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "高雄市府公布中鋼 3.575MW 燃料電池及碳捕捉工程細節，預定 2028 年底完成。",
+        "en": "Kaohsiung detailed China Steel's planned 3.575MW fuel cells and carbon capture, targeting end-2028."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "馬來西亞 Sunway Construction 公告約 17.39 億令吉資料中心合約，與 4 月同址合約關係待核對。",
+        "en": "SunCon announced a reported RM1.739B Serendah data-center contract; its relation to an April award is unverified."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "外媒指台積電評估 3D DRAM，但台積電與輝達均未正式確認計畫。",
+        "en": "Media report TSMC may assess 3D DRAM; neither TSMC nor Nvidia confirmed a program."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "美國議員計畫提出資料中心電價與 AI 測試法案，目前尚無正式生效規定。",
+        "en": "US lawmakers plan data-center power-cost and AI testing bills; no new rules have taken effect."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "jentech-unieq-rayong-land-factory-acquisition",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "京鼎泰國子公司通過 5.05 億泰銖土地廠房交易，場址位於羅勇府",
+        "en": "Foxsemicon's Thailand unit approves THB505M land and factory acquisition in Rayong"
+      },
+      "summary": {
+        "zh": "京鼎 11 月 6 日代泰國 UniEQ 子公司公告，董事會通過以未稅 5.05 億泰銖向 Vitesco Technologies (Thailand) 購置羅勇府土地及廠房，供營運使用。交易包含土地 48,000 平方公尺及建物 28,693 平方公尺，尚未宣布新設備驗收或產能增加。",
+        "en": "On November 6 Foxsemicon disclosed that its Thai subsidiary UniEQ approved the purchase of land and factory buildings in Rayong from Vitesco Technologies (Thailand) for THB505 million before tax. The assets comprise 48,000 square meters of land and 28,693 square meters of buildings; no equipment commissioning or additional production capacity was disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "京鼎供應半導體製造設備及精密系統組件，泰國子公司取得既有不動產可供後續營運使用。購置廠房與實際產線設備進場、客戶認證及量產屬不同進度。",
+            "en": "Foxsemicon makes semiconductor manufacturing equipment components and precision systems. Acquiring existing factory property provides an operating asset, while equipment move-in, customer qualification and production are separate milestones."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時序與數據",
+            "en": "Dated figures and disclosures"
+          },
+          "text": {
+            "zh": "重大訊息記載交易地點為泰國羅勇府 Pluak Daeng 區 Mabyangporn，地址 7/259 Moo 6；交易對手為 Vitesco Technologies (Thailand)。鑑價結果為 5.17 億泰銖，交易總價為 5.05 億泰銖，公告另列泰銖換算匯率 0.966；價格是交易計畫，未有已付款證明。",
+            "en": "The reproduced exchange filing identifies 7/259 Moo 6, Mabyangporn, Pluak Daeng, Rayong, and names Vitesco Technologies (Thailand) as counterparty. Appraised value was THB517 million against a THB505 million contract price, with a disclosed THB-to-TWD rate of 0.966. The board decision does not establish that payment and handover are complete."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "交易完成與交屋時間、廠務改造、半導體製程設備規格及新增產能未公布。",
+            "en": "Closing and handover dates, facility refurbishment, semiconductor-tool specifications and incremental capacity were not announced."
+          }
+        }
+      ],
+      "metric": "THB 505M",
+      "metricLabel": {
+        "zh": "購置不動產未稅交易價",
+        "en": "Property purchase price before tax"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台視財經 · 轉載京鼎重大訊息全文",
+            "en": "TTV Finance · Reproduced Foxsemicon material filing"
+          },
+          "url": "https://www.ttv.com.tw/finance/view/?from=587&i=1120260615580ABF94B093F4433F9EBF18DFC6CD609F2AAD",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 京鼎泰國購置案",
+            "en": "CNA · Thailand property transaction"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611063007.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "交易專案場址：7/259 Moo 6, Mabyangporn, Pluak Daeng, Rayong 21140，泰國。",
+        "en": "Transaction property site: 7/259 Moo 6, Mabyangporn, Pluak Daeng, Rayong 21140, Thailand."
+      },
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "泰國；台灣",
+          "en": "Thailand; Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；精密零組件；工廠；投資；FDI",
+          "en": "Semiconductor equipment; precision components; factories; FDI"
+        },
+        "chain": {
+          "zh": "設備與精密零組件、工廠至跨境投資",
+          "en": "Semiconductor tools and components through factory investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "董事會通過 5.05 億泰銖廠房土地購置，未確認交割。",
+            "en": "Board approved THB505M property transaction; closing unverified."
+          },
+          "demand": {
+            "zh": "未披露新增訂單或已實現出貨量。",
+            "en": "No new orders or delivered shipments disclosed."
+          },
+          "fdi": {
+            "zh": "泰國子公司購入當地資產，未公布本次新跨境匯入金額。",
+            "en": "Thai subsidiary acquired planned local property; new cross-border remittance undisclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "半導體設備零組件製造據點的不動產交易。",
+            "en": "Property acquired for semiconductor equipment component operations."
+          },
+          "timing": {
+            "zh": "11 月 6 日董事會決議，未有交割或投產日期。",
+            "en": "Board approval Nov 6; no closing or commissioning date."
+          },
+          "unknowns": {
+            "zh": "交易完成與交屋時間、廠務改造、半導體製程設備規格及新增產能未公布。",
+            "en": "Closing and handover dates, facility refurbishment, semiconductor-tool specifications and incremental capacity were not announced."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "按公告匯率換算交易額",
+            "en": "Transaction value converted at filing rate"
+          },
+          "current": 0.48783,
+          "unit": "NTD billion",
+          "owner": {
+            "zh": "依京鼎重大訊息匯率換算",
+            "en": "Calculated using FX rate in Foxsemicon filing"
+          },
+          "sourceUrl": "https://www.ttv.com.tw/finance/view/?from=587&i=1120260615580ABF94B093F4433F9EBF18DFC6CD609F2AAD",
+          "kind": "規劃估算",
+          "period": {
+            "zh": "2026 年 11 月 6 日公告交易",
+            "en": "Transaction announced Nov 6, 2026"
+          },
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原交易價為 505,000,000 泰銖，公告列示匯率為 0.966 新台幣／泰銖；0.48783 十億元為依公告資料換算，並非新增台幣報價。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體蝕刻與沉積設備電源、精密零件及量測供應商而言，京鼎的泰國不動產交易標示潛在的製造據點安排。仍需核對交屋、潔淨室改造、設備規格與客戶驗收，交易價無法視為新設備訂單。",
+        "en": "For process-power, precision tool component and metrology suppliers, the Thai transaction identifies an operating property. Handover, cleanroom upgrades, tool specifications and customer acceptance remain unconfirmed; the property price is not a new equipment order."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "china-steel-sofc-carbon-capture-kaohsiung",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "高雄市府公布中鋼 3.575MW 燃料電池及碳捕捉規劃，工程目標 2028 年底完成",
+        "en": "Kaohsiung details China Steel's planned 3.575MW fuel cells and carbon capture, targeting end-2028"
+      },
+      "summary": {
+        "zh": "高雄市環保局 11 月 7 日公布中鋼固態氧化物燃料電池與碳捕捉計畫細節，規劃裝置容量 3.575MW，年發電量約 3,000 萬度、每年捕捉約 1 萬公噸二氧化碳。中鋼董事會於 11 月 6 日核准投資約 10.79 億元，計畫自今年 12 月執行至 2028 年底，容量與捕捉量均屬規劃估算。",
+        "en": "Kaohsiung's environmental agency released more details on November 7 of China Steel's solid-oxide fuel cell and carbon-capture plan: 3.575MW installed capacity, an estimated 30 million kWh annually and about 10,000 tonnes of CO2 captured per year. China Steel's board approved approximately NT$1.079 billion on November 6, with the project scheduled through end-2028; these outputs are estimates."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "固態氧化物燃料電池以高溫電化學方式發電，與鋼鐵製程供電及工廠能源管理相關。地方政府表示捕捉後的二氧化碳可能經純化提供電子產業與氣體供應商，但未公告任何已成立的電子業供氣合約。",
+            "en": "Solid-oxide fuel cells produce electricity electrochemically at high temperatures and are relevant to steelmaking site power. The city said captured carbon dioxide could be purified for gas suppliers and electronics users but announced no contracted sales to semiconductor firms."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時序與數據",
+            "en": "Dated figures and disclosures"
+          },
+          "text": {
+            "zh": "高雄市環保局在 11 月 7 日披露 3.575MW、3,000 萬度年電量及 1 萬公噸年捕捉估算。11 月 6 日中鋼董事會核定 10 億 7,921 萬 8,000 元，此數字與 11 月 7 日約 10.79 億元為同一計畫，不應累加。",
+            "en": "Kaohsiung published the 3.575MW design, annual output estimate and capture plan on November 7. China Steel's November 6 board figure of NT$1,079,218,000 refers to the same project as the approximately NT$1.079 billion mentioned a day later, not additional spending."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "燃料電池實際設備供應商、發電效率、逐年驗收、捕集二氧化碳純度及電子業採購合約尚未揭露。",
+            "en": "Fuel-cell equipment suppliers, measured efficiency, phased acceptance, captured CO2 purity and any electronics customer contracts remain undisclosed."
+          }
+        }
+      ],
+      "metric": "3.575MW",
+      "metricLabel": {
+        "zh": "計畫裝置容量",
+        "en": "Planned installed capacity"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 高雄環保局公開計畫參數",
+            "en": "CNA · Kaohsiung environmental agency project details"
+          },
+          "url": "https://www.cna.com.tw/news/aloc/202611070116.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 中鋼董事會核准投資",
+            "en": "CNA · China Steel investment approval"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611060302.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：台灣高雄市中鋼既有廠區，未公布設備設置的詳細位置。",
+        "en": "Project site: China Steel's existing industrial premises in Kaohsiung, Taiwan; unit location not specified."
+      },
+      "market": {
+        "eventDate": "2026-11-07",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；工廠；能源設備；供電；碳捕捉；投資",
+          "en": "Site power; factories; energy equipment; carbon capture; investment"
+        },
+        "chain": {
+          "zh": "供電、電力與工廠自動化至工業投資",
+          "en": "Site power and end-use factories through industrial investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "中鋼董事會核准同一計畫約 10.79 億元投資。",
+            "en": "China Steel approved about NT$1.079B for the project."
+          },
+          "demand": {
+            "zh": "年電量及捕集量為市府規劃估算，尚未投產。",
+            "en": "Electricity and capture outputs are project estimates, not realized production."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資統計。",
+            "en": "No new FDI statistics disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工廠分散式供電與工業氣體純化、電子業潛在氣體用途。",
+            "en": "Factory distributed generation and potential purified industrial-gas uses."
+          },
+          "timing": {
+            "zh": "11 月 6 日董事會決議；11 月 7 日公布容量細節；預定 2028 年底完成。",
+            "en": "Board approval Nov 6, detailed capacity disclosed Nov 7, target completion end-2028."
+          },
+          "unknowns": {
+            "zh": "燃料電池實際設備供應商、發電效率、逐年驗收、捕集二氧化碳純度及電子業採購合約尚未揭露。",
+            "en": "Fuel-cell equipment suppliers, measured efficiency, phased acceptance, captured CO2 purity and any electronics customer contracts remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "SOFC 計畫裝置容量",
+            "en": "Planned SOFC installed capacity"
+          },
+          "current": 3.575,
+          "unit": "MW",
+          "owner": {
+            "zh": "高雄市環保局，中央社報導",
+            "en": "Kaohsiung Environmental Protection Bureau, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/aloc/202611070116.aspx",
+          "kind": "規劃估算",
+          "period": {
+            "zh": "預定 2028 年底完成",
+            "en": "Targeted completion end-2028"
+          },
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "消息來源未列出可直接比較的基期數值；未反推。"
+        },
+        {
+          "name": {
+            "zh": "董事會核准計畫投資額",
+            "en": "Board-approved project investment"
+          },
+          "current": 1.079218,
+          "unit": "NTD billion",
+          "owner": {
+            "zh": "中鋼董事會，中央社報導",
+            "en": "China Steel board, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611060302.aspx",
+          "kind": "公司目標",
+          "period": {
+            "zh": "2026 年 11 月 6 日決議",
+            "en": "Board approval Nov 6, 2026"
+          },
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "消息來源未列出可直接比較的基期數值；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工廠高壓電源、電力轉換及工業量測供應商而言，3.575MW SOFC 與碳捕捉系統是具體規劃中的工程參數。應區分設計容量、年度發電估算與驗收後實績，設備供應商和氣體純度標準仍待公布。",
+        "en": "For industrial power conversion and metrology suppliers, the 3.575MW SOFC and carbon capture scope provides project engineering parameters. Design capacity, estimated output and verified operation remain separate; supplier identities and gas purity standards are pending."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "suncon-serendah-data-center-nov5-contract",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Sunway Construction 11 月 5 日再公告雪蘭莪資料中心合約，與 4 月同址案的關係待確認",
+        "en": "SunCon reports Nov 5 Serendah data-center contract; relationship to April project unconfirmed"
+      },
+      "summary": {
+        "zh": "馬來西亞 Sunway Construction 11 月 5 日公告子公司與未具名國際雲端業者簽訂雪蘭莪 Serendah 資料中心工程合約，媒體報導金額約 17.39 億令吉，涵蓋主體建築、園區基礎設施及機電配套。公司 4 月 17 日也公告同一地區、範圍相近的約 17.5 億令吉合約，未能確認兩筆是否獨立，因此不累加計畫金額。",
+        "en": "Sunway Construction announced on November 5 a data-center construction agreement with an unnamed hyperscaler in Serendah, Selangor. Media put the value at roughly RM1.739 billion for civil, campus infrastructure and MEP works. A similar RM1.75 billion project was reported for the same area on April 17, and whether the two are fully independent remains unverified, so their values are not added together."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "資料中心核心建築及機電配套涉及供電、UPS、配電、冷卻與系統驗收。合約承包範圍為工程施工、測試與交付，未載明新加坡或台灣伺服器 ODM 的個別採購量。",
+            "en": "Data-center construction and MEP fit-outs include site power, UPS, distribution, cooling and commissioning. The award relates to construction work; no individual Taiwanese server ODM orders were disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時序與數據",
+            "en": "Dated figures and disclosures"
+          },
+          "text": {
+            "zh": "公司 11 月 5 日發布的正式重大訊息確認當日簽訂合約，媒體引述金額約 17.39 億令吉，預期施工自 2026 年第四季開始、2028 年第四季完成。另有 4 月 17 日正式公告，名稱、場址與施工項目接近，但 4 月工程預計自第三季開始、於 2028 年第三季完成，須留意契約是否具獨立案號與範圍。",
+            "en": "The company's November 5 filing verifies a construction agreement on that date, while reporting cites RM1.739 billion and a Q4 2026 to Q4 2028 schedule. An April 17 filing covered a similar location and scope with a Q3 2026 to Q3 2028 timeline, making contract-level scope reconciliation necessary."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "兩份同址合約的工程分界、最終客戶、機房 IT 容量、各期上電日期及設備驗收規格未公布。",
+            "en": "Whether the two Serendah contracts cover distinct packages, customer identity, IT load, energization phases and equipment acceptance are unresolved."
+          }
+        }
+      ],
+      "metric": "RM1.739B",
+      "metricLabel": {
+        "zh": "11 月 5 日合約媒體報導約數",
+        "en": "Reported November 5 contract value"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Sunway Construction · 11 月 5 日正式重大訊息",
+            "en": "Sunway Construction · November 5 filing"
+          },
+          "url": "https://ir2.chartnexus.com/suncon/investor-relations/onenew.php?id=3722290&type=Announcement",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "EdgeProp · 報導合約金額及時程",
+            "en": "EdgeProp · contract amount and timeline"
+          },
+          "url": "https://www.edgeprop.my/content/1918182/suncon-secures-rm174b-serendah-data-centre-contract",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Sunway Construction · 4 月 17 日同址公告",
+            "en": "Sunway Construction · April 17 earlier filing"
+          },
+          "url": "https://ir2.chartnexus.com/suncon/investor-relations/onenew.php?id=3655935&type=Announcement",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：馬來西亞雪蘭莪州 Bandar Serendah，未有可核實的建物街址。",
+        "en": "Project site: Bandar Serendah, Selangor, Malaysia; building street address not verified."
+      },
+      "market": {
+        "eventDate": "2026-11-05",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "資料中心；供電；液冷；散熱；工程；投資",
+          "en": "Data centers; site power; cooling; construction; investment"
+        },
+        "chain": {
+          "zh": "資料中心機房、供電及散熱至專案投資",
+          "en": "Data-center site power and cooling through project investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "11 月 5 日合約報導金額約 17.39 億令吉，與 4 月同址案關係未釐清。",
+            "en": "Reported RM1.739B contract; relationship to April Serendah award not established."
+          },
+          "demand": {
+            "zh": "有工程合約公告，未公布新機房客戶用電量或伺服器採購。",
+            "en": "Construction contract announced; IT load and server orders undisclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資統計。",
+            "en": "No new FDI statistics disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "馬來西亞資料中心土建、機電施工與驗收工程。",
+            "en": "Malaysian data-center shell, MEP and commissioning work."
+          },
+          "timing": {
+            "zh": "11 月 5 日公告，報導稱施工擬於第四季開始、2028 年第四季完成。",
+            "en": "Filed Nov 5, with reported Q4 2026 commencement and Q4 2028 completion."
+          },
+          "unknowns": {
+            "zh": "兩份同址合約的工程分界、最終客戶、機房 IT 容量、各期上電日期及設備驗收規格未公布。",
+            "en": "Whether the two Serendah contracts cover distinct packages, customer identity, IT load, energization phases and equipment acceptance are unresolved."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "11 月 5 日合約報導金額",
+            "en": "Reported November 5 construction contract"
+          },
+          "current": 1739,
+          "unit": "MYR million",
+          "owner": {
+            "zh": "Sunway Construction，經 EdgeProp 報導",
+            "en": "Sunway Construction, reported by EdgeProp"
+          },
+          "sourceUrl": "https://www.edgeprop.my/content/1918182/suncon-secures-rm174b-serendah-data-centre-contract",
+          "kind": "媒體引述",
+          "period": {
+            "zh": "2026 年 11 月 5 日公告",
+            "en": "Announced Nov 5, 2026"
+          },
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "與 4 月 17 日同址合約的獨立性尚未確認，不與舊案金額合計。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機房 UPS、配電、液冷及電力監測業者而言，工程合約範圍包含 MEP 與驗收，與設備安裝程序相關。必須先辨明 4 月與 11 月合約是否為不同工程包，再確認上電分期及採購規格，目前不能把兩筆金額直接相加。",
+        "en": "For UPS, power distribution, cooling and monitoring suppliers, the MEP scope relates to equipment installation and commissioning. The relationship between the April and November contracts, energization phases and procurement specifications must be clarified before assessing scope."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "tsmc-3d-dram-report-unconfirmed",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "媒體稱台積電評估 3D DRAM 製造，台積電與輝達未確認建廠或投產",
+        "en": "Reports suggest TSMC is evaluating 3D DRAM; no company confirmation or production date"
+      },
+      "summary": {
+        "zh": "The Information 11 月 6 日引述匿名知情人士稱，台積電正評估 3D DRAM 製造，可能涉及新建或收購廠房；Reuters 轉述並表示台積電與輝達當時未回應置評。11 月 7 日台灣產業研究人士對中央社表示，短期共同研發或技術驗證較可能，但此屬第三方分析，沒有正式投資、產能或客戶協議證據。",
+        "en": "On November 6, The Information cited unnamed sources saying TSMC was considering 3D DRAM fabrication, potentially involving new or acquired plants; Reuters relayed the report and said TSMC and Nvidia had not commented. On November 7 a Taiwan industry researcher suggested joint development or qualification might be more plausible near term, an opinion without any confirmed investment or production agreement."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "3D DRAM 是將記憶體單元沿垂直方向堆疊的技術概念，與目前量產 DRAM 或 HBM 的供貨合約不可混淆。評估、新廠與產線改造均尚無可獨立證實的公司計畫。",
+            "en": "3D DRAM vertically stacks memory cells, a different technology and evidence category from existing DRAM and HBM shipment contracts. The alleged evaluation, greenfield option and plant conversion have not been independently confirmed as company plans."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時序與數據",
+            "en": "Dated figures and disclosures"
+          },
+          "text": {
+            "zh": "Reuters 11 月 6 日轉述兩名匿名消息來源的報導，11 月 7 日中央社刊載台經院產經資料庫總監對技術路線的個人研判。沒有公司正式新聞稿、董事會資本支出或設備訂購資料，兩種媒體敘述均不能證明已啟動量產。",
+            "en": "Reuters on November 6 reported the anonymous-source claim; CNA on November 7 quoted the Taiwan Institute of Economic Research's industry database director interpreting possible technical routes. Neither constitutes a TSMC filing, approved capex, tool order or confirmed production launch."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "台積電是否真的提出製造計畫、輝達是否正式要求、製程節點、廠址、投產日期及記憶體製造合作方都未確認。",
+            "en": "Whether TSMC has a program, Nvidia made a formal request, process node, site, production date and partners remain unconfirmed."
+          }
+        }
+      ],
+      "metric": "尚未證實",
+      "metricLabel": {
+        "zh": "公司正式製造計畫",
+        "en": "Confirmed manufacturing plan"
+      },
+      "confidence": {
+        "zh": "低",
+        "en": "Low"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · 轉述匿名消息報導",
+            "en": "Reuters · Relayed anonymous-source report"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/tsmc-considers-making-advanced-memory-chips-information-reports-2026-11-06/",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 11 月 7 日外媒整理",
+            "en": "CNA · November 7 report of the claim"
+          },
+          "url": "https://www.cna.com.tw/news/ait/202611070002.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 台經院人士意見",
+            "en": "CNA · Industry researcher's interpretation"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611070109.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "DRAM；記憶體；HBM；晶圓；半導體設備；封裝",
+          "en": "DRAM; memory; HBM; wafers; semiconductor tools; packaging"
+        },
+        "chain": {
+          "zh": "晶圓、3D DRAM 記憶體、半導體設備與封裝",
+          "en": "Wafer fabrication, 3D DRAM memory, tools and packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "外媒稱評估建廠，但無已核准公司投資計畫。",
+            "en": "Media report an option for new facilities; no approved company investment."
+          },
+          "demand": {
+            "zh": "外媒稱與輝達需求有關，但缺乏正式客戶文件。",
+            "en": "Media allege an Nvidia request without documented customer agreement."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資統計。",
+            "en": "No new FDI statistics disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "未證實的先進記憶體製造及製程設備技術方向。",
+            "en": "Unverified advanced-memory technology direction relevant to fabs and tools."
+          },
+          "timing": {
+            "zh": "11 月 6 日原始匿名消息報導，11 月 7 日專家評論。",
+            "en": "Anonymous-source report Nov 6; analyst commentary Nov 7."
+          },
+          "unknowns": {
+            "zh": "台積電是否真的提出製造計畫、輝達是否正式要求、製程節點、廠址、投產日期及記憶體製造合作方都未確認。",
+            "en": "Whether TSMC has a program, Nvidia made a formal request, process node, site, production date and partners remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對蝕刻、沉積 RF 電源及晶圓量測設備業者而言，3D DRAM 僅有匿名消息及研究人士解讀，無設備規格可核對。應待公司正式製程與資本支出文件，現階段無法推斷任何 RF 電源或量測設備訂單。",
+        "en": "For etch/deposition RF-power and wafer-metrology suppliers, 3D DRAM remains an unconfirmed media report and outside interpretation. No process requirements or approved capital plans are available to substantiate equipment demand."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "us-congress-data-center-grid-bills-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "美國議員規劃明年提出資料中心用電與 AI 測試法案，尚未完成立法",
+        "en": "US lawmakers outline future data-center electricity and AI testing bills; no laws enacted"
+      },
+      "summary": {
+        "zh": "Reuters 11 月 6 日採訪美國國會議員與幕僚指出，民主黨議員計畫在 2027 年 1 月新國會成立後提出資料中心電價負擔及先進 AI 系統獨立測試等立法。這些仍屬提案構想，尚未公布成為法律的正式條文或任何已生效的新建限制；台灣伺服器供應鏈實際訂單影響未被量化。",
+        "en": "Reuters reported on November 6 that US Democratic lawmakers plan bills addressing electricity costs associated with data centers and independent testing of advanced AI systems after the new Congress convenes in January 2027. These are prospective legislative initiatives, not enacted construction limits, and no effects on Taiwanese server orders were quantified."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "美國資料中心用電與地方審查制度可能涉及伺服器機櫃、配電與冷卻基礎設施，台灣多家 ODM 與晶片業者供應美國雲端業者。報導沒有證據顯示本次立法構想已取消具名台廠的訂單。",
+            "en": "US data-center electricity oversight concerns power delivery and cooling infrastructure used by cloud providers served by Taiwanese ODMs and chipmakers. The reporting does not establish any cancellation of a specific Taiwanese supplier order."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時序與數據",
+            "en": "Dated figures and disclosures"
+          },
+          "text": {
+            "zh": "Reuters 訪問議員與幕僚，指出規劃的法案涉及消費者電價保護、AI 模型測試及責任規則；報導也指出，總統對強制 AI 規則持反對立場，立法程序存在障礙。2027 年 1 月為預定新會期，尚未有法案通過。",
+            "en": "Reuters quoted lawmakers and staff on planned bills covering consumer electricity charges, model testing and AI liability. The report also noted obstacles under a president opposed to mandatory AI rules. January 2027 is the prospective session, not an effective date for a passed law."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "法案正式編號、條文、委員會審議、地方資料中心許可變化及台灣 ODM 訂單實際影響均未確認。",
+            "en": "Bill numbers and text, hearings, changes in local project permits and actual Taiwanese ODM order effects remain undetermined."
+          }
+        }
+      ],
+      "metric": "規劃立法",
+      "metricLabel": {
+        "zh": "資料中心政策狀態",
+        "en": "Data-center policy status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · 議員及幕僚訪問",
+            "en": "Reuters · Lawmakers and staff interviews"
+          },
+          "url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 新國會 AI 法案報導",
+            "en": "CNA · Proposed new-Congress AI bills"
+          },
+          "url": "https://www.cna.com.tw/news/aopl/202611070086.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-06",
+        "countries": {
+          "zh": "美國；台灣供應鏈",
+          "en": "United States; Taiwan-linked supply chains"
+        },
+        "industries": {
+          "zh": "資料中心；電力；電價；供電；伺服器；ODM；投資；政策",
+          "en": "Data centers; electricity tariffs; site power; servers; ODM; policy"
+        },
+        "chain": {
+          "zh": "資料中心供電、電價與伺服器 ODM，政策規劃",
+          "en": "Data-center power and server ODM systems under proposed policies"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未宣布新投資或既有計畫取消。",
+            "en": "No new investment or canceled project announced."
+          },
+          "demand": {
+            "zh": "未有已生效規定或台灣伺服器出貨變化。",
+            "en": "No effective rules or Taiwanese shipment changes reported."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資統計。",
+            "en": "No new FDI statistics disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心電價負擔及政策審查與機房供電相關。",
+            "en": "Relates to data-center electricity cost and infrastructure review."
+          },
+          "timing": {
+            "zh": "11 月 6 日報導明年 1 月後規劃的立法行動。",
+            "en": "Reported Nov 6; proposals expected after January 2027."
+          },
+          "unknowns": {
+            "zh": "法案正式編號、條文、委員會審議、地方資料中心許可變化及台灣 ODM 訂單實際影響均未確認。",
+            "en": "Bill numbers and text, hearings, changes in local project permits and actual Taiwanese ODM order effects remain undetermined."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對機房電力轉換、測試及配電供應商而言，美國議員討論的重點涉及電價及資料中心合規。仍需確認正式法案、地方許可及客戶工程時程，現階段不能從提案推斷任何既有機房採購變更。",
+        "en": "For data-center power conversion, test and distribution suppliers, the stated policy interests involve electricity costs and oversight. Final bills, local permits and customer project schedules are unknown; proposed legislation is not evidence of changed equipment orders."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "winbond-kaohsiung-module-b-capex-horizon",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：華邦電董事長說明高雄模組 B 擴建資金將著眼 2031 至 2032 年需求",
+        "en": "Follow-up: Winbond chairman says Kaohsiung Module B spending targets longer-term needs"
+      },
+      "summary": {
+        "zh": "華邦電董事長焦佑鈞 11 月 7 日於雲林家庭日表示，公司先前核准的高雄模組 B 擴建及設備資本支出約 731.63 億元，規劃重點是更長期的 2031 至 2032 年景氣需求。這筆預算原已獲董事會核准，11 月 7 日新增的是管理階層對投資時程的解釋，並無新增核准金額或量產日期。",
+        "en": "At a November 7 company event in Yunlin, Winbond chairman Arthur Chiao described the previously board-approved approximately NT$73.163 billion Kaohsiung Module B expansion and equipment budget as intended for demand around 2031–2032. The fresh development is his explanation of its long-term rationale, not a newly approved budget or announced production date."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "華邦電供應 DRAM、NOR Flash 等記憶體產品，晶圓新模組投資涉及設備、製程驗證與產能爬坡。公司其他記憶體事業收購與董事會先前決議應按原公告日期處理。",
+            "en": "Winbond makes DRAM and NOR Flash memory products; fab module projects involve process equipment, qualification and ramp-up. Previously approved transactions must retain their original announcement dates."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告時序與數據",
+            "en": "Dated figures and disclosures"
+          },
+          "text": {
+            "zh": "中央社 11 月 7 日引述董事長表示，資本支出安排不以目前一波景氣為唯一依據，並提及 2029 年後資金與記憶體循環的個人判斷。這些都是管理階層前瞻性說法，不能當成已取得訂單、設備採購進度或市場預測定論。",
+            "en": "CNA reported the chairman's comments that the capital plan is not solely linked to the current market cycle, alongside his views on funding constraints and memory conditions after 2029. Those are management forecasts rather than verified orders, equipment acceptance or established market outcomes."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "模組 B 設備分項預算、實際訂單、進機日期、製程良率與投產月份沒有因本次談話而新增披露。",
+            "en": "Module B's equipment budget breakdown, purchase orders, tool move-in dates, yield and production start were not newly disclosed."
+          }
+        }
+      ],
+      "metric": "NT$73.163B",
+      "metricLabel": {
+        "zh": "先前核准資本支出",
+        "en": "Previously approved capex"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 7 日華邦電董事長說明",
+            "en": "CNA · November 7 Winbond chairman comments"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611070096.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "發言活動場地：台灣雲林縣劍湖山世界舉辦的華邦電家庭日；擴廠專案位於高雄市。",
+        "en": "Statement venue: Winbond Family Day at Janfusun Fancyworld, Yunlin, Taiwan; referenced fab project is in Kaohsiung."
+      },
+      "market": {
+        "eventDate": "2026-11-07",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "記憶體；DRAM；NOR Flash；晶圓；設備；工廠；投資",
+          "en": "Memory; DRAM; NOR Flash; wafer fabrication; equipment; factory investment"
+        },
+        "chain": {
+          "zh": "記憶體晶圓、設備至工廠擴建與資本投資",
+          "en": "Memory wafer fabs and equipment through industrial investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "重述先前核准約 731.63 億元預算，沒有新核准金額。",
+            "en": "Restated previously approved NT$73.163B budget; no new authorization."
+          },
+          "demand": {
+            "zh": "董事長談 2031 至 2032 年長期需求，未提供新增訂單。",
+            "en": "Chairman discussed longer-term demand in 2031–2032 without new orders."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資統計。",
+            "en": "No new FDI statistics disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "記憶體晶圓擴產計畫與董事會預算的不同時序。",
+            "en": "Separates wafer-fab expansion budgets from execution timing."
+          },
+          "timing": {
+            "zh": "11 月 7 日公開說明；資本支出核准早於當日。",
+            "en": "Public comments Nov 7; capital approval predates the event."
+          },
+          "unknowns": {
+            "zh": "模組 B 設備分項預算、實際訂單、進機日期、製程良率與投產月份沒有因本次談話而新增披露。",
+            "en": "Module B's equipment budget breakdown, purchase orders, tool move-in dates, yield and production start were not newly disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "模組 B 先前核准資本支出",
+            "en": "Earlier approved Module B capex"
+          },
+          "current": 73.163,
+          "unit": "NTD billion",
+          "owner": {
+            "zh": "華邦電董事會，經中央社引述",
+            "en": "Winbond board, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611070096.aspx",
+          "kind": "公司目標",
+          "period": {
+            "zh": "先前董事會核准計畫，11 月 7 日重述",
+            "en": "Earlier approved plan, restated Nov 7"
+          },
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "消息來源未列出可直接比較的基期數值；未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對記憶體蝕刻電源、沉積與晶圓量測設備供應商而言，董事長釐清舊有高雄模組 B 預算的時間尺度。仍須追查設備發包、客戶驗證、進機與量產進度，不能將已核准總額視為當期新採購。",
+        "en": "For memory-fab etch power, deposition and wafer metrology suppliers, management clarified the long-term horizon of an existing Module B budget. Tool awards, qualification, move-in and production timing remain undisclosed; approved capex is not a new current-quarter order."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 3,
+      "question": {
+        "zh": "SunCon 11 月與 4 月的合約可以相加嗎？",
+        "en": "Can SunCon's November and April contract values be added?"
+      },
+      "text": {
+        "zh": "兩次公司公告都指向雪蘭莪 Serendah，工程名稱和施工範圍類似，尚無足夠公開資訊判定是否為獨立工程包，因此不合計。",
+        "en": "Both filings refer to Serendah and similar construction scopes. Public evidence does not establish independent work packages, so the values are kept separate."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "台積電已正式核准 3D DRAM 新廠嗎？",
+        "en": "Has TSMC approved a 3D DRAM fab?"
+      },
+      "text": {
+        "zh": "沒有可核對的公司核准文件。Reuters 轉述匿名消息，11 月 7 日的技術路線分析也僅代表外部研究人士意見。",
+        "en": "No company approval was identified. Reuters relayed anonymous-source claims, and the November 7 technology interpretation is an outside researcher's view."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "中鋼 3.575MW 已開始發電嗎？",
+        "en": "Is China Steel's 3.575MW installation operational?"
+      },
+      "text": {
+        "zh": "3.575MW 與預估年發電量都屬規劃參數；公司於 11 月 6 日核准投資，工程預計 2028 年底完成。",
+        "en": "The 3.575MW figure and annual generation are project estimates. The board approved investment November 6, with completion targeted for end-2028."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "既有建廠與製程計畫的日期",
+        "en": "Dates of earlier factory and process plans"
+      },
+      "text": {
+        "zh": "中鋼投資核准日期為 11 月 6 日，當地政府於 11 月 7 日補充裝置容量與捕集量；SunCon 同地區曾於 4 月 17 日公告資料中心合約。記憶體廠既有擴建預算也須與本週管理階層談話分開。",
+        "en": "China Steel's approval occurred November 6, followed by Kaohsiung project details November 7. SunCon had announced a Serendah data-center agreement April 17, while existing memory-fab budgets predate this week's management remarks."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料使用註記",
+      "en": "Data reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價分析、未具公司依據的擴產敘事",
+        "en": "Market commentary and unverified expansion predictions"
+      },
+      "text": {
+        "zh": "本版排除單純股價走勢、分析師對資料中心擴建速度的預測，以及缺乏官方文件的巨大投資額傳聞。",
+        "en": "Price-only movements, analyst-led data-center forecasts and large investment rumors without company documents were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "京鼎泰國交易資料來自公開資訊觀測站重大訊息的媒體轉載，未直接檢閱交易契約；所示新台幣換算額依公告匯率計算。SunCon 11 月 5 日與 4 月 17 日同址合約的獨立性尚待確認，兩筆金額不得合計。台積電 3D DRAM 來自匿名來源報導，無公司確認或投資核准。中鋼 2028 年發電與碳捕集數值為規劃估算，美國監管構想尚未立法。",
+    "en": "The Thai property filing was checked through a reproduction of the material disclosure rather than the purchase contract; TWD conversion uses the disclosed exchange rate. SunCon's November and April Serendah contract scopes remain unverified as independent and must not be added together. The 3D DRAM report rests on unnamed sources without company approval. China Steel's future generation and capture figures are estimates, and proposed US rules have not been enacted."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "weekStart": "2026-11-08",
+  "generatedAt": "2026-11-07T11:49:17.000Z",
+  "throughline": {
+    "zh": "京鼎核准泰國廠房資產交易，高雄公布中鋼分散式發電規劃，馬來西亞資料中心工程及台灣先進記憶體消息則各有不同程度的查證限制。",
+    "en": "Foxsemicon approved a Thai factory-property transaction and Kaohsiung detailed distributed generation plans, while Malaysian data-center construction and advanced memory reports carry distinct verification limits."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "global",
+      "title": {
+        "zh": "半導體設備零組件與東南亞廠房資產",
+        "en": "Semiconductor tool components and Southeast Asian factory assets"
+      },
+      "summary": {
+        "zh": "京鼎泰國子公司於 11 月 6 日核准以 5.05 億泰銖購入羅勇府土地廠房，公告指出用途為營運。交易完成、設備進場及新增產能尚未公布。",
+        "en": "Foxsemicon's Thai unit approved a THB505 million factory-property purchase in Rayong on November 6 for operations. Closing, equipment installation and incremental capacity have not been disclosed."
+      },
+      "references": [
+        {
+          "date": "2026-11-08",
+          "storyId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "title": {
+        "zh": "工業電力與燃料電池設備",
+        "en": "Industrial power and fuel-cell equipment"
+      },
+      "summary": {
+        "zh": "中鋼 11 月 6 日核准燃料電池與碳捕捉投資，高雄市環保局 11 月 7 日公布 3.575MW 裝置容量及年捕集量規劃。發電與碳捕集均尚未完成建置及驗收。",
+        "en": "China Steel approved fuel-cell and carbon-capture spending on November 6, followed by Kaohsiung's November 7 disclosure of a 3.575MW installation and annual capture estimates. Construction and acceptance are pending."
+      },
+      "references": [
+        {
+          "date": "2026-11-08",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "global",
+      "title": {
+        "zh": "資料中心施工合約與電價政策",
+        "en": "Data-center construction and electricity policy"
+      },
+      "summary": {
+        "zh": "Sunway Construction 於 11 月 5 日再公告雪蘭莪 Serendah 資料中心工程合約，其與 4 月同地區合約的範圍關係未確定。美國議員於 11 月 6 日表達未來提出資料中心電價相關立法的規劃，但並無新法生效。",
+        "en": "Sunway Construction issued another Serendah data-center filing November 5, with unresolved overlap against an April agreement. US lawmakers discussed future data-center electricity legislation November 6, with no new rules enacted."
+      },
+      "references": [
+        {
+          "date": "2026-11-08",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-08",
+          "storyId": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "title": {
+        "zh": "先進記憶體技術傳聞與既有擴產預算",
+        "en": "Advanced-memory reports and previously approved capex"
+      },
+      "summary": {
+        "zh": "11 月 6 日有匿名消息指台積電可能評估 3D DRAM，未獲公司確認；11 月 7 日華邦電董事長說明先前已核准的高雄模組 B 投資著眼更長期需求。兩項資訊都未證明新產能或新增設備訂單。",
+        "en": "Unconfirmed November 6 reports suggested TSMC may evaluate 3D DRAM, while Winbond's chairman explained the longer-term purpose of earlier Kaohsiung Module B capex on November 7. Neither disclosure establishes new output or tool orders."
+      },
+      "references": [
+        {
+          "date": "2026-11-08",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-08",
+          "storyId": 6
+        }
+      ]
+    }
+  ]
+}
