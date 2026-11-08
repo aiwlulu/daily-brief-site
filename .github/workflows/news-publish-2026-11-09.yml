@@ -1,0 +1,64 @@
+name: Publish Nov 9 Daily Brief with official workbook builder
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/news-publish-2026-11-09.yml
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out inspected main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Set up official workbook dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check "openpyxl>=3.1.5,<4"
+      - name: Read researched bilingual edition week and checked calendar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/f972790babbd083a7a55f75366ea6acd4bd4e371" --jq '.content' | base64 -d > docs/editions/2026-11-09.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/a8d50294a6a37415723913bc6ae4b1204ba921c6" --jq '.content' | base64 -d > docs/weeks/2026-11-08.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/ee33bda86a26843985dd90faee595bb6947dcc8c" --jq '.content' | base64 -d > docs/events.json
+      - name: Update manifest and apply official Traditional Chinese typography
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("docs/editions/index.json")
+          manifest=json.loads(p.read_text())
+          date="2026-11-09"
+          assert not any(x["date"]==date for x in manifest["editions"]),"Edition already published; rerun requires research"
+          manifest["editions"].insert(0,{"date":date,"path":"./editions/2026-11-09.json"})
+          manifest["weeks"]["2026-11-08"]="./weeks/2026-11-08.json"
+          p.write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+"\n")
+          PY
+          node scripts/format-copy.mjs 2026-11-09
+      - name: Generate daily weekly and calendar Excel using repository builder
+        run: |
+          .venv/bin/python scripts/build-workbooks.py "$GITHUB_WORKSPACE" 2026-11-09
+          node scripts/check.mjs
+          python3 scripts/check-xlsx.py
+          node --test scripts/*.test.mjs
+      - name: Create one atomic publication commit
+        run: |
+          git config user.name aiwlulu
+          git config user.email aiwlulu@users.noreply.github.com
+          git rm .github/workflows/news-publish-2026-11-09.yml
+          git add docs/editions/2026-11-09.json docs/editions/index.json docs/weeks/2026-11-08.json docs/events.json docs/exports
+          git diff --cached --check
+          git commit -m "feat(news): publish 2026-11-09 daily brief"
+          git push origin HEAD:main
+      - name: Deploy the final validated main commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
