@@ -1,26 +1,42 @@
 {
   "weekStart": "2026-11-08",
-  "generatedAt": "2026-11-07T11:49:17.000Z",
+  "generatedAt": "2026-11-08T12:31:58.000Z",
   "throughline": {
-    "zh": "京鼎核准泰國廠房資產交易，高雄公布中鋼分散式發電規劃，馬來西亞資料中心工程及台灣先進記憶體消息則各有不同程度的查證限制。",
-    "en": "Foxsemicon approved a Thai factory-property transaction and Kaohsiung detailed distributed generation plans, while Malaysian data-center construction and advanced memory reports carry distinct verification limits."
+    "zh": "京鼎與多家台灣設備商揭露廠房資產及營收，奇鋐公布散熱業務合併收入，印尼巴淡島供水與台積電 3D DRAM 傳聞也分別出現新的可核對資訊。",
+    "en": "Foxsemicon and Taiwanese equipment companies disclosed property and revenue developments, AVC reported thermal-management sales, and new reporting documented Batam water concerns and TSMC's response to a 3D DRAM rumor."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "global",
+      "category": "taiwan",
       "title": {
-        "zh": "半導體設備零組件與東南亞廠房資產",
-        "en": "Semiconductor tool components and Southeast Asian factory assets"
+        "zh": "先進封裝、精密設備與海外廠房資產",
+        "en": "Advanced packaging, precision equipment and overseas factory assets"
       },
       "summary": {
-        "zh": "京鼎泰國子公司於 11 月 6 日核准以 5.05 億泰銖購入羅勇府土地廠房，公告指出用途為營運。交易完成、設備進場及新增產能尚未公布。",
-        "en": "Foxsemicon's Thai unit approved a THB505 million factory-property purchase in Rayong on November 6 for operations. Closing, equipment installation and incremental capacity have not been disclosed."
+        "zh": "京鼎於 11 月 6 日核准購入泰國羅勇府土地廠房，尚未公布設備進場；11 月 8 日均華、均豪、志聖與東捷分別揭露 10 月營收與去年同期基期。不同公司的合併營收涵蓋各自的產品與驗收口徑，不宜視為同一批封裝設備的實際出貨量。",
+        "en": "Foxsemicon approved a Rayong factory-property purchase on November 6 without commissioning details. On November 8 Gallant, Gallant Micro, C Sun and Contrel reported October results with explicit year-earlier bases; their consolidated revenue figures cover different tools, customers and acceptance periods."
       },
       "references": [
         {
           "date": "2026-11-08",
           "storyId": 1
+        },
+        {
+          "date": "2026-11-09",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-09",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-09",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-09",
+          "storyId": 7
         }
       ]
     },
@@ -28,17 +44,21 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "工業電力與燃料電池設備",
-        "en": "Industrial power and fuel-cell equipment"
+        "zh": "工業供電、機櫃散熱及量產收入",
+        "en": "Industrial power, rack cooling and realized sales"
       },
       "summary": {
-        "zh": "中鋼 11 月 6 日核准燃料電池與碳捕捉投資，高雄市環保局 11 月 7 日公布 3.575MW 裝置容量及年捕集量規劃。發電與碳捕集均尚未完成建置及驗收。",
-        "en": "China Steel approved fuel-cell and carbon-capture spending on November 6, followed by Kaohsiung's November 7 disclosure of a 3.575MW installation and annual capture estimates. Construction and acceptance are pending."
+        "zh": "高雄市府於 11 月 7 日補充中鋼 3.575MW 燃料電池工程規劃，尚未投產；奇鋐 11 月 8 日公布 10 月營收約 221 億元、年增 34.35%。前者為未來裝置容量，後者為已實現合併營收，兩者衡量的產業活動不同。",
+        "en": "Kaohsiung detailed a planned 3.575MW China Steel fuel-cell project on November 7, while AVC disclosed NT$22.103 billion October sales on November 8, up 34.35% YoY. The project figure is a future capacity plan, whereas the sales figure reflects recorded consolidated revenue."
       },
       "references": [
         {
           "date": "2026-11-08",
           "storyId": 2
+        },
+        {
+          "date": "2026-11-09",
+          "storyId": 1
         }
       ]
     },
@@ -46,12 +66,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "資料中心施工合約與電價政策",
-        "en": "Data-center construction and electricity policy"
+        "zh": "東南亞資料中心工程、供水與電力政策",
+        "en": "Southeast Asian data-center construction, water and power policy"
       },
       "summary": {
-        "zh": "Sunway Construction 於 11 月 5 日再公告雪蘭莪 Serendah 資料中心工程合約，其與 4 月同地區合約的範圍關係未確定。美國議員於 11 月 6 日表達未來提出資料中心電價相關立法的規劃，但並無新法生效。",
-        "en": "Sunway Construction issued another Serendah data-center filing November 5, with unresolved overlap against an April agreement. US lawmakers discussed future data-center electricity legislation November 6, with no new rules enacted."
+        "zh": "Sunway Construction 11 月 5 日公告馬來西亞 Serendah 工程合約，與 4 月同址案範圍尚待釐清；11 月 8 日法新社訪查印尼巴淡島居民停水爭議，當地供水單位指出乾旱與供電故障。美國議員另外提出未來資料中心電價立法方向，目前均未有新法生效或機房取水的獨立因果資料。",
+        "en": "SunCon's November 5 Serendah contract has unresolved overlap with an earlier filing, while AFP reported Batam water-supply disputes on November 8 and the local utility cited drought and power faults. US legislative ideas concerning data-center electricity costs remain proposals, and no facility-level proof links individual water outages to data centers."
       },
       "references": [
         {
@@ -61,6 +81,10 @@
         {
           "date": "2026-11-08",
           "storyId": 5
+        },
+        {
+          "date": "2026-11-09",
+          "storyId": 3
         }
       ]
     },
@@ -68,12 +92,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "先進記憶體技術傳聞與既有擴產預算",
-        "en": "Advanced-memory reports and previously approved capex"
+        "zh": "先進記憶體傳聞、台積電聲明與華邦電擴建計畫",
+        "en": "Advanced-memory rumor, TSMC response and Winbond expansion plans"
       },
       "summary": {
-        "zh": "11 月 6 日有匿名消息指台積電可能評估 3D DRAM，未獲公司確認；11 月 7 日華邦電董事長說明先前已核准的高雄模組 B 投資著眼更長期需求。兩項資訊都未證明新產能或新增設備訂單。",
-        "en": "Unconfirmed November 6 reports suggested TSMC may evaluate 3D DRAM, while Winbond's chairman explained the longer-term purpose of earlier Kaohsiung Module B capex on November 7. Neither disclosure establishes new output or tool orders."
+        "zh": "11 月 6 日匿名來源稱台積電評估 3D DRAM，台積電發言人 11 月 7 日透過媒體重申專注邏輯晶圓代工，未確認記憶體廠投資。華邦電董事長 11 月 7 日談及先前核准的高雄模組 B 擴建預算，這筆舊有資本支出與台積電傳聞沒有已揭露的專案關係。",
+        "en": "Anonymous reports on November 6 alleged TSMC might assess 3D DRAM, while its spokesperson reaffirmed the logic-foundry mandate on November 7 without announcing a memory-fab investment. Winbond's commentary concerned an earlier approved Kaohsiung Module B budget and provides no documented link to that rumor."
       },
       "references": [
         {
@@ -82,6 +106,10 @@
         },
         {
           "date": "2026-11-08",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-09",
           "storyId": 6
         }
       ]

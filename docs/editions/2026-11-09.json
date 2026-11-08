@@ -1,0 +1,1290 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-08T12:31:58.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣半導體設備營收、伺服器液冷與東南亞機房供水",
+      "en": "Taiwanese semiconductor equipment earnings, server liquid cooling and Southeast Asian data-center water"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "奇鋐、均華、均豪與志聖公布 10 月營收，印尼巴淡島則由新採訪揭露機房周邊供水問題，台積電另回應記憶體製造傳聞。",
+    "en": "AVC, Gallant, Gallant Micro and C Sun disclosed October sales as new reporting documented water-supply issues near Batam data centers and TSMC responded to a memory-fabrication report."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "奇鋐 10 月合併營收 221.03 億元、年增 34.35%，未公布液冷產品獨立出貨量。",
+        "en": "AVC reported NT$22.103B October revenue, up 34.35% YoY, without separate liquid-cooling shipment data."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "均華 10 月營收 5.71 億元、年增 280.14%，總經理指出先進封裝設備訂單能見度至 2027 年。",
+        "en": "Gallant reported NT$571M October revenue, up 280.14% YoY, and management cited packaging order visibility into 2027."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "法新社報導印尼巴淡島居民供水中斷，供水單位指出乾旱與電力故障，機房取水因果待查。",
+        "en": "AFP reported Batam household water outages; the utility cited drought and a power fault, with data-center causation unproven."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "均豪 10 月營收 7.16 億元、年增 126.02%，涉及檢測量測及研磨拋光設備。",
+        "en": "Gallant Micro October revenue reached NT$716M, up 126.02% YoY, across inspection and polishing equipment."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "台積電發言人回應 3D DRAM 傳聞，重申公司將專注邏輯晶片專業代工。",
+        "en": "TSMC's spokesperson reaffirmed its logic-foundry focus in response to the 3D DRAM report."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "avc-oct-2026-liquid-cooling-revenue",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "奇鋐 10 月營收 221.03 億元、年增 34.35%，公司公告因客戶需求增加",
+        "en": "AVC posts NT$22.103B October revenue, up 34.35% YoY, citing stronger customer demand"
+      },
+      "summary": {
+        "zh": "奇鋐 11 月 8 日公告 2026 年 10 月合併營收約 221.03 億元，年增 34.35%；今年前 10 個月合計約 1,793.51 億元，年增 65.58%。公告將營收成長歸因於客戶需求增加，但未公布液冷、傳統散熱或特定伺服器平台各自的月度出貨量。",
+        "en": "AVC disclosed October consolidated revenue of NT$22.103 billion on November 8, up 34.35% year on year, while January–October revenue reached NT$179.351 billion, up 65.58%. The company attributed growth to customer demand without providing product-specific monthly shipments for liquid cooling, air cooling or server platforms."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "奇鋐供應伺服器與運算設備的散熱零組件及液冷系統，涉及冷板、熱交換和機櫃散熱。公司先前法說會對新品量產進度的預期應與本次已實現的 10 月合併營收分開閱讀。",
+            "en": "AVC supplies thermal components and liquid-cooling systems used in servers and compute equipment, including cold plates and heat management. Earlier guidance about new products reaching volume production is distinct from October's reported consolidated sales."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "10 月營收為 22,102,758 千元，去年同月 16,451,489 千元；前 10 個月累計 179,351,016 千元，去年同期 108,315,849 千元。中央社稱月增約 5.2%，連續第 3 個月創單月新高；合併營收包含所有業務。",
+            "en": "The reported monthly figures were NT$22,102,758 thousand versus NT$16,451,489 thousand a year earlier; ten-month figures were NT$179,351,016 thousand and NT$108,315,849 thousand. CNA reported roughly 5.2% monthly growth and a third consecutive monthly record, across all businesses."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "液冷占比、單套冷卻系統售價、各機櫃電力密度與客戶驗收件數未公布。",
+            "en": "The liquid-cooling revenue share, per-system pricing, rack power density and customer acceptance volumes were not reported."
+          }
+        }
+      ],
+      "metric": "221.03 億元",
+      "metricLabel": {
+        "zh": "2026 年 10 月合併營收",
+        "en": "October 2026 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 奇鋐月營收揭露資料",
+            "en": "MoneyDJ · Asia Vital Components monthly revenue disclosure"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=8f483d3a-1e49-44c6-af50-c85ec90871e0&c=MB06",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 奇鋐 10 月營收及產品背景",
+            "en": "CNA · AVC October revenue and product context"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611080113.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-08",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "液冷；散熱；零組件；伺服器；電源",
+          "en": "Liquid cooling; thermal components; servers; power"
+        },
+        "chain": {
+          "zh": "散熱零組件、液冷、供電與伺服器整機",
+          "en": "Thermal components and liquid cooling through server systems and rack power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出或投資額。",
+            "en": "No incremental capital expenditure or investment disclosed."
+          },
+          "demand": {
+            "zh": "10 月合併營收年增 34.35%，公司稱客戶需求增加；未揭露各產品出貨量。",
+            "en": "October consolidated sales rose 34.35% YoY; the company cited demand without unit shipments."
+          },
+          "fdi": {
+            "zh": "未公布新的外國直接投資。",
+            "en": "No new foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司公布的電子與半導體設備供應鏈月度營收與去年同期基期。",
+            "en": "Company-reported monthly revenue and explicit annual comparisons for relevant component or equipment supply chains."
+          },
+          "timing": {
+            "zh": "11 月 8 日公布 2026 年 10 月合併營收；前十個月為累計資料。",
+            "en": "Disclosed Nov 8 for October 2026; January–October is cumulative."
+          },
+          "unknowns": {
+            "zh": "液冷占比、單套冷卻系統售價、各機櫃電力密度與客戶驗收件數未公布。",
+            "en": "The liquid-cooling revenue share, per-system pricing, rack power density and customer acceptance volumes were not reported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "奇鋐 10 月合併營收",
+            "en": "Asia Vital Components October consolidated revenue"
+          },
+          "current": 22.102758,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "奇鋐公司公告，經媒體轉載",
+            "en": "Asia Vital Components company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8f483d3a-1e49-44c6-af50-c85ec90871e0&c=MB06",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 16.451489,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": 0.3435,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "奇鋐 前 10 個月合併營收",
+            "en": "Asia Vital Components January–October revenue"
+          },
+          "current": 179.351016,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "奇鋐公司公告，經媒體轉載",
+            "en": "Asia Vital Components company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8f483d3a-1e49-44c6-af50-c85ec90871e0&c=MB06",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 108.315849,
+          "basePeriod": "2025 年 1 至 10 月",
+          "reportedRate": 0.6558,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換、機櫃配電及冷卻控制設備供應商而言，奇鋐的已實現營收反映集團交付金額的變化。仍需確認液冷產品組合、機櫃功率與客戶驗收紀錄，無法從合併營收分離個別設備需求。",
+        "en": "For rack power conversion, distribution and cooling-control suppliers, AVC's reported revenue records consolidated delivery value. Liquid-cooling mix, rack loads and accepted hardware quantities remain unreported."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "gallant-oct-2026-packaging-equipment-revenue",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "均華 10 月營收 5.71 億元、年增 280.14%，表示先進封裝設備訂單能見度至明年",
+        "en": "Gallant reports NT$571M October sales, up 280.14% YoY, and cites packaging-equipment order visibility"
+      },
+      "summary": {
+        "zh": "均華 11 月 8 日公告 10 月合併營收 5.71 億元，年增 280.14%；今年前 10 個月營收約 38.78 億元，年增 79.01%。總經理表示晶圓廠與封測廠增加先進封裝投資，訂單能見度延伸至 2027 年；這是公司對訂單的說明，未列出已驗收機台數。",
+        "en": "Gallant reported October revenue of NT$570.935 million on November 8, up 280.14% YoY, and January–October sales of NT$3.878 billion, up 79.01%. Management cited advanced-packaging investment at fabs and OSATs, with order visibility into 2027, but did not disclose accepted machine units."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "均華主要供應半導體製造及封測相關自動化設備，營收隨設備交貨與驗收時間變動。總經理談到配合客戶需求準備赴美設立子公司，但尚未公布設立日期、投入金額或營運場址。",
+            "en": "Gallant supplies semiconductor and packaging automation equipment, with revenue affected by equipment deliveries and acceptance timing. Management mentioned preparations for a US subsidiary but gave no incorporation date, investment value or operating site."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "10 月營收 570,935 千元，去年同期 150,192 千元；前 10 個月合計 3,878,110 千元，去年同期 2,166,364 千元。10 月月增 14.5% 為媒體報導的變動率。與去年同期的比較基期使用公告原始數字。",
+            "en": "October sales were NT$570,935 thousand versus NT$150,192 thousand in October 2025; ten-month sales were NT$3,878,110 thousand versus NT$2,166,364 thousand. Economic Daily News reported 14.5% sequential growth; the YoY bases are explicitly stated in the reproduced filing."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "出貨設備的型號、先進封裝收入占比、客戶驗收期間、赴美設立法人與資本支出細節未揭露。",
+            "en": "Equipment models, advanced-packaging share, customer acceptance windows, US incorporation and capex have not been disclosed."
+          }
+        }
+      ],
+      "metric": "5.71 億元",
+      "metricLabel": {
+        "zh": "2026 年 10 月合併營收",
+        "en": "October 2026 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 均華月營收揭露資料",
+            "en": "MoneyDJ · Gallant Precision Machining monthly revenue disclosure"
+          },
+          "url": "https://money.udn.com/money/story/11074/9865194",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 均華營收與總經理說明",
+            "en": "Economic Daily News · Gallant revenue and management comments"
+          },
+          "url": "https://money.udn.com/money/story/11074/9865194",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-08",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；晶圓；封裝；封測；測試；工廠自動化",
+          "en": "Semiconductor equipment; wafers; packaging; test; factory automation"
+        },
+        "chain": {
+          "zh": "晶圓設備、先進封裝與封測自動化",
+          "en": "Wafer equipment through advanced packaging and test automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出或投資額。",
+            "en": "No incremental capital expenditure or investment disclosed."
+          },
+          "demand": {
+            "zh": "10 月公告營收年增 280.14%，管理階層稱封測設備客戶持續投資。",
+            "en": "October sales rose 280.14% YoY; management cited OSAT-related equipment investment."
+          },
+          "fdi": {
+            "zh": "管理階層提及準備赴美設立子公司，未有完成設立或投資金額。",
+            "en": "Management described preparations for a US subsidiary without an approved amount or completed registration."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司公布的電子與半導體設備供應鏈月度營收與去年同期基期。",
+            "en": "Company-reported monthly revenue and explicit annual comparisons for relevant component or equipment supply chains."
+          },
+          "timing": {
+            "zh": "11 月 8 日公布 2026 年 10 月合併營收；前十個月為累計資料。",
+            "en": "Disclosed Nov 8 for October 2026; January–October is cumulative."
+          },
+          "unknowns": {
+            "zh": "出貨設備的型號、先進封裝收入占比、客戶驗收期間、赴美設立法人與資本支出細節未揭露。",
+            "en": "Equipment models, advanced-packaging share, customer acceptance windows, US incorporation and capex have not been disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "均華 10 月合併營收",
+            "en": "Gallant Precision Machining October consolidated revenue"
+          },
+          "current": 0.570935,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "均華公司公告，經媒體轉載",
+            "en": "Gallant Precision Machining company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/11074/9865194",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.150192,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": 2.8014,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "均華 前 10 個月合併營收",
+            "en": "Gallant Precision Machining January–October revenue"
+          },
+          "current": 3.87811,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "均華公司公告，經媒體轉載",
+            "en": "Gallant Precision Machining company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/11074/9865194",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 2.166364,
+          "basePeriod": "2025 年 1 至 10 月",
+          "reportedRate": 0.7901,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體蝕刻與封裝製程電源、設備控制及量測供應商而言，均華的月營收可與實際設備驗收資料交叉對照。仍須確認客戶設備規格、製程階段及收款條件，所稱 2027 年訂單能見度未揭露單筆已簽約金額。",
+        "en": "For semiconductor process-power, control and metrology suppliers, Gallant's reported sales can be reconciled against equipment acceptance milestones. Customer specifications, processing steps and contract terms remain unspecified; stated order visibility is not a disclosed contract backlog."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "batam-nongsa-water-supply-data-center-community-response",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "法新社採訪巴淡島供水中斷與資料中心爭議，當地供水單位指出乾旱及電力故障",
+        "en": "AFP reports Batam water outages and data-center protests; utility cites drought and power disruption"
+      },
+      "summary": {
+        "zh": "法新社 11 月 8 日公布印尼巴淡島農沙地區居民與供水單位訪談，居民指稱資料中心擴建可能加劇供水緊張，當地供水商 Air Batam Hilir 則指出乾旱造成水庫水位下降，電力故障亦影響供水。巴淡島政府先前於 11 月 5 日宣布 Kabil 海水淡化廠動工，一期規劃每秒 300 公升，無證據證明資料中心已直接造成全部停水事件。",
+        "en": "AFP published new interviews on November 8 with residents and a water utility in Batam's Nongsa district. Residents questioned data-center water demands, while Air Batam Hilir cited drought, low reservoir levels and a power fault behind interruptions. A separate seawater desalination project broke ground in Kabil on November 5, with planned first-phase output of 300 liters per second; causation between specific data centers and outages has not been established."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "巴淡島與新加坡以海底電纜相連，農沙數位園區聚集資料中心及數位服務設施。供水來源、機房冷卻水需求和居民供水網的實際連結必須依業者資料確認；此次報導未提供單一園區的實測用水量。",
+            "en": "Batam is linked to Singapore through undersea cables and Nongsa Digital Park hosts data-center and digital infrastructure. Water sources and site cooling demand need facility-level records; the new report does not quantify measured water usage by any one operator."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "中央社引述法新社 11 月 8 日採訪指出居民因供水中斷赴 Nongsa Digital Park 外抗議；Air Batam Hilir 說明乾旱令 Nongsa 水庫水位下降，供電故障進一步影響供水。BP Batam 11 月 5 日公告，Citramas Group 在 Kabil 興建海水逆滲透廠，一期 300 公升／秒、第二期規劃 400 公升／秒，整體約 700 公升／秒，一期目標 2027 年 11 月啟用；該工程已在本月 5 日動工，不能列為 8 日新開工。",
+            "en": "AFP's November 8 reporting documented resident protests near Nongsa Digital Park and the utility's explanation of drought and electrical disruptions. BP Batam separately announced on November 5 that Citramas Group began a Kabil reverse-osmosis project with a 300-liter-per-second first phase and planned 400-liter-per-second second phase, totaling 700 liters per second; first-phase operation is targeted for November 2027. The November 5 groundbreaking is dated background rather than a new November 8 opening."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "居民停水事件與個別資料中心取水的因果關係、園區實際用水量、各水庫即時監測及海水淡化廠交付驗收仍待公布。",
+            "en": "The relationship between household outages and specific data-center withdrawals, site-level water consumption, current reservoir measurements and desalination acceptance remain unverified."
+          }
+        }
+      ],
+      "metric": "供水爭議",
+      "metricLabel": {
+        "zh": "11 月 8 日新增採訪資訊",
+        "en": "New November 8 reporting"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社／AFP · 巴淡島居民與水務單位採訪",
+            "en": "CNA / AFP · Batam residents and water utility interviews"
+          },
+          "url": "https://www.cna.com.tw/news/aopl/202611080100.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "The Straits Times／AFP · 11 月 8 日原始採訪轉載",
+            "en": "The Straits Times / AFP · November 8 reporting"
+          },
+          "url": "https://www.straitstimes.com/asia/se-asia/cant-cook-or-shower-indonesians-take-aim-at-data-centres",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "BP Batam · 11 月 5 日 Kabil 海水淡化工程公告",
+            "en": "BP Batam · November 5 desalination groundbreaking"
+          },
+          "url": "https://bpbatam.go.id/groundbreaking-swro-kabil-investasi-rp-600-miliar-perkuat-pasokan-air-data-centre/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "ANTARA · 巴淡島海水淡化廠許可程序",
+            "en": "ANTARA · Batam desalination permits"
+          },
+          "url": "https://www.antaranews.com/berita/5833359/bp-batam-pastikan-pembangunan-swro-wajib-penuhi-seluruh-perizinan",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "居民抗議地點：印尼廖內群島省巴淡島 Nongsa Digital Park 園區外；海水淡化專案場址另在巴淡島 Kabil 工業區。",
+        "en": "Resident protest location: outside Nongsa Digital Park, Batam, Riau Islands, Indonesia; the separate desalination project is in Kabil Industrial Estate, Batam."
+      },
+      "market": {
+        "eventDate": "2026-11-08",
+        "countries": {
+          "zh": "印尼；新加坡",
+          "en": "Indonesia; Singapore"
+        },
+        "industries": {
+          "zh": "資料中心；機房；液冷；散熱；供水；電力；投資",
+          "en": "Data centers; cooling; water; electricity; infrastructure investment"
+        },
+        "chain": {
+          "zh": "資料中心機房、供電、散熱與供水基礎設施",
+          "en": "Data-center power, cooling and water utilities"
+        },
+        "changes": {
+          "investment": {
+            "zh": "11 月 8 日採訪未公布新投資，11 月 5 日已有海水淡化工程投資公告。",
+            "en": "No new investment in November 8 interviews; the desalination project was announced November 5."
+          },
+          "demand": {
+            "zh": "居民供水受阻；各資料中心取水量未公布。",
+            "en": "Residents reported water interruptions; data-center water volumes were not supplied."
+          },
+          "fdi": {
+            "zh": "未公布新的外國直接投資。",
+            "en": "No new foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心用水配置、供水與電力中斷的營運基礎設施問題。",
+            "en": "Water and electricity utilities serving data-center facilities and neighboring households."
+          },
+          "timing": {
+            "zh": "居民抗議早於 11 月 8 日發生，本次新資訊為當天發布的採訪。",
+            "en": "Protests predated November 8; the new development is the reporting and utility interviews published that day."
+          },
+          "unknowns": {
+            "zh": "居民停水事件與個別資料中心取水的因果關係、園區實際用水量、各水庫即時監測及海水淡化廠交付驗收仍待公布。",
+            "en": "The relationship between household outages and specific data-center withdrawals, site-level water consumption, current reservoir measurements and desalination acceptance remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "Kabil 海水淡化一期規劃流量",
+            "en": "Kabil phase-one planned desalination throughput"
+          },
+          "current": 300,
+          "unit": "公升／秒",
+          "period": {
+            "zh": "2027 年 11 月規劃上線",
+            "en": "Targeted November 2027"
+          },
+          "owner": {
+            "zh": "BP Batam",
+            "en": "BP Batam"
+          },
+          "sourceUrl": "https://bpbatam.go.id/groundbreaking-swro-kabil-investasi-rp-600-miliar-perkuat-pasokan-air-data-centre/",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明可比較基期；不使用推估基期。"
+        },
+        {
+          "name": {
+            "zh": "Kabil 海水淡化全期規劃流量",
+            "en": "Kabil full-build planned desalination throughput"
+          },
+          "current": 700,
+          "unit": "公升／秒",
+          "period": {
+            "zh": "全期規劃",
+            "en": "Full-build design"
+          },
+          "owner": {
+            "zh": "BP Batam",
+            "en": "BP Batam"
+          },
+          "sourceUrl": "https://bpbatam.go.id/groundbreaking-swro-kabil-investasi-rp-600-miliar-perkuat-pasokan-air-data-centre/",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明可比較基期；不使用推估基期。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機房液冷控制、泵浦電源與水處理量測業者而言，巴淡島資料涉及供水中斷與規劃中的海水淡化設施。仍須確認園區取水口、備援電力、冷卻方式及淡化設備驗收，尚無資料可歸因個別機房的實際用水。",
+        "en": "For liquid-cooling controls, pump-power and water-monitoring vendors, Batam combines reported household interruptions with a planned desalination utility. Site intakes, backup power, cooling design and commissioning are unresolved; individual data-center water withdrawals are not established."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "gallant-micro-oct-2026-metrology-polishing-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "均豪 10 月營收 7.16 億元、年增 126.02%，聚焦檢量與磨拋設備",
+        "en": "Gallant Micro reports NT$716M October sales, up 126.02% YoY, in metrology and polishing equipment"
+      },
+      "summary": {
+        "zh": "均豪 11 月 8 日公布 10 月營收 7.16 億元，年增 126.02%；前 10 個月累計 50.08 億元，年增 33.72%。公司業務涵蓋半導體檢測量測及研磨拋光設備，但公告未拆分各製程或封裝客戶營收。",
+        "en": "Gallant Micro reported October revenue of NT$716.168 million on November 8, up 126.02% YoY, and ten-month revenue of NT$5.008 billion, up 33.72%. It supplies semiconductor metrology, grinding and polishing systems but did not break out revenue by process or packaging customer."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "均豪的設備應用涵蓋檢測量測、研磨拋光、先進封裝與特殊載板，與晶圓再生及封測製程相連。公司對產業需求的敘述未附個別設備台數或稼動率。",
+            "en": "Gallant Micro supplies inspection, metrology, grinding and polishing equipment for advanced packaging, wafer reclamation and specialized substrates. Commentary on market demand is not accompanied by machine-level deliveries or utilization."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "10 月營收 716,168 千元，去年同月 316,866 千元；前 10 個月合計 5,007,838 千元，去年同期 3,744,917 千元。媒體報導單月月增 8.1%，公司備註營收變化是配合客戶出貨。",
+            "en": "October revenue was NT$716,168 thousand versus NT$316,866 thousand a year earlier; ten-month revenue was NT$5,007,838 thousand versus NT$3,744,917 thousand. Media reported 8.1% sequential growth, and the filing noted shipments made to customer schedules."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "檢測量測與磨拋設備各自金額、驗收件數及新產品資格認證尚未披露。",
+            "en": "Revenue by metrology versus polishing, accepted machines and product qualification details were not reported."
+          }
+        }
+      ],
+      "metric": "7.16 億元",
+      "metricLabel": {
+        "zh": "2026 年 10 月合併營收",
+        "en": "October 2026 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 均豪月營收揭露資料",
+            "en": "MoneyDJ · Gallant Micro Machining monthly revenue disclosure"
+          },
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=75779a34-fa33-4214-aedc-5feac7b82eaf",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 均豪設備業務背景",
+            "en": "Economic Daily News · Gallant Micro business context"
+          },
+          "url": "https://money.udn.com/money/story/11074/9865193",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-08",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；晶圓；檢測；量測；載板；封裝",
+          "en": "Semiconductor equipment; wafer metrology; polishing; substrates; packaging"
+        },
+        "chain": {
+          "zh": "半導體晶圓設備、檢測量測、研磨拋光與載板",
+          "en": "Wafer equipment, metrology, grinding and polishing through advanced substrates"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出或投資額。",
+            "en": "No incremental capital expenditure or investment disclosed."
+          },
+          "demand": {
+            "zh": "10 月合併營收年增 126.02%，公司備註配合客戶出貨。",
+            "en": "October revenue rose 126.02% YoY; the company noted shipment timing."
+          },
+          "fdi": {
+            "zh": "未公布新的外國直接投資。",
+            "en": "No new foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司公布的電子與半導體設備供應鏈月度營收與去年同期基期。",
+            "en": "Company-reported monthly revenue and explicit annual comparisons for relevant component or equipment supply chains."
+          },
+          "timing": {
+            "zh": "11 月 8 日公布 2026 年 10 月合併營收；前十個月為累計資料。",
+            "en": "Disclosed Nov 8 for October 2026; January–October is cumulative."
+          },
+          "unknowns": {
+            "zh": "檢測量測與磨拋設備各自金額、驗收件數及新產品資格認證尚未披露。",
+            "en": "Revenue by metrology versus polishing, accepted machines and product qualification details were not reported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "均豪 10 月合併營收",
+            "en": "Gallant Micro Machining October consolidated revenue"
+          },
+          "current": 0.716168,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "均豪公司公告，經媒體轉載",
+            "en": "Gallant Micro Machining company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=75779a34-fa33-4214-aedc-5feac7b82eaf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.316866,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": 1.2602,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "均豪 前 10 個月合併營收",
+            "en": "Gallant Micro Machining January–October revenue"
+          },
+          "current": 5.007838,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "均豪公司公告，經媒體轉載",
+            "en": "Gallant Micro Machining company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=75779a34-fa33-4214-aedc-5feac7b82eaf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 3.744917,
+          "basePeriod": "2025 年 1 至 10 月",
+          "reportedRate": 0.3372,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對製程量測、設備控制與精密電源零組件業者而言，均豪營收涉及晶圓檢測及研磨拋光設備市場。仍需確認各項設備的功率需求、交付批次及最終驗收，月營收沒有揭露單機配置。",
+        "en": "For wafer-metrology, process-control and precision-power component suppliers, Gallant Micro's results cover inspection and polishing equipment. Machine power needs, delivery batches and customer acceptance have not been disclosed."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "c-sun-oct-2026-semiconductor-tools-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "志聖 10 月營收 10.13 億元、年增 80.68%，公司說明來自客戶需求提升",
+        "en": "C Sun posts NT$1.013B October revenue, up 80.68% YoY, attributing growth to customer demand"
+      },
+      "summary": {
+        "zh": "志聖 11 月 8 日公告 10 月合併營收 10.13 億元，年增 80.68%；今年 1 至 10 月累計 90.36 億元，年增 83.80%。公司表示成長與客戶需求提升有關，未公布先進封裝設備的獨立營收或訂單驗收台數。",
+        "en": "C Sun disclosed October consolidated revenue of NT$1.013 billion on November 8, up 80.68% YoY, with January–October sales of NT$9.036 billion, up 83.80%. The company cited higher customer demand but did not disclose distinct advanced-packaging revenue or acceptance volumes."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "志聖供應電子與半導體製造設備，包含先進封裝及工廠製程相關應用。之前公布的自動化軟體業務股權安排與本次 10 月營收屬不同事件。",
+            "en": "C Sun supplies electronics and semiconductor manufacturing equipment, including advanced-packaging and factory-process applications. An earlier equity arrangement in automation software is a separate development from October sales."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "公司揭露 10 月營收 1,013,344 千元、去年同月 560,854 千元，前 10 個月 9,035,864 千元、去年同期 4,916,114 千元。公司於備註明列需求提升是營收同比增長的原因，但未提供不同設備線的比較基期。",
+            "en": "The published figures were NT$1,013,344 thousand versus NT$560,854 thousand for October and NT$9,035,864 thousand versus NT$4,916,114 thousand for the ten-month periods. The company attributed the increase to customer demand without process-specific base figures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "各製程設備營收比例、先進封裝新機驗收、訂單能見度的確切契約基礎未披露。",
+            "en": "Revenue by equipment type, new advanced-packaging machine acceptance and contractual order visibility were not disclosed."
+          }
+        }
+      ],
+      "metric": "10.13 億元",
+      "metricLabel": {
+        "zh": "2026 年 10 月合併營收",
+        "en": "October 2026 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 志聖月營收揭露資料",
+            "en": "MoneyDJ · C Sun monthly revenue disclosure"
+          },
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f1c6b307-817e-4a14-a68e-db27c5d1f7c7",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 志聖營收公告",
+            "en": "Economic Daily News · C Sun revenue"
+          },
+          "url": "https://money.udn.com/money/story/5710/9865065",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-08",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；晶圓；封裝；測試；工廠自動化",
+          "en": "Semiconductor equipment; wafer fabs; packaging; test; automation"
+        },
+        "chain": {
+          "zh": "半導體設備、封裝自動化、測試與工廠製程",
+          "en": "Semiconductor equipment through packaging automation and factory processes"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出或投資額。",
+            "en": "No incremental capital expenditure or investment disclosed."
+          },
+          "demand": {
+            "zh": "10 月營收年增 80.68%，公司稱客戶需求提升。",
+            "en": "October revenue was 80.68% higher YoY, which the company attributed to demand."
+          },
+          "fdi": {
+            "zh": "未公布新的外國直接投資。",
+            "en": "No new foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司公布的電子與半導體設備供應鏈月度營收與去年同期基期。",
+            "en": "Company-reported monthly revenue and explicit annual comparisons for relevant component or equipment supply chains."
+          },
+          "timing": {
+            "zh": "11 月 8 日公布 2026 年 10 月合併營收；前十個月為累計資料。",
+            "en": "Disclosed Nov 8 for October 2026; January–October is cumulative."
+          },
+          "unknowns": {
+            "zh": "各製程設備營收比例、先進封裝新機驗收、訂單能見度的確切契約基礎未披露。",
+            "en": "Revenue by equipment type, new advanced-packaging machine acceptance and contractual order visibility were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "志聖 10 月合併營收",
+            "en": "C Sun October consolidated revenue"
+          },
+          "current": 1.013344,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "志聖公司公告，經媒體轉載",
+            "en": "C Sun company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f1c6b307-817e-4a14-a68e-db27c5d1f7c7",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.560854,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": 0.8068,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "志聖 前 10 個月合併營收",
+            "en": "C Sun January–October revenue"
+          },
+          "current": 9.035864,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "志聖公司公告，經媒體轉載",
+            "en": "C Sun company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f1c6b307-817e-4a14-a68e-db27c5d1f7c7",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 4.916114,
+          "basePeriod": "2025 年 1 至 10 月",
+          "reportedRate": 0.838,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體電源轉換與製程監控業者而言，志聖的合併收入成長提供設備製造商的交付金額線索。仍應查核設備種類、製程條件與驗收時點，無法將營收全數對應先進封裝設備。",
+        "en": "For semiconductor power-conversion and process monitoring suppliers, C Sun's sales show an equipment maker's consolidated delivery values. Tool mix, process requirements and acceptance timing are not identified."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "tsmc-3d-dram-report-unconfirmed",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：台積電回應 3D DRAM 傳聞，重申專注邏輯晶片晶圓代工",
+        "en": "Follow-up: TSMC reaffirms logic foundry focus in response to 3D DRAM report"
+      },
+      "summary": {
+        "zh": "台積電發言人於 11 月 7 日回應 Tom's Hardware 對 3D DRAM 製造傳聞的查詢，重申公司核心業務為專業晶圓代工，將持續服務全球邏輯晶片產業。回應沒有公布任何 DRAM 製造投資、產線或量產日期，也未逐一評論匿名報導中的技術合作細節。",
+        "en": "A TSMC spokesperson told Tom's Hardware on November 7 that the company remains dedicated to its pure-play IC foundry business and supplying logic-semiconductor technology and capacity. The statement did not announce DRAM investment, a new fab or a production timetable, nor did it address every alleged collaboration detail."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "11 月 6 日 The Information 引述匿名人士稱台積電評估 3D DRAM，11 月 8 日預編版曾記載缺乏公司確認。這次的新事實是公司透過媒體正式重申邏輯晶片代工定位。3D DRAM 記憶體單元垂直堆疊與現行 HBM 多晶片封裝不是相同製程。",
+            "en": "An anonymous-source story on November 6 suggested TSMC may evaluate 3D DRAM; the previous edition noted the absence of company confirmation. The new fact is the spokesperson's direct response. Vertically stacked 3D DRAM cells differ from packaging multiple DRAM dies for HBM."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "Tom's Hardware 11 月 7 日直接引述台積電發言人的電子郵件回覆，強調公司持續投入專業邏輯晶片代工。自由財經於 11 月 8 日報導該回覆；目前沒有董事會核准、正式設備合約或記憶體晶圓廠投產公告。",
+            "en": "Tom's Hardware quoted TSMC's direct response on November 7, reiterating its logic-foundry role; Liberty Times covered that response on November 8. There is no board-approved DRAM program, tool contract or memory-fab commissioning disclosure."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "匿名報導所述要求是否曾正式提出、台積電與客戶的研發合作內容，以及未來是否有單獨的記憶體製程開發案仍未確認。",
+            "en": "Whether the alleged customer request was formal, its research scope and any separate future memory-process program remain unverified."
+          }
+        }
+      ],
+      "metric": "代工定位",
+      "metricLabel": {
+        "zh": "台積電發言人正式回應",
+        "en": "TSMC spokesperson's response"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Tom's Hardware · 台積電發言人直接回應",
+            "en": "Tom's Hardware · Direct TSMC spokesperson response"
+          },
+          "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 11 月 8 日報導台積電回應",
+            "en": "Liberty Times · November 8 TSMC response report"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5633550",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-07",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "晶圓；代工；晶片設計；DRAM；記憶體；HBM；封裝",
+          "en": "Wafer fabrication; logic foundry; DRAM; memory; HBM; packaging"
+        },
+        "chain": {
+          "zh": "邏輯晶圓代工、記憶體技術傳聞及先進封裝",
+          "en": "Logic wafer foundry, memory technology and advanced packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司回應沒有宣布新記憶體廠投資。",
+            "en": "The statement did not announce a memory-fab investment."
+          },
+          "demand": {
+            "zh": "匿名消息中提及客戶需求，但沒有正式訂單或晶圓合約。",
+            "en": "An anonymous report alleged customer demand, without verified purchase orders or wafer contracts."
+          },
+          "fdi": {
+            "zh": "未公布新的外國直接投資。",
+            "en": "No new foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶圓代工業務定位及尚未證實的記憶體製程消息。",
+            "en": "TSMC's confirmed logic-foundry focus versus unconfirmed memory-process speculation."
+          },
+          "timing": {
+            "zh": "發言人回應於 11 月 7 日刊出，11 月 8 日台灣媒體再報導。",
+            "en": "Spokesperson response reported Nov 7; carried in Taiwan on Nov 8."
+          },
+          "unknowns": {
+            "zh": "匿名報導所述要求是否曾正式提出、台積電與客戶的研發合作內容，以及未來是否有單獨的記憶體製程開發案仍未確認。",
+            "en": "Whether the alleged customer request was formal, its research scope and any separate future memory-process program remain unverified."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對半導體蝕刻 RF 電源、沉積控制與晶圓量測設備業者而言，公司聲明維持現有代工定位，不能據傳聞設想新型記憶體生產線。需要有正式資本支出、製程規格與客戶驗收資訊，才可核對相關設備範圍。",
+        "en": "For etch RF-power, deposition control and metrology suppliers, TSMC's statement reaffirms its current foundry mandate and does not support a new memory-production line. Approved capex, process specifications and customer qualification evidence are missing."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "contrel-oct-2026-equipment-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "東捷 10 月營收 1.85 億元、年減 36.37%，前 10 個月營收年減 11.06%",
+        "en": "Contrel October sales fall 36.37% YoY to NT$185M; ten-month sales down 11.06%"
+      },
+      "summary": {
+        "zh": "東捷 11 月 8 日公布 10 月合併營收約 1.85 億元，年減 36.37%，今年前 10 個月合計約 18.51 億元、年減 11.06%。媒體報導 10 月營收月增 24.1%，但公司未提供出貨延後、產品組合或設備驗收造成同比下滑的具體說明。",
+        "en": "Contrel reported October revenue of NT$184.949 million on November 8, down 36.37% YoY, and ten-month sales of NT$1.851 billion, down 11.06%. A separate report cited a 24.1% monthly increase, but no disclosed product-mix or equipment-acceptance breakdown explains the annual decline."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "東捷經營電子設備與自動化相關業務，其財報合併不同設備應用。單月收入可受出貨及驗收時程影響，但公司這次未揭露可驗證的單一原因。",
+            "en": "Contrel operates in electronic equipment and factory automation. Revenue includes multiple product applications and may vary with delivery and acceptance timing, but the company disclosed no verified explanation for this period's YoY change."
+          }
+        },
+        {
+          "label": {
+            "zh": "數據與事件時間",
+            "en": "Numbers and event timing"
+          },
+          "text": {
+            "zh": "公司公布 10 月營收 184,949 千元，去年同期 290,651 千元；前 10 個月營收 1,850,983 千元，去年同期 2,081,242 千元。前 10 個月合計年減 11.06%，與單月年減 36.37% 應分開比較。",
+            "en": "The filing shows October sales of NT$184,949 thousand versus NT$290,651 thousand a year earlier, and ten-month revenue of NT$1,850,983 thousand versus NT$2,081,242 thousand. The ten-month decline of 11.06% differs from October's 36.37% YoY decline."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "減少的營收所屬產品、個別客戶、出貨或驗收時間變動未揭露。",
+            "en": "The affected product lines, customers and delivery or acceptance timing were not specified."
+          }
+        }
+      ],
+      "metric": "1.85 億元",
+      "metricLabel": {
+        "zh": "2026 年 10 月合併營收",
+        "en": "October 2026 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 東捷月營收揭露資料",
+            "en": "MoneyDJ · Contrel monthly revenue disclosure"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=32b7af86-2dcc-4d6e-b90e-a16f55cb4701&c=MB06",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 東捷月度營收",
+            "en": "Economic Daily News · Contrel monthly sales"
+          },
+          "url": "https://money.udn.com/money/story/11074/9865223",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-08",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；零組件；工廠自動化；測試",
+          "en": "Equipment; components; factory automation; testing"
+        },
+        "chain": {
+          "zh": "電子設備、工廠自動化與半導體製程設備",
+          "en": "Electronics equipment, factory automation and semiconductor process tools"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出或投資額。",
+            "en": "No incremental capital expenditure or investment disclosed."
+          },
+          "demand": {
+            "zh": "10 月收入年減 36.37%；沒有足夠資料證明是訂單取消。",
+            "en": "October revenue declined 36.37% YoY; no evidence attributes it to canceled orders."
+          },
+          "fdi": {
+            "zh": "未公布新的外國直接投資。",
+            "en": "No new foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司公布的電子與半導體設備供應鏈月度營收與去年同期基期。",
+            "en": "Company-reported monthly revenue and explicit annual comparisons for relevant component or equipment supply chains."
+          },
+          "timing": {
+            "zh": "11 月 8 日公布 2026 年 10 月合併營收；前十個月為累計資料。",
+            "en": "Disclosed Nov 8 for October 2026; January–October is cumulative."
+          },
+          "unknowns": {
+            "zh": "減少的營收所屬產品、個別客戶、出貨或驗收時間變動未揭露。",
+            "en": "The affected product lines, customers and delivery or acceptance timing were not specified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "東捷 10 月合併營收",
+            "en": "Contrel October consolidated revenue"
+          },
+          "current": 0.184949,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "東捷公司公告，經媒體轉載",
+            "en": "Contrel company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=32b7af86-2dcc-4d6e-b90e-a16f55cb4701&c=MB06",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.290651,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": -0.3637,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "東捷 前 10 個月合併營收",
+            "en": "Contrel January–October revenue"
+          },
+          "current": 1.850983,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "東捷公司公告，經媒體轉載",
+            "en": "Contrel company disclosure, reproduced by media"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=32b7af86-2dcc-4d6e-b90e-a16f55cb4701&c=MB06",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 2.081242,
+          "basePeriod": "2025 年 1 至 10 月",
+          "reportedRate": -0.1106,
+          "baseStatus": "公司公告明列去年同期數值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業設備電源及自動化量測供應商而言，東捷的月營收與累計營收呈現不同幅度的同比變動。需要再確認產品線出貨及設備驗收資料，無法直接認定客戶需求或市占率發生結構性改變。",
+        "en": "For industrial power and automation metrology vendors, Contrel's monthly and ten-month figures show different declines. Product shipments and acceptance data are needed before assigning a cause."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "奇鋐營收成長是否代表液冷產品出貨同比增幅？",
+        "en": "Does AVC's sales growth quantify liquid-cooling unit shipments?"
+      },
+      "text": {
+        "zh": "10 月公告屬所有產品合併營收，未分列液冷營收與件數；去年同期金額及成長率可以直接核對。",
+        "en": "October figures are consolidated across products and lack liquid-cooling revenue or unit breakdown, while year-earlier revenue and reported growth are explicitly provided."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "巴淡島供水中斷是資料中心造成的嗎？",
+        "en": "Did data centers cause Batam's water outages?"
+      },
+      "text": {
+        "zh": "居民提出疑慮，Air Batam Hilir 提到乾旱、水庫水位下降及電力故障。尚無可核對的個別資料中心取水量或水網因果證據。",
+        "en": "Residents raised concerns, while the utility cited drought, reservoir depletion and an electrical fault. Facility-level withdrawals and causal evidence are missing."
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "zh": "台積電是否已確認投入 3D DRAM 量產？",
+        "en": "Has TSMC confirmed 3D DRAM mass production?"
+      },
+      "text": {
+        "zh": "發言人僅重申現有專業晶圓代工定位，沒有投資核准、製程規格或量產時程。",
+        "en": "The spokesperson reaffirmed TSMC's foundry mandate without approved investment, process specifications or a production timeline."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "巴淡島海水淡化工程的原始公告日期",
+        "en": "Original date of Batam desalination groundbreaking"
+      },
+      "text": {
+        "zh": "印尼 BP Batam 在 11 月 5 日已宣布 Kabil SWRO 海水淡化廠動工，一期規劃每秒 300 公升，2027 年 11 月為預計營運時點。本次新增的是 11 月 8 日法新社採訪與供水單位說明，不將舊工程重新列為新開工。",
+        "en": "Indonesia's BP Batam had already announced the Kabil SWRO groundbreaking on November 5, with 300 liters per second planned in phase one and November 2027 as the targeted operating date. The new development is AFP's November 8 reporting and utility interviews, not a second construction start."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料核對註記",
+      "en": "Data verification notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "CCS 轉供修法報導",
+        "en": "CCS wheeling legislation report"
+      },
+      "text": {
+        "zh": "11 月 8 日有媒體提及低碳電力直供與轉供修法，但未找到足以核對草案條文與程序狀態的正式公告，暫不列為生效政策新聞。",
+        "en": "Reports on November 8 described a proposal for direct supply and wheeling of CCS-backed power, but an authoritative legislative text and status were not established. It is not treated as an enacted policy."
+      }
+    },
+    {
+      "title": {
+        "zh": "股價及延伸預測",
+        "en": "Share prices and speculative forecasts"
+      },
+      "text": {
+        "zh": "單純股票行情、分析師推估設備訂單與重複舊有建廠消息未收錄。",
+        "en": "Share-price reactions, speculative equipment orders and repeated older construction announcements were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "五家上市櫃公司 10 月營收以媒體轉載的公司月報數字及經濟日報、中央社交叉核對，未逐一取得公開資訊觀測站原始電子申報。均華所述 2027 年訂單能見度是管理階層說法，並非驗收機台數。巴淡島居民停水與資料中心取水的因果關係未經證實；Kabil 海水淡化工程於 11 月 5 日動工，產能仍屬規劃。台積電僅公開重申專業晶圓代工定位，匿名 3D DRAM 報導的所有細節未逐一確認。",
+    "en": "The five companies' October figures were checked against reproduced company revenue disclosures and established reporting, not original exchange submissions for each issuer. Gallant's 2027 order visibility is a management statement, not accepted equipment volume. Batam outages have not been causally attributed to data centers; the Kabil desalination project broke ground November 5 and its capacity is planned. TSMC reaffirmed its foundry role without resolving every claim in the anonymous 3D DRAM report."
+  }
+}
