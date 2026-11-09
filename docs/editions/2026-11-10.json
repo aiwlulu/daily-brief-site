@@ -1,0 +1,1850 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-09T12:26:20.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、雷射封裝、晶圓測試、伺服器電源與工廠工程",
+      "en": "Taiwan and Southeast Asian semiconductor tools, laser packaging, wafer test, server power and industrial engineering"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "業成公布跨台灣與越南的雷射封裝規劃，台達電與光寶科揭露電源業務月報，漢測及崇越則提供晶圓測試和記憶體廠環保工程的營收資訊。",
+    "en": "GIS-KY detailed Taiwan/Vietnam laser packaging plans, Delta and Lite-On disclosed power-related sales, and Hermes Testing and Topco reported wafer-test and memory-fab environmental engineering activity."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "業成規劃高功率雷射封裝產線年底小量生產，2027 年中放量，資本支出約 40 至 50 億元。",
+        "en": "GIS-KY targets year-end laser packaging pilot output and a mid-2027 ramp, with NT$4B–5B allocated."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台達電 10 月營收 746.66 億元，電源與零組件事業占 51%。",
+        "en": "Delta's October revenue reached NT$74.666B; power and components contributed 51%."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "漢測 10 月營收 5.06 億元、年增 61.88%，公司提及晶圓測試熱管理與清潔材料需求。",
+        "en": "Hermes Testing reported NT$506M October sales, up 61.88% YoY, citing test thermal management."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "光寶科 10 月營收 200.71 億元，雲端及物聯網事業占 66%，包含伺服器電源與 BBU。",
+        "en": "Lite-On reported NT$20.071B October sales; cloud and IoT comprised 66%, including server PSUs and BBUs."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "廣達 10 月營收約 3,532.5 億元、年增約 104%，公司表示主要由 AI 伺服器推動。",
+        "en": "Quanta reported NT$353.25B October sales, up about 104% YoY, citing AI servers."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "gis-laser-osat-vietnam-2026-ramp",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "業成公布高功率雷射封裝新時程，年底小量生產、2027 年中擬放量",
+        "en": "GIS-KY targets small-batch high-power laser packaging by year-end, with a mid-2027 ramp"
+      },
+      "summary": {
+        "zh": "業成 GIS-KY 11 月 9 日法說會表示，高功率雷射封裝產線預計 2026 年 11 至 12 月小量生產，2027 年第二季底至第三季放量，初期預計為 1 至 2 家客戶代工。公司表示今年董事會已核准資本支出約 80 億元，約 40 至 50 億元配置雷射封裝，其中台灣與越南兩地產線均有規劃；尚未公布實際量產驗收。",
+        "en": "At its November 9 investor briefing, GIS-KY said high-power laser packaging could begin small-batch output in November or December 2026 and ramp from late Q2 to Q3 2027 for one or two initial customers. Of roughly NT$8 billion in previously approved 2026 capital spending, NT$4 billion to NT$5 billion is allocated to laser packaging in Taiwan and Vietnam; completed customer acceptance has not been announced."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "業成原以觸控顯示模組為主要業務，目前開發光通訊雷射委外封裝、300 至 400mW 高功率連續波雷射產品、VCSEL 及光纖陣列元件。不同技術的工程驗證與量產時間需個別核對。",
+            "en": "GIS-KY's original business centers on touch-display modules; it is developing laser outsourced assembly, 300–400mW continuous-wave devices, VCSEL-related products and fiber-array components. Their qualification and mass-production stages differ."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "中央社引述公司管理階層表示，約 40 至 50 億元雷射封裝資本支出中約三分之一投向台灣，其餘供應越南新廠。公司第三季合併營收為 144.56 億元、季增 37.6%、年減 10.5%，稅後淨損 7.25 億元；財報涵蓋既有業務，未拆出雷射封裝獲利。",
+            "en": "Management told CNA that roughly one-third of the NT$4–5 billion laser allocation goes to Taiwan and the remainder to Vietnam. Q3 consolidated revenue was NT$14.456 billion, up 37.6% QoQ but down 10.5% YoY, with an after-tax loss of NT$725 million. These group results do not isolate laser packaging."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "雷射封裝設備規格、量產良率、個別客戶合約、越南廠城市及驗收時間尚未公布。",
+            "en": "Laser packaging tool specifications, yields, individual customer contracts, the Vietnam facility's city and acceptance dates remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$4–5B",
+      "metricLabel": {
+        "zh": "雷射封裝資本支出配置",
+        "en": "Laser packaging capex allocation"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 業成 11 月 9 日法說訪談",
+            "en": "CNA · GIS-KY November 9 investor briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090239.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣；越南",
+          "en": "Taiwan; Vietnam"
+        },
+        "industries": {
+          "zh": "半導體設備；光通訊；封裝；測試；工廠；投資",
+          "en": "Semiconductor tools; optical communications; packaging; testing; factories; investment"
+        },
+        "chain": {
+          "zh": "光學零組件與雷射封裝測試至資料中心光通訊",
+          "en": "Optical components and laser packaging through data-center interconnects"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司說明今年已核准約 80 億元支出，其中 40 至 50 億元配置雷射封裝。",
+            "en": "Management described NT$8B approved annual capex, of which NT$4B–5B is allocated to lasers."
+          },
+          "demand": {
+            "zh": "未公布獨立產品出貨數或新增客戶訂單。",
+            "en": "No product-specific shipment units or new customer orders disclosed."
+          },
+          "fdi": {
+            "zh": "雷射封裝支出部分用於越南新廠，未公布新跨境匯入額。",
+            "en": "Part of capex is designated for Vietnam, without an FDI remittance figure."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣及越南雷射封裝產線投資與未來客戶驗收時程。",
+            "en": "Laser packaging investment in Taiwan and Vietnam and future customer qualification."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "雷射封裝設備規格、量產良率、個別客戶合約、越南廠城市及驗收時間尚未公布。",
+            "en": "Laser packaging tool specifications, yields, individual customer contracts, the Vietnam facility's city and acceptance dates remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2026 年董事會已核准資本支出約數",
+            "en": "Approximately approved 2026 capital spending"
+          },
+          "current": 8,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年核准計畫",
+            "en": "2026 annual approved plan"
+          },
+          "owner": {
+            "zh": "業成管理階層，中央社報導",
+            "en": "GIS-KY management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090239.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "雷射封裝支出區間下限",
+            "en": "Laser allocation lower bound"
+          },
+          "current": 4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年雷射封裝規劃",
+            "en": "2026 laser packaging plan"
+          },
+          "owner": {
+            "zh": "業成管理階層，中央社報導",
+            "en": "GIS-KY management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090239.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "雷射封裝支出區間上限",
+            "en": "Laser allocation upper bound"
+          },
+          "current": 5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年雷射封裝規劃",
+            "en": "2026 laser packaging plan"
+          },
+          "owner": {
+            "zh": "業成管理階層，中央社報導",
+            "en": "GIS-KY management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090239.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 14.456,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "業成，中央社報導",
+            "en": "GIS-KY, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090239.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.376,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨損",
+            "en": "Q3 after-tax loss"
+          },
+          "current": -0.725,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "業成，中央社報導",
+            "en": "GIS-KY, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090239.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對雷射封裝電源、精密光學量測與製程控制設備業者而言，新資訊是試產時程及資本配置範圍。仍需確認製程設備規格、越南與台灣分工及客戶驗收；2027 年放量目前屬預期。",
+        "en": "For laser-packaging power, optical metrology and precision-control suppliers, the new information is a pilot timetable and approved allocation range. Equipment specifications, factory roles and customer acceptance remain unknown, and the 2027 ramp is prospective."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "delta-oct-2026-data-center-power-sales",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台達電 10 月營收 746.66 億元，電源及零組件事業占 51%",
+        "en": "Delta October revenue reaches NT$74.666B; power and components account for 51%"
+      },
+      "summary": {
+        "zh": "台達電 11 月 9 日公布 10 月合併營收 746.66 億元，年增約 30%、月增 14.2%，為單月新高；前十月累計 6,143.34 億元，年增 36.3%。公司說明當月電源及零組件占營收 51%，基礎設施占 36%，但未提供資料中心電源獨立出貨量。",
+        "en": "Delta reported October consolidated sales of NT$74.666 billion on November 9, about 30% higher YoY and up 14.2% MoM, setting a monthly record; Jan–Oct sales reached NT$614.334 billion, up 36.3%. The company reported 51% of sales from power and components and 36% from infrastructure without individual data-center PSU units."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "台達電的產品涉及資料中心供電、電源轉換、配電、工業自動化與散熱。公司事業群占比包含多個產品與終端，不能將電源及零組件的 51% 直接視為機櫃電源營收。",
+            "en": "Delta serves data-center power conversion, distribution, industrial automation and cooling. Business-group percentages span multiple products and markets; the 51% figure is not a distinct rack-PSU revenue total."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "台達電官方英文公告確認 10 月營收 74,666 百萬元。中央社轉述電源及零組件、基礎設施、自動化及交通事業群占比分別為 51%、36%、8%、5%；四類合計 100%。",
+            "en": "Delta's original November 9 press release confirms October sales of NT$74,666 million. CNA reports group shares of 51% power and components, 36% infrastructure, 8% automation and 5% mobility, together totaling 100%."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "800V DC 供電系統出貨、伺服器機櫃電源量及各產品營收未公開。",
+            "en": "800V DC system shipments, server rack PSU volumes and product-level revenue were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$74.666B",
+      "metricLabel": {
+        "zh": "10 月合併營收",
+        "en": "October consolidated sales"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台達電 · 10 月營收原始公告",
+            "en": "Delta Electronics · Original October sales release"
+          },
+          "url": "https://www.deltaww.com/en-US/press/41233",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 事業群營收比重",
+            "en": "CNA · Delta business group composition"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090189.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源；供電；零組件；資料中心；機房；散熱；工廠自動化",
+          "en": "Power conversion; distribution; components; data centers; cooling; automation"
+        },
+        "chain": {
+          "zh": "電源、零組件與機房供電至資料中心",
+          "en": "Power components and site power through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "10 月合併營收年增約三成，未公布資料中心獨立產品出貨。",
+            "en": "October revenue rose approximately 30% YoY without dedicated data-center shipment figures."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電源與機房基礎設施事業實際收入及可核對的事業群比重。",
+            "en": "Realized power and infrastructure sales with reported business-unit mix."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "800V DC 供電系統出貨、伺服器機櫃電源量及各產品營收未公開。",
+            "en": "800V DC system shipments, server rack PSU volumes and product-level revenue were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收",
+            "en": "October consolidated sales"
+          },
+          "current": 74.666,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台達電",
+            "en": "Delta Electronics"
+          },
+          "sourceUrl": "https://www.deltaww.com/en-US/press/41233",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3,
+          "baseStatus": "中央社約稱年增三成，原公告未列可核對基期。"
+        },
+        {
+          "name": {
+            "zh": "前十月累計合併營收",
+            "en": "January–October consolidated sales"
+          },
+          "current": 614.334,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "台達電，中央社報導",
+            "en": "Delta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090189.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.363,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "電源及零組件占比",
+            "en": "Power and components share"
+          },
+          "current": 0.51,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月業務營收比重",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "台達電，中央社報導",
+            "en": "Delta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090189.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "基礎設施占比",
+            "en": "Infrastructure share"
+          },
+          "current": 0.36,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月業務營收比重",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "台達電，中央社報導",
+            "en": "Delta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090189.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "自動化占比",
+            "en": "Automation share"
+          },
+          "current": 0.08,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月業務營收比重",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "台達電，中央社報導",
+            "en": "Delta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090189.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "交通占比",
+            "en": "Mobility share"
+          },
+          "current": 0.05,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月業務營收比重",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "台達電，中央社報導",
+            "en": "Delta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090189.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換、機櫃配電及電力品質量測設備業者而言，台達電揭露集團及事業群營收。仍須查證 800V DC 供電產品、機櫃驗收與獨立出貨數，事業群比重無法換算單一產品需求。",
+        "en": "For data-center power, rack distribution and power-quality instrumentation suppliers, Delta provided group-level sales and segment mix. 800V DC unit shipments and acceptance remain unknown, and segment shares do not quantify individual product demand."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "hermes-testing-oct-2026-prober-thermal-management",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "漢測 10 月營收 5.06 億元、年增 61.88%，測試機熱管理與清潔材料列為成長來源",
+        "en": "Hermes Testing October sales rise 61.88% YoY to NT$506M, citing tester thermal management"
+      },
+      "summary": {
+        "zh": "漢測 11 月 9 日公布 10 月營收約 5.06 億元，年增 61.88%、月減 1.67%，前十月累計約 41.91 億元、年增 118.13%。公司指出熱管理模組、晶圓測試探針清潔材料及工程服務帶動業務，但未分別公布產品出貨件數。",
+        "en": "Hermes Testing reported approximately NT$506 million in October sales on November 9, up 61.88% YoY and down 1.67% MoM; January–October sales reached about NT$4.191 billion, up 118.13%. The company cited thermal modules, probe-cleaning materials and engineering services but did not break out units."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "漢測針對高功耗晶片測試提供整合在測試機與晶圓針測機之間的熱管理模組，另提供清潔材料、針測機維護及薄膜探針卡等業務。已有薄膜探針卡小量交貨，但 CPO 測試仍屬布局項目。",
+            "en": "Hermes provides thermal-management modules installed between wafer probers and test systems, as well as cleaning materials, prober maintenance and film probe cards. Some thin-film probe-card deliveries have started, while CPO test remains a development area."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "公司對媒體指出 10 月約 5.06 億元、9 月約 5.14 億元、去年 10 月約 3.12 億元，前十月約 41.91 億元。數字是四捨五入值，年增率使用公布的 61.88% 與 118.13%，未反推精確比較基期。",
+            "en": "Reports cite rounded October, September and year-earlier sales of NT$506 million, NT$514 million and NT$312 million, respectively. The company published YoY growth of 61.88% and ten-month growth of 118.13%; precise comparison bases are not calculated from rounded values."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "熱管理模組的套數、散熱規格、單價、薄膜探針卡收入與客戶驗收未量化。",
+            "en": "Thermal module units, cooling specifications, prices, film probe-card revenue and customer acceptance volumes were not quantified."
+          }
+        }
+      ],
+      "metric": "NT$0.506B",
+      "metricLabel": {
+        "zh": "10 月營收約數",
+        "en": "October sales, approximate"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "緯來新聞 · 漢測熱管理與營收訪問",
+            "en": "Videoland News · Hermes Testing revenue and thermal systems"
+          },
+          "url": "https://news.videoland.com.tw/article/300b1676-1d4c-4e07-b40a-783601766e38.html",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 漢測晶圓測試業務",
+            "en": "Economic Daily News · Hermes wafer-test coverage"
+          },
+          "url": "https://udn.com/news/story/7252/9866911",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；晶圓；測試；封測；散熱；材料",
+          "en": "Semiconductor equipment; wafers; testing; cooling; materials"
+        },
+        "chain": {
+          "zh": "晶圓測試設備、探針卡、散熱與封測",
+          "en": "Wafer test tools and probe-card thermal management"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "10 月營收年增 61.88%，公司表示熱管理、清潔材料與工程服務為來源。",
+            "en": "October sales rose 61.88% YoY; management cited thermal systems, cleaning materials and services."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高功率晶片測試機改造及探針接觸材料的實際業務數據。",
+            "en": "Realized activity in high-power test upgrades and probe contact materials."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "熱管理模組的套數、散熱規格、單價、薄膜探針卡收入與客戶驗收未量化。",
+            "en": "Thermal module units, cooling specifications, prices, film probe-card revenue and customer acceptance volumes were not quantified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收約數",
+            "en": "October consolidated sales, rounded"
+          },
+          "current": 0.506,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "漢測，緯來報導",
+            "en": "Hermes Testing, reported by Videoland"
+          },
+          "sourceUrl": "https://news.videoland.com.tw/article/300b1676-1d4c-4e07-b40a-783601766e38.html",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.6188,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月合併營收約數",
+            "en": "January–October revenue, rounded"
+          },
+          "current": 4.191,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "漢測，緯來報導",
+            "en": "Hermes Testing, reported by Videoland"
+          },
+          "sourceUrl": "https://news.videoland.com.tw/article/300b1676-1d4c-4e07-b40a-783601766e38.html",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.1813,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓測試溫控、精密電源和探針量測供應商而言，漢測的熱管理模組與針測機升級涉及具體製程條件。仍需核對散熱瓦數、設備驗收及各產品實際出貨；營收是集團合併數字。",
+        "en": "For wafer-test thermal control, precision power and probe metrology suppliers, Hermes disclosed business linked to prober upgrades. Cooling power, equipment acceptance and product shipments remain unknown, while revenue is consolidated."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "liteon-oct-2026-server-psu-bbu-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "光寶科 10 月營收 200.71 億元，雲端及物聯網業務占 66%",
+        "en": "Lite-On October sales reach NT$20.071B; cloud and IoT account for 66%"
+      },
+      "summary": {
+        "zh": "光寶科 11 月 9 日公布 10 月營收 200.71 億元，年增 32.01%、月增約 6.5%，前十月累計營收約 1,736.29 億元。公司指出高階伺服器電源、電池備援系統 BBU 和光電半導體需求，雲端及物聯網事業占當月營收 66%，未提供 BBU 的單獨出貨數。",
+        "en": "Lite-On reported October revenue of NT$20.071 billion on November 9, up 32.01% YoY and approximately 6.5% MoM, with ten-month sales about NT$173.629 billion. It cited high-end server power supplies, battery backup units and optoelectronic demand; cloud and IoT contributed 66% of sales, with no BBU unit count."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "光寶科電能管理產品包括 AI 伺服器供電與機櫃電池備援，與資料中心持續供電及電力轉換相關。公司先前提出 800V DC Power Rack 樣機及其他高功率電源產品的開發時程，尚未以本月數字拆出出貨量。",
+            "en": "Lite-On supplies server PSUs and rack battery backup within data-center power infrastructure. Earlier 800V DC Power Rack prototypes and power-shelf roadmaps were not separately quantified in October results."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "公司公布雲端及物聯網部門占 66%、光電 13%、資訊及消費性電子 21%。中央社報導前十月累計營收年增約 26.8%，高於 2025 全年營收 1,660.84 億元，兩者分別為十個月與十二個月。",
+            "en": "The business-unit mix is cloud and IoT 66%, optoelectronics 13%, and information and consumer electronics 21%. Ten-month revenue rose around 26.8% and exceeded the NT$166.084 billion recorded for all of 2025, a comparison between differently sized periods."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "伺服器電源、BBU 與 800V DC 機櫃分產品營收、交貨與驗收件數未公布。",
+            "en": "Product-level server PSU, BBU and 800V DC rack revenue, deliveries and acceptances were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$20.071B",
+      "metricLabel": {
+        "zh": "10 月合併營收",
+        "en": "October consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 光寶科月度營收",
+            "en": "CNA · Lite-On October sales"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090179.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 光寶科事業群占比",
+            "en": "Economic Daily News · Lite-On business mix"
+          },
+          "url": "https://money.udn.com/money/story/5710/9866987?from=edn_editorrelated_story",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源；供電；伺服器；資料中心；機櫃；光電零組件",
+          "en": "Power; server power supplies; data centers; racks; optoelectronic components"
+        },
+        "chain": {
+          "zh": "伺服器電源、備援電池與機櫃供電",
+          "en": "Server PSUs and battery backup through rack power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "10 月合併營收年增 32.01%，公司稱高階伺服器電源及 BBU 需求增長。",
+            "en": "October consolidated sales rose 32.01% YoY; management cited server PSU and BBU demand."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電源、BBU 與光電零組件業務的已實現集團營收。",
+            "en": "Realized consolidated revenue involving server PSUs, BBUs and optoelectronics."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "伺服器電源、BBU 與 800V DC 機櫃分產品營收、交貨與驗收件數未公布。",
+            "en": "Product-level server PSU, BBU and 800V DC rack revenue, deliveries and acceptances were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收",
+            "en": "October consolidated sales"
+          },
+          "current": 20.071,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "光寶科，中央社報導",
+            "en": "Lite-On, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090179.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3201,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月營收",
+            "en": "Ten-month consolidated sales"
+          },
+          "current": 173.629,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "光寶科，中央社報導",
+            "en": "Lite-On, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090179.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.268,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "雲端及物聯網營收占比",
+            "en": "Cloud and IoT share"
+          },
+          "current": 0.66,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月事業群占比",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "光寶科，經濟日報報導",
+            "en": "Lite-On, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5710/9866987?from=edn_editorrelated_story",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "光電營收占比",
+            "en": "Optoelectronics share"
+          },
+          "current": 0.13,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月事業群占比",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "光寶科，經濟日報報導",
+            "en": "Lite-On, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5710/9866987?from=edn_editorrelated_story",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "資訊及消費性電子占比",
+            "en": "Information and consumer electronics share"
+          },
+          "current": 0.21,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月事業群占比",
+            "en": "October 2026 business mix"
+          },
+          "owner": {
+            "zh": "光寶科，經濟日報報導",
+            "en": "Lite-On, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5710/9866987?from=edn_editorrelated_story",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心 PSU、備援電池測試與高壓直流電力儀器業者而言，光寶科提供已實現營收與事業群比重。仍欠缺特定 Power Shelf、BBU 及 800V DC 硬體的出貨與驗收數。",
+        "en": "For data-center PSU, BBU test and high-voltage DC measurement vendors, Lite-On reported consolidated sales and business mix. Product-level power shelf, battery backup and 800V DC deliveries remain unverified."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "quanta-oct-2026-ai-server-odm-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "廣達 10 月營收約 3,532.5 億元，年增 104%，公司稱主要由 AI 伺服器推動",
+        "en": "Quanta October revenue reaches NT$353.25B, up about 104% YoY; company cites AI servers"
+      },
+      "summary": {
+        "zh": "廣達 11 月 9 日公布 10 月營收約 3,532.5 億元，月增 8.6%、年增約 104%，前十月累計約 3.31 兆元，年增 99.9%。公司表示成長主要來自 AI 伺服器，同期筆電出貨為 270 萬台，但未提供 GPU 機櫃或伺服器各產品實際出貨量。",
+        "en": "Quanta reported October consolidated sales of about NT$353.25 billion on November 9, up 8.6% MoM and roughly 104% YoY; ten-month sales reached approximately NT$3.31 trillion, up 99.9%. The company attributed growth mainly to AI servers and reported 2.7 million notebook shipments, without GPU rack or server-model unit counts."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "廣達生產伺服器 ODM、機櫃系統與筆電整機，合併營收涵蓋不同產品及交易方式。整體營收年增率無法直接套用於 GPU 機櫃出貨量。",
+            "en": "Quanta provides server ODM, rack systems and PCs; revenue spans different product lines and commercial terms. Group revenue growth is not a GPU-rack unit growth rate."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "廣達 10 月筆電出貨 270 萬台，比 9 月減少 150 萬台。公司表示預定 11 月 11 日在法人說明會更新第四季展望，該資訊截至 11 月 9 日尚未公布。",
+            "en": "Notebook shipments were 2.7 million units, down 1.5 million from September. The company said Q4 guidance would be updated at a November 11 investor briefing, which had not yet taken place by the cutoff."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "AI 伺服器營收占比、機櫃出貨、客戶驗收及電力散熱機櫃配置未公布。",
+            "en": "AI-server revenue share, rack shipments, customer acceptance and power/cooling configurations were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$353.25B",
+      "metricLabel": {
+        "zh": "10 月合併營收約數",
+        "en": "October consolidated sales, approximate"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 廣達 10 月營收與公司說明",
+            "en": "CNA · Quanta October revenue and company statement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090231.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；PC；電源；液冷；資料中心",
+          "en": "Server ODM; systems; PCs; power; cooling; data centers"
+        },
+        "chain": {
+          "zh": "伺服器 ODM 整機與機櫃電源至資料中心",
+          "en": "Server ODM systems and rack power through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "廣達稱收入成長主要由 AI 伺服器帶動，但沒有具體機櫃出貨量。",
+            "en": "Quanta attributed growth to AI servers without rack shipment figures."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "AI 伺服器製造商合併營收與可單獨核對的筆電台數。",
+            "en": "Consolidated server ODM sales and separately disclosed notebook units."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "AI 伺服器營收占比、機櫃出貨、客戶驗收及電力散熱機櫃配置未公布。",
+            "en": "AI-server revenue share, rack shipments, customer acceptance and power/cooling configurations were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收約數",
+            "en": "October consolidated sales, approximate"
+          },
+          "current": 353.25,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090231.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.04,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月累計營收約數",
+            "en": "Ten-month sales, approximate"
+          },
+          "current": 3310,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090231.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.999,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月筆電出貨",
+            "en": "October notebook shipments"
+          },
+          "current": 2700000,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090231.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源、機櫃配電與系統測試業者而言，廣達的財務數字混合伺服器與 PC，需另外核對 AI 機櫃出貨及驗收。尚無獨立電源設備採購或散熱規格資料。",
+        "en": "For server PSU, rack power and system-testing vendors, Quanta's figures span servers and PCs. AI rack shipments, acceptance, PSU procurement and cooling specifications remain undisclosed."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "topco-oct-2026-semiconductor-materials-memory-wastewater",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "崇越 10 月營收 81.86 億元，指出先進製程材料與記憶體廠廢水工程挹注",
+        "en": "Topco October revenue reaches NT$8.186B, citing process materials and memory-fab wastewater work"
+      },
+      "summary": {
+        "zh": "崇越 11 月 9 日公布 10 月營收 81.86 億元，月增 6.3%、年增 61.2%，前十月累計 712.15 億元、年增 28.6%。公司表示先進半導體材料出貨及國際記憶體客戶的廢水處理工程按完工比例認列營收，未披露工程合約總額。",
+        "en": "Topco reported October revenue of NT$8.186 billion on November 9, up 6.3% MoM and 61.2% YoY, with ten-month revenue of NT$71.215 billion, up 28.6%. It cited advanced semiconductor materials and progress-based revenue recognition for a memory-fab wastewater project, without the contract value."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "崇越經營晶圓製程材料與晶圓廠環境工程。建越科技的記憶體廠專案涉及氨氮與異丙醇廢水及相關處理工法，與材料銷售分屬不同業務。",
+            "en": "Topco supplies wafer process materials and fab environmental systems. Its subsidiary's memory-fab project covers ammonia-nitrogen and isopropyl alcohol wastewater treatment, a distinct business from materials distribution."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "崇越表示記憶體廠工程按完工比例法認列營收，並涉及觸媒、高級氧化及生物處理技術。10 月收入超過今年 7 月 81.74 億元單月紀錄，前十月收入已超過 2025 全年 675.84 億元；比較期間不同。",
+            "en": "The company uses percentage-of-completion accounting for the wastewater project, involving catalytic, advanced oxidation and biological treatment. October exceeded July's NT$8.174 billion record and ten-month sales surpassed full-year 2025 revenue of NT$67.584 billion; these are different reporting windows."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "工程客戶名稱、廢水處理設備規格、進度百分比與驗收條件未公布。",
+            "en": "The project customer, wastewater tool specifications, percentage completion and acceptance terms were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$8.186B",
+      "metricLabel": {
+        "zh": "10 月營收",
+        "en": "October revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 崇越材料與廢水工程",
+            "en": "CNA · Topco materials and wastewater engineering"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090175.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體材料；晶圓；DRAM；記憶體；設備；工廠；廢水",
+          "en": "Semiconductor materials; wafers; memory; equipment; factory wastewater"
+        },
+        "chain": {
+          "zh": "半導體材料、記憶體晶圓廠與環保設備",
+          "en": "Process materials and memory fabs through treatment equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "先進製程材料出貨與廢水專案工程進度認列共同貢獻，未拆分金額。",
+            "en": "Process materials and wastewater project recognition contributed, without a revenue split."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶圓材料拉貨與記憶體廠廢水工程的收入認列。",
+            "en": "Reported semiconductor materials demand and fab wastewater project milestones."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "工程客戶名稱、廢水處理設備規格、進度百分比與驗收條件未公布。",
+            "en": "The project customer, wastewater tool specifications, percentage completion and acceptance terms were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October revenue"
+          },
+          "current": 8.186,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "崇越，中央社報導",
+            "en": "Topco, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090175.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.612,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月營收",
+            "en": "Ten-month revenue"
+          },
+          "current": 71.215,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "崇越，中央社報導",
+            "en": "Topco, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090175.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.286,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程設備電源、化學液體量測與工廠控制業者而言，崇越包含材料銷售及記憶體廠廢水工程。仍需確認完工比例、化學處理裝置功率及驗收，集團營收不等於單一工程合約值。",
+        "en": "For process-tool power, chemical metrology and factory-control suppliers, Topco's revenue spans materials and a memory-fab wastewater contract. Project completion, equipment power requirements and acceptance remain undisclosed."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "m3tek-nov9-2026-mature-node-foundry-cost-q3",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "來頡稱成熟製程與封測供應吃緊，第三季毛利率降至 44%",
+        "en": "M3 Technology cites mature-node and back-end constraints; Q3 gross margin falls to 44%"
+      },
+      "summary": {
+        "zh": "電源管理 IC 設計商來頡 11 月 9 日法說會表示，成熟製程晶圓代工與後段封測產能供應趨緊，預期 2027 年成本上升。公司第三季毛利率為 44%，較第二季下降 2 個百分點，稅後淨利 4,742 萬元、季減 14%；未提供已生效的晶圓代工漲價幅度。",
+        "en": "Power-management IC designer M3 Technology said on November 9 that mature-node wafer and back-end test capacity is tightening and expects cost increases in 2027. Its Q3 gross margin was 44%, down two percentage points QoQ, and net profit was NT$47.42 million, down 14% QoQ; no implemented foundry price increase was disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "來頡的電源管理 IC 涉及成熟製程晶圓代工、封測及 WiFi 路由器等客戶應用。公司表示 WiFi 7 部分平台導入較預期保守，將記憶體材料成本列為考量之一，仍屬公司市場觀察。",
+            "en": "M3 Technology designs power-management ICs using outsourced mature-node fabrication and packaging/test for networking markets. It said WiFi 7 platform adoption is more conservative, partly citing memory costs; this remains its market assessment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "公司法說指出毛利率由第二季 46% 降至第三季 44%，降幅為 2 個百分點。管理層表示將增加合格供應商及與客戶協商價格，但尚未確認實際調價或新增產能。",
+            "en": "Q3 gross margin fell from 46% in Q2 to 44%, a two-percentage-point move. Management described supply diversification and price discussions but did not announce finalized increases or added capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "晶圓及封測個別成本漲幅、客戶調價、供應商稼動率及新產能均未公布。",
+            "en": "Foundry and OSAT cost increases, customer price changes, supplier utilization and new capacity remain unknown."
+          }
+        }
+      ],
+      "metric": "44%",
+      "metricLabel": {
+        "zh": "第三季毛利率",
+        "en": "Q3 gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 來頡 11 月 9 日法說",
+            "en": "CNA · M3 Technology November 9 briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090172.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源管理；晶圓；代工；封測；測試；記憶體；PC",
+          "en": "Power-management ICs; foundries; packaging and test; memory; PCs"
+        },
+        "chain": {
+          "zh": "電源管理晶片設計、成熟晶圓代工與封裝測試",
+          "en": "Power IC design through mature-node wafers and back-end test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "公司說明成熟製程與封測供應緊俏，2027 年成本上升屬預測。",
+            "en": "Company described foundry and OSAT tightness; 2027 cost increase is a forecast."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電源晶片製程成本及已實現毛利率變化。",
+            "en": "Realized power IC margin and reported foundry and test supply conditions."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "晶圓及封測個別成本漲幅、客戶調價、供應商稼動率及新產能均未公布。",
+            "en": "Foundry and OSAT cost increases, customer price changes, supplier utilization and new capacity remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.44,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "來頡，中央社引述",
+            "en": "M3 Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090172.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.46,
+          "basePeriod": "2026 年第二季",
+          "reportedRate": null,
+          "baseStatus": "來源明列對應期間的基期數值。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 net profit"
+          },
+          "current": 0.04742,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "來頡，中央社引述",
+            "en": "M3 Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090172.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.14,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電源管理晶片及封測量測設備供應商而言，來頡已實現的毛利率下降與明年成本預期須分開閱讀。尚未公布製程漲幅、供應商合約或新產能驗收。",
+        "en": "For power-IC and back-end test instrumentation suppliers, M3 Technology's realized gross-margin decline is separate from next year's expected costs. Foundry quotations, supply contracts and new capacity remain undisclosed."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "yageo-oct-2026-passive-components-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國巨 10 月營收 175.97 億元、年增 55%，特殊品與標準品均成長",
+        "en": "Yageo October revenue reaches NT$17.597B, up 55% YoY, across specialty and standard components"
+      },
+      "summary": {
+        "zh": "國巨 11 月 9 日公布 10 月自結合併營收 175.97 億元，月增 3.1%、年增 55%，前十月累計 1,497.51 億元、年增 38.3%。公司稱特殊品與標準品需求皆增加，先前預期第四季產能利用率高於 95% 屬前瞻估計，尚無本月實測數字。",
+        "en": "Yageo reported unaudited October consolidated revenue of NT$17.597 billion on November 9, up 3.1% MoM and 55% YoY, with ten-month sales of NT$149.751 billion, up 38.3%. The company cited growth in both specialty and standard components; earlier guidance for utilization above 95% in Q4 is a forecast, not a measured October figure."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "國巨被動元件廣泛用於伺服器電源、工控、網通及其他終端。個別品類的需求、庫存與價格不一定隨集團營收同比變化。",
+            "en": "Yageo's passive components serve server power, industrial controls, networking and other electronics, with different product-level orders and inventory conditions."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "公司表示 10 月亞洲假期減少工作天數，但收入仍較 9 月增加。先前公布的產能擴增 10% 至 15% 及 2027 年分階段到位規劃仍屬公司目標。",
+            "en": "Management said fewer Asian workdays did not prevent October sequential growth. Earlier guidance for 10%–15% extra capacity phased through 2027 remains a plan."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各元件類別的實際出貨量、價格與第四季實際產能利用率未公布。",
+            "en": "Part-level shipments, prices and realized Q4 utilization were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$17.597B",
+      "metricLabel": {
+        "zh": "10 月自結營收",
+        "en": "October unaudited revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 國巨 10 月營收",
+            "en": "CNA · Yageo October results"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090142.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源；零組件；伺服器；工廠自動化；資料中心",
+          "en": "Power; passive components; servers; automation; data centers"
+        },
+        "chain": {
+          "zh": "被動電子零組件至伺服器電源及工業設備",
+          "en": "Passive components through server power and industrial equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "10 月自結營收年增 55%，未公開各類別出貨數。",
+            "en": "October unaudited sales rose 55% YoY with no product unit mix."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電源與工業設備被動元件的已實現營收及產能規劃。",
+            "en": "Reported passive-component revenue and separately dated capacity plans."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "各元件類別的實際出貨量、價格與第四季實際產能利用率未公布。",
+            "en": "Part-level shipments, prices and realized Q4 utilization were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月自結營收",
+            "en": "October unaudited sales"
+          },
+          "current": 17.597,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "國巨，中央社報導",
+            "en": "Yageo, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090142.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.55,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月累計營收",
+            "en": "Ten-month unaudited sales"
+          },
+          "current": 149.751,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "國巨，中央社報導",
+            "en": "Yageo, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090142.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.383,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機櫃電源與工業量測零組件供應商而言，國巨月報提供被動元件集團收入。仍需確認高壓或高頻元件的產品組合與實際產能利用率，集團營收無法直接換算單一元件採購量。",
+        "en": "For rack-power and industrial measurement component suppliers, Yageo's report documents group-level passive-component sales. Product mix and realized high-voltage or high-frequency utilization remain unquantified."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "asus-oct-2026-server-systems-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "華碩 10 月營收 1,076.2 億元、年增 62.3%，公司稱伺服器遞延訂單交貨",
+        "en": "ASUS October revenue reaches NT$107.62B, up 62.3% YoY, citing deferred server deliveries"
+      },
+      "summary": {
+        "zh": "華碩 11 月 9 日公布 10 月集團合併營收 1,076.2 億元，月增 10.7%、年增 62.3%，前十月累計 8,500.56 億元，年增 41.1%。公司指出伺服器出貨及先前遞延訂單完成交貨認列貢獻營收，但未公布 GPU 機櫃或伺服器獨立出貨數量。",
+        "en": "ASUS reported October group consolidated sales of NT$107.62 billion on November 9, up 10.7% MoM and 62.3% YoY, with ten-month sales of NT$850.056 billion, up 41.1%. The company cited server deliveries and recognition of previously deferred orders without disclosing GPU rack or separate server units."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry background"
+          },
+          "text": {
+            "zh": "華碩集團收入包括 PC、伺服器與多種電子終端。伺服器遞延訂單交付代表既有訂單在本期認列，不能視為當期新增簽約金額。",
+            "en": "ASUS group revenue includes PCs, servers and other systems. Delivering previously delayed server orders relates to revenue-recognition timing, not newly booked order values."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Figures and announcement timing"
+          },
+          "text": {
+            "zh": "公司表示集團及品牌營收均突破 1,000 億元；10 月成長來自伺服器交貨動能與先前延後認列的訂單。前十月合併收入年增約 41.1%。",
+            "en": "The company said group and brand monthly sales both passed NT$100 billion, supported by server shipments and earlier deferred deliveries. Jan–Oct revenue increased about 41.1% YoY."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "伺服器與 PC 分項營收、機櫃電力規格、機種出貨和期末遞延訂單餘額未公布。",
+            "en": "Server versus PC revenue, rack power ratings, model shipments and remaining deferred backlog are not available."
+          }
+        }
+      ],
+      "metric": "NT$107.62B",
+      "metricLabel": {
+        "zh": "10 月集團合併營收",
+        "en": "October group consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 華碩 10 月營收與交貨進度",
+            "en": "CNA · ASUS October sales and delivery timing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611090241.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-09",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；整機；ODM；PC；資料中心；電源；散熱",
+          "en": "Servers; systems; ODM; PCs; data centers; power; cooling"
+        },
+        "chain": {
+          "zh": "伺服器整機、機櫃電源至資料中心",
+          "en": "Server systems and rack power through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資額。",
+            "en": "No new investment amount disclosed."
+          },
+          "demand": {
+            "zh": "公司表示既有伺服器遞延訂單陸續交貨認列，未公布新增訂單。",
+            "en": "Company reported deliveries of earlier delayed server orders without newly booked orders."
+          },
+          "fdi": {
+            "zh": "未公布新增外國直接投資金額。",
+            "en": "No new FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器系統收入與遞延訂單認列時間。",
+            "en": "Reported server-system deliveries and timing of deferred recognition."
+          },
+          "timing": {
+            "zh": "11 月 9 日公布新資料；各項財務與規劃按其原始期間列示。",
+            "en": "New information reported November 9; financial actuals and forecasts retain their own periods."
+          },
+          "unknowns": {
+            "zh": "伺服器與 PC 分項營收、機櫃電力規格、機種出貨和期末遞延訂單餘額未公布。",
+            "en": "Server versus PC revenue, rack power ratings, model shipments and remaining deferred backlog are not available."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月集團合併營收",
+            "en": "October consolidated group sales"
+          },
+          "current": 107.62,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "華碩，中央社報導",
+            "en": "ASUS, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090241.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.623,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月合併營收",
+            "en": "Ten-month consolidated sales"
+          },
+          "current": 850.056,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "華碩，中央社報導",
+            "en": "ASUS, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611090241.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.411,
+          "baseStatus": "資料來源未列出精確基期，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源、整機測試及散熱控制供應商而言，華碩說明遞延交貨轉為已實現營收。還需核對機櫃規格、終端客戶驗收與新增訂單，不能從集團營收推斷單項電源設備的採購。",
+        "en": "For server PSU, system test and cooling-control suppliers, ASUS described realized revenue from delayed deliveries. Rack designs, customer acceptance and new orders remain unknown, and group revenue does not quantify individual PSU procurement."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "業成的雷射封裝已實際量產嗎？",
+        "en": "Has GIS-KY begun volume laser packaging?"
+      },
+      "text": {
+        "zh": "11 至 12 月小量生產及 2027 年中放量均屬 11 月 9 日公布的公司規劃，尚無已驗收產量。",
+        "en": "The proposed small-batch start and mid-2027 ramp remain company plans with no accepted unit counts."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "台達電 51% 的營收占比是否代表資料中心電源？",
+        "en": "Does Delta's 51% mean data-center PSU revenue?"
+      },
+      "text": {
+        "zh": "51% 是電源及零組件整個事業群的營收占比，涵蓋多種用途，未分列機櫃電源。",
+        "en": "The 51% covers the whole power-and-components business across applications, without rack-PSU revenue disclosed."
+      }
+    },
+    {
+      "id": 7,
+      "question": {
+        "zh": "來頡 44% 毛利率與明年成本預估如何區分？",
+        "en": "How does M3's 44% margin differ from its future cost outlook?"
+      },
+      "text": {
+        "zh": "44% 是第三季實際毛利率，較第二季 46% 低 2 個百分點；2027 年漲價為公司預期，未提供已議定幅度。",
+        "en": "The 44% Q3 margin is realized, down two percentage points from Q2's 46%; future price increases remain management forecasts."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "台積電 10 月營收公告日期",
+        "en": "TSMC October report schedule"
+      },
+      "text": {
+        "zh": "台積電官方投資人行事曆預定於 2026 年 11 月 10 日台灣時間 13:30 公布 10 月營收。11 月 9 日晚間尚無該月官方數字，因此未提前填入圖表。",
+        "en": "TSMC's official investor calendar schedules its October 2026 revenue release for November 10 at 13:30 Taiwan time. No unreleased October figure is included."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料核對",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "舊有展會與市場行情",
+        "en": "Older trade-show promotions and market movements"
+      },
+      "text": {
+        "zh": "本版不納入單純股價波動、已公開而無新增進度的展會預告，以及缺乏來源的設備訂單預測。",
+        "en": "Stock movements, repeated trade-show marketing and unsupported equipment-order predictions were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "台達電合併營收有公司原始公告，其事業群比重由中央社轉述；其他部分數據由可信媒體引述公司資料，未逐一直接取得交易所原始申報。業成與越南雷射封裝產線時程屬規劃，漢測與光寶科未公布各產品獨立出貨。來頡預期 2027 年成本上升、國巨產能利用率與擴產時程均為公司前瞻說法。",
+    "en": "Delta's headline sales are backed by its original release, while group composition is reported by CNA. Some other company figures were reported by established news outlets without independently obtained original exchange filings. GIS-KY's laser ramp remains prospective, and Hermes and Lite-On do not disclose individual product shipments. M3's future costs and Yageo's capacity expectations are management outlooks."
+  }
+}
