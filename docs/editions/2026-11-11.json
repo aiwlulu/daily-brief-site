@@ -1,0 +1,1667 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-10T12:24:34.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體晶圓、先進封測、機房伺服器、工廠機械及供電基礎設施",
+      "en": "Taiwan and Southeast Asian wafers, advanced packaging, server systems, industrial machinery and site utilities"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台積電與日月光公布晶圓及封測收入，中科揭露擴建二期水電工程進度，和碩與英業達則更新伺服器相關營運資料。",
+    "en": "TSMC and ASEH reported foundry and OSAT revenue, CTSP detailed Phase II utilities progress, and Pegatron and Inventec disclosed server-related operations."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "台積電 10 月營收 5,868.9 億元，年增 59.7%、月增 14.7%；未分列製程及封裝出貨。",
+        "en": "TSMC reported NT$586.89B October sales, up 59.7% YoY and 14.7% MoM, without process-level shipments."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "日月光投控 10 月合併營收 886.15 億元，其中封測及材料 568.4 億元，後者是集團收入的一部分。",
+        "en": "ASEH recorded NT$88.615B October group sales, including NT$56.84B from packaging, testing and materials."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "中科擴建二期防災與水保設施已完工，一期水電供應設施目標 2026 年底就緒。",
+        "en": "CTSP Phase II has completed retention and soil-conservation works, with first-stage power and water targeted for end-2026."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "和碩 10 月營收 1,880.75 億元、年增 59.6%，伺服器出貨增加但通訊產品月減。",
+        "en": "Pegatron reported NT$188.075B October sales, up 59.6% YoY, with server growth and sequentially lower communications shipments."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "英業達第三季營收 2,720.94 億元、年增 54%；2027 年伺服器雙位數成長仍是公司預測。",
+        "en": "Inventec reported NT$272.094B Q3 sales, up 54% YoY; double-digit 2027 server growth remains a management forecast."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "tsmc-oct-2026-monthly-revenue",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台積電公布 10 月營收 5,868.9 億元，年增 59.7%、月增 14.7%",
+        "en": "TSMC reports NT$586.89B October sales, up 59.7% YoY and 14.7% MoM"
+      },
+      "summary": {
+        "zh": "台積電 11 月 10 日於台灣公布 2026 年 10 月合併營收約 5,868.9 億元，較 9 月增 14.7%，較 2025 年 10 月增 59.7%；今年 1 至 10 月累計約 4.48562 兆元，年增 43.3%。公司公告的是合併營收，沒有揭露 2 奈米晶圓、CoWoS 封裝或特定客戶的個別出貨量。",
+        "en": "TSMC published October 2026 consolidated revenue of approximately NT$586.89 billion on November 10, up 14.7% MoM and 59.7% YoY. January–October revenue reached about NT$4.48562 trillion, up 43.3% YoY; no individual 2nm wafer, CoWoS package or customer shipment figures were disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "台積電經營晶圓代工及先進封裝相關製造服務，供應晶片設計客戶。中央社引述市場分析將增長與先進製程需求及 2 奈米出貨提升連結，但台積電本次月報沒有提供可獨立核實的製程別營收，應將分析師歸因與公司原始披露分開。",
+            "en": "TSMC supplies foundry manufacturing and advanced packaging services to chip designers. CNA quoted analysts linking growth to advanced-node demand and higher 2nm shipments, but this month's company release has no process-specific revenue breakdown; those interpretations are not company-disclosed attribution."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "公司 11 月 10 日原始新聞稿公布 10 月約 5,868.9 億元，較 9 月增 14.7%，前十月累計 4 兆 4,856.17 億元。公司 2025 年官方月報列出當年 10 月營收約 3,674.73 億元，可作為年對年比較基期；因公開表格採百萬元整數顯示，圖表保留相同精度。",
+            "en": "TSMC's November 10 company release reports NT$586.89 billion for October and NT$4,485.617 billion year to date. Its 2025 official monthly series lists NT$367.473 billion for October 2025, providing an explicitly published YoY comparison base at NT$ million precision."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "2 奈米獨立營收、晶圓出貨片數、產能利用率、先進封裝客戶驗收與特定機台需求仍未揭露。",
+            "en": "Revenue attributable to 2nm, wafer shipments, utilization, advanced packaging customer acceptance and tool requirements were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$586.89B",
+      "metricLabel": {
+        "zh": "2026 年 10 月合併營收",
+        "en": "October 2026 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台積電 · 2026 年 10 月營收新聞稿",
+            "en": "TSMC · October 2026 revenue release"
+          },
+          "url": "https://pr.tsmc.com/chinese/news/3349",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "台積電 · 2025 年每月營業額",
+            "en": "TSMC · Official 2025 monthly sales"
+          },
+          "url": "https://investor.tsmc.com/chinese/monthly-revenue/2025",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 台積電月報與市場解讀",
+            "en": "CNA · TSMC results and analyst interpretation"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100129.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；代工；晶片設計；半導體設備；封裝；測試",
+          "en": "Wafers; foundry; chip design; semiconductor tools; packaging and test"
+        },
+        "chain": {
+          "zh": "晶圓代工及半導體設備至先進封裝",
+          "en": "Wafer foundry and semiconductor tools through advanced packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "10 月合併收入年增 59.7%，未披露製程別客戶出貨。",
+            "en": "October group revenue rose 59.7% YoY without process-level shipments."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "先進晶圓代工已實現營收及可核對的去年同期比較基礎。",
+            "en": "Realized foundry revenue and an official comparable prior-year baseline."
+          },
+          "timing": {
+            "zh": "11 月 10 日發布 10 月實績，前十月為累計值。",
+            "en": "October actual sales announced November 10; ten-month figures are cumulative."
+          },
+          "unknowns": {
+            "zh": "2 奈米獨立營收、晶圓出貨片數、產能利用率、先進封裝客戶驗收與特定機台需求仍未揭露。",
+            "en": "Revenue attributable to 2nm, wafer shipments, utilization, advanced packaging customer acceptance and tool requirements were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收",
+            "en": "October consolidated revenue"
+          },
+          "current": 586.89,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台積電",
+            "en": "TSMC"
+          },
+          "sourceUrl": "https://pr.tsmc.com/chinese/news/3349",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 367.473,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": 0.597,
+          "baseStatus": "去年 10 月基期源於台積電 2025 年官方月報，為百萬元整數精度。"
+        },
+        {
+          "name": {
+            "zh": "前十月合併營收",
+            "en": "January–October consolidated revenue"
+          },
+          "current": 4485.617,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "台積電",
+            "en": "TSMC"
+          },
+          "sourceUrl": "https://pr.tsmc.com/chinese/news/3349",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.433,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體蝕刻與沉積 RF 電源、晶圓量測及先進封裝設備供應商而言，台積電本次揭露的合併營收有官方同期基期可核對。製程別產能利用率、機台驗收與 CoWoS 交貨量仍未公布，集團收入不能轉換為個別設備需求。",
+        "en": "For etch and deposition RF-power, wafer metrology and advanced packaging equipment suppliers, the official monthly results provide a comparable baseline. Process-level utilization, tool acceptance and CoWoS deliveries remain unreported, so group revenue cannot quantify individual tool orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "aseh-oct-2026-advanced-packaging-revenue",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "日月光投控 10 月營收 886.15 億元，其中封測及材料 568.4 億元",
+        "en": "ASEH October revenue reaches NT$88.615B, including NT$56.84B from packaging, testing and materials"
+      },
+      "summary": {
+        "zh": "日月光投控於 11 月 10 日公布 10 月自結合併營收 886.15 億元，月增 0.6%、年增 47.13%；其中封裝測試及材料營收 568.4 億元，月增 7.9%、年增 57.7%。前十月合併營收 6,975.02 億元，年增 32.18%；封測及材料收入屬於集團合併營收的一部分，不能重複相加。",
+        "en": "ASE Technology Holding reported unaudited October consolidated revenue of NT$88.615 billion on November 10, up 0.6% MoM and 47.13% YoY. Packaging, testing and materials accounted for NT$56.84 billion, up 7.9% MoM and 57.7% YoY, as a component of group sales; January–October consolidated revenue was NT$697.502 billion, up 32.18%."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "日月光旗下封測業務涵蓋先進封裝、晶片測試、材料及傳統封測，集團亦經營電子製造服務。中央社指出 AI 晶片需求影響先進封測 LEAP 業務，但單月封測及材料營收並未再細分 LEAP、CoWoS 後段或共同封裝光學 CPO。",
+            "en": "ASEH's operations include advanced packaging, chip testing, materials, legacy services and electronics manufacturing. CNA linked the advanced LEAP service to AI chip activity, but October's packaging/test/materials subtotal was not further separated into LEAP, CoWoS-related back-end work or co-packaged optics."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "10 月集團營收較 2025 年同期增加 47.13%，封測及材料增加 57.7%；前十月合併營收年增 32.18%。公司先前法說提出 2026 年 LEAP 年營收 40 億美元及 2027 年倍增目標，仍為公司預估，不能與本次 10 月已實現營收加總。",
+            "en": "The newly reported October growth rates were 47.13% for the group and 57.7% for packaging, testing and materials; ten-month group sales rose 32.18%. Earlier guidance projected US$4 billion in annual LEAP revenue for 2026 and a doubling in 2027, which remains guidance and is not added to October actuals."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "先進封裝實際出貨、封裝良率、LEAP 月度營收、CPO 客戶驗收及封測機台利用率未獨立揭露。",
+            "en": "Actual advanced-package shipments, yields, monthly LEAP revenue, CPO customer acceptance and back-end tool utilization were not separately disclosed."
+          }
+        }
+      ],
+      "metric": "NT$88.615B",
+      "metricLabel": {
+        "zh": "10 月集團合併營收",
+        "en": "October group consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 日月光 10 月集團與封測材料營收",
+            "en": "CNA · ASEH October consolidated and OSAT-materials sales"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100214.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體封裝；封測；測試；材料；先進封裝；光通訊",
+          "en": "Semiconductor packaging; testing; materials; advanced packaging; optical interconnects"
+        },
+        "chain": {
+          "zh": "晶圓至先進封裝、測試與封測材料",
+          "en": "Wafers through advanced packaging, testing and OSAT materials"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "10 月封測及材料營收年增 57.7%，未揭露機台稼動率或實際封裝片數。",
+            "en": "Packaging/test/materials revenue rose 57.7% YoY; tool utilization and package units were not provided."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "已實現封測收入與集團合併營收，可區分子業務及整體業務。",
+            "en": "Realized OSAT revenue nested within consolidated group sales."
+          },
+          "timing": {
+            "zh": "11 月 10 日公布 2026 年 10 月自結營收。",
+            "en": "Unaudited October results announced November 10."
+          },
+          "unknowns": {
+            "zh": "先進封裝實際出貨、封裝良率、LEAP 月度營收、CPO 客戶驗收及封測機台利用率未獨立揭露。",
+            "en": "Actual advanced-package shipments, yields, monthly LEAP revenue, CPO customer acceptance and back-end tool utilization were not separately disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月集團合併營收",
+            "en": "October group consolidated sales"
+          },
+          "current": 88.615,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "日月光投控，中央社報導",
+            "en": "ASEH, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100214.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.4713,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月封測與材料營收",
+            "en": "October OSAT and materials revenue"
+          },
+          "current": 56.84,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "日月光投控，中央社報導",
+            "en": "ASEH, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100214.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.577,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月集團合併營收",
+            "en": "Ten-month group consolidated revenue"
+          },
+          "current": 697.502,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "日月光投控，中央社報導",
+            "en": "ASEH, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100214.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3218,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封測設備精密電源、晶片測試與高功率封裝量測供應商而言，日月光 10 月封測及材料實績有助區分後段製程收入和集團總額。LEAP、CPO 及各廠機台驗收尚無獨立出貨數，先前預測亦須與本月實績分開。",
+        "en": "For back-end precision power, test and high-power packaging metrology suppliers, ASEH's October subtotal separates OSAT revenue from group sales. LEAP, CPO, tool acceptance and facility utilization are not individually quantified; prior guidance is distinct from realized monthly results."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "ctsp-taichung-expansion-phase2-utilities-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "中科公布擴建二期水電工程進度，一期供應設施預定年底就緒",
+        "en": "Central Taiwan Science Park updates Phase II utilities, targeting first-stage power and water readiness by year-end"
+      },
+      "summary": {
+        "zh": "中部科學園區管理局 11 月 10 日發布工程進度，台中園區擴建二期總面積約 89.75 公頃，約 50 公頃已由指標廠商承租；防災滯洪池及水土保持設施已完工，自來水、污水、道路與電力工程持續推進。管理局預計第一期廠區水電供應設施於 2026 年底前就緒，2028 年量產及超過 1 兆元建廠投資仍是規劃。",
+        "en": "On November 10, Central Taiwan Science Park Administration reported Phase II progress in Taichung, covering roughly 89.75 hectares, with around 50 hectares leased by an anchor tenant. Retention and soil-conservation works are complete, while water, sewage, road and electric infrastructure is progressing; first-stage utilities are targeted for end-2026, and 2028 production and over NT$1 trillion factory investment remain plans."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "中科台中園區擴建二期主要引進晶圓製造及上下游材料、設備業者。公共工程包含自來水、污水、道路與電力供應，終期工業用水規劃由再生水支應；工程進度與晶圓廠已完成製程設備驗收屬不同事項。",
+            "en": "Phase II is intended for semiconductor fabs and their materials and equipment supply chains. Utilities include fresh and reclaimed water, wastewater, roads and electricity. Public infrastructure milestones do not establish commissioning of the tenant's wafer-process equipment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "中科最新公告指出，2026 年 1 至 9 月出口額為 7,585.46 億元，年增 58.36%，比去年同期增加 2,795.42 億元；截至 9 月底園區有 246 家廠商、65,277 名員工。園區管理局估算 2026 年營業額達 1.3 兆元，擴二全期完工後平均年產值可達 5,000 億元與增加 4,500 個工作機會，均屬官方預估。",
+            "en": "The administration reported Jan–Sep exports of NT$758.546 billion, up 58.36% or NT$279.542 billion versus a year earlier, with 246 firms and 65,277 employees as of September. It forecast NT$1.3 trillion in 2026 park revenue and estimated Phase II's eventual NT$500 billion average annual output and 4,500 jobs, all projections rather than realized new-fab output."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "第一期水電實際通水與通電日期、進場設備數、再生水供應比率及 2028 年實際量產與產值仍待確認。",
+            "en": "Actual first-stage water/power connection dates, installed tools, reclaimed-water share and 2028 production and output remain unverified."
+          }
+        }
+      ],
+      "metric": "89.75 公頃",
+      "metricLabel": {
+        "zh": "台中擴建二期總面積",
+        "en": "Taichung Phase II planned site area"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 中科管理局 11 月 10 日新聞稿轉述",
+            "en": "CNA · November 10 CTSP administration figures"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "工程專案場址：台灣台中市中部科學園區台中園區擴建二期，未披露個別廠房精確地址。",
+        "en": "Project site: Phase II expansion of the Taichung Science Park, Taichung, Taiwan; individual factory street addresses were not disclosed."
+      },
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；半導體材料；設備；工廠；自動化；供電；電力；污水；投資；園區",
+          "en": "Wafers; semiconductor materials; tools; factories; site power; wastewater; investment; science parks"
+        },
+        "chain": {
+          "zh": "半導體園區水電基礎設施至晶圓廠與設備",
+          "en": "Science-park power/water utilities through wafer fabs and equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "管理局重申指標廠商規劃超過 1 兆元建廠投資，未公告本日新核准金額。",
+            "en": "Administration reiterated a planned factory investment above NT$1T, without newly approved funds."
+          },
+          "demand": {
+            "zh": "前九月園區出口金額年增 58.36%，不代表擴建二期已投產。",
+            "en": "Jan–Sep park exports rose 58.36% YoY; the expansion is not yet commissioned."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "半導體晶圓廠興建前的自來水、再生水、供電及土建工程進度。",
+            "en": "Site utilities and construction prerequisites before semiconductor fab equipment commissioning."
+          },
+          "timing": {
+            "zh": "11 月 10 日發布水電進度，第一期設施目標 2026 年底完成，2028 年量產仍為預估。",
+            "en": "Utility progress released November 10; first stage targeted end-2026 and production in 2028 remains projected."
+          },
+          "unknowns": {
+            "zh": "第一期水電實際通水與通電日期、進場設備數、再生水供應比率及 2028 年實際量產與產值仍待確認。",
+            "en": "Actual first-stage water/power connection dates, installed tools, reclaimed-water share and 2028 production and output remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "園區 1 至 9 月出口",
+            "en": "Science-park Jan–Sep exports"
+          },
+          "current": 758.546,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "中科管理局，中央社報導",
+            "en": "CTSP Administration, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.5836,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "園區 2026 年營業額估計",
+            "en": "Estimated 2026 park revenue"
+          },
+          "current": 1300,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預估",
+            "en": "Full-year 2026 forecast"
+          },
+          "owner": {
+            "zh": "中科管理局，中央社報導",
+            "en": "CTSP Administration, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "園區廠商數",
+            "en": "Science park registered companies"
+          },
+          "current": 246,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 9 月底",
+            "en": "As of end-September 2026"
+          },
+          "owner": {
+            "zh": "中科管理局，中央社報導",
+            "en": "CTSP Administration, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "園區就業人數",
+            "en": "Science park employees"
+          },
+          "current": 65277,
+          "unit": "人",
+          "period": {
+            "zh": "截至 2026 年 9 月底",
+            "en": "As of end-September 2026"
+          },
+          "owner": {
+            "zh": "中科管理局，中央社報導",
+            "en": "CTSP Administration, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.0785,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "擴二預估新增工作機會",
+            "en": "Planned Phase II additional jobs"
+          },
+          "current": 4500,
+          "unit": "人",
+          "period": {
+            "zh": "擴建二期完工後規劃",
+            "en": "After planned Phase II completion"
+          },
+          "owner": {
+            "zh": "中科管理局，中央社報導",
+            "en": "CTSP Administration, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓廠製程電源、廠務配電及水處理量測設備供應商而言，先期公共工程完工與水電預定供應時間屬可追蹤的工程節點。仍需要施工驗收文件、各廠設備進場與用電規格，超過 1 兆元投資和 2028 年量產仍屬規劃。",
+        "en": "For fab process-power, site electrical distribution and water-treatment metrology suppliers, completed civil works and planned utility readiness are traceable milestones. Actual commissioning, tool move-in and power specifications remain unknown; trillion-dollar local-currency capex and 2028 output are plans."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "pegatron-oct-2026-server-odm-revenue",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "和碩 10 月營收 1,880.75 億元，伺服器出貨成長、通訊產品月減",
+        "en": "Pegatron October sales reach NT$188.075B as servers grow but communications decline sequentially"
+      },
+      "summary": {
+        "zh": "和碩 11 月 10 日公布 10 月合併營收約 1,880.75 億元，月減 12.4%、年增 59.6%；前十月累計約 1.096 兆元、年增 19.7%。公司表示資訊與消費性產品營收較 9 月增加，其中伺服器成長幅度較大，但通訊產品出貨下降，尚未公布伺服器個別營收或機櫃數量。",
+        "en": "Pegatron reported October consolidated revenue of roughly NT$188.075 billion on November 10, down 12.4% MoM but up 59.6% YoY; January–October sales reached approximately NT$1.096 trillion, up 19.7%. The company said information and consumer electronics increased from September, especially servers, while communications shipments declined; server revenue and rack units were not separated."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "和碩經營整機代工，包括通訊、資訊、消費電子和伺服器。合併營收變化同時反映不同產品出貨時序，因此整體月減與伺服器業務月增可以同時發生；公司未提供伺服器特定平台的可比較數據。",
+            "en": "Pegatron is an ODM spanning communications, computing, consumer electronics and servers. Consolidated sequential revenue can decline even while server business grows due to separate product lines and shipment timing, with no platform-specific comparison released."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "中央社引述和碩指出，10 月三大產品線皆較 2025 年同期成長，9 月則是歷史營收高點，10 月為歷來次高。公司預計 11 月 12 日法說更新第四季及 2027 年展望，相關前瞻說法尚未公布。",
+            "en": "According to CNA's direct company response, each of three business segments grew from October 2025, while September had been the all-time revenue high and October the second-highest. Pegatron plans a November 12 briefing for Q4 and 2027 commentary; unreleased guidance is not included."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "伺服器與通訊各自金額、機櫃電源與冷卻配置、不同客戶驗收及新訂單規模未披露。",
+            "en": "Separate server and communications amounts, rack power/cooling specifications, customer acceptance and new order values remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$188.075B",
+      "metricLabel": {
+        "zh": "10 月合併營收",
+        "en": "October consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 和碩 10 月營收及公司說明",
+            "en": "CNA · Pegatron October results and company response"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100281.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；PC；電源；資料中心",
+          "en": "Servers; ODM; systems; PCs; power; data centers"
+        },
+        "chain": {
+          "zh": "資訊產品及伺服器 ODM 整機至資料中心",
+          "en": "Computing and server ODM systems through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "公司表示伺服器出貨較上月成長，但通訊產品月減，未披露伺服器件數。",
+            "en": "Company reported sequential server growth but lower communications shipments, without server units."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "多產品 ODM 已實現合併營收與不同產品線的出貨方向。",
+            "en": "Reported consolidated ODM sales with distinct shipment direction by business line."
+          },
+          "timing": {
+            "zh": "11 月 10 日公布 10 月營收，11 月 12 日法說為待舉行活動。",
+            "en": "October revenue published November 10; the November 12 briefing is upcoming."
+          },
+          "unknowns": {
+            "zh": "伺服器與通訊各自金額、機櫃電源與冷卻配置、不同客戶驗收及新訂單規模未披露。",
+            "en": "Separate server and communications amounts, rack power/cooling specifications, customer acceptance and new order values remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月合併營收",
+            "en": "October consolidated revenue"
+          },
+          "current": 188.075,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "和碩，中央社報導",
+            "en": "Pegatron, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100281.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.596,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月合併營收約數",
+            "en": "Approximate Jan–Oct consolidated revenue"
+          },
+          "current": 1096,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "和碩，中央社報導",
+            "en": "Pegatron, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100281.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.197,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器 PSU、機櫃配電及系統測試供應商而言，和碩的合併收入同時包含通訊產品與伺服器。仍需區分伺服器的實際出貨、供電平台與客戶驗收，月增的業務線不能直接轉成整體機櫃採購額。",
+        "en": "For server PSUs, rack power and system-test suppliers, Pegatron's group revenue combines communications and servers. Platform-specific units, power ratings and customer acceptance remain unknown, preventing inference of rack procurement from one business line's growth."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "inventec-nov10-2026-q3-server-guidance",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "英業達法說公布第三季營收 2,720.94 億元，預期 2027 年伺服器出貨雙位數成長",
+        "en": "Inventec reports NT$272.094B Q3 sales and forecasts double-digit server shipment growth in 2027"
+      },
+      "summary": {
+        "zh": "英業達於 11 月 10 日法人說明會公布第三季合併營收 2,720.94 億元，季增 1%、年增 54%；歸屬母公司淨利 25.38 億元、季減 35%，每股盈餘 0.71 元。公司表示目前雲端客戶需求及德州廠布局未因選舉而改變，預期 2027 年 GPU 與 ASIC 伺服器出貨及收入雙位數成長，仍屬管理階層預測。",
+        "en": "Inventec reported Q3 consolidated revenue of NT$272.094 billion on November 10, up 1% QoQ and 54% YoY, and attributable net income of NT$2.538 billion, down 35% QoQ, with EPS of NT$0.71. Management said current cloud-customer orders and the Texas factory strategy remain unchanged, while forecasting double-digit GPU and ASIC server revenue and shipment growth in 2027."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "英業達經營伺服器 ODM、筆電及智慧裝置，第三季毛利率 4.2% 與第二季持平，年減 0.8 個百分點。GPU 與 ASIC 伺服器為目前伺服器出貨的主要組合，但公司尚未提供兩類機種個別金額或機櫃驗收。",
+            "en": "Inventec is an ODM for servers, notebooks and smart devices. Its Q3 gross margin was 4.2%, flat sequentially and down 0.8 percentage points YoY. GPU and ASIC systems make up most current server shipments, but figures by platform or rack acceptance were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "中央社 11 月 10 日引述管理層指出，第三季淨利減少部分受到利息費用較高影響；前 3 季合併營收 7,422.61 億元、年增 43%，母公司淨利 88.61 億元、年增 34%。管理階層對 2027 年伺服器需求的展望沒有公布具體出貨基期或已簽訂的新訂單金額。",
+            "en": "CNA's November 10 briefing report cites higher interest expense as one factor behind lower Q3 attributable profit. Nine-month consolidated revenue was NT$742.261 billion, up 43% YoY, and attributable profit NT$8.861 billion, up 34%; the 2027 double-digit server outlook lacks a unit baseline or disclosed new contract amount."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "德州廠具體新增產能、GPU/ASIC 伺服器獨立出貨件數、2027 年客戶確認訂單及機櫃電源規格尚未公布。",
+            "en": "Texas factory incremental capacity, GPU/ASIC shipments, confirmed 2027 customer purchase orders and rack power configurations were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$272.094B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 英業達 11 月 10 日法說會",
+            "en": "CNA · Inventec November 10 investor briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100177.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；PC；電源；資料中心；工廠",
+          "en": "Servers; ODM; systems; PCs; rack power; data centers; factories"
+        },
+        "chain": {
+          "zh": "伺服器 ODM 與機櫃供電至資料中心",
+          "en": "Server ODM and rack power through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "第三季集團收入年增 54%，2027 年伺服器雙位數增長仍是公司預測。",
+            "en": "Q3 group sales rose 54% YoY; double-digit 2027 server growth remains management guidance."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器 ODM 第三季收入、獲利與管理層對供應鏈需求的明確區分。",
+            "en": "Quarterly realized server-ODM financial results distinct from management's forward outlook."
+          },
+          "timing": {
+            "zh": "11 月 10 日法說揭露已完成第三季財務與 2027 年預期。",
+            "en": "November 10 briefing covered completed Q3 results and expectations for 2027."
+          },
+          "unknowns": {
+            "zh": "德州廠具體新增產能、GPU/ASIC 伺服器獨立出貨件數、2027 年客戶確認訂單及機櫃電源規格尚未公布。",
+            "en": "Texas factory incremental capacity, GPU/ASIC shipments, confirmed 2027 customer purchase orders and rack power configurations were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 272.094,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100177.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.54,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸屬母公司淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 2.538,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100177.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.35,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.042,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100177.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.042,
+          "basePeriod": "2026 年第二季",
+          "reportedRate": null,
+          "baseStatus": "第二季同為 4.2%，無季增減；年減 0.8 個百分點。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季合併營收",
+            "en": "Nine-month consolidated revenue"
+          },
+          "current": 742.261,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100177.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.43,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季歸屬母公司淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 8.861,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "英業達，中央社報導",
+            "en": "Inventec, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100177.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.34,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源、系統驗證與機櫃液冷控制供應商而言，英業達第三季營收、毛利率和淨利屬已實現財務數據。2027 年雙位數伺服器成長是管理層預期，仍需核對德州廠驗收、機種規格及客戶實際出貨排程。",
+        "en": "For server power, validation and cooling-control suppliers, Inventec's Q3 sales, margin and profit are realized results. The 2027 double-digit outlook remains management guidance without Texas factory acceptance, platform power specifications or contracted shipment schedules."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "tami-oct-2026-machinery-exports",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "機械公會公布 10 月機械出口 35.93 億美元，電子設備出口年增 57.5%",
+        "en": "Taiwan machinery association reports US$3.593B October exports, electronic equipment up 57.5% YoY"
+      },
+      "summary": {
+        "zh": "台灣機械工業同業公會 11 月 10 日發布 2026 年 10 月機械出口統計，總出口 35.93 億美元，較 9 月增 4.5%，較去年同月 26.61 億美元增 35%；其中電子設備出口 7.89 億美元，年增 57.5%。前十月機械出口合計 315.72 億美元、年增 21.8%，涵蓋多種機械產品，不能全部視為半導體製程設備。",
+        "en": "Taiwan's machinery association reported October machinery exports of US$3.593 billion on November 10, up 4.5% MoM and 35% YoY against a stated US$2.661 billion year-earlier base. Electronic equipment exports within the broader category reached US$789 million, up 57.5% YoY, while ten-month machinery exports totaled US$31.572 billion, up 21.8%; the totals include non-semiconductor equipment."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "機械公會統計涵蓋電子設備、生產機械與多種工業工具，電子設備項目和半導體專用設備仍可能存在不同產品定義。台灣機械出口市場的前三大目的地包括美國、中國大陸及新加坡，這是前十月出口結構排名，並非單月金額比較。",
+            "en": "The machinery association counts electronics equipment alongside broad industrial machinery, and those customs categories do not equal semiconductor-only tool orders. Its top ten-month export destinations included the United States, mainland China and Singapore, a ranking over a different period than October exports."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "公會 11 月 10 日指出，10 月機械出口為 35.93 億美元，去年同期 26.61 億美元；其中電子設備出口 7.89 億美元、年增 57.5%。全年出口續增與美國資料中心政策可能改變投資速度是公會判斷，本期不將其視為已發生的政策影響。",
+            "en": "The association gave October machinery exports of US$3.593 billion versus US$2.661 billion a year earlier, and electronic equipment exports of US$789 million, up 57.5%. Its future export outlook and view of US data-center policy are interpretations, not realized project cancellations or enacted rules."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "半導體製程設備獨立出口金額、各廠設備驗收、出口客戶及 2027 年正式訂單尚未公布。",
+            "en": "Standalone semiconductor process-tool exports, factory acceptance, buyer identities and 2027 firm orders are not disclosed."
+          }
+        }
+      ],
+      "metric": "US$3.593B",
+      "metricLabel": {
+        "zh": "10 月機械出口總額",
+        "en": "October machinery export value"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台灣機械公會 10 月出口統計",
+            "en": "CNA · Taiwan machinery association October export data"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100188.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣；美國；新加坡等出口市場",
+          "en": "Taiwan; US; Singapore and other export markets"
+        },
+        "industries": {
+          "zh": "半導體設備；零組件；工廠；自動化；機械；投資",
+          "en": "Semiconductor-related equipment; machinery; components; industrial automation"
+        },
+        "chain": {
+          "zh": "電子設備與零組件至工廠機械出口",
+          "en": "Electronic equipment and industrial machinery exports"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "10 月機械出口年增 35%，電子設備子項年增 57.5%；出口不等同已驗收機台數。",
+            "en": "Machinery exports grew 35% YoY, with electronic equipment exports up 57.5%; export value is not tool acceptance count."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣工業設備外銷及其中電子設備品類的同期出口金額。",
+            "en": "Actual monthly industrial machinery exports and the electronic equipment subcategory."
+          },
+          "timing": {
+            "zh": "11 月 10 日公布 10 月海關出口統計與前十月累計額。",
+            "en": "October customs exports and ten-month cumulative figures released November 10."
+          },
+          "unknowns": {
+            "zh": "半導體製程設備獨立出口金額、各廠設備驗收、出口客戶及 2027 年正式訂單尚未公布。",
+            "en": "Standalone semiconductor process-tool exports, factory acceptance, buyer identities and 2027 firm orders are not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月機械出口總額",
+            "en": "October total machinery exports"
+          },
+          "current": 3.593,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣機械公會，中央社報導",
+            "en": "TAMI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100188.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": 2.661,
+          "basePeriod": "2025 年 10 月",
+          "reportedRate": 0.35,
+          "baseStatus": "公會直接提供 2025 年 10 月機械出口 26.61 億美元。"
+        },
+        {
+          "name": {
+            "zh": "10 月電子設備出口",
+            "en": "October electronic-equipment exports"
+          },
+          "current": 0.789,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣機械公會，中央社報導",
+            "en": "TAMI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100188.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.575,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月機械出口",
+            "en": "Ten-month total machinery exports"
+          },
+          "current": 31.572,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "台灣機械公會，中央社報導",
+            "en": "TAMI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100188.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.218,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體設備精密電源、工業自動化與測試量測供應商而言，機械公會的分類提供出口需求的海關金額。仍須拆解電子設備與實際半導體製程設備，並確認客戶驗收和進機時程，出口總額不等於機台採購量。",
+        "en": "For semiconductor tool power, industrial automation and metrology suppliers, the association's customs values describe export activity. Product-level semiconductor equipment, commissioning and customer acceptance remain unquantified; total exports are not machine orders."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "tmba-oct-2026-machine-tools-parts-exports",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "工具機公會 10 月統計：整機出口 1.67 億美元、關鍵零組件 1.58 億美元",
+        "en": "Machine-tool association reports US$167M finished tool exports and US$158M parts exports in October"
+      },
+      "summary": {
+        "zh": "台灣工具機暨零組件工業同業公會 11 月 10 日公布 10 月出口，整機出口 1.67 億美元，月減 0.5%、年增 18.49%；關鍵零組件出口 1.58 億美元，月增 8.1%、年增 27.4%。前十月整機出口 16.59 億美元、年減 0.2%，零組件出口 14.23 億美元、年增 14.5%，各項出口類別須分別閱讀。",
+        "en": "Taiwan's machine-tool and components association reported October finished tool exports of US$167 million on November 10, down 0.5% MoM but up 18.49% YoY; key components reached US$158 million, up 8.1% MoM and 27.4% YoY. Jan–Oct tools were US$1.659 billion, down 0.2% YoY, while parts were US$1.423 billion, up 14.5% YoY."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "工具機關鍵零組件包含滾珠螺桿、線性滑軌、工作物夾持器及金屬切削／成型設備零件，供應自動化工廠與工業設備。公會指出越南、泰國與馬來西亞名列出口目的地或成長市場，但沒有提供這次各國所有品項的獨立出口金額。",
+            "en": "Key machine-tool parts include ball screws, linear guides, workholding equipment and metal-cutting/forming accessories used in industrial automation. Vietnam, Thailand and Malaysia appear among tool export markets, but the association did not provide every country's separate October parts value."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "公會公布前十月整機出口 16.59 億美元，較去年同期略減 0.2%；關鍵零組件前十月 14.23 億美元，年增 14.5%。單月整機年增與累計整機略減同時成立，原因是比較期間不同。",
+            "en": "The association reported Jan–Oct finished tool exports of US$1.659 billion, down 0.2% YoY, and parts exports of US$1.423 billion, up 14.5%. October positive tool growth and a slightly negative ten-month figure refer to different periods."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "零組件依東南亞國別的月度出口金額、工具機用於半導體設備比重及終端客戶驗收未揭露。",
+            "en": "Country-specific October components exports, semiconductor-specific tool applications and final customer acceptance were not disclosed."
+          }
+        }
+      ],
+      "metric": "US$0.167B",
+      "metricLabel": {
+        "zh": "10 月整機出口",
+        "en": "October finished machine-tool exports"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台灣工具機公會整機與零組件出口",
+            "en": "CNA · Taiwan machine-tool association tool and parts exports"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611100113.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "台灣；越南；泰國；馬來西亞等出口市場",
+          "en": "Taiwan; Vietnam; Thailand; Malaysia and other export markets"
+        },
+        "industries": {
+          "zh": "設備；零組件；工廠；自動化；終端；機械",
+          "en": "Equipment; components; end-use factories; automation; machinery"
+        },
+        "chain": {
+          "zh": "滾珠螺桿與線性滑軌零組件至工廠自動化",
+          "en": "Ball screws and linear guides through factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "整機 10 月出口年增 18.49%，零組件年增 27.4%，前十月兩者表現不同。",
+            "en": "October finished tools rose 18.49% YoY and components 27.4%; ten-month figures show divergent performance."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "工業自動化零組件與工具機整機的出口金額，以及台灣對東南亞設備供應鏈的實際貿易連結。",
+            "en": "Exported automation components and finished machine tools, with documented trade links to Southeast Asia."
+          },
+          "timing": {
+            "zh": "11 月 10 日公布 10 月及前十月出口實績。",
+            "en": "October and ten-month export results released November 10."
+          },
+          "unknowns": {
+            "zh": "零組件依東南亞國別的月度出口金額、工具機用於半導體設備比重及終端客戶驗收未揭露。",
+            "en": "Country-specific October components exports, semiconductor-specific tool applications and final customer acceptance were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月工具機整機出口",
+            "en": "October finished machine-tool exports"
+          },
+          "current": 0.167,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "工具機公會，中央社報導",
+            "en": "Taiwan machine-tool association, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100113.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.1849,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月關鍵零組件出口",
+            "en": "October key machine-tool parts exports"
+          },
+          "current": 0.158,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "工具機公會，中央社報導",
+            "en": "Taiwan machine-tool association, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100113.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.274,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月整機出口",
+            "en": "Jan–Oct finished tool exports"
+          },
+          "current": 1.659,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "工具機公會，中央社報導",
+            "en": "Taiwan machine-tool association, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100113.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.002,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月關鍵零組件出口",
+            "en": "Jan–Oct key component exports"
+          },
+          "current": 1.423,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "工具機公會，中央社報導",
+            "en": "Taiwan machine-tool association, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611100113.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.145,
+          "baseStatus": "來源未列可直接比較的基期原值，未自行反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工廠自動化驅動器、精密電源與機械位置量測供應商而言，工具機公會將整機和滾珠螺桿等零組件出口分開公布。仍需查核實際設備用途、國別金額與終端驗收，零組件出口成長不能直接代表新建廠數量。",
+        "en": "For factory automation drives, precision power and position metrology suppliers, the association reports finished tools separately from ball screws and other components. End-use applications, country-level values and customer acceptance remain unspecified."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "electronica-semicon-europa-2026-taiwan-pavilion",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "electronica 與 SEMICON Europa 11 月 10 日在慕尼黑展開，臺灣館列出逾 250 家供應商",
+        "en": "electronica and SEMICON Europa begin Nov 10 in Munich; TAITRA lists over 250 Taiwanese exhibitors"
+      },
+      "summary": {
+        "zh": "electronica 2026 與 SEMICON Europa 2026 依主辦單位公告於 11 月 10 日至 13 日在德國慕尼黑展覽中心舉行，外貿協會公布臺灣參展供應商超過 250 家。臺灣館參展範圍包含電源轉換、被動元件、連接器及工業電子，並安排 11 月 10 日開幕活動；名單及展位已公開，沒有可核對的展期成交訂單數據。",
+        "en": "electronica 2026 and SEMICON Europa 2026 run November 10–13 at Messe München in Germany, according to organizers, with TAITRA listing more than 250 Taiwanese suppliers at electronica. Its published exhibitor program covers power conversion, passive components, connectors and industrial electronics, including November 10 opening events; no verified orders from the show have been reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈及產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "兩展涵蓋半導體製程、測試、電子零組件、工廠自動化與工業電源。外貿協會公布臺灣參展業者集中於 A3、A5、A6、B2 及 B6 展館，指標名單包含台達電、國巨、光寶科、研華、華邦電及上銀等企業；列名參展不代表現場已發布新產品或簽約。",
+            "en": "The fairs cover semiconductor manufacturing, test, electronic components, industrial power and automation. TAITRA lists Taiwanese exhibitors mainly in halls A3, A5, A6, B2 and B6 and names Delta, Yageo, Lite-On, Advantech, Winbond and Hiwin among participants. Exhibitor listings do not establish product launches or signed orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數字與時間",
+            "en": "Disclosed figures and timing"
+          },
+          "text": {
+            "zh": "外貿協會臺灣館排程列有 11 月 10 日 11:00 至 11:30 開幕典禮、展區導覽與交流活動，主辦單位確認展期為 11 月 10 至 13 日。SEMICON Europa 官方議程也列出 11 月 10 日開始的國際標準會議與半導體產業活動；展會不是某家台廠新建產線。",
+            "en": "TAITRA's Taiwan pavilion agenda lists a November 10 opening ceremony from 11:00 to 11:30, guided visits and networking. SEMICON Europa's organizer program includes standards meetings and semiconductor sessions beginning November 10; this is an exhibition event, not a newly commissioned Taiwanese production line."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各家參展商實際新技術發表、客戶簽約、採購額及展會成果尚無可獨立核對數據。",
+            "en": "Actual product introductions, customer contracts, purchase orders and business outcomes have not yet been independently verified."
+          }
+        }
+      ],
+      "metric": "250+ 家",
+      "metricLabel": {
+        "zh": "外貿協會列出臺灣參展供應商",
+        "en": "TAITRA-listed Taiwanese suppliers"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "外貿協會 · electronica 2026 臺灣館資訊",
+            "en": "TAITRA · Taiwan participation at electronica 2026"
+          },
+          "url": "https://taiwanflagship.taitra.org.tw/en/exhibitions/electronica",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "外貿協會 · 臺灣館 11 月 10 日議程及展商名單",
+            "en": "TAITRA · November 10 pavilion agenda and exhibitor list"
+          },
+          "url": "https://2026electronica.taiwantrade.com/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "SEMI · SEMICON Europa 官方展期及地點",
+            "en": "SEMI · Official SEMICON Europa dates and venue"
+          },
+          "url": "https://portal2026.semiconeuropa.org/home",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Messe München · electronica 2026 主辦單位資訊",
+            "en": "Messe München · Official electronica 2026 information"
+          },
+          "url": "https://electronica.de/de/messe/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展會場地：德國慕尼黑 Messe München，Am Messesee 2, 81829 München；臺灣館主要在 A3、A5、A6、B2、B6 展館。",
+        "en": "Event venue: Messe München, Am Messesee 2, 81829 Munich, Germany; Taiwan exhibitors are concentrated in halls A3, A5, A6, B2 and B6."
+      },
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "德國；台灣參展商",
+          "en": "Germany; Taiwanese exhibitors"
+        },
+        "industries": {
+          "zh": "半導體設備；封裝；測試；零組件；電源；工廠自動化；人才",
+          "en": "Semiconductor tools; packaging; test; components; power; automation"
+        },
+        "chain": {
+          "zh": "半導體材料及設備、電子零組件與工廠自動化",
+          "en": "Semiconductor materials/tools, electronic components and factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增投資金額。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "外貿協會確認逾 250 家臺灣供應商參展，尚未披露成交或出貨。",
+            "en": "TAITRA confirms more than 250 Taiwanese exhibitors, with no reported orders or shipments."
+          },
+          "fdi": {
+            "zh": "本次未公布新增外國直接投資。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "可核對的臺灣半導體設備及電源零組件供應商在海外實體參展資訊。",
+            "en": "Documented overseas exhibition activity by Taiwanese semiconductor tools and electronic power-component suppliers."
+          },
+          "timing": {
+            "zh": "展期 11 月 10 至 13 日，臺灣館開幕排定 11 月 10 日。",
+            "en": "Exhibition dates November 10–13; Taiwan pavilion opening scheduled November 10."
+          },
+          "unknowns": {
+            "zh": "各家參展商實際新技術發表、客戶簽約、採購額及展會成果尚無可獨立核對數據。",
+            "en": "Actual product introductions, customer contracts, purchase orders and business outcomes have not yet been independently verified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "臺灣參展商家數下限",
+            "en": "Lower bound of Taiwanese exhibitors"
+          },
+          "current": 250,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 10 至 13 日展期",
+            "en": "Nov 10–13, 2026 exhibition"
+          },
+          "owner": {
+            "zh": "外貿協會",
+            "en": "TAITRA"
+          },
+          "sourceUrl": "https://taiwanflagship.taitra.org.tw/en/exhibitions/electronica",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "外貿協會原文為超過 250 家；250 僅作保守下限，實際家數未揭露。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電源轉換、半導體測試設備與工業量測業者而言，外貿協會及主辦單位提供可核對的供應商名單與展區位置。仍需查核實際展示產品、客戶現場驗證及簽約成果，參展數量不代表新增採購金額。",
+        "en": "For power conversion, semiconductor testing and industrial metrology suppliers, organizer and TAITRA pages establish exhibitors and locations. Actual products, qualification and contracts remain unverified; exhibitor counts do not quantify procurement."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "台積電營收年增是否代表 2 奈米晶圓出貨也年增 59.7%？",
+        "en": "Does TSMC's revenue growth indicate 59.7% growth in 2nm wafer shipments?"
+      },
+      "text": {
+        "zh": "59.7% 是合併營收的年增率，公司月報沒有提供 2 奈米晶圓出貨量；部分製程歸因來自外部分析。",
+        "en": "The 59.7% applies to consolidated revenue. TSMC did not provide 2nm wafer shipment counts, and process-specific attribution came from outside analysts."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "日月光封測及材料收入能與集團營收相加嗎？",
+        "en": "Can ASEH's packaging and materials sales be added to total group revenue?"
+      },
+      "text": {
+        "zh": "568.4 億元已包含在集團 886.15 億元中，兩者重疊，不能相加；LEAP 全年營收則屬先前展望。",
+        "en": "NT$56.84B is included within the NT$88.615B group revenue, so the figures overlap. Annual LEAP revenue is earlier guidance."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "中科二期水電工程進度是否代表晶圓廠已量產？",
+        "en": "Does CTSP utility progress mean the new wafer fab is producing?"
+      },
+      "text": {
+        "zh": "本次確認的是滯洪池及水保設施已完工，首期水電供應設施仍預計年底就緒；晶圓廠 2028 年量產為規劃。",
+        "en": "Retention and soil-conservation works were completed, while first-stage utilities target year-end. Fab production in 2028 remains a plan."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "已於前一期公布的電源及伺服器營收",
+        "en": "Power and server revenue already covered in the previous edition"
+      },
+      "text": {
+        "zh": "台達電、光寶科、廣達與華碩的 10 月收入已於 11 月 10 日日報收錄，公告事件日期為 11 月 9 日。本次未把相同月報重新列為新發展。",
+        "en": "Delta, Lite-On, Quanta and ASUS October sales appeared in the November 10 edition with a November 9 event date. Those identical monthly releases are not republished as new developments."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料使用說明",
+      "en": "Data reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "舊有建廠承諾及股價消息",
+        "en": "Repeated factory plans and market moves"
+      },
+      "text": {
+        "zh": "未收錄舊有資料中心資本支出預告、單純股價波動，以及缺乏可核實客戶出貨量的分析師推測。",
+        "en": "Older data-center capex plans, share-price movements and analyst speculation without verified customer shipments were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "台積電 10 月營收已核對公司新聞稿及 2025 年官方月報。日月光、和碩、英業達與兩家機械公會的數據由中央社引述，未逐一直接取得公司或公會原始申報，故需留意來源限制。中科工程進度及出口數據由管理局對外公布、經中央社轉述；2028 年量產、未來產值與水電供應目標均屬規劃。臺灣館參展家數依外貿協會為超過 250 家，沒有展期簽約金額。",
+    "en": "TSMC October sales were checked against its company release and official 2025 series. ASEH, Pegatron, Inventec and the two machinery associations' figures rely on CNA without every original filing independently inspected. CTSP project progress and exports are attributed to the administration through CNA; 2028 production, future output and utility readiness remain plans. TAITRA lists more than 250 Taiwanese exhibitors, with no trade-show contract amounts reported."
+  }
+}

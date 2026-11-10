@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-08",
-  "generatedAt": "2026-11-09T12:26:20.000Z",
+  "generatedAt": "2026-11-10T12:24:34.000Z",
   "throughline": {
-    "zh": "台灣設備業者公布封測、雷射封裝及材料工程進度，台達電與光寶科揭露電源業務月報，廣達與華碩則公布伺服器系統交付相關營收。",
-    "en": "Taiwanese tool makers reported packaging, laser and fab-engineering developments, Delta and Lite-On released power-related sales, and Quanta and ASUS disclosed server-system revenue."
+    "zh": "台灣晶圓與封測業者公布 10 月營收，中科更新新廠水電工程進度，機械出口與伺服器 ODM 財報則揭露供應鏈不同環節的營運數據。",
+    "en": "Taiwanese foundry and OSAT companies reported October sales, CTSP updated fab utility construction, and machinery exports and server ODM results documented separate supply-chain activities."
   },
   "highlights": [
     {
       "id": 1,
       "category": "taiwan",
       "title": {
-        "zh": "半導體封裝、測試、設備與材料工程",
-        "en": "Semiconductor packaging, testing, tools and materials engineering"
+        "zh": "晶圓代工、先進封測及廠務建設",
+        "en": "Wafer foundry, advanced packaging and fab infrastructure"
       },
       "summary": {
-        "zh": "京鼎上週核准泰國廠房資產交易，本週均華、均豪、志聖及東捷公告設備營收。11 月 9 日業成新增雷射封裝試產規劃，漢測公布高功耗晶圓測試熱管理收入，崇越則說明記憶體廠廢水工程按進度認列；各案分別處於投資、試產、出貨或工程認列階段。",
-        "en": "Foxsemicon's Thai property approval and Taiwanese tool makers' monthly sales were followed on November 9 by GIS-KY's laser packaging ramp plans, Hermes' high-power wafer-test revenue and Topco's memory-fab wastewater engineering recognition. These involve distinct financing, qualification, shipment and project-accounting stages."
+        "zh": "本週京鼎、均華、均豪、志聖、業成、漢測與崇越披露半導體設備、封裝、測試及材料相關進度。11 月 10 日台積電公布 10 月晶圓代工營收，日月光區分集團與封測材料收入，中科公布水電及工程節點，各數字分別屬實績、公共工程與未來規劃。",
+        "en": "Foxsemicon, Gallant, Gallant Micro, C Sun, GIS-KY, Hermes and Topco reported tool, packaging, testing and materials developments. On November 10 TSMC reported foundry sales, ASEH distinguished group from OSAT-materials revenue, and CTSP updated utilities progress, spanning actuals, public works and planned milestones."
       },
       "references": [
         {
@@ -49,6 +49,18 @@
         {
           "date": "2026-11-10",
           "storyId": 6
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 3
         }
       ]
     },
@@ -56,12 +68,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "工業電源、機櫃供電與電子零組件營收",
-        "en": "Industrial power, rack electricity and electronic components"
+        "zh": "工業電源、精密機械與零組件出口",
+        "en": "Industrial power, precision machinery and component exports"
       },
       "summary": {
-        "zh": "高雄公布中鋼 3.575MW 燃料電池規劃，奇鋐公布既有散熱業務營收；11 月 9 日台達電、光寶科及國巨分別揭露電源、備援電池及被動元件相關業務月報。電力裝置規劃與公司合併營收分屬不同計量口徑，產品出貨仍須各別核對。",
-        "en": "Kaohsiung detailed China Steel's proposed 3.575MW fuel-cell project, while AVC reported thermal-management sales. On November 9 Delta, Lite-On and Yageo released group revenue linked to power, battery backup and passive components; planned generation capacity and consolidated sales are different metrics."
+        "zh": "本週中鋼燃料電池規劃與奇鋐、台達電、光寶科、國巨等公司公告涉及供電、散熱與被動元件。11 月 10 日機械及工具機公會分別發布出口數據，電子設備、工具機整機和機械零組件的產品分類與比較期間應分開閱讀。",
+        "en": "China Steel's fuel-cell plan and results from AVC, Delta, Lite-On and Yageo span site power, cooling and components. On November 10 machinery and machine-tool associations reported export values with separate definitions and comparison periods for electronic equipment, finished machines and parts."
       },
       "references": [
         {
@@ -83,6 +95,14 @@
         {
           "date": "2026-11-10",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 7
         }
       ]
     },
@@ -94,8 +114,8 @@
         "en": "Data-center construction, water and server-system deliveries"
       },
       "summary": {
-        "zh": "馬來西亞 SunCon 新合約與 4 月同址公告關係仍未釐清，印尼巴淡島居民供水問題也缺乏機房取水因果證據。11 月 9 日廣達與華碩公布伺服器相關合併營收，並分別指出 AI 伺服器與遞延交貨影響，但未公布 GPU 機櫃獨立數量。",
-        "en": "SunCon's Serendah agreement overlaps in location with an April filing, while Batam household outages lack facility-level causal evidence. Quanta and ASUS reported server-related consolidated sales November 9, citing AI-server demand and recognition of deferred deliveries without GPU rack unit disclosures."
+        "zh": "馬來西亞資料中心承包合約與印尼巴淡島供水爭議各有尚待確認的工程範圍及因果關係。華碩、廣達、和碩與英業達陸續揭露伺服器營運收入與管理層展望，其中機櫃實際出貨及 2027 年成長預測須與已實現集團收入區分。",
+        "en": "Malaysian data-center contracts and Batam water issues carry unresolved contract scope and causality questions. ASUS, Quanta, Pegatron and Inventec reported server-related business and outlooks, with rack shipment counts and 2027 forecasts separate from actual consolidated revenue."
       },
       "references": [
         {
@@ -117,6 +137,14 @@
         {
           "date": "2026-11-10",
           "storyId": 9
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-11",
+          "storyId": 5
         }
       ]
     },
@@ -124,12 +152,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "記憶體技術傳聞、擴產計畫與成熟製程成本",
-        "en": "Memory technology reports, capex plans and mature-node costs"
+        "zh": "記憶體製程、擴產預算與代工成本",
+        "en": "Memory process technology, expansion budgets and foundry costs"
       },
       "summary": {
-        "zh": "台積電對 3D DRAM 報導重申邏輯晶圓代工定位，華邦電說明先前核准的高雄擴建預算。11 月 9 日來頡指出成熟製程晶圓與封測供應緊張，第三季毛利率降至 44%，其 2027 年成本趨勢仍屬公司預測。",
-        "en": "TSMC reaffirmed its logic-foundry focus in response to unconfirmed 3D DRAM reporting, and Winbond discussed earlier approved Kaohsiung capex. M3 Technology reported a 44% Q3 gross margin on November 9 and forecast tighter mature-node and back-end conditions in 2027."
+        "zh": "台積電已回應 3D DRAM 匿名報導，華邦電重述既有模組 B 擴建預算，來頡則揭露第三季毛利率及成熟製程供應展望。相關資料沒有證實新記憶體廠已核准或明年漲價已生效。",
+        "en": "TSMC responded to anonymous 3D DRAM reporting, Winbond discussed its earlier Module B budget, and M3 Technology disclosed its Q3 margin and mature-node supply outlook. No new TSMC memory fab approval or implemented future foundry price increase is established."
       },
       "references": [
         {
@@ -147,6 +175,24 @@
         {
           "date": "2026-11-10",
           "storyId": 7
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "global",
+      "title": {
+        "zh": "electronica 與 SEMICON Europa 的臺灣供應商",
+        "en": "Taiwanese exhibitors at electronica and SEMICON Europa"
+      },
+      "summary": {
+        "zh": "electronica 及 SEMICON Europa 依主辦單位安排於 11 月 10 至 13 日在慕尼黑舉行，外貿協會列出超過 250 家臺灣供應商及臺灣館開幕活動。展商名單可核對，尚未發布可確認的現場採購或成交金額。",
+        "en": "electronica and SEMICON Europa run November 10–13 in Munich, with TAITRA listing more than 250 Taiwanese exhibitors and a Taiwan pavilion opening program. Exhibitor participation is documented, but no show-floor order or contract value is verified."
+      },
+      "references": [
+        {
+          "date": "2026-11-11",
+          "storyId": 8
         }
       ]
     }
