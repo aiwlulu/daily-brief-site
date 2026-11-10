@@ -1,0 +1,62 @@
+name: Publish Nov 11 Daily Brief with official workbook builder
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/news-publish-2026-11-11.yml
+permissions:
+  contents: write
+  actions: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out inspected main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Set up Python and openpyxl
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check "openpyxl>=3.1.5,<4"
+      - name: Materialize researched edition week and calendar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/9b5989b8367e2890e9334043a706689cfc8a2b98" --jq '.content' | base64 -d > docs/editions/2026-11-11.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/0c181e86d0f8cfd2da1e9b2044c46518552a6545" --jq '.content' | base64 -d > docs/weeks/2026-11-08.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/f2aac219ec269dcf8ad0b64dde499f9923b2adcf" --jq '.content' | base64 -d > docs/events.json
+      - name: Update edition and weekly manifest
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("docs/editions/index.json")
+          manifest=json.loads(p.read_text())
+          date="2026-11-11"
+          assert not any(x["date"]==date for x in manifest["editions"]), "Edition exists, require material research update"
+          manifest["editions"].insert(0, {"date":date,"path":"./editions/2026-11-11.json"})
+          manifest["weeks"]["2026-11-08"]="./weeks/2026-11-08.json"
+          p.write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+"\n")
+          PY
+          node scripts/format-copy.mjs 2026-11-11
+      - name: Generate official Excel exports and validate all content
+        run: |
+          .venv/bin/python scripts/build-workbooks.py "$GITHUB_WORKSPACE" 2026-11-11
+          node scripts/check.mjs
+          .venv/bin/python scripts/check-xlsx.py
+          node --test scripts/*.test.mjs
+      - name: Atomically commit all validated artifacts and remove temporary workflow
+        run: |
+          git config user.name aiwlulu
+          git config user.email aiwlulu@users.noreply.github.com
+          git rm .github/workflows/news-publish-2026-11-11.yml
+          git add docs/editions/2026-11-11.json docs/editions/index.json docs/weeks/2026-11-08.json docs/events.json docs/exports
+          git diff --cached --check
+          git commit -m "feat(news): publish 2026-11-11 daily brief"
+          git push origin HEAD:main
+      - name: Dispatch existing Pages workflow for final validated commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
