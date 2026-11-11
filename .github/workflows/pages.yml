@@ -17,8 +17,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout current published main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Resolve current main before validating and deploying
+        run: |
+          git fetch origin main
+          git checkout --detach origin/main
+          echo "Deploying published commit $(git rev-parse HEAD)"
       - name: Validate content
         run: |
           node --check docs/app.js
