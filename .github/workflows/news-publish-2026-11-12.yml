@@ -1,0 +1,63 @@
+name: Publish Nov 12 Daily Brief with official workbook builder
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/news-publish-2026-11-12.yml
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out inspected main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Install openpyxl into Python environment
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check "openpyxl>=3.1.5,<4"
+      - name: Fetch researched daily and weekly JSON blobs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/0c8c6b6403f638a0f93adf207b5f30f5821d4a6a" --jq '.content' | base64 -d > docs/editions/2026-11-12.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/0d4f897cfb171c832be14f0578edca6ee65220ae" --jq '.content' | base64 -d > docs/weeks/2026-11-08.json
+      - name: Update manifest and format Chinese copy
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("docs/editions/index.json")
+          data=json.loads(p.read_text())
+          date="2026-11-12"
+          assert not any(e["date"]==date for e in data["editions"]),"Already exists; reread and reverify before correction"
+          data["editions"].insert(0, {"date":date,"path":"./editions/2026-11-12.json"})
+          data["weeks"]["2026-11-08"]="./weeks/2026-11-08.json"
+          p.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n")
+          PY
+          node scripts/format-copy.mjs 2026-11-12
+      - name: Build four daily and weekly Excel exports and validate
+        run: |
+          .venv/bin/python scripts/build-workbooks.py "$GITHUB_WORKSPACE" 2026-11-12
+          node scripts/check.mjs
+          .venv/bin/python scripts/check-xlsx.py
+          node --test scripts/*.test.mjs
+      - name: Atomically commit published files and remove this workflow
+        run: |
+          git config user.name aiwlulu
+          git config user.email aiwlulu@users.noreply.github.com
+          git rm .github/workflows/news-publish-2026-11-12.yml
+          git add docs/editions/2026-11-12.json docs/editions/index.json docs/weeks/2026-11-08.json docs/exports
+          git diff --cached --check
+          git commit -m "feat(news): publish 2026-11-12 daily brief"
+          git push origin HEAD:main
+      - name: Dispatch Pages deployment for final published commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
