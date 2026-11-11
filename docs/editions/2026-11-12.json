@@ -1,0 +1,2126 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-11T15:17:28.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞伺服器 ODM、先進測試、記憶體供需、資料中心供電與工廠投資",
+      "en": "Taiwan and Southeast Asian server ODM, advanced testing, memory demand, data-center power and factory investment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "緯創和廣達公布伺服器產能與財務安排，大銀微系統及旺矽揭露高階測試進度，東元則提出日本模組化資料中心首期容量與交付計畫。",
+    "en": "Wistron and Quanta disclosed server capacity and financial developments, HIWIN MIKROSYSTEM and WinWay reported advanced testing progress, and TECO set out the first-phase capacity and delivery plan for a Japanese modular data center."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "緯創新增台灣台南與新竹合計 128.39 億元資本支出，墨西哥另核准 1,776 萬美元伺服器廠預算。",
+        "en": "Wistron approved NT$12.839B Taiwan capex and US$17.76M for Mexico server capacity."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "廣達第三季營收約 1.12 兆元，已終止友達華亞廠收購，2027 年資本支出預估 400 至 450 億元。",
+        "en": "Quanta reported about NT$1.12T Q3 revenue, canceled an AUO factory purchase and forecasts NT$40–45B in 2027 capex."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "大銀微系統 CPO 檢測定位平台已量產出貨，訂單能見度延伸至 2027 年中，但尚無分產品台數。",
+        "en": "HIWIN MIKROSYSTEM says CPO test platforms are shipping with order visibility into mid-2027, without unit counts."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "東元在日本鹿兒島規劃模組化資料中心，首期 6.4MW，目標 2027 年交付，尚未投入營運。",
+        "en": "TECO plans a 6.4MW first-phase modular data center in Kagoshima, targeting 2027 delivery."
+      }
+    },
+    {
+      "id": 7,
+      "text": {
+        "zh": "TrendForce 預估第四季 PC DRAM 合約價季增 13% 至 18%，Client SSD 漲幅低於 5%。",
+        "en": "TrendForce forecasts Q4 PC DRAM contract-price growth of 13%–18% and client SSD growth below 5%."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "wistron-nov11-2026-taiwan-mexico-server-capex",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "緯創新增台南與新竹 128.39 億元資本支出，墨西哥伺服器廠另核准 1,776 萬美元",
+        "en": "Wistron approves NT$12.839B new Taiwan capex plus US$17.76M for Mexico servers"
+      },
+      "summary": {
+        "zh": "緯創 11 月 11 日董事會核准台南 119 億元與新竹 9.39 億元的新增資本支出，供建物改良與機器設備採購；全資墨西哥子公司另核准 1,776 萬美元擴充伺服器產能。緯創同日公布第三季營收約 1.15 兆元、稅後淨利約 184 億元，但未提供新增產能的機櫃台數及投產日期。",
+        "en": "On November 11, Wistron approved additional capex of NT$11.9 billion in Tainan and NT$939 million in Hsinchu for facility upgrades and equipment. Its wholly owned Mexican subsidiary separately approved US$17.76 million for server capacity; Q3 revenue was approximately NT$1.15 trillion and profit after tax NT$18.4 billion, without new rack capacity or commissioning dates."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "緯創經營伺服器 ODM 及相關系統組裝業務，台灣基地與墨西哥產線可能涵蓋不同作業流程。新竹不超過 28 億元土地與辦公廠房使用權資產案另外屬租賃整合，與新增機器設備資本支出應分開列示。",
+            "en": "Wistron is a server ODM and systems manufacturer with Taiwan and Mexico operations. Its separate up-to-NT$2.8 billion Hsinchu right-of-use asset decision concerns lease consolidation and is distinct from the newly approved production capex."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "緯創官方董事會公告將 119 億元與 9.39 億元分別列為台南、新竹資本支出，合計 128.39 億元；墨西哥為 1,776 萬美元，沒有進行匯率合併。第三季營收約 1.15 兆元、營業淨利 486.7 億元、稅後淨利 184 億元、每股盈餘 5.74 元；前三季營收 2.89 兆元、稅後淨利 428.6 億元。",
+            "en": "Wistron's first-hand filing separately allocates NT$11.9 billion and NT$939 million to Tainan and Hsinchu, a combined NT$12.839 billion, and US$17.76 million to Mexico without converting currencies. Q3 revenue was roughly NT$1.15 trillion, operating profit NT$48.67 billion, PAT NT$18.4 billion and EPS NT$5.74; nine-month revenue was NT$2.89 trillion with PAT NT$42.86 billion."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "新機台規格、設備進場時間、墨西哥廠新增伺服器月產能、終端客戶驗收與實際資金執行進度尚未公布。",
+            "en": "Machine specifications, move-in schedules, additional monthly server capacity in Mexico, customer acceptance and actual spending progress remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$12.839B",
+      "metricLabel": {
+        "zh": "台灣兩廠新增資本支出合計",
+        "en": "Combined newly approved Taiwan capex"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "緯創資通 · 董事會及第三季財報公告",
+            "en": "Wistron · Board decisions and Q3 results"
+          },
+          "url": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 緯創擴充 AI 業務",
+            "en": "CNA · Wistron expansion details"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110297.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "投資專案據點：台灣台南市及新竹地區廠房、墨西哥 Wistron InfoComm Mexico 既有生產基地。公司未公布新設備安裝的街址。",
+        "en": "Project locations: existing Wistron facilities in Tainan and Hsinchu, Taiwan, and Wistron InfoComm Mexico's Mexican production site. No tool-installation street address was disclosed."
+      },
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣；墨西哥",
+          "en": "Taiwan; Mexico"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；工廠；設備；電源；投資；FDI",
+          "en": "Servers; ODM; systems; factories; equipment; power; FDI"
+        },
+        "chain": {
+          "zh": "伺服器 ODM 與設備至工廠擴充及投資",
+          "en": "Server systems and factory equipment through investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "核准台灣新資本支出 128.39 億元、墨西哥 1,776 萬美元，幣別不換算加總。",
+            "en": "Approved NT$12.839B in Taiwan and US$17.76M in Mexico, tracked in their original currencies."
+          },
+          "demand": {
+            "zh": "未公布新增實際出貨量或客戶訂單金額。",
+            "en": "No new realized shipment volumes or customer contract value disclosed."
+          },
+          "fdi": {
+            "zh": "墨西哥全資子公司核准新增資本支出，是否涉及新增跨境匯款未披露。",
+            "en": "Wholly owned Mexican subsidiary approved capex, with no remittance amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "緯創經營伺服器 ODM 及相關系統組裝業務，台灣基地與墨西哥產線可能涵蓋不同作業流程。新竹不超過 28 億元土地與辦公廠房使用權資產案另外屬租賃整合，與新增機器設備資本支出應分開列示。",
+            "en": "Wistron is a server ODM and systems manufacturer with Taiwan and Mexico operations. Its separate up-to-NT$2.8 billion Hsinchu right-of-use asset decision concerns lease consolidation and is distinct from the newly approved production capex."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "新機台規格、設備進場時間、墨西哥廠新增伺服器月產能、終端客戶驗收與實際資金執行進度尚未公布。",
+            "en": "Machine specifications, move-in schedules, additional monthly server capacity in Mexico, customer acceptance and actual spending progress remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "台南新增資本支出",
+            "en": "New Tainan capital expenditure"
+          },
+          "current": 11.9,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "緯創董事會",
+            "en": "Wistron Board"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "新竹新增資本支出",
+            "en": "New Hsinchu capital expenditure"
+          },
+          "current": 0.939,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "緯創董事會",
+            "en": "Wistron Board"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "墨西哥伺服器廠新增預算",
+            "en": "New Mexico server factory budget"
+          },
+          "current": 0.01776,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "緯創董事會",
+            "en": "Wistron Board"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營收約數",
+            "en": "Approximate Q3 consolidated revenue"
+          },
+          "current": 1150,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "緯創",
+            "en": "Wistron"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 profit after tax"
+          },
+          "current": 18.4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "緯創",
+            "en": "Wistron"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季合併營收約數",
+            "en": "Approximate nine-month revenue"
+          },
+          "current": 2890,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "緯創",
+            "en": "Wistron"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季稅後淨利",
+            "en": "Nine-month profit after tax"
+          },
+          "current": 42.86,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "緯創",
+            "en": "Wistron"
+          },
+          "sourceUrl": "https://www.wistron.com/ch/Newsroom/2026-11-11",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器機櫃供電、測試與精密電源設備供應商而言，緯創核准在台灣與墨西哥增添設施及機器設備的預算。應先查明設備類別、上電與測試驗收時程，以及是否由客戶供料；資本支出預算尚未證明單一電源設備訂單。",
+        "en": "For rack power, server testing and precision-power equipment suppliers, Wistron approved facilities and machinery budgets in Taiwan and Mexico. Tool categories, energization, acceptance and customer consignment arrangements remain unknown; capex approval does not establish individual PSU orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "quanta-q3-2026-servers-cancel-auo-factory",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "廣達第三季營收約 1.12 兆元，取消友達華亞廠收購並調整伺服器擴產方案",
+        "en": "Quanta reports NT$1.12T Q3 sales, cancels AUO factory acquisition and revises capacity plan"
+      },
+      "summary": {
+        "zh": "廣達 11 月 11 日公布第三季合併營收約 1.12 兆元，歸屬母公司淨利 284.22 億元、每股盈餘 7.08 元。公司同日表示因廠房使用規格及交付時程未取得共識，已終止友達華亞廠收購計畫，原擬 2028 年啟用的產能將尋找其他安排；2027 年資本支出預估 400 至 450 億元。",
+        "en": "On November 11, Quanta reported Q3 consolidated revenue of roughly NT$1.12 trillion, attributable profit of NT$28.422 billion and EPS of NT$7.08. It said the planned AUO Huaya factory acquisition was terminated over facility specifications and delivery terms, while capacity originally targeted for 2028 will be relocated through alternatives; 2027 capex is forecast at NT$40–45 billion."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "廣達的 ODM 業務涵蓋 AI 與通用型伺服器、資料中心機櫃及筆電。新機櫃功率密度提高會增加工廠測試與用電配置需求，但公司沒有公布單機櫃瓦數或替代廠房的具體驗收能力。",
+            "en": "Quanta builds AI and general-purpose servers, data-center racks and notebooks. Higher rack power density affects manufacturing test and electricity requirements, but no specific per-rack load or replacement-site capacity has been published."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "廣達第三季營收季增 7.6%、年增 125%，母公司淨利年增 73% 但季減 0.8%；前三季營收約 2.96 兆元、淨利 782.66 億元。公司表示 2026 年前三季資本支出 346 億元，約八成用於美國加州與泰國廠，2027 年預期支出 400 至 450 億元。伺服器 2027 年營收占比 85% 至 90% 與成長雙位數均為公司展望。",
+            "en": "Q3 revenue rose 7.6% QoQ and 125% YoY; attributable profit increased 73% YoY but slipped 0.8% QoQ. Nine-month revenue was roughly NT$2.96 trillion, with attributable profit NT$78.266 billion. Nine-month capex was NT$34.6 billion, around 80% concentrated in California and Thailand; 2027 planned capex is NT$40–45 billion and a projected server revenue share of 85%–90% remains guidance."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "華亞廠替代地點、補充產線實際投產日、各機櫃電力和冷卻測試數量，以及 2027 年實際伺服器營收占比均待公布。",
+            "en": "Alternative Huaya capacity locations, commissioning dates, rack power/cooling acceptance volumes and realized 2027 server mix remain unconfirmed."
+          }
+        }
+      ],
+      "metric": "NT$1.12T",
+      "metricLabel": {
+        "zh": "第三季合併營收約數",
+        "en": "Approximate Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 廣達 11 月 11 日法說會",
+            "en": "CNA · Quanta November 11 investor briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣；美國；泰國",
+          "en": "Taiwan; United States; Thailand"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；機櫃；電源；液冷；散熱；工廠；投資",
+          "en": "Servers; ODM; systems; racks; power; cooling; factories; investment"
+        },
+        "chain": {
+          "zh": "伺服器 ODM、機櫃供電與散熱至工廠擴產",
+          "en": "Server ODM, rack power and cooling through factory capacity"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2027 年資本支出預估 400 至 450 億元，友達華亞廠收購已終止。",
+            "en": "2027 capex forecast NT$40–45B; the AUO Huaya acquisition was terminated."
+          },
+          "demand": {
+            "zh": "2027 年伺服器業務雙位數成長及營收比重 85% 至 90% 均為管理層預測。",
+            "en": "Double-digit 2027 server growth and 85%–90% sales mix are management forecasts."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "廣達的 ODM 業務涵蓋 AI 與通用型伺服器、資料中心機櫃及筆電。新機櫃功率密度提高會增加工廠測試與用電配置需求，但公司沒有公布單機櫃瓦數或替代廠房的具體驗收能力。",
+            "en": "Quanta builds AI and general-purpose servers, data-center racks and notebooks. Higher rack power density affects manufacturing test and electricity requirements, but no specific per-rack load or replacement-site capacity has been published."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "華亞廠替代地點、補充產線實際投產日、各機櫃電力和冷卻測試數量，以及 2027 年實際伺服器營收占比均待公布。",
+            "en": "Alternative Huaya capacity locations, commissioning dates, rack power/cooling acceptance volumes and realized 2027 server mix remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收約數",
+            "en": "Approximate Q3 revenue"
+          },
+          "current": 1120,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 1.25,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸屬母公司淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 28.422,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.73,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季合併營收約數",
+            "en": "Nine-month revenue, approximate"
+          },
+          "current": 2960,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.994,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季歸屬母公司淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 78.266,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "廣達，中央社報導",
+            "en": "Quanta, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.483,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 資本支出預估下限",
+            "en": "2027 capex forecast lower bound"
+          },
+          "current": 40,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "廣達管理層，中央社報導",
+            "en": "Quanta management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 資本支出預估上限",
+            "en": "2027 capex forecast upper bound"
+          },
+          "current": 45,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "廣達管理層，中央社報導",
+            "en": "Quanta management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年伺服器營收占比預測下限",
+            "en": "Forecast 2027 server mix lower bound"
+          },
+          "current": 0.85,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "廣達管理層，中央社報導",
+            "en": "Quanta management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年伺服器營收占比預測上限",
+            "en": "Forecast 2027 server mix upper bound"
+          },
+          "current": 0.9,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "廣達管理層，中央社報導",
+            "en": "Quanta management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110267.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機櫃電源、液冷控制及高功率伺服器測試設備供應商而言，廣達公布既有華亞廠收購案終止以及其他產能配置意向。需要確認替代廠電力容量、測試站及客戶驗收時程，2027 年投資預測與實際交付應分開閱讀。",
+        "en": "For rack power, liquid-cooling control and high-power server test suppliers, Quanta disclosed the canceled Huaya acquisition and intended alternative capacity planning. Replacement facility power, test stations and customer acceptance remain unquantified; capex guidance is not commissioned output."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "hiwin-mikrosystem-cpo-alignment-test-2026",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "大銀微系統稱 CPO 檢測定位平台已量產出貨，訂單能見度至 2027 年中",
+        "en": "HIWIN MIKROSYSTEM says CPO alignment platforms are shipping, order visibility extends to mid-2027"
+      },
+      "summary": {
+        "zh": "大銀微系統董事長 11 月 11 日在法說會表示，矽光子與 CPO 高精度檢測定位平台已進入量產出貨，主要應用於光學引擎插入及系統級測試，相關訂單能見度延伸至 2027 年中。公司同日公布第三季營收 12.18 億元、毛利率 42.4%，但尚未揭露平台獨立出貨量。",
+        "en": "On November 11, HIWIN MIKROSYSTEM said its high-precision alignment and test platforms for silicon photonics and co-packaged optics are in production and shipping, supporting optical-engine insertion and system-level testing. Management reported order visibility into mid-2027 and Q3 revenue of NT$1.218 billion with a 42.4% gross margin, without product-specific unit shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "大銀微系統提供精密控制元件及高階定位平台，客戶包含矽光子測試設備廠。CPO 光學引擎插入與系統級測試需要精密對位、穩定控制與檢測，與光纖陣列組裝及先進封裝測試相連；目前不能將定位平台的訂單視為光模組終端出貨量。",
+            "en": "HIWIN MIKROSYSTEM supplies precision motion components and positioning platforms, including systems used by silicon photonics equipment vendors. CPO optical-engine insertion and system-level test require accurate positioning and measurement, but platform orders do not equal shipped optical modules."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "公司表示 4 月開始出貨矽光子檢測設備廠，8 月量產訂單增加；定位平台訂單能見度 5 至 6 個月、交期約 3 個月，零組件能見度約 3 個月、交期 2 至 2.5 個月。第三季營收 12.18 億元、年增 77%，稅後獲利 2.57 億元、毛利率 42.4%；前 3 季營收 30.96 億元、獲利 4.87 億元，後續毛利率 40% 係長期目標。",
+            "en": "The company started supplying silicon-photonics inspection equipment firms in April and reported increased volume orders in August. Platform orders are visible five to six months out with about a three-month lead time; component visibility is roughly three months and lead times two to 2.5 months. Q3 sales were NT$1.218 billion, up 77% YoY, Q3 profit NT$257 million and gross margin 42.4%; nine-month sales were NT$3.096 billion and profit NT$487 million. A 40% gross margin is a management target, not a guarantee."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "CPO 定位平台實際出貨台數、各客戶驗收、光學引擎數量、單機功率與測試精度的明確數值未公布。",
+            "en": "CPO platform shipment units, customer acceptance, optical-engine unit counts, power requirements and numeric test precision were not disclosed."
+          }
+        }
+      ],
+      "metric": "42.4%",
+      "metricLabel": {
+        "zh": "第三季合併毛利率",
+        "en": "Q3 consolidated gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 大銀微系統法說與 CPO 檢測平台",
+            "en": "CNA · HIWIN MIKROSYSTEM CPO platforms and financial results"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110282.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "光通訊；CPO；半導體設備；零組件；封裝；測試；自動化",
+          "en": "Optical interconnects; CPO; semiconductor tools; components; packaging; testing; automation"
+        },
+        "chain": {
+          "zh": "精密零組件與定位平台至先進封裝及光學測試",
+          "en": "Precision components and alignment stages through advanced packaging and optical testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增核准投資額。",
+            "en": "No incremental approved investment disclosed."
+          },
+          "demand": {
+            "zh": "公司稱 CPO 平台已量產出貨，訂單能見度至 2027 年中，未公布合約金額。",
+            "en": "Company says CPO platforms are shipping, with visibility into mid-2027 but no contract value."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "大銀微系統提供精密控制元件及高階定位平台，客戶包含矽光子測試設備廠。CPO 光學引擎插入與系統級測試需要精密對位、穩定控制與檢測，與光纖陣列組裝及先進封裝測試相連；目前不能將定位平台的訂單視為光模組終端出貨量。",
+            "en": "HIWIN MIKROSYSTEM supplies precision motion components and positioning platforms, including systems used by silicon photonics equipment vendors. CPO optical-engine insertion and system-level test require accurate positioning and measurement, but platform orders do not equal shipped optical modules."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "CPO 定位平台實際出貨台數、各客戶驗收、光學引擎數量、單機功率與測試精度的明確數值未公布。",
+            "en": "CPO platform shipment units, customer acceptance, optical-engine unit counts, power requirements and numeric test precision were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 1.218,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "大銀微系統，中央社報導",
+            "en": "HIWIN MIKROSYSTEM, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110282.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.77,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後獲利",
+            "en": "Q3 after-tax profit"
+          },
+          "current": 0.257,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "大銀微系統，中央社報導",
+            "en": "HIWIN MIKROSYSTEM, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110282.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.424,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "大銀微系統，中央社報導",
+            "en": "HIWIN MIKROSYSTEM, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110282.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季合併營收",
+            "en": "Nine-month consolidated revenue"
+          },
+          "current": 3.096,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "大銀微系統，中央社報導",
+            "en": "HIWIN MIKROSYSTEM, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110282.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.58,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季稅後獲利",
+            "en": "Nine-month profit after tax"
+          },
+          "current": 0.487,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "大銀微系統，中央社報導",
+            "en": "HIWIN MIKROSYSTEM, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110282.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體高精度定位、光學測試、機台電源與量測控制供應商而言，大銀微系統已揭露 CPO 平台出貨開始及訂單能見度。仍須確認每個測試站的電氣規格、定位精度、客戶驗收與實際出貨數，財報是公司整體結果。",
+        "en": "For precision positioning, optical test, process power and metrology-control suppliers, the company reports CPO platform shipments and order visibility. Station electrical requirements, alignment precision, acceptance and actual units remain undisclosed; consolidated financials cover multiple businesses."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "teco-gmi-japan-6mw-modular-data-center",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "東元與 GMI Cloud 合作日本模組化資料中心，首期 6.4MW 預計 2027 年交付",
+        "en": "TECO joins GMI Cloud Japan modular data-center project; 6.4MW phase one targets 2027"
+      },
+      "summary": {
+        "zh": "東元電機 11 月 11 日宣布與 GMI Cloud 及凱信數基合作，在日本鹿兒島縣薩摩川內市建置 AI 模組化資料中心，首期規劃 6.4MW、預計以約 9 個月工期於 2027 年交付。東元將負責設計、機電系統整合及技術指導，尚未披露首期工程合約金額或已驗收的 IT 負載。",
+        "en": "On November 11, TECO said it would work with GMI Cloud and KSDI on a modular AI data center in Satsumasendai, Kagoshima, Japan. The first phase targets 6.4MW of capacity delivered in 2027 after an approximately nine-month build, with TECO responsible for design, electrical and mechanical integration and technical guidance; no contract price or commissioned IT load was disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "模組化資料中心的機電工程包含電力轉換、冷卻、配電、建築模組與設備測試。東元另與日本信越科學產業及 Kraftia 簽署三方合作備忘錄，該合作框架與當前 6.4MW 專案進度應分開標示。",
+            "en": "Modular data centers require integrated power conversion, distribution, cooling and commissioning. TECO separately described a tripartite MOU with Shinetsu Science Industry and Kraftia; that framework is not proof of additional commissioned capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "東元以承攬商角色參與首期約 9 個月的工程，預定 2027 年完成 6.4MW 交付。公司另提及向 350MW 的長期營運容量目標邁進，但未宣布該規模已確定核准、上電或簽訂單一工程合約，因此本版不將 350MW 視為已建容量。",
+            "en": "TECO's first phase is a planned nine-month project delivering 6.4MW in 2027. It also discussed a prospective 350MW operating capacity ambition without an approved, energized or individually contracted buildout at that scale, so the latter is not counted as installed capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "日本實際工地街址、首期總造價、電力取得核可、機櫃散熱規格與工程驗收日期尚未公布。",
+            "en": "The Japan site's street address, construction value, grid permits, rack cooling specifications and acceptance dates were not disclosed."
+          }
+        }
+      ],
+      "metric": "6.4MW",
+      "metricLabel": {
+        "zh": "首期計畫交付容量",
+        "en": "Planned first-phase delivered capacity"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 東元發布日本模組化資料中心計畫",
+            "en": "CNA · TECO's Japan modular data-center announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110178.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "建設專案地點：日本鹿兒島縣薩摩川內市；公司公告未揭露可核實的詳細工地街址。",
+        "en": "Project site: Satsumasendai, Kagoshima Prefecture, Japan; no verified street address for the development was supplied."
+      },
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "日本；台灣供應商",
+          "en": "Japan; Taiwanese supplier"
+        },
+        "industries": {
+          "zh": "資料中心；機房；供電；電源；液冷；散熱；工廠；投資",
+          "en": "Data centers; site power; power conversion; cooling; modular infrastructure; investment"
+        },
+        "chain": {
+          "zh": "供電、配電與散熱模組至資料中心機房",
+          "en": "Power distribution and cooling systems through modular data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "宣布工程合作，未披露個別合約金額。",
+            "en": "Engineering partnership announced without a contract value."
+          },
+          "demand": {
+            "zh": "首期 6.4MW 為預定交付容量，尚無實際上線負載。",
+            "en": "6.4MW is planned delivery capacity, not operating IT load."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "模組化資料中心的機電工程包含電力轉換、冷卻、配電、建築模組與設備測試。東元另與日本信越科學產業及 Kraftia 簽署三方合作備忘錄，該合作框架與當前 6.4MW 專案進度應分開標示。",
+            "en": "Modular data centers require integrated power conversion, distribution, cooling and commissioning. TECO separately described a tripartite MOU with Shinetsu Science Industry and Kraftia; that framework is not proof of additional commissioned capacity."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "日本實際工地街址、首期總造價、電力取得核可、機櫃散熱規格與工程驗收日期尚未公布。",
+            "en": "The Japan site's street address, construction value, grid permits, rack cooling specifications and acceptance dates were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "首期模組化資料中心計畫容量",
+            "en": "Planned modular data-center first-phase capacity"
+          },
+          "current": 6.4,
+          "unit": "MW",
+          "period": {
+            "zh": "預定 2027 年交付",
+            "en": "Targeted 2027 delivery"
+          },
+          "owner": {
+            "zh": "東元電機，中央社報導",
+            "en": "TECO, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110178.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機房電源轉換、機電測試及液冷控制設備供應商而言，東元公布了日本首期 6.4MW 工程整合範圍。仍需查明供電許可、設備規格、散熱方案及正式驗收，350MW 是更長期目標，不能併入首期產能。",
+        "en": "For data-center power conversion, electrical testing and cooling-control vendors, TECO described a 6.4MW integration scope. Grid approvals, tool specifications, thermal designs and acceptance remain unknown; the 350MW aspiration is not part of commissioned phase-one capacity."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "nstc-science-parks-investments-nov-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國科會園區審議會核准 6 件投資案、總額 103.07 億元；其中 1 件未公開",
+        "en": "NSTC approves six science-park investments worth NT$10.307B, one undisclosed"
+      },
+      "summary": {
+        "zh": "國科會科學園區審議會 11 月 11 日核准 6 件投資案，合計 103.07 億元，其中 1 件不公開；另有 9 件增資案、合計 25.7 億元。公開案包含中科台中園區的利易達半導體設備 0.33 億元、悟智智慧檢測 0.1405 億元，以及氫禾低碳電力服務 2 億元；無法將總額全部歸於半導體設備。",
+        "en": "On November 11, NSTC's science-park committee approved six investments totaling NT$10.307 billion, one of which was undisclosed, along with nine capital increases totaling NT$2.57 billion. Named Taichung projects include NT$33 million for Liyida Semiconductor Equipment, NT$14.05 million for AI inspection developer Wuzhi and NT$200 million for low-carbon power firm Hydrogen He; the entire aggregate cannot be attributed to semiconductor tools."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "國科會表示，利易達研發 12 吋晶圓光罩對準機、微影及光罩護膜檢測；悟智提供工廠外觀與缺陷自動光學檢測；氫禾規劃使用廢氨或廢氫回收產生低碳電力。這些是分屬設備、檢測及電力不同領域的核准投資。",
+            "en": "NSTC described Liyida's 12-inch wafer mask aligner and defect-inspection work, Wuzhi's machine-vision AOI systems, and Hydrogen He's plans to generate low-carbon electricity from recovered ammonia and hydrogen. These are distinct equipment, inspection and site-power categories."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "國科會公告總額 103.07 億元含未公開案，核准的公示項目分散在新竹及中科。利易達提及 1 微米解析度光罩對準及未來先進封裝基板曝光能力，但未公布設備出貨；9 件增資案 25.7 億元與 6 件新投資案為不同統計，不能當成單一類別金額。",
+            "en": "NSTC's total includes an undisclosed project among approvals across Hsinchu and Central Taiwan. Liyida described a 1μm mask-aligner resolution and prospective advanced substrate exposure but disclosed no tool shipment counts. The nine capital increases totaling NT$2.57 billion are a separate category from the six new investment approvals."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "未公開投資案產業分類、各設備實際驗收、供電項目量產時間及所有項目交割進度未揭露。",
+            "en": "The undisclosed investment's sector, equipment acceptance, energy commissioning dates and actual funding disbursement remain unknown."
+          }
+        }
+      ],
+      "metric": "NT$10.307B",
+      "metricLabel": {
+        "zh": "六件投資案核准合計",
+        "en": "Six approved investments in aggregate"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 國科會第 36 次園區審議",
+            "en": "CNA · NSTC 36th science-park investment review"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110315.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "投資案分布：台灣台中市中部科學園區台中園區及新竹科學園區等地；個別廠房地址未在本次摘要完整公布。",
+        "en": "Project locations: Central Taiwan Science Park Taichung campus and Hsinchu Science Park, Taiwan, among other approved sites; individual street addresses not fully disclosed."
+      },
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體設備；晶圓；先進封裝；測試；工廠自動化；電源；園區；投資",
+          "en": "Semiconductor tools; wafers; packaging; testing; automation; site power; parks; investment"
+        },
+        "chain": {
+          "zh": "微影設備與 AOI 檢測、園區低碳供電至投資",
+          "en": "Lithography tools, AOI inspection and science-park power investments"
+        },
+        "changes": {
+          "investment": {
+            "zh": "核准六件投資案 103.07 億元及另九件增資案 25.7 億元，其中一案未公開。",
+            "en": "Approved six investments totaling NT$10.307B and separately nine capital increases totaling NT$2.57B; one investment is undisclosed."
+          },
+          "demand": {
+            "zh": "未公布新增實際出貨量或客戶訂單金額。",
+            "en": "No new realized shipment volumes or customer contract value disclosed."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "國科會表示，利易達研發 12 吋晶圓光罩對準機、微影及光罩護膜檢測；悟智提供工廠外觀與缺陷自動光學檢測；氫禾規劃使用廢氨或廢氫回收產生低碳電力。這些是分屬設備、檢測及電力不同領域的核准投資。",
+            "en": "NSTC described Liyida's 12-inch wafer mask aligner and defect-inspection work, Wuzhi's machine-vision AOI systems, and Hydrogen He's plans to generate low-carbon electricity from recovered ammonia and hydrogen. These are distinct equipment, inspection and site-power categories."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "未公開投資案產業分類、各設備實際驗收、供電項目量產時間及所有項目交割進度未揭露。",
+            "en": "The undisclosed investment's sector, equipment acceptance, energy commissioning dates and actual funding disbursement remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "六件核准投資案合計",
+            "en": "Total six approved investments"
+          },
+          "current": 10.307,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日審議",
+            "en": "November 11, 2026 approval"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110315.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "九件增資案合計",
+            "en": "Total nine capital increases"
+          },
+          "current": 2.57,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日審議",
+            "en": "November 11, 2026 approval"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110315.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "利易達設備投資",
+            "en": "Liyida equipment investment"
+          },
+          "current": 0.033,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日審議",
+            "en": "November 11, 2026 approval"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110315.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "氫禾低碳能源投資",
+            "en": "Hydrogen He low-carbon power investment"
+          },
+          "current": 0.2,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日審議",
+            "en": "November 11, 2026 approval"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110315.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對微影設備電源、晶圓對位量測與科學園區供電設備供應商而言，國科會核准數個不同產業投資案。需逐案確認正式設備採購、製程規格、園區配電容量及驗收時程，總額包含未公開投資，無法全數視為半導體工具需求。",
+        "en": "For lithography process power, wafer alignment metrology and science-park energy suppliers, NSTC approved investments spanning different sectors. Specific purchase orders, process requirements, power ratings and acceptance remain unknown; the undisclosed project precludes attributing the aggregate to semiconductor tools."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "winway-probe-q3-2026-revenue-cpo-test",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "旺矽第三季營收 59.04 億元，探針卡產能緊張；CPO 測試仍在驗證",
+        "en": "WinWay Q3 revenue reaches NT$5.904B; probe-card capacity tight, CPO testing under validation"
+      },
+      "summary": {
+        "zh": "旺矽 11 月 11 日公布第三季營收 59.04 億元，季增 13%、年增 73%，歸屬母公司淨利約 18.8 億元，毛利率接近 62%。公司表示垂直式與 MEMS 探針卡持續滿載，CPO 測試方案已與客戶進行設計及驗證，但未宣布正式量產驗收。",
+        "en": "On November 11, WinWay reported Q3 revenue of NT$5.904 billion, up 13% QoQ and 73% YoY, and attributable profit of approximately NT$1.88 billion with gross margin near 62%. Management said vertical and MEMS probe-card capacity is fully utilized, while CPO test solutions remain in customer design and validation rather than accepted mass production."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "探針卡連接晶圓與測試設備，用於晶圓電性驗證及高密度接觸；旺矽供應垂直式、MEMS 與懸臂式探針卡。CPO 光學測試涉及不同的光電測試方法，因此公司所稱 CPO 驗證不等於探針卡已達成所有新產品量產。",
+            "en": "Probe cards connect wafers to electrical testers and include vertical, MEMS and cantilever formats. Co-packaged optics test involves distinct optoelectronic validation, so ongoing CPO customer discussions do not establish completed mass-production acceptance."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "旺矽前 3 季營收 150.7 億元、年增 58%，稅後獲利 46.3 億元、約年增一倍。公司稱與客戶共同開發計畫的能見度延伸至 2028 年，仍屬管理層對研發和需求的預期；第三季毛利率約 62% 受產品組合與稼動率影響。",
+            "en": "Nine-month revenue was NT$15.07 billion, up 58% YoY, with after-tax profit of NT$4.63 billion, approximately twice the prior year. Management described visibility in joint development programs through 2028; that outlook does not disclose guaranteed contract value. Q3 margin near 62% was attributed to product mix and utilization."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "各探針卡實際出貨量、測試良率、CPO 方案量產認證與 2028 年合作計畫的確定合約金額未公布。",
+            "en": "Probe-card unit shipments, yields, CPO mass-production certification and firm contract values for 2028 joint programs remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$5.904B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 旺矽第三季財報與 CPO 測試",
+            "en": "CNA · WinWay Q3 results and CPO testing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110305.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；半導體設備；測試；封測；封裝；光通訊；CPO",
+          "en": "Wafers; semiconductor equipment; testing; packaging; optical interconnects; CPO"
+        },
+        "chain": {
+          "zh": "晶圓電性測試與探針卡至先進封裝光學驗證",
+          "en": "Wafer electrical test and probe cards through advanced optical validation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增核准投資額。",
+            "en": "No incremental approved investment disclosed."
+          },
+          "demand": {
+            "zh": "公司稱 VPC、MEMS 探針卡滿載，CPO 測試仍在驗證，沒有出貨件數。",
+            "en": "Management says VPC and MEMS probe cards are fully loaded; CPO testing is under validation without unit counts."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "探針卡連接晶圓與測試設備，用於晶圓電性驗證及高密度接觸；旺矽供應垂直式、MEMS 與懸臂式探針卡。CPO 光學測試涉及不同的光電測試方法，因此公司所稱 CPO 驗證不等於探針卡已達成所有新產品量產。",
+            "en": "Probe cards connect wafers to electrical testers and include vertical, MEMS and cantilever formats. Co-packaged optics test involves distinct optoelectronic validation, so ongoing CPO customer discussions do not establish completed mass-production acceptance."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "各探針卡實際出貨量、測試良率、CPO 方案量產認證與 2028 年合作計畫的確定合約金額未公布。",
+            "en": "Probe-card unit shipments, yields, CPO mass-production certification and firm contract values for 2028 joint programs remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 5.904,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "旺矽，中央社報導",
+            "en": "WinWay, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110305.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.73,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸屬母公司淨利約數",
+            "en": "Approximate Q3 attributable profit"
+          },
+          "current": 1.88,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "旺矽，中央社報導",
+            "en": "WinWay, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110305.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率約數",
+            "en": "Q3 gross margin, approximate"
+          },
+          "current": 0.62,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "旺矽，中央社報導",
+            "en": "WinWay, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110305.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季營收",
+            "en": "Nine-month revenue"
+          },
+          "current": 15.07,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "旺矽，中央社報導",
+            "en": "WinWay, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110305.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "reportedRate": 0.58,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前 3 季稅後獲利",
+            "en": "Nine-month profit after tax"
+          },
+          "current": 4.63,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "旺矽，中央社報導",
+            "en": "WinWay, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110305.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓測試用精密電源、探針接觸量測及光學測試供應商而言，旺矽提供探針卡產線稼動與新產品驗證狀態。仍需核對 CPO 測試客戶規格、探針卡出貨台數與試產驗收，聯合開發能見度不等於已簽約採購量。",
+        "en": "For wafer-test precision power, probe-contact metrology and optical testing vendors, WinWay reported probe-card utilization and product validation status. CPO requirements, probe shipments and acceptance remain undisclosed; joint development visibility is not a contracted purchase volume."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "trendforce-nov11-2026-pc-dram-ssd-contract-outlook",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "TrendForce 預估第四季 PC DRAM 合約價季增 13% 至 18%，Client SSD 漲幅收斂",
+        "en": "TrendForce forecasts 13%–18% Q4 PC DRAM contract-price rise, weaker client SSD increase"
+      },
+      "summary": {
+        "zh": "TrendForce 11 月 11 日發布研究，預估 2026 年第四季 PC DRAM 合約價季增 13% 至 18%，Client SSD 合約價季增幅在 5% 以內。研究指出第三季筆電出貨季減 15.8%，部分 PC OEM 因整機庫存及成本壓力調整今年第四季與明年第一季記憶體採購；價格區間屬研究機構預測。",
+        "en": "On November 11, TrendForce forecast Q4 2026 PC DRAM contract prices to rise 13%–18% QoQ and client SSD prices to increase by less than 5%. It reported a 15.8% QoQ decline in Q3 notebook shipments and said some PC OEMs are revising Q4 and Q1 2027 memory procurement amid finished-goods inventories; the price ranges are research forecasts."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "PC DRAM 與 Client SSD 屬 PC 端採購分類，與伺服器 DRAM、HBM 及企業級 SSD 的定價模式不同。TrendForce 指出 AI 需求影響記憶體原廠產能分配，但未公布所有廠商的已簽價格合約，因此不能推論每一家台灣記憶體業者實際成交價均依相同幅度變動。",
+            "en": "PC DRAM and client SSDs are distinct from server DRAM, HBM and enterprise SSDs. TrendForce noted memory capacity allocation toward AI products, but it did not publish each supplier's executed contract prices, so the forecast does not define realized rates for every Taiwanese vendor."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "TrendForce 認為 PC OEM 過去曾提前採購，第三季後整機庫存增加；報告估計 PC DRAM 季增幅比前季縮小，而 Client SSD 受 PC 端議價及成本控制影響，第四季漲幅低於 5%。其中 15.8% 是第三季筆電出貨的研究估計，不應與合約價增幅混為同一基期。",
+            "en": "TrendForce stated that early procurement and weaker notebook sales have raised finished-PC inventory. It expects PC DRAM inflation to moderate and client SSD contract prices to rise by under 5%. The 15.8% figure refers to Q3 notebook unit shipment decline, not memory pricing."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "各台灣 DRAM 及 NAND 廠實際合約價、2027 年已確定採購數量與第四季最終結算價格仍未公布。",
+            "en": "Realized contract prices by Taiwanese DRAM and NAND suppliers, confirmed 2027 purchase volumes and final Q4 settlements remain unavailable."
+          }
+        }
+      ],
+      "metric": "13%–18%",
+      "metricLabel": {
+        "zh": "第四季 PC DRAM 季增預測範圍",
+        "en": "Forecast Q4 PC DRAM QoQ price growth range"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "TrendForce · 11 月 11 日記憶體價格研究",
+            "en": "TrendForce · November 11 memory contract price research"
+          },
+          "url": "https://www.trendforce.com.tw/presscenter/news/20261111-13301.html",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "DRAM；記憶體；NAND；SSD；PC；整機；伺服器",
+          "en": "DRAM; memory; NAND; SSDs; PCs; systems; servers"
+        },
+        "chain": {
+          "zh": "DRAM 與 NAND／SSD 記憶體至 PC 整機",
+          "en": "DRAM and NAND/SSD memory through PC systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "本次未公布新增核准投資額。",
+            "en": "No incremental approved investment disclosed."
+          },
+          "demand": {
+            "zh": "研究指出部分 PC OEM 已重新檢視第四季與 2027 年第一季採購，尚無個別採購量。",
+            "en": "Research says some PC OEMs are reviewing Q4 and Q1 2027 purchases, without buyer-specific volumes."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "PC DRAM 與 Client SSD 屬 PC 端採購分類，與伺服器 DRAM、HBM 及企業級 SSD 的定價模式不同。TrendForce 指出 AI 需求影響記憶體原廠產能分配，但未公布所有廠商的已簽價格合約，因此不能推論每一家台灣記憶體業者實際成交價均依相同幅度變動。",
+            "en": "PC DRAM and client SSDs are distinct from server DRAM, HBM and enterprise SSDs. TrendForce noted memory capacity allocation toward AI products, but it did not publish each supplier's executed contract prices, so the forecast does not define realized rates for every Taiwanese vendor."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "各台灣 DRAM 及 NAND 廠實際合約價、2027 年已確定採購數量與第四季最終結算價格仍未公布。",
+            "en": "Realized contract prices by Taiwanese DRAM and NAND suppliers, confirmed 2027 purchase volumes and final Q4 settlements remain unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第四季 PC DRAM 價格季增預測下限",
+            "en": "Q4 PC DRAM QoQ price growth lower bound"
+          },
+          "current": 0.13,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第四季",
+            "en": "Q4 2026"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com.tw/presscenter/news/20261111-13301.html",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第四季 PC DRAM 價格季增預測上限",
+            "en": "Q4 PC DRAM QoQ price growth upper bound"
+          },
+          "current": 0.18,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第四季",
+            "en": "Q4 2026"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com.tw/presscenter/news/20261111-13301.html",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第四季 Client SSD 價格漲幅上界",
+            "en": "Q4 client SSD price growth upper threshold"
+          },
+          "current": 0.05,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第四季",
+            "en": "Q4 2026"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com.tw/presscenter/news/20261111-13301.html",
+          "kind": "預測",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "原始研究為漲幅在 5% 以內，圖表 5% 僅作上界，不代表預估值恰為 5%。"
+        },
+        {
+          "name": {
+            "zh": "第三季筆電出貨季變動",
+            "en": "Q3 notebook shipments QoQ change"
+          },
+          "current": -0.158,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TrendForce",
+            "en": "TrendForce"
+          },
+          "sourceUrl": "https://www.trendforce.com.tw/presscenter/news/20261111-13301.html",
+          "kind": "官方估計",
+          "comparison": "QoQ",
+          "reportedRate": -0.158,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電源管理 IC、PC 主機板供電及記憶體測試儀器供應商而言，TrendForce 說明 PC 端 DRAM 與 SSD 採購及合約價預測的分歧。仍須核實各客戶實際採購量、已簽價格與記憶體測試產能，研究區間並不等同已實現成交價。",
+        "en": "For power-management IC, PC board power and memory-test vendors, TrendForce describes diverging PC DRAM and SSD procurement and contract-price forecasts. Actual buyer volumes, executed prices and test capacity remain unverified; forecast ranges are not realized transactions."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "mechema-thailand-chemical-factory-capex-nov11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "美琪瑪核准泰國子公司建廠預算 2.3 億泰銖，另決議增資 2 億泰銖",
+        "en": "Mechema approves THB230M Thailand factory budget and separate THB200M subsidiary capital increase"
+      },
+      "summary": {
+        "zh": "美琪瑪 11 月 11 日公告，董事會核准泰國全資子公司 MECHEMA CHEMICALS (THAILAND) 的建廠資本支出預算 2.3 億泰銖，另決議對該公司增資 2 億泰銖。公司主要經營醋酸鈷、錳與磁性材料等製造業務，公告未揭露新廠選址、設備規格或實際年產量；建廠預算與增資為不同資金口徑，不應視為兩座工廠。",
+        "en": "On November 11, Mechema said its board approved THB230 million in capex for a wholly owned Thai subsidiary factory and a separate THB200 million subsidiary capital increase. The company makes cobalt and manganese acetate and magnetic materials, but no new factory site, equipment specification or annual output was disclosed; the capital increase and factory budget are distinct funding measures, not two factories."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "美琪瑪經營化學及磁性材料生產，亞洲營運據點包括泰國與印尼。建廠預算可由自有資金或銀行融資執行，子公司增資則屬法人資金配置；兩者可能服務同一工程，未有文件顯示全部資金可作為互不重疊的新增支出。",
+            "en": "Mechema operates in specialty chemicals and magnetic materials with Asian sites including Thailand and Indonesia. Factory capex may be funded with internal cash or bank financing, while subsidiary capitalization is a legal funding transaction. The two may support the same project and should not be automatically added as distinct physical investments."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "中央社依公司重大訊息報導，泰國建廠預算預計 2.3 億泰銖，增資金額 2 億泰銖，增資後累計持有泰國子公司證券金額達 3.31 億泰銖，股權維持 100%。公司前三季營收 23.46 億元、歸屬母公司獲利 3.23 億元；這些是台幣集團實績，與泰銖資金決議不可直接加總。",
+            "en": "CNA's reproduction of company filings reports THB230 million planned factory capex, THB200 million capital increase, cumulative investment in subsidiary securities of THB331 million and full ownership. Nine-month consolidated revenue was NT$2.346 billion with attributable profit NT$323 million; those TWD actuals are separate from THB board budgets."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "泰國工地城市、建廠完成日、特定產品年產能、設備驗收、增資實際匯款日期及是否用於同一工程尚未公布。",
+            "en": "Thai plant city, completion date, output by product, tool acceptance, remittance schedule and exact relationship between funding measures remain undisclosed."
+          }
+        }
+      ],
+      "metric": "THB 230M",
+      "metricLabel": {
+        "zh": "泰國子公司建廠資本預算",
+        "en": "Thai subsidiary factory capex budget"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社東協財經 · 美琪瑪泰國建廠與增資公告",
+            "en": "CNA ASEAN Finance · Mechema Thailand factory and capitalization"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611113009.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "投資專案所在國：泰國，MECHEMA CHEMICALS (THAILAND) 子公司；公告尚未提供可核實的工廠城市或街址。",
+        "en": "Project country: Thailand, MECHEMA CHEMICALS (THAILAND) subsidiary; the announcement gave no verified factory city or street address."
+      },
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "泰國；台灣",
+          "en": "Thailand; Taiwan"
+        },
+        "industries": {
+          "zh": "化學材料；磁性材料；設備；工廠；投資；FDI",
+          "en": "Chemicals; magnetic materials; industrial equipment; factories; FDI"
+        },
+        "chain": {
+          "zh": "化學及磁性材料至泰國工廠擴充投資",
+          "en": "Chemicals and magnetic materials through Thai factory investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "建廠預算 2.3 億泰銖，另增資子公司 2 億泰銖，可能涉及同一工程的不同資金用途。",
+            "en": "THB230M factory capex budget and separate THB200M subsidiary capitalization may fund overlapping project activities."
+          },
+          "demand": {
+            "zh": "未公布新增實際出貨量或客戶訂單金額。",
+            "en": "No new realized shipment volumes or customer contract value disclosed."
+          },
+          "fdi": {
+            "zh": "台灣母公司決議對泰國全資子公司增資 2 億泰銖，實際跨境匯款尚未確認。",
+            "en": "Taiwan parent approved THB200M in subsidiary funding; cross-border remittance has not been verified."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "美琪瑪經營化學及磁性材料生產，亞洲營運據點包括泰國與印尼。建廠預算可由自有資金或銀行融資執行，子公司增資則屬法人資金配置；兩者可能服務同一工程，未有文件顯示全部資金可作為互不重疊的新增支出。",
+            "en": "Mechema operates in specialty chemicals and magnetic materials with Asian sites including Thailand and Indonesia. Factory capex may be funded with internal cash or bank financing, while subsidiary capitalization is a legal funding transaction. The two may support the same project and should not be automatically added as distinct physical investments."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "泰國工地城市、建廠完成日、特定產品年產能、設備驗收、增資實際匯款日期及是否用於同一工程尚未公布。",
+            "en": "Thai plant city, completion date, output by product, tool acceptance, remittance schedule and exact relationship between funding measures remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "泰國建廠資本支出預算",
+            "en": "Thailand factory capex budget"
+          },
+          "current": 230000000,
+          "unit": "泰銖",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "美琪瑪，中央社引述",
+            "en": "Mechema, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611113009.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "泰國子公司新增資本金",
+            "en": "Thai subsidiary capital increase"
+          },
+          "current": 200000000,
+          "unit": "泰銖",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "美琪瑪，中央社引述",
+            "en": "Mechema, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611113009.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季合併營收",
+            "en": "Nine-month consolidated revenue"
+          },
+          "current": 2.346,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "美琪瑪，中央社引述",
+            "en": "Mechema, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611113009.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季歸屬母公司淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 0.323,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "美琪瑪，中央社引述",
+            "en": "Mechema, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611113009.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密工業電源、化學材料製程控制與廠務量測供應商而言，美琪瑪核准泰國廠房預算與子公司資金安排。仍需確認實際建廠產品、產線設備與採購規格，並避免把同一工程可能使用的增資及資本支出相加當作不同設備需求。",
+        "en": "For industrial precision power, chemical process control and facility metrology suppliers, Mechema approved Thai factory capital and subsidiary funding. Facility products, tool specifications and procurement remain unknown; potentially overlapping capitalization and capex cannot be counted as separate equipment demand."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "nstc-2026-core-technology-highend-substrate-proposed",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國科會預告核心關鍵技術清單擬增至 46 項，新增高階 AI 晶片載板",
+        "en": "NSTC proposes expanding protected core technologies to 46, including advanced AI chip substrates"
+      },
+      "summary": {
+        "zh": "國科會 11 月 11 日預告國家核心關鍵技術項目修正草案，擬將現行 42 項調整至 46 項，新增 4 項、變更 6 項名稱。新增項目包括 IC 封測高階 AI 晶片載板技術，預告徵詢意見至 11 月 25 日，年底前預定審議，尚未完成最終行政院公告。",
+        "en": "On November 11, Taiwan's NSTC announced draft revisions to its national core-technology list, proposing an increase from 42 to 46 items through four additions and six renamed items. The additions include advanced AI chip substrate technology for IC packaging and testing, with public feedback open until November 25 and further review planned before year-end; no final government designation has been issued."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "這份清單與重要技術營業秘密及國家安全保護制度相關，半導體新增項目著眼高階 AI 晶片載板技術，另涵蓋低軌衛星通訊、無人機及生醫技術。修正預告階段不能推定所有相關廠商已遭新增限制，仍需等待正式審認項目和適用範圍。",
+            "en": "The list concerns protection of sensitive know-how and trade secrets, spanning advanced AI substrates, low-Earth-orbit communications, drones and biotechnology. A draft proposal does not by itself establish new compliance restrictions for every supplier; final classifications and scope remain pending."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告與數字口徑",
+            "en": "Announcement and figure definitions"
+          },
+          "text": {
+            "zh": "國科會表示草案新增 4 項、名稱調整 6 項，預告期間徵詢業界意見，預定年底前由審議會審認後送行政院公告。相關內容含低軌衛星酬載通訊與波束控制、IC 高階 AI 載板以及無人機飛控，實際法律效果仍以未來公告為準。",
+            "en": "NSTC said the draft would add four subjects and rename six, solicit comments, seek a review before year-end, and then submit the list for Executive Yuan publication. Its proposed topics include LEO satellite communication and beam control, advanced AI IC substrates and drone flight-control technology; any final legal effect depends on later adoption."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Unconfirmed details"
+          },
+          "text": {
+            "zh": "最終正式公布日期、各項保護技術定義、對現有封測及載板業者的實際適用情況尚未確定。",
+            "en": "Final publication date, protected technical definitions and exact applicability to packaging and substrate suppliers remain undecided."
+          }
+        }
+      ],
+      "metric": "46 項",
+      "metricLabel": {
+        "zh": "草案所列擬修正技術總項數",
+        "en": "Proposed total listed technologies"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 國科會核心技術修正草案",
+            "en": "CNA · NSTC proposed core technology amendments"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110311.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "封裝；封測；載板；基板；晶片設計；材料；設備；政策",
+          "en": "Packaging; substrates; IC design; materials; equipment; policy"
+        },
+        "chain": {
+          "zh": "高階基板及封裝測試技術至政策規範草案",
+          "en": "Advanced substrates and packaging/test through proposed policy"
+        },
+        "changes": {
+          "investment": {
+            "zh": "草案未核准新的半導體投資額。",
+            "en": "The proposal does not approve new semiconductor investment."
+          },
+          "demand": {
+            "zh": "未公布新增實際出貨量或客戶訂單金額。",
+            "en": "No new realized shipment volumes or customer contract value disclosed."
+          },
+          "fdi": {
+            "zh": "本次未揭露外國直接投資金額。",
+            "en": "No FDI amount disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "這份清單與重要技術營業秘密及國家安全保護制度相關，半導體新增項目著眼高階 AI 晶片載板技術，另涵蓋低軌衛星通訊、無人機及生醫技術。修正預告階段不能推定所有相關廠商已遭新增限制，仍需等待正式審認項目和適用範圍。",
+            "en": "The list concerns protection of sensitive know-how and trade secrets, spanning advanced AI substrates, low-Earth-orbit communications, drones and biotechnology. A draft proposal does not by itself establish new compliance restrictions for every supplier; final classifications and scope remain pending."
+          },
+          "timing": {
+            "zh": "11 月 11 日公告；預測與規劃尚待實現。",
+            "en": "Reported November 11; projections and plans are pending."
+          },
+          "unknowns": {
+            "zh": "最終正式公布日期、各項保護技術定義、對現有封測及載板業者的實際適用情況尚未確定。",
+            "en": "Final publication date, protected technical definitions and exact applicability to packaging and substrate suppliers remain undecided."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "修正草案規劃技術項數",
+            "en": "Proposed total core technology items"
+          },
+          "current": 46,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 11 月 11 日預告草案",
+            "en": "Draft published November 11, 2026"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110311.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "草案新增項目數",
+            "en": "Proposed additions"
+          },
+          "current": 4,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 11 月 11 日預告草案",
+            "en": "Draft published November 11, 2026"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110311.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "草案名稱調整數",
+            "en": "Proposed renamings"
+          },
+          "current": 6,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 11 月 11 日預告草案",
+            "en": "Draft published November 11, 2026"
+          },
+          "owner": {
+            "zh": "國科會，中央社報導",
+            "en": "NSTC, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110311.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "reportedRate": null,
+          "base": null,
+          "basePeriod": null,
+          "baseStatus": "未提供相同口徑的直接比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封裝載板測試、精密電源與量測設備供應商而言，國科會草案顯示高階 AI 載板技術可能列入更嚴格的技術保護清單。需待正式公告、定義範圍及實際合規要求，草案目前不證明特定製程或設備已受到新規範。",
+        "en": "For advanced substrate test, precision-power and metrology vendors, the NSTC draft identifies possible added protection for AI chip substrate know-how. Formal definitions and compliance requirements remain pending; the proposal alone does not establish new restrictions on particular process equipment."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "緯創新台灣預算與墨西哥預算可以加總嗎？",
+        "en": "Can Wistron's Taiwan and Mexico capex be aggregated?"
+      },
+      "text": {
+        "zh": "台南與新竹同屬新台幣，119 億元與 9.39 億元可合計為 128.39 億元；墨西哥則是 1,776 萬美元，需保留原幣別。新竹使用權資產另外屬租賃安排。",
+        "en": "Tainan and Hsinchu are both in TWD and total NT$12.839B; Mexico's US$17.76M remains in USD. The separate Hsinchu right-of-use transaction covers leasing."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "東元日本資料中心的 6.4MW 已經上線嗎？",
+        "en": "Is TECO's Japanese 6.4MW facility operational?"
+      },
+      "text": {
+        "zh": "6.4MW 是預計在 2027 年交付的首期容量，尚未有實際上電驗收資料，350MW 亦僅為較長期計畫。",
+        "en": "The 6.4MW phase is targeted for 2027 and has no confirmed energization or acceptance; 350MW remains a longer-term aspiration."
+      }
+    },
+    {
+      "id": 7,
+      "question": {
+        "zh": "TrendForce 的 PC DRAM 漲價 13% 至 18% 是已成交價格嗎？",
+        "en": "Are TrendForce's 13%–18% PC DRAM increases realized transactions?"
+      },
+      "text": {
+        "zh": "研究機構對第四季合約價的預測，沒有逐家公布已簽定價或買方採購量。Client SSD 的 5% 是漲幅上界，並非預估必然漲到 5%。",
+        "en": "These are Q4 contract-price forecasts without executed buyer-level pricing or unit purchases. The client SSD figure is an upper bound, not an exact 5% increase."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "台積電熊本第二廠 3 奈米計畫先前已獲確認",
+        "en": "TSMC Kumamoto Phase II 3nm plan predates this edition"
+      },
+      "text": {
+        "zh": "日本政府於 2026 年 10 月已核定熊本第二工廠 3 奈米計畫的補助資格，11 月 11 日台積電主管在東京重述日本製造布局。因為並無可核對的新核准或新產能數字，本次不將既有計畫重新列為新建廠公告。",
+        "en": "Japan had approved the Kumamoto Phase II 3nm subsidy eligibility in October 2026. A November 11 executive speech reiterated the plan without a newly approved output figure, so it is treated as dated background."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "數據註記",
+      "en": "Data notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價、人物傳聞與先前建廠公告",
+        "en": "Price moves, personal rumors and repeated factory plans"
+      },
+      "text": {
+        "zh": "本期不收錄股價波動、與供應鏈實際運作無直接關係的人物傳聞、缺乏合約依據的設備需求猜測，或過去已核准而沒有新進度的產能公告。",
+        "en": "Price-only moves, personal controversies without verified operational impact, unsupported equipment-order speculation and previously approved plans without new milestones were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "緯創財報與投資案已核對其 11 月 11 日正式公告。TrendForce 價格區間為研究機構預測，並非已簽合約。廣達及大銀微系統的 2027 年需求、稼動率與資本支出目標屬管理階層展望；旺矽的 CPO 技術仍在驗證。東元日本首期 6.4MW 尚未交付，350MW 屬更長期目標。科學園區投資總額包含一件未公開案，且泰國美琪瑪增資可能與建廠預算涉及相同工程；國科會技術清單仍為修正草案。部分官方頁面無法直接完整開啟，相關新聞保留二手或來源受限標記。",
+    "en": "Wistron's board and financial figures were checked against its November 11 company release. TrendForce price ranges are forecasts, not executed contracts. Quanta and HIWIN's 2027 targets are management guidance, while WinWay's CPO program remains under validation. TECO's 6.4MW first phase has not been delivered, and 350MW is a longer-term aspiration. The science-park investment total includes one confidential case; Mechema's capitalization may overlap project funding. NSTC's technology list remains a draft. Some official pages could not be fully opened and relevant stories are marked second-hand or source-limited."
+  }
+}

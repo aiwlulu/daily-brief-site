@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-08",
-  "generatedAt": "2026-11-10T12:24:34.000Z",
+  "generatedAt": "2026-11-11T15:17:28.000Z",
   "throughline": {
-    "zh": "台灣晶圓與封測業者公布 10 月營收，中科更新新廠水電工程進度，機械出口與伺服器 ODM 財報則揭露供應鏈不同環節的營運數據。",
-    "en": "Taiwanese foundry and OSAT companies reported October sales, CTSP updated fab utility construction, and machinery exports and server ODM results documented separate supply-chain activities."
+    "zh": "緯創與廣達發布伺服器產能和財務進展，台灣精密測試設備廠公布 CPO 進度，並新增日本資料中心、泰國材料工廠與記憶體採購預測消息。",
+    "en": "Wistron and Quanta disclosed server factory and financial developments, precision test suppliers updated CPO progress, and Japanese data-center, Thai materials factory and memory procurement announcements added new regional evidence."
   },
   "highlights": [
     {
       "id": 1,
       "category": "taiwan",
       "title": {
-        "zh": "晶圓代工、先進封測及廠務建設",
-        "en": "Wafer foundry, advanced packaging and fab infrastructure"
+        "zh": "晶圓、封裝測試、設備與科技園區投資",
+        "en": "Wafers, packaging/test, equipment and science-park investment"
       },
       "summary": {
-        "zh": "本週京鼎、均華、均豪、志聖、業成、漢測與崇越披露半導體設備、封裝、測試及材料相關進度。11 月 10 日台積電公布 10 月晶圓代工營收，日月光區分集團與封測材料收入，中科公布水電及工程節點，各數字分別屬實績、公共工程與未來規劃。",
-        "en": "Foxsemicon, Gallant, Gallant Micro, C Sun, GIS-KY, Hermes and Topco reported tool, packaging, testing and materials developments. On November 10 TSMC reported foundry sales, ASEH distinguished group from OSAT-materials revenue, and CTSP updated utilities progress, spanning actuals, public works and planned milestones."
+        "zh": "本週晶圓代工、封測、測試與材料業者陸續公布營收、工程進度及新計畫。11 月 11 日大銀微系統報告 CPO 定位平台已出貨，旺矽揭露探針卡與光學測試進展，國科會核准園區投資案並預告高階載板技術清單修正，實際出貨、核准資本與草案規範須依各事件分開閱讀。",
+        "en": "Foundry, packaging, testing and materials companies reported sales and project developments. On November 11 HIWIN MIKROSYSTEM disclosed CPO platform shipments, WinWay described probe-card and optical testing progress, and NSTC approved park projects while proposing substrate technology-list changes. Actual output, investment approvals and draft rules remain distinct."
       },
       "references": [
         {
@@ -61,6 +61,22 @@
         {
           "date": "2026-11-11",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 9
         }
       ]
     },
@@ -68,12 +84,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "工業電源、精密機械與零組件出口",
-        "en": "Industrial power, precision machinery and component exports"
+        "zh": "機櫃電源、精密機械與跨境材料廠投資",
+        "en": "Rack power, precision machinery and overseas materials investment"
       },
       "summary": {
-        "zh": "本週中鋼燃料電池規劃與奇鋐、台達電、光寶科、國巨等公司公告涉及供電、散熱與被動元件。11 月 10 日機械及工具機公會分別發布出口數據，電子設備、工具機整機和機械零組件的產品分類與比較期間應分開閱讀。",
-        "en": "China Steel's fuel-cell plan and results from AVC, Delta, Lite-On and Yageo span site power, cooling and components. On November 10 machinery and machine-tool associations reported export values with separate definitions and comparison periods for electronic equipment, finished machines and parts."
+        "zh": "中鋼、奇鋐、台達電、光寶科與國巨各自公布工業電力、散熱和零組件資訊，機械公會亦發布工具機與關鍵零組件出口額。11 月 11 日美琪瑪另核准泰國廠房支出及子公司增資，兩項資金決議可能涉及同一工程，無法直接合併為不同設備採購。",
+        "en": "China Steel, AVC, Delta, Lite-On and Yageo reported site power, cooling or components activity alongside machinery export data. On November 11 Mechema approved a Thai factory budget and subsidiary capitalization, potentially supporting the same project and not establishing separate equipment orders."
       },
       "references": [
         {
@@ -103,6 +119,10 @@
         {
           "date": "2026-11-11",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 8
         }
       ]
     },
@@ -110,12 +130,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "資料中心施工、供水與伺服器系統交付",
-        "en": "Data-center construction, water and server-system deliveries"
+        "zh": "資料中心建設與伺服器 ODM 產能安排",
+        "en": "Data-center projects and server ODM capacity"
       },
       "summary": {
-        "zh": "馬來西亞資料中心承包合約與印尼巴淡島供水爭議各有尚待確認的工程範圍及因果關係。華碩、廣達、和碩與英業達陸續揭露伺服器營運收入與管理層展望，其中機櫃實際出貨及 2027 年成長預測須與已實現集團收入區分。",
-        "en": "Malaysian data-center contracts and Batam water issues carry unresolved contract scope and causality questions. ASUS, Quanta, Pegatron and Inventec reported server-related business and outlooks, with rack shipment counts and 2027 forecasts separate from actual consolidated revenue."
+        "zh": "馬來西亞與印尼機房工程、供水議題仍有各自的合約或因果限制，華碩、英業達與和碩公布伺服器相關營收。11 月 11 日緯創新增台灣及墨西哥產能預算、廣達終止友達華亞廠收購並調整方案，東元則宣布日本首期 6.4MW 模組化機房工程計畫，投資核准與實際上電驗收分屬不同狀態。",
+        "en": "Malaysian and Indonesian data-center projects retain unresolved contract and water issues, while ASUS, Inventec and Pegatron reported server-related sales. On November 11 Wistron approved Taiwan/Mexico capex, Quanta canceled a planned AUO acquisition and TECO announced a Japanese 6.4MW modular facility. Approved budgets, plans and commissioned loads are distinct."
       },
       "references": [
         {
@@ -145,6 +165,18 @@
         {
           "date": "2026-11-11",
           "storyId": 5
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 4
         }
       ]
     },
@@ -152,12 +184,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "記憶體製程、擴產預算與代工成本",
-        "en": "Memory process technology, expansion budgets and foundry costs"
+        "zh": "記憶體技術、成本與 PC 採購預測",
+        "en": "Memory technology, costs and PC procurement outlook"
       },
       "summary": {
-        "zh": "台積電已回應 3D DRAM 匿名報導，華邦電重述既有模組 B 擴建預算，來頡則揭露第三季毛利率及成熟製程供應展望。相關資料沒有證實新記憶體廠已核准或明年漲價已生效。",
-        "en": "TSMC responded to anonymous 3D DRAM reporting, Winbond discussed its earlier Module B budget, and M3 Technology disclosed its Q3 margin and mature-node supply outlook. No new TSMC memory fab approval or implemented future foundry price increase is established."
+        "zh": "台積電回應尚未證實的 3D DRAM 報導，華邦電重述已核准的擴產預算，來頡則說明成熟晶圓與封測成本預期。TrendForce 11 月 11 日預估第四季 PC DRAM 合約價季增 13% 至 18%，Client SSD 漲幅低於 5%，數值屬研究機構預測，尚未代表特定廠商實際成交價。",
+        "en": "TSMC addressed an unconfirmed 3D DRAM report, Winbond restated existing approved fab capex and M3 discussed mature-node costs. TrendForce on November 11 forecast 13%–18% Q4 PC DRAM price growth and under 5% client SSD growth, neither of which establishes individual suppliers' executed contracts."
       },
       "references": [
         {
@@ -175,6 +207,10 @@
         {
           "date": "2026-11-10",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-12",
+          "storyId": 7
         }
       ]
     },
@@ -182,12 +218,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "electronica 與 SEMICON Europa 的臺灣供應商",
+        "zh": "electronica 與 SEMICON Europa 臺灣展商",
         "en": "Taiwanese exhibitors at electronica and SEMICON Europa"
       },
       "summary": {
-        "zh": "electronica 及 SEMICON Europa 依主辦單位安排於 11 月 10 至 13 日在慕尼黑舉行，外貿協會列出超過 250 家臺灣供應商及臺灣館開幕活動。展商名單可核對，尚未發布可確認的現場採購或成交金額。",
-        "en": "electronica and SEMICON Europa run November 10–13 in Munich, with TAITRA listing more than 250 Taiwanese exhibitors and a Taiwan pavilion opening program. Exhibitor participation is documented, but no show-floor order or contract value is verified."
+        "zh": "electronica 與 SEMICON Europa 於 11 月 10 至 13 日在慕尼黑舉行，外貿協會公開超過 250 家臺灣參展業者與臺灣館活動資訊。展商參與已有主辦單位資料，仍無可核對的現場採購或成交金額。",
+        "en": "electronica and SEMICON Europa run November 10–13 in Munich, with TAITRA listing more than 250 Taiwanese exhibitors and a Taiwan pavilion program. Participation is documented; individual contract values have not been established."
       },
       "references": [
         {
