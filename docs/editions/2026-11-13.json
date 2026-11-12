@@ -1,0 +1,2203 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-12T11:02:16.000Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備材料、伺服器機櫃與電源、晶圓封測及海外工廠投資",
+      "en": "Taiwan and Southeast Asian semiconductor tools and materials, server racks and power, wafer testing and foreign factory investment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "鴻海公布 AI 伺服器帶動的第三季財報，南亞與三福化核准台灣電子材料擴產，三井金屬宣布馬來西亞銅箔新廠，馬來西亞亦研議資料中心晶片監管。",
+    "en": "Foxconn reported server-driven Q3 results, Nanya and San Fu approved Taiwanese electronic-materials expansion, Mitsui announced a Malaysian copper-foil plant, and Malaysia considered new data-center chip oversight."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "鴻海第三季營收約 3.02 兆元、年增 46%，雲端網路占 54%，機櫃未來出貨成長仍為管理層預測。",
+        "en": "Foxconn recorded about NT$3.02T Q3 sales, up 46% YoY, with cloud and networking at 54%; future rack growth is guidance."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "南亞核准彰濱玻纖布第五廠 115.3 億元，規劃年產 1 億公尺，尚未量產。",
+        "en": "Nanya Plastics approved NT$11.53B for its fifth fiberglass fabric plant, targeting 100M meters annually before commissioning."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "馬來西亞研議要求資料中心揭露營運商、場址與 GPU 引進量，尚未立法。",
+        "en": "Malaysia is considering facility reporting of operators, sites and imported GPU counts; no new law is enacted."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "三井金屬 11 月 10 日核准馬來西亞 1,900 億日圓銅箔新廠，預計 2031 年分期營運。",
+        "en": "Mitsui Kinzoku approved a JPY190B Malaysia copper-foil plant on Nov 10, targeting phased operation from 2031."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "三福化核准橋頭科學園區先進封裝化學品廠最高 15 億元資本支出。",
+        "en": "San Fu approved up to NT$1.5B for an advanced-packaging chemicals facility at Qiaotou."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "foxconn-q3-2026-server-rack-sales-outlook",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "鴻海第三季營收約 3.02 兆元，雲端網路占比 54%，上調四大事業全年展望",
+        "en": "Foxconn Q3 revenue reaches NT$3.02T, cloud and networking at 54%, with full-year segment outlooks raised"
+      },
+      "summary": {
+        "zh": "鴻海 11 月 12 日公布第三季合併營收約 3.02 兆元、年增 46%，歸屬母公司淨利約 775.24 億元、年增 34%；雲端網路產品占營收 54%，較第二季增加 3 個百分點。公司上修全年四大產品線的展望，預估第四季及 2027 年 AI 機櫃出貨維持高雙位數成長，但未公布實際機櫃件數或各產品營收。",
+        "en": "Foxconn reported Q3 consolidated revenue of about NT$3.02 trillion on November 12, up 46% YoY, and attributable net profit of approximately NT$77.524 billion, up 34%. Cloud and networking products represented 54% of revenue, three percentage points above Q2. Management upgraded its full-year outlook for all four segments and forecast high-double-digit AI-rack shipment growth in Q4 and 2027, without actual rack units."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "鴻海雲端網路事業包括 AI 與通用型伺服器、機櫃及網通設備，集團並經營手機、電腦及零組件。雲端網路占比屬事業群營收比例，未直接揭露電源供應器、液冷設備、GPU 機櫃或個別客戶出貨。",
+            "en": "Foxconn's cloud and networking group includes AI and general-purpose servers, racks and network systems alongside separate consumer and computing businesses. Segment mix is consolidated revenue share rather than stand-alone power supplies, liquid-cooling hardware or GPU-rack shipments."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "鴻海原始新聞稿列出第三季營收約 3.02 兆元、毛利 1,815 億元、營業利益 1,154 億元、歸屬母公司淨利約 775 億元，毛利率、營益率、淨利率依序為 6.02%、3.83%、2.57%。中央社詳表列第三季營收 3 兆 156.34 億元、歸屬母公司淨利 775.24 億元；前九月營收 7 兆 6,610.62 億元、歸屬母公司淨利 1,874.17 億元。公司稱目前晶片、記憶體等供應吃緊，2027 年仍是展望而非已驗收需求。",
+            "en": "The company's release gives Q3 revenue of approximately NT$3.02 trillion, gross profit NT$181.5 billion, operating profit NT$115.4 billion, and attributable profit about NT$77.5 billion; gross, operating and net margins were 6.02%, 3.83% and 2.57%. CNA's detailed figures report NT$3,015.634 billion Q3 revenue and NT$77.524 billion net profit; nine-month figures were NT$7,661.062 billion and NT$187.417 billion. Management cited tight chips and memory supply, while 2027 rack growth remains a forecast."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "第四季 AI 機櫃實際出貨台數、獨立機櫃營收、電源與冷卻規格、客戶驗收以及 2027 年已簽訂數量未公布。",
+            "en": "Q4 AI rack units, stand-alone rack revenue, power and cooling specifications, customer acceptance and firm 2027 contracts were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$3.016T",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "鴻海 · 第三季正式財報新聞稿",
+            "en": "Foxconn · Q3 financial results release"
+          },
+          "url": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2154",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 第三季財報詳細數字",
+            "en": "CNA · Detailed Q3 financial figures"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120204.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 伺服器機櫃展望與事業群占比",
+            "en": "CNA · AI rack outlook and segment mix"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120217.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；PC；資料中心；電源；供電；液冷；散熱；零組件",
+          "en": "Servers; ODM; systems; PCs; data centers; site power; cooling; components"
+        },
+        "chain": {
+          "zh": "晶片與零組件至伺服器 ODM、機櫃供電及資料中心",
+          "en": "Chips and components through server ODM, rack power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公布新增投資或資本支出。",
+            "en": "No new investment or approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "公司第三季收入年增 46%，AI 機櫃高雙位數成長仍是未來預測。",
+            "en": "Q3 group revenue rose 46% YoY; high-double-digit AI-rack growth remains guidance."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "鴻海雲端網路事業包括 AI 與通用型伺服器、機櫃及網通設備，集團並經營手機、電腦及零組件。雲端網路占比屬事業群營收比例，未直接揭露電源供應器、液冷設備、GPU 機櫃或個別客戶出貨。",
+            "en": "Foxconn's cloud and networking group includes AI and general-purpose servers, racks and network systems alongside separate consumer and computing businesses. Segment mix is consolidated revenue share rather than stand-alone power supplies, liquid-cooling hardware or GPU-rack shipments."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "第四季 AI 機櫃實際出貨台數、獨立機櫃營收、電源與冷卻規格、客戶驗收以及 2027 年已簽訂數量未公布。",
+            "en": "Q4 AI rack units, stand-alone rack revenue, power and cooling specifications, customer acceptance and firm 2027 contracts were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 3015.634,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海，中央社詳表",
+            "en": "Foxconn, detailed figures reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120204.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.46,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸屬母公司淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 77.524,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海，中央社詳表",
+            "en": "Foxconn, detailed figures reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120204.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.34,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利",
+            "en": "Q3 gross profit"
+          },
+          "current": 181.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海",
+            "en": "Foxconn"
+          },
+          "sourceUrl": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2154",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.39,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益",
+            "en": "Q3 operating profit"
+          },
+          "current": 115.4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海",
+            "en": "Foxconn"
+          },
+          "sourceUrl": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2154",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.64,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.0602,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海",
+            "en": "Foxconn"
+          },
+          "sourceUrl": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2154",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營益率",
+            "en": "Q3 operating margin"
+          },
+          "current": 0.0383,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海",
+            "en": "Foxconn"
+          },
+          "sourceUrl": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2154",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季淨利率",
+            "en": "Q3 net margin"
+          },
+          "current": 0.0257,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海",
+            "en": "Foxconn"
+          },
+          "sourceUrl": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2154",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季雲端網路營收占比",
+            "en": "Q3 cloud and networking revenue share"
+          },
+          "current": 0.54,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "鴻海，中央社報導",
+            "en": "Foxconn, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120204.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.51,
+          "basePeriod": "2026 年第二季",
+          "reportedRate": null,
+          "baseStatus": "中央社明列第二季 51%，第三季 54%，增加 3 個百分點。"
+        },
+        {
+          "name": {
+            "zh": "前九月營收",
+            "en": "Nine-month consolidated revenue"
+          },
+          "current": 7661.062,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "鴻海，中央社詳表",
+            "en": "Foxconn, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120204.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.39,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月歸屬母公司淨利",
+            "en": "Nine-month attributable net profit"
+          },
+          "current": 187.417,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "鴻海，中央社詳表",
+            "en": "Foxconn, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120204.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 AI 機櫃電源轉換、液冷控制與伺服器測試設備供應商而言，鴻海提供集團實績及雲端網路部門的營收占比，仍未單列機櫃電力或驗收件數。需要確認 GPU 機櫃供電規格、產線測試節點及客戶實際交付資料，2027 年展望不能當成已完成訂單。",
+        "en": "For AI rack power conversion, liquid cooling and server test equipment suppliers, Foxconn discloses consolidated results and a cloud-networking segment mix without unit-level rack power or acceptance counts. GPU rack electrical ratings, test milestones and confirmed customer deliveries remain necessary; 2027 guidance is not realized orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "nanya-plastics-changbin-glass-fiber-fabric-plant",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "南亞核准彰濱玻纖布第五廠 115.3 億元投資，規劃年產 1 億公尺",
+        "en": "Nanya Plastics approves NT$11.53B Changbin fiberglass-fabric plant, targeting 100M meters annually"
+      },
+      "summary": {
+        "zh": "南亞塑膠 11 月 11 日董事會核准在彰化縣彰濱廠區興建玻纖布第五廠，預計投入 115.3 億元，規劃年產 1 億公尺、月產約 800 萬至 900 萬公尺的薄布與超薄布。公司另核准對上游特殊玻纖紗子公司台灣必成增資 8 億元，屬另一資金安排；未公布第五廠量產日期。",
+        "en": "Nanya Plastics approved NT$11.53 billion on November 11 for its fifth fiberglass-fabric plant at the Changbin site in Changhua. The proposed line targets 100 million meters annually, or roughly eight to nine million meters monthly, of thin and ultra-thin fabric. A separate NT$800 million capital increase for upstream fiberglass-yarn subsidiary Taiwan Bischeng was also announced, without a commissioning date."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "電子級玻纖紗為玻纖布上游材料，玻纖布用於銅箔基板與多層印刷電路板，應用延伸至伺服器、網通及工業電子。公司既有四座台灣玻纖布廠位於嘉義新港，新廠將位於彰濱園區，不能把規劃容量視為既有產能。",
+            "en": "Electronic-grade fiberglass yarn supplies woven fabric used in copper-clad laminates and multilayer PCBs for servers, networking and industrial electronics. Nanya's existing four Taiwan fabric plants are in Xingang, Chiayi; the new Changbin plant's planned capacity is not current output."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "中央社 11 月 12 日報導董事會前日核准的 115.3 億元建廠投資，年產 1 億公尺是公司計畫，月產 800 萬至 900 萬公尺為約數。台灣必成擬擴充 T 紗特殊級玻纖紗產能，8 億元為子公司資本增資；南亞另提及未來銅箔基板新產能規劃，但尚無本次核准的獨立 CCL 投資數。",
+            "en": "CNA reported the November 11 board approval on November 12. The 100-million-meter annual capacity is a company plan and the eight-to-nine-million-meter monthly target is approximate. The NT$800 million subsidiary capitalization supports planned specialty T-yarn capacity; prospective copper-clad laminate expansion has no separate new approved amount here."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "新廠實際土建進度、量產年份、各產品驗收、薄布與超薄布的比重，以及 8 億元增資和建廠預算的資金重疊範圍未揭露。",
+            "en": "Construction milestones, commissioning year, customer acceptance, thin versus ultra-thin mix and possible funding overlap between the factory and subsidiary capital are undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$11.53B",
+      "metricLabel": {
+        "zh": "彰濱玻纖布第五廠投資計畫",
+        "en": "Changbin fifth fabric plant investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 南亞董事會玻纖布擴廠公告",
+            "en": "CNA · Nanya Plastics fiberglass expansion announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120043.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "投資專案場址：台灣彰化縣彰濱工業區南亞彰濱廠區；尚未公布新廠確切門牌。",
+        "en": "Project site: Nanya Plastics' Changbin industrial premises, Changhua County, Taiwan; the new plant street number was not specified."
+      },
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "玻纖布；材料；銅箔基板；PCB；伺服器；零組件；工廠；投資",
+          "en": "Fiberglass fabric; materials; copper-clad laminates; PCBs; servers; factories; investment"
+        },
+        "chain": {
+          "zh": "玻纖紗、玻纖布與基板材料至伺服器電路板",
+          "en": "Fiberglass yarn and fabric through laminates and server PCBs"
+        },
+        "changes": {
+          "investment": {
+            "zh": "董事會核准新廠 115.3 億元，另對上游子公司增資 8 億元，兩者用途不同。",
+            "en": "Board approved NT$11.53B factory capex and a separate NT$800M upstream subsidiary capitalization."
+          },
+          "demand": {
+            "zh": "公司指出高階伺服器與網通 PCB 需求，未公布確定新增客戶訂單。",
+            "en": "Company cited server and networking PCB demand without firm incremental customer purchase orders."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電子級玻纖紗為玻纖布上游材料，玻纖布用於銅箔基板與多層印刷電路板，應用延伸至伺服器、網通及工業電子。公司既有四座台灣玻纖布廠位於嘉義新港，新廠將位於彰濱園區，不能把規劃容量視為既有產能。",
+            "en": "Electronic-grade fiberglass yarn supplies woven fabric used in copper-clad laminates and multilayer PCBs for servers, networking and industrial electronics. Nanya's existing four Taiwan fabric plants are in Xingang, Chiayi; the new Changbin plant's planned capacity is not current output."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "新廠實際土建進度、量產年份、各產品驗收、薄布與超薄布的比重，以及 8 億元增資和建廠預算的資金重疊範圍未揭露。",
+            "en": "Construction milestones, commissioning year, customer acceptance, thin versus ultra-thin mix and possible funding overlap between the factory and subsidiary capital are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第五廠核准投資",
+            "en": "Approved fifth fabric-plant investment"
+          },
+          "current": 11.53,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "南亞塑膠，中央社引述",
+            "en": "Nanya Plastics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120043.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "台灣必成資本增資",
+            "en": "Taiwan Bischeng subsidiary capital increase"
+          },
+          "current": 0.8,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日核准",
+            "en": "Approved November 11, 2026"
+          },
+          "owner": {
+            "zh": "南亞塑膠，中央社引述",
+            "en": "Nanya Plastics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120043.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "新廠規劃年產量",
+            "en": "Planned new factory annual fabric output"
+          },
+          "current": 100000000,
+          "unit": "公尺／年",
+          "period": {
+            "zh": "完工後規劃產能",
+            "en": "Planned post-commissioning output"
+          },
+          "owner": {
+            "zh": "南亞塑膠，中央社引述",
+            "en": "Nanya Plastics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120043.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "新廠規劃月產量下限",
+            "en": "Planned monthly fabric output lower bound"
+          },
+          "current": 8000000,
+          "unit": "公尺／月",
+          "period": {
+            "zh": "完工後規劃產能",
+            "en": "Planned post-commissioning output"
+          },
+          "owner": {
+            "zh": "南亞塑膠，中央社引述",
+            "en": "Nanya Plastics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120043.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "新廠規劃月產量上限",
+            "en": "Planned monthly fabric output upper bound"
+          },
+          "current": 9000000,
+          "unit": "公尺／月",
+          "period": {
+            "zh": "完工後規劃產能",
+            "en": "Planned post-commissioning output"
+          },
+          "owner": {
+            "zh": "南亞塑膠，中央社引述",
+            "en": "Nanya Plastics, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120043.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器 PCB 材料檢驗、精密電力與工廠控制設備供應商而言，南亞核准玻纖布及上游纖紗的建設資金與設計產能。仍需確認工廠導入設備、織布能耗及 PCB 客戶認證，規劃年產量尚未形成實際出貨。",
+        "en": "For server PCB materials testing, precision power and factory-control equipment suppliers, Nanya approved capex and target capacity for woven fabric and upstream yarn. Tool requirements, weaving energy consumption and PCB customer qualification remain unconfirmed, and planned volume is not realized shipments."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "malaysia-data-center-gpu-compliance-legislation-proposal",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "馬來西亞研議立法監管資料中心營運，擬要求揭露 GPU 數量與業者資訊",
+        "en": "Malaysia considers data-center monitoring law covering GPU counts, operators and locations"
+      },
+      "summary": {
+        "zh": "馬來西亞投資、貿易及工業部長 Johari Abdul Ghani 11 月 12 日表示，政府正研議立法，要求規劃建設資料中心者提供營運商、場址與預計引進的 GPU 數量，以監測高效能晶片使用及轉運情況。路透社引述部長發言指出，目前仍屬政策構想，沒有正式法案條文、申報期限或已生效的新限制。",
+        "en": "On November 12, Malaysian Investment, Trade and Industry Minister Johari Abdul Ghani said the government is considering legislation requiring prospective data-center developers to disclose operators, locations and the number of GPUs being imported. Reuters reported the proposal as a potential means of monitoring high-performance chip use and re-export; no enacted law, filing deadline or finalized reporting template was announced."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "馬來西亞資料中心建設涉及當地供電、冷卻與伺服器機櫃整合，部分設備和晶片供應鏈與台灣 ODM 廠商相連。馬來西亞在 2025 年已對部分美國來源高效能 AI 晶片的流動建立出口管制，該既有措施與本次尚未完成的資料中心監測法構想應分開。",
+            "en": "Malaysia's data-center development involves site electricity, cooling and server systems supplied through international chains that include Taiwanese ODMs. Malaysia had already imposed controls in 2025 on certain US-origin high-performance AI chips; that existing measure is distinct from this proposed facility-reporting law."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "路透社於 11 月 12 日報導，Johari 在部會活動指出，規劃興建機房者可能需要揭露營運商、地點及 GPU 引進量，並強調受美國限制的晶片應按合法用途進口與使用。報導提及針對個別公司的指控與當事公司否認違規的回應，相關個案沒有已證實判決，不應將質疑延伸為全體業者的事實。",
+            "en": "Reuters reported the minister's November 12 statement on potential facility filings covering developers, site locations and GPU quantities, emphasizing compliant import use of restricted chips. The report also mentioned allegations concerning individual companies and their statements of compliance; no confirmed court finding establishes wrongdoing or applies broadly to all operators."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "法案正式文字、適用的晶片型號、現有與新設機房的申報範圍、正式生效日期及個別台灣供應商訂單影響均未揭露。",
+            "en": "Draft text, covered chip models, whether existing sites must report, implementation dates and quantified effects on Taiwanese supplier orders remain unknown."
+          }
+        }
+      ],
+      "metric": "監管提案",
+      "metricLabel": {
+        "zh": "資料中心 GPU 申報政策狀態",
+        "en": "Proposed GPU reporting policy status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Reuters · 馬國部長資料中心法案構想訪問",
+            "en": "Reuters · Malaysian minister's data-center monitoring proposal"
+          },
+          "url": "https://www.reuters.com/legal/litigation/malaysia-weighs-law-monitor-data-centre-operations-chips-use-trade-minister-says-2026-11-12/",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "馬來西亞；台灣伺服器供應鏈",
+          "en": "Malaysia; Taiwanese server supply chains"
+        },
+        "industries": {
+          "zh": "資料中心；機房；伺服器；ODM；晶片設計；供電；電力；政策",
+          "en": "Data centers; GPUs; server ODMs; semiconductors; site power; policy"
+        },
+        "chain": {
+          "zh": "AI 晶片與伺服器 ODM、資料中心機房至政策申報",
+          "en": "AI chips and server systems through data-center facility reporting"
+        },
+        "changes": {
+          "investment": {
+            "zh": "尚未宣布新批准或取消的資料中心投資。",
+            "en": "No new approved or canceled data-center investment announced."
+          },
+          "demand": {
+            "zh": "擬蒐集機房 GPU 數量，未公布實際既有 GPU 庫存或新採購量。",
+            "en": "The proposal would collect GPU counts; no inventory or new purchase totals were disclosed."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "馬來西亞資料中心建設涉及當地供電、冷卻與伺服器機櫃整合，部分設備和晶片供應鏈與台灣 ODM 廠商相連。馬來西亞在 2025 年已對部分美國來源高效能 AI 晶片的流動建立出口管制，該既有措施與本次尚未完成的資料中心監測法構想應分開。",
+            "en": "Malaysia's data-center development involves site electricity, cooling and server systems supplied through international chains that include Taiwanese ODMs. Malaysia had already imposed controls in 2025 on certain US-origin high-performance AI chips; that existing measure is distinct from this proposed facility-reporting law."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "法案正式文字、適用的晶片型號、現有與新設機房的申報範圍、正式生效日期及個別台灣供應商訂單影響均未揭露。",
+            "en": "Draft text, covered chip models, whether existing sites must report, implementation dates and quantified effects on Taiwanese supplier orders remain unknown."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對資料中心電源轉換、機櫃配電與系統測試供應商而言，研議中的監督制度可能要求客戶提供更具體的機房及 GPU 資料。需等待法案原文、適用時間與真正的客戶合規要求，目前無證據顯示具名台廠採購或施工已因本次發言改變。",
+        "en": "For data-center power conversion, rack distribution and system-test suppliers, the proposal may require more facility and GPU disclosures from operators. Legal text, applicability and actual customer requirements remain pending; there is no evidence of changed Taiwanese equipment orders caused by this statement."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "mitsui-kinzoku-malaysia-copper-foil-plant-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "三井金屬 11 月 10 日核准馬來西亞銅箔新廠，總投資約 1,900 億日圓",
+        "en": "Mitsui Kinzoku approves JPY190B Malaysia copper-foil plant, with phased operation from 2031"
+      },
+      "summary": {
+        "zh": "日本三井金屬 11 月 10 日董事會宣布在馬來西亞既有子公司附近興建銅箔廠，投資約 1,900 億日圓，製造 MicroThin 載體超薄銅箔與高頻電路板 VSP 電解銅箔。公司規劃自 2031 年 4 月分階段營運，至 2033 財年 MicroThin 月產能新增 400 萬平方公尺、VSP 於 2032 財年增加每月 1,200 公噸，均為未來規劃。",
+        "en": "Mitsui Kinzoku's board approved a JPY190 billion copper-foil plant near its existing Malaysian subsidiary on November 10. The facility is planned to produce MicroThin carrier-supported ultra-thin foil and VSP electrodeposited foil for high-frequency boards, with phased operations from April 2031 and planned additions of 4 million square meters per month of MicroThin by FY2033 and 1,200 tonnes per month of VSP by FY2032."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "超薄銅箔用於高密度基板與先進電子封裝，高頻電路板用銅箔涉及高速訊號傳輸。馬來西亞新廠與台灣先進封裝載板及伺服器 PCB 材料供應鏈具有產品層級連結，但公告並未列出任何台灣客戶或確定採購合約。",
+            "en": "Ultra-thin copper foil is used in advanced substrates and packaging, while high-frequency board foil supports high-speed signal applications. The Malaysian investment relates to materials used along Taiwan-linked substrate and server PCB chains, though no Taiwanese customer contracts were named."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "三井金屬英文官方申報列總投資約 1,900 億日圓，其中土地 140 億、建築 320 億及設備等 1,440 億日圓，三部分合計等於總額，不可額外累加。MicroThin 在 FY2031 新增月產 200 萬平方公尺，FY2033 再增 200 萬；VSP 在 FY2031、FY2032 分別新增月產 600 公噸。2033 財年全球 MicroThin 月產能規劃達 1,200 萬平方公尺，VSP 2032 財年全球月產能達 2,600 公噸，亦包含既有廠產能。",
+            "en": "Mitsui's official English filing allocates the JPY190 billion total across land JPY14 billion, buildings JPY32 billion and equipment/other assets JPY144 billion; these sum to the total and must not be added again. MicroThin would add 2 million square meters per month in FY2031 and another 2 million in FY2033; VSP adds 600 tonnes per month in each of FY2031 and FY2032. The respective group-wide capacity targets of 12 million square meters/month and 2,600 tonnes/month include existing production."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "新廠詳細城市與街址、各期客戶認證、實際設備投產、各產品良率與特定台灣下游供應商採購數量尚未公布。",
+            "en": "New factory city and street address, customer qualifications, tool commissioning, yields and procurement volumes for specific Taiwanese downstream suppliers remain unverified."
+          }
+        }
+      ],
+      "metric": "JPY190B",
+      "metricLabel": {
+        "zh": "馬來西亞新廠總投資計畫",
+        "en": "Total Malaysia plant investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "三井金屬 · 11 月 10 日銅箔新廠正式申報",
+            "en": "Mitsui Kinzoku · November 10 copper-foil plant filing"
+          },
+          "url": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：馬來西亞，靠近 Mitsui Copper Foil (Malaysia) 現有子公司廠區；官方公告未列城市或街址。",
+        "en": "Project site: Malaysia, near existing Mitsui Copper Foil (Malaysia) subsidiary facilities; city and street address were not published."
+      },
+      "market": {
+        "eventDate": "2026-11-10",
+        "countries": {
+          "zh": "馬來西亞；日本；台灣材料供應鏈",
+          "en": "Malaysia; Japan; Taiwan-linked materials chain"
+        },
+        "industries": {
+          "zh": "銅箔；材料；基板；載板；封裝；伺服器；PCB；工廠；投資；FDI",
+          "en": "Copper foil; materials; substrates; packaging; servers; PCBs; factories; FDI"
+        },
+        "chain": {
+          "zh": "銅箔與高頻基板材料至封裝載板及伺服器電路板",
+          "en": "Copper foil and high-frequency substrate materials through packaging and server PCBs"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司核准約 1,900 億日圓總投資，土地、建築與設備為其明細。",
+            "en": "Board approved approximately JPY190B in total, with land, buildings and equipment as components."
+          },
+          "demand": {
+            "zh": "沒有公布可獨立核對的新增訂單或出貨件數。",
+            "en": "No independently verifiable new orders or shipment units disclosed."
+          },
+          "fdi": {
+            "zh": "日本企業於馬來西亞擴充生產基地，尚無可核實的分期匯款總額。",
+            "en": "Japanese investor plans an expanded Malaysian facility without verified remittance tranches."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "超薄銅箔用於高密度基板與先進電子封裝，高頻電路板用銅箔涉及高速訊號傳輸。馬來西亞新廠與台灣先進封裝載板及伺服器 PCB 材料供應鏈具有產品層級連結，但公告並未列出任何台灣客戶或確定採購合約。",
+            "en": "Ultra-thin copper foil is used in advanced substrates and packaging, while high-frequency board foil supports high-speed signal applications. The Malaysian investment relates to materials used along Taiwan-linked substrate and server PCB chains, though no Taiwanese customer contracts were named."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "新廠詳細城市與街址、各期客戶認證、實際設備投產、各產品良率與特定台灣下游供應商採購數量尚未公布。",
+            "en": "New factory city and street address, customer qualifications, tool commissioning, yields and procurement volumes for specific Taiwanese downstream suppliers remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "馬來西亞銅箔新廠總投資",
+            "en": "Total Malaysian copper foil plant investment"
+          },
+          "current": 190000000000,
+          "unit": "日圓",
+          "period": {
+            "zh": "2026 年 11 月 10 日董事會核准",
+            "en": "Approved November 10, 2026"
+          },
+          "owner": {
+            "zh": "三井金屬",
+            "en": "Mitsui Kinzoku"
+          },
+          "sourceUrl": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "土地資產預算",
+            "en": "Land acquisition budget"
+          },
+          "current": 14000000000,
+          "unit": "日圓",
+          "period": {
+            "zh": "2026 年 11 月 10 日核准",
+            "en": "Approved November 10, 2026"
+          },
+          "owner": {
+            "zh": "三井金屬",
+            "en": "Mitsui Kinzoku"
+          },
+          "sourceUrl": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "建築物預算",
+            "en": "Building budget"
+          },
+          "current": 32000000000,
+          "unit": "日圓",
+          "period": {
+            "zh": "2026 年 11 月 10 日核准",
+            "en": "Approved November 10, 2026"
+          },
+          "owner": {
+            "zh": "三井金屬",
+            "en": "Mitsui Kinzoku"
+          },
+          "sourceUrl": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "生產設備等預算",
+            "en": "Manufacturing equipment and other assets"
+          },
+          "current": 144000000000,
+          "unit": "日圓",
+          "period": {
+            "zh": "2026 年 11 月 10 日核准",
+            "en": "Approved November 10, 2026"
+          },
+          "owner": {
+            "zh": "三井金屬",
+            "en": "Mitsui Kinzoku"
+          },
+          "sourceUrl": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "MicroThin 規劃新增月產能",
+            "en": "New MicroThin monthly production capacity"
+          },
+          "current": 4000000,
+          "unit": "平方公尺／月",
+          "period": {
+            "zh": "截至 2033 財年逐步增加",
+            "en": "Phased additions through FY2033"
+          },
+          "owner": {
+            "zh": "三井金屬",
+            "en": "Mitsui Kinzoku"
+          },
+          "sourceUrl": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "VSP 規劃新增月產能",
+            "en": "New VSP monthly production capacity"
+          },
+          "current": 1200,
+          "unit": "公噸／月",
+          "period": {
+            "zh": "截至 2032 財年逐步增加",
+            "en": "Phased additions through FY2032"
+          },
+          "owner": {
+            "zh": "三井金屬",
+            "en": "Mitsui Kinzoku"
+          },
+          "sourceUrl": "https://www.mitsui-kinzoku.com/LinkClick.aspx?fileticket=eZoFgO6NGE8%3D&mid=1027&tabid=249",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高頻基板、先進封裝材料檢測與精密製程電源設備供應商而言，三井金屬公告有清楚的土地、建物與設備投資分項，以及 2031 年後分階段擴產量。仍需確認廠務電力需求、電解銅箔製程設備規格與台灣客戶驗收，規劃產能尚未實現。",
+        "en": "For high-frequency substrates, advanced packaging materials inspection and precision process-power suppliers, Mitsui provided investment cost breakdowns and phased capacity targets after 2031. Facility electricity needs, plating-tool specifications and Taiwanese customer qualification remain undisclosed; target capacity is not operational output."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "sanfu-bridge-science-park-packaging-chemicals-capex",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "三福化核准橋頭科學園區先進封裝化學品擴廠，上限 15 億元",
+        "en": "San Fu Chemical approves up to NT$1.5B for advanced-packaging chemicals plant at Qiaotou"
+      },
+      "summary": {
+        "zh": "三福化 11 月 11 日董事會核准橋頭科學園區建廠及設備資本支出上限 15 億元，用於先進封裝蝕刻液、剝離劑及相關清洗材料擴產。公司另公布第三季稅後淨利 2.64 億元、年增 176.1%；先前的善化廠 1.5 億元擴充案屬另一時間與工程範圍，橋科新廠仍未正式投產。",
+        "en": "San Fu Chemical's board approved up to NT$1.5 billion on November 11 for buildings and equipment at Qiaotou Science Park to make chemicals used in advanced-packaging etching, stripping and cleaning. Q3 after-tax profit was NT$264 million, up 176.1% YoY; an earlier NT$150 million Shanhua expansion is a separately dated project, while the Qiaotou plant is not yet in production."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "先進封裝化學品用於晶圓、載板或封裝製程的蝕刻與光阻去除等環節，與 CoWoS、InFO 等封裝技術的製程材料需求相連。三福化現有善化廠另擴充光阻剝離材料，不能把橋頭與善化兩個獨立決議的金額視為單一工廠的成本。",
+            "en": "Advanced-packaging chemicals are used for etching, stripping and cleaning across wafer and substrate processes linked to CoWoS and InFO. San Fu has separately dated expansion at Shanhua for stripping materials; it is distinct from the Qiaotou approval."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "11 月 11 日公開資訊觀測站重大訊息經台視財經轉載，明列橋科廠房與設備支出不超過 15 億元，付款依訂單條件，並授權董事長議定工程合約。經濟日報 11 月 12 日報導公司前三季歸屬母公司淨利 4.99 億元，10 月營收 4.51 億元；9 月 CoWoS 剝離劑占集團營收約 22% 屬業者在報導中的說法，未直接取得原始分產品月報。",
+            "en": "A reproduction of the November 11 exchange filing explicitly sets the Qiaotou buildings and equipment ceiling at NT$1.5 billion, with payments determined by contracts. Economic Daily News reported nine-month attributable profit of NT$499 million and October sales of NT$451 million. An approximately 22% September sales share for CoWoS stripper is reported by the newspaper but was not checked against a primary product-level filing."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "橋科新廠正式交貨、廠務投產、單位化學品月產量、客戶製程認證及實際支出尚未公布。",
+            "en": "Qiaotou construction completion, commissioning, chemical output volumes, customer process qualification and realized expenditure were not announced."
+          }
+        }
+      ],
+      "metric": "NT$1.5B",
+      "metricLabel": {
+        "zh": "橋科新廠資本支出上限",
+        "en": "Qiaotou plant capex ceiling"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台視財經 · 三福化重大訊息全文轉載",
+            "en": "TTV Finance · Reproduced San Fu material filing"
+          },
+          "url": "https://www.ttv.com.tw/finance/view/default.asp?from=587&i=112026111929B147068F23DF4406913A59C78FA0E9D7905B",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 先進封裝材料擴產及財報",
+            "en": "Economic Daily News · Packaging chemicals capex and earnings"
+          },
+          "url": "https://money.udn.com/money/story/5612/9874026",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "投資專案場址：台灣高雄市橋頭科學園區；新廠詳細街址尚未提供。",
+        "en": "Project site: Qiaotou Science Park, Kaohsiung, Taiwan; a precise street address has not been provided."
+      },
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；設備；晶圓；封裝；封測；清洗液；化學品；工廠；投資",
+          "en": "Materials; tools; wafers; packaging; chemicals; factories; investment"
+        },
+        "chain": {
+          "zh": "蝕刻與剝離化學材料至晶圓及先進封裝",
+          "en": "Etch and stripping chemicals through wafers and advanced packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "11 月 11 日核准橋科建廠及設備支出上限 15 億元，尚未實際支付全部款項。",
+            "en": "The November 11 board approval caps factory and equipment expenditure at NT$1.5B; funds have not all been spent."
+          },
+          "demand": {
+            "zh": "沒有公布可獨立核對的新增訂單或出貨件數。",
+            "en": "No independently verifiable new orders or shipment units disclosed."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "先進封裝化學品用於晶圓、載板或封裝製程的蝕刻與光阻去除等環節，與 CoWoS、InFO 等封裝技術的製程材料需求相連。三福化現有善化廠另擴充光阻剝離材料，不能把橋頭與善化兩個獨立決議的金額視為單一工廠的成本。",
+            "en": "Advanced-packaging chemicals are used for etching, stripping and cleaning across wafer and substrate processes linked to CoWoS and InFO. San Fu has separately dated expansion at Shanhua for stripping materials; it is distinct from the Qiaotou approval."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "橋科新廠正式交貨、廠務投產、單位化學品月產量、客戶製程認證及實際支出尚未公布。",
+            "en": "Qiaotou construction completion, commissioning, chemical output volumes, customer process qualification and realized expenditure were not announced."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "橋科建廠及設備支出上限",
+            "en": "Qiaotou factory and equipment spending ceiling"
+          },
+          "current": 1.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 11 日董事會核准",
+            "en": "Board approval November 11, 2026"
+          },
+          "owner": {
+            "zh": "三福化重大訊息，由台視轉載",
+            "en": "San Fu filing, reproduced by TTV"
+          },
+          "sourceUrl": "https://www.ttv.com.tw/finance/view/default.asp?from=587&i=112026111929B147068F23DF4406913A59C78FA0E9D7905B",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 profit after tax"
+          },
+          "current": 0.264,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "三福化，經濟日報報導",
+            "en": "San Fu, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9874026",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.761,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季稅後淨利",
+            "en": "Nine-month profit after tax"
+          },
+          "current": 0.499,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "三福化，經濟日報報導",
+            "en": "San Fu, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9874026",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.072,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月營收",
+            "en": "October consolidated sales"
+          },
+          "current": 0.451,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "三福化，經濟日報報導",
+            "en": "San Fu, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9874026",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.0568,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓蝕刻清洗、製程量測及高純度化學品供應設備業者而言，三福化新案指出化學液體的廠務與設備預算上限。需確認化學品規格、品質驗證、產線交付和實際採購，資本支出核准並未代表新廠已出貨。",
+        "en": "For wafer etch cleaning, process metrology and high-purity chemical delivery suppliers, San Fu's project identifies a budget ceiling for new chemical processing facilities. Chemical specifications, qualification and plant commissioning remain unknown; approval does not establish realized production."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "auras-q3-2026-cooling-margins",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "雙鴻第三季營收 97.87 億元，毛利率 25.65%，較第二季減少 2.77 個百分點",
+        "en": "Auras Q3 sales reach NT$9.787B; gross margin falls to 25.65%, down 2.77 percentage points QoQ"
+      },
+      "summary": {
+        "zh": "散熱廠雙鴻於 11 月 11 日公布第三季營收 97.87 億元、年增 64.2%，歸屬母公司淨利 10.8 億元、年增 10.9%，每股純益 11.59 元。第三季毛利率為 25.65%，較第二季減少 2.77 個百分點、較去年同期減少 4.12 個百分點；公司先前提及新一代伺服器冷卻產品交付計畫，但未提供本季液冷產品的獨立收入及件數。",
+        "en": "Cooling supplier Auras reported Q3 revenue of NT$9.787 billion on November 11, up 64.2% YoY, and attributable profit of NT$1.08 billion, up 10.9% YoY, with EPS of NT$11.59. Gross margin was 25.65%, down 2.77 percentage points QoQ and 4.12 points YoY. Earlier new-server cooling guidance does not quantify Q3 liquid-cooling unit shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "雙鴻供應伺服器與運算設備散熱模組，產品涵蓋氣冷與液冷相關零組件。第三季營收與獲利增速不同，毛利率因產品組合及新舊平台轉換等因素可能變動，但不能從單季總值證實個別冷卻產品單價下降。",
+            "en": "Auras supplies air- and liquid-cooling modules for computing and servers. Consolidated sales and profit grew at different rates, and product mix can affect margins, but the quarterly figures alone do not establish falling prices for a specific cooling product."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "中央社 11 月 11 日報導第三季營收 97.87 億元、母公司淨利 10.8 億元，毛利率 25.65%，年減 4.12、季減 2.77 個百分點。前三季母公司淨利 32.13 億元、年增 95.6%；先前管理階層對年底新平台出貨及 2027 年初延續需求的陳述是預測，與本季已實現財務分開。",
+            "en": "CNA's November 11 report gives Q3 sales of NT$9.787 billion, attributable profit of NT$1.08 billion, and gross margin of 25.65%, down 4.12 points YoY and 2.77 points QoQ. Nine-month attributable profit was NT$3.213 billion, up 95.6% YoY. Earlier guidance for end-year platform shipments remains separate from these realized financials."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "液冷散熱系統獨立營收、機櫃瓦數、各客戶驗收、對應伺服器平台數量與毛利變化的分項原因未公開。",
+            "en": "Standalone liquid-cooling sales, rack power loads, customer acceptance, platform quantities and product-level explanations for margin changes remain unreported."
+          }
+        }
+      ],
+      "metric": "25.65%",
+      "metricLabel": {
+        "zh": "第三季合併毛利率",
+        "en": "Q3 consolidated gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 雙鴻第三季財報及毛利率",
+            "en": "CNA · Auras Q3 results and gross margin"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110343.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "散熱；液冷；零組件；伺服器；電源；資料中心",
+          "en": "Cooling; liquid cooling; server components; power; data centers"
+        },
+        "chain": {
+          "zh": "散熱與液冷零組件至伺服器機櫃及資料中心",
+          "en": "Thermal components and liquid cooling through server racks and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公布新增投資或資本支出。",
+            "en": "No new investment or approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "第三季營收年增 64.2%，沒有公布液冷各型號交付數量。",
+            "en": "Q3 group sales rose 64.2% YoY without liquid-cooling product shipments."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "雙鴻供應伺服器與運算設備散熱模組，產品涵蓋氣冷與液冷相關零組件。第三季營收與獲利增速不同，毛利率因產品組合及新舊平台轉換等因素可能變動，但不能從單季總值證實個別冷卻產品單價下降。",
+            "en": "Auras supplies air- and liquid-cooling modules for computing and servers. Consolidated sales and profit grew at different rates, and product mix can affect margins, but the quarterly figures alone do not establish falling prices for a specific cooling product."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "液冷散熱系統獨立營收、機櫃瓦數、各客戶驗收、對應伺服器平台數量與毛利變化的分項原因未公開。",
+            "en": "Standalone liquid-cooling sales, rack power loads, customer acceptance, platform quantities and product-level explanations for margin changes remain unreported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 9.787,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110343.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.642,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸屬母公司淨利",
+            "en": "Q3 attributable profit"
+          },
+          "current": 1.08,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110343.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.109,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.2565,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110343.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源僅列與前季差 2.77 個百分點、與去年同期差 4.12 個百分點，未將差額反推成精確基期。"
+        },
+        {
+          "name": {
+            "zh": "第三季每股純益",
+            "en": "Q3 earnings per share"
+          },
+          "current": 11.59,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110343.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季歸屬母公司淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 3.213,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110343.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.956,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器液冷控制、泵浦電源與熱測試設備供應商而言，雙鴻季度收入和毛利率是可核對的財務實績。仍需確認散熱模組型號、整機櫃驗收與實際熱負載，營收增速和毛利率變化不能直接分解成液冷產品報價。",
+        "en": "For liquid-cooling control, pump-power and thermal-test suppliers, Auras' quarterly revenue and margin are realized financials. Cooling module mix, rack acceptance and thermal loads remain undisclosed; the margin change cannot be mapped to specific liquid-cooling prices."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "hermes-testing-q3-2026-employee-share-expense",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：漢測第三季認列 11.18 億元員工認股費用，歸母虧損 2.86 億元",
+        "en": "Follow-up: Hermes Testing books NT$1.118B employee-share expense, posts NT$286M Q3 attributable loss"
+      },
+      "summary": {
+        "zh": "漢測 11 月 11 日公布第三季合併營收約 15 億元，因認列上市櫃前員工認股的一次性非現金費用約 11.18 億元，第三季歸屬母公司淨損約 2.86 億元、每股虧損 10.23 元。公司指出這項費用估計影響每股純益約 32.58 元，但尚未提供完整可核對的調整後獲利報表；前三季整體仍獲利 2.98 億元。",
+        "en": "Hermes Testing reported Q3 consolidated revenue of approximately NT$1.5 billion on November 11 but booked about NT$1.118 billion in one-off noncash employee share-subscription expense before listing, resulting in an attributable loss of roughly NT$286 million and a loss per share of NT$10.23. Management estimated a per-share effect of NT$32.58 from the expense but did not publish a fully reconciled adjusted profit statement; nine-month profit remained NT$298 million."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "漢測提供晶圓測試熱管理、MEMS 探針卡、清潔材料及工程服務，與前次已發布的 10 月營收新聞屬不同報表期間。上市櫃前員工股權費用在會計帳上認列，不直接代表當季實際現金支出，評估獲利時仍須使用公司正式列報數字。",
+            "en": "Hermes Testing supplies wafer-test thermal control, MEMS probe cards, cleaning products and engineering services; this quarterly financial disclosure differs from the earlier October sales update. Pre-listing equity compensation expense is noncash but remains recognized under reported accounting, and any adjusted earnings must be formally reconciled."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "中央社 11 月 11 日報導漢測第三季營收約 15 億元、營業虧損 2.88 億元、歸母虧損 2.86 億元、基本每股虧損 10.23 元。員工認股一次性費用約 11.18 億元，公司估計對第三季 EPS 影響 32.58 元，該估計不可直接視為依正式會計準則公布的調整後 EPS。前三季合併營收 36.85 億元、年增 129.06%，毛利率 47.83%，歸母淨利 2.98 億元。",
+            "en": "CNA reported Q3 sales of about NT$1.5 billion, operating loss NT$288 million, attributable loss NT$286 million and reported loss per share NT$10.23. The one-off employee subscription cost was NT$1.118 billion, which management estimated reduced EPS by NT$32.58; this does not constitute a formally reconciled adjusted EPS. Nine-month sales were NT$3.685 billion, up 129.06% YoY, with gross margin 47.83% and attributable profit NT$298 million."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "公司正式調整後淨利表、非現金費用稅務影響、季度各產品出貨與新竹研發中心及製造中心驗收進度未公布。",
+            "en": "A formal adjusted profit reconciliation, tax effects of the noncash item, quarterly product shipments and commissioning of R&D or production facilities remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$1.118B",
+      "metricLabel": {
+        "zh": "第三季一次性員工認股費用",
+        "en": "Q3 one-off employee subscription expense"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 漢測第三季特殊費用與財報",
+            "en": "CNA · Hermes Testing Q3 special expense and financial results"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；半導體設備；測試；封測；探針卡；散熱；工廠",
+          "en": "Wafers; semiconductor tools; testing; packaging; probe cards; cooling; factories"
+        },
+        "chain": {
+          "zh": "晶圓測試、探針卡與熱管理設備至封測",
+          "en": "Wafer testing, probe cards and thermal management through OSAT"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公布新增投資或資本支出。",
+            "en": "No new investment or approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "第三季營收創高與帳列一次性費用為不同事實，未公布新訂單件數。",
+            "en": "Q3 sales record and one-off expense are distinct facts; no incremental order units announced."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "漢測提供晶圓測試熱管理、MEMS 探針卡、清潔材料及工程服務，與前次已發布的 10 月營收新聞屬不同報表期間。上市櫃前員工股權費用在會計帳上認列，不直接代表當季實際現金支出，評估獲利時仍須使用公司正式列報數字。",
+            "en": "Hermes Testing supplies wafer-test thermal control, MEMS probe cards, cleaning products and engineering services; this quarterly financial disclosure differs from the earlier October sales update. Pre-listing equity compensation expense is noncash but remains recognized under reported accounting, and any adjusted earnings must be formally reconciled."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "公司正式調整後淨利表、非現金費用稅務影響、季度各產品出貨與新竹研發中心及製造中心驗收進度未公布。",
+            "en": "A formal adjusted profit reconciliation, tax effects of the noncash item, quarterly product shipments and commissioning of R&D or production facilities remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收約數",
+            "en": "Approximate Q3 consolidated revenue"
+          },
+          "current": 1.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季一次性股權費用",
+            "en": "Q3 one-off equity compensation cost"
+          },
+          "current": 1.118,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸屬母公司損失",
+            "en": "Q3 attributable net loss"
+          },
+          "current": -0.286,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季每股損失",
+            "en": "Q3 reported loss per share"
+          },
+          "current": -10.23,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "公司估計特殊費用的每股影響",
+            "en": "Company-estimated EPS effect of one-off expense"
+          },
+          "current": 32.58,
+          "unit": "元",
+          "period": {
+            "zh": "2026 年第三季公司估計",
+            "en": "Q3 2026 company estimate"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季營收",
+            "en": "Nine-month consolidated revenue"
+          },
+          "current": 3.685,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.2906,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季毛利率",
+            "en": "Nine-month gross margin"
+          },
+          "current": 0.4783,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季歸屬母公司淨利",
+            "en": "Nine-month attributable net profit"
+          },
+          "current": 0.298,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "漢測，中央社報導",
+            "en": "Hermes Testing, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611110295.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓測試電源、探針卡接觸量測及熱管理設備供應商而言，漢測財報的營收與大額一次性股權費用需要分開理解。公司沒有提供正式調整後淨利表，也未披露新產品驗收數量，不能自行以單一費用估算出可比獲利。",
+        "en": "For wafer-test power, probe-contact metrology and thermal systems suppliers, Hermes' operating sales and its large one-off equity cost need separate treatment. No formally reconciled adjusted earnings or product acceptance units are available, so a single expense item should not be used to manufacture comparable earnings."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "cheng-mei-materials-q3-2026-semiconductor-tape-validation",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "誠美材公布半導體封裝膠帶驗證進度，預計 2027 年下半年小量交付",
+        "en": "Cheng Mei Materials discloses packaging tape qualification, targets initial shipments in H2 2027"
+      },
+      "summary": {
+        "zh": "誠美材 11 月 12 日法說會表示，晶圓切割膠帶及研磨保護膜材已向台灣封裝業者送樣，現階段仍在客戶驗證，預計 2027 年下半年至 2028 年逐步交付，現階段仍在客戶驗證。公司第三季合併營收 18.61 億元、稅後淨損 2.35 億元，尚無半導體材料獨立量產收入。",
+        "en": "At its November 12 investor briefing, Cheng Mei Materials said dicing tapes and wafer-grinding protective films are in customer qualification with Taiwanese packaging firms, targeting initial shipments between H2 2027 and 2028, subject to customer qualification, while Q3 consolidated sales were NT$1.861 billion and the net loss was NT$235 million; no separate semiconductor-material revenue was disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "誠美材原有偏光片及光學薄膜業務，正將膜材製造技術延伸到晶圓切割、研磨保護等封裝流程。材料送樣驗證通常涉及可靠度及製程相容性，與已通過量產資格、取得大批採購合約屬不同階段。",
+            "en": "Cheng Mei Materials historically produces polarizing and optical films and is adapting film-making techniques to wafer dicing and grinding protection. Samples undergoing reliability and process compatibility testing are not yet volume-qualified or contracted production."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "11 月 12 日法說揭露封裝應用膜材正在台灣客戶驗證，管理階層表示至少須數月驗證並進行導入，預期 2027 年下半年才可能小量出貨。時報新聞報導第三季合併營收 18.61 億元、季減 9.2%、年減 13.8%，毛利率負 0.1%，稅後淨損 2.35 億元；財務數字為既有整體業務。",
+            "en": "Management said on November 12 that packaging films were being qualified by customers in Taiwan and might begin limited deliveries in H2 2027 after several months of testing. The China Times financial report gave Q3 revenue of NT$1.861 billion, down 9.2% QoQ and 13.8% YoY, gross margin of minus 0.1% and a net loss of NT$235 million, figures covering the entire company."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "台灣封裝客戶身分、材料測試規格、實際通過認證日、月產量及半導體業務營收仍未披露。",
+            "en": "Packaging customer identities, qualification standards, final acceptance dates, monthly material output and semiconductor-business revenue remain unknown."
+          }
+        }
+      ],
+      "metric": "2027 H2",
+      "metricLabel": {
+        "zh": "封裝膠帶預期初期交付時點",
+        "en": "Targeted initial packaging tape shipments"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 12 日誠美材封裝材料法說",
+            "en": "CNA · Cheng Mei November 12 packaging materials briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120316.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "玉山證券 · 轉載誠美材第三季損益表",
+            "en": "E.SUN Securities · Reproduced Cheng Mei Q3 financial statement"
+          },
+          "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B1E9A0B24-8253-4FA3-8C3C-6F0C64D9A3FE%7D",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 轉載法說會場地與時間公告",
+            "en": "MoneyDJ · Reproduced investor briefing venue filing"
+          },
+          "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=af9d7a56-5683-448f-b09e-10a26fb7219f",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "半導體材料；晶圓；封裝；封測；載板；膜材；工廠",
+          "en": "Semiconductor materials; wafers; packaging; substrates; films; factories"
+        },
+        "chain": {
+          "zh": "晶圓切割與研磨保護膜材至封裝測試",
+          "en": "Wafer dicing and grinding films through packaging and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公布新增投資或資本支出。",
+            "en": "No new investment or approved capital spending disclosed."
+          },
+          "demand": {
+            "zh": "封裝材料送樣測試，尚未公布已驗收量產訂單。",
+            "en": "Packaging films are in qualification without accepted production orders."
+          },
+          "fdi": {
+            "zh": "沒有公布新增外國直接投資。",
+            "en": "No incremental foreign direct investment disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "誠美材原有偏光片及光學薄膜業務，正將膜材製造技術延伸到晶圓切割、研磨保護等封裝流程。材料送樣驗證通常涉及可靠度及製程相容性，與已通過量產資格、取得大批採購合約屬不同階段。",
+            "en": "Cheng Mei Materials historically produces polarizing and optical films and is adapting film-making techniques to wafer dicing and grinding protection. Samples undergoing reliability and process compatibility testing are not yet volume-qualified or contracted production."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "台灣封裝客戶身分、材料測試規格、實際通過認證日、月產量及半導體業務營收仍未披露。",
+            "en": "Packaging customer identities, qualification standards, final acceptance dates, monthly material output and semiconductor-business revenue remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 1.861,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "誠美材第三季財報，玉山證券轉載",
+            "en": "Cheng Mei Q3 filing, reproduced by E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B1E9A0B24-8253-4FA3-8C3C-6F0C64D9A3FE%7D",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.138,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨損",
+            "en": "Q3 after-tax net loss"
+          },
+          "current": -0.235,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "誠美材第三季財報，玉山證券轉載",
+            "en": "Cheng Mei Q3 filing, reproduced by E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B1E9A0B24-8253-4FA3-8C3C-6F0C64D9A3FE%7D",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": -0.001,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "誠美材第三季財報，玉山證券轉載",
+            "en": "Cheng Mei Q3 filing, reproduced by E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B1E9A0B24-8253-4FA3-8C3C-6F0C64D9A3FE%7D",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封裝製程用膜材檢驗、精密溫控及設備電源供應商而言，誠美材目前的進度是送樣及製程驗證。還需要確認晶圓切割與研磨膜材的驗收規格、客戶批准與真正交貨時程，2027 年與 2028 年目標不是既有量產。",
+        "en": "For packaging film inspection, precision thermal control and equipment power suppliers, Cheng Mei's disclosed milestone is sampling and process qualification. Dicing/grinding standards, customer sign-off and shipment timing remain pending; the 2027 and 2028 goals are not current production."
+      },
+      "location": {
+        "zh": "法人說明會場地：台灣台北市忠孝東路二段 95 號 13 樓，兆豐證券 1301 會議室。",
+        "en": "Investor briefing venue: Mega Securities, Room 1301, 13F, No. 95, Section 2, Zhongxiao East Road, Taipei, Taiwan."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "alee-north-america-lfp-cathode-mou-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "立凱電與北美業者簽 LFP 材料合作備忘錄，擬於台灣試產年產 2.5 萬噸產線",
+        "en": "Aleees signs LFP cathode MOU with North American partner, proposes 25,000-ton Taiwan pilot capacity"
+      },
+      "summary": {
+        "zh": "磷酸鐵鋰正極材料商立凱電 11 月 11 日與未具名北美業者簽署合作備忘錄，計畫在台灣成立合資公司，規劃年產 2.5 萬公噸 LFP 正極材料生產線以進行試產及客戶認證。備忘錄自 11 月 11 日起為期一年，出資比例、投資額及合作條款尚待正式協議，美國後續廠房亦取決於必要核准及客戶認證。",
+        "en": "On November 11, LFP cathode maker Aleees signed a one-year memorandum of understanding with an unnamed North American counterparty to explore a Taiwan joint venture and a planned 25,000-tonne annual LFP cathode production line for pilot batches and customer qualification. Ownership ratios, capex and binding terms require later agreements, while potential US production depends on approvals and customer acceptance."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "LFP 正極材料用於鋰離子電池製造，與工業電力備援及終端儲能應用有產品層級關聯，但本次未揭露資料中心 BBU 的具名客戶或銷售合約。立凱電表示將先完成台灣試產與認證，再討論北美擴產，不能將兩地規劃視為已建產能。",
+            "en": "LFP cathode materials feed lithium-ion battery manufacturing with potential uses in industrial backup power and energy storage. The MOU names no data-center BBU customer or sales contract. Aleees described Taiwan pilot qualification before considering US production, and neither proposed line is existing capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "公告數據與時點",
+            "en": "Reported facts and timing"
+          },
+          "text": {
+            "zh": "中央社於 11 月 12 日報導，雙方備忘錄自 11 月 11 日起一年，可經書面同意展延。台灣規劃年產 2.5 萬公噸，後續美國大規模商業化生產須待目標客戶驗收及法規核可；公司前三季歸屬母公司淨損 3.21 億元，財務實績與新合作計畫應分開。",
+            "en": "CNA reported that the memorandum runs for one year from November 11, extendable by written agreement. The Taiwan target is 25,000 metric tonnes per year, while US commercial production depends on customer qualification and permits. Aleees' nine-month attributable loss of NT$321 million is a financial actual separate from the proposed venture."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unverified"
+          },
+          "text": {
+            "zh": "北美合作方名稱、台灣合資契約、最終資本支出、年產能建置時間、LFP 客戶驗收及美國廠場址未公布。",
+            "en": "North American counterparty, binding joint-venture agreement, capital budget, line construction timing, LFP customer acceptance and US plant site are not disclosed."
+          }
+        }
+      ],
+      "metric": "25,000 公噸／年",
+      "metricLabel": {
+        "zh": "台灣 LFP 正極材料規劃年產能",
+        "en": "Proposed Taiwan LFP cathode annual capacity"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 立凱電北美 LFP 合作備忘錄",
+            "en": "CNA · Aleees North American LFP memorandum"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120038.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-11",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；工廠；電力；電源；儲能；終端；投資；FDI",
+          "en": "Materials; factories; industrial power; batteries; energy storage; investment"
+        },
+        "chain": {
+          "zh": "LFP 正極材料至電池及工業電力備援",
+          "en": "LFP cathode materials through batteries and industrial power backup"
+        },
+        "changes": {
+          "investment": {
+            "zh": "合資與建廠尚待協商，未公布正式核准資本支出。",
+            "en": "JV and facility spending remain under discussion, without approved capex."
+          },
+          "demand": {
+            "zh": "沒有公布可獨立核對的新增訂單或出貨件數。",
+            "en": "No independently verifiable new orders or shipment units disclosed."
+          },
+          "fdi": {
+            "zh": "備忘錄包含未來美國生產設施選項，沒有已完成的外資金額。",
+            "en": "The MOU includes possible later US production with no completed foreign investment."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "LFP 正極材料用於鋰離子電池製造，與工業電力備援及終端儲能應用有產品層級關聯，但本次未揭露資料中心 BBU 的具名客戶或銷售合約。立凱電表示將先完成台灣試產與認證，再討論北美擴產，不能將兩地規劃視為已建產能。",
+            "en": "LFP cathode materials feed lithium-ion battery manufacturing with potential uses in industrial backup power and energy storage. The MOU names no data-center BBU customer or sales contract. Aleees described Taiwan pilot qualification before considering US production, and neither proposed line is existing capacity."
+          },
+          "timing": {
+            "zh": "11 月 12 日公布資訊；已發生事件與未來規劃分別標示。",
+            "en": "Information disclosed November 12; past developments and future plans are distinguished."
+          },
+          "unknowns": {
+            "zh": "北美合作方名稱、台灣合資契約、最終資本支出、年產能建置時間、LFP 客戶驗收及美國廠場址未公布。",
+            "en": "North American counterparty, binding joint-venture agreement, capital budget, line construction timing, LFP customer acceptance and US plant site are not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "台灣 LFP 產線規劃年產能",
+            "en": "Planned Taiwan LFP cathode annual output"
+          },
+          "current": 25000,
+          "unit": "公噸／年",
+          "period": {
+            "zh": "備忘錄提出的未來計畫",
+            "en": "Future capacity contemplated by MOU"
+          },
+          "owner": {
+            "zh": "立凱電，中央社報導",
+            "en": "Aleees, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120038.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季歸屬母公司淨損",
+            "en": "Nine-month attributable loss"
+          },
+          "current": -0.321,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "立凱電，中央社報導",
+            "en": "Aleees, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120038.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列明同口徑的精確比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源備援、鋰電材料測試與電池製程儀器供應商而言，立凱電的合作仍在備忘錄及台灣試產構想階段。需要核對合資契約、正極材料規格、客戶認證與最終廠務投資，年產 2.5 萬公噸未成為已驗收產能。",
+        "en": "For industrial backup power, lithium materials test and battery process instrumentation suppliers, Aleees' cooperation remains an MOU and pilot-line plan. Binding contracts, cathode specifications, customer acceptance and factory capex are unverified; 25,000 tonnes is not commissioned output."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "鴻海第三季營收能換算成 AI 機櫃出貨量嗎？",
+        "en": "Can Foxconn's Q3 revenue be converted into AI rack shipments?"
+      },
+      "text": {
+        "zh": "鴻海公布合併營收及雲端網路事業占比，但沒有分列 AI 機櫃台數與產品售價。第四季及 2027 年高雙位數出貨成長均屬公司預測。",
+        "en": "Foxconn published consolidated revenue and a cloud-networking share but no distinct rack units or average rack prices. High-double-digit rack growth in Q4 and 2027 is guidance."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "三井金屬新廠的 1,900 億日圓和生產設備費能直接相加嗎？",
+        "en": "Should Mitsui's JPY190B total be added to its equipment cost?"
+      },
+      "text": {
+        "zh": "不能。1,900 億日圓已含土地約 140 億、建築約 320 億及設備等約 1,440 億日圓，三項分配相加即為總額，產能仍是 2031 年後規劃。",
+        "en": "No. The JPY190B total includes JPY14B land, JPY32B buildings and JPY144B equipment/other assets. The components already sum to the total, with capacity planned from 2031 onward."
+      }
+    },
+    {
+      "id": 7,
+      "question": {
+        "zh": "漢測第三季虧損應直接加回一次性員工認股費用嗎？",
+        "en": "Should Hermes' one-off employee-share expense simply be added back to earnings?"
+      },
+      "text": {
+        "zh": "不宜自行加回作為正式淨利。公司公布的一次性非現金費用和每股影響估計，尚未構成完整的稅後、股數調整及會計口徑一致的調整後財報。",
+        "en": "A mechanical add-back is not a formal adjusted profit figure. The disclosed noncash cost and estimated EPS effect lack a full tax, share-count and accounting reconciliation."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "舊有與新公布的資本支出日期",
+        "en": "Dates of capital spending announcements"
+      },
+      "text": {
+        "zh": "三井金屬正式銅箔新廠公告日期為 11 月 10 日，仍在本期 72 小時內；三福化與南亞董事會資本支出日期為 11 月 11 日，後續媒體於 11 月 12 日報導。不同日期不能視為同一天新增的投資核准。",
+        "en": "Mitsui's copper-foil approval is dated November 10 and falls within the 72-hour coverage window. Nanya and San Fu approved capex November 11, with follow-up reporting November 12. They were not all newly approved on the same day."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料註記",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "未驗證的市場推論及人物消息",
+        "en": "Speculative market reactions and personal news"
+      },
+      "text": {
+        "zh": "本次排除沒有具體設備、產能或政策進度的股價走勢、分析師預估，以及無法證實對供應鏈營運有直接影響的人物傳聞。",
+        "en": "Share-price movements, unsupported analyst projections and personal allegations without verified direct operating effects were excluded."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "鴻海第三季實績依公司原始英文新聞稿及中央社詳細數字核對，部分分項金額以公司公布精度呈現。南亞及三福化董事會案仍為投資核准，產能尚未實現；三福化重大訊息透過媒體轉載取得。馬來西亞 GPU 監管僅有部長構想，尚無立法條文，個別業者指控未獲裁判確認。三井金屬馬來西亞新廠公告日期為 11 月 10 日，設備及土地建築成本已含在總投資額內，2031 年後產能仍屬計畫。雙鴻毛利比較、漢測員工認股費用、誠美材封裝材料驗證與立凱電 LFP 合作均依公司及二手報導口徑，未對未公布獲利、出貨或正式合約自行推算。",
+    "en": "Foxconn Q3 figures were checked against its original English release and CNA's detailed figures, retaining original rounding. Nanya and San Fu approvals are budgets rather than commissioned capacity, and San Fu's filing was inspected through a reproduction. Malaysia's GPU oversight remains a ministerial idea without enacted text; allegations about individual firms are not adjudicated facts. Mitsui's announcement is dated November 10 and its land, buildings and equipment costs are included in its total, with capacity due after 2031. Auras' margin comparison, Hermes' one-off expense, Cheng Mei's film qualification and Aleees' LFP MOU follow attributed disclosures without inventing adjusted profits, shipments or binding agreements."
+  }
+}

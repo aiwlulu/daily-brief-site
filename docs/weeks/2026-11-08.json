@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-08",
-  "generatedAt": "2026-11-11T15:17:28.000Z",
+  "generatedAt": "2026-11-12T11:02:16.000Z",
   "throughline": {
-    "zh": "緯創與廣達發布伺服器產能和財務進展，台灣精密測試設備廠公布 CPO 進度，並新增日本資料中心、泰國材料工廠與記憶體採購預測消息。",
-    "en": "Wistron and Quanta disclosed server factory and financial developments, precision test suppliers updated CPO progress, and Japanese data-center, Thai materials factory and memory procurement announcements added new regional evidence."
+    "zh": "半導體與伺服器供應鏈公布營運及投資進度，南亞與三井金屬宣布材料廠擴充，馬來西亞則研議新增資料中心晶片監管。",
+    "en": "Semiconductor and server companies reported operating and investment developments, Nanya and Mitsui announced materials capacity plans, and Malaysia considered new data-center chip monitoring rules."
   },
   "highlights": [
     {
       "id": 1,
       "category": "taiwan",
       "title": {
-        "zh": "晶圓、封裝測試、設備與科技園區投資",
-        "en": "Wafers, packaging/test, equipment and science-park investment"
+        "zh": "半導體封測設備、晶圓材料與新產能計畫",
+        "en": "Semiconductor testing, wafer materials and new manufacturing plans"
       },
       "summary": {
-        "zh": "本週晶圓代工、封測、測試與材料業者陸續公布營收、工程進度及新計畫。11 月 11 日大銀微系統報告 CPO 定位平台已出貨，旺矽揭露探針卡與光學測試進展，國科會核准園區投資案並預告高階載板技術清單修正，實際出貨、核准資本與草案規範須依各事件分開閱讀。",
-        "en": "Foundry, packaging, testing and materials companies reported sales and project developments. On November 11 HIWIN MIKROSYSTEM disclosed CPO platform shipments, WinWay described probe-card and optical testing progress, and NSTC approved park projects while proposing substrate technology-list changes. Actual output, investment approvals and draft rules remain distinct."
+        "zh": "本週台積電、日月光及多家晶圓測試與設備業者陸續公告財務、封裝與設備驗收進度。11 月 11 至 12 日三福化核准橋頭科學園區化學品新廠、漢測揭露股權費用及誠美材公布切割膠帶送驗計畫，分別屬資本支出、已認列財務與未完成的客戶認證。",
+        "en": "TSMC, ASEH and wafer-test suppliers reported results, packaging activity and equipment milestones. San Fu approved a Qiaotou chemical factory, Hermes disclosed an equity-compensation charge and Cheng Mei described packaging-tape qualification. These represent approved capital, recognized accounting and prospective acceptance."
       },
       "references": [
         {
@@ -77,6 +77,18 @@
         {
           "date": "2026-11-12",
           "storyId": 9
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 7
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 8
         }
       ]
     },
@@ -84,12 +96,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "機櫃電源、精密機械與跨境材料廠投資",
-        "en": "Rack power, precision machinery and overseas materials investment"
+        "zh": "工業電源、電子基板材料與海外製造",
+        "en": "Industrial power, substrate materials and overseas manufacturing"
       },
       "summary": {
-        "zh": "中鋼、奇鋐、台達電、光寶科與國巨各自公布工業電力、散熱和零組件資訊，機械公會亦發布工具機與關鍵零組件出口額。11 月 11 日美琪瑪另核准泰國廠房支出及子公司增資，兩項資金決議可能涉及同一工程，無法直接合併為不同設備採購。",
-        "en": "China Steel, AVC, Delta, Lite-On and Yageo reported site power, cooling or components activity alongside machinery export data. On November 11 Mechema approved a Thai factory budget and subsidiary capitalization, potentially supporting the same project and not establishing separate equipment orders."
+        "zh": "中鋼、台達電、光寶科與國巨披露電源及零組件進度，台灣機械業另公布出口數據。南亞核准彰濱玻纖布廠、三井金屬公布馬來西亞銅箔新廠，雙鴻揭露散熱財報，立凱電與北美業者簽 LFP 合作備忘錄，材料規劃、實際營收與合作意向分別標示。",
+        "en": "China Steel, Delta, Lite-On and Yageo reported power-related activity alongside Taiwanese machinery exports. Nanya approved a fiberglass plant, Mitsui proposed a Malaysian copper-foil facility, Auras reported cooling results and Aleees signed an LFP memorandum. Planned materials capacity, realized sales and nonbinding cooperation are kept separate."
       },
       "references": [
         {
@@ -123,6 +135,22 @@
         {
           "date": "2026-11-12",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 9
         }
       ]
     },
@@ -130,12 +158,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "資料中心建設與伺服器 ODM 產能安排",
-        "en": "Data-center projects and server ODM capacity"
+        "zh": "資料中心政策、機房建設與伺服器系統",
+        "en": "Data-center policy, infrastructure and server systems"
       },
       "summary": {
-        "zh": "馬來西亞與印尼機房工程、供水議題仍有各自的合約或因果限制，華碩、英業達與和碩公布伺服器相關營收。11 月 11 日緯創新增台灣及墨西哥產能預算、廣達終止友達華亞廠收購並調整方案，東元則宣布日本首期 6.4MW 模組化機房工程計畫，投資核准與實際上電驗收分屬不同狀態。",
-        "en": "Malaysian and Indonesian data-center projects retain unresolved contract and water issues, while ASUS, Inventec and Pegatron reported server-related sales. On November 11 Wistron approved Taiwan/Mexico capex, Quanta canceled a planned AUO acquisition and TECO announced a Japanese 6.4MW modular facility. Approved budgets, plans and commissioned loads are distinct."
+        "zh": "馬來西亞與印尼的機房工程及供水問題仍有未確認事項，台灣 ODM 業者公布多項伺服器財報與擴廠案。鴻海 11 月 12 日公布第三季實績，馬來西亞則提出資料中心 GPU 申報立法構想；新增規範尚未生效，伺服器出貨預測也未提供獨立機櫃數量。",
+        "en": "Malaysian and Indonesian data-center developments retain unresolved construction and water questions, while Taiwanese ODMs released server results and factory plans. Foxconn reported Q3 results on November 12 and Malaysia outlined a possible GPU reporting law, with no enacted new rule or verified rack counts."
       },
       "references": [
         {
@@ -177,6 +205,14 @@
         {
           "date": "2026-11-12",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-13",
+          "storyId": 3
         }
       ]
     },
@@ -184,12 +220,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "記憶體技術、成本與 PC 採購預測",
-        "en": "Memory technology, costs and PC procurement outlook"
+        "zh": "記憶體技術、成熟製程與合約價格預測",
+        "en": "Memory technology, mature-node production and contract-price forecasts"
       },
       "summary": {
-        "zh": "台積電回應尚未證實的 3D DRAM 報導，華邦電重述已核准的擴產預算，來頡則說明成熟晶圓與封測成本預期。TrendForce 11 月 11 日預估第四季 PC DRAM 合約價季增 13% 至 18%，Client SSD 漲幅低於 5%，數值屬研究機構預測，尚未代表特定廠商實際成交價。",
-        "en": "TSMC addressed an unconfirmed 3D DRAM report, Winbond restated existing approved fab capex and M3 discussed mature-node costs. TrendForce on November 11 forecast 13%–18% Q4 PC DRAM price growth and under 5% client SSD growth, neither of which establishes individual suppliers' executed contracts."
+        "zh": "台積電先前重申專業晶圓代工定位，華邦電說明既有擴建預算，來頡揭露成熟製程與封測成本預期。TrendForce 對 PC DRAM 及 Client SSD 的第四季合約價區間是研究預測，未涵蓋每一家廠商已成交的實際價格。",
+        "en": "TSMC reiterated its foundry focus, Winbond discussed prior expansion budgets and M3 described mature-node and back-end cost pressure. TrendForce's PC DRAM and client SSD Q4 contract-price ranges are forecasts rather than executed prices for individual suppliers."
       },
       "references": [
         {
@@ -218,12 +254,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "electronica 與 SEMICON Europa 臺灣展商",
-        "en": "Taiwanese exhibitors at electronica and SEMICON Europa"
+        "zh": "electronica 與 SEMICON Europa 臺灣供應商參展",
+        "en": "Taiwanese suppliers at electronica and SEMICON Europa"
       },
       "summary": {
-        "zh": "electronica 與 SEMICON Europa 於 11 月 10 至 13 日在慕尼黑舉行，外貿協會公開超過 250 家臺灣參展業者與臺灣館活動資訊。展商參與已有主辦單位資料，仍無可核對的現場採購或成交金額。",
-        "en": "electronica and SEMICON Europa run November 10–13 in Munich, with TAITRA listing more than 250 Taiwanese exhibitors and a Taiwan pavilion program. Participation is documented; individual contract values have not been established."
+        "zh": "外貿協會列出超過 250 家臺灣供應商參與 11 月 10 至 13 日慕尼黑 electronica 展會及相關活動，SEMICON Europa 同期舉行。主辦單位公布的展期與展商資料可核對，尚未有可驗證的現場採購金額。",
+        "en": "TAITRA listed more than 250 Taiwanese participants at electronica in Munich on November 10–13, alongside SEMICON Europa. Dates and exhibitor participation were published, but no verifiable signed order values were provided."
       },
       "references": [
         {
