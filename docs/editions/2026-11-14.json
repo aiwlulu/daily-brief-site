@@ -1,0 +1,1511 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-13T11:22:43.644Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、伺服器及工業設備供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductor, server and industrial-equipment supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "馬來西亞查核資料中心 AI 晶片流向，台灣同時發布伺服器財報、電子資訊採購預估及電源與高速材料製造計畫。",
+    "en": "Malaysia is investigating the movement of AI chips through data centers, while Taiwan reported server earnings, electronics procurement forecasts, and plans for power and high-speed materials."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "馬來西亞投貿部查核 Speedmatrix 晶片是否再出口；官員場勘並未構成核准，尚無違規調查結論。",
+        "en": "Malaysia is checking whether Speedmatrix chips were re-exported; prior site visits were not clearance and no violation has been established."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "華碩第三季營收 2,587.88 億元、年增 36%；伺服器營收年增約一倍，全年成長預測仍待實現。",
+        "en": "ASUS reported NT$258.788 billion Q3 revenue, up 36% YoY, and roughly doubled server sales; full-year growth remains guidance."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "經濟部預估 2026 年外商對台電子資訊採購 3,258 億美元、年增 24%，屬預測值。",
+        "en": "MOEA forecasts US$325.8 billion in 2026 electronics procurement from Taiwan, up 24%, with the figure explicitly an estimate."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "新加坡警方新增伺服器採購案件被告，指控涉及 917 台伺服器的歷史交易，案件尚待審理。",
+        "en": "Singapore added defendants in a case involving allegations over 917 historical server units; the charges remain unproven."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "元太與台虹合作高速 PTFE 材料，預期 2027 年小量生產、2028 年量產，客戶驗證未完成。",
+        "en": "E Ink and Taiflex target limited PTFE output in 2027 and mass production in 2028, subject to qualification."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "malaysia-data-center-gpu-compliance-legislation-proposal",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：馬來西亞查 Speedmatrix AI 晶片再出口，投貿部澄清未核准相關業者",
+        "en": "Follow-up: Malaysia checks Speedmatrix AI-chip re-exports and denies granting clearance"
+      },
+      "summary": {
+        "zh": "馬來西亞投資、貿易及工業部 11 月 13 日表示，正與海關查核 Speedmatrix 帶入當地資料中心的 AI 晶片是否曾再出口，並澄清先前例行場勘不構成核准。當局稱自 2025 年 7 月起，特定美國高效能 AI 晶片的出口、再出口或轉運須取得許可；目前尚無已證實的違規出貨結論。",
+        "en": "Malaysia's Investment, Trade and Industry Ministry said on November 13 it was checking with customs whether AI chips brought into local data centers by Speedmatrix were re-exported, clarifying that routine site visits did not constitute clearance. Export, re-export and transit of specified US high-performance AI chips have required permits since July 2025; the ministry has not established a violation."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與政策背景",
+            "en": "Supply-chain and policy context"
+          },
+          "text": {
+            "zh": "Speedmatrix 為新加坡 Megaspeed 在馬來西亞的關係企業，投貿部表示該公司以資料中心租戶身分自帶伺服器與 AI 晶片。政府區分一般進口與受管制晶片再出口：現行進口不必取得特別許可，但特定跨境移轉涉及戰略貿易法規。",
+            "en": "Speedmatrix is linked to Singapore-based Megaspeed and, according to the ministry, brought its own servers and AI chips to rented Malaysian data-center facilities. The ministry distinguishes chip imports, which currently need no special import permit, from controlled re-export and transit under strategic-trade rules."
+          }
+        },
+        {
+          "label": {
+            "zh": "11 月 13 日官方陳述",
+            "en": "November 13 ministry statement"
+          },
+          "text": {
+            "zh": "馬來西亞通訊社 Bernama 引述投貿部當日聲明，部會未對 Megaspeed 或 Speedmatrix 作出公司層級核准，先前檢查資料中心屬一般監測。投貿部與皇家海關調查相關晶片的後續去向，並與新加坡、美國相關單位合作。",
+            "en": "Bernama reported the ministry's November 13 statement that neither Megaspeed nor Speedmatrix had received company-specific clearance and that prior inspections were routine. The ministry and Royal Malaysian Customs are examining subsequent chip movements while cooperating with counterparts in Singapore and the United States."
+          }
+        },
+        {
+          "label": {
+            "zh": "不同官方表述及證據界線",
+            "en": "Separate claims and evidence limits"
+          },
+          "text": {
+            "zh": "總理安華同日對媒體表示，當時沒有跡象顯示相關晶片已從馬來西亞出口，也沒有接獲新加坡或美國的正式協助調查請求。投貿部所說的跨境合作與總理所說的未收到正式請求，屬不同程序描述；目前都不能據此推定交易合法或違法。",
+            "en": "Prime Minister Anwar Ibrahim said the same day there was no indication the chips had been exported from Malaysia and no formal assistance request from Singapore or the United States at that point. The ministry's reference to cooperation and the prime minister's statement about formal requests concern different processes; neither settles compliance."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "晶片型號、數量、各批貨物流向、海關申報、許可文件及調查結論尚未公開；本事件不等同已查證的晶片轉運或定罪。",
+            "en": "Chip models, units, shipment routes, customs filings, permits and investigation findings remain undisclosed. No unlawful diversion or conviction has been established."
+          }
+        }
+      ],
+      "metric": "再出口調查",
+      "metricLabel": {
+        "zh": "政府查核狀態",
+        "en": "Government investigation status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Bernama · 引述投貿部 11 月 13 日聲明",
+            "en": "Bernama · November 13 MITI statement"
+          },
+          "url": "https://web27.bernama.com/bernamabiz/news.php?id=2633786",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Bernama · 總理回應",
+            "en": "Bernama · Prime minister's response"
+          },
+          "url": "https://bernama.com/en/news.php?id=2633778",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Malay Mail · 政府聲明補充",
+            "en": "Malay Mail · Further ministry details"
+          },
+          "url": "https://www.malaymail.com/news/malaysia/2026/11/13/miti-says-it-never-cleared-megaspeed-speedmatrix-as-malaysia-probes-possible-chip-re-exports/243065",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "馬來西亞；新加坡；美國",
+          "en": "Malaysia; Singapore; United States"
+        },
+        "industries": {
+          "zh": "資料中心；伺服器；AI 晶片；晶圓；投資；政策",
+          "en": "Data centers; servers; AI chips; semiconductors; investment policy"
+        },
+        "chain": {
+          "zh": "AI 晶片及伺服器進口至資料中心、再出口管制",
+          "en": "AI-chip and server imports through data-center operations and re-export controls"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公布新增投資。",
+            "en": "No new investment was announced."
+          },
+          "demand": {
+            "zh": "沒有公布新增晶片採購或實際出貨。",
+            "en": "No new chip purchases or shipment volumes were disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資項目。",
+            "en": "No new FDI project was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "查核涉及資料中心租戶取得與轉移高效能 AI 晶片時的許可及追溯程序。",
+            "en": "The inquiry concerns traceability and licensing for movement of high-performance AI chips through data-center tenants."
+          },
+          "timing": {
+            "zh": "投貿部及總理於 2026 年 11 月 13 日分別發言，原有許可規範自 2025 年 7 月生效。",
+            "en": "The ministry and prime minister spoke on November 13, 2026; the underlying permit requirement dates to July 2025."
+          },
+          "unknowns": {
+            "zh": "沒有公開各批晶片的進出口證據或調查結論。",
+            "en": "Shipment-level evidence and investigative findings are not public."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對伺服器電源、精密量測與資料中心控制設備的供應商而言，這項查核涉及客戶設備跨境移轉時的申報與最終用途證明。需要查明具體晶片類別、實際出貨及合規文件，在調查結束前無法推斷任何設備採購影響。",
+        "en": "For suppliers of server power, precision measurement and data-center controls, this inquiry raises questions about customs declarations and end-use records when customer equipment crosses borders. Specific chip classifications, shipment records and compliance findings are still needed before drawing conclusions about equipment demand."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "asus-q3-2026-server-revenue-outlook",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "華碩第三季營收 2,587.88 億元，伺服器業務年增約一倍",
+        "en": "ASUS reports NT$258.788 billion Q3 revenue and roughly doubled server sales"
+      },
+      "summary": {
+        "zh": "華碩 11 月 12 日晚間公布第三季營收 2,587.88 億元、年增 36%，營業利益 219.64 億元、年增 161%，歸母淨利 216.31 億元、年增 105%。公司表示第三季伺服器營收年增約 100%，全年成長至少 150% 仍屬管理階層展望，未提供伺服器台數與個別電源設備訂單。",
+        "en": "ASUS reported Q3 revenue of NT$258.788 billion on November 12, up 36% YoY, operating profit of NT$21.964 billion, up 161%, and attributable profit of NT$21.631 billion, up 105%. Management said server revenue roughly doubled in Q3 and guided to at least 150% full-year growth, without disclosing server unit shipments or separate power-equipment orders."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain background"
+          },
+          "text": {
+            "zh": "華碩經營品牌電腦、伺服器與整機系統，其 AI 與一般型伺服器使用晶片、記憶體、電源供應及散熱零組件。公司整體營收無法拆解為 AI 機櫃、測試設備或特定客戶驗收金額。",
+            "en": "ASUS sells PCs, servers and complete systems. AI and conventional servers combine processors, memory, power conversion and cooling. Consolidated group revenue cannot identify AI-rack units, test-equipment purchases or individual customer acceptances."
+          }
+        },
+        {
+          "label": {
+            "zh": "已實現的財務數據",
+            "en": "Reported financial results"
+          },
+          "text": {
+            "zh": "中央社根據華碩法人說明會整理，第三季營收較前季增加 7%，營益增加 12%，歸母淨利增加 14%，每股盈餘為 29.1 元。年增率分別為營收 36%、營益 161%、歸母淨利 105%，季增與年增比較基準不同，不應混用。",
+            "en": "CNA reported quarter-on-quarter increases of 7% in revenue, 12% in operating profit and 14% in attributable profit, with EPS of NT$29.1. The corresponding year-on-year growth figures were 36%, 161% and 105%; those comparisons use different bases."
+          }
+        },
+        {
+          "label": {
+            "zh": "伺服器實績與前瞻",
+            "en": "Server actuals versus guidance"
+          },
+          "text": {
+            "zh": "管理階層稱第三季伺服器營收年增約 100%，通用型 CPU 伺服器年增 80%、約占伺服器營收 20%。全年伺服器營收至少成長 150% 為公司預期；2027 年高雙位數成長為內部目標，部分第三季認列受客戶部署時間影響。",
+            "en": "Management said server revenue rose about 100% YoY in Q3, conventional CPU-server sales rose 80% and represented roughly 20% of server revenue. At least 150% growth for full-year 2026 is guidance, while high-double-digit growth for 2027 is an internal target. Some quarterly recognition was delayed by customer deployment schedules."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "沒有公布 AI 與通用伺服器各自精確營收、出貨台數、機櫃額定功率、液冷規格與已簽妥的 2027 年訂單數量。",
+            "en": "Precise AI-versus-CPU server revenue, unit shipments, rack power ratings, liquid-cooling specifications and firm 2027 order quantities were not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$258.788B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 華碩第三季財報與法說",
+            "en": "CNA · ASUS Q3 earnings briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "ODM；伺服器；整機；PC；記憶體；電源；散熱；資料中心",
+          "en": "ODM; servers; systems; PCs; memory; power; cooling; data centers"
+        },
+        "chain": {
+          "zh": "晶片與記憶體至伺服器整機、電源及資料中心",
+          "en": "Chips and memory through servers, power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新核准資本支出金額。",
+            "en": "No new approved capex value was disclosed."
+          },
+          "demand": {
+            "zh": "第三季伺服器營收年增約 100%；全年至少年增 150% 屬指引。",
+            "en": "Q3 server revenue rose about 100% YoY; at least 150% full-year growth is guidance."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器實際收入與未來出貨指引涉及晶片、記憶體、整機供電及散熱鏈。",
+            "en": "Server realized sales and shipment guidance concern chips, memory, system power and cooling."
+          },
+          "timing": {
+            "zh": "11 月 12 日晚間法說，涵蓋 2026 年第三季；2027 年數字為展望。",
+            "en": "November 12 briefing covered Q3 2026; 2027 statements remain outlooks."
+          },
+          "unknowns": {
+            "zh": "未提供單機櫃營收、出貨台數及客戶驗收明細。",
+            "en": "No per-rack revenue, unit shipments or customer acceptance detail."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 258.788,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "華碩，中央社報導",
+            "en": "ASUS, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.36,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益",
+            "en": "Q3 operating profit"
+          },
+          "current": 21.964,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "華碩，中央社報導",
+            "en": "ASUS, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.61,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 21.631,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "華碩，中央社報導",
+            "en": "ASUS, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.05,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "伺服器營收年增率",
+            "en": "Server revenue YoY growth"
+          },
+          "current": 1,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "華碩管理階層，中央社報導",
+            "en": "ASUS management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "通用型 CPU 伺服器營收占比",
+            "en": "CPU-server revenue share"
+          },
+          "current": 0.2,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "華碩管理階層，中央社報導",
+            "en": "ASUS management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "全年伺服器營收成長目標下限",
+            "en": "Minimum full-year server revenue growth guidance"
+          },
+          "current": 1.5,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年全年預測",
+            "en": "Full-year 2026 guidance"
+          },
+          "owner": {
+            "zh": "華碩管理階層，中央社報導",
+            "en": "ASUS management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120335.aspx",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.5,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 AI 伺服器電源轉換、電力測試與冷卻控制設備供應商而言，華碩揭露了伺服器收入成長，但尚未拆分各平台的電源架構。應核對整機櫃設計、功率需求、驗收節點與認列時程，全年指引仍不能視為已下單的設備數量。",
+        "en": "For suppliers of AI-server power conversion, electrical test and cooling controls, ASUS disclosed rising server revenue without platform-specific electrical architectures. Rack configurations, power ratings, qualification timing and acceptance records remain necessary; full-year guidance does not establish equipment orders."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "taiwan-moea-2026-electronics-procurement-forecast",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "經濟部估 2026 年外商對台電子資訊採購 3,258 億美元，年增 24%",
+        "en": "Taiwan MOEA forecasts US$325.8 billion electronics procurement in 2026, up 24%"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 12 日於電子資訊國際夥伴績優廠商頒獎活動公布，預估 2026 年國際大廠對台採購金額達 3,258 億美元，年增 24%。此數據屬年度預估，涵蓋電子資訊跨公司採購，不能直接等同已完成出口、個別伺服器訂單或晶片出貨。",
+        "en": "Taiwan's Ministry of Economic Affairs said on November 12 it expected international electronics and IT procurement from Taiwan to reach US$325.8 billion in 2026, 24% above the previous year. The figure is a ministry forecast spanning cross-company procurement, not confirmed exports, individual server orders or chip shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景與統計範圍",
+            "en": "Supply-chain context and statistical scope"
+          },
+          "text": {
+            "zh": "經濟部在 11 月 11 日舉行的 IPO Awards 活動表揚 ASML、NVIDIA、Apple 等 22 家國際業者，隔日發布採購預估。涵蓋電子資訊國際採購鏈，包括晶圓、設備、零組件、伺服器、供電和散熱等產業關聯，但新聞稿沒有揭露逐公司金額。",
+            "en": "The ministry held its IPO Awards event on November 11 and issued the forecast on November 12, recognizing 22 international firms including ASML, NVIDIA and Apple. The procurement ecosystem spans semiconductors, equipment, components, servers, power and cooling, but no company-level procurement breakdown was released."
+          }
+        },
+        {
+          "label": {
+            "zh": "預估與已實現數據分開",
+            "en": "Forecast versus realized data"
+          },
+          "text": {
+            "zh": "經濟部稱 2026 年採購規模預估 3,258 億美元、年增 24%。同篇另引述前九月台灣累計出口 6,615.3 億美元、年增 46.2%；出口統計與對台採購預估的定義、期間和母體不同，無法相加或直接比較。",
+            "en": "The ministry forecast 2026 procurement of US$325.8 billion, up 24% YoY. The same release cited US$661.53 billion of Taiwan exports in the first nine months, up 46.2%; trade exports and projected international procurement differ in definition, period and reporting population and should not be added together."
+          }
+        },
+        {
+          "label": {
+            "zh": "供電與設備供應鏈資料",
+            "en": "Related power and equipment details"
+          },
+          "text": {
+            "zh": "同一公告提及伊頓近兩年在台擴產投資逾 2 億元，並稱規劃未來四年投入 3 億元發展高壓直流供電及液冷；科磊在新竹設立技術訓練中心。這些是個別企業投資與設施資訊，不能視為 3,258 億美元採購預估的分項證明。",
+            "en": "The release separately described more than NT$200 million of Eaton expansion spending over the previous two years, a planned NT$300 million over four more years for high-voltage DC power and liquid cooling, and a KLA training center in Hsinchu. These company-level details do not constitute a breakdown of the US$325.8 billion procurement forecast."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚無可核對的逐買主採購數字、預估計算明細、實際交貨或驗收金額，也未提供同口徑前一年精確採購基數。",
+            "en": "Buyer-level amounts, forecasting methodology, delivered and accepted value, and an exact comparable prior-year procurement base were not released."
+          }
+        }
+      ],
+      "metric": "US$325.8B",
+      "metricLabel": {
+        "zh": "2026 年對台採購預估",
+        "en": "2026 procurement forecast"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部 · 2026 國際採購預估公告",
+            "en": "MOEA · 2026 international procurement forecast"
+          },
+          "url": "https://www.moea.gov.tw/mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124543",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 經濟部採購預估報導",
+            "en": "CNA · Ministry procurement forecast"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120308.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣；國際採購市場",
+          "en": "Taiwan; global procurement markets"
+        },
+        "industries": {
+          "zh": "設備；零組件；晶圓；伺服器；電源；資料中心；投資；預測",
+          "en": "Equipment; components; wafer fabrication; servers; power; data centers; forecasts"
+        },
+        "chain": {
+          "zh": "晶圓與設備、零組件至伺服器供電與系統採購",
+          "en": "Wafer fabrication and tools through components, server power and systems procurement"
+        },
+        "changes": {
+          "investment": {
+            "zh": "政府公告沒有核准單一新投資總額。",
+            "en": "The release did not approve a single new investment total."
+          },
+          "demand": {
+            "zh": "經濟部對全年國際採購金額估 3,258 億美元，年增 24%。",
+            "en": "MOEA forecasts US$325.8 billion of procurement, up 24% YoY."
+          },
+          "fdi": {
+            "zh": "公告未列可單獨核對的新 FDI 總額。",
+            "en": "No independently verifiable new FDI total was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "年度採購預估涉及台灣電子資訊供應鏈，未揭露個別供應商受注金額。",
+            "en": "The annual estimate covers Taiwanese electronics supply chains without individual supplier orders."
+          },
+          "timing": {
+            "zh": "11 月 11 日頒獎，11 月 12 日經濟部公布 2026 年全年預估。",
+            "en": "Awards were held November 11; the ministry published the full-year 2026 estimate November 12."
+          },
+          "unknowns": {
+            "zh": "未提供買主分解、預測方法及精確同期基數。",
+            "en": "Buyer breakdown, forecast method and exact comparable base remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "國際大廠對台採購預估",
+            "en": "International procurement forecast"
+          },
+          "current": 325.8,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年全年預估",
+            "en": "Full-year 2026 forecast"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124543",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.24,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "台灣前九月出口額",
+            "en": "Taiwan exports, first nine months"
+          },
+          "current": 661.53,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "經濟部公告所引出口統計",
+            "en": "Trade data cited by MOEA"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124543",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.462,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程電源、晶片測試及資料中心供電設備製造商而言，3,258 億美元是台灣電子資訊採購總體預估，不能用來推估單一製程設備需求。仍須確認採購品項、最終應用、客戶驗收與已履約金額。",
+        "en": "For semiconductor process-power, chip-test and data-center power suppliers, US$325.8 billion is an aggregate procurement forecast and cannot determine demand for a specific equipment class. Product categories, end use, customer acceptance and fulfilled orders remain unverified."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "eink-taiflex-ptfe-high-speed-substrate",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "元太與台虹合作 PTFE 高速傳輸材料，稱 2027 年先小量生產",
+        "en": "E Ink and Taiflex develop PTFE high-speed materials, targeting initial 2027 output"
+      },
+      "summary": {
+        "zh": "元太 11 月 12 日法說表示，將與台虹合作開發用於 AI 資料中心的 PTFE 高速傳輸材料，規劃利用觀音廠既有廠務與捲對捲設備資源，預計 2027 年初步生產、2028 年量產。元太持有台虹約 15.7% 股權，量產與客戶認證目前都屬後續計畫。",
+        "en": "At its November 12 investor briefing, E Ink said it was jointly developing PTFE high-speed transmission materials with Taiflex for AI data centers, potentially using existing roll-to-roll resources at its Guanyin facility. Initial production is targeted for 2027 and mass production for 2028; E Ink holds about 15.7% of Taiflex, while customer qualification remains pending."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "材料與供應鏈背景",
+            "en": "Materials and supply-chain background"
+          },
+          "text": {
+            "zh": "PTFE 聚四氟乙烯可用於高速傳輸材料開發，供應鏈涉及基板材料、電子零組件、伺服器及資料中心系統。元太表示電子紙與相關材料加工都有捲對捲製程，可能共用或調整部分製造資源。",
+            "en": "PTFE is under development for high-speed transmission materials used in electronics supply chains spanning substrates, server components and data-center systems. E Ink said its e-paper and proposed PTFE processes both use roll-to-roll methods, allowing potential shared or adapted resources."
+          }
+        },
+        {
+          "label": {
+            "zh": "財報與未來時程",
+            "en": "Quarterly actuals and production targets"
+          },
+          "text": {
+            "zh": "元太第三季營收 99.36 億元、年減 5%，歸母淨利 26.52 億元；前九月營收 287.9 億元。材料業務初步貢獻預期落在 2027 年，2028 年量產尚待製程、良率及客戶驗證。",
+            "en": "E Ink reported Q3 revenue of NT$9.936 billion, down 5% YoY, attributable profit of NT$2.652 billion, and nine-month revenue of NT$28.79 billion. Initial contribution in 2027 and mass production in 2028 depend on process readiness, yields and customer qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "目前沒有公開材料月產能、驗證客戶、已簽訂單、正式規格或專屬 PTFE 營收。",
+            "en": "Material capacity, qualification customers, contracted orders, finalized specifications and stand-alone PTFE revenue were not disclosed."
+          }
+        }
+      ],
+      "metric": "2027",
+      "metricLabel": {
+        "zh": "初步生產目標年份",
+        "en": "Target initial-production year"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 元太法說與台虹材料合作",
+            "en": "CNA · E Ink and Taiflex material plans"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611120354.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；基板；零組件；伺服器；資料中心",
+          "en": "Materials; substrates; components; servers; data centers"
+        },
+        "chain": {
+          "zh": "PTFE 材料與基板至伺服器高速傳輸零組件",
+          "en": "PTFE materials and substrates through server high-speed interconnect components"
+        },
+        "changes": {
+          "investment": {
+            "zh": "使用觀音現有廠房與設備，沒有公布 PTFE 專案新資本支出金額。",
+            "en": "Existing Guanyin facilities may be used; no PTFE-specific capex amount was disclosed."
+          },
+          "demand": {
+            "zh": "2027 年初步生產、2028 年量產為公司預期，尚無確認出貨。",
+            "en": "Initial output in 2027 and mass production in 2028 are targets without confirmed shipments."
+          },
+          "fdi": {
+            "zh": "未公布外資投入。",
+            "en": "No FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高頻高速材料研發涉及伺服器系統連接與基板材料。",
+            "en": "High-speed materials development touches server interconnects and substrate production."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 12 日法說揭露計畫，量產日期仍屬未來目標。",
+            "en": "The project was disclosed at the November 12, 2026 briefing; production dates are targets."
+          },
+          "unknowns": {
+            "zh": "未公開產能、規格、認證結果或確認訂單。",
+            "en": "Capacity, specifications, qualification outcomes and confirmed orders were not published."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 9.936,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "元太，中央社報導",
+            "en": "E Ink, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120354.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.05,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 2.652,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "元太，中央社報導",
+            "en": "E Ink, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120354.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月合併營收",
+            "en": "Nine-month consolidated revenue"
+          },
+          "current": 28.79,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "元太，中央社報導",
+            "en": "E Ink, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120354.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "持有台虹股權",
+            "en": "Ownership of Taiflex"
+          },
+          "current": 0.157,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月法說",
+            "en": "November 2026 briefing"
+          },
+          "owner": {
+            "zh": "元太，中央社報導",
+            "en": "E Ink, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611120354.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器訊號量測、電源與高頻材料製程設備供應商而言，PTFE 專案仍在生產規劃階段。需要核對高速訊號規格、材料良率、客戶認證及捲對捲設備改造的實際範圍。",
+        "en": "For suppliers of server signal metrology, power equipment and high-frequency material-process tools, PTFE remains a proposed production program. Signal specifications, material yields, customer qualification and the extent of roll-to-roll conversion need confirmation."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "singapore-server-procurement-fraud-court-case",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "新加坡警方新增伺服器採購詐欺案被告，指涉 917 台伺服器交易",
+        "en": "Singapore charges more defendants in server procurement case involving 917 units"
+      },
+      "summary": {
+        "zh": "新加坡警方 11 月 13 日公告，伺服器採購涉嫌不實陳述及洗錢案件新增一人與兩家公司遭起訴。警方指控兩家公司於 2024 年 5 月至 2025 年 2 月間，透過 41 筆交易取得共 917 台伺服器；此為起訴內容，尚非已判決成立的事實。",
+        "en": "Singapore Police announced on November 13 that one additional individual and two companies had been charged in an ongoing server procurement fraud and money-laundering case. Prosecutors allege 41 transactions involving 917 servers between May 2024 and February 2025; these are allegations, not findings of guilt."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "交易與供應鏈背景",
+            "en": "Transaction and supply-chain context"
+          },
+          "text": {
+            "zh": "警方公告指案件涉及 Aperia International 的伺服器交易與涉嫌虛假陳述，新增被告涉及 Superphi 和 NJ Global。所列伺服器數量反映遭調查的歷史交易範圍，不能直接用作近期伺服器銷量。",
+            "en": "Police described transactions involving Aperia International and alleged fraudulent representations, with new charges involving Superphi and NJ Global. The cited server units relate to historical transactions under investigation and cannot be treated as current server sales."
+          }
+        },
+        {
+          "label": {
+            "zh": "官方起訴資料",
+            "en": "Official charges"
+          },
+          "text": {
+            "zh": "警方稱新增一名個人面臨 41 項相關指控，兩家公司分別被控 6 項及 35 項；截至 11 月 13 日，全案共有五人及六家公司遭起訴。案件調查中的數字與刑事指控尚待司法審理。",
+            "en": "The newly charged individual faces 41 counts; the two companies face six and 35 counts respectively. As of November 13, five people and six companies had been charged across the case. Transaction counts and allegations await judicial resolution."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "法院尚未就本次新增被告的指控作出有罪裁決，警方公告也未將這 917 台伺服器與馬來西亞調查所涉晶片建立證據連結。",
+            "en": "The newly announced charges have not resulted in convictions, and the police notice does not establish an evidentiary link between these servers and Malaysia's chip inquiry."
+          }
+        }
+      ],
+      "metric": "917",
+      "metricLabel": {
+        "zh": "指控涉及的伺服器台數",
+        "en": "Servers cited in allegations"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "新加坡警察部隊 · 11 月 13 日起訴公告",
+            "en": "Singapore Police Force · November 13 charges"
+          },
+          "url": "https://www.police.gov.sg/Media-Hub/News/2026/11/20261113_fifth_individual_and_two_additional_companies_charged_in_relation_to_the_case",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "新加坡",
+          "en": "Singapore"
+        },
+        "industries": {
+          "zh": "伺服器；資料中心；供應鏈；政策",
+          "en": "Servers; data centers; supply-chain compliance"
+        },
+        "chain": {
+          "zh": "伺服器採購與交易追溯",
+          "en": "Server procurement and transaction traceability"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新投資。",
+            "en": "No new investment was disclosed."
+          },
+          "demand": {
+            "zh": "917 台涉及 2024 至 2025 年的指控交易，並非新增市場需求。",
+            "en": "The 917 units concern alleged 2024–2025 transactions, not new demand."
+          },
+          "fdi": {
+            "zh": "未公告 FDI。",
+            "en": "No FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "案件關乎伺服器交易記錄、發票及供應商資訊的司法審查。",
+            "en": "The case concerns judicial scrutiny of server transaction and supplier records."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 13 日新增起訴；交易發生於 2024 年 5 月至 2025 年 2 月。",
+            "en": "New charges November 13, 2026; underlying transactions May 2024–February 2025."
+          },
+          "unknowns": {
+            "zh": "司法認定、款項去向及與其他跨境案件的關聯仍未確定。",
+            "en": "Judicial findings, fund flows and any link to separate cross-border cases remain unestablished."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "涉及伺服器",
+            "en": "Servers in alleged transactions"
+          },
+          "current": 917,
+          "unit": "units",
+          "period": {
+            "zh": "2024 年 5 月至 2025 年 2 月",
+            "en": "May 2024–Feb 2025"
+          },
+          "owner": {
+            "zh": "新加坡警察部隊",
+            "en": "Singapore Police Force"
+          },
+          "sourceUrl": "https://www.police.gov.sg/Media-Hub/News/2026/11/20261113_fifth_individual_and_two_additional_companies_charged_in_relation_to_the_case",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "涉及交易筆數",
+            "en": "Alleged transactions"
+          },
+          "current": 41,
+          "unit": "transactions",
+          "period": {
+            "zh": "2024 年 5 月至 2025 年 2 月",
+            "en": "May 2024–Feb 2025"
+          },
+          "owner": {
+            "zh": "新加坡警察部隊",
+            "en": "Singapore Police Force"
+          },
+          "sourceUrl": "https://www.police.gov.sg/Media-Hub/News/2026/11/20261113_fifth_individual_and_two_additional_companies_charged_in_relation_to_the_case",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器製造、電源供應及設備測試廠而言，此案涉及交易文件與代理商採購身分的核實。需要辨明法院認定與供應商原始紀錄，不能把起訴數量推算為新市場需求。",
+        "en": "For server manufacturing, power and test-equipment suppliers, the case points to the verification of transaction records and reseller identity. Court findings and original supplier documents are needed; alleged units do not represent new market demand."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "teema-poland-2026-industry-day",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "電電公會公布波蘭產業日參展名單，逾 50 家台廠 11 月 17 日起展示供應鏈",
+        "en": "TEEMA names over 50 Taiwan exhibitors for Warsaw industry days opening November 17"
+      },
+      "summary": {
+        "zh": "台灣電電公會 11 月 13 日宣布，超過 50 家台灣業者將參加波蘭華沙的 TEEMA 科學園區產業日，展示 AI 資料中心機櫃、液冷、智慧電力及工業設備。主辦官網列出 11 月 17 至 18 日在 Hilton Warsaw Hotel 舉行，參展公告尚未提供已簽訂採購合約金額。",
+        "en": "Taiwan's electrical and electronics association said on November 13 that over 50 Taiwan companies would exhibit AI data-center racks, liquid cooling, smart energy and industrial equipment in Warsaw. The organizer lists November 17–18 at Hilton Warsaw Hotel; no signed procurement value accompanied the exhibitor announcement."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與展出內容",
+            "en": "Supply-chain and exhibitor context"
+          },
+          "text": {
+            "zh": "電電公會列出鴻海、東元、環電、旭東機械等參與業者，展品涵蓋模組化資料中心、伺服器供電與液冷、電動車零組件及精密加工設備。參展名單說明產品展示範圍，未必代表現場完成設備銷售。",
+            "en": "TEEMA identified participants including Foxconn, TECO, Universal Scientific Industrial and machinery suppliers, with exhibits covering modular data centers, rack power and liquid cooling, EV components and precision machining. Exhibitor lists describe planned demonstrations, not completed sales."
+          }
+        },
+        {
+          "label": {
+            "zh": "主辦單位會期與場地",
+            "en": "Organizer dates and venue"
+          },
+          "text": {
+            "zh": "主辦單位英文活動頁明列波蘭華沙 Hilton Warsaw Hotel，11 月 17 日與 18 日每天舉行產業論壇、技術交流與媒合活動。11 月 13 日公布的是參展安排，展會尚未開始。",
+            "en": "The organizer's English event page names Hilton Warsaw Hotel, Warsaw, for November 17 and 18, with forums, technical sessions and business matching. The November 13 development was the exhibitor announcement; the event had not yet begun."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "沒有公開已簽合同、設備驗收、各廠商交易金額或後續波蘭投資計畫。",
+            "en": "Signed contracts, equipment acceptance, exhibitor sales values and subsequent Polish investment commitments were not disclosed."
+          }
+        }
+      ],
+      "metric": "逾 50 家",
+      "metricLabel": {
+        "zh": "公告參展台灣廠商",
+        "en": "Announced Taiwanese exhibitors"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "TEEMA · 波蘭產業日主辦單位活動頁",
+            "en": "TEEMA · Official Poland industry day details"
+          },
+          "url": "https://teemaindustryday.org/en/about/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 電電公會參展公告",
+            "en": "CNA · TEEMA exhibitor announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130193.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "展會場地：波蘭華沙 Hilton Warsaw Hotel，2026 年 11 月 17 至 18 日。",
+        "en": "Event venue: Hilton Warsaw Hotel, Warsaw, Poland, November 17–18, 2026."
+      },
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣；波蘭",
+          "en": "Taiwan; Poland"
+        },
+        "industries": {
+          "zh": "伺服器；資料中心；電源；液冷；工廠；自動化；設備；投資",
+          "en": "Servers; data centers; power; liquid cooling; factories; automation; equipment; investment"
+        },
+        "chain": {
+          "zh": "台灣設備及零組件至伺服器供電、資料中心與工廠系統展示",
+          "en": "Taiwanese tools and components through server power, data centers and industrial systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有可核對的已簽投資金額。",
+            "en": "No signed investment amount was verified."
+          },
+          "demand": {
+            "zh": "參展安排未等同出貨或採購。",
+            "en": "Exhibitor participation is not equivalent to sales or shipments."
+          },
+          "fdi": {
+            "zh": "尚無個別企業新增 FDI 承諾金額。",
+            "en": "No company-level new FDI commitments were disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣資料中心設備、精密加工及供電廠商參與波蘭產業交流。",
+            "en": "Taiwanese data-center hardware, machining and power suppliers are participating in a Polish industry exchange."
+          },
+          "timing": {
+            "zh": "11 月 13 日宣布，正式活動排定 11 月 17 至 18 日。",
+            "en": "Announced November 13; the event is scheduled for November 17–18."
+          },
+          "unknowns": {
+            "zh": "沒有簽約金額、買主名單或設備交付證據。",
+            "en": "No contract value, buyer list or delivery evidence was provided."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對伺服器機櫃電源、液冷控制、工業電源及量測設備供應商而言，參展揭露產品技術與可能的系統整合商名單。需核對展後具名合作案、訂單條件及當地認證，僅憑展出無法確定客戶需求量。",
+        "en": "For rack power, liquid-cooling control, industrial power and measurement suppliers, the exhibition discloses technologies and potential system integrators. Named post-event projects, purchase terms and local certification would be needed; participation does not quantify demand."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "kaohsiung-asiabay-ai-industrial-pilots-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "高雄亞灣公布 25 家新創 AI 實證成果，涵蓋車用電子及工廠排程",
+        "en": "Kaohsiung Asia New Bay showcases 25 startups' industrial AI pilots"
+      },
+      "summary": {
+        "zh": "經濟部中小及新創企業署 11 月 13 日在高雄亞灣新創園展示 25 家新創 AI 實證成果，應用包括車用電子、塑橡膠化工、食品加工與物流調度。主辦報名頁詳細場次列高雄市成功二路 25 號，但頁面上方地區欄誤列臺北市大安區，場地依逐場地址與活動內容標示。",
+        "en": "Taiwan's Small and Medium Enterprise and Startup Administration showcased industrial AI pilots from 25 startups on November 13 at the Asia New Bay startup campus in Kaohsiung, spanning automotive electronics, plastics, food processing and logistics. The organizer's detailed session addresses identify Kaohsiung, although its summary location field incorrectly says Taipei."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工廠自動化與實證內容",
+            "en": "Factory automation and pilot details"
+          },
+          "text": {
+            "zh": "經濟部表示，計畫媒合企業與新創測試機台參數、品質檢測及生產排程等應用。中央社引述案例包括富強鑫設備參數分析時間由 2.5 小時降至 10 分鐘，以及大武山牧場供貨調配由每日 4 小時縮至 1.2 小時；這是特定場域回報數值，未公布全產業統計。",
+            "en": "The ministry described pilot applications in machine parameters, quality inspection and production scheduling. CNA reported examples in which FCS machinery analysis fell from 2.5 hours to 10 minutes and a food producer's daily delivery allocation from four hours to 1.2 hours. These are specific pilot claims, not industry-wide statistics."
+          }
+        },
+        {
+          "label": {
+            "zh": "實際活動與地址核對",
+            "en": "Event evidence and location check"
+          },
+          "text": {
+            "zh": "主辦活動頁列明 11 月 13 日上午及下午場次位於高雄市前鎮區成功二路 25 號、亞灣新創園 3 樓與 8 樓；頁面頂端的地區標籤卻寫臺北市大安區。場次明細及中央社報導皆指向高雄，兩者差異仍保留供讀者辨識。",
+            "en": "The organizer's session details place the November 13 morning and afternoon program at No. 25, Chenggong 2nd Road, Cianjhen District, Kaohsiung, on floors 3 and 8 of the Asia New Bay startup campus. Its summary location field says Da'an District, Taipei; the detailed addresses and CNA report point to Kaohsiung."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "25 家新創各自的實際商用部署規模、付費客戶、設備採購與長期績效尚無完整公開數據。",
+            "en": "Commercial deployment scale, paying customers, equipment purchases and long-term outcomes for all 25 startups remain undisclosed."
+          }
+        }
+      ],
+      "metric": "25",
+      "metricLabel": {
+        "zh": "參展新創家數",
+        "en": "Showcased startups"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "資策會 iEvents · 官方活動及場次地址",
+            "en": "III iEvents · Organizer session schedule and addresses"
+          },
+          "url": "https://ievents.iii.org.tw/eventS.aspx?id=3592&t=0",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 經濟部亞灣 AI 實證成果",
+            "en": "CNA · Ministry's Asia New Bay pilot showcase"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130169.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "活動場地：台灣高雄市前鎮區成功二路 25 號，亞灣新創園 3 樓、8 樓。主辦摘要地區欄誤列臺北市大安區，詳細場次地址與活動內容均列高雄。",
+        "en": "Event venue: Asia New Bay Startup Terrace, floors 3 and 8, No. 25 Chenggong 2nd Road, Cianjhen District, Kaohsiung, Taiwan. The organizer's summary field says Taipei, but its session addresses say Kaohsiung."
+      },
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "工廠；自動化；車用電子；設備；終端；人才",
+          "en": "Factories; automation; automotive electronics; equipment; end-use industries"
+        },
+        "chain": {
+          "zh": "精密機台與感測零組件至工廠 AI 排程、品質檢測及終端",
+          "en": "Machine tools and sensing components through industrial AI scheduling, inspection and end use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增核准的工廠資本支出。",
+            "en": "No new factory capex approval was disclosed."
+          },
+          "demand": {
+            "zh": "揭露 25 家新創的實證活動，並未公布總採購金額。",
+            "en": "Twenty-five startups were showcased, without a procurement total."
+          },
+          "fdi": {
+            "zh": "沒有公告新增 FDI。",
+            "en": "No new FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "實證應用觸及機台控制、製造品質檢測及工廠排程資料。",
+            "en": "The pilots touch machine controls, manufacturing inspection and factory scheduling data."
+          },
+          "timing": {
+            "zh": "11 月 13 日於高雄舉辦，成果包含此前進行的個別場域測試。",
+            "en": "The showcase took place in Kaohsiung November 13, covering previously conducted site pilots."
+          },
+          "unknowns": {
+            "zh": "欠缺全體實證的產線規模、長期持續使用率及付費轉換率。",
+            "en": "Deployment scale, sustained usage and paid conversion across the cohort are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "展示新創企業",
+            "en": "Startups at showcase"
+          },
+          "current": 25,
+          "unit": "startups",
+          "period": {
+            "zh": "2026 年 11 月 13 日",
+            "en": "November 13, 2026"
+          },
+          "owner": {
+            "zh": "經濟部中小及新創企業署，中央社報導",
+            "en": "SMESA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130169.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源、精密量測與機台控制設備業者而言，這些案例涉及製程資料擷取、設備參數調整與品質量測。後續需核對實際工廠部署範圍、儀器介面、持續改善數據及客戶驗收。",
+        "en": "For industrial power, precision measurement and machine-control equipment suppliers, these pilots concern process data capture, machine settings and inspection. Actual plant deployment, instrument interfaces, sustained performance and customer acceptance are not yet established."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "eaton-taiwan-hvdc-liquid-cooling-expansion",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "經濟部揭露伊頓在台逾 2 億元既有投資，未來四年規劃再投入 3 億元",
+        "en": "MOEA cites Eaton's NT$200m-plus Taiwan expansion and NT$300m four-year plan"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 12 日指出，伊頓近兩年已在台擴產投資逾新台幣 2 億元，並表示未來四年將再投入 3 億元，布局高壓直流供電與液冷散熱。前者為政府引述的過去投資，後者屬未來規劃，尚未揭露新增產線產能或已完成設備驗收。",
+        "en": "Taiwan's Ministry of Economic Affairs said on November 12 that Eaton had invested more than NT$200 million in local expansion over the previous two years and planned another NT$300 million over four years for high-voltage DC power and liquid cooling. The first figure concerns reported past spending, while the second is a forward plan, with no new capacity or equipment acceptance data."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供電設備與產業背景",
+            "en": "Power and cooling supply-chain context"
+          },
+          "text": {
+            "zh": "資料中心高壓直流供電與液冷系統涉及電力轉換、功率控制、冷卻機組與機櫃整合，與台灣伺服器及電源零組件產業相連。經濟部將伊頓列為外商在台擴產與技術投入案例。",
+            "en": "High-voltage DC distribution and liquid cooling involve power conversion, control, cooling units and rack integration linked to Taiwanese server and electrical components. MOEA cited Eaton as an example of local expansion and technology investment by an international company."
+          }
+        },
+        {
+          "label": {
+            "zh": "資本支出時點",
+            "en": "Capex timing and scope"
+          },
+          "text": {
+            "zh": "官方新聞稿稱近兩年在台擴產投資超過 2 億元，未來四年規劃另投入 3 億元。兩筆數字期間不同，未確認是否有明確的逐年預算或新廠資產明細，也不可與同篇電子資訊採購額直接相加。",
+            "en": "The ministry cited more than NT$200 million in spending over two years and a separate planned NT$300 million over the next four years. Annual allocations and plant-level asset details were not provided. The amounts should not be added to the ministry's broader electronics procurement forecast."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未公布高壓直流產品規格、已安裝功率、液冷量產量、驗收客戶或細項資金分配。",
+            "en": "No HVDC product ratings, installed power, liquid-cooling production volume, customer acceptances or project-level spending breakdown was disclosed."
+          }
+        }
+      ],
+      "metric": "NT$0.30B",
+      "metricLabel": {
+        "zh": "未來四年投入規劃",
+        "en": "Four-year planned investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部 · 外商在台投資及供電技術資料",
+            "en": "MOEA · Eaton Taiwan spending and power technology"
+          },
+          "url": "https://www.moea.gov.tw/mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124543",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "電源；供電；液冷；散熱；資料中心；伺服器；投資；設備",
+          "en": "Power; electrical distribution; liquid cooling; data centers; servers; investment; equipment"
+        },
+        "chain": {
+          "zh": "電源及散熱零組件至伺服器機櫃供電與資料中心",
+          "en": "Power and cooling components through server racks and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "近兩年在台擴產投資逾 2 億元；未來四年規劃另投入 3 億元。",
+            "en": "More than NT$200m in past Taiwan expansion; NT$300m planned over four more years."
+          },
+          "demand": {
+            "zh": "未公布此擴產對應的實際訂單或出貨數量。",
+            "en": "No specific orders or shipments attributable to the expansion were disclosed."
+          },
+          "fdi": {
+            "zh": "經濟部引述跨國企業在台投資與後續規劃，未提供資金來源及統計 FDI 口徑。",
+            "en": "MOEA described multinational investment and plans without funding-source or FDI-classification detail."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高壓直流及液冷系統涉及資料中心機櫃供電、熱管理與設備製程。",
+            "en": "HVDC and liquid cooling involve data-center rack power, thermal management and equipment processes."
+          },
+          "timing": {
+            "zh": "經濟部 11 月 12 日發布；已投資兩年與未來四年的期間須分開。",
+            "en": "Disclosed November 12; previous two-year spending and future four-year plans are distinct."
+          },
+          "unknowns": {
+            "zh": "廠址、產能、細項資金、規格及驗收里程碑未公布。",
+            "en": "Site-level capacity, budget allocation, specifications and acceptance milestones are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "近兩年擴產投資下限",
+            "en": "Past expansion spending, lower bound"
+          },
+          "current": 0.2,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "約 2024 至 2026 年兩年",
+            "en": "Approx. 2024–2026, two years"
+          },
+          "owner": {
+            "zh": "經濟部引述伊頓",
+            "en": "Eaton, cited by MOEA"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124543",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "實際金額高於 2 億元；0.2 十億元僅代表已知下限。"
+        },
+        {
+          "name": {
+            "zh": "未來四年投入計畫",
+            "en": "Planned four-year spending"
+          },
+          "current": 0.3,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月後四年規劃",
+            "en": "Four-year plan from Nov 2026"
+          },
+          "owner": {
+            "zh": "經濟部引述伊頓",
+            "en": "Eaton, cited by MOEA"
+          },
+          "sourceUrl": "https://www.moea.gov.tw/mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=124543",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑的精確基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高壓直流電源、液冷控制與精密功率量測設備供應商而言，這是以政府公告為依據的在台供電技術投資計畫。仍須確認產品額定功率、實際廠址、各年支出及採購驗收，無法直接從投資額推定設備訂單。",
+        "en": "For suppliers of HVDC power, liquid-cooling controls and precision power metrology, this is a Taiwan technology investment plan cited by the government. Product power ratings, site details, annual expenditure and procurement acceptance remain unknown, so equipment orders cannot be inferred from the budget."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "馬來西亞調查是否已證實晶片違規出口？",
+        "en": "Has Malaysia established unlawful chip re-exports?"
+      },
+      "text": {
+        "zh": "沒有。投貿部仍在與海關檢查交易及許可文件，總理表示當時無出口跡象。既有再出口許可規範自 2025 年 7 月生效。",
+        "en": "No. The ministry and customs are reviewing shipment and permit records, while the prime minister said there was no indication of export at that time. The existing permit requirement dates from July 2025."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "華碩第三季伺服器營收年增一倍，是否表示出貨台數翻倍？",
+        "en": "Does ASUS doubling server revenue mean units doubled?"
+      },
+      "text": {
+        "zh": "公司公告的是營收成長，未公布同口徑出貨台數、產品單價或 AI 機櫃驗收數量。全年成長至少 150% 也仍是公司展望。",
+        "en": "Management disclosed revenue growth, not comparable unit shipments, product prices or accepted AI-rack counts. The at-least-150% full-year figure also remains guidance."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "經濟部 3,258 億美元對台採購與前九月出口數字能相加嗎？",
+        "en": "Can MOEA's procurement forecast be added to nine-month exports?"
+      },
+      "text": {
+        "zh": "不能。兩者統計母體、期間及定義不同：前者是全年國際採購預估，後者是前九月出口實績。政府未公布可逐項對照的買主別明細。",
+        "en": "No. The two measures differ by population, period and definition: projected annual international procurement versus recorded nine-month exports. Buyer-level reconciliation was not published."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "採購預估與營收指引口徑",
+        "en": "Forecast and earnings guidance definitions"
+      },
+      "text": {
+        "zh": "經濟部的電子資訊採購額是 2026 年全年預估，華碩第三季營收是已公布的季報數字；不同統計範圍與期間不可直接相加比較。",
+        "en": "MOEA's procurement amount is a full-year 2026 forecast, while ASUS reports realized quarterly revenue. Different definitions and periods prevent direct aggregation."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料註記",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "重複的既有擴廠消息",
+        "en": "Previously reported factory announcements"
+      },
+      "text": {
+        "zh": "未重刊 11 月 13 日版已有的南亞玻纖布、三井金屬馬來西亞銅箔及鴻海第三季財報；本次僅新增可追溯的揭露。",
+        "en": "Previously covered Nanya fiberglass, Mitsui's Malaysia copper-foil project and Foxconn's Q3 results were not repeated without new verified disclosures."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "馬來西亞晶片去向仍在調查，部會聲明由當地媒體引述，尚未取得原始申報文件或已確認的非法再出口證據。高雄 AI 活動報名頁上方地區欄與正式場次地址不一致，文章採詳細場次地址並保留差異。年度採購、未來生產與供電擴產計畫均為預估或規劃。",
+    "en": "The Malaysian chip inquiry is unresolved; local outlets reproduce the ministry statement but underlying customs records and evidence of unlawful re-export have not been published. The Kaohsiung event's summary location conflicts with its detailed addresses; the edition uses the specific venue and flags the discrepancy. Procurement, production and power-expansion plans remain forecasts or targets."
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-13",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -623,6 +623,32 @@
           "en": "OCP Foundation"
         },
         "url": "https://www.opencompute.org/news/ocp-global-summit-is-moving-to-a-new-location/"
+      }
+    },
+    {
+      "id": "teema-poland-2026",
+      "start": "2026-11-17",
+      "end": "2026-11-18",
+      "type": "systems",
+      "region": "eu",
+      "name": {
+        "zh": "TEEMA 科學園區產業日波蘭展 2026",
+        "en": "TEEMA Technology Park Industry Day Poland 2026"
+      },
+      "place": {
+        "zh": "波蘭華沙 · Hilton Warsaw Hotel",
+        "en": "Hilton Warsaw Hotel, Warsaw, Poland"
+      },
+      "focus": {
+        "zh": "台灣業者展示 AI 資料中心、機櫃電源與液冷、智慧能源及工業設備；官方展期 11 月 17 至 18 日。",
+        "en": "Taiwanese suppliers exhibit AI data centers, rack power and liquid cooling, smart energy and industrial systems; organizer dates November 17–18."
+      },
+      "source": {
+        "name": {
+          "zh": "TEEMA · 官方展覽日期與場地",
+          "en": "TEEMA · Official dates and venue"
+        },
+        "url": "https://teemaindustryday.org/en/about/"
       }
     }
   ]
