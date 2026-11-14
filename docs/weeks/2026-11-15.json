@@ -1,0 +1,112 @@
+{
+  "weekStart": "2026-11-15",
+  "generatedAt": "2026-11-14T14:32:33.985Z",
+  "throughline": {
+    "zh": "11 月 13 日台灣業者陸續披露先進封裝產線與廠區建設、伺服器財報、製程感測採購，以及工廠供電和工業電腦專案。",
+    "en": "Taiwanese firms disclosed advanced-packaging production and construction plans, server results, process-sensing purchases, factory power projects and rugged computing contracts on November 13."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "taiwan",
+      "title": {
+        "zh": "晶圓、先進封裝產線與廠區擴建",
+        "en": "Wafer and advanced-packaging production and facilities"
+      },
+      "summary": {
+        "zh": "精材與台積電簽訂先進封裝 oS 模組產能外包協議，首期量產規劃 2029 年。日月光路竹廠一期啟用、二期動土，千億元總投資與未來年營收均屬公司滿載後估計。",
+        "en": "Xintec signed an outsourcing agreement for TSMC's on-substrate packaging, targeting initial production in 2029. ASE opened Luzhu phase one and started phase two; investment and revenue figures refer to estimated full buildout."
+      },
+      "references": [
+        {
+          "date": "2026-11-15",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-15",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "title": {
+        "zh": "伺服器營收與跨區產能規劃",
+        "en": "Server results and multi-region manufacturing"
+      },
+      "summary": {
+        "zh": "技嘉公布第三季合併營收與前九月伺服器占比，並提及台灣、美國及馬來西亞擴廠計畫。公開資料沒有單獨列出新山新增機櫃產能。",
+        "en": "Gigabyte reported Q3 group revenue, a nine-month server sales mix and expansion plans across Taiwan, the United States and Malaysia. No additional Johor rack capacity was separately disclosed."
+      },
+      "references": [
+        {
+          "date": "2026-11-15",
+          "storyId": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "taiwan",
+      "title": {
+        "zh": "半導體產值統計與未來預測",
+        "en": "Semiconductor output statistics and forecasts"
+      },
+      "summary": {
+        "zh": "台灣半導體產業協會發布工研院第三季產值統計，涵蓋晶圓代工、記憶體、封裝與測試。全年 9.762 兆元為研究機構預估，並非已實現營收。",
+        "en": "TSIA published ITRI's Q3 output data across foundries, memory, packaging and testing. The NT$9.762tn annual estimate is a forecast, not realized annual revenue."
+      },
+      "references": [
+        {
+          "date": "2026-11-15",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "title": {
+        "zh": "製程化學感測與工廠電力管理",
+        "en": "Chemical sensing and factory power management"
+      },
+      "summary": {
+        "zh": "Ainos 公布日月光新增 5,000 台化學感測設備採購；聚恆與燿華另啟動宜蘭廠 5.04MW 表後儲能建置。前者有簽訂採購合約，後者仍在工程階段，尚未公布運轉實績。",
+        "en": "Ainos announced an additional 5,000 chemical sensors ordered by ASE, while Juheng and Unitech began a 5.04MW battery project at a Yilan factory. The former is a procurement contract and the latter a construction project without operating data."
+      },
+      "references": [
+        {
+          "date": "2026-11-15",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-15",
+          "storyId": 6
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "taiwan",
+      "title": {
+        "zh": "製造場址交易與強固型工業電腦",
+        "en": "Manufacturing property and rugged industrial computers"
+      },
+      "summary": {
+        "zh": "華紙通過向元太出售觀音廠，交易價 27.8 億元，尚未揭露新增材料產能。神基另揭露兩筆歐美無人載具地面控制相關訂單，客戶與出貨數量未公布。",
+        "en": "Chung Hwa Pulp approved a NT$2.78bn Guanyin property sale to E Ink without a new materials-capacity figure. Getac also disclosed two US and European unmanned-system ground-control projects without customer names or unit commitments."
+      },
+      "references": [
+        {
+          "date": "2026-11-15",
+          "storyId": 7
+        },
+        {
+          "date": "2026-11-15",
+          "storyId": 8
+        }
+      ]
+    }
+  ]
+}

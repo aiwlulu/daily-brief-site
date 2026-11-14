@@ -1,0 +1,1982 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-14T14:32:33.985Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣及東南亞的先進封裝、伺服器、製程感測與工業供電",
+      "en": "Advanced packaging, servers, process sensing and industrial power in Taiwan and Southeast Asia"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "精材與台積電訂定先進封裝外包產線，日月光同步公布路竹廠區建設和化學感測系統新採購，技嘉則揭露伺服器營收及馬來西亞產能規劃。",
+    "en": "Xintec and TSMC agreed on a new advanced-packaging line, ASE reported a plant milestone and chemical-sensor order, and Gigabyte disclosed server results and plans for its Malaysian production site."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "精材與台積電簽至 2033 年底的先進封裝外包協議，並核准擬發行 150 億元轉換公司債，首期量產規劃 2029 年。",
+        "en": "Xintec signed a TSMC packaging outsourcing agreement through end-2033, approved a proposed NT$15bn bond financing and targets initial production in 2029."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "日月光路竹廠一期啟用、二期動土；兩期滿載後投資規模估 1,000 億元，實際新增產能尚未量化。",
+        "en": "ASE opened phase one of Luzhu and broke ground on phase two, estimating NT$100bn in investment at full buildout without quantified accepted capacity."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "技嘉第三季營收約 1,547 億元、年增 94.4%，前九月伺服器營收占比 78%，新山廠擴產數量未公布。",
+        "en": "Gigabyte's Q3 revenue was approximately NT$154.7bn, up 94.4% YoY; servers were 78% of nine-month sales, with no Johor capacity figures."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "TSIA 公布第三季半導體產值 2.662 兆元；工研院的全年 9.762 兆元屬預測，記憶體分項不可重複加總。",
+        "en": "TSIA reported NT$2.662tn in Q3 semiconductor output; ITRI's NT$9.762tn annual figure is a forecast and memory subcomponents must not be double-counted."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "Ainos 公布日月光新增 5,000 台化學感測設備、價值 900 萬美元的採購協議，交付與收入認列尚待完成。",
+        "en": "Ainos disclosed an ASE purchase of 5,000 chemical sensing systems worth US$9m, with new deliveries and revenue recognition still pending."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "xintec-tsmc-cowos-os-outsourcing-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "精材與台積電簽先進封裝產能外包協議，首期量產規劃 2029 年",
+        "en": "Xintec signs TSMC packaging outsourcing agreement, targets first output in 2029"
+      },
+      "summary": {
+        "zh": "精材 11 月 13 日公告與台積電簽署先進封裝後段製程產能外包協議，合作至 2033 年 12 月 31 日，預計在台積電中部科學園區廠房建置及營運 CoWoS 的 oS 模組產線。精材董事會另通過擬發行 150 億元轉換公司債，首期量產目標為 2029 年；融資核准與未來量產均不代表產線已完成驗收。",
+        "en": "Xintec disclosed a capacity-outsourcing agreement with TSMC on November 13, covering the on-substrate stage of advanced packaging at TSMC's Central Taiwan Science Park facilities through December 31, 2033. Xintec also approved a proposed NT$15 billion convertible-bond issuance to support its buildout, with first-phase production targeted for 2029; the financing decision and production target do not establish completed qualification."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與製程位置",
+            "en": "Supply-chain and process context"
+          },
+          "text": {
+            "zh": "精材規劃在台積電設施內建置及營運先進封裝後段的 oS 模組產線，涉及晶片、封裝基板、組裝設備、製程測試及自動物料搬運。CoWoS 產線的實際產能、良率與客戶驗收須與簽約日期分開閱讀。",
+            "en": "Xintec plans to build and operate the CoWoS on-substrate back-end stage within TSMC's site. Relevant processes include chip-to-substrate integration, assembly tools, test and automated material handling. Output, yield and customer acceptance are separate from the contract signing."
+          }
+        },
+        {
+          "label": {
+            "zh": "協議期間與融資安排",
+            "en": "Agreement term and financing"
+          },
+          "text": {
+            "zh": "公開資訊觀測站重大訊息經台視轉載，載明事實發生日為 11 月 13 日，契約對象為台積電，結束日為 2033 年 12 月 31 日。董事會通過 150 億元轉換公司債發行計畫，用於初期產線建置；此為融資額度決議，並非已認列的設備採購支出。",
+            "en": "A reproduced stock-exchange material-event notice dates the agreement November 13 and identifies TSMC as the counterparty, with expiry on December 31, 2033. The NT$15 billion convertible-bond decision concerns planned financing for initial construction, not recognized equipment expenditure."
+          }
+        },
+        {
+          "label": {
+            "zh": "量產規劃與未公開項目",
+            "en": "Production timetable and disclosure gaps"
+          },
+          "text": {
+            "zh": "精材稱首期產線計畫於 2029 年量產，並規劃投入生產設備及自動物料搬運系統。公告未列晶圓月產能、各工站設備清單、客戶驗收日期、融資發行條件或訂單金額。",
+            "en": "Xintec targets initial mass production in 2029 and plans capital expenditure on process tools and automated material handling. Wafer-equivalent capacity, equipment lists, acceptance dates, bond terms and order value were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "首期線體的確切產能、良率、驗收里程碑、轉換公司債實際發行結果及出貨時程尚未公開。",
+            "en": "Exact line capacity, yields, acceptance milestones, bond issuance outcome and shipments remain unknown."
+          }
+        }
+      ],
+      "metric": "2029",
+      "metricLabel": {
+        "zh": "首期量產目標年份",
+        "en": "Target initial-production year"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台視財經 · 轉載公開資訊觀測站重大訊息",
+            "en": "TTV Finance · Reproduced material-event filing"
+          },
+          "url": "https://www.ttv.com.tw/finance/view/default.asp?from=588&i=112026131706268248C9951B491F8F105A07648D91B760D1",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 精材與台積電封裝協議",
+            "en": "CNA · Xintec and TSMC packaging agreement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130329.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "計畫產線所在地：台灣中部科學園區的台積電廠房；公告未指定確切廠房地址。",
+        "en": "Planned production site: TSMC facilities in Central Taiwan Science Park, Taiwan; the filing did not specify a precise facility address."
+      },
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；先進封裝；封測；基板；設備；自動化；投資；資料中心",
+          "en": "Wafers; advanced packaging; test; substrates; equipment; automation; data centers"
+        },
+        "chain": {
+          "zh": "晶圓製造、先進封裝 oS 基板模組、製程設備與測試",
+          "en": "Wafer fabrication through CoWoS on-substrate packaging, equipment and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "董事會核准擬發行 150 億元轉換公司債，資金將用於初期產能建置。",
+            "en": "Board approved a proposed NT$15 billion convertible-bond issuance for initial line construction."
+          },
+          "demand": {
+            "zh": "2029 年首期量產屬未來計畫，未公布實際產能。",
+            "en": "Initial output in 2029 is a plan, with no capacity figure disclosed."
+          },
+          "fdi": {
+            "zh": "未公告新增境外直接投資。",
+            "en": "No new foreign direct investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "簽約將部分先進封裝後段製程交由精材在台積電廠內生產。",
+            "en": "The agreement assigns an advanced-packaging back-end process to Xintec within TSMC facilities."
+          },
+          "timing": {
+            "zh": "11 月 13 日簽約，預計合作至 2033 年底，首期量產目標為 2029 年。",
+            "en": "Signed November 13 through end-2033, with first-phase production targeted for 2029."
+          },
+          "unknowns": {
+            "zh": "未披露機台數量、產能、良率及驗收文件。",
+            "en": "Tool counts, capacity, yields and qualification documentation were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "擬發行轉換公司債額度",
+            "en": "Proposed convertible-bond amount"
+          },
+          "current": 15,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 13 日決議",
+            "en": "November 13, 2026 board resolution"
+          },
+          "owner": {
+            "zh": "精材，重訊轉載",
+            "en": "Xintec, reproduced material-event filing"
+          },
+          "sourceUrl": "https://www.ttv.com.tw/finance/view/default.asp?from=588&i=112026131706268248C9951B491F8F105A07648D91B760D1",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對先進封裝電源、製程量測與設備供應商而言，這項協議明確涉及 oS 製程及自動物料搬運系統。仍須確認工站規格、製程功率、設備驗證節點與融資實際發行情況，2029 年目標不能當成已落地的設備訂單。",
+        "en": "For advanced-packaging process power, metrology and equipment suppliers, the agreement explicitly covers the on-substrate stage and automated material handling. Workstation requirements, power specifications, tool qualification and actual financing remain to be verified; the 2029 target is not an equipment order."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "ase-luzhu-advanced-packaging-expansion",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "日月光路竹廠一期啟用、二期動土，滿載後總投資規模估千億元",
+        "en": "ASE opens Luzhu phase one and breaks ground on phase two, estimates NT$100bn total investment"
+      },
+      "summary": {
+        "zh": "日月光 11 月 13 日於南部科學園區高雄園區啟用路竹廠一期，並同步為二期動土。公司表示兩期滿載後總投資規模估達 1,000 億元，屆時年營收約 800 億元、就業約 5,000 人；後兩項均為未來滿載情境的公司估計，未提供已驗收的新增封裝產能數量。",
+        "en": "ASE inaugurated phase one of its Luzhu advanced-packaging site and broke ground on phase two at Southern Taiwan Science Park's Kaohsiung campus on November 13. The company estimates roughly NT$100 billion in combined investment after both phases are fully built out, with potential annual revenue of NT$80 billion and about 5,000 jobs; those figures are forward estimates, not realized output."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "上下游與廠區進度",
+            "en": "Supply-chain position and construction status"
+          },
+          "text": {
+            "zh": "一期已舉行啟用典禮，二期當日動土，兩者工程進度不同。公司說明廠區由高雄楠梓延伸到路竹，預計支援先進封裝與封測製程的設備、材料及廠務需求。",
+            "en": "Phase one was inaugurated while phase two broke ground the same day, representing different project stages. ASE describes an expansion from its existing Nanzih base to Luzhu, involving advanced packaging, test, equipment, materials and utilities."
+          }
+        },
+        {
+          "label": {
+            "zh": "投資額的範圍",
+            "en": "Investment scope"
+          },
+          "text": {
+            "zh": "官方新聞稿指出兩期滿載後整體投資規模估為 1,000 億元，未來年營收估 800 億元，規劃創造約 5,000 個工作機會。公司另提到此前已投入 65 億元取得既有廠房及附屬設施，此金額不可在不明確拆分範圍下直接加總至整體千億元預估。",
+            "en": "The official release puts estimated investment at NT$100 billion after both phases reach full buildout, possible annual revenue at NT$80 billion and planned employment at about 5,000. ASE also notes earlier NT$6.5 billion spending on existing buildings and related facilities; it cannot be automatically added to the aggregate plan without a scope reconciliation."
+          }
+        },
+        {
+          "label": {
+            "zh": "廠務與精密製程",
+            "en": "Facilities and precision processes"
+          },
+          "text": {
+            "zh": "二期設計包含微振動控制，並將特殊氣體、危險物品及廢水處理區域分棟，反映封裝製程環境與工廠安全管理需求。官方未公告細部封裝產品組合及各工站投產日。",
+            "en": "Phase two's planned facilities include micro-vibration controls and separated buildings for special gases, hazardous materials and wastewater, reflecting packaging process-environment requirements. Product mix and individual line commissioning dates were not provided."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "兩期實際資本支出進度、設備規格、每月封裝產能、各產線良率及客戶驗收時間仍未公布。",
+            "en": "Actual phase-by-phase spending, equipment specifications, monthly packaging capacity, yields and customer acceptance dates are not public."
+          }
+        }
+      ],
+      "metric": "NT$100B",
+      "metricLabel": {
+        "zh": "兩期滿載後投資規模估計",
+        "en": "Estimated combined full-buildout investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "日月光 · 路竹廠啟用與動土官方新聞稿",
+            "en": "ASE · Official Luzhu inauguration and groundbreaking release"
+          },
+          "url": "https://ase.aseglobal.com/ch/press-room/lujhu-plant-phase-1-inauguration-and-phase-2-groundbreaking/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 路竹廠投資與封裝規劃",
+            "en": "CNA · Luzhu investment and packaging plans"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130183.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案廠址及典禮場地：台灣高雄市路竹區南部科學園區高雄園區；官方新聞稿未提供街道門牌。",
+        "en": "Project site and ceremony venue: Luzhu District, Southern Taiwan Science Park Kaohsiung campus, Kaohsiung, Taiwan; no street address was supplied in the release."
+      },
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "封裝；封測；測試；晶圓；設備；材料；投資；園區",
+          "en": "Packaging; test; wafer fabrication; equipment; materials; science-park investment"
+        },
+        "chain": {
+          "zh": "晶圓製造至先進封裝與測試、設備及廠務系統",
+          "en": "Wafer fabrication through advanced packaging, test, tools and utilities"
+        },
+        "changes": {
+          "investment": {
+            "zh": "兩期滿載後規劃總投資約新台幣 1,000 億元，為公司預估。",
+            "en": "Company estimates approximately NT$100 billion across the two phases after full buildout."
+          },
+          "demand": {
+            "zh": "一期啟用屬已發生；未來年營收 800 億元為估計，並非現有出貨。",
+            "en": "Phase one inauguration is completed; NT$80 billion annual revenue is an estimate, not current shipments."
+          },
+          "fdi": {
+            "zh": "未公告新增 FDI。",
+            "en": "No new FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "二期工程涉及微振控制、特殊氣體與廠務設施，並連接先進封裝測試供應鏈。",
+            "en": "Phase two involves vibration, special gas and utility systems in advanced packaging and testing."
+          },
+          "timing": {
+            "zh": "一期 11 月 13 日啟用，二期同日動土，整體滿載時間未公布。",
+            "en": "Phase one opened November 13 and phase two broke ground the same day; full-buildout timing was not supplied."
+          },
+          "unknowns": {
+            "zh": "未公布線別產能及投資分期實際支付明細。",
+            "en": "Line capacity and actual staged payments remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "兩期滿載後估計投資",
+            "en": "Estimated investment at full buildout"
+          },
+          "current": 100,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "兩期滿載後規劃",
+            "en": "Plan at full buildout"
+          },
+          "owner": {
+            "zh": "日月光",
+            "en": "ASE"
+          },
+          "sourceUrl": "https://ase.aseglobal.com/ch/press-room/lujhu-plant-phase-1-inauguration-and-phase-2-groundbreaking/",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "滿載後年營收估計",
+            "en": "Estimated annual revenue at full buildout"
+          },
+          "current": 80,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "兩期滿載後規劃",
+            "en": "Plan at full buildout"
+          },
+          "owner": {
+            "zh": "日月光",
+            "en": "ASE"
+          },
+          "sourceUrl": "https://ase.aseglobal.com/ch/press-room/lujhu-plant-phase-1-inauguration-and-phase-2-groundbreaking/",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "預計工作機會",
+            "en": "Projected jobs"
+          },
+          "current": 5000,
+          "unit": "人",
+          "period": {
+            "zh": "兩期滿載後規劃",
+            "en": "Plan at full buildout"
+          },
+          "owner": {
+            "zh": "日月光",
+            "en": "ASE"
+          },
+          "sourceUrl": "https://ase.aseglobal.com/ch/press-room/lujhu-plant-phase-1-inauguration-and-phase-2-groundbreaking/",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "此前既有廠房取得金額",
+            "en": "Earlier building and facility acquisition"
+          },
+          "current": 6.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "已公告的此前取得事項",
+            "en": "Previously announced acquisition"
+          },
+          "owner": {
+            "zh": "日月光",
+            "en": "ASE"
+          },
+          "sourceUrl": "https://ase.aseglobal.com/ch/press-room/lujhu-plant-phase-1-inauguration-and-phase-2-groundbreaking/",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對先進封裝精密電源、RF 控制、量測與廠務控制供應商而言，一期啟用及二期動土代表不同階段的實際工程。需要查核各線設備需求、微振與特殊氣體規格、施工驗收及採購時程，千億元總投資不能直接換算為單一設備支出。",
+        "en": "For advanced-packaging precision power, RF controls, metrology and facility-control suppliers, the completed inauguration and new groundbreaking represent distinct construction stages. Line-specific tool requirements, vibration and gas specifications, acceptance and purchasing schedules remain unverified; the aggregate capital estimate is not a specific equipment budget."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "gigabyte-q3-2026-ai-server-results-malaysia",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "技嘉第三季營收約 1,547 億元，前九月伺服器占比達 78%",
+        "en": "Gigabyte reports NT$154.7bn Q3 sales, with servers at 78% of nine-month revenue"
+      },
+      "summary": {
+        "zh": "技嘉 11 月 13 日法說指出，第三季合併營收約 1,547 億元、年增 94.4%，營業利益 128.38 億元、歸母淨利 85.71 億元，每股盈餘 12.8 元。前九月伺服器營收比重達 78%，公司並提及台灣平鎮、美國洛杉磯及馬來西亞新山廠擴產；2027 年 40 億元資本支出仍為規劃，未公布各地新增機櫃產能。",
+        "en": "Gigabyte said at its November 13 briefing that Q3 revenue was about NT$154.7 billion, up 94.4% YoY, operating profit was NT$12.838 billion, attributable profit was NT$8.571 billion and EPS was NT$12.8. Servers represented 78% of its first-nine-month revenue, and management described capacity expansion in Pingzhen, Los Angeles and Johor Bahru; the planned NT$4 billion 2027 capex is guidance, without new rack-unit capacity by location."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "伺服器與電源散熱鏈",
+            "en": "Server, power and cooling context"
+          },
+          "text": {
+            "zh": "技嘉涵蓋主機板、顯示卡、伺服器及系統整合，AI 伺服器需搭配晶片、記憶體、機櫃電力與散熱系統。公司前九月伺服器營收已超過 3,100 億元，但未揭露各平台單獨的 GPU 機櫃驗收量。",
+            "en": "Gigabyte supplies motherboards, graphics systems, servers and integration services, with server systems involving processors, memory, rack power and cooling. First-nine-month server revenue exceeded NT$310 billion, but unit-level GPU-rack acceptances were not published."
+          }
+        },
+        {
+          "label": {
+            "zh": "第三季與前九月實績",
+            "en": "Quarterly and nine-month actuals"
+          },
+          "text": {
+            "zh": "中央社報導第三季營收約 1,547 億元、年增 94.4%，毛利率 14%，營業利益 128.38 億元、歸母淨利 85.71 億元、營益率 8.3%，每股盈餘 12.8 元。證券資訊網站轉載的第三季合併損益表載營收 1,547.11244 億元、毛利 216.61413 億元，前九月合併營收 4,039.83007 億元；各數字依財報及管理層說明口徑標示。",
+            "en": "CNA reported Q3 revenue of roughly NT$154.7 billion, up 94.4%, gross margin of 14%, operating income of about NT$12.8 billion, operating margin of 8.3% and EPS of NT$12.8. A reproduced consolidated income statement lists precise Q3 sales of NT$154.711244 billion and gross profit of NT$21.661413 billion, operating profit of NT$12.838234 billion and attributable net profit of NT$8.571372 billion, with nine-month sales of NT$403.983007 billion."
+          }
+        },
+        {
+          "label": {
+            "zh": "產能與資本支出",
+            "en": "Capacity and capital spending"
+          },
+          "text": {
+            "zh": "管理階層表示平鎮南平廠、洛杉磯廠與馬來西亞新山廠將持續擴產。2026 年資本支出預計約 28 至 30 億元，2027 年規劃 40 億元；這是未來資本配置估計，非已完成的建廠支出或客戶採購。",
+            "en": "Management outlined further expansion at the Pingzhen Nanping plant in Taiwan, Los Angeles and Johor Bahru, Malaysia. Expected 2026 capital spending is NT$2.8–3.0 billion and planned 2027 spending is NT$4 billion; these budgets do not establish completed construction or customer purchases."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未公布馬來西亞新增產能、機櫃出貨台數、電源與冷卻規格、長約訂單金額及各廠實際稼動率。",
+            "en": "Malaysian capacity additions, rack units, power and cooling specifications, contracted order value and site utilization remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$154.7B",
+      "metricLabel": {
+        "zh": "第三季合併營收",
+        "en": "Q3 consolidated revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 技嘉第三季法說與產能計畫",
+            "en": "CNA · Gigabyte Q3 briefing and capacity plans"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130279.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 轉載技嘉第三季損益表",
+            "en": "MoneyDJ · Reproduced Gigabyte Q3 income statement"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣；美國；馬來西亞",
+          "en": "Taiwan; United States; Malaysia"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；整機；記憶體；電源；散熱；資料中心；工廠；投資",
+          "en": "Servers; systems; memory; power; cooling; data centers; factories; investment"
+        },
+        "chain": {
+          "zh": "晶片及零組件到伺服器、機櫃供電及資料中心",
+          "en": "Chips and components to servers, rack power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2027 年資本支出規劃約 40 億元，涉及台灣、美國及馬來西亞生產基地。",
+            "en": "Planned 2027 capex is roughly NT$4 billion across a multi-location manufacturing footprint."
+          },
+          "demand": {
+            "zh": "第三季營收年增 94.4%；前九月伺服器營收占比 78% 為公司陳述。",
+            "en": "Q3 revenue rose 94.4% YoY and server share was 78% of nine-month sales, per management."
+          },
+          "fdi": {
+            "zh": "公司提及馬來西亞新山擴產，未公開新的單筆外資投資額。",
+            "en": "The firm mentioned Johor Bahru expansion without a newly itemized FDI amount."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "伺服器營收已實現，但與機櫃電源及冷卻設備實際採購數量不同。",
+            "en": "Realized server sales do not reveal actual purchases of rack power and cooling equipment."
+          },
+          "timing": {
+            "zh": "11 月 13 日發布 2026 年第三季及前三季資訊，2027 年資本支出為規劃。",
+            "en": "Q3 and nine-month results were presented November 13; 2027 capex is planned."
+          },
+          "unknowns": {
+            "zh": "未公布 AI 機櫃出貨量、廠別產能及完整客戶驗收資料。",
+            "en": "Rack unit shipments, site-level capacity and complete customer acceptance data remain unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 revenue"
+          },
+          "current": 154.711244,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，合併損益表轉載",
+            "en": "Gigabyte, reproduced financial statement"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 79.581474,
+          "basePeriod": "Q3 2025",
+          "reportedRate": 0.944,
+          "baseStatus": "原始損益表有列同口徑 2025 年第三季營收。"
+        },
+        {
+          "name": {
+            "zh": "第三季合併毛利",
+            "en": "Q3 gross profit"
+          },
+          "current": 21.661413,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，合併損益表轉載",
+            "en": "Gigabyte, reproduced consolidated statement"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 7.883025,
+          "basePeriod": "Q3 2025",
+          "reportedRate": null,
+          "baseStatus": "原始損益表有列同口徑 2025 年第三季精確金額。"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益",
+            "en": "Q3 operating profit"
+          },
+          "current": 12.838234,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，合併損益表轉載",
+            "en": "Gigabyte, reproduced consolidated statement"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 3.436853,
+          "basePeriod": "Q3 2025",
+          "reportedRate": 2.74,
+          "baseStatus": "原始損益表有列同口徑 2025 年第三季營業利益。"
+        },
+        {
+          "name": {
+            "zh": "第三季合併稅後淨利",
+            "en": "Q3 consolidated net profit"
+          },
+          "current": 9.743182,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，合併損益表轉載",
+            "en": "Gigabyte, reproduced consolidated statement"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 3.273895,
+          "basePeriod": "Q3 2025",
+          "reportedRate": null,
+          "baseStatus": "原始損益表有列同口徑 2025 年第三季精確金額。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 8.571372,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，合併損益表轉載",
+            "en": "Gigabyte, reproduced consolidated statement"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 3.055597,
+          "basePeriod": "Q3 2025",
+          "reportedRate": null,
+          "baseStatus": "原始損益表有列同口徑 2025 年第三季精確金額。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.14,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，中央社報導",
+            "en": "Gigabyte, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130279.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營益率",
+            "en": "Q3 operating margin"
+          },
+          "current": 0.083,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "技嘉，中央社報導",
+            "en": "Gigabyte, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130279.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月合併營收",
+            "en": "Nine-month revenue"
+          },
+          "current": 403.983007,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "技嘉，合併損益表轉載",
+            "en": "Gigabyte, reproduced financial statement"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=8213F75D-FCF5-4C5A-A031-CB3D076D3DCD",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.632,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月伺服器營收占比",
+            "en": "Nine-month server revenue share"
+          },
+          "current": 0.78,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "技嘉管理層，中央社報導",
+            "en": "Gigabyte management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130279.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年資本支出規劃",
+            "en": "Planned 2027 capital spending"
+          },
+          "current": 4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "Planned 2027"
+          },
+          "owner": {
+            "zh": "技嘉管理層，中央社報導",
+            "en": "Gigabyte management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130279.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 AI 伺服器測試、機櫃電源轉換與液冷控制供應商而言，技嘉財報能確認整體伺服器業務占比，但未提供機型與功率分布。需要核對馬來西亞廠增設的工站、設備測試規格、機櫃驗收及實際產能，2027 年資本預算不能直接當成採購訂單。",
+        "en": "For AI server test, rack power-conversion and liquid-cooling control suppliers, Gigabyte's results substantiate the server business mix but not platform-level power requirements. Johor tooling, test specifications, rack acceptance and actual capacity must be verified; 2027 budgets are not equipment orders."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "tsia-2026-q3-semiconductor-output-forecast",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台灣第三季半導體產值 2.662 兆元，工研院估全年 9.762 兆元",
+        "en": "Taiwan Q3 semiconductor output reaches NT$2.662T; ITRI forecasts NT$9.762T for 2026"
+      },
+      "summary": {
+        "zh": "台灣半導體產業協會 11 月 13 日發布工研院產科國際所統計，2026 年第三季台灣半導體業產值達 2 兆 6,620 億元，季增 19.3%、年增 59.4%；其中記憶體產值 2,491 億元，年增 340.1%。工研院另預估全年產值約 9 兆 7,615 億元、年增 49.7%，年度數字屬預測，不能當成已實現全年產出。",
+        "en": "TSIA released ITRI's Taiwan semiconductor statistics on November 13: Q3 output reached NT$2.662 trillion, up 19.3% QoQ and 59.4% YoY, including memory output of NT$249.1 billion, up 340.1% YoY. ITRI forecasts approximately NT$9.7615 trillion for full-year 2026, up 49.7%, which remains a forecast rather than realized annual output."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈統計範圍",
+            "en": "Industry-stage statistical coverage"
+          },
+          "text": {
+            "zh": "第三季 IC 設計產值 5,368 億元，製造 1 兆 8,656 億元，其中晶圓代工 1 兆 6,165 億元、記憶體及其他製造 2,491 億元；封裝 1,785 億元、測試 811 億元。各產業段的產值分類須依協會定義閱讀，記憶體包含於 IC 製造，不能再重複加總。",
+            "en": "Q3 IC design output was NT$536.8 billion and manufacturing NT$1,865.6 billion, including foundry NT$1,616.5 billion and memory/other manufacturing NT$249.1 billion. Packaging was NT$178.5 billion and testing NT$81.1 billion. Memory is included within manufacturing, so subcomponents must not be added twice."
+          }
+        },
+        {
+          "label": {
+            "zh": "實績與預測分離",
+            "en": "Actuals versus projections"
+          },
+          "text": {
+            "zh": "工研院估第四季產值 2 兆 9,421 億元、季增 10.5%；2026 年全年 9 兆 7,615 億元、年增 49.7%。全年晶圓代工預估約 6 兆 249 億元，記憶體及其他製造預估 7,959 億元，均非已完成的第四季結果。",
+            "en": "ITRI forecasts NT$2,942.1 billion of Q4 output, up 10.5% QoQ, and NT$9,761.5 billion for full-year 2026, up 49.7% YoY. Its full-year foundry forecast is NT$6,024.9 billion and memory/other manufacturing NT$795.9 billion, neither representing completed Q4 data."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "本次找到的詳細數值出自中央社及其他媒體引述協會與工研院，尚未取得可逐欄比對的原始季度統計表及全年預測模型。",
+            "en": "Detailed figures were obtained from news reports attributing the data to TSIA and ITRI; an original line-by-line quarterly table and forecast model were not independently retrieved."
+          }
+        }
+      ],
+      "metric": "NT$2.662T",
+      "metricLabel": {
+        "zh": "第三季半導體業產值",
+        "en": "Q3 semiconductor industry output"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · TSIA 公布工研院半導體統計",
+            "en": "CNA · TSIA and ITRI industry statistics"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 半導體產值分類交叉報導",
+            "en": "Liberty Times · Cross-check of industry segments"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5639865",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；代工；記憶體；DRAM；封裝；測試；預測",
+          "en": "Chip design; wafer fabrication; foundry; memory; DRAM; packaging; testing; forecasts"
+        },
+        "chain": {
+          "zh": "晶片設計到晶圓製造、記憶體及封裝測試的產值統計",
+          "en": "IC design through wafer fabrication, memory, packaging and test statistics"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有揭露個別公司核准資本支出。",
+            "en": "No company-specific approved capex was disclosed."
+          },
+          "demand": {
+            "zh": "第三季產值為統計實績，第四季與全年為工研院預估。",
+            "en": "Q3 values are reported statistics; Q4 and full-year numbers are ITRI projections."
+          },
+          "fdi": {
+            "zh": "沒有個別新增 FDI 數據。",
+            "en": "No new company-level FDI data was given."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "提供各製程段的產值口徑，但不能等同實際訂單或設備驗收。",
+            "en": "Segment output categories provide industry measures, not direct orders or equipment acceptance."
+          },
+          "timing": {
+            "zh": "11 月 13 日公布第三季統計與 2026 年第四季、全年預測。",
+            "en": "Released November 13, including Q3 statistics and Q4/full-year 2026 forecasts."
+          },
+          "unknowns": {
+            "zh": "未取得原始分項統計表及預測模型。",
+            "en": "The underlying detailed statistical table and model were not obtained."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季半導體業產值",
+            "en": "Q3 total semiconductor output"
+          },
+          "current": 2662,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院產科國際所，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.594,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季 IC 設計產值",
+            "en": "Q3 IC design output"
+          },
+          "current": 536.8,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.538,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季 IC 製造產值",
+            "en": "Q3 IC manufacturing output"
+          },
+          "current": 1865.6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.641,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季晶圓代工產值",
+            "en": "Q3 foundry output"
+          },
+          "current": 1616.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.496,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季記憶體及其他製造",
+            "en": "Q3 memory and other manufacturing"
+          },
+          "current": 249.1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 3.401,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季封裝產值",
+            "en": "Q3 packaging output"
+          },
+          "current": 178.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.426,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季測試產值",
+            "en": "Q3 testing output"
+          },
+          "current": 81.1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "TSIA／工研院，中央社報導",
+            "en": "TSIA/ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.391,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第四季預測產值",
+            "en": "Q4 industry output forecast"
+          },
+          "current": 2942.1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第四季預測",
+            "en": "Q4 2026 forecast"
+          },
+          "owner": {
+            "zh": "工研院產科國際所，中央社報導",
+            "en": "ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "預測",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.105,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "2026 年全年產值預測",
+            "en": "2026 full-year output forecast"
+          },
+          "current": 9761.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預測",
+            "en": "Full-year 2026 forecast"
+          },
+          "owner": {
+            "zh": "工研院產科國際所，中央社報導",
+            "en": "ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.497,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "全年晶圓代工產值預測",
+            "en": "Full-year foundry output forecast"
+          },
+          "current": 6024.9,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預測",
+            "en": "Full-year 2026 forecast"
+          },
+          "owner": {
+            "zh": "工研院產科國際所，中央社報導",
+            "en": "ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.445,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "全年記憶體及其他製造預測",
+            "en": "Full-year memory and other manufacturing forecast"
+          },
+          "current": 795.9,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預測",
+            "en": "Full-year 2026 forecast"
+          },
+          "owner": {
+            "zh": "工研院產科國際所，中央社報導",
+            "en": "ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 2.658,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓製程電源、記憶體測試及先進封裝量測供應商而言，這些統計有助區分不同製程段的產值變動。仍須取得各廠設備需求、產能利用、客戶資格認定與實際投資數據，不能由產值成長率直接推出工具需求。",
+        "en": "For wafer process-power, memory testing and advanced-packaging metrology suppliers, the statistics separate changes across manufacturing segments. Fab-level tooling, utilization, qualification and capex are still needed; output growth rates cannot directly establish demand for specific instruments."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "ase-ainos-chemical-sensor-order-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "日月光增購 5,000 台 Ainos 化學感測設備，合約金額 900 萬美元",
+        "en": "ASE orders 5,000 additional Ainos chemical sensors under a US$9m agreement"
+      },
+      "summary": {
+        "zh": "Ainos 於美國時間 11 月 12 日宣布與日月光簽訂 900 萬美元採購協議，新增 5,000 台 AI Nose 化學感測系統，將應用於先進封裝製造環境監測。此前 210 萬美元協議所涵蓋的 1,400 台已交付，但新訂單的交貨、付款與收入認列仍依協議條件進行。",
+        "en": "Ainos announced on November 12 US time that ASE had signed a US$9 million purchase agreement for 5,000 additional AI Nose chemical sensing systems for advanced-packaging manufacturing environments. All 1,400 systems in the earlier US$2.1 million agreement had been delivered, while shipment, payment and revenue recognition under the new agreement remain subject to its terms."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "製程監測與供應鏈用途",
+            "en": "Process monitoring and supply-chain role"
+          },
+          "text": {
+            "zh": "AI Nose 將環境空氣中的化學訊號轉換為可供分析的數據，Ainos 說明其目標是補充既有設備及製程量測資料，用於污染物偵測、異常調查與現場安全。這些功能仍須在特定客戶製程條件下持續驗證。",
+            "en": "AI Nose digitizes airborne chemical signals to supplement existing equipment and process metrology, according to Ainos, with intended uses in contamination monitoring, anomaly investigation and facility safety. Performance remains subject to application-specific validation."
+          }
+        },
+        {
+          "label": {
+            "zh": "合約條款及已交付部分",
+            "en": "Contract terms and completed deliveries"
+          },
+          "text": {
+            "zh": "Ainos 官方發布的新聞稿列出新訂單金額 900 萬美元、5,000 台，簽約後 60 天內應支付 450 萬美元訂金，剩餘款項以交付文件請款；此前 1,400 台已完成交付。新合約價值與當期營收認列不可混用。",
+            "en": "The company's release specifies US$9 million for 5,000 systems, a US$4.5 million deposit due within 60 days of signing and the remainder invoiced following delivery documentation. The earlier 1,400 units were delivered. Contract value is distinct from recognized quarterly revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新一批 5,000 台的實際交付排程、各廠分布、完成驗收數量與製程良率改善幅度尚未揭露。",
+            "en": "Delivery schedule, plant allocation, accepted units and quantified yield improvement for the new 5,000 systems are not public."
+          }
+        }
+      ],
+      "metric": "5,000",
+      "metricLabel": {
+        "zh": "新增採購感測系統台數",
+        "en": "Additional sensor systems ordered"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Ainos · 11 月 12 日原廠採購協議新聞稿",
+            "en": "Ainos · November 12 company purchase announcement"
+          },
+          "url": "https://www.newswire.com/news/ainos-secures-largest-order-in-company-history-9-million-ase-agreement-22888331",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 日月光化學感測設備採購",
+            "en": "CNA · ASE chemical sensing purchase"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130180.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Ainos · 先前 1,400 台交付公告",
+            "en": "Ainos · Earlier 1,400-unit delivery announcement"
+          },
+          "url": "https://ainos.com/news_view/108",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "封裝；封測；測試；設備；零組件；工廠；自動化",
+          "en": "Packaging; testing; equipment; sensors; factory automation"
+        },
+        "chain": {
+          "zh": "先進封裝製程環境感測到工廠自動化與良率監測",
+          "en": "Advanced packaging process sensing through factory automation and yield monitoring"
+        },
+        "changes": {
+          "investment": {
+            "zh": "簽約 900 萬美元採購，付款及交付依合約。",
+            "en": "A US$9 million procurement agreement was signed, subject to payment and delivery terms."
+          },
+          "demand": {
+            "zh": "5,000 台為新合約數量，先前 1,400 台已交付。",
+            "en": "The new contract covers 5,000 units; the earlier 1,400 units were delivered."
+          },
+          "fdi": {
+            "zh": "未揭露新增 FDI。",
+            "en": "No new FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "擴增化學感測範圍，與封裝設備與製程量測數據整合。",
+            "en": "Chemical sensing coverage is intended to complement packaging equipment and process measurements."
+          },
+          "timing": {
+            "zh": "11 月 12 日發布新採購協議，原 1,400 台為先前完成的交貨。",
+            "en": "The new agreement was announced November 12; the 1,400 units were an earlier completed delivery."
+          },
+          "unknowns": {
+            "zh": "新系統交付時程、廠別分配與績效驗證數值未公布。",
+            "en": "New-unit timing, plant allocation and performance validation data were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新增化學感測系統",
+            "en": "Additional chemical sensor systems"
+          },
+          "current": 5000,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 11 月新協議",
+            "en": "November 2026 agreement"
+          },
+          "owner": {
+            "zh": "Ainos",
+            "en": "Ainos"
+          },
+          "sourceUrl": "https://www.newswire.com/news/ainos-secures-largest-order-in-company-history-9-million-ase-agreement-22888331",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "新協議總價",
+            "en": "New contract value"
+          },
+          "current": 0.009,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月新協議",
+            "en": "November 2026 agreement"
+          },
+          "owner": {
+            "zh": "Ainos",
+            "en": "Ainos"
+          },
+          "sourceUrl": "https://www.newswire.com/news/ainos-secures-largest-order-in-company-history-9-million-ase-agreement-22888331",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "合約預計首期訂金",
+            "en": "Deposit due under contract"
+          },
+          "current": 0.0045,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月新協議",
+            "en": "November 2026 agreement"
+          },
+          "owner": {
+            "zh": "Ainos",
+            "en": "Ainos"
+          },
+          "sourceUrl": "https://www.newswire.com/news/ainos-secures-largest-order-in-company-history-9-million-ase-agreement-22888331",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "先前已交付系統",
+            "en": "Previously delivered units"
+          },
+          "current": 1400,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 9 月以前的原合約",
+            "en": "Earlier agreement delivered by Sep 2026"
+          },
+          "owner": {
+            "zh": "Ainos",
+            "en": "Ainos"
+          },
+          "sourceUrl": "https://ainos.com/news_view/108",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體化學感測、製程控制與精密量測業者而言，日月光新合約提供具體台數和金額，並揭示環境感測與封裝製程資料整合的用途。還需查核分廠部署、設備介面、交貨驗收及污染或良率指標，採購契約不能直接視為已確認的全部現金收入。",
+        "en": "For semiconductor chemical sensing, process control and precision metrology suppliers, the new agreement establishes specific units and contractual value. Site-level deployment, instrument interfaces, acceptance and defect or contamination metrics remain unverified; the contract is not fully recognized cash revenue."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "unitech-yilan-behind-meter-energy-storage-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "燿華宜蘭廠啟動 5.04MW 表後儲能建置，預計 2027 年 6 月完工",
+        "en": "Unitech begins 5.04MW behind-the-meter storage buildout at Yilan factory"
+      },
+      "summary": {
+        "zh": "聚恆科技與燿華電子 11 月 12 日啟動宜蘭廠表後儲能工程，規劃容量 5.04MW／10.03MWh，預定 2027 年 6 月完工。工程將搭配 H-ELink 能源管理系統進行尖離峰調度；聚恆預估每年可節省逾 1,200 萬元電費，這是專案預測，尚無運轉後實績。",
+        "en": "Juheng and PCB manufacturer Unitech started a behind-the-meter battery project at Unitech's Yilan factory on November 12, planning 5.04MW of power and 10.03MWh of storage for June 2027 completion. The H-ELink energy management system is intended for peak/off-peak dispatch; estimated savings above NT$12 million annually are a project forecast, not operating results."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工廠供電與電力調度",
+            "en": "Factory power and dispatch context"
+          },
+          "text": {
+            "zh": "燿華的 PCB 生產涉及工廠用電與供電管理，表後儲能配置在用戶端電表後側，規劃以尖離峰電價及需量反應條件進行調度。此工程與整廠資料中心電力不同，應依燿華宜蘭廠個別需求評估。",
+            "en": "PCB fabrication requires plant-level power management. Behind-the-meter storage is located on the customer's side of the meter and may dispatch against peak/off-peak prices and demand-response programs. This project concerns Unitech's factory, not a data-center electrical installation."
+          }
+        },
+        {
+          "label": {
+            "zh": "工程容量與時程",
+            "en": "Project design and schedule"
+          },
+          "text": {
+            "zh": "聚恆公布規劃 5.04MW 輸出功率與 10.03MWh 儲能容量，預計 2027 年 6 月竣工；每年節省超過 1,200 萬元的說法仍屬企業估計。11 月 12 日已開始工程，未表示系統已併網投運。",
+            "en": "The disclosed design comprises 5.04MW of output and 10.03MWh of energy storage, targeting June 2027 completion. Savings exceeding NT$12 million annually are the contractor's estimate. Work commenced November 12, but the battery had not been declared commissioned."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "未取得設備供應商明細、電池化學體系、系統實測效率、電力交易資格及竣工驗收資料。",
+            "en": "Equipment vendors, battery chemistry, measured efficiency, electricity-market eligibility and commissioning certificates were not published."
+          }
+        }
+      ],
+      "metric": "5.04MW",
+      "metricLabel": {
+        "zh": "規劃表後儲能輸出功率",
+        "en": "Planned behind-the-meter storage power"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "科技新報 · 聚恆與燿華儲能專案",
+            "en": "TechNews · Juheng and Unitech storage project"
+          },
+          "url": "https://technews.tw/2026/11/12/juheng-yaohua-expand-post-meter-storage-5mw-project/",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 聚恆財報與儲能規劃",
+            "en": "CNA · Juheng results and storage plan"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130283.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "聚恆科技 · 11 月 12 日專案公告索引",
+            "en": "Juheng · November 12 project notice listing"
+          },
+          "url": "https://www.hengs.com/",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "專案廠址：台灣宜蘭縣燿華電子宜蘭廠；來源未確認街道門牌。",
+        "en": "Project site: Unitech's Yilan factory, Yilan County, Taiwan; no verified street address was provided."
+      },
+      "market": {
+        "eventDate": "2026-11-12",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源；電力；儲能；PCB；基板；工廠；自動化；終端",
+          "en": "Power; electricity; storage; PCBs; substrates; end-use factories"
+        },
+        "chain": {
+          "zh": "PCB 生產工廠到表後儲能電力控制與能源管理",
+          "en": "PCB factory operations through behind-the-meter power storage and energy management"
+        },
+        "changes": {
+          "investment": {
+            "zh": "啟動儲能工程但未公布單案建置總投資額。",
+            "en": "Construction began without a disclosed project capex total."
+          },
+          "demand": {
+            "zh": "設計為 5.04MW／10.03MWh，預計 2027 年 6 月完工，節費仍屬估計。",
+            "en": "Design is 5.04MW/10.03MWh, targeting June 2027 completion; savings are estimated."
+          },
+          "fdi": {
+            "zh": "沒有新 FDI 公告。",
+            "en": "No new FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "PCB 廠自用儲能的功率、容量與調度需求已由公司揭露。",
+            "en": "Company disclosures specify power, energy capacity and dispatch plans for factory storage."
+          },
+          "timing": {
+            "zh": "11 月 12 日開工，2027 年 6 月為預期完工日期。",
+            "en": "Construction started November 12, with expected completion in June 2027."
+          },
+          "unknowns": {
+            "zh": "未公開實測效率、設備組成及運轉驗收資料。",
+            "en": "Measured efficiency, equipment composition and commissioning data are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "規劃儲能功率",
+            "en": "Planned storage power"
+          },
+          "current": 5.04,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 11 月專案規劃",
+            "en": "November 2026 project plan"
+          },
+          "owner": {
+            "zh": "聚恆科技，科技新報報導",
+            "en": "Juheng, reported by TechNews"
+          },
+          "sourceUrl": "https://technews.tw/2026/11/12/juheng-yaohua-expand-post-meter-storage-5mw-project/",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源轉換、儲能控制及電力品質量測供應商而言，燿華專案有明確額定功率及建置時程。需要核對電池與逆變器規格、工廠負載特性、控制介面及竣工實測資料，年度節費目標仍無實證結果。",
+        "en": "For industrial power-conversion, storage control and electrical quality metrology suppliers, the project states rated power and a construction timetable. Battery and inverter ratings, factory load profiles, control interfaces and commissioning tests remain to be verified; projected savings are not measured outcomes."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "eink-guanyin-site-purchase-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：華紙以 27.8 億元出售觀音廠予元太，元太取得既有承租場址",
+        "en": "Follow-up: E Ink to acquire the Guanyin plant it partly leases for NT$2.78bn"
+      },
+      "summary": {
+        "zh": "中華紙漿 11 月 13 日宣布，董事會通過以新台幣 27.8 億元出售桃園觀音廠土地、廠房及附屬設備給元太科技，預估處分利益 13.3 億元。元太此前已承租廠區部分空間作為生產據點；本次是廠房資產交易，未公告新增 PTFE 材料月產能或投產驗收。",
+        "en": "Chung Hwa Pulp said on November 13 its board approved the NT$2.78 billion sale of land, buildings and associated equipment at its Guanyin plant in Taoyuan to E Ink, estimating NT$1.33 billion in disposal gains. E Ink had already leased part of the site for production; the property transaction does not establish additional PTFE material capacity or completed qualification."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "材料供應鏈與關係企業",
+            "en": "Materials supply-chain and related-party transaction"
+          },
+          "text": {
+            "zh": "華紙表示元太原已承租觀音廠部分區域並依租約享有優先承購權，本次處分對象為關係人。交易與元太的既有材料加工據點相連，但公告未把購地面積直接對應任何高速基板材料產能。",
+            "en": "Chung Hwa Pulp said E Ink already leased part of the Guanyin site and held contractual purchase priority. The related-party property sale concerns E Ink's existing manufacturing location, without an announced link between floor area and high-speed substrate material output."
+          }
+        },
+        {
+          "label": {
+            "zh": "成交價與財報時點",
+            "en": "Sale amount and accounting timing"
+          },
+          "text": {
+            "zh": "交易總金額 27.8 億元，華紙估扣除成本、費用與稅賦後將認列處分利益約 13.3 億元，預計於第四季認列。賣方估計收益與買方資本支出屬不同財務口徑。",
+            "en": "The agreed consideration is NT$2.78 billion. Chung Hwa Pulp estimates roughly NT$1.33 billion of disposal gains after costs and taxes, expected to be recognized in Q4. The seller's estimated gain and the buyer's acquisition amount are different accounting measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "不動產移轉完成日、元太後續設備改造、PTFE 生產分配、專案量產能力及客戶驗證均未揭露。",
+            "en": "Closing date, E Ink's equipment conversion, allocation to PTFE production, plant capacity and customer qualification remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$2.78B",
+      "metricLabel": {
+        "zh": "觀音廠交易總金額",
+        "en": "Guanyin facility transaction value"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 華紙觀音廠出售與財務影響",
+            "en": "CNA · Chung Hwa Pulp Guanyin asset sale"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130236.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "資產標的所在地：台灣桃園市觀音區中華紙漿觀音廠；公告報導未提供確切街道門牌。",
+        "en": "Asset location: Chung Hwa Pulp's Guanyin plant, Guanyin District, Taoyuan, Taiwan; the report gives no precise street address."
+      },
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；基板；高速傳輸；設備；工廠；投資",
+          "en": "Materials; substrates; high-speed interconnects; equipment; factories; investment"
+        },
+        "chain": {
+          "zh": "既有材料生產據點的廠房資產取得",
+          "en": "Acquisition of an existing materials production site"
+        },
+        "changes": {
+          "investment": {
+            "zh": "觀音廠買賣金額 27.8 億元，尚未揭露新增產線設備投資。",
+            "en": "NT$2.78 billion property transaction, without an additional tool-investment budget."
+          },
+          "demand": {
+            "zh": "沒有宣布新產線的已實現產量或驗收。",
+            "en": "No realized new-line output or acceptance was disclosed."
+          },
+          "fdi": {
+            "zh": "無新 FDI 公告。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "元太收購既有部分承租場址，後續材料製程用途待公告。",
+            "en": "E Ink is acquiring a site it partly leased, with future process allocation not disclosed."
+          },
+          "timing": {
+            "zh": "華紙董事會於 11 月 13 日通過，第四季處分利益仍為估計。",
+            "en": "The board approved the sale November 13; Q4 disposal gains remain estimated."
+          },
+          "unknowns": {
+            "zh": "未公布移轉完成日或高頻材料產能。",
+            "en": "Closing date and high-frequency material output are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "觀音廠交易總價",
+            "en": "Guanyin site sale consideration"
+          },
+          "current": 2.78,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 13 日核准交易",
+            "en": "November 13, 2026 approval"
+          },
+          "owner": {
+            "zh": "中華紙漿，中央社報導",
+            "en": "Chung Hwa Pulp, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130236.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "預估處分利益",
+            "en": "Estimated disposal gain"
+          },
+          "current": 1.33,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "預計 2026 年第四季認列",
+            "en": "Expected Q4 2026 recognition"
+          },
+          "owner": {
+            "zh": "中華紙漿，中央社報導",
+            "en": "Chung Hwa Pulp, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130236.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高速材料製程、精密量測與產線電源設備供應商而言，廠房交易提供場址控制權的資訊，但還不能推定設備改造已執行。需確認購地完成、廠房配置、製程規格、材料認證與實際投產決議。",
+        "en": "For high-speed materials process tools, precision metrology and production power suppliers, the transaction indicates a site-ownership change without confirming tool conversion. Closing, facility layout, process specifications, materials qualification and production approvals remain to be verified."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "getac-rugged-computer-uav-ground-control-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "神基稱取得兩筆歐美無人載具專案訂單，強固型工業電腦供地面控制系統",
+        "en": "Getac reports two US and European unmanned-system projects involving rugged ground controls"
+      },
+      "summary": {
+        "zh": "神基投控 11 月 13 日法說指出，2026 年取得兩筆來自歐洲與美國客戶的無人載具大型專案訂單，業務涉及強固型電腦及地面控制站；公司預估 2027 年無人機相關業務占比約 5% 至 10%。第三季合併營收約 114.31 億元，但未公開這兩筆訂單的金額、履約時程或確切數量。",
+        "en": "Getac Holdings said at its November 13 briefing that it won two large unmanned-system projects from European and US customers in 2026, involving rugged computing and ground-control applications. Management expects this business to represent roughly 5%–10% of 2027 revenue; Q3 group revenue was about NT$11.431 billion, but project value, delivery timing and volumes were not provided."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工業電腦及終端系統背景",
+            "en": "Rugged computing and end-use systems"
+          },
+          "text": {
+            "zh": "神基的強固型電腦可用於工業、戶外及專業現場作業，無人載具地面控制系統涉及終端電腦、通訊介面、功率管理與環境耐受度測試。公司公開資訊未將訂單轉化為個別零組件採購量。",
+            "en": "Getac's rugged computers support industrial and field applications, while unmanned-platform ground control involves computing terminals, communications interfaces, power management and environmental testing. The announcement did not quantify purchases of particular components."
+          }
+        },
+        {
+          "label": {
+            "zh": "訂單與財務數字",
+            "en": "Orders and financial performance"
+          },
+          "text": {
+            "zh": "公司稱兩筆大型專案分別來自歐洲與美國客戶，並預估明年相關業務占比 5% 至 10%。第三季合併營收約 114.31 億元，季減 0.7%；歸母淨利約 12.86 億元，季減 18.2%，每股盈餘 2.06 元。未公開專案總金額及單台系統規格。",
+            "en": "The company described two projects, one from Europe and one from the United States, and forecasts a 5%–10% revenue mix next year. Q3 revenue was approximately NT$11.431 billion, down 0.7% QoQ, and attributable net profit NT$1.286 billion, down 18.2%, with EPS NT$2.06. Contract value and unit-level specifications were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "尚未公開客戶名稱、交付件數、個別控制終端規格、產線稼動率或實際出貨日期。",
+            "en": "Customer names, delivery units, individual control-terminal specifications, manufacturing utilization and actual shipment dates remain unpublished."
+          }
+        }
+      ],
+      "metric": "2",
+      "metricLabel": {
+        "zh": "公司揭露專案筆數",
+        "en": "Disclosed project awards"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 神基第三季法說與工業電腦專案",
+            "en": "CNA · Getac earnings briefing and rugged-computing projects"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611130297.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "台灣；美國；歐洲",
+          "en": "Taiwan; United States; Europe"
+        },
+        "industries": {
+          "zh": "工業電腦；整機；零組件；電源；工廠；終端",
+          "en": "Rugged computers; systems; components; power; industrial end-use"
+        },
+        "chain": {
+          "zh": "控制用工業電腦與零組件至終端地面控制系統",
+          "en": "Rugged computing and components through end-use ground-control systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新工廠投資。",
+            "en": "No new factory investment was disclosed."
+          },
+          "demand": {
+            "zh": "揭露兩筆專案訂單；2027 年營收占比 5% 至 10% 為管理層預估。",
+            "en": "Two project awards were reported; 5%–10% of 2027 sales is management guidance."
+          },
+          "fdi": {
+            "zh": "未公布新 FDI。",
+            "en": "No new FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "強固型終端及地面控制系統涉及工業電腦、供電與現場量測。",
+            "en": "Rugged terminals and ground-control systems involve industrial computing, power and field measurement."
+          },
+          "timing": {
+            "zh": "11 月 13 日法說公布此前取得的 2026 年訂單及 2027 年預估。",
+            "en": "The November 13 briefing disclosed earlier 2026 awards and a 2027 estimate."
+          },
+          "unknowns": {
+            "zh": "未公開客戶、金額、設備規格與交貨里程碑。",
+            "en": "Customers, contract values, equipment specifications and delivery milestones remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新增披露大型專案",
+            "en": "Reported large project awards"
+          },
+          "current": 2,
+          "unit": "件",
+          "period": {
+            "zh": "2026 年取得、11 月 13 日披露",
+            "en": "2026 awards disclosed Nov 13"
+          },
+          "owner": {
+            "zh": "神基管理層，中央社報導",
+            "en": "Getac management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130297.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 11.431,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "神基管理層，中央社報導",
+            "en": "Getac management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130297.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.007,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季歸母淨利",
+            "en": "Q3 attributable net profit"
+          },
+          "current": 1.286,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "神基管理層，中央社報導",
+            "en": "Getac management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611130297.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": -0.182,
+          "baseStatus": "原始資料未列同口徑精確比較基期，未由四捨五入後成長率反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對強固型電源、嵌入式電腦量測與工業控制儀器供應商而言，兩筆專案揭露了應用領域，但沒有個別規格或出貨時程。應查核終端負載、耐候與電磁相容測試要求、供應範圍及驗收里程碑，營收占比預估不代表已交付數量。",
+        "en": "For rugged power, embedded-computer metrology and industrial control instrument suppliers, the two awards identify an application area without specific electrical requirements or shipment schedules. Terminal loads, environmental and EMC testing, supply scope and acceptance milestones remain unknown; forecast revenue mix is not delivered volume."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "精材的 150 億元與 2029 年代表什麼階段？",
+        "en": "What do Xintec's NT$15bn and 2029 represent?"
+      },
+      "text": {
+        "zh": "150 億元是董事會通過的轉換公司債發行規劃，2029 年是首期產線量產目標。尚無可核對的設備採購細項及產能驗收資料。",
+        "en": "NT$15bn is approved proposed convertible-bond financing, while 2029 is the target for first-phase production. Equipment procurement and qualified output remain undisclosed."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "日月光的千億元與 800 億元是否已入帳？",
+        "en": "Are ASE's NT$100bn investment and NT$80bn sales already recognized?"
+      },
+      "text": {
+        "zh": "兩筆都屬兩期滿載後的公司估計。一期啟用與二期動土已發生，但未來年營收及全案投資不可當成目前季度實績。",
+        "en": "Both amounts are management estimates for full buildout. Phase one opened and phase two broke ground, but future annual revenue and full-project investment are not current-quarter actuals."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "台灣半導體第三季產值和全年預估如何比較？",
+        "en": "How should Q3 output and the full-year estimate be compared?"
+      },
+      "text": {
+        "zh": "2.662 兆元是第三季產值統計，9.762 兆元是工研院對全年的預測。晶圓代工與記憶體均已含於 IC 製造分項，不能和總產值再次加總。",
+        "en": "NT$2.662tn is reported Q3 output, while NT$9.762tn is ITRI's full-year forecast. Foundry and memory are subcomponents of manufacturing and cannot be added again to total output."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "已發布的海外設廠補助",
+        "en": "Previously disclosed overseas fab subsidies"
+      },
+      "text": {
+        "zh": "台積電 11 月 10 日申報的第三季財報列出 2026 年前九月約新台幣 1,675.87 億元政府補助相關現金流入，涵蓋海外子公司在美國、德國、日本及中國的設廠營運；此數據屬較早公布的財報背景，未作為新事件重刊。",
+        "en": "TSMC's Q3 financial filing on November 10 reported approximately NT$167.587bn in government-grant proceeds for the first nine months across overseas operations in the United States, Germany, Japan and China. This previously disclosed filing is dated context, not a fresh event."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考註記",
+      "en": "Reference note"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價解讀與重複財報",
+        "en": "Stock-price commentary and repeat reporting"
+      },
+      "text": {
+        "zh": "純股價變動、未公開採購或工程數據的評論，以及前一日報已收錄的華碩、鴻海和元太 PTFE 研發計畫，均未以新事件重刊。",
+        "en": "Stock-price commentary, unsupported procurement claims and prior-edition coverage of ASUS, Foxconn and E Ink's PTFE development plan were not republished as new events."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "精材合約重訊已由媒體轉載核對，但未取得交易所原始個別申報頁；TSIA 細部產值透過兩家媒體相互核對，尚缺原始分項統計表。神基與元太資產交易目前依公司法說或重大訊息的第二手報導，未獨立取得完整原始文件；相關金額、產能與未來目標已分開標示。",
+    "en": "Xintec's material-event filing was checked in a reproduced report, but its original exchange filing page was not independently retrieved. TSIA's detailed segment data were cross-checked across two outlets without the original segment spreadsheet. Getac and E Ink's asset transaction currently rely on second-hand reporting of company statements; actual results and future targets are separately labeled."
+  }
+}
