@@ -97,3 +97,10 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 - Use fullwidth punctuation in Chinese prose. Embedded English syntax, decimal dots, thousands separators, URLs, ticker symbols and immutable metric-schema units retain their original ASCII punctuation.
 - Apply these changes to published Chinese copy, including `story.metric`, `title.zh`, `summary.zh`, `sections[*].text.zh`, `market` labels, `ceoView.zh`, weekly highlights and calendar display text. Preserve all English copy, numeric values, identifiers, URLs and event dates.
 - The browser also applies the display-only typography normalizer to archived JSON, so earlier editions render consistently without changing prior archives or their published Excel checksums.
+
+## Publishing handoff to GitHub Pages
+
+- A commit pushed from GitHub Actions with `GITHUB_TOKEN` does not automatically start another push-triggered GitHub Actions workflow. The Pages run from the earlier staging commit may therefore succeed while deploying the old edition.
+- After a news publishing workflow commits the fully validated edition, weekly digest, exports and manifest to `main`, it must explicitly run `gh workflow run pages.yml --ref main` using its workflow token. Do this after the final push, not before it.
+- Confirm that the Pages deploy job log says `Deploying published commit` with the final content commit (or a newer commit containing it), and that its published edition JSON and Excel assets pass the live URL verification. A successful Pages run for a staging commit is not sufficient.
+- The Pages workflow checks the newest edition, current weekly digest and current daily, weekly and calendar exports against the live site before declaring success.
