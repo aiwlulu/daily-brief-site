@@ -1,0 +1,790 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-15T08:33:57.553Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣及東南亞記憶體、AI 伺服器供電、光通訊與精密設備",
+      "en": "Taiwan and Southeast Asian memory, AI server power, optical networking and precision equipment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣模組廠談 DRAM 供貨配置、光寶科高壓機櫃電源仍在驗證，正文與捷揚則分別說明光模組出貨目標及衛星運算模組客戶送樣進度。",
+    "en": "Taiwanese memory suppliers discussed DRAM allocations, Lite-On reported ongoing high-voltage rack qualification, and Gemtek and Jieyang described optical shipment targets and satellite-compute customer sampling."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "光寶科官方確認 800VDC 樣機規劃於第四季出貨；11/15 媒體稱量產可能延至 2027 年底，正式認證時程仍未知。",
+        "en": "Lite-On plans Q4 800VDC rack prototypes; November 15 reporting points to late-2027 volume production, without confirmed qualification dates."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "宇瞻說明保留部分 DRAM 貨源供明年銷售，預期上半年模組供給更緊；第三季毛利率 40.08% 為此前實績。",
+        "en": "Apacer is reserving some DRAM for future sales and anticipates tighter first-half 2027 module supply; its 40.08% Q3 margin is previously reported."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "捷揚與 TASA 合作的衛星 GPGPU 已送海外客戶評估；在軌驗證成功早於今年 4 月公布，今日新資訊是送樣和測試細節。",
+        "en": "Jieyang's satellite GPGPU is under overseas customer evaluation; in-orbit success was previously reported by April, with new details on samples and tests."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "正文 11/14 媒體報導 800G、1.6T 光模組第四季出貨目標，現有低速產品出貨及舊財報不能視為新產品量產。",
+        "en": "November 14 reporting places Gemtek's 800G/1.6T initial shipments in Q4; existing lower-speed deliveries and earlier earnings do not establish mass production."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "liteon-800vdc-power-rack-qualification",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：光寶科 800VDC 機櫃電源規格仍在調整，媒體稱量產延至 2027 年底",
+        "en": "Follow-up: Lite-On 800VDC rack specifications evolve as report points to late-2027 volume production"
+      },
+      "summary": {
+        "zh": "DIGITIMES 11 月 15 日報導，光寶科因 800VDC 電源架構規格持續修訂，預期大量生產時間落在 2027 年底，並稱公司對部分 AI 伺服器訂單的能見度延伸至 2028 年。光寶科第三季官方問答則明確列出 2026 年第四季 800VDC Power Rack 樣機出貨規劃、120kW CDU 第三季已出貨，以及 220kW CDU 仍在設計，樣品、已出貨產品和未來量產須分開看待。",
+        "en": "DIGITIMES reported on November 15 that continuing revisions to 800VDC rack-power specifications have shifted anticipated volume production to late 2027, while Lite-On's AI-server order visibility reportedly extends into 2028. The company's Q3 investor FAQ separately confirms planned Q4 2026 800VDC prototypes, previously shipped 120kW cooling distribution units and a 220kW CDU still in design; prototypes and production are different milestones."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與產業背景",
+            "en": "Supply-chain and industry context"
+          },
+          "text": {
+            "zh": "800VDC 機櫃電源涉及資料中心配電、電力轉換、電源模組及機櫃端整合；液冷 CDU 則負責冷卻液循環與熱管理。光寶科同時提供 8.5kW PSU 與 BBU、110kW Power Shelf 等電源產品，規格與出貨階段各自不同。",
+            "en": "An 800VDC rack architecture spans data-center electrical distribution, conversion, power shelves and rack integration; a CDU circulates coolant for thermal management. Lite-On also lists 8.5kW PSU/BBU products and 110kW Power Shelves, which have distinct qualification and delivery statuses."
+          }
+        },
+        {
+          "label": {
+            "zh": "官方已披露的進度",
+            "en": "Company-disclosed milestones"
+          },
+          "text": {
+            "zh": "光寶科第三季投資人問答寫明，800VDC Power Rack 預期第四季樣機出貨；120kW CDU 第三季已出貨並預期第四季增加出貨量；220kW CDU 尚在設計階段。公司也表示 DC/DC Brick 已送客戶驗證，最快 2027 年第三季開始產生營收，該日期仍屬預測。",
+            "en": "Lite-On's Q3 investor FAQ states that 800VDC rack prototypes are planned for Q4, 120kW CDUs shipped in Q3 with higher Q4 volume expected, and 220kW CDUs remain in design. DC/DC Brick products have entered customer qualification and are expected to contribute revenue no earlier than Q3 2027, according to company guidance."
+          }
+        },
+        {
+          "label": {
+            "zh": "11 月 15 日的新報導",
+            "en": "New November 15 reporting"
+          },
+          "text": {
+            "zh": "DIGITIMES 指稱電源規格大幅調整使 800VDC 量產推遲，並報導 AI 相關營收 2027 年可能占 40% 至 50%。公司官方問答支持 AI 營收占比超過 40% 的方向，但未在該頁單獨確認 2028 年長約數量及 2027 年底量產日期，因此將後兩項標為媒體轉述。",
+            "en": "DIGITIMES reported substantial specification revisions, late-2027 production and a possible 40%–50% AI-related revenue share in 2027. Lite-On's own FAQ supports a forecast above 40%, but does not independently confirm 2028 contracted units or the exact late-2027 volume-production date; those details remain media-attributed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "800VDC 的正式版本規格、客戶認證完成日、量產單位數、2028 年已簽訂單價值及新平台最終電氣配置尚未公開。",
+            "en": "Finalized 800VDC specifications, qualification dates, volume-production units, signed 2028 order values and customer platform configurations were not disclosed."
+          }
+        }
+      ],
+      "metric": "800VDC",
+      "metricLabel": {
+        "zh": "機櫃電源架構進度",
+        "en": "Rack-power architecture status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "光寶科 · 第三季投資人問答",
+            "en": "Lite-On · Q3 investor FAQ"
+          },
+          "url": "https://www.liteon.com/zh-tw/download/investor-conference",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "DIGITIMES · 11 月 15 日電源量產時程報導",
+            "en": "DIGITIMES · November 15 rack-power timing report"
+          },
+          "url": "https://www.digitimes.com/news/a20261112PD231.html",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-15",
+        "countries": {
+          "zh": "台灣；越南；美國",
+          "en": "Taiwan; Vietnam; United States"
+        },
+        "industries": {
+          "zh": "電源；供電；液冷；散熱；伺服器；資料中心；設備；零組件",
+          "en": "Power; cooling; servers; data centers; equipment; components"
+        },
+        "chain": {
+          "zh": "電源零組件與液冷 CDU 至伺服器機櫃及資料中心供電",
+          "en": "Power components and CDUs through server racks and data-center distribution"
+        },
+        "changes": {
+          "investment": {
+            "zh": "公司確認擴充台灣、越南與北美布局，未在新報導披露核准金額。",
+            "en": "The company describes expansion across Taiwan, Vietnam and North America without a new approved amount in this report."
+          },
+          "demand": {
+            "zh": "官方第三季確認 120kW CDU 已出貨；800VDC 量產與 2027 年營收占比均屬預估。",
+            "en": "120kW CDU Q3 shipments are company-reported; 800VDC volume production and 2027 revenue mix remain forecasts."
+          },
+          "fdi": {
+            "zh": "未公布新境外直接投資金額。",
+            "en": "No new FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高功率電源與液冷設備是 AI 伺服器及資料中心機櫃的系統元件。",
+            "en": "High-power conversion and CDU cooling are infrastructure components in AI servers and racks."
+          },
+          "timing": {
+            "zh": "11 月 15 日新報導補充量產時程，官方相關問答屬較早公布的第三季資料。",
+            "en": "A November 15 report updated the production outlook; the official company FAQ belongs to the earlier Q3 disclosure."
+          },
+          "unknowns": {
+            "zh": "2028 年訂單能見度及確切量產日期目前只有媒體報導，未見公司公開確認的數量。",
+            "en": "2028 order visibility and precise volume-production timing are media-reported without publicly confirmed units."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "已出貨 CDU 額定功率",
+            "en": "Shipped CDU power rating"
+          },
+          "current": 120,
+          "unit": "kW",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "光寶科",
+            "en": "Lite-On"
+          },
+          "sourceUrl": "https://www.liteon.com/zh-tw/download/investor-conference",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布相同口徑的精確基期，不反推。"
+        },
+        {
+          "name": {
+            "zh": "設計中 CDU 額定功率",
+            "en": "CDU under-design rating"
+          },
+          "current": 220,
+          "unit": "kW",
+          "period": {
+            "zh": "2026 年第三季問答",
+            "en": "Q3 2026 investor FAQ"
+          },
+          "owner": {
+            "zh": "光寶科",
+            "en": "Lite-On"
+          },
+          "sourceUrl": "https://www.liteon.com/zh-tw/download/investor-conference",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布相同口徑的精確基期，不反推。"
+        },
+        {
+          "name": {
+            "zh": "預計 2027 年 AI 營收占比下限",
+            "en": "Forecast minimum AI revenue share in 2027"
+          },
+          "current": 0.4,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年預估",
+            "en": "2027 forecast"
+          },
+          "owner": {
+            "zh": "光寶科",
+            "en": "Lite-On"
+          },
+          "sourceUrl": "https://www.liteon.com/zh-tw/download/investor-conference",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公司官方文字為超過 40%，資料列示下限 40%，非精確預測值。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 AI 機櫃電源轉換、電氣量測與液冷控制供應商而言，應分別核對 120kW CDU 已出貨規格、220kW 設計狀態及 800VDC 客戶驗證時程。媒體提到的 2027 年底量產與 2028 年訂單能見度仍缺乏可核實的型號及採購台數，無法直接推估供應量。",
+        "en": "For suppliers of AI rack power conversion, electrical metrology and liquid-cooling controls, the shipped 120kW CDU, 220kW design-stage product and 800VDC qualifications require separate checks. Media-reported late-2027 mass production and 2028 order visibility lack verified model-level demand and quantities."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "taiwan-dram-module-inventory-divergence-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "記憶體模組業者說明 DRAM 留貨安排，宇瞻與創見第三季毛利率下滑",
+        "en": "Taiwan memory-module firms describe DRAM supply reservations amid lower Q3 margins"
+      },
+      "summary": {
+        "zh": "中央社 11 月 15 日彙整記憶體業財報與模組廠說法，宇瞻表示因 DRAM 供給優先轉向 AI 應用而預留部分貨源，預期 2027 年上半年模組端缺貨可能加劇。宇瞻第三季毛利率自第二季 51.25% 降至 40.08%，創見則由 77.03% 降至 56.5%；這些比率為此前公布的第三季實績，今日新增的是跨公司供貨安排與獲利差異的整理。",
+        "en": "CNA's November 15 report compared Taiwan memory companies and quoted Apacer's plan to hold back some DRAM supply as producers prioritize AI applications, with tighter module supply forecast for the first half of 2027. Apacer's Q3 gross margin fell from 51.25% to 40.08%, while Transcend's declined from 77.03% to 56.5%; the margins were previously disclosed results, with the cross-company supply outlook newly reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與供貨結構",
+            "en": "Supply-chain and allocation background"
+          },
+          "text": {
+            "zh": "DRAM 晶圓供給涵蓋 AI 記憶體、標準型 DRAM 與模組廠採購；模組業者須同時考量原料採購成本、低價庫存耗用及向終端客戶的售價。宇瞻將部分庫存保留給明年上半年需求，屬公司說法，不代表所有記憶體模組廠採取相同安排。",
+            "en": "DRAM wafer supply feeds AI-oriented memory, commodity DRAM and module makers. Module margins depend on acquisition costs, consumption of lower-priced inventory and sales prices. Apacer's supply reservation is company-attributed and does not establish identical policies across the sector."
+          }
+        },
+        {
+          "label": {
+            "zh": "已揭露財報比較",
+            "en": "Reported financial comparisons"
+          },
+          "text": {
+            "zh": "中央社列示宇瞻第三季毛利率為 40.08%，第二季 51.25%；創見第三季 56.5%，第二季 77.03%。這些是兩家公司的不同成本與產品組合，不能用跨公司毛利率排名推定製程產能或記憶體報價。南亞科、華邦電及旺宏的第三季表現也須與模組廠分開觀察。",
+            "en": "CNA reported Apacer's Q3 gross margin at 40.08% versus 51.25% in Q2, and Transcend's at 56.5% versus 77.03%. Different procurement, inventory and product mixes prevent these company margins from serving as memory-price or manufacturing-capacity indicators."
+          }
+        },
+        {
+          "label": {
+            "zh": "供應預期與限制",
+            "en": "Company supply outlook and limits"
+          },
+          "text": {
+            "zh": "宇瞻認為 2027 年上半年 DRAM 供給可能比今年緊張，NAND Flash 因新增應用有限而較緩和；這些是業者對供需的判斷。今天未發布新的 DRAM 晶圓月產能、實際配貨量或一致可比的模組訂單缺口。",
+            "en": "Apacer expects DRAM availability to tighten further in the first half of 2027, while module makers describe NAND Flash supply-demand conditions as comparatively balanced. These are company assessments; no new monthly wafer capacity, allocated volumes or comparable shortage figures were disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "宇瞻預留的 DRAM 具體數量、記憶體原廠合約價格、各類模組庫存成本、2027 年實際配貨及 NAND 訂單明細均未公開。",
+            "en": "Apacer's reserved DRAM units, contract prices, inventory costs, 2027 allocations and NAND order details remain unreported."
+          }
+        }
+      ],
+      "metric": "40.08%",
+      "metricLabel": {
+        "zh": "宇瞻第三季毛利率",
+        "en": "Apacer Q3 gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 15 日記憶體模組供貨與財報比較",
+            "en": "CNA · November 15 memory module supply and earnings comparison"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611150073.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-15",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "DRAM；NAND；記憶體；SSD；晶圓；伺服器；PC；終端",
+          "en": "DRAM; NAND; memory; SSD; wafer fabrication; servers; PCs; end-use systems"
+        },
+        "chain": {
+          "zh": "記憶體晶圓供應至 DRAM 模組、SSD 及終端產品",
+          "en": "Memory wafer supply through DRAM modules, SSDs and end-use systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未披露新資本支出。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "宇瞻表示保留部分 DRAM 貨源供未來銷售；2027 年缺貨是公司預期。",
+            "en": "Apacer reported reserving some DRAM supply for future sales; 2027 shortages remain its outlook."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "原廠供貨優先順序與模組廠庫存成本影響不同環節的獲利呈現。",
+            "en": "Memory suppliers' allocation and module makers' inventory costs are separate supply-chain variables."
+          },
+          "timing": {
+            "zh": "11 月 15 日報導整理此前第三季實績及業者對 2027 年上半年的供貨說法。",
+            "en": "The November 15 report combines previously released Q3 actuals with company commentary about first-half 2027 supply."
+          },
+          "unknowns": {
+            "zh": "未提供貨源保留數量、合約價格及明年缺口的獨立量化資料。",
+            "en": "Reserved units, contract prices and independent quantified 2027 shortfall data are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "宇瞻第三季毛利率",
+            "en": "Apacer Q3 gross margin"
+          },
+          "current": 0.4008,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "宇瞻，中央社轉述財報",
+            "en": "Apacer, financial results reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611150073.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.5125,
+          "basePeriod": "2026 年第二季",
+          "reportedRate": null,
+          "baseStatus": "中央社明列第二季 51.25%，第三季 40.08%。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對記憶體測試、精密電源與工業電腦供應商而言，應查核實際 DRAM 類型、客戶配貨及模組庫存成本，確認公司展望是否對應特定規格。毛利率下滑屬既有實績，無法直接推定特定晶圓廠產能或未來設備採購。",
+        "en": "Memory test, precision-power and industrial computer suppliers would need to verify DRAM types, customer allocations and inventory costs by product. Previously reported gross-margin declines do not quantify fab capacity or future equipment purchases."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "tasa-jieyang-space-gpgpu-customer-samples",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：捷揚太空 GPGPU 已送國際客戶評估，先前在軌驗證獲官方證實",
+        "en": "Follow-up: Jieyang space GPGPU samples reach overseas evaluations after earlier in-orbit validation"
+      },
+      "summary": {
+        "zh": "中央社 11 月 15 日訪問捷揚航電及國家太空中心指出，雙方合作的 GPGPU 模組已送樣國際客戶評估，應用討論包含美國、歐洲、日本與新加坡。國家太空中心早在 2026 年 4 月已公告黑鳶 1 號搭載的模組在軌驗證成功，因此在軌成功屬既有成果；此次新增資訊是客戶洽詢、樣品驗證及熱真空測試細節，尚無已簽大量採購。",
+        "en": "In a November 15 interview, Jieyang Avionics and Taiwan's space agency told CNA that their space GPGPU module samples had been submitted for customer evaluation, with discussions spanning the US, Europe, Japan and Singapore. TASA had already announced successful in-orbit validation aboard the Black Kite-1 satellite in April 2026, so the new disclosure concerns customer qualification and testing detail rather than a new flight milestone."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產品與製程背景",
+            "en": "Product and supply-chain background"
+          },
+          "text": {
+            "zh": "GPGPU 模組以商用 GPU 晶片配合抗輻射、散熱及嵌入式控制設計，面向衛星影像辨識及資料處理。捷揚原有工業電腦與 ODM 經驗，模組製造涉及電子零組件、電源管理、熱真空與振動驗證。",
+            "en": "The GPGPU module combines a commercial GPU with radiation, thermal and embedded-system design for satellite image processing. Jieyang's industrial-computing and ODM background connects the module to electronics components, power management, thermal-vacuum testing and vibration qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "官方既有成果與新披露",
+            "en": "Earlier official outcome and new details"
+          },
+          "text": {
+            "zh": "國家太空中心在 2026 年 4 月公告，黑鳶 1 號衛星搭載的 GPGPU 已完成在軌驗證。中央社 11 月 15 日新報導指出模組事先載入 100 張影像供辨識，經在軌運算下傳與地面測試比對一致，測試前進行兩輪太空環境模擬；目前送樣客戶仍在進行規格評估。",
+            "en": "TASA's April release had already reported a successful Black Kite-1 GPGPU in-orbit demonstration. CNA's November 15 reporting adds that 100 images were preloaded for recognition, transmitted results matched ground comparisons, and two environmental qualification cycles preceded flight. Customer samples are still undergoing specification evaluation."
+          }
+        },
+        {
+          "label": {
+            "zh": "測試與商業化界線",
+            "en": "Qualification versus commercial deliveries"
+          },
+          "text": {
+            "zh": "團隊表示在軌驗證達技術成熟度第 9 級，熱真空、振動及輻射測試用於驗證衛星任務環境適應能力。模組已送交客戶不代表取得採購訂單，新聞也未列出正式出貨台數或客戶驗收報告。",
+            "en": "The team reports technology readiness level 9 after environmental and orbital validation, including thermal-vacuum, vibration and radiation-related work. Sending evaluation samples does not establish a purchase order, commercial shipment or acceptance certificate."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新客戶的公司名稱、訂單金額、送樣件數、量產良率及下一代模組的正式產品規格尚未公布。",
+            "en": "Customer identities, contract values, sample-unit counts, production yields and finalized next-generation specifications are undisclosed."
+          }
+        }
+      ],
+      "metric": "TRL 9",
+      "metricLabel": {
+        "zh": "團隊宣稱的技術成熟度",
+        "en": "Team-reported technology readiness level"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "國家太空中心 · 2026 年 4 月既有在軌驗證公告",
+            "en": "TASA · April 2026 earlier in-orbit validation release"
+          },
+          "url": "https://www.tasa.org.tw/zh-TW/announcements/detail/b64eb55d-b45b-4af4-925d-15a7a6ccf662",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 11 月 15 日捷揚與 TASA 客戶送樣訪談",
+            "en": "CNA · November 15 interviews on customer qualification"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611150026.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-15",
+        "countries": {
+          "zh": "台灣；美國；歐洲；日本；新加坡",
+          "en": "Taiwan; United States; Europe; Japan; Singapore"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；零組件；工業電腦；整機；電源；散熱；測試",
+          "en": "Chip design; semiconductors; components; rugged systems; power; cooling; test"
+        },
+        "chain": {
+          "zh": "GPU 晶片、工業電腦零組件至衛星運算模組與環境測試",
+          "en": "GPUs and industrial-computer components through satellite compute modules and environmental test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有新增工廠投資額。",
+            "en": "No new factory investment was disclosed."
+          },
+          "demand": {
+            "zh": "國際客戶送樣屬驗證階段，未確認大量出貨。",
+            "en": "Overseas samples are under evaluation; volume deliveries are unconfirmed."
+          },
+          "fdi": {
+            "zh": "沒有新增外資承諾。",
+            "en": "No new FDI commitments were reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "製程與量測相關的熱真空、振動及供電設計已完成原型驗證。",
+            "en": "Thermal-vacuum, vibration and power designs have undergone prototype qualification."
+          },
+          "timing": {
+            "zh": "在軌驗證已於 2026 年 4 月前公布，11 月 15 日首次報導送樣與測試細節。",
+            "en": "In-orbit validation was publicly announced by April 2026; sample and test details were reported November 15."
+          },
+          "unknowns": {
+            "zh": "客戶名單、送樣與商業出貨數量、單位價格及產線驗收尚未公布。",
+            "en": "Customer identities, sample and commercial unit counts, pricing and production acceptance are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "在軌辨識預載影像",
+            "en": "Preloaded images for orbit demonstration"
+          },
+          "current": 100,
+          "unit": "張",
+          "period": {
+            "zh": "已完成在軌測試，11 月 15 日披露",
+            "en": "Completed orbital test, disclosed Nov 15"
+          },
+          "owner": {
+            "zh": "國家太空中心及捷揚，中央社採訪",
+            "en": "TASA and Jieyang, interviewed by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611150026.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布相同口徑的精確基期，不反推。"
+        },
+        {
+          "name": {
+            "zh": "模擬環境驗證輪次",
+            "en": "Environmental qualification cycles"
+          },
+          "current": 2,
+          "unit": "輪",
+          "period": {
+            "zh": "發射前既有驗證，11 月 15 日披露",
+            "en": "Pre-launch validation, disclosed Nov 15"
+          },
+          "owner": {
+            "zh": "捷揚，中央社採訪",
+            "en": "Jieyang, interviewed by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611150026.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未公布相同口徑的精確基期，不反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對衛星運算模組電源、精密量測及熱真空測試設備供應商而言，在軌驗證與客戶送樣已各自達到不同測試階段。需進一步核對客戶驗證規格、熱循環與供電需求、實際量產設備及採購安排，現有樣品不能推定市場需求量。",
+        "en": "For satellite-module power, precision metrology and thermal-vacuum test suppliers, in-orbit validation and overseas sampling represent distinct qualification steps. Customer standards, thermal cycling, electrical requirements and production equipment remain unverified; sample submissions do not quantify orders."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "gemtek-2026-q3-optical-800g-16t-roadmap",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "正文第三季恢復獲利，800G 與 1.6T 光模組仍待量產",
+        "en": "Gemtek returns to Q3 profitability while 800G and 1.6T optics await volume shipments"
+      },
+      "summary": {
+        "zh": "DIGITIMES 11 月 14 日報導，正文科技第三季恢復單季獲利，並更新 AI 資料中心用高速光收發模組進度。公司所述 800G 與 1.6T 光模組預定第四季開始出貨，但高階新產品產線尚未量產，未公開具名客戶驗收、實際交付量與訂單價值；第三季財報本身已於 11 月 9 日公布。",
+        "en": "DIGITIMES reported on November 14 that Gemtek had returned to quarterly profitability while updating its high-speed optical transceiver program for AI data centers. The company targets initial Q4 shipments of 800G and 1.6T modules, but the new lines have not reached mass production and no accepted customer units or order value were supplied. The underlying Q3 financials had already been released on November 9."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "光通訊供應鏈",
+            "en": "Optical networking supply chain"
+          },
+          "text": {
+            "zh": "高速光模組用於資料中心交換器、伺服器與機房連接，涵蓋光學收發器、PCB、光電零組件與測試製程。正文表示低速光模組及資料中心網通設備已開始供貨，高速產品進度與現有設備出貨須分開看。",
+            "en": "High-speed optics support switches, servers and data-center connections using transceiver electronics, PCBs, optical components and testing. Gemtek's previously shipped lower-speed products and network equipment must be separated from its planned high-speed rollout."
+          }
+        },
+        {
+          "label": {
+            "zh": "已發布實績及新時間表",
+            "en": "Existing results and updated timeline"
+          },
+          "text": {
+            "zh": "正文第三季財報早於 11 月 9 日公告，11 月 14 日媒體報導其第三季營收約 48.5 億元、當季恢復獲利。DIGITIMES 另轉述高階 800G、1.6T 光模組第四季出貨規劃；此時間點是目標，尚無可核對的大量量產驗收數據。",
+            "en": "Gemtek's Q3 filing predates November 9, and November 14 reporting describes about NT$4.85 billion in revenue and a return to profitability. DIGITIMES separately reported a Q4 target for 800G and 1.6T module shipments, without verified volume-production acceptance."
+          }
+        },
+        {
+          "label": {
+            "zh": "營運口徑與限制",
+            "en": "Operating definitions and limitations"
+          },
+          "text": {
+            "zh": "營收包含既有網通產品，不能分解為 800G、1.6T 新產品已實現營收。公司所稱直供模式轉型與光模組規劃屬不同營運項目，缺乏按產品規格的訂單數量。",
+            "en": "Group revenue includes existing networking products and cannot be assigned to newly targeted 800G/1.6T optics. Direct-supply business changes and planned transceiver shipments are different operating measures without a product-level order breakdown."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "高速光模組的正式客戶驗證日期、量產能力、良率、交付量、產品別營收與標準認證資料未公布。",
+            "en": "Qualification dates, mass-production capacity, yields, shipments, product-specific sales and standards certifications for the high-speed modules were not disclosed."
+          }
+        }
+      ],
+      "metric": "800G / 1.6T",
+      "metricLabel": {
+        "zh": "規劃出貨的光模組等級",
+        "en": "Planned optical-transceiver speeds"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "DIGITIMES · 11 月 14 日正文光模組及財報追蹤",
+            "en": "DIGITIMES · November 14 Gemtek optical and earnings coverage"
+          },
+          "url": "https://www.digitimes.com/news/a20261112PD222.html",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-14",
+        "countries": {
+          "zh": "台灣；美國；越南",
+          "en": "Taiwan; United States; Vietnam"
+        },
+        "industries": {
+          "zh": "零組件；光通訊；設備；伺服器；資料中心；測試；PCB",
+          "en": "Components; optical networking; test; PCBs; servers; data centers"
+        },
+        "chain": {
+          "zh": "光收發零組件及 PCB 至伺服器機房光連接與測試",
+          "en": "Optical transceiver components and PCBs through data-center interconnect and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新量產設備核准支出。",
+            "en": "No new approved tool spending was disclosed."
+          },
+          "demand": {
+            "zh": "公司稱高速光模組第四季開始交貨屬預計時程，未公布已驗收件數。",
+            "en": "Q4 initial high-speed optics shipments are a company target without accepted units."
+          },
+          "fdi": {
+            "zh": "本次報導未公布新增 FDI。",
+            "en": "No new FDI amount was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "800G 與 1.6T 光收發器涉及資料中心交換器、伺服器及光電測試製程。",
+            "en": "800G and 1.6T optics connect data-center switches, servers and optical-electrical test processes."
+          },
+          "timing": {
+            "zh": "11 月 14 日媒體新報導，第三季財報在 11 月 9 日已公布。",
+            "en": "New November 14 industry reporting; the underlying Q3 financial filing was released November 9."
+          },
+          "unknowns": {
+            "zh": "量產認證、實際出貨量、客戶名單及產品營收分項尚未公布。",
+            "en": "Volume-production acceptance, shipment units, customers and product revenue remain unknown."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對光學測試、電源模組及精密量測設備供應商而言，應區分已交付的低速網通產品與尚待驗收的 800G、1.6T 量產計畫。需取得具名客戶、收發器介面、測試設備及交貨量資料，季度總營收不足以推估高速產品設備需求。",
+        "en": "For optical testing, power modules and precision metrology suppliers, the existing low-speed shipments and planned 800G/1.6T rollout are different product stages. Named customers, interfaces, qualified test tools and shipment volumes are needed; consolidated quarterly sales do not quantify high-speed equipment demand."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "800VDC 樣機出貨與量產有何差別？",
+        "en": "How do 800VDC prototype shipments differ from volume production?"
+      },
+      "text": {
+        "zh": "光寶科官方問答說明 2026 年第四季預計送出樣機，客戶仍須完成電氣規格和系統驗證；2027 年底大量生產時間來自 11/15 媒體報導，尚無公開的量產驗收數據。",
+        "en": "Lite-On's investor FAQ targets Q4 2026 prototype deliveries, while electrical and system qualification remain. Late-2027 volume production comes from November 15 media reporting, without verified mass-production acceptance."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "宇瞻毛利率下滑能代表 DRAM 全市場報價嗎？",
+        "en": "Can Apacer's falling margin establish market-wide DRAM prices?"
+      },
+      "text": {
+        "zh": "不能。毛利率受到進貨成本、庫存結構、產品售價與銷售組合影響。宇瞻的惜售是自身供貨安排，缺乏相同口徑的模組數量與全市場訂單比較。",
+        "en": "No. Margins reflect acquisition cost, inventory mix, pricing and product mix. Apacer's reservation policy is company-specific without consistent market-wide allocation or order data."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "衛星 GPGPU 是 11 月 15 日才完成在軌驗證嗎？",
+        "en": "Was the space GPGPU first validated in orbit on November 15?"
+      },
+      "text": {
+        "zh": "在軌成功已由 TASA 今年 4 月公告。11 月 15 日媒體首次補充海外送樣、熱真空測試和原型運算細節，商業客戶驗收及正式量產尚未確認。",
+        "en": "TASA announced in-orbit success in April. November 15 reporting added overseas sampling, thermal-vacuum tests and prototype operation details, but no commercial customer acceptance or production volume."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "新加坡資料中心法規的既有進度",
+        "en": "Singapore data-center regulation background"
+      },
+      "text": {
+        "zh": "新加坡《2026 年數位基礎設施法》已於 10 月 7 日通過國會、10 月 29 日獲總統御准，官方法規資料庫標示 11 月 10 日公布於法令增刊；法規設有 3MW 關鍵 IT 負載的資料中心範圍，施行日期仍依政府後續公告。因這些法定程序早於此次新聞期間，僅作背景。",
+        "en": "Singapore's Digital Infrastructure Act 2026 passed Parliament on October 7, received presidential assent on October 29 and is listed in the official statute database as published November 10. Its data-center definition starts at 3MW of critical IT load; commencement awaits ministerial notification. These older legal milestones are dated background only."
+      }
+    },
+    {
+      "title": {
+        "zh": "先前太空運算模組驗證",
+        "en": "Previous space-compute milestone"
+      },
+      "text": {
+        "zh": "TASA 今年 4 月已公告黑鳶 1 號搭載的 GPGPU 完成在軌驗證，11 月的新報導聚焦海外客戶送樣。",
+        "en": "TASA reported a successful Black Kite-1 GPGPU orbital demonstration in April; November's report adds overseas customer sampling."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考註記",
+      "en": "Reference note"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "先前公告與技術展示",
+        "en": "Older announcements and demonstrations"
+      },
+      "text": {
+        "zh": "鴻海科技日的封裝技術展示實際舉辦於 10 月 30 至 31 日，即使 11 月 15 日出現新的媒體介紹，仍缺乏足以確認新量產進度的公司公告，故未列入新事件。",
+        "en": "Foxconn's technology-day packaging demonstration occurred October 30–31. A November 15 media description provided no separately verified production milestone, so it was not republished as a new event."
+      }
+    },
+    {
+      "title": {
+        "zh": "來源仍受限制的跨境晶片報導",
+        "en": "Source-limited cross-border chip claims"
+      },
+      "text": {
+        "zh": "部分跨境 AI 晶片新聞包含未公開原始申報、未判決的指控及無法確認是否交貨的交易估計；缺乏獨立文件可核對的數字未納入本期事實新聞。",
+        "en": "Some cross-border AI-chip accounts contain unpublished declarations, unresolved allegations or transaction estimates without confirmed deliveries. Uncorroborated amounts were excluded from factual story coverage."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "光寶科 2027 年底量產及 2028 年訂單能見度為 11 月 15 日媒體報導，官方問答只確認樣機與 CDU 的不同進度。記憶體模組廠數據主要來自中央社比較性報導，財報數字此前已公布。捷揚模組在軌驗證早在 4 月完成公告，今日新披露的是國際送樣；正文高速光模組的出貨規劃尚缺原始客戶驗收文件。",
+    "en": "Late-2027 production timing and 2028 order visibility for Lite-On are media-reported; company disclosures confirm separate prototype and CDU milestones. Memory-module figures come from CNA's comparison of previously reported results. The space GPGPU's in-orbit success was already reported in April; the new disclosure concerns overseas samples. Gemtek's high-speed optics timetable lacks customer acceptance documents."
+  }
+}

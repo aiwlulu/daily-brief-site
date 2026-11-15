@@ -1,9 +1,9 @@
 {
   "weekStart": "2026-11-15",
-  "generatedAt": "2026-11-14T14:32:33.985Z",
+  "generatedAt": "2026-11-15T08:33:57.553Z",
   "throughline": {
-    "zh": "11 月 13 日台灣業者陸續披露先進封裝產線與廠區建設、伺服器財報、製程感測採購，以及工廠供電和工業電腦專案。",
-    "en": "Taiwanese firms disclosed advanced-packaging production and construction plans, server results, process-sensing purchases, factory power projects and rugged computing contracts on November 13."
+    "zh": "本週台灣先進封裝、伺服器與製程設備已公布合作及建廠計畫，新增記憶體模組供貨安排、機櫃電源驗證、光模組交付目標與衛星運算客戶送樣資訊。",
+    "en": "This week's Taiwan supply-chain disclosures span advanced packaging, servers and process equipment, now supplemented by DRAM allocation, rack-power qualification, optical shipment targets and satellite-compute sampling."
   },
   "highlights": [
     {
@@ -32,17 +32,25 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "伺服器營收與跨區產能規劃",
-        "en": "Server results and multi-region manufacturing"
+        "zh": "伺服器電源、光通訊及跨國產能規劃",
+        "en": "Server power, optical interconnects and manufacturing plans"
       },
       "summary": {
-        "zh": "技嘉公布第三季合併營收與前九月伺服器占比，並提及台灣、美國及馬來西亞擴廠計畫。公開資料沒有單獨列出新山新增機櫃產能。",
-        "en": "Gigabyte reported Q3 group revenue, a nine-month server sales mix and expansion plans across Taiwan, the United States and Malaysia. No additional Johor rack capacity was separately disclosed."
+        "zh": "技嘉公布伺服器財報及台灣、美國與馬來西亞擴廠規劃。光寶科 11 月 15 日新報導補充 800VDC 電源量產預測，正文則說明 800G、1.6T 光模組第四季出貨目標；官方已出貨與媒體轉述的未來時程分別呈現。",
+        "en": "Gigabyte reported server results and expansion plans in Taiwan, the US and Malaysia. New reporting described Lite-On's 800VDC production outlook and Gemtek's Q4 high-speed optical shipment target, distinguishing shipped products from future media-reported milestones."
       },
       "references": [
         {
           "date": "2026-11-15",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-16",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-16",
+          "storyId": 4
         }
       ]
     },
@@ -50,17 +58,21 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "半導體產值統計與未來預測",
-        "en": "Semiconductor output statistics and forecasts"
+        "zh": "半導體產值、DRAM 配貨及模組業者毛利",
+        "en": "Semiconductor output, DRAM allocation and module margins"
       },
       "summary": {
-        "zh": "台灣半導體產業協會發布工研院第三季產值統計，涵蓋晶圓代工、記憶體、封裝與測試。全年 9.762 兆元為研究機構預估，並非已實現營收。",
-        "en": "TSIA published ITRI's Q3 output data across foundries, memory, packaging and testing. The NT$9.762tn annual estimate is a forecast, not realized annual revenue."
+        "zh": "TSIA 此前發布工研院第三季半導體產值統計，全年數字仍為預測。中央社 11 月 15 日新增模組廠供貨安排與毛利率比較，宇瞻稱保留 DRAM 貨源供明年銷售，未提供實際保留量。",
+        "en": "TSIA previously published ITRI's semiconductor output data and annual forecasts. CNA's November 15 report added a comparison of module makers and Apacer's DRAM supply reservation policy without quantified allocations."
       },
       "references": [
         {
           "date": "2026-11-15",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-16",
+          "storyId": 2
         }
       ]
     },
@@ -90,12 +102,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "製造場址交易與強固型工業電腦",
-        "en": "Manufacturing property and rugged industrial computers"
+        "zh": "工業電腦、製造場址與衛星運算模組",
+        "en": "Industrial systems, manufacturing sites and satellite compute"
       },
       "summary": {
-        "zh": "華紙通過向元太出售觀音廠，交易價 27.8 億元，尚未揭露新增材料產能。神基另揭露兩筆歐美無人載具地面控制相關訂單，客戶與出貨數量未公布。",
-        "en": "Chung Hwa Pulp approved a NT$2.78bn Guanyin property sale to E Ink without a new materials-capacity figure. Getac also disclosed two US and European unmanned-system ground-control projects without customer names or unit commitments."
+        "zh": "華紙出售觀音廠予元太與神基強固型工業電腦專案均為前期已公告資訊。11 月 15 日捷揚航電及 TASA 新說明既有衛星 GPGPU 的海外送樣與環境測試細節，過去在軌驗證不重複當成新成果。",
+        "en": "Earlier stories covered E Ink's Guanyin site purchase and Getac's rugged computing projects. Jieyang and TASA added overseas sampling and environmental test detail for a space GPGPU on November 15; its earlier orbital validation is not presented as newly completed."
       },
       "references": [
         {
@@ -105,6 +117,10 @@
         {
           "date": "2026-11-15",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-16",
+          "storyId": 3
         }
       ]
     }
