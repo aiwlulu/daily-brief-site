@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-15",
-  "generatedAt": "2026-11-15T08:33:57.553Z",
+  "generatedAt": "2026-11-16T15:29:27.137Z",
   "throughline": {
-    "zh": "本週台灣先進封裝、伺服器與製程設備已公布合作及建廠計畫，新增記憶體模組供貨安排、機櫃電源驗證、光模組交付目標與衛星運算客戶送樣資訊。",
-    "en": "This week's Taiwan supply-chain disclosures span advanced packaging, servers and process equipment, now supplemented by DRAM allocation, rack-power qualification, optical shipment targets and satellite-compute sampling."
+    "zh": "本週台灣半導體與伺服器供應鏈公布先進封裝、機櫃供電、矽光子測試及廠房建設資訊；新投資統計、產線復工與廠區施工事件則分別揭示資金與營運狀態。",
+    "en": "This week's Taiwan disclosures span advanced packaging, rack power, photonics test and facility projects, alongside new investment statistics, a fab restart and a construction-site incident."
   },
   "highlights": [
     {
       "id": 1,
       "category": "taiwan",
       "title": {
-        "zh": "晶圓、先進封裝產線與廠區擴建",
-        "en": "Wafer and advanced-packaging production and facilities"
+        "zh": "先進封裝、晶圓製程設備與資安驗證",
+        "en": "Advanced packaging, wafer equipment and cybersecurity"
       },
       "summary": {
-        "zh": "精材與台積電簽訂先進封裝 oS 模組產能外包協議，首期量產規劃 2029 年。日月光路竹廠一期啟用、二期動土，千億元總投資與未來年營收均屬公司滿載後估計。",
-        "en": "Xintec signed an outsourcing agreement for TSMC's on-substrate packaging, targeting initial production in 2029. ASE opened Luzhu phase one and started phase two; investment and revenue figures refer to estimated full buildout."
+        "zh": "精材與台積電先前簽訂先進封裝 oS 產線外包協議，日月光路竹廠一期啟用、二期動土。11 月 16 日漢測新增與 ficonTEC 的矽光子測試合作，嘉晶公告復工出貨，數產署則公布 SEMI E187 設備資安交流。",
+        "en": "Xintec previously signed the CoWoS on-substrate outsourcing agreement and ASE reported Luzhu construction milestones. On November 16 Hermes expanded photonics test collaboration, Jiajing reported restarted shipments and Taiwan's digital agency summarized SEMI E187 outreach."
       },
       "references": [
         {
@@ -25,6 +25,18 @@
         {
           "date": "2026-11-15",
           "storyId": 2
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 8
         }
       ]
     },
@@ -32,12 +44,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "伺服器電源、光通訊及跨國產能規劃",
-        "en": "Server power, optical interconnects and manufacturing plans"
+        "zh": "伺服器電源、光互連與連接器供應鏈",
+        "en": "Server power, photonics and interconnects"
       },
       "summary": {
-        "zh": "技嘉公布伺服器財報及台灣、美國與馬來西亞擴廠規劃。光寶科 11 月 15 日新報導補充 800VDC 電源量產預測，正文則說明 800G、1.6T 光模組第四季出貨目標；官方已出貨與媒體轉述的未來時程分別呈現。",
-        "en": "Gigabyte reported server results and expansion plans in Taiwan, the US and Malaysia. New reporting described Lite-On's 800VDC production outlook and Gemtek's Q4 high-speed optical shipment target, distinguishing shipped products from future media-reported milestones."
+        "zh": "技嘉與光寶科前幾日公布伺服器營收及 800VDC 進度，正文另提供高速光模組出貨目標。11 月 16 日貝爾威勒披露高電流連接器財報及 800VDC、EBO 產品規劃，產品成熟度仍需個別核對。",
+        "en": "Gigabyte, Lite-On and Gemtek reported server sales, 800VDC development and optical delivery targets earlier in the week. Bellwether added November 16 results and interconnect roadmaps without product-specific accepted shipment totals."
       },
       "references": [
         {
@@ -51,6 +63,10 @@
         {
           "date": "2026-11-16",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 3
         }
       ]
     },
@@ -58,12 +74,12 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "半導體產值、DRAM 配貨及模組業者毛利",
-        "en": "Semiconductor output, DRAM allocation and module margins"
+        "zh": "半導體產值、DRAM 供應與工廠營運",
+        "en": "Semiconductor output, DRAM supply and factory operations"
       },
       "summary": {
-        "zh": "TSIA 此前發布工研院第三季半導體產值統計，全年數字仍為預測。中央社 11 月 15 日新增模組廠供貨安排與毛利率比較，宇瞻稱保留 DRAM 貨源供明年銷售，未提供實際保留量。",
-        "en": "TSIA previously published ITRI's semiconductor output data and annual forecasts. CNA's November 15 report added a comparison of module makers and Apacer's DRAM supply reservation policy without quantified allocations."
+        "zh": "工研院與模組廠此前披露半導體產值統計及 DRAM 配貨安排。11 月 16 日美光台中廠施工工區發生承攬商工安事故，停工限於該工區，未公告整座記憶體廠停產。",
+        "en": "ITRI and memory suppliers had published semiconductor-output data and DRAM allocation commentary. A November 16 fatal contractor accident at Micron halted the affected construction zone only, without an announced fab-wide shutdown."
       },
       "references": [
         {
@@ -73,6 +89,10 @@
         {
           "date": "2026-11-16",
           "storyId": 2
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 6
         }
       ]
     },
@@ -80,12 +100,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "製程化學感測與工廠電力管理",
-        "en": "Chemical sensing and factory power management"
+        "zh": "製程感測、儲能 PCS 與工廠供電",
+        "en": "Process sensors, PCS storage and factory power"
       },
       "summary": {
-        "zh": "Ainos 公布日月光新增 5,000 台化學感測設備採購；聚恆與燿華另啟動宜蘭廠 5.04MW 表後儲能建置。前者有簽訂採購合約，後者仍在工程階段，尚未公布運轉實績。",
-        "en": "Ainos announced an additional 5,000 chemical sensors ordered by ASE, while Juheng and Unitech began a 5.04MW battery project at a Yilan factory. The former is a procurement contract and the latter a construction project without operating data."
+        "zh": "日月光化學感測採購、燿華宜蘭廠表後儲能工程已在本週先前公布。熙特爾與 GE Vernova、SK On 於 11 月 16 日公告 PCS、LFP 電池與在地製造合作 MOU，尚未公布正式採購金額。",
+        "en": "ASE's chemical sensor purchase and Unitech's Yilan storage project were previously reported. Xitel's November 16 MOU with GE Vernova and SK On concerns PCS, LFP batteries and integration, without binding procurement values."
       },
       "references": [
         {
@@ -95,6 +115,10 @@
         {
           "date": "2026-11-15",
           "storyId": 6
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 7
         }
       ]
     },
@@ -102,12 +126,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "工業電腦、製造場址與衛星運算模組",
-        "en": "Industrial systems, manufacturing sites and satellite compute"
+        "zh": "海外供應鏈、資本流向與算力政策",
+        "en": "Cross-border supply chains, capital flows and compute policy"
       },
       "summary": {
-        "zh": "華紙出售觀音廠予元太與神基強固型工業電腦專案均為前期已公告資訊。11 月 15 日捷揚航電及 TASA 新說明既有衛星 GPGPU 的海外送樣與環境測試細節，過去在軌驗證不重複當成新成果。",
-        "en": "Earlier stories covered E Ink's Guanyin site purchase and Getac's rugged computing projects. Jieyang and TASA added overseas sampling and environmental test detail for a space GPGPU on November 15; its earlier orbital validation is not presented as newly completed."
+        "zh": "本週先前已發布元太觀音場址交易、神基工業電腦專案與衛星運算模組送樣。11 月 16 日經濟部發布前十月對台與對外投資統計，國科會公布算力池使用者及應用數，核准投資與實際機房容量分別標示。",
+        "en": "Earlier reports covered E Ink's site acquisition, Getac's industrial projects and satellite-compute samples. MOEA added January–October investment statistics and NSTC disclosed compute-pool users and applications on November 16, separating approved capital from installed compute."
       },
       "references": [
         {
@@ -121,6 +145,14 @@
         {
           "date": "2026-11-16",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-17",
+          "storyId": 4
         }
       ]
     }

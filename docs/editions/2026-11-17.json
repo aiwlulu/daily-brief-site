@@ -1,0 +1,1613 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-16T15:29:27.137Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、記憶體、伺服器供電及產業投資",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, memory, server power and investment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "11 月 16 日台灣公布電子零組件投資統計，漢測擴大矽光子設備合作，連接器廠公布高電流產品與財報，同日另有磊晶產線復工及記憶體廠施工事故資訊。",
+    "en": "On November 16 Taiwan released electronics investment data, Hermes expanded photonics-test collaboration, connector makers reported high-current products and earnings, and semiconductor fabs gave separate restart and construction-incident updates."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "前十月僑外來台投資核准額約 208.99 億美元、年增 127.5%；電子零組件業占 48.08%，含既有大型增資。",
+        "en": "Approved inbound investment through October reached about US$20.899bn, up 127.5%; electronics represented 48.08%, including earlier capital injections."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "漢測與德國 ficonTEC 擴大矽光子晶圓及晶粒測試合作，由新竹負責在台設備總裝、出廠驗收與安裝。",
+        "en": "Hermes and Germany's ficonTEC expanded photonics testing cooperation, with Hsinchu handling Taiwan assembly, factory acceptance and installation."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "貝爾威勒前九月營收 75.98 億元、年增約 135%，公布 800VDC 機櫃連接與 EBO 光互連產品方向。",
+        "en": "Bellwether reported NT$7.598bn in nine-month sales, up about 135%, and detailed its 800VDC and expanded-beam interconnect roadmap."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "嘉晶竹科火警影響區域完成分區復工並恢復出貨，公司仍未提供產能恢復率與各產線驗收數據。",
+        "en": "Jiajing resumed shipments after a phased restart of its fire-affected Hsinchu area, without quantified recovered throughput."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "美光台中廠承攬商施工事故造成一人罹難，公司已停工事故工區；尚無晶圓生產停擺證據。",
+        "en": "A fatal contractor accident at Micron's Taichung site halted work in the affected construction area; no fab-wide shutdown was established."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taiwan-moea-october-2026-fdi-overseas-investment-statistics",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "經濟部公布前十月僑外投資核准額 208.99 億美元，電子零組件業占 48.08%",
+        "en": "Taiwan reports US$20.899bn in approved inbound investment through October, 48.08% in electronic components"
+      },
+      "summary": {
+        "zh": "經濟部投審司 11 月 16 日發布今年前十月投資統計，中央社報導核准僑外來台投資約 208.99 億美元、年增 127.5%，其中電子零組件製造業為 100.47 億美元。同期核准及備查對外投資約 699.16 億美元、年增 105.14%，主要包含先前核准的台積電海外子公司增資；核准股本投資金額不能直接視為新廠已支付的設備支出。",
+        "en": "Taiwan's investment review authority released January–October figures on November 16. CNA reports US$20.899 billion in approved inbound investment, up 127.5% YoY, including US$10.047 billion in electronic-components manufacturing. Approved and recorded outbound investment reached about US$69.916 billion, up 105.14%, including earlier approvals for TSMC overseas capital injections; these are equity-investment approvals, not spending on accepted fab tools."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與統計範圍",
+            "en": "Supply-chain and statistical scope"
+          },
+          "text": {
+            "zh": "投審司資料涵蓋僑外來台、對外、陸資來台及對中國投資，這裡聚焦電子零組件和半導體資本流向。核准金額可能包括既有公司增資、貨幣債權轉股以及控股公司資金，無法直接換算成新產能或新設備採購。",
+            "en": "Investment approvals cover inbound foreign investment and Taiwan's outbound equity flows. Their amounts include capital injections, debt-to-equity conversions and holding-company financing, which cannot be equated with new wafer capacity or tool procurement."
+          }
+        },
+        {
+          "label": {
+            "zh": "核准的金額與比較基準",
+            "en": "Approved amounts and comparison bases"
+          },
+          "text": {
+            "zh": "中央社引述前十月核准僑外投資 1,878 件，金額 208.99 億美元，年增 127.50%；電子零組件製造業 100.47 億美元，占 48.08%。美光以債權增資台灣美光記憶體約 94.49 億美元，已屬統計構成的一部分，不能再次加總。",
+            "en": "CNA reports 1,878 approved inbound cases worth US$20.899 billion, up 127.50% YoY. Electronic-components manufacturing accounts for US$10.047 billion, or 48.08%. Micron's approximately US$9.449 billion debt-to-equity injection into Taiwan Micron Memory is already part of the total, not an additional amount."
+          }
+        },
+        {
+          "label": {
+            "zh": "對外投資與資本流向",
+            "en": "Outbound equity investment"
+          },
+          "text": {
+            "zh": "同期對外投資核准及備查 612 件、約 699.16 億美元。其中台積電對英屬維京群島子公司增資 300 億美元、對美國亞利桑那子公司增資 200 億美元，合計 500 億美元，屬已核准增資而非當日新建廠協議；南亞科 35 億美元及環球晶 10 億美元增資亦列其中。",
+            "en": "Approved or registered outbound investments comprised 612 cases worth about US$69.916 billion. Of this, earlier TSMC injections of US$30 billion into a BVI subsidiary and US$20 billion into its Arizona subsidiary total US$50 billion. Nanya Technology's US$3.5 billion and GlobalWafers' US$1 billion overseas capital injections are also included. These approvals are not new November 16 fab-construction contracts."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "核准股本投資後的實際匯款、工程驗收、設備訂單及工廠產能尚無同口徑資料；官方完整統計明細尚未逐欄取得。",
+            "en": "Comparable actual remittances, construction acceptance, equipment orders and manufacturing capacity are undisclosed; the underlying full official statistical table was not independently retrieved."
+          }
+        }
+      ],
+      "metric": "US$20.899B",
+      "metricLabel": {
+        "zh": "前十月核准僑外投資",
+        "en": "Jan–Oct approved inbound equity investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經濟部十月投審統計",
+            "en": "CNA · MOEA October investment statistics"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611160186.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 投審統計與大型增資案",
+            "en": "Economic Daily · Investment approvals and capital injections"
+          },
+          "url": "https://money.udn.com/money/story/10869/9882133",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣；美國；新加坡；英屬維京群島",
+          "en": "Taiwan; United States; Singapore; British Virgin Islands"
+        },
+        "industries": {
+          "zh": "記憶體；DRAM；晶圓；半導體；零組件；設備；投資；FDI；資金",
+          "en": "Memory; DRAM; semiconductor manufacturing; components; equipment; FDI; investment"
+        },
+        "chain": {
+          "zh": "記憶體和半導體公司股本投資至晶圓與電子零組件製造供應鏈",
+          "en": "Equity capital flows to semiconductor and component manufacturers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "1 至 10 月核准僑外投資 208.99 億美元；對外投資約 699.16 億美元。",
+            "en": "Jan–Oct approved inbound equity investment was US$20.899bn and outbound approvals roughly US$69.916bn."
+          },
+          "demand": {
+            "zh": "沒有可對應的新增晶圓月產能或設備出貨數據。",
+            "en": "No corresponding new wafer output or equipment deliveries were reported."
+          },
+          "fdi": {
+            "zh": "僑外投資年增 127.5%，電子零組件製造業占 48.08%，包含既有大型增資。",
+            "en": "Inbound approved investment rose 127.5% YoY; electronic components represented 48.08%, including earlier large capital injections."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "投資核准數字揭示公司股權與資金流向，尚非設備投資及建廠進度。",
+            "en": "Equity approvals show financial flows rather than equipment acquisition or fab completion."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "各項增資的實際匯款與廠房設備支出、核准後調整及完整統計口徑待核對。",
+            "en": "Actual remittances, equipment spending, post-approval changes and full statistical definitions remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "僑外來台投資核准額",
+            "en": "Approved inward foreign investment"
+          },
+          "current": 20.899262,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部投審司，中央社轉述",
+            "en": "MOEA investment review office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611160186.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.275,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "對外投資核准及備查額",
+            "en": "Approved or registered outbound investment"
+          },
+          "current": 69.916872,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部投審司，中央社轉述",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/10869/9882133",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.0514,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "電子零組件業核准僑外投資",
+            "en": "Electronic components share of inbound investment"
+          },
+          "current": 10.047,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部投審司，中央社轉述",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611160186.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "電子零組件業占核准僑外投資比重",
+            "en": "Electronic components share of inbound investment"
+          },
+          "current": 0.4808,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部投審司，中央社轉述",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611160186.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "台積電海外子公司增資核准合計",
+            "en": "TSMC approved overseas capital injections"
+          },
+          "current": 50,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年前十月累計已核准",
+            "en": "Approvals through Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部投審司，中央社轉述",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611160186.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程電源、晶圓設備及精密量測供應商而言，核准增資顯示資本流向，但其中有貨幣債權轉股及海外控股公司增資。後續須核對各廠實際建置、設備規格、採購預算及驗收里程碑，無法直接以核准投資額推算設備訂單。",
+        "en": "For suppliers of semiconductor process power, fab equipment and metrology, approved equity injections signal capital flows but include debt conversions and overseas holding companies. Actual fab construction, tool specifications, procurement and acceptance remain necessary before interpreting equipment demand."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "hermes-ficontec-silicon-photonics-test-local-assembly",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "漢測與德國 ficonTEC 擴大矽光子測試合作，新竹負責台灣設備總裝及驗收",
+        "en": "Hermes and ficonTEC expand photonics-test partnership, with Taiwan assembly and acceptance in Hsinchu"
+      },
+      "summary": {
+        "zh": "漢測與德國 ficonTEC 11 月 16 日宣布深化矽光子晶圓級與晶粒級測試設備合作，漢測新竹據點將負責在台灣的最終組裝、出廠驗收、系統整合及現場服務，ficonTEC 提供設計與製程技術支援。合作未公開採購金額、機台台數或客戶通過量產驗收的時程。",
+        "en": "Hermes Testing Solutions and Germany's ficonTEC announced an expanded November 16 partnership for wafer- and die-level silicon photonics testing. Hermes' Hsinchu operation will handle final assembly, factory acceptance testing, integration and installation in Taiwan, while ficonTEC supplies system design and process know-how. No contracted tool value, unit count or customer mass-production qualification date was disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與測試製程",
+            "en": "Photonics test supply-chain context"
+          },
+          "text": {
+            "zh": "矽光子與共同封裝光學 CPO 涉及晶圓製造、光電晶粒組裝、光學耦合、量測與封裝後驗證。漢測既有半導體晶圓測試與系統整合能力，ficonTEC 則具備光子自動化組裝及測試技術。",
+            "en": "Silicon photonics and co-packaged optics involve wafer fabrication, photonic die assembly, optical coupling, measurement and post-package test. Hermes has wafer-test and system-integration expertise, while ficonTEC provides automation for photonic assembly and testing."
+          }
+        },
+        {
+          "label": {
+            "zh": "雙方分工與設備交付",
+            "en": "Division of responsibility and tool delivery"
+          },
+          "text": {
+            "zh": "11 月 16 日兩家公司宣布的新分工包括漢測在新竹執行最終組裝、出廠驗收測試、設備安裝及現場工程服務，德商負責系統設計、製程與全球技術支援。此為設備服務與製造合作，尚未公告新增工廠產能數量。",
+            "en": "The announcement assigns final assembly, factory acceptance, site installation and engineering support in Taiwan to Hermes, and system design and global applications support to ficonTEC. It is an equipment-delivery collaboration without a quantified capacity addition."
+          }
+        },
+        {
+          "label": {
+            "zh": "驗證與未公開數字",
+            "en": "Qualification and undisclosed metrics"
+          },
+          "text": {
+            "zh": "兩家公司表示將視客戶需求與專案進度推進合作，沒有公開 wafer-level 或 die-level 機台型號、驗收數量、月交機能力或既定採購金額。業者對需求前景的描述屬其展望。",
+            "en": "Both partners say project scale will depend on customer demand. Neither identified wafer- or die-level tool models, acceptance counts, monthly assembly output or binding purchase values. Statements about future demand remain company outlooks."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "機台出貨與最終驗收台數、設備價格、合作投資額和具名客戶均未公開。",
+            "en": "Tool shipment and acceptance counts, pricing, investment totals and named customers remain undisclosed."
+          }
+        }
+      ],
+      "metric": "矽光子",
+      "metricLabel": {
+        "zh": "合作測試技術範圍",
+        "en": "Silicon photonics test scope"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 漢測 ficonTEC 合作公告",
+            "en": "CNA · Hermes-ficonTEC announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611160150.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 雙方合作與公司說明",
+            "en": "Liberty Times · Partnership and company statements"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5642748",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣；德國",
+          "en": "Taiwan; Germany"
+        },
+        "industries": {
+          "zh": "晶圓；先進封裝；測試；設備；零組件；伺服器；資料中心",
+          "en": "Wafers; advanced packaging; test; equipment; servers; data centers"
+        },
+        "chain": {
+          "zh": "晶圓及光電晶粒到 CPO 封裝、光學量測及設備驗收",
+          "en": "Wafer and photonic dies through CPO assembly, optics test and tool acceptance"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未披露新增設備資本支出或投資金額。",
+            "en": "No new tool capex or investment value was disclosed."
+          },
+          "demand": {
+            "zh": "客戶驗證與量產訂單數未公開。",
+            "en": "Customer qualification and production orders were not quantified."
+          },
+          "fdi": {
+            "zh": "雙方合作涉及德國設備技術與台灣本地交付，未公布新的股權型外資金額。",
+            "en": "German technology support and Taiwan assembly were described without a new equity FDI amount."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "設備在地總裝及驗收涉及 CPO 與矽光子測試製程。",
+            "en": "Local assembly and acceptance cover test processes for photonics and CPO."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "尚未公告機台型號、數量或量產客戶驗收。",
+            "en": "Tool models, quantities and production customer acceptances have not been announced."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對精密量測、光學測試、設備控制電源及封裝測試供應商而言，合作範圍包含出廠驗收與現場安裝。值得追問測試工站的電氣與光學規格、機台交付和客戶驗收數量，缺乏量化訂單前不宜推估需求。",
+        "en": "For precision metrology, optics testing and equipment power controls, the agreement includes factory acceptance and site installation. Test-station electrical and optical specifications, tool deliveries and customer acceptances are still required; no order volume can be inferred."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "bellwether-2026-q3-rack-power-interconnect-financials",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "貝爾威勒前九月營收 75.98 億元，公布 800VDC 機櫃連接器與光互連布局",
+        "en": "Bellwether reports NT$7.598bn nine-month revenue and details 800VDC rack interconnect products"
+      },
+      "summary": {
+        "zh": "連接器廠貝爾威勒 11 月 16 日業績發表會指出，2026 年前九月合併營收 75.98 億元、年增約 135%，歸母淨利約 22.36 億元。公司展示 12V 與 48V 高電流線組、匯流排連接和 800VDC 設計方向，也計畫擴充光模組及 EBO 光互連；後續技術規劃未揭露各產品已完成客戶驗收的數量。",
+        "en": "At its November 16 business briefing, connector manufacturer Bellwether reported NT$7.598 billion in nine-month consolidated revenue, up about 135% YoY, and attributable profit of roughly NT$2.236 billion. It detailed 12V/48V high-current cable assemblies, busbar connectivity and 800VDC development, alongside optics and expanded-beam connectors; these roadmaps lack product-level accepted shipment counts."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "機櫃供電與互連供應鏈",
+            "en": "Rack power and interconnect supply chain"
+          },
+          "text": {
+            "zh": "貝爾威勒產品涵蓋 BBC 電源線組、HPSU/CRPS 電源連接器、匯流排、光模組及主動式光纜，應用跨伺服器系統與資料中心。800VDC 與 EBO 光互連屬新架構產品規劃，不能直接用集團營收表示這些產品已量產。",
+            "en": "Bellwether supplies busbar and cable assemblies, PSU connectors, optical modules and active optical cables across server and data-center platforms. The 800VDC and expanded-beam optics roadmap is separate from consolidated recognized revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "第三季及前三季財務資訊",
+            "en": "Q3 and nine-month results"
+          },
+          "text": {
+            "zh": "鉅亨網根據 11 月 16 日業績發表會列出第三季營收 25.60 億元、毛利率 55.89%、營業利益 9.75 億元、稅後純益 7.60 億元。前九月營收 75.98 億元、毛利 41.44 億元、營業利益 29.19 億元、稅後純益 22.36 億元，依公司合併口徑並列。",
+            "en": "The November 16 briefing figures reported by Cnyes include Q3 sales of NT$2.560 billion, gross margin of 55.89%, operating profit of NT$0.975 billion and net profit of NT$0.760 billion. Nine-month revenue, gross profit, operating profit and net profit were NT$7.598 billion, NT$4.144 billion, NT$2.919 billion and NT$2.236 billion respectively."
+          }
+        },
+        {
+          "label": {
+            "zh": "新技術與驗證狀態",
+            "en": "New technology and validation status"
+          },
+          "text": {
+            "zh": "公司表示將拓展 800VDC 電源連接、EBO 擴束光、AOC 及模組化光互連。12V PIC PWR 連接器採用情況和 800VDC 仍待客戶完成的規格及認證不能混為一談；尚無分產品收入或已簽採購量。",
+            "en": "Management outlined 800VDC busbar connectivity and EBO/AOC optics. Adoption of an earlier 12V connector design and future customer qualification for 800VDC must be kept distinct; no revenue or contracted unit breakdown by product was published."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "800VDC 客戶驗收、EBO 正式規格與交付數、越南產線利用率及新技術獨立營收未公布。",
+            "en": "Customer acceptances for 800VDC, finalized EBO specifications, deliveries, Vietnam plant utilization and new-product revenue are not disclosed."
+          }
+        }
+      ],
+      "metric": "NT$7.598B",
+      "metricLabel": {
+        "zh": "前九月合併營收",
+        "en": "Nine-month consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 貝爾威勒法說與產品布局",
+            "en": "CNA · Bellwether briefing and roadmap"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611160212.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 第三季及前九月財務數據",
+            "en": "Cnyes · Q3 and nine-month financial results"
+          },
+          "url": "https://news.cnyes.com/news/id/6664157",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣；越南",
+          "en": "Taiwan; Vietnam"
+        },
+        "industries": {
+          "zh": "零組件；電源；供電；伺服器；散熱；資料中心；光通訊",
+          "en": "Components; power; servers; cooling; data centers; optical interconnects"
+        },
+        "chain": {
+          "zh": "電源連接線及匯流排至機櫃供電與光互連",
+          "en": "Power cables and busbars through rack power and optical interconnects"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增資本支出額。",
+            "en": "No additional capex figure was disclosed."
+          },
+          "demand": {
+            "zh": "前九月集團收入年增約 135%，800VDC 新產品仍屬技術布局。",
+            "en": "Nine-month group revenue rose about 135% YoY; 800VDC remains a technology roadmap."
+          },
+          "fdi": {
+            "zh": "未公布新的 FDI 案件金額。",
+            "en": "No new FDI transaction value was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "高電流連接器與高速光互連均為伺服器機櫃零組件。",
+            "en": "High-current and optical interconnects are components in server racks."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "新架構的已驗收規格、客戶訂單與分產品出貨量待公布。",
+            "en": "Accepted platform specifications, customer orders and product-level shipments remain unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季營收",
+            "en": "Q3 sales"
+          },
+          "current": 2.56,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.8002,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季營業利益",
+            "en": "Q3 operating profit"
+          },
+          "current": 0.975,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.9478,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 net profit"
+          },
+          "current": 0.76,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.956,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.5589,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月營收",
+            "en": "Nine-month revenue"
+          },
+          "current": 7.598,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.3477,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月毛利",
+            "en": "Nine-month gross profit"
+          },
+          "current": 4.144,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.46,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月營業利益",
+            "en": "Nine-month operating profit"
+          },
+          "current": 2.919,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.891,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月稅後淨利",
+            "en": "Nine-month net profit"
+          },
+          "current": 2.236,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 2.1817,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前九月毛利率",
+            "en": "Nine-month gross margin"
+          },
+          "current": 0.5453,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "First nine months 2026"
+          },
+          "owner": {
+            "zh": "貝爾威勒，鉅亨網轉述",
+            "en": "Bellwether, reported by Cnyes"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6664157",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機櫃高壓供電、精密電力測試及高速連接產品供應商而言，財務實績說明集團規模，仍需要 800VDC 的額定電流、耐壓測試、客戶採用與驗收數。EBO 光連接的產品規格與出貨尚不明確，無法從整體營收推算新產品貢獻。",
+        "en": "For rack high-voltage power, power metrology and high-speed connector suppliers, financial results show overall scale but not the rated current, dielectric tests or qualified shipments for 800VDC products. EBO optics specifications and deliveries remain unclear, so new-product revenue cannot be inferred."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "nstc-2026-ai-compute-pool-software-industry-progress",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國科會公布 GPU 算力池已服務 342 家資服業者、開發 307 項 AI 應用",
+        "en": "Taiwan NSTC reports GPU pool use by 342 IT firms and 307 AI models or applications"
+      },
+      "summary": {
+        "zh": "國科會 11 月 16 日第 24 次委員會議公布，數發部 GPU 算力池已協助 342 家資服業者使用，開發 307 個模型或應用；本土語料庫累積超過 64 億 Tokens，另核定投資 10 家 AI 及數位相關新創。這是政府所報的既有使用和投資核定成果，未披露已安裝 GPU 型號、數量與伺服器實際功耗。",
+        "en": "Taiwan's NSTC reported on November 16 that its digital-industry GPU compute pool had served 342 IT firms and supported 307 AI models or applications. Government materials also cite more than 6.4 billion local-language tokens and approvals covering 10 AI/digital startups. These are reported usage and financing figures, not GPU model counts, installed power or measured server capacity."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "算力與數位基礎設施",
+            "en": "Compute and digital infrastructure"
+          },
+          "text": {
+            "zh": "數發部把算力、資料、人才、行銷與資金列為五項政策工具，算力池提供軟體業者測試與開發 AI 模型的資源。數據為業者使用及應用開發量，未公布 GPU 伺服器台數、機房總 MW 或獨立客戶驗收紀錄。",
+            "en": "The digital ministry groups compute, data, talent, market access and finance as policy tools. Pool usage counts firms and developed applications, but does not quantify GPU-server racks, site MW or accepted physical infrastructure."
+          }
+        },
+        {
+          "label": {
+            "zh": "官方已公布成果",
+            "en": "Official reported results"
+          },
+          "text": {
+            "zh": "國科會公告 342 家資服業者使用算力池、開發 307 項 AI 模型或應用；政府機關提供語料來源逾 250 個，累積超過 64 億 Tokens。本次公布的基金與民間資金注資逾 5.7 億元，核定 10 家新創；成果與已實際支用款項、算力擴容計畫須分開。",
+            "en": "The NSTC announcement lists 342 IT-service users, 307 models or applications, contributions from over 250 government agencies and more than 6.4 billion tokens. It also cites over NT$570 million of government-linked and private funding for 10 approved startups, which is distinct from spending already disbursed."
+          }
+        },
+        {
+          "label": {
+            "zh": "政策階段與資料限制",
+            "en": "Policy stage and reporting limits"
+          },
+          "text": {
+            "zh": "當天另審議 2027 至 2030 年科技白皮書草案，包含半導體、主權 AI 與太空通訊等議題，尚屬草案。iThome 引述新增 GPU 的未來規劃，並非已建成的資料中心容量。",
+            "en": "The meeting also discussed a draft 2027–2030 science and technology white paper, covering semiconductors, sovereign AI and space communication. Separately reported prospective GPU expansion is a plan, not existing data-center capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "算力池 GPU 型號、配置數量、供電功率、運算利用率、資金實際支付及各使用者驗收尚未完整公布。",
+            "en": "GPU models, installed counts, electrical ratings, utilization, fund disbursements and individual-user acceptance remain undisclosed."
+          }
+        }
+      ],
+      "metric": "342",
+      "metricLabel": {
+        "zh": "GPU 算力池服務業者",
+        "en": "GPU pool participating firms"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "國科會 · 第 24 次委員會議公告",
+            "en": "NSTC · 24th council meeting announcement"
+          },
+          "url": "https://www.nstc.gov.tw/folksonomy/detail/27017634-1807-44b7-b299-d795dab6f372?l=ch",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "iThome · 算力及科技白皮書政策報導",
+            "en": "iThome · Compute and policy briefing"
+          },
+          "url": "https://www.ithome.com.tw/news/180547",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "資料中心；算力；GPU；伺服器；晶片設計；電源；投資；資金",
+          "en": "Data centers; compute; GPUs; servers; chip design; power; financing"
+        },
+        "chain": {
+          "zh": "GPU 伺服器及資料中心算力資源至軟體與工廠應用",
+          "en": "GPU servers and data-center compute to software and industrial end-use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "政府及民間資金對 10 家新創的核定投資超過 5.7 億元，非硬體建置預算。",
+            "en": "More than NT$570m in approved funding for 10 startups, not a hardware-buildout budget."
+          },
+          "demand": {
+            "zh": "已報告 342 家使用者及 307 項模型或應用，未報機櫃出貨。",
+            "en": "Reported 342 users and 307 models/applications without rack shipment data."
+          },
+          "fdi": {
+            "zh": "未公告新 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "算力使用成果與實體資料中心供電、散熱的已安裝規模須分開。",
+            "en": "Reported compute utilization is distinct from installed site power and cooling capacity."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "GPU 設備規格、功率與各應用的正式商用驗收尚未公開。",
+            "en": "GPU hardware specifications, electrical loads and commercial acceptance by application remain unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "GPU 算力池服務業者",
+            "en": "GPU pool users"
+          },
+          "current": 342,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 11 月 16 日公布",
+            "en": "Reported by Nov 16, 2026"
+          },
+          "owner": {
+            "zh": "數發部，國科會公告",
+            "en": "Digital ministry, reported by NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/27017634-1807-44b7-b299-d795dab6f372?l=ch",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "協助開發模型或應用",
+            "en": "AI models and applications"
+          },
+          "current": 307,
+          "unit": "項",
+          "period": {
+            "zh": "截至 2026 年 11 月 16 日公布",
+            "en": "Reported by Nov 16, 2026"
+          },
+          "owner": {
+            "zh": "數發部，國科會公告",
+            "en": "Digital ministry, reported by NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/27017634-1807-44b7-b299-d795dab6f372?l=ch",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "核定投資新創數",
+            "en": "Startups approved for investment"
+          },
+          "current": 10,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 11 月 16 日公布",
+            "en": "Reported by Nov 16, 2026"
+          },
+          "owner": {
+            "zh": "數發部，國科會公告",
+            "en": "Digital ministry, reported by NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/27017634-1807-44b7-b299-d795dab6f372?l=ch",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "核定相關投資總額下限",
+            "en": "Reported approved funding, lower bound"
+          },
+          "current": 0.57,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "截至 2026 年 11 月 16 日公布",
+            "en": "Reported by Nov 16, 2026"
+          },
+          "owner": {
+            "zh": "數發部，國科會公告",
+            "en": "Digital ministry, reported by NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/27017634-1807-44b7-b299-d795dab6f372?l=ch",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "官方文字為逾 5.7 億元，列示已知下限，不代表精確總額。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心供電、GPU 伺服器量測及工業控制設備供應商而言，國科會公布的業者使用和模型數量是應用成果。應核對實體 GPU 型號、部署機櫃與供電、散熱功率及採購來源，無法用模型數量推算設備需求。",
+        "en": "For data-center power, GPU server metrology and industrial controls suppliers, the reported users and models measure software adoption. Actual GPU types, deployed racks, power/cooling requirements and procurement records are needed before assessing equipment scale."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "epistar-epi-jiajing-fab-recovery-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：嘉晶新竹創新廠火警區域完成分區復工，4、5 吋磊晶恢復出貨",
+        "en": "Follow-up: Jiajing resumes shipments after partial Hsinchu epitaxy-plant fire"
+      },
+      "summary": {
+        "zh": "嘉晶 11 月 16 日公告，新竹科學園區創新廠於 10 月 28 日局部火警後，受影響區域已完成清理、安全測試與分區復工，產線陸續恢復正常出貨。公司表示透過跨廠產能調度維持交期，但尚未公布事故工站的正式產能恢復率與客戶逐項驗收。",
+        "en": "Jiajing said on November 16 that the affected section of its Hsinchu Science Park Innovation plant, damaged by a localized October 28 fire, had completed safety checks and phased restarts, with normal shipments resuming. The company said cross-plant scheduling helped maintain customer deliveries, but did not disclose a quantified recovery rate or line-by-line acceptance records."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "磊晶供應鏈與先前事故",
+            "en": "Epitaxy supply chain and earlier event"
+          },
+          "text": {
+            "zh": "創新廠 10 月 28 日發生局部火警，涉及 4、5 吋磊晶產線。磊晶材料可用於功率元件及其他半導體製造，但公司未公布受影響的個別客戶、產品規格及事故期間實際停機片數。",
+            "en": "The localized October 28 fire affected parts of the 4- and 5-inch epitaxial wafer operation. Epitaxy supplies semiconductor and power-device production, but affected customer names, product specifications and downtime wafer counts were not provided."
+          }
+        },
+        {
+          "label": {
+            "zh": "11 月 16 日復工狀態",
+            "en": "November 16 restart update"
+          },
+          "text": {
+            "zh": "公司表示主要生產環境與機台測試按原訂 1 至 2 週目標完成，受影響區域已分區復工並恢復出貨。這是已完成的運轉程序公告，不宜理解為所有產線稼動率已回到事故前。",
+            "en": "The company says environmental restoration and tool tests were completed within its targeted one- to two-week interval. The affected area has restarted and shipments resumed, but full utilization at all lines was not established."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "事故涉及的實際受損機台數、稼動率、逐客戶驗收與保險理賠金額尚未公布。",
+            "en": "Damaged tool counts, utilization, customer acceptance and insurance claims remain undisclosed."
+          }
+        }
+      ],
+      "metric": "恢復出貨",
+      "metricLabel": {
+        "zh": "產線復工進度",
+        "en": "Production restart status"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 嘉晶復工及出貨公告",
+            "en": "CNA · Jiajing restart announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611160152.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 4、5 吋產線範圍說明",
+            "en": "Cnyes · Four- and five-inch line scope"
+          },
+          "url": "https://m.cnyes.com/news/id/6663817",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "受影響生產廠址：台灣新竹科學園區嘉晶創新廠區，新聞稿未列出街道門牌。",
+        "en": "Affected production site: Jiajing Innovation plant, Hsinchu Science Park, Taiwan; no street address was given."
+      },
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；磊晶；材料；設備；電源；工廠；測試",
+          "en": "Wafers; epitaxy; materials; tools; power devices; factories; test"
+        },
+        "chain": {
+          "zh": "磊晶片及製程設備至功率元件與半導體製造",
+          "en": "Epitaxial wafers and tools to power devices and semiconductor manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布額外復工資本支出。",
+            "en": "No recovery capex was disclosed."
+          },
+          "demand": {
+            "zh": "恢復出貨已公告，但未公布增減的精確晶圓量。",
+            "en": "Shipment resumption is reported, without wafer-volume changes."
+          },
+          "fdi": {
+            "zh": "未涉及新 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "分區復工與正常出貨提供磊晶供應鏈新的營運狀態。",
+            "en": "Phased restart and renewed shipments provide a fresh operating milestone for epitaxy supply."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "每月恢復產量與客戶驗收結果未公開。",
+            "en": "Monthly recovery output and customer acceptance remain unavailable."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對半導體製程電源、磊晶量測與設備業者而言，工安後復工的重點在於受影響工站的重新認證與可持續產能。須確認設備復機測試、製程良率及出貨驗收，單憑恢復出貨公告無法推算完整產能。",
+        "en": "For process-power, epitaxy metrology and equipment suppliers, post-incident restart requires verifying requalification and sustainable throughput. Tool checks, yields and shipment acceptance are needed before interpreting full capacity."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "micron-taichung-construction-site-accident-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "美光台中廠承攬商工安事故致 1 人死亡，已停止事故工區施工",
+        "en": "Micron halts work in an affected Taichung construction area after fatal contractor incident"
+      },
+      "summary": {
+        "zh": "美光 11 月 16 日表示，台中廠區當天發生承攬商施工事故，造成一名作業人員死亡，已立即停止受影響工區的施工作業並配合主管機關調查。公司公告的停工範圍為施工工區，尚無證據顯示整座記憶體晶圓廠全面停產或可量化的晶片出貨延誤。",
+        "en": "Micron said a contractor died in an incident at its Taichung site on November 16, after which work in the affected construction area was suspended pending investigation. The announced restriction concerns the construction zone; no evidence was provided that the full memory fab stopped production or that chip shipments were delayed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "事故事實與工程範圍",
+            "en": "Incident facts and construction scope"
+          },
+          "text": {
+            "zh": "中央社引述消防單位指出，台中后里區后科路二段廠區施工時發生怪手翻覆事故，現場救援後確認一名承攬商人員罹難。美光聲明表示當下停止該工區施工並管制現場，事故原因尚待調查。",
+            "en": "CNA reports an excavator overturning during construction at the Houli site in Taichung, resulting in a contractor fatality. Micron said it stopped work in the specific area and secured the scene while authorities investigate."
+          }
+        },
+        {
+          "label": {
+            "zh": "記憶體製造供應鏈限制",
+            "en": "Memory production supply-chain limits"
+          },
+          "text": {
+            "zh": "美光在台灣製造記憶體晶片，但停工的施工區域與運轉中的 DRAM 產線須區分。公司未披露事故是否涉及既有產線、無塵室、關鍵設備或已排定的生產交貨。",
+            "en": "Micron manufactures memory in Taiwan, but the stopped construction area must be distinguished from active DRAM production lines. The firm did not identify any affected cleanrooms, production tools or scheduled shipments."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "主管機關事故認定、停工解除時程、施工專案延誤及對晶圓產量的影響均未公布。",
+            "en": "Official incident findings, restart timing, construction delays and wafer-output impacts have not been published."
+          }
+        }
+      ],
+      "metric": "1 人",
+      "metricLabel": {
+        "zh": "事故罹難人數",
+        "en": "Fatalities reported"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 美光施工工區工安事故",
+            "en": "CNA · Micron construction accident"
+          },
+          "url": "https://www.cna.com.tw/news/asoc/202611160158.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "太報 · 美光停工範圍及聲明",
+            "en": "TaiSounds · Micron work suspension statement"
+          },
+          "url": "https://www.taisounds.com/news/content/77/310089",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "事故地點：台灣台中市后里區后科路二段，美光台中廠內施工工區；未公布確切作業區編號。",
+        "en": "Incident location: construction work area inside Micron's Taichung site, Houke Road Section 2, Houli District, Taichung, Taiwan; the specific work-area number is unavailable."
+      },
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "DRAM；記憶體；晶圓；工廠；設備；投資",
+          "en": "DRAM; memory; wafers; factories; equipment; investment"
+        },
+        "chain": {
+          "zh": "記憶體晶圓廠施工與廠務工程，生產線影響待確認",
+          "en": "Memory fab construction and facilities; production-line effect unconfirmed"
+        },
+        "changes": {
+          "investment": {
+            "zh": "事故施工區域停工，未提供建設資本預算變更。",
+            "en": "The affected construction area stopped, with no capex revision reported."
+          },
+          "demand": {
+            "zh": "未公告晶圓產線停工或延後交貨。",
+            "en": "No wafer-production stoppage or delayed delivery was announced."
+          },
+          "fdi": {
+            "zh": "未涉及新增外資。",
+            "en": "No new FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "施工工區安全事故及復工時程可能涉及廠務工程，不能推定晶片產線已停工。",
+            "en": "The construction-site suspension concerns facilities work and does not establish a chip-production halt."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "事故調查與復工日期尚待主管機關及企業公布。",
+            "en": "Investigation results and construction restart dates remain unannounced."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "事故罹難人數",
+            "en": "Reported fatalities"
+          },
+          "current": 1,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 11 月 16 日",
+            "en": "November 16, 2026"
+          },
+          "owner": {
+            "zh": "美光及消防機關，中央社轉述",
+            "en": "Micron and fire authorities, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/asoc/202611160158.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對記憶體製程電源、無塵室廠務與測試設備供應商而言，需先區分受影響的施工工區與正常運作的晶圓製造設施。應等待主管機關調查和廠方公告工期與設備狀態，在沒有明確影響範圍前不應推估晶片供貨或設備採購變化。",
+        "en": "For memory process-power, cleanroom utilities and test-equipment suppliers, the affected construction zone must be separated from operating wafer lines. Regulatory findings and official schedule or tool-status updates are needed before inferring supply or equipment effects."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "xitel-ge-verneova-sk-on-energy-storage-mou-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "熙特爾與 GE Vernova、SK On 簽儲能合作備忘錄，規劃整合電力轉換及 LFP 電池",
+        "en": "Xitel signs storage cooperation MOU with GE Vernova and SK On for PCS and LFP integration"
+      },
+      "summary": {
+        "zh": "熙特爾 11 月 16 日表示，與美國 GE Vernova 及韓國 SK On 簽署合作備忘錄，規劃結合 GE Vernova 的電力轉換設備、SK On 的 LFP 電芯和熙特爾台灣子公司的儲能整合製造能力。三方提及台灣生產基地及美國、日本、加拿大等市場，但未公布具約束力的採購數量、裝置容量或確定投資額。",
+        "en": "Xitel announced on November 16 a memorandum of understanding with GE Vernova and SK On, combining GE's power conversion systems, SK On's LFP cells and Xitel's Taiwan system-integration manufacturing. The companies described a Taiwan manufacturing base and potential markets including the US, Japan and Canada, without binding procurement volumes, installed MW or committed investment figures."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電力與儲能供應鏈",
+            "en": "Power and storage supply-chain context"
+          },
+          "text": {
+            "zh": "大型儲能系統使用 PCS 電力轉換、LFP 電池模組、能源管理軟體與配電設備。熙特爾表示旗下辰熙精密在台中進行儲能系統模組整合，合作可串連國際電池及電力設備供應商；用途與資料中心電源規格仍需依個案驗證。",
+            "en": "Utility-scale storage combines PCS equipment, LFP battery modules, energy management and switchgear. Xitel's subsidiary AUROSI handles integration at its Taichung site; applicability to data centers and site-power architecture depends on individual project specifications."
+          }
+        },
+        {
+          "label": {
+            "zh": "合作事項與商業狀態",
+            "en": "MOU scope and commercial status"
+          },
+          "text": {
+            "zh": "11 月 16 日報導指出三方由 GE Vernova 提供 PCS、SK On 提供 LFP 電池，熙特爾負責系統整合與在地製造。MOU 代表合作意向，未報正式採購契約、交付批次、已驗收功率容量或資本支出。",
+            "en": "Reporting attributes PCS supply to GE Vernova, LFP cells and modules to SK On and system integration to Xitel. An MOU expresses cooperation intent and is distinct from signed sales, delivery milestones, accepted MW or booked capex."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "協議履約條件、首案工地、電池容量、PCS 功率等級、資安認證與已簽營收均未公布。",
+            "en": "Binding terms, the first project site, battery energy capacity, PCS ratings, security certification and contracted revenue remain unknown."
+          }
+        }
+      ],
+      "metric": "合作備忘錄",
+      "metricLabel": {
+        "zh": "三方合作狀態",
+        "en": "Three-party MOU status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "科技新報 · 熙特爾與美韓業者儲能合作",
+            "en": "TechNews · Xitel international storage collaboration"
+          },
+          "url": "https://technews.tw/2026/11/16/xitel-partners-us-south-korean-energy-giants-expand-overseas-large-scale-energy-storage-market/",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 企業合作聲明轉述",
+            "en": "MoneyDJ · Reproduced company statements"
+          },
+          "url": "https://tw.stock.yahoo.com/news/%E7%86%99%E7%89%B9%E7%88%BE%E6%94%9C%E7%BE%8E%E9%9F%93%E5%A4%A7%E5%BB%A0-%E4%BB%A5%E4%B8%89%E6%96%B9%E5%84%AA%E5%8B%A2%E6%94%BBai%E9%9B%BB%E5%8A%9B%E5%9F%BA%E5%BB%BA%E5%95%86%E6%A9%9F-082700531.html",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣；美國；韓國；日本；加拿大",
+          "en": "Taiwan; United States; South Korea; Japan; Canada"
+        },
+        "industries": {
+          "zh": "電源；供電；儲能；電力；資料中心；工廠；零組件",
+          "en": "Power; electrical distribution; energy storage; data centers; factories; components"
+        },
+        "chain": {
+          "zh": "LFP 電池與 PCS 電源轉換至大型儲能與廠區配電",
+          "en": "LFP batteries and PCS conversion to storage systems and site power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未提供新的核准或承諾投資額。",
+            "en": "No approved or committed investment amount was supplied."
+          },
+          "demand": {
+            "zh": "三方簽署合作備忘錄，未公布已簽設備採購量。",
+            "en": "The three firms signed an MOU without contracted equipment quantities."
+          },
+          "fdi": {
+            "zh": "合作涉及跨境技術與市場布局，尚無可認列的新 FDI 數字。",
+            "en": "Cross-border technology cooperation was described without a quantifiable new equity FDI value."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電力轉換設備與電池模組整合是資料中心及工業儲能相關技術。",
+            "en": "PCS and battery integration are technologies used in data-center and industrial storage."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "首批設備規格、專案認證與確定交貨量未公開。",
+            "en": "First-project specifications, certification and binding deliveries are unavailable."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對高功率電源轉換、PCS 控制與工業精密量測設備供應商而言，三方 MOU 說明技術分工。仍須核對第一案場電力容量、PCS 效率、電池模組規格與正式採購驗收，合作意向不足以判斷實際設備量。",
+        "en": "For high-power conversion, PCS controls and industrial precision metrology suppliers, the MOU specifies technical roles. Site capacity, PCS performance, battery configuration and binding acceptance remain necessary; an MOU does not establish equipment volume."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "semie187-taiwan-europe-semiconductor-equipment-cybersecurity",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "數產署公布 SEMI E187 設備資安國際交流，赴德奧介紹台灣認驗證制度",
+        "en": "Taiwan promotes SEMI E187 equipment cybersecurity certification in Germany and Austria"
+      },
+      "summary": {
+        "zh": "數發部數產署 11 月 16 日公告，11 月 8 至 15 日赴德國與奧地利推廣 SEMI E187 半導體設備資安標準及認驗證機制，行程包含慕尼黑 SEMICON Europa 和維也納 SEMI 國際政策高峰會。官方稱與台灣設備材料業者及近 13 國政策、產業代表交流，未公布新增強制認證規定、設備採購合約或已核准的海外投資額。",
+        "en": "Taiwan's Administration for Digital Industries reported on November 16 a November 8–15 mission to Germany and Austria promoting the SEMI E187 semiconductor equipment cybersecurity standard and certification framework. The delegation attended SEMICON Europa in Munich and a policy summit in Vienna, with representatives from nearly 13 economies. No newly binding certification obligation, purchase contract or FDI commitment was announced."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "設備資安與供應鏈背景",
+            "en": "Equipment cybersecurity and supply-chain context"
+          },
+          "text": {
+            "zh": "SEMI E187 涉及半導體製造設備的資安要求，與廠內設備整合、製程控制系統及跨境供應鏈合規相關。數產署強調台灣推動的認驗證實務，但公告未宣稱所有歐洲晶圓廠已強制採用該標準。",
+            "en": "SEMI E187 addresses cybersecurity in semiconductor manufacturing equipment, touching factory automation, process controls and supplier assurance. The administration described Taiwan's certification approach without establishing that every European fab mandates it."
+          }
+        },
+        {
+          "label": {
+            "zh": "訪團活動與具體日期",
+            "en": "Delegation activities and dates"
+          },
+          "text": {
+            "zh": "官方資料列明 11 月 10 日在德國慕尼黑 SEMICON Europa 與設備材料業者交流，11 月 12 至 13 日轉赴奧地利維也納霍夫堡參與第五屆 SEMI 國際政策高峰會，13 日發表設備資安專題。11 月 16 日的新增訊息為官方彙整行程與合作說明。",
+            "en": "The official release describes discussions with Taiwan equipment and materials firms at Munich's SEMICON Europa on November 10, followed by the fifth SEMI policy summit at the Hofburg in Vienna on November 12–13, including an E187 presentation on the 13th. The November 16 release consolidates that completed mission."
+          }
+        },
+        {
+          "label": {
+            "zh": "監管與驗證限制",
+            "en": "Standards and regulatory limits"
+          },
+          "text": {
+            "zh": "數產署提到歐洲晶片法案及網路韌性法案等政策脈絡，但不同法規的適用對象與施行時點不同，不可認定設備已取得歐盟法定合規或訂單。",
+            "en": "The agency referred to European semiconductor and cyber-resilience policy, but applicability and effective dates vary. Participation does not constitute EU legal certification or an equipment purchase."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新增完成 SEMI E187 認證的設備數、客戶名單、跨境法規互認結果與訂單金額尚未公開。",
+            "en": "Newly certified tool counts, customer names, legal mutual recognition and contract values remain undisclosed."
+          }
+        }
+      ],
+      "metric": "SEMI E187",
+      "metricLabel": {
+        "zh": "設備資安標準",
+        "en": "Equipment cybersecurity standard"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "數位產業署 · 赴德奧推動 SEMI E187",
+            "en": "Administration for Digital Industries · SEMI E187 mission"
+          },
+          "url": "https://moda.gov.tw/ADI/news/latest-news/21452",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 半導體設備資安合作",
+            "en": "CNA · Semiconductor equipment cybersecurity cooperation"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611160276.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "活動場地：2026 年 11 月 10 日德國慕尼黑 SEMICON Europa；11 月 12 至 13 日奧地利維也納霍夫堡 SEMI 國際政策高峰會。",
+        "en": "Event venues: SEMICON Europa, Munich, Germany, November 10; SEMI international policy summit at Hofburg, Vienna, Austria, November 12–13, 2026."
+      },
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣；德國；奧地利；歐盟",
+          "en": "Taiwan; Germany; Austria; European Union"
+        },
+        "industries": {
+          "zh": "設備；晶圓；封裝；測試；工廠；自動化；政策；材料",
+          "en": "Equipment; wafers; packaging; test; factories; automation; policy; materials"
+        },
+        "chain": {
+          "zh": "半導體製程設備與控制系統的資安驗證至晶圓廠及封裝測試",
+          "en": "Equipment and control-system cybersecurity to wafer fabs and packaging/test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新企業投資額。",
+            "en": "No new company investment was disclosed."
+          },
+          "demand": {
+            "zh": "標準國際交流與認驗證推廣，未公開新增設備訂單。",
+            "en": "Standards cooperation and certification outreach without equipment orders."
+          },
+          "fdi": {
+            "zh": "未公告可量化 FDI。",
+            "en": "No quantified FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "設備資安認驗證涉及半導體工廠自動化與跨境供應鏈技術規範。",
+            "en": "Equipment cybersecurity certification touches fab automation and cross-border technical requirements."
+          },
+          "timing": {
+            "zh": "2026 年 11 月 16 日公布或首次報導，與先前發生的事件、計畫分開標示。",
+            "en": "Reported or newly disclosed November 16, 2026, with earlier underlying events and future plans labeled separately."
+          },
+          "unknowns": {
+            "zh": "實際互認、強制法規適用及新增認證設備數量未公布。",
+            "en": "Mutual recognition, mandatory applicability and certified equipment counts are unconfirmed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對半導體精密電源、設備量測與工廠控制系統供應商而言，SEMI E187 認驗證可能涉及設備軟硬體介面及安全測試流程。應核對各市場正式適用範圍、客戶要求與既有設備認證紀錄，單憑交流活動不能推論已成交設備或法規生效。",
+        "en": "For semiconductor precision-power, equipment metrology and factory control suppliers, E187 assurance can touch device interfaces and cybersecurity testing. Actual market applicability, customer requirements and tool certification records are still needed; conference engagement is not evidence of orders or enactment."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "外資核准額是否等於新設備投入？",
+        "en": "Does approved inbound investment equal equipment spending?"
+      },
+      "text": {
+        "zh": "核准股本投資可能包含貨幣債權轉股、控股公司增資及既有公司投資。仍需各廠實際匯款、採購及驗收資料，才能得知新設備支出。",
+        "en": "Approved equity investment may include debt conversions and holding-company funding. Actual remittances, tool orders and acceptance records are needed to identify equipment spending."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "漢測合作是否已取得量產機台訂單？",
+        "en": "Does the Hermes partnership establish volume tool orders?"
+      },
+      "text": {
+        "zh": "公司確定新竹的設備總裝、出廠驗收與整合分工，但未公告具名客戶、訂單金額或量產驗收機台數。",
+        "en": "The firms confirmed Hsinchu assembly and acceptance responsibilities but did not disclose named customers, contracted values or qualified production tool counts."
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "zh": "美光施工停工是否表示 DRAM 廠全部停產？",
+        "en": "Does Micron's construction halt mean DRAM production stopped?"
+      },
+      "text": {
+        "zh": "公告明確指向發生事故的施工工區，目前沒有可查證的全廠停產或晶片延遲交付資訊，事故原因仍待調查。",
+        "en": "The announcement covers the affected construction zone. No verified fab-wide production stop or delayed chip shipment has been reported; the incident remains under investigation."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "投資核准與已完成實績",
+        "en": "Investment approvals versus operating actuals"
+      },
+      "text": {
+        "zh": "經濟部前十月投資核准統計包含不同日期的既有增資；嘉晶復工及貝爾威勒財報則為各公司已報的營運狀態。兩類數字反映不同期間及定義，不能直接加總。",
+        "en": "MOEA's January–October approvals incorporate earlier capital injections; Jiajing's restart and Bellwether's earnings reflect reported operations. The measures cover different periods and definitions and cannot be combined."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考註記",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "舊聞延伸與市場推測",
+        "en": "Earlier news and market extrapolations"
+      },
+      "text": {
+        "zh": "精材先進封裝外包協議及日月光路竹廠投資已於 11 月 15 日日報刊登，11 月 16 日的股價與供應商受惠分析未新增可驗證的採購或產能資訊。",
+        "en": "Xintec's outsourcing agreement and ASE's Luzhu investment were covered in the November 15 edition. November 16 stock-price commentary did not add verified orders or capacity."
+      }
+    },
+    {
+      "title": {
+        "zh": "展覽重複報導",
+        "en": "Previously announced exhibitor lists"
+      },
+      "text": {
+        "zh": "華沙 TEEMA 11 月 17 至 18 日展期與主要參展名單已於 11 月 14 日公布，11 月 16 日的活動預告未提供足以視為新完成交貨的資料。",
+        "en": "TEEMA's November 17–18 Warsaw dates and exhibitor list were previously reported November 14. The later preview did not establish new deliveries."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "經濟部投資總額由中央社與經濟日報轉述，尚未逐欄取得投審司完整原始報表；貝爾威勒財務數字由法說媒體報導交叉比對。嘉晶復工為公司公告，尚無完整稼動率資料；美光施工停工範圍限事故工區。熙特爾三方合作為 MOU，未揭露正式採購額。",
+    "en": "Investment totals are sourced to CNA and Economic Daily reports of MOEA figures, without independently verifying the full original statistical table. Bellwether earnings come from briefing coverage. Jiajing's restart lacks utilization data, Micron's suspension covers only the affected construction zone, and Xitel's MOU contains no committed purchase value."
+  }
+}
