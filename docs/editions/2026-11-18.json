@@ -1,0 +1,1592 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-17T12:25:15.430Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、資料中心電力與儲存供應鏈",
+      "en": "Taiwan and Southeast Asian semiconductors, data-center power and storage supply chains"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "美國新規涉及東南亞高階晶片與資料中心算力流向，台灣企業同時公布測試設備產能、車用模組收購，以及 SC26 伺服器、儲存與液冷電源展示。",
+    "en": "New U.S. controls address advanced chips and overseas compute in Southeast Asia, while Taiwanese firms disclosed test capacity, a camera-module acquisition and SC26 server, storage and liquid-cooled power systems."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "美國 BIS 公布新高階晶片輸出及遠端算力管制，涵蓋星馬泰印等市場；公開稿的正式生效日尚待聯邦公報確認。",
+        "en": "BIS released advanced-chip and remote-compute controls naming Singapore, Malaysia, Thailand and Indonesia; the effective date remains unverified in the examined draft."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "鴻海擬以 72.41 億日圓收購 Sony 車載相機模組業務，2027 年 4 月前交割仍需主管機關核准。",
+        "en": "Foxconn agreed to pay an initial ¥7.241bn for Sony's automotive camera-module business, with April 2027 closing subject to approvals."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "旺矽規劃 2027 年底 MEMS 月產能達 600 萬針，Insertion 3 已送工程機給 3 家客戶，量產驗收尚未完成。",
+        "en": "WinWay targets six million MEMS probe needles per month by end-2027 and has sent Insertion 3 engineering systems to three customers, pending production acceptance."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "台積電公布 35 家年度優良供應商，涵蓋晶圓設備、建廠、材料與先進封裝；得獎並未揭露新增合約。",
+        "en": "TSMC named 35 excellent suppliers across tools, construction, materials and advanced packaging, without new contract values."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "神雲 SC26 展示 12 台伺服器、96 顆 GPU 的 52U 液冷機櫃，屬展覽配置，尚無具名客戶交付數據。",
+        "en": "MiTAC demonstrated a 52U liquid-cooled rack with 12 servers and 96 GPUs at SC26; customer delivery totals were not disclosed."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "us-advanced-chip-export-remote-compute-sea-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "美國 BIS 公布高階晶片輸出及遠端算力新規，涵蓋星馬泰印",
+        "en": "US BIS releases advanced-chip and remote-compute controls covering Singapore, Malaysia, Thailand and Indonesia"
+      },
+      "summary": {
+        "zh": "美國商務部工業暨安全局（BIS）11 月 16 日公布暫行最終規則，擬對輸往新加坡、馬來西亞、泰國、印尼及巴西的特定高階運算晶片增加許可要求，並限制特定海外資料中心向受管制實體提供大規模遠端算力。路透社 11 月 17 日報導星馬泰政府與業界的初步回應；公開規則稿的生效日欄位尚未填入聯邦公報刊登日期，不應自行認定全面生效時點。",
+        "en": "The U.S. Bureau of Industry and Security released an interim final rule on November 16 establishing licensing requirements for specified advanced-computing chips shipped to Singapore, Malaysia, Thailand, Indonesia and Brazil, together with controls on remote compute supplied by overseas data centers to covered entities. Reuters reported initial regional responses on November 17. The publicly available rule draft still contains a Federal Register effective-date placeholder, so its precise commencement cannot yet be confirmed from that draft."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與法規適用範圍",
+            "en": "Supply-chain and regulatory scope"
+          },
+          "text": {
+            "zh": "BIS 規則針對受《出口管理條例》管轄的特定高階晶片、伺服器及資料中心使用情境，將部分晶片輸往新加坡、馬來西亞、泰國、印尼與巴西列為許可對象。對最終收貨人或最終母公司位於美國的情況，規則草稿另列申報條件下的排除，並非所有區域資料中心均受相同限制。",
+            "en": "The BIS rule targets specified advanced chips, servers and data-center end uses under U.S. export regulations. It names Singapore, Malaysia, Thailand, Indonesia and Brazil for additional destination-based licensing, while describing a reporting-based exclusion for certain U.S.-headquartered end users. Not all regional data-center transactions are treated alike."
+          }
+        },
+        {
+          "label": {
+            "zh": "遠端存取與客戶查核",
+            "en": "Remote access and end-user verification"
+          },
+          "text": {
+            "zh": "新規另針對海外資料中心向特定受管制國家或澳門總部企業提供大量算力的情境，引入許可與客戶盡職調查要求。文件提及 1,200 萬 aggregate TPP 的相關計算門檻，並針對既有服務規定申請過渡程序及商業推薦系統例外。這是特定範圍的技術與用途規範，不能泛指所有雲端服務遭禁止。",
+            "en": "A separate end-use control addresses overseas data centers supplying significant compute to entities headquartered in certain restricted destinations or Macau, with diligence and license requirements. The draft describes a 12-million aggregate-TPP threshold, transitional applications for some existing services and an exception for commercial recommender systems. It does not amount to a blanket ban on cloud computing."
+          }
+        },
+        {
+          "label": {
+            "zh": "11 月 17 日區域回應",
+            "en": "November 17 regional responses"
+          },
+          "text": {
+            "zh": "路透社報導馬來西亞官員表示業者須遵守適用規範，新加坡主管機關正在與受影響企業及美方釐清涵蓋範圍。路透引述馬來西亞自 2021 年以來核准約 3,857 億令吉資料中心投資，該數字屬累計核准額，並非本次法規導致的取消或損失。",
+            "en": "Reuters reported Malaysia's position that companies must comply with applicable controls and Singapore's consultation with affected firms and U.S. authorities. The reported RM385.7 billion of Malaysian data-center approvals since 2021 is a cumulative approved-investment figure, not a cancellation attributed to this rule."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "公告所附規則版本尚未列聯邦公報正式刊登日，因此確切生效日期與各企業的許可結果待查。各資料中心實際受控晶片數量、申請件數、業務影響與客戶身分未公開。",
+            "en": "The examined draft does not supply a definitive Federal Register publication date. Exact commencement, company-level licensing decisions, affected chip counts, customer identities and operating effects remain unknown."
+          }
+        }
+      ],
+      "metric": "5",
+      "metricLabel": {
+        "zh": "新增目的地許可範圍內的國家",
+        "en": "Countries named for destination licensing"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "美國 BIS · 11 月 16 日官方新聞稿",
+            "en": "U.S. BIS · November 16 announcement"
+          },
+          "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology?ftag=MSF0951a18",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "美國 BIS · 暫行最終規則公開稿",
+            "en": "U.S. BIS · Public interim-final-rule draft"
+          },
+          "url": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf?_bhlid=2ec4d5a848ddb51a8b6c8965ed092555426056f2",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Reuters · 11 月 17 日東南亞業界及官方回應",
+            "en": "Reuters · November 17 regional responses"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/us-ai-chip-curbs-threaten-southeast-asia-data-centre-boom-shares-tumble-2026-11-17/",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "美國；新加坡；馬來西亞；泰國；印尼；巴西",
+          "en": "United States; Singapore; Malaysia; Thailand; Indonesia; Brazil"
+        },
+        "industries": {
+          "zh": "晶圓；半導體；伺服器；資料中心；算力；電源；投資；政策",
+          "en": "Semiconductors; servers; data centers; compute; power; investment policy"
+        },
+        "chain": {
+          "zh": "高階晶片與伺服器至資料中心及跨境遠端算力服務",
+          "en": "Advanced chips and servers through data-center deployment and cross-border remote compute"
+        },
+        "changes": {
+          "investment": {
+            "zh": "新規沒有直接核准或取消單一廠房投資案。",
+            "en": "The rule does not itself approve or cancel any named project."
+          },
+          "demand": {
+            "zh": "政府規範針對特定晶片與終端用途；尚無可量化的實際出貨變化。",
+            "en": "Controls cover defined chips and end uses; shipment effects have not been quantified."
+          },
+          "fdi": {
+            "zh": "既有資料中心投資核准額與新規效應須分開，未公布新增 FDI。",
+            "en": "Past approved data-center investment is separate from the rule's effects; no new FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "輸出許可、最終使用者查核與資料中心遠端算力用途涉及東南亞部署規範。",
+            "en": "Export licenses, end-user due diligence and remote-compute end uses affect Southeast Asian deployments."
+          },
+          "timing": {
+            "zh": "BIS 11 月 16 日公布文件；路透 11 月 17 日報導區域回應。",
+            "en": "BIS published its rule announcement November 16; Reuters reported regional responses November 17."
+          },
+          "unknowns": {
+            "zh": "正式生效日、涵蓋個別型號與核准件數尚不能從已查閱文件全部確認。",
+            "en": "The effective date, exact model applicability and actual license decisions have not been fully established."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "列入新目的地管制的國家",
+            "en": "Destinations named by the new control"
+          },
+          "current": 5,
+          "unit": "個國家",
+          "period": {
+            "zh": "2026 年 11 月 16 日公布",
+            "en": "November 16, 2026 announcement"
+          },
+          "owner": {
+            "zh": "美國商務部 BIS",
+            "en": "U.S. Bureau of Industry and Security"
+          },
+          "sourceUrl": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf?_bhlid=2ec4d5a848ddb51a8b6c8965ed092555426056f2",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換、伺服器測試與高階晶片設備供應商而言，需核對客戶所在地、最終母公司、晶片出口管制分類及遠端算力用途。正式生效日與個別許可仍未確定，不能從新聞推估已取消的機櫃訂單或設備需求。",
+        "en": "For data-center power-conversion, server-test and advanced-chip equipment suppliers, end-user headquarters, parent ownership, export classifications and remote-compute purpose require verification. The effective date and individual licensing outcomes remain unresolved, preventing inference of canceled rack orders or tool demand."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "foxconn-sony-automotive-camera-business-acquisition-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "鴻海簽約以 72.41 億日圓收購 Sony 車載相機模組業務，預計 2027 年 4 月前交割",
+        "en": "Foxconn agrees to acquire Sony's automotive camera-module business for ¥7.241bn, targeting April 2027 closing"
+      },
+      "summary": {
+        "zh": "鴻海 11 月 17 日公告，旗下 Rayprus Japan 擬以初始對價 72.41 億日圓收購 Sony Semiconductor Solutions 車載相機模組事業，中央社折算約新台幣 14.5 億元。交易涵蓋特定營運資產、技術與客戶關係，但部分海外生產設備及存貨不在目前交易範圍內，交割仍須完成主管機關核准及契約先決條件。",
+        "en": "Foxconn announced on November 17 that subsidiary Rayprus Japan agreed to acquire Sony Semiconductor Solutions' automotive camera-module business for an initial ¥7.241 billion, approximately NT$1.45 billion at CNA's reported conversion. The proposed sale covers identified operating assets, technology and customer relationships but excludes some overseas production equipment and inventory. Closing remains subject to regulatory approvals and contract conditions."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "車用電子與上下游",
+            "en": "Automotive electronics supply-chain context"
+          },
+          "text": {
+            "zh": "車載相機模組由影像感測晶片、光學鏡頭、封裝組裝、測試與電子控制整合，應用包含 ADAS 與車輛感知系統。此次交易是鴻海擬承接 Sony 旗下特定模組業務與客戶服務資源，與晶圓感測器製造業務的整體收購範圍不同。",
+            "en": "Automotive camera modules combine image sensors, optics, assembly, testing and electronic controls for vehicle perception and ADAS. The transaction is for a specified camera-module business and its customer-serving resources, not for Sony's entire image-sensor wafer operation."
+          }
+        },
+        {
+          "label": {
+            "zh": "交易金額與範圍",
+            "en": "Consideration and scope"
+          },
+          "text": {
+            "zh": "11 月 17 日公開訊息指初始交易金額 7,241,000,000 日圓，最終對價可能依合約條款調整。中央社報導目前金額不包含標的事業的部分海外生產設備與存貨，未來如追加購買將另行公告，因此不能以單一數字概括所有可能轉移資產。",
+            "en": "The publicly reported initial consideration is ¥7,241,000,000, subject to contractual adjustment. CNA says some overseas production equipment and inventory fall outside the present scope and would require separate disclosure if later acquired, so the price does not necessarily cover all potential future asset transfers."
+          }
+        },
+        {
+          "label": {
+            "zh": "交割時點與限制",
+            "en": "Completion conditions"
+          },
+          "text": {
+            "zh": "鴻海表示預計於 2027 年 4 月底前完成交割，取決於相關國家主管機關核准及合約先決條件。當前已簽署協議，尚未確認交易完成、設備轉移或新增產能。",
+            "en": "Foxconn targets closing before the end of April 2027, subject to government approvals and contractual conditions. The signed agreement is distinct from a completed transfer, qualified production or additional capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際交割日、調整後交易總價、各地產線設備清單、客戶訂單與驗收進度未公開。",
+            "en": "The closing date, adjusted price, site-level tool lists, customer orders and acceptance milestones remain undisclosed."
+          }
+        }
+      ],
+      "metric": "¥7.241B",
+      "metricLabel": {
+        "zh": "初始現金收購對價",
+        "en": "Initial cash consideration"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 17 日收購公告與資產範圍",
+            "en": "CNA · November 17 acquisition announcement"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611170273.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Reuters · 車載相機模組收購協議",
+            "en": "Reuters · Automotive camera acquisition agreement"
+          },
+          "url": "https://www.reuters.com/technology/foxconn-plans-acquire-sony-semiconductor-solutions-automotive-camera-module-2026-11-17/",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "晶片設計；零組件；封裝；測試；工廠；終端；投資",
+          "en": "Chip design; components; packaging; testing; factories; automotive end use; investment"
+        },
+        "chain": {
+          "zh": "影像感測晶片與光學零件至車載相機模組、組裝測試及汽車終端",
+          "en": "Image-sensor chips and optics through automotive camera-module assembly, test and end use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "初始收購對價 72.41 億日圓，尚待正式交割。",
+            "en": "Initial consideration is ¥7.241 billion, subject to closing."
+          },
+          "demand": {
+            "zh": "未公布新增模組出貨量或客戶採購量。",
+            "en": "No new module shipments or customer purchasing quantities were disclosed."
+          },
+          "fdi": {
+            "zh": "跨國業務資產移轉待核准，未另公布新廠 FDI 投資。",
+            "en": "Cross-border asset transfer requires approval; no separate new-fab FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "車載影像模組製造與測試、既有客戶關係及技術資產為交易標的。",
+            "en": "Automotive module manufacture, testing, customer relationships and technology assets are involved."
+          },
+          "timing": {
+            "zh": "11 月 17 日簽約，目標於 2027 年 4 月底前交割。",
+            "en": "Signed November 17, with closing targeted by April 2027."
+          },
+          "unknowns": {
+            "zh": "海外設備、存貨是否追加收購及後續產能安排仍未知。",
+            "en": "Additional offshore equipment and inventory purchases and future capacity plans are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "收購對價約當新台幣",
+            "en": "Approximate NT dollar equivalent of purchase price"
+          },
+          "current": 1.45,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 17 日交易初始對價",
+            "en": "November 17, 2026 initial consideration"
+          },
+          "owner": {
+            "zh": "中央社根據鴻海公告換算",
+            "en": "CNA conversion of Foxconn announcement"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170273.aspx",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "正式合約幣別為日圓 72.41 億，1.45 十億元為中央社報導的約當新台幣值，非契約計價。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對車載影像精密測試、工業電源與製造控制儀器供應商而言，仍需確認交易涵蓋的製程設備、海外工廠和交割後的合格供應商名單。合約金額不代表新機台採購，也尚不能推斷客戶交付規模。",
+        "en": "For automotive imaging test, industrial power and production-control suppliers, the equipment included in the transaction, offshore facilities and post-closing qualified vendor lists need verification. Acquisition consideration does not quantify new tool purchases or customer deliveries."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "winway-probe-card-cpo-expansion-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "旺矽規劃 MEMS 月產能由 350 萬針增至 600 萬針，CPO 工程機已交付 3 家客戶",
+        "en": "WinWay targets 6m MEMS probe needles per month in 2027, with CPO engineering tools sent to three customers"
+      },
+      "summary": {
+        "zh": "旺矽 11 月 16 日法說披露，預計 2026 年底 VPC、MEMS 月產能分別達 200 萬針與 350 萬針，2027 年底目標提高至 250 萬針與 600 萬針。Insertion 3 CPO 設備工程機已送交 3 家客戶，而 Insertion 2 的首家客戶驗證結果預計 12 月出爐；新增產能、量產訂單與 2027 年營收成長至少 50% 均屬公司規劃或預測。",
+        "en": "At its November 16 briefing, WinWay said it expects year-end 2026 monthly capacity of 2 million VPC and 3.5 million MEMS probe needles, targeting 2.5 million and 6 million respectively by end-2027. Insertion 3 CPO engineering tools have reached three customers, while the first Insertion 2 qualification outcome is expected in December. Capacity targets, production orders and guidance for at least 50% revenue growth in 2027 remain prospective."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "探針卡與 CPO 測試供應鏈",
+            "en": "Probe-card and CPO testing chain"
+          },
+          "text": {
+            "zh": "VPC、MEMS 探針卡用於半導體晶圓與晶粒的電性測試，CPO 設備則涉及光電零件組裝、光學對準與測試。不同產品的產能單位及客戶認證時間不可混合。",
+            "en": "VPC and MEMS probe cards serve electrical wafer and die tests, while CPO tools are used for photonic assembly, alignment and test. Probe-needle capacity and CPO equipment acceptance are separate measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "已披露產能與預測",
+            "en": "Capacity disclosures and future targets"
+          },
+          "text": {
+            "zh": "公司於 11 月 16 日法說提出 2026 年底 VPC 月產能 200 萬針、MEMS 350 萬針的目標，並預計 2027 年底分別達 250 萬與 600 萬針。當前數值為期末規劃，並未全部提供當日實際稼動或良率。",
+            "en": "Management cited planned year-end 2026 VPC capacity of 2.0 million and MEMS capacity of 3.5 million needles a month, with 2027 targets of 2.5 million and 6.0 million. These period-end targets do not establish actual utilization or yields on November 16."
+          }
+        },
+        {
+          "label": {
+            "zh": "客戶認證與設備交付",
+            "en": "Customer qualifications and tool shipments"
+          },
+          "text": {
+            "zh": "旺矽表示 Insertion 3 工程機已交予 3 家客戶，另有 3 家待交付；Insertion 2 預期 12 月取得首家客戶認證結果。兩款設備報導的單價約 100 萬美元，仍須逐件確認量產驗收、出貨與收入認列。",
+            "en": "WinWay said Insertion 3 engineering systems had been delivered to three customers and three more were planned. The first Insertion 2 customer qualification result is due in December. Reported unit pricing is approximately US$1 million, but qualified production deliveries and recognized sales are unverified."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "2027 年月產能實際上線日、探針良率、CPO 最終驗收台數與已簽量產採購合約仍未公開。",
+            "en": "Actual 2027 capacity commissioning, needle yield, CPO final acceptance counts and binding production orders have not been disclosed."
+          }
+        }
+      ],
+      "metric": "600 萬針",
+      "metricLabel": {
+        "zh": "2027 年底 MEMS 月產能目標",
+        "en": "End-2027 monthly MEMS needle capacity target"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟日報 · 11 月 16 日旺矽法說會",
+            "en": "Economic Daily · November 16 WinWay briefing"
+          },
+          "url": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 11 月 17 日探針及 CPO 進度追蹤",
+            "en": "MoneyDJ · November 17 probe and CPO follow-up"
+          },
+          "url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=0d313e7d-a681-4ea8-961f-0ccecb52fc30",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-16",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；晶圓；封裝；測試；基板；伺服器；光通訊；投資",
+          "en": "Equipment; wafers; packaging; testing; substrates; servers; optics; investment"
+        },
+        "chain": {
+          "zh": "晶圓與晶粒探針測試至 CPO 光電組裝驗證",
+          "en": "Wafer and die probing through CPO photonics assembly validation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "已提出產能擴充目標，未在法說披露全部已支付設備款項。",
+            "en": "Capacity expansion targets were outlined without complete paid-equipment spending."
+          },
+          "demand": {
+            "zh": "VPC、MEMS 月產能為規劃，3 家 CPO 工程機交付與正式量產須區分。",
+            "en": "VPC/MEMS figures are capacity plans; three engineering deliveries are distinct from accepted mass production."
+          },
+          "fdi": {
+            "zh": "沒有新增跨國股權投資額。",
+            "en": "No new cross-border equity investment value was stated."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "探針卡與 CPO 設備直接連接晶圓測試、先進封裝與光學測試流程。",
+            "en": "Probe cards and CPO tools connect wafer test, advanced packaging and optical qualification."
+          },
+          "timing": {
+            "zh": "11 月 16 日法說，11 月 17 日後續報導；2027 年底為計畫時點。",
+            "en": "November 16 briefing, followed by November 17 coverage; end-2027 is a target."
+          },
+          "unknowns": {
+            "zh": "實際月產出、客戶驗收及 CPO 正式訂單仍待查證。",
+            "en": "Actual output, customer acceptance and binding CPO orders remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2026 年底 VPC 月產能目標",
+            "en": "End-2026 monthly VPC target"
+          },
+          "current": 2000000,
+          "unit": "針",
+          "period": {
+            "zh": "2026 年底規劃",
+            "en": "End-2026 plan"
+          },
+          "owner": {
+            "zh": "旺矽管理層，經濟日報報導",
+            "en": "WinWay management, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "2026 年底 MEMS 月產能目標",
+            "en": "End-2026 monthly MEMS target"
+          },
+          "current": 3500000,
+          "unit": "針",
+          "period": {
+            "zh": "2026 年底規劃",
+            "en": "End-2026 plan"
+          },
+          "owner": {
+            "zh": "旺矽管理層，經濟日報報導",
+            "en": "WinWay management, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年底 VPC 月產能目標",
+            "en": "End-2027 monthly VPC target"
+          },
+          "current": 2500000,
+          "unit": "針",
+          "period": {
+            "zh": "2027 年底規劃",
+            "en": "End-2027 plan"
+          },
+          "owner": {
+            "zh": "旺矽管理層，經濟日報報導",
+            "en": "WinWay management, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年底 MEMS 月產能目標",
+            "en": "End-2027 monthly MEMS target"
+          },
+          "current": 6000000,
+          "unit": "針",
+          "period": {
+            "zh": "2027 年底規劃",
+            "en": "End-2027 plan"
+          },
+          "owner": {
+            "zh": "旺矽管理層，經濟日報報導",
+            "en": "WinWay management, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "Insertion 3 已送工程機客戶數",
+            "en": "Customers receiving Insertion 3 engineering tools"
+          },
+          "current": 3,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 16 日法說",
+            "en": "November 16, 2026 briefing"
+          },
+          "owner": {
+            "zh": "旺矽管理層，經濟日報報導",
+            "en": "WinWay management, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年營收成長預測下限",
+            "en": "Minimum 2027 revenue growth guidance"
+          },
+          "current": 0.5,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年全年預測",
+            "en": "Full-year 2027 outlook"
+          },
+          "owner": {
+            "zh": "旺矽管理層，經濟日報報導",
+            "en": "WinWay management, reported by Economic Daily"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9882076?from=edn_search_tag_result",
+          "kind": "預測",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.5,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓探針測試、CPO 光學量測與精密設備電源供應商而言，需區分產能擴張、工程機交付及客戶量產驗證三種進度。應核對各產品測試規格、良率與最終驗收，年度目標不能直接當成已確認的設備需求。",
+        "en": "For wafer probing, CPO optical measurement and precision equipment power suppliers, expansion targets, engineering-tool deliveries and production qualifications are separate milestones. Product specifications, yields and acceptance records remain necessary before treating guidance as equipment demand."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "tsmc-supply-chain-excellent-performance-awards-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台積電供應鏈管理論壇公布 35 家優良供應商，新增先進封測量產支援獎項",
+        "en": "TSMC names 35 top suppliers and adds advanced packaging production-support award"
+      },
+      "summary": {
+        "zh": "台積電 11 月 17 日舉辦 2026 年供應鏈管理論壇並發布 35 家優良供應商名單，涵蓋半導體設備、材料、晶圓廠建設、廠務、資訊服務及先進封測。官方列出矽品獲先進封測量產支援、漢唐獲全球化支援、萬潤獲量產支援等獎項；獲獎本身不代表新增採購訂單或供應商營收。",
+        "en": "TSMC held its 2026 Supply Chain Management Forum on November 17 and named 35 Excellent Performance Award recipients spanning equipment, materials, fab construction, facilities, IT and packaging. Its official list includes Siliconware for advanced packaging production support, United Integrated Services for globalization support and All Ring Tech for production support. Awards are not evidence of new purchase orders or supplier revenue."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與選拔範圍",
+            "en": "Supply-chain coverage and award criteria"
+          },
+          "text": {
+            "zh": "台積電公告名單包含 ASML、應用材料、愛德萬測試、東京威力科創及多家台灣設備、材料、工廠自動化與工程業者。今年評選更加重視建廠安全、永續、全球支援及在地化合作。",
+            "en": "Recipients include ASML, Applied Materials, Advantest, Tokyo Electron and Taiwanese suppliers covering equipment, materials, automation and fab construction. TSMC emphasized construction safety, sustainability, globalization support and localization."
+          }
+        },
+        {
+          "label": {
+            "zh": "具體名單與分類",
+            "en": "Named recipients and categories"
+          },
+          "text": {
+            "zh": "台積電官方公告矽品精密獲卓越先進封測量產支援、漢唐獲卓越全球化支援、萬潤獲卓越量產支援，和碩則獲卓越資訊服務。新聞媒體統計今年 35 家，較去年 30 家增加 5 家，但官方名單並未提供這些企業的個別設備出貨量。",
+            "en": "TSMC's release names Siliconware Precision Industries for advanced packaging support, United Integrated Services for globalization, All Ring Tech for production support and Pegatron for IT service. Media count 35 recipients versus 30 last year, but tool shipments by recipient were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各供應商因獲獎新增的合約金額、晶圓廠產能及個別交機驗收資料未公開；主辦新聞稿未列實際論壇場館。",
+            "en": "Contract values, fab-capacity changes and equipment acceptance associated with individual recipients are not disclosed. The organizer's release does not specify the forum venue."
+          }
+        }
+      ],
+      "metric": "35 家",
+      "metricLabel": {
+        "zh": "獲獎供應商數",
+        "en": "Recognized suppliers"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台積電 · 2026 年供應鏈管理論壇官方新聞稿",
+            "en": "TSMC · 2026 forum official release"
+          },
+          "url": "https://pr.tsmc.com/chinese/news/3355",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "台積電 · 英文獲獎名單",
+            "en": "TSMC · English awards list"
+          },
+          "url": "https://pr.tsmc.com/english/news/3355",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 供應商家數與去年比較",
+            "en": "MoneyDJ · Supplier count comparison"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=0c93a4b2-b324-46f0-bf16-06b993fa618b&c=MB070100",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "活動所在國：台灣。台積電官方公告未列論壇實際城市與會場，不以新聞稿發稿地代替會場。",
+        "en": "Event country: Taiwan. TSMC's announcement does not identify the forum city or venue; its press-release dateline is not treated as the event location."
+      },
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；日本；荷蘭；美國",
+          "en": "Taiwan; Japan; Netherlands; United States"
+        },
+        "industries": {
+          "zh": "材料；設備；零組件；晶圓；封裝；封測；測試；工廠；自動化；投資",
+          "en": "Materials; equipment; components; wafers; packaging; test; factories; automation; investment"
+        },
+        "chain": {
+          "zh": "半導體材料及製程設備至晶圓、先進封裝測試及廠務",
+          "en": "Semiconductor materials and tools through wafers, packaging, test and fab utilities"
+        },
+        "changes": {
+          "investment": {
+            "zh": "獲獎名單沒有對應新增核准投資金額。",
+            "en": "No new approved investment amount was attributed to the awards."
+          },
+          "demand": {
+            "zh": "供應商獲獎並未公布新增訂單或產能數值。",
+            "en": "The awards did not disclose incremental orders or capacity."
+          },
+          "fdi": {
+            "zh": "未公布與獲獎直接連結的新增 FDI。",
+            "en": "No new FDI linked directly to awards was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "名單呈現設備、材料、封裝及工廠安全各產業參與者，不能推定採購量。",
+            "en": "The list identifies equipment, materials, packaging and safety participants without order values."
+          },
+          "timing": {
+            "zh": "11 月 17 日舉辦論壇並公布 35 家供應商名單。",
+            "en": "Forum and award list were announced November 17."
+          },
+          "unknowns": {
+            "zh": "未提供供應商別量產、驗收或增購金額。",
+            "en": "Supplier-level shipments, acceptance and incremental purchases are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2026 年優良供應商獲獎家數",
+            "en": "2026 award recipients"
+          },
+          "current": 35,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 17 日",
+            "en": "November 17, 2026"
+          },
+          "owner": {
+            "zh": "台積電",
+            "en": "TSMC"
+          },
+          "sourceUrl": "https://pr.tsmc.com/chinese/news/3355",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": 30,
+          "basePeriod": "2025 年度",
+          "reportedRate": null,
+          "baseStatus": "去年 30 家為 MoneyDJ 比較數據，2026 年 35 家依台積電公告；未跨來源推算成長率。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓與封裝製程電源、精密量測及設備控制供應商而言，這份名單顯示台積電公開肯定的技術與現場支援範圍。應另核對供應商實際交貨、製程驗證和採購合約，獲獎名單本身不能用於推估收入。",
+        "en": "For fab and packaging power, precision metrology and equipment-control suppliers, the list identifies technologies and operational support TSMC recognized. Actual shipments, process qualifications and contracts must be checked separately; awards do not imply revenue."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "wpg-memory-distribution-q3-2026-supply-outlook",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "大聯大 11 月 17 日表示記憶體占營收逾半，2027 年供需成長仍屬公司預期",
+        "en": "WPG says memory exceeds half of sales and expects slower market growth in 2027"
+      },
+      "summary": {
+        "zh": "大聯大 11 月 17 日線上法說表示，記憶體產品目前占集團營收超過 50%，經銷產品涵蓋晶片、模組及 SSD，但尚未涉入 HBM。公司認為 2027 年記憶體市場可持續成長、增速可能較 2026 年放緩；第三季稅後淨利 103.9 億元、季增 20.5% 為先前已公布的財報實績，不能將預測視為已成交價格。",
+        "en": "At a November 17 online briefing, WPG said memory products now represent more than 50% of group revenue, spanning chips, modules and SSDs but not HBM. Management expects memory-market growth to continue at a slower rate in 2027. Previously reported Q3 net profit was NT$10.39 billion, up 20.5% QoQ; market commentary does not establish executed contract prices."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "通路與記憶體供應鏈",
+            "en": "Distribution and memory supply chain"
+          },
+          "text": {
+            "zh": "大聯大代理記憶體晶片、模組及 SSD，涉及 DRAM、NAND 與下游伺服器和終端系統。公司稱除一家主要原廠外，已涵蓋台美日多家記憶體供應商；HBM 尚未納入其營業項目。",
+            "en": "WPG distributes memory chips, modules and SSDs across DRAM, NAND, servers and downstream systems. It reports relationships with major suppliers in Taiwan, Japan and the United States, while stating it is not active in HBM."
+          }
+        },
+        {
+          "label": {
+            "zh": "財報與本次公司說法",
+            "en": "Reported earnings and current commentary"
+          },
+          "text": {
+            "zh": "第三季稅後淨利 103.9 億元，季增 20.5%、年增 226.9%；前三季稅後淨利 245.59 億元、年增 238.2%。這些是已發布的財務期間數字，11 月 17 日新增的是記憶體占比、供貨緊張原因及明年市場增長判斷。",
+            "en": "Q3 net profit was NT$10.39 billion, up 20.5% QoQ and 226.9% YoY; nine-month profit was NT$24.559 billion, up 238.2% YoY. These are previously disclosed financial periods. November 17 added management commentary on memory mix, supply constraints and next year's growth."
+          }
+        },
+        {
+          "label": {
+            "zh": "供需看法與限制",
+            "en": "Supply-and-demand statements"
+          },
+          "text": {
+            "zh": "公司提及主要記憶體製造商擴產，但設備交期與產能投產時程使短期供給調整受限。2027 年市場成長放緩屬管理層判斷，沒有具體同口徑位元供給量或合約價預測。",
+            "en": "Management cited fab expansion and equipment lead times as constraints on short-term memory availability. Slower 2027 growth is company outlook without a comparable bit-supply forecast or executed contract-pricing series."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "記憶體各品項營收、HBM 客戶代理安排、原廠配貨數量及已成交價格未公開。",
+            "en": "Revenue by memory type, possible HBM distribution plans, allocated units and executed prices remain undisclosed."
+          }
+        }
+      ],
+      "metric": ">50%",
+      "metricLabel": {
+        "zh": "記憶體產品占集團營收比重",
+        "en": "Memory share of group revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 大聯大 11 月 17 日法說報導",
+            "en": "CNA · November 17 WPG briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611170196.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；日本；美國",
+          "en": "Taiwan; Japan; United States"
+        },
+        "industries": {
+          "zh": "DRAM；NAND；記憶體；SSD；伺服器；零組件；終端",
+          "en": "DRAM; NAND; memory; SSD; servers; components; end-use systems"
+        },
+        "chain": {
+          "zh": "記憶體晶片至模組、SSD 通路及伺服器與終端應用",
+          "en": "Memory chips through modules, SSD distribution and server end use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公布新資本支出。",
+            "en": "No new capital expenditure was disclosed."
+          },
+          "demand": {
+            "zh": "管理層表示記憶體占營收過半及短期供給緊張，2027 年需求屬預測。",
+            "en": "Management reported over-half sales exposure to memory and current supply tightness; 2027 demand is forecast."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "通路產品組合與製造商增產時程分別影響供應與會計表現。",
+            "en": "Distributor mix and manufacturer production timetables are distinct supply-chain measures."
+          },
+          "timing": {
+            "zh": "11 月 17 日法說更新市場看法，第三季獲利屬此前公布的財報期間。",
+            "en": "Market commentary dated November 17; Q3 earnings were already reported earlier."
+          },
+          "unknowns": {
+            "zh": "具體供應商配貨、記憶體報價及 HBM 代理尚未確認。",
+            "en": "Supplier allocations, memory contract prices and HBM distribution remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季稅後淨利",
+            "en": "Q3 net profit"
+          },
+          "current": 10.39,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "大聯大，中央社報導",
+            "en": "WPG, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170196.aspx",
+          "kind": "公司實績",
+          "comparison": "QoQ",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.205,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季稅後淨利",
+            "en": "Nine-month net profit"
+          },
+          "current": 24.559,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "大聯大，中央社報導",
+            "en": "WPG, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170196.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 2.382,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "記憶體占集團營收比重下限",
+            "en": "Lower bound for memory sales mix"
+          },
+          "current": 0.5,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 17 日管理層說法",
+            "en": "November 17, 2026 management statement"
+          },
+          "owner": {
+            "zh": "大聯大管理層，中央社報導",
+            "en": "WPG management, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170196.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公司稱占比超過 50%，0.5 為明確下限，不是精確比重。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對記憶體測試、晶圓製程電源和工業終端設備供應商而言，需區分通路商營收占比與晶圓廠實際產能、設備交期。應查核原廠配貨和終端需求，通路淨利與 2027 年預測不足以代表設備訂單。",
+        "en": "For memory test, wafer process-power and industrial systems suppliers, distributor mix must be separated from fab capacity and tool lead times. Producer allocations and downstream orders remain necessary; distributor profit and forecasts do not establish equipment demand."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "mitac-sc26-liquid-cooling-server-rack-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "神雲 SC26 展示 52U 液冷機櫃整合 96 顆 GPU，另展示兩相液冷概念驗證",
+        "en": "MiTAC demonstrates 52U liquid-cooled rack with 96 GPUs and separate two-phase cooling PoC at SC26"
+      },
+      "summary": {
+        "zh": "神達控股子公司神雲科技 11 月 17 日在美國芝加哥 SC26 展示 52U 高密度 AI 液冷機櫃，配置 12 台 G4826Z5 伺服器及 96 顆 AMD MI355X GPU，並與 ZutaCore 展示無水兩相直接液冷概念驗證。公司另介紹規劃中的 44OU Helion 機櫃，所列處理器核心數為設計目標，未公布正式商業出貨或客戶驗收量。",
+        "en": "MiTAC Computing unveiled a 52U liquid-cooled AI rack at SC26 in Chicago on November 17, integrating 12 G4826Z5 servers and 96 AMD MI355X GPUs, alongside a separate two-phase direct-liquid-cooling proof of concept with ZutaCore. It also described a proposed 44OU Helion rack design; the projected core count is a design target, not accepted commercial shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "伺服器整機及供電散熱",
+            "en": "Server systems, power and cooling context"
+          },
+          "text": {
+            "zh": "52U 系統整合多台伺服器及 GPU，機櫃液冷與供電需要配合晶片熱功耗、管路、CDU 及電源分配。神雲發布的 12 台伺服器、96 顆 GPU 為展示配置，沒有附上對應的已交付客戶清單或額定機櫃輸入功率。",
+            "en": "The 52U rack integrates multiple servers and GPUs, with liquid cooling and power distribution designed around chip heat load, plumbing and CDU systems. The 12-server, 96-GPU configuration is a demonstration rather than a disclosed customer delivery or rack input-power rating."
+          }
+        },
+        {
+          "label": {
+            "zh": "現場展示與概念驗證",
+            "en": "Live demonstrations and PoC"
+          },
+          "text": {
+            "zh": "神雲與 ZutaCore 公布無水兩相直接液冷 PoC；廠商說明液體在晶片處汽化以搬運熱量，並提出 4,000W 以上散熱設計與 250W/cm² 熱通量的規格宣稱。這些屬設計或展示條件，仍需核對量測工況。",
+            "en": "MiTAC and ZutaCore presented a waterless two-phase direct-liquid-cooling PoC. The announcement cites thermal-design support above 4,000W and heat flux above 250W/cm² under its stated design approach, without enough measured operating conditions for independent system-level comparison."
+          }
+        },
+        {
+          "label": {
+            "zh": "未來機櫃規劃",
+            "en": "Future rack roadmap"
+          },
+          "text": {
+            "zh": "與 AMD 合作的 Helion ORv3 44OU 方案屬即將推出的設計，公告最多 32,768 個 Zen 6 CPU 核心為可擴充的架構目標；與現場 52U GPU 機櫃為不同產品。",
+            "en": "The AMD collaboration on a proposed ORv3 44OU Helion platform cites scalability to 32,768 Zen 6 CPU cores. This is a future architecture target and not the same as the demonstrated 52U GPU rack."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "液冷系統各工況實測、整櫃輸入功率、客戶量產驗收及已出貨機櫃數量尚未公開。",
+            "en": "Measured cooling operating conditions, rack input power, customer production acceptance and shipped rack counts are not disclosed."
+          }
+        }
+      ],
+      "metric": "96 GPUs",
+      "metricLabel": {
+        "zh": "SC26 展示機櫃 GPU 數量",
+        "en": "GPUs in demonstrated rack"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "神雲科技 · SC26 公司新聞稿",
+            "en": "MiTAC Computing · SC26 company announcement"
+          },
+          "url": "https://en.prnasia.com/releases/apac/mitac-computing-scales-agentic-ai-with-full-stack-infrastructure-at-sc26-556667.shtml",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "SC26 · 主辦單位展期與場館",
+            "en": "SC26 · Organizer exhibit dates and venue"
+          },
+          "url": "https://sc26.supercomputing.org/attendees/chicago/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展出場地：美國芝加哥 McCormick Place，神雲攤位 4615，展覽日期 11 月 17 至 19 日。",
+        "en": "Exhibition venue: McCormick Place, Chicago, United States, MiTAC booth 4615; exhibits November 17–19."
+      },
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "ODM；伺服器；整機；資料中心；算力；電源；液冷；散熱；測試",
+          "en": "ODM; servers; systems; data centers; compute; power; liquid cooling; testing"
+        },
+        "chain": {
+          "zh": "GPU 晶片與伺服器整機至機櫃供電、兩相液冷及資料中心",
+          "en": "GPUs and servers through rack power, two-phase cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新投資總額。",
+            "en": "No new investment total was disclosed."
+          },
+          "demand": {
+            "zh": "展會配置與概念驗證已發布，未提供已簽訂單或出貨量。",
+            "en": "Demonstrated configurations and PoC were announced without signed orders or delivery totals."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "已公開 GPU 伺服器與液冷系統的展示配置，量產驗收仍未知。",
+            "en": "Demonstration hardware is specified; production qualification remains unknown."
+          },
+          "timing": {
+            "zh": "11 月 17 日於 SC26 展出；44OU 平台仍為後續設計。",
+            "en": "Demonstrated November 17 at SC26; the 44OU platform remains a future design."
+          },
+          "unknowns": {
+            "zh": "實際整櫃功率、散熱效率基準與客戶交付資料尚未披露。",
+            "en": "Rack power, measured cooling baselines and customer deliveries remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "52U 展示機櫃搭載 GPU",
+            "en": "GPUs in 52U rack"
+          },
+          "current": 96,
+          "unit": "顆",
+          "period": {
+            "zh": "SC26 2026 展示",
+            "en": "SC26 2026 demonstration"
+          },
+          "owner": {
+            "zh": "神雲科技",
+            "en": "MiTAC Computing"
+          },
+          "sourceUrl": "https://en.prnasia.com/releases/apac/mitac-computing-scales-agentic-ai-with-full-stack-infrastructure-at-sc26-556667.shtml",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "52U 展示機櫃搭載伺服器",
+            "en": "Servers in 52U rack"
+          },
+          "current": 12,
+          "unit": "台",
+          "period": {
+            "zh": "SC26 2026 展示",
+            "en": "SC26 2026 demonstration"
+          },
+          "owner": {
+            "zh": "神雲科技",
+            "en": "MiTAC Computing"
+          },
+          "sourceUrl": "https://en.prnasia.com/releases/apac/mitac-computing-scales-agentic-ai-with-full-stack-infrastructure-at-sc26-556667.shtml",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        },
+        {
+          "name": {
+            "zh": "Helion 規劃可擴充 CPU 核心",
+            "en": "Planned scalable CPU core count"
+          },
+          "current": 32768,
+          "unit": "個核心",
+          "period": {
+            "zh": "未來 Helion 44OU 設計",
+            "en": "Future Helion 44OU design"
+          },
+          "owner": {
+            "zh": "神雲科技",
+            "en": "MiTAC Computing"
+          },
+          "sourceUrl": "https://en.prnasia.com/releases/apac/mitac-computing-scales-agentic-ai-with-full-stack-infrastructure-at-sc26-556667.shtml",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑精確比較基數，沒有反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 AI 機櫃電源、液冷控制及功率量測供應商而言，96 顆 GPU 的展示配置與兩相冷卻概念驗證可作為不同測試場景的參考。仍須取得實際整櫃功率、流量、溫度與客戶量產驗收，無法用展示規格推估已下單量。",
+        "en": "For AI rack power, liquid-cooling controls and power metrology suppliers, the 96-GPU demonstration and two-phase PoC provide distinct test contexts. Measured rack power, flow, temperature and customer acceptance are needed; show specifications do not establish orders."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "silicon-motion-sc26-pcie-gen6-enterprise-ssd",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "慧榮 SC26 展示 PCIe Gen6 企業級 SSD 控制器，宣稱最高 28GB/s 與逾 512TB 支援容量",
+        "en": "Silicon Motion showcases PCIe Gen6 enterprise SSD controller with claimed 28GB/s and over 512TB support"
+      },
+      "summary": {
+        "zh": "慧榮科技 11 月 17 日宣布於芝加哥 SC26 展示 MonTitan 企業級 SSD 控制器與參考平台，SM8466 PCIe Gen6 規格宣稱最高 28GB/s 循序傳輸、700 萬 IOPS 隨機效能及支援超過 512TB SSD 容量。這些是公司產品規格與展示內容，尚未披露客戶大量出貨、實測工作負載和同口徑競品測試數據。",
+        "en": "Silicon Motion announced on November 17 that it was exhibiting MonTitan enterprise SSD controllers and reference platforms at SC26 in Chicago. It states that its PCIe Gen6 SM8466 supports up to 28GB/s sequential throughput, seven million random IOPS and SSD capacities above 512TB. These are vendor specifications, not independently measured customer workloads or production shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "記憶體與資料中心儲存鏈",
+            "en": "Memory and data-center storage chain"
+          },
+          "text": {
+            "zh": "企業級 SSD 控制晶片結合 NAND 記憶體、主機 PCIe 介面、韌體與伺服器儲存架構。慧榮的 SM8366 屬 PCIe Gen5 參考設計，SM8466 則標示為 Gen6，兩者規格與量產階段應分開閱讀。",
+            "en": "Enterprise SSD controllers connect NAND flash, host PCIe interfaces, firmware and server storage. The SM8366 is a PCIe Gen5 reference design; the SM8466 is the stated Gen6 product. Product generations and readiness levels differ."
+          }
+        },
+        {
+          "label": {
+            "zh": "公司公布的規格",
+            "en": "Vendor-stated specifications"
+          },
+          "text": {
+            "zh": "慧榮稱 SM8366 搭配 QLC NAND 的參考設計最高支援 256TB，SM8466 的設計容量超過 512TB、循序速度最高 28GB/s、隨機效能最高 700 萬 IOPS。以上是公司規格上限，沒有提供標準化的測試條件、溫度及功耗數據。",
+            "en": "Silicon Motion lists up to 256TB with QLC NAND for SM8366, while SM8466 specifications exceed 512TB and quote up to 28GB/s sequential throughput and seven million IOPS. Standardized benchmark settings, temperature and power conditions were not included."
+          }
+        },
+        {
+          "label": {
+            "zh": "其他展示產品",
+            "en": "Other showcased products"
+          },
+          "text": {
+            "zh": "公司另展示 NVIDIA BlueField-3 DPU 搭配的 PCIe NVMe 開機碟，以及搭配信驊 AST2600 BMC 的 Ferri-eMMC 嵌入式儲存；這些是系統整合展示，未證明已出貨至特定終端。",
+            "en": "The release also describes NVMe boot storage paired with NVIDIA BlueField-3 DPUs and embedded Ferri-eMMC support involving ASPEED AST2600 BMC platforms. These are integration demonstrations without named customer deliveries."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "SM8466 正式量產時間、各容量配置的實測速度、功耗、客戶驗證及供應量尚未公布。",
+            "en": "SM8466 mass-production timing, measured speed by capacity, power consumption, qualification and volume shipments are undisclosed."
+          }
+        }
+      ],
+      "metric": "28GB/s",
+      "metricLabel": {
+        "zh": "SM8466 官方循序傳輸規格上限",
+        "en": "SM8466 claimed sequential throughput ceiling"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "慧榮科技 · SC26 企業級 SSD 官方新聞稿",
+            "en": "Silicon Motion · SC26 enterprise SSD announcement"
+          },
+          "url": "https://ir.siliconmotion.com/news-releases/news-release-details-94",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "SC26 · 官方場館及展期",
+            "en": "SC26 · Official venue and exhibit dates"
+          },
+          "url": "https://sc26.supercomputing.org/attendees/chicago/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展覽場地：美國芝加哥 McCormick Place，慧榮攤位 6816；主辦官方展期為 11 月 17 至 19 日。",
+        "en": "Exhibition venue: McCormick Place, Chicago, United States, Silicon Motion booth 6816; organizer exhibits November 17–19."
+      },
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "NAND；SSD；記憶體；晶片設計；零組件；伺服器；資料中心；算力",
+          "en": "NAND; SSD; memory; chip design; components; servers; data centers; compute"
+        },
+        "chain": {
+          "zh": "NAND 晶片及 SSD 控制器至伺服器儲存與資料中心",
+          "en": "NAND chips and SSD controllers through server storage and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增工廠資本支出。",
+            "en": "No new factory capex was disclosed."
+          },
+          "demand": {
+            "zh": "新規格與參考平台已展示，沒有公布客戶出貨實績。",
+            "en": "Controller specifications and platforms were shown without customer shipment actuals."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "NAND 控制器與儲存介面規格涉及伺服器儲存與測試。",
+            "en": "NAND controllers and storage interfaces relate to server storage and validation."
+          },
+          "timing": {
+            "zh": "11 月 17 日宣布展出；Gen6 正式量產時程未披露。",
+            "en": "Announced November 17; Gen6 production timing is undisclosed."
+          },
+          "unknowns": {
+            "zh": "同一工作負載下的實測速度、功耗及驗收仍未知。",
+            "en": "Workload-matched performance, power measurements and acceptance remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "SM8366 QLC 參考設計最高容量",
+            "en": "SM8366 QLC reference capacity ceiling"
+          },
+          "current": 256000,
+          "unit": "GB",
+          "period": {
+            "zh": "2026 年 SC26 SM8366 規格",
+            "en": "SC26 2026 SM8366 specification"
+          },
+          "owner": {
+            "zh": "慧榮科技",
+            "en": "Silicon Motion"
+          },
+          "sourceUrl": "https://ir.siliconmotion.com/news-releases/news-release-details-94",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公司原文為 256TB 上限，以十進位 1TB=1000GB 換算；非實測容量。"
+        },
+        {
+          "name": {
+            "zh": "SM8466 設計支援容量下限",
+            "en": "SM8466 supported capacity lower bound"
+          },
+          "current": 512000,
+          "unit": "GB",
+          "period": {
+            "zh": "2026 年 SC26 SM8466 規格",
+            "en": "SC26 2026 SM8466 specification"
+          },
+          "owner": {
+            "zh": "慧榮科技",
+            "en": "Silicon Motion"
+          },
+          "sourceUrl": "https://ir.siliconmotion.com/news-releases/news-release-details-94",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公司原文為超過 512TB，512000GB 為十進位換算下限；非精確上限。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 SSD 控制晶片測試、伺服器儲存電源與精密量測供應商而言，應查核 Gen6 介面訊號品質、不同 NAND 配置功耗與溫度下的實測效能。產品宣稱的速度與容量尚無具名客戶量產驗收，不能等同已出貨規模。",
+        "en": "For SSD-controller test, server storage power and precision metrology suppliers, Gen6 signal integrity and NAND-dependent power and thermal benchmarks require verification. Stated throughput and capacity lack named customer production acceptance and cannot establish shipment scale."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "acbel-sc26-liquid-cooled-power-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "康舒 SC26 展出水冷板 Power Shelf 與介電液冷 PSU，涵蓋 800V 供電架構",
+        "en": "AcBel shows cold-plate Power Shelf and dielectric-liquid-cooled PSU at SC26, spanning 800V architecture"
+      },
+      "summary": {
+        "zh": "康舒科技 11 月 16 日公布將於 11 月 17 至 19 日芝加哥 SC26 展示水冷板 Power Shelf 與和英國 Iceotope 合作的介電液體冷卻電源供應器。產品組合涵蓋 12V、50V、正負 400V 及 800V 電力架構；公司未公布本次展示機型的已簽採購金額、客戶驗收數量及可比較的實測效率。",
+        "en": "AcBel announced on November 16 that its November 17–19 SC26 exhibit in Chicago would feature a cold-plate Power Shelf and dielectric-liquid-cooled PSU developed with UK company Iceotope. The portfolio spans 12V, 50V, plus/minus 400V and 800V electrical architectures. The issuer did not disclose contracted values, accepted units or comparable measured efficiency for the showcased products."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電源及冷卻系統背景",
+            "en": "Power and thermal supply-chain context"
+          },
+          "text": {
+            "zh": "AI 機櫃供電包含 PSU、Power Shelf、BBU Shelf、側掛式電源與配電組件。康舒此展示將液冷延伸到電源產品，有別於只冷卻 GPU 的方案；展示的水冷板與介電液體兩種技術須依實際工況區分。",
+            "en": "Rack electrical systems span PSUs, Power Shelves, backup shelves, sidecar supplies and distribution components. AcBel's exhibit extends liquid cooling to power hardware as well as compute components; cold-plate and dielectric-fluid approaches have different operating conditions."
+          }
+        },
+        {
+          "label": {
+            "zh": "展覽內容與日期",
+            "en": "Exhibit details and timing"
+          },
+          "text": {
+            "zh": "康舒原廠公告展位為芝加哥 McCormick Place West 7006 號，11 月 17 至 19 日展示新液冷電源技術。公司表示相關產品涵蓋 800VDC 等架構，並稱先前曾交付其他液冷電源產品，但並未將歷史交付台數指向本次展示產品。",
+            "en": "AcBel's company release names booth 7006 at McCormick Place West for November 17–19. Its broader range supports 800VDC among other architectures. Past liquid-cooled power deliveries cited by the company are not shipment counts for these specific exhibits."
+          }
+        },
+        {
+          "label": {
+            "zh": "效能與資料限制",
+            "en": "Performance data boundaries"
+          },
+          "text": {
+            "zh": "公司引用 IEA 2026 年報告的功率密度歷史與未來預測，但本次並未揭露 Power Shelf 的實測冷卻液流量、出水溫度、額定負載或客戶驗證結果。外部產業推估不能代替該產品的實驗數據。",
+            "en": "The company references an IEA assessment of server power-density trends but does not give measured coolant flow, outlet temperatures, rated load or acceptance test results for the showcased Power Shelf. Sector estimates do not substitute for product measurements."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "展示設備型號的正式量產、額定效率、實測熱阻、客戶驗收與採購金額未公開。",
+            "en": "Production qualification, rated efficiency, measured thermal resistance, customer acceptance and contracted value for the displayed systems are unknown."
+          }
+        }
+      ],
+      "metric": "液冷電源",
+      "metricLabel": {
+        "zh": "SC26 展出方案",
+        "en": "SC26 showcased technologies"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "康舒 · 11 月 16 日 SC26 公司新聞稿",
+            "en": "AcBel · November 16 SC26 company announcement"
+          },
+          "url": "https://www.prnewswire.com/news-releases/acbel-to-showcase-liquid-cooled-power-solutions-for-ai-and-hpc-at-supercomputing-2026-302940249.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "SC26 · 主辦單位展期與場館",
+            "en": "SC26 · Organizer dates and venue"
+          },
+          "url": "https://sc26.supercomputing.org/attendees/chicago/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展覽場地：美國伊利諾州芝加哥 McCormick Place West，康舒攤位 7006；展示日期 11 月 17 至 19 日。",
+        "en": "Exhibition venue: McCormick Place West, Chicago, Illinois, United States, AcBel booth 7006; November 17–19."
+      },
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；美國；英國",
+          "en": "Taiwan; United States; United Kingdom"
+        },
+        "industries": {
+          "zh": "電源；供電；液冷；散熱；伺服器；資料中心；零組件",
+          "en": "Power; electric distribution; liquid cooling; servers; data centers; components"
+        },
+        "chain": {
+          "zh": "PSU 與 Power Shelf 至機櫃供電、介電液冷及資料中心",
+          "en": "PSUs and Power Shelves through rack power, dielectric cooling and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公開本次展示產品新增資本支出。",
+            "en": "No new capex for these display products was disclosed."
+          },
+          "demand": {
+            "zh": "展出方案及過往交付經驗屬不同資訊，沒有新的採購數量。",
+            "en": "Exhibited products and historical deliveries are distinct; no new order volume was reported."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "液冷電源涉及電力轉換、功率控制與高功率密度機櫃散熱。",
+            "en": "Liquid-cooled power hardware links conversion, controls and high-density rack thermals."
+          },
+          "timing": {
+            "zh": "11 月 16 日公司發布；11 月 17 至 19 日參展。",
+            "en": "Company announcement November 16; exhibition November 17–19."
+          },
+          "unknowns": {
+            "zh": "正式客戶認證、功率與熱性能的可比較測試仍未提供。",
+            "en": "Comparable power/thermal tests and customer qualifications remain unavailable."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對資料中心精密電源、功率量測與液冷控制供應商而言，展示同時涉及電力轉換與冷卻設備的整合介面。應核對 800VDC 安規、負載測試、流量與散熱效能及客戶驗收，在缺乏工況數據時不能推估實際採購需求。",
+        "en": "For precision data-center power, electrical metrology and cooling-control suppliers, the exhibit concerns power-conversion and coolant-system interfaces. The 800VDC safety envelope, load tests, flow, heat rejection and customer acceptance are unverified, preventing demand estimates."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "美國新規是否等於東南亞所有 AI 資料中心都不能購入晶片？",
+        "en": "Does the new U.S. rule prohibit all chip shipments to Southeast Asian data centers?"
+      },
+      "text": {
+        "zh": "規則針對特定高階晶片目的地和受管制終端用途，對部分美國總部企業另列申報條件下的排除。正式生效日仍需以聯邦公報公布版本查核。",
+        "en": "The provisions target defined chips and end uses, with a reporting-conditioned exclusion for some U.S.-headquartered users. The exact effective date still requires checking the Federal Register publication."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "鴻海收購的金額是否包含 Sony 相關海外工廠設備？",
+        "en": "Does Foxconn's consideration include all Sony overseas production equipment?"
+      },
+      "text": {
+        "zh": "鴻海公告交易涉及特定車載相機模組事業資產；中央社指出部分海外設備及存貨不在目前對價內。是否追加收購及交割後產能尚未公布。",
+        "en": "The agreement concerns specified camera-module business assets. CNA says certain offshore equipment and inventory are excluded; any additional acquisition and post-closing capacity remain unknown."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "旺矽工程機交付是否代表 CPO 已完成量產驗收？",
+        "en": "Do WinWay engineering-tool deliveries establish qualified CPO mass production?"
+      },
+      "text": {
+        "zh": "Insertion 3 工程機已送 3 家客戶，但 Insertion 2 首家客戶認證結果仍預定 12 月取得。工程樣機、客戶驗證與量產設備訂單是不同階段。",
+        "en": "Three customers received Insertion 3 engineering systems, while the first Insertion 2 qualification result is still expected in December. Engineering samples, validation and production-tool orders are distinct stages."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "過往東南亞資料中心與伺服器投資",
+        "en": "Prior Southeast Asian data-center and server investment"
+      },
+      "text": {
+        "zh": "11 月 17 日路透引述馬來西亞自 2021 年以來約 3,857 億令吉的資料中心累計核准投資。此數值屬過去核准累計，不能視為新法規發布後的投資變動。",
+        "en": "Reuters cited RM385.7 billion of Malaysian data-center investment approvals since 2021 on November 17. This historical cumulative approval amount does not measure the new rule's investment effects."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考註記",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "股價新聞及既有擴廠評論",
+        "en": "Share-price news and prior expansion commentary"
+      },
+      "text": {
+        "zh": "股價跌幅、由既有精材先進封裝協議推導的未確認設備訂單，以及十月已公布的高階銅箔計畫，沒有新增可確認交付或合約，未作為新事件。",
+        "en": "Stock-price changes, unverified tool orders inferred from Xintec's earlier agreement, and October copper-foil plans added no confirmed new delivery or contract and were not republished."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "美國 BIS 11 月 16 日規則公開稿尚有生效日期占位欄，須以最終聯邦公報核定版本為準。鴻海收購金額為初始日圓對價，新台幣數字為媒體約當換算。旺矽 2027 年產能與 CPO 訂單為公司目標，SC26 展示規格未代表客戶量產驗收，台積電獲獎名單也不能代表新增採購。",
+    "en": "The examined BIS rule draft retains an effective-date placeholder, requiring confirmation against the finalized Federal Register publication. Foxconn's contractual amount is initially denominated in yen, with NT dollars an approximate media conversion. WinWay's 2027 capacity and CPO orders are prospective; SC26 product specifications are not customer acceptance and supplier awards do not establish new purchases."
+  }
+}

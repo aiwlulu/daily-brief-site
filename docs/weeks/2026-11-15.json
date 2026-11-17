@@ -1,9 +1,9 @@
 {
   "weekStart": "2026-11-15",
-  "generatedAt": "2026-11-16T15:29:27.137Z",
+  "generatedAt": "2026-11-17T12:25:15.430Z",
   "throughline": {
-    "zh": "本週台灣半導體與伺服器供應鏈公布先進封裝、機櫃供電、矽光子測試及廠房建設資訊；新投資統計、產線復工與廠區施工事件則分別揭示資金與營運狀態。",
-    "en": "This week's Taiwan disclosures span advanced packaging, rack power, photonics test and facility projects, alongside new investment statistics, a fab restart and a construction-site incident."
+    "zh": "本週半導體與伺服器供應鏈發布測試設備產能、記憶體通路與資料中心新管制，並有車載模組收購及 SC26 電源、液冷、儲存技術展示。",
+    "en": "This week's semiconductor and server supply chains reported test-equipment capacity, memory distribution, data-center controls, an automotive module acquisition and SC26 power, liquid-cooling and storage demonstrations."
   },
   "highlights": [
     {
@@ -14,8 +14,8 @@
         "en": "Advanced packaging, wafer equipment and cybersecurity"
       },
       "summary": {
-        "zh": "精材與台積電先前簽訂先進封裝 oS 產線外包協議，日月光路竹廠一期啟用、二期動土。11 月 16 日漢測新增與 ficonTEC 的矽光子測試合作，嘉晶公告復工出貨，數產署則公布 SEMI E187 設備資安交流。",
-        "en": "Xintec previously signed the CoWoS on-substrate outsourcing agreement and ASE reported Luzhu construction milestones. On November 16 Hermes expanded photonics test collaboration, Jiajing reported restarted shipments and Taiwan's digital agency summarized SEMI E187 outreach."
+        "zh": "精材與台積電先前簽訂先進封裝產能外包協議，日月光路竹廠一期啟用。漢測與 ficonTEC 的測試合作及嘉晶復工已公布；11 月 16 日旺矽再說明探針擴產與 CPO 工程機驗證，台積電於 17 日發布年度供應商名單。",
+        "en": "Xintec and ASE reported packaging collaboration and construction, while Hermes and Jiajing updated testing and factory operations. WinWay described probe-capacity and CPO qualification plans on November 16, and TSMC named its annual supplier recipients on November 17."
       },
       "references": [
         {
@@ -37,6 +37,14 @@
         {
           "date": "2026-11-17",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 4
         }
       ]
     },
@@ -44,12 +52,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "伺服器電源、光互連與連接器供應鏈",
-        "en": "Server power, photonics and interconnects"
+        "zh": "機櫃電源、液冷與伺服器整機展示",
+        "en": "Rack power, liquid cooling and server-system demonstrations"
       },
       "summary": {
-        "zh": "技嘉與光寶科前幾日公布伺服器營收及 800VDC 進度，正文另提供高速光模組出貨目標。11 月 16 日貝爾威勒披露高電流連接器財報及 800VDC、EBO 產品規劃，產品成熟度仍需個別核對。",
-        "en": "Gigabyte, Lite-On and Gemtek reported server sales, 800VDC development and optical delivery targets earlier in the week. Bellwether added November 16 results and interconnect roadmaps without product-specific accepted shipment totals."
+        "zh": "技嘉、光寶科、貝爾威勒及正文此前公布伺服器、電源、連接器及光模組進度。SC26 新增神雲 96 顆 GPU 液冷機櫃與康舒液冷電源展示，屬產品規格與概念驗證，未代表正式出貨。",
+        "en": "Gigabyte, Lite-On, Bellwether and Gemtek previously reported server, power, interconnect and optical progress. SC26 brought MiTAC's 96-GPU liquid-cooled rack and AcBel power-cooling exhibits, without production delivery confirmation."
       },
       "references": [
         {
@@ -67,6 +75,14 @@
         {
           "date": "2026-11-17",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 8
         }
       ]
     },
@@ -74,12 +90,12 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "半導體產值、DRAM 供應與工廠營運",
-        "en": "Semiconductor output, DRAM supply and factory operations"
+        "zh": "記憶體供應、SSD 控制與工廠營運",
+        "en": "Memory supply, SSD controllers and plant operations"
       },
       "summary": {
-        "zh": "工研院與模組廠此前披露半導體產值統計及 DRAM 配貨安排。11 月 16 日美光台中廠施工工區發生承攬商工安事故，停工限於該工區，未公告整座記憶體廠停產。",
-        "en": "ITRI and memory suppliers had published semiconductor-output data and DRAM allocation commentary. A November 16 fatal contractor accident at Micron halted the affected construction zone only, without an announced fab-wide shutdown."
+        "zh": "台灣模組業者先前披露 DRAM 供貨安排，美光台中廠施工事故已明確限於受影響工區。大聯大 11 月 17 日說明記憶體逾半營收比重，慧榮則在 SC26 展示 Gen5、Gen6 企業級 SSD 控制器規格。",
+        "en": "Taiwan memory-module firms described DRAM allocation, while Micron's Taichung construction suspension covered the affected work area. WPG discussed its memory-heavy sales mix on November 17, and Silicon Motion exhibited Gen5/Gen6 enterprise SSD controllers at SC26."
       },
       "references": [
         {
@@ -93,6 +109,14 @@
         {
           "date": "2026-11-17",
           "storyId": 6
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 7
         }
       ]
     },
@@ -104,8 +128,8 @@
         "en": "Process sensors, PCS storage and factory power"
       },
       "summary": {
-        "zh": "日月光化學感測採購、燿華宜蘭廠表後儲能工程已在本週先前公布。熙特爾與 GE Vernova、SK On 於 11 月 16 日公告 PCS、LFP 電池與在地製造合作 MOU，尚未公布正式採購金額。",
-        "en": "ASE's chemical sensor purchase and Unitech's Yilan storage project were previously reported. Xitel's November 16 MOU with GE Vernova and SK On concerns PCS, LFP batteries and integration, without binding procurement values."
+        "zh": "日月光化學感測採購、燿華儲能工程及熙特爾三方 PCS 合作備忘錄屬不同商業狀態。迄今沒有可將這些項目的協議金額、運轉節費及新增儲能容量直接加總的同口徑資料。",
+        "en": "ASE's sensor order, Unitech's storage project and Xitel's three-party PCS memorandum represent different commercial stages. Their contract values, estimated savings and installed capacity cannot be combined as a single measure."
       },
       "references": [
         {
@@ -126,12 +150,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "海外供應鏈、資本流向與算力政策",
-        "en": "Cross-border supply chains, capital flows and compute policy"
+        "zh": "跨境投資、晶片管制與終端製造",
+        "en": "Cross-border investment, chip controls and end-use manufacturing"
       },
       "summary": {
-        "zh": "本週先前已發布元太觀音場址交易、神基工業電腦專案與衛星運算模組送樣。11 月 16 日經濟部發布前十月對台與對外投資統計，國科會公布算力池使用者及應用數，核准投資與實際機房容量分別標示。",
-        "en": "Earlier reports covered E Ink's site acquisition, Getac's industrial projects and satellite-compute samples. MOEA added January–October investment statistics and NSTC disclosed compute-pool users and applications on November 16, separating approved capital from installed compute."
+        "zh": "先前已公布經濟部前十月投資核准統計與 GPU 算力池使用成果。美國 BIS 11 月 16 日公布新高階晶片輸出及遠端算力規範，11 月 17 日鴻海簽約擬收購 Sony 車用相機模組業務，兩案的生效與交割狀態均待後續文件確認。",
+        "en": "MOEA had reported approved investment and NSTC compute-pool usage. BIS published new advanced-chip and remote-compute controls on November 16, and Foxconn agreed to buy Sony's automotive camera-module business on November 17; commencement and deal closing require later confirmation."
       },
       "references": [
         {
@@ -153,6 +177,14 @@
         {
           "date": "2026-11-17",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-18",
+          "storyId": 2
         }
       ]
     }
