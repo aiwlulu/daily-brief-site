@@ -1,0 +1,1707 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-18T11:12:47.682Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體設備、先進封裝、伺服器電源及資料中心",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, advanced packaging, server power and data centers"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "輝達公布資料中心財報及台灣載板、先進封裝新協議，科林研發與半導體廠務業者揭露在台建設及訂單進度，機櫃冷卻與跨境晶片管制亦有新資料。",
+    "en": "NVIDIA reported data-center results and new Taiwan substrate and packaging agreements, while equipment and factory-service firms reported Taiwan project milestones and new information emerged on rack cooling and cross-border chip controls."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "輝達 FY2027 第三季營收 1,158 億美元、資料中心收入 1,076 億美元，Vera Rubin 已開始出貨；第四季預估 1,300 億美元。",
+        "en": "NVIDIA reported US$115.8bn Q3 revenue and US$107.6bn data-center sales, with Vera Rubin shipments underway and US$130bn Q4 guidance."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "景碩桃園幼獅廠供輝達 ABF 載板產能計畫提高至 3.5 倍以上，2028 年第三季為擴充目標。",
+        "en": "Kinsus plans more than 3.5 times its NVIDIA-dedicated Taoyuan ABF substrate capacity by Q3 2028."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "矽品與輝達簽多年擴產協議，台灣先進封裝產能規劃於 2029 年中增至 3 倍，精確資金額及驗收尚未公布。",
+        "en": "SPIL and NVIDIA target a threefold Taiwan advanced-packaging expansion by mid-2029, with exact funding and acceptance undisclosed."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "科林研發竹南技術中心 11 月 18 日動土，預定 2028 年啟用、實驗室空間增加約 900%。",
+        "en": "Lam Research broke ground in Zhunan on November 18, targeting 2028 opening and about 900% more Taiwan lab space."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "漢科公布在手工程訂單 150 億元，八成來自半導體客戶，仍須區分訂單餘額與已完成工程。",
+        "en": "Hanke reports NT$15bn facility-system backlog, 80% from semiconductor customers, distinct from completed work."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "nvidia-fy2027-q3-rubin-shipments-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "輝達 FY2027 第三季營收 1,158 億美元、資料中心收入 1,076 億美元，Vera Rubin 已開始出貨",
+        "en": "NVIDIA reports US$115.8bn FY27 Q3 revenue and US$107.6bn data-center sales as Vera Rubin ships"
+      },
+      "summary": {
+        "zh": "輝達 11 月 17 日公布截至 10 月 25 日的 FY2027 第三季營收 1,158 億美元，季增 20%、年增 103%；資料中心部門營收 1,076 億美元，年增 110%。公司指出 Vera Rubin NVL72 與 Vera CPU 已開始大量出貨，第四季預估營收 1,300 億美元，上下容許 3% 誤差；財年與曆年、實績與指引分別標示。",
+        "en": "On November 17, NVIDIA reported FY2027 Q3 revenue of US$115.8 billion for the quarter ended October 25, up 20% QoQ and 103% YoY. Data-center revenue reached US$107.6 billion, up 110% YoY, while Vera Rubin NVL72 and Vera CPUs entered volume shipments. Q4 revenue guidance is US$130 billion, plus or minus 3%, and remains a forecast."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與台灣供應鏈",
+            "en": "Industry and Taiwan supply-chain context"
+          },
+          "text": {
+            "zh": "輝達供應鏈包含台積電晶圓製造及 CoWoS 封裝、台灣載板與封測業者、鴻海伺服器整機及機櫃電源散熱系統。公司稱已出貨 Vera Rubin NVL72，但未公布台灣各供應商的個別出貨台數及電源模組採購額。",
+            "en": "NVIDIA's manufacturing chain includes TSMC wafers and CoWoS, Taiwanese substrate and test suppliers, Foxconn server systems, and rack power and cooling hardware. NVIDIA confirmed Vera Rubin NVL72 shipments but did not disclose Taiwan supplier-specific rack counts or component purchase amounts."
+          }
+        },
+        {
+          "label": {
+            "zh": "已實現財務數字",
+            "en": "Reported GAAP results"
+          },
+          "text": {
+            "zh": "第三季 GAAP 毛利率 74.8%、營業利益 775 億美元、淨利 653 億美元；上季及去年同季總營收分別為 962 億、570 億美元。非 GAAP 毛利率 74.9% 及調整後每股盈餘 2.68 美元是不同會計口徑，不與 GAAP 利益混為一談。",
+            "en": "Q3 GAAP gross margin was 74.8%, operating income US$77.5 billion and net income US$65.3 billion. Prior-quarter revenue was US$96.2 billion and prior-year revenue US$57.0 billion. Non-GAAP gross margin of 74.9% and adjusted EPS of US$2.68 are separate accounting measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "出貨與下一季預估",
+            "en": "Shipment milestones and Q4 guidance"
+          },
+          "text": {
+            "zh": "公司稱 Vera Rubin 相關機櫃已在部分雲端合作夥伴運作，第四季 FY2027（比一般季度多一週）營收展望為 1,300 億美元，上下 3%，並未計入來自中國的資料中心運算營收。公司收入並不等於新 GPU 機櫃全部驗收數量。",
+            "en": "The company reported Vera Rubin racks operating at some cloud partners. FY2027 Q4 contains an extra week, with revenue guidance of US$130 billion ±3% excluding China data-center compute revenue. Company revenue does not disclose accepted rack units across all system suppliers."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "台灣供應商逐廠 GPU 機櫃、電源轉換、冷卻系統及採購合約數量尚未單獨公布。",
+            "en": "Taiwan vendor-specific GPU racks, power conversion, cooling units and binding contract quantities remain undisclosed."
+          }
+        }
+      ],
+      "metric": "US$115.8B",
+      "metricLabel": {
+        "zh": "FY2027 第三季合併營收",
+        "en": "FY2027 Q3 revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "NVIDIA · FY2027 第三季財報",
+            "en": "NVIDIA · FY2027 Q3 official earnings"
+          },
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "NVIDIA · 供應鏈擴產合作公告",
+            "en": "NVIDIA · Supply-chain agreement announcement"
+          },
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "美國；台灣；日本；韓國",
+          "en": "United States; Taiwan; Japan; South Korea"
+        },
+        "industries": {
+          "zh": "晶圓；代工；記憶體；HBM；封裝；測試；載板；ODM；伺服器；供電；液冷；資料中心",
+          "en": "Wafers; foundry; HBM; packaging; test; substrates; ODM; servers; rack power; cooling; data centers"
+        },
+        "chain": {
+          "zh": "晶圓與 HBM 至先進封裝、伺服器 ODM、機櫃供電和資料中心",
+          "en": "Wafers and HBM through packaging, server ODM, rack power and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "財報未公布這次新增的台灣各供應商投資總額。",
+            "en": "The earnings release did not provide new Taiwan supplier capex totals."
+          },
+          "demand": {
+            "zh": "資料中心第三季營收 1,076 億美元，Vera Rubin 機櫃已開始出貨。",
+            "en": "Data-center revenue was US$107.6 billion, and Vera Rubin racks entered shipments."
+          },
+          "fdi": {
+            "zh": "未公布新的逐廠外國直接投資。",
+            "en": "No new plant-specific FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣晶圓、先進封裝和伺服器供應鏈參與財報中已實現的平台出貨。",
+            "en": "Taiwanese foundry, packaging and server suppliers participate in platforms NVIDIA says are shipping."
+          },
+          "timing": {
+            "zh": "財報於 11 月 17 日發布，FY2027 Q3 截至 10 月 25 日；Q4 為未來展望。",
+            "en": "Reported November 17; FY2027 Q3 ended October 25; Q4 remains outlook."
+          },
+          "unknowns": {
+            "zh": "台灣各供應商交付台數與電源散熱採購額未分別揭露。",
+            "en": "Individual Taiwan supplier shipments and power/cooling purchases are not separately reported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 revenue"
+          },
+          "current": 115.8,
+          "unit": "USD billion",
+          "period": {
+            "zh": "FY2027 第三季",
+            "en": "FY2027 Q3"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 57,
+          "basePeriod": "FY2026 第三季",
+          "reportedRate": 1.03,
+          "baseStatus": "官方列同口徑上年 570 億美元及本期 1,158 億美元，兩者均為四捨五入呈現。"
+        },
+        {
+          "name": {
+            "zh": "第三季資料中心收入",
+            "en": "Q3 data-center revenue"
+          },
+          "current": 107.6,
+          "unit": "USD billion",
+          "period": {
+            "zh": "FY2027 第三季",
+            "en": "FY2027 Q3"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.1,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季 GAAP 營業利益",
+            "en": "Q3 GAAP operating income"
+          },
+          "current": 77.5,
+          "unit": "USD billion",
+          "period": {
+            "zh": "FY2027 第三季",
+            "en": "FY2027 Q3"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 36,
+          "basePeriod": "FY2026 第三季",
+          "reportedRate": 1.15,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季 GAAP 淨利",
+            "en": "Q3 GAAP net income"
+          },
+          "current": 65.3,
+          "unit": "USD billion",
+          "period": {
+            "zh": "FY2027 第三季",
+            "en": "FY2027 Q3"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 31.9,
+          "basePeriod": "FY2026 第三季",
+          "reportedRate": 1.05,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季 GAAP 毛利率",
+            "en": "Q3 GAAP gross margin"
+          },
+          "current": 0.748,
+          "unit": "%",
+          "period": {
+            "zh": "FY2027 第三季",
+            "en": "FY2027 Q3"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.734,
+          "basePeriod": "FY2026 第三季",
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季非 GAAP 毛利率",
+            "en": "Q3 non-GAAP gross margin"
+          },
+          "current": 0.749,
+          "unit": "%",
+          "period": {
+            "zh": "FY2027 第三季",
+            "en": "FY2027 Q3"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": 0.735,
+          "basePeriod": "FY2026 第三季",
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第四季預估營收",
+            "en": "Q4 revenue guidance"
+          },
+          "current": 130,
+          "unit": "USD billion",
+          "period": {
+            "zh": "FY2027 第四季指引",
+            "en": "FY2027 Q4 guidance"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓蝕刻、沉積 RF 電源與伺服器機櫃供電、熱管理供應商而言，財報提供已實現資料中心收入及開始出貨的平台資訊。仍須核對各台灣製造商的產品驗收、機櫃功率和設備規格，季度營收無法直接分配成個別儀器訂單。",
+        "en": "For etch and deposition RF power, rack power conversion and thermal-management suppliers, the release confirms realized data-center revenue and platform shipment milestones. Vendor-level acceptance, electrical ratings and tool specifications remain necessary; company revenue cannot be converted into individual instrument orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "nvidia-kinsus-youth-abf-substrate-capacity-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "景碩獲輝達新協議，桃園幼獅 ABF 載板專屬產能規劃擴至 3.5 倍以上",
+        "en": "Kinsus to expand NVIDIA-dedicated Taoyuan ABF substrate capacity beyond 3.5 times under new agreement"
+      },
+      "summary": {
+        "zh": "輝達 11 月 17 日宣布與景碩簽訂多年載板供應協議，規劃將桃園幼獅廠支援輝達的先進 ABF 載板產能提高至現有 3.5 倍以上，2027 年下半年開始生產、2028 年第三季達成新增產能目標。景碩 11 月 18 日表示獲輝達超過 10 億美元資金支援設備擴充，資金用途與量產狀態仍依後續公告確認。",
+        "en": "NVIDIA announced a multiyear Kinsus agreement on November 17 targeting more than 3.5 times the current NVIDIA-dedicated advanced ABF substrate capacity at the Youth campus in Taoyuan, Taiwan. Production is scheduled to begin in H2 2027 with the incremental capacity targeted for Q3 2028. Kinsus told CNA on November 18 that NVIDIA would provide over US$1 billion for equipment expansion; production and financing terms still require subsequent disclosures."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "基板與上游封裝製程",
+            "en": "Substrate and packaging context"
+          },
+          "text": {
+            "zh": "ABF 封裝載板位於晶圓封裝至伺服器系統之間，涉及高密度導線層、材料、壓合與精密測試。3.5 倍是景碩供應輝達的特定產能規劃，不能套用到全公司或所有台灣載板廠。",
+            "en": "ABF substrates link semiconductor packages to server systems and require multilayer fabrication, advanced materials, lamination and test. The more-than-3.5-times target concerns NVIDIA-dedicated capacity at the specified campus, not all Kinsus or Taiwan substrate output."
+          }
+        },
+        {
+          "label": {
+            "zh": "新協議與資金口徑",
+            "en": "Agreement and funding status"
+          },
+          "text": {
+            "zh": "輝達原廠公告新多年協議及幼獅廠時程；景碩對中央社表示獲現金資金超過 10 億美元，目的為新增設備。公告未拆分預付款、股權投資或各類設備採購條款，故這筆資金不直接列作既成財務支出。",
+            "en": "NVIDIA's release confirms the new agreement and Youth campus timing. Kinsus told CNA it would receive over US$1 billion to fund new equipment, but the public material does not fully reconcile the financing mechanics, equity treatment or procurement schedules."
+          }
+        },
+        {
+          "label": {
+            "zh": "時點與未公開資料",
+            "en": "Milestones and data gaps"
+          },
+          "text": {
+            "zh": "2027 年下半年起生產與 2028 年第三季達成目標均為未來規劃。無明確新載板實際月片數、良率、客戶驗收量或最終已簽認列收入。",
+            "en": "H2 2027 production and Q3 2028 additional capacity are targets. New monthly substrate counts, yields, accepted output and recognized contracted revenue were not supplied."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新增設備台數、正式產能基數、客戶驗收、付款形式及與其他廠區的範圍尚未公布。",
+            "en": "Tool counts, precise capacity baseline, customer acceptance, payment structure and expansion beyond Youth remain undisclosed."
+          }
+        }
+      ],
+      "metric": ">3.5×",
+      "metricLabel": {
+        "zh": "供輝達 ABF 載板產能擴張目標下限",
+        "en": "Lower bound for NVIDIA-dedicated ABF capacity multiplier"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "NVIDIA · 11 月 17 日載板新協議",
+            "en": "NVIDIA · November 17 substrate agreement"
+          },
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 景碩新增資金說明",
+            "en": "CNA · Kinsus funding details"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180031.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "規劃擴產場址：台灣桃園市幼獅工業區景碩幼獅廠；原廠公告未提供門牌。",
+        "en": "Planned expansion site: Kinsus Youth campus, Taoyuan, Taiwan; the company release does not give a street address."
+      },
+      "market": {
+        "eventDate": "2026-11-17",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "材料；基板；封裝；晶圓；設備；伺服器；投資",
+          "en": "Materials; substrates; packaging; wafers; equipment; servers; investment"
+        },
+        "chain": {
+          "zh": "ABF 封裝載板至先進封裝與伺服器整機",
+          "en": "ABF substrates through advanced packaging and server systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "景碩稱獲逾 10 億美元資金用於擴充設備，具體支付狀態未披露。",
+            "en": "Kinsus reported over US$1 billion in funding for additional tools; cash timing is unknown."
+          },
+          "demand": {
+            "zh": "幼獅廠特定載板產能預計增至 3.5 倍以上，尚未實現。",
+            "en": "Specified Youth capacity is targeted above 3.5 times current levels, not yet realized."
+          },
+          "fdi": {
+            "zh": "未能確認新增資金的會計分類及 FDI 口徑。",
+            "en": "The funding's accounting classification and FDI treatment are not fully established."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新協議涉及封裝載板製程和產能擴充。",
+            "en": "The agreement covers advanced package substrate manufacturing capacity."
+          },
+          "timing": {
+            "zh": "11 月 17 日公告協議，11 月 18 日景碩說明；目標 2027 至 2028 年。",
+            "en": "Agreement announced November 17, Kinsus comment November 18; targets run through 2027–2028."
+          },
+          "unknowns": {
+            "zh": "新增月產出、良率、工具數量及驗收尚未公布。",
+            "en": "Incremental monthly output, yields, tool counts and acceptance remain unreported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "專屬載板產能倍數目標下限",
+            "en": "Minimum dedicated substrate capacity multiplier"
+          },
+          "current": 3.5,
+          "unit": "倍",
+          "period": {
+            "zh": "2028 年第三季目標",
+            "en": "Q3 2028 target"
+          },
+          "owner": {
+            "zh": "NVIDIA",
+            "en": "NVIDIA"
+          },
+          "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "原廠文字為超過 3.5 倍，3.5 僅為明確下限。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對先進基板製程電源、壓合設備與精密檢測供應商而言，景碩已公布特定廠區新增產能的客戶與時間表。仍需查核實際月片數、設備技術規格、資金支付與客戶認證，倍數目標不能換算已成交設備台數。",
+        "en": "For substrate process power, lamination tools and precision metrology suppliers, Kinsus identifies a customer and expansion timeline at a named campus. Monthly outputs, tool specifications, funding and customer qualification remain unknown; a capacity multiplier is not an equipment order."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "nvidia-spil-advanced-packaging-triple-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "矽品與輝達簽多年協議，台灣先進封裝產能規劃 2029 年中擴至 3 倍",
+        "en": "SPIL targets threefold Taiwan advanced-packaging capacity by mid-2029 under NVIDIA agreement"
+      },
+      "summary": {
+        "zh": "矽品 11 月 18 日發布與輝達多年期先進封裝產能擴充協議，規劃於 2029 年年中前將台灣相關先進封裝產能擴至原來 3 倍，協議有數十億美元資金支持但未公布精確總額。規劃涵蓋凸塊、組裝、測試與廠務自動化，尚未公布新增月封裝件數及完成量產驗收的時間。",
+        "en": "SPIL announced on November 18 a multiyear NVIDIA-backed agreement targeting three times its relevant advanced-packaging capacity in Taiwan by mid-2029. The agreement involves multibillion-dollar funding without an exact public amount and covers bumping, assembly, testing and facility automation. Monthly package units and customer-qualified production dates were not published."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "先進封裝供應鏈與工程範圍",
+            "en": "Packaging supply chain and project scope"
+          },
+          "text": {
+            "zh": "矽品將新設高精度、高產量封裝產線，整合凸塊、晶片組裝、測試及工程管理。輝達公告另提到中介層晶圓製程的整合支援；不同公司公告的工序細節互有範圍差異，不能單獨推定某段製程全由矽品承作。",
+            "en": "SPIL plans high-throughput packaging lines covering bumping, assembly, test and related facilities. NVIDIA also describes interposer-related turnkey support. The releases differ slightly in process wording and do not assign every interposer step exclusively to SPIL."
+          }
+        },
+        {
+          "label": {
+            "zh": "資金與產能目標",
+            "en": "Funding and capacity target"
+          },
+          "text": {
+            "zh": "矽品原廠及輝達均指出有數十億美元資金支持，沒有精確可逐項對照的付款表。至 2029 年年中增加到三倍，屬受託先進封裝產能目標，尚非現在的製造實績。",
+            "en": "Both parties describe multibillion-dollar funding without an itemized payment schedule. Threefold capacity by mid-2029 is a future NVIDIA-related advanced-packaging target, not current wafer or package output."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "原有每月產能基數、建廠與設備分期支出、客戶驗收以及逐平台良率未公開。",
+            "en": "The monthly baseline, staged capex, customer acceptances and yields by platform are undisclosed."
+          }
+        }
+      ],
+      "metric": "3×",
+      "metricLabel": {
+        "zh": "2029 年中先進封裝產能目標",
+        "en": "Mid-2029 advanced-packaging multiplier"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "矽品精密 · 11 月 18 日原廠協議公告",
+            "en": "SPIL · November 18 official agreement announcement"
+          },
+          "url": "https://www.spilglobal.com/NewsDetail/63c1aba5d14bac8c",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "NVIDIA · 供應鏈新協議",
+            "en": "NVIDIA · Supply-chain announcement"
+          },
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 矽品產能與協議說明",
+            "en": "CNA · SPIL expansion details"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180038.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "晶圓；封裝；封測；測試；設備；自動化；材料；投資",
+          "en": "Wafers; packaging; testing; equipment; automation; materials; investment"
+        },
+        "chain": {
+          "zh": "晶圓凸塊、先進封裝組裝與測試至 AI 運算模組",
+          "en": "Wafer bumping through advanced packaging assembly and AI-module testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "數十億美元資金支持，精確金額及付款時點未披露。",
+            "en": "Multibillion-dollar support is described without exact amounts or payment timing."
+          },
+          "demand": {
+            "zh": "相關產能規劃在 2029 年中增至 3 倍，當前尚未完成。",
+            "en": "Target is three times current relevant capacity by mid-2029, not yet achieved."
+          },
+          "fdi": {
+            "zh": "未見可單獨量化的新增股權型 FDI。",
+            "en": "No separately quantified new equity FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "跨凸塊、封裝、測試及廠務自動化的產能協議。",
+            "en": "The agreement spans bumping, packaging, testing and facilities automation."
+          },
+          "timing": {
+            "zh": "矽品 11 月 18 日公布，2029 年中是規劃完成時點。",
+            "en": "SPIL announced November 18; mid-2029 is the planned capacity milestone."
+          },
+          "unknowns": {
+            "zh": "原有基數、真實驗收產量與分項資金用途尚未公開。",
+            "en": "Baselines, qualified output and fund allocation remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "先進封裝規劃產能倍數",
+            "en": "Planned advanced packaging capacity multiple"
+          },
+          "current": 3,
+          "unit": "倍",
+          "period": {
+            "zh": "2029 年年中規劃",
+            "en": "Mid-2029 target"
+          },
+          "owner": {
+            "zh": "矽品精密",
+            "en": "SPIL"
+          },
+          "sourceUrl": "https://www.spilglobal.com/NewsDetail/63c1aba5d14bac8c",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對先進封裝電源、真空控制與量測設備供應商而言，矽品規劃新增產線與製程自動化已具體披露。仍須確認封裝工站配置、測試需求、設備採購及逐期驗收，三倍目標不等於設備訂單數量。",
+        "en": "For advanced-packaging power, vacuum controls and metrology suppliers, new lines and automation form the disclosed scope. Workstation layouts, test requirements, procurement and qualification remain unknown, so a threefold capacity target does not quantify equipment orders."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "lam-research-zhunan-technology-center-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "科林研發竹南技術中心動土，預定 2028 年啟用、在台實驗室空間增約 900%",
+        "en": "Lam Research breaks ground in Zhunan, targeting 2028 opening and about 900% more Taiwan lab space"
+      },
+      "summary": {
+        "zh": "美商科林研發 11 月 18 日於苗栗竹南舉行新台灣技術中心動土典禮，預計 2028 年啟用，場址規劃超過 4 萬平方公尺，完工後在台實驗室空間預計增加約 900%。新中心屬公司未來五年逾 30 億美元的全球研發投資計畫之一，該金額涵蓋全球各地，不代表竹南單一據點的投資額。",
+        "en": "Lam Research held a groundbreaking on November 18 for its new Zhunan technology center in Miaoli County, Taiwan, targeting a 2028 opening. The planned site exceeds 40,000 square meters and would expand Taiwan laboratory space by about 900%. The project is one part of Lam's more-than-US$3 billion five-year global R&D network program, not a US$3 billion budget for this Taiwan site alone."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "晶圓設備與實驗室用途",
+            "en": "Process equipment and laboratory scope"
+          },
+          "text": {
+            "zh": "苗栗縣政府說明新中心將支援薄膜沉積、蝕刻、先進封裝等製程的研發、測試及驗證，並靠近客戶及台灣製造據點。這類技術中心是開發與驗證設施，不能直接當作晶圓量產產線。",
+            "en": "The Miaoli government describes facilities for deposition, etch, advanced-packaging R&D and qualification near customers and existing manufacturing sites. These are development and validation laboratories, not new wafer manufacturing lines."
+          }
+        },
+        {
+          "label": {
+            "zh": "建設與全球計畫比較",
+            "en": "Construction versus global investment"
+          },
+          "text": {
+            "zh": "動土時間為 11 月 18 日，官方預定 2028 年啟用並預期新增數百名工作機會。逾 30 億美元是五年全球研發網路總計畫，該址施工預算和實際付款未列明。",
+            "en": "The groundbreaking occurred November 18, with the opening targeted for 2028 and several hundred jobs anticipated. The more-than-US$3 billion figure covers a five-year global network; the site-specific budget and spending remain unpublished."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各研究設備數量、廠務總電力負載、台灣個別投資額及啟用後客戶認證時程未公布。",
+            "en": "R&D tool counts, site power load, Taiwan-specific capex and customer qualification timing are unknown."
+          }
+        }
+      ],
+      "metric": "900%",
+      "metricLabel": {
+        "zh": "在台實驗室空間預計增幅",
+        "en": "Planned growth in Taiwan laboratory space"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "苗栗縣政府 · 竹南技術中心動土",
+            "en": "Miaoli County Government · Zhunan groundbreaking"
+          },
+          "url": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=1016200&sms=9462",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 技術中心規模與研發製程",
+            "en": "Liberty Times · Center scale and R&D processes"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5645045",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "工程所在地：台灣苗栗縣竹南鎮新技術中心；縣府公告未列確切街道門牌。",
+        "en": "Project site: Zhunan Township, Miaoli County, Taiwan; an exact street address was not provided."
+      },
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "設備；材料；晶圓；封裝；測試；工廠；人才；投資",
+          "en": "Equipment; materials; wafers; packaging; testing; factories; talent; investment"
+        },
+        "chain": {
+          "zh": "蝕刻與沉積設備研發、製程驗證至晶圓及先進封裝",
+          "en": "Etch and deposition R&D and qualification through wafer and packaging processes"
+        },
+        "changes": {
+          "investment": {
+            "zh": "全球五年研發投資逾 30 億美元，台灣新中心單獨額度未公布。",
+            "en": "Global five-year R&D investment exceeds US$3 billion; the Taiwan site amount is not itemized."
+          },
+          "demand": {
+            "zh": "新增的是研發實驗室規模計畫，未公布晶圓產能。",
+            "en": "The plan expands laboratory space, not announced wafer manufacturing capacity."
+          },
+          "fdi": {
+            "zh": "美商在台動土，但未披露此中心在 FDI 統計中的核准金額。",
+            "en": "The U.S. firm broke ground in Taiwan without a project-specific approved FDI value."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "實驗室支援晶圓蝕刻、沉積和先進封裝驗證流程。",
+            "en": "The laboratories support wafer etch, deposition and packaging validation."
+          },
+          "timing": {
+            "zh": "11 月 18 日動土，預計 2028 年啟用。",
+            "en": "Groundbreaking November 18; opening targeted for 2028."
+          },
+          "unknowns": {
+            "zh": "單獨投資、機台及各線驗收未披露。",
+            "en": "Site-specific investment, tool counts and acceptance remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "在台實驗室面積計畫增幅",
+            "en": "Planned Taiwan lab-space increase"
+          },
+          "current": 9,
+          "unit": "%",
+          "period": {
+            "zh": "2028 年新中心啟用後目標",
+            "en": "Target after 2028 opening"
+          },
+          "owner": {
+            "zh": "科林研發，苗栗縣政府轉述",
+            "en": "Lam Research, cited by Miaoli government"
+          },
+          "sourceUrl": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=1016200&sms=9462",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "官方數字為增加約 900%，current 以 9 表示 900% 的增幅，並非完工後總面積占比。"
+        },
+        {
+          "name": {
+            "zh": "技術中心規劃占地下限",
+            "en": "Site land-area lower bound"
+          },
+          "current": 40000,
+          "unit": "平方公尺",
+          "period": {
+            "zh": "2028 年規劃",
+            "en": "Planned 2028 site"
+          },
+          "owner": {
+            "zh": "科林研發，自由財經報導",
+            "en": "Lam Research, reported by Liberty Times"
+          },
+          "sourceUrl": "https://ec.ltn.com.tw/article/breakingnews/5645045",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓蝕刻 RF 電源、薄膜沉積控制與精密量測設備供應商而言，新實驗室預定增加研發驗證量能。仍需確認實驗設備類型、功率與量測規格、各年度資金，以及真正的客戶驗收時點。",
+        "en": "For etch RF power, deposition controls and precision metrology suppliers, the center targets expanded R&D validation. Equipment classes, power and measurement requirements, yearly spending and customer qualification remain to be established."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "hanke-systems-q4-2026-semiconductor-facilities-backlog",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "漢科公布在手訂單 150 億元，八成來自半導體客戶",
+        "en": "Hanke reports NT$15bn order backlog with 80% from semiconductor customers"
+      },
+      "summary": {
+        "zh": "漢科系統科技 11 月 18 日參加櫃買市場業績發表會，表示目前在手訂單 150 億元，其中約 80% 來自半導體客戶，工作範圍涉及高科技廠房廠務與算力設施。公司提及台灣、新加坡、美國、日本及德國據點，但未公布在手訂單的逐年認列、個別客戶或已驗收工程金額。",
+        "en": "Hanke Systems reported at a November 18 TPEx business briefing that its backlog was NT$15 billion, around 80% from semiconductor customers. The company provides facilities systems for high-tech manufacturing and compute infrastructure across Taiwan and overseas locations including Singapore. Timing of backlog recognition, customer-level contracts and completed acceptance were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "廠務供應鏈",
+            "en": "Factory utilities supply chain"
+          },
+          "text": {
+            "zh": "半導體與先進封裝擴產涉及廠務氣體、液體、配電、控制和安裝工程。漢科的在手訂單是未完成履約的工作範圍，不能直接等同已完成工程營收。",
+            "en": "Semiconductor and packaging capacity projects involve factory gases, fluids, electrical distribution, controls and installation. Backlog is a contracted work measure, not completed construction revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "客戶占比與工程時程",
+            "en": "Customer mix and timelines"
+          },
+          "text": {
+            "zh": "管理階層指出在手訂單 150 億元、約八成為半導體客戶，並預期部分 HBM、DRAM、載板及先進封裝擴建會延續至 2028 至 2029 年。後者為企業展望，未提供各工地完工和交付里程碑。",
+            "en": "Management reported NT$15 billion in orders on hand and approximately an 80% semiconductor mix, with certain HBM, DRAM, substrate and packaging projects expected through 2028–2029. Those expectations lack site-level completion and handover dates."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "正式認列期間、工程項目個別毛利、機櫃相關廠務支出及新加坡專案金額未披露。",
+            "en": "Revenue recognition periods, margins by project, rack-specific facility expenses and Singapore project amounts remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$15B",
+      "metricLabel": {
+        "zh": "已公告在手訂單",
+        "en": "Reported backlog"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 18 日漢科業績發表會",
+            "en": "CNA · November 18 Hanke business briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180186.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣；新加坡；美國；日本；德國",
+          "en": "Taiwan; Singapore; United States; Japan; Germany"
+        },
+        "industries": {
+          "zh": "設備；晶圓；記憶體；HBM；封裝；工廠；電力；資料中心；投資",
+          "en": "Equipment; wafers; HBM; memory; packaging; factories; power; data centers; investment"
+        },
+        "chain": {
+          "zh": "半導體及資料中心建廠廠務、氣液與電力設備工程",
+          "en": "Semiconductor and data-center facilities, gases, liquids and power systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "在手訂單屬已簽工程工作，未公告單獨新增股本投資。",
+            "en": "Backlog concerns contract work, with no separate new equity investment."
+          },
+          "demand": {
+            "zh": "公布 150 億元在手訂單，其中八成來自半導體客戶。",
+            "en": "Reported NT$15 billion backlog, 80% semiconductor-related."
+          },
+          "fdi": {
+            "zh": "海外服務據點已存在，未公布新增 FDI。",
+            "en": "Overseas service presence exists, with no new FDI value disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "廠務建設可支持晶圓、封裝與資料中心基礎設施。",
+            "en": "Facilities services support wafer, packaging and data-center infrastructure."
+          },
+          "timing": {
+            "zh": "11 月 18 日業績發表會首次說明目前訂單。",
+            "en": "Current backlog disclosed at the November 18 briefing."
+          },
+          "unknowns": {
+            "zh": "訂單履約期、個別工地與工程認列時點不明。",
+            "en": "Backlog fulfillment, project sites and recognition periods are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "在手訂單總額",
+            "en": "Order backlog"
+          },
+          "current": 15,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "截至 2026 年 11 月 18 日公司說法",
+            "en": "As stated November 18, 2026"
+          },
+          "owner": {
+            "zh": "漢科，中央社報導",
+            "en": "Hanke, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180186.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "半導體客戶訂單占比",
+            "en": "Semiconductor share of backlog"
+          },
+          "current": 0.8,
+          "unit": "%",
+          "period": {
+            "zh": "截至 2026 年 11 月 18 日公司說法",
+            "en": "As stated November 18, 2026"
+          },
+          "owner": {
+            "zh": "漢科，中央社報導",
+            "en": "Hanke, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180186.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓廠廠務控制、工業電源與環境量測設備供應商而言，漢科在手訂單反映工程服務已約定的規模。仍須確認個別工地、電力與氣液系統規格、施工進度和驗收，不能直接換算成特定設備需求。",
+        "en": "For fab utilities controls, industrial power and environmental metrology suppliers, Hanke's backlog represents contracted facility work. Site-level power/gas specifications, construction status and acceptance are required; backlog cannot be converted into specific instrument purchases."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "chiyau-sc26-200kw-two-phase-cooling",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "其曜 SC26 展示雙相直接液冷機架方案，宣稱單櫃最高 200kW 解熱能力",
+        "en": "Qisda affiliate Chiyau showcases two-phase rack cooling rated up to 200kW at SC26"
+      },
+      "summary": {
+        "zh": "佳世達集團旗下其陽科技 11 月 18 日宣布子公司其曜科技於美國芝加哥 SC26 展示雙相直接液冷機架方案，產品宣稱單機架最高 200kW 解熱能力。方案涵蓋智慧型冷卻液分配單元、相變微通道蓋板及無滴漏快接頭；公司未公布獨立實測條件、商業出貨台數或客戶驗收紀錄。",
+        "en": "On November 18, Qisda group company Chiyau announced a two-phase direct-liquid-cooling rack solution at SC26 in Chicago, claiming up to 200kW of heat removal per rack. Components include a CDU, phase-change microchannel cold plate and dripless connectors. Independent test conditions, commercial shipments and customer acceptance counts were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "機櫃液冷技術範圍",
+            "en": "Rack cooling system scope"
+          },
+          "text": {
+            "zh": "兩相直接液冷利用介電液相變傳熱，與單相水冷液迴路不同。其曜的技術模組包含動態冷卻控制、熱交換、流體分配與維護安全，不應直接將設計散熱能力視為已完成機房實際負載。",
+            "en": "Two-phase direct liquid cooling uses dielectric-fluid phase change, distinct from single-phase water loops. Chiyau describes dynamic control, heat exchange, distribution and service interfaces; a claimed cooling rating is not a measured operating data-center load."
+          }
+        },
+        {
+          "label": {
+            "zh": "SC26 展出與實際驗證",
+            "en": "SC26 exhibit and validation limits"
+          },
+          "text": {
+            "zh": "公司展示最高 200kW 整櫃解熱規格，未列出冷卻液流量、溫差、晶片發熱分布、測試標準及供電架構的完整數值。該宣稱為供應商產品規格。",
+            "en": "The claimed maximum 200kW cooling rating is a product specification. Coolant flow, temperature differential, chip heat distribution, benchmark standard and full rack electrical requirements were not provided."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實測散熱效率、可連續負載、客戶認證及量產出貨台數仍待核對。",
+            "en": "Measured cooling efficiency, sustained heat load, customer qualification and production deliveries remain unknown."
+          }
+        }
+      ],
+      "metric": "200kW",
+      "metricLabel": {
+        "zh": "單機架解熱能力規格上限",
+        "en": "Claimed per-rack cooling ceiling"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 其曜雙相液冷 SC26 展示",
+            "en": "CNA · Chiyau two-phase cooling exhibit"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180070.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "SC26 · 主辦單位場館資訊",
+            "en": "SC26 · Organizer venue details"
+          },
+          "url": "https://sc26.supercomputing.org/attendees/chicago/",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展示地點：美國伊利諾州芝加哥 McCormick Place，SC26 展會；未見其曜專屬攤位編號。",
+        "en": "Exhibition venue: SC26 at McCormick Place, Chicago, Illinois, United States; a booth number was not confirmed."
+      },
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "液冷；散熱；電源；伺服器；資料中心；零組件；設備",
+          "en": "Liquid cooling; thermal management; power; servers; data centers; components"
+        },
+        "chain": {
+          "zh": "伺服器機櫃冷卻液分配與兩相散熱系統至資料中心",
+          "en": "Rack coolant distribution and two-phase thermal systems through data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布此展示方案的單獨資本支出。",
+            "en": "No project-specific capex was disclosed."
+          },
+          "demand": {
+            "zh": "展示 200kW 產品規格，未公布商業出貨。",
+            "en": "A 200kW design rating was displayed without commercial shipments."
+          },
+          "fdi": {
+            "zh": "未公布新 FDI。",
+            "en": "No new FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣冷卻控制與流體分配技術用於高密度伺服器機櫃。",
+            "en": "Taiwanese cooling-control and distribution technology targets high-density server racks."
+          },
+          "timing": {
+            "zh": "11 月 18 日宣布於 SC26 展示。",
+            "en": "SC26 display announced November 18."
+          },
+          "unknowns": {
+            "zh": "額定工況、功耗及客戶驗收未公布。",
+            "en": "Rated test conditions, electrical loads and customer acceptance are not available."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "單機架宣稱最大散熱功率",
+            "en": "Claimed maximum cooling power per rack"
+          },
+          "current": 200,
+          "unit": "kW",
+          "period": {
+            "zh": "2026 年 SC26 展示",
+            "en": "SC26 2026 exhibit"
+          },
+          "owner": {
+            "zh": "其曜科技，中央社報導",
+            "en": "Chiyau, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180070.aspx",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對機櫃電源轉換、CDU 控制與精密熱量測設備供應商而言，200kW 為廠商宣稱的設計能力。需核對冷卻液、溫差、流量、電氣負載及長時運轉驗證，才能對應測試設備規格。",
+        "en": "For rack power, CDU controls and thermal metrology suppliers, 200kW is a vendor-stated design capacity. Coolant properties, temperature rise, flow, electrical load and sustained testing remain necessary to specify instruments."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "singapore-ai-chip-control-policy-response-2026-11-18",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：新加坡副總理回應美國晶片管制，稱正與企業評估影響",
+        "en": "Follow-up: Singapore deputy prime minister says firms are assessing U.S. advanced-chip controls"
+      },
+      "summary": {
+        "zh": "新加坡副總理顏金勇 11 月 18 日在新加坡金融科技節表示，政府正與企業討論美國新高階晶片出口規範的影響，並強調不允許企業利用新加坡業務規避他國法律。美國 11 月 16 日公布的規範已在 11/18 日報說明，本次新增的是新加坡政府的公開回應；未提供受影響的資料中心數量或許可申請結果。",
+        "en": "At Singapore FinTech Festival on November 18, Deputy Prime Minister Gan Kim Yong said authorities were working with businesses to assess new U.S. advanced-chip restrictions and would not tolerate evasion of other countries' laws through Singapore operations. The U.S. rule had already been covered in the November 18 edition; the new development is Singapore's public response, without data-center counts or licensing outcomes."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "法規與資料中心背景",
+            "en": "Regulatory and data-center context"
+          },
+          "text": {
+            "zh": "美國規範針對特定高階晶片輸往新加坡等目的地及向受管制客戶提供遠端算力，適用情況需依晶片型號、最終母公司及用途判定。新加坡的政策聲明尚無具體修訂本地法律的文字。",
+            "en": "The U.S. controls address specified chips shipped to named destinations and some remote compute services, with applicability depending on hardware, corporate ownership and end use. Singapore's statement did not itself enact a new domestic statute."
+          }
+        },
+        {
+          "label": {
+            "zh": "11 月 18 日官方說法與限制",
+            "en": "November 18 government statements"
+          },
+          "text": {
+            "zh": "顏金勇表示重視新加坡企業的國際信譽，政府與企業正在共同評估規範影響，違反適用法律者可能面臨行動。報導沒有公開特定晶片批次、受影響業者名單或已核准出口許可。",
+            "en": "Gan emphasized Singapore's international reputation and ongoing consultations with firms. CNA's report does not identify chip shipments, affected operators or license grants, so implementation effects cannot yet be quantified."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新加坡企業申請或取得出口許可數量、新增本地監管措施及現有機房可用晶片存量未公布。",
+            "en": "The number of applications or approvals, new local measures and installed chip inventories at Singapore data centers remain undisclosed."
+          }
+        }
+      ],
+      "metric": "法規評估",
+      "metricLabel": {
+        "zh": "新加坡回應進度",
+        "en": "Singapore response status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 新加坡副總理 11 月 18 日說法",
+            "en": "CNA · Singapore deputy PM remarks, November 18"
+          },
+          "url": "https://www.cna.com.tw/news/aopl/202611180146.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "發言活動：新加坡金融科技節，新加坡；報導未提供具體演講廳。",
+        "en": "Speaking event: Singapore FinTech Festival, Singapore; the report does not identify an exact hall."
+      },
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "新加坡；美國；台灣",
+          "en": "Singapore; United States; Taiwan"
+        },
+        "industries": {
+          "zh": "資料中心；算力；伺服器；晶圓；政策；投資",
+          "en": "Data centers; compute; servers; semiconductors; policy; investment"
+        },
+        "chain": {
+          "zh": "高階晶片及伺服器至新加坡資料中心與跨境遠端算力",
+          "en": "Advanced chips and servers through Singapore data centers and remote compute"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新的投資核准或取消。",
+            "en": "No new investment approval or cancellation was disclosed."
+          },
+          "demand": {
+            "zh": "政府正在評估新規影響，未報實際設備出貨變化。",
+            "en": "Government consultation is ongoing without shipment changes."
+          },
+          "fdi": {
+            "zh": "沒有新 FDI 金額。",
+            "en": "No new FDI value was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新加坡政府公開說明跨境出口管制與企業遵循立場。",
+            "en": "Singapore stated its position on cross-border export-control compliance."
+          },
+          "timing": {
+            "zh": "11 月 18 日公開談話，與 11 月 16 日美國規則公布分開。",
+            "en": "Public remarks on November 18, separate from the U.S. rule announcement November 16."
+          },
+          "unknowns": {
+            "zh": "具體許可、當地法令修正或實際運算資源減少未確認。",
+            "en": "Specific licenses, domestic law changes or reduced compute supply remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對伺服器供電、量測與資料中心控制設備供應商而言，此案涉及最終客戶、晶片來源及產品用途的合規紀錄。相關出口許可和地方執行細節尚待確認，無法從政策表態直接推估建設或設備訂單變化。",
+        "en": "For server power, metrology and data-center controls suppliers, the issue turns on end-user, chip origin and use-case documentation. License outcomes and local implementation remain unknown, so the policy remarks do not establish facility or tool-order changes."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "taiwan-photomask-pic-commercial-production-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台灣光罩披露已有 1 家矽光子客戶量產，規劃 2027 年建廠資本支出 5 至 10 億元",
+        "en": "Taiwan Mask says one photonic-IC customer is in production, with NT$0.5–1bn capex planned for 2027"
+      },
+      "summary": {
+        "zh": "台灣光罩於 11 月 17 日法說表示矽光子 PIC 業務已有 1 家客戶量產，另有其他客戶合作，並規劃 2027 年投資 5 至 10 億元擴充光罩產能。11 月 18 日公司另對媒體的營收及產能報導發布重大訊息，澄清 2027 年約 20% 營收成長等數字屬管理層對未來的努力目標，未形成已實現營收。",
+        "en": "Taiwan Mask said at its November 17 briefing that one photonic-IC customer has entered production and that it plans NT$0.5–1 billion in 2027 capital expenditure. On November 18, a reproduced material filing clarified that reported revenue and capacity ambitions, including roughly 20% revenue growth for 2027, are management goals rather than booked results."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "光罩製程與客戶狀態",
+            "en": "Photomask production and customer stage"
+          },
+          "text": {
+            "zh": "光子積體電路 PIC 與電子積體電路 EIC 的開發需要光罩製作和晶圓製程驗證。公司稱已有 1 家客戶量產，但未公布每月 PIC 光罩張數及該客戶產品營收。",
+            "en": "Photonic and electronic IC development uses masks and wafer-level qualification. Taiwan Mask reports one PIC customer in production without mask-volume or customer-revenue disclosure."
+          }
+        },
+        {
+          "label": {
+            "zh": "展望與澄清公告",
+            "en": "Guidance and filing clarification"
+          },
+          "text": {
+            "zh": "公司說明 2027 年資本支出預估 5 至 10 億元，新廠規劃仍須完成相關核准。11 月 18 日公司重訊明確指出媒體對 2027 年營收及產能展望是管理層個人對長期產業潛力的期待，實際績效以公開財務公告為準。",
+            "en": "The firm outlined NT$0.5–1 billion planned capex for 2027. Its November 18 material statement says media-reported 2027 revenue and capacity targets reflect management aspirations, with financial outcomes subject to official results."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新廠實際動工日、光罩月產能、PIC 客戶量產出貨量及日本 TCK 收購完成日期未公布。",
+            "en": "New-factory construction, monthly photomask output, PIC customer shipments and the completion of its Japan TCK acquisition remain unverified."
+          }
+        }
+      ],
+      "metric": "1 家",
+      "metricLabel": {
+        "zh": "宣稱已量產 PIC 客戶數",
+        "en": "PIC customers reported in production"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台灣光罩 11 月 17 日法說",
+            "en": "CNA · Taiwan Mask November 17 briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611170283.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "公開資訊觀測站重訊轉載 · 11 月 18 日媒體澄清",
+            "en": "Reproduced filing · November 18 guidance clarification"
+          },
+          "url": "https://newjust.masterlink.com.tw/z/zf/zfz/zfz_FB6084F4-C7DE-46E1-A0E2-53347A579726.djhtm",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣；日本",
+          "en": "Taiwan; Japan"
+        },
+        "industries": {
+          "zh": "晶圓；光罩；晶片設計；封裝；測試；設備；投資",
+          "en": "Wafers; photomasks; chip design; packaging; testing; equipment; investment"
+        },
+        "chain": {
+          "zh": "光罩製作至 PIC 晶圓製程和封裝前驗證",
+          "en": "Photomask production through PIC wafer processes and pre-package qualification"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2027 年規劃 5 至 10 億元資本支出，尚未形成付款。",
+            "en": "Planned 2027 capex NT$0.5–1 billion, not paid expenditure."
+          },
+          "demand": {
+            "zh": "公司稱 1 家 PIC 客戶量產，2027 年本業營收成長 20% 屬期望值。",
+            "en": "One PIC customer reportedly in production; 20% 2027 business growth is a goal."
+          },
+          "fdi": {
+            "zh": "日本 TCK 收購此前公告，尚未確認交割；未新增 FDI。",
+            "en": "The previously announced Japan TCK acquisition awaits confirmation; no new FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "矽光子光罩客戶量產與未來投資屬不同進度。",
+            "en": "PIC customer production and future capex are distinct stages."
+          },
+          "timing": {
+            "zh": "11 月 17 日法說，11 月 18 日重訊澄清未來目標。",
+            "en": "Briefing November 17; guidance clarification filing November 18."
+          },
+          "unknowns": {
+            "zh": "精確 PIC 出貨及各項計畫是否落實仍未公布。",
+            "en": "PIC shipment volumes and actual execution of plans remain unreported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "已量產 PIC 客戶",
+            "en": "PIC production customer count"
+          },
+          "current": 1,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月法說",
+            "en": "November 2026 briefing"
+          },
+          "owner": {
+            "zh": "台灣光罩，中央社報導",
+            "en": "Taiwan Mask, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170283.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年資本支出規劃下限",
+            "en": "2027 planned capex low end"
+          },
+          "current": 0.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 plan"
+          },
+          "owner": {
+            "zh": "台灣光罩，中央社報導",
+            "en": "Taiwan Mask, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170283.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年資本支出規劃上限",
+            "en": "2027 planned capex high end"
+          },
+          "current": 1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 plan"
+          },
+          "owner": {
+            "zh": "台灣光罩，中央社報導",
+            "en": "Taiwan Mask, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611170283.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對光罩檢測、晶圓製程設備電源及矽光子量測供應商而言，一家客戶進入量產是具體進度。仍須取得 PIC 掩模尺寸、月出貨、製程良率及新廠設備驗收，預測收入和資本支出不宜視為已實現交易。",
+        "en": "For photomask inspection, wafer process-power and silicon-photonics metrology suppliers, one production customer is a concrete milestone. PIC mask size, monthly shipments, yields and new-factory qualification remain unknown; capex and growth expectations are not transactions."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "allring-junhua-zhubei-land-acquisition-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "均華精密核准竹北兩筆土地取得案，總額約 14.99 億元",
+        "en": "All Ring Tech approves two Zhubei property acquisitions totaling about NT$1.499bn"
+      },
+      "summary": {
+        "zh": "半導體封測設備廠均華 11 月 18 日董事會核准取得新竹縣竹北市泰和段兩筆土地及部分建物，交易金額分別為 8.2688 億及 6.7221 億元，合計約 14.99 億元。公告用途為長期營運及空間規劃，尚未核定或披露新增封測設備產能、投產時點及建廠工程預算。",
+        "en": "All Ring Tech's board approved two property purchases in Zhubei, Hsinchu County, on November 18: NT$826.88 million and NT$672.21 million, totaling about NT$1.49909 billion. The company describes long-term operating and space planning, without disclosing a new equipment factory's output, commissioning date or construction budget."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "設備與工廠用地背景",
+            "en": "Equipment and property context"
+          },
+          "text": {
+            "zh": "均華業務涉及半導體封裝黏晶設備及組裝測試自動化。兩筆交易屬土地及部分建物取得，不可直接將買地金額當成新產線機台投資。",
+            "en": "All Ring Tech supplies semiconductor die-bonding and back-end automation equipment. The transactions are real estate acquisitions and do not establish equipment-tool spending."
+          }
+        },
+        {
+          "label": {
+            "zh": "兩筆公告數據與加總",
+            "en": "Transaction amounts and reconciliation"
+          },
+          "text": {
+            "zh": "第一筆泰和段土地 6,667.13 平方公尺，總價 826,880,000 元；第二筆土地 4,582.18 平方公尺，總價 672,210,000 元。兩案合計 1,499,090,000 元，這是兩個不同標的的數學加總。",
+            "en": "The first parcel is 6,667.13 square meters at NT$826.88 million; the second includes 4,582.18 square meters of land and buildings at NT$672.21 million. Together they total NT$1,499.09 million across distinct properties."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "土地移轉完成、廠房規格、正式擴產計畫、設備裝機及客戶驗收日期均未公布。",
+            "en": "Land closing, facility specifications, approved expansion plans, tool installation and customer acceptance dates remain unknown."
+          }
+        }
+      ],
+      "metric": "NT$1.499B",
+      "metricLabel": {
+        "zh": "兩筆土地與建物核准總額",
+        "en": "Combined approved property consideration"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "非凡新聞 · 轉載均華首筆交易重大訊息",
+            "en": "USTV · Reproduced first property filing"
+          },
+          "url": "https://news.ustv.com.tw/companynews/272426",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "合作金庫證券 · 轉載均華第二筆交易重訊",
+            "en": "TCS Securities · Reproduced second filing"
+          },
+          "url": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_3693BFA0-1EB6-4693-8B92-E8CD932E31F7.djhtm",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 均華竹北購地報導",
+            "en": "Economic Daily · Zhubei acquisitions"
+          },
+          "url": "https://money.udn.com/money/story/5612/9887201?from=edn_newest_index",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "取得標的：台灣新竹縣竹北市泰和段兩處土地及建物；公告以地號識別，沒有附一般街道地址。",
+        "en": "Asset sites: two properties in Taihe Section, Zhubei, Hsinchu County, Taiwan; cadastral parcels are specified without conventional street addresses."
+      },
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；封裝；封測；測試；工廠；自動化；投資",
+          "en": "Equipment; packaging; testing; factories; automation; investment"
+        },
+        "chain": {
+          "zh": "半導體封裝設備企業取得廠房用地至可能的後續工廠建設",
+          "en": "Semiconductor packaging tool supplier acquires land for potential future factory use"
+        },
+        "changes": {
+          "investment": {
+            "zh": "兩筆核准交易總額約 14.99 億元，未公布新機台採購支出。",
+            "en": "Two approved transactions total approximately NT$1.499 billion; no new tool-purchase amount."
+          },
+          "demand": {
+            "zh": "尚未公布新增封裝設備的實際交付產能。",
+            "en": "No incremental packaging tool delivery capacity was disclosed."
+          },
+          "fdi": {
+            "zh": "沒有跨國新增 FDI 公告。",
+            "en": "No new cross-border FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "土地取得涉及半導體設備廠的空間規劃，不代表產線已建置。",
+            "en": "Property acquisition supports operating-space planning, not completed capacity."
+          },
+          "timing": {
+            "zh": "兩筆交易均於 11 月 18 日核准。",
+            "en": "Both transactions were approved November 18."
+          },
+          "unknowns": {
+            "zh": "新廠工程與實際設備交付仍未確認。",
+            "en": "Factory construction and tool deliveries remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第一筆土地取得價",
+            "en": "First parcel consideration"
+          },
+          "current": 0.82688,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 18 日核准",
+            "en": "November 18, 2026 approval"
+          },
+          "owner": {
+            "zh": "均華，重大訊息轉載",
+            "en": "All Ring Tech, reproduced filing"
+          },
+          "sourceUrl": "https://news.ustv.com.tw/companynews/272426",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第二筆土地及建物取得價",
+            "en": "Second parcel consideration"
+          },
+          "current": 0.67221,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 18 日核准",
+            "en": "November 18, 2026 approval"
+          },
+          "owner": {
+            "zh": "均華，重大訊息轉載",
+            "en": "All Ring Tech, reproduced filing"
+          },
+          "sourceUrl": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_3693BFA0-1EB6-4693-8B92-E8CD932E31F7.djhtm",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供精確且同口徑的比較基期，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體後段製程設備、精密量測及產線控制供應商而言，均華已核准增加用地資產，建廠與機台交付仍是未知事項。需要核對廠房施工時程、設備線別及產能驗收，不能從購地價推算設備收入。",
+        "en": "For semiconductor back-end equipment, metrology and production controls suppliers, All Ring Tech approved additional property but tool installation remains unknown. Construction timelines, tool lines and acceptance are necessary; land price is not equipment revenue."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "輝達第四季 1,300 億美元與第三季 1,158 億美元能直接當成同期間實績比較嗎？",
+        "en": "Are NVIDIA's Q4 US$130bn guidance and Q3 US$115.8bn directly comparable actuals?"
+      },
+      "text": {
+        "zh": "第三季是截至 10 月 25 日的已公布財報，第四季為尚未實現的預測，且 FY2027 第四季比一般季度多一週。",
+        "en": "Q3 is reported revenue for the quarter ended October 25. Q4 is forecast and contains an additional week."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "景碩產能 3.5 倍是否代表整家公司現在已增產 3.5 倍？",
+        "en": "Does the Kinsus 3.5-times figure mean its entire business has already expanded?"
+      },
+      "text": {
+        "zh": "該數值指桃園幼獅廠專供輝達的特定 ABF 載板產能目標，預定 2028 年第三季到位，當前實際增加的月片數未公布。",
+        "en": "The target refers to NVIDIA-dedicated ABF capacity at Taoyuan Youth campus, slated for Q3 2028. Actual incremental monthly output is undisclosed."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "矽品協議與輝達財報中的先進封裝出貨是同一指標嗎？",
+        "en": "Is SPIL's future packaging expansion the same measure as NVIDIA's existing shipments?"
+      },
+      "text": {
+        "zh": "矽品規劃 2029 年中產能增至三倍，是未來封裝能力；輝達已出貨 Vera Rubin 為已發生的平台里程碑，兩者不能互相代換。",
+        "en": "SPIL's mid-2029 capacity plan is prospective packaging capability, while NVIDIA's shipped Vera Rubin platforms are current operational milestones. They should not be interchanged."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "同一供應鏈協議的既有部分",
+        "en": "Earlier components of related agreements"
+      },
+      "text": {
+        "zh": "輝達 10 月 21 日已公布京元電測試、欣興與 IBIDEN 載板，以及矽品光引擎擴充規劃。11 月 17 日新公告新增景碩特定載板協議和矽品先進封裝擴充細節，舊規劃保留明確公告日期。",
+        "en": "NVIDIA's October 21 release already covered KYEC testing, Unimicron and IBIDEN substrates, and SPIL optical-engine plans. The new November 17 announcement adds specific Kinsus substrate and SPIL packaging commitments; earlier plans retain their original announcement dates."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "展會重複介紹與股價評論",
+        "en": "Repeated exhibition descriptions and stock commentary"
+      },
+      "text": {
+        "zh": "11 月 17 日日報已收錄神雲、康舒等 SC26 相關展示；單純重複原規格與股價反應的報導不列為新事件。",
+        "en": "The November 18 edition already covered MiTAC, AcBel and other SC26 exhibits. Reposts of prior specifications and stock-price reactions were not treated as new events."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "輝達 FY2027 第四季指引含額外一週，且與第三季已實現營收分開。景碩 3.5 倍及矽品 3 倍均為未來特定產能目標；科林逾 30 億美元為全球五年研發計畫而非竹南單點投資。漢科訂單未揭露履約時程；均華交易細節主要依重訊轉載與媒體核對，尚未獨立取得交易所原始頁面。",
+    "en": "NVIDIA's FY2027 Q4 guidance includes an extra week and is separate from Q3 actuals. Kinsus' 3.5-times and SPIL's threefold figures are future, scope-specific capacity targets. Lam's more-than-US$3bn program is global, not Zhunan site-specific. Hanke backlog lacks a fulfillment schedule, and All Ring Tech property details were checked via reproduced filings rather than an original exchange filing page."
+  }
+}

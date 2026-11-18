@@ -1,9 +1,9 @@
 {
   "weekStart": "2026-11-15",
-  "generatedAt": "2026-11-17T12:25:15.430Z",
+  "generatedAt": "2026-11-18T11:12:47.682Z",
   "throughline": {
-    "zh": "本週半導體與伺服器供應鏈發布測試設備產能、記憶體通路與資料中心新管制，並有車載模組收購及 SC26 電源、液冷、儲存技術展示。",
-    "en": "This week's semiconductor and server supply chains reported test-equipment capacity, memory distribution, data-center controls, an automotive module acquisition and SC26 power, liquid-cooling and storage demonstrations."
+    "zh": "半導體與資料中心供應鏈本週公布在台載板、封裝、設備研發及廠務擴充，也揭露實際伺服器收入、冷卻設計規格與新的晶片管制立場。",
+    "en": "This week brought Taiwan substrate, packaging, equipment R&D and facilities expansion plans, alongside reported server revenue, cooling specifications and new chip-control positions."
   },
   "highlights": [
     {
@@ -14,8 +14,8 @@
         "en": "Advanced packaging, wafer equipment and cybersecurity"
       },
       "summary": {
-        "zh": "精材與台積電先前簽訂先進封裝產能外包協議，日月光路竹廠一期啟用。漢測與 ficonTEC 的測試合作及嘉晶復工已公布；11 月 16 日旺矽再說明探針擴產與 CPO 工程機驗證，台積電於 17 日發布年度供應商名單。",
-        "en": "Xintec and ASE reported packaging collaboration and construction, while Hermes and Jiajing updated testing and factory operations. WinWay described probe-capacity and CPO qualification plans on November 16, and TSMC named its annual supplier recipients on November 17."
+        "zh": "精材、日月光、漢測與旺矽等企業此前披露封裝、設備或產能進度。輝達 11 月 17 日新增景碩幼獅載板協議及矽品先進封裝擴充，科林 11 月 18 日竹南技術中心動土；相關倍數與啟用日期均是未來目標。",
+        "en": "Earlier stories covered Xintec, ASE, Hermes and WinWay in packaging and test. NVIDIA added Kinsus substrate and SPIL packaging agreements, and Lam Research broke ground in Zhunan on November 18. Capacity multipliers and opening dates remain targets."
       },
       "references": [
         {
@@ -45,6 +45,26 @@
         {
           "date": "2026-11-18",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 8
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 9
         }
       ]
     },
@@ -56,8 +76,8 @@
         "en": "Rack power, liquid cooling and server-system demonstrations"
       },
       "summary": {
-        "zh": "技嘉、光寶科、貝爾威勒及正文此前公布伺服器、電源、連接器及光模組進度。SC26 新增神雲 96 顆 GPU 液冷機櫃與康舒液冷電源展示，屬產品規格與概念驗證，未代表正式出貨。",
-        "en": "Gigabyte, Lite-On, Bellwether and Gemtek previously reported server, power, interconnect and optical progress. SC26 brought MiTAC's 96-GPU liquid-cooled rack and AcBel power-cooling exhibits, without production delivery confirmation."
+        "zh": "技嘉、光寶科及貝爾威勒先前公布伺服器、電源和互連產品進度，SC26 亦展示液冷機櫃。其曜 11 月 18 日新增最高 200kW 機櫃冷卻規格；該值屬產品宣稱，尚無具名客戶驗收。",
+        "en": "Gigabyte, Lite-On and Bellwether reported server, power and interconnect developments, alongside SC26 rack exhibits. Chiyau added a 200kW cooling design specification November 18, without customer qualification records."
       },
       "references": [
         {
@@ -83,6 +103,10 @@
         {
           "date": "2026-11-18",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 6
         }
       ]
     },
@@ -94,8 +118,8 @@
         "en": "Memory supply, SSD controllers and plant operations"
       },
       "summary": {
-        "zh": "台灣模組業者先前披露 DRAM 供貨安排，美光台中廠施工事故已明確限於受影響工區。大聯大 11 月 17 日說明記憶體逾半營收比重，慧榮則在 SC26 展示 Gen5、Gen6 企業級 SSD 控制器規格。",
-        "en": "Taiwan memory-module firms described DRAM allocation, while Micron's Taichung construction suspension covered the affected work area. WPG discussed its memory-heavy sales mix on November 17, and Silicon Motion exhibited Gen5/Gen6 enterprise SSD controllers at SC26."
+        "zh": "模組業者與大聯大說明記憶體供貨和營收結構，美光施工事故停工限於施工工區。輝達 FY2027 第三季資料中心營收達 1,076 億美元，Vera Rubin 已開始出貨，但台灣供應商個別機櫃數仍未公布。",
+        "en": "Memory module makers and WPG discussed supply mix, while Micron's incident affected a construction zone. NVIDIA reported US$107.6bn in FY2027 Q3 data-center sales and Vera Rubin shipments, without Taiwan supplier-specific rack counts."
       },
       "references": [
         {
@@ -117,6 +141,10 @@
         {
           "date": "2026-11-18",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 1
         }
       ]
     },
@@ -128,8 +156,8 @@
         "en": "Process sensors, PCS storage and factory power"
       },
       "summary": {
-        "zh": "日月光化學感測採購、燿華儲能工程及熙特爾三方 PCS 合作備忘錄屬不同商業狀態。迄今沒有可將這些項目的協議金額、運轉節費及新增儲能容量直接加總的同口徑資料。",
-        "en": "ASE's sensor order, Unitech's storage project and Xitel's three-party PCS memorandum represent different commercial stages. Their contract values, estimated savings and installed capacity cannot be combined as a single measure."
+        "zh": "日月光感測器採購、燿華儲能工程與熙特爾 PCS 合作計畫屬不同執行階段。漢科 11 月 18 日公布在手廠務工程訂單 150 億元，未披露逐專案履約收入與驗收。",
+        "en": "ASE's sensor orders, Unitech's battery project and Xitel's PCS memorandum represent separate commercial stages. Hanke reported NT$15bn backlog on November 18 without project-level revenue recognition or acceptance."
       },
       "references": [
         {
@@ -143,6 +171,10 @@
         {
           "date": "2026-11-17",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 5
         }
       ]
     },
@@ -150,12 +182,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "跨境投資、晶片管制與終端製造",
-        "en": "Cross-border investment, chip controls and end-use manufacturing"
+        "zh": "國際晶片管制、資本流向與終端製造",
+        "en": "International chip controls, capital flows and end-use manufacturing"
       },
       "summary": {
-        "zh": "先前已公布經濟部前十月投資核准統計與 GPU 算力池使用成果。美國 BIS 11 月 16 日公布新高階晶片輸出及遠端算力規範，11 月 17 日鴻海簽約擬收購 Sony 車用相機模組業務，兩案的生效與交割狀態均待後續文件確認。",
-        "en": "MOEA had reported approved investment and NSTC compute-pool usage. BIS published new advanced-chip and remote-compute controls on November 16, and Foxconn agreed to buy Sony's automotive camera-module business on November 17; commencement and deal closing require later confirmation."
+        "zh": "經濟部此前公布前十月投資核准統計，美國 BIS 新規及鴻海 Sony 車載相機交易仍待各自後續程序。新加坡副總理 11 月 18 日回應美國晶片管制，表示正與企業評估規範影響；目前沒有可核實的資料中心停工數量。",
+        "en": "MOEA previously published investment approvals, while U.S. BIS controls and Foxconn's Sony transaction await separate procedural milestones. Singapore's deputy prime minister responded November 18 that authorities were consulting firms, without quantified data-center disruptions."
       },
       "references": [
         {
@@ -185,6 +217,10 @@
         {
           "date": "2026-11-18",
           "storyId": 2
+        },
+        {
+          "date": "2026-11-19",
+          "storyId": 7
         }
       ]
     }
