@@ -11,7 +11,7 @@ const pct=(v,lang,signed=false)=>(signed&&v>0?'+':'')+num(v*100,lang,1)+'%';
 // Add new Chinese units here and cover them in the archived-edition test.
 const englishUnits={
  '個國家':'countries','針':'needles','顆':'chips','台':'units',
- '個核心':'cores','家':'companies','項':'items','張':'sheets',
+ '個核心':'cores','家':'companies','人':'people','項':'items','張':'sheets',
  '輪':'cycles','件':'cases','個機櫃':'racks','案':'projects',
  '個月':'months','股':'shares','處':'sites','條':'lines',
  '點':'points','公噸':'tonnes','人年':'person-years','架':'units',
@@ -56,8 +56,6 @@ export function formatMetric(m,lang){
   case 'JPY billion':return zh?num(v*10,lang,1)+' 億日圓':'¥'+num(v,lang)+'B';
   case '%':return pct(v,lang);
   case '個職缺':return zh?num(v,lang)+' 個職缺':num(v,lang)+' openings';
-  case '家':return zh?num(v,lang)+' 家':num(v,lang)+' companies';
-  case '人':return zh?num(v,lang)+' 人':num(v,lang)+' people';
   case 'wafers/month':return num(v,lang)+(zh?' 片／月':' wafers/month');
   case 'tonnes/year':return num(v,lang)+(zh?' 噸／年':' tonnes/year');
   case 'designs':return num(v,lang)+(zh?' 款晶片':' chip designs');
