@@ -25,14 +25,14 @@ const englishUnits={
  '公升／秒':'L/s','筆':'transactions','個職缺':'openings',
 };
 const directlyFormattedChineseUnits=new Set(['元','日圓','泰銖','倍','萬張/月']);
-export const hasEnglishMetricUnit=unit=>!/\\p{Script=Han}/u.test(unit)||Object.hasOwn(englishUnits,unit)||directlyFormattedChineseUnits.has(unit);
+export const hasEnglishMetricUnit=unit=>!/\p{Script=Han}/u.test(unit)||Object.hasOwn(englishUnits,unit)||directlyFormattedChineseUnits.has(unit);
 // Generic classifiers need context: "96 GPUs" and "12 servers" are more
 // informative than "96 chips" and "12 units" in the English interface.
 function englishUnit(m){
  const label=(m.name?.en||'').toLowerCase();
  switch(m.unit){
-  case '顆':return /\\bgpu/.test(label)?'GPUs':/\\bcpu/.test(label)?'CPUs':'chips';
-  case '台':return /server/.test(label)?'servers':/\\brack/.test(label)?'racks':/sensor|system/.test(label)?'systems':'units';
+  case '顆':return /\bgpu/.test(label)?'GPUs':/\bcpu/.test(label)?'CPUs':'chips';
+  case '台':return /server/.test(label)?'servers':/\brack/.test(label)?'racks':/sensor|system/.test(label)?'systems':'units';
   case '家':return /customer/.test(label)?'customers':/startup/.test(label)?'startups':/exhibitor/.test(label)?'exhibitors':/award|supplier|recipient/.test(label)?'suppliers':'companies';
   case '件':return /project/.test(label)?'projects':/invest|case/.test(label)?'cases':'items';
   case '項':return /model.*application/.test(label)?'models/applications':/qualification/.test(label)?'qualifications':'items';
@@ -57,8 +57,6 @@ export function formatMetric(m,lang){
   case 'JPY billion':return zh?num(v*10,lang,1)+' 億日圓':'¥'+num(v,lang)+'B';
   case '%':return pct(v,lang);
   case '個職缺':return zh?num(v,lang)+' 個職缺':num(v,lang)+' openings';
-  case '家':return zh?num(v,lang)+' 家':num(v,lang)+' companies';
-  case '人':return zh?num(v,lang)+' 人':num(v,lang)+' people';
   case 'wafers/month':return num(v,lang)+(zh?' 片／月':' wafers/month');
   case 'tonnes/year':return num(v,lang)+(zh?' 噸／年':' tonnes/year');
   case 'designs':return num(v,lang)+(zh?' 款晶片':' chip designs');

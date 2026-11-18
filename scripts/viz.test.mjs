@@ -58,7 +58,7 @@ test('every archived metric has a translated English unit',()=>{
    for(const item of story.metrics||[]){
     const context=entry.date+' story '+story.id+' unit '+item.unit;
     assert.ok(hasEnglishMetricUnit(item.unit),'Unsupported English unit: '+context);
-    assert.doesNotMatch(formatMetric(item,'en'),/\\p{Script=Han}/u,'Chinese characters in English figure: '+context);
+    assert.doesNotMatch(formatMetric(item,'en'),/\p{Script=Han}/u,'Chinese characters in English figure: '+context);
    }
   }
  }
