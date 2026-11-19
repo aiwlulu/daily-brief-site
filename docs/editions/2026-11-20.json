@@ -1,0 +1,1477 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-19T11:26:43.010Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣及東南亞的高階測試、晶圓材料、伺服器散熱與工廠電力",
+      "en": "Taiwan and Southeast Asian advanced test, fab materials, server cooling and factory power"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "高雄高階測試新基地與半導體特氣合資同日公布，台灣微電網及供電設備工程也揭露實際與規劃進度，另有晶圓成本與散熱設備指引。",
+    "en": "A Kaohsiung advanced-test project and specialty-gas joint venture were announced on the same day, alongside Taiwanese microgrid operations, energy-equipment construction, and updates on wafer costs and server cooling."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "日月光旗下福雷 11 月 19 日仁武 J 基地動土，規劃投資 2,489 億元，預計 2028 至 2029 年分期完成。",
+        "en": "ASE subsidiary Forei broke ground on its Renwu J project November 19, planning NT$248.9bn of staged investment through 2028–2029."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "銳澤與德國 Messer 簽特氣合資協議，先在台銷售電子級氣體，分裝及生產仍待後續計畫。",
+        "en": "Rayzher and Messer signed an electronic-gas joint venture, starting with Taiwan distribution before possible filling or local production."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "台塑新智能與立碁簽微電網合作協議，九處防災場域接近完工，太平島既有系統已運轉。",
+        "en": "Formosa Smart Energy and Ledlink signed a microgrid agreement; nine emergency sites are near completion and an earlier Taiping system is running."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "偉詮電稱已收到 2027 年晶圓代工漲價通知，規劃明年初調整產品售價，尚無確切幅度。",
+        "en": "Weltrend cited 2027 foundry pricing notices and plans product price revisions early next year, without a disclosed increase percentage."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "雙鴻第三季毛利率 25.65%，管理層預估 2027 年 ASIC 散熱產品比重成長，資本支出依訂單分期。",
+        "en": "Auras reported a 25.65% Q3 margin and forecast growth in ASIC cooling, with capex timing contingent on orders."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "ase-renwu-j-advanced-test-campus-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "日月光福雷仁武 J 基地動土，規劃投資 2,489 億元擴充高階測試",
+        "en": "ASE's Taiwan Forei breaks ground on Renwu J site, plans NT$248.9bn advanced-test investment"
+      },
+      "summary": {
+        "zh": "日月光投控旗下台灣福雷電子 11 月 19 日在高雄仁武產業園區為 J 基地新廠動土，規劃投資新台幣 2,489 億元，預計 2028 至 2029 年分期完成。公司估計 K、J 兩基地建成後合計可帶來年營收約 1,173 億元及 3,300 個就業機會，均屬未來情境；目前未提供新增晶片測試產能或客戶驗收數量。",
+        "en": "ASE subsidiary Taiwan Forei broke ground on its Renwu J advanced-test site in Kaohsiung on November 19, planning NT$248.9 billion in investment and phased completion in 2028–2029. ASE estimates that the K and J sites together could eventually generate NT$117.3 billion in annual revenue and 3,300 jobs; these are projections, with no new qualified chip-test capacity disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與上下游",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "高階晶片測試銜接晶圓製造、先進封裝及伺服器晶片驗收，建廠涉及測試機台、治具、供電、廠務、潔淨環境與自動化系統。J 基地是仁武新動土專案，與先前 K 基地的既有工程進度須分開。",
+            "en": "Advanced semiconductor test connects wafers and packaging to chip acceptance for compute systems. Factory development involves test equipment, fixtures, electrical power, utilities and automation. J is the newly groundbreaking site; K is an earlier project."
+          }
+        },
+        {
+          "label": {
+            "zh": "投資額與工程時間",
+            "en": "Investment and milestones"
+          },
+          "text": {
+            "zh": "11 月 19 日的 J 基地投資計畫為 2,489 億元，預定 2028 至 2029 年分期建置。先前 K 基地的 1,174.5 億元為另一項既有規劃，部分媒體對兩基地總投資引用不同數字；此處依可逐案核對金額分列，不將各報導合計混用。",
+            "en": "The J project is budgeted at NT$248.9 billion with staged construction in 2028–2029. K's earlier NT$117.45 billion plan is distinct. Published aggregate totals differ among reports, so the individual project amounts are kept separate."
+          }
+        },
+        {
+          "label": {
+            "zh": "未來營收與就業",
+            "en": "Projected economic indicators"
+          },
+          "text": {
+            "zh": "日月光預估 K、J 基地未來合計年營收約 1,173 億元、創造約 3,300 個工作機會。這些並非當季收入、人力實際聘用或完成的測試工站。",
+            "en": "ASE projects roughly NT$117.3 billion of combined annual revenue and around 3,300 jobs after both sites develop. Neither represents current-quarter sales, hires or completed test stations."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "J 基地逐期投入額、實際月測試片數、設備數量、稼動率、良率與客戶驗收尚未公開。",
+            "en": "J-site phased spending, monthly tested units, tool counts, utilization, yields and customer acceptance remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$248.9B",
+      "metricLabel": {
+        "zh": "仁武 J 基地規劃投資",
+        "en": "Planned Renwu J investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 仁武 J 基地動土及投資規劃",
+            "en": "CNA · Renwu J groundbreaking and investment"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611190122.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "工程場址及動土典禮：台灣高雄市仁武產業園區 J 基地。未取得園區內街道門牌。",
+        "en": "Project site and groundbreaking: J parcel, Renwu Industrial Park, Kaohsiung, Taiwan; exact street number was not disclosed."
+      },
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；封裝；封測；測試；設備；供電；工廠；自動化；投資",
+          "en": "Wafers; packaging; testing; equipment; power; factory automation; investment"
+        },
+        "chain": {
+          "zh": "晶圓及封裝晶片至高階測試、廠務與機台驗收",
+          "en": "Wafers and packaged chips through advanced test, facilities and tool acceptance"
+        },
+        "changes": {
+          "investment": {
+            "zh": "J 基地計畫投入新台幣 2,489 億元，並非已支付金額。",
+            "en": "NT$248.9 billion is planned for J, not recognized expenditure."
+          },
+          "demand": {
+            "zh": "K、J 合計未來年營收 1,173 億元為公司估計，無當前新產能數。",
+            "en": "NT$117.3 billion combined annual revenue is a forecast, not current output."
+          },
+          "fdi": {
+            "zh": "無新增可分列的外國直接投資。",
+            "en": "No separately disclosed new FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新測試園區工程將涉及設備、工廠供電及自動化供應鏈。",
+            "en": "The factory program spans testing tools, site power and automation."
+          },
+          "timing": {
+            "zh": "11 月 19 日動土，2028 至 2029 年分期建置。",
+            "en": "Groundbreaking November 19, with staged 2028–2029 completion."
+          },
+          "unknowns": {
+            "zh": "逐期付款、產能、測試設備與客戶驗收未公開。",
+            "en": "Phased payments, test capacity, tools and acceptance are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "J 基地計畫投資",
+            "en": "Planned J-site investment"
+          },
+          "current": 248.9,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 19 日規劃",
+            "en": "November 19, 2026 plan"
+          },
+          "owner": {
+            "zh": "日月光，中央社報導",
+            "en": "ASE, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190122.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "K、J 未來年營收預估",
+            "en": "Projected K-and-J annual revenue"
+          },
+          "current": 117.3,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "兩基地建成後預測",
+            "en": "Projected at combined buildout"
+          },
+          "owner": {
+            "zh": "日月光，中央社報導",
+            "en": "ASE, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190122.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "K、J 未來工作機會",
+            "en": "Projected jobs at K and J"
+          },
+          "current": 3300,
+          "unit": "人",
+          "period": {
+            "zh": "兩基地建成後預測",
+            "en": "Projected at combined buildout"
+          },
+          "owner": {
+            "zh": "日月光，中央社報導",
+            "en": "ASE, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190122.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對高階晶片測試電源、量測儀器、測試治具與廠務控制設備供應商而言，J 基地已進入土建階段，尚無逐工站驗收資訊。需核對測試平台、電氣負載、設備採購批次及良率資料；投資總額不能直接換算採購訂單。",
+        "en": "For chip-test power, instruments, fixtures and factory-control suppliers, J has begun construction but no station-level qualifications were provided. Platform types, electrical loads, purchasing phases and yields require confirmation; project capital does not equal tool orders."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "rayzher-messer-electronic-specialty-gases-jv-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "銳澤與德國 Messer 簽合資協議，電子級特氣先銷售後規劃分裝及在地生產",
+        "en": "Rayzher and Messer sign specialty-gas joint venture, starting with Taiwan distribution"
+      },
+      "summary": {
+        "zh": "台灣廠務系統商銳澤 11 月 19 日與德國 Messer 簽署合資及策略聯盟協議，將成立半導體電子級特殊氣體合資公司，由 Messer 主導營運、銳澤提供在地管理與客戶服務。雙方規劃先在台灣銷售特氣，再評估分裝及生產，後續市場包含美國、新加坡與馬來西亞；尚未公布實收資本、股權比例、訂單或完成的氣體產能。",
+        "en": "Taiwanese fab-utilities firm Rayzher signed a joint-venture and strategic-alliance agreement with Germany's Messer on November 19 for electronic specialty gases. Messer is to lead operations while Rayzher supplies local customer and safety services. The venture starts with Taiwan sales before considering local filling, production and overseas markets; capital contributions, ownership percentages, orders and built capacity were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "材料與晶圓製程供應鏈",
+            "en": "Specialty gases and process context"
+          },
+          "text": {
+            "zh": "電子級特氣用於半導體晶圓、蝕刻、沉積及封裝相關製程，需控制純度、容器、輸送管路與廠務安全。銳澤原本承接氣體二次配管及營運維護，合資將服務延伸到上游材料供應。",
+            "en": "Electronic-grade gases are used in wafer etch, deposition and related semiconductor processes, with purity, containers, piping and safety controls. Rayzher's existing work focuses on gas distribution and factory service; the venture adds upstream material supply."
+          }
+        },
+        {
+          "label": {
+            "zh": "業務分工及分期",
+            "en": "Operating model and phases"
+          },
+          "text": {
+            "zh": "Messer 負責全球供應及氣體製造技術，銳澤負責台灣市場開發、安全規範與在地營運。媒體引述先銷售、再分裝、最後視條件在地製造的三個階段，分裝與製造尚屬未來目標。",
+            "en": "Messer contributes global sourcing and gas production technologies; Rayzher handles customer development, safety and local service. Reports describe distribution first, potential local filling second and production as a later possibility."
+          }
+        },
+        {
+          "label": {
+            "zh": "合資與未完成事項",
+            "en": "Commercial status and limitations"
+          },
+          "text": {
+            "zh": "公司已簽署合資及策略聯盟契約，但各持股比率、資本額、正式公司登記完成日期與首批供貨合約並未全部公開。不能把合資成立意向當成在地工廠已投產。",
+            "en": "The parties signed a venture agreement, but complete capitalization, equity shares, registration timing and initial contracts are not public. The announcement does not establish operational local gas production."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "合資實收資本、股權比例、每種氣體產能、晶圓廠認證結果及新加坡、馬來西亞實際客戶均未知。",
+            "en": "Paid-in capital, equity shares, gas capacity, fab qualification and specific Singapore or Malaysia customers are unknown."
+          }
+        }
+      ],
+      "metric": "特氣合資",
+      "metricLabel": {
+        "zh": "半導體特氣合作狀態",
+        "en": "Electronic-gas venture status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 銳澤與 Messer 合資簽約",
+            "en": "CNA · Rayzher-Messer joint venture"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611190084.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 特氣合資合作分工",
+            "en": "Economic Daily · Specialty-gas venture responsibilities"
+          },
+          "url": "https://money.udn.com/money/story/5612/9888508?from=edn_related_storybottom",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣；德國；新加坡；馬來西亞；美國",
+          "en": "Taiwan; Germany; Singapore; Malaysia; United States"
+        },
+        "industries": {
+          "zh": "材料；設備；零組件；晶圓；封裝；工廠；電力；投資",
+          "en": "Materials; equipment; wafer fabs; packaging; factory utilities; investment"
+        },
+        "chain": {
+          "zh": "超高純度電子級氣體供應至晶圓及封裝廠務、製程設備",
+          "en": "High-purity electronic gases through fab utilities and process tools"
+        },
+        "changes": {
+          "investment": {
+            "zh": "已簽合資協議，未公布金額。",
+            "en": "A joint venture was agreed without disclosed capitalization."
+          },
+          "demand": {
+            "zh": "先進製程特氣供應合作，尚無實際新出貨量。",
+            "en": "Gas-supply plans without new shipment volumes."
+          },
+          "fdi": {
+            "zh": "德台合資的股權金額及國別投資分類未公開。",
+            "en": "The German-Taiwanese equity value and FDI classification are undisclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "特氣與配管服務串接晶圓廠材料及安全營運。",
+            "en": "Specialty gases and piping services connect material supply and fab safety."
+          },
+          "timing": {
+            "zh": "11 月 19 日簽約，分裝及生產待後續規劃。",
+            "en": "Signed November 19, with filling and production still future plans."
+          },
+          "unknowns": {
+            "zh": "正式資本、股權、產能及客戶驗證尚未公開。",
+            "en": "Capital, equity, output and customer qualification remain unknown."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對蝕刻與沉積 RF 電源、真空製程控制及氣體量測設備供應商而言，合作涵蓋材料純度、供應鏈追溯及安全管理。需確認氣體品類、分裝投產日期、流量規格及晶圓廠資格認定，單靠合資協議尚無法推算設備採購。",
+        "en": "For etch and deposition RF power, vacuum controls and gas metrology suppliers, the venture spans purity, traceability and safety. Gas types, filling dates, flows and fab qualifications are necessary; the agreement alone does not establish tool procurement."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "formosa-fset-ledlink-microgrid-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台塑新智能與立碁簽微電網協議，9 處防災場域接近完工、太平島已運轉",
+        "en": "Formosa Smart Energy and Ledlink sign microgrid agreement, with nine sites nearing completion"
+      },
+      "summary": {
+        "zh": "台塑新智能 11 月 18 日宣布與立碁電子簽署台灣微電網合作協議，兩家公司分工儲能設備與光電、公共工程整合。原廠指出 9 處校園與公共設施防災微電網接近完工，採 100kW、219kWh 系統；既有太平島工程使用 100kW、109kWh 儲能，搭配 160.23kW 光電及 500kW 柴油機並已上線，與未完工場域狀態不同。",
+        "en": "Formosa Smart Energy announced a microgrid cooperation agreement with Ledlink on November 18, combining battery systems with solar and public-works integration. Nine emergency microgrid sites using 100kW/219kWh systems are nearing completion. A previously commissioned Taiping Island project uses 100kW/109kWh storage, 160.23kW photovoltaics and a 500kW diesel generator; the operational and unfinished sites must be distinguished."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電力與終端設施背景",
+            "en": "Power and site infrastructure"
+          },
+          "text": {
+            "zh": "微電網結合儲能、太陽能、柴油發電、能源管理及保護開關，可於特定條件下支援關鍵負載。台塑新智能供應電芯與儲能系統，立碁提供光電及公共工程整合。",
+            "en": "Microgrids combine batteries, photovoltaics, diesel backup, energy management and protection devices to support critical loads under specified conditions. Formosa supplies batteries and storage systems while Ledlink integrates solar and public infrastructure."
+          }
+        },
+        {
+          "label": {
+            "zh": "新簽合作與既有上線實績",
+            "en": "New agreement and preexisting commissioning"
+          },
+          "text": {
+            "zh": "11 月 18 日新消息為兩家公司簽約，九處防災微電網仍接近完工。太平島 100kW／109kWh 儲能已上線，不能把太平島與九處的個別額定量直接相加成全部已投入運轉容量。",
+            "en": "The new November 18 event is the agreement. Nine emergency sites are near completion, whereas the 100kW/109kWh Taiping Island installation is already operating. The equipment ratings do not establish an aggregate installed capacity across sites."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "九處設施逐站實際驗收日期、運轉小時、備援負載及節省柴油的量化實測數據均未公布。",
+            "en": "Site-specific acceptance, operating hours, supported loads and measured diesel savings were not published."
+          }
+        }
+      ],
+      "metric": "9",
+      "metricLabel": {
+        "zh": "接近完工的防災微電網場域",
+        "en": "Emergency microgrid sites nearing completion"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台塑新智能 · 11 月 18 日合作原廠公告",
+            "en": "Formosa Smart Energy · November 18 official release"
+          },
+          "url": "https://www.fset.com.tw/newscolumn/news_column_2026111801.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 微電網簽約與實績",
+            "en": "CNA · Microgrid agreement and site details"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180079.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電源；電力；儲能；供電；工廠；終端；自動化；設備",
+          "en": "Power; electrical systems; storage; end-use sites; automation; equipment"
+        },
+        "chain": {
+          "zh": "電池儲能與太陽光電至微電網電力控制及終端",
+          "en": "Battery storage and photovoltaics through microgrid controls and site power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "合作協議未公布新總投資額。",
+            "en": "No new total investment value was provided."
+          },
+          "demand": {
+            "zh": "九處接近完工，太平島既有儲能系統已投入運轉。",
+            "en": "Nine sites are nearly finished; Taiping Island is operating."
+          },
+          "fdi": {
+            "zh": "無新 FDI 金額。",
+            "en": "No new FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "微電網涉及 PCS、電力品質及現場能源調度。",
+            "en": "Microgrids involve PCS, power-quality metrology and dispatch controls."
+          },
+          "timing": {
+            "zh": "11 月 18 日簽約；各場域的既有建置日期另計。",
+            "en": "Agreement November 18; earlier construction and commissioning dates differ."
+          },
+          "unknowns": {
+            "zh": "九處逐站完工與驗收資料尚缺。",
+            "en": "Site-by-site completion and acceptance remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "防災微電網場域數",
+            "en": "Emergency microgrid sites"
+          },
+          "current": 9,
+          "unit": "處",
+          "period": {
+            "zh": "截至 2026 年 11 月 18 日",
+            "en": "As of November 18, 2026"
+          },
+          "owner": {
+            "zh": "台塑新智能",
+            "en": "Formosa Smart Energy"
+          },
+          "sourceUrl": "https://www.fset.com.tw/newscolumn/news_column_2026111801.html",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "防災微電網儲能額定功率",
+            "en": "Emergency microgrid storage rating"
+          },
+          "current": 100,
+          "unit": "kW",
+          "period": {
+            "zh": "九處場域的採用規格",
+            "en": "Specification deployed across nine projects"
+          },
+          "owner": {
+            "zh": "台塑新智能",
+            "en": "Formosa Smart Energy"
+          },
+          "sourceUrl": "https://www.fset.com.tw/newscolumn/news_column_2026111801.html",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "太平島已上線儲能功率",
+            "en": "Commissioned Taiping storage power"
+          },
+          "current": 100,
+          "unit": "kW",
+          "period": {
+            "zh": "2026 年 11 月 18 日前已運轉",
+            "en": "Operating before Nov 18, 2026"
+          },
+          "owner": {
+            "zh": "台塑新智能",
+            "en": "Formosa Smart Energy"
+          },
+          "sourceUrl": "https://www.fset.com.tw/newscolumn/news_column_2026111801.html",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "太平島太陽光電額定功率",
+            "en": "Taiping PV nameplate power"
+          },
+          "current": 160.23,
+          "unit": "kW",
+          "period": {
+            "zh": "已上線微電網配置",
+            "en": "Commissioned microgrid configuration"
+          },
+          "owner": {
+            "zh": "台塑新智能",
+            "en": "Formosa Smart Energy"
+          },
+          "sourceUrl": "https://www.fset.com.tw/newscolumn/news_column_2026111801.html",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "太平島柴油發電機額定功率",
+            "en": "Taiping diesel generator rating"
+          },
+          "current": 500,
+          "unit": "kW",
+          "period": {
+            "zh": "已上線微電網配置",
+            "en": "Commissioned microgrid configuration"
+          },
+          "owner": {
+            "zh": "台塑新智能",
+            "en": "Formosa Smart Energy"
+          },
+          "sourceUrl": "https://www.fset.com.tw/newscolumn/news_column_2026111801.html",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對儲能 PCS、電力品質測試與站點供電控制設備供應商而言，太平島的已上線配置提供實際系統規格，九處場域則處於接近完工階段。仍需確認連續供電能力、驗收測試及實際節省柴油的量測，額定功率不能取代運轉績效。",
+        "en": "For PCS, power-quality metrology and site-power controls suppliers, Taiping provides commissioned system ratings while nine other sites are nearing completion. Backup duration, acceptance tests and measured diesel savings remain unverified; ratings do not establish operational performance."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "weltrend-2027-foundry-price-increase-iec60730",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "偉詮電稱接獲晶圓代工調價通知，規劃 2027 年初調整售價",
+        "en": "Weltrend reports foundry pricing notices and plans product price changes in early 2027"
+      },
+      "summary": {
+        "zh": "偉詮電 11 月 19 日表示，因晶圓代工廠通知明年調高代工價格，公司規劃 2027 年初調整部分產品售價；2026 年已因封測成本調升調價。前三季合併營收 34.53 億元、年增 30.64%，毛利率 31.88%，另公告 WT51F 微控制器系列配套故障檢測函式庫取得 IEC/UL 60730-1 Class B 安全認證；尚未公布明年漲幅。",
+        "en": "Weltrend said on November 19 that foundry suppliers had signaled 2027 price increases, prompting a plan to adjust some product prices early next year, after earlier 2026 changes responding to test and packaging costs. Nine-month revenue was NT$3.453 billion, up 30.64% YoY, with a 31.88% gross margin. It also disclosed an IEC/UL 60730-1 Class B safety certification for its WT51F MCU software library, but provided no 2027 price-increase percentage."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "晶圓代工與零組件背景",
+            "en": "Foundry and component background"
+          },
+          "text": {
+            "zh": "偉詮電的風扇馬達驅動 IC 與微控制器用於散熱及家電等終端，產品成本包含晶圓製造、封裝與測試。接獲代工價格通知是公司陳述，並不代表全部晶圓代工廠已調漲相同幅度。",
+            "en": "Weltrend's fan-motor drivers and MCUs are used in thermal-management and other end systems. Costs span foundry fabrication, packaging and test. Its supplier notices do not demonstrate uniform foundry price increases."
+          }
+        },
+        {
+          "label": {
+            "zh": "前三季數據與產品認證",
+            "en": "Nine-month results and certification"
+          },
+          "text": {
+            "zh": "公司前三季合併營收 34.53 億元、年增 30.64%，毛利率 31.88%，歸母淨利 9.04 億元。安全認證針對 WT51F 微控制器的配套軟體函式庫，不能直接視為整套伺服器液冷系統已通過驗收。",
+            "en": "Nine-month revenue was NT$3.453 billion, up 30.64%, with gross margin at 31.88% and attributable profit NT$0.904 billion. The Class B certification covers the WT51F MCU software library, not customer acceptance of a complete liquid-cooling rack."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "明年晶圓採購價格、產品調價幅度、客戶接受時間及液冷客戶採購數量尚未公開。",
+            "en": "2027 foundry prices, product price changes, customer acceptance dates and cooling-related shipments are undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$3.453B",
+      "metricLabel": {
+        "zh": "前九月合併營收",
+        "en": "Nine-month consolidated revenue"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 偉詮電代工成本、財報及認證說明",
+            "en": "CNA · Weltrend pricing, results and certification"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611190036.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；代工；封測；零組件；伺服器；電源；散熱；工廠",
+          "en": "Chip design; foundries; packaging and test; components; server cooling"
+        },
+        "chain": {
+          "zh": "晶片設計至晶圓代工、封測及伺服器風扇控制",
+          "en": "Chip design through wafer foundry and test to server fan control"
+        },
+        "changes": {
+          "investment": {
+            "zh": "沒有公告新資本支出。",
+            "en": "No new capex reported."
+          },
+          "demand": {
+            "zh": "2027 年售價調整屬公司計畫，未公布價格或新訂單。",
+            "en": "2027 product price changes are planned, without prices or orders."
+          },
+          "fdi": {
+            "zh": "未公告新的跨國股權投資。",
+            "en": "No new equity FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "晶圓與封測成本變動涉及終端風扇及控制 IC 供應鏈。",
+            "en": "Foundry and packaging costs affect fan and control IC supply."
+          },
+          "timing": {
+            "zh": "11 月 19 日公司說明；前三季財報是既有期間實績。",
+            "en": "Company spoke November 19; nine-month results cover an earlier period."
+          },
+          "unknowns": {
+            "zh": "調價幅度、採購成本與冷卻系統實際驗收未公開。",
+            "en": "Pricing, procurement cost and cooling-system qualification remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2026 年前三季營收",
+            "en": "Nine-month revenue"
+          },
+          "current": 3.453,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "偉詮電，中央社報導",
+            "en": "Weltrend, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190036.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.3064,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2026 年前三季歸母淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 0.904,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "偉詮電，中央社報導",
+            "en": "Weltrend, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190036.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2026 年前三季毛利率",
+            "en": "Nine-month gross margin"
+          },
+          "current": 0.3188,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "偉詮電，中央社報導",
+            "en": "Weltrend, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190036.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體製程電源、風扇控制與液冷測試設備供應商而言，成本與產品調價仍缺乏品項別數值。需查核代工費率、產品型號與認證適用範圍，不能從公司毛利率推出具體伺服器設備採購額。",
+        "en": "For process power, fan controls and cooling-test suppliers, pricing remains undisclosed by product. Foundry rates, device models and certification scope require verification; margins do not quantify server-equipment procurement."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "auras-asic-cooling-capex-2027",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "雙鴻公布第三季毛利率 25.65%，2027 年資本支出與 ASIC 產品組合仍屬預測",
+        "en": "Auras reports 25.65% Q3 gross margin and outlines 2027 ASIC-cooling expectations"
+      },
+      "summary": {
+        "zh": "雙鴻 11 月 18 日法說指出，2026 年第三季毛利率為 25.65%，比第二季下降 2.77 個百分點。董事長表示今年資本支出約 40 至 50 億元，預期明年支出規模相近，並預估 ASIC 客戶營收占比可能高於 GPU 平台；公司仍會按訂單決定設備投資時點，這些未來數字尚未實現。",
+        "en": "At its November 18 briefing, Auras reported a Q3 gross margin of 25.65%, down 2.77 percentage points QoQ. Management described roughly NT$4–5 billion of 2026 capex with a similar scale expected in 2027, and forecasts ASIC-related sales exceeding GPU-platform sales. Equipment spending will depend on orders; future mix and capex are not completed results."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "伺服器散熱與供應鏈背景",
+            "en": "Server cooling and supply chain"
+          },
+          "text": {
+            "zh": "雙鴻供應伺服器與 ASIC、GPU 平台的散熱零組件及液冷技術。董事長將 2027 年 ASIC 業務與新增雲端客戶連結，屬公司對產品組合與需求的預期。",
+            "en": "Auras supplies thermal components and liquid cooling to server platforms using ASICs and GPUs. Management's 2027 mix reflects a forecast concerning cloud customers."
+          }
+        },
+        {
+          "label": {
+            "zh": "財報實績與計畫",
+            "en": "Reported results and spending plans"
+          },
+          "text": {
+            "zh": "Q3 毛利率 25.65%，公司指出新設計試產成本及消費產品組合影響毛利；2026 年約 40 至 50 億元資本支出為公司估計，明年預計相當。工程建廠與機台實際購置將依訂單逐季調整。",
+            "en": "The 25.65% Q3 margin is realized, with trial-production costs and product mix cited as factors. Estimated 2026 capex of NT$4–5 billion and a similar 2027 amount are management plans; construction and tooling depend on subsequent customer orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "ASIC 與 GPU 平台的實際營收明細、新設備驗收、2027 年資本支出執行及液冷量產出貨數未知。",
+            "en": "ASIC/GPU revenue splits, tool acceptance, realized 2027 capex and liquid-cooling shipment volumes remain unknown."
+          }
+        }
+      ],
+      "metric": "25.65%",
+      "metricLabel": {
+        "zh": "第三季毛利率",
+        "en": "Q3 gross margin"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 雙鴻 11 月 18 日法說與散熱規劃",
+            "en": "CNA · Auras November 18 briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180243.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣；美國",
+          "en": "Taiwan; United States"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；電源；液冷；散熱；零組件；資料中心；投資",
+          "en": "Servers; ODM; power; liquid cooling; thermal components; data centers; investment"
+        },
+        "chain": {
+          "zh": "伺服器 ASIC/GPU 晶片熱管理至機櫃液冷與資料中心",
+          "en": "ASIC/GPU server thermal management through rack cooling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2026 年資本支出估 40 至 50 億元，2027 年預計相當，為公司計畫。",
+            "en": "2026 capex is estimated at NT$4–5bn, with a similar 2027 plan."
+          },
+          "demand": {
+            "zh": "ASIC 平台 2027 年營收占比高於 GPU 是管理階層展望。",
+            "en": "ASIC mix exceeding GPU in 2027 is a management forecast."
+          },
+          "fdi": {
+            "zh": "未公告新 FDI。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "GPU/ASIC 散熱設計與未來投資計畫需和已完成試產分開。",
+            "en": "GPU/ASIC cooling plans are distinct from completed product trials."
+          },
+          "timing": {
+            "zh": "11 月 18 日法說公布，第三季毛利已入帳。",
+            "en": "Briefing November 18; Q3 margin is realized."
+          },
+          "unknowns": {
+            "zh": "分平台實際營收與產能驗收、投資執行未公布。",
+            "en": "Platform revenues, qualified capacity and executed capex remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季毛利率",
+            "en": "Q3 gross margin"
+          },
+          "current": 0.2565,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180243.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "CNA reports a 2.77-percentage-point QoQ decline; no independently verified exact Q2 base is stored."
+        },
+        {
+          "name": {
+            "zh": "2026 年資本支出預估下限",
+            "en": "2026 capex guidance lower bound"
+          },
+          "current": 4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預估",
+            "en": "Full-year 2026 estimate"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180243.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2026 年資本支出預估上限",
+            "en": "2026 capex guidance upper bound"
+          },
+          "current": 5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年全年預估",
+            "en": "Full-year 2026 estimate"
+          },
+          "owner": {
+            "zh": "雙鴻，中央社報導",
+            "en": "Auras, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180243.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源、CDU、液冷控制與熱量測供應商而言，雙鴻的產品組合及資本支出都仍有客戶訂單條件。需取得平台額定功耗、機櫃冷卻能力、實際工廠機台與客戶驗收，不能以預估資本支出推算設備量。",
+        "en": "For server power, CDU, cooling control and thermal metrology suppliers, customer orders condition Auras' platform mix and capex. Rack thermal requirements, tooling and customer acceptances are needed before deriving equipment quantities."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "yatong-lida-macuoho-chiayi-energy-factory-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "亞通利大嘉義馬稠後綠能設備廠動土，規劃投資 4.4 億元",
+        "en": "Yatong Lida breaks ground on Chiayi energy-equipment plant with NT$440m plan"
+      },
+      "summary": {
+        "zh": "亞通利大能源 11 月 19 日在嘉義縣馬稠後產業園區舉行新廠動土，規劃投入新台幣 4.4 億元，建立發電設備構件製造、組裝與測試基地，預計一年多後完工量產。公司表示將把屏東據點遷往嘉義，尚未提供新增產能、正式開工後設備訂單及精確投產日。",
+        "en": "Yatong Lida Energy broke ground on a new plant in Macuoho Industrial Park, Chiayi County, on November 19. It plans NT$440 million for production, assembly and testing of energy-generation components, with initial operation expected in over a year. The company intends to relocate its Pingtung manufacturing site, but has not provided new capacity, equipment orders or an exact commissioning date."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電力設備與終端工廠",
+            "en": "Power equipment and end-use factories"
+          },
+          "text": {
+            "zh": "亞通利大提供能源及環保工程整合，產品涵蓋發電設備相關構件及測試。新廠位於嘉義產業園區，與半導體晶圓廠擴產尚無具名設備供貨關係。",
+            "en": "Yatong Lida provides energy and environmental engineering, with manufacturing plans for power-generation components and testing. The Chiayi site is not linked to a named semiconductor equipment order."
+          }
+        },
+        {
+          "label": {
+            "zh": "工程金額、場地與期程",
+            "en": "Investment, site and timing"
+          },
+          "text": {
+            "zh": "公司公布建廠預算 4.4 億元與動土進度。嘉義縣府另說明約 1 公頃基地及新廠完成後會遷移屏東原有製造活動，投資額是規劃而非已完工產值。",
+            "en": "The company disclosed NT$440m in proposed spending and a groundbreaking. The roughly one-hectare facility is intended to relocate existing Pingtung operations, so the budget is not realized output."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "廠房設備清單、額定產量、原屏東廠停用時程及已簽新設備訂單未公開。",
+            "en": "Equipment lists, nameplate output, Pingtung relocation dates and signed equipment orders remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$0.44B",
+      "metricLabel": {
+        "zh": "規劃建廠投資",
+        "en": "Planned factory investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 馬稠後綠能設備工廠動土",
+            "en": "CNA · Macuoho energy-equipment plant groundbreaking"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611190144.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "新廠及動土場地：台灣嘉義縣馬稠後產業園區後期園區；未取得廠房門牌。",
+        "en": "Factory site and ceremony: Macuoho Industrial Park expansion area, Chiayi County, Taiwan; street address undisclosed."
+      },
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；零組件；電力；供電；工廠；自動化；投資",
+          "en": "Equipment; components; electricity; power; end-use factories; investment"
+        },
+        "chain": {
+          "zh": "發電設備零組件製造、組裝測試及終端電力設施",
+          "en": "Power-generation components through assembly, testing and site electricity systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "新廠規劃投入 4.4 億元，仍屬工程預算。",
+            "en": "Planned factory investment is NT$440m."
+          },
+          "demand": {
+            "zh": "預計一年多後量產，未公布實際新增產量。",
+            "en": "Production is targeted for more than a year ahead; no incremental volume."
+          },
+          "fdi": {
+            "zh": "未公告新增 FDI。",
+            "en": "No new FDI disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "綠能發電設備基地涉及工業設備製造與電力設施。",
+            "en": "Energy equipment manufacturing connects industrial tools and electricity infrastructure."
+          },
+          "timing": {
+            "zh": "11 月 19 日動土，未來投產待建廠。",
+            "en": "Groundbreaking November 19; operation awaits construction."
+          },
+          "unknowns": {
+            "zh": "設備、產能及驗收未公告。",
+            "en": "Tools, capacity and acceptance are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "嘉義新廠投資規劃",
+            "en": "Chiayi factory investment plan"
+          },
+          "current": 0.44,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 19 日規劃",
+            "en": "November 19, 2026 plan"
+          },
+          "owner": {
+            "zh": "亞通利大，中央社報導",
+            "en": "Yatong Lida, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190144.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源轉換、發電設備測試及廠務控制供應商而言，工程案已進入動土階段，但設備細項不明。需要確認額定功率、產線配置、實際設備採購及驗收里程碑，建廠預算不能當成設備訂單。",
+        "en": "For industrial power conversion, energy equipment test and factory controls suppliers, construction has started but equipment detail is unknown. Rated power, line layouts and acceptance need verification; the plant budget does not establish purchase orders."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "youhui-optical-waveguide-packaging-materials-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "友輝將精密塗布延伸光波導與封裝材料，規劃 2027 至 2028 年放量",
+        "en": "Youhui plans optical-waveguide and packaging materials from its precision-coating technology"
+      },
+      "summary": {
+        "zh": "友輝 11 月 18 日線上法說表示，正以既有精密塗布技術投入光波導及半導體封裝材料，相關產品規劃於 2027 至 2028 年增加出貨，2027 年資本支出預計逾 3 億元。前三季歸母淨利 2.51 億元、每股盈餘 3.05 元，較去年同期下滑；新材料仍未公開客戶驗證結果及量產出貨數。",
+        "en": "At its November 18 briefing, Youhui said it was extending precision coating into optical waveguides and semiconductor packaging materials, targeting increased shipments during 2027–2028 and more than NT$300 million of 2027 capex. Nine-month attributable profit was NT$251 million with EPS of NT$3.05, down from last year; new-material customer qualifications and shipment volumes remain undisclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "材料製程與工廠定位",
+            "en": "Materials process and manufacturing"
+          },
+          "text": {
+            "zh": "友輝原本供應液晶背光模組聚光片，利用塗布與有機材料工藝拓展非顯示用途。公司指出大溪與竹南廠的產品方向不同，其中竹南開發半導體封裝材料。",
+            "en": "Youhui's established precision-coating business serves display optical films. It is extending coating processes to new organic materials, with the Zhunan site developing packaging materials and the Daxi site focused on passive-component-related products."
+          }
+        },
+        {
+          "label": {
+            "zh": "財務實績與未來目標",
+            "en": "Reported results and future targets"
+          },
+          "text": {
+            "zh": "2026 年前三季歸母淨利約 2.51 億元，EPS 3.05 元，較去年同期下降 19.9%。2027 年預估資本支出超過 3 億元，量產成長規劃在 2027 至 2028 年，目前未公布新材料的已接合約或驗收。",
+            "en": "Attributable profit for the first nine months was approximately NT$251m with EPS NT$3.05, down 19.9% year on year. Capex of more than NT$300m for 2027 and planned 2027–2028 product ramp are guidance without committed new-material orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "光波導規格、客戶測試結果、專屬產能及出貨時間仍未公開。",
+            "en": "Optical-waveguide specifications, customer test results, dedicated output and delivery schedules remain undisclosed."
+          }
+        }
+      ],
+      "metric": "2027–28",
+      "metricLabel": {
+        "zh": "預計新材料出貨放量期間",
+        "en": "Target ramp period"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 友輝線上法說與光波導規劃",
+            "en": "CNA · Youhui coating and photonics plans"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180306.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；零組件；封裝；測試；光通訊；工廠；投資",
+          "en": "Materials; components; packaging; optical networking; factories; investment"
+        },
+        "chain": {
+          "zh": "精密塗布材料至光波導與半導體封裝材料",
+          "en": "Precision-coated materials through optical waveguides and packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2027 年資本支出規劃超過 3 億元。",
+            "en": "Planned 2027 capex exceeds NT$300m."
+          },
+          "demand": {
+            "zh": "2027 至 2028 年放量為公司目標，尚無出貨數。",
+            "en": "2027–2028 ramp is a target without volume."
+          },
+          "fdi": {
+            "zh": "未公告新的跨境投資。",
+            "en": "No new cross-border investment was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "塗布工藝正延伸到晶片封裝及光學材料。",
+            "en": "Coating processes are being extended to semiconductor packaging and optics."
+          },
+          "timing": {
+            "zh": "11 月 18 日法說揭露計畫。",
+            "en": "Plans disclosed November 18."
+          },
+          "unknowns": {
+            "zh": "產品驗證、訂單量和產能未知。",
+            "en": "Qualification, orders and capacity are unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "前三季歸母淨利",
+            "en": "Nine-month attributable profit"
+          },
+          "current": 0.251,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "友輝，中央社報導",
+            "en": "Youhui, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180306.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年資本支出規劃下限",
+            "en": "Lower bound for 2027 capex plan"
+          },
+          "current": 0.3,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2027 年規劃",
+            "en": "2027 plan"
+          },
+          "owner": {
+            "zh": "友輝，中央社報導",
+            "en": "Youhui, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611180306.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公司稱 3 億多元，0.3 十億元僅為已知下限。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體封裝材料製程電源、精密塗布量測與光學測試設備供應商而言，新材料仍在客戶驗證及量產規劃階段。需確認光學規格、良率、專屬工站及客戶驗收，資本支出預估無法直接推算已採購機台。",
+        "en": "For packaging material process power, coating metrology and optical test suppliers, the products remain under qualification and future ramp planning. Optical specs, yields, dedicated lines and customer acceptance are needed before translating capex guidance to tool purchases."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "e-ink-cybersecurity-incident-2026-11-18",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "元太公告資訊系統疑遭網路攻擊，初估營運暫無重大影響",
+        "en": "E Ink discloses suspected cyberattack on information systems, says no material impact identified yet"
+      },
+      "summary": {
+        "zh": "電子紙廠元太 11 月 18 日發布重大訊息，指出公司資訊系統疑似遭受駭客網路攻擊，已啟動資安防禦及第三方調查，並準備依規定通報主管機關。公司初估營運暫無重大影響，但沒有披露受影響系統、資料種類、攻擊途徑或生產設備的獨立鑑識結果。",
+        "en": "E Ink disclosed a suspected cyberattack on its information systems on November 18, saying it had activated incident defenses, engaged third-party investigators and would report to regulators as required. Management's preliminary assessment found no material operating impact, but the affected systems, data types, intrusion path and any independent assessment of production equipment were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工廠與系統範圍",
+            "en": "Systems and production scope"
+          },
+          "text": {
+            "zh": "元太經營電子紙及材料製造，資訊系統與工廠 OT、產線控制有不同責任範圍。公司公告使用資訊系統遭疑似攻擊的表述，未宣稱生產機台已遭入侵，也沒有確認資料外洩。",
+            "en": "E Ink makes electronic-paper products and materials. Enterprise IT and manufacturing OT involve different systems. The disclosure refers to a suspected information-system attack, without establishing production-tool compromise or confirmed data exfiltration."
+          }
+        },
+        {
+          "label": {
+            "zh": "已採取措施與初步評估",
+            "en": "Response and preliminary assessment"
+          },
+          "text": {
+            "zh": "元太表示已啟動防禦機制並請外部技術公司協助調查，將依程序通報。所稱營運暫無重大影響為企業初步評估，仍待後續鑑識或主管機關公告。",
+            "en": "E Ink said defensive controls and external investigation were underway, with regulatory notification to follow applicable procedures. 'No material impact' is a preliminary company assessment pending investigative findings."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "受影響資產範圍、是否有資料外洩、復原成本、停機時長及調查結論尚未公布。",
+            "en": "Affected assets, data-loss determination, recovery costs, downtime and investigative conclusions remain undisclosed."
+          }
+        }
+      ],
+      "metric": "調查中",
+      "metricLabel": {
+        "zh": "資訊安全事件狀態",
+        "en": "Cybersecurity incident status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 元太重大訊息及初步調查",
+            "en": "CNA · E Ink cyber-incident disclosure"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611180336.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-18",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；工廠；自動化；終端；資訊安全",
+          "en": "Materials; factories; automation; end-use electronics; cybersecurity"
+        },
+        "chain": {
+          "zh": "電子紙製造工廠資訊系統與製程支援",
+          "en": "Information systems supporting electronic-paper manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告新增投資。",
+            "en": "No new investment disclosed."
+          },
+          "demand": {
+            "zh": "公司初估營運暫無重大影響，沒有確認出貨變化。",
+            "en": "Preliminary no-material-impact statement without quantified shipments."
+          },
+          "fdi": {
+            "zh": "未公告新 FDI。",
+            "en": "No new FDI."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "製造業資訊系統事件的營運範圍仍需鑑識釐清。",
+            "en": "The operational scope of the manufacturing IT incident is under investigation."
+          },
+          "timing": {
+            "zh": "11 月 18 日公告疑似攻擊。",
+            "en": "Suspected attack disclosed November 18."
+          },
+          "unknowns": {
+            "zh": "受影響系統、資料及工廠生產影響未確認。",
+            "en": "Affected systems, data and any production impacts remain unknown."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對電子材料製程電源、工廠控制與精密量測供應商而言，資訊系統事件需與產線 OT 的狀態分開調查。應查核系統隔離、設備日志、憑證與復原驗收，目前沒有證據可量化製程設備停機或採購影響。",
+        "en": "For electronics process power, factory controls and precision metrology suppliers, the IT incident must be distinguished from OT status. Isolation, tool logs, credentials and recovery acceptance need verification; there is no evidence to quantify tool downtime or procurement effects."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "日月光 2,489 億元是 J 基地獨立預算或 K、J 合計？",
+        "en": "Does ASE's NT$248.9bn refer to J alone or both Renwu sites?"
+      },
+      "text": {
+        "zh": "2,489 億元對應新動土 J 基地。K 基地先前另有投資規劃，兩基地合計金額在不同報導不一致，因此分列並保留差異。",
+        "en": "NT$248.9bn refers to the new J project. K is an earlier separate plan; published combined totals differ, so the individual figures are kept separate."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "銳澤與 Messer 合資是否代表電子級特氣已在台量產？",
+        "en": "Does the Rayzher-Messer venture mean electronic gases are already made locally?"
+      },
+      "text": {
+        "zh": "雙方簽約後預計先從供應銷售開始，後續才評估在地分裝與生產。實際資本、產能和晶圓廠客戶驗證資料未公布。",
+        "en": "The agreement begins with distribution; filling and local production are later possibilities. Capital, output and fab qualifications were not disclosed."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "九處防災微電網是否全部上線？",
+        "en": "Are all nine emergency microgrids already commissioned?"
+      },
+      "text": {
+        "zh": "原廠表示九處仍接近完工。已上線的是此前與立碁合作的太平島獨立專案，兩者的日期與系統容量不可混為一談。",
+        "en": "The nine sites were nearing completion. The separately commissioned Taiping Island project is an earlier installation, with different timing and ratings."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "投資額、廠房建設與量產",
+        "en": "Capital plans versus commissioned output"
+      },
+      "text": {
+        "zh": "高階測試 J 基地、嘉義綠能設備廠與微電網接近完工案的工程狀態不同；公司規劃投資、營收預測及已上線設備規格均按來源分別呈現。",
+        "en": "The Renwu test site, Chiayi energy plant and nearly completed microgrids are at different stages. Planned capital, forecasts and commissioned hardware are separately identified."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料備註",
+      "en": "Reference note"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "重複報導與未確認推論",
+        "en": "Duplicate coverage and unsupported extrapolation"
+      },
+      "text": {
+        "zh": "前一天已公布的輝達供應鏈產能協議及 SC26 展示重複介紹，未新增已驗收機台或出貨量者不另列。越南是否從美國晶片新規獲益的分析評論缺乏新成交或正式許可資料，僅保留原政策日期背景。",
+        "en": "Reposts of earlier NVIDIA capacity deals and SC26 exhibits without new accepted tools or deliveries were omitted. Commentary on Vietnam's possible benefits from U.S. chip controls lacks new contracts or license decisions and was not treated as a new operating event."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "日月光仁武 J 基地規劃額與 K、J 合計額在不同報導口徑不一致；只列可核對的個別金額及公司預估。銳澤與 Messer 合資未披露詳細資本、股權及量產數據。雙鴻、偉詮電及友輝的未來目標仍為公司預測，元太疑似資安攻擊的範圍與營運影響尚在調查。",
+    "en": "Published combined K/J investment figures differ; only identifiable individual project amounts and company forecasts are used. Rayzher-Messer equity and capacity details are undisclosed. Auras, Weltrend and Youhui figures for future periods remain management outlooks, and E Ink's suspected cybersecurity incident is still under investigation."
+  }
+}
