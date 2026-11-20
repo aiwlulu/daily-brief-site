@@ -1,0 +1,1762 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T12:55:01.672Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞半導體、伺服器系統、工廠供電及產業投資",
+      "en": "Taiwan and Southeast Asian semiconductors, server systems, factory power and industrial investment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣公布外銷訂單、製造業產值及封測擴產核准案，美國新晶片法規開始適用，東南亞資料中心與區域電網則分別揭露開發規模和電力合作安排。",
+    "en": "Taiwan reported export orders, factory output and packaging investment approvals; U.S. chip rules took effect, while Asia-Pacific data centers and regional power-grid partners disclosed development and cooperation plans."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "經濟部公布 10 月外銷訂單 1,238.2 億美元、年增 78.3%，資通訊和電子產品接單均增，但尚未等同出口實績。",
+        "en": "October export orders reached US$123.82bn, up 78.3% YoY, led by ICT and electronics; the figure measures orders, not delivered exports."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "福懋科斗六封測擴產計畫獲審查通過，擬投入近 111.9 億元、增加 583 個工作機會，量產尚未完成。",
+        "en": "Formosa Advanced Technologies' proposed NT$11.19bn packaging expansion cleared investment review, with 583 planned jobs and no commissioned capacity yet."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "美國 BIS 新規在 11/19 生效；台積電 11/20 確認依法遵循，部分對中停單範圍仍是媒體引述，尚無公司確認。",
+        "en": "The BIS rule took effect November 19; TSMC affirmed compliance November 20, while alleged China order suspensions remain anonymously sourced."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "雲豹能源稱台灣與亞太開發超過 10 座 AI 資料中心、規模逾 300MW，尚未揭露逐案併網與商轉資料。",
+        "en": "J&V Energy reports over ten AI data-center projects totaling more than 300MW in development, without site-level commissioning evidence."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "6G-FORMOSA 實驗網於竹東啟用，18 家產學研參與、累計服務 20 家驗測業者，屬研發測試設施。",
+        "en": "The Zhudong 6G-FORMOSA testbed launched with 18 partners and 20 firms supported, representing R&D testing rather than commercial deployment."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taiwan-october-2026-export-orders-electronics-ict",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "經濟部公布 10 月外銷訂單 1,238.2 億美元，電子與資通訊產品接單增加",
+        "en": "Taiwan October export orders reach US$123.82bn, led by electronics and ICT products"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 20 日公布，台灣 2026 年 10 月外銷訂單達 1,238.2 億美元，年增 78.3%；前十月累計 9,430.2 億美元、年增 58.6%。10 月電子產品接單 539.1 億美元，資訊通信產品接單 467.7 億美元，其中包含晶片、伺服器等產品，但接單金額尚不等同已完成出口或晶片驗收。",
+        "en": "Taiwan's Ministry of Economic Affairs reported US$123.82 billion of export orders for October on November 20, up 78.3% YoY, bringing January–October orders to US$943.02 billion, up 58.6%. October electronics orders were US$53.91 billion and ICT orders US$46.77 billion; order values covering chips and computing systems are distinct from completed exports and customer acceptance."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "產業背景與統計口徑",
+            "en": "Supply-chain context and statistical scope"
+          },
+          "text": {
+            "zh": "外銷訂單調查衡量台灣廠商接獲的海外訂單，涵蓋晶片設計、電子零組件、伺服器及通訊產品。若同一批商品跨境委外生產、出貨或銷售，外銷訂單與海關出口統計在期間、母體和認列方式上不同。",
+            "en": "Export-order surveys capture foreign orders received by Taiwanese firms, covering chip design, components, servers and communications. They differ from customs shipments in population, production location and timing."
+          }
+        },
+        {
+          "label": {
+            "zh": "已公布接單構成",
+            "en": "Reported October composition"
+          },
+          "text": {
+            "zh": "經濟部資料經中央社報導，10 月資訊通信產品 467.7 億美元、年增 107.2%；電子產品 539.1 億美元、年增 89.8%；機械產品 24.4 億美元、年增 36.3%。東協接單 287.8 億美元、年增 92.2%，不能和按產品分類數字相加，因兩者分類維度不同。",
+            "en": "CNA reports October ICT orders of US$46.77 billion, up 107.2%; electronics US$53.91 billion, up 89.8%; and machinery US$2.44 billion, up 36.3%. Orders from ASEAN reached US$28.78 billion, up 92.2%. Geographic and product categories overlap and must not be added together."
+          }
+        },
+        {
+          "label": {
+            "zh": "11 月預測與實績區分",
+            "en": "November guidance versus actual orders"
+          },
+          "text": {
+            "zh": "統計處對 11 月預估接單 1,150 億至 1,187 億美元，年增 57.6% 至 62.7%；相較之下 10 月和前十月為已公告統計。預估不構成已簽訂或已交付的逐公司設備採購。",
+            "en": "The statistics office forecast November orders between US$115.0 billion and US$118.7 billion, up 57.6%–62.7%. October and year-to-date values are reported statistics, while November remains an official estimate."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "個別廠商的出貨、晶圓測試及驗收金額未揭露，且尚未取得 11 月 20 日可逐欄核對的完整原始統計表。",
+            "en": "Firm-level shipments, chip-testing acceptance and customer receipts were not provided, and the complete original November 20 statistical table was not independently retrieved."
+          }
+        }
+      ],
+      "metric": "US$123.82B",
+      "metricLabel": {
+        "zh": "10 月外銷訂單",
+        "en": "October export orders"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經濟部 10 月外銷訂單統計",
+            "en": "CNA · MOEA October export-order statistics"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 10 月接單與前十月比較",
+            "en": "CNA · October and year-to-date orders"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200201.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣；東南亞；美國",
+          "en": "Taiwan; Southeast Asia; United States"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓；零組件；伺服器；整機；資料中心；設備；投資",
+          "en": "Chip design; wafers; components; servers; systems; data centers; equipment; investment"
+        },
+        "chain": {
+          "zh": "晶片及電子零組件至伺服器、資訊通信系統與海外訂單",
+          "en": "Chips and electronics through server and ICT systems to foreign orders"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布因本次統計新增的核准資本支出。",
+            "en": "No new capex approvals were associated with the statistical release."
+          },
+          "demand": {
+            "zh": "10 月外銷訂單 1,238.2 億美元、年增 78.3%，是訂單而非出貨。",
+            "en": "October orders were US$123.82bn, up 78.3%, measuring orders rather than deliveries."
+          },
+          "fdi": {
+            "zh": "無單獨新增的 FDI。",
+            "en": "No new FDI was reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "多個半導體、伺服器與設備環節的海外接單依統計分類揭露。",
+            "en": "The survey groups demand across semiconductor, server and equipment supply chains."
+          },
+          "timing": {
+            "zh": "11 月 20 日發布 10 月實績；11 月接單範圍屬預估。",
+            "en": "October actuals published November 20; November figures are forecasts."
+          },
+          "unknowns": {
+            "zh": "尚無逐供應商成交、完工及驗收基數。",
+            "en": "Vendor-level contracts, fulfilled shipments and acceptance are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "10 月外銷訂單",
+            "en": "October export orders"
+          },
+          "current": 123.82,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.783,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月電子產品接單",
+            "en": "October electronics orders"
+          },
+          "current": 53.91,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.898,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月資訊通信接單",
+            "en": "October ICT orders"
+          },
+          "current": 46.77,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.072,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月機械產品接單",
+            "en": "October machinery orders"
+          },
+          "current": 2.44,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.363,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "10 月東協地區接單",
+            "en": "October ASEAN-region orders"
+          },
+          "current": 28.78,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.922,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前十月外銷訂單",
+            "en": "Jan–Oct export orders"
+          },
+          "current": 943.02,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 1 至 10 月",
+            "en": "Jan–Oct 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.586,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "11 月外銷訂單預估下限",
+            "en": "November orders guidance, lower bound"
+          },
+          "current": 115,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月預估",
+            "en": "November 2026 forecast"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "11 月外銷訂單預估上限",
+            "en": "November orders guidance, upper bound"
+          },
+          "current": 118.7,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月預估",
+            "en": "November 2026 forecast"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200273.aspx",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓製程電源、伺服器電力及精密量測設備供應商而言，接單統計可用來核對產品與目的地需求的分布，但無法直接換算單一產品訂單。仍須向客戶確認設備品項、交貨時間、驗收及各家實際資本支出。",
+        "en": "For wafer process-power, server electricity and precision metrology suppliers, the figures separate orders by product and destination but cannot identify individual instrument purchases. Customer-specific equipment mix, shipment schedules, acceptance and executed capital spending remain unverified."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "formosa-advanced-technologies-douliu-ddr4-packaging-investment",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "福懋科技斗六封測擴產獲投資台灣方案審查通過，規劃投入近 111.9 億元",
+        "en": "Formosa Advanced Technologies' Douliu packaging expansion clears investment review, with NT$11.19bn planned"
+      },
+      "summary": {
+        "zh": "投資台灣事務所 11 月 20 日通過福懋科技在雲林斗六的封裝測試擴產，計畫投入近新台幣 111.9 億元，增加 DDR4 等產品封測代工與高階 IC 封測產線，預計新增 583 個本國工作機會。同日合計通過 5 案、新增規劃金額約 126 億元；這些是審查通過的投資計畫，尚未公開擴產後每月實際出貨或客戶驗收數量。",
+        "en": "Taiwan's investment office approved a proposed NT$11.19 billion Formosa Advanced Technologies packaging and test expansion in Douliu, Yunlin, on November 20. The project covers DDR4 and other mainstream products alongside advanced IC test, with 583 expected domestic jobs. Five plans totaling about NT$12.6 billion were approved the same day, but production and customer acceptance have not been reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "記憶體封測供應鏈",
+            "en": "Memory packaging and test context"
+          },
+          "text": {
+            "zh": "福懋科提供記憶體封裝、測試及模組委外服務。經濟部對 DDR4 供給的說明指出，上游原廠分配較多資源至 HBM 與 DDR5，是此次投資案的公司及政府背景判斷，未附各種記憶體的實際短缺位元數。",
+            "en": "Formosa Advanced Technologies provides packaging, test and module outsourcing for memory. The ministry attributes the DDR4 investment rationale to producers prioritizing HBM and DDR5, without quantifying bit-level shortages."
+          }
+        },
+        {
+          "label": {
+            "zh": "核准金額與工程地點",
+            "en": "Approved investment and site"
+          },
+          "text": {
+            "zh": "公司規劃於雲林斗六既有廠區擴充 DDR4 封測代工，另建置高階 IC 封測產線。投資額近 111.9 億元與預估新增 583 人屬申請案規劃，不代表已完成資本支出或正式聘僱。",
+            "en": "The expansion targets its existing Douliu campus. The near-NT$11.19 billion budget and 583 planned hires are project estimates, not completed spending or employment."
+          }
+        },
+        {
+          "label": {
+            "zh": "另案半導體材料投資",
+            "en": "Separate materials application"
+          },
+          "text": {
+            "zh": "經濟部同日表示合一特用材料規劃約 3.8 億元建置高純度合金靶材產線並回收使用後殘靶，預計增聘 84 人。這是另一家公司、另一類設備和材料專案，列於同日五案但不併入福懋科預算。",
+            "en": "A separate applicant, He Yi Specialty Materials, proposed around NT$380 million for high-purity sputtering targets and spent-target recycling, with 84 expected jobs. Its budget is part of the same five-plan announcement but not Formosa Advanced Technologies' own spending."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "斗六新增產線的正式開機、月封測量、資本支出支付進度及客戶驗收未公開；原始審查清冊未獨立取得。",
+            "en": "Commissioning dates, monthly packaging and test volume, spending disbursements and customer acceptance are not public. The original approval table was not independently retrieved."
+          }
+        }
+      ],
+      "metric": "NT$11.19B",
+      "metricLabel": {
+        "zh": "福懋科封測投資計畫",
+        "en": "Formosa Advanced Technologies planned investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 投資台灣五案與福懋科擴產",
+            "en": "CNA · Five approved investment plans"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200180.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 福懋科及靶材投資案",
+            "en": "Liberty Times · Packaging and target-material investments"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5647635",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "規劃投資廠址：台灣雲林縣斗六市福懋科技既有廠區；未取得具體廠房門牌。",
+        "en": "Planned factory site: Formosa Advanced Technologies' existing Douliu operations, Yunlin County, Taiwan; the specific building address was not verified."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "記憶體；DRAM；HBM；晶圓；材料；設備；封裝；封測；測試；工廠；投資",
+          "en": "Memory; DRAM; HBM; wafers; materials; equipment; packaging; test; factories; investment"
+        },
+        "chain": {
+          "zh": "DRAM 晶片至封裝測試與模組，以及靶材至晶圓製程設備",
+          "en": "DRAM chips through packaging and test; sputtering targets through wafer tools"
+        },
+        "changes": {
+          "investment": {
+            "zh": "福懋科計畫近 111.9 億元，五家合計約 126 億元，均屬審查通過的規劃。",
+            "en": "Formosa's plan is nearly NT$11.19bn; the five approvals total about NT$12.6bn. Both are proposed investments."
+          },
+          "demand": {
+            "zh": "擬擴充 DDR4 封測與高階 IC 封測，尚無正式新增產能。",
+            "en": "DDR4 and advanced IC testing are planned without a commissioned capacity figure."
+          },
+          "fdi": {
+            "zh": "屬境內企業投資方案，未提供新增外資金額。",
+            "en": "Domestic investment plans; no separate FDI amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "投資涉及記憶體晶片封測及上游半導體靶材製程。",
+            "en": "The plans concern memory testing and upstream sputtering-target production."
+          },
+          "timing": {
+            "zh": "11 月 20 日五案審查通過，量產與聘僱日期仍為未來事項。",
+            "en": "Five plans passed review November 20; production and hiring dates are prospective."
+          },
+          "unknowns": {
+            "zh": "月產能、驗收、各期付款及原始個案清冊未取得。",
+            "en": "Monthly capacity, acceptance, paid amounts and the source approval table are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "福懋科規劃投資",
+            "en": "Formosa packaging and test investment"
+          },
+          "current": 11.19,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 20 日審查通過",
+            "en": "November 20, 2026 approval"
+          },
+          "owner": {
+            "zh": "投資台灣事務所，中央社報導",
+            "en": "Invest Taiwan office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200180.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "報導用語為近 111.9 億元；本值為規劃近似額。"
+        },
+        {
+          "name": {
+            "zh": "當日五案投資規劃合計",
+            "en": "Five newly approved investment plans"
+          },
+          "current": 12.6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 20 日審查通過",
+            "en": "November 20, 2026 approval"
+          },
+          "owner": {
+            "zh": "投資台灣事務所，中央社報導",
+            "en": "Invest Taiwan office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200180.aspx",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "合計約 126 億元，包含福懋科方案。"
+        },
+        {
+          "name": {
+            "zh": "福懋科預計新增工作機會",
+            "en": "Planned Formosa domestic jobs"
+          },
+          "current": 583,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 11 月 20 日投資計畫",
+            "en": "November 20, 2026 investment plan"
+          },
+          "owner": {
+            "zh": "投資台灣事務所，中央社報導",
+            "en": "Invest Taiwan office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200180.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "靶材專案規劃投資",
+            "en": "Specialty target-material investment"
+          },
+          "current": 0.38,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 20 日審查通過",
+            "en": "November 20, 2026 approval"
+          },
+          "owner": {
+            "zh": "投資台灣事務所，中央社報導",
+            "en": "Invest Taiwan office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200180.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "靶材專案預計新增工作機會",
+            "en": "Planned target-material project jobs"
+          },
+          "current": 84,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 11 月 20 日投資計畫",
+            "en": "November 20, 2026 investment plan"
+          },
+          "owner": {
+            "zh": "投資台灣事務所，中央社報導",
+            "en": "Invest Taiwan office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200180.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對記憶體測試電源、製程量測與封測設備供應商而言，投資審查已列出封測和靶材製造方向。仍須確認客戶產品類型、實際設備採購與量產驗收，核准投資總額不足以分解為具體設備需求。",
+        "en": "For memory test-power, process metrology and packaging equipment suppliers, the approvals identify packaging, testing and target-material activities. Equipment procurement, customer product mix and production qualifications are still unknown; approvals cannot establish instrument demand."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "us-bis-remote-compute-controls-tsmc-customer-screening",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤：美國高階晶片遠端算力新規已生效，台積電回應將遵循適用法令",
+        "en": "Follow-up: U.S. advanced-chip remote-compute rule takes effect as TSMC affirms compliance"
+      },
+      "summary": {
+        "zh": "美國 BIS 高階晶片及遠端算力暫行最終規則刊登於 11 月 19 日聯邦公報，官方文件載明當日生效；台積電 11 月 20 日回應，已知悉新規並將遵守適用法令。路透引述知情人士稱部分中國客戶 16 奈米及以下製程訂單遭暫停，台積電表示不評論市場傳聞，停單的個別客戶及數量尚無公司確認。",
+        "en": "The U.S. BIS interim final rule on advanced semiconductors and remote computing was published in the Federal Register on November 19 and states an effective date of the same day. TSMC said on November 20 it was aware of the regulations and would comply with applicable law. Reuters sources alleged suspension of some China-linked orders at 16nm and below, which TSMC has not independently confirmed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "官方法規範圍與生效日期",
+            "en": "Published rule and effective date"
+          },
+          "text": {
+            "zh": "聯邦公報第 91 卷 74970 頁文件列出 2026 年 11 月 19 日正式生效，將特定高階晶片輸往星馬泰印等目的地與受管制企業透過海外資料中心取得算力等情況納入許可和終端使用者查核，並保有適用範圍與例外條件。",
+            "en": "The Federal Register, 91 FR 74970, states the rule took effect November 19. It introduces licensing and due diligence for specified advanced chips sent to named destinations and certain offshore compute supplied to restricted end users, with defined exceptions."
+          }
+        },
+        {
+          "label": {
+            "zh": "台積電回應與媒體指控區分",
+            "en": "TSMC confirmation versus anonymous-source reporting"
+          },
+          "text": {
+            "zh": "中央社 11 月 20 日引述台積電回應：公司已知 BIS 新規，將遵守適用法律，不評論市場傳聞。路透引述匿名人士報導可能涉及 16 奈米以下或 16 奈米製程、以及部分使用 HBM 與先進封裝的中國客戶。這些具體訂單停止範圍仍屬路透消息來源主張，不能當成台積電確認的停單清單。",
+            "en": "CNA quoted TSMC as acknowledging the BIS rule, promising compliance and declining comment on rumors. Reuters separately cited anonymous sources alleging affected 16nm-and-below designs and further restrictions involving HBM or advanced packaging. Those customer-level suspensions are not confirmed TSMC announcements."
+          }
+        },
+        {
+          "label": {
+            "zh": "對晶圓及封裝業務的適用界線",
+            "en": "Wafer and packaging boundaries"
+          },
+          "text": {
+            "zh": "實際許可判斷需查產品出口管制分類、終端客戶所在地及最終母公司、技術用途和供應鏈運送路徑。尚無公開資料可將規則直接換算成特定台灣晶圓廠或設備商的已取消訂單金額。",
+            "en": "License applicability depends on control classification, end-user headquarters and ownership, the compute use case and shipment paths. No verified Taiwan-specific cancellations or tool-order reductions have been quantified."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "路透所述受影響客戶、製程數量、已取得許可件數與實際晶片交貨變動，尚待正式文件。",
+            "en": "Affected customer identities, wafer volumes, license grants and actual delivery changes await documented evidence."
+          }
+        }
+      ],
+      "metric": "11/19",
+      "metricLabel": {
+        "zh": "BIS 新規官方生效日",
+        "en": "Effective date of the BIS rule"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Federal Register · 91 FR 74970 正式規則",
+            "en": "Federal Register · Published rule 91 FR 74970"
+          },
+          "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 台積電對 BIS 新規的回應",
+            "en": "CNA · TSMC response to BIS controls"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200096.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Reuters · 引述匿名人士的訂單報導",
+            "en": "Reuters · Anonymous-source order reporting"
+          },
+          "url": "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣；美國；新加坡；馬來西亞；泰國；印尼",
+          "en": "Taiwan; United States; Singapore; Malaysia; Thailand; Indonesia"
+        },
+        "industries": {
+          "zh": "晶圓；代工；晶片設計；HBM；封裝；測試；資料中心；算力；政策",
+          "en": "Foundry; chip design; HBM; packaging; test; data centers; compute; policy"
+        },
+        "chain": {
+          "zh": "晶片設計與代工、先進封裝至資料中心運算及跨境出口許可",
+          "en": "Chip design and foundry through packaging, data-center compute and licensing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "規則沒有直接公開新廠投資核准或取消金額。",
+            "en": "The rule did not report new investment or cancellation values."
+          },
+          "demand": {
+            "zh": "晶圓與算力交易的許可條件已公布，未量化實際停單規模。",
+            "en": "Licensing terms are published but order suspensions are not quantified."
+          },
+          "fdi": {
+            "zh": "沒有新的可確認 FDI 數值。",
+            "en": "No new confirmed FDI value."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "出口規則與供應商盡職調查涉及台灣晶圓製造及東南亞資料中心交易。",
+            "en": "Export controls and due diligence concern Taiwanese foundries and Southeast Asian compute trade."
+          },
+          "timing": {
+            "zh": "11 月 19 日聯邦公報生效；11 月 20 日台積電首次公開回應相關報導。",
+            "en": "The rule took effect November 19; TSMC responded publicly to the reports November 20."
+          },
+          "unknowns": {
+            "zh": "受影響客戶及實際訂單與貨物流向缺原始公開清單。",
+            "en": "Customer names and actual order and shipment evidence are not public."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對半導體製程電源、晶圓量測及資料中心電力設備供應商而言，新規涉及產品分類、最終使用者和跨境存取。仍須核對具體客戶許可文件、實際訂單及交付紀錄，匿名報導不能用來量化設備出貨變動。",
+        "en": "For process-power, wafer metrology and data-center electrical-equipment suppliers, the rule affects classification, end users and cross-border compute access. Customer licensing, contracted orders and shipment records remain essential; anonymous reporting does not quantify equipment-delivery changes."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "jetwell-energy-asia-ai-datacenter-development-pipeline",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "雲豹能源披露台灣與亞太 AI 資料中心逾 10 案、逾 300MW 開發規劃",
+        "en": "J&V Energy reports more than ten AI data-center projects exceeding 300MW in its Asia development pipeline"
+      },
+      "summary": {
+        "zh": "雲豹能源 11 月 19 日法說表示，於台灣與亞太地區推動超過 10 座 AI 資料中心開發專案，規模逾 300MW，並規劃於今年啟動統包建置；目前屬開發中案場，尚未列出逐案取得供電許可、簽訂施工或商用運轉的容量。公司前三季合併營收 51.87 億元，售電收入 27.82 億元。",
+        "en": "J&V Energy said at its November 19 briefing that more than ten AI data-center projects totaling over 300MW are under development in Taiwan and Asia-Pacific, with design-build work targeted to start during 2026. These are pipeline figures, not permitted or commissioned data-center load. Nine-month group revenue was NT$5.187 billion, including NT$2.782 billion of electricity sales."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "資料中心與電力基礎設施",
+            "en": "Data-center site-power context"
+          },
+          "text": {
+            "zh": "公司規劃結合綠電供應、儲能工程、能源管理與 AIDC 建置，服務項目延伸至算力租賃。300MW 為跨多個預計場址的開發規模，未說明是 IT 負載、全站用電或已取得併網核可的容量。",
+            "en": "The group proposes linking renewable electricity, storage, energy management, data-center construction and compute leasing. The 300MW figure spans planned sites; the release does not define it as commissioned IT load, grid-approved capacity or total site power."
+          }
+        },
+        {
+          "label": {
+            "zh": "已公布財務與儲能進度",
+            "en": "Reported operations versus project targets"
+          },
+          "text": {
+            "zh": "中央社引述公司前三季營收 51.87 億元，售電 27.82 億元、工程收入 15.30 億元。台普威在日本的 13 座併網儲能場址屬既有營運成果；台灣及亞太 AIDC 開發案的運轉收入未分列。",
+            "en": "CNA reports nine-month revenue of NT$5.187 billion, including NT$2.782 billion from electricity and NT$1.530 billion from engineering. Thirteen commissioned Japanese storage sites are existing operations, separate from prospective Taiwan/Asia data centers."
+          }
+        },
+        {
+          "label": {
+            "zh": "亞洲據點與尚未確認",
+            "en": "Asian operations and unresolved details"
+          },
+          "text": {
+            "zh": "公司表示越南及菲律賓光電專案已於今年第一季開始貢獻收入，與資料中心專案未必同址、同類型。尚無逐座資料中心地點、施工許可、用電協議、採購合約及實際併網資料。",
+            "en": "The company says solar projects in Vietnam and the Philippines began contributing revenue in Q1, separate from the data-center pipeline. Data-center locations, permits, power-purchase agreements, procurement and grid connections were not provided."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "逾 10 案的個別地點、正式負載口徑、資金承諾、確定施工及客戶驗收尚未公開。",
+            "en": "Individual site locations, load definitions, financing commitments, signed construction and customer acceptance remain undisclosed."
+          }
+        }
+      ],
+      "metric": ">300MW",
+      "metricLabel": {
+        "zh": "亞太 AI 資料中心開發規模下限",
+        "en": "Lower bound of Asia-Pacific AIDC development pipeline"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 雲豹能源 11 月 19 日法說",
+            "en": "CNA · J&V Energy November 19 briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611190341.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣；日本；越南；菲律賓；亞太地區",
+          "en": "Taiwan; Japan; Vietnam; Philippines; Asia-Pacific"
+        },
+        "industries": {
+          "zh": "資料中心；算力；供電；電源；液冷；儲能；電力；工廠；投資",
+          "en": "Data centers; compute; electric power; rack cooling; energy storage; factories; investment"
+        },
+        "chain": {
+          "zh": "綠電及儲能至資料中心供電、算力與場址工程",
+          "en": "Renewables and storage through data-center power, computing and construction"
+        },
+        "changes": {
+          "investment": {
+            "zh": "尚未分列每個 AIDC 開發案的確定投資額。",
+            "en": "No committed capex by data-center site was given."
+          },
+          "demand": {
+            "zh": "逾 10 案、逾 300MW 為公司在開發的規模，未形成商轉容量。",
+            "en": "More than ten projects exceeding 300MW are under development, not operational load."
+          },
+          "fdi": {
+            "zh": "海外專案涉及亞太市場，但沒有確認的新增股權型 FDI 總額。",
+            "en": "Projects span Asia-Pacific without a quantified new equity FDI total."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "資料中心建設與供電、儲能系統整合仍在不同開發階段。",
+            "en": "Data-center development and power and storage integration are at different stages."
+          },
+          "timing": {
+            "zh": "11 月 19 日法說公布，後續工程目標仍屬展望。",
+            "en": "The pipeline was disclosed November 19, with future construction still planned."
+          },
+          "unknowns": {
+            "zh": "逐站併網、IT 負載與已簽客戶合約未公布。",
+            "en": "Site-specific grid connections, IT load and contracted customers are unreported."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "AIDC 開發規劃負載下限",
+            "en": "AIDC pipeline load lower bound"
+          },
+          "current": 300,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 11 月 19 日法說",
+            "en": "November 19, 2026 briefing"
+          },
+          "owner": {
+            "zh": "雲豹能源，中央社報導",
+            "en": "J&V Energy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190341.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "公司稱規模逾 300MW，本數為下限，非已運轉容量。"
+        },
+        {
+          "name": {
+            "zh": "AIDC 開發案數下限",
+            "en": "AIDC projects in development, lower bound"
+          },
+          "current": 10,
+          "unit": "案",
+          "period": {
+            "zh": "2026 年 11 月 19 日法說",
+            "en": "November 19, 2026 briefing"
+          },
+          "owner": {
+            "zh": "雲豹能源，中央社報導",
+            "en": "J&V Energy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190341.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源稱超過 10 座，10 僅為下限。"
+        },
+        {
+          "name": {
+            "zh": "前三季合併營收",
+            "en": "Nine-month group revenue"
+          },
+          "current": 5.187,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "雲豹能源，中央社報導",
+            "en": "J&V Energy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190341.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季售電收入",
+            "en": "Nine-month electricity sales"
+          },
+          "current": 2.782,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "雲豹能源，中央社報導",
+            "en": "J&V Energy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190341.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "前三季工程收入",
+            "en": "Nine-month engineering revenue"
+          },
+          "current": 1.53,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 至 9 月",
+            "en": "Jan–Sep 2026"
+          },
+          "owner": {
+            "zh": "雲豹能源，中央社報導",
+            "en": "J&V Energy, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190341.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對資料中心電源轉換、PCS 儲能控制及精密電力測試供應商而言，開發中的 300MW 尚無可直接對照的併網電力與設備清單。需核對每個場址的 IT 與全站負載、建設合同、電力來源和設備驗收，才能確認實際需求。",
+        "en": "For site-power conversion, PCS controls and electrical metrology suppliers, the proposed 300MW has no site-by-site grid or equipment reconciliation. IT versus total site load, construction contracts, power sources and qualified systems remain unknown."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "taiwan-manufacturing-output-q3-2026-moea",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "經濟部公布第三季製造業產值 7.5079 兆元、年增 43.09%，電子零組件為主要成長來源",
+        "en": "Taiwan Q3 manufacturing output reaches NT$7.5079tn, up 43.09% YoY"
+      },
+      "summary": {
+        "zh": "經濟部統計處 11 月 19 日公布 2026 年第三季製造業產值 7 兆 5,079 億元、年增 43.09%；電子零組件業年增 52.18%，電腦電子及光學製品年增 129.78%。產值受產品價格及生產數量共同影響，若改看剔除價格因素的製造業生產指數，當季為 145.59、年增 23.14%，兩種指標不可互代。",
+        "en": "Taiwan's MOEA reported NT$7.5079 trillion of Q3 manufacturing output on November 19, up 43.09% YoY. Electronic components grew 52.18%, and computers, electronics and optical products grew 129.78%. The Q3 manufacturing production index was 145.59, up 23.14% YoY, a price-adjusted volume measure distinct from nominal output value."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "製造業與半導體範圍",
+            "en": "Manufacturing and semiconductor coverage"
+          },
+          "text": {
+            "zh": "整體製造業產值涵蓋電子零組件、電腦電子、化學、機械及其他產業，與先前 TSIA 公布的半導體產值涵蓋範圍不同。統計處將電子零組件及電腦電子相關變動與晶片、雲端基礎設施和設備投資連結，但未分別給出單一晶圓廠的產出。",
+            "en": "The total covers electronics, machinery, chemicals and broader manufacturing. It differs from TSIA's narrower semiconductor industry output. MOEA attributes part of the change to electronics and cloud infrastructure without fab-level output counts."
+          }
+        },
+        {
+          "label": {
+            "zh": "產值與產量分離",
+            "en": "Nominal output and physical production"
+          },
+          "text": {
+            "zh": "第三季積體電路產值年增 59.18%、機械設備年增 22.67%、化學材料及肥料年增 13.5%。製造業生產指數 145.59、年增 23.14%，較名目產值的 43.09% 不同；不能將兩者視為同一成長率或相加。",
+            "en": "IC manufacturing output value rose 59.18% YoY; machinery equipment 22.67% and chemicals and fertilizers 13.5%. The manufacturing production index grew 23.14%, against 43.09% growth in nominal output value, reflecting differing measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "原始產品別產值明細表及各企業實際產能、出貨和設備驗收並未逐項取得。",
+            "en": "The complete original category table and company-level capacity, shipments and tool acceptance were not independently obtained."
+          }
+        }
+      ],
+      "metric": "NT$7.5079T",
+      "metricLabel": {
+        "zh": "第三季製造業名目產值",
+        "en": "Q3 nominal manufacturing output"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 經濟部第三季製造業統計",
+            "en": "CNA · MOEA Q3 manufacturing statistics"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611190261.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "自由財經 · 製造業產值統計交叉報導",
+            "en": "Liberty Times · Manufacturing output cross-check"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5646869",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；半導體；零組件；伺服器；整機；設備；工廠；自動化；電力",
+          "en": "Wafers; semiconductors; components; servers; systems; equipment; factories; power"
+        },
+        "chain": {
+          "zh": "電子零組件與晶圓製造至伺服器、設備及終端工廠產值",
+          "en": "Electronic components and wafer processes through server and industrial production"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公告個別新資本支出。",
+            "en": "No project-level capex was announced."
+          },
+          "demand": {
+            "zh": "第三季名目產值年增 43.09%，製造生產指數年增 23.14%。",
+            "en": "Nominal output value rose 43.09%, while the production index rose 23.14% YoY."
+          },
+          "fdi": {
+            "zh": "未公告新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "統計反映已發生的製造活動，非公司新接訂單或未來產能。",
+            "en": "The statistics measure completed manufacturing activity rather than new orders or planned capacity."
+          },
+          "timing": {
+            "zh": "11 月 19 日發布第三季資料，與 11 月 20 日外銷訂單為不同統計。",
+            "en": "Released November 19 for Q3; different from November 20 export-order statistics."
+          },
+          "unknowns": {
+            "zh": "原始分項表與個別製程產出基數未獨立核對。",
+            "en": "The underlying full category table and process-specific output are not independently verified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季製造業產值",
+            "en": "Q3 manufacturing output"
+          },
+          "current": 7507.9,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190261.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.4309,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第三季製造業生產指數",
+            "en": "Q3 manufacturing production index"
+          },
+          "current": 145.59,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190261.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2314,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "電子零組件產值年增率",
+            "en": "Electronic components output growth rate"
+          },
+          "current": 0.5218,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190261.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "電腦電子及光學產值年增率",
+            "en": "Computer, electronics and optics output growth rate"
+          },
+          "current": 1.2978,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處，中央社報導",
+            "en": "MOEA statistics office, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611190261.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓製程電源、工業自動化與伺服器測試供應商而言，製造業產值與生產指數可供區分價格和實際生產活動。仍須核對各產品與工廠的產量、設備使用率和訂單，無法由總產值推估個別儀器需求。",
+        "en": "For wafer process-power, automation and server-test suppliers, nominal output and production indices offer distinct measures of prices and physical activity. Product-level throughput, utilization and customer orders are needed before inferring specific instrument demand."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "taiwan-itri-6g-formosa-test-network-commissioned",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台灣 6G-FORMOSA 實驗網在竹東啟用，18 家產學研參與、累計服務 20 家驗測業者",
+        "en": "Taiwan commissions 6G-FORMOSA test network with 18 partners and 20 users"
+      },
+      "summary": {
+        "zh": "工研院與經濟部、國科會 11 月 20 日在新竹竹東啟用 6G-FORMOSA 實驗網，結合 18 家國內外產學研夥伴、五項技術主題，並表示已協助 20 家業者進行技術驗測。示範包含手機直連衛星傳送訊息與通訊感測融合，屬研發測試環境，尚未等同正式 6G 商用部署或國際標準已定案。",
+        "en": "Taiwan's ITRI and government partners launched the 6G-FORMOSA test network in Zhudong on November 20, involving 18 research and industry partners across five technology themes and 20 firms receiving testing support. Demonstrations include direct satellite messaging and integrated sensing and communication. The facility is for R&D testing, not commercial 6G deployment or a finalized global standard."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "設備、晶片與測試鏈",
+            "en": "Communications components and testing chain"
+          },
+          "text": {
+            "zh": "實驗網串連聯發科、和碩、明泰、啟碁等通訊與電子系統參與者，提供 6G 晶片、網路設備、射頻量測、AI 無線接取網路及非地面網路的整合驗測。",
+            "en": "Participants include MediaTek, Pegatron and communications-equipment suppliers, covering chip and RF testing, AI radio networks and non-terrestrial connectivity."
+          }
+        },
+        {
+          "label": {
+            "zh": "已完成測試與後續計畫",
+            "en": "Completed demonstrations and next steps"
+          },
+          "text": {
+            "zh": "經濟部引述工研院說明，國內 20 家業者已使用平台驗測，並完成低空無人機偵測與衛星直連緊急訊息兩項跨國協作驗證；2027 年台歐 6G 聯合徵案仍是規劃。",
+            "en": "The program reports 20 users and two international demonstrations involving low-altitude drone detection and satellite-connected emergency messaging. A proposed 2027 Taiwan-EU 6G call remains planned."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "各項測試的 RF 誤差、晶片出貨量、設備採購價與商用網路驗收日期尚未揭露。",
+            "en": "RF accuracy, commercial chip shipments, test-equipment procurement values and network acceptance dates were not published."
+          }
+        }
+      ],
+      "metric": "18 家",
+      "metricLabel": {
+        "zh": "參與產學研夥伴",
+        "en": "Participating organizations"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 6G-FORMOSA 啟用現場",
+            "en": "CNA · 6G-FORMOSA launch report"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200279.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "iThome · 6G 實驗網測試進度",
+            "en": "iThome · 6G network validation details"
+          },
+          "url": "https://www.ithome.com.tw/news/180685",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "啟用活動及實驗網場址：台灣新竹縣竹東鎮工研院中興院區，中興路四段 195 號。",
+        "en": "Launch venue and network site: ITRI Zhongxing Campus, No. 195, Section 4, Zhongxing Road, Zhudong, Hsinchu County, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣；英國；歐盟；美國",
+          "en": "Taiwan; United Kingdom; European Union; United States"
+        },
+        "industries": {
+          "zh": "晶片設計；設備；零組件；伺服器；資料中心；測試；工廠；自動化",
+          "en": "Chip design; equipment; components; servers; data centers; testing; industrial automation"
+        },
+        "chain": {
+          "zh": "通訊晶片與射頻設備至實驗網、衛星終端及工業感測",
+          "en": "Communication chips and RF tools through trial networks, satellite terminals and industrial sensing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增晶片或測試設備投資總額。",
+            "en": "No new chip or test-tool capex total was disclosed."
+          },
+          "demand": {
+            "zh": "已啟用測試平台及 20 家業者驗測，未公布商用出貨。",
+            "en": "The test platform is active with 20 users, without commercial shipments."
+          },
+          "fdi": {
+            "zh": "跨國驗測合作已完成，未報新增股權型 FDI。",
+            "en": "Cross-border technical tests are completed, with no new equity FDI reported."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "已啟用的研發測試場涉及 RF 測試、通訊晶片與系統整合。",
+            "en": "The active testbed covers RF instruments, communication chips and system integration."
+          },
+          "timing": {
+            "zh": "11 月 20 日啟用；2029 年 3GPP 標準目標屬未來。",
+            "en": "Launched November 20; the expected 2029 3GPP standard is future work."
+          },
+          "unknowns": {
+            "zh": "缺個別測試工況、價格、量產與商用客戶驗收。",
+            "en": "Test conditions, costs and production qualifications are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "參與實驗網產學研夥伴",
+            "en": "Partner organizations"
+          },
+          "current": 18,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 20 日啟用",
+            "en": "November 20, 2026 launch"
+          },
+          "owner": {
+            "zh": "經濟部及工研院，中央社報導",
+            "en": "MOEA and ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200279.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "累計協助驗測業者",
+            "en": "Firms supported by network tests"
+          },
+          "current": 20,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 11 月 20 日",
+            "en": "As of November 20, 2026"
+          },
+          "owner": {
+            "zh": "經濟部及工研院，中央社報導",
+            "en": "MOEA and ITRI, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200279.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對射頻電源、精密量測與通訊設備測試供應商而言，竹東已形成跨國原型驗測場域。仍須取得各頻段、訊號品質與正式測試規範及客戶驗收，研發平台的參與數不能直接視為設備採購量。",
+        "en": "For RF power, precision metrology and communications test suppliers, the Zhudong facility is an active cross-border prototype testbed. Band-specific performance, formal protocols and customer acceptance remain necessary; organization counts do not establish tool orders."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "pegatron-2026-supplier-carbon-free-electricity-program",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "和碩表示 70 家關鍵供應商達成無碳能源專案目標，累計使用 4,097 萬度電力",
+        "en": "Pegatron says 70 key suppliers reached its carbon-free electricity target, with 40.97m kWh used"
+      },
+      "summary": {
+        "zh": "和碩 11 月 20 日公布，旗下無碳能源供應商計畫已有 70 家關鍵供應商達成專案設定的 100% 無碳能源使用目標，累計使用 4,097 萬度無碳電力。這是公司對參與供應商的計畫成果陳述，未公布每家廠商的測量期間、用電基數或第三方逐廠查核數據，不能直接理解為和碩全球所有供應商都使用 100% 無碳電力。",
+        "en": "Pegatron reported on November 20 that 70 selected key suppliers had met its program's 100% carbon-free electricity target, representing 40.97 million kWh of electricity use. These are company-reported program results, with no site-by-site measurement period, baseline or independent audit disclosed. The statement does not cover all Pegatron suppliers worldwide."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與電力範圍",
+            "en": "Supply-chain and electricity accounting"
+          },
+          "text": {
+            "zh": "和碩的供應鏈涵蓋電子組裝、車用電子、伺服器及零組件廠。無碳能源計畫是特定關鍵供應商的用電轉型，與當年度各供應商總能耗、保證書適用範圍及各電網供電方式仍應分開核對。",
+            "en": "Pegatron's suppliers span electronics assembly, automotive and server components. The program applies to selected suppliers and does not itself establish their total site electricity demand or accounting treatment by grid and certificate."
+          }
+        },
+        {
+          "label": {
+            "zh": "會議與披露數據",
+            "en": "Supplier meeting and disclosed results"
+          },
+          "text": {
+            "zh": "公司表示 11 月 13 日及 18 日與 SGS 舉行供應商活動，並於 20 日公布 70 家關鍵供應商及 4,097 萬度成果，另發布新版供應商行為準則及品質評鑑標準。數據是既有專案累計，無需視為 11 月 20 日新增的設備產能。",
+            "en": "Supplier events took place November 13 and 18 with SGS; the company disclosed the 70-supplier and 40.97-million-kWh program figures on November 20, along with updated supplier conduct and quality standards. The usage is cumulative rather than newly installed electrical capacity."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "專案逐廠用電基準期間、能源來源結構、獨立確信邊界與實際減碳量未完整公布。",
+            "en": "Per-site baseline periods, energy mix, assurance boundaries and measured emissions reduction are not fully published."
+          }
+        }
+      ],
+      "metric": "70 家",
+      "metricLabel": {
+        "zh": "無碳能源計畫關鍵供應商",
+        "en": "Key suppliers meeting the program target"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 和碩供應商無碳能源成果",
+            "en": "CNA · Pegatron carbon-free supplier program"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200278.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 轉述和碩供應商會議資訊",
+            "en": "MoneyDJ · Supplier meeting and program details"
+          },
+          "url": "https://5850web.moneydj.com/z/zf/zufzVIP_AA4A0026-D194-45F7-A977-2817864EA592_E_.djhtm",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣；東南亞及全球供應商",
+          "en": "Taiwan; Southeast Asian and other global suppliers"
+        },
+        "industries": {
+          "zh": "零組件；ODM；伺服器；工廠；電力；供電；自動化；投資",
+          "en": "Components; ODM; servers; factories; electricity; power; automation; policy"
+        },
+        "chain": {
+          "zh": "供應商工廠電力採購至伺服器與電子零組件供應鏈",
+          "en": "Supplier factory electricity through server and electronics components"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增電廠或供電設備資本支出。",
+            "en": "No new generation or electrical capex was reported."
+          },
+          "demand": {
+            "zh": "70 家關鍵供應商達到專案用電目標，未公布新增設備出貨。",
+            "en": "Seventy selected suppliers met the program target; no new equipment shipments were disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增 FDI。",
+            "en": "No new FDI was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "參與企業的電力使用與製造供應鏈碳管理有直接連結。",
+            "en": "Supplier electricity use is directly linked to manufacturing energy accounting."
+          },
+          "timing": {
+            "zh": "11 月 20 日公布累計成果，供應商會議舉行於 11 月 13 及 18 日。",
+            "en": "Cumulative results were disclosed November 20 after meetings on November 13 and 18."
+          },
+          "unknowns": {
+            "zh": "缺逐廠用電基準、查核方式及可比較減排數值。",
+            "en": "Site-level baselines, verification methods and comparable reductions are unavailable."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "達成專案目標關鍵供應商",
+            "en": "Key suppliers meeting CFE target"
+          },
+          "current": 70,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 11 月 20 日公布",
+            "en": "Reported by November 20, 2026"
+          },
+          "owner": {
+            "zh": "和碩，中央社報導",
+            "en": "Pegatron, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200278.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        },
+        {
+          "name": {
+            "zh": "累計無碳電力使用",
+            "en": "Cumulative carbon-free electricity"
+          },
+          "current": 40970000,
+          "unit": "kWh",
+          "period": {
+            "zh": "截至 2026 年 11 月 20 日公布",
+            "en": "Reported by November 20, 2026"
+          },
+          "owner": {
+            "zh": "和碩，中央社報導",
+            "en": "Pegatron, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200278.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未提供同口徑的精確基期數值，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源、工廠電能管理與電力品質量測供應商而言，和碩提供了參與者及累計用電數據。還需要各工廠電力負載、電能憑證、實體設備及查核範圍，才能比較相關系統部署；該計畫並未揭露機櫃或工具採購量。",
+        "en": "For server power, factory energy management and electrical metrology suppliers, Pegatron disclosed program participation and cumulative electricity usage. Site loads, certificates, equipment and assurance boundaries remain necessary; the program does not reveal rack or tool purchases."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "singapore-asean-grid-power-trade-policy-comment-nov20",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤：新加坡提出東協電網跨境電力交易願景，合作備忘錄此前已生效",
+        "en": "Follow-up: Singapore outlines ASEAN grid investment priorities after existing power-trade MoU"
+      },
+      "summary": {
+        "zh": "新加坡能源與工業部長陳詩龍於 11 月 13 日接受訪問，其談話於 11 月 20 日發布，說明政府希望 2027 年擔任東協主席時推進跨境電力交易，並保留各國優先供應國內需求的原則。東協增強版電網合作備忘錄已在 11 月 15 日完成簽署及生效，本次新增的是新加坡對區域電力合作與投資的公開說明，尚無具名輸電線路或新設備合約金額。",
+        "en": "Singapore's Minister for Energy and Industry Tan See Leng spoke to reporters on November 13, with the interview published November 20. He outlined a goal to advance ASEAN cross-border electricity trade during Singapore's 2027 chairmanship while respecting each member's domestic energy needs. The enhanced ASEAN Power Grid MoU had already entered into force on November 15; the new reporting covers Singapore's policy priorities, without named transmission projects or contracted equipment values."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "電網與資料中心用電背景",
+            "en": "Grid and data-center power context"
+          },
+          "text": {
+            "zh": "跨國電網須協調輸電線、海底電纜、電網調度、價格及跨境許可，直接涉及東南亞工廠與資料中心電力供給。合作備忘錄設定自願、分階段整合的政策框架，未直接等同任何國家承諾輸出特定電量。",
+            "en": "Cross-border transmission requires grid links, subsea cables, dispatch systems, prices and permits, relevant to Southeast Asian factories and data centers. The existing MoU establishes voluntary, phased cooperation without committing a fixed electricity export volume."
+          }
+        },
+        {
+          "label": {
+            "zh": "新加坡最新立場",
+            "en": "Singapore's newly published remarks"
+          },
+          "text": {
+            "zh": "Channel NewsAsia 11 月 20 日報導，陳詩龍強調區域電力合作應先顧及各國本地能源需求，並希望在 2027 年輪值主席任期內推動經濟及投資合作。訪問實際進行於 11 月 13 日，新發布的是談話內容。",
+            "en": "Channel NewsAsia published Tan's remarks on November 20, emphasizing that domestic electricity needs come first and regional interconnection can support investment. The interview itself occurred November 13."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "新加坡新增進口電量、具名跨境輸電線路成本、完工期及多邊電力交易實際量未在訪問中公布。",
+            "en": "New import volumes, project-level transmission costs, completion schedules and actual multilateral power trades were not disclosed."
+          }
+        }
+      ],
+      "metric": "跨境電網",
+      "metricLabel": {
+        "zh": "區域合作政策進度",
+        "en": "Regional grid cooperation status"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Channel NewsAsia · 新加坡能源部長專訪",
+            "en": "Channel NewsAsia · Singapore energy minister interview"
+          },
+          "url": "https://www.channelnewsasia.com/singapore/asean-energy-resilience-trade-tan-see-leng-6564481",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 東協電網合作報導",
+            "en": "CNA · ASEAN Power Grid policy coverage"
+          },
+          "url": "https://www.cna.com.tw/news/aopl/202611200200.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-13",
+        "countries": {
+          "zh": "新加坡；菲律賓；印尼；馬來西亞；東協",
+          "en": "Singapore; Philippines; Indonesia; Malaysia; ASEAN"
+        },
+        "industries": {
+          "zh": "電源；供電；電力；資料中心；工廠；自動化；投資；政策",
+          "en": "Power; electricity; data centers; factories; automation; investment; policy"
+        },
+        "chain": {
+          "zh": "跨境輸電設施及電網控制至資料中心與終端工廠電力",
+          "en": "Cross-border transmission and controls through data-center and factory power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "政府表態區域投資合作，但未公布新核准總額。",
+            "en": "The government discussed regional investment without a new approved total."
+          },
+          "demand": {
+            "zh": "合作框架推進，未公布已交付電量。",
+            "en": "Cooperation framework exists, without reported delivered electricity volumes."
+          },
+          "fdi": {
+            "zh": "未公開新股權型外資案件金額。",
+            "en": "No new equity FDI transaction amount was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "跨境供電制度與輸電基礎建設直接影響區域用電場域。",
+            "en": "Regional power-market rules and interconnectors relate to electricity-intensive sites."
+          },
+          "timing": {
+            "zh": "11 月 13 日訪問，11 月 20 日首次公開報導；東協 MOU 已於 11 月 15 日完成簽署。",
+            "en": "Interview November 13, first reported November 20; ASEAN MoU completed November 15."
+          },
+          "unknowns": {
+            "zh": "沒有具名新投資、線路裝機或確認商業電力交易。",
+            "en": "No newly contracted project, installed line capacity or commercial power trade was identified."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對電網電力轉換、工業電力品質量測和資料中心供電設備供應商而言，新加坡的政策說明仍停留在跨境電網制度與融資協調階段。需確認具體互聯線路、電壓與輸電規格、投資承諾及驗收，尚無可轉為設備訂單的數據。",
+        "en": "For grid conversion, industrial power-quality metrology and data-center electrical suppliers, Singapore's statements concern policy and financing coordination. Named links, voltage ratings, funded contracts and acceptance remain necessary; no tool-order values are established."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "外銷訂單、製造業產值與出口值能直接加總嗎？",
+        "en": "Can export orders, manufacturing output and customs exports be added together?"
+      },
+      "text": {
+        "zh": "三者統計母體和認列時點不同。外銷訂單衡量台灣廠商新接海外訂單，製造業產值是第三季名目生產價值，出口值才是海關貨物移動統計，不可直接加總或當成同一需求。",
+        "en": "No. Export orders measure foreign orders received by firms, manufacturing output measures quarterly nominal production, and customs exports record shipped goods. Their populations and periods differ."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "福懋科核准投資近 111.9 億元，表示新封測產線已開始出貨嗎？",
+        "en": "Does the approved NT$11.19bn Formosa plan establish new packaging shipments?"
+      },
+      "text": {
+        "zh": "核准的是投資計畫，包含 DDR4 與高階 IC 封測。新增產線建置、良率與客戶驗收仍待後續文件，不能以審查金額代替已實現的出貨。",
+        "en": "No. The amount refers to an approved investment plan for DDR4 and advanced IC test. New line commissioning, yields and customer acceptance remain unreported."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "16 奈米以下訂單全面暫停是否已由台積電證實？",
+        "en": "Has TSMC confirmed a blanket halt of all 16nm-and-below orders?"
+      },
+      "text": {
+        "zh": "台積電確認知悉新規並將遵守適用法令，但對路透引述匿名人士的特定中國客戶停單範圍不評論。聯邦公報可確認規則於 11/19 生效，仍需逐產品、終端用途與許可條件核對。",
+        "en": "TSMC confirmed awareness and compliance with the rule but declined to verify Reuters' anonymous-source account of affected China orders. The Federal Register establishes the November 19 effective date, while product and end-use applicability require individual assessment."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "東協電網合作備忘錄的既有進度",
+        "en": "Earlier ASEAN Power Grid MoU"
+      },
+      "text": {
+        "zh": "東協秘書處於 2026 年 11 月 15 日公告已完成增強版東協電網合作備忘錄簽署，並依完成簽署生效。11 月 20 日新加坡媒體公開的是能源部長先前訪談的政策說明，不能當成當日新簽協定。",
+        "en": "The ASEAN Secretariat announced completion and entry into force of the enhanced Power Grid MoU on November 15. Singapore's November 20 coverage concerns a previously recorded ministerial interview, not a new signature."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "參考註記",
+      "en": "Reference note"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "重複的伺服器展覽與調價展望",
+        "en": "Repeated server exhibits and pricing outlooks"
+      },
+      "text": {
+        "zh": "華碩 11/20 台灣新聞稿重述先前 SC26 英文發布的 Vera Rubin 機櫃與測試架構；因未增加可獨立確認的出貨台數或客戶驗收，不再作為新事件。股價與分析師估值變動也未納入。",
+        "en": "ASUS' November 20 Taiwanese release reiterated an earlier SC26 global announcement without new verifiable rack shipments or customer acceptances, and stock-price or analyst valuation commentary was not treated as a new event."
+      }
+    },
+    {
+      "title": {
+        "zh": "較早公布的越南氣候科技統計",
+        "en": "Previously released Vietnam climate-tech report"
+      },
+      "text": {
+        "zh": "11 月 20 日報導引用本月初發布的越南氣候科技融資報告，主要數字來自先前年度及舊報告；缺少新增的能源設施交付或合約，故保留為較低優先度。",
+        "en": "November 20 coverage cited a climate-tech financing report released earlier in the month, with historical figures but no newly completed electricity infrastructure project or signed contract."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "外銷訂單、製造業產值及投資台灣個案數值由媒體轉述經濟部，尚未逐欄取得當日原始表格；已保留來源限制。美國晶片規則於 11/19 正式生效，台積電只確認依法遵循，匿名消息所述停單範圍未經公司證實。雲豹能源逾 300MW 為開發規劃，和碩無碳能源成果及 6G 實驗網數據亦分別屬公司或政府報告。",
+    "en": "MOEA export-order, manufacturing and investment figures are attributed through news reporting; original line-by-line tables were not independently obtained. The BIS rule took effect November 19, but TSMC did not confirm the anonymously reported order suspensions. J&V's 300MW is a development pipeline, while Pegatron's electricity program and the 6G testbed counts are reported program results."
+  }
+}

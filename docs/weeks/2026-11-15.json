@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-15",
-  "generatedAt": "2026-11-19T11:26:43.010Z",
+  "generatedAt": "2026-11-20T12:55:01.672Z",
   "throughline": {
-    "zh": "本週封裝測試、伺服器散熱與晶圓材料供應鏈陸續公布合作和建廠計畫，並出現高雄新測試廠工程、特氣合資與微電網營運進度。",
-    "en": "This week has brought packaging and testing, rack-cooling and fab-material developments, followed by a Kaohsiung test factory project, specialty-gas venture and microgrid operating milestones."
+    "zh": "本週晶圓、封裝、工廠及伺服器供應鏈公布已實現產值、出口接單與新增投資審查，也有東南亞算力建置與電力網路合作的分期規劃。",
+    "en": "This week brought realized manufacturing output, export orders, packaging investment approvals and phased plans for Asia-Pacific compute infrastructure and regional grid cooperation."
   },
   "highlights": [
     {
       "id": 1,
       "category": "taiwan",
       "title": {
-        "zh": "封裝、晶圓材料與高階測試新工程",
-        "en": "Packaging, fab materials and advanced-test construction"
+        "zh": "先進封裝、晶圓材料與工廠投資",
+        "en": "Advanced packaging, fab materials and manufacturing investment"
       },
       "summary": {
-        "zh": "本週景碩、矽品、旺矽與漢測先後公布新產能或設備測試合作，科林研發竹南技術中心已動土。11 月 19 日日月光旗下福雷新增仁武 J 高階測試基地規劃，工程預算與未來量產狀態已分開標示。",
-        "en": "Kinsus, SPIL, WinWay and Hermes reported capacity or testing developments, and Lam broke ground in Zhunan. On November 19 ASE subsidiary Forei added its Renwu J advanced-test project, with investment plans distinguished from qualified output."
+        "zh": "景碩、矽品及旺矽此前公布載板與封裝測試擴充目標，科林研發、日月光福雷與漢測則有廠房及設備合作。11 月 20 日福懋科擬於斗六擴充 DDR4 與高階 IC 封測，近 111.9 億元屬投資審查通過的計畫。",
+        "en": "Earlier reports covered Kinsus, SPIL, WinWay, Lam, Forei and Hermes in substrate, packaging and equipment development. On November 20, Formosa Advanced Technologies received investment approval for a proposed DDR4 and advanced-IC test expansion in Douliu."
       },
       "references": [
         {
@@ -73,6 +73,10 @@
         {
           "date": "2026-11-20",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 2
         }
       ]
     },
@@ -80,12 +84,12 @@
       "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "機櫃電源、液冷與伺服器整機展示",
-        "en": "Rack power, liquid cooling and server-system demonstrations"
+        "zh": "機櫃電源、液冷與資料中心開發",
+        "en": "Rack power, liquid cooling and data-center development"
       },
       "summary": {
-        "zh": "技嘉、光寶科、貝爾威勒及 SC26 展出業者此前揭露伺服器機櫃與高功率冷卻進度。雙鴻 11 月 18 日公布已實現毛利率及 2027 年 ASIC 散熱展望，資本支出與出貨仍以實際公告為準。",
-        "en": "Gigabyte, Lite-On, Bellwether and SC26 exhibitors presented rack power and cooling developments. Auras added realized Q3 margins and prospective 2027 ASIC cooling guidance, with capex and shipments to be checked as separately reported."
+        "zh": "技嘉、光寶、貝爾威勒及 SC26 參展廠先前揭露電源、液冷與伺服器規格。雲豹能源 11 月 19 日說明台灣及亞太逾 300MW 的 AIDC 開發規劃，尚無逐站商轉證據。",
+        "en": "Gigabyte, Lite-On, Bellwether and SC26 exhibitors previously reported rack power, cooling and server specifications. J&V Energy described an Asia-Pacific AIDC development pipeline exceeding 300MW without site-by-site commissioning evidence."
       },
       "references": [
         {
@@ -119,6 +123,10 @@
         {
           "date": "2026-11-20",
           "storyId": 5
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 4
         }
       ]
     },
@@ -126,12 +134,12 @@
       "id": 3,
       "category": "taiwan",
       "title": {
-        "zh": "記憶體供應、SSD 控制與工廠營運",
-        "en": "Memory supply, SSD controllers and plant operations"
+        "zh": "製造產值、記憶體供應與外銷接單",
+        "en": "Manufacturing output, memory supply and export orders"
       },
       "summary": {
-        "zh": "模組廠、大聯大與台灣光罩等企業本週披露記憶體供應及晶圓製程進度。偉詮電 11 月 19 日說明晶圓代工及封測報價變動與新安全認證，未公布明年新價格。",
-        "en": "Memory vendors, WPG and Taiwan Mask reported supply and process developments. Weltrend on November 19 discussed foundry and test cost changes plus software safety certification, without revealing 2027 prices."
+        "zh": "模組廠與大聯大等業者公布記憶體供貨資訊，輝達第三季亦揭露資料中心營收。經濟部接續公布第三季製造業名目產值及 10 月外銷訂單，兩者口徑不同，並與明年展望分開。",
+        "en": "Memory suppliers and WPG reported supply conditions, and NVIDIA disclosed data-center sales. MOEA later published Q3 manufacturing output and October foreign-order data, which use different definitions and periods."
       },
       "references": [
         {
@@ -161,6 +169,14 @@
         {
           "date": "2026-11-20",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 5
         }
       ]
     },
@@ -168,12 +184,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "製程感測、儲能 PCS 與工廠供電",
-        "en": "Process sensors, PCS storage and factory power"
+        "zh": "製程供電、儲能與工廠能源管理",
+        "en": "Process power, storage and factory energy management"
       },
       "summary": {
-        "zh": "日月光感測器採購、燿華儲能工程與漢科廠務訂單已在本週發布。11 月 19 日銳澤簽署特氣合資協議，台塑新智能與立碁另公布微電網合作及已上線的太平島工程，嘉義綠能設備新廠亦動土。",
-        "en": "ASE sensor purchases, Unitech storage construction and Hanke facilities backlog were reported earlier. Rayzher added a gas venture, Formosa and Ledlink disclosed microgrid collaboration and a commissioned Taiping project, and an energy-equipment factory broke ground in Chiayi."
+        "zh": "燿華儲能、熙特爾 PCS 合作及台塑新智能微電網方案屬不同施工、合作與營運階段。和碩 11 月 20 日公布 70 家關鍵供應商無碳電力計畫結果，新加坡能源官員亦談及區域電網合作方向，尚無新輸電工程的確定採購額。",
+        "en": "Unitech storage, Xitel PCS plans and Formosa Smart Energy microgrids are at different stages. Pegatron disclosed a 70-supplier carbon-free electricity program, while Singapore described regional grid policy without new contracted transmission projects."
       },
       "references": [
         {
@@ -203,6 +219,14 @@
         {
           "date": "2026-11-20",
           "storyId": 6
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 7
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 8
         }
       ]
     },
@@ -210,12 +234,12 @@
       "id": 5,
       "category": "taiwan",
       "title": {
-        "zh": "國際晶片管制、資本流向與終端製造",
-        "en": "International chip controls, capital flows and end-use manufacturing"
+        "zh": "跨境晶片管制、工業系統驗證與政策",
+        "en": "Cross-border chip controls and industrial system validation"
       },
       "summary": {
-        "zh": "經濟部投資核准與國際高階晶片管制已於本週前幾期報導，鴻海與 Sony 車載業務收購仍待交割。元太 11 月 18 日新公告疑似資訊系統遭攻擊，初步無重大營運影響，案件仍在調查。",
-        "en": "MOEA investment approvals, advanced-chip controls and Foxconn's proposed Sony camera acquisition were covered earlier. E Ink disclosed a suspected IT cyberattack November 18 with a preliminary no-material-impact assessment, pending investigation."
+        "zh": "BIS 先前發布的高階晶片規則已於 11 月 19 日生效，台積電 11 月 20 日確認將遵守適用規定，但未證實匿名消息的停單範圍。竹東 6G-FORMOSA 實驗網同日正式啟用，屬晶片、射頻和通訊設備驗測，商用規格仍待確立。",
+        "en": "The BIS advanced-chip rule took effect November 19; TSMC confirmed compliance on November 20 but did not verify anonymous claims about halted orders. The Zhudong 6G-FORMOSA network launched as a chip, RF and systems testbed rather than a commercial network."
       },
       "references": [
         {
@@ -253,6 +277,14 @@
         {
           "date": "2026-11-20",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-21",
+          "storyId": 6
         }
       ]
     }
