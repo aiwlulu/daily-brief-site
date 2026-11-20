@@ -1,0 +1,64 @@
+name: Publish Nov 21 Daily Brief with official workbook builder
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/news-publish-2026-11-21.yml
+permissions:
+  contents: write
+  actions: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest published main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Install official workbook dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check "openpyxl>=3.1.5,<4"
+      - name: Materialize researched bilingual edition, week and calendar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/f7c7e780ae65cc44adbd2b702912edc7f7b43f3f" --jq '.content' | base64 -d > docs/editions/2026-11-21.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/940b506b23b9239420d9de7e370354be9289c428" --jq '.content' | base64 -d > docs/weeks/2026-11-15.json
+          gh api "repos/$GITHUB_REPOSITORY/git/blobs/864a2695c26b0da8d32c27221f83d2297ab45309" --jq '.content' | base64 -d > docs/events.json
+      - name: Update manifest and apply Chinese typography
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('docs/editions/index.json')
+          m=json.loads(p.read_text())
+          day='2026-11-21'
+          assert not any(e['date']==day for e in m['editions']), 'Edition already exists'
+          m['editions'].insert(0,{'date':day,'path':'./editions/2026-11-21.json'})
+          m['weeks']['2026-11-15']='./weeks/2026-11-15.json'
+          p.write_text(json.dumps(m,indent=2,ensure_ascii=False)+'\n')
+          PY
+          node scripts/format-copy.mjs 2026-11-21
+      - name: Build all Excel workbooks and validate
+        run: |
+          source .venv/bin/activate
+          python scripts/build-workbooks.py "$GITHUB_WORKSPACE" events
+          python scripts/build-workbooks.py "$GITHUB_WORKSPACE" 2026-11-21
+          node --check docs/app.js
+          npm test
+          git diff --check
+      - name: Atomically commit edition, weekly, calendar and Excel
+        run: |
+          git config user.name aiwlulu
+          git config user.email aiwlulu@users.noreply.github.com
+          git rm .github/workflows/news-publish-2026-11-21.yml
+          git add docs/editions/2026-11-21.json docs/editions/index.json docs/weeks/2026-11-15.json docs/events.json docs/exports
+          git diff --cached --check
+          git commit -m "feat(news): publish 2026-11-21 daily brief"
+          git push origin HEAD:main
+      - name: Deploy published main explicitly
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
