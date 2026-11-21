@@ -1,0 +1,108 @@
+{
+  "weekStart": "2026-11-22",
+  "generatedAt": "2026-11-21T11:48:37.212Z",
+  "throughline": {
+    "zh": "新加坡 HBM 製程設備與半導體檢測廠房完成新里程碑，台灣則公布工具機訂單、製程材料產能規劃以及越南製造與電網資金進度。",
+    "en": "Singapore reported new HBM tool and semiconductor-inspection facility milestones, while Taiwan disclosed machine-tool orders, process-material plans and Vietnam manufacturing and grid-funding developments."
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "category": "global",
+      "title": {
+        "zh": "新加坡 HBM 封裝及設備製造",
+        "en": "Singapore HBM packaging and equipment manufacturing"
+      },
+      "summary": {
+        "zh": "美光於 11 月 19 日將首台 HBM 製程設備移入新廠無塵室，預計 2027 年初產出。KLA 於 11 月 20 日啟用宏茂橋 22B 廠房，新增 21 萬平方英尺；兩案已完成的工程里程碑與未來量產、聘僱目標分開呈現。",
+        "en": "Micron moved its first HBM packaging tool into a Singapore cleanroom on November 19, while KLA opened its new 210,000-square-foot Ang Mo Kio building on November 20. Completed milestones are distinct from future output and hiring plans."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-22",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "taiwan",
+      "title": {
+        "zh": "智慧製造工具機與腔體設備供應鏈",
+        "en": "Smart manufacturing and semiconductor chamber tools"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 21 日說明智慧製造計畫近三年累計成果，其中國產五軸半導體腔體工具機已獲德國客戶 30 台訂單。政府估計約 4.5 億元相關產值，機台交付及驗收尚未公開。",
+        "en": "MOEA reported cumulative smart-manufacturing results, including 30 orders from a German customer for Taiwan-developed semiconductor chamber machine tools. Estimated production value is NT$450 million, with deliveries and acceptance undisclosed."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "tech",
+      "title": {
+        "zh": "電子特氣與 TGV 玻璃封裝材料",
+        "en": "Specialty gases and TGV glass packaging"
+      },
+      "summary": {
+        "zh": "晶呈科技公布第三季特殊氣體出貨 6,898 支鋼瓶，第四季提出更高的出貨預估。TGV 製程現有八條線並規劃 2027 年底增至十二條，頭份 C4F6 新廠仍在建置。",
+        "en": "Jingcheng reported 6,898 Q3 specialty-gas cylinders, with higher Q4 guidance. Its eight TGV lines are targeted to expand to twelve by end-2027, while its Toufen C4F6 plant is still being built."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "title": {
+        "zh": "越南製造業資本與機電工程",
+        "en": "Vietnam manufacturing capital and electromechanical contracts"
+      },
+      "summary": {
+        "zh": "訊芯香港 11 月 20 日核准增資越南子公司 2,000 萬美元，GIS-KY 越南子公司另公告 5.30442 億元機電安裝工程契約。股權增資與工程採購屬不同交易性質，兩案均未公布量產驗收。",
+        "en": "ShunSin Hong Kong approved a US$20 million Vietnam equity injection on November 20, while GIS-KY disclosed a NT$530.442 million electromechanical installation agreement in Vietnam. The equity and construction contracts are distinct measures, without qualified production milestones."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-22",
+          "storyId": 6
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "taiwan",
+      "title": {
+        "zh": "台灣公用電力預算與電價程序",
+        "en": "Taiwan utility financing and tariff review"
+      },
+      "summary": {
+        "zh": "立法院 11 月 20 日通過包含撥補台電 711 億元的追加預算，台電表示後續將提供燃料成本及財務資料供電價審議。12 月電價仍待決議，沒有新的產業用電費率或個別電網設備採購額。",
+        "en": "Taiwan passed a supplementary budget including NT$71.1 billion for Taipower on November 20. The utility will submit cost information to the tariff review, with December rates and project-level grid procurements still unconfirmed."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 7
+        }
+      ]
+    }
+  ]
+}

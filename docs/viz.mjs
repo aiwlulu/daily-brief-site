@@ -10,7 +10,7 @@ const pct=(v,lang,signed=false)=>(signed&&v>0?'+':'')+num(v*100,lang,1)+'%';
 // interface. Translate them at render time without altering the source data.
 // Add new Chinese units here and cover them in the archived-edition test.
 const englishUnits={
- '個國家':'countries','針':'needles','顆':'chips','台':'units',
+ '個國家':'countries','針':'needles','顆':'chips','台':'units','支':'cylinders',
  '個核心':'cores','家':'companies','人':'people','項':'items','張':'sheets',
  '輪':'cycles','件':'cases','個機櫃':'racks','案':'projects',
  '個月':'months','股':'shares','處':'sites','條':'lines',

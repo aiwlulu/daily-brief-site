@@ -1,0 +1,1560 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-21T11:48:37.212Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞 HBM、半導體設備、材料、工廠電力與投資",
+      "en": "Taiwan and Southeast Asian HBM, semiconductor equipment, materials, industrial power and investment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "新加坡美光 HBM 廠設備進場與 KLA 廠房啟用提供實體建設進度，台灣同時披露半導體工具機訂單、材料擴產及越南製造資金與廠務工程。",
+    "en": "Micron's first HBM tool and KLA's new Singapore facility mark physical construction milestones, while Taiwan disclosed semiconductor machine-tool orders, materials plans and Vietnam funding and facility contracts."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "美光 11 月 19 日將首台 HBM 封裝設備移入新加坡新廠無塵室，初步產出預計 2027 年初，尚未完成量產驗收。",
+        "en": "Micron moved its first HBM packaging tool into a Singapore cleanroom on November 19, targeting early-2027 output without qualified production yet."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "KLA 11 月 20 日啟用新加坡宏茂橋 22B 廠房，新增 21 萬平方英尺，預期增加至少 400 個職缺。",
+        "en": "KLA opened a 210,000-square-foot building in Singapore's Ang Mo Kio on November 20, with at least 400 jobs expected."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "經濟部 11 月 21 日公布五軸半導體腔體工具機取得德國業者 30 台訂單，預估產值約 4.5 億元。",
+        "en": "MOEA disclosed 30 German orders for Taiwan-developed five-axis chamber-machining tools on November 21, with NT$450m in estimated production value."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "晶呈第三季特氣出貨 6,898 支鋼瓶，TGV 玻璃製程規劃由 8 條產線於 2027 年底增至 12 條。",
+        "en": "Jingcheng reported 6,898 Q3 specialty-gas cylinders and plans to expand TGV production from eight to twelve lines by end-2027."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "訊芯核准增資越南子公司 2,000 萬美元，包含本次後累計股權投資 1.95 億美元，實際設備採購未揭露。",
+        "en": "ShunSin approved US$20m of Vietnam equity funding, bringing the cumulative amount including this decision to US$195m; equipment spending remains unknown."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "micron-singapore-hbm-packaging-first-tool-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "美光新加坡 HBM 封裝廠首台製程設備進入無塵室，目標 2027 年初產出",
+        "en": "Micron moves first process tool into Singapore HBM packaging cleanroom, targets early-2027 output"
+      },
+      "summary": {
+        "zh": "美光於 11 月 19 日將首台製程設備移入新加坡 HBM 先進封裝廠無塵室，並表示支援裝機的關鍵設施已完成準備，預計 2027 年初開始初步產出。約 70 億美元的長期投資與約 1,400 個預計職缺，源自 2025 年 1 月的原始建廠公告；本次新增的是設備進廠里程碑，尚未宣布完成量產驗收。",
+        "en": "Micron moved its first process tool into the cleanroom of its Singapore high-bandwidth-memory packaging facility on November 19, after completing infrastructure preparations, with initial output targeted for early 2027. Its approximately US$7 billion multiyear investment and 1,400 expected jobs date to the January 2025 project announcement. The new milestone is tool move-in, with no qualified production output yet reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈與製程進度",
+            "en": "Supply-chain stage and tool move-in"
+          },
+          "text": {
+            "zh": "HBM 由多層 DRAM 晶粒堆疊並經先進封裝、接合與測試後供應 AI 運算平台。美光在新加坡的新廠負責封裝與測試環節；首台設備搬入無塵室，表示基礎設施達裝機階段，後續仍須逐站調校、試產及客戶驗證。",
+            "en": "HBM stacks DRAM dies through bonding, packaging and testing for AI accelerators. Micron's Singapore facility addresses the back-end stage. Tool installation follows cleanroom readiness, while process tuning, trial runs and customer qualification remain separate future milestones."
+          }
+        },
+        {
+          "label": {
+            "zh": "已發生里程碑與舊計畫",
+            "en": "New operating milestone versus earlier plan"
+          },
+          "text": {
+            "zh": "公司於 2025 年 1 月 8 日宣布約 70 億美元建廠計畫，當時目標在 2026 年展開設施營運、2027 年增加先進封裝產能。11 月 19 日完成首台製程設備進廠，新報導指出初步產出預期在 2027 年初，不能將原定開廠年份當作已交貨日期。",
+            "en": "The original January 8, 2025 announcement outlined approximately US$7 billion of investment, facility operations targeted for 2026 and meaningful packaging capacity growth in 2027. The November 19 first-tool installation is the new fact. Early-2027 output is a target, not a shipment date or completed qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "廠區及影響範圍",
+            "en": "Facility and project scope"
+          },
+          "text": {
+            "zh": "新廠位於新加坡既有美光據點附近，屬 HBM 後段封裝設施，與另行規劃的 NAND 晶圓製造設施範圍不同。新加坡經濟發展局及工業園區相關單位參與裝機活動，尚未公布首期設備台數、能源需求或良率。",
+            "en": "The facility is adjacent to Micron's existing Singapore operations and is dedicated to advanced HBM packaging, distinct from separate NAND fabrication plans. Singapore's investment and industrial development partners attended the event, but initial tool count, electrical loads and yield were not released."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "初期 HBM 月封裝產能、設備製造商、測試規格、量產良率、客戶驗收及已實際支付投資額未公布。",
+            "en": "Initial monthly HBM packaging capacity, tool suppliers, test specifications, yields, customer acceptance and actual disbursements remain undisclosed."
+          }
+        }
+      ],
+      "metric": "首台設備",
+      "metricLabel": {
+        "zh": "新加坡 HBM 製程設備進廠",
+        "en": "First HBM process tool moved in"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "CRN Asia · 美光 11 月 19 日設備進廠消息",
+            "en": "CRN Asia · Micron's November 19 first-tool move-in"
+          },
+          "url": "https://www.crnasia.com/news/2026/components-and-peripherals/micron-moves-first-tool-into-singapore-hbm-packaging-plant",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Micron · 2025 年 1 月建廠原始公告",
+            "en": "Micron · January 2025 project announcement"
+          },
+          "url": "https://investors.micron.com/news/press-release/2025/Micron-Breaks-Ground-on-New-HBM-Advanced-Packaging-Facility-in-Singapore-01-08-2025/default.aspx",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址：新加坡美光 HBM 先進封裝新廠，位於美光既有營運設施旁；來源未列門牌。",
+        "en": "Project site: Micron's new HBM advanced packaging facility next to existing Singapore operations; no street number was verified."
+      },
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "新加坡；美國；台灣",
+          "en": "Singapore; United States; Taiwan"
+        },
+        "industries": {
+          "zh": "HBM；DRAM；記憶體；封裝；封測；測試；設備；資料中心；電源",
+          "en": "HBM; DRAM; memory; packaging; testing; equipment; data centers; power"
+        },
+        "chain": {
+          "zh": "DRAM 晶粒至 HBM 先進封裝、接合與測試，再至 AI 伺服器",
+          "en": "DRAM dies through HBM advanced packaging, bonding and test to AI servers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "2025 年公布約 70 億美元多年投資，未發布新的工程預算修訂。",
+            "en": "The approximately US$7 billion multiyear plan dates to 2025; no new capex revision was reported."
+          },
+          "demand": {
+            "zh": "首台設備已入無塵室，預計 2027 年初產出，未公布商業出貨。",
+            "en": "First-tool move-in is complete; early-2027 output is a target without shipments."
+          },
+          "fdi": {
+            "zh": "原投資屬美商在新加坡建廠，未公布 11 月 19 日新增 FDI 金額。",
+            "en": "The original project is U.S. investment in Singapore; no incremental November 19 FDI figure was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "HBM 封裝與測試是 AI 記憶體供應鏈的具體製造環節。",
+            "en": "HBM packaging and test are specific manufacturing stages for AI memory."
+          },
+          "timing": {
+            "zh": "2025 年 1 月公布建廠，2026 年 11 月 19 日首台設備進廠。",
+            "en": "Facility plan announced January 2025; first tool moved in November 19, 2026."
+          },
+          "unknowns": {
+            "zh": "無初期產能、良率、客戶驗收或設備配置清單。",
+            "en": "Initial output, yield, customer qualification and tool configurations are not public."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新廠首台製程設備已入場",
+            "en": "Process tools confirmed moved in"
+          },
+          "current": 1,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 11 月 19 日",
+            "en": "November 19, 2026"
+          },
+          "owner": {
+            "zh": "美光，由 CRN Asia 報導",
+            "en": "Micron, reported by CRN Asia"
+          },
+          "sourceUrl": "https://www.crnasia.com/news/2026/components-and-peripherals/micron-moves-first-tool-into-singapore-hbm-packaging-plant",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "既有 HBM 封裝廠投資規劃",
+            "en": "Previously announced HBM investment"
+          },
+          "current": 7,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2025 年 1 月宣布的多年計畫",
+            "en": "Multiyear plan announced Jan 2025"
+          },
+          "owner": {
+            "zh": "美光",
+            "en": "Micron"
+          },
+          "sourceUrl": "https://investors.micron.com/news/press-release/2025/Micron-Breaks-Ground-on-New-HBM-Advanced-Packaging-Facility-in-Singapore-01-08-2025/default.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "原規劃新增就業",
+            "en": "Jobs envisioned in original HBM plan"
+          },
+          "current": 1400,
+          "unit": "人",
+          "period": {
+            "zh": "2025 年 1 月建廠規劃",
+            "en": "January 2025 plan"
+          },
+          "owner": {
+            "zh": "美光",
+            "en": "Micron"
+          },
+          "sourceUrl": "https://investors.micron.com/news/press-release/2025/Micron-Breaks-Ground-on-New-HBM-Advanced-Packaging-Facility-in-Singapore-01-08-2025/default.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對 HBM 封裝電源、晶粒接合、製程量測和記憶體測試設備業者而言，首台設備進廠是可確認的裝機里程碑。仍需核對設備型號、裝機測試、良率和客戶驗收，無法由既有建廠預算推算當期採購台數。",
+        "en": "For suppliers of HBM packaging power, die bonding, metrology and memory test, first-tool move-in is a tangible installation milestone. Tool models, commissioning tests, yields and customer acceptance remain unverified; the earlier project budget does not quantify current tool purchases."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "kla-singapore-ang-mo-kio-building-22b-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "KLA 新加坡宏茂橋 22B 廠房啟用，新增 21 萬平方英尺並預計創造 400 個職缺",
+        "en": "KLA opens new 210,000-square-foot Ang Mo Kio facility, expects 400 jobs"
+      },
+      "summary": {
+        "zh": "美國半導體設備商 KLA 11 月 20 日在新加坡宏茂橋啟用 22B 新廠房，新增約 21 萬平方英尺空間，連同 2024 年已啟用的第一期，現有場址面積約 42 萬平方英尺。公司預期本次擴建創造至少 400 個職缺，服務先進封裝、矽光子及半導體製程檢測設備；尚未公布新廠設備實際交付量。",
+        "en": "Semiconductor equipment supplier KLA opened its new Building 22B in Singapore's Ang Mo Kio on November 20, adding about 210,000 square feet. Together with its first phase opened in 2024, the existing campus reaches approximately 420,000 square feet. KLA expects at least 400 jobs from this expansion, supporting semiconductor inspection, advanced packaging and photonics; accepted tool shipments were not reported."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "設備製造與產業背景",
+            "en": "Equipment manufacturing and supply-chain role"
+          },
+          "text": {
+            "zh": "KLA 的檢測與量測產品用於半導體製程變異與缺陷控制，與晶圓、先進封裝及矽光子製造相連。新加坡廠擴充的組裝與工程功能和台灣晶圓及封測客戶供應鏈相關，但公司尚未公開台灣個別交機數。",
+            "en": "KLA's process-control and inspection systems support wafer, advanced-packaging and silicon-photonics manufacturing. The expanded Singapore assembly and engineering capacity is relevant to regional semiconductor customers, but Taiwan-specific tool deliveries were not disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "已啟用廠房與面積",
+            "en": "Completed facility versus existing site"
+          },
+          "text": {
+            "zh": "11 月 20 日開幕的是宏茂橋新建的 22B 設施，新增約 21 萬平方英尺。加上 2024 年 10 月啟用的 22A，宏茂橋場址約 42 萬平方英尺，KLA 稱此為其全球最大的製造基地；兩個面積不可相加成 63 萬平方英尺。",
+            "en": "The newly opened 22B building contributes approximately 210,000 square feet. Combined with Building 22A opened October 2024, the campus totals about 420,000 square feet, which KLA describes as its largest manufacturing site worldwide. The new and total areas must not be added again."
+          }
+        },
+        {
+          "label": {
+            "zh": "人力與未來第三期",
+            "en": "Hiring outlook and potential next phase"
+          },
+          "text": {
+            "zh": "新廠預計增加至少 400 個工程、材料及測試工作。KLA 另提出可能更大的下一階段擴建，仍須獲核准；報導提到全部擴建可能創造約 1,000 個工作機會，包含未來階段，尚非目前聘僱實績。",
+            "en": "The current expansion is expected to create at least 400 roles in engineering and testing. KLA also outlined a larger potential subsequent phase, subject to approvals. Roughly 1,000 jobs across both present and future phases is a broader projection, not the current hiring count."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "22B 機台產能、客戶驗收與出貨、實際新聘僱人數及第三期核准日期尚未公開。",
+            "en": "Building 22B tool throughput, shipments and acceptance, actual hires and future-phase approval dates remain unknown."
+          }
+        }
+      ],
+      "metric": "210,000 sq ft",
+      "metricLabel": {
+        "zh": "22B 新增作業空間",
+        "en": "New 22B floor area"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Channel NewsAsia · KLA 22B 啟用訪問與數據",
+            "en": "Channel NewsAsia · KLA 22B opening and interviews"
+          },
+          "url": "https://www.channelnewsasia.com/singapore/kla-semiconductor-equipment-manufacturing-chips-6568311",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "新廠與開幕活動場地：新加坡宏茂橋 KLA Building 22B；未取得建物詳細門牌。",
+        "en": "New facility and opening venue: KLA Building 22B, Ang Mo Kio, Singapore; precise street number not verified."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "新加坡；美國；台灣",
+          "en": "Singapore; United States; Taiwan"
+        },
+        "industries": {
+          "zh": "設備；零組件；晶圓；封裝；測試；矽光子；工廠；人才；投資",
+          "en": "Equipment; components; wafers; packaging; inspection; silicon photonics; factories; talent; investment"
+        },
+        "chain": {
+          "zh": "半導體檢測與量測設備製造至晶圓製程、先進封裝及矽光子測試",
+          "en": "Process-control and metrology tool manufacturing to wafer, advanced packaging and silicon-photonics test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "新廠已啟用，未披露 22B 個別資本支出金額。",
+            "en": "Building 22B opened without a site-specific capex figure."
+          },
+          "demand": {
+            "zh": "新增製造設施已開放，未公布實際設備訂單及交付量。",
+            "en": "The new facility opened, without reported tool orders or deliveries."
+          },
+          "fdi": {
+            "zh": "美商在新加坡擴廠，但未公布本次 FDI 精確金額。",
+            "en": "A U.S. supplier expanded in Singapore, without a quantified new FDI amount."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新加坡的半導體設備製造及量測能力取得已完成的實體設施。",
+            "en": "Completed physical space expands Singapore semiconductor tool manufacturing and metrology capabilities."
+          },
+          "timing": {
+            "zh": "22B 於 11 月 20 日啟用；22A 於 2024 年 10 月啟用。",
+            "en": "Building 22B opened November 20; Building 22A opened October 2024."
+          },
+          "unknowns": {
+            "zh": "新設施實際稼動、交機及未來第三期核准均未知。",
+            "en": "Utilization, tool deliveries and approval of the prospective third phase remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "22B 新增作業面積",
+            "en": "New Building 22B floor area"
+          },
+          "current": 210000,
+          "unit": "平方英尺",
+          "period": {
+            "zh": "2026 年 11 月 20 日啟用",
+            "en": "Opened November 20, 2026"
+          },
+          "owner": {
+            "zh": "KLA，由 Channel NewsAsia 報導",
+            "en": "KLA, reported by Channel NewsAsia"
+          },
+          "sourceUrl": "https://www.channelnewsasia.com/singapore/kla-semiconductor-equipment-manufacturing-chips-6568311",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "宏茂橋既有場址總面積",
+            "en": "Current Ang Mo Kio campus area"
+          },
+          "current": 420000,
+          "unit": "平方英尺",
+          "period": {
+            "zh": "截至 2026 年 11 月 20 日",
+            "en": "As of November 20, 2026"
+          },
+          "owner": {
+            "zh": "KLA，由 Channel NewsAsia 報導",
+            "en": "KLA, reported by Channel NewsAsia"
+          },
+          "sourceUrl": "https://www.channelnewsasia.com/singapore/kla-semiconductor-equipment-manufacturing-chips-6568311",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "本次擴建預計工作機會",
+            "en": "Expected jobs from current expansion"
+          },
+          "current": 400,
+          "unit": "人",
+          "period": {
+            "zh": "2026 年 11 月 20 日宣布的規劃",
+            "en": "Plan announced November 20, 2026"
+          },
+          "owner": {
+            "zh": "KLA，由 Channel NewsAsia 報導",
+            "en": "KLA, reported by Channel NewsAsia"
+          },
+          "sourceUrl": "https://www.channelnewsasia.com/singapore/kla-semiconductor-equipment-manufacturing-chips-6568311",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓蝕刻 RF 電源、光學檢測、精密量測及設備控制業者而言，宏茂橋新廠已完成建物啟用，但機台實際產出未披露。需要核對廠內裝配項目、測試工站、額定電力及交機驗收，才能辨識實際設備需求。",
+        "en": "For etch RF power, optical inspection, precision metrology and equipment controls suppliers, the new factory is opened while tool output remains undisclosed. Assembly products, test stations, electrical requirements and delivery acceptance must be verified."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "moea-smart-manufacturing-five-axis-german-orders-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "經濟部公布智慧製造研發成果，五軸半導體腔體工具機取得德國客戶 30 台訂單",
+        "en": "MOEA reports 30 German orders for Taiwan-developed five-axis semiconductor chamber machine tools"
+      },
+      "summary": {
+        "zh": "經濟部產業技術司 11 月 21 日向中央社說明智慧化製造研發計畫成果：與大君鴻合作的五軸工具機已取得德國先進製程腔體業者 30 台訂單，估計可創造約 4.5 億元產值。計畫近三年累計 1,067 件技術移轉與服務、促成企業投資逾 154 億元；30 台是訂單數量，4.5 億元則是尚待實現的估計。",
+        "en": "Taiwan's MOEA described its smart-manufacturing R&D program on November 21, including 30 machine-tool orders secured from a German advanced-process chamber supplier for a five-axis system co-developed with Da Jun Hong. MOEA estimates about NT$450 million of potential output. The program reports 1,067 transfers or services and over NT$15.4 billion of induced investment across nearly three years; orders and projected output are distinct."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "設備製程與供應鏈背景",
+            "en": "Equipment and supply-chain context"
+          },
+          "text": {
+            "zh": "五軸工具機可用於半導體腔體零組件的高精度加工，屬晶圓蝕刻、沉積等製程設備上游的精密製造能力。經濟部將此案列為關鍵製造技術自主化成果；取得德國客戶訂單尚無對應的已完成機台出貨與驗收清單。",
+            "en": "The five-axis platform supports precision machining for semiconductor process chambers, upstream of wafer etch and deposition tools. MOEA described the program as domestic machine-tool technology development. Customer orders do not establish delivered or accepted units."
+          }
+        },
+        {
+          "label": {
+            "zh": "單一工具機商業化進度",
+            "en": "Specific equipment commercialization"
+          },
+          "text": {
+            "zh": "經濟部稱與大君鴻開發的五軸工具機取得德國腔體製造業者 30 台訂單，預估產值約 4.5 億元，沒有提供每批交貨日期、單價或製程認證結果。",
+            "en": "The MOEA statement cites 30 ordered tools and estimated NT$450 million of output, without disclosing delivery batches, unit pricing or customer qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "計畫累計成果與期間",
+            "en": "Program totals and reporting periods"
+          },
+          "text": {
+            "zh": "智慧化製造核心關鍵技術研發計畫 2023 年啟動，2023 至 2026 年經費約 21.3 億元；近三年累計技轉及服務 1,067 案，服務金額約 9.44 億元，帶動 598 件投資、金額逾 154 億元。這些跨年累計數字與 11 月 21 日單日新增訂單不同。",
+            "en": "The program began in 2023 and has a 2023–2026 budget of roughly NT$2.13 billion. Its near-three-year record covers 1,067 transfers or services worth around NT$944 million and 598 induced investment cases exceeding NT$15.4 billion. These accumulated program totals are separate from the newly reported tool-order milestone."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "德國客戶名稱、設備驗收台數、實際認列產值及完整原始計畫成果表未取得。",
+            "en": "The German buyer, accepted tool count, realized output and full original program-performance table were not independently obtained."
+          }
+        }
+      ],
+      "metric": "30 台",
+      "metricLabel": {
+        "zh": "德國客戶已下訂五軸工具機",
+        "en": "Five-axis tools ordered by German customer"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 21 日經濟部研發計畫訪問",
+            "en": "CNA · November 21 interview on MOEA R&D program"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 智慧製造成果與工具機訂單",
+            "en": "Economic Daily · Program outcomes and machine-tool orders"
+          },
+          "url": "https://money.udn.com/money/story/5612/9892800",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-21",
+        "countries": {
+          "zh": "台灣；德國",
+          "en": "Taiwan; Germany"
+        },
+        "industries": {
+          "zh": "設備；零組件；晶圓；蝕刻；沉積；工廠；自動化；投資",
+          "en": "Equipment; components; wafer fabrication; etch; deposition; factories; automation; investment"
+        },
+        "chain": {
+          "zh": "精密五軸工具機至半導體製程腔體、晶圓設備與工廠自動化",
+          "en": "Five-axis tools through semiconductor process chambers and fab automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "計畫近三年促成企業投資逾 154 億元，屬累計成果。",
+            "en": "The program reports more than NT$15.4 billion of cumulative induced investment."
+          },
+          "demand": {
+            "zh": "德國業者訂購 30 台工具機，未公開已完成交付量。",
+            "en": "Thirty tools have been ordered, but deliveries are unconfirmed."
+          },
+          "fdi": {
+            "zh": "未報新的股權型境外直接投資。",
+            "en": "No new equity FDI was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "五軸腔體加工設備取得具名國別的商業訂單。",
+            "en": "The chamber-machining tool received orders from a buyer identified by country."
+          },
+          "timing": {
+            "zh": "11 月 21 日首次報導訂單及累計成果，計畫自 2023 年推動。",
+            "en": "Orders and cumulative outcomes were reported November 21; the program began in 2023."
+          },
+          "unknowns": {
+            "zh": "設備交付、驗收與真實產值待確認。",
+            "en": "Tool delivery, acceptance and realized production value remain unverified."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "德國客戶訂購工具機",
+            "en": "Five-axis tools ordered"
+          },
+          "current": 30,
+          "unit": "台",
+          "period": {
+            "zh": "截至 2026 年 11 月 21 日報導",
+            "en": "Reported by November 21, 2026"
+          },
+          "owner": {
+            "zh": "經濟部產業技術司，由中央社報導",
+            "en": "MOEA technology department, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "預估工具機相關產值",
+            "en": "Estimated production value from tools"
+          },
+          "current": 0.45,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 21 日公布之預估",
+            "en": "Estimate reported Nov 21, 2026"
+          },
+          "owner": {
+            "zh": "經濟部產業技術司，由中央社報導",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "計畫累計企業投資額下限",
+            "en": "Cumulative induced-investment lower bound"
+          },
+          "current": 15.4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "近三年累計至 2026 年",
+            "en": "Cumulative to 2026, about three years"
+          },
+          "owner": {
+            "zh": "經濟部產業技術司，由中央社報導",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "政府稱逾 154 億元，15.4 十億元為已知下限。"
+        },
+        {
+          "name": {
+            "zh": "技轉及廠商服務案件",
+            "en": "Technology transfers and supplier services"
+          },
+          "current": 1067,
+          "unit": "件",
+          "period": {
+            "zh": "近三年累計至 2026 年",
+            "en": "Cumulative to 2026, about three years"
+          },
+          "owner": {
+            "zh": "經濟部產業技術司，由中央社報導",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "計畫服務金額",
+            "en": "Program service value"
+          },
+          "current": 0.944,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "近三年累計至 2026 年",
+            "en": "Cumulative to 2026, about three years"
+          },
+          "owner": {
+            "zh": "經濟部產業技術司，由中央社報導",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "計畫促成投資案",
+            "en": "Induced investment cases"
+          },
+          "current": 598,
+          "unit": "案",
+          "period": {
+            "zh": "近三年累計至 2026 年",
+            "en": "Cumulative to 2026, about three years"
+          },
+          "owner": {
+            "zh": "經濟部產業技術司，由中央社報導",
+            "en": "MOEA, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611210042.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對半導體腔體加工、晶圓製程電源與精密量測設備供應商而言，30 台訂單證明已有特定商業需求，但實際出貨和產值仍須追蹤。值得確認工具機公差、腔體材料、客戶認證與裝機驗收，不能直接把預估產值當成已認列營收。",
+        "en": "For process-chamber machining, fab power and precision metrology suppliers, the 30-tool order demonstrates a commercial commitment while shipments and revenue remain unverified. Tool tolerances, chamber materials, customer qualification and commissioning should be checked separately."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "jingcheng-specialty-gas-tgv-capacity-nov2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "晶呈科技第三季特氣出貨 6,898 支鋼瓶，TGV 產線規劃由 8 條增至 12 條",
+        "en": "Jingcheng reports 6,898 Q3 specialty-gas cylinders and plans 12 TGV lines by end-2027"
+      },
+      "summary": {
+        "zh": "晶呈科技 11 月 20 日線上法說指出，第三季特用氣體出貨 6,898 支鋼瓶，第四季預估 7,400 至 7,600 支；半導體 TGV 玻璃鑽孔與導通現有 8 條產線，規劃 2027 年底增加至 12 條。頭份 C4F6 新廠預估年產 250 公噸，仍在興建並以第四季試量產為目標，與目前已出貨氣體數量屬不同階段。",
+        "en": "Jingcheng reported 6,898 specialty-gas cylinders shipped in Q3 at its November 20 investor briefing and forecast 7,400–7,600 for Q4. Its glass through-via operation currently has eight lines, with twelve targeted by end-2027. A planned 250-tonnes-per-year C4F6 plant in Toufen remains under construction, with trial production targeted for Q4."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "特氣與玻璃封裝材料供應鏈",
+            "en": "Specialty-gas and glass substrate context"
+          },
+          "text": {
+            "zh": "晶呈供應半導體蝕刻用六氟丁二烯等特殊氣體，亦開發玻璃基板 TGV 製程與 CPO 玻璃光纖束導基座。兩類業務分別涉及晶圓前段材料及先進封裝光電互連，不能將 TGV 產線數直接當作氣體產能。",
+            "en": "The company supplies specialty gases including C4F6 for semiconductor processes and develops through-glass-via substrates and glass fiber-array units for co-packaged optics. Gas production and TGV line counts refer to different process stages."
+          }
+        },
+        {
+          "label": {
+            "zh": "已出貨氣體與預估量",
+            "en": "Reported gas shipments and outlook"
+          },
+          "text": {
+            "zh": "第三季特氣出貨 6,898 支鋼瓶為已公布公司實績，第四季 7,400 至 7,600 支屬管理階層展望。特氣占整體營收超過九成，2026 年特氣收入增幅超過 30% 也是全年預測，未附確切可比較年度基數。",
+            "en": "Q3 deliveries of 6,898 cylinders are company-reported actuals; 7,400–7,600 cylinders for Q4 is guidance. Specialty gases account for over 90% of revenue, while the above-30% full-year segment growth is guidance without an exact comparable base."
+          }
+        },
+        {
+          "label": {
+            "zh": "TGV 與頭份建廠",
+            "en": "TGV lines and Toufen plant"
+          },
+          "text": {
+            "zh": "目前 TGV 八條產線將依規劃增至十二條，頭份 C4F6 製造廠規劃年產 250 公噸、第四季試量產。未公告新產線逐條驗收、客戶規格與實際年產。",
+            "en": "Eight existing TGV lines are to expand to twelve, while the Toufen C4F6 plant targets 250 tonnes annually and trial production in Q4. Line-by-line qualification, customer specifications and realized annual output remain unavailable."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "TGV 產品月片數、第四季實際鋼瓶出貨、頭份廠驗收及氣體純度規格未公開。",
+            "en": "Monthly TGV output, actual Q4 gas shipments, Toufen commissioning and gas purity qualifications are not disclosed."
+          }
+        }
+      ],
+      "metric": "6,898 支",
+      "metricLabel": {
+        "zh": "第三季特氣鋼瓶出貨",
+        "en": "Q3 specialty-gas cylinders shipped"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 11 月 20 日晶呈法說報導",
+            "en": "CNA · November 20 Jingcheng investor briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "type": "Source-limited"
+        }
+      ],
+      "location": {
+        "zh": "規劃建廠場址：台灣苗栗縣頭份市 C4F6 製造廠；TGV 原有產線所在廠別未逐條公布。",
+        "en": "Planned project site: C4F6 production plant in Toufen, Miaoli County, Taiwan; exact sites of each TGV line were not reported."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；晶圓；封裝；基板；測試；設備；工廠；投資",
+          "en": "Materials; wafers; packaging; substrates; test; equipment; factories; investment"
+        },
+        "chain": {
+          "zh": "蝕刻特殊氣體至晶圓製程，TGV 玻璃基板至 CPO 封裝與光學測試",
+          "en": "Etch gases into wafer processing, and TGV glass substrates into CPO packaging and optical test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "TGV 擴線與頭份 C4F6 工程仍在規劃或建置，未列精確資本額。",
+            "en": "TGV expansion and Toufen C4F6 construction are ongoing, without an itemized budget."
+          },
+          "demand": {
+            "zh": "第三季鋼瓶已有出貨；第四季及 2027 年產線數屬指引。",
+            "en": "Q3 cylinders shipped; Q4 volumes and 2027 TGV capacity are forecasts."
+          },
+          "fdi": {
+            "zh": "未公布新的境外股權投資。",
+            "en": "No new cross-border equity investment was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "已出貨材料與規劃玻璃封裝產能需分開理解。",
+            "en": "Shipped specialty gases and future glass packaging capacity are separate metrics."
+          },
+          "timing": {
+            "zh": "11 月 20 日發布法說，第四季試產及 2027 年底擴線為未來時程。",
+            "en": "November 20 briefing; trial production and end-2027 expansion are future targets."
+          },
+          "unknowns": {
+            "zh": "量產良率、產線驗收與材料純度細節尚未披露。",
+            "en": "Production yields, line acceptance and gas purity details remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季特殊氣體出貨",
+            "en": "Q3 specialty-gas cylinders shipped"
+          },
+          "current": 6898,
+          "unit": "支",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "晶呈科技，中央社報導",
+            "en": "Jingcheng, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第四季出貨目標下限",
+            "en": "Q4 cylinder forecast lower bound"
+          },
+          "current": 7400,
+          "unit": "支",
+          "period": {
+            "zh": "2026 年第四季預估",
+            "en": "Q4 2026 forecast"
+          },
+          "owner": {
+            "zh": "晶呈科技，中央社報導",
+            "en": "Jingcheng, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "第四季出貨目標上限",
+            "en": "Q4 cylinder forecast upper bound"
+          },
+          "current": 7600,
+          "unit": "支",
+          "period": {
+            "zh": "2026 年第四季預估",
+            "en": "Q4 2026 forecast"
+          },
+          "owner": {
+            "zh": "晶呈科技，中央社報導",
+            "en": "Jingcheng, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "現有 TGV 產線",
+            "en": "Current TGV lines"
+          },
+          "current": 8,
+          "unit": "條",
+          "period": {
+            "zh": "截至 2026 年 11 月 20 日",
+            "en": "As of Nov 20, 2026"
+          },
+          "owner": {
+            "zh": "晶呈科技，中央社報導",
+            "en": "Jingcheng, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "2027 年底 TGV 產線目標",
+            "en": "End-2027 TGV line target"
+          },
+          "current": 12,
+          "unit": "條",
+          "period": {
+            "zh": "2027 年底規劃",
+            "en": "End-2027 plan"
+          },
+          "owner": {
+            "zh": "晶呈科技，中央社報導",
+            "en": "Jingcheng, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "頭份 C4F6 新廠年產規劃",
+            "en": "Planned annual C4F6 capacity"
+          },
+          "current": 250,
+          "unit": "公噸／年",
+          "period": {
+            "zh": "預計完工後年產能",
+            "en": "Planned annual capacity after completion"
+          },
+          "owner": {
+            "zh": "晶呈科技，中央社報導",
+            "en": "Jingcheng, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200282.aspx",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對蝕刻 RF 電源、製程氣體量測、玻璃基板加工與 CPO 光學測試供應商而言，第三季鋼瓶出貨已有實績，TGV 與頭份廠仍有建置目標。仍需查核氣體純度、玻璃鑽孔良率、客戶驗證及新設備驗收。",
+        "en": "For etch RF power, process-gas metrology, glass-substrate machining and CPO optical test suppliers, Q3 cylinder shipments are reported results while TGV and Toufen remain expansion programs. Gas purity, drilling yields, customer qualification and commissioning require verification."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "shunsin-vietnam-subsidiary-equity-2026-11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "訊芯香港核准增資越南子公司 2,000 萬美元，累計股權投資 1.95 億美元",
+        "en": "ShunSin Hong Kong approves US$20m injection into Vietnam subsidiary, bringing cumulative investment to US$195m"
+      },
+      "summary": {
+        "zh": "訊芯科技 11 月 20 日代子公司訊芯香港公告，董事會通過向 ShunSin Technology (Vietnam) 增資 2,000 萬美元，用於長期股權投資。包含此次決議後累計投資額 1.95 億美元、持股 100%；此次增資屬核准股權資金安排，尚未公布相同金額的設備採購、工廠產能或已實際匯款結果。",
+        "en": "ShunSin Technology said on November 20 that its Hong Kong subsidiary approved a US$20 million capital injection into ShunSin Technology (Vietnam) for long-term equity investment. The stated cumulative amount, including this decision, is US$195 million with 100% ownership. The resolution does not establish equivalent equipment purchases, factory capacity or completed remittances."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "封裝模組與越南製造鏈",
+            "en": "Module packaging and Vietnam production chain"
+          },
+          "text": {
+            "zh": "訊芯從事系統模組及半導體封裝相關製造，越南子公司屬集團跨境生產布局。股權增資的資金用途在公告中為長期股權投資，與新接客戶訂單或工廠設備採購不具同一口徑。",
+            "en": "ShunSin operates in system-module and semiconductor packaging-related manufacturing, with a Vietnam subsidiary in its regional network. The filing identifies long-term equity investment, which is distinct from customer orders or tool procurement."
+          }
+        },
+        {
+          "label": {
+            "zh": "金額與持股口徑",
+            "en": "Capital and ownership disclosure"
+          },
+          "text": {
+            "zh": "此次 2,000 萬美元為董事會核准增資，1.95 億美元為包含此次增資後的累計數，不能兩者相加得出 2.15 億美元。公司同時指出截至第三季原有帳面投資餘額，該餘額與累計核准投資額的會計定義不同。",
+            "en": "The new US$20 million is already included in the stated US$195 million cumulative investment, so they must not be added. A separately reported Q3 carrying amount is an accounting measure rather than the same total of approved injections."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "越南實際收款日、資金分配、新增產線設備、廠址及客戶驗收未公布。",
+            "en": "Vietnam remittance timing, fund allocations, additional production tools, facility site and customer acceptance were not disclosed."
+          }
+        }
+      ],
+      "metric": "US$0.020B",
+      "metricLabel": {
+        "zh": "本次核准越南增資",
+        "en": "Approved Vietnam capital increase"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "非凡新聞 · 公開資訊觀測站重大訊息轉載",
+            "en": "USTV · Reproduced exchange material filing"
+          },
+          "url": "https://news.ustv.com.tw/companynews/272801",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 訊芯越南增資與持股",
+            "en": "CNA · ShunSin Vietnam capital injection"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611203002.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣；香港；越南",
+          "en": "Taiwan; Hong Kong; Vietnam"
+        },
+        "industries": {
+          "zh": "晶圓；封裝；測試；零組件；工廠；自動化；投資；FDI",
+          "en": "Wafers; packaging; test; components; factories; automation; investment; FDI"
+        },
+        "chain": {
+          "zh": "半導體模組及封裝產能相關越南子公司的股權資本配置",
+          "en": "Equity funding for a Vietnam subsidiary in module and packaging manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "批准越南子公司增資 2,000 萬美元，累計投資額含本次達 1.95 億美元。",
+            "en": "US$20m approved injection, included within US$195m cumulative investment."
+          },
+          "demand": {
+            "zh": "未公布增資對應的實際設備出貨或工廠產能。",
+            "en": "No tool shipments or factory output associated with the injection were specified."
+          },
+          "fdi": {
+            "zh": "台灣企業透過香港持有的越南子公司股權增資，屬跨境資金安排。",
+            "en": "A Taiwan group approved cross-border equity funding via its Hong Kong subsidiary."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新決議涉及模組與封裝相關企業的越南資金布局。",
+            "en": "New funding approval concerns a Vietnamese module and packaging-linked operation."
+          },
+          "timing": {
+            "zh": "11 月 20 日董事會決議，原有投資屬先前累計。",
+            "en": "Resolution dated November 20; earlier capital is historical."
+          },
+          "unknowns": {
+            "zh": "尚未揭露入帳、廠房、設備及產能細項。",
+            "en": "Disbursement, facility, equipment and output detail remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "本次增資金額",
+            "en": "Approved capital injection"
+          },
+          "current": 0.02,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 20 日決議",
+            "en": "November 20, 2026 resolution"
+          },
+          "owner": {
+            "zh": "訊芯科技公告",
+            "en": "ShunSin Technology filing"
+          },
+          "sourceUrl": "https://news.ustv.com.tw/companynews/272801",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "包含本次的累計投資",
+            "en": "Cumulative investment including new injection"
+          },
+          "current": 0.195,
+          "unit": "USD billion",
+          "period": {
+            "zh": "截至 2026 年 11 月 20 日決議",
+            "en": "Through November 20, 2026 resolution"
+          },
+          "owner": {
+            "zh": "訊芯科技，中央社報導",
+            "en": "ShunSin Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611203002.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        },
+        {
+          "name": {
+            "zh": "越南子公司持股比例",
+            "en": "Ownership in Vietnam subsidiary"
+          },
+          "current": 1,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 20 日公告",
+            "en": "November 20, 2026 disclosure"
+          },
+          "owner": {
+            "zh": "訊芯科技，中央社報導",
+            "en": "ShunSin Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611203002.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對模組封裝電源、製程測試與工廠控制設備供應商而言，這次決議增加越南子公司的核准股權資金。仍須核對實際資金運用、機台清單、採購合同與產能驗收，不能將增資額直接視為新增工具需求。",
+        "en": "For module-packaging power, test and factory control suppliers, the decision increases approved equity capital for the Vietnam operation. Actual deployment, tool lists, purchase orders and qualification remain unverified; equity funding is not an equipment budget."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "gis-vietnam-electromechanical-contract-nov2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "GIS-KY 越南子公司公告取得機電安裝工程，契約金額約 5.3044 億元",
+        "en": "GIS-KY Vietnam subsidiary discloses NT$530.44m electromechanical installation contract"
+      },
+      "summary": {
+        "zh": "GIS-KY 11 月 19 日代越南子公司公告取得一批機電安裝工程，契約總金額新台幣 530,442,000 元，交易期間涵蓋 5 月 8 日至 11 月 19 日。董事會原於 2025 年 2 月 24 日核准相關安排；此次公告提供累計工程契約金額，尚未披露施工驗收、設備類型或該工程對應的特定新增封裝產線。",
+        "en": "GIS-KY disclosed on November 19 an electromechanical installation contract for its Vietnam subsidiary totaling NT$530.442 million, covering transactions dated May 8 through November 19. The related board decision dates to February 24, 2025. The filing establishes contract value but not completed construction, equipment types or a specific new packaging line."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "越南廠務與系統工程",
+            "en": "Vietnam factory utilities and industrial systems"
+          },
+          "text": {
+            "zh": "機電安裝工程涉及廠房電氣、管線及工廠機械系統整合，與電子製造廠務供應鏈相關。該公告只描述機電工程標的，沒有指明屬矽光子、封裝或特定客戶新產線，因此不能將這些用途寫成確定事實。",
+            "en": "Electromechanical installation covers industrial electrical and facility systems. The filing lists the contract category without assigning it to a specific silicon-photonics, packaging or customer production program."
+          }
+        },
+        {
+          "label": {
+            "zh": "履約期間及會計範圍",
+            "en": "Contract period and accounting scope"
+          },
+          "text": {
+            "zh": "公告涵蓋 2026 年 5 月至 11 月多筆或一批工程契約，金額 5.30442 億元，並提及 2025 年先前董事會核准。契約總額未必代表 11 月單日新下單金額或已完成工程收入。",
+            "en": "The NT$530.442 million covers contract work within the May–November period and refers to a 2025 board approval. The figure is a reported agreement total, not necessarily a newly paid November invoice or recognized construction revenue."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "實際施工場址、分項工程、進度款、完工驗收與關聯產品量產尚未公布。",
+            "en": "Exact site, work packages, progress payments, acceptance and any linked production milestones remain undisclosed."
+          }
+        }
+      ],
+      "metric": "NT$0.530B",
+      "metricLabel": {
+        "zh": "越南機電工程契約價值",
+        "en": "Vietnam electromechanical contract value"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · GIS 越南機電工程重訊轉載",
+            "en": "MoneyDJ · Reproduced GIS Vietnam contract filing"
+          },
+          "url": "https://m.moneydj.com/f1a.aspx?a=957EC710-8AAB-446D-BB04-99FCF47ADFB6",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 越南子公司工程交易",
+            "en": "CNA · Vietnam subsidiary installation contract"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611193008.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-19",
+        "countries": {
+          "zh": "台灣；越南",
+          "en": "Taiwan; Vietnam"
+        },
+        "industries": {
+          "zh": "設備；零組件；供電；工廠；自動化；投資",
+          "en": "Equipment; components; power distribution; factories; automation; investment"
+        },
+        "chain": {
+          "zh": "越南電子製造廠機電設施及電力控制工程",
+          "en": "Electromechanical and electrical systems in Vietnam electronics manufacturing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "契約金額約 5.30442 億元，未披露新增股權投資額。",
+            "en": "NT$530.442m of contract value without a new equity investment figure."
+          },
+          "demand": {
+            "zh": "工程契約已公告，尚無完成驗收或量產數據。",
+            "en": "Contract value is disclosed without completed handover or production output."
+          },
+          "fdi": {
+            "zh": "越南子公司工程交易，尚無新增股權型 FDI 申報金額。",
+            "en": "Vietnam subsidiary construction contract without a new equity FDI value."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "機電設施屬高科技電子工廠的基礎系統。",
+            "en": "Electrical and mechanical facilities support electronics factories."
+          },
+          "timing": {
+            "zh": "11 月 19 日事實發生日，涵蓋自 5 月開始的工程交易。",
+            "en": "Reported event date November 19, covering work dated back to May."
+          },
+          "unknowns": {
+            "zh": "工程位置、完工及產能對應仍未公開。",
+            "en": "Site details, completion and capacity links remain unknown."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "越南機電安裝工程總額",
+            "en": "Electromechanical installation contract"
+          },
+          "current": 0.530442,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 5 月至 11 月 19 日",
+            "en": "May–Nov 19, 2026"
+          },
+          "owner": {
+            "zh": "GIS-KY 重大訊息轉載",
+            "en": "GIS-KY reproduced filing"
+          },
+          "sourceUrl": "https://m.moneydj.com/f1a.aspx?a=957EC710-8AAB-446D-BB04-99FCF47ADFB6",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工業電源、廠務控制與精密電力測試設備供應商而言，公告可確認越南工程契約額，工程包的具體規格尚無內容。仍須檢視各項設備、額定負載、現場施工及驗收，不宜把契約額當作全數電源設備採購。",
+        "en": "For industrial power, factory controls and electrical metrology suppliers, the filing confirms contract value while scope details remain absent. Equipment lists, rated loads, construction stages and acceptance must be established before interpreting the contract as power-hardware spending."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "taiwan-taipower-supplementary-budget-tariff-review-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "立法院通過追加預算撥補台電 711 億元，12 月電價審議仍待決議",
+        "en": "Taiwan approves NT$71.1bn Taipower appropriation; December tariff review remains pending"
+      },
+      "summary": {
+        "zh": "立法院 11 月 20 日三讀通過 2026 年中央政府追加預算，包含撥補台電新台幣 711 億元。台電當日晚間表示，將向後續電價費率審議會提交燃料成本、預算與立法院決議內容；經濟部另表示將於 12 月審議時主張民生電價不調漲，尚無正式核定的產業電價變更。",
+        "en": "Taiwan's legislature passed the 2026 supplementary budget on November 20, including an NT$71.1 billion appropriation for state utility Taipower. The company said it would submit fuel costs and budget information to the forthcoming electricity tariff review. MOEA plans to argue against residential tariff increases at the December review; no new industrial tariff has been formally approved."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "工業電力與資料中心背景",
+            "en": "Industrial electricity and data-center context"
+          },
+          "text": {
+            "zh": "台灣晶圓廠、封測廠及資料中心需要長期、可預測的供電。台電財務撥補屬政府預算安排，與已核准的電價費率、新建發電及電網工程採購分屬不同決策。",
+            "en": "Wafer fabs, packaging plants and data centers depend on sustained power supply. A supplementary appropriation is a fiscal decision, distinct from tariff determinations, new generating capacity or grid-equipment procurement."
+          }
+        },
+        {
+          "label": {
+            "zh": "已通過預算與後續審議",
+            "en": "Approved budget and pending tariff decision"
+          },
+          "text": {
+            "zh": "三讀通過的 2026 年追加預算中台電撥補金額為 711 億元。台電承諾在電價審議會提供燃料及財務資料；經濟部表示會提出民生用電不漲價立場，最後電價仍依審議會程序決定。立法院另有政策建議或決議，也不能直接換算為確定的未來各產業電價。",
+            "en": "The approved supplementary budget includes NT$71.1 billion for Taipower. Taipower will provide fuel and financial data; MOEA will present a position against raising residential rates. Final tariff decisions belong to the designated review process and cannot be inferred from the budget alone."
+          }
+        },
+        {
+          "label": {
+            "zh": "營運與投資限制",
+            "en": "Operating and investment limits"
+          },
+          "text": {
+            "zh": "台電指出高科技產業用電需求及後續電網建設需求持續存在，但此次預算未逐項列出新增半導體園區用電 MW 或特定供電設備得標金額。",
+            "en": "Taipower discussed high-tech electricity requirements and future grid work, but the appropriation did not specify newly commissioned industrial MW or named equipment orders."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "12 月電價審議結果、產業用電費率、撥款入帳日與對各工廠供電設施的實際支出仍未確定。",
+            "en": "December tariff outcomes, industrial rates, disbursement dates and site-specific electricity infrastructure spending remain unresolved."
+          }
+        }
+      ],
+      "metric": "NT$71.1B",
+      "metricLabel": {
+        "zh": "台電追加預算撥補",
+        "en": "Approved Taipower supplementary appropriation"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 台電追加預算與公司回應",
+            "en": "CNA · Taipower appropriation and company response"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200312.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "Focus Taiwan · 立法院追加預算三讀",
+            "en": "Focus Taiwan · Supplementary budget passage"
+          },
+          "url": "https://focustaiwan.tw/politics/202611200016",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；電價；供電；資料中心；晶圓；工廠；投資；政策",
+          "en": "Electricity; tariffs; power; data centers; wafers; factories; investment policy"
+        },
+        "chain": {
+          "zh": "台電財務與電網供電至晶圓、封測及資料中心用電",
+          "en": "Utility financing and grid power through fabs, test plants and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "中央政府追加預算撥補 711 億元，不直接代表新設備採購。",
+            "en": "NT$71.1bn appropriation is approved, without specific tool orders."
+          },
+          "demand": {
+            "zh": "電價審議仍未決定，也未公布新增供電容量。",
+            "en": "Tariff review remains pending, with no new commissioned capacity."
+          },
+          "fdi": {
+            "zh": "未公告新外資案件。",
+            "en": "No new FDI transaction was announced."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "電力預算及費率程序與能源密集型供應鏈成本口徑相關。",
+            "en": "Power funding and tariff decisions matter to electricity-intensive supply chains."
+          },
+          "timing": {
+            "zh": "預算 11 月 20 日三讀通過，12 月為預定費率審議時間。",
+            "en": "Budget passed November 20; tariff review is expected in December."
+          },
+          "unknowns": {
+            "zh": "未來電價、實際撥款及電網採購均未確定。",
+            "en": "Future tariffs, disbursement and grid procurement remain unresolved."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "台電追加預算撥補",
+            "en": "Supplementary Taipower funding"
+          },
+          "current": 71.1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年追加預算 11 月 20 日三讀",
+            "en": "2026 supplementary budget passed Nov 20"
+          },
+          "owner": {
+            "zh": "立法院及台電，中央社報導",
+            "en": "Legislature and Taipower, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611200312.aspx",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列相同口徑的精確比較基數，未反推。"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密電源、工業電力品質量測與資料中心供電設備供應商而言，預算撥補及電價審議都涉及公用事業的財務和費率安排。仍須核對實際電網工程標案、供電容量和最終工業電價，單筆財政撥補不能推算設備需求。",
+        "en": "For precision power, industrial power-quality metrology and data-center electrical suppliers, fiscal funding and tariffs are related but separate utility decisions. Grid tenders, commissioned capacity and final industrial rates remain unknown; a public appropriation does not establish equipment orders."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "美光首台 HBM 製程設備進廠是否代表產品已量產出貨？",
+        "en": "Does Micron's first HBM tool move-in mean it is shipping production packages?"
+      },
+      "text": {
+        "zh": "目前確認設備已進無塵室且可開始安裝，初步產出目標是 2027 年初。2025 年提出的約 70 億美元建廠總預算與量產驗收屬不同階段。",
+        "en": "Only tool move-in and facility readiness are confirmed. Early-2027 output remains the target; the 2025 project budget is separate from production qualification."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "KLA 的 21 萬和 42 萬平方英尺可以相加嗎？",
+        "en": "Can KLA's 210,000 and 420,000 square-foot figures be added?"
+      },
+      "text": {
+        "zh": "21 萬是 11 月 20 日新增 22B 廠房面積，42 萬已是包含 22A 與 22B 的整個宏茂橋現有場址，因此不能重複加總。",
+        "en": "No. The 210,000 square feet are new 22B space; 420,000 square feet already includes both buildings on the existing Ang Mo Kio campus."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "德國客戶 30 台工具機與 4.5 億元產值是否都是已實現成果？",
+        "en": "Are the 30 German tool orders and NT$450m both realized?"
+      },
+      "text": {
+        "zh": "30 台是經濟部說明的已取得訂單數，4.5 億元為預估產值。機台交付、客戶驗收及實際認列營收仍未公布。",
+        "en": "The 30 units are orders described by MOEA; NT$450m is estimated output. Deliveries, acceptance and recognized revenue remain undisclosed."
+      }
+    }
+  ],
+  "context": [
+    {
+      "title": {
+        "zh": "HBM 新加坡建廠投資原始日期",
+        "en": "Original date of Micron's Singapore HBM investment"
+      },
+      "text": {
+        "zh": "美光於 2025 年 1 月 8 日宣布約 70 億美元 HBM 封裝廠多年投資。2026 年 11 月 19 日的新事實是首台設備進廠，舊投資額及預估就業人數沿用原有公告日期。",
+        "en": "Micron announced its approximately US$7bn multiyear HBM packaging facility on January 8, 2025. The new November 19, 2026 milestone is first-tool move-in; the investment and jobs retain their original announcement date."
+      }
+    }
+  ],
+  "memo": {
+    "title": {
+      "zh": "資料註記",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "週末股價與舊財報評論",
+        "en": "Weekend market reaction and repeat earnings coverage"
+      },
+      "text": {
+        "zh": "週末關於半導體股價波動、既有輝達財報及早前台灣封裝擴產協議的評論，未提供新的已核實產能、出貨或客戶驗收資訊，沒有當作新事件。",
+        "en": "Stock-price reactions, previously reported earnings and older Taiwan packaging plans lacked a new verified production, shipment or acceptance milestone and were not republished."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "美光首台設備與 KLA 新加坡廠房已完成實體里程碑，但新投資及就業數為既有預算或未來規劃。台灣智慧製造累計成果由中央社引述經濟部，尚未取得逐欄原始統計；晶呈第四季出貨與 TGV 擴線屬預估。訊芯增資及 GIS 越南工程使用重訊轉載，已區分核准資金、工程契約與實際支出；台灣 12 月電價尚未決議。",
+    "en": "Micron and KLA have completed physical milestones, while investment and jobs include previously announced plans. MOEA's cumulative smart-manufacturing figures are media-attributed without the original detailed table. Jingcheng's Q4 shipments and TGV expansion are forecasts. ShunSin equity and GIS contracts were checked through reproduced filings, distinct from actual disbursements. Taiwan's December tariffs remain undecided."
+  }
+}
