@@ -1,9 +1,9 @@
 {
   "weekStart": "2026-11-22",
-  "generatedAt": "2026-11-21T11:48:37.212Z",
+  "generatedAt": "2026-11-22T09:17:58.192Z",
   "throughline": {
-    "zh": "新加坡 HBM 製程設備與半導體檢測廠房完成新里程碑，台灣則公布工具機訂單、製程材料產能規劃以及越南製造與電網資金進度。",
-    "en": "Singapore reported new HBM tool and semiconductor-inspection facility milestones, while Taiwan disclosed machine-tool orders, process-material plans and Vietnam manufacturing and grid-funding developments."
+    "zh": "新加坡公布 HBM 封裝與半導體設備廠里程碑，台灣和馬來西亞則更新電力設備、機房代管及製程材料進度。",
+    "en": "Singapore reported HBM packaging and tool facility milestones, while Taiwan and Malaysia disclosed developments in power equipment, colocation and process materials."
   },
   "highlights": [
     {
@@ -32,6 +32,80 @@
       "id": 2,
       "category": "taiwan",
       "title": {
+        "zh": "台灣電力設備訂單及公用電力預算",
+        "en": "Taiwan power equipment orders and utility financing"
+      },
+      "summary": {
+        "zh": "亞力法說揭露在手訂單 130 億元，涉及半導體、資料中心與電網。立法院另通過撥補台電 711 億元的追加預算，12 月費率仍待審議。",
+        "en": "Allis reported a NT$13 billion backlog spanning fabs, data centers and the grid. Separately, Taiwan passed a supplementary budget with NT$71.1 billion for Taipower, with December rates pending review."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 7
+        },
+        {
+          "date": "2026-11-23",
+          "storyId": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "tech",
+      "title": {
+        "zh": "半導體製程材料、封裝及光互連進度",
+        "en": "Chip process materials, packaging and optical interconnects"
+      },
+      "summary": {
+        "zh": "晶呈科技揭露第三季特氣出貨與玻璃通孔產線規劃，南寶表示半導體用膠已供貨。經濟日報另報導立碁 1.6T 光收發模組進入送樣驗證。",
+        "en": "Jingcheng disclosed Q3 specialty gas shipments and glass via capacity plans, while Nan Pao reported semiconductor adhesive shipments. Economic Daily News reported customer sampling for Ligitek’s 1.6 Tbps optical module."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-23",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-23",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "global",
+      "title": {
+        "zh": "東南亞電子工廠投資與機房代管",
+        "en": "Southeast Asian factory investment and colocation"
+      },
+      "summary": {
+        "zh": "訊芯核准增資越南子公司 2,000 萬美元，GIS-KY 越南子公司公告機電工程契約。馬來西亞 YTL 表示柔佛機房代管服務不受美國遠端算力新規影響，個案尚無公開主管機關認定。",
+        "en": "ShunSin approved a US$20 million Vietnam equity injection and GIS-KY’s Vietnam subsidiary disclosed an electromechanical contract. Separately, Malaysia’s YTL said its Johor colocation business is unaffected by the new U.S. remote compute rule, with no public case-specific finding."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-22",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-23",
+          "storyId": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "taiwan",
+      "title": {
         "zh": "智慧製造工具機與腔體設備供應鏈",
         "en": "Smart manufacturing and semiconductor chamber tools"
       },
@@ -43,64 +117,6 @@
         {
           "date": "2026-11-22",
           "storyId": 3
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "category": "tech",
-      "title": {
-        "zh": "電子特氣與 TGV 玻璃封裝材料",
-        "en": "Specialty gases and TGV glass packaging"
-      },
-      "summary": {
-        "zh": "晶呈科技公布第三季特殊氣體出貨 6,898 支鋼瓶，第四季提出更高的出貨預估。TGV 製程現有八條線並規劃 2027 年底增至十二條，頭份 C4F6 新廠仍在建置。",
-        "en": "Jingcheng reported 6,898 Q3 specialty-gas cylinders, with higher Q4 guidance. Its eight TGV lines are targeted to expand to twelve by end-2027, while its Toufen C4F6 plant is still being built."
-      },
-      "references": [
-        {
-          "date": "2026-11-22",
-          "storyId": 4
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "category": "global",
-      "title": {
-        "zh": "越南製造業資本與機電工程",
-        "en": "Vietnam manufacturing capital and electromechanical contracts"
-      },
-      "summary": {
-        "zh": "訊芯香港 11 月 20 日核准增資越南子公司 2,000 萬美元，GIS-KY 越南子公司另公告 5.30442 億元機電安裝工程契約。股權增資與工程採購屬不同交易性質，兩案均未公布量產驗收。",
-        "en": "ShunSin Hong Kong approved a US$20 million Vietnam equity injection on November 20, while GIS-KY disclosed a NT$530.442 million electromechanical installation agreement in Vietnam. The equity and construction contracts are distinct measures, without qualified production milestones."
-      },
-      "references": [
-        {
-          "date": "2026-11-22",
-          "storyId": 5
-        },
-        {
-          "date": "2026-11-22",
-          "storyId": 6
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "category": "taiwan",
-      "title": {
-        "zh": "台灣公用電力預算與電價程序",
-        "en": "Taiwan utility financing and tariff review"
-      },
-      "summary": {
-        "zh": "立法院 11 月 20 日通過包含撥補台電 711 億元的追加預算，台電表示後續將提供燃料成本及財務資料供電價審議。12 月電價仍待決議，沒有新的產業用電費率或個別電網設備採購額。",
-        "en": "Taiwan passed a supplementary budget including NT$71.1 billion for Taipower on November 20. The utility will submit cost information to the tariff review, with December rates and project-level grid procurements still unconfirmed."
-      },
-      "references": [
-        {
-          "date": "2026-11-22",
-          "storyId": 7
         }
       ]
     }

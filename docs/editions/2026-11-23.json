@@ -1,0 +1,1039 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-22T09:17:58.192Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞的半導體材料、機房供電及資料中心",
+      "en": "Taiwan and Southeast Asian semiconductor materials, site power and data centers"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "亞力披露配電設備在手訂單，YTL 說明柔佛機房代管服務，台灣供應鏈則有南寶膠材供貨及立碁光收發模組送樣的消息。",
+    "en": "Allis disclosed a power equipment backlog and YTL detailed its Johor colocation services, while disclosures and reporting in Taiwan covered semiconductor adhesive shipments and optical transceiver sampling."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "亞力披露在手訂單 130 億元，涵蓋半導體廠、資料中心及電網設備，未拆分各市場金額。",
+        "en": "Allis reported a NT$13 billion backlog covering semiconductor facilities, data centers and grid equipment, without a segment split."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "YTL 稱柔佛機房代管服務不受美國新規影響，個案仍缺主管機關認定。",
+        "en": "YTL said Johor colocation is unaffected by the new U.S. rule. No case-specific regulatory determination was located."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "南寶表示半導體用膠已供貨，先進封裝膠材的認證與出貨量尚未公開。",
+        "en": "Nan Pao reported shipments of semiconductor adhesives. Advanced packaging qualifications and volumes remain undisclosed."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "經濟日報 11 月 22 日報導，立碁 1.6T 光收發模組已進入客戶送樣驗證。",
+        "en": "On November 22, Economic Daily News reported that Ligitek’s 1.6 Tbps optical module had entered customer sampling for qualification."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "allis-electric-nov-2026-power-equipment-backlog",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "亞力揭露在手訂單達 130 億元，涵蓋半導體、資料中心與台電設備需求",
+        "en": "Allis Electric reports NT$13 billion backlog across chip, data center and utility markets"
+      },
+      "summary": {
+        "zh": "台灣電力設備商亞力 11 月 20 日在線上法說會表示，在手訂單達新台幣 130 億元，並點出台灣、美國及新加坡為主要半導體訂單來源。公司也提到資料中心及台電電網需求，未拆分各市場的訂單金額。",
+        "en": "Taiwanese electrical equipment supplier Allis Electric reported a NT$13 billion backlog at its November 20 online investor briefing, naming Taiwan, the U.S. and Singapore as its main semiconductor order markets. It also cited data centers and Taipower grid work, without breaking out orders by market."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "亞力供應配電盤、變壓器等設備，法說簡報將台積電、聯電、美光等列在高科技客戶名單，並將半導體廠、資料中心和公用電力工程列為不同應用。名單未列個別客戶的在手訂單。",
+            "en": "Allis supplies switchgear and transformers. Its presentation lists TSMC, UMC and Micron among its high-tech customers and identifies fabs, data centers and utility projects as distinct applications. It does not give customer-level backlogs."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "經濟日報引述亞力在法說會披露在手訂單總額。工商時報另引述公司指出，近期已接獲電信和電子業者約 15 億元的機房相關訂單。",
+            "en": "Economic Daily News reported the total backlog from the briefing. Commercial Times separately quoted Allis as saying it had received about NT$1.5 billion in data center-related orders from telecom and electronics companies."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "公司未公布各類訂單的交付與驗收時程，也未交代約 15 億元的機房相關訂單在總在手訂單中的認列範圍。",
+            "en": "Allis did not give delivery and acceptance schedules by segment or specify how the NT$1.5 billion in data center-related orders was counted in the total backlog."
+          }
+        }
+      ],
+      "metric": "NT$13B",
+      "metricLabel": {
+        "zh": "亞力在手訂單",
+        "en": "Allis order backlog"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "公開資訊觀測站 · 亞力法說簡報",
+            "en": "MOPS · Allis investor presentation"
+          },
+          "url": "https://mopsov.twse.com.tw/nas/STR/151420261119E001.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 亞力法說與在手訂單",
+            "en": "Economic Daily News · Allis briefing and backlog"
+          },
+          "url": "https://udn.com/news/story/7252/9891886",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "工商時報 · 亞力機房訂單，由富聯網刊載",
+            "en": "Commercial Times · Allis data center orders, via MoneyLink"
+          },
+          "url": "https://www.moneylink.com.tw/RealtimeNews/NewsContent.aspx?PU=1002&SN=6367631001",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "法說會形式：台灣線上會議。",
+        "en": "Briefing format: online, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣、美國、新加坡",
+          "en": "Taiwan, United States, Singapore"
+        },
+        "industries": {
+          "zh": "電力設備；半導體工廠；資料中心",
+          "en": "Power equipment, semiconductor fabs, data centers"
+        },
+        "chain": {
+          "zh": "配電設備至晶圓工廠、資料中心及電網供電",
+          "en": "Distribution equipment to fabs, data centers and the utility grid"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "亞力披露在手訂單 130 億元，另提到約 15 億元機房相關訂單。",
+            "en": "Allis reported a NT$13 billion backlog and separately cited about NT$1.5 billion in data center-related orders."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "亞力供應配電盤、變壓器等設備，法說簡報將台積電、聯電、美光等列在高科技客戶名單，並將半導體廠、資料中心和公用電力工程列為不同應用。名單未列個別客戶的在手訂單。",
+            "en": "Allis supplies switchgear and transformers. Its presentation lists TSMC, UMC and Micron among its high-tech customers and identifies fabs, data centers and utility projects as distinct applications. It does not give customer-level backlogs."
+          },
+          "timing": {
+            "zh": "在手訂單金額於 11 月 20 日法說會披露。",
+            "en": "The backlog was disclosed at the November 20 investor briefing."
+          },
+          "unknowns": {
+            "zh": "公司未公布各類訂單的交付與驗收時程，也未交代約 15 億元的機房相關訂單在總在手訂單中的認列範圍。",
+            "en": "Allis did not give delivery and acceptance schedules by segment or specify how the NT$1.5 billion in data center-related orders was counted in the total backlog."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "亞力在手訂單",
+            "en": "Allis order backlog"
+          },
+          "current": 13,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "截至 11 月 20 日法說會",
+            "en": "As of the November 20 briefing"
+          },
+          "owner": {
+            "zh": "亞力電機，經濟日報引述",
+            "en": "Allis Electric, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://udn.com/news/story/7252/9891886",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "單期揭露，未列比較基期"
+        },
+        {
+          "name": {
+            "zh": "機房相關訂單",
+            "en": "Data center-related orders"
+          },
+          "current": 1.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "11 月 20 日法說披露的已接訂單",
+            "en": "Orders received, as disclosed November 20"
+          },
+          "owner": {
+            "zh": "亞力電機，工商時報引述",
+            "en": "Allis Electric, quoted by Commercial Times"
+          },
+          "sourceUrl": "https://www.moneylink.com.tw/RealtimeNews/NewsContent.aspx?PU=1002&SN=6367631001",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "單期揭露，未列比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "供應變壓、配電及不斷電系統量測設備的業者，會想確認半導體廠與資料中心各自的規格和驗收排程。在手訂單總額仍不足以判定單一設備品項的需求。",
+        "en": "Suppliers of transformer, distribution and UPS test equipment would ask which specifications and acceptance schedules apply to fabs and data centers. The backlog does not yet establish demand for any individual equipment class."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "ytl-johor-colocation-us-chip-rule-response-2026-11",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤｜YTL 電力稱柔佛機房代管服務不受美國遠端算力新規影響",
+        "en": "Follow-up: YTL Power says Johor colocation is unaffected by new U.S. remote compute rule"
+      },
+      "summary": {
+        "zh": "馬來西亞 YTL 電力於 11 月 20 日表示，其柔佛資料中心提供機房空間、供電、冷卻和連線，並稱這項代管服務不受美國遠端使用先進晶片新規影響。公司也否認協助轉運 NVIDIA GPU 的指控；上述說法來自公司聲明。",
+        "en": "Malaysian operator YTL Power said on November 20 that its Johor colocation business supplies space, power, cooling and connectivity and is unaffected by the new U.S. rule on remote access to advanced chips. YTL also denied allegations that it facilitated the transfer of NVIDIA GPUs."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "YTL 表示柔佛機房為多家全球客戶提供代管服務，包括美國大型雲端業者。美國工業暨安全局在 11 月 19 日刊登臨時最終規則，內容涉及境外資料中心在特定條件下提供先進晶片遠端運算。",
+            "en": "YTL says its Johor sites provide colocation to multiple global customers, including U.S. hyperscalers. The U.S. Bureau of Industry and Security published an interim final rule on November 19 covering specified circumstances involving remote use of advanced chips at overseas data centers."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "YTL 在 11 月 20 日聲明中表示，已就資料中心開發與馬來西亞投資、貿易及工業部合作，並遵守其所適用的申報和進口要求。馬新社報導了公司回應，翌日馬來西亞科技媒體 SoyaCincau 也報導該聲明。",
+            "en": "In its November 20 statement, YTL said it had worked with Malaysia’s trade ministry on its data centers and met applicable reporting and import requirements. Bernama covered the response, followed by Malaysian technology outlet SoyaCincau on November 21."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "聲明未列出涉事客戶所用硬體、存取權限或許可文件，公開資料也未見主管機關對相關個案作出認定。",
+            "en": "The statement did not identify hardware, access rights or licenses for individual customers, and no case-specific regulatory finding was located."
+          }
+        }
+      ],
+      "metric": "Colocation",
+      "metricLabel": {
+        "zh": "YTL 公開回應",
+        "en": "YTL response"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "YTL 電力 · 柔佛機房代管聲明",
+            "en": "YTL Power · Johor colocation statement"
+          },
+          "url": "https://www.ytlpowerinternational.com/press-releases/ytl-data-centers-unaffected-by-latest-u-s-trade-controls/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "美國聯邦公報 · 先進晶片遠端存取規則",
+            "en": "Federal Register · Advanced chip remote-access rule"
+          },
+          "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "馬新社 · YTL 回應",
+            "en": "Bernama · YTL response"
+          },
+          "url": "https://web26.bernama.com/en/general/news.php?id=2637275",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "SoyaCincau · 柔佛代管服務報導",
+            "en": "SoyaCincau · Johor colocation coverage"
+          },
+          "url": "https://soyacincau.com/2026/11/21/ytl-power-denies-helping-china-obtain-nvidia-cpu-johor-data-centre/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "營運地點：馬來西亞柔佛州 YTL 代管機房；公司聲明未指明單一樓棟。",
+        "en": "Operating location: YTL colocation facilities in Johor, Malaysia. The statement did not identify an individual building."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "馬來西亞、美國",
+          "en": "Malaysia, United States"
+        },
+        "industries": {
+          "zh": "資料中心；電力；冷卻；先進晶片出口許可",
+          "en": "Data centers, power, cooling, advanced chip licensing"
+        },
+        "chain": {
+          "zh": "機房供電與散熱至資料中心代管及算力服務",
+          "en": "Site power and cooling to colocation and compute services"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "YTL 表示柔佛機房為多家全球客戶提供代管服務，包括美國大型雲端業者。美國工業暨安全局在 11 月 19 日刊登臨時最終規則，內容涉及境外資料中心在特定條件下提供先進晶片遠端運算。",
+            "en": "YTL says its Johor sites provide colocation to multiple global customers, including U.S. hyperscalers. The U.S. Bureau of Industry and Security published an interim final rule on November 19 covering specified circumstances involving remote use of advanced chips at overseas data centers."
+          },
+          "timing": {
+            "zh": "美國規則於 11 月 19 日刊登，YTL 於 11 月 20 日發布公司回應。",
+            "en": "The U.S. rule appeared on November 19 and YTL issued its response on November 20."
+          },
+          "unknowns": {
+            "zh": "聲明未列出涉事客戶所用硬體、存取權限或許可文件，公開資料也未見主管機關對相關個案作出認定。",
+            "en": "The statement did not identify hardware, access rights or licenses for individual customers, and no case-specific regulatory finding was located."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "機房電源和冷卻設備業者會想確認，柔佛各案由誰負責機電配置，以及哪些負載與特定租戶綁定。公司聲明沒有提供部署時程、電力負載或許可文件，仍無法判定個別機房的設備需求。",
+        "en": "Power and cooling suppliers would ask who controls electrical and mechanical specifications at each Johor site and which loads are tenant-specific. The statement provides no deployment schedule, power load or licensing documents for estimating equipment requirements."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "nan-pao-semiconductor-adhesives-development-unit-2026",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "南寶披露已供應半導體用膠，另成立部門布局封裝與銅箔基板材料",
+        "en": "Nan Pao reports semiconductor adhesive shipments and a new unit for packaging and laminate materials"
+      },
+      "summary": {
+        "zh": "南寶樹脂 11 月 20 日於台灣線上法說會表示，半導體用膠已開始供貨，並已成立半導體產業發展部，涵蓋半導體、光電與銅箔基板材料。公司將先進封裝相關膠材列為拓展目標，未公布該類產品的認證或供貨規模。",
+        "en": "Taiwanese materials maker Nan Pao said at its November 20 online briefing that it had started shipping semiconductor adhesives and set up a division for semiconductor, optoelectronic and copper-clad laminate materials. It listed advanced packaging adhesives as a development target and gave no qualification or shipment figures for that product class."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "經濟日報引述南寶說明，公司與新應材、信紘科成立新寶紘科技開發封裝用膠帶，由南寶供應接著劑。公司也把環氧樹脂及硬化劑列為高階銅箔基板材料的開發基礎。",
+            "en": "Economic Daily News reported that Nan Pao formed a packaging tape venture with Advanced Echem Materials and Trusval Technology, with Nan Pao supplying the adhesive. The company also cited epoxy resins and curing agents as the basis for work on advanced copper-clad laminate materials."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "南寶法說簡報列示第三季合併營收 69.25 億元，年增 17%；毛利 21.59 億元，毛利率 31.2%，上年同期為 33.9%。營業利益 10.09 億元，年增 5%；營業利益率從上年同期 16.3% 降至 14.6%。第三季歸屬母公司淨利為 6.56 億元，每股盈餘 5.44 元；前三季分別為 23.23 億元及 19.27 元。",
+            "en": "Nan Pao’s presentation showed Q3 consolidated revenue of NT$6.925 billion, up 17% year over year. Gross profit was NT$2.159 billion and gross margin was 31.2%, down from 33.9% a year earlier. Operating income rose 5% to NT$1.009 billion and operating margin fell from 16.3% to 14.6%. Attributable net income was NT$656 million and EPS was NT$5.44 for the quarter, and NT$2.323 billion and NT$19.27 for the first nine months."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "公司未揭露已供貨半導體用膠的客戶、料號、出貨量及應用製程；財務數字是公司整體實績。",
+            "en": "Nan Pao did not disclose customers, product identifiers, volumes or process applications for the adhesives it is shipping. The financial results are company-wide."
+          }
+        }
+      ],
+      "metric": "Supply began",
+      "metricLabel": {
+        "zh": "半導體用膠進度",
+        "en": "Semiconductor adhesive milestone"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "公開資訊觀測站 · 南寶第三季法說簡報",
+            "en": "MOPS · Nan Pao Q3 investor presentation"
+          },
+          "url": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 南寶線上法說",
+            "en": "CNA · Nan Pao investor briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611200264.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 南寶封裝膠帶合作",
+            "en": "Economic Daily News · Nan Pao packaging tape venture"
+          },
+          "url": "https://money.udn.com/money/story/5612/9891855",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "法說會形式：台灣線上會議。",
+        "en": "Briefing format: online, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-20",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；封裝；基板；光電零組件",
+          "en": "Materials, packaging, substrates and optoelectronic components"
+        },
+        "chain": {
+          "zh": "接著劑及樹脂材料至封裝膠帶與銅箔基板",
+          "en": "Adhesives and resins to packaging tapes and copper-clad laminates"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "公司稱半導體用膠已供貨，未列分項訂單或出貨量。",
+            "en": "Nan Pao reported semiconductor adhesive shipments without disclosing order or shipment volumes."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "經濟日報引述南寶說明，公司與新應材、信紘科成立新寶紘科技開發封裝用膠帶，由南寶供應接著劑。公司也把環氧樹脂及硬化劑列為高階銅箔基板材料的開發基礎。",
+            "en": "Economic Daily News reported that Nan Pao formed a packaging tape venture with Advanced Echem Materials and Trusval Technology, with Nan Pao supplying the adhesive. The company also cited epoxy resins and curing agents as the basis for work on advanced copper-clad laminate materials."
+          },
+          "timing": {
+            "zh": "11 月 20 日法說會披露供貨與部門成立；開始供貨的確切日期未公開。",
+            "en": "The November 20 briefing disclosed shipments and the new division. The exact start date of shipments was not disclosed."
+          },
+          "unknowns": {
+            "zh": "公司未揭露已供貨半導體用膠的客戶、料號、出貨量及應用製程；財務數字是公司整體實績。",
+            "en": "Nan Pao did not disclose customers, product identifiers, volumes or process applications for the adhesives it is shipping. The financial results are company-wide."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "合併營收",
+            "en": "Consolidated revenue"
+          },
+          "current": 6.925,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 5.91,
+          "basePeriod": "2025 Q3",
+          "reportedRate": 0.17,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "毛利",
+            "en": "Gross profit"
+          },
+          "current": 2.159,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 2.001,
+          "basePeriod": "2025 Q3",
+          "reportedRate": 0.08,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "毛利率",
+            "en": "Gross margin"
+          },
+          "current": 0.312,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.339,
+          "basePeriod": "2025 Q3",
+          "reportedRate": null,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "營業利益",
+            "en": "Operating income"
+          },
+          "current": 1.009,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.963,
+          "basePeriod": "2025 Q3",
+          "reportedRate": 0.05,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "營業利益率",
+            "en": "Operating margin"
+          },
+          "current": 0.146,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.163,
+          "basePeriod": "2025 Q3",
+          "reportedRate": null,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "歸屬母公司淨利",
+            "en": "Attributable net income"
+          },
+          "current": 0.656,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.599,
+          "basePeriod": "2025 Q3",
+          "reportedRate": 0.1,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "每股盈餘",
+            "en": "Earnings per share"
+          },
+          "current": 5.44,
+          "unit": "NTD/share",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 4.97,
+          "basePeriod": "2025 Q3",
+          "reportedRate": 0.1,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "歸屬母公司淨利",
+            "en": "Attributable net income"
+          },
+          "current": 2.323,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "Jan to Sep 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 1.881,
+          "basePeriod": "2025 9M",
+          "reportedRate": 0.23,
+          "baseStatus": "來源提供可比基期"
+        },
+        {
+          "name": {
+            "zh": "每股盈餘",
+            "en": "Earnings per share"
+          },
+          "current": 19.27,
+          "unit": "NTD/share",
+          "period": {
+            "zh": "2026 年前三季",
+            "en": "Jan to Sep 2026"
+          },
+          "owner": {
+            "zh": "南寶樹脂",
+            "en": "Nan Pao"
+          },
+          "sourceUrl": "https://mopsov.twse.com.tw/nas/STR/476620261120M001.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 15.6,
+          "basePeriod": "2025 9M",
+          "reportedRate": 0.24,
+          "baseStatus": "來源提供可比基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "控制點膠、固化和量測的設備商會想了解，新材料目前用於哪一道封裝製程，以及客戶使用哪些驗證條件。既有供貨未揭露料號，先進封裝膠材的認證與量產需求仍待確認。",
+        "en": "Dispensing, curing and measurement suppliers would ask which packaging steps the material serves and how customers qualify it. Without product identifiers, the reported shipments leave advanced packaging qualification and volume demand open."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "ligitek-1600g-optical-transceiver-qualification-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤｜經濟日報報導立碁 1.6T 光收發模組已進入客戶送樣驗證",
+        "en": "Follow-up: Economic Daily News reports Ligitek’s 1.6 Tbps module has reached customer sampling"
+      },
+      "summary": {
+        "zh": "經濟日報 11 月 22 日報導，台灣立碁的 1.6T 矽光子光收發模組已進入客戶送樣驗證。立碁 9 月曾公布樣品完成及後續送驗規劃，這次報導未指明實際送樣日期或驗證結果。",
+        "en": "Economic Daily News reported on November 22 that Taiwanese supplier Ligitek’s 1.6 Tbps silicon photonics transceiver had entered customer sampling for qualification. In September, Ligitek had already disclosed a completed sample and plans to submit it. The latest report gave no shipment date or qualification result."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "立碁 9 月在公司網站刊載董事長童義興的說明，指出當時已完成樣品，後續規劃送交包括伺服器業者在內的潛在客戶驗證。",
+            "en": "Ligitek’s September website item quoted chair Tung Yi-hsing as saying the sample was complete and identifying server companies among the prospective customers for qualification."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "11 月 22 日報導把進度描述為已進入客戶送樣驗證，並提到無塵室設備預計年底陸續到位。1.6T 是傳輸規格，報導未提供測試結果。",
+            "en": "The November 22 report described the project as having reached customer sampling and said cleanroom equipment was expected to begin arriving by year-end. The 1.6 Tbps figure is a transmission specification. No test results were disclosed."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "公開資料未確認客戶名稱、送樣時間、合格率、量產訂單或設備實際進場情形。",
+            "en": "Customer names, sample shipment dates, pass rates, volume orders and actual equipment installation remain undisclosed."
+          }
+        }
+      ],
+      "metric": "1.6 Tbps",
+      "metricLabel": {
+        "zh": "光收發模組傳輸規格",
+        "en": "Transceiver data rate"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟日報 · 11 月客戶送樣進度",
+            "en": "Economic Daily News · November customer sampling"
+          },
+          "url": "https://money.udn.com/money/story/5612/9893868?from=edn_related_storybottom",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "立碁 · 9 月樣品及送驗規劃",
+            "en": "Ligitek · September sample and qualification plans"
+          },
+          "url": "https://www.ligitek.com/tw/News_detail/6913/LED-news",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-22",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "光通訊零組件；矽光子；資料中心；伺服器",
+          "en": "Optical components, silicon photonics, data centers and servers"
+        },
+        "chain": {
+          "zh": "矽光子光收發零組件至伺服器及資料中心光互連",
+          "en": "Silicon photonics transceivers to server and data center optical interconnects"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "媒體報導已進入送樣驗證，未披露量產訂單。",
+            "en": "Media reported customer sampling for qualification, with no volume orders disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "立碁 9 月在公司網站刊載董事長童義興的說明，指出當時已完成樣品，後續規劃送交包括伺服器業者在內的潛在客戶驗證。",
+            "en": "Ligitek’s September website item quoted chair Tung Yi-hsing as saying the sample was complete and identifying server companies among the prospective customers for qualification."
+          },
+          "timing": {
+            "zh": "11 月 22 日為送樣進度的報導日期；公司未公布送樣起始日。",
+            "en": "November 22 is the reporting date for the sampling status. The start date was not disclosed."
+          },
+          "unknowns": {
+            "zh": "公開資料未確認客戶名稱、送樣時間、合格率、量產訂單或設備實際進場情形。",
+            "en": "Customer names, sample shipment dates, pass rates, volume orders and actual equipment installation remain undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "光收發模組傳輸規格",
+            "en": "Transceiver data rate"
+          },
+          "current": 1.6,
+          "unit": "Tbps",
+          "period": {
+            "zh": "2026 年送樣產品",
+            "en": "2026 sampling product"
+          },
+          "owner": {
+            "zh": "立碁，由經濟日報報導",
+            "en": "Ligitek, reported by Economic Daily News"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9893868?from=edn_related_storybottom",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "單期揭露，未列比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "光學耦合、雷射供電與模組測試設備商會想確認，客戶送驗採用哪些光介面、功率和溫度條件。尚未公布合格結果與量產訂單，設備需求時程仍不明。",
+        "en": "Optical coupling, laser power and module test suppliers would ask which interfaces, power levels and temperatures the qualification uses. Equipment timing remains uncertain pending qualification results and volume orders."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "taiwan-moenv-cop31-circular-supply-chains-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "環境部提出跨境循環材料合作方向，說明台灣資源循環雙法改革",
+        "en": "Taiwan environment ministry outlines cross-border recycled materials cooperation and legislative reforms"
+      },
+      "summary": {
+        "zh": "台灣環境部 11 月 21 日回應 COP31 的零廢棄倡議，表示將與國際夥伴推動循環材料應用及跨境供應鏈合作。環境部說明，台灣今年推動的兩項法制改革涵蓋產品設計、使用及回收，當日未公布新增合作案。",
+        "en": "On November 21, Taiwan’s environment ministry responded to the COP31 zero-waste initiative by outlining plans to work with international partners on recycled materials and cross-border supply chains. It highlighted two legislative reforms spanning product design, use and recycling, without announcing a new project."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "環境部表示，2026 年推動《資源循環推動法》及《廢棄物清理法》雙法改革，管理範圍涵蓋產品設計、材料選擇、使用和回收。",
+            "en": "The ministry said its 2026 reforms involve resource circulation and waste legislation, covering product design, material choices, use and recycling."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "環境部將再生材料、資源使用效率及跨產業合作列為工作方向；中央社也報導這項政策說明。",
+            "en": "The ministry set out work on recycled materials, resource efficiency and cross-industry cooperation. CNA also reported the ministry’s position."
+          }
+        },
+        {
+          "label": {
+            "zh": "尚未確認",
+            "en": "Still unknown"
+          },
+          "text": {
+            "zh": "聲明未公布新增跨境合作對象、工業材料的再生含量門檻或實施日期。",
+            "en": "The statement gave no new cross-border partners, industrial recycled-content thresholds or effective dates."
+          }
+        }
+      ],
+      "metric": "Policy",
+      "metricLabel": {
+        "zh": "資源循環政策",
+        "en": "Circular materials policy"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "環境部 · COP31 與資源循環政策說明",
+            "en": "Environment ministry · COP31 and resource circulation statement"
+          },
+          "url": "https://enews.moenv.gov.tw/moenv-news/zh-tw/News/14539",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 跨境循環材料政策報導",
+            "en": "CNA · Cross-border circular materials coverage"
+          },
+          "url": "https://www.cna.com.tw/news/ahel/202611210076.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-21",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "材料；工廠；資源回收政策",
+          "en": "Materials, factories and recycling policy"
+        },
+        "chain": {
+          "zh": "再生材料至產品設計、工廠使用與回收",
+          "en": "Recycled materials to product design, factory use and recycling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "環境部表示，2026 年推動《資源循環推動法》及《廢棄物清理法》雙法改革，管理範圍涵蓋產品設計、材料選擇、使用和回收。",
+            "en": "The ministry said its 2026 reforms involve resource circulation and waste legislation, covering product design, material choices, use and recycling."
+          },
+          "timing": {
+            "zh": "環境部聲明於 11 月 21 日發布。",
+            "en": "The ministry issued its statement on November 21."
+          },
+          "unknowns": {
+            "zh": "聲明未公布新增跨境合作對象、工業材料的再生含量門檻或實施日期。",
+            "en": "The statement gave no new cross-border partners, industrial recycled-content thresholds or effective dates."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "工業材料量測及回收設備商會想確認，政策公布後是否會訂出再生含量、材料追溯或檢驗規格。這次聲明尚未提供認證條件或執行日期。",
+        "en": "Industrial material testing and recycling equipment suppliers would ask whether follow-on rules specify recycled content, traceability or testing. The statement does not identify qualification conditions or implementation dates."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "亞力的訂單金額涵蓋哪些市場？",
+        "en": "Which markets does Allis’s backlog cover?"
+      },
+      "text": {
+        "zh": "公司在法說會提到半導體擴廠、資料中心和台電工程。現有資料未分列各類訂單金額、驗收或收入認列時程。",
+        "en": "The briefing cited fab expansion, data centers and Taipower projects. Available disclosures do not break out order values, acceptance or revenue recognition by segment."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "柔佛代管聲明回答了哪些問題？",
+        "en": "What does the Johor colocation statement establish?"
+      },
+      "text": {
+        "zh": "YTL 說明其提供空間、供電、冷卻及連線，並說明公司對新規適用範圍的看法。公開資料未見主管機關認定。",
+        "en": "YTL identified space, power, cooling and connectivity as its services and gave its interpretation of the rule. No regulatory determination was located."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "南寶披露的是哪個產品階段？",
+        "en": "Which product milestone did Nan Pao disclose?"
+      },
+      "text": {
+        "zh": "南寶表示已供應半導體用膠。公司把先進封裝膠材列為拓展目標，未公開認證和出貨數字。",
+        "en": "Nan Pao reported shipments of semiconductor adhesives. It listed advanced packaging adhesives as a development target, with no disclosed qualification or shipment counts."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "資料備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [
+    {
+      "title": {
+        "zh": "先前公布的產能合作與展會發布",
+        "en": "Previously announced capacity and exhibition releases"
+      },
+      "text": {
+        "zh": "輝達與台灣廠商先前宣布的產能合作及群聯 11 月 17 日 SC26 儲存發布，近期報導以重述原公告為主。",
+        "en": "Recent coverage largely recapped the previously announced NVIDIA capacity agreements and Phison’s November 17 storage announcement at SC26."
+      }
+    }
+  ],
+  "verificationNote": {
+    "zh": "亞力在手訂單金額依媒體引述的法說資訊。立碁送樣進度為媒體報導，客戶端驗證結果尚未公開。YTL 對新規適用範圍的說明為公司立場。",
+    "en": "Allis’s backlog figure comes from media coverage of its briefing. Ligitek’s sampling status was reported by the press and customer qualification results remain undisclosed. YTL’s assessment of the new rule reflects the company’s position."
+  }
+}

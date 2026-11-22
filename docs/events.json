@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -649,6 +649,110 @@
           "en": "TEEMA · Official dates and venue"
         },
         "url": "https://teemaindustryday.org/en/about/"
+      }
+    },
+    {
+      "id": "ieee-ats-2026",
+      "start": "2026-12-01",
+      "end": "2026-12-03",
+      "type": "research",
+      "region": "tw",
+      "name": {
+        "zh": "IEEE 亞洲測試研討會 2026",
+        "en": "IEEE Asian Test Symposium 2026"
+      },
+      "place": {
+        "zh": "台灣高雄 · 高雄日航酒店",
+        "en": "Hotel Nikko Kaohsiung, Kaohsiung, Taiwan"
+      },
+      "focus": {
+        "zh": "電子測試、測試方法與可靠度研究。",
+        "en": "Electronics testing, test methods and reliability research."
+      },
+      "source": {
+        "name": {
+          "zh": "IEEE ATS · 主辦單位",
+          "en": "IEEE ATS · Organizer"
+        },
+        "url": "https://ats2026.tw/"
+      }
+    },
+    {
+      "id": "ieee-eptc-2026",
+      "start": "2026-12-01",
+      "end": "2026-12-04",
+      "type": "packaging",
+      "region": "sea",
+      "name": {
+        "zh": "IEEE 電子封裝技術研討會 2026",
+        "en": "IEEE Electronics Packaging Technology Conference 2026"
+      },
+      "place": {
+        "zh": "新加坡 · 金沙會議展覽中心",
+        "en": "Marina Bay Sands Expo & Convention, Singapore"
+      },
+      "focus": {
+        "zh": "先進封裝、異質整合、封裝材料、互連與熱管理。",
+        "en": "Advanced packaging, heterogeneous integration, materials, interconnects and thermal management."
+      },
+      "source": {
+        "name": {
+          "zh": "IEEE 電子封裝學會 · 活動公告",
+          "en": "IEEE Electronics Packaging Society · Event announcement"
+        },
+        "url": "https://eps.ieee.org/wp-content/uploads/2026/07/EPS_Jul2026-web.pdf"
+      }
+    },
+    {
+      "id": "semiexpo-vietnam-2026",
+      "start": "2026-12-03",
+      "end": "2026-12-04",
+      "type": "semiconductor",
+      "region": "sea",
+      "name": {
+        "zh": "SEMIEXPO 越南半導體展 2026",
+        "en": "SEMIEXPO Viet Nam 2026"
+      },
+      "place": {
+        "zh": "越南胡志明市 · Thiskyhall Sala 會議中心",
+        "en": "Thiskyhall Sala Convention Center, Ho Chi Minh City, Vietnam"
+      },
+      "focus": {
+        "zh": "半導體供應商媒合、技術會議及能源圓桌。主展期為 12 月 3 日至 4 日，部分活動於 12 月 2 日先行舉辦。",
+        "en": "Semiconductor supplier sourcing, technical sessions and an energy roundtable. The main expo runs December 3 and 4, with pre-event activities on December 2."
+      },
+      "source": {
+        "name": {
+          "zh": "SEMI · 主辦單位展期與會址",
+          "en": "SEMI · Organizer schedule and venue"
+        },
+        "url": "https://www.semi.org/en/event/SEMIEXPO-Viet-Nam-2026"
+      }
+    },
+    {
+      "id": "ieee-icm-2026",
+      "start": "2026-12-07",
+      "end": "2026-12-10",
+      "type": "research",
+      "region": "sea",
+      "name": {
+        "zh": "IEEE 國際微電子會議 2026",
+        "en": "IEEE International Conference on Microelectronics 2026"
+      },
+      "place": {
+        "zh": "馬來西亞砂拉越古晉 · 婆羅洲文化博物館",
+        "en": "Borneo Cultures Museum, Kuching, Sarawak, Malaysia"
+      },
+      "focus": {
+        "zh": "微電子、積體電路及系統研究。首日有教學場次，其後為技術議程。",
+        "en": "Microelectronics, integrated circuits and systems research, with tutorials on the first day followed by the technical program."
+      },
+      "source": {
+        "name": {
+          "zh": "IEEE 電路與系統學會 · 活動日期與會址",
+          "en": "IEEE Circuits and Systems Society · Dates and venue"
+        },
+        "url": "https://ieee-cas.org/event/conference/2026-international-conference-microelectronics-icm"
       }
     }
   ]
