@@ -170,7 +170,9 @@ function renderStories() {
     JSON.stringify({title:s.title,summary:s.summary,sections:s.sections,metric:s.metric,metricLabel:s.metricLabel,sources:s.sources.map(source=>source.name)}).toLocaleLowerCase().includes(query.toLocaleLowerCase())
   );
   el('count').textContent = words[lang].count(matches.length);
-  el('empty').textContent = words[lang].empty;
+  el('empty').textContent = data.stories.length ? words[lang].empty
+    : (lang === 'zh' ? '當天尚無已發布新聞。' : 'No stories have been published for this date.');
+  el('reset-results').hidden = matches.length > 0 || !data.stories.length;
   el('empty').hidden = matches.length > 0;
   el('clear-search').hidden=!query;
   el('clear-search').setAttribute('aria-label',lang==='zh'?'清除搜尋':'Clear search');
@@ -228,6 +230,7 @@ function renderStories() {
 function renderWeekly() {
   const list=el('news-list');list.replaceChildren();
   el('count').textContent=lang==='zh'?'約 3 分鐘閱讀':'About 3 min read';
+  el('reset-results').hidden = true;
   el('empty').hidden=weekly.highlights.length>0;
   el('empty').textContent=lang==='zh'?'這週尚無已發布新聞。':'No published stories this week.';
   for(const item of weekly.highlights){
@@ -286,17 +289,23 @@ function render() {
   document.documentElement.lang = lang === 'zh' ? 'zh-Hant' : 'en';
   const copy = lang === 'zh' ? {
     'brand-sub':'商業與科技日報',skip:'跳到新聞內容',intro:'從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。',
-    start:'閱讀本期','story-total':'11 則重點新聞','deep-title':'延伸深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞','brief-title':'30 秒 Brief','brief-sub':'先掌握今天的變化',
+    'jump-brief':'30 秒速覽','jump-numbers':'圖表',start:'全部新聞','reset-results':'清除條件，顯示全部新聞','story-total':'11 則重點新聞','deep-title':'延伸深讀','deep-sub':'三個值得多停留的問題','news-title':'今日新聞','brief-title':'30 秒 Brief','brief-sub':'先掌握今天的變化',
     'search-label':'搜尋','context-title':'產業脈絡','memo-title':'一頁分析備忘錄','lower-title':'降低權重的標題','sources-title':'來源與查證','back-top':'回到頁首',
     'source-note':'本期內容整理自提供的 2026 年 10 月 13 日日報，部分來源網址經重新檢索。原始財報、SPUR 技術標準及部分低權重新聞連結尚未找回，文中已註明。信心程度沿用原日報，並不表示本頁已完成全面獨立查證。'
   } : {
     'brand-sub':'BUSINESS & TECHNOLOGY',skip:'Skip to stories',intro:'From AI chips to energy supply. Read the events, the economics and the changes to watch.',
-    start:'Read this edition','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories','brief-title':'30-second Brief','brief-sub':'What changed today',
+    'jump-brief':'30-sec brief','jump-numbers':'Charts',start:'All stories','reset-results':'Clear filters and show all stories','story-total':'11 selected stories','deep-title':'Read deeper','deep-sub':'Three questions worth your time','news-title':'Today’s stories','brief-title':'30-second Brief','brief-sub':'What changed today',
     'search-label':'Search','context-title':'Industry context','memo-title':'One-page analysis memo','lower-title':'Lower-priority headlines','sources-title':'Sources & verification','back-top':'Back to top',
     'source-note':'Adapted from the supplied October 13, 2026 brief. Some source URLs were recovered through search. Original earnings, SPUR standard and lower-priority article links remain incomplete, as noted. Confidence labels reflect the brief and do not establish a full independent fact-check.'
   };
   Object.entries(copy).forEach(([id,text])=>el(id).textContent=text);
-  el('start').append(icon('down'));el('back-top').append(icon('up'));
+  const zh = lang === 'zh';
+  el('edition-links').setAttribute('aria-label', zh ? '本期章節' : 'Edition sections');
+  el('edition-links').hidden = period !== 'day' || !data.stories.length;
+  el('skip').href = period === 'events' ? '#events-view' : '#stories';
+  if (period === 'events') el('skip').textContent = zh ? '跳到產業行事曆' : 'Skip to industry calendar';
+  for (const anchor of el('edition-links').children) anchor.append(icon('down'));
+  el('back-top').append(icon('up'));
   if(period==='week'){
     el('headline').replaceChildren(node('span',lang==='zh'?'本週':'This week’s'),node('em',lang==='zh'?'關鍵精華。':' essentials.'));
     el('intro').textContent=weekly.throughline?t(weekly.throughline):(lang==='zh'?'快速回顧已收錄刊期的關鍵事件，完整細節可進入每日版閱讀。':'A concise selection from available editions. Open the daily edition for details.');
@@ -343,6 +352,7 @@ function render() {
   renderPeriod();
   renderBrief();
   renderNumbers();
+  el('jump-numbers').hidden = el('numbers').hidden;
   renderStories();
 }
 let beforePrint = [];
@@ -372,6 +382,13 @@ readJson('./editions/index.json').then(async manifest => {
   el('lang').onclick=()=>{lang=lang==='zh'?'en':'zh';try{localStorage.setItem('brief-lang',lang);}catch{}render();};
   el('theme').onclick=()=>{const next=currentTheme()==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('brief-theme',next);}catch{}renderTheme();};
   el('search').addEventListener('input',e=>{query=e.target.value.trim();renderStories();});
+  el('reset-results').onclick = () => {
+    filter = 'all';
+    query = '';
+    el('search').value = '';
+    renderStories();
+    el('search').focus();
+  };
   el('clear-search').onclick=()=>{query='';el('search').value='';renderStories();el('search').focus();};
   mountCalendar({date:()=>selectedDate,locale:()=>lang,available:()=>catalog.map(e=>e.date),select:value=>{selectedDate=value;choosePeriod();}});
   el('view-day').onclick=()=>{period='day';choosePeriod();};

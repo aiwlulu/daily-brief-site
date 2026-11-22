@@ -36,7 +36,7 @@
       <div class="skeleton-deep"><div class="skeleton-block skeleton-section"></div><div class="skeleton-cards"><div class="skeleton-card"><div class="skeleton-block skeleton-line"></div><div class="skeleton-block skeleton-line skeleton-short"></div></div><div class="skeleton-card"><div class="skeleton-block skeleton-line"></div><div class="skeleton-block skeleton-line skeleton-short"></div></div><div class="skeleton-card"><div class="skeleton-block skeleton-line"></div><div class="skeleton-block skeleton-line skeleton-short"></div></div></div></div>
     </div>
     <div id="edition-content" class="edition-content" inert>
-    <section class="period-bar" aria-label="閱讀日期">
+    <section id="edition-top" tabindex="-1" class="period-bar" aria-label="閱讀日期">
       <div class="period-switch" role="group" aria-label="閱讀範圍">
         <button id="view-day" type="button" aria-pressed="true">當日</button>
         <button id="view-week" type="button" aria-pressed="false">當週</button>
@@ -54,9 +54,13 @@
       <div><div class="eyebrow" id="edition"></div>
       <h1 id="headline">今天，值得理解的事。</h1>
       <p class="publication-status" id="publication-status"></p><p id="intro">從 AI 晶片到能源供應，讀事件，也讀成本、競爭與接下來的變化。</p>
-      <a class="read-link" href="#stories" id="start">閱讀本期</a></div>
+      <div id="edition-links" class="edition-links" role="navigation" aria-label="本期章節" hidden>
+        <a href="#quick-brief" id="jump-brief">30 秒速覽</a>
+        <a href="#numbers" id="jump-numbers">圖表</a>
+        <a href="#stories" id="start">全部新聞</a>
+      </div></div>
     </section>
-    <section class="quick-brief" aria-labelledby="brief-title">
+    <section id="quick-brief" class="quick-brief" aria-labelledby="brief-title">
       <div class="section-top"><h2 id="brief-title">30 秒 Brief</h2><span id="brief-sub">先掌握今天的變化</span></div>
       <div class="brief-layout"><ol id="brief-list" class="brief-list"></ol>
       <aside class="lead"><span class="eyebrow" id="theme-label">今日主線</span><p id="throughline"></p><div class="edition-meta"><span id="story-total"></span><span id="edition-date"></span></div></aside></div>
@@ -70,7 +74,7 @@
       <div class="section-top"><h2 id="news-title">今日新聞</h2><span id="count" role="status" aria-live="polite"></span></div>
       <div id="reading-controls" class="reading-controls"><span id="reading-label">閱讀方式</span><div class="reading-switch" role="group" aria-labelledby="reading-label"><button id="reading-summary" type="button" aria-pressed="true">重點摘要</button><button id="reading-deep" type="button" aria-pressed="false">深度閱讀</button></div><span id="reading-note">每篇也可單獨展開</span></div>
       <div class="toolbar"><div id="filters" class="filters" role="group" aria-label="新聞分類"></div><label class="search"><span id="search-label" class="sr-only">搜尋</span><span id="search-icon" class="search-glyph" aria-hidden="true"></span><input id="search" aria-labelledby="search-label" type="text" placeholder="公司、事件或關鍵字" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></label></div>
-      <div id="news-list"></div><p id="empty" hidden>找不到符合條件的新聞。</p>
+      <div id="news-list"></div><p id="empty" hidden>找不到符合條件的新聞。</p><button id="reset-results" type="button" hidden>清除條件，顯示全部新聞</button>
     </section>
     <section id="events-view" class="events-view" aria-label="Industry calendar"></section>
     <section class="deep" aria-labelledby="deep-title"><div class="section-top"><h2 id="deep-title">本期深讀</h2><span id="deep-sub">三個值得多停留的問題</span></div><div id="deep-links" class="deep-grid"></div></section>
@@ -82,7 +86,7 @@
     <div id="error" role="alert" hidden><p>資料載入失敗，請重新整理頁面。</p><button id="retry" type="button">重新載入</button></div>
     <noscript><style>.loading-skeleton{display:none!important}</style><p>請啟用 JavaScript，以閱讀新聞與使用篩選功能。原始內容位於 editions 目錄。</p></noscript>
   </main>
-  <footer><span>DAILY BRIEF · 2026</span><a href="#headline" id="back-top">回到頁首</a></footer>
+  <footer><span>DAILY BRIEF · 2026</span><a href="#edition-top" id="back-top">回到頁首</a></footer>
 </body>
 </html>
 
