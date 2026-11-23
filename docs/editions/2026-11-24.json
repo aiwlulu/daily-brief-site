@@ -1,0 +1,1581 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-23T10:27:52.562Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞的半導體設備、廠務電力與資料中心",
+      "en": "Taiwan and Southeast Asian semiconductor equipment, site power and data centers"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台電公布台南科學園區輸變電規劃，彭亨州披露甘孟機房首期施工，漢測及迅得則分別更新晶圓測試相關營收及載板廠設備進度。",
+    "en": "Taipower outlined a science park grid plan in Tainan and Pahang disclosed construction in Gambang, while Hermes Testing and Symtek reported separate developments in wafer test sales and substrate plant equipment."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "台電規劃投入 1,096 億元建大南科輸變電設施，估計園區長期負載可達 8,000MW。",
+        "en": "Taipower outlined NT$109.6 billion of grid investment and estimated Greater Tainan science park loads at 8,000 MW over the long term."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "彭亨州稱甘孟資料中心首期本月已開工，總計畫值 1 億美元，初始 IT 負載規劃 10MW。",
+        "en": "Pahang said first-phase construction began this month at the US$100 million Gambang data center project, with 10 MW of initial planned IT load."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "漢測 10 月自結營收 5.06 億元、淨利 1.80 億元，藉由高功耗熱管理、清潔材料及工程服務等業務帶動營收。",
+        "en": "Hermes Testing reported preliminary October revenue of NT$506 million and net profit of NT$180 million, citing thermal modules, cleaning materials and engineering services."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "迅得稱新加坡高階載板廠設備已出貨並運轉，台灣將透過外協擴充產能。",
+        "en": "Symtek said equipment at a Singapore advanced substrate plant had shipped and was operating, and outlined outsourced capacity in Taiwan."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "馬來西亞副部長稱新資料中心須先查核供水，馬來半島 4 座再生水廠處理量每日最多 1,950 萬公升。",
+        "en": "Malaysia said proposed data centers face water checks and four reclaimed-water plants can supply up to 19.5 million liters a day."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taipower-greater-tainan-science-park-grid-investment-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台電規劃投入 1,096 億元建大南科輸變電設施，估長期負載達 8,000MW",
+        "en": "Taipower outlines NT$109.6 billion Greater Tainan grid plan and estimates 8,000 MW of long-term load"
+      },
+      "summary": {
+        "zh": "台電 11 月 22 日說明，規劃投入新台幣 1,096 億元建設大台南科學園區輸變電設施，並估計園區長期用電負載可達 8,000MW。規劃包括新設變電所及興達至南科的高壓輸電線，分項工程時程尚未公開。",
+        "en": "On November 22, Taiwan Power Co. outlined NT$109.6 billion in transmission and substation plans for the Greater Tainan science parks and estimated long-term demand at 8,000 MW. The plan includes new substations and a high-voltage link from Hsinta to the science park, with individual project schedules undisclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "台電所稱大南科涵蓋南科台南園區、南科特定區、沙崙及樹谷等區域，規劃範圍約 20 平方公里。變電所與輸電線將支援區域工業用電，其中包括先進晶圓製造所需的廠務供電。",
+            "en": "Taipower’s Greater Tainan area includes the Southern Taiwan Science Park’s Tainan campus, its special district, Shalun and Tree Valley, covering about 20 square kilometers. Its substations and transmission lines serve industrial loads, including site power for advanced wafer fabrication."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "台電列出南科特定區與沙崙變電所、345kV 興達至南科線，以及鄰近工業區的變電所。台電另稱，全台已核定的 5 條園區直供專線相關工程約需 1,555 億元，預計於 2026 至 2033 年陸續完成；該數字涵蓋全台多個園區。",
+            "en": "Taipower listed substations for the science park’s special district and Shalun, a 345 kV Hsinta-to-science-park line and substations near industrial areas. It separately put five approved direct-supply line projects across Taiwan at about NT$155.5 billion, with completion scheduled in stages from 2026 through 2033."
+          }
+        }
+      ],
+      "metric": "NT$109.6B",
+      "metricLabel": {
+        "zh": "大南科輸變電規劃金額",
+        "en": "Greater Tainan transmission plan"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟日報 · 台電大南科輸變電說明",
+            "en": "Economic Daily News · Taipower’s Greater Tainan grid plans"
+          },
+          "url": "https://udn.com/news/story/7238/9895105",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "人間福報 · 台電投資與電網工程",
+            "en": "Merit Times · Taipower investment and grid works"
+          },
+          "url": "https://www.merit-times.com.tw/NewsPage.aspx?unid=947033",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 全台園區直供專線",
+            "en": "Economic Daily News · Taiwan-wide direct power lines"
+          },
+          "url": "https://money.udn.com/money/story/5612/9895276?from=udnamp-referralnews_ch1001artbottom",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "計畫地點為台灣台南，涵蓋南科台南園區、南科特定區、沙崙及樹谷等區域。",
+        "en": "Project area: Tainan, Taiwan, including the science park’s Tainan campus, special district, Shalun and Tree Valley."
+      },
+      "market": {
+        "eventDate": "2026-11-22",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "電力；供電設備；晶圓；園區投資",
+          "en": "Electricity, power equipment, wafer fabrication and industrial park investment"
+        },
+        "chain": {
+          "zh": "電網輸電與變電設備至晶圓工廠供電",
+          "en": "Transmission and substations to wafer fab power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "台電公布大南科輸變電規劃約 1,096 億元。",
+            "en": "Taipower outlined a NT$109.6 billion grid plan for Greater Tainan."
+          },
+          "demand": {
+            "zh": "台電估計大南科長期負載可達 8,000MW。",
+            "en": "Taipower estimates Greater Tainan’s long-term load at 8,000 MW."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台電所稱大南科涵蓋南科台南園區、南科特定區、沙崙及樹谷等區域，規劃範圍約 20 平方公里。變電所與輸電線將支援區域工業用電，其中包括先進晶圓製造所需的廠務供電。",
+            "en": "Taipower’s Greater Tainan area includes the Southern Taiwan Science Park’s Tainan campus, its special district, Shalun and Tree Valley, covering about 20 square kilometers. Its substations and transmission lines serve industrial loads, including site power for advanced wafer fabrication."
+          },
+          "timing": {
+            "zh": "台電說明於 11 月 22 日晚間見報；11 月 23 日報導續列全台專線規劃。",
+            "en": "The utility’s comments were reported late on November 22, with further coverage of the nationwide line program on November 23."
+          },
+          "unknowns": {
+            "zh": "台電未公開各工程發包、送電時程、8,000MW 的完整估算假設，或兩項投資數字的重疊範圍。",
+            "en": "Taipower did not publish tender or energization dates, the full assumptions behind the 8,000 MW estimate or the overlap between the two investment totals."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "大南科輸變電規劃投資",
+            "en": "Greater Tainan transmission plan"
+          },
+          "current": 109.6,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "大南科長期規劃",
+            "en": "Greater Tainan long-term plan"
+          },
+          "owner": {
+            "zh": "台電，經濟日報引述",
+            "en": "Taipower, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://udn.com/news/story/7238/9895105",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "大南科長期用電負載",
+            "en": "Greater Tainan long-term load"
+          },
+          "current": 8000,
+          "unit": "MW",
+          "period": {
+            "zh": "大南科長期規劃",
+            "en": "Greater Tainan long-term plan"
+          },
+          "owner": {
+            "zh": "台電，經濟日報引述",
+            "en": "Taipower, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://udn.com/news/story/7238/9895105",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "園區規劃範圍",
+            "en": "Planning area"
+          },
+          "current": 20,
+          "unit": "km²",
+          "period": {
+            "zh": "大南科長期規劃",
+            "en": "Greater Tainan long-term plan"
+          },
+          "owner": {
+            "zh": "台電，經濟日報引述",
+            "en": "Taipower, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://udn.com/news/story/7238/9895105",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "興達至南科輸電線電壓",
+            "en": "Hsinta line voltage"
+          },
+          "current": 345,
+          "unit": "kV",
+          "period": {
+            "zh": "大南科長期規劃",
+            "en": "Greater Tainan long-term plan"
+          },
+          "owner": {
+            "zh": "台電，經濟日報引述",
+            "en": "Taipower, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://udn.com/news/story/7238/9895105",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "全台園區直供專線工程",
+            "en": "Direct-supply lines across Taiwan"
+          },
+          "current": 5,
+          "unit": "條",
+          "period": {
+            "zh": "全台園區直供計畫",
+            "en": "Taiwan industrial park direct supply program"
+          },
+          "owner": {
+            "zh": "台電，經濟日報引述",
+            "en": "Taipower, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9895276?from=udnamp-referralnews_ch1001artbottom",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "全台園區直供工程估計投資",
+            "en": "Nationwide direct-supply project cost"
+          },
+          "current": 155.5,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "全台園區直供計畫",
+            "en": "Taiwan industrial park direct supply program"
+          },
+          "owner": {
+            "zh": "台電，經濟日報引述",
+            "en": "Taipower, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9895276?from=udnamp-referralnews_ch1001artbottom",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "變電、配電及電能品質量測設備業者會想確認台電的分標架構，以及變電所送電和晶圓廠接電的時程如何配合。負載估計涵蓋多個園區，各案仍待工程文件確認。",
+        "en": "Substation, distribution and power quality equipment suppliers would want to see the utility’s tender packages and how energization dates align with fab connections. The load estimate spans several parks and individual specifications still need confirmation."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "pahang-gambang-pknp-biophoenix-data-centre-first-phase-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "彭亨州稱甘孟資料中心首期已動工，初始 IT 負載規劃為 10MW",
+        "en": "Pahang says work began on Gambang data center with 10 MW of initial planned IT load"
+      },
+      "summary": {
+        "zh": "馬來西亞彭亨州 11 月 23 日在州議會表示，甘孟 Pahang Technology Park 一項總值 1 億美元的資料中心計畫，本月已開始首期施工，初始 IT 負載規劃為 10MW。州方點名合作夥伴，尚未公布送電及投運日期。",
+        "en": "On November 23, Malaysia’s Pahang state government said first-phase construction had started in November at a US$100 million data center project in Gambang, with 10 MW of planned initial IT load. The state named the partners but gave no energization or operating date."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "州政府透過彭亨州發展機構 PKNP 與 BioPhoenix、Dynex AI 合作，由 PKNP BioPhoenix Data Center 推動開發。州方表示，初始 IT 負載項目與 A Paradigm AI 合作。",
+            "en": "Pahang’s state development corporation PKNP is working with BioPhoenix and Dynex AI through PKNP BioPhoenix Data Center. The state named A Paradigm AI as a partner in the initial deployment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "州方說明，基地面積 3.24 公頃，計畫分 3 期，預計在施工及營運期間合計提供最多 300 個工作機會。州方同日另稱，甘孟與格賓是目前具備足夠土地、供電、供水及光纖條件的地點，個案仍須審查。",
+            "en": "The state described a 3.24-hectare site and three development phases, with up to 300 jobs expected across construction and operations. Separately, it identified Gambang and Gebeng as the locations currently having enough land, electricity, water and fiber for data center projects, subject to review."
+          }
+        }
+      ],
+      "metric": "10MW",
+      "metricLabel": {
+        "zh": "規劃初始 IT 負載",
+        "en": "Planned initial IT load"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Pahang Media · 州議會答覆與甘孟計畫",
+            "en": "Pahang Media · State assembly disclosure on the Gambang project"
+          },
+          "url": "https://pahangmedia.my/archives/57086",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "馬新社，由 Malay Mail 刊載 · 彭亨州選址準則",
+            "en": "Bernama, via Malay Mail · Pahang site requirements"
+          },
+          "url": "https://www.malaymail.com/news/malaysia/2026/11/23/pahang-open-to-data-centres-but-only-in-gambang-and-gebeng/244399",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "計畫地點為馬來西亞彭亨州關丹甘孟，Pahang Technology Park。",
+        "en": "Project site: Pahang Technology Park, Gambang, Kuantan, Pahang, Malaysia."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "資料中心；供電；散熱；園區投資",
+          "en": "Data centers, power, cooling and industrial park investment"
+        },
+        "chain": {
+          "zh": "工業園區供電與冷卻至資料中心算力",
+          "en": "Industrial park power and cooling to data center compute"
+        },
+        "changes": {
+          "investment": {
+            "zh": "州方披露總計畫值為 1 億美元。",
+            "en": "The state put the total project value at US$100 million."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "州方點名國際合作夥伴，未公開各方出資。",
+            "en": "The state named international partners without disclosing contributions."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "州政府透過彭亨州發展機構 PKNP 與 BioPhoenix、Dynex AI 合作，由 PKNP BioPhoenix Data Center 推動開發。州方表示，初始 IT 負載項目與 A Paradigm AI 合作。",
+            "en": "Pahang’s state development corporation PKNP is working with BioPhoenix and Dynex AI through PKNP BioPhoenix Data Center. The state named A Paradigm AI as a partner in the initial deployment."
+          },
+          "timing": {
+            "zh": "州議會於 11 月 23 日公布首期已於 11 月動工，施工起始日未披露。",
+            "en": "The November 23 assembly disclosure placed the construction start in November without giving an exact date."
+          },
+          "unknowns": {
+            "zh": "公告未列初始 IT 負載之外的全站用電、首期送電日期、冷卻規格或投資人分攤額。",
+            "en": "The disclosure did not specify whole-site power beyond the initial IT load, first-phase energization, cooling specifications or each partner’s investment."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "資料中心計畫估值",
+            "en": "Data center project value"
+          },
+          "current": 0.1,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 23 日州議會說明",
+            "en": "November 23, 2026 state assembly disclosure"
+          },
+          "owner": {
+            "zh": "彭亨州行政議員 Mohamad Nizar",
+            "en": "Pahang executive councillor Mohamad Nizar"
+          },
+          "sourceUrl": "https://pahangmedia.my/archives/57086",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "初始 IT 負載",
+            "en": "Initial IT load"
+          },
+          "current": 10,
+          "unit": "MW",
+          "period": {
+            "zh": "2026 年 11 月 23 日州議會說明",
+            "en": "November 23, 2026 state assembly disclosure"
+          },
+          "owner": {
+            "zh": "彭亨州行政議員 Mohamad Nizar",
+            "en": "Pahang executive councillor Mohamad Nizar"
+          },
+          "sourceUrl": "https://pahangmedia.my/archives/57086",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "計畫基地面積",
+            "en": "Project site area"
+          },
+          "current": 3.24,
+          "unit": "ha",
+          "period": {
+            "zh": "2026 年 11 月 23 日州議會說明",
+            "en": "November 23, 2026 state assembly disclosure"
+          },
+          "owner": {
+            "zh": "彭亨州行政議員 Mohamad Nizar",
+            "en": "Pahang executive councillor Mohamad Nizar"
+          },
+          "sourceUrl": "https://pahangmedia.my/archives/57086",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "施工與營運職缺上限",
+            "en": "Construction and operations jobs, up to"
+          },
+          "current": 300,
+          "unit": "個職缺",
+          "period": {
+            "zh": "2026 年 11 月 23 日州議會說明",
+            "en": "November 23, 2026 state assembly disclosure"
+          },
+          "owner": {
+            "zh": "彭亨州行政議員 Mohamad Nizar",
+            "en": "Pahang executive councillor Mohamad Nizar"
+          },
+          "sourceUrl": "https://pahangmedia.my/archives/57086",
+          "kind": "官方估計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "開發分期",
+            "en": "Development phases"
+          },
+          "current": 3,
+          "unit": "phases",
+          "period": {
+            "zh": "2026 年 11 月 23 日州議會說明",
+            "en": "November 23, 2026 state assembly disclosure"
+          },
+          "owner": {
+            "zh": "彭亨州行政議員 Mohamad Nizar",
+            "en": "Pahang executive councillor Mohamad Nizar"
+          },
+          "sourceUrl": "https://pahangmedia.my/archives/57086",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "機房供電、不斷電系統與冷卻設備業者會想向開發方確認，10MW 的 IT 負載如何分批上線，何時安排配電和散熱設備驗收。全站負載、機櫃配置與採購時程仍未公開。",
+        "en": "Power, UPS and cooling suppliers would ask the developer how the 10 MW IT load will be phased and when electrical and cooling equipment will undergo acceptance. Site-wide load, rack layout and equipment procurement dates are still undisclosed."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "hermes-testing-october-2026-wafer-test-preliminary-results",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "漢測自結 10 月營收 5.06 億元、淨利 1.80 億元，列高功耗熱管理為成長來源",
+        "en": "Hermes Testing reports preliminary October revenue of NT$506 million and net profit of NT$180 million"
+      },
+      "summary": {
+        "zh": "台灣晶圓測試供應商漢測 11 月 23 日公告，10 月自結營收新台幣 5.06 億元，年增約 62%，本期淨利 1.80 億元，年增 503%。漢測把高功耗熱管理模組、清潔材料及工程服務列為營收成長來源，未拆分各業務金額。",
+        "en": "On November 23, Taiwanese wafer test supplier Hermes Testing reported preliminary October revenue of NT$506 million, up about 62% year over year, and net profit of NT$180 million, up 503%. It cited high-power thermal management modules, cleaning materials and engineering services, with no breakdown by business."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "漢測供應晶圓測試解決方案。高功耗熱管理模組處理測試中的熱負載，與測試用清潔材料及工程服務同列在公司這次說明的營收來源中。",
+            "en": "Hermes Testing supplies wafer test systems. Its high-power thermal modules address heat loads during testing, alongside the cleaning materials and engineering services it identified as sources of revenue growth."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "10 月自結稅前淨利 2.25 億元，年增 528%，除權後追溯調整每股盈餘為 5.46 元，上年同月 1.10 元。前十月合併營收 41.91 億元，年增 118.13%；第三季曾因上櫃前員工認股認列約 11.18 億元一次性費用。",
+            "en": "October preliminary pretax profit was NT$225 million, up 528% year over year, and retrospectively adjusted EPS was NT$5.46 versus NT$1.10 a year earlier. January to October consolidated revenue rose 118.13% to NT$4.191 billion. In Q3 the company recorded about NT$1.118 billion in one-time pre-listing employee share subscription expenses."
+          }
+        }
+      ],
+      "metric": "NT$180M",
+      "metricLabel": {
+        "zh": "10 月自結本期淨利",
+        "en": "October preliminary net profit"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "漢測 · 重大訊息全文，由玉山證券刊載",
+            "en": "Hermes Testing · Filing text as published by E.SUN Securities"
+          },
+          "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B3F11D60B-B423-40E9-8FB5-39EC6AF1DF1E%7D",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 漢測自結與業務說明",
+            "en": "CNA · Hermes Testing preliminary results and business commentary"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "漢測 · 晶圓測試與熱管理服務",
+            "en": "Hermes Testing · Wafer testing and thermal management services"
+          },
+          "url": "https://www.hermes-testing.com.tw/",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；測試；熱管理設備；清潔材料",
+          "en": "Wafers, testing, thermal management equipment and cleaning materials"
+        },
+        "chain": {
+          "zh": "熱管理與清潔設備材料至晶圓測試",
+          "en": "Thermal management and cleaning materials to wafer testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "公司指出高功耗熱管理、清潔材料及工程服務帶動營收，未公布分項出貨。",
+            "en": "The company cited thermal modules, cleaning supplies and engineering services without releasing volumes by product."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "漢測供應晶圓測試解決方案。高功耗熱管理模組處理測試中的熱負載，與測試用清潔材料及工程服務同列在公司這次說明的營收來源中。",
+            "en": "Hermes Testing supplies wafer test systems. Its high-power thermal modules address heat loads during testing, alongside the cleaning materials and engineering services it identified as sources of revenue growth."
+          },
+          "timing": {
+            "zh": "11 月 23 日發布的是 10 月單月自結公告。",
+            "en": "The November 23 disclosure covered preliminary October results."
+          },
+          "unknowns": {
+            "zh": "10 月獲利屬公司自結，未經會計師查核，也未揭露單月毛利率、各項市占率或個別客戶的採購數量。",
+            "en": "October earnings are preliminary and unaudited. Monthly gross margin, market shares and customer-level purchases were not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "營業收入",
+            "en": "Revenue"
+          },
+          "current": 0.506,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "漢測自結，由玉山證券刊載",
+            "en": "Hermes Testing preliminary disclosure, via E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B3F11D60B-B423-40E9-8FB5-39EC6AF1DF1E%7D",
+          "kind": "公司實績, 自結",
+          "comparison": "YoY",
+          "base": 0.312,
+          "basePeriod": "Oct 2025",
+          "reportedRate": 0.62,
+          "baseStatus": "來源列示上年同期數值"
+        },
+        {
+          "name": {
+            "zh": "稅前淨利",
+            "en": "Pretax profit"
+          },
+          "current": 0.225,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "漢測自結，由玉山證券刊載",
+            "en": "Hermes Testing preliminary disclosure, via E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B3F11D60B-B423-40E9-8FB5-39EC6AF1DF1E%7D",
+          "kind": "公司實績, 自結",
+          "comparison": "YoY",
+          "base": 0.036,
+          "basePeriod": "Oct 2025",
+          "reportedRate": 5.28,
+          "baseStatus": "來源列示上年同期數值"
+        },
+        {
+          "name": {
+            "zh": "本期淨利",
+            "en": "Net profit"
+          },
+          "current": 0.18,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "漢測自結，由玉山證券刊載",
+            "en": "Hermes Testing preliminary disclosure, via E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B3F11D60B-B423-40E9-8FB5-39EC6AF1DF1E%7D",
+          "kind": "公司實績, 自結",
+          "comparison": "YoY",
+          "base": 0.03,
+          "basePeriod": "Oct 2025",
+          "reportedRate": 5.03,
+          "baseStatus": "來源列示上年同期數值"
+        },
+        {
+          "name": {
+            "zh": "除權後追溯調整每股盈餘",
+            "en": "Retrospectively adjusted EPS"
+          },
+          "current": 5.46,
+          "unit": "NTD/share",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "漢測自結，由玉山證券刊載",
+            "en": "Hermes Testing preliminary disclosure, via E.SUN Securities"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B3F11D60B-B423-40E9-8FB5-39EC6AF1DF1E%7D",
+          "kind": "公司實績, 自結",
+          "comparison": "YoY",
+          "base": 1.1,
+          "basePeriod": "Oct 2025",
+          "reportedRate": 3.97,
+          "baseStatus": "來源列示上年同期數值"
+        },
+        {
+          "name": {
+            "zh": "前十月合併營收",
+            "en": "Ten-month consolidated revenue"
+          },
+          "current": 4.191,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 1 月至 10 月",
+            "en": "Jan to Oct 2026"
+          },
+          "owner": {
+            "zh": "漢測，由中央社引述",
+            "en": "Hermes Testing, quoted by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.1813,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "上櫃前員工認股一次性費用",
+            "en": "One-time employee share subscription expense"
+          },
+          "current": 1.118,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "漢測，由中央社引述",
+            "en": "Hermes Testing, quoted by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓測試電源、溫控及量測供應商會想確認，高功耗模組成長集中在哪些平台，客戶測試的耗電與溫控條件有何變化。公開數字為公司整體獲利，未提供模組出貨與客戶需求。",
+        "en": "Wafer test power, temperature control and measurement suppliers would ask which platforms are driving thermal demand and how their test power and temperature requirements differ. Company-wide results give no module volumes or customer-level demand."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "symtek-wafer-handling-singapore-taiwan-capacity-nov2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "迅得稱新加坡載板廠設備已出貨運轉，台灣規劃透過外協擴產",
+        "en": "Symtek says equipment is operating at a Singapore substrate plant and outlines outsourced capacity in Taiwan"
+      },
+      "summary": {
+        "zh": "台灣自動化設備商迅得 11 月 23 日在台北法說會表示，已向新加坡一家美日合資高階載板廠出貨，設備已運轉。迅得也稱台灣新廠滿載，將以外包和合作夥伴擴增生產。",
+        "en": "At its November 23 Taipei investor briefing, Taiwan automation supplier Symtek said its equipment had shipped to a U.S.-Japanese advanced substrate plant in Singapore and was operating. It said its new Taiwan facility was at capacity and outlined an expansion using contractors and investment partners."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "迅得說明，晶圓廠與載板廠使用的自動化設備涵蓋倉儲、廠內搬運與設備對接。新加坡場址是載板應用，迅得未指認客戶名稱。",
+            "en": "Symtek described fab and substrate automation covering storage, in-plant handling and equipment interfaces. It identified the Singapore application as substrates without naming the customer."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "經濟日報引述公司表示，台灣外協生產規劃涵蓋南部兩處及北部一處，合計預計逾 5,000 坪。公司也表示已在美國亞利桑那州設立全資子公司，作為北美服務據點。",
+            "en": "Economic Daily News reported that the Taiwan outsourcing plan spans two southern and one northern site, totaling more than 5,000 ping. Symtek also said it had established a wholly owned subsidiary in Arizona as a North American service base."
+          }
+        }
+      ],
+      "metric": ">5,000 ping",
+      "metricLabel": {
+        "zh": "台灣外協基地規劃面積",
+        "en": "Planned Taiwan partner site area"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟日報 · 迅得法說會出貨及外協安排",
+            "en": "Economic Daily News · Symtek shipments and outsourcing plans"
+          },
+          "url": "https://money.udn.com/money/amp/story/5612/9896665",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "迅得 · 法說會場地公告，由玉山證券刊載",
+            "en": "Symtek · Briefing venue disclosure, via E.SUN Securities"
+          },
+          "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B057E815E-3ED3-4ED5-A1CF-D66E2FB5A539%7D",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "法說地點為台灣台北，凱基證券大直大樓。",
+        "en": "Briefing venue: KGI Securities Dazhi building, Taipei, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "台灣、新加坡、美國",
+          "en": "Taiwan, Singapore, United States"
+        },
+        "industries": {
+          "zh": "自動化；設備；晶圓；載板；工廠",
+          "en": "Automation, equipment, wafer handling, substrates and factories"
+        },
+        "chain": {
+          "zh": "自動化設備至晶圓搬運及載板工廠",
+          "en": "Automation equipment to wafer handling and substrate plants"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "公司稱新加坡設備已出貨並運轉。",
+            "en": "The company said its Singapore equipment had shipped and was operating."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "迅得說明，晶圓廠與載板廠使用的自動化設備涵蓋倉儲、廠內搬運與設備對接。新加坡場址是載板應用，迅得未指認客戶名稱。",
+            "en": "Symtek described fab and substrate automation covering storage, in-plant handling and equipment interfaces. It identified the Singapore application as substrates without naming the customer."
+          },
+          "timing": {
+            "zh": "迅得 11 月 23 日法說會說明當年出貨進度。",
+            "en": "Symtek discussed shipments made during the year at its November 23 briefing."
+          },
+          "unknowns": {
+            "zh": "公司未列新加坡場址出貨台數、正式驗收日期，也未列台灣外協產線啟用日或新增產量。",
+            "en": "The company gave no unit counts or formal acceptance date for Singapore, and no start date or incremental output for the Taiwan partner sites."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "台灣外協基地規劃數",
+            "en": "Planned Taiwan partner sites"
+          },
+          "current": 3,
+          "unit": "處",
+          "period": {
+            "zh": "台灣外協產能規劃",
+            "en": "Taiwan partner capacity plan"
+          },
+          "owner": {
+            "zh": "迅得，由經濟日報引述",
+            "en": "Symtek, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://money.udn.com/money/amp/story/5612/9896665",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "台灣外協生產面積下限",
+            "en": "Taiwan outsourced production area, above"
+          },
+          "current": 5000,
+          "unit": "ping",
+          "period": {
+            "zh": "台灣外協產能規劃",
+            "en": "Taiwan partner capacity plan"
+          },
+          "owner": {
+            "zh": "迅得，由經濟日報引述",
+            "en": "Symtek, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://money.udn.com/money/amp/story/5612/9896665",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "搬運控制與測試設備供應商會想詢問新加坡載板廠採用的機台介面、驗收項目，以及台灣合作生產基地如何分工。出貨總量、交期與外協產能尚未公開。",
+        "en": "Handling controls and test suppliers would ask about installed equipment interfaces, acceptance tests and how production will be split among Taiwan partner sites. Shipment totals, lead times and incremental capacity remain undisclosed."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "tsmc-november-2026-advanced-node-capacity-demand-statement",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台積電稱先進製程需求仍超過供給，未公布分節點產能",
+        "en": "TSMC says leading-edge demand continues to exceed supply"
+      },
+      "summary": {
+        "zh": "台積電 11 月 23 日回應媒體詢問時表示，客戶對先進製程的需求持續超過供給。公司同時指出零組件漲價及總體經濟不確定性對價格較敏感的終端產品構成壓力，未提供需求缺口量化數字。",
+        "en": "On November 23, TSMC told reporters that customer demand for leading-edge processes continued to exceed supply. It also cited rising component prices and macroeconomic uncertainty as pressures on price-sensitive end products, without quantifying unmet demand."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "台積電 11 月 10 日公布的董事會資本預算涵蓋先進製程、先進封裝、成熟及特殊製程與廠務設施。此次回應談的是先進製程供需，未更新先前預算。",
+            "en": "TSMC’s November 10 board-approved capital budget covers leading-edge production, packaging, mature and specialty processes, and fab infrastructure. The latest response addressed leading-edge demand and supply without revising that budget."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "中央社及經濟日報各自報導台積電回應。經濟日報刊載公司說法，將先進製程的需求與消費電子和價格敏感市場面臨的情況分開說明。",
+            "en": "CNA and Economic Daily News both covered TSMC’s response. The latter reproduced the company’s distinction between leading-edge demand and the pressures it sees in consumer electronics and other price-sensitive markets."
+          }
+        }
+      ],
+      "metric": "Leading-edge supply",
+      "metricLabel": {
+        "zh": "公司對先進製程供需的說明",
+        "en": "TSMC assessment of leading-edge supply"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟日報 · 台積電回應媒體全文",
+            "en": "Economic Daily News · Text of TSMC’s media response"
+          },
+          "url": "https://udn.com/news/story/7240/9896639?from=udn-catehotnews_ch2",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 台積電先進製程供需說明",
+            "en": "CNA · TSMC assessment of leading-edge supply"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611230175.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "台積電 · 11 月董事會資本預算",
+            "en": "TSMC · November board capital budget"
+          },
+          "url": "https://pr.tsmc.com/chinese/news/3352",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；代工；先進製程",
+          "en": "Wafers, foundry and leading-edge processes"
+        },
+        "chain": {
+          "zh": "晶圓代工先進製程至終端運算晶片",
+          "en": "Leading-edge wafer foundry to compute chips"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "台積電稱先進製程需求仍超過供給。",
+            "en": "TSMC said leading-edge demand continued to exceed supply."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台積電 11 月 10 日公布的董事會資本預算涵蓋先進製程、先進封裝、成熟及特殊製程與廠務設施。此次回應談的是先進製程供需，未更新先前預算。",
+            "en": "TSMC’s November 10 board-approved capital budget covers leading-edge production, packaging, mature and specialty processes, and fab infrastructure. The latest response addressed leading-edge demand and supply without revising that budget."
+          },
+          "timing": {
+            "zh": "公司於 11 月 23 日回應媒體；董事會資本預算屬先前公告。",
+            "en": "The company responded on November 23. The board capital budget was announced separately on November 10."
+          },
+          "unknowns": {
+            "zh": "公司未公布各節點月產能、利用率、交期或供需差額。",
+            "en": "TSMC did not disclose monthly capacity, utilization, lead times or supply gaps by node."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "蝕刻與沉積設備用電源、射頻及量測業者會想確認各製程節點新增機台的驗證和裝機排程。台積電未提供分項產能或時間，仍無法估出個別設備需求。",
+        "en": "Etch and deposition power, RF and measurement suppliers would want node-level tool qualification and installation schedules. TSMC gave no breakdown or dates from which to assess specific equipment needs."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "malaysia-petra-data-centre-water-approval-2026-11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "馬來西亞能源轉型與水務部稱，資料中心選址須先查核供水",
+        "en": "Malaysia says proposed data center sites face water availability checks"
+      },
+      "summary": {
+        "zh": "馬來西亞能源轉型與水務副部長 Abdul Rahman Mohamad 11 月 23 日在吉隆坡國會表示，資料中心開發案核准前須查核供水，供水不足時可拒絕。副部長稱，政府不會單因資料中心需求提高住宅水費，並指出再生水可供機房冷卻。",
+        "en": "Malaysia’s deputy energy transition and water minister, Abdul Rahman Mohamad, told Parliament in Kuala Lumpur on November 23 that proposed data centers face water availability checks and can be rejected if supplies are inadequate. He said domestic water rates would not rise solely to serve data centers and identified reclaimed water for cooling."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "再生水可用於機房冷卻。馬來西亞能源轉型與水務部 2025 年 8 月已公布，Indah Water Konsortium 與 Johor Special Water 合作供應柔佛機房再生水，每日最多 1,200 萬公升。",
+            "en": "Reclaimed water can serve data center cooling. In August 2025 the ministry described an Indah Water Konsortium and Johor Special Water scheme capable of supplying up to 12 million liters a day to Johor data centers."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "副部長 11 月 23 日在國會答詢時另稱，馬來半島已有 4 座再生水處理廠供應資料中心，處理能力合計每日最多 1,950 萬公升。兩個容量數字涵蓋範圍不同。",
+            "en": "The deputy minister also told Parliament that four reclaimed-water plants in Peninsular Malaysia already supply data centers, with combined capacity of up to 19.5 million liters per day. The Johor scheme and peninsula-wide figure cover different scopes."
+          }
+        }
+      ],
+      "metric": "19.5M L/day",
+      "metricLabel": {
+        "zh": "馬來半島再生水處理能力",
+        "en": "Peninsular reclaimed-water capacity"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "馬新社，由 Malay Mail 刊載 · 供水及水價國會答詢",
+            "en": "Bernama, via Malay Mail · Parliamentary reply on water supply and tariffs"
+          },
+          "url": "https://www.malaymail.com/news/malaysia/2026/11/23/data-centres-wont-drive-up-your-water-bill-says-deputy-minister/244395",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "馬來西亞能源轉型與水務部 · 2025 年柔佛再生水合作",
+            "en": "Malaysia energy transition and water ministry · 2025 Johor reclaimed-water scheme"
+          },
+          "url": "https://dmedia.penerangan.gov.my/upload/km/11082025.1542384789.pdf",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "資料中心；冷卻；散熱；供水政策",
+          "en": "Data centers, cooling, thermal management and water policy"
+        },
+        "chain": {
+          "zh": "再生水處理與供水至資料中心冷卻",
+          "en": "Reclaimed-water treatment and supply to data center cooling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "再生水可用於機房冷卻。馬來西亞能源轉型與水務部 2025 年 8 月已公布，Indah Water Konsortium 與 Johor Special Water 合作供應柔佛機房再生水，每日最多 1,200 萬公升。",
+            "en": "Reclaimed water can serve data center cooling. In August 2025 the ministry described an Indah Water Konsortium and Johor Special Water scheme capable of supplying up to 12 million liters a day to Johor data centers."
+          },
+          "timing": {
+            "zh": "國會答詢在 11 月 23 日；柔佛合作容量於 2025 年 8 月公布。",
+            "en": "The parliamentary reply was on November 23. The Johor scheme capacity was disclosed in August 2025."
+          },
+          "unknowns": {
+            "zh": "公開報導未列各廠實際日流量、新案最低水量門檻，或各場址的再生水接管時程。",
+            "en": "Available reporting did not provide plant-level daily volumes, minimum water thresholds for new projects or recycled-water connection dates by site."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "供應機房的再生水處理廠",
+            "en": "Reclaimed-water plants supplying data centers"
+          },
+          "current": 4,
+          "unit": "處",
+          "period": {
+            "zh": "2026 年 11 月 23 日國會答詢",
+            "en": "November 23, 2026 parliamentary reply"
+          },
+          "owner": {
+            "zh": "水務副部長，由馬新社引述",
+            "en": "Deputy water minister, quoted by Bernama"
+          },
+          "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/23/data-centres-wont-drive-up-your-water-bill-says-deputy-minister/244395",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "馬來半島再生水處理能力上限",
+            "en": "Peninsular reclaimed-water capacity, up to"
+          },
+          "current": 19500000,
+          "unit": "L/day",
+          "period": {
+            "zh": "2026 年 11 月 23 日國會答詢",
+            "en": "November 23, 2026 parliamentary reply"
+          },
+          "owner": {
+            "zh": "水務副部長，由馬新社引述",
+            "en": "Deputy water minister, quoted by Bernama"
+          },
+          "sourceUrl": "https://www.malaymail.com/news/malaysia/2026/11/23/data-centres-wont-drive-up-your-water-bill-says-deputy-minister/244395",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "柔佛合作案供水能力上限",
+            "en": "Johor scheme capacity, up to"
+          },
+          "current": 12000000,
+          "unit": "L/day",
+          "period": {
+            "zh": "2025 年 8 月公布的柔佛方案",
+            "en": "Johor scheme announced August 2025"
+          },
+          "owner": {
+            "zh": "能源轉型與水務部",
+            "en": "Energy transition and water ministry"
+          },
+          "sourceUrl": "https://dmedia.penerangan.gov.my/upload/km/11082025.1542384789.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "機房散熱和水處理控制設備業者會想確認各案的再生水品質規範、接管日期與備援供水條件。部會公布的是處理容量，各站實際用量尚未披露。",
+        "en": "Cooling and water treatment controls suppliers would ask for site-level reclaimed-water quality, connection dates and backup supply requirements. Disclosed treatment capacity does not show actual use at individual sites."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "indonesia-asean-power-grid-implementation-conditions-2026-11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "追蹤｜印尼能源部長稱東協跨境電網安排仍須按國內法規審查",
+        "en": "Follow-up: Indonesia says ASEAN grid arrangements still require review under domestic rules"
+      },
+      "summary": {
+        "zh": "印尼能源部長 Bahlil Lahadalia 11 月 23 日在雅加達表示，東協電網的跨境供電安排仍須符合印尼法規，並審視各方利益。這是東協 11 月 15 日完成簽署強化備忘錄後，印尼對實施條件的說明。",
+        "en": "Indonesia’s energy minister, Bahlil Lahadalia, said in Jakarta on November 23 that cross-border power under the ASEAN Power Grid would still be reviewed against Indonesian law and mutual benefit. The comments addressed implementation after ASEAN completed signing the enhanced memorandum on November 15."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "印尼能源與礦產資源部先前將東協電網定位為跨境電力合作架構。個別連線需進一步處理供售電安排，與工業和資料中心用電相關。",
+            "en": "Indonesia’s energy ministry has described the ASEAN Power Grid as a regional framework for cross-border electricity. Individual links require further power supply and trading arrangements, relevant to industrial and data center loads."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "印尼安塔拉通訊社報導，Bahlil 在能源與礦產資源部記者會指出，協議簽署後仍需審視實施條件，與印尼法規或利益有衝突的安排須進一步檢討。",
+            "en": "Antara reported that Bahlil told a press briefing at the energy ministry that implementation terms still require review and arrangements conflicting with Indonesia’s rules or interests would receive further scrutiny."
+          }
+        }
+      ],
+      "metric": "Grid review",
+      "metricLabel": {
+        "zh": "印尼對跨境電網的實施條件",
+        "en": "Indonesia’s grid implementation conditions"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "安塔拉通訊社 · 印尼跨境供電審查說明",
+            "en": "Antara · Indonesia’s review of cross-border electricity arrangements"
+          },
+          "url": "https://en.antaranews.com/news/444643/indonesia-seeks-national-safeguards-in-asean-power-grid-bahlil",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "印尼能源與礦產資源部 · 備忘錄簽署前說明",
+            "en": "Indonesian energy ministry · Statement before signing"
+          },
+          "url": "https://esdm.go.id/en/media-center/news-archives/jelang-ktt-asean-ke-49-indonesia-siap-teken-enhanced-mou-asean-power-grid-dengan-prinsip-saling-menguntungkan",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "印尼、東協",
+          "en": "Indonesia and ASEAN"
+        },
+        "industries": {
+          "zh": "電力；供電；基礎設施政策",
+          "en": "Electricity, power supply and infrastructure policy"
+        },
+        "chain": {
+          "zh": "跨境輸電與配電至工廠及資料中心供電",
+          "en": "Cross-border electricity transmission and distribution to factories and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "印尼能源與礦產資源部先前將東協電網定位為跨境電力合作架構。個別連線需進一步處理供售電安排，與工業和資料中心用電相關。",
+            "en": "Indonesia’s energy ministry has described the ASEAN Power Grid as a regional framework for cross-border electricity. Individual links require further power supply and trading arrangements, relevant to industrial and data center loads."
+          },
+          "timing": {
+            "zh": "備忘錄 11 月 15 日完成簽署；印尼於 11 月 23 日說明實施審查。",
+            "en": "The memorandum completed signing on November 15, and Indonesia discussed implementation review on November 23."
+          },
+          "unknowns": {
+            "zh": "當日說明未公布新增連線容量、跨境售電價格或開始商轉的日期。",
+            "en": "The briefing gave no new interconnector capacity, power price or commercial start date."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "跨境輸電設備與保護量測業者會想確認轉為個案後的電網接點、容量與主管機關審查。備忘錄與當日答覆未提供個別連線的裝設及測試時程。",
+        "en": "Transmission and protection measurement suppliers would ask for grid interfaces, capacity and approvals once individual projects are defined. The memorandum and the briefing give no installation or testing schedule for specific links."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "gst-dgx-spark-gb10-power-management-chips-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "登豐微電子稱 DGX Spark 採用其 4 顆電源管理晶片",
+        "en": "GST says DGX Spark uses four of its power management chips"
+      },
+      "summary": {
+        "zh": "台灣電源管理晶片商登豐微電子 11 月 23 日在台北舉行上櫃前說明會，公司表示，NVIDIA DGX Spark 採用公司 4 顆降壓及穩壓晶片。該系統搭載 NVIDIA 與聯發科共同設計的 GB10；登豐未公布訂單或出貨量。",
+        "en": "At a pre-listing briefing in Taipei on November 23, Taiwanese power IC supplier Green Solution Technology (GST) said NVIDIA’s DGX Spark uses four of its step-down and voltage regulation chips. The system uses the GB10 co-designed by NVIDIA and MediaTek. GST did not disclose orders or shipments."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "聯發科 2025 年 10 月公布，GB10 由聯發科與 NVIDIA 共同設計，供 DGX Spark 小型運算系統使用。登豐所述晶片用於系統電源管理。",
+            "en": "In October 2025, MediaTek said it co-designed GB10 with NVIDIA for the compact DGX Spark system. GST identified its role as system power management."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資訊",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "中央社報導，登豐董事長王源銘在當日說明會指出，獲採用的元件為降壓及穩壓晶片。主辦券商公告列出說明會日期與場地。",
+            "en": "CNA reported that GST chair Wang Yuan-ming identified the devices as step-down and voltage regulation chips. The event notice from the securities firm confirmed the date and venue."
+          }
+        }
+      ],
+      "metric": "4 ICs",
+      "metricLabel": {
+        "zh": "單一系統使用的登豐晶片",
+        "en": "GST ICs per system"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 登豐上櫃前說明會",
+            "en": "CNA · GST pre-listing briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611230130.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "兆豐證券 · 說明會日期及場地",
+            "en": "Mega Securities · Briefing date and venue"
+          },
+          "url": "https://uatemega.emega.com.tw/emegaTran/bulletin.do?id=20261117102655445495",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "聯發科 · DGX Spark 與 GB10 共同設計",
+            "en": "MediaTek · DGX Spark and GB10 co-design"
+          },
+          "url": "https://www.mediatek.com/press-room/newly-launched-nvidia-dgx-spark-features-gb10-superchip-co-designed-by-mediatek",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "說明會場地為台灣台北，台北君悅酒店三樓凱悅廳一區。",
+        "en": "Briefing venue: Regency Ballroom, Section 1, Grand Hyatt Taipei, Taipei, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "台灣、美國",
+          "en": "Taiwan, United States"
+        },
+        "industries": {
+          "zh": "電源；電腦；電源管理零組件",
+          "en": "Power, computers and power management components"
+        },
+        "chain": {
+          "zh": "電源管理零組件至 AI 電腦系統",
+          "en": "Power management components to personal AI systems"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "公司披露單一 DGX Spark 系統採用 4 顆，未列整體出貨。",
+            "en": "The company reported four chips per DGX Spark system but no shipment total."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "聯發科 2025 年 10 月公布，GB10 由聯發科與 NVIDIA 共同設計，供 DGX Spark 小型運算系統使用。登豐所述晶片用於系統電源管理。",
+            "en": "In October 2025, MediaTek said it co-designed GB10 with NVIDIA for the compact DGX Spark system. GST identified its role as system power management."
+          },
+          "timing": {
+            "zh": "登豐於 11 月 23 日說明產品採用；GB10 的共同設計先前已公布。",
+            "en": "GST discussed the design on November 23. GB10’s co-design had previously been announced."
+          },
+          "unknowns": {
+            "zh": "登豐未揭露料號、各顆晶片的電氣規格、合約數量或後續平台採用情形。",
+            "en": "GST did not disclose part numbers, electrical ratings, contract volumes or adoption on later platforms."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "單一系統採用的降壓與穩壓晶片",
+            "en": "Step-down and voltage regulation ICs per system"
+          },
+          "current": 4,
+          "unit": "顆",
+          "period": {
+            "zh": "DGX Spark，11 月 23 日披露",
+            "en": "DGX Spark, disclosed November 23"
+          },
+          "owner": {
+            "zh": "登豐微電子，由中央社引述",
+            "en": "GST, quoted by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611230130.aspx",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "板級電源與量測設備業者會想確認降壓和穩壓晶片的輸入輸出範圍、熱測試及驗收規格。單機採用數量已披露，系統出貨與其他平台採用仍未確認。",
+        "en": "Board-level power and test suppliers would ask for input and output ranges, thermal tests and acceptance specifications. The per-system chip count is disclosed, while system shipments and other platform wins remain unknown."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "大南科 8,000MW 涵蓋哪些區域？",
+        "en": "What does the 8,000 MW Greater Tainan figure cover?"
+      },
+      "text": {
+        "zh": "台電的長期負載估計涵蓋南科台南園區、南科特定區、沙崙與樹谷等區域，未分配到個別晶圓廠。",
+        "en": "The utility’s long-term load estimate covers multiple areas, including the science park’s Tainan campus, its special district, Shalun and Tree Valley. It has no fab-by-fab breakdown."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "甘孟計畫的 10MW 是哪一種容量？",
+        "en": "What does the 10 MW Gambang figure measure?"
+      },
+      "text": {
+        "zh": "彭亨州指的是規劃初始 IT 負載；全站用電、備援和冷卻所需容量均未公布。",
+        "en": "Pahang specified initial planned IT load. Total facility demand, backup requirements and cooling capacity were not disclosed."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "漢測的 10 月盈餘為何標記自結？",
+        "en": "Why are Hermes Testing’s October earnings labeled preliminary?"
+      },
+      "text": {
+        "zh": "數字來自公司按櫃買中心通知公布的當月財務資料，未經會計師查核。第三季另包含上櫃前員工認股的一次性費用。",
+        "en": "The figures come from a monthly company disclosure requested by the Taipei Exchange and are unaudited. Q3 separately included a one-time pre-listing employee share subscription expense."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "資料備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [],
+  "verificationNote": {
+    "zh": "台電輸變電金額與負載為規劃及估計，尚無公開工程分項時程。甘孟動工及負載數字來自州議會答覆的報導。漢測 10 月數字為未經會計師查核的自結資料。迅得及登豐的出貨或採用資訊出自媒體引述公司說法；客戶端驗收及採購數量未公開。",
+    "en": "Taipower’s grid investment and load figures are plans and estimates, without published project-level schedules. The Gambang construction and load figures come from reporting on the state assembly reply. Hermes Testing’s October results are preliminary and unaudited. The Symtek and GST milestones come from media coverage of company statements, with customer acceptance and procurement volumes undisclosed."
+  }
+}

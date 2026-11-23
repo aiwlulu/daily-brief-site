@@ -1,43 +1,21 @@
 {
   "weekStart": "2026-11-22",
-  "generatedAt": "2026-11-22T09:17:58.192Z",
+  "generatedAt": "2026-11-23T10:27:52.562Z",
   "throughline": {
-    "zh": "新加坡公布 HBM 封裝與半導體設備廠里程碑，台灣和馬來西亞則更新電力設備、機房代管及製程材料進度。",
-    "en": "Singapore reported HBM packaging and tool facility milestones, while Taiwan and Malaysia disclosed developments in power equipment, colocation and process materials."
+    "zh": "台灣公布大南科電網與先進製程供需，新加坡更新半導體設備進度，馬來西亞及印尼則說明機房用水及跨境供電安排。",
+    "en": "Taiwan reported on its science park grid and leading-edge wafer supply, Singapore added equipment milestones, and Malaysia and Indonesia addressed data center water and cross-border power."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "global",
-      "title": {
-        "zh": "新加坡 HBM 封裝及設備製造",
-        "en": "Singapore HBM packaging and equipment manufacturing"
-      },
-      "summary": {
-        "zh": "美光於 11 月 19 日將首台 HBM 製程設備移入新廠無塵室，預計 2027 年初產出。KLA 於 11 月 20 日啟用宏茂橋 22B 廠房，新增 21 萬平方英尺；兩案已完成的工程里程碑與未來量產、聘僱目標分開呈現。",
-        "en": "Micron moved its first HBM packaging tool into a Singapore cleanroom on November 19, while KLA opened its new 210,000-square-foot Ang Mo Kio building on November 20. Completed milestones are distinct from future output and hiring plans."
-      },
-      "references": [
-        {
-          "date": "2026-11-22",
-          "storyId": 1
-        },
-        {
-          "date": "2026-11-22",
-          "storyId": 2
-        }
-      ]
-    },
-    {
-      "id": 2,
       "category": "taiwan",
       "title": {
-        "zh": "台灣電力設備訂單及公用電力預算",
-        "en": "Taiwan power equipment orders and utility financing"
+        "zh": "台灣晶圓製程需求及廠務電力",
+        "en": "Taiwan wafer demand and fab power"
       },
       "summary": {
-        "zh": "亞力法說揭露在手訂單 130 億元，涉及半導體、資料中心與電網。立法院另通過撥補台電 711 億元的追加預算，12 月費率仍待審議。",
-        "en": "Allis reported a NT$13 billion backlog spanning fabs, data centers and the grid. Separately, Taiwan passed a supplementary budget with NT$71.1 billion for Taipower, with December rates pending review."
+        "zh": "台電規劃投入 1,096 億元建大南科輸變電設施，估計園區長期負載 8,000MW；立法院先前通過 711 億元撥補。台積電稱先進製程需求仍超過供給，亞力則公布在手訂單涵蓋晶圓廠和機房。",
+        "en": "Taipower outlined NT$109.6 billion in Greater Tainan grid work and estimated 8,000 MW of eventual load, following a separate NT$71.1 billion budget measure. TSMC reported continued leading-edge supply constraints, while Allis disclosed a backlog spanning fabs and data centers."
       },
       "references": [
         {
@@ -47,19 +25,83 @@
         {
           "date": "2026-11-23",
           "storyId": 1
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "global",
+      "title": {
+        "zh": "東南亞資料中心選址、供水與跨境電網",
+        "en": "Southeast Asian data centers, water and cross-border power"
+      },
+      "summary": {
+        "zh": "甘孟資料中心首期動工，初始 IT 負載規劃 10MW，馬來西亞另說明資料中心供水審查，柔佛機房業者 YTL 也回應美國遠端算力規則。印尼表示，東協跨境供電仍須按國內法規檢視。",
+        "en": "Gambang began construction with 10 MW of planned initial IT load, while Malaysia addressed project water checks and a Johor operator responded to the new U.S. remote compute rule. Indonesia said cross-border grid arrangements remain subject to domestic review."
+      },
+      "references": [
+        {
+          "date": "2026-11-23",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 7
         }
       ]
     },
     {
       "id": 3,
-      "category": "tech",
+      "category": "global",
       "title": {
-        "zh": "半導體製程材料、封裝及光互連進度",
-        "en": "Chip process materials, packaging and optical interconnects"
+        "zh": "新加坡封裝、測試及載板廠設備進度",
+        "en": "Singapore packaging, inspection and substrate equipment milestones"
       },
       "summary": {
-        "zh": "晶呈科技揭露第三季特氣出貨與玻璃通孔產線規劃，南寶表示半導體用膠已供貨。經濟日報另報導立碁 1.6T 光收發模組進入送樣驗證。",
-        "en": "Jingcheng disclosed Q3 specialty gas shipments and glass via capacity plans, while Nan Pao reported semiconductor adhesive shipments. Economic Daily News reported customer sampling for Ligitek’s 1.6 Tbps optical module."
+        "zh": "美光將首台 HBM 封裝設備移入新加坡廠無塵室，KLA 啟用宏茂橋 22B 廠房。迅得另稱已向新加坡高階載板廠出貨，設備已運轉。",
+        "en": "Micron moved the first HBM packaging tool into its Singapore cleanroom and KLA opened Ang Mo Kio Building 22B. Symtek separately reported that equipment had shipped to a Singapore advanced substrate plant and was operating."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-22",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "tech",
+      "title": {
+        "zh": "半導體材料、晶圓測試及系統零組件",
+        "en": "Semiconductor materials, wafer test and system components"
+      },
+      "summary": {
+        "zh": "漢測公布 10 月自結實績，登豐則說明 DGX Spark 的電源晶片採用。晶呈公布特氣出貨與玻璃通孔產線規劃，南寶及立碁分別有用膠供貨與光收發模組送樣進度。",
+        "en": "Hermes Testing released preliminary October results and GST disclosed a DGX Spark power IC design. Jingcheng gave specialty gas and glass via updates, alongside reported progress in Nan Pao adhesives and Ligitek optical module sampling."
       },
       "references": [
         {
@@ -73,19 +115,27 @@
         {
           "date": "2026-11-23",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 8
         }
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "category": "global",
       "title": {
-        "zh": "東南亞電子工廠投資與機房代管",
-        "en": "Southeast Asian factory investment and colocation"
+        "zh": "電子工廠投資、製造設備與循環材料政策",
+        "en": "Electronics factory investment, machine tools and circular materials policy"
       },
       "summary": {
-        "zh": "訊芯核准增資越南子公司 2,000 萬美元，GIS-KY 越南子公司公告機電工程契約。馬來西亞 YTL 表示柔佛機房代管服務不受美國遠端算力新規影響，個案尚無公開主管機關認定。",
-        "en": "ShunSin approved a US$20 million Vietnam equity injection and GIS-KY’s Vietnam subsidiary disclosed an electromechanical contract. Separately, Malaysia’s YTL said its Johor colocation business is unaffected by the new U.S. remote compute rule, with no public case-specific finding."
+        "zh": "訊芯核准增資越南子公司，GIS-KY 越南子公司公告機電安裝契約。台灣則披露國產半導體腔體工具機取得德國訂單，環境部也說明跨境循環材料合作方向。",
+        "en": "ShunSin approved an equity injection for its Vietnam subsidiary, while GIS-KY’s Vietnam unit disclosed an electromechanical installation contract. Taiwan reported German orders for semiconductor chamber tools and outlined cooperation on cross-border recycled materials."
       },
       "references": [
         {
@@ -97,26 +147,12 @@
           "storyId": 6
         },
         {
-          "date": "2026-11-23",
-          "storyId": 2
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "category": "taiwan",
-      "title": {
-        "zh": "智慧製造工具機與腔體設備供應鏈",
-        "en": "Smart manufacturing and semiconductor chamber tools"
-      },
-      "summary": {
-        "zh": "經濟部 11 月 21 日說明智慧製造計畫近三年累計成果，其中國產五軸半導體腔體工具機已獲德國客戶 30 台訂單。政府估計約 4.5 億元相關產值，機台交付及驗收尚未公開。",
-        "en": "MOEA reported cumulative smart-manufacturing results, including 30 orders from a German customer for Taiwan-developed semiconductor chamber machine tools. Estimated production value is NT$450 million, with deliveries and acceptance undisclosed."
-      },
-      "references": [
-        {
           "date": "2026-11-22",
           "storyId": 3
+        },
+        {
+          "date": "2026-11-23",
+          "storyId": 5
         }
       ]
     }
