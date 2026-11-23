@@ -45,7 +45,7 @@
 ## 內容如何產生
 
 1. ChatGPT「Daily News Brief」排程於台灣時間 08:00 開始蒐集、查證並撰寫刊期，指令見 [`prompts/chatgpt-daily-brief.md`](prompts/chatgpt-daily-brief.md)。
-2. 排程透過 GitHub 連線，以一筆提交同時寫入當日刊期、週精華、索引與 Excel。
+2. 排程在以最新 main 建立的 drafts/YYYY-MM-DD 分支提交 daily-draft.json。Publish researched draft 工作流程從草稿產生刊期、週精華、索引與雙語 Excel，驗證後一次提交 main 並觸發部署。
 3. 推送到 `main` 後，GitHub Actions 執行檢查、為資源加上版本號，再部署到 GitHub Pages。
 
 排程需要維持 GitHub 連線；repo 內沒有 cron 或獨立新聞服務。完成時間依查證與部署而異。

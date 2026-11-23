@@ -34,6 +34,8 @@ jobs:
           node scripts/check.mjs
           python3 scripts/check-xlsx.py
           node --test scripts/*.test.mjs
+      - name: Generate compact editorial context
+        run: node scripts/edition-context.mjs
       - name: Version page assets
         run: node scripts/prepare-pages.mjs
       - name: Configure Pages

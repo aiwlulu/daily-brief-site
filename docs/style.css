@@ -444,3 +444,16 @@ body[data-view="day"] .edition-links #start {
   .date-nav #today { margin-left: auto; }
 }
 @media print { .edition-links, #reset-results { display: none; } }
+
+#numbers-toggle { display: none; }
+@media screen and (max-width: 540px) {
+  #numbers .section-top { display: none; }
+  #numbers-toggle {
+    display: block; width: 100%; text-align: start; padding: 12px 16px;
+    font: inherit; font-weight: 650; border: 1px solid var(--line);
+    border-radius: 8px; color: var(--ink); background: var(--surface); cursor: pointer;
+  }
+  #numbers-toggle::after { content: '+'; float: right; }
+  #numbers-toggle[aria-expanded="true"]::after { content: '−'; }
+  #numbers-toggle[aria-expanded="false"] + #numbers-content { display: none; }
+}

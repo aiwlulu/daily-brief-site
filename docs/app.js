@@ -42,6 +42,10 @@ async function choosePeriod() {
   const blank = {date:selectedDate, throughline:{zh:'這段期間尚未收錄新聞。',en:'No editions have been published for this period.'},stories:[],deep:[],context:[],memo:{title:{zh:'',en:''},items:[]},lower:[]};
   data = {...(newest || blank), stories:selectedEditions.flatMap(e => rankStories(e).map(s => ({...s, sourceId:s.id, editionDate:e.date, id:e.date+'-'+s.id})))};
   data.deep = selectedEditions.flatMap(e => e.deep.map(d => ({...d,id:e.date+'-'+d.id}))).slice(0,3);
+  if (data.date !== numbersDate) {
+    numbersDate = data.date;
+    numbersExpanded = location.hash === '#numbers';
+  }
   const url = new URL(location.href);
   // Day is the default view, so it stays out of shared links.
   if(period==='day')url.searchParams.delete('view');else url.searchParams.set('view',period);
@@ -253,6 +257,22 @@ function textSection(target, items) {
   });
 }
 const storyNumber=s=>String(data.stories.indexOf(s)+1).padStart(2,'0');
+let numbersDate, numbersExpanded = false;
+function updateNumbersToggle(){
+  const count = data.stories.reduce((sum, story) => sum + (story.metrics?.length || 0), 0);
+  const label = lang === 'zh'
+    ? (count ? `本期 ${count} 筆數據` : '供應鏈位置')
+    : (count ? `${count} ${count === 1 ? 'figure' : 'figures'}` : 'supply chain');
+  const button = el('numbers-toggle');
+  button.textContent = (lang === 'zh' ? (numbersExpanded ? '收合' : '查看') : (numbersExpanded ? 'Hide ' : 'View ')) + label;
+  button.setAttribute('aria-expanded', String(numbersExpanded));
+  if (numbersExpanded && matchMedia('(max-width: 540px)').matches) {
+    const table = el('numbers-charts').querySelector('details');
+    if (table) table.open = true;
+  }
+}
+el('numbers-toggle').onclick = () => {numbersExpanded = !numbersExpanded; updateNumbersToggle();};
+el('jump-numbers').onclick = () => {numbersExpanded = true; updateNumbersToggle();};
 function renderNumbers(){
   const zh=lang==='zh',map=period==='day'?chainMap(data.stories,lang,storyNumber):null;
   const charts=period==='day'?numbersOverview(data.stories,lang,storyNumber):[];
@@ -263,6 +283,7 @@ function renderNumbers(){
   el('chain-note').textContent=zh?'依各則新聞的產業鏈欄位標示，一則可跨多個環節；點選編號跳到該則。':'Placed from each story’s supply-chain fields; a story can span several stages. Select a number to jump to it.';
   el('chain-block').hidden=!map;el('chain-map').replaceChildren(...(map?[map]:[]));
   el('numbers-charts').replaceChildren(...charts);
+  updateNumbersToggle();
 }
 function renderBrief(){
   const list=el('brief-list');list.replaceChildren();

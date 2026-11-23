@@ -87,7 +87,7 @@ Weekly periods run Sunday through Saturday. Weekly view is a concise digest of a
 
 - Paragraphs read as news, not audit notes: lead with what happened and why it matters, use natural transitions, and gather limitations at the end in one or two sentences. Avoid internal editing language (本期, 本文, 今日整合追蹤, 標為來源受限) and repeated "does not mean" caveats.
 - The website shows location under the headline and verification confidence as a chip beside the category; paragraphs no longer append location, confidence or "label: figure" text. The Excel Full paragraph appends location at the end.
-- The final section is labelled 尚未確認 / Still unknown and matches `market.facts.unknowns`, which is then not repeated.
+- New drafts write limitations once in `market.facts.unknowns`. Web and Excel append that text to the paragraph. Earlier editions with a dedicated limitations section remain supported. Dedicated deep-reading questions are optional when they add verified background. Keep rejected candidates out of new public editions.
 
 ## Traditional Chinese typography
 

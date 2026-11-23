@@ -1,0 +1,46 @@
+name: Publish researched draft
+on:
+  push:
+    branches: ['drafts/*']
+    paths: ['daily-draft.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+jobs:
+  publish:
+    if: startsWith(github.ref, 'refs/heads/drafts/')
+    runs-on: ubuntu-latest
+    env:
+      DRAFT_SHA: ${{ github.sha }}
+      DRAFT_REF: ${{ github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install openpyxl==3.1.5
+      - name: Build, validate and publish the edition atomically
+        shell: bash
+        run: |
+          set -euo pipefail
+          day="${DRAFT_REF#drafts/}"
+          [[ "$day" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]
+          if ! git log --format=%B HEAD --fixed-strings --grep="Daily-Draft: $DRAFT_SHA" -1 | grep -Fxq "Daily-Draft: $DRAFT_SHA"; then
+            git fetch origin "$DRAFT_SHA"
+            git merge-base --is-ancestor HEAD "$DRAFT_SHA" || { echo "Draft is stale. Review changes and base it on current main."; exit 1; }
+            git show "${DRAFT_SHA}:daily-draft.json" | python scripts/prepare-draft.py "$day"
+            node scripts/format-copy.mjs "$day"
+            python scripts/build-workbooks.py . "$day"
+            npm test
+            git config user.name aiwlulu
+            git config user.email '68764556+aiwlulu@users.noreply.github.com'
+            git add docs/editions docs/weeks docs/events.json docs/exports
+            git commit -m "feat(news): publish $day daily brief" -m "Daily-Draft: $DRAFT_SHA"
+            git push origin HEAD:main
+          fi
+          gh workflow run pages.yml --ref main
