@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -753,6 +753,58 @@
           "en": "IEEE Circuits and Systems Society · Dates and venue"
         },
         "url": "https://ieee-cas.org/event/conference/2026-international-conference-microelectronics-icm"
+      }
+    },
+    {
+      "id": "taichung-robotics-expo-2026",
+      "start": "2026-11-24",
+      "end": "2026-11-27",
+      "type": "systems",
+      "region": "tw",
+      "name": {
+        "zh": "臺中無人載具暨機器人應用展",
+        "en": "Taichung Unmanned Systems and Robotics Expo"
+      },
+      "place": {
+        "zh": "台灣台中，臺中國際會展中心 1 樓 E 區",
+        "en": "Zone E, Level 1, Taichung International Convention and Exhibition Center, Taichung, Taiwan"
+      },
+      "focus": {
+        "zh": "機器人、運動控制、工廠自動化與光學對位應用。",
+        "en": "Robotics, motion control, factory automation and optical alignment."
+      },
+      "source": {
+        "name": {
+          "zh": "臺中國際會展中心 · 展期與展區",
+          "en": "Taichung exhibition center · Dates and hall"
+        },
+        "url": "https://www.ticec.com.tw/wSite/ct?ctNode=441&mp=1&xItem=2702"
+      }
+    },
+    {
+      "id": "taichung-machine-tool-smart-manufacturing-2026",
+      "start": "2026-11-24",
+      "end": "2026-11-27",
+      "type": "systems",
+      "region": "tw",
+      "name": {
+        "zh": "臺中工具機暨智慧製造展",
+        "en": "Taichung Machine Tool and Smart Manufacturing Expo"
+      },
+      "place": {
+        "zh": "台灣台中，臺中國際會展中心",
+        "en": "Taichung International Convention and Exhibition Center, Taichung, Taiwan"
+      },
+      "focus": {
+        "zh": "工具機、工廠自動化及量測。會展中心公告展期為 11 月 24 日至 27 日；主辦方推廣頁的活動細節另列 11 月 25 日至 28 日。",
+        "en": "Machine tools, factory automation and measurement. The venue lists November 24 to 27, while the organizer’s event details section lists November 25 to 28."
+      },
+      "source": {
+        "name": {
+          "zh": "經濟日報展覽 · 活動頁面與兩種展期",
+          "en": "Economic Daily News exhibition team · Event page with conflicting dates"
+        },
+        "url": "https://www.censintlexpo.com/machinetool"
       }
     }
   ]

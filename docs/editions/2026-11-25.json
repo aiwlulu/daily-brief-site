@@ -1,0 +1,1782 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-24T11:19:03.433Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞的半導體製造、設備與資料中心",
+      "en": "Taiwan and Southeast Asian semiconductor manufacturing, equipment and data centers"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "台灣及新加坡公布製造業產出，台積電子公司披露德州晶圓設廠申請，馬來西亞則有資料中心工程簽約與出口規則回應。",
+    "en": "Taiwan and Singapore reported manufacturing output, a TSMC unit disclosed its Texas fab application, and Malaysia saw a data center award and a response to U.S. listing changes."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "台灣 10 月製造業生產年增 31.63%，其中電腦、電子產品及光學製品業年增 130.57%。",
+        "en": "Taiwan’s October manufacturing output grew 31.63% year over year, with computer, electronic and optical products up 130.57%."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "台積電子公司提出德州租稅優惠申請，申請表 A 表列約 216.55 億美元投資規劃，仍待審查與最終投資決定。",
+        "en": "TSMC’s subsidiary applied for Texas tax incentives. Schedule A lists US$21.66 billion in planned investment, pending approvals and a final decision."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "美國先行公開 7 家實體的列名文件。馬來西亞確認其中兩家為當地實體，並稱將通知資料中心業者。",
+        "en": "The U.S. released a seven-entry Entity List rule for public inspection. Malaysia identified two local entities and said it would notify data center operators."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "KJTS 簽署 6,800 萬令吉波德申資料中心機械工程分包，兩份合約合計 1.16 億令吉。",
+        "en": "KJTS signed a RM68 million mechanical works subcontract in Port Dickson, bringing the two awards to RM116 million."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "新加坡第三季製造業年增 8.5%，經季節調整後季減 0.2%；電子與精密工程產出獲 AI 相關需求支撐。",
+        "en": "Singapore’s Q3 manufacturing grew 8.5% year over year and fell 0.2% from Q2 after seasonal adjustment. AI demand supported electronics and precision engineering."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "taiwan-october-2026-industrial-production",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台灣 10 月製造業生產指數年增 31.63%，電腦電子及光學製品業年增 130.57%",
+        "en": "Taiwan’s October manufacturing output rises 31.63% as computer, electronic and optical products gain 130.57%"
+      },
+      "summary": {
+        "zh": "經濟部 11 月 24 日公布，台灣 10 月工業生產指數為 151.30，年增 29.80%；製造業生產指數為 154.61，年增 31.63%。電腦、電子產品及光學製品業年增 130.57%，經濟部點名伺服器、交換器及半導體檢測設備增產。",
+        "en": "Taiwan’s economic ministry reported on November 24 that October industrial production reached an index of 151.30, up 29.80% year over year, and manufacturing reached 154.61, up 31.63%. Computer, electronic and optical products rose 130.57%, with the ministry citing higher production of servers, switches and semiconductor inspection equipment."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "經濟部將電子零組件與電腦電子及光學製品分開統計。電子零組件業 10 月年增 25.39%，其中積體電路業年增 31.19%；產品涵蓋晶圓代工、封測、DRAM 與 IC 載板。",
+            "en": "The ministry records electronic components separately from computers, electronic products and optical products. Electronic components rose 25.39% and integrated circuits rose 31.19% year over year, with the supply chain spanning foundries, packaging and testing, DRAM and IC substrates."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "經濟部圖表將去年 10 月製造業指數列為 117.46。今年前十月工業生產指數為 134.94，年增 21.52%；製造業指數 137.42，年增 22.88%。10 月機械設備業年增 26.85%，化學材料及肥料業年減 2.80%。",
+            "en": "The ministry’s chart gives 117.46 as the manufacturing index in October 2025. From January to October 2026, industrial production reached 134.94, up 21.52%, and manufacturing reached 137.42, up 22.88%. October machinery output rose 26.85%, while chemical materials and fertilizers fell 2.80%."
+          }
+        }
+      ],
+      "metric": "+31.63%",
+      "metricLabel": {
+        "zh": "10 月製造業生產年增率",
+        "en": "October manufacturing output growth"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部 · 製造業生產圖表，由中央社刊載",
+            "en": "MOEA · Manufacturing production chart hosted by CNA"
+          },
+          "url": "https://imgcdn.cna.com.tw/www/WebPhotos/800/20261124/1965x959_wmkn_758620111993_0.jpg",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 10 月工業生產數據與產業說明",
+            "en": "CNA · October industrial production and industry details"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611240193.aspx",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 電子零組件與電腦電子分類數據",
+            "en": "Anue · Electronic components and computer industry indices"
+          },
+          "url": "https://news.cnyes.com/news/id/6670964",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓；記憶體；封裝；測試；設備；伺服器；工廠",
+          "en": "Wafers, memory, packaging, testing, equipment, servers and factories"
+        },
+        "chain": {
+          "zh": "晶圓代工、DRAM 與封測至伺服器和檢測設備製造",
+          "en": "Wafer foundry, DRAM and packaging to servers and inspection equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "經濟部將伺服器、網通與製程檢測設備的增產連結到雲端運算及檢測需求。",
+            "en": "The ministry linked higher server, networking and inspection equipment output to cloud computing and test demand."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "經濟部將電子零組件與電腦電子及光學製品分開統計。電子零組件業 10 月年增 25.39%，其中積體電路業年增 31.19%；產品涵蓋晶圓代工、封測、DRAM 與 IC 載板。",
+            "en": "The ministry records electronic components separately from computers, electronic products and optical products. Electronic components rose 25.39% and integrated circuits rose 31.19% year over year, with the supply chain spanning foundries, packaging and testing, DRAM and IC substrates."
+          },
+          "timing": {
+            "zh": "11 月 24 日發布 10 月及前十月統計。",
+            "en": "October and ten-month figures were released on November 24."
+          },
+          "unknowns": {
+            "zh": "產業指數涵蓋多種產品，未分列單一客戶、伺服器機型或檢測設備的出貨台數。",
+            "en": "The industry indices aggregate multiple products and do not show shipments by customer, server model or inspection equipment type."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "工業生產指數",
+            "en": "Industrial production index"
+          },
+          "current": 151.3,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611240193.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.298,
+          "baseStatus": "來源公布年增率，未列可比基期值"
+        },
+        {
+          "name": {
+            "zh": "製造業生產指數",
+            "en": "Manufacturing production index"
+          },
+          "current": 154.61,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://imgcdn.cna.com.tw/www/WebPhotos/800/20261124/1965x959_wmkn_758620111993_0.jpg",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": 117.46,
+          "basePeriod": "Oct 2025",
+          "reportedRate": 0.3163,
+          "baseStatus": "來源列示去年同期指數"
+        },
+        {
+          "name": {
+            "zh": "電子零組件生產指數",
+            "en": "Electronic components production index"
+          },
+          "current": 169.88,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6670964",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2539,
+          "baseStatus": "來源公布年增率，未列可比基期值"
+        },
+        {
+          "name": {
+            "zh": "積體電路業生產年增率",
+            "en": "Integrated circuits production growth, YoY"
+          },
+          "current": 0.3119,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611240193.aspx",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "電腦、電子產品及光學製品生產指數",
+            "en": "Computer, electronic and optical product index"
+          },
+          "current": 466.85,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6670964",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 1.3057,
+          "baseStatus": "來源公布年增率，未列可比基期值"
+        },
+        {
+          "name": {
+            "zh": "機械設備業生產年增率",
+            "en": "Machinery production growth, YoY"
+          },
+          "current": 0.2685,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://imgcdn.cna.com.tw/www/WebPhotos/800/20261124/1965x959_wmkn_758620111993_0.jpg",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "化學材料及肥料業生產年增率",
+            "en": "Chemical materials and fertilizer production growth, YoY"
+          },
+          "current": -0.028,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://imgcdn.cna.com.tw/www/WebPhotos/800/20261124/1965x959_wmkn_758620111993_0.jpg",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "前十月工業生產指數",
+            "en": "Ten-month industrial production index"
+          },
+          "current": 134.94,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 1 月至 10 月",
+            "en": "January to October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611240193.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2152,
+          "baseStatus": "來源公布年增率，未列可比基期值"
+        },
+        {
+          "name": {
+            "zh": "前十月製造業生產指數",
+            "en": "Ten-month manufacturing production index"
+          },
+          "current": 137.42,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 1 月至 10 月",
+            "en": "January to October 2026"
+          },
+          "owner": {
+            "zh": "經濟部統計處",
+            "en": "MOEA Department of Statistics"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611240193.aspx",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.2288,
+          "baseStatus": "來源公布年增率，未列可比基期值"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體測試、精密量測及伺服器電源業者會想了解，各客戶增產集中於哪類設備和料號，以及驗收時程。產業指數涵蓋多類產品，無法推算單一電源模組的實際需求。",
+        "en": "Test, measurement and server power suppliers would ask which equipment and part numbers account for each customer’s higher output and when they will be accepted. Industry-level indices do not quantify demand for a specific power module."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "tsmc-arizona-brazos-texas-jeti-application-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台積電子公司申請德州租稅優惠，申請表列 216.55 億美元投資規劃",
+        "en": "TSMC subsidiary applies for Texas tax incentive and lists US$21.66 billion in planned investment"
+      },
+      "summary": {
+        "zh": "美國德州布拉索斯郡 11 月 23 日確認，台積電子公司 TSMC Arizona 就擬議晶圓園區提出州稅優惠申請，申請表列 2027 至 2031 年投資合計約 216.55 億美元。場址仍在評估，計畫須經州與學區審查，並由台積電作最後投資決定。",
+        "en": "Brazos County, Texas, confirmed on November 23 that TSMC Arizona had applied for state tax incentives for a proposed wafer fab campus. The application lists about US$21.66 billion in investment from 2027 to 2031, with site selection, public approvals and TSMC’s final decision still pending."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "申請文件的經濟影響報告將產品規劃列為 2 奈米或更先進製程的邏輯晶片。公司表示，也在評估亞利桑那州既有據點的擴產選項。",
+            "en": "An economic impact report accompanying the application describes logic chips using 2 nm or more advanced processes. The company is also evaluating expansion at its existing Arizona campus."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "申請表以 2027 年開工、2031 年開始商轉為規劃情境。布拉索斯郡說明，州計畫須由州審計長審查，並由州長與學區董事會核准；若有郡級優惠，將另行審議。",
+            "en": "The filing assumes construction in 2027 and commercial operations in 2031. The county says the state comptroller must review the proposal before approval by the governor and the school district board. Any county incentives would be considered separately."
+          }
+        }
+      ],
+      "metric": "US$21.66B",
+      "metricLabel": {
+        "zh": "申請表 A 表投資規劃",
+        "en": "Schedule A planned investment"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "德州審計長辦公室 · 台積電子公司租稅優惠申請表",
+            "en": "Texas Comptroller · TSMC Arizona tax incentive application"
+          },
+          "url": "https://assets.comptroller.texas.gov/open-data/jeti/J0055/J0055-tsmcarizona-collegestation-app.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "布拉索斯郡 · 選址及審查說明",
+            "en": "Brazos County · Site and approval process"
+          },
+          "url": "https://brazoscountytx.gov/potential-semiconductor-project-in-brazos-county/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "路透 · 德州設廠申請報導",
+            "en": "Reuters · Texas fab application coverage"
+          },
+          "url": "https://www.reuters.com/business/tsmc-unit-seeks-texas-property-tax-limit-proposed-226-billion-chip-making-2026-11-24/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "擬議廠址為美國德州布拉索斯郡第一選區，位於 College Station 市域外管轄區及該市學區內。",
+        "en": "Proposed site: Precinct 1, Brazos County, Texas, United States, within College Station’s extraterritorial jurisdiction and school district."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "台灣、美國",
+          "en": "Taiwan, United States"
+        },
+        "industries": {
+          "zh": "晶圓；代工；廠務設備；外資；園區投資",
+          "en": "Wafers, foundry, fab equipment, foreign investment and park development"
+        },
+        "chain": {
+          "zh": "晶圓廠務設備至先進邏輯晶圓代工",
+          "en": "Fab equipment to leading-edge logic foundry"
+        },
+        "changes": {
+          "investment": {
+            "zh": "A 表列約 216.55 億美元，仍屬申請規劃。",
+            "en": "Schedule A lists US$21.66 billion in proposed investment."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "台積電子公司評估美國德州擴產，最終選址未定。",
+            "en": "TSMC Arizona is evaluating Texas, with final site selection pending."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "申請文件的經濟影響報告將產品規劃列為 2 奈米或更先進製程的邏輯晶片。公司表示，也在評估亞利桑那州既有據點的擴產選項。",
+            "en": "An economic impact report accompanying the application describes logic chips using 2 nm or more advanced processes. The company is also evaluating expansion at its existing Arizona campus."
+          },
+          "timing": {
+            "zh": "布拉索斯郡於 11 月 23 日確認申請，路透於 11 月 24 日報導。",
+            "en": "The county confirmed the application on November 23. Reuters reported it on November 24."
+          },
+          "unknowns": {
+            "zh": "路透報導金額為 226 億美元，與申請表 A 表的 216.55 億美元不同，兩者差額的計算口徑尚未確認。台積電尚未宣布最終投資決定或月產能。",
+            "en": "Reuters reported US$22.6 billion, versus US$21.66 billion in Schedule A. The basis for the difference remains unconfirmed. TSMC has not disclosed a final commitment or monthly wafer capacity."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "申請表規劃投資合計",
+            "en": "Schedule A planned investment"
+          },
+          "current": 21.655321992,
+          "unit": "USD billion",
+          "period": {
+            "zh": "申請表列 2027 至 2031 年",
+            "en": "2027 to 2031, application schedule"
+          },
+          "owner": {
+            "zh": "台積電子公司 TSMC Arizona",
+            "en": "TSMC Arizona"
+          },
+          "sourceUrl": "https://assets.comptroller.texas.gov/open-data/jeti/J0055/J0055-tsmcarizona-collegestation-app.pdf",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "路透報導的擬議設廠金額",
+            "en": "Proposed facility value reported by Reuters"
+          },
+          "current": 22.6,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月 24 日報導",
+            "en": "November 24, 2026 reporting"
+          },
+          "owner": {
+            "zh": "路透引述文件",
+            "en": "Reuters, citing the filing"
+          },
+          "sourceUrl": "https://www.reuters.com/business/tsmc-unit-seeks-texas-property-tax-limit-proposed-226-billion-chip-making-2026-11-24/",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "晶圓製程電源、射頻與量測供應商會想確認最終選址、製程配置、機電分標與量產驗收時間。租稅申請的時程及資本表仍屬情境，設備需求須等專案核准。",
+        "en": "Process power, RF and measurement vendors would ask about the selected site, node mix, facilities packages and production acceptance dates. The application timeline and spending schedule are provisional, so equipment requirements depend on project approval."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "bis-megaspeed-entity-list-malaysia-singapore-thailand-2026-11",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "美國先行公開新增 7 家實體名單，馬來西亞主管機關列兩家當地實體",
+        "en": "U.S. previews seven Entity List additions and Malaysia identifies two locally based entities"
+      },
+      "summary": {
+        "zh": "美國工業暨安全局文件列出 7 家將新增至實體清單的東南亞相關實體，聯邦公報預定於美國時間 11 月 25 日正式刊登。馬來西亞投資、貿易及工業部 11 月 24 日表示，其中兩家是在馬來西亞的實體，並稱將通知當地資料中心業者。",
+        "en": "The U.S. Bureau of Industry and Security made available a rule listing seven new Entity List entries tied to Southeast Asian destinations, scheduled for publication on November 25 U.S. time. Malaysia’s trade ministry said on November 24 that two are Malaysian entities and that local data center operators would be notified."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "美方文件把 MSFusion、Speedmatrix 及 PT Megaspeed International 列於馬來西亞項下，另列新加坡 3 家及泰國 1 家。馬來西亞主管機關確認 MSFusion 及 Speedmatrix 為當地實體，並表示依其投資發展局紀錄，PT Megaspeed International 在當地既未設立，也未營運或承租資料中心。",
+            "en": "The U.S. document places MSFusion, Speedmatrix and PT Megaspeed International under Malaysia, with three entries under Singapore and one under Thailand. Malaysia identified MSFusion and Speedmatrix as local entities and said its investment authority’s records do not identify PT Megaspeed International as a Malaysian entity, data center operator or tenant."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "美國文件對列名實體涉及的美國出口管理規則管制品設定許可要求。馬來西亞投資發展局將通知當地資料中心業者，並建議勿向名單上的實體出租空間或提供服務。",
+            "en": "The U.S. document sets license requirements for listed entities covering items subject to its Export Administration Regulations. Malaysia’s trade ministry said the investment authority would advise operators against leasing space or providing services to the listed entities."
+          }
+        }
+      ],
+      "metric": "7 entities",
+      "metricLabel": {
+        "zh": "美方文件新增實體數",
+        "en": "New entries in the U.S. document"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "美國聯邦公報 · 實體清單規則公開查閱版",
+            "en": "U.S. Federal Register · Entity List rule for public inspection"
+          },
+          "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "馬來西亞投資、貿易及工業部 · 11 月 24 日回應",
+            "en": "Malaysia MITI · November 24 response"
+          },
+          "url": "https://www.miti.gov.my/miti/resources/Media%20Release/THE_ADDITION_OF_MALAYSIAN_ENTITIES_TO_THE_US_ENTITY_LIST_-_UNDER_BUREAU_OF_INDUSTRY_AND_SECURITY_OF_THE_US_DEPARTMENT_OF_COMMERCE.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "馬新社，由 Malay Mail 刊載 · 當地實體與機房通知",
+            "en": "Bernama, via Malay Mail · Malaysian entities and operator notice"
+          },
+          "url": "https://www.malaymail.com/news/malaysia/2026/11/24/miti-names-speedmatrix-msfusion-among-firms-targeted-by-us-export-controls/244553",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "馬來西亞、新加坡、泰國、美國",
+          "en": "Malaysia, Singapore, Thailand, United States"
+        },
+        "industries": {
+          "zh": "伺服器；資料中心；算力；出口政策",
+          "en": "Servers, data centers, compute and export policy"
+        },
+        "chain": {
+          "zh": "晶片與伺服器流通至資料中心代管及算力",
+          "en": "Chip and server distribution to data center colocation and compute"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "美方文件把 MSFusion、Speedmatrix 及 PT Megaspeed International 列於馬來西亞項下，另列新加坡 3 家及泰國 1 家。馬來西亞主管機關確認 MSFusion 及 Speedmatrix 為當地實體，並表示依其投資發展局紀錄，PT Megaspeed International 在當地既未設立，也未營運或承租資料中心。",
+            "en": "The U.S. document places MSFusion, Speedmatrix and PT Megaspeed International under Malaysia, with three entries under Singapore and one under Thailand. Malaysia identified MSFusion and Speedmatrix as local entities and said its investment authority’s records do not identify PT Megaspeed International as a Malaysian entity, data center operator or tenant."
+          },
+          "timing": {
+            "zh": "美方文件於美國時間 11 月 23 日供公開查閱，馬方於 11 月 24 日發布回應。",
+            "en": "The U.S. document was made available for public inspection on November 23 U.S. time, and Malaysia responded on November 24."
+          },
+          "unknowns": {
+            "zh": "美方項下的地點分類與馬方確認的公司登記範圍有差異。馬方聲明未列出個別機房已採取的措施。",
+            "en": "U.S. destination headings and the Malaysian authority’s findings on registration differ. Malaysia did not identify measures already taken at individual facilities."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "新增列名實體合計",
+            "en": "Total new Entity List entries"
+          },
+          "current": 7,
+          "unit": "家",
+          "period": {
+            "zh": "公開查閱版，全部目的地",
+            "en": "Public inspection version, all destinations"
+          },
+          "owner": {
+            "zh": "美國工業暨安全局",
+            "en": "U.S. Bureau of Industry and Security"
+          },
+          "sourceUrl": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "美方馬來西亞項下列名",
+            "en": "Entries under Malaysia in the U.S. document"
+          },
+          "current": 3,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月公開的名單文件",
+            "en": "November 2026 public inspection rule"
+          },
+          "owner": {
+            "zh": "美國工業暨安全局",
+            "en": "U.S. Bureau of Industry and Security"
+          },
+          "sourceUrl": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "美方新加坡項下列名",
+            "en": "Entries under Singapore in the U.S. document"
+          },
+          "current": 3,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月公開的名單文件",
+            "en": "November 2026 public inspection rule"
+          },
+          "owner": {
+            "zh": "美國工業暨安全局",
+            "en": "U.S. Bureau of Industry and Security"
+          },
+          "sourceUrl": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "美方泰國項下列名",
+            "en": "Entries under Thailand in the U.S. document"
+          },
+          "current": 1,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月公開的名單文件",
+            "en": "November 2026 public inspection rule"
+          },
+          "owner": {
+            "zh": "美國工業暨安全局",
+            "en": "U.S. Bureau of Industry and Security"
+          },
+          "sourceUrl": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "馬方確認的當地實體",
+            "en": "Local entities identified by Malaysia"
+          },
+          "current": 2,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 24 日回應",
+            "en": "November 24, 2026 response"
+          },
+          "owner": {
+            "zh": "馬來西亞投資、貿易及工業部",
+            "en": "Malaysia MITI"
+          },
+          "sourceUrl": "https://www.miti.gov.my/miti/resources/Media%20Release/THE_ADDITION_OF_MALAYSIAN_ENTITIES_TO_THE_US_ENTITY_LIST_-_UNDER_BUREAU_OF_INDUSTRY_AND_SECURITY_OF_THE_US_DEPARTMENT_OF_COMMERCE.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "資料中心電源及伺服器組裝業者會想核對交易法人、實際收貨方，以及客戶得知措施後的專案安排。公開文件尚未顯示個別機房的訂單或交付是否受影響。",
+        "en": "Data center power and server suppliers would verify legal counterparties, consignees and customer deployment plans after the announcement. Public documents do not establish whether any specific order or delivery has changed."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "kjts-gamuda-port-dickson-second-mechanical-subcontract-2026-11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "KJTS 簽下波德申第二座資料中心機械工程分包，合約值 6,800 萬令吉",
+        "en": "KJTS signs RM68 million mechanical works subcontract for second Port Dickson data center"
+      },
+      "summary": {
+        "zh": "馬來西亞 KJTS 11 月 23 日公告，子公司 KJ Technical Services 與 Gamuda Engineering 簽署 6,800 萬令吉分包合約，負責森美蘭州波德申第二座大型資料中心的機械工程。兩份分包合約合計 1.16 億令吉，金額為合約值。",
+        "en": "On November 23, Malaysia’s KJTS disclosed a RM68 million subcontract between KJ Technical Services and Gamuda Engineering for mechanical works at a second hyperscale data center in Port Dickson, Negeri Sembilan. The two subcontracts are worth RM116 million combined."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "Gamuda 為發包方，KJTS 透過全資子公司承作機械工程。11 月 19 日公布的首份分包合約為 4,800 萬令吉。",
+            "en": "Gamuda awarded the mechanical scope to a wholly owned KJTS subsidiary. The first subcontract, announced on November 19, was worth RM48 million."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "KJTS 列出新案兩階段實質完工日期，分別為 2028 年 4 月 22 日及 7 月 22 日。這些日期是分包工程里程碑，公告未列資料中心啟用日期。",
+            "en": "KJTS lists substantial completion milestones of April 22 and July 22, 2028 for the two phases of the new subcontract. The announcement did not give an opening date for the data center."
+          }
+        }
+      ],
+      "metric": "RM68M",
+      "metricLabel": {
+        "zh": "第二份機械工程分包合約值",
+        "en": "Second mechanical works subcontract value"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "KJTS · 第二份分包與完工日期",
+            "en": "KJTS · Second subcontract and completion dates"
+          },
+          "url": "https://www.kjts.com.my/kjts-group-secures-additional-rm68-million-subcontract-from-gamuda-bringing-total-contract-value-to-rm116-million/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "KJTS · 交易所公告",
+            "en": "KJTS · Exchange filing"
+          },
+          "url": "https://ir2.chartnexus.com/kjts/onenew.php?id=3727289&type=Announcement",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Astro Awani · 波德申資料中心工程",
+            "en": "Astro Awani · Port Dickson data center works"
+          },
+          "url": "https://www.astroawani.com/berita-bisnes/kjts-groupperoleh-subkontrak-baharu-pusat-data-bernilai-rm68-juta",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "計畫地點為馬來西亞森美蘭州波德申，公告未列門牌地址。",
+        "en": "Project site: Port Dickson, Negeri Sembilan, Malaysia. A street address was not disclosed."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "馬來西亞",
+          "en": "Malaysia"
+        },
+        "industries": {
+          "zh": "資料中心；機械設備；工程合約",
+          "en": "Data centers, mechanical equipment and works contracts"
+        },
+        "chain": {
+          "zh": "機械工程及廠務設備至資料中心",
+          "en": "Mechanical and facility works to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "KJTS 簽署第二份機械工程分包，合約值 6,800 萬令吉。",
+            "en": "KJTS signed a RM68 million second subcontract for mechanical works."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "Gamuda 為發包方，KJTS 透過全資子公司承作機械工程。11 月 19 日公布的首份分包合約為 4,800 萬令吉。",
+            "en": "Gamuda awarded the mechanical scope to a wholly owned KJTS subsidiary. The first subcontract, announced on November 19, was worth RM48 million."
+          },
+          "timing": {
+            "zh": "第二份分包合約於 11 月 23 日簽署，馬來西亞媒體於 11 月 24 日報導。",
+            "en": "The second subcontract was signed on November 23 and covered by Malaysian media on November 24."
+          },
+          "unknowns": {
+            "zh": "公告未具名公開終端科技客戶，亦未披露機房 IT 負載、冷卻設備詳細規格或合約金額認列時點。",
+            "en": "The announcement did not name the end customer, give IT load or cooling equipment specifications, or specify revenue recognition timing."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第二份分包合約值",
+            "en": "Second subcontract value"
+          },
+          "current": 68,
+          "unit": "MYR million",
+          "period": {
+            "zh": "11 月 23 日簽署合約",
+            "en": "Subcontract signed November 23"
+          },
+          "owner": {
+            "zh": "KJTS 集團",
+            "en": "KJTS Group"
+          },
+          "sourceUrl": "https://www.kjts.com.my/kjts-group-secures-additional-rm68-million-subcontract-from-gamuda-bringing-total-contract-value-to-rm116-million/",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "首份分包合約值",
+            "en": "First subcontract value"
+          },
+          "current": 48,
+          "unit": "MYR million",
+          "period": {
+            "zh": "11 月 19 日公告合約",
+            "en": "Subcontract disclosed November 19"
+          },
+          "owner": {
+            "zh": "KJTS 集團",
+            "en": "KJTS Group"
+          },
+          "sourceUrl": "https://www.kjts.com.my/kjts-group-secures-additional-rm68-million-subcontract-from-gamuda-bringing-total-contract-value-to-rm116-million/",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "兩份分包合約總值",
+            "en": "Combined subcontract value"
+          },
+          "current": 116,
+          "unit": "MYR million",
+          "period": {
+            "zh": "截至 11 月 23 日兩份合約",
+            "en": "Two subcontracts as of November 23"
+          },
+          "owner": {
+            "zh": "KJTS 集團",
+            "en": "KJTS Group"
+          },
+          "sourceUrl": "https://www.kjts.com.my/kjts-group-secures-additional-rm68-million-subcontract-from-gamuda-bringing-total-contract-value-to-rm116-million/",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "散熱、電力及設施監控設備商會想確認 Gamuda 與 KJTS 的機電界面、分期安裝與驗收要求。合約沒有揭露 IT 負載或設備清單，金額無法對應到特定產品。",
+        "en": "Cooling, power and facilities controls suppliers would ask about scope boundaries between Gamuda and KJTS and phase-specific installation and acceptance. The contract value cannot be allocated to products without load or equipment details."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "singapore-q3-2026-manufacturing-gdp-revision",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "新加坡第三季製造業年增 8.5%，季調後季減 0.2%",
+        "en": "Singapore Q3 manufacturing grows 8.5% year on year and falls 0.2% quarter on quarter"
+      },
+      "summary": {
+        "zh": "新加坡能源、貿易與工業部 11 月 24 日公布，第三季製造業產出年增 8.5%，季節調整後季減 0.2%。部會指出，電子與精密工程受全球 AI 相關需求支撐。",
+        "en": "Singapore’s Ministry of Energy, Trade and Industry reported on November 24 that Q3 manufacturing grew 8.5% year over year and fell 0.2% quarter over quarter after seasonal adjustment. It said global AI-related demand supported electronics and precision engineering."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "部會報告指出，電子、精密工程、運輸工程及一般製造產出增加，抵銷化學品與生醫製造減產。第二季製造業年增率為 13.2%。",
+            "en": "The survey said gains in electronics, precision engineering, transport engineering and general manufacturing outweighed declines in chemicals and biomedical manufacturing. Manufacturing had grown 13.2% year over year in Q2."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "第三季實質 GDP 年增 6.1%，高於 10 月公布的初估 5.4%。部會將 2026 年經濟成長預測由 4.5% 至 5.5% 上調至約 6.0%，並估 2027 年成長 2.5% 至 4.5%。",
+            "en": "Real GDP rose 6.1% year over year in Q3, above the October advance estimate of 5.4%. The ministry raised its 2026 GDP growth forecast from 4.5% to 5.5% to around 6.0% and projected 2.5% to 4.5% for 2027."
+          }
+        }
+      ],
+      "metric": "+8.5%",
+      "metricLabel": {
+        "zh": "第三季製造業年增率",
+        "en": "Q3 manufacturing growth, YoY"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "新加坡能源、貿易與工業部 · 第三季經濟調查",
+            "en": "Singapore METI · Q3 economic survey press release"
+          },
+          "url": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "新加坡能源、貿易與工業部 · 10 月初估",
+            "en": "Singapore METI · October advance estimate"
+          },
+          "url": "https://www.meti.gov.sg/newsroom/singapore-s-gdp-grew-by-5-4-per-cent-in-the-third-quarter-of-2026/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "CNA · 新加坡第三季經濟數據",
+            "en": "CNA · Singapore’s Q3 economic figures"
+          },
+          "url": "https://www.channelnewsasia.com/singapore/economy-gdp-growth-q3-forecast-meti-6573976",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "新加坡",
+          "en": "Singapore"
+        },
+        "industries": {
+          "zh": "電子零組件；精密設備；工廠；預測",
+          "en": "Electronic components, precision equipment, factories and forecasts"
+        },
+        "chain": {
+          "zh": "電子零組件與精密設備至製造工廠",
+          "en": "Electronic components and precision equipment to factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "部會稱全球 AI 相關需求支撐電子及精密工程產出。",
+            "en": "The ministry said global AI-related demand supported electronics and precision engineering output."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "部會報告指出，電子、精密工程、運輸工程及一般製造產出增加，抵銷化學品與生醫製造減產。第二季製造業年增率為 13.2%。",
+            "en": "The survey said gains in electronics, precision engineering, transport engineering and general manufacturing outweighed declines in chemicals and biomedical manufacturing. Manufacturing had grown 13.2% year over year in Q2."
+          },
+          "timing": {
+            "zh": "11 月 24 日公布第三季更新值及全年經濟成長預測。",
+            "en": "The updated Q3 figures and annual forecasts were released on November 24."
+          },
+          "unknowns": {
+            "zh": "季度總體報告未列電子及精密工程個別企業的訂單、產能利用率或出貨台數。",
+            "en": "The quarterly economic release does not disclose individual electronics or precision engineering firms’ orders, utilization or shipment counts."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "製造業年增率",
+            "en": "Manufacturing growth, YoY"
+          },
+          "current": 0.085,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "製造業季增率，經季節調整",
+            "en": "Manufacturing growth, seasonally adjusted QoQ"
+          },
+          "current": -0.002,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "第二季製造業年增率",
+            "en": "Q2 manufacturing growth, YoY"
+          },
+          "current": 0.132,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第二季",
+            "en": "Q2 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "實質 GDP 年增率",
+            "en": "Real GDP growth, YoY"
+          },
+          "current": 0.061,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": 0.054,
+          "basePeriod": "October advance estimate for Q3",
+          "reportedRate": null,
+          "baseStatus": "部會列出同季初估值"
+        },
+        {
+          "name": {
+            "zh": "2026 年 GDP 成長新預測，約",
+            "en": "Updated 2026 GDP growth forecast, approximate"
+          },
+          "current": 0.06,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年全年",
+            "en": "Full year 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2026 年 GDP 前次預測下限",
+            "en": "Previous 2026 GDP forecast, lower bound"
+          },
+          "current": 0.045,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年全年",
+            "en": "Full year 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2026 年 GDP 前次預測上限",
+            "en": "Previous 2026 GDP forecast, upper bound"
+          },
+          "current": 0.055,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年全年",
+            "en": "Full year 2026"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2027 年 GDP 成長預測下限",
+            "en": "2027 GDP growth forecast, lower bound"
+          },
+          "current": 0.025,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年全年",
+            "en": "Full year 2027"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2027 年 GDP 成長預測上限",
+            "en": "2027 GDP growth forecast, upper bound"
+          },
+          "current": 0.045,
+          "unit": "%",
+          "period": {
+            "zh": "2027 年全年",
+            "en": "Full year 2027"
+          },
+          "owner": {
+            "zh": "新加坡能源、貿易與工業部",
+            "en": "Singapore METI"
+          },
+          "sourceUrl": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "半導體設備電源和精密測試業者會想確認，電子與精密工程的增量集中在哪些客戶及產品。季度統計無法對應單一客戶的採購期或驗收進度。",
+        "en": "Semiconductor tool power and precision test suppliers would ask which customers and products drove electronics and precision engineering output. Quarterly aggregates do not establish any one customer’s purchasing or acceptance schedule."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "sunway-hpe-private-cloud-ai-selection-2026-11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "馬來西亞 Sunway 選用 HPE 私有雲平台，規劃在集團環境部署 AI",
+        "en": "Malaysia’s Sunway chooses HPE private cloud for group-wide AI deployment"
+      },
+      "summary": {
+        "zh": "HPE 11 月 24 日在吉隆坡宣布，馬來西亞 Sunway 集團選用 HPE Private Cloud AI，規劃讓各事業共用本身管理的 AI 環境。平台結合 HPE 基礎設施與 NVIDIA 運算及軟體，客戶未公布機櫃或加速卡數量。",
+        "en": "HPE announced in Kuala Lumpur on November 24 that Malaysia’s Sunway Group selected HPE Private Cloud AI for a shared environment governed by the group. The platform combines HPE infrastructure with NVIDIA computing and software. Rack and accelerator counts were not disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "HPE 表示，平台整合加速運算、網路和企業 AI 軟體，並可供多個事業單位共用。Sunway Digital & Technology 表示，集團要把資料留在自己的環境管理。",
+            "en": "HPE said the platform integrates accelerated computing, networking and enterprise AI software and can serve multiple divisions. Sunway Digital & Technology said the project is designed to retain data within the group’s environment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "HPE 列出知識助理與內部生產力工具等規劃用途，並表示其服務部門將提供工程和訓練。馬新社同日報導此項選型。",
+            "en": "HPE listed knowledge assistants and internal productivity tools as planned uses and said its services arm would provide engineering and training. Bernama reported the selection the same day."
+          }
+        }
+      ],
+      "metric": "Private cloud",
+      "metricLabel": {
+        "zh": "Sunway 選定的平台",
+        "en": "Platform selected by Sunway"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "HPE · Sunway 私有雲選型公告",
+            "en": "HPE · Sunway private cloud selection"
+          },
+          "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/11/sunway-group-accelerates-secure-and-sovereign-enterprise-wide-artificial-intelligence-with-hpe.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "馬新社 · Sunway 部署計畫",
+            "en": "Bernama · Sunway deployment plans"
+          },
+          "url": "https://web26.bernama.com/en/region/news.php?id=2638818",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "馬來西亞、美國",
+          "en": "Malaysia, United States"
+        },
+        "industries": {
+          "zh": "伺服器；算力；企業私有雲",
+          "en": "Servers, compute and enterprise private cloud"
+        },
+        "chain": {
+          "zh": "伺服器與網路整合至企業私有算力",
+          "en": "Server and networking integration to private enterprise compute"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "Sunway 選定私有雲平台，未公布設備數量。",
+            "en": "Sunway selected the private cloud platform without disclosing quantities."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "HPE 表示，平台整合加速運算、網路和企業 AI 軟體，並可供多個事業單位共用。Sunway Digital & Technology 表示，集團要把資料留在自己的環境管理。",
+            "en": "HPE said the platform integrates accelerated computing, networking and enterprise AI software and can serve multiple divisions. Sunway Digital & Technology said the project is designed to retain data within the group’s environment."
+          },
+          "timing": {
+            "zh": "11 月 24 日公布採用決定。",
+            "en": "The selection was announced on November 24."
+          },
+          "unknowns": {
+            "zh": "兩家公司未公布部署站點、伺服器和加速卡型號、供電容量、合約金額或實際上線日期。",
+            "en": "The companies did not disclose a deployment site, server or accelerator models, power capacity, contract value or a production launch date."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "企業機房電源及測試設備業者會想向整合商確認實際機型、機櫃密度和驗收需求。公布內容只有平台選型，機房負載與設備規模尚未確認。",
+        "en": "Enterprise power and test suppliers would ask the integrator which system models, rack densities and acceptance requirements will apply. The platform selection gives no site load or equipment volume."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "toyo-taichung-six-axis-cpo-optical-alignment-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "東佑達在台中說明六軸光耦合平台，定位共同封裝光學應用",
+        "en": "TOYO outlines six-axis optical alignment platform for co-packaged optics at Taichung expo"
+      },
+      "summary": {
+        "zh": "東佑達 11 月 24 日在台中無人載具暨機器人應用展說明，正開發六軸光耦合對位平台，用於光纖和光學元件的精密對準。公司表示將配合客戶開發進度驗證與整合，未公布驗收結果。",
+        "en": "At the Taichung Unmanned Systems and Robotics Expo on November 24, TOYO discussed a six-axis optical coupling and alignment platform under development for precise positioning of fibers and optics. It plans to work with customers on validation and integration, with no acceptance results disclosed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "光學對位會用到精密傳動、運動控制與定位。公司同場也介紹電動缸、線性馬達模組及多軸定位平台，對應晶圓搬運、精密檢測及先進封裝。",
+            "en": "Optical alignment uses precision motion and positioning. At the same event TOYO described electric cylinders, linear motors and multi-axis positioning platforms for wafer handling, inspection and advanced packaging."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "經濟日報引述東佑達，公司將六軸平台用於矽光子和高速光通訊的對位需求。展館確認本展於 11 月 24 日至 27 日在臺中國際會展中心舉行。",
+            "en": "Economic Daily News quoted TOYO on the platform’s role in silicon photonics and high-speed optical communications. The venue lists the expo from November 24 to 27 at Taichung International Convention and Exhibition Center."
+          }
+        }
+      ],
+      "metric": "6 axes",
+      "metricLabel": {
+        "zh": "光耦合平台對位軸數",
+        "en": "Optical platform alignment axes"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟日報 · 東佑達產品與開發進度",
+            "en": "Economic Daily News · TOYO products and development"
+          },
+          "url": "https://money.udn.com/money/story/5612/9898491?from=edn_next_story",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "臺中國際會展中心 · 機器人應用展日期與展區",
+            "en": "Taichung exhibition center · Robotics expo dates and hall"
+          },
+          "url": "https://www.ticec.com.tw/wSite/ct?ctNode=441&mp=1&xItem=2702",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報展覽 · 機器人應用展活動資訊",
+            "en": "Economic Daily News exhibition team · Robotics expo information"
+          },
+          "url": "https://www.censintlexpo.com/taichungrobotics",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "展覽場地為台灣台中，臺中國際會展中心展覽館 1 樓 E 區。",
+        "en": "Exhibition venue: Zone E, Level 1, Taichung International Convention and Exhibition Center, Taichung, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；自動化；晶圓；封裝；測試",
+          "en": "Equipment, automation, wafers, packaging and testing"
+        },
+        "chain": {
+          "zh": "精密定位設備至矽光子封裝與測試",
+          "en": "Precision positioning tools to silicon photonics packaging and testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "光學對位會用到精密傳動、運動控制與定位。公司同場也介紹電動缸、線性馬達模組及多軸定位平台，對應晶圓搬運、精密檢測及先進封裝。",
+            "en": "Optical alignment uses precision motion and positioning. At the same event TOYO described electric cylinders, linear motors and multi-axis positioning platforms for wafer handling, inspection and advanced packaging."
+          },
+          "timing": {
+            "zh": "東佑達於 11 月 24 日展會開幕日說明產品。",
+            "en": "TOYO discussed the product on the opening day, November 24."
+          },
+          "unknowns": {
+            "zh": "公開資訊未列對位精度、測試條件、送樣日期或量產訂單。產品開發進度來自媒體引述。",
+            "en": "No alignment accuracy, test conditions, sampling date or volume orders were disclosed. The development update comes from media coverage of the company."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "光耦合平台對位軸數",
+            "en": "Optical platform alignment axes"
+          },
+          "current": 6,
+          "unit": "axes",
+          "period": {
+            "zh": "2026 年 11 月 24 日展會說明",
+            "en": "November 24, 2026 expo disclosure"
+          },
+          "owner": {
+            "zh": "東佑達，由經濟日報引述",
+            "en": "TOYO, quoted by Economic Daily News"
+          },
+          "sourceUrl": "https://money.udn.com/money/story/5612/9898491?from=edn_next_story",
+          "kind": "產品規格",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "光電封裝與量測設備業者會想取得平台的精度、重複性及客戶測試條件。現場說明沒有提供驗收與交付紀錄，設備量產時程仍不明。",
+        "en": "Optical packaging and measurement suppliers would ask for the platform’s accuracy, repeatability and customer test conditions. The expo disclosure did not establish acceptance, deliveries or volume production timing."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "asean-critical-minerals-ammin-implementation-2026-11",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "馬來西亞公布東協關鍵礦物合作措施，擬在三國試行投資工具包",
+        "en": "Malaysia outlines ASEAN critical minerals program with a three-country investment toolkit pilot"
+      },
+      "summary": {
+        "zh": "馬來西亞天然資源及環境永續部長 11 月 24 日在吉隆坡東協礦物會議開幕活動提出 8 項合作措施，包括區域關鍵礦物清單，以及在印尼、越南及馬來西亞試行礦物項目投資準備工具包。措施聚焦投資準備與下游材料加工，未宣布個別工廠案。",
+        "en": "Malaysia’s natural resources and environmental sustainability minister outlined eight cooperation measures at an ASEAN minerals meeting in Kuala Lumpur on November 24. They include a regional critical minerals list and a project preparation toolkit pilot in Indonesia, Vietnam and Malaysia, with no individual plant project announced."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "東協 11 月 15 日在馬尼拉通過關鍵礦物宣言，要求發展區域策略，涵蓋開採、加工、精煉、製造與回收。11 月 24 日公布的措施補充了執行安排。",
+            "en": "ASEAN adopted a critical minerals declaration in Manila on November 15, calling for a regional strategy spanning mining, processing, refining, manufacturing and recycling. The November 24 measures added implementation details."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "The Edge Malaysia 引述部長指出，清單涵蓋 30 種礦物，投資準備工具包將先行試辦，區域採用預定於 2027 年。另規劃以 AMConnect 提供礦物資料及投資機會資訊。",
+            "en": "The Edge Malaysia reported that the list covers 30 minerals and the toolkit will be piloted before planned regional adoption in 2027. The minister also outlined AMConnect as a platform for mineral data and investment opportunity information."
+          }
+        }
+      ],
+      "metric": "8 initiatives",
+      "metricLabel": {
+        "zh": "部長列舉的合作措施",
+        "en": "Cooperation measures outlined by the minister"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "The Edge Malaysia · 部長公布執行措施",
+            "en": "The Edge Malaysia · Minister’s implementation measures"
+          },
+          "url": "https://theedgemalaysia.com/node/827074",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "東協 · 11 月 15 日關鍵礦物宣言",
+            "en": "ASEAN · November 15 critical minerals declaration"
+          },
+          "url": "https://asean.org/wp-content/uploads/2026/11/Declaration-on-ASEAN-Critical-Minerals-for-Regional-Resilience-and-Sustainable-Growth.pdf",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "開幕活動地點為馬來西亞吉隆坡，所引報導未列場館名稱。",
+        "en": "Opening event location: Kuala Lumpur, Malaysia. The cited coverage did not name the venue."
+      },
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "馬來西亞、印尼、越南及東協其他成員",
+          "en": "Malaysia, Indonesia, Vietnam and other ASEAN members"
+        },
+        "industries": {
+          "zh": "材料；工廠；區域投資政策",
+          "en": "Materials, factories and regional investment policy"
+        },
+        "chain": {
+          "zh": "關鍵礦物至下游加工、材料製造與回收",
+          "en": "Critical minerals to downstream processing, materials manufacturing and recycling"
+        },
+        "changes": {
+          "investment": {
+            "zh": "提出投資準備工具包，未公布單案投資額。",
+            "en": "The minister outlined a project preparation toolkit without announcing investment by project."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "東協 11 月 15 日在馬尼拉通過關鍵礦物宣言，要求發展區域策略，涵蓋開採、加工、精煉、製造與回收。11 月 24 日公布的措施補充了執行安排。",
+            "en": "ASEAN adopted a critical minerals declaration in Manila on November 15, calling for a regional strategy spanning mining, processing, refining, manufacturing and recycling. The November 24 measures added implementation details."
+          },
+          "timing": {
+            "zh": "東協 11 月 15 日通過宣言；馬來西亞於 11 月 24 日說明合作措施。",
+            "en": "ASEAN adopted the declaration on November 15, and Malaysia described the measures on November 24."
+          },
+          "unknowns": {
+            "zh": "公開資料未列個別投資項目、核准金額、材料產能或買方承購契約。工具包採用屬規劃。",
+            "en": "Available disclosures do not identify individual projects, approved amounts, materials capacity or offtake deals. Regional toolkit adoption remains planned."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "區域合作措施",
+            "en": "Regional cooperation measures"
+          },
+          "current": 8,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 11 月 24 日說明",
+            "en": "November 24, 2026 announcement"
+          },
+          "owner": {
+            "zh": "馬來西亞天然資源及環境永續部長，由 The Edge Malaysia 引述",
+            "en": "Malaysia’s natural resources minister, quoted by The Edge Malaysia"
+          },
+          "sourceUrl": "https://theedgemalaysia.com/node/827074",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "關鍵礦物清單項目",
+            "en": "Critical minerals on the regional list"
+          },
+          "current": 30,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 11 月 24 日說明",
+            "en": "November 24, 2026 announcement"
+          },
+          "owner": {
+            "zh": "馬來西亞天然資源及環境永續部長，由 The Edge Malaysia 引述",
+            "en": "Malaysia’s natural resources minister, quoted by The Edge Malaysia"
+          },
+          "sourceUrl": "https://theedgemalaysia.com/node/827074",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "材料加工設備與工業量測業者會想查明試辦將涵蓋哪些項目、材料規格及驗證。區域措施尚未指定個別工廠或採購量。",
+        "en": "Materials processing and industrial measurement suppliers would ask which pilot projects, materials specifications and validation steps will be included. No individual plants or procurement volumes were identified."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "產業指數可以用來估個別設備出貨嗎？",
+        "en": "Can the industry indices quantify shipments of a particular tool?"
+      },
+      "text": {
+        "zh": "製造業與電子產業指數涵蓋多類產品，公布值未拆至單一設備、客戶或製程節點。",
+        "en": "Manufacturing and electronics indices include multiple products, with no breakdown by individual tool, customer or process node."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "德州申請表的投資金額涵蓋哪段期間？",
+        "en": "Which period does the Texas investment schedule cover?"
+      },
+      "text": {
+        "zh": "A 表加總 2027 至 2031 年規劃投資。路透報導金額較高；是否採用不同範圍尚未確認。",
+        "en": "Schedule A totals planned investment from 2027 through 2031. Reuters reported a higher figure, with the reason for the difference unconfirmed."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "為何美方的馬來西亞項下與馬方實體數不同？",
+        "en": "Why do the U.S. Malaysia heading and the Malaysian count differ?"
+      },
+      "text": {
+        "zh": "美方以目的地列名，馬方援引投資發展局紀錄確認當地設立或營運情況。兩份文件均保留其原本分類。",
+        "en": "The U.S. rule groups entries by destination, while the Malaysian ministry described local registration and operations from its investment authority’s records."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "資料備註",
+      "en": "Reference notes"
+    },
+    "items": []
+  },
+  "lower": [],
+  "verificationNote": {
+    "zh": "德州投資以申請表 A 表列值為主，路透報導金額不同。馬來西亞實體數保留美方目的地及馬方確認範圍的差異。東佑達光耦合平台的開發進度來自媒體引述，未公布客戶驗收。",
+    "en": "The Texas story uses Schedule A as its primary investment figure and notes the difference with Reuters. The U.S. destination heading and Malaysia’s count of local entities are shown separately. TOYO’s development milestone comes from media coverage, with no customer acceptance results disclosed."
+  }
+}

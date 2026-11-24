@@ -1,21 +1,21 @@
 {
   "weekStart": "2026-11-22",
-  "generatedAt": "2026-11-23T10:27:52.562Z",
+  "generatedAt": "2026-11-24T11:19:03.433Z",
   "throughline": {
-    "zh": "台灣公布大南科電網與先進製程供需，新加坡更新半導體設備進度，馬來西亞及印尼則說明機房用水及跨境供電安排。",
-    "en": "Taiwan reported on its science park grid and leading-edge wafer supply, Singapore added equipment milestones, and Malaysia and Indonesia addressed data center water and cross-border power."
+    "zh": "台灣與新加坡公布製造業產出，德州晶圓投資仍在審查，馬來西亞更新資料中心工程與機房營運規則。",
+    "en": "Taiwan and Singapore reported manufacturing output, a Texas fab proposal awaits review, and Malaysia updated data center construction and operating requirements."
   },
   "highlights": [
     {
       "id": 1,
       "category": "taiwan",
       "title": {
-        "zh": "台灣晶圓製程需求及廠務電力",
-        "en": "Taiwan wafer demand and fab power"
+        "zh": "台灣製造產出與晶圓廠投資",
+        "en": "Taiwan manufacturing output and wafer fab investment"
       },
       "summary": {
-        "zh": "台電規劃投入 1,096 億元建大南科輸變電設施，估計園區長期負載 8,000MW；立法院先前通過 711 億元撥補。台積電稱先進製程需求仍超過供給，亞力則公布在手訂單涵蓋晶圓廠和機房。",
-        "en": "Taipower outlined NT$109.6 billion in Greater Tainan grid work and estimated 8,000 MW of eventual load, following a separate NT$71.1 billion budget measure. TSMC reported continued leading-edge supply constraints, while Allis disclosed a backlog spanning fabs and data centers."
+        "zh": "台灣 10 月製造業生產年增 31.63%；台積電子公司德州申請表列約 216.55 億美元投資規劃，選址尚待決定。台電另提出大南科輸變電計畫，亞力公布電力設備在手訂單。",
+        "en": "Taiwan’s October manufacturing output rose 31.63% year over year, and a TSMC subsidiary listed US$21.66 billion in a Texas tax application ahead of a final site decision. Taipower outlined its Greater Tainan grid plan and Allis reported a power equipment backlog."
       },
       "references": [
         {
@@ -33,6 +33,14 @@
         {
           "date": "2026-11-24",
           "storyId": 5
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 2
         }
       ]
     },
@@ -40,12 +48,12 @@
       "id": 2,
       "category": "global",
       "title": {
-        "zh": "東南亞資料中心選址、供水與跨境電網",
-        "en": "Southeast Asian data centers, water and cross-border power"
+        "zh": "東南亞資料中心工程、供水和出口規則",
+        "en": "Southeast Asia data center construction, utilities and export rules"
       },
       "summary": {
-        "zh": "甘孟資料中心首期動工，初始 IT 負載規劃 10MW，馬來西亞另說明資料中心供水審查，柔佛機房業者 YTL 也回應美國遠端算力規則。印尼表示，東協跨境供電仍須按國內法規檢視。",
-        "en": "Gambang began construction with 10 MW of planned initial IT load, while Malaysia addressed project water checks and a Johor operator responded to the new U.S. remote compute rule. Indonesia said cross-border grid arrangements remain subject to domestic review."
+        "zh": "彭亨州稱甘孟資料中心首期動工，KJTS 另簽波德申機械工程分包，Sunway 則選定 HPE 私有雲。美方公開七家實體的列名文件，馬來西亞另說明機房供水審查，印尼談及跨境供電的國內法規。",
+        "en": "Pahang reported construction at Gambang, KJTS signed a Port Dickson mechanical subcontract and Sunway selected HPE private cloud. The U.S. previewed seven Entity List additions, while Malaysia addressed water checks and Indonesia discussed domestic power trade review."
       },
       "references": [
         {
@@ -63,6 +71,18 @@
         {
           "date": "2026-11-24",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 6
         }
       ]
     },
@@ -70,12 +90,12 @@
       "id": 3,
       "category": "global",
       "title": {
-        "zh": "新加坡封裝、測試及載板廠設備進度",
-        "en": "Singapore packaging, inspection and substrate equipment milestones"
+        "zh": "新加坡製造產出與半導體工廠設備",
+        "en": "Singapore manufacturing and semiconductor equipment"
       },
       "summary": {
-        "zh": "美光將首台 HBM 封裝設備移入新加坡廠無塵室，KLA 啟用宏茂橋 22B 廠房。迅得另稱已向新加坡高階載板廠出貨，設備已運轉。",
-        "en": "Micron moved the first HBM packaging tool into its Singapore cleanroom and KLA opened Ang Mo Kio Building 22B. Symtek separately reported that equipment had shipped to a Singapore advanced substrate plant and was operating."
+        "zh": "新加坡第三季製造業年增 8.5%，季調後季減 0.2%。美光移入首台 HBM 封裝設備、KLA 啟用宏茂橋新廠房，迅得另稱載板廠設備已運轉。",
+        "en": "Singapore’s manufacturing grew 8.5% year over year and fell 0.2% from Q2 after adjustment. Micron moved in its first HBM packaging tool, KLA opened a new building and Symtek reported operating equipment at a substrate plant."
       },
       "references": [
         {
@@ -89,6 +109,10 @@
         {
           "date": "2026-11-24",
           "storyId": 4
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 5
         }
       ]
     },
@@ -96,12 +120,12 @@
       "id": 4,
       "category": "tech",
       "title": {
-        "zh": "半導體材料、晶圓測試及系統零組件",
-        "en": "Semiconductor materials, wafer test and system components"
+        "zh": "半導體材料、晶圓測試與光電對位",
+        "en": "Chip materials, wafer test and optical alignment"
       },
       "summary": {
-        "zh": "漢測公布 10 月自結實績，登豐則說明 DGX Spark 的電源晶片採用。晶呈公布特氣出貨與玻璃通孔產線規劃，南寶及立碁分別有用膠供貨與光收發模組送樣進度。",
-        "en": "Hermes Testing released preliminary October results and GST disclosed a DGX Spark power IC design. Jingcheng gave specialty gas and glass via updates, alongside reported progress in Nan Pao adhesives and Ligitek optical module sampling."
+        "zh": "漢測公布 10 月自結、登豐說明電源管理晶片導入。南寶更新膠材供貨，晶呈披露特氣出貨，立碁與東佑達的消息分別涉及模組送樣及光耦合對位開發。",
+        "en": "Hermes Testing released preliminary October results and GST described a power management IC design. Nan Pao and Jingcheng updated adhesive supply and specialty gas shipments, while Ligitek and TOYO were reported at module sampling and optical alignment development stages."
       },
       "references": [
         {
@@ -123,6 +147,10 @@
         {
           "date": "2026-11-24",
           "storyId": 8
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 7
         }
       ]
     },
@@ -130,12 +158,12 @@
       "id": 5,
       "category": "global",
       "title": {
-        "zh": "電子工廠投資、製造設備與循環材料政策",
-        "en": "Electronics factory investment, machine tools and circular materials policy"
+        "zh": "電子工廠投資與循環材料政策",
+        "en": "Electronics factory investment and circular materials policy"
       },
       "summary": {
-        "zh": "訊芯核准增資越南子公司，GIS-KY 越南子公司公告機電安裝契約。台灣則披露國產半導體腔體工具機取得德國訂單，環境部也說明跨境循環材料合作方向。",
-        "en": "ShunSin approved an equity injection for its Vietnam subsidiary, while GIS-KY’s Vietnam unit disclosed an electromechanical installation contract. Taiwan reported German orders for semiconductor chamber tools and outlined cooperation on cross-border recycled materials."
+        "zh": "訊芯及 GIS-KY 更新越南投資和機電工程，台灣披露半導體腔體工具機取得德國訂單。東協公布關鍵礦物合作措施，台灣環境部另說明循環材料合作方向。",
+        "en": "ShunSin and GIS-KY updated Vietnam investment and electromechanical works, and Taiwan reported a German order for semiconductor chamber tools. ASEAN outlined critical minerals cooperation while Taiwan’s environment ministry described work on circular materials."
       },
       "references": [
         {
@@ -153,6 +181,10 @@
         {
           "date": "2026-11-23",
           "storyId": 5
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 8
         }
       ]
     }
