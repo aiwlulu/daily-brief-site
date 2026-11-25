@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -805,6 +805,32 @@
           "en": "Economic Daily News exhibition team · Event page with conflicting dates"
         },
         "url": "https://www.censintlexpo.com/machinetool"
+      }
+    },
+    {
+      "id": "taiwan-industrial-net-zero-transformation-conference-2026",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "type": "systems",
+      "region": "tw",
+      "name": {
+        "zh": "2026 產業淨零轉型成果發表暨研討會",
+        "en": "2026 Industrial Net Zero Transformation Results Conference"
+      },
+      "place": {
+        "zh": "台灣台北市，集思台大會議中心地下一樓",
+        "en": "B1, GIS NTU Convention Center, Taipei, Taiwan"
+      },
+      "focus": {
+        "zh": "工廠節能、AI 智慧製造、循環材料與產業減量成果。",
+        "en": "Factory energy efficiency, AI-enabled manufacturing, circular materials and industrial emissions reduction."
+      },
+      "source": {
+        "name": {
+          "zh": "循環經濟推動辦公室 · 官方活動資訊",
+          "en": "Circular Economy Promotion Office · Official event details"
+        },
+        "url": "https://sdd.nat.gov.tw/cepo/NewsList.aspx?uid=278b1ef6-287c-45d7-90f3-e4e8bf0bdfa8"
       }
     }
   ]

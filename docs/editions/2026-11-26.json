@@ -1,0 +1,2031 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T12:57:12.150Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：伺服器、製造景氣與工廠投資",
+      "en": "Taiwan and Southeast Asia: servers, manufacturing sentiment and factory investment"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "戴爾公布伺服器營收與全年財測，台經院更新製造業調查，美國則正式刊出影響東南亞三地供應鏈的許可規則。",
+    "en": "Dell reported server revenue and revised its guidance, TIER released its manufacturing survey, and the U.S. published a licensing rule covering entities in three Southeast Asian destinations."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "戴爾上季 AI 最佳化伺服器營收年增 291% 至 220.31 億美元，全年該類伺服器財測上修至 780 億美元。",
+        "en": "Dell’s quarterly AI-optimized server revenue rose 291% to US$22.03 billion. It raised full-year guidance for the category to US$78 billion."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "美國正式刊登東南亞 7 家實體的列名規則，載明 11 月 23 日生效及特定在途貨物的過渡條款。",
+        "en": "The U.S. published its rule for seven Southeast Asian Entity List additions, specifying a November 23 effective date and a transit provision."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "台經院 10 月製造業營業氣候測驗點降至 98.94，電子機械業當月看好者仍多於看壞者。",
+        "en": "TIER’s October manufacturing business climate index fell to 98.94, while positive current readings still outnumbered negative ones in electronics and machinery."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "越南海防稀土材料廠動土，規劃年產 1 萬噸，目標 2028 年第四季商轉。",
+        "en": "A rare earth materials plant broke ground in Hai Phong with 10,000 tonnes of annual design capacity and a Q4 2028 commercial launch target."
+      }
+    },
+    {
+      "id": 7,
+      "text": {
+        "zh": "國科會披露台大下一代 Transformer 晶片已於 10 月以 16 奈米製程下線，實測能效尚未公開。",
+        "en": "The NSTC disclosed an October 16 nm tape-out for NTU’s next Transformer chip. Measured energy efficiency is still undisclosed."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "dell-fy2027-q3-ai-server-revenue",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "戴爾上季 AI 伺服器營收增至 220.31 億美元，全年財測上修",
+        "en": "Dell reports US$22.03 billion in quarterly AI server revenue and raises annual guidance"
+      },
+      "summary": {
+        "zh": "戴爾科技 11 月 24 日在美國公布 2027 會計年度第三季財報，AI 最佳化伺服器營收 220.31 億美元，年增 291%，集團營收 549.37 億美元，年增 103%。戴爾公開供應商名單列緯創新竹湖口與竹北廠供應伺服器及印刷電路板組裝件。",
+        "en": "Dell Technologies reported fiscal Q3 2027 results in the U.S. on November 24. AI-optimized server revenue rose 291% year over year to US$22.03 billion and group revenue rose 103% to US$54.94 billion. Dell lists Wistron’s Hukou and Zhubei sites in Taiwan for servers and printed circuit board assemblies."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "戴爾將 AI 最佳化伺服器、傳統伺服器與網通、儲存分列在基礎架構解決方案事業群。該事業群營收為 419.74 億美元，年增 198%，營業利益為 71.18 億美元，年增 308%。",
+            "en": "Dell reports AI-optimized servers, traditional servers and networking, and storage separately within its Infrastructure Solutions Group. The segment recorded US$41.97 billion in revenue, up 198%, and US$7.12 billion in operating income, up 308%."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "集團按美國會計準則計算的毛利率為 21.0%，去年同期為 20.7%，淨利為 56.73 億美元，年增 266%。稀釋每股盈餘為 8.82 美元，調整後為 9.45 美元，分別年增 287% 與 265%。戴爾稱當季接獲 602 億美元 AI 訂單，季末在手訂單 1,323 億美元，並將全年營收財測從 1,920 億上修至 2,020 億美元，AI 最佳化伺服器營收財測從 740 億上修至 780 億美元。",
+            "en": "GAAP gross margin rose to 21.0% from 20.7%, and net income rose 266% to US$5.67 billion. Diluted EPS rose 287% to US$8.82 and adjusted EPS rose 265% to US$9.45. Dell reported US$60.2 billion in quarterly AI orders and a US$132.3 billion quarter-end backlog. It raised full-year revenue guidance to US$202 billion from US$192 billion and AI-optimized server revenue guidance to US$78 billion from US$74 billion."
+          }
+        }
+      ],
+      "metric": "US$22.03B",
+      "metricLabel": {
+        "zh": "AI 伺服器單季營收",
+        "en": "Quarterly AI server revenue"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "戴爾科技 · 會計年度第三季財報",
+            "en": "Dell Technologies · Fiscal Q3 results"
+          },
+          "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "戴爾科技 · 公開供應商名單",
+            "en": "Dell Technologies · Public supplier list"
+          },
+          "url": "https://www.delltechnologies.com/asset/pl-pl/solutions/business-solutions/briefs-summaries/dell-public-supplier-list.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 戴爾財報與全年財測",
+            "en": "CNA · Dell results and annual guidance"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611250058.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "美國；台灣",
+          "en": "United States and Taiwan"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；資料中心；零組件",
+          "en": "Servers, ODMs, data centers and components"
+        },
+        "chain": {
+          "zh": "零組件至伺服器整機與資料中心",
+          "en": "Components to server systems and data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "戴爾稱季內接獲 602 億美元 AI 訂單，季末在手訂單 1,323 億美元。",
+            "en": "Dell reported US$60.2 billion in quarterly AI orders and a US$132.3 billion quarter-end backlog."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "戴爾將 AI 最佳化伺服器、傳統伺服器與網通、儲存分列在基礎架構解決方案事業群。該事業群營收為 419.74 億美元，年增 198%，營業利益為 71.18 億美元，年增 308%。",
+            "en": "Dell reports AI-optimized servers, traditional servers and networking, and storage separately within its Infrastructure Solutions Group. The segment recorded US$41.97 billion in revenue, up 198%, and US$7.12 billion in operating income, up 308%."
+          },
+          "timing": {
+            "zh": "美國時間 11 月 24 日發布，截至 10 月 30 日的會計季度。",
+            "en": "The release was issued on November 24 U.S. time and covers the fiscal quarter ended October 30."
+          },
+          "unknowns": {
+            "zh": "戴爾未揭露這批訂單的供應商、交付批次或電源與散熱規格。公開供應商名單涵蓋多種伺服器，未標明本季 AI 機種的分工。",
+            "en": "Dell did not disclose suppliers, delivery batches, power requirements or cooling specifications for those orders. Its public supplier list covers servers broadly and does not identify allocations by AI server model."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "AI 最佳化伺服器營收",
+            "en": "AI-optimized server revenue"
+          },
+          "current": 22.031,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 5.641,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 2.91,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "集團營收",
+            "en": "Group revenue"
+          },
+          "current": 54.937,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 27.005,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 1.03,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "基礎架構事業群營收",
+            "en": "Infrastructure Solutions Group revenue"
+          },
+          "current": 41.974,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 14.107,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 1.98,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "基礎架構事業群營業利益",
+            "en": "Infrastructure Solutions Group operating income"
+          },
+          "current": 7.118,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 1.743,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 3.08,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "傳統伺服器與網通營收",
+            "en": "Traditional servers and networking revenue"
+          },
+          "current": 15.013,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 4.484,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 2.35,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "儲存營收",
+            "en": "Storage revenue"
+          },
+          "current": 4.93,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 3.982,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 0.24,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "毛利",
+            "en": "Gross profit"
+          },
+          "current": 11.559,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 5.593,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 1.07,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "營業利益",
+            "en": "Operating income"
+          },
+          "current": 7.442,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 2.119,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 2.51,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "淨利",
+            "en": "Net income"
+          },
+          "current": 5.673,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 1.548,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 2.66,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "調整後淨利",
+            "en": "Adjusted net income"
+          },
+          "current": 6.074,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 1.762,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 2.45,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "營業現金流",
+            "en": "Operating cash flow"
+          },
+          "current": 4.459,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 1.172,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": 2.8,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "會計準則毛利率",
+            "en": "GAAP gross margin"
+          },
+          "current": 0.21,
+          "unit": "%",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 0.207,
+          "basePeriod": {
+            "zh": "2026 會計年度第三季",
+            "en": "Fiscal Q3 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司表列去年同期值"
+        },
+        {
+          "name": {
+            "zh": "當季 AI 訂單",
+            "en": "Quarterly AI orders"
+          },
+          "current": 60.2,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度第三季",
+            "en": "Fiscal Q3 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "季末 AI 在手訂單",
+            "en": "Quarter-end AI backlog"
+          },
+          "current": 132.3,
+          "unit": "USD billion",
+          "period": {
+            "zh": "截至 2026 年 10 月 30 日",
+            "en": "As of October 30, 2026"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "公司實績",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "全年營收財測",
+            "en": "Annual revenue guidance"
+          },
+          "current": 202,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度",
+            "en": "Fiscal 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "預測",
+          "comparison": "預測修訂",
+          "base": 192,
+          "basePeriod": {
+            "zh": "2027 會計年度前次財測",
+            "en": "Prior fiscal 2027 guidance"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司列出前次同年度財測"
+        },
+        {
+          "name": {
+            "zh": "全年 AI 伺服器營收財測",
+            "en": "Annual AI server revenue guidance"
+          },
+          "current": 78,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2027 會計年度",
+            "en": "Fiscal 2027"
+          },
+          "owner": {
+            "zh": "戴爾科技",
+            "en": "Dell Technologies"
+          },
+          "sourceUrl": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm",
+          "kind": "預測",
+          "comparison": "預測修訂",
+          "base": 74,
+          "basePeriod": {
+            "zh": "2027 會計年度前次財測",
+            "en": "Prior fiscal 2027 guidance"
+          },
+          "reportedRate": null,
+          "baseStatus": "公司列出前次同年度財測"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源和量測設備業者而言，戴爾與緯創的既有供應關係提供可向客戶查證的接點。應區分在手訂單、出貨批次和實際機櫃電源規格，財報尚未披露這些規格或供應分配。",
+        "en": "Power and test suppliers can use Dell’s disclosed Wistron relationship as a starting point for customer discussions. Order backlog, shipment schedules and rack power specifications need separate confirmation because the filing gives no configuration or supplier allocation."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "bis-megaspeed-entity-list-malaysia-singapore-thailand-2026-11",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "追蹤｜美國正式刊登東南亞 7 家實體列名規則，明列在途貨物過渡條款",
+        "en": "Follow-up | U.S. publishes Entity List rule for seven Southeast Asian entities with a transit provision"
+      },
+      "summary": {
+        "zh": "美國《聯邦公報》11 月 25 日正式刊登將馬來西亞、新加坡與泰國目的地下 7 家實體列入管制名單的規則，文件載明生效日是 11 月 23 日。規則保留特定在途貨物的過渡安排，符合條件的交易須於 12 月 23 日或以前完成。",
+        "en": "The U.S. Federal Register published a rule on November 25 listing seven entities under Malaysia, Singapore and Thailand. It specifies a November 23 effective date and a transition provision for qualifying shipments already in transit, which must be completed by December 23."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "美國商務部工業與安全局把三家列在馬來西亞、三家列在新加坡、一家列在泰國。規則涵蓋適用美國《出口管理規則》的項目，列名實體適用許可要求，審查採推定拒絕。",
+            "en": "The Bureau of Industry and Security lists three entities under Malaysia, three under Singapore and one under Thailand. The rule applies a license requirement and a presumption of denial to items subject to the U.S. Export Administration Regulations."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "在途條款限於 11 月 23 日已依實際訂單裝載於承運工具、正前往相關出口、再出口或境內轉移地點，且原先符合免許可或許可例外條件的貨物。馬來西亞投資、貿易及工業部 11 月 24 日表示其中兩家是馬來西亞實體，與美方按目的地編排的口徑不同。",
+            "en": "The transit provision applies to items already aboard a carrier en route on November 23 under actual orders and previously eligible for a license exception or shipment without a license. Malaysia’s trade ministry said on November 24 that two firms were Malaysian entities, a different classification from the U.S. list by destination."
+          }
+        }
+      ],
+      "metric": "7",
+      "metricLabel": {
+        "zh": "正式列名實體",
+        "en": "Entities formally listed"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "美國聯邦公報 · 正式刊登規則第 76148 頁起",
+            "en": "Federal Register · Published rule starting on page 76148"
+          },
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-25/pdf/2026-23999.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "馬來西亞投資、貿易及工業部 · 當地實體說明",
+            "en": "Malaysia MITI · Statement on domestic entities"
+          },
+          "url": "https://www.miti.gov.my/miti/resources/Media%20Release/THE_ADDITION_OF_MALAYSIAN_ENTITIES_TO_THE_US_ENTITY_LIST_-_UNDER_BUREAU_OF_INDUSTRY_AND_SECURITY_OF_THE_US_DEPARTMENT_OF_COMMERCE.pdf",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "美國；馬來西亞；新加坡；泰國",
+          "en": "United States, Malaysia, Singapore and Thailand"
+        },
+        "industries": {
+          "zh": "出口管制；資料中心；伺服器",
+          "en": "Export controls, data centers and servers"
+        },
+        "chain": {
+          "zh": "伺服器設備出口及轉移至資料中心",
+          "en": "Server equipment exports and transfers to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "美國商務部工業與安全局把三家列在馬來西亞、三家列在新加坡、一家列在泰國。規則涵蓋適用美國《出口管理規則》的項目，列名實體適用許可要求，審查採推定拒絕。",
+            "en": "The Bureau of Industry and Security lists three entities under Malaysia, three under Singapore and one under Thailand. The rule applies a license requirement and a presumption of denial to items subject to the U.S. Export Administration Regulations."
+          },
+          "timing": {
+            "zh": "11 月 25 日正式刊登。11 月 23 日生效，12 月 23 日為適用過渡條款的完成期限。",
+            "en": "Published November 25, effective November 23, with a December 23 completion deadline for qualifying transitional shipments."
+          },
+          "unknowns": {
+            "zh": "規則與馬方聲明未披露個別資料中心的交付變更或受影響的伺服器數量。",
+            "en": "The rule and Malaysian statement give no revised delivery schedules or affected server counts for individual data centers."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "正式新增列名實體",
+            "en": "Entities added"
+          },
+          "current": 7,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月 25 日刊登",
+            "en": "November 25, 2026 publication"
+          },
+          "owner": {
+            "zh": "美國商務部工業與安全局",
+            "en": "U.S. Bureau of Industry and Security"
+          },
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-11-25/pdf/2026-23999.pdf",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "與東南亞資料中心交易有關的伺服器供電與測試設備，宜先逐案查明交易方及產品適用的規則。個別出貨能否適用在途條款，須核對實際訂單與承運紀錄，公告未提供這些資訊。",
+        "en": "For server power and test equipment tied to Southeast Asian data center transactions, suppliers would verify the transaction parties and applicable product rules. Eligibility for the transit provision depends on orders and carrier records that the notice does not give."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "tier-taiwan-manufacturing-sentiment-october-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "台經院 10 月製造業測驗點降至 98.94，電子機械業當月看好者仍多於看壞",
+        "en": "Taiwan manufacturing sentiment falls to 98.94 as more electronics firms report good than poor conditions"
+      },
+      "summary": {
+        "zh": "台灣經濟研究院 11 月 25 日公布，10 月製造業營業氣候測驗點降至 98.94，較 9 月修正值低 2.85 點。台經院指出，電子機械業受訪者看好當月景氣者仍多於看壞者，並提及 AI 晶片、DRAM 與先進封裝需求。",
+        "en": "The Taiwan Institute of Economic Research reported on November 25 that its October manufacturing sentiment index fell 2.85 points from revised September to 98.94. In its electronics and machinery grouping, more respondents reported good than poor current conditions. The institute cited AI chips, DRAM and advanced packaging demand."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "台經院依製造業問卷的當月與未來半年評價編製測驗點，9 月修正值為 101.79。10 月製造業受訪者評當月景氣為好的比率從 27.7% 降至 19.2%，評為壞的比率從 18.7% 升至 21.5%。",
+            "en": "The institute models its index from manufacturers’ responses about the current month and the coming six months. It revised September to 101.79. In October, 19.2% rated current conditions good, down from 27.7%, while 21.5% rated them poor, up from 18.7%."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "台經院指出，晶圓代工、DRAM 製造及半導體封測帶動電子機械業當月景氣，化纖、汽機車與自行車業的受訪者看法相對偏弱。對未來半年，整體製造業看好比率從 24.3% 降至 21.4%，看壞比率從 17.7% 升至 19.6%。",
+            "en": "The institute cited foundries, DRAM manufacturing, packaging and testing for the electronics and machinery results, while synthetic fibers, motor vehicles and bicycles reported weaker sentiment. Across manufacturing, the six-month positive share fell to 21.4% from 24.3% and the negative share rose to 19.6% from 17.7%."
+          }
+        }
+      ],
+      "metric": "98.94",
+      "metricLabel": {
+        "zh": "製造業營業氣候測驗點",
+        "en": "Manufacturing business climate index"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "台經院 · 11 月景氣動向調查",
+            "en": "TIER · November business survey report"
+          },
+          "url": "https://www.tier.org.tw/forecast/202611.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 製造業調查結果",
+            "en": "Anue · Manufacturing survey coverage"
+          },
+          "url": "https://m.cnyes.com/news/id/6671595",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶圓代工；DRAM；封裝測試；終端工廠",
+          "en": "Foundries, DRAM, packaging and testing, and end-use factories"
+        },
+        "chain": {
+          "zh": "晶圓代工、記憶體與封裝測試至終端工廠",
+          "en": "Foundries, memory and packaging and testing through end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "台經院指出電子機械業仍受 AI 晶片、DRAM 與先進封裝需求帶動。",
+            "en": "TIER cited AI chips, DRAM and advanced packaging as demand drivers in its electronics and machinery group."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台經院依製造業問卷的當月與未來半年評價編製測驗點，9 月修正值為 101.79。10 月製造業受訪者評當月景氣為好的比率從 27.7% 降至 19.2%，評為壞的比率從 18.7% 升至 21.5%。",
+            "en": "The institute models its index from manufacturers’ responses about the current month and the coming six months. It revised September to 101.79. In October, 19.2% rated current conditions good, down from 27.7%, while 21.5% rated them poor, up from 18.7%."
+          },
+          "timing": {
+            "zh": "11 月 25 日發布 10 月問卷調查，9 月測驗點使用修正值。",
+            "en": "The October survey was released November 25 and uses a revised September index."
+          },
+          "unknowns": {
+            "zh": "測驗點反映受訪者看法，調查未揭露個別企業的生產增減或訂單量。",
+            "en": "The index measures survey responses and does not give output or order volumes for individual companies."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "製造業營業氣候測驗點",
+            "en": "Manufacturing business climate index"
+          },
+          "current": 98.94,
+          "unit": "點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣經濟研究院",
+            "en": "Taiwan Institute of Economic Research"
+          },
+          "sourceUrl": "https://www.tier.org.tw/forecast/202611.pdf",
+          "kind": "調查統計",
+          "comparison": "無",
+          "base": 101.79,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "台經院列出前月同口徑數值"
+        },
+        {
+          "name": {
+            "zh": "認為當月景氣好",
+            "en": "Current conditions rated good"
+          },
+          "current": 0.192,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣經濟研究院",
+            "en": "Taiwan Institute of Economic Research"
+          },
+          "sourceUrl": "https://www.tier.org.tw/forecast/202611.pdf",
+          "kind": "調查統計",
+          "comparison": "無",
+          "base": 0.277,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "台經院列出前月同口徑數值"
+        },
+        {
+          "name": {
+            "zh": "認為當月景氣壞",
+            "en": "Current conditions rated poor"
+          },
+          "current": 0.215,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣經濟研究院",
+            "en": "Taiwan Institute of Economic Research"
+          },
+          "sourceUrl": "https://www.tier.org.tw/forecast/202611.pdf",
+          "kind": "調查統計",
+          "comparison": "無",
+          "base": 0.187,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "台經院列出前月同口徑數值"
+        },
+        {
+          "name": {
+            "zh": "看好未來半年",
+            "en": "Positive outlook for the next six months"
+          },
+          "current": 0.214,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣經濟研究院",
+            "en": "Taiwan Institute of Economic Research"
+          },
+          "sourceUrl": "https://www.tier.org.tw/forecast/202611.pdf",
+          "kind": "調查統計",
+          "comparison": "無",
+          "base": 0.243,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "台經院列出前月同口徑數值"
+        },
+        {
+          "name": {
+            "zh": "看壞未來半年",
+            "en": "Negative outlook for the next six months"
+          },
+          "current": 0.196,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "台灣經濟研究院",
+            "en": "Taiwan Institute of Economic Research"
+          },
+          "sourceUrl": "https://www.tier.org.tw/forecast/202611.pdf",
+          "kind": "調查統計",
+          "comparison": "無",
+          "base": 0.177,
+          "basePeriod": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "台經院列出前月同口徑數值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓製程電源與封測量測業者而言，整體製造業與電子機械業的問卷結果應分開看。可向客戶查證 N2、DRAM 和高階測試線各自的排程，調查未分列這些產線的訂單。",
+        "en": "Process power and test suppliers can read the manufacturing-wide and electronics survey results separately. They would verify schedules for N2, DRAM and advanced test lines with customers, since the survey gives no line-level orders."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "jih-lin-server-power-copper-clip-november-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "界霖說明伺服器電源銅夾與功率模組開發方向",
+        "en": "Jih Lin details copper clip and power module development for server power supplies"
+      },
+      "summary": {
+        "zh": "台灣導線架廠界霖科技 11 月 24 日在線上法說會說明銅夾與功率模組的開發方向，媒體引述公司表示，產品開發涵蓋 AI 伺服器電源。公司簡報將銅夾與功率模組列在精密金屬沖壓與電鍍的開發項目。",
+        "en": "Taiwan leadframe maker Jih Lin Technology discussed copper clips and power module development at an online investor conference on November 24. Local media cited the company as targeting AI server power supplies, and the presentation listed clips and power modules within its precision stamping and plating strategy."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "據經濟日報引述，界霖以大面積銅片作為模組內部連接件，因應功率晶片薄型化與雙面冷卻設計。公司簡報列有台灣生產據點與馬來西亞子公司 SH Precision。",
+            "en": "The Economic Daily News quoted Jih Lin as describing a wider copper connection inside modules designed for thinner power chips and double-sided cooling. Its presentation identifies production in Taiwan and a Malaysian subsidiary, SH Precision."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "法說重點是開發路線。簡報亦回顧 2026 年第三季合併財務資料，其中營收較去年同期成長 23%，為公司整體業績。",
+            "en": "The investor briefing outlined product development. Its slides also recapped fiscal Q3 2026 consolidated results, including 23% year-over-year revenue growth for the company as a whole."
+          }
+        }
+      ],
+      "metric": "Cu clip",
+      "metricLabel": {
+        "zh": "功率模組內部連接",
+        "en": "Internal power module connection"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "界霖科技 · 線上法說會公告",
+            "en": "Jih Lin Technology · Online investor briefing notice"
+          },
+          "url": "https://www.jihlin.com.tw/news_info?id=133",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "界霖科技 · 法說簡報",
+            "en": "Jih Lin Technology · Investor presentation"
+          },
+          "url": "https://www.jihlin.com.tw/cms/upload/ckeditor/files/%E7%95%8C%E9%9C%96%E5%85%AC%E5%8F%B8%E7%B0%A1%E5%A0%B1-%E5%AE%8F%E9%81%A0%E8%AD%89%E5%88%B8%E7%B7%9A%E4%B8%8A%E6%B3%95%E8%AA%AA20261124-%20%E8%8B%B1%E6%96%87V2%20%28final%29.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 法說會與銅夾設計",
+            "en": "Economic Daily News · Briefing and copper clip design"
+          },
+          "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?nsl_id=dcbbfcd4418b489cb63e81f9c45cad94",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 伺服器電源開發方向",
+            "en": "MoneyDJ · Server power product development"
+          },
+          "url": "https://5850web.moneydj.com/z/zf/zufzVIP_37E53427-0E58-41FE-AAA1-AABD25070FE9_E_.djhtm",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "台灣，線上法人說明會，無實體會場。",
+        "en": "Taiwan, online investor briefing with no physical venue."
+      },
+      "market": {
+        "eventDate": "2026-11-24",
+        "countries": {
+          "zh": "台灣；馬來西亞",
+          "en": "Taiwan and Malaysia"
+        },
+        "industries": {
+          "zh": "導線架零組件；電源；伺服器；功率封裝",
+          "en": "Leadframe components, power supplies, servers and power packaging"
+        },
+        "chain": {
+          "zh": "金屬零組件至功率封裝與伺服器電源",
+          "en": "Metal components to power packaging and server power supplies"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "據經濟日報引述，界霖以大面積銅片作為模組內部連接件，因應功率晶片薄型化與雙面冷卻設計。公司簡報列有台灣生產據點與馬來西亞子公司 SH Precision。",
+            "en": "The Economic Daily News quoted Jih Lin as describing a wider copper connection inside modules designed for thinner power chips and double-sided cooling. Its presentation identifies production in Taiwan and a Malaysian subsidiary, SH Precision."
+          },
+          "timing": {
+            "zh": "公司 11 月 24 日舉行線上法說，經濟日報與 MoneyDJ 於 11 月 25 日報導。",
+            "en": "The company held an online investor briefing on November 24. The Economic Daily News and MoneyDJ reported on it November 25."
+          },
+          "unknowns": {
+            "zh": "公司簡報未分列伺服器電源銅夾的出貨、量產日期、客戶名稱或承接產地。",
+            "en": "The presentation did not break out shipments, production dates, customers or manufacturing sites for server power clips."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季合併營收",
+            "en": "Q3 consolidated revenue"
+          },
+          "current": 1.72342,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "界霖科技",
+            "en": "Jih Lin Technology"
+          },
+          "sourceUrl": "https://www.jihlin.com.tw/cms/upload/ckeditor/files/%E7%95%8C%E9%9C%96%E5%85%AC%E5%8F%B8%E7%B0%A1%E5%A0%B1-%E5%AE%8F%E9%81%A0%E8%AD%89%E5%88%B8%E7%B7%9A%E4%B8%8A%E6%B3%95%E8%AA%AA20261124-%20%E8%8B%B1%E6%96%87V2%20%28final%29.pdf",
+          "kind": "公司實績",
+          "comparison": "YoY",
+          "base": 1.401701,
+          "basePeriod": {
+            "zh": "2025 年第三季",
+            "en": "Q3 2025"
+          },
+          "reportedRate": 0.23,
+          "baseStatus": "公司簡報列去年同期值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器電源設計與測試業者而言，可向界霖確認銅夾的連接電阻、熱循環與雙面冷卻的測試條件。法說未提供客戶驗證報告或量產規格，尚無法判定哪些配置已通過驗收。",
+        "en": "Power supply and test teams would ask Jih Lin about clip resistance, thermal cycling and test conditions for double-sided cooling. The presentation gives no qualification reports or production specifications to identify accepted configurations."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "khanh-an-hai-phong-rare-earth-plant-groundbreaking-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "Khánh An 在越南海防動工興建稀土材料廠，規劃年產能 1 萬噸",
+        "en": "Khánh An breaks ground on Hai Phong rare earth materials plant designed for 10,000 tonnes a year"
+      },
+      "summary": {
+        "zh": "越南 Khánh An 工業 11 月 23 日在海防市春橋工業及非關稅區為高純度稀土材料廠動土，海防市公布投資額為 1.58 兆越南盾。市府稱專案規劃以 5 條產線供應電子、半導體和新能源產業，目標於 2028 年第四季商轉。",
+        "en": "Vietnam’s Khánh An Industry broke ground on a high-purity rare earth materials plant at Hai Phong’s Xuan Cau Industrial and Non-Tariff Zone on November 23. The city disclosed VND1.58 trillion in investment and a plan for five lines serving electronics, semiconductors and new energy, with commercial operation targeted for Q4 2028."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "海防市財政部門說，廠房規劃以濕法冶金與萃取製造單一稀土氧化物，設計年產能 1 萬噸，目標純度逾 99%。路透報導，原料預計包括越南老街省 Ben Den 礦區的混合稀土氧化物。",
+            "en": "Hai Phong’s finance department said the plant would use hydrometallurgy and extraction to produce individual rare earth oxides, with design capacity of 10,000 tonnes a year and purity above 99%. Reuters reported that feedstock would include mixed rare earth oxides from the Ben Den mine in Lao Cai province."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "海防市同步公布瀝縣港碼頭動工。前述 1.58 兆越南盾為 Khánh An 材料廠投資額，碼頭另列為不同投資案。",
+            "en": "Hai Phong also announced a groundbreaking for berths at Lach Huyen port. The VND1.58 trillion covers the Khánh An materials plant, a separate investment from the port berths."
+          }
+        }
+      ],
+      "metric": "10,000",
+      "metricLabel": {
+        "zh": "規劃年產量（公噸）",
+        "en": "Planned annual output (tonnes)"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "海防市財政部門 · 動土與材料廠規劃",
+            "en": "Hai Phong Department of Finance · Groundbreaking and plant plan"
+          },
+          "url": "https://sotc.haiphong.gov.vn/en/news/thu-tuong-chinh-phu-le-minh-hung-du-le-khoi-cong-du-an-trong-diem-ve-cang-bien-va-cong-nghiep-cong-nghe-cao-tai-hai-phong",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Hải Phòng News · 動土典禮",
+            "en": "Hải Phòng News · Groundbreaking ceremony"
+          },
+          "url": "https://news.baohaiphong.vn/prime-minister-le-minh-hung-attends-groundbreaking-ceremonies-for-two-major-projects-in-hai-phong-559312.html",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "路透 · 海防廠與原料規劃",
+            "en": "Reuters · Hai Phong project and feedstock"
+          },
+          "url": "https://www.channelnewsasia.com/business/vietnam-firm-breaks-ground-rare-earth-materials-plant-6574461",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "越南海防市吉海特區，春橋工業及非關稅區。此為專案場址，也舉行動土儀式。",
+        "en": "Project and groundbreaking site: Xuan Cau Industrial and Non-Tariff Zone, Cat Hai Special Zone, Hai Phong, Vietnam."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "越南",
+          "en": "Vietnam"
+        },
+        "industries": {
+          "zh": "稀土材料；半導體；工廠；投資",
+          "en": "Rare earth materials, semiconductors, factories and investment"
+        },
+        "chain": {
+          "zh": "稀土材料加工工廠至電子與半導體材料",
+          "en": "Rare earth processing to materials for electronics and semiconductors"
+        },
+        "changes": {
+          "investment": {
+            "zh": "海防市將本案投資額列為 1.58 兆越南盾。",
+            "en": "Hai Phong put the project’s investment at VND1.58 trillion."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "海防市財政部門說，廠房規劃以濕法冶金與萃取製造單一稀土氧化物，設計年產能 1 萬噸，目標純度逾 99%。路透報導，原料預計包括越南老街省 Ben Den 礦區的混合稀土氧化物。",
+            "en": "Hai Phong’s finance department said the plant would use hydrometallurgy and extraction to produce individual rare earth oxides, with design capacity of 10,000 tonnes a year and purity above 99%. Reuters reported that feedstock would include mixed rare earth oxides from the Ben Den mine in Lao Cai province."
+          },
+          "timing": {
+            "zh": "海防市 11 月 23 日舉行動土，規劃 2028 年第四季商轉。",
+            "en": "The city held the groundbreaking on November 23 and listed Q4 2028 as the planned commercial start."
+          },
+          "unknowns": {
+            "zh": "公告未揭露個別氧化物品項與產能分配、銷售客戶及已完成的設備採購。",
+            "en": "The announcements did not name customers or specify capacity by oxide, or disclose equipment purchases already completed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "設計年產能",
+            "en": "Annual design capacity"
+          },
+          "current": 10000,
+          "unit": "公噸",
+          "period": {
+            "zh": "2026 年 11 月 23 日公布的規劃",
+            "en": "Plan disclosed November 23, 2026"
+          },
+          "owner": {
+            "zh": "海防市財政部門",
+            "en": "Hai Phong Department of Finance"
+          },
+          "sourceUrl": "https://sotc.haiphong.gov.vn/en/news/thu-tuong-chinh-phu-le-minh-hung-du-le-khoi-cong-du-an-trong-diem-ve-cang-bien-va-cong-nghiep-cong-nghe-cao-tai-hai-phong",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "規劃產線",
+            "en": "Planned processing lines"
+          },
+          "current": 5,
+          "unit": "條",
+          "period": {
+            "zh": "2026 年 11 月 23 日公布的規劃",
+            "en": "Plan disclosed November 23, 2026"
+          },
+          "owner": {
+            "zh": "海防市財政部門",
+            "en": "Hai Phong Department of Finance"
+          },
+          "sourceUrl": "https://sotc.haiphong.gov.vn/en/news/thu-tuong-chinh-phu-le-minh-hung-du-le-khoi-cong-du-an-trong-diem-ve-cang-bien-va-cong-nghiep-cong-nghe-cao-tai-hai-phong",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "產品純度門檻（高於）",
+            "en": "Product purity threshold (above)"
+          },
+          "current": 0.99,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 23 日公布的規劃",
+            "en": "Plan disclosed November 23, 2026"
+          },
+          "owner": {
+            "zh": "海防市財政部門",
+            "en": "Hai Phong Department of Finance"
+          },
+          "sourceUrl": "https://sotc.haiphong.gov.vn/en/news/thu-tuong-chinh-phu-le-minh-hung-du-le-khoi-cong-du-an-trong-diem-ve-cang-bien-va-cong-nghiep-cong-nghe-cao-tai-hai-phong",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對材料純度量測與工廠電源供應商而言，濕法冶金和萃取是可向業主核對的製程。各條產線的產能、實際純度規格與設備採購進度仍待確認。",
+        "en": "For materials measurement and industrial power suppliers, hydrometallurgy and extraction are the processes to discuss with the project owner. Line-level capacity, purity acceptance criteria and equipment procurement remain undisclosed."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "arbin-danang-bess-battery-test-factory-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "越南峴港核發 Arbin Energy 儲能與電池測試設備廠投資登記證",
+        "en": "Da Nang issues investment certificate for Arbin’s energy storage and battery test plant"
+      },
+      "summary": {
+        "zh": "越南峴港媒體 11 月 23 日報導，園區管理機關已核發 Arbin Energy 峴港高科技園區工廠的投資登記證，總投資折合約 1.17 億美元。工廠計畫生產電網級電池儲能系統，以及電池測試與製造設備。",
+        "en": "Báo Đà Nẵng reported on November 23 that the local industrial zones authority had issued an investment certificate for Arbin Energy’s US$117 million factory at Da Nang Hi-Tech Park. The project plans to make grid-scale battery storage systems, battery testers and battery manufacturing equipment."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "報導引述園區資料，電池儲能系統全案設計年產 5,000 個貨櫃，折合 5GWh，另規劃每年 500 台電池測試設備及 800 台電池製造設備。首間廠房的啟用目標是 2028 年第三季，儲能貨櫃初期年產目標較低，為 100 至 300 個。",
+            "en": "Citing the authority, the local report gave full design capacity of 5,000 battery storage containers, equivalent to 5 GWh a year, plus 500 battery testers and 800 units of battery production equipment annually. The first building is scheduled to open in Q3 2028 with initial storage output targeted at 100 to 300 containers a year."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "市府門戶 11 月 21 日已轉載投資原則獲准的消息，11 月 23 日報導確認登記證已核發。地方報導列投資人出資約 3,400 萬美元，其餘約 8,300 萬美元擬由金融機構籌措。",
+            "en": "The city portal carried news of investment policy approval on November 21. The November 23 report confirmed that the registration certificate had been issued. Local reporting put investor equity at about US$34 million and planned financing from credit institutions at about US$83 million."
+          }
+        }
+      ],
+      "metric": "US$117M",
+      "metricLabel": {
+        "zh": "登記投資規模（約）",
+        "en": "Approximate registered investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "峴港市門戶 · 投資原則獲准消息",
+            "en": "Da Nang city portal · Investment policy approval bulletin"
+          },
+          "url": "https://cttdt.danangportal.gov.vn/vi/web/dng/w/thong-tin-bao-chi-sang-21-11-2026",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "峴港報 · 引述投資證與產線設計",
+            "en": "Báo Đà Nẵng · Report citing the investment certificate and plant plans"
+          },
+          "url": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "The Investor · 峴港工廠計畫",
+            "en": "The Investor · Da Nang factory plan"
+          },
+          "url": "https://theinvestor.vn/us-company-to-invest-117-mln-in-battery-storage-project-in-central-vietnam-d20498.html",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址為越南峴港市蓮沼坊峴港高科技園區。",
+        "en": "Project site: Da Nang Hi-Tech Park, Lien Chieu Ward, Da Nang, Vietnam."
+      },
+      "market": {
+        "eventDate": "2026-11-23",
+        "countries": {
+          "zh": "越南；美國",
+          "en": "Vietnam and the United States"
+        },
+        "industries": {
+          "zh": "電力；儲能設備；電池測試；工廠；外資",
+          "en": "Power, energy storage equipment, battery testing, factories and FDI"
+        },
+        "chain": {
+          "zh": "電池測試設備至儲能工廠與電網供電",
+          "en": "Battery test equipment through storage manufacturing to grid power"
+        },
+        "changes": {
+          "investment": {
+            "zh": "報導引述投資登記證，總額折合約 1.17 億美元。",
+            "en": "The reported certificate puts total investment at about US$117 million."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "市府消息列美方 Arbin Energy 為獲准投資人。",
+            "en": "The city bulletin identified U.S.-linked Arbin Energy as the approved investor."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "報導引述園區資料，電池儲能系統全案設計年產 5,000 個貨櫃，折合 5GWh，另規劃每年 500 台電池測試設備及 800 台電池製造設備。首間廠房的啟用目標是 2028 年第三季，儲能貨櫃初期年產目標較低，為 100 至 300 個。",
+            "en": "Citing the authority, the local report gave full design capacity of 5,000 battery storage containers, equivalent to 5 GWh a year, plus 500 battery testers and 800 units of battery production equipment annually. The first building is scheduled to open in Q3 2028 with initial storage output targeted at 100 to 300 containers a year."
+          },
+          "timing": {
+            "zh": "事件日期採 11 月 23 日公開報導登記證的日期。11 月 25 日 The Investor 續報。",
+            "en": "The event date is November 23, when the certificate was publicly reported. The Investor covered the project on November 25."
+          },
+          "unknowns": {
+            "zh": "公開報導未給登記證的實際核發日期、最終融資交割或首批客戶。",
+            "en": "Public reports did not give the exact certificate issuance date, financing close or initial customers."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "登記投資額（約）",
+            "en": "Registered investment (approximate)"
+          },
+          "current": 0.117,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月公告的規劃",
+            "en": "Plan reported in November 2026"
+          },
+          "owner": {
+            "zh": "峴港園區管理機關，由峴港媒體報導",
+            "en": "Da Nang industrial zones authority, reported by Báo Đà Nẵng"
+          },
+          "sourceUrl": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "投資人規劃出資（約）",
+            "en": "Planned investor equity (approximate)"
+          },
+          "current": 0.034,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月公告的規劃",
+            "en": "Plan reported in November 2026"
+          },
+          "owner": {
+            "zh": "峴港園區管理機關，由峴港媒體報導",
+            "en": "Da Nang industrial zones authority, reported by Báo Đà Nẵng"
+          },
+          "sourceUrl": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "規劃融資（約）",
+            "en": "Planned financing (approximate)"
+          },
+          "current": 0.083,
+          "unit": "USD billion",
+          "period": {
+            "zh": "2026 年 11 月公告的規劃",
+            "en": "Plan reported in November 2026"
+          },
+          "owner": {
+            "zh": "峴港園區管理機關，由峴港媒體報導",
+            "en": "Da Nang industrial zones authority, reported by Báo Đà Nẵng"
+          },
+          "sourceUrl": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "儲能貨櫃設計年產量",
+            "en": "Annual storage container design capacity"
+          },
+          "current": 5000,
+          "unit": "套",
+          "period": {
+            "zh": "2026 年 11 月公告的規劃",
+            "en": "Plan reported in November 2026"
+          },
+          "owner": {
+            "zh": "峴港園區管理機關，由峴港媒體報導",
+            "en": "Da Nang industrial zones authority, reported by Báo Đà Nẵng"
+          },
+          "sourceUrl": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "電池測試設備設計年產量",
+            "en": "Annual battery tester design capacity"
+          },
+          "current": 500,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 11 月公告的規劃",
+            "en": "Plan reported in November 2026"
+          },
+          "owner": {
+            "zh": "峴港園區管理機關，由峴港媒體報導",
+            "en": "Da Nang industrial zones authority, reported by Báo Đà Nẵng"
+          },
+          "sourceUrl": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "電池製造設備設計年產量",
+            "en": "Annual battery production equipment design capacity"
+          },
+          "current": 800,
+          "unit": "台",
+          "period": {
+            "zh": "2026 年 11 月公告的規劃",
+            "en": "Plan reported in November 2026"
+          },
+          "owner": {
+            "zh": "峴港園區管理機關，由峴港媒體報導",
+            "en": "Da Nang industrial zones authority, reported by Báo Đà Nẵng"
+          },
+          "sourceUrl": "https://baodanang.vn/da-nang-chap-thuan-dau-tu-du-an-san-xuat-he-thong-luu-tru-nang-luong-117-trieu-usd-3359338.html",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電池測試與精密電源業者而言，可就 Arbin 的儲能貨櫃與電池測試設備確認功率等級、校正規格及首廠驗收時程。已報導的是工廠設計產能，設備採購與客戶驗收仍待確認。",
+        "en": "Precision power and test suppliers would verify ratings, calibration requirements and first-building acceptance milestones for Arbin’s storage and battery test lines. The public figures are design capacity and leave equipment orders and customer acceptance unresolved."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "ntu-nstc-transformer-16nm-tapeout-november-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "國科會披露台大下一代 Transformer 晶片 10 月已用 16 奈米製程下線",
+        "en": "NSTC says NTU taped out next-generation 16 nm Transformer chip in October"
+      },
+      "summary": {
+        "zh": "國科會 11 月 25 日在台北披露，台大楊家驤團隊的下一代 Transformer 晶片已於 10 月以 16 奈米製程下線。團隊針對生成式 AI 推論的記憶體頻寬限制，調整外部記憶體資料流與控制流程。",
+        "en": "Taiwan’s National Science and Technology Council disclosed in Taipei on November 25 that Chia-hsiang Yang’s NTU team taped out its next-generation Transformer chip on a 16 nm process in October. The design targets memory bandwidth limits in generative AI inference by changing external memory data flow and controls."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "研究團隊此前兩代學習處理器發表於 2024 年與 2025 年 IEEE VLSI 技術與電路研討會。國科會指出，第一代使用 40 奈米製程，第二代改採前向傳遞學習以減少訓練期間須保存的資訊。",
+            "en": "The team presented two earlier learning processors at the IEEE VLSI Symposium in 2024 and 2025. The NSTC said the first used a 40 nm process and the second used forward-only learning to reduce information retained during training."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "國科會引述第二代晶片的研究測試，最高能量效率為 157 TOPS/W。該數值來自先前發表的晶片，這次披露的 16 奈米晶片則另外加入資料壓縮，重點是改善推論資料搬移。",
+            "en": "The NSTC cited a peak 157 TOPS/W in research testing of the earlier second-generation chip. The newly disclosed 16 nm design separately uses data compression to reduce data movement during inference."
+          }
+        }
+      ],
+      "metric": "16nm",
+      "metricLabel": {
+        "zh": "下一代研究晶片製程",
+        "en": "Next-generation research chip process"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "國科會 · 研究發表與新晶片進度",
+            "en": "NSTC · Research results and new tape-out"
+          },
+          "url": "https://www.nstc.gov.tw/folksonomy/detail/5302c3c4-e418-44eb-a352-9b329d0b8019?l=ch",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 台大學習晶片記者會",
+            "en": "CNA · NTU learning chip briefing"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611250127.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "台灣台北市，國科會研究成果記者會。來源未列會場名稱。",
+        "en": "Research briefing in Taipei, Taiwan. The sources do not name the event venue."
+      },
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "晶片設計；晶圓製程；記憶體；工業設備",
+          "en": "Chip design, wafer processing, memory and industrial equipment"
+        },
+        "chain": {
+          "zh": "晶片設計與晶圓製程至端側工業設備",
+          "en": "Chip design and wafer fabrication to on-device industrial equipment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "研究團隊此前兩代學習處理器發表於 2024 年與 2025 年 IEEE VLSI 技術與電路研討會。國科會指出，第一代使用 40 奈米製程，第二代改採前向傳遞學習以減少訓練期間須保存的資訊。",
+            "en": "The team presented two earlier learning processors at the IEEE VLSI Symposium in 2024 and 2025. The NSTC said the first used a 40 nm process and the second used forward-only learning to reduce information retained during training."
+          },
+          "timing": {
+            "zh": "11 月 25 日披露 10 月完成的製程下線；前兩代研究發表於 2024 年及 2025 年。",
+            "en": "The November 25 briefing disclosed an October tape-out. The earlier prototypes were presented in 2024 and 2025."
+          },
+          "unknowns": {
+            "zh": "國科會未公布 16 奈米晶片的實測能效、代工廠、商用客戶或量產時程。",
+            "en": "The NSTC did not disclose measured efficiency, foundry, commercial customers or production timing for the 16 nm chip."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "下一代晶片製程",
+            "en": "Next-generation chip process"
+          },
+          "current": 16,
+          "unit": "nm",
+          "period": {
+            "zh": "2026 年 10 月下線",
+            "en": "October 2026 tape-out"
+          },
+          "owner": {
+            "zh": "國科會",
+            "en": "NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/5302c3c4-e418-44eb-a352-9b329d0b8019?l=ch",
+          "kind": "產品規格，研究晶片",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "第一代晶片製程",
+            "en": "First-generation chip process"
+          },
+          "current": 40,
+          "unit": "nm",
+          "period": {
+            "zh": "2024 年發表",
+            "en": "2024 publication"
+          },
+          "owner": {
+            "zh": "國科會引述研究團隊",
+            "en": "Research team, cited by NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/5302c3c4-e418-44eb-a352-9b329d0b8019?l=ch",
+          "kind": "產品規格，研究晶片",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "第二代晶片最高能量效率",
+            "en": "Second-generation peak energy efficiency"
+          },
+          "current": 157,
+          "unit": "TOPS/W",
+          "period": {
+            "zh": "2025 年發表",
+            "en": "2025 publication"
+          },
+          "owner": {
+            "zh": "國科會引述研究團隊",
+            "en": "Research team, cited by NSTC"
+          },
+          "sourceUrl": "https://www.nstc.gov.tw/folksonomy/detail/5302c3c4-e418-44eb-a352-9b329d0b8019?l=ch",
+          "kind": "產品規格，研究測試",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對低功耗晶片量測及精密電源業者而言，可向台大團隊確認 16 奈米晶片的負載、記憶體介面與實測方法。既有的 157 TOPS/W 屬另一代晶片，仍須取得新晶片的測試結果。",
+        "en": "Precision power and test suppliers would ask the NTU team about the 16 nm chip’s workloads, memory interface and measurement setup. The 157 TOPS/W result came from an earlier chip, so the new device needs its own measurements."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "taiwan-ida-carbon-fee-reduction-plan-approvals-2026",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "產發署稱已輔導 438 廠提交自主減量計畫，其中 389 廠通過審查",
+        "en": "Taiwan reports 389 approvals among 438 facilities assisted with carbon reduction plans"
+      },
+      "summary": {
+        "zh": "經濟部產業發展署 11 月 25 日在台北公布，已協助 438 家應繳碳費的工廠提交自主減量計畫，其中 389 廠通過環境部審查，取得碳費優惠資格。會中亦介紹工廠節能、智慧製造與循環材料案例。",
+        "en": "Taiwan’s Industrial Development Administration reported in Taipei on November 25 that it had helped 438 facilities subject to the carbon fee submit voluntary reduction plans. The environment ministry approved 389 of them for preferential rates. The conference also featured factory energy efficiency, smart manufacturing and circular materials."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "自主減量計畫可讓通過環境部審查的適用工廠採優惠費率。產發署公布的是接受輔導的廠家進度。",
+            "en": "Facilities with a voluntary reduction plan approved by the environment ministry can qualify for preferential fees. The IDA tally covers the facilities it assisted."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "據產發署，製造業近十年二氧化碳排放量下降 9.6%，碳密集度下降 41.3%。產發署同場說明節能技術輔導及產業創新條例投資抵減。",
+            "en": "The IDA said manufacturing carbon dioxide emissions fell 9.6% over roughly ten years and carbon intensity declined 41.3%. It also discussed energy efficiency support and investment credits under the Statute for Industrial Innovation."
+          }
+        }
+      ],
+      "metric": "389",
+      "metricLabel": {
+        "zh": "受輔導且通過審查的工廠",
+        "en": "Assisted facilities with approved plans"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "經濟部產發署 · 計畫送件及核准數",
+            "en": "MOEA IDA · Carbon fee filings and approvals"
+          },
+          "url": "https://www.ida.gov.tw/ctlr?PRO=news.NewsView&id=43454",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "循環經濟推動辦公室 · 議程與會場",
+            "en": "Circular Economy Promotion Office · Program and venue"
+          },
+          "url": "https://sdd.nat.gov.tw/cepo/NewsList.aspx?uid=278b1ef6-287c-45d7-90f3-e4e8bf0bdfa8",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 碳費與減量計畫",
+            "en": "Anue · Carbon fee and reduction plans"
+          },
+          "url": "https://m.cnyes.com/news/id/6671708",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "活動會場為台灣台北市集思台大會議中心地下一樓。",
+        "en": "Event venue: B1, GIS NTU Convention Center, Taipei, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "終端工廠；自動化；設備；電力；投資",
+          "en": "End-use factories, automation, equipment, power and investment"
+        },
+        "chain": {
+          "zh": "節能量測設備與自動化至終端工廠",
+          "en": "Energy monitoring equipment and automation for end-use factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "自主減量計畫可讓通過環境部審查的適用工廠採優惠費率。產發署公布的是接受輔導的廠家進度。",
+            "en": "Facilities with a voluntary reduction plan approved by the environment ministry can qualify for preferential fees. The IDA tally covers the facilities it assisted."
+          },
+          "timing": {
+            "zh": "11 月 25 日公布輔導送件數與審查進度。",
+            "en": "Filing and approval counts were reported on November 25."
+          },
+          "unknowns": {
+            "zh": "發表資料未分列半導體、伺服器及其他工廠的核准數、實際繳費或節能設備採購。公布的長期減幅未附同口徑起訖絕對量。",
+            "en": "The release did not separate approvals, actual fees or equipment purchases by semiconductor, server or other factories. It did not give comparable absolute values at the start and end of the long-term declines."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "接受輔導並送件的工廠",
+            "en": "Assisted facilities with submitted plans"
+          },
+          "current": 438,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 11 月 25 日發表會",
+            "en": "As reported on November 25, 2026"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.ida.gov.tw/ctlr?PRO=news.NewsView&id=43454",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "審查通過的工廠",
+            "en": "Assisted facilities with approved plans"
+          },
+          "current": 389,
+          "unit": "家",
+          "period": {
+            "zh": "截至 2026 年 11 月 25 日發表會",
+            "en": "As reported on November 25, 2026"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.ida.gov.tw/ctlr?PRO=news.NewsView&id=43454",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "製造業二氧化碳排放量變化",
+            "en": "Change in manufacturing carbon dioxide emissions"
+          },
+          "current": -0.096,
+          "unit": "%",
+          "period": {
+            "zh": "發表會所述近十年",
+            "en": "Approximately ten years, as reported"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.ida.gov.tw/ctlr?PRO=news.NewsView&id=43454",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "製造業碳密集度變化",
+            "en": "Change in manufacturing carbon intensity"
+          },
+          "current": -0.413,
+          "unit": "%",
+          "period": {
+            "zh": "發表會所述近十年",
+            "en": "Approximately ten years, as reported"
+          },
+          "owner": {
+            "zh": "經濟部產業發展署",
+            "en": "MOEA Industrial Development Administration"
+          },
+          "sourceUrl": "https://www.ida.gov.tw/ctlr?PRO=news.NewsView&id=43454",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對工廠用電量測與製程電源業者而言，可向個別廠區了解自主減量計畫採用的設備和用電量測邊界。產發署公布的是通過審查的數量，尚無法看出各廠的節電驗收或設備採購。",
+        "en": "Factory power and measurement suppliers would ask individual sites which equipment and metering boundaries are in their reduction plans. The published approval count does not show equipment orders or measured energy savings at individual facilities."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "如何區分戴爾的營收、訂單與在手訂單？",
+        "en": "How do Dell’s revenue, order bookings and backlog differ?"
+      },
+      "text": {
+        "zh": "220.31 億美元是當季認列的 AI 最佳化伺服器營收，602 億美元是公司稱當季接獲的 AI 訂單，1,323 億美元是季末在手訂單。",
+        "en": "US$22.03 billion is recognized AI-optimized server revenue. US$60.2 billion is quarterly AI order intake and US$132.3 billion is the reported quarter-end backlog."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "哪三個日期分別用於規則刊登、生效與在途期限？",
+        "en": "Which dates govern publication, effectiveness and qualifying in-transit shipments?"
+      },
+      "text": {
+        "zh": "規則 11 月 25 日正式刊登，列明 11 月 23 日生效。符合條件的在途交易最遲須於 12 月 23 日完成。",
+        "en": "The rule was published on November 25 and is effective November 23. Qualifying transactions in transit must be completed no later than December 23."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "測驗點的比較基準是什麼？",
+        "en": "What is the comparison base for the manufacturing sentiment index?"
+      },
+      "text": {
+        "zh": "10 月 98.94 點和 9 月修正後的 101.79 點比較。測驗點由問卷反應編製，可和經濟部另公布的實際生產指數對照閱讀。",
+        "en": "October’s 98.94 compares with revised September’s 101.79. The survey-based index can be read alongside the separate government index of observed output."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "備忘",
+      "en": "Notes"
+    },
+    "items": []
+  },
+  "lower": [],
+  "verificationNote": {
+    "zh": "戴爾披露整體 AI 伺服器營收，未分列台灣供應商的出貨與訂單。越南兩廠所列數字為規劃產能，峴港登記證的實際核發日仍未公開。",
+    "en": "Dell did not break out sales or orders by Taiwan supplier. The capacity figures for both Vietnam factories are plans, and Da Nang’s exact certificate issuance date remains undisclosed."
+  }
+}
