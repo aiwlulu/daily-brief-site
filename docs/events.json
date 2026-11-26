@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -831,6 +831,32 @@
           "en": "Circular Economy Promotion Office · Official event details"
         },
         "url": "https://sdd.nat.gov.tw/cepo/NewsList.aspx?uid=278b1ef6-287c-45d7-90f3-e4e8bf0bdfa8"
+      }
+    },
+    {
+      "id": "sps-nuremberg-2026",
+      "start": "2026-11-24",
+      "end": "2026-11-26",
+      "type": "systems",
+      "region": "eu",
+      "name": {
+        "zh": "SPS 紐倫堡國際自動化展",
+        "en": "SPS Nuremberg Industrial Automation Exhibition"
+      },
+      "place": {
+        "zh": "德國紐倫堡，紐倫堡展覽中心",
+        "en": "Nuremberg Exhibition Center, Nuremberg, Germany"
+      },
+      "focus": {
+        "zh": "工業控制、感測與工廠自動化。台灣研華展出工業邊緣檢測與軟體定義控制方案。",
+        "en": "Industrial controls, sensors and factory automation. Taiwan’s Advantech presented edge inspection and software-defined control."
+      },
+      "source": {
+        "name": {
+          "zh": "Mesago · SPS 官方展覽資訊",
+          "en": "Mesago · Official SPS exhibition details"
+        },
+        "url": "https://sps.mesago.com/nuernberg/en/expo.html"
       }
     }
   ]

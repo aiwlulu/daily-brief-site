@@ -1,0 +1,1724 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-26T10:19:21.614Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：製造產出、貿易措施及機房基礎設施",
+      "en": "Taiwan and Southeast Asia: manufacturing, trade measures and data center infrastructure"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "美方公布適用台灣與東南亞的關稅提案，新加坡製造數據與越泰新海纜公告，分別更新設備產出及區域網路建設進度。",
+    "en": "A U.S. tariff proposal covers Taiwan and Southeast Asia, while Singapore’s manufacturing release and the VTS cable announcement update equipment output and regional network construction."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "美方公布產能過剩 301 關稅提案，台灣擬最高 15%，扣除最惠國與既有 301 稅率，最終稅率及豁免仍待定。",
+        "en": "The U.S. proposed a Taiwan tariff of up to 15%, net of most-favored-nation and existing Section 301 rates. Final rates and exemptions are pending."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "新加坡 10 月製造業產出年增 6.1%，精密工程年增 54.1%，經發局指出半導體設備增產。",
+        "en": "Singapore’s October manufacturing output rose 6.1%. Precision engineering gained 54.1%, with the EDB citing higher semiconductor equipment production."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "金融時報報導輝達要求合作廠暫停向東南亞四國交付部分伺服器，訂單範圍和期限尚未獲業者公開確認。",
+        "en": "The FT reported that Nvidia asked partners to pause some server shipments to four Southeast Asian markets. Companies have not publicly confirmed the scope or duration."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "媒體引述川寶稱，桃園玻璃通孔與玻璃核心基板產線已於 11 月啟用，月產能 500 片，已取得五家客戶打樣訂單。",
+        "en": "Chime-Ball told media that its Taoyuan glass substrate line started in November with monthly capacity of 500 panels and sample orders from five customers."
+      }
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "Viettel 與 Singtel 主導的越泰新海纜動工，設計容量 600 Tbps，目標 2030 年第四季完工。",
+        "en": "The Viettel and Singtel-led Vietnam–Thailand–Singapore cable broke ground, with 600 Tbps in design capacity and a Q4 2030 completion target."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "ustr-section-301-excess-capacity-taiwan-asean-tariff-proposal-2026",
+      "category": "taiwan",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "美國公布產能過剩 301 關稅提案，台灣適用稅率擬最高 15%",
+        "en": "U.S. proposes Taiwan tariff of up to 15% in Section 301 excess-capacity investigation"
+      },
+      "summary": {
+        "zh": "美國貿易代表署 11 月 25 日於美國公布 14 個經濟體的產能過剩 301 調查結果及關稅提案，台灣所列稅率最高 15%，扣除最惠國稅率及現行 301 關稅，草案另列擬豁免品項。台灣行政院 11 月 26 日說明，書面意見收至 2027 年 1 月 5 日，公聽會自 1 月 25 日開始。",
+        "en": "The U.S. Trade Representative published findings and tariff proposals covering 14 economies on November 25. The Taiwan proposal sets a rate of up to 15%, net of most-favored-nation rates and existing Section 301 tariffs, and lists proposed exemptions. Taiwan’s Executive Yuan said on November 26 that comments are due January 5, 2027, with hearings beginning January 25."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "台灣通知草案的附件列有部分電腦與處理單元的稅則號列，例如 8471.30.01 和 8471.50.01。判讀供應鏈適用範圍時，須對照貨品原產地、完整稅則號列及草案所列的適用限制。",
+            "en": "The Taiwan annex lists certain computers and processing units, including HTSUS 8471.30.01 and 8471.50.01. Coverage turns on the country of origin, complete tariff classification and any scope limitation in the proposal."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "美方另列馬來西亞、泰國、印尼與柬埔寨最高 18%，新加坡最高 20%，越南最高 35%。台灣通知也列出替代方案，若美方認為諮商及承諾未達要求，將考慮最高 25%，扣除既有 301 稅率並保留特定豁免。",
+            "en": "The USTR proposed ceilings of 18% for Malaysia, Thailand, Indonesia and Cambodia, 20% for Singapore, and 35% for Vietnam. It also outlined a Taiwan alternative of up to 25%, net of existing Section 301 tariffs and subject to exemptions, if it finds consultations and commitments unsatisfactory."
+          }
+        }
+      ],
+      "metric": "15%",
+      "metricLabel": {
+        "zh": "台灣擬議稅率上限",
+        "en": "Proposed Taiwan tariff ceiling"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "美國貿易代表署 · 各經濟體提案",
+            "en": "USTR · Proposals by economy"
+          },
+          "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "美國貿易代表署 · 台灣通知草案及稅則附件",
+            "en": "USTR · Taiwan draft notice and tariff annex"
+          },
+          "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Taiwan%20FRN.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "行政院 · 台灣回應與程序說明",
+            "en": "Executive Yuan · Taiwan response and timetable"
+          },
+          "url": "https://twustariff.ey.gov.tw/page/news/85",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "台灣；美國；馬來西亞；泰國；印尼；柬埔寨；新加坡；越南",
+          "en": "Taiwan, United States, Malaysia, Thailand, Indonesia, Cambodia, Singapore and Vietnam"
+        },
+        "industries": {
+          "zh": "半導體；設備；電腦；伺服器；貿易政策",
+          "en": "Semiconductors, equipment, computers, servers and trade policy"
+        },
+        "chain": {
+          "zh": "設備與零組件至電腦及伺服器整機出口",
+          "en": "Equipment and components through computer and server exports"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "台灣通知草案的附件列有部分電腦與處理單元的稅則號列，例如 8471.30.01 和 8471.50.01。判讀供應鏈適用範圍時，須對照貨品原產地、完整稅則號列及草案所列的適用限制。",
+            "en": "The Taiwan annex lists certain computers and processing units, including HTSUS 8471.30.01 and 8471.50.01. Coverage turns on the country of origin, complete tariff classification and any scope limitation in the proposal."
+          },
+          "timing": {
+            "zh": "美東時間 11 月 25 日公布，台灣行政院於 11 月 26 日回應。",
+            "en": "Released on November 25 U.S. Eastern time. Taiwan’s Executive Yuan responded on November 26."
+          },
+          "unknowns": {
+            "zh": "措施仍在徵詢意見，最終稅率、豁免清單、生效日及個別貨品實際稅負仍待定案。",
+            "en": "The actions remain open for comment. Final rates, exemptions, effective dates and duties on individual shipments await a decision."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "台灣擬議上限",
+            "en": "Proposed Taiwan ceiling"
+          },
+          "current": 0.15,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Taiwan%20FRN.pdf",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "台灣替代方案上限",
+            "en": "Alternative Taiwan ceiling"
+          },
+          "current": 0.25,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Taiwan%20FRN.pdf",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "馬來西亞擬議上限",
+            "en": "Proposed Malaysia ceiling"
+          },
+          "current": 0.18,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "泰國擬議上限",
+            "en": "Proposed Thailand ceiling"
+          },
+          "current": 0.18,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "印尼擬議上限",
+            "en": "Proposed Indonesia ceiling"
+          },
+          "current": 0.18,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "柬埔寨擬議上限",
+            "en": "Proposed Cambodia ceiling"
+          },
+          "current": 0.18,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "新加坡擬議上限",
+            "en": "Proposed Singapore ceiling"
+          },
+          "current": 0.2,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        },
+        {
+          "name": {
+            "zh": "越南擬議上限",
+            "en": "Proposed Vietnam ceiling"
+          },
+          "current": 0.35,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 11 月 25 日公布的提案",
+            "en": "Proposal released November 25, 2026"
+          },
+          "owner": {
+            "zh": "美國貿易代表署",
+            "en": "Office of the U.S. Trade Representative"
+          },
+          "sourceUrl": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "kind": "官方陳述，擬議稅率",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "提案列適用條件與豁免，未列同口徑比較基期"
+        }
+      ],
+      "ceoView": {
+        "zh": "對跨境供應電源模組和半導體設備的業者而言，應確認客戶採用的完整稅則號列及原產地文件，並核對豁免附件適用範圍。最終稅則及實施日期未定，現有資料還不足以確認個別貨品的稅負。",
+        "en": "Power module and semiconductor equipment suppliers would check customers’ full tariff classifications and origin documentation against the exemption annex. Final provisions and timing are unresolved, so the proposal does not establish the duty on any individual shipment."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "singapore-october-2026-manufacturing-production-edb",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "新加坡 10 月製造業產出年增 6.1%，精密工程年增 54.1%",
+        "en": "Singapore October manufacturing output rises 6.1% as precision engineering grows 54.1%"
+      },
+      "summary": {
+        "zh": "新加坡經濟發展局 11 月 26 日公布，10 月製造業產出年增 6.1%，9 月修正為年增 5.0%。精密工程產出年增 54.1%，當局指出機械與系統類別的半導體設備增產；電子業則年增 6.6%。",
+        "en": "Singapore’s Economic Development Board reported on November 26 that October manufacturing output rose 6.1% year over year after a revised 5.0% gain in September. Precision engineering output grew 54.1%, with the EDB citing increased semiconductor equipment production in machinery and systems. Electronics rose 6.6%."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "新加坡統計局刊載的工業生產指數以 2025 年為 100，10 月為 120.6，9 月為 112.5。另一口徑的季節調整後月增率為 7.1%，排除生物醫藥製造後為 7.3%。",
+            "en": "The Department of Statistics shows an industrial production index of 120.6 in October and 112.5 in September, with 2025 set to 100. On a seasonally adjusted basis, output rose 7.1% month on month, or 7.3% excluding biomedical manufacturing."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "據經濟發展局初估，排除生物醫藥後，10 月產出年增 12.1%。同月化學品及一般製造分別年增 4.4% 和 0.5%，運輸工程與生物醫藥製造分別年減 5.3% 和 35.8%。",
+            "en": "The EDB’s preliminary figures put year-over-year growth excluding biomedical manufacturing at 12.1%. Chemicals rose 4.4% and general manufacturing 0.5%. Transport engineering fell 5.3% and biomedical manufacturing 35.8%."
+          }
+        }
+      ],
+      "metric": "6.1%",
+      "metricLabel": {
+        "zh": "製造業產出年增率",
+        "en": "Manufacturing output growth, year over year"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "新加坡統計局 · 工業生產指數與月增率",
+            "en": "SingStat · Production index and monthly growth"
+          },
+          "url": "https://www.singstat.gov.sg/find-data/explore-data-themes/industry/manufacturing/latest-news-data",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "聯合早報 · 經發局產業分類初估",
+            "en": "Lianhe Zaobao · EDB preliminary cluster estimates"
+          },
+          "url": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "AsiaOne · 製造業與半導體設備產出",
+            "en": "AsiaOne · Manufacturing and semiconductor equipment output"
+          },
+          "url": "https://www.asiaone.com/money/singapore-manufacturing-output-october-2026-edb",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "新加坡",
+          "en": "Singapore"
+        },
+        "industries": {
+          "zh": "半導體設備；精密零組件；電子工廠",
+          "en": "Semiconductor equipment, precision components and electronics factories"
+        },
+        "chain": {
+          "zh": "半導體設備及精密零組件至電子工廠",
+          "en": "Semiconductor equipment and precision components through electronics factories"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "經發局稱 AI 相關需求延續，並指出半導體設備產出增加。",
+            "en": "The EDB cited sustained AI-related demand and higher semiconductor equipment production."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "新加坡統計局刊載的工業生產指數以 2025 年為 100，10 月為 120.6，9 月為 112.5。另一口徑的季節調整後月增率為 7.1%，排除生物醫藥製造後為 7.3%。",
+            "en": "The Department of Statistics shows an industrial production index of 120.6 in October and 112.5 in September, with 2025 set to 100. On a seasonally adjusted basis, output rose 7.1% month on month, or 7.3% excluding biomedical manufacturing."
+          },
+          "timing": {
+            "zh": "11 月 26 日公布 10 月製造業初估，9 月比較採本次修正值。",
+            "en": "October preliminary data were released November 26, using the revised September data for comparison."
+          },
+          "unknowns": {
+            "zh": "數據是產業產出初估，未提供個別設備類型、單一廠商的出貨、訂單或產能利用率。",
+            "en": "The preliminary industry data do not give shipments, orders or utilization by tool type or manufacturer."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "工業生產指數",
+            "en": "Industrial production index"
+          },
+          "current": 120.6,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局",
+            "en": "Singapore Economic Development Board"
+          },
+          "sourceUrl": "https://www.singstat.gov.sg/find-data/explore-data-themes/industry/manufacturing/latest-news-data",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.061,
+          "baseStatus": "來源列出年增率與上月指數，未列去年同月指數"
+        },
+        {
+          "name": {
+            "zh": "9 月工業生產指數",
+            "en": "September industrial production index"
+          },
+          "current": 112.5,
+          "unit": "指數點",
+          "period": {
+            "zh": "2026 年 9 月",
+            "en": "September 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局",
+            "en": "Singapore Economic Development Board"
+          },
+          "sourceUrl": "https://www.singstat.gov.sg/find-data/explore-data-themes/industry/manufacturing/latest-news-data",
+          "kind": "官方統計",
+          "comparison": "YoY",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": 0.05,
+          "baseStatus": "來源列出修正後年增率，未列去年同月指數"
+        },
+        {
+          "name": {
+            "zh": "製造業產出季調月增率",
+            "en": "Seasonally adjusted monthly manufacturing growth"
+          },
+          "current": 0.071,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局",
+            "en": "Singapore Economic Development Board"
+          },
+          "sourceUrl": "https://www.singstat.gov.sg/find-data/explore-data-themes/industry/manufacturing/latest-news-data",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "排除生物醫藥後季調月增率",
+            "en": "Adjusted monthly growth excluding biomedicals"
+          },
+          "current": 0.073,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "排除生物醫藥後年增率",
+            "en": "Year-over-year growth excluding biomedicals"
+          },
+          "current": 0.121,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "精密工程產出年增率",
+            "en": "Precision engineering output growth, year over year"
+          },
+          "current": 0.541,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "電子業產出年增率",
+            "en": "Electronics output growth, year over year"
+          },
+          "current": 0.066,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "化學品產出年增率",
+            "en": "Chemicals output growth, year over year"
+          },
+          "current": 0.044,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "一般製造產出年增率",
+            "en": "General manufacturing growth, year over year"
+          },
+          "current": 0.005,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "運輸工程產出年增率",
+            "en": "Transport engineering growth, year over year"
+          },
+          "current": -0.053,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        },
+        {
+          "name": {
+            "zh": "生物醫藥製造年增率",
+            "en": "Biomedical manufacturing growth, year over year"
+          },
+          "current": -0.358,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年 10 月",
+            "en": "October 2026"
+          },
+          "owner": {
+            "zh": "新加坡經濟發展局，由聯合早報報導",
+            "en": "EDB, reported by Lianhe Zaobao"
+          },
+          "sourceUrl": "https://www.zaobao.com.sg/finance/singapore/story20261126-10060589",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源公布變動率，未列同口徑的基期變動率"
+        }
+      ],
+      "ceoView": {
+        "zh": "對精密製程電源和量測設備業者而言，精密工程統計提供設備產出的概況。若要了解新加坡客戶的採購與驗收進度，仍須向設備廠核對機型與交付批次，產業指數沒有這些明細。",
+        "en": "Precision power and measurement suppliers would ask Singapore toolmakers which equipment categories and acceptance schedules drove their own output. The cluster index does not identify tool models, delivery batches or procurement."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "nvidia-asean-server-shipment-pause-ft-november-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "金融時報報導輝達要求合作廠暫停向東南亞四國交付部分伺服器",
+        "en": "FT reports Nvidia instructed partners to pause some server shipments to four Southeast Asian markets"
+      },
+      "summary": {
+        "zh": "金融時報 11 月 26 日引述知情人士報導，輝達據稱要求製造合作夥伴暫停向馬來西亞、新加坡、泰國與印尼交付搭載其晶片的伺服器。報導點名戴爾與 Supermicro，受影響的訂單範圍和暫停期限尚無公開說法。",
+        "en": "The Financial Times reported on November 26, citing people familiar with the matter, that Nvidia had told manufacturing partners to pause shipments of servers containing its chips to Malaysia, Singapore, Thailand and Indonesia. The report named Dell and Supermicro. The order scope and duration remain unconfirmed."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "金融時報稱，接到通知的是向合作廠下單的買方。路透轉述金融時報內容，並表示輝達、戴爾及 Supermicro 未立即回覆置評。",
+            "en": "The FT said buyers that placed orders with manufacturing partners had been notified. Reuters reported the FT account and said Nvidia, Dell and Supermicro did not immediately respond to requests for comment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "11 月 25 日刊登的美國《聯邦公報》另有針對七家實體的出口許可規則，依目的地列入馬來西亞、新加坡與泰國。四國出貨消息出自媒體所述的合作廠通知，涵蓋範圍與美國列名規則各有其來源。",
+            "en": "The U.S. Federal Register separately published an export licensing rule on November 25 for seven entities listed under Malaysia, Singapore and Thailand. The reported four-country shipment pause comes from accounts of supplier notices and has a different scope from the Entity List rule."
+          }
+        }
+      ],
+      "metric": "4",
+      "metricLabel": {
+        "zh": "媒體報導涵蓋市場",
+        "en": "Markets cited in media report"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "金融時報 · 知情人士出貨說法",
+            "en": "Financial Times · Shipment account from people familiar"
+          },
+          "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "路透 · 轉述及向業者求證",
+            "en": "Reuters · FT report and requests for company comment"
+          },
+          "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "美國聯邦公報 · 七家實體出口列名",
+            "en": "Federal Register · Separate rule listing seven entities"
+          },
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-25/pdf/2026-23999.pdf",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "馬來西亞；新加坡；泰國；印尼；美國",
+          "en": "Malaysia, Singapore, Thailand, Indonesia and United States"
+        },
+        "industries": {
+          "zh": "伺服器；ODM；資料中心；出口管制",
+          "en": "Servers, ODMs, data centers and export controls"
+        },
+        "chain": {
+          "zh": "伺服器整機製造至東南亞資料中心",
+          "en": "Server assembly and deliveries to Southeast Asian data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "金融時報報導部分買方接獲暫緩交付通知，未披露訂單取消或新增。",
+            "en": "The FT reported that some buyers were notified of a pause and did not disclose canceled or new orders."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "金融時報稱，接到通知的是向合作廠下單的買方。路透轉述金融時報內容，並表示輝達、戴爾及 Supermicro 未立即回覆置評。",
+            "en": "The FT said buyers that placed orders with manufacturing partners had been notified. Reuters reported the FT account and said Nvidia, Dell and Supermicro did not immediately respond to requests for comment."
+          },
+          "timing": {
+            "zh": "金融時報於 11 月 26 日首次報導；報導未指明業者通知客戶的日期。",
+            "en": "The FT first reported on November 26 and did not specify when companies notified buyers."
+          },
+          "unknowns": {
+            "zh": "業者尚無可查證的公開出貨公告。受影響的機型、買方、已排定出貨批次和復運條件仍未確認。",
+            "en": "No public company shipment notice was available. The affected models, buyers, scheduled shipments and conditions for resuming deliveries remain unconfirmed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "報導涉及的國家",
+            "en": "Countries cited in the report"
+          },
+          "current": 4,
+          "unit": "個國家",
+          "period": {
+            "zh": "2026 年 11 月 26 日報導",
+            "en": "November 26, 2026 report"
+          },
+          "owner": {
+            "zh": "金融時報引述知情人士",
+            "en": "People familiar, cited by the Financial Times"
+          },
+          "sourceUrl": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對伺服器機櫃供電與量測業者而言，可向戴爾、Supermicro 或機房客戶核對實際出貨通知、機型與交付節點。現有資料還不足以確認個別電源產品的交期是否變更。",
+        "en": "Rack power and test suppliers would verify shipment notices, server models and delivery milestones with Dell, Supermicro or data center customers. The public evidence does not establish whether delivery dates changed for individual power products."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "chime-ball-taoyuan-tgv-glass-core-foundry-start-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "川寶稱桃園玻璃通孔及玻璃核心基板產線啟用，取得五家客戶打樣訂單",
+        "en": "Chime-Ball says Taoyuan glass substrate line has started, with sample orders from five customers"
+      },
+      "summary": {
+        "zh": "鉅亨網 11 月 25 日引述川寶科技指出，桃園蘆竹的玻璃通孔與玻璃核心基板代工線當月已投入營運，產能為每月 500 片面板級基板。公司稱已取得五家客戶的打樣訂單，規劃 2027 年初展開樣品驗證及製程優化。",
+        "en": "Anue reported on November 25 that Chime-Ball Technology said its through-glass via and glass core substrate line in Luzhu, Taoyuan, had begun operations that month, with capacity of 500 panel-level substrates a month. The company cited sample orders from five customers and plans for validation and process refinement in early 2027."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "據公司向媒體說明，產線處理 510 mm × 515 mm 基板，涵蓋雷射微孔、濕式蝕刻、鈦銅濺鍍、銅金屬化填孔及光學和 X 光檢查。川寶的產品頁另列同尺寸範圍的玻璃通孔自動光學檢測設備。",
+            "en": "The company told media that the line processes 510 mm by 515 mm panels using laser drilling, wet etching, titanium and copper sputtering, copper filling and optical and X-ray inspection. Its product documentation separately lists an automated optical inspection system for glass of the same dimensions."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "鉅亨網與知新聞引述川寶稱，蘆竹廠有約 600 坪無塵室，整合 12 道關鍵製程。打樣客戶來自玻璃材料、載板及面板產業。",
+            "en": "Anue and KNews reported that Chime-Ball cited a roughly 600-ping cleanroom and 12 process steps. Sample customers span glass materials, substrates and display panels."
+          }
+        }
+      ],
+      "metric": "500",
+      "metricLabel": {
+        "zh": "每月基板產能（片）",
+        "en": "Monthly substrate capacity (panels)"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "鉅亨網 · 引述川寶對啟用與訂單的說明",
+            "en": "Anue · Company account of line startup and orders"
+          },
+          "url": "https://news.cnyes.com/news/id/6671660",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "知新聞 · 產線與製程說明",
+            "en": "KNews · Line and process details"
+          },
+          "url": "https://www.knews.com.tw/news/9B22D3CFE2B32D2F202CF4B427C7B13E",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "川寶科技 · 玻璃通孔檢測設備規格",
+            "en": "Chime-Ball Technology · Glass via inspection equipment specifications"
+          },
+          "url": "https://www.cbtech.com.tw/web/product/product_in.jsp?pdid=PD1789616929770",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址為台灣桃園市蘆竹區川寶廠區。",
+        "en": "Project site: Chime-Ball facility in Luzhu District, Taoyuan, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "玻璃基板；載板；先進封裝；設備；檢測",
+          "en": "Glass substrates, advanced packaging, equipment and inspection"
+        },
+        "chain": {
+          "zh": "玻璃材料與濺鍍設備至載板及先進封裝檢測",
+          "en": "Glass materials and sputtering equipment through substrate and advanced packaging inspection"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "公司稱已有五家打樣客戶，尚待樣品驗證。",
+            "en": "The company cited five customers with sample orders, with sample validation still ahead."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "據公司向媒體說明，產線處理 510 mm × 515 mm 基板，涵蓋雷射微孔、濕式蝕刻、鈦銅濺鍍、銅金屬化填孔及光學和 X 光檢查。川寶的產品頁另列同尺寸範圍的玻璃通孔自動光學檢測設備。",
+            "en": "The company told media that the line processes 510 mm by 515 mm panels using laser drilling, wet etching, titanium and copper sputtering, copper filling and optical and X-ray inspection. Its product documentation separately lists an automated optical inspection system for glass of the same dimensions."
+          },
+          "timing": {
+            "zh": "媒體 11 月 25 日引述公司說明，實際啟用日僅確認在 11 月。",
+            "en": "Media covered the announcement on November 25. The company specified November for startup without giving a date."
+          },
+          "unknowns": {
+            "zh": "實際啟用日、客戶名稱、量產訂單、良率和出貨量未公開。啟用及打樣進度來自媒體引述。",
+            "en": "The exact start date, customer names, production orders, yields and shipments were not disclosed. Startup and sampling details come from media accounts of company statements."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "面板級基板月產能",
+            "en": "Monthly panel-level substrate capacity"
+          },
+          "current": 500,
+          "unit": "張",
+          "period": {
+            "zh": "2026 年 11 月公司說明",
+            "en": "Company disclosure, November 2026"
+          },
+          "owner": {
+            "zh": "川寶科技，由鉅亨網報導",
+            "en": "Chime-Ball Technology, reported by Anue"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6671660",
+          "kind": "媒體引述，產能",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "打樣客戶數",
+            "en": "Customers placing sample orders"
+          },
+          "current": 5,
+          "unit": "家",
+          "period": {
+            "zh": "2026 年 11 月公司說明",
+            "en": "Company disclosure, November 2026"
+          },
+          "owner": {
+            "zh": "川寶科技，由鉅亨網報導",
+            "en": "Chime-Ball Technology, reported by Anue"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6671660",
+          "kind": "媒體引述，打樣訂單",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "關鍵製程數",
+            "en": "Key process steps"
+          },
+          "current": 12,
+          "unit": "項",
+          "period": {
+            "zh": "2026 年 11 月公司說明",
+            "en": "Company disclosure, November 2026"
+          },
+          "owner": {
+            "zh": "川寶科技，由鉅亨網報導",
+            "en": "Chime-Ball Technology, reported by Anue"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6671660",
+          "kind": "媒體引述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對濺鍍與檢測電源業者而言，可向川寶確認鈦銅濺鍍設備、配套量測與樣品驗收條件。打樣訂單只顯示工程階段，量產稼動率與採購批次還未確定。",
+        "en": "Sputtering and inspection power suppliers would ask Chime-Ball about its titanium and copper tools, measurement setup and sample acceptance criteria. The sample orders describe engineering work, with volume utilization and purchasing schedules still unclear."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "viettel-singtel-vietnam-thailand-singapore-subsea-vts-2026",
+      "category": "global",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "Viettel 與 Singtel 主導越泰新海纜動工，設計容量 600 Tbps",
+        "en": "Viettel and Singtel-led Vietnam, Thailand and Singapore cable starts construction with 600 Tbps design"
+      },
+      "summary": {
+        "zh": "越南 Viettel 與新加坡 Singtel 主導的聯盟 11 月 26 日在越南胡志明市為 VTS 海纜動土，計畫連接越南、泰國與新加坡，總長約 2,500 公里，設計容量 600 Tbps。越南政府公布的目標完工期為 2030 年第四季。",
+        "en": "A consortium led by Vietnam’s Viettel and Singapore’s Singtel broke ground in Ho Chi Minh City on November 26 for the VTS submarine cable. The planned route links Vietnam, Thailand and Singapore over about 2,500 km, with design capacity of 600 Tbps and a Q4 2030 completion target."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "越南政府指出，越南至新加坡主段約 1,200 公里，設計容量 240 Tbps，施工承包商為 NEC 與 ASEAN Cableship。其他參與者包括泰國 AIS、越南 VNPT、FPT Telecom 與 Viettel IDC。",
+            "en": "The Vietnamese government put the Vietnam to Singapore segment at about 1,200 km and 240 Tbps, with NEC and ASEAN Cableship as contractors. Other partners include Thailand’s AIS and Vietnam’s VNPT, FPT Telecom and Viettel IDC."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "泰國 AIS 於 11 月 25 日公告，董事會核准由子公司透過合資平台投資，並把區域機房、雲端與企業資料連線列為應用。海纜設計容量衡量光纖傳輸能力，機房用電或 IT 負載須另看個別設施資料。",
+            "en": "Thailand’s AIS disclosed on November 25 that its board approved a subsidiary investment through a joint venture, citing data centers, cloud services and enterprise connectivity. The cable design measures data transmission capacity. Site power and IT load are separate facility figures."
+          }
+        }
+      ],
+      "metric": "600 Tbps",
+      "metricLabel": {
+        "zh": "全線設計容量",
+        "en": "Full-route design capacity"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "越南政府電子報 · 動土與海纜設計",
+            "en": "Vietnam Government News · Groundbreaking and cable design"
+          },
+          "url": "https://baochinhphu.vn/viettel-cung-cac-doi-tac-khoi-cong-tuyen-cap-quang-bien-quoc-te-dau-tien-do-viet-nam-lam-chu-102261126151641843.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "泰國 AIS · 交易所投資公告",
+            "en": "Thailand AIS · Exchange filing on the investment"
+          },
+          "url": "https://market.sec.or.th/public/idisc/Download?FILEID=dat%2Fnews%2F202611%2F0268NWS251120261700019860E.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "人民報 · 動土會場與登陸站",
+            "en": "Nhân Dân · Venue and landing station"
+          },
+          "url": "https://nhandan.vn/khoi-cong-tuyen-cap-quang-bien-quoc-te-viet-nam-thai-lan-singapore-post1005530.html",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "路透 · 專案路線及進度",
+            "en": "Reuters · Route and construction milestone"
+          },
+          "url": "https://www.reuters.com/markets/emerging/viettel-singtel-start-building-submarine-cable-linking-vietnam-singapore-2026-11-26/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "動土會場與越南登陸站位於越南胡志明市 Hồ Tràm 社，專案跨越越南、泰國及新加坡。",
+        "en": "Groundbreaking and Vietnamese landing station: Hồ Tràm commune, Ho Chi Minh City, Vietnam. The project spans Vietnam, Thailand and Singapore."
+      },
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "越南；泰國；新加坡",
+          "en": "Vietnam, Thailand and Singapore"
+        },
+        "industries": {
+          "zh": "光纖零組件；資料中心；投資",
+          "en": "Fiber-optic components, data centers and investment"
+        },
+        "chain": {
+          "zh": "海底光纖設備與國際連線至資料中心",
+          "en": "Subsea fiber equipment and international links to data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "AIS 董事會核准子公司投資合資平台，公告未列出資額。",
+            "en": "AIS approved a subsidiary investment through a joint venture and did not disclose the amount."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "越南政府指出，越南至新加坡主段約 1,200 公里，設計容量 240 Tbps，施工承包商為 NEC 與 ASEAN Cableship。其他參與者包括泰國 AIS、越南 VNPT、FPT Telecom 與 Viettel IDC。",
+            "en": "The Vietnamese government put the Vietnam to Singapore segment at about 1,200 km and 240 Tbps, with NEC and ASEAN Cableship as contractors. Other partners include Thailand’s AIS and Vietnam’s VNPT, FPT Telecom and Viettel IDC."
+          },
+          "timing": {
+            "zh": "AIS 公告於 11 月 25 日發布，海纜 11 月 26 日舉行動土。",
+            "en": "AIS filed its notice November 25, and the cable groundbreaking followed November 26."
+          },
+          "unknowns": {
+            "zh": "公開資料未完整列出全案資金、各合作方可使用的容量或個別資料中心的接通計畫。",
+            "en": "The disclosures did not give a complete budget, capacity allocations for each partner or connections for individual data centers."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "全線設計容量",
+            "en": "Full-route design capacity"
+          },
+          "current": 600,
+          "unit": "Tbps",
+          "period": {
+            "zh": "2026 年 11 月 26 日公布的設計",
+            "en": "Design disclosed November 26, 2026"
+          },
+          "owner": {
+            "zh": "越南政府電子報",
+            "en": "Vietnam Government News"
+          },
+          "sourceUrl": "https://baochinhphu.vn/viettel-cung-cac-doi-tac-khoi-cong-tuyen-cap-quang-bien-quoc-te-dau-tien-do-viet-nam-lam-chu-102261126151641843.htm",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "越南至新加坡段容量",
+            "en": "Vietnam to Singapore segment capacity"
+          },
+          "current": 240,
+          "unit": "Tbps",
+          "period": {
+            "zh": "2026 年 11 月 26 日公布的設計",
+            "en": "Design disclosed November 26, 2026"
+          },
+          "owner": {
+            "zh": "越南政府電子報",
+            "en": "Vietnam Government News"
+          },
+          "sourceUrl": "https://baochinhphu.vn/viettel-cung-cac-doi-tac-khoi-cong-tuyen-cap-quang-bien-quoc-te-dau-tien-do-viet-nam-lam-chu-102261126151641843.htm",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "全線長度（約）",
+            "en": "Approximate full-route length"
+          },
+          "current": 2500,
+          "unit": "公里",
+          "period": {
+            "zh": "2026 年 11 月 26 日公布的設計",
+            "en": "Design disclosed November 26, 2026"
+          },
+          "owner": {
+            "zh": "越南政府電子報",
+            "en": "Vietnam Government News"
+          },
+          "sourceUrl": "https://baochinhphu.vn/viettel-cung-cac-doi-tac-khoi-cong-tuyen-cap-quang-bien-quoc-te-dau-tien-do-viet-nam-lam-chu-102261126151641843.htm",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "越南至新加坡段長度（約）",
+            "en": "Approximate Vietnam to Singapore segment length"
+          },
+          "current": 1200,
+          "unit": "公里",
+          "period": {
+            "zh": "2026 年 11 月 26 日公布的設計",
+            "en": "Design disclosed November 26, 2026"
+          },
+          "owner": {
+            "zh": "越南政府電子報",
+            "en": "Vietnam Government News"
+          },
+          "sourceUrl": "https://baochinhphu.vn/viettel-cung-cac-doi-tac-khoi-cong-tuyen-cap-quang-bien-quoc-te-dau-tien-do-viet-nam-lam-chu-102261126151641843.htm",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對海纜終端設備和機房供電業者而言，可向 Viettel、Singtel 或承包商確認登陸站供電、備援和測試責任。設計頻寬未揭露站點電力需求或電源設備採購時程。",
+        "en": "Cable terminal and data center power suppliers would ask Viettel, Singtel or the contractors about landing-station power, backup and test responsibilities. The bandwidth specification gives no station load or procurement schedule."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "wevo-tuas-electronic-materials-manufacturing-opening-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "德國 Wevo 在新加坡大士啟用電子材料工廠，公布投資逾 1,000 萬歐元",
+        "en": "German materials maker Wevo opens Tuas electronics chemicals plant with investment of over €10 million"
+      },
+      "summary": {
+        "zh": "德國特用化學品廠 Wevo 11 月 25 日在新加坡大士工業區啟用新廠，公布投資逾 1,000 萬歐元，並稱已開始生產電子灌封材料、黏著劑及密封材料。公司列出的應用包括感測器、控制單元、電池管理系統及充電設備。",
+        "en": "German specialty chemicals maker Wevo opened its plant in Singapore’s Tuas industrial area on November 25, citing investment of more than €10 million. It said production had begun for electronics potting compounds, adhesives and sealants used in products including sensors, control units, battery management systems and charging equipment."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "Wevo 公告列有聚氨酯、環氧樹脂及矽膠配方，用於保護電子零組件。廠房已完成實驗室裝設、製程驗證與首批樣品寄送，公司稱接下來將調升產量。",
+            "en": "Wevo lists polyurethane, epoxy and silicone formulations for protecting electronic components. It said it had commissioned labs, verified processes and dispatched initial samples, with a production ramp to follow."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "新加坡經濟發展局支持設廠。Wevo 將長期新增職缺估為最多 50 個，未公布目前人力規模。",
+            "en": "The Singapore Economic Development Board supported the project. Wevo said the plant could create up to 50 jobs over time and did not give current headcount."
+          }
+        }
+      ],
+      "metric": "€10M+",
+      "metricLabel": {
+        "zh": "公司公布場址投資額",
+        "en": "Site investment disclosed by Wevo"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "Wevo 經 JTC 刊載 · 新廠啟用與投產",
+            "en": "Wevo via JTC · Opening and start of production"
+          },
+          "url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/industry-news/speciality-chemicals-manufacturer-wevo-opens-production-site-in-singapore",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Singapore Business Review · 新廠與投資",
+            "en": "Singapore Business Review · Plant and investment"
+          },
+          "url": "https://sbr.com.sg/news/wevo-invests-141m-in-singapore-plant-speed-asia-pacific-deliveries",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址與啟用會場為新加坡大士工業區 Wevo 廠。",
+        "en": "Project and opening site: Wevo facility in the Tuas industrial area, Singapore."
+      },
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "新加坡；德國",
+          "en": "Singapore and Germany"
+        },
+        "industries": {
+          "zh": "電子材料；零組件；工廠；外資",
+          "en": "Electronic materials, components, factories and foreign investment"
+        },
+        "chain": {
+          "zh": "特用材料工廠至控制與電源零組件",
+          "en": "Specialty materials manufacturing to control and power components"
+        },
+        "changes": {
+          "investment": {
+            "zh": "Wevo 公布場址投資超過 1,000 萬歐元。",
+            "en": "Wevo disclosed investment of more than €10 million in the site."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "德國 Wevo 在新加坡大士開始生產。",
+            "en": "Germany’s Wevo began production in Tuas, Singapore."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "Wevo 公告列有聚氨酯、環氧樹脂及矽膠配方，用於保護電子零組件。廠房已完成實驗室裝設、製程驗證與首批樣品寄送，公司稱接下來將調升產量。",
+            "en": "Wevo lists polyurethane, epoxy and silicone formulations for protecting electronic components. It said it had commissioned labs, verified processes and dispatched initial samples, with a production ramp to follow."
+          },
+          "timing": {
+            "zh": "11 月 25 日啟用，JTC 於 11 月 26 日刊載 Wevo 新聞稿。",
+            "en": "The site opened November 25. JTC published Wevo’s release on November 26."
+          },
+          "unknowns": {
+            "zh": "首批樣品的客戶、產品別產能和通過客戶驗證的配方未公開。",
+            "en": "The company did not disclose recipients of initial samples, capacity by product or customer-qualified formulations."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "長期新增職缺上限",
+            "en": "Long-term ceiling for jobs created"
+          },
+          "current": 50,
+          "unit": "個職缺",
+          "period": {
+            "zh": "2026 年 11 月啟用後長期規劃",
+            "en": "Long-term plan at November 2026 opening"
+          },
+          "owner": {
+            "zh": "Wevo",
+            "en": "Wevo"
+          },
+          "sourceUrl": "https://www.jtc.gov.sg/about-jtc/news-and-stories/industry-news/speciality-chemicals-manufacturer-wevo-opens-production-site-in-singapore",
+          "kind": "公司目標",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對電源模組與量測設備製造商而言，可向 Wevo 核對本地製造灌封材料的熱傳、絕緣與相容性驗證。公司已寄出樣品，尚未公布進入量產供貨的配方或客戶。",
+        "en": "Power module and instrument makers would ask Wevo for thermal, insulation and compatibility data on local potting compounds. Early samples have shipped, but the qualified formulations and customers entering volume supply are undisclosed."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "advantech-sps-nuremberg-edge-inspection-automation-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "研華在德國 SPS 說明半導體邊緣檢測與軟體定義控制方案",
+        "en": "Advantech presents edge inspection and software-defined control at SPS in Germany"
+      },
+      "summary": {
+        "zh": "台灣研華 11 月 25 日在德國紐倫堡 SPS 國際自動化展期間，公布用於半導體等高資料量場景的 GPU 加速資料擷取與分析方案。研華也說明把工業人機介面與 Bosch Rexroth 等合作夥伴的控制技術整合。",
+        "en": "Taiwan’s Advantech announced GPU-accelerated data acquisition and analytics for data-intensive inspection, including semiconductor manufacturing, at SPS in Nuremberg on November 25. It also described integrating industrial operator interfaces with control technologies from partners including Bosch Rexroth."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "研華表示，自動化方案結合即時控制、工業通訊、人機介面及邊緣運算。公司列出的展出內容也涵蓋 NVIDIA 技術上的機器人運算、感知與軟體控制。",
+            "en": "Advantech said its automation platform combines real-time control, industrial communications, operator interfaces and edge computing. It also listed robotics computing, perception and software control based on NVIDIA technologies."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "主辦方 Mesago 公告展期為 11 月 24 日至 26 日。研華公布展位在第 7 館 380 號。",
+            "en": "Organizer Mesago lists November 24 to 26 as the show dates. Advantech identified its stand as Hall 7, Booth 380."
+          }
+        }
+      ],
+      "metric": "SPS",
+      "metricLabel": {
+        "zh": "工業自動化展",
+        "en": "Industrial automation show"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "研華 · SPS 展出方案",
+            "en": "Advantech · SPS exhibits"
+          },
+          "url": "https://www.advantech.com/en-us/resources/news/advantech-accelerates-smart-manufacturing-transformation-with-industrial-edge-ai-and-software-defined-automation-at-sps-2026",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "Mesago · SPS 展期與會場",
+            "en": "Mesago · SPS dates and venue"
+          },
+          "url": "https://sps.mesago.com/nuernberg/en/expo.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 研華參展與方案",
+            "en": "CNA · Advantech at SPS"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611250035.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "展覽會場為德國紐倫堡展覽中心，研華位於第 7 館 380 號。",
+        "en": "Exhibition venue: Nuremberg Exhibition Center, Germany. Advantech exhibits in Hall 7, Booth 380."
+      },
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "台灣；德國",
+          "en": "Taiwan and Germany"
+        },
+        "industries": {
+          "zh": "半導體設備；檢測；自動化；工廠",
+          "en": "Semiconductor equipment, inspection, automation and factories"
+        },
+        "chain": {
+          "zh": "邊緣檢測設備與控制零組件至工廠自動化",
+          "en": "Edge inspection equipment and controls through factory automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "研華表示，自動化方案結合即時控制、工業通訊、人機介面及邊緣運算。公司列出的展出內容也涵蓋 NVIDIA 技術上的機器人運算、感知與軟體控制。",
+            "en": "Advantech said its automation platform combines real-time control, industrial communications, operator interfaces and edge computing. It also listed robotics computing, perception and software control based on NVIDIA technologies."
+          },
+          "timing": {
+            "zh": "展覽 11 月 24 日開幕，研華及中央社於 11 月 25 日公布或報導展出重點。",
+            "en": "The show opened November 24. Advantech and CNA published details on November 25."
+          },
+          "unknowns": {
+            "zh": "研華未公布展示方案的量產採用客戶、檢測速度、驗收數據或訂單。",
+            "en": "The announcement gave no production customers, inspection throughput, acceptance results or orders for the systems on display."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對工業電源與量測業者而言，可向研華或系統整合商確認 GPU 檢測平台的電源配置、資料擷取介面和設備驗收條件。展示資料尚未揭露量產導入或現場效能。",
+        "en": "Industrial power and measurement suppliers would ask Advantech or integrators about power, acquisition interfaces and acceptance requirements for GPU inspection systems. The exhibit disclosures give no production-adoption or site-performance data."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "singtel-govtech-one-comcentre-open-digital-platform-mou-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "Singtel 與新加坡 GovTech 簽署備忘錄，擬在 One Comcentre 部署樓宇控制平台",
+        "en": "Singtel and GovTech sign MOU for a building automation platform at One Comcentre"
+      },
+      "summary": {
+        "zh": "新加坡 Singtel 與政府科技局 11 月 26 日簽署合作備忘錄，規劃在烏節路區的 One Comcentre 導入開放數位平台。雙方將以共用介面連接樓宇系統、感測器及機器人，並列出設施維護與能源管理為探索用途。",
+        "en": "Singtel and GovTech Singapore signed a memorandum on November 26 to deploy an Open Digital Platform at the One Comcentre development in the Orchard Road district. They plan shared interfaces for building controls, sensors and robots, with facilities maintenance and energy management among the uses to explore."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "開放數位平台由 GovTech 與 JTC 共同開發。GovTech 公告稱，Singtel 計畫加入 5G+ 網路切片，使各應用可依延遲和連線品質需求使用不同網路配置。",
+            "en": "GovTech and JTC co-developed the platform. GovTech said Singtel plans to add 5G+ network slicing so applications can use different connectivity settings according to latency and service requirements."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "One Comcentre 預計 2028 年底完工。公告列入主動維護及配送、清潔等自動化服務，這些應用仍屬雙方規劃。",
+            "en": "One Comcentre is scheduled for completion by the end of 2028. Proactive maintenance, automated delivery and cleaning are among the functions the partners plan to explore."
+          }
+        }
+      ],
+      "metric": "MOU",
+      "metricLabel": {
+        "zh": "合作備忘錄",
+        "en": "Memorandum of understanding"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "新加坡政府科技局 · 備忘錄與部署內容",
+            "en": "GovTech Singapore · MOU and deployment plans"
+          },
+          "url": "https://www.tech.gov.sg/media/singtel-and-govtech-singapore-partner-to-advance-ai-enabled-smart-buildings-with-the-open-digital-platform/",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "JTC · 平台與樓宇合作",
+            "en": "JTC · Building platform partnership"
+          },
+          "url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/industry-news/singtel-and-govtech-singapore-odp",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "計畫部署場址為新加坡烏節路區 One Comcentre。公告未列實體簽署會場。",
+        "en": "Planned deployment site: One Comcentre, Orchard Road district, Singapore. The announcement did not name the signing venue."
+      },
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "新加坡",
+          "en": "Singapore"
+        },
+        "industries": {
+          "zh": "終端；自動化；感測零組件；電力管理",
+          "en": "End-use systems, automation, sensors and energy management"
+        },
+        "chain": {
+          "zh": "感測零組件與控制設備至終端設施自動化",
+          "en": "Sensors and control equipment through facilities automation"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "開放數位平台由 GovTech 與 JTC 共同開發。GovTech 公告稱，Singtel 計畫加入 5G+ 網路切片，使各應用可依延遲和連線品質需求使用不同網路配置。",
+            "en": "GovTech and JTC co-developed the platform. GovTech said Singtel plans to add 5G+ network slicing so applications can use different connectivity settings according to latency and service requirements."
+          },
+          "timing": {
+            "zh": "11 月 26 日公布簽署備忘錄，預定部署場域的建物目標於 2028 年底完工。",
+            "en": "The MOU was announced on November 26. The building is scheduled for completion by the end of 2028."
+          },
+          "unknowns": {
+            "zh": "合作公告未公布專案預算、控制設備採購、導入的機器人數量或測試結果。",
+            "en": "The partners did not disclose a budget, control equipment purchases, robot counts or test results."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對感測、控制與量測設備廠而言，可向 Singtel 或平台團隊確認設備介面、電力監測點和系統驗收流程。備忘錄未列設備型號或採購時程，部署規模仍待確認。",
+        "en": "Sensor, controls and instrument suppliers would ask Singtel or the platform team about device interfaces, power metering points and system acceptance. The MOU gives no device models or procurement schedule, leaving rollout scale open."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "提案中的 15% 如何與既有稅率及豁免一起讀？",
+        "en": "How does the 15% proposal relate to existing rates and exemptions?"
+      },
+      "text": {
+        "zh": "美方擬議台灣稅率最高 15%，並從擬議稅率扣除適用的最惠國及 301 稅率，特定品項擬豁免。草案另外列了條件不同的 25% 替代方案。",
+        "en": "The stated 15% Taiwan ceiling is net of most-favored-nation and existing Section 301 rates, with proposed product exemptions. The draft also presents a conditional 25% alternative."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "新加坡 6.1% 與 7.1% 各在比較什麼？",
+        "en": "What do Singapore’s 6.1% and 7.1% measure?"
+      },
+      "text": {
+        "zh": "6.1% 是 10 月相對去年同月，7.1% 是本月與上月的季節調整後增幅。兩者都是產出統計，觀察期間不同。",
+        "en": "The 6.1% compares October with the same month a year earlier. The 7.1% compares it with September after seasonal adjustment."
+      }
+    },
+    {
+      "id": 5,
+      "question": {
+        "zh": "VTS 的 600 Tbps 與 240 Tbps 涵蓋哪些範圍？",
+        "en": "What do the 600 Tbps and 240 Tbps VTS figures cover?"
+      },
+      "text": {
+        "zh": "600 Tbps 是連接越南、泰國與新加坡的全線設計容量。240 Tbps 是越南至新加坡段的設計容量。",
+        "en": "The 600 Tbps covers the full three-country system. The 240 Tbps applies to the Vietnam to Singapore segment."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "備忘",
+      "en": "Notes"
+    },
+    "items": []
+  },
+  "lower": [],
+  "verificationNote": {
+    "zh": "301 稅率與豁免仍屬提案。輝達出貨限制只見媒體引述，川寶的實際開線日、客戶驗收與量產量也未公開。",
+    "en": "The Section 301 rates and exemptions remain proposals. The reported Nvidia shipment pause is source-limited. Chime-Ball has not disclosed its exact startup date, customer acceptance or volume production."
+  }
+}
