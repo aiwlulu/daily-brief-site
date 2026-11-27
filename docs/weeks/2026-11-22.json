@@ -1,93 +1,21 @@
 {
   "weekStart": "2026-11-22",
-  "generatedAt": "2026-11-26T10:19:21.614Z",
+  "generatedAt": "2026-11-27T10:35:23.216Z",
   "throughline": {
-    "zh": "台灣與新加坡公布製造業產出，美方提出關稅並更新出口規則，區內企業則披露伺服器銷售、材料投產與網路建設。",
-    "en": "Taiwan and Singapore reported manufacturing output as the U.S. proposed tariffs and updated export rules. Companies disclosed server sales, materials production and network construction milestones."
+    "zh": "本週涵蓋成熟與先進製程的廠務、載板及測試投資，並記錄台灣與新加坡製造數據、東南亞網路工程及美國貿易措施。",
+    "en": "This week paired manufacturing releases from Taiwan and Singapore with fab, substrate and test updates, network infrastructure developments and U.S. trade measures."
   },
   "highlights": [
     {
       "id": 1,
-      "category": "global",
-      "title": {
-        "zh": "美國關稅與出口規則及東南亞伺服器出貨",
-        "en": "U.S. tariffs, export rules and Southeast Asian server shipments"
-      },
-      "summary": {
-        "zh": "美方公布產能過剩 301 關稅提案，台灣擬最高 15%，並正式刊登東南亞七家實體列名規則。金融時報另引述知情人士稱輝達要求合作廠暫緩向四國交付部分伺服器，業者尚未公開確認範圍或期限。",
-        "en": "The U.S. proposed a Taiwan tariff of up to 15% in its Section 301 case and published a rule adding seven entities in Southeast Asia. Separately, the Financial Times reported an Nvidia request to pause some server deliveries to four markets, with scope and timing unconfirmed by the companies."
-      },
-      "references": [
-        {
-          "date": "2026-11-23",
-          "storyId": 2
-        },
-        {
-          "date": "2026-11-25",
-          "storyId": 3
-        },
-        {
-          "date": "2026-11-26",
-          "storyId": 2
-        },
-        {
-          "date": "2026-11-27",
-          "storyId": 1
-        },
-        {
-          "date": "2026-11-27",
-          "storyId": 3
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "global",
-      "title": {
-        "zh": "新加坡製造產出、半導體設備及材料投產",
-        "en": "Singapore manufacturing, semiconductor tools and materials production"
-      },
-      "summary": {
-        "zh": "新加坡 10 月製造業產出年增 6.1%，精密工程年增 54.1%，半導體設備是機械與系統類別增產來源之一。美光移入首台 HBM 封裝設備、KLA 啟用新廠房，Wevo 則稱大士廠已開始生產電子灌封、黏著及密封材料。",
-        "en": "Singapore’s October manufacturing output rose 6.1% and precision engineering rose 54.1%, with the EDB citing higher semiconductor equipment output. Micron moved in its first HBM packaging tool, KLA opened a new building and Wevo reported starting electronics materials production in Tuas."
-      },
-      "references": [
-        {
-          "date": "2026-11-22",
-          "storyId": 1
-        },
-        {
-          "date": "2026-11-22",
-          "storyId": 2
-        },
-        {
-          "date": "2026-11-24",
-          "storyId": 4
-        },
-        {
-          "date": "2026-11-25",
-          "storyId": 5
-        },
-        {
-          "date": "2026-11-27",
-          "storyId": 2
-        },
-        {
-          "date": "2026-11-27",
-          "storyId": 6
-        }
-      ]
-    },
-    {
-      "id": 3,
       "category": "tech",
       "title": {
-        "zh": "伺服器銷售、封裝製程與工廠自動化",
-        "en": "Server sales, packaging processes and factory automation"
+        "zh": "晶圓廠、封測廠房及載板擴產",
+        "en": "Fab facilities, packaging sites and substrate expansion"
       },
       "summary": {
-        "zh": "戴爾 AI 伺服器單季營收年增 291%，川寶據報啟用桃園玻璃基板產線並取得五家客戶打樣訂單。研華公布半導體邊緣檢測方案，同週也有台大研究晶片、功率模組及光學元件進度。",
-        "en": "Dell’s quarterly AI server revenue rose 291%. Chime-Ball reportedly started a glass substrate line in Taoyuan and received sample orders from five customers. Advantech presented edge inspection, alongside weekly updates on NTU’s research chip, power modules and optical components."
+        "zh": "聯電公告新加坡 P4 三筆交易合計約 367.64 億元。矽品董事會核准 197 億元華亞廠交易，景碩則據報獲通過 601.7 億元高階 ABF 投資計畫。",
+        "en": "UMC disclosed three Singapore P4 transactions totaling about NT$36.76 billion. SPIL’s board approved a NT$19.7 billion facility purchase, and Kinsus reportedly received clearance for a NT$60.17 billion advanced ABF substrate investment."
       },
       "references": [
         {
@@ -133,6 +61,114 @@
         {
           "date": "2026-11-27",
           "storyId": 7
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "global",
+      "title": {
+        "zh": "美國關稅、出口限制及東南亞貿易協商",
+        "en": "U.S. tariffs, export controls and Southeast Asian trade talks"
+      },
+      "summary": {
+        "zh": "美方提出台灣適用最高 15% 的產能過剩 301 關稅，並正式刊登東南亞七家實體列名規則。金融時報報導輝達出貨暫緩，CPTPP 則成立印尼與菲律賓入會工作小組。",
+        "en": "The U.S. proposed a Section 301 tariff of up to 15% for Taiwan and published a rule adding seven Southeast Asian entities. The Financial Times reported a shipment pause, while CPTPP members set up accession working groups for Indonesia and the Philippines."
+      },
+      "references": [
+        {
+          "date": "2026-11-23",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-26",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-27",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-27",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 9
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "taiwan",
+      "title": {
+        "zh": "台灣與新加坡製造產出及設備需求",
+        "en": "Taiwan and Singapore manufacturing output and equipment demand"
+      },
+      "summary": {
+        "zh": "台灣第三季實質 GDP 初步統計年增 14.39%，半導體設備進口額年增 36.04%。台灣 10 月製造業生產年增 31.63%，新加坡同期製造業產出年增 6.1%，兩地各依本地統計口徑。",
+        "en": "Taiwan’s preliminary Q3 real GDP rose 14.39% and semiconductor equipment import values rose 36.04% in local currency. Taiwan’s October manufacturing output grew 31.63%, and Singapore reported 6.1% growth under its own measure."
+      },
+      "references": [
+        {
+          "date": "2026-11-22",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-22",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-24",
+          "storyId": 4
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 1
+        },
+        {
+          "date": "2026-11-25",
+          "storyId": 5
+        },
+        {
+          "date": "2026-11-26",
+          "storyId": 3
+        },
+        {
+          "date": "2026-11-27",
+          "storyId": 2
+        },
+        {
+          "date": "2026-11-27",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 4
         }
       ]
     },
@@ -140,12 +176,12 @@
       "id": 4,
       "category": "global",
       "title": {
-        "zh": "東南亞資料中心、海纜與設施控制",
-        "en": "Southeast Asian data centers, subsea cable and facilities controls"
+        "zh": "東南亞資料中心、海纜與場址設施",
+        "en": "Southeast Asian data centers, subsea cable and site infrastructure"
       },
       "summary": {
-        "zh": "Viettel 與 Singtel 主導的越泰新海纜動工，設計容量為 600 Tbps。馬來西亞有甘孟動工與波德申機械工程分包進展，Singtel 則與 GovTech 簽署樓宇自動化平台備忘錄。",
-        "en": "The Viettel and Singtel-led cable linking Vietnam, Thailand and Singapore broke ground with 600 Tbps in design capacity. Malaysia reported construction in Gambang and a Port Dickson subcontract, while Singtel signed a building automation agreement with GovTech."
+        "zh": "越泰新海纜動土，設計容量為 600 Tbps。馬來西亞甘孟和波德申案各有動工及機械分包進度，當地另說明機房選址的供水審查。",
+        "en": "The Vietnam, Thailand and Singapore cable broke ground with 600 Tbps of design capacity. Malaysia had construction and mechanical contracting milestones in Gambang and Port Dickson, alongside water checks for data center siting."
       },
       "references": [
         {
@@ -180,14 +216,14 @@
     },
     {
       "id": 5,
-      "category": "taiwan",
+      "category": "global",
       "title": {
-        "zh": "台灣工業產出與電力計畫、越南工廠投資",
-        "en": "Taiwan factory output and power projects, and Vietnam plant investment"
+        "zh": "越南與印尼半導體政策及區域工廠投資",
+        "en": "Vietnamese and Indonesian semiconductor policy and regional factory investment"
       },
       "summary": {
-        "zh": "台灣 10 月製造業生產年增 31.63%，台經院景氣測驗點降至 98.94，台電另提出大南科輸變電計畫。越南海防稀土材料廠動土，峴港據報核發儲能與電池測試設備廠投資登記證。",
-        "en": "Taiwan’s October manufacturing output rose 31.63%, TIER’s sentiment index fell to 98.94, and Taipower outlined the Greater Tainan grid plan. A rare earth materials plant broke ground in Hai Phong and Da Nang reportedly issued an investment certificate for a storage and battery test factory."
+        "zh": "越南把晶片設計、先進封測與研發資料中心列為 2030 年前的引資重點，並公布海防稀土廠動工。印尼與 OECD 盤點巴淡、西爪哇既有封測布局，台灣則更新電力與減碳政策。",
+        "en": "Vietnam named chip design, advanced packaging and research data centers as investment priorities and reported a rare earth plant groundbreaking in Hai Phong. Indonesia and the OECD reviewed the back-end ecosystem in Batam and West Java, and Taiwan updated power and emissions measures."
       },
       "references": [
         {
@@ -224,19 +260,11 @@
         },
         {
           "date": "2026-11-25",
-          "storyId": 1
-        },
-        {
-          "date": "2026-11-25",
           "storyId": 2
         },
         {
           "date": "2026-11-25",
           "storyId": 8
-        },
-        {
-          "date": "2026-11-26",
-          "storyId": 3
         },
         {
           "date": "2026-11-26",
@@ -248,6 +276,14 @@
         },
         {
           "date": "2026-11-26",
+          "storyId": 8
+        },
+        {
+          "date": "2026-11-28",
+          "storyId": 6
+        },
+        {
+          "date": "2026-11-28",
           "storyId": 8
         }
       ]

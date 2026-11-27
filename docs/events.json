@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "events": [
     {
       "id": "ocp-global-2026",
@@ -857,6 +857,32 @@
           "en": "Mesago · Official SPS exhibition details"
         },
         "url": "https://sps.mesago.com/nuernberg/en/expo.html"
+      }
+    },
+    {
+      "id": "oecd-indonesia-semiconductor-ecosystem-launch-2026",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "type": "semiconductor",
+      "region": "sea",
+      "name": {
+        "zh": "印尼與 OECD 半導體產業報告發表會",
+        "en": "Indonesia and OECD Semiconductor Ecosystem Report Launch"
+      },
+      "place": {
+        "zh": "印尼雅加達中央區，經濟事務統籌部",
+        "en": "Coordinating Ministry for Economic Affairs, Central Jakarta, Indonesia"
+      },
+      "focus": {
+        "zh": "印尼半導體封測、外資、人才及工廠公用設施。",
+        "en": "Indonesia’s semiconductor assembly and test, foreign investment, workforce and factory utilities."
+      },
+      "source": {
+        "name": {
+          "zh": "OECD · 官方發表會日期及會場",
+          "en": "OECD · Official launch date and venue"
+        },
+        "url": "https://www.oecd.org/en/about/news/media-advisories/2026/11/oecd-economic-survey-of-indonesia-2026-thursday-26-november.html"
       }
     }
   ]

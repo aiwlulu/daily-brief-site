@@ -1,0 +1,1940 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-27T10:35:23.216Z",
+  "coverage": {
+    "focus": {
+      "zh": "台灣與東南亞：廠務工程、封裝測試及投資政策",
+      "en": "Taiwan and Southeast Asia: facilities, packaging and test, and investment policy"
+    },
+    "approach": "facts-first"
+  },
+  "throughline": {
+    "zh": "聯電公告新加坡廠務採購，景碩和矽品更新台灣載板與封測廠房進度，越南則列出 2030 年前的半導體引資項目。",
+    "en": "UMC disclosed facilities purchases in Singapore, Kinsus and SPIL updated Taiwan substrate and packaging projects, and Vietnam listed semiconductor investment priorities through 2030."
+  },
+  "brief": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "聯電公告新加坡 P4 廠務設備與工程三筆交易，原值合計約 367.64 億元，用於第 4 期無塵室。",
+        "en": "UMC disclosed three Singapore P4 facilities and construction transactions totaling about NT$36.76 billion for phase-four cleanroom work."
+      }
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "中央社引述經濟部，景碩高階 ABF 載板擴產案獲通過，規劃投資 601.7 億元，未公布新增產能。",
+        "en": "CNA quoted MOEA as saying Kinsus received clearance for a NT$60.17 billion advanced ABF substrate plan. Additional capacity was not specified."
+      }
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "矽品董事會通過以 197 億元未稅取得友達桃園華亞廠，尚未公告廠區設備配置與投產時間。",
+        "en": "SPIL’s board approved the NT$19.7 billion acquisition of AUO’s Hwaya facility before tax. Tool configurations and production timing are pending."
+      }
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "台灣第三季實質 GDP 初步統計年增 14.39%，半導體設備進口額按新台幣計年增 36.04%。",
+        "en": "Taiwan’s preliminary Q3 real GDP rose 14.39% year over year. Semiconductor equipment import values in New Taiwan dollars rose 36.04%."
+      }
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "越南核定 2030 年前半導體及電子國際合作計畫，將晶片設計、先進封測與研發用資料中心列為引資重點。",
+        "en": "Vietnam approved a semiconductor and electronics cooperation plan through 2030 targeting foreign investment in chip design, advanced packaging and testing, and research data centers."
+      }
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "topic": "umc-singapore-p4-cleanroom-lk-procurement-2026",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "聯電公告新加坡 P4 廠務及工程交易，三筆合計約 367.64 億元",
+        "en": "UMC discloses NT$36.76 billion in three Singapore P4 engineering and facilities transactions"
+      },
+      "summary": {
+        "zh": "聯電 11 月 27 日公告新加坡 P4 廠區相關工程與廠務設備共三筆交易，按公司公告金額合計約新台幣 367.64 億元。聯電對中央社表示，工程主要用於建置第 4 期廠區無塵室，以擴充矽光子產能。",
+        "en": "UMC disclosed three engineering and facilities transactions for its Singapore P4 site on November 27. The exact disclosures total about NT$36.76 billion. UMC told CNA that the work primarily builds phase-four cleanroom space to expand silicon photonics capacity."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "聯電董事會已於 7 月 29 日通過擴建新加坡 P4 無塵室。聯電同日表示，7 月已交付首批 12 吋矽光子量產晶圓，並規劃 2027 年推出供更多客戶導入的平台。",
+            "en": "UMC’s board approved expansion of Singapore P4 cleanroom capacity on July 29. UMC said that day that it had delivered its first volume-production 12-inch silicon photonics wafers in July and planned to open the platform to more customers in 2027."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "按公告原值，聯電向 L&K Engineering 取得廠務設備約 183.76 億元，向 LIMK Engineering 取得另一批設備約 170.16 億元，另與 L&K 簽約委建廠房約 13.72 億元。中央社報導合計約 367.62 億元，按三筆公告原值加總為 367.64 億元。",
+            "en": "The disclosures list about NT$18.38 billion in facilities equipment from L&K Engineering, NT$17.02 billion from LIMK Engineering and NT$1.37 billion in construction with L&K. CNA reported NT$36.762 billion, compared with NT$36.764 billion when the three disclosed amounts are summed before rounding."
+          }
+        }
+      ],
+      "metric": "NT$36.76B",
+      "metricLabel": {
+        "zh": "三筆公告交易合計（約）",
+        "en": "Total of the three disclosed transactions (approximate)"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "聯電經玉山證券刊載 · L&K 廠務設備公告",
+            "en": "UMC via E.Sun Securities · L&K facilities equipment disclosure"
+          },
+          "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B93EE9BF5-E718-4BB5-88AF-82C0DF49BD6F%7D",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "聯電經 MoneyDJ 刊載 · LIMK 廠務設備公告",
+            "en": "UMC via MoneyDJ · LIMK facilities equipment disclosure"
+          },
+          "url": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_00A9549B-2E1E-4B1C-A6F9-630C1F178495.djhtm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "聯電經 MoneyDJ 刊載 · L&K 委建公告",
+            "en": "UMC via MoneyDJ · L&K construction disclosure"
+          },
+          "url": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_7A691309-BB3C-4B8B-A46A-46F6A30692E8.djhtm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "聯電 · 7 月董事會擴建及矽光子交付",
+            "en": "UMC · July expansion approval and silicon photonics shipments"
+          },
+          "url": "https://www.umc.com/zh-TW/News/press_release/Content/investor/20260729",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "聯電 · 新加坡晶圓廠所在地",
+            "en": "UMC · Singapore fab location"
+          },
+          "url": "https://www.umc.com/zh-CN/StaticPage/about_overview",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · P4 用途及工程時間",
+            "en": "CNA · P4 project scope and timeframe"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611270192.aspx",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址為新加坡巴西立晶圓園區聯電第 4 期廠區 P4。",
+        "en": "Project site: UMC’s phase-four P4 campus, Pasir Ris Wafer Fab Park, Singapore."
+      },
+      "market": {
+        "eventDate": "2026-11-27",
+        "countries": {
+          "zh": "台灣；新加坡",
+          "en": "Taiwan and Singapore"
+        },
+        "industries": {
+          "zh": "晶圓代工；廠務設備；矽光子；投資",
+          "en": "Foundries, facilities equipment, silicon photonics and investment"
+        },
+        "chain": {
+          "zh": "無塵室及廠務設備至晶圓代工",
+          "en": "Cleanrooms and facilities equipment through wafer foundry operations"
+        },
+        "changes": {
+          "investment": {
+            "zh": "三筆公告金額合計約 367.64 億元。",
+            "en": "The three disclosed amounts total about NT$36.76 billion."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "聯電董事會已於 7 月 29 日通過擴建新加坡 P4 無塵室。聯電同日表示，7 月已交付首批 12 吋矽光子量產晶圓，並規劃 2027 年推出供更多客戶導入的平台。",
+            "en": "UMC’s board approved expansion of Singapore P4 cleanroom capacity on July 29. UMC said that day that it had delivered its first volume-production 12-inch silicon photonics wafers in July and planned to open the platform to more customers in 2027."
+          },
+          "timing": {
+            "zh": "11 月 27 日公告三筆交易；無塵室擴建計畫於 7 月 29 日公布。",
+            "en": "The transactions were disclosed November 27. The cleanroom expansion was announced July 29."
+          },
+          "unknowns": {
+            "zh": "聯電向中央社估計工程約需一年多，尚未公布新無塵室驗收日、設備分項或矽光子月產能。",
+            "en": "UMC told CNA the work could take a little over a year. Cleanroom acceptance, the equipment breakdown and monthly silicon photonics capacity are undisclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "L&K 廠務設備",
+            "en": "L&K facilities equipment"
+          },
+          "current": 18.375814918,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "聯華電子",
+            "en": "United Microelectronics Corporation"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B93EE9BF5-E718-4BB5-88AF-82C0DF49BD6F%7D",
+          "kind": "公司實績，公告交易金額",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "LIMK 廠務設備",
+            "en": "LIMK facilities equipment"
+          },
+          "current": 17.016137264,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "聯華電子",
+            "en": "United Microelectronics Corporation"
+          },
+          "sourceUrl": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_00A9549B-2E1E-4B1C-A6F9-630C1F178495.djhtm",
+          "kind": "公司實績，公告交易金額",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "L&K 租地委建工程",
+            "en": "L&K construction on leased land"
+          },
+          "current": 1.37167128,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "聯華電子",
+            "en": "United Microelectronics Corporation"
+          },
+          "sourceUrl": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_7A691309-BB3C-4B8B-A46A-46F6A30692E8.djhtm",
+          "kind": "公司實績，公告交易金額",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對晶圓廠供電及製程電源業者而言，可向聯電與兩家承包商確認廠務配電、設備進駐與分期驗收的責任。公告只列交易類別和金額，尚無法確認機台電源規格或採購批次。",
+        "en": "Fab power and process power suppliers would ask UMC and its contractors about electrical distribution, tool move-in and responsibility for acceptance by phase. The disclosures give transaction types and amounts but no tool power specifications or purchase batches."
+      }
+    },
+    {
+      "id": 2,
+      "topic": "kinsus-taiwan-abf-substrate-investment-approval-2026-11",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "投資台灣事務所通過景碩擴充高階 ABF 載板案，規劃投資 601.7 億元",
+        "en": "InvesTaiwan clears Kinsus plan to invest NT$60.17 billion in advanced ABF substrates"
+      },
+      "summary": {
+        "zh": "中央社 11 月 27 日引述經濟部新聞稿報導，投資台灣事務所通過景碩科技約新台幣 601.7 億元的高階 ABF 載板擴產案。計畫擴建北部廠區、添購設備，預估新增 1,074 個本國職缺。",
+        "en": "CNA reported on November 27, citing Taiwan’s economic ministry, that InvesTaiwan cleared Kinsus Technology’s roughly NT$60.17 billion advanced ABF substrate plan. It includes expansion and equipment at a northern Taiwan site and an estimated 1,074 domestic jobs."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "ABF 載板用於高階晶片封裝。中央社引述經濟部稱，景碩規劃在新產線導入數位製程監控與品質管理，並搭配節能措施。",
+            "en": "ABF substrates are used in advanced chip packaging. CNA cited the ministry as saying Kinsus plans digital process monitoring and quality management on the new lines, along with energy efficiency measures."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "同批三案總額約 611 億元。另外，品睿精密規劃約 6.9 億元擴充彰化花壇三座工廠，涵蓋先進封測設備零件、高階治具及純銅積層製造。",
+            "en": "The three approvals in the batch total about NT$61.1 billion. Pin Rui Precision separately plans about NT$690 million to expand three plants in Huatan, Changhua, for uses including packaging and test equipment parts, fixtures and additive manufacturing in pure copper."
+          }
+        }
+      ],
+      "metric": "NT$60.17B",
+      "metricLabel": {
+        "zh": "景碩擴產規劃投資",
+        "en": "Kinsus planned expansion investment"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "中央社 · 引述經濟部擴大投資審查結果",
+            "en": "CNA · InvesTaiwan review results attributed to MOEA"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611270204.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "太報 · 投資審查與廠區用途",
+            "en": "TaiSounds · Investment approval and factory plans"
+          },
+          "url": "https://www.taisounds.com/news/content/76/312250",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "景碩專案場址位於台灣北部廠區，公開資訊未指明城市及廠名。品睿精密擴產場址位於台灣彰化縣花壇鄉。",
+        "en": "Kinsus project site: northern Taiwan. The announcement did not identify a city or plant. Pin Rui Precision expansion site: Huatan, Changhua County, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "載板；封裝；測試；設備；投資",
+          "en": "Substrates, packaging, test, equipment and investment"
+        },
+        "chain": {
+          "zh": "設備與治具至 ABF 載板及先進封裝測試",
+          "en": "Equipment and fixtures through ABF substrates, advanced packaging and test"
+        },
+        "changes": {
+          "investment": {
+            "zh": "景碩規劃投資約 601.7 億元，品睿精密另規劃約 6.9 億元。",
+            "en": "Kinsus plans about NT$60.17 billion. Pin Rui Precision plans about NT$690 million."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "ABF 載板用於高階晶片封裝。中央社引述經濟部稱，景碩規劃在新產線導入數位製程監控與品質管理，並搭配節能措施。",
+            "en": "ABF substrates are used in advanced chip packaging. CNA cited the ministry as saying Kinsus plans digital process monitoring and quality management on the new lines, along with energy efficiency measures."
+          },
+          "timing": {
+            "zh": "投資台灣事務所於 11 月 27 日通過本批擴大投資案。",
+            "en": "InvesTaiwan cleared the expansion proposals on November 27."
+          },
+          "unknowns": {
+            "zh": "經濟部對媒體揭露的資訊未列景碩擴建廠名、產能增量、設備交付日及量產時程。",
+            "en": "The information reported from the ministry did not specify the Kinsus plant, additional capacity, equipment delivery dates or volume production schedule."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "景碩擴產規劃",
+            "en": "Kinsus planned investment"
+          },
+          "current": 60.17,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司，由中央社報導",
+            "en": "MOEA Department of Investment Promotion, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611270204.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "品睿精密擴產規劃",
+            "en": "Pin Rui Precision planned investment"
+          },
+          "current": 0.69,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司，由中央社報導",
+            "en": "MOEA Department of Investment Promotion, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611270204.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "同批三案投資合計（約）",
+            "en": "Approximate investment across three approvals"
+          },
+          "current": 61.1,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司，由中央社報導",
+            "en": "MOEA Department of Investment Promotion, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611270204.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "景碩預計新增本國職缺",
+            "en": "Kinsus planned domestic jobs"
+          },
+          "current": 1074,
+          "unit": "個職缺",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司，由中央社報導",
+            "en": "MOEA Department of Investment Promotion, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611270204.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "品睿精密預計新增本國職缺",
+            "en": "Pin Rui planned domestic jobs"
+          },
+          "current": 69,
+          "unit": "個職缺",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "經濟部投資促進司，由中央社報導",
+            "en": "MOEA Department of Investment Promotion, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611270204.aspx",
+          "kind": "規劃估算",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對載板製程電源與檢測設備業者而言，可向景碩核對北部廠區的設備清單、製程監控及驗收安排。經濟部揭露的是投資計畫，新增產能及機台採購批次仍待確認。",
+        "en": "Substrate process power and inspection suppliers would ask Kinsus which lines and equipment are covered and how process monitoring and acceptance will be handled. The investment plan does not establish capacity increments or purchase schedules."
+      }
+    },
+    {
+      "id": 3,
+      "topic": "spil-auo-guishan-hwaya-facility-transaction-2026-11",
+      "category": "tech",
+      "pick": true,
+      "depth": "lead",
+      "title": {
+        "zh": "矽品董事會通過以 197 億元取得友達桃園華亞廠",
+        "en": "SPIL board approves NT$19.7 billion acquisition of AUO’s Hwaya facility"
+      },
+      "summary": {
+        "zh": "日月光投控與友達 11 月 27 日公告，矽品董事會通過以未稅新台幣 197 億元，取得友達在桃園龜山的華亞廠土地、建物及附屬廠務設施。買方公告用途為營運所需，未列封裝或測試產線配置。",
+        "en": "ASE Technology Holding and AUO disclosed on November 27 that SPIL’s board approved acquiring AUO’s Hwaya land, buildings and facilities in Guishan, Taoyuan, for NT$19.7 billion before tax. The buyer cited operational use and did not specify packaging or test lines."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "矽品是日月光投控旗下封裝測試公司。本案所涉土地面積為 65,260.09 平方公尺，建物面積為 162,826.12 平方公尺，另包含一批廠務附屬設備。",
+            "en": "SPIL is an ASE Technology Holding packaging and testing subsidiary. The transaction covers 65,260.09 square meters of land, 162,826.12 square meters of buildings and related facility equipment."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "友達預計處分利益約 104 億元，已扣除相關交易費用及預估稅費。自由時報報導，友達原擬出售給廣達，前案於 10 月底終止。",
+            "en": "AUO expects a disposal gain of about NT$10.4 billion after transaction costs and estimated taxes. Liberty Times reported that AUO terminated the prior proposed sale to Quanta in late October."
+          }
+        }
+      ],
+      "metric": "NT$19.7B",
+      "metricLabel": {
+        "zh": "廠房交易金額（未稅）",
+        "en": "Facilities transaction amount, before tax"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "友達經玉山證券刊載 · 處分公告",
+            "en": "AUO via E.Sun Securities · Disposal disclosure"
+          },
+          "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7BEBB011E8-FB16-4D1E-AA6A-465C7C0AC4FF%7D",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "日月光投控經 MoneyDJ 刊載 · 矽品取得公告",
+            "en": "ASE Technology Holding via MoneyDJ · SPIL acquisition disclosure"
+          },
+          "url": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_48576584-F88B-4499-8F1E-38F2C334147E.djhtm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "自由時報 · 資產交易及前案",
+            "en": "Liberty Times · Transaction and prior proposal"
+          },
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5655532",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "專案場址為台灣桃園市龜山區華亞科技園區友達華亞廠。",
+        "en": "Project site: AUO Hwaya facility, Hwaya Technology Park, Guishan District, Taoyuan, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "封裝；測試；廠務設備；投資",
+          "en": "Packaging, test, facilities equipment and investment"
+        },
+        "chain": {
+          "zh": "廠房與廠務設備至封裝測試營運",
+          "en": "Facilities and equipment supporting packaging and test operations"
+        },
+        "changes": {
+          "investment": {
+            "zh": "矽品董事會核准 197 億元未稅交易。",
+            "en": "SPIL’s board approved a NT$19.7 billion transaction before tax."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "矽品是日月光投控旗下封裝測試公司。本案所涉土地面積為 65,260.09 平方公尺，建物面積為 162,826.12 平方公尺，另包含一批廠務附屬設備。",
+            "en": "SPIL is an ASE Technology Holding packaging and testing subsidiary. The transaction covers 65,260.09 square meters of land, 162,826.12 square meters of buildings and related facility equipment."
+          },
+          "timing": {
+            "zh": "雙方於 11 月 27 日公告董事會決議。",
+            "en": "The parties disclosed the board approvals on November 27."
+          },
+          "unknowns": {
+            "zh": "董事會決議後仍待完成交割。矽品未公布廠區改造項目、產品別、設備配置或投產時程。",
+            "en": "The transaction still needs to close following the board approvals. SPIL did not disclose conversion work, products, tools or production timing."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "交易金額（未稅）",
+            "en": "Transaction amount before tax"
+          },
+          "current": 19.7,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "日月光投控",
+            "en": "ASE Technology Holding"
+          },
+          "sourceUrl": "https://chbfund.moneydj.com/z/zf/zfz/zfzNStkCHB1_48576584-F88B-4499-8F1E-38F2C334147E.djhtm",
+          "kind": "公司實績，董事會核准",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "預計處分利益（約）",
+            "en": "Expected disposal gain"
+          },
+          "current": 10.4,
+          "unit": "NTD billion",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "友達",
+            "en": "AUO"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7BEBB011E8-FB16-4D1E-AA6A-465C7C0AC4FF%7D",
+          "kind": "預測",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "土地面積",
+            "en": "Land area"
+          },
+          "current": 65260.09,
+          "unit": "平方公尺",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "友達",
+            "en": "AUO"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7BEBB011E8-FB16-4D1E-AA6A-465C7C0AC4FF%7D",
+          "kind": "公司實績，交易標的",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "建物面積",
+            "en": "Building floor area"
+          },
+          "current": 162826.12,
+          "unit": "平方公尺",
+          "period": {
+            "zh": "2026 年 11 月 27 日公告",
+            "en": "Announced November 27, 2026"
+          },
+          "owner": {
+            "zh": "友達",
+            "en": "AUO"
+          },
+          "sourceUrl": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7BEBB011E8-FB16-4D1E-AA6A-465C7C0AC4FF%7D",
+          "kind": "公司實績，交易標的",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封測電源、量測和廠務設備業者而言，可向矽品核對既有廠務條件與改造範圍。房地及設備交易公告未提供實際導入的製程、測試機型或驗收安排。",
+        "en": "Packaging, test and facilities suppliers would ask SPIL about existing utilities and conversion scope. The property disclosure does not identify processes, test platforms or acceptance milestones."
+      }
+    },
+    {
+      "id": 4,
+      "topic": "taiwan-dgbas-2026-q3-gdp-november-forecast-revision",
+      "category": "taiwan",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台灣第三季實質 GDP 初步統計年增 14.39%，半導體設備進口額年增 36.04%",
+        "en": "Taiwan preliminary Q3 real GDP rises 14.39%, with semiconductor equipment imports up 36.04%"
+      },
+      "summary": {
+        "zh": "主計總處 11 月 27 日公布，台灣第三季實質 GDP 初步統計年增 14.39%，較 10 月概估高 0.03 個百分點。半導體設備進口額按新台幣計年增 36.04%，製造業實質毛額年增 21.39%。",
+        "en": "Taiwan’s statistics agency reported on November 27 that preliminary Q3 real GDP rose 14.39% year over year, 0.03 percentage points above its October advance estimate. Semiconductor equipment import values rose 36.04% in New Taiwan dollars and real manufacturing value added rose 21.39%."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "第三季新台幣計價資本設備進口年增 58.72%，實質固定資本形成成長 20.12%，其中民間固定投資成長 24.44%。主計總處指出，企業為因應 AI 基礎設施擴充及應用升級，投資先進製程與產能。",
+            "en": "Capital equipment imports measured in New Taiwan dollars rose 58.72%. Real fixed capital formation increased 20.12%, including 24.44% growth in private fixed investment. DGBAS cited spending on advanced processes and capacity tied to AI infrastructure and applications."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "第三季實質 GDP 季調後季增 2.86%，折成年率為 11.94%。主計總處將 2026 全年經濟成長預測由 11.05% 上修至 13.28%，2027 年由 6.04% 上修至 6.51%。",
+            "en": "Seasonally adjusted real GDP rose 2.86% quarter on quarter, or 11.94% annualized. DGBAS raised its annual growth forecast to 13.28% from 11.05% for 2026 and to 6.51% from 6.04% for 2027."
+          }
+        }
+      ],
+      "metric": "14.39%",
+      "metricLabel": {
+        "zh": "第三季實質 GDP 年增率",
+        "en": "Q3 real GDP growth, year over year"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "主計總處 · 第三季初統與年度預測",
+            "en": "DGBAS · Q3 preliminary figures and annual forecasts"
+          },
+          "url": "https://www.dgbas.gov.tw/News_Content.aspx?n=3602&s=236908",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "主計總處 · 資本設備進口及附表",
+            "en": "DGBAS · Capital equipment import detail and tables"
+          },
+          "url": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "主計總處 · 8 月原預測",
+            "en": "DGBAS · August forecasts"
+          },
+          "url": "https://www.stat.gov.tw/News_Content.aspx?n=2677&s=236591",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "MoneyDJ · 成長預測與需求",
+            "en": "MoneyDJ · Growth forecast and demand"
+          },
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=d4b9cdd7-0c14-4032-a6de-05a8ad490fb0",
+          "type": "Second-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-27",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "設備；晶圓製程；工廠；投資",
+          "en": "Equipment, wafer processing, factories and investment"
+        },
+        "chain": {
+          "zh": "半導體設備進口至晶圓與製造業固定投資",
+          "en": "Semiconductor equipment imports to fab and manufacturing fixed investment"
+        },
+        "changes": {
+          "investment": {
+            "zh": "第三季民間固定投資實質年增 24.44%。",
+            "en": "Real private fixed investment rose 24.44% year over year in Q3."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "第三季新台幣計價資本設備進口年增 58.72%，實質固定資本形成成長 20.12%，其中民間固定投資成長 24.44%。主計總處指出，企業為因應 AI 基礎設施擴充及應用升級，投資先進製程與產能。",
+            "en": "Capital equipment imports measured in New Taiwan dollars rose 58.72%. Real fixed capital formation increased 20.12%, including 24.44% growth in private fixed investment. DGBAS cited spending on advanced processes and capacity tied to AI infrastructure and applications."
+          },
+          "timing": {
+            "zh": "11 月 27 日公布第三季初步統計及新版全年預測。",
+            "en": "Preliminary Q3 statistics and revised annual forecasts were released November 27."
+          },
+          "unknowns": {
+            "zh": "第三季數字仍屬初步統計。設備進口額含匯率及價格影響，速報未分列設備台數或個別廠商採購。",
+            "en": "Third-quarter figures are preliminary. Import values reflect exchange rates and prices, and the release did not break out units or purchases by company."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "第三季實質 GDP 年增率",
+            "en": "Q3 real GDP growth, year over year"
+          },
+          "current": 0.1439,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": 0.1436,
+          "basePeriod": {
+            "zh": "2026 年第三季 10 月概估",
+            "en": "October advance estimate for Q3 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "前次概估的同季成長率"
+        },
+        {
+          "name": {
+            "zh": "實質 GDP 季增率（季調）",
+            "en": "Real GDP growth, quarter on quarter, seasonally adjusted"
+          },
+          "current": 0.0286,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "實質 GDP 季增折年率",
+            "en": "Real GDP growth, annualized quarter on quarter"
+          },
+          "current": 0.1194,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "半導體設備進口額年增率（新台幣計）",
+            "en": "Semiconductor equipment import value growth in NT dollars"
+          },
+          "current": 0.3604,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "資本設備進口額年增率（新台幣計）",
+            "en": "Capital equipment import value growth in NT dollars"
+          },
+          "current": 0.5872,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "實質固定資本形成成長率",
+            "en": "Real fixed capital formation growth"
+          },
+          "current": 0.2012,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "民間固定投資實質成長率",
+            "en": "Real private fixed investment growth"
+          },
+          "current": 0.2444,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "製造業實質毛額成長率",
+            "en": "Real manufacturing value added growth"
+          },
+          "current": 0.2139,
+          "unit": "%",
+          "period": {
+            "zh": "2026 年第三季",
+            "en": "Q3 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "官方統計",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "指標為來源公布的變動率，未另列可比絕對基期"
+        },
+        {
+          "name": {
+            "zh": "2026 年實質 GDP 成長預測",
+            "en": "2026 real GDP growth forecast"
+          },
+          "current": 0.1328,
+          "unit": "%",
+          "period": {
+            "zh": "2026 全年",
+            "en": "Full year 2026"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "預測",
+          "comparison": "預測修訂",
+          "base": 0.1105,
+          "basePeriod": {
+            "zh": "2026 全年 8 月版預測",
+            "en": "August forecast for full year 2026"
+          },
+          "reportedRate": null,
+          "baseStatus": "主計總處 8 月同期間預測"
+        },
+        {
+          "name": {
+            "zh": "2027 年實質 GDP 成長預測",
+            "en": "2027 real GDP growth forecast"
+          },
+          "current": 0.0651,
+          "unit": "%",
+          "period": {
+            "zh": "2027 全年",
+            "en": "Full year 2027"
+          },
+          "owner": {
+            "zh": "行政院主計總處",
+            "en": "Taiwan DGBAS"
+          },
+          "sourceUrl": "https://ws.dgbas.gov.tw/001/Upload/463/relfile/10980/236908/news11511.pdf",
+          "kind": "預測",
+          "comparison": "預測修訂",
+          "base": 0.0604,
+          "basePeriod": {
+            "zh": "2027 全年 8 月版預測",
+            "en": "August forecast for full year 2027"
+          },
+          "reportedRate": null,
+          "baseStatus": "主計總處 8 月同期間預測"
+        }
+      ],
+      "ceoView": {
+        "zh": "對蝕刻、沉積等製程電源與量測設備供應商而言，設備進口金額可用來對照產業投資統計。個別機台的實際進場與驗收仍須向客戶查證，總額未提供數量或交付批次。",
+        "en": "Etch and deposition power and instrumentation suppliers can compare equipment import values with industry investment data. Tool move-in and acceptance still require customer confirmation because the figures give no unit or delivery breakdown."
+      }
+    },
+    {
+      "id": 5,
+      "topic": "winway-november-2026-inhouse-probe-capacity-test-sockets",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "穎崴說明探針擴產，2027 年第二季底月產能目標 1,400 萬支",
+        "en": "WinWay targets monthly capacity of 14 million probes by the end of Q2 2027"
+      },
+      "summary": {
+        "zh": "穎崴 11 月 26 日在台北凱基證券投資論壇說明自製探針擴產，中央社及自由時報引述公司稱，2026 年底月產能約 900 萬支，2027 年第二季底目標 1,400 萬支。公司把先進晶片封裝尺寸增加與測試時間延長列為需求背景。",
+        "en": "WinWay outlined plans to expand in-house probe capacity at KGI’s Taipei investor conference on November 26. CNA and Liberty Times cited a year-end 2026 run rate of about nine million probes per month and a target of 14 million by the end of Q2 2027. The company cited larger chip packages and longer test times."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "探針與高階測試座用於連接被測晶片與測試設備。中央社引述公司稱，2026 年自製探針預計產出 7,700 萬支，2025 年生產 3,300 萬支。以 5,000 接腳規格計算的高階測試座，2026 年預估 3.82 萬顆，2025 年產出 2.1 萬顆。",
+            "en": "Probes and advanced sockets connect devices to semiconductor test equipment. CNA cited expected 2026 probe output of 77 million against 33 million in 2025, and 38,200 advanced sockets on a 5,000-pin basis against 21,000 in 2025."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "中央社與自由時報引述的 2027 年底月產能目標為 2,400 萬支，鉅亨網報導的 2027 年下半年規劃則為 2,900 萬支。兩個數字的月份及設備配置未能核對為同一口徑。",
+            "en": "CNA and Liberty Times cited a year-end 2027 target of 24 million a month. Anue reported 29 million for the second half of 2027. The time windows and equipment assumptions could not be reconciled."
+          }
+        }
+      ],
+      "metric": "14,000,000",
+      "metricLabel": {
+        "zh": "2027 年第二季底探針月產能目標",
+        "en": "Monthly probe capacity target for the end of Q2 2027"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "穎崴 · 凱基投資論壇日期與會場",
+            "en": "WinWay · KGI investor conference and venue"
+          },
+          "url": "https://www.winwayglobal.com/earingCall",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "中央社 · 引述穎崴探針與測試座規劃",
+            "en": "CNA · Company probe and socket plans"
+          },
+          "url": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "自由時報 · 探針月產能規劃",
+            "en": "Liberty Times · Probe capacity targets"
+          },
+          "url": "https://ec.ltn.com.tw/amp/article/paper/1780054",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "鉅亨網 · 不同版本的下半年規劃",
+            "en": "Anue · Separate second-half capacity figure"
+          },
+          "url": "https://news.cnyes.com/news/id/6672851",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "會場為台灣台北市信義區台北君悅酒店三樓宴會廳。",
+        "en": "Event venue: Grand Ballroom, Level 3, Grand Hyatt Taipei, Xinyi District, Taipei, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "測試；先進封裝；零組件；設備",
+          "en": "Testing, advanced packaging, components and equipment"
+        },
+        "chain": {
+          "zh": "探針與測試座零組件至先進封裝測試",
+          "en": "Probe and socket components through advanced package testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "公司說明高階封裝尺寸與測試時間帶動測試介面需求，未公布訂單量。",
+            "en": "WinWay cited package dimensions and test times as drivers of interface demand and gave no order volume."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "探針與高階測試座用於連接被測晶片與測試設備。中央社引述公司稱，2026 年自製探針預計產出 7,700 萬支，2025 年生產 3,300 萬支。以 5,000 接腳規格計算的高階測試座，2026 年預估 3.82 萬顆，2025 年產出 2.1 萬顆。",
+            "en": "Probes and advanced sockets connect devices to semiconductor test equipment. CNA cited expected 2026 probe output of 77 million against 33 million in 2025, and 38,200 advanced sockets on a 5,000-pin basis against 21,000 in 2025."
+          },
+          "timing": {
+            "zh": "11 月 26 日舉辦法說；11 月 27 日仍有媒體報導產能內容。",
+            "en": "The November 26 briefing was followed by additional capacity coverage on November 27."
+          },
+          "unknowns": {
+            "zh": "後段擴產尚須視設備進駐及驗收，未公布按客戶、平台或探針規格區分的產能。",
+            "en": "Later additions depend on tool installation and acceptance. Capacity by customer, platform and probe specification was not disclosed."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "2026 年底探針月產能",
+            "en": "Monthly probe capacity at end-2026"
+          },
+          "current": 9000000,
+          "unit": "支",
+          "period": {
+            "zh": "2026 年底",
+            "en": "End of 2026"
+          },
+          "owner": {
+            "zh": "穎崴科技，由中央社報導",
+            "en": "WinWay Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+          "kind": "公司目標，法說會規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2027 年第二季底探針月產能",
+            "en": "Monthly probe capacity at end-Q2 2027"
+          },
+          "current": 14000000,
+          "unit": "支",
+          "period": {
+            "zh": "2027 年第二季底",
+            "en": "End of Q2 2027"
+          },
+          "owner": {
+            "zh": "穎崴科技，由中央社報導",
+            "en": "WinWay Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+          "kind": "公司目標，法說會規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2026 年自製探針預估產出",
+            "en": "Expected 2026 in-house probe output"
+          },
+          "current": 77000000,
+          "unit": "支",
+          "period": {
+            "zh": "2026 全年",
+            "en": "Full year 2026"
+          },
+          "owner": {
+            "zh": "穎崴科技，由中央社報導",
+            "en": "WinWay Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+          "kind": "公司目標，法說會規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2026 年高階測試座預估產出",
+            "en": "Expected 2026 advanced socket output"
+          },
+          "current": 38200,
+          "unit": "顆",
+          "period": {
+            "zh": "2026 全年",
+            "en": "Full year 2026"
+          },
+          "owner": {
+            "zh": "穎崴科技，由中央社報導",
+            "en": "WinWay Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+          "kind": "公司目標，法說會規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "2027 年底探針月產能",
+            "en": "Monthly probe capacity at end-2027"
+          },
+          "current": 24000000,
+          "unit": "支",
+          "period": {
+            "zh": "2027 年底",
+            "en": "End of 2027"
+          },
+          "owner": {
+            "zh": "穎崴科技，由中央社報導",
+            "en": "WinWay Technology, reported by CNA"
+          },
+          "sourceUrl": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+          "kind": "公司目標，法說會規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        },
+        {
+          "name": {
+            "zh": "另一版本的下半年探針月產能",
+            "en": "Separately reported second-half monthly probe capacity"
+          },
+          "current": 29000000,
+          "unit": "支",
+          "period": {
+            "zh": "2027 年下半年",
+            "en": "H2 2027"
+          },
+          "owner": {
+            "zh": "穎崴科技，由鉅亨網報導",
+            "en": "WinWay Technology, reported by Anue"
+          },
+          "sourceUrl": "https://news.cnyes.com/news/id/6672851",
+          "kind": "媒體引述，產能規劃",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "測試電源與量測業者可向穎崴核對高接腳數測試座需要的供電、訊號完整性及設備驗收條件。媒體所述規劃仍待設備到位，無法推定個別平台已有新增量產。",
+        "en": "Test power and instrumentation suppliers would ask WinWay about power, signal integrity and tool acceptance for high-pin-count sockets. The reported plans depend on equipment installation and do not show which platforms have reached higher production."
+      }
+    },
+    {
+      "id": 6,
+      "topic": "vietnam-semiconductor-global-resources-plan-decision-2320-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "越南核定 2030 年前半導體及電子國際合作計畫",
+        "en": "Vietnam approves international cooperation plan for semiconductors and electronics through 2030"
+      },
+      "summary": {
+        "zh": "越南總理 11 月 26 日核定第 2320 號決定，政府於 27 日公布計畫的七項措施。外資重點包括晶片設計、先進封裝測試，以及供產業研發與訓練使用的資料中心和超級電腦。",
+        "en": "Vietnam’s prime minister signed Decision 2320 on November 26, and the government outlined seven measures the following day. Foreign investment priorities include chip design, advanced packaging and testing, and data centers and supercomputers for research and training."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "措施涵蓋合作協定、引進外資與專家、人才訓練、技術移轉、共用研發設施、供應鏈建設及協助本地企業拓展國際市場。",
+            "en": "The measures cover cooperation agreements, foreign capital and expertise, training, technology transfer, shared research infrastructure, supply-chain development and market access for local firms."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "政府電子報表示，官方發展援助及優惠貸款將尋求投入技術協助與產業能力建置。政策期間延續至 2030 年。",
+            "en": "The government publication said Vietnam would seek official development assistance and concessional loans for technical assistance and industry capacity building. The program runs through 2030."
+          }
+        }
+      ],
+      "metric": "7",
+      "metricLabel": {
+        "zh": "政策措施",
+        "en": "Policy measures"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "越南政府 · 第 2320 號決定與簽署日期",
+            "en": "Vietnam government · Decision 2320 and signing date"
+          },
+          "url": "https://vanban.chinhphu.vn/?classid=2&docid=220378&pageid=27160",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "越南政府 · 決定簽署本",
+            "en": "Vietnam government · Signed decision"
+          },
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/2320_qdttg_26112026-signed.signed.pdf",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "越南政府電子報 · 七項措施與外資重點",
+            "en": "Vietnam Government News · Seven measures and FDI priorities"
+          },
+          "url": "https://en.baochinhphu.vn/govt-adopts-solutions-to-mobilize-foreign-resources-for-development-of-semiconductor-and-electronics-industries-11126112710413707.htm",
+          "type": "First-hand"
+        }
+      ],
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "越南",
+          "en": "Vietnam"
+        },
+        "industries": {
+          "zh": "晶片設計；封裝；測試；資料中心；外資",
+          "en": "Chip design, packaging, test, data centers and FDI"
+        },
+        "chain": {
+          "zh": "晶片設計與封裝測試至研發資料中心",
+          "en": "Chip design and packaging and test through research data centers"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "越南把晶片設計、先進封測及研究用資料中心列為引資重點。",
+            "en": "Vietnam listed chip design, advanced packaging and test, and research data centers as FDI priorities."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "措施涵蓋合作協定、引進外資與專家、人才訓練、技術移轉、共用研發設施、供應鏈建設及協助本地企業拓展國際市場。",
+            "en": "The measures cover cooperation agreements, foreign capital and expertise, training, technology transfer, shared research infrastructure, supply-chain development and market access for local firms."
+          },
+          "timing": {
+            "zh": "11 月 26 日簽署決定，11 月 27 日公布英文政策說明。",
+            "en": "The decision was signed November 26, and the English government summary appeared November 27."
+          },
+          "unknowns": {
+            "zh": "決定與說明未列核准投資的企業、各項投資額、封測產能或資料中心站址。",
+            "en": "The decision and accompanying description did not identify approved investors, funding by project, packaging capacity or data center sites."
+          }
+        }
+      },
+      "metrics": [
+        {
+          "name": {
+            "zh": "計畫措施數",
+            "en": "Measures in the plan"
+          },
+          "current": 7,
+          "unit": "項",
+          "period": {
+            "zh": "政策至 2030 年",
+            "en": "Plan through 2030"
+          },
+          "owner": {
+            "zh": "越南政府",
+            "en": "Vietnam government"
+          },
+          "sourceUrl": "https://en.baochinhphu.vn/govt-adopts-solutions-to-mobilize-foreign-resources-for-development-of-semiconductor-and-electronics-industries-11126112710413707.htm",
+          "kind": "官方陳述",
+          "comparison": "無",
+          "base": null,
+          "basePeriod": null,
+          "reportedRate": null,
+          "baseStatus": "來源未列同口徑比較值"
+        }
+      ],
+      "ceoView": {
+        "zh": "對封測及機房供電業者而言，可向越南園區或研究機構確認哪些專案有招標文件，以及設備的電力與驗收條件。政策清單尚未列具名採購或落地時程。",
+        "en": "Test and data center power suppliers would ask Vietnamese parks and research bodies which projects have tender documents and equipment acceptance criteria. The policy priorities do not specify procurements or schedules."
+      }
+    },
+    {
+      "id": 7,
+      "topic": "formosa-sumco-wafer-utilization-allocation-november-2026",
+      "category": "tech",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "台勝科稱 8 吋與 12 吋矽晶圓產能滿載，8 吋啟動配額",
+        "en": "Formosa Sumco says its 8-inch and 12-inch wafer lines are full, with allocation for 8-inch supply"
+      },
+      "summary": {
+        "zh": "MoneyDJ 與經濟日報 11 月 27 日引述台勝科於前一日台北法說會的說法，8 吋與 12 吋矽晶圓產能均已滿載，8 吋產線因現有供應不足以滿足客戶需求而啟動配額。公司點名 AI 伺服器電源管理晶片帶動 8 吋需求。",
+        "en": "MoneyDJ and Economic Daily News reported on November 27 that Formosa Sumco told its Taipei investor briefing the previous day that its 8-inch and 12-inch silicon wafer capacity was fully used. It began allocating 8-inch wafers, citing demand from AI server power management chips."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "公司把先進製程與記憶體客戶拉貨列為 12 吋需求來源。MoneyDJ 引述公司指出，矽中介片和矽電容也帶來特殊規格晶圓需求。",
+            "en": "The company cited leading-edge foundries and memory customers for 12-inch demand. MoneyDJ also quoted it on demand for specialty wafers used in silicon interposers and capacitors."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "公司在法說表示，已與主要客戶合作開發特殊規格，相關產品陸續進入量產。媒體未列各規格的出貨量或配額分配方式。",
+            "en": "The company said it had developed specialty specifications with major customers and some products were entering volume production. The reports did not break out shipments or allocation terms."
+          }
+        }
+      ],
+      "metric": "8 in",
+      "metricLabel": {
+        "zh": "矽晶圓配額品項",
+        "en": "Wafer diameter subject to allocation"
+      },
+      "confidence": {
+        "zh": "中",
+        "en": "Medium"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "MoneyDJ · 引述公司產能與配額說明",
+            "en": "MoneyDJ · Company utilization and allocation account"
+          },
+          "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=10058b6b-b48f-481e-b074-28727683e8fa",
+          "type": "Source-limited"
+        },
+        {
+          "name": {
+            "zh": "經濟日報 · 法說與電源管理晶片需求",
+            "en": "Economic Daily News · Briefing and power IC demand"
+          },
+          "url": "https://money.udn.com/money/story/5710/9904325?from=edn_next_story",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "台勝科經鉅亨網刊載 · 法說會通知",
+            "en": "Formosa Sumco via Anue · Investor meeting notice"
+          },
+          "url": "https://news.cnyes.com/news/id/6653410",
+          "type": "First-hand"
+        }
+      ],
+      "location": {
+        "zh": "會場為台灣台北市松山區民生東路四段 54 號四樓大會議室。",
+        "en": "Event venue: fourth-floor main conference room, 54 Section 4, Minsheng East Road, Songshan, Taipei, Taiwan."
+      },
+      "market": {
+        "eventDate": "2026-11-26",
+        "countries": {
+          "zh": "台灣",
+          "en": "Taiwan"
+        },
+        "industries": {
+          "zh": "矽晶圓材料；晶圓代工；記憶體；伺服器電源",
+          "en": "Wafer materials, foundries, memory and server power"
+        },
+        "chain": {
+          "zh": "矽晶圓材料至電源管理晶片及先進封裝",
+          "en": "Silicon wafer materials through power management chips and advanced packaging"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "台勝科稱 8 吋需求超過現有供應，已啟動配額。",
+            "en": "Formosa Sumco said 8-inch demand exceeded available supply and it began allocation."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "公司把先進製程與記憶體客戶拉貨列為 12 吋需求來源。MoneyDJ 引述公司指出，矽中介片和矽電容也帶來特殊規格晶圓需求。",
+            "en": "The company cited leading-edge foundries and memory customers for 12-inch demand. MoneyDJ also quoted it on demand for specialty wafers used in silicon interposers and capacitors."
+          },
+          "timing": {
+            "zh": "11 月 26 日召開法說，兩家媒體於 11 月 27 日刊出配額說明。",
+            "en": "The briefing took place November 26, and the two publications reported the allocation on November 27."
+          },
+          "unknowns": {
+            "zh": "產能滿載與配額說法來自法說媒體報導，未揭露月產量、分客戶配額或價格條件。",
+            "en": "The utilization and allocation statements come from media accounts of the briefing. Monthly output, customer allocations and pricing terms remain undisclosed."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對電源管理晶片供應鏈而言，可向晶圓廠與台勝科核對 8 吋材料的規格、配額與交期。現有報導未揭露客戶分配，無法由整體滿載推知個別晶片排程。",
+        "en": "Power management IC suppliers would verify 8-inch material grades, allocations and lead times with foundries and Formosa Sumco. Reported full utilization does not establish schedules for a specific chip."
+      }
+    },
+    {
+      "id": 8,
+      "topic": "indonesia-oecd-semiconductor-ecosystem-report-november-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "印尼與 OECD 發表半導體報告，盤點巴淡及西爪哇既有封測布局",
+        "en": "Indonesia and OECD release semiconductor review identifying existing back-end operations"
+      },
+      "summary": {
+        "zh": "印尼經濟事務統籌部與 OECD 11 月 25 日在雅加達發表半導體產業報告。報告指出，當地能力目前集中在組裝、測試與封裝，既有外資布局包括巴淡島和西爪哇。",
+        "en": "Indonesia’s Coordinating Ministry for Economic Affairs and the OECD presented a semiconductor industry review in Jakarta on November 25. It describes local capabilities as concentrated in assembly, testing and packaging, with longstanding foreign investment in Batam and West Java."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "報告在封測章節列出英飛凌、UTAC 與夏普等既有投資，並將公用設施、物流及技術人才列為產業條件。巴淡島長期承接電子製造及後段封裝業務。",
+            "en": "The report names existing investments by Infineon, UTAC and Sharp and discusses utilities, logistics and skilled labor. Batam has longstanding electronics manufacturing and back-end operations."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "經濟事務統籌部表示將把報告建議納入改革討論，並提到半導體產業所需的可靠供電。巴淡、西爪哇及企業案例是這次報告整理的既有布局。",
+            "en": "The coordinating ministry said it would bring the recommendations into reform discussions and cited reliable power for semiconductor operations. The cases in Batam and West Java describe existing operations reviewed for the report."
+          }
+        }
+      ],
+      "metric": "ATP",
+      "metricLabel": {
+        "zh": "組裝、測試與封裝",
+        "en": "Assembly, testing and packaging"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "OECD · 印尼半導體產業報告",
+            "en": "OECD · Indonesia semiconductor industry report"
+          },
+          "url": "https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-indonesia_9c789c63-en.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "OECD · 封測與外商投資章節",
+            "en": "OECD · Back-end and foreign investment chapter"
+          },
+          "url": "https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-indonesia_9c789c63-en/full-report/examining-the-domestic-indonesian-semiconductor-ecosystem_f878be13.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "OECD · 發表會場",
+            "en": "OECD · Launch venue"
+          },
+          "url": "https://www.oecd.org/en/about/news/media-advisories/2026/11/oecd-economic-survey-of-indonesia-2026-thursday-26-november.html",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "印尼經濟事務統籌部 · 發表會與政策說明",
+            "en": "Indonesia Coordinating Ministry · Launch and policy statement"
+          },
+          "url": "https://ekon.go.id/unduh/publikasi/7249/indonesia-dan-oecd-luncurkan-laporan-penguatan-ekosistem-semikonduktor-nasional",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "CNBC Indonesia · 發表會與業界條件",
+            "en": "CNBC Indonesia · Launch and sector conditions"
+          },
+          "url": "https://www.cnbcindonesia.com/news/20261125151834-4-788397/ri-siapkan-energi-hijau-hingga-15000-insinyur-demi-industri-chip",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "發表會場為印尼雅加達中央區經濟事務統籌部。",
+        "en": "Launch venue: Coordinating Ministry for Economic Affairs, Central Jakarta, Indonesia."
+      },
+      "market": {
+        "eventDate": "2026-11-25",
+        "countries": {
+          "zh": "印尼",
+          "en": "Indonesia"
+        },
+        "industries": {
+          "zh": "封裝；測試；電力；外資",
+          "en": "Packaging, test, power and FDI"
+        },
+        "chain": {
+          "zh": "供電與工廠條件至半導體封裝測試",
+          "en": "Power and factory infrastructure through semiconductor packaging and testing"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "報告在封測章節列出英飛凌、UTAC 與夏普等既有投資，並將公用設施、物流及技術人才列為產業條件。巴淡島長期承接電子製造及後段封裝業務。",
+            "en": "The report names existing investments by Infineon, UTAC and Sharp and discusses utilities, logistics and skilled labor. Batam has longstanding electronics manufacturing and back-end operations."
+          },
+          "timing": {
+            "zh": "11 月 25 日發布產業報告，同日舉行政策座談。",
+            "en": "The report was released November 25 alongside a policy panel."
+          },
+          "unknowns": {
+            "zh": "報告發布未同時核准個別工廠、封測新增產能或電力工程。",
+            "en": "The report launch did not include approvals for specific factories, packaging expansions or power projects."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對封測量測與工廠供電業者而言，可向巴淡或西爪哇的封測廠了解測試平台、備援供電與場址公用設施。產業報告涵蓋既有案例，尚無法確認個別廠的新採購時程。",
+        "en": "Test instrumentation and facility power suppliers would ask processors in Batam or West Java about platforms, backup power and site utilities. The report profiles existing operations and gives no plant-level procurement schedules."
+      }
+    },
+    {
+      "id": 9,
+      "topic": "cptpp-indonesia-philippines-accession-working-groups-november-2026",
+      "category": "global",
+      "pick": false,
+      "depth": "standard",
+      "title": {
+        "zh": "CPTPP 在河內通過設立印尼及菲律賓入會工作小組",
+        "en": "CPTPP members agree to establish accession working groups for Indonesia and the Philippines"
+      },
+      "summary": {
+        "zh": "越南政府公布，CPTPP 成員 11 月 27 日在河內舉行第 11 次部長級委員會會議，通過設立印尼、菲律賓及阿拉伯聯合大公國入會工作小組。成員另同意推動協定升級談判，議題包括海關及貿易便捷化。",
+        "en": "Vietnam reported that CPTPP members agreed at their 11th ministerial commission meeting in Hanoi on November 27 to set up accession working groups for Indonesia, the Philippines and the United Arab Emirates. Members also agreed to advance negotiations on topics including customs and trade facilitation."
+      },
+      "sections": [
+        {
+          "label": {
+            "zh": "供應鏈背景",
+            "en": "Supply-chain context"
+          },
+          "text": {
+            "zh": "入會工作小組負責審查申請方的制度與承諾。越南副工貿部長向媒體說明，協定升級的討論也涵蓋電子商務、跨境服務和企業競爭力。",
+            "en": "Accession working groups examine applicant rules and commitments. Vietnam’s deputy trade minister also identified e-commerce, cross-border services and business competitiveness as topics for the agreement upgrade."
+          }
+        },
+        {
+          "label": {
+            "zh": "公開資料",
+            "en": "What was disclosed"
+          },
+          "text": {
+            "zh": "目前進度為成立工作小組，後續仍要談判及完成成員程序。會議未公布印尼或菲律賓的產品別減稅表與原產地條件。",
+            "en": "The decision establishes working groups. Negotiations and member procedures still lie ahead, with no product tariff schedules or origin terms for Indonesia or the Philippines announced."
+          }
+        }
+      ],
+      "metric": "CPTPP",
+      "metricLabel": {
+        "zh": "入會工作小組決議",
+        "en": "Accession working group decision"
+      },
+      "confidence": {
+        "zh": "高",
+        "en": "High"
+      },
+      "sources": [
+        {
+          "name": {
+            "zh": "越南政府電子報 · 部長會議決議",
+            "en": "Vietnam Government News · Ministerial decisions"
+          },
+          "url": "https://baochinhphu.vn/dinh-hinh-nhung-uu-tien-va-huong-phat-trien-cptpp-trong-giai-doan-moi-10226112715344966.htm",
+          "type": "First-hand"
+        },
+        {
+          "name": {
+            "zh": "越通社 · 會議會場與議程",
+            "en": "Vietnam News Agency · Meeting venue and agenda"
+          },
+          "url": "https://www.vietnamplus.vn/tam-nhin-chung-hanh-dong-chung-viet-nam-chu-tri-chuoi-su-kien-cap-cao-cptpp-post1150370.amp",
+          "type": "Second-hand"
+        },
+        {
+          "name": {
+            "zh": "路透 · 入會與協定升級議題",
+            "en": "Reuters · Accession and upgrade topics"
+          },
+          "url": "https://www.reuters.com/world/middle-east/cptpp-start-talks-accession-uae-indonesia-philippines-2026-11-27/",
+          "type": "Second-hand"
+        }
+      ],
+      "location": {
+        "zh": "會場為越南河內市費爾蒙酒店。",
+        "en": "Meeting venue: Fairmont Hanoi, Hanoi, Vietnam."
+      },
+      "market": {
+        "eventDate": "2026-11-27",
+        "countries": {
+          "zh": "越南；印尼；菲律賓；阿拉伯聯合大公國",
+          "en": "Vietnam, Indonesia, the Philippines and the United Arab Emirates"
+        },
+        "industries": {
+          "zh": "電子零組件；工廠；貿易政策",
+          "en": "Electronic components, factories and trade policy"
+        },
+        "chain": {
+          "zh": "零組件與工廠出口涉及的海關及原產地規則",
+          "en": "Customs and origin rules for component and factory exports"
+        },
+        "changes": {
+          "investment": {
+            "zh": "未公布新增投資金額。",
+            "en": "No new investment amount was disclosed."
+          },
+          "demand": {
+            "zh": "未公布新增訂單量。",
+            "en": "No new order volume was disclosed."
+          },
+          "fdi": {
+            "zh": "未公布新增外資金額。",
+            "en": "No new foreign investment amount was disclosed."
+          }
+        },
+        "facts": {
+          "relevance": {
+            "zh": "入會工作小組負責審查申請方的制度與承諾。越南副工貿部長向媒體說明，協定升級的討論也涵蓋電子商務、跨境服務和企業競爭力。",
+            "en": "Accession working groups examine applicant rules and commitments. Vietnam’s deputy trade minister also identified e-commerce, cross-border services and business competitiveness as topics for the agreement upgrade."
+          },
+          "timing": {
+            "zh": "11 月 27 日公布部長級委員會結果。",
+            "en": "The commission meeting outcome was announced November 27."
+          },
+          "unknowns": {
+            "zh": "入會完成日期、工業零組件的稅則變化及原產地細節仍未確定。",
+            "en": "Accession dates, tariff changes for industrial components and detailed origin requirements remain open."
+          }
+        }
+      },
+      "metrics": [],
+      "ceoView": {
+        "zh": "對在印尼或菲律賓生產設備零組件的供應商而言，可在談判文件發布後核對產品分類及原產地規則。工作小組決議本身未列新的零件稅率或生效日。",
+        "en": "Suppliers making equipment components in Indonesia or the Philippines would check classification and origin language when negotiating texts become available. The working group decision gives no new component tariffs or effective dates."
+      }
+    }
+  ],
+  "deep": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "聯電 367.64 億元涵蓋哪些交易？",
+        "en": "What does UMC’s NT$36.76 billion total include?"
+      },
+      "text": {
+        "zh": "合計來自兩批廠務設備及一筆租地委建契約。各筆按聯電公告原值加總，尚無單一機台或新產能明細。",
+        "en": "The total adds two facilities equipment transactions and a construction contract on leased land using the exact disclosure amounts. The filings do not give a tool-by-tool or new capacity breakdown."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "矽品交易金額與友達預計處分利益如何區分？",
+        "en": "How do SPIL’s transaction price and AUO’s expected gain differ?"
+      },
+      "text": {
+        "zh": "197 億元是未稅資產交易金額。104 億元是友達扣除交易費用及預估稅費後估計的處分利益。",
+        "en": "NT$19.7 billion is the before-tax price for the assets. NT$10.4 billion is AUO’s estimated gain after transaction fees and estimated taxes."
+      }
+    },
+    {
+      "id": 5,
+      "question": {
+        "zh": "自製探針的月產能與預估全年產量如何比較？",
+        "en": "How do the monthly probe capacity target and projected annual output differ?"
+      },
+      "text": {
+        "zh": "1,400 萬支是 2027 年第二季底的月產能目標。7,700 萬支則是公司對 2026 年全年產出的估計，涵蓋不同期間及口徑。",
+        "en": "Fourteen million probes is the monthly capacity target at the end of Q2 2027. Seventy-seven million is projected output for all of 2026, a distinct measure and time period."
+      }
+    }
+  ],
+  "context": [],
+  "memo": {
+    "title": {
+      "zh": "備忘",
+      "en": "Notes"
+    },
+    "items": []
+  },
+  "lower": [],
+  "verificationNote": {
+    "zh": "聯電三筆交易依公告原值加總，與媒體約數略有差異。景碩投資審查結果引述自經濟部提供媒體的資訊，未列新產能。穎崴下半年與年底產能數字在報導間未能核對為同一口徑。",
+    "en": "UMC’s total uses exact disclosed amounts and differs slightly from the rounded figure in coverage. The reported ministry information on Kinsus gives no capacity increment. WinWay’s second-half and year-end probe figures could not be reconciled across reports."
+  }
+}
